@@ -4,10 +4,9 @@ The app offers internationalization support using PO (gettext) files. It's a pop
 
 ## How to contribute translations
 
-When contributing translations, there are two cases:
+You can contribute translations in this repository. We keep them separate from the main app to simplify the process for contributors.
 
-1. **Translation files for your target language don't exist**. You need to create PO files from the template POT files in the correct directories and register the new language.
-2. **Translation files for your target language already exist**. You need to open the corresponding PO files (not POT) and fill in the blanks.
+We're setting up Weblate to allow you to translate and check translations directly in the browser. In the meantime, you can contribute using the workflow described below.
 
 ### Adding translations to PO files
 
