@@ -10,7 +10,9 @@ We're setting up Weblate to allow you to translate and check translations direct
 
 ### Adding translations to PO files
 
-To contribute translations, open the `i18n/` directory and open the subdirectory corresponding to your target language. For example, `i18n/es/` for Spanish.
+To contribute translations, open the subdirectory corresponding to your target language. For example, `es/` for Spanish.
+
+_Note: we hired a professional translator to translate the app to Spanish fully, so we currently don't need contributions in Spanish._
 
 There, you'll find PO translation files. To edit those, you'll need a dedicated program.
 
@@ -18,7 +20,9 @@ There are several free and open-source translation programs you can use to trans
 
 Among other features, it allows you to mark translations you're unsure of as "needing work" so another translator can check it before publishing it.
 
-_Note: we hired a professional translator to fully translate the app to Spanish, so we currently don't need contributions in Spanish._
+If the directory for your language doesn't exist, you'll need to create it. You should create a directory with the two-letter code corresponding to your language. For example, `fr/` for French and `zh/` for Chinese.
+
+There, you'll need to create PO translation files for your target language from the POT template files. If you need help with that, please ask. We'll be happy to set them up for you.
 
 ### Testing your translations in Godot
 
