@@ -2,6 +2,8 @@
 
 The app offers internationalization support using PO (gettext) files. It's a popular format among translation professionals, and it has native support in Godot.
 
+**We hired a professional to translate the app to Spanish and French. So for now, please don't work on Spanish or French translations. Thanks for your understanding.**
+
 ## How to contribute translations
 
 You can contribute translations in this repository. We keep them separate from the main app to simplify the process for contributors.
