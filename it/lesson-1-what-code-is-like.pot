@@ -2,7 +2,7 @@
 # Copyright (C) 2022 GDQuest
 # This file is distributed under the same license as the Learn GDScript From
 # Zero project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# Michele Dimaggio <mike238dimaggio@gmail.com>, 2022.
 #
 #, fuzzy
 msgid ""
@@ -10,9 +10,9 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-02-18 15:02+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-02-27 19:31+0100\n"
+"Last-Translator: Michele Dimaggio <mike238dimaggio@gmail.com>\n"
+"Language-Team: Italian <none>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,6 +31,17 @@ msgid ""
 "A game's instructions are, for example: moving a character, drawing a "
 "life bar, or playing a sound."
 msgstr ""
+"Imparare a programmare può essere spaventoso.\n"
+"\n"
+"Eppure, vuoi creare dei videogiochi, perciò non c'è altro modo: devi"
+"imparare a programmare. Ogni videogioco è un software, ovvero"
+"un programma per computer.\n"
+"\n"
+"Programmare è il processo che consiste nello scrivere precise istruzioni"
+"per spiegare al computer come eseguire un determinato compito.\n"
+"\n"
+"Ad esempio, le istruzioni per un gioco possono essere far muovere un"
+"personaggio, mostrare una barra della vita, o riprodurre un suono."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:30
 msgid ""
@@ -45,6 +56,16 @@ msgid ""
 "\n"
 "Which circle? Where? Which color should it be? How big should it be?"
 msgstr ""
+"Per fare ognuna di queste cose, devi imparare un linguaggio di "
+"programmazione: uno specifico linguaggio per dire al computer cosa fare.\n"
+"\n"
+"I linguaggi di programmazione sono diversi da quelli naturali, come "
+"l'italiano o l'inglese. Un computer non pensa. Non può [i]interpretare[/i]"
+"ciò che gli dici."
+"\n"
+"Perciò, non puoi dirgli qualcosa di vago come \"disegna un cerchio\".\n"
+"\n"
+"Quale cerchio? Dove? Di che colore? Quanto grande?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:46
 msgid ""
@@ -56,12 +77,21 @@ msgid ""
 "\n"
 "[i]Click the Run button to run the code example and see the result.[/i]"
 msgstr ""
+"Per disegnare un cerchio, il computer ha bisogno di sapere le coordinate "
+"esatte dove disegnarlo, il raggio, lo spessore, e il colore del contorno.\n"
+"\n"
+"Il codice per fare ciò [i]potrebbe[/i] essere simile a questo.\n"
+"\n"
+"[i]Clicca il tasto Esegui per eseguire l'esempio di codice e vedere il "
+"risultato.[/i]"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:70
 msgid ""
 "[i]The dark gray parts following the \"#\" sign are comments, they're not"
 " part of the code. The computer skips comments.[/i]"
 msgstr ""
+"[i]Le parti grigie dopo il \"#\" sono commenti, e non fanno parte del "
+"codice. I commenti vengono ignorati dal computer.[/i]"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:80
 msgid ""
@@ -81,10 +111,25 @@ msgid ""
 "At the same time, there is a [i]lot[/i] to learn to tame the dumb beast "
 "that is your computer."
 msgstr ""
+"Nelle prossime lezioni, imparerai come funziona questo codice e cosa "
+"significa ogni sua parte.\n"
+"\n"
+"Per ora, vogliamo solo darti un'idea di com'è fatto del codice: in questo"
+" esempio, ogni parentesi, lettera maiuscola, punto o virgola sono "
+"importanti.\n"
+"\n"
+"Il computer farà esattamente ciò che gli dici di fare, sempre. Né più, né"
+" meno. Segue ogni istruzione [i]ciecamente[/i].\n"
+"\n"
+"[b]Quando programmi, sei tu a comandare, e sei libero di fare [i]tutto[/i]"
+" quello che vuoi.[/b]\n"
+"\n"
+"Allo stesso tempo, c'è [i]molto[/i] da imparare per capire come domare la"
+" bestia stupida che è il tuo computer."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:96
 msgid "How do you give instructions to a computer?"
-msgstr ""
+msgstr "Cosa bisogna usare per dare delle istruzioni a un computer?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:99
 msgid ""
@@ -92,19 +137,22 @@ msgid ""
 "do anything, you need to give them precise instructions they understand, "
 "using a programming language."
 msgstr ""
+"I computer non capiscono i linguaggi naturali come l'italiano. Per fargli"
+" fare qualsiasi cosa, devi dargli delle istruzioni ben precise che possano"
+" comprendere, tramite un linguaggio di programmazione."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:100
 #: course/lesson-1-what-code-is-like/lesson.tres:101
 msgid "Using a programming language and precise instructions"
-msgstr ""
+msgstr "Un linguaggio di programmazione e delle istruzioni ben precise"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:100
 msgid "Using prose in plain English"
-msgstr ""
+msgstr "L'italiano, è più che sufficiente"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:108
 msgid "You'll learn to code with GDScript"
-msgstr ""
+msgstr "Imparerai a programmare con GDScript"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:110
 msgid ""
@@ -117,6 +165,14 @@ msgid ""
 "SEGA used the Godot engine to create the remake of Sonic Colors Ultimate."
 " Engineers at Tesla use it for their cars' dashboards."
 msgstr ""
+"In questo corso, imparerai il linguaggio di programmazione GDScript (che "
+"sta per \"Godot script\").\n"
+"\n"
+"È un linguaggio creato da programmatori di videogiochi per programmatori "
+" di videogiochi. Puoi usarlo su Godot per creare giochi e applicazioni.\n"
+"\n"
+"SEGA ha usato Godot per il remake di Sonic Colors Ultimate. Gli ingegneri "
+"di Tesla l'hanno usato per le dashboard delle loro auto."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:124
 msgid ""
@@ -138,6 +194,11 @@ msgid ""
 "\n"
 "Try to spot the similarities and differences."
 msgstr ""
+"È un ottimo linguaggio per cominciare a programmare, perché è molto "
+"specifico. A differenza di altri linguaggi, non c'è così tanta roba da "
+"imparare.\n"
+"\n"
+"Non aver paura di "
 
 #: course/lesson-1-what-code-is-like/lesson.tres:154
 msgid "It doesn't look [i]that[/i] different, does it?"
