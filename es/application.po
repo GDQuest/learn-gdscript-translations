@@ -6,10 +6,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Learn GDScript From Zero  \n"
+"Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-02-21 23:38+0300\n"
-"PO-Revision-Date: 2022-02-21 23:38+0300\n"
+"PO-Revision-Date: 2022-02-25 14:50+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -18,154 +18,162 @@ msgstr ""
 "Generated-By: Babel 2.9.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #: resources/QuizInputField.gd:17
 msgid "You need to type a whole number for this answer. Example: 42"
-msgstr ""
+msgstr "Debes escribir un número entero para esta respuesta. Ejemplo: 42"
 
 #: resources/QuizInputField.gd:22
 msgid ""
 "You need to type a decimal for this answer. Use a \".\" to separate the "
 "decimal part. Example: 3.14"
 msgstr ""
+"Debes escribir un decimal para esta respuesta. Utiliza un \".\" para separar "
+"la parte decimal. Ejemplo: 3.14"
 
 #: ui/UILesson.tscn:92
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: ui/UILesson.tscn:127
 msgid "Practices"
-msgstr ""
+msgstr "Prácticas"
 
 #: ui/UINavigator.gd:350
 msgid "Go back in your navigation history"
-msgstr ""
+msgstr "Vuelve al historial de navegación"
 
 #: ui/UINavigator.gd:353
 msgid "(no previous history)"
-msgstr ""
+msgstr "(sin historial previo)"
 
 #: ui/UIPractice.gd:132 ui/UIPractice.gd:190
 #, python-format
 msgid "Hint %s"
-msgstr ""
+msgstr "Pista %s"
 
 #: ui/UIPractice.gd:215
 msgid "Validating Your Code..."
-msgstr ""
+msgstr "Validando tu código..."
 
 #: ui/UIPractice.gd:268
 msgid "Running Your Code..."
-msgstr ""
+msgstr "Ejecutando tu código..."
 
 #: ui/UIPractice.gd:299
 msgid "Running Tests..."
-msgstr ""
+msgstr "Ejecutando pruebas..."
 
 #: ui/UIPractice.tscn:144
 msgid "Suggested Solution"
-msgstr ""
+msgstr "Solución sugerida"
 
 #: ui/UIPractice.tscn:183
 msgid "Use Solution"
-msgstr ""
+msgstr "Utilizar la solución"
 
 #: ui/UIPractice.tscn:201
 msgid "Leave unfinished practice?"
-msgstr ""
+msgstr "¿Dejar la práctica sin terminar?"
 
 #: ui/components/BigGreenButton.tscn:25
 msgid "Button"
-msgstr ""
+msgstr "Botón"
 
 #: ui/components/CodeEditor.tscn:166
 msgid "Run"
-msgstr ""
+msgstr "Ejecutar"
 
 #: ui/components/CodeEditor.tscn:182
 msgid "Pause"
-msgstr ""
+msgstr "Pausa"
 
 #: ui/components/CodeEditor.tscn:199 ui/components/RunnableCodeExample.tscn:73
 msgid "Reset"
-msgstr ""
+msgstr "Reiniciar"
 
 #: ui/components/CodeEditor.tscn:223
 msgid "Solution"
-msgstr ""
+msgstr "Solución"
 
 #: ui/components/CodeEditor.tscn:239 ui/components/OutputConsole.tscn:46
 msgid "Output"
-msgstr ""
+msgstr "Salida"
 
 #: ui/components/CodeEditor.tscn:256
 #: ui/components/popups/LessonDonePopup.tscn:206
 #: ui/components/popups/PracticeDonePopup.tscn:176
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 #: ui/components/ConnectionIndicator.gd:17
 msgid "Connected to the server."
-msgstr ""
+msgstr "Conectado al servidor."
 
 #: ui/components/ConnectionIndicator.gd:20
 msgid ""
 "Can't reach the server. The server might be down, or your internet may be "
 "down."
 msgstr ""
+"No se puede acceder al servidor. Puede que el servidor no funcione o que tu "
+"internet no funcione."
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
-msgstr ""
+msgstr "En pausa"
 
 #: ui/components/LockedOverlay.gd:14
 msgid "Can't reach the server. The tests will be less precise."
-msgstr ""
+msgstr "No se puede acceder al servidor. Las pruebas serán menos precisas."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
+#, fuzzy
 msgid "ERROR:"
-msgstr ""
+msgstr "ERROR:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 msgid "There has been a horrible accident!"
-msgstr ""
+msgstr "¡Ha habido un horrible accidente!"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
-msgstr ""
+msgstr "en"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
+#, fuzzy
 msgid "FileName"
-msgstr ""
+msgstr "Nombre del archivo"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
 msgid "at"
-msgstr ""
+msgstr "en"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:82
 msgid "0:0"
-msgstr ""
+msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
 msgid ""
 "Sometimes errors are reported outside of your code. Why does that happen?"
 msgstr ""
+"A veces los errores se reportan fuera de tu código. ¿Por qué ocurre esto?"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
 msgid "Explain"
-msgstr ""
+msgstr "Explicar"
 
 #: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: ui/components/Revealer.tscn:74
 msgid "Expand"
-msgstr ""
+msgstr "Expandir"
 
 #: ui/components/RunnableCodeExample.tscn:87
 msgid "run()"
-msgstr ""
+msgstr "run()"
 
 #: ui/components/ScrollableTextBox.tscn:43
 msgid ""
@@ -175,36 +183,41 @@ msgid ""
 "Mauris vestibulum diam id commodo congue. Maecenas risus ligula, bibendum "
 "sit amet urna non, volutpat viverra nisi."
 msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices "
+"condimentum velit. Fusce egestas vestibulum libero, non eleifend velit "
+"luctus a. Mauris dolor tellus, aliquet at malesuada sed, mattis vel velit. "
+"Mauris vestibulum diam id commodo congue. Maecenas risus ligula, bibendum "
+"sit amet urna non, volutpat viverra nisi."
 
 #: ui/components/popups/ConfirmPopup.tscn:119
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:123
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmar"
 
 #: ui/components/popups/ConfirmPopup.tscn:135
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:139
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:54
 msgid "Original error message"
-msgstr ""
+msgstr "Mensaje de error original"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:73
 msgid "Why this happens"
-msgstr ""
+msgstr "Por qué ocurre esto"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
 msgid "Our error explanation."
-msgstr ""
+msgstr "Nuestra explicación del error."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:90
 msgid "How to fix this"
-msgstr ""
+msgstr "Cómo solucionarlo"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:99
 msgid "Our suggestion on how to fix it."
-msgstr ""
+msgstr "Nuestra sugerencia sobre cómo solucionarlo."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:110
 msgid ""
@@ -216,14 +229,22 @@ msgid ""
 "\n"
 "[center]Thank you![/center]"
 msgstr ""
+"Lo sentimos, ¡todavía no tenemos cubierto este mensaje de error en "
+"particular!\n"
+"\n"
+"Por favor, utiliza el botón [b]Informar[/b] en la esquina superior derecha "
+"para contarnos más sobre cómo lo obtuviste e intentaremos mejorar nuestra "
+"base de conocimientos para la próxima versión de la aplicación.\n"
+"\n"
+"[center]¡Gracias![/center]"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:137
 msgid "Hide"
-msgstr ""
+msgstr "Ocultar"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:70
 msgid "Where do external errors come from?"
-msgstr ""
+msgstr "¿De dónde vienen los errores externos?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:87
 msgid ""
@@ -241,61 +262,85 @@ msgid ""
 "each individual error that you face. Quick, click the [b]Explain[/b] button "
 "next to the error message!"
 msgstr ""
+"Las lecciones de este curso están construidas de tal manera que sólo tienes "
+"que editar las [b]partes importantes[/b]. Pero hay mucho más código fuera de "
+"lo que ves que hace que el proyecto se ejecute.\n"
+"\n"
+"Esto significa que, a veces, los cambios que hagas pueden afectar al código "
+"sobre el que no tienes control. Pero no te preocupes, ¡aún puedes solucionar "
+"todos los problemas tú mismo con el código que [b]puedes[/b] editar!\n"
+"\n"
+"[i]Esto también es similar al funcionamiento de los motores de los juegos[/"
+"i] Hay una gran cantidad de código oculto que ejecutan para asegurarse de "
+"que tus proyectos se ejecuten sin problemas. Y sin embargo, un error en tus "
+"scripts puede romperlos. Intentaremos explicar cómo abordar cada uno de los "
+"errores a los que te enfrentas. Rápido, ¡haz clic en el botón [b]Explicar[/"
+"b] junto al mensaje de error!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:123
 msgid "Got it!"
-msgstr ""
+msgstr "¡Entendido!"
 
 #: ui/components/popups/LessonDonePopup.tscn:136
 msgid "Lesson complete!"
-msgstr ""
+msgstr "¡Lección completa!"
 
 #: ui/components/popups/LessonDonePopup.tscn:145
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
+"Pero todavía hay algunas prácticas\n"
+"que te has saltado."
 
 #: ui/components/popups/LessonDonePopup.tscn:158
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]Quédate[/b] y revisa el material de estudio,\n"
+"o [b]continúa[/b] el curso.[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:190
 #: ui/components/popups/PracticeDonePopup.tscn:154
 msgid "Stay"
-msgstr ""
+msgstr "Quedarse"
 
 #: ui/components/popups/PracticeDonePopup.tscn:95
 msgid "Well done!"
-msgstr ""
+msgstr "¡Bien hecho!"
 
 #: ui/components/popups/PracticeDonePopup.tscn:104
 msgid "You completed the practice."
-msgstr ""
+msgstr "Has completado la práctica."
 
 #: ui/components/popups/PracticeDonePopup.tscn:116
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]Quédate[/b] y experimenta un poco más,\n"
+"o [b]continúa[/b] el curso.[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:71
 msgid "Practice List"
-msgstr ""
+msgstr "Lista de prácticas"
 
 #: ui/components/popups/PracticeListPopup.tscn:120
 #: ui/components/popups/SettingsPopup.tscn:225
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: ui/components/popups/ReportFormPopup.tscn:70
 #: ui/screens/end_screen/EndScreen.tscn:77
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:63
 msgid "Report an issue"
-msgstr ""
+msgstr "Informar de un problema"
 
+# Please drag and drop the generated file onto your issue on GitHub to attach it.
+# github español
+# [i]Problemas de GitHub[/i].
+# 2. Haz clic en el botón [i]Nueva incidencia[/i].
 #: ui/components/popups/ReportFormPopup.tscn:87
 msgid ""
 "If you face an issue in the app, please click the link below to report it on "
@@ -336,104 +381,145 @@ msgid ""
 "\n"
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
+"Si te encuentras con algún problema en la aplicación, haz clic en el "
+"siguiente enlace para informar sobre él en GitHub:\n"
+"\n"
+"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
+"> GDQuest > learn-gdscript > Issues[/b][/center]\n"
+"\n"
+"En esa página puedes informarnos de cualquier problema, ya sea que algo no "
+"funcione o que haya un error en una lección.\n"
+"\n"
+"Puedes generar un registro para ayudarnos a identificar el problema. Para "
+"hacerlo, haz clic aquí: [b][url=download]Generar registro de errores[/b].\n"
+"\n"
+"Por favor, arrastra y suelta el archivo generado en tu problema en GitHub "
+"para adjuntarlo.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]Qué es GitHub[/font]\n"
+"\n"
+"GitHub es una plataforma en línea para alojar y gestionar proyectos de "
+"código abierto como la aplicación GDScript Learn. Ayuda a los "
+"desarrolladores a organizar su trabajo y a colaborar en línea.\n"
+"\n"
+"Puedes utilizar GitHub para estudiar el código fuente de muchos proyectos "
+"abiertos, informar de problemas o incluso contribuir tú mismo con el "
+"código.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]Cómo informar de un problema[/"
+"font]\n"
+"\n"
+"1. Haz clic en el enlace anterior para acceder a la página de [i]GitHub "
+"Issues[/i].\n"
+"2. Haz clic en el botón [i]New Issue[/i].\n"
+"3. Completa el formulario para contarnos más sobre tu problema.\n"
+"\n"
+"Necesitarás una cuenta de GitHub para hacerlo.\n"
+"\n"
+"Por favor, agrega toda la información relevante que sea posible, como el "
+"tipo de dispositivo que estás utilizando para acceder a la aplicación, y tal "
+"vez adjunta una captura de pantalla o un video que muestre el problema.\n"
+"\n"
+"[center]¡Gracias por contribuir al código abierto![/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:162
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ui/components/popups/SettingsPopup.tscn:74
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:384
 msgid "Configure the App"
-msgstr ""
+msgstr "Configurar la aplicación"
 
 #: ui/components/popups/SettingsPopup.tscn:101
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: ui/components/popups/SettingsPopup.tscn:121
 msgid "Text Size"
-msgstr ""
+msgstr "Tamaño del texto"
 
 #: ui/components/popups/SettingsPopup.tscn:148
 msgid "Sample text"
-msgstr ""
+msgstr "Texto de muestra"
 
 #: ui/components/popups/SettingsPopup.tscn:161
 msgid "Scroll sensitivity"
-msgstr ""
+msgstr "Sensibilidad de desplazamiento"
 
 #: ui/components/popups/SettingsPopup.tscn:187
 msgid "Framerate cap"
-msgstr ""
+msgstr "Límite de velocidad de fotogramas"
 
 #: ui/components/popups/SettingsPopup.tscn:241
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:92
 msgid "Open Lesson"
-msgstr ""
+msgstr "Abrir lección"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:94
 msgid "Continue Lesson"
-msgstr ""
+msgstr "Continuar con la lección"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:96
 msgid "Start Lesson"
-msgstr ""
+msgstr "Iniciar lección"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:38
 msgid "Lesson Title Goes Here"
-msgstr ""
+msgstr "El título de la lección va aquí"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:51
 msgid "Lesson read"
-msgstr ""
+msgstr "Lectura de la lección"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:59
 msgid "0%"
-msgstr ""
+msgstr "0%"
 
+# Revision de conocimientos
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:82
 msgid "Quizzes completed"
-msgstr ""
+msgstr "Quices completados"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:90
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:111
 msgid "0 / 0"
-msgstr ""
+msgstr "0 / 0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:103
 msgid "Practices completed"
-msgstr ""
+msgstr "Prácticas completadas"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:36
 msgid "Lesson 0"
-msgstr ""
+msgstr "Lección 0"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
 msgid "Lesson Title"
-msgstr ""
+msgstr "Título de la Lección"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:47
 msgid "Course Index - "
-msgstr ""
+msgstr "Índice del curso - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:54
 msgid "Course Title Goes Here"
-msgstr ""
+msgstr "El título del curso va aquí"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:86
 msgid "Reset Progress"
-msgstr ""
+msgstr "Reiniciar progreso"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:101
 msgid "Confirm Resetting Progress"
-msgstr ""
+msgstr "Confirmar reiniciar el progreso"
 
 #: ui/screens/end_screen/EndScreen.tscn:128
 msgid "That's it... for now!"
-msgstr ""
+msgstr "Eso es todo... ¡por ahora!"
 
 #: ui/screens/end_screen/EndScreen.tscn:166
 msgid ""
@@ -447,6 +533,15 @@ msgid ""
 "The good news is: now we figured out many of the more challenging parts, "
 "moving forward, we can shift our focus onto new lessons and practices."
 msgstr ""
+"Gracias por participar en la prueba beta.\n"
+"\n"
+"Esperamos que hayas disfrutado de lo que está disponible hasta ahora.\n"
+"\n"
+"Nos gustaría tener ya mucho más para darte, pero crear esta aplicación ha "
+"llevado tiempo. [i]Mucho[/i] tiempo.\n"
+"\n"
+"La buena noticia es que, ahora que hemos resuelto muchas de las partes más "
+"complejas, podemos centrarnos en nuevas lecciones y prácticas."
 
 #: ui/screens/end_screen/EndScreen.tscn:194
 msgid ""
@@ -457,39 +552,46 @@ msgid ""
 "You can find our plan for future releases on our [url=https://github.com/"
 "GDQuest/learn-gdscript#roadmap]roadmap[/url]."
 msgstr ""
+"[font=res://ui/theme/fonts/font_title.tres]Lo que viene después[/font]\n"
+"\n"
+"Tenemos planes para muchas más lecciones y mejoras.\n"
+"\n"
+"Puedes encontrar nuestro plan para futuras versiones en nuestro [url=https://"
+"github.com/GDQuest/learn-gdscript#roadmap]plan del proyecto (_roadmap_)[/"
+"url]."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:61
 msgid "[b]Question[/b]"
-msgstr ""
+msgstr "[b]Pregunta[/b]"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:85 ui/screens/lesson/UIBaseQuiz.tscn:172
 msgid "Explanation"
-msgstr ""
+msgstr "Explicación"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:111
 msgid "Skip"
-msgstr ""
+msgstr "Saltar"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:122
 msgid "Submit"
-msgstr ""
+msgstr "Enviar"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:153
 msgid "You're right!"
-msgstr ""
+msgstr "¡Estás en lo cierto!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:163
 msgid "Answers here"
-msgstr ""
+msgstr "Respuestas aquí"
 
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
-msgstr ""
+msgstr "Aprende más"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Optional Heading"
-msgstr ""
+msgstr "Título opcional"
 
 #: ui/screens/lesson/UIContentBlock.tscn:68
 msgid ""
@@ -509,78 +611,96 @@ msgid ""
 "meowing chowing and wowing lick sellotape stare at ceiling, for sit as close "
 "as possible to warm fire "
 msgstr ""
+"Cómete todos los cables de alimentación tiempo de juego por favor deja de "
+"mirar tu teléfono y acaríciame ordeña la vaca. Sugar, mi siamés, me acosa "
+"(en el buen sentido), día y noche . Meowzer posa purrfectamente para mostrar "
+"mi belleza. Gato travieso que corre. Miau toda la noche el gato gordo "
+"sentado en la alfombra batea con las patas. Patalea con el culo en la "
+"alfombra golpea el plato de la mesa la cabeza no puede comer de mi propio "
+"plato por acariciarme, morder, arañar, por qué me acaricias deja pelos por "
+"todas partes no hago ningún trabajo sin embargo consigue comida, refugio y "
+"muchas cosas al igual que el hombre que vive con nosotros. Gato blanco "
+"duerme sobre una camisa negra salta del balcón, sobre la cabeza de un "
+"extraño Salto en la puerta falta mi donut izquierdo, al igual que el derecho "
+"sacudo la bolsa de golosinas, sin embargo salto para abalanzarme sobre el "
+"ratoncito de hilo, desnudo los colmillos en el juguete corro a esconderme en "
+"la caja de arena hasta que me den las golosinas o veo algo, ojos grandes, "
+"ojos grandes, me agacho, sacudo el culo, me preparo para abalanzarme. "
+"Utiliza sólo una esquina de la caja de arena. Tiempo de juego. Oye, tú ahí, "
+"con las manos maullando y lamiendo cinta adhesiva mira al techo, para "
+"sentarte lo más cerca posible del fuego caliente"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:66
 msgid "Practice title"
-msgstr ""
+msgstr "Título de la práctica"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:91
 msgid "next"
-msgstr ""
+msgstr "siguiente"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:98
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:113
 msgid "Practice"
-msgstr ""
+msgstr "Práctica"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:123
 msgid "You are here"
-msgstr ""
+msgstr "Estás aquí"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
-msgstr ""
+msgstr "Etiqueta de respuesta"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
 msgid "(select all that apply)"
-msgstr ""
+msgstr "(selecciona todas las que correspondan)"
 
 #: ui/screens/practice/PracticeHint.tscn:8
 msgid "Show Hint"
-msgstr ""
+msgstr "Mostrar pista"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:141
 msgid "Method descriptions"
-msgstr ""
+msgstr "Descripciones de los métodos"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:157
 msgid "Property descriptions"
-msgstr ""
+msgstr "Descripciones de las propiedades"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
 msgid "Summary - Lesson Name"
-msgstr ""
+msgstr "Resumen - Nombre de la lección"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
-msgstr ""
+msgstr "Objetivos"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:119
 msgid "Hints"
-msgstr ""
+msgstr "Pistas"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
 msgid "Checks"
-msgstr ""
+msgstr "Comprobaciones"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:134
 msgid "Documentation"
-msgstr ""
+msgstr "Documentación"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:175
 msgid "Open Practice List"
-msgstr ""
+msgstr "Lista de prácticas abiertas"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:42
 msgid "Test text"
-msgstr ""
+msgstr "Texto de prueba"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:127
 msgid "Learn GDScript From Zero"
-msgstr ""
+msgstr "Aprende GDScript desde cero"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:180
 msgid ""
@@ -598,11 +718,29 @@ msgid ""
 "That's why we created this app: it makes it easy for you to learn, with "
 "interactive demos."
 msgstr ""
+"GDScript Learn es una aplicación y una serie gratuita y de código abierto "
+"para ayudarte a aprender a programar, [b]desde cero[/b], con el lenguaje de "
+"programación GDScript de Godot.\n"
+"\n"
+"Ya sea que quieras aprender a desarrollar juegos o simplemente aprender a "
+"codificar con emocionantes proyectos interactivos, esta aplicación es para "
+"ti.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]Programar es una habilidad[/"
+"font]\n"
+"\n"
+"La programación es una habilidad, así que para mejorar, necesitas "
+"[i]practicar[/i]. Necesitas ver el código en acción y [i]experimentar[/i].\n"
+"\n"
+"Por eso hemos creado esta aplicación: te facilita el aprendizaje, con "
+"demostraciones interactivas."
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:220
 msgid ""
 "Mini quizzes in the lessons will help you test and remember what you learned."
 msgstr ""
+"Los miniquices en las lecciones te ayudarán a comprobar y recordar lo que "
+"has aprendido."
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:244
 msgid ""
@@ -630,6 +768,31 @@ msgid ""
 "If you then want to go further and support our work, you can buy (or gift) "
 "one of our [url=https://gdquest.mavenseed.com/courses]Godot courses[/url]."
 msgstr ""
+"[b]Cada lección[/b] termina con una o varias [i]prácticas[/i].\n"
+"\n"
+"Descubrirás la pantalla de prácticas al final de la primera lección.\n"
+"\n"
+"[img=800]res://ui/screens/welcome_screen/ui-screen.png[/img]\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]No hay cargos ocultos[/font]\n"
+"\n"
+"1600 patrocinadores que reservaron nuestro curso [url=https://kickstarter."
+"com/projects/gdquest/learn-to-code-from-zero-with-godot-the-free-game-"
+"engine/]en Kickstarter[/url] financiaron esta aplicación.\n"
+"\n"
+"Como resultado, pudimos hacer todo lo que hay aquí [b]gratis para todos[/"
+"b].\n"
+"\n"
+"Esta aplicación gratuita es el curso completo para ponerte al día con el "
+"lenguaje de programación GDScript de Godot.\n"
+"\n"
+"Complementa el [url=https://docs.godotengine.org/en/3.4/getting_started/"
+"introduction/index.html]curso gratuito[/url] que encontrarás en la "
+"documentación de Godot (también trabajamos mucho en él).\n"
+"\n"
+"Si luego quieres ir más allá y apoyar nuestro trabajo, puedes comprar (o "
+"regalar) uno de nuestros [url=https://gdquest.mavenseed.com/courses]cursos "
+"de Godot[/url]."
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:293
 msgid ""
@@ -637,10 +800,15 @@ msgid ""
 "\n"
 "To get started, click the [i]Start Course[/i] button to the right."
 msgstr ""
+"[font=res://ui/theme/fonts/font_title.tres]Empieza ahora[/font]\n"
+"\n"
+"Para empezar, haz clic en el botón [i]Iniciar curso[/i] de la derecha."
 
+# versión beta temprana
+# Lanzamiento de la versión beta
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:343
 msgid "Early beta release"
-msgstr ""
+msgstr "Versión beta temprana"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:354
 msgid ""
@@ -655,7 +823,17 @@ msgid ""
 "[b]It is crucial[/b]: we'll use your reports and feedback to improve the "
 "app, both for you and everyone else."
 msgstr ""
+"La aplicación está en [b]beta[/b].\n"
+"\n"
+"Es posible que encuentres errores y _typos_. Tenemos muchas mejoras y "
+"lecciones planeadas.\n"
+"\n"
+"Si tienes algún problema, utiliza el botón de la parte superior derecha para "
+"informarnos sobre él.\n"
+"\n"
+"[b]Es crucial[/b]: utilizaremos tus informes y comentarios para mejorar la "
+"aplicación, tanto para ti como para los demás."
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:391
 msgid "Open Course Index"
-msgstr ""
+msgstr "Abrir índice de cursos"
