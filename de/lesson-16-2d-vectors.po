@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-02-18 15:02+0300\n"
-"PO-Revision-Date: 2022-02-24 18:03+0100\n"
+"PO-Revision-Date: 2022-03-01 20:29+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -21,7 +21,6 @@ msgstr ""
 "X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-16-2d-vectors/lesson.tres:14
-#, fuzzy
 msgid ""
 "Suppose we want to increase the size of the robot when it levels up.\n"
 "\n"
@@ -29,11 +28,10 @@ msgid ""
 msgstr ""
 "Angenommen, wir möchten die Größe des Roboters erhöhen, wenn er aufsteigt.\n"
 "\n"
-"Sie erinnern sich vielleicht, dass wir dies tun, indem wir den folgenden "
+"Du erinnerst dich vielleicht, dass wir dies tun, indem wir den folgenden "
 "Code verwenden."
 
 #: course/lesson-16-2d-vectors/lesson.tres:36
-#, fuzzy
 msgid ""
 "As we talked about in lesson 7, the scale variable has two sub-variables to "
 "it: [code]x[/code] and [code]y[/code].\n"
@@ -45,16 +43,14 @@ msgstr ""
 "Untervariablen: [code]x[/code] und [code]y[/code].\n"
 "\n"
 "Dies liegt daran, dass [code]scale[/code] ein [code]Vector2[/code] ist, was "
-"für zweidimensionaler Vektor steht. Ein [code]Vector2[/code] stellt 2D-"
+"ein zweidimensionaler Vektor ist. Ein [code]Vector2[/code] stellt 2D-"
 "Koordinaten dar."
 
 #: course/lesson-16-2d-vectors/lesson.tres:46
-#, fuzzy
 msgid "What are vectors?"
 msgstr "Was sind Vektoren?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:48
-#, fuzzy
 msgid ""
 "A vector, in physics, is a quantity with a magnitude and a direction. For "
 "example, a force applied to some object, the velocity (speed and directoin) "
@@ -67,12 +63,12 @@ msgid ""
 "Unlike plain numbers, they store [i]two[/i] decimal numbers: one for the X "
 "coordinate and one for the Y coordinate."
 msgstr ""
-"Ein Vektor ist in der Physik eine Größe mit einer Größe und einer Richtung. "
+"Ein Vektor ist in der Physik eine Größe mit einer Länge und einer Richtung. "
 "Zum Beispiel eine Kraft, die auf ein Objekt angewendet wird, die "
-"Geschwindigkeit (Geschwindigkeit und Richtung) eines Zeichens und so "
+"Geschwindigkeit (Schnelligkeit und Richtung) eines Charakters und so "
 "weiter.\n"
 "\n"
-"Wir stellen es oft mit einem Pfeil dar.\n"
+"Wir stellen Vektoren oft mit einem Pfeil dar.\n"
 "\n"
 "In Godot sind 2D-Vektoren ein allgemeiner Werttyp mit dem Namen "
 "[code]Vector2[/code],\n"
@@ -81,16 +77,14 @@ msgstr ""
 "eine für die X-Koordinate und eine für die Y-Koordinate."
 
 #: course/lesson-16-2d-vectors/lesson.tres:72
-#, fuzzy
 msgid ""
 "So far, you've come across two variables in the course which are vectors, "
 "which are they?"
 msgstr ""
-"Bisher sind Sie im Verlauf auf zwei Variablen gestoßen, die Vektoren sind, "
+"Bisher bist Du im Verlauf auf zwei Variablen gestoßen, die Vektoren sind, "
 "welche sind sie?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:75
-#, fuzzy
 msgid ""
 "Both [code]scale[/code] and [code]position[/code] have [code]x[/code] and "
 "[code]y[/code] sub-variables, so Godot uses a [code]Vector2[/code] to store "
@@ -102,33 +96,27 @@ msgstr ""
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 #: course/lesson-16-2d-vectors/lesson.tres:77
-#, fuzzy
 msgid "scale"
 msgstr "Skalierung"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 #: course/lesson-16-2d-vectors/lesson.tres:77
-#, fuzzy
 msgid "position"
 msgstr "Position"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
-#, fuzzy
 msgid "health"
-msgstr "Gesundheit"
+msgstr "Leben"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
-#, fuzzy
 msgid "speed"
-msgstr "Geschwindigkeit"
+msgstr "Schnelligkeit"
 
 #: course/lesson-16-2d-vectors/lesson.tres:84
-#, fuzzy
 msgid "Vectors are great for games"
 msgstr "Vektoren eignen sich hervorragend für Spiele"
 
 #: course/lesson-16-2d-vectors/lesson.tres:86
-#, fuzzy
 msgid ""
 "Vectors are [i]essential[/i] in video games.\n"
 "\n"
@@ -146,32 +134,30 @@ msgid ""
 msgstr ""
 "Vektoren sind [i]essentiell[/i] in Videospielen.\n"
 "\n"
-"Sie ermöglichen es Ihnen, die Bewegungsgeschwindigkeit und -richtung eines "
+"Sie ermöglichen es, die Bewegungsgeschwindigkeit und -richtung eines "
 "Charakters darzustellen, die Entfernung zu einem Ziel zu berechnen und "
 "vieles mehr mit wenig Code.\n"
 "\n"
-"Nehmen Sie diese Schildkröte AI unten. Sie haben wahrscheinlich Spiele "
+"Schau Dir diese Schildkröte AI unten an. Du habst wahrscheinlich Spiele "
 "gesehen, in denen sich Feinde so bewegen.\n"
 "\n"
 "Es sind sieben Zeilen reiner Vektorberechnungscode.\n"
 "\n"
-"Der Code ist im Moment etwas zu schwierig, also ersparen wir Ihnen die "
-"Details, aber diese Schildkröte gibt Ihnen einen Einblick in das, was 2D-"
-"Vektoren für Sie und Ihre Spielprojekte tun können."
+"Der Code ist im Moment etwas zu schwierig, also ersparen wir Dir die "
+"Details, aber diese Schildkröte gibt Dir einen Einblick in das, was 2D-"
+"Vektoren für Dich und Deine Spielprojekte tun können."
 
 #: course/lesson-16-2d-vectors/lesson.tres:114
-#, fuzzy
 msgid ""
 "We scale the robot again, this time by adding to it directly using a "
 "[code]Vector2[/code]. The following code has the same effect as the previous "
 "example."
 msgstr ""
-"Wir skalieren den Roboter erneut, diesmal indem wir ihn direkt mit einem "
+"Wir skalieren den Roboter erneut, diesmal indem wir ihm direkt einen "
 "[code]Vector2[/code] hinzufügen. Der folgende Code hat die gleiche Wirkung "
 "wie im vorherigen Beispiel."
 
 #: course/lesson-16-2d-vectors/lesson.tres:134
-#, fuzzy
 msgid ""
 "Notice how we use parentheses and two arguments inside parentheses, just "
 "like other function calls.\n"
@@ -183,8 +169,8 @@ msgid ""
 "code] value with its [code]x[/code] set to [code]0.2[/code] and its [code]y[/"
 "code] set to [code]0.2[/code], respectively."
 msgstr ""
-"Beachten Sie, wie wir Klammern und zwei Argumente in Klammern verwenden, "
-"genau wie bei anderen Funktionsaufrufen.\n"
+"Beachte, wie wir Klammern und zwei Argumente in Klammern verwenden, genau "
+"wie bei anderen Funktionsaufrufen.\n"
 "\n"
 "Wir nennen dies einen [i]Konstruktorfunktionsaufruf[/i]. Sie können es sich "
 "als eine spezielle Art von Funktion vorstellen, die eine bestimmte Art von "
@@ -195,12 +181,10 @@ msgstr ""
 "auf [code]0.2[/code] festgelegt ist."
 
 #: course/lesson-16-2d-vectors/lesson.tres:146
-#, fuzzy
 msgid "Using vectors to change the position"
 msgstr "Verwenden von Vektoren zum Ändern der Position"
 
 #: course/lesson-16-2d-vectors/lesson.tres:148
-#, fuzzy
 msgid ""
 "We can add and subtract vectors to [code]position[/code] because it's a "
 "vector. If we wanted to move our robot to a new relative position, we would "
@@ -212,12 +196,10 @@ msgstr ""
 "seiner [code]position[/code] hinzufügen."
 
 #: course/lesson-16-2d-vectors/lesson.tres:166
-#, fuzzy
 msgid "How would you move the robot 50 pixels to the left?"
-msgstr "Wie würden Sie den Roboter 50 Pixel nach links bewegen?"
+msgstr "Wie würdest Du den Roboter 50 Pixel nach links bewegen?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:169
-#, fuzzy
 msgid ""
 "[code]position -= Vector2(50, 0)[/code] subtracts [code]50[/code] to the sub-"
 "variable [code]x[/code], and [code]0[/code] to [code]y[/code].\n"
@@ -236,57 +218,48 @@ msgstr ""
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
 #: course/lesson-16-2d-vectors/lesson.tres:173
-#, fuzzy
 msgid "position -= Vector2(50, 0)"
-msgstr "Position -= Vector2(50, 0)"
+msgstr "position -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
-#, fuzzy
 msgid "position.x -= Vector(50, 0)"
-msgstr "position.x -= Vektor(50, 0)"
+msgstr "position.x -= Vector(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:182
-#, fuzzy
 msgid ""
 "In the next few practices, you'll use vectors to change the values of scale "
 "and position."
 msgstr ""
-"In den nächsten Übungen verwenden Sie Vektoren, um die Werte von Skalierung "
+"In den nächsten Übungen verwendest Du Vektoren, um die Werte von Skalierung "
 "und Position zu ändern."
 
 #: course/lesson-16-2d-vectors/lesson.tres:190
-#, fuzzy
 msgid "Increasing scale using vectors"
 msgstr "Erhöhen der Skalierung mithilfe von Vektoren"
 
 #: course/lesson-16-2d-vectors/lesson.tres:191
-#, fuzzy
 msgid ""
 "Add a line of code to the [code]level_up()[/code] function to increase the "
 "[code]scale[/code] of the robot by [code]Vector2(0.2, 0.2)[/code] every time "
 "it levels up."
 msgstr ""
-"Fügen Sie der Funktion [code]level_up()[/code] eine Codezeile hinzu, um die "
-"[code]scale[/code] des Roboters bei jedem Level um [code]Vector2(0.2, 0.2)[/"
-"code] zu erhöhen."
+"Füge der Funktion [code]level_up()[/code] eine Codezeile hinzu, um die "
+"[code]Skalierung[/code] des Roboters bei jedem Level um [code]Vector2(0.2, "
+"0.2)[/code] zu erhöhen."
 
 #: course/lesson-16-2d-vectors/lesson.tres:200
-#, fuzzy
 msgid ""
 "To visually show our robot has gained in strength, let's increase its size "
 "every time it levels up. Nothing could go wrong!"
 msgstr ""
-"Um visuell zu zeigen, dass unser Roboter an Stärke gewonnen hat, lassen Sie "
-"uns seine Größe jedes Mal erhöhen, wenn er aufsteigt. Nichts kann schief "
-"gehen!"
+"Um visuell zu zeigen, dass unser Roboter an Stärke gewonnen hat, lass uns "
+"seine Größe jedes Mal erhöhen, wenn er aufsteigt. Nichts kann schief gehen!"
 
 #: course/lesson-16-2d-vectors/lesson.tres:205
-#, fuzzy
 msgid "Resetting size and position using vectors"
 msgstr "Zurücksetzen von Größe und Position mithilfe von Vektoren"
 
 #: course/lesson-16-2d-vectors/lesson.tres:206
-#, fuzzy
 msgid ""
 "The robot's level has increased a lot, and so has its size!\n"
 "\n"
@@ -306,31 +279,29 @@ msgid ""
 msgstr ""
 "Das Niveau des Roboters hat sich stark erhöht, ebenso wie seine Größe!\n"
 "\n"
-"Beheben wir dieses Problem, indem wir die Werte [code]scale[/code] und "
-"[code]position[/code] des Roboters zurücksetzen.\n"
+"Beheben wir dieses Problem, indem wir die Werte [code]Skalierung[/code] und "
+"[code]Position[/code] des Roboters zurücksetzen.\n"
 "\n"
-"Erstellen Sie eine Funktion mit dem Namen [code]reset_robot()[/code], die "
-"die [code]scale[/code] und [code]position[/code] des Roboters festlegt.\n"
+"Erstelle eine Funktion mit dem Namen [code]reset_robot()[/code], die die "
+"[code]Skalierung[/code] und [code]Position[/code] des Roboters festlegt.\n"
 "\n"
-"Die Untervariablen [code]x[/code] und [code]y[/code] der [code]scale[/code] "
-"des Roboters müssen [code]1.0[/code] sein.\n"
+"Die Untervariablen [code]x[/code] und [code]y[/code] der [code]Skalierung[/"
+"code] des Roboters müssen [code]1.0[/code] sein.\n"
 "\n"
-"Die [code]position[/code] des Roboters muss [code]Vector2(0, 0)[/code] "
+"Die [code]Position[/code] des Roboters muss [code]Vector2(0, 0)[/code] "
 "sein.\n"
 "\n"
-"Achten Sie wie in der vorherigen Praxis darauf, Vektoren zu verwenden, wenn "
-"Sie sich mit Skalierung und Position befassen."
+"Achte wie in der vorherigen Übung darauf, Vektoren zu verwenden, wenn Du "
+"dich mit Skalierung und Position befasst."
 
 #: course/lesson-16-2d-vectors/lesson.tres:223
-#, fuzzy
 msgid ""
 "Perhaps increasing the scale every level was a bad idea! Let's restore the "
 "robot to the correct size."
 msgstr ""
-"Vielleicht war es eine schlechte Idee, die Skala auf jeder Ebene zu erhöhen! "
-"Lassen Sie uns den Roboter auf die richtige Größe zurücksetzen."
+"Vielleicht war es eine schlechte Idee, die Skalierung auf jeder Ebene zu "
+"erhöhen! Lass uns den Roboter auf die richtige Größe zurücksetzen."
 
 #: course/lesson-16-2d-vectors/lesson.tres:227
-#, fuzzy
 msgid "2D Vectors"
 msgstr "2D-Vektoren"

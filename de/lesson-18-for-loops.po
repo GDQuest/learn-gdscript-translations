@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-02-18 15:02+0300\n"
-"PO-Revision-Date: 2022-02-24 18:05+0100\n"
+"PO-Revision-Date: 2022-03-01 13:20+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -21,7 +21,6 @@ msgstr ""
 "X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
-#, fuzzy
 msgid ""
 "In the last lesson, we looked at while loops. We found they were useful if "
 "we don't know how many times we should repeat code. \n"
@@ -30,18 +29,17 @@ msgid ""
 "\n"
 "The loop below never ends because we never increment [code]number[/code]"
 msgstr ""
-"In der letzten Lektion haben wir uns while loops angesehen. Wir fanden, dass "
-"sie nützlich waren, wenn wir nicht wissen, wie oft wir Code wiederholen "
-"sollten. \n"
+"In der letzten Lektion haben wir uns while-Schleifen angesehen. Wir haben "
+"herausgefunden, dass sie nützlich sind, wenn wir nicht wissen, wie oft wir "
+"Code wiederholen sollten. \n"
 "\n"
-"Sie könnten jedoch zu Endlosschleifen führen, wenn wir nicht vorsichtig "
+"Sie können jedoch zu Endlosschleifen führen, wenn wir nicht vorsichtig "
 "sind.\n"
 "\n"
 "Die Schleife unten endet nie, weil wir niemals [code]number[/code] "
-"inkrementieren"
+"inkrementieren (erhöhen)"
 
 #: course/lesson-18-for-loops/lesson.tres:38
-#, fuzzy
 msgid ""
 "There's a safer and often easier kind of loop: the [code]for[/code] loop.\n"
 "\n"
@@ -58,30 +56,27 @@ msgstr ""
 "Es gibt eine sicherere und oft einfachere Art von Schleife: die [code]for[/"
 "code]-Schleife.\n"
 "\n"
-"Wir werden es uns in dieser Lektion ansehen.\n"
+"Diese werden wir uns in dieser Lektion ansehen.\n"
 "\n"
 "Im Gegensatz zu [code]while[/code]-Schleifen laufen [code]for[/code]-"
-"Schleifen nicht unendlich, so dass es viel unwahrscheinlicher ist, dass Sie "
-"Fehler in Ihrem Spiel erhalten. [b] Aus diesem Grund empfehlen wir, "
-"Schleifen gegenüber While-Schleifen zu bevorzugen[/b].\n"
+"Schleifen nicht unendlich, so dass es viel unwahrscheinlicher ist, dass Du "
+"Fehler in Ihrem Spiel erhälst. [b] Aus diesem Grund empfehlen wir, for-"
+"Schleifen gegenüber while-Schleifen zu bevorzugen[/b].\n"
 "\n"
-"Lassen Sie uns den obigen Code ändern, um stattdessen eine [code]for[/code]-"
+"Lass uns den obigen Code ändern, um stattdessen eine [code]for[/code]-"
 "Schleife zu verwenden.\n"
 "\n"
 "Die Schleife unten ändert die [code]cell[/code] dreimal."
 
 #: course/lesson-18-for-loops/lesson.tres:66
-#, fuzzy
 msgid "Let's explain what's going on here."
-msgstr "Lassen Sie uns erklären, was hier vor sich geht."
+msgstr "Lass uns erklären, was hier vor sich geht."
 
 #: course/lesson-18-for-loops/lesson.tres:74
-#, fuzzy
 msgid "The range() function"
-msgstr "Die funktion range()"
+msgstr "Die range() Funktion"
 
 #: course/lesson-18-for-loops/lesson.tres:76
-#, fuzzy
 msgid ""
 "Godot has the helper function [code]range()[/code]. Calling [code]range(n)[/"
 "code] creates a list of numbers from [code]0[/code] to [code]n - 1[/code]. \n"
@@ -89,26 +84,23 @@ msgid ""
 "So calling [code]range(3)[/code] outputs the list of number [code][0, 1, 2][/"
 "code], and [code]range(5)[/code] outputs [code][0, 1, 2, 3, 4][/code]."
 msgstr ""
-"Godot hat die Hilfsfunktion [code]range()[/code]. Wenn Sie [code]range(n)[/"
-"code] aufrufen, wird eine Liste von Zahlen von [code]0[/code] bis [code]n - "
+"Godot hat die Hilfsfunktion [code]range()[/code]. Wenn Du [code]range(n)[/"
+"code] aufrufst, wird eine Liste von Zahlen von [code]0[/code] bis [code]n - "
 "1[/code] erstellt. \n"
 "\n"
-"Wenn Sie also [code]range(3)[/code] aufrufen, wird die Liste der Zahlen "
-"[code][0, 1, 2][/code] ausgegeben, und [code]range(5)[/code] gibt [code][0, "
-"1, 2, 3, 4][/code] aus."
+"Wenn Du also [code]range(3)[/code] aufrufst, wird die Liste der Zahlen [code]"
+"[0, 1, 2][/code] ausgegeben, und [code]range(5)[/code] gibt [code][0, 1, 2, "
+"3, 4][/code] aus."
 
 #: course/lesson-18-for-loops/lesson.tres:86
-#, fuzzy
 msgid "What list of numbers would range(6) create?"
 msgstr "Welche Liste von Zahlen würde range(6) erstellen?"
 
 #: course/lesson-18-for-loops/lesson.tres:87
-#, fuzzy
 msgid "What would [code]print(range(6))[/code] print to the console?"
-msgstr "Was würde [code]print(range(6))[/code] auf der Konsole ausgeben?"
+msgstr "Was würde [code]print(range(6))[/code] in der Konsole ausgeben?"
 
 #: course/lesson-18-for-loops/lesson.tres:89
-#, fuzzy
 msgid ""
 "The function [code]range(n)[/code] creates a list of numbers from [code]0[/"
 "code] to [code]n - 1[/code]. The output list will start with [code]0[/code] "
@@ -121,32 +113,27 @@ msgstr ""
 "[code]0[/code] bis [code]n - 1[/code]. Die Ausgabeliste beginnt mit [code]0[/"
 "code] und endet mit [code]5[/code].\n"
 "\n"
-"Wenn Sie also [code]range(6)[/code] aufrufen, wird eine Liste von sechs "
+"Wenn Du also [code]range(6)[/code] aufrufst, wird eine Liste von sechs "
 "Zahlen ausgegeben, die [code][0, 1, 2, 3, 4, 5][/code] sind.\n"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 #: course/lesson-18-for-loops/lesson.tres:94
-#, fuzzy
 msgid "[0, 1, 2, 3, 4, 5]"
 msgstr "[0, 1, 2, 3, 4, 5]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
-#, fuzzy
 msgid "[1, 2, 3, 4, 5, 6]"
 msgstr "[1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
-#, fuzzy
 msgid "[0, 1, 2, 3, 4, 5, 6]"
 msgstr "[0, 1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:101
-#, fuzzy
 msgid "How for loops work"
-msgstr "Funktionsweise von Schleifen"
+msgstr "Funktionsweise von for-Schleifen"
 
 #: course/lesson-18-for-loops/lesson.tres:103
-#, fuzzy
 msgid ""
 "In a [code]for[/code] loop, the computer takes each value inside a list, "
 "stores it in a temporary variable, and executes the code in the loop once "
@@ -157,7 +144,6 @@ msgstr ""
 "Schleife einmal pro Wert aus."
 
 #: course/lesson-18-for-loops/lesson.tres:123
-#, fuzzy
 msgid ""
 "In the above example, for each item in the list [code][0, 1, 2][/code], "
 "Godot sets [code]number[/code] to the item, then executes the code in the "
@@ -171,21 +157,19 @@ msgid ""
 msgstr ""
 "Im obigen Beispiel legt Godot für jedes Element in der Liste [code][0, 1, 2]"
 "[/code] [code]number[/code] auf das Element fest und führt dann den Code in "
-"der Schleife [code]for[/code] aus.\n"
+"der [code]for[/code]-Schleife aus.\n"
 "\n"
-"In diesem Beispiel drucken wir den Wert von [code]number[/code], während "
-"Godot sich durch die Schleife bewegt.\n"
+"In diesem Beispiel geben wir den Wert von [code]number[/code] aus, während "
+"Godot sich durch die Schleife läuft.\n"
 "\n"
 "Wir können beliebigen Code in den Codeblock der Schleife einfügen, "
 "einschließlich anderer Funktionsaufrufe wie [code]draw_rectangle()[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:135
-#, fuzzy
 msgid "Using a for loop instead of while loops"
 msgstr "Verwenden einer for-Schleife anstelle von while-Schleifen"
 
 #: course/lesson-18-for-loops/lesson.tres:137
-#, fuzzy
 msgid ""
 "Here's our old [code]move_to_end()[/code] function which used in a "
 "[code]while[/code] loop."
@@ -194,7 +178,6 @@ msgstr ""
 "[code]while[/code] Schleife verwendet wird."
 
 #: course/lesson-18-for-loops/lesson.tres:157
-#, fuzzy
 msgid ""
 "If we use a [code]for[/code] loop instead, the code becomes a little simpler."
 msgstr ""
@@ -202,7 +185,6 @@ msgstr ""
 "etwas einfacher."
 
 #: course/lesson-18-for-loops/lesson.tres:177
-#, fuzzy
 msgid ""
 "Rather than constantly checking if the robot reached the end of the board, "
 "with the [code]for[/code] loop, we take the board's width beforehand, then "
@@ -210,28 +192,25 @@ msgid ""
 "\n"
 "The function still works the same. You can execute it below."
 msgstr ""
-"Anstatt ständig zu überprüfen, ob der Roboter das Ende der Platine erreicht "
-"hat, nehmen wir mit der Schleife [code]for[/code] die Breite des Boards und "
-"bewegen den Roboter dann eine bestimmte Anzahl von Malen.\n"
+"Anstatt ständig zu überprüfen, ob der Roboter das Ende des Bretts erreicht "
+"hat, nehmen wir mit der [code]for[/code]-Schleife die Breite des Bretts und "
+"bewegen den Roboter eine bestimmten Anzahl von Malen.\n"
 "\n"
-"Die Funktion funktioniert immer noch gleich. Sie können es unten ausführen."
+"Die Funktion funktioniert immer noch gleich. Du kannst es unten ausführen."
 
 #: course/lesson-18-for-loops/lesson.tres:199
-#, fuzzy
 msgid ""
 "In the practices, we'll use for loops in different ways to get you used to "
 "using them."
 msgstr ""
-"In den Übungen werden wir für Schleifen auf verschiedene Arten verwenden, um "
-"Sie daran zu gewöhnen, sie zu verwenden."
+"In den Übungen werden wir for-Schleifen auf verschiedene Arten verwenden, um "
+"Dich daran zu gewöhnen, sie zu verwenden."
 
 #: course/lesson-18-for-loops/lesson.tres:207
-#, fuzzy
 msgid "Using a for loop to move to the end of the board"
-msgstr "Verwenden einer for-Schleife, um zum Ende der Platine zu gelangen"
+msgstr "Verwenden einer for-Schleife, um zum Ende des Bretts zu gelangen"
 
 #: course/lesson-18-for-loops/lesson.tres:208
-#, fuzzy
 msgid ""
 "Once again, the robot has decided to stand at the top of the board.\n"
 "\n"
@@ -243,11 +222,11 @@ msgid ""
 "\n"
 "The robot's starting cell is [code]Vector2(2, 0)[/code]."
 msgstr ""
-"Wieder einmal hat sich der Roboter entschieden, an der Spitze des Brettes zu "
+"Wieder einmal hat sich der Roboter entschieden, an der Spitze der Platte zu "
 "stehen.\n"
 "\n"
 "Verwenden Sie dieses Mal eine for-Schleife in der Funktion "
-"[code]move_to_bottom()[/code], damit sie sich an die Unterseite der Platine "
+"[code]move_to_bottom()[/code], damit sie sich an die Unterseite des Bretts "
 "bewegt.\n"
 "\n"
 "Die Boardgröße wird durch die [code]Vector2[/code] Variable "
@@ -256,21 +235,18 @@ msgstr ""
 "Die Startzelle des Roboters ist [code]Vector2(2, 0)[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:222
-#, fuzzy
 msgid ""
 "Use a for loop to have our robot move from the top of the board to the "
 "bottom."
 msgstr ""
-"Verwenden Sie eine For-Schleife, damit sich unser Roboter von der Oberseite "
-"des Boards nach unten bewegt."
+"Verwende eine for-Schleife, damit sich unser Roboter von der Oberseite des "
+"Bretts nach unten bewegt."
 
 #: course/lesson-18-for-loops/lesson.tres:227
-#, fuzzy
 msgid "Improving code with a for loop"
 msgstr "Verbessern von Code mit einer for-Schleife"
 
 #: course/lesson-18-for-loops/lesson.tres:228
-#, fuzzy
 msgid ""
 "Use a for loop to remove the duplicate code in the [code]run()[/code] "
 "function.\n"
@@ -283,29 +259,28 @@ msgid ""
 "The turtle should draw three squares in a horizontal line. The squares "
 "should be 100 pixels apart."
 msgstr ""
-"Verwenden Sie eine for-Schleife, um den doppelten Code in der Funktion "
-"[code]run()[/code] zu entfernen.\n"
+"Verwende eine for-Schleife, um den doppelten Code in der Funktion [code]run()"
+"[/code] zu entfernen.\n"
 "\n"
-"In dieser Praxis besuchen wir die Schildkröte und zeichnen Rechtecke.\n"
+"In dieser Praxis kommen wir zu der Schildkröte zurück und zeichnen "
+"Rechtecke.\n"
 "\n"
 "Mit unserem neuen Wissen über for-Schleifen können wir diesen Code "
-"verdichten, um weniger Platz zu beanspruchen und die Änderung zu "
+"verkürzen, um weniger Platz zu beanspruchen und, um erneute Änderungen zu "
 "erleichtern.\n"
 "\n"
-"Die Schildkröte sollte drei Quadrate in einer horizontalen Linie zeichnen. "
-"Die Quadrate sollten 100 Pixel voneinander entfernt sein."
+"Die Schildkröte soll drei Quadrate in einer horizontalen Linie zeichnen. Die "
+"Quadrate sollen 100 Pixel voneinander entfernt sein."
 
 #: course/lesson-18-for-loops/lesson.tres:249
-#, fuzzy
 msgid ""
 "In the past we had to copy and paste code to draw multiple rectangles. Let's "
 "revisit previous code and improve it with a for loop."
 msgstr ""
 "In der Vergangenheit mussten wir Code kopieren und einfügen, um mehrere "
-"Rechtecke zu zeichnen. Lassen Sie uns den vorherigen Code erneut aufgreifen "
-"und mit einer for-Schleife verbessern."
+"Rechtecke zu zeichnen. Lass uns den vorherigen Code erneut aufgreifen und "
+"mit einer for-Schleife verbessern."
 
 #: course/lesson-18-for-loops/lesson.tres:253
-#, fuzzy
 msgid "Introduction to For Loops"
-msgstr "Einführung in For Loops"
+msgstr "Einführung in for-Schleifen"
