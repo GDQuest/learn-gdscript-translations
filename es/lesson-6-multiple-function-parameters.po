@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-02-18 15:02+0300\n"
-"PO-Revision-Date: 2022-02-28 07:59+0100\n"
+"PO-Revision-Date: 2022-03-01 19:55+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -262,8 +262,6 @@ msgstr ""
 msgid "How should I name my functions and parameters?"
 msgstr "¿Cómo debo nombrar mis funciones y parámetros?"
 
-# [code]bg[/code] for background, 
-# fdo
 #: course/lesson-6-multiple-function-parameters/lesson.tres:228
 msgid ""
 "The names of functions, parameters, or other things in your code are "
@@ -466,10 +464,9 @@ msgstr ""
 "un juego táctico, como marco para los objetos de un inventario y más.\n"
 "\n"
 "Crea una función llamada [code]draw_square()[/code] que tome un parámetro: "
-"la longitud, o [code]length[/code], de los lados del cuadrado."
+"[code]length[/code], la longitud de los lados del cuadrado."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:342
-#, fuzzy
 msgid ""
 "In the previous lesson, your function would draw squares of a fixed size. "
 "Using a parameter, code a function to draw squares of any size."
@@ -483,7 +480,6 @@ msgid "Drawing rectangles of any size"
 msgstr "Dibujar rectángulos de cualquier tamaño"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:348
-#, fuzzy
 msgid ""
 "Let's make our square drawing function more flexible to include rectangles "
 "of varying sizes.\n"
@@ -495,25 +491,24 @@ msgid ""
 "Note that we could still draw a square with [code]draw_rectangle()[/code] by "
 "having the [code]length[/code] and [code]height[/code] equal the same value."
 msgstr ""
-"Hagamos que nuestra función de dibujo de cuadrados sea más flexible para "
+"Hagamos que nuestra función para dibujar cuadrados sea más flexible para "
 "incluir rectángulos de distintos tamaños.\n"
 "\n"
-"Tu trabajo es codificar una función llamada [code]dibujar_rectángulo()[/"
-"code] que tome dos parámetros: la [code]longitud[/code] y la [code]altura[/"
-"code] del rectángulo.\n"
+"Tu trabajo es codificar una función llamada [code]draw_rectangle()[/code] "
+"que tome dos parámetros: [code]length[/code] y ([code]height[/code], que "
+"designan la longitud y la altura del rectángulo respectivamente.\n"
 "\n"
-"Ten en cuenta que también podríamos dibujar un cuadrado con "
-"[code]dibujar_rectángulo()[/code] haciendo que la [code]longitud[/code] y la "
-"[code]altura[/code] tengan el mismo valor."
+"Ten en cuenta que aún podríamos dibujar un cuadrado con "
+"[code]draw_rectangle()[/code] haciendo que [code]length[/code] y "
+"[code]height[/code] tengan el mismo valor."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:359
-#, fuzzy
 msgid ""
 "With one parameter, you can make squares of any size. With two, you can draw "
 "any rectangle! You'll do so in this practice."
 msgstr ""
 "Con un parámetro, puedes hacer cuadrados de cualquier tamaño. Con dos, "
-"puedes dibujar cualquier rectángulo Así lo harás en esta práctica."
+"¡puedes dibujar cualquier rectángulo! Así lo harás en esta práctica."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:363
 msgid "Your First Function Parameter"
