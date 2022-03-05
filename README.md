@@ -1,14 +1,32 @@
 # Working with translations
 
-The app offers internationalization support using PO (gettext) files. It's a popular format among translation professionals, and it has native support in Godot.
+You can contribute translations to the Free app [Learn GDScript From Zero](https://github.com/GDQuest/learn-gdscript/) in this repository. 
 
-**We hired a professional to translate the app to Spanish and French. So for now, please don't work on Spanish or French translations. Thanks for your understanding.**
+![](images/app-practice-screen.png)
+
+We keep translations separate from the app's source code to simplify the contribution process.
+
+**For now, please don't work on Spanish or French translations. We hired a professional to completely translate the app to both Spanish and French, so your contributions to those two languages would be lost. Thank you for your understanding.**
 
 ## How to contribute translations
 
-You can contribute translations in this repository. We keep them separate from the main app to simplify the process for contributors.
+The app offers internationalization support using PO (gettext) files. It's a popular format among translation professionals, and it has native support in Godot.
 
-We're setting up Weblate to allow you to translate and check translations directly in the browser. In the meantime, you can contribute using the workflow described below.
+### Contributing using Weblate
+
+You can contribute translations using the online program Weblate. It's an excellent open-source online app designed for community-driven translations.
+
+![](images/weblate.png)
+
+If you decide to use the platform, please check the open pull requests (translation contributions on this translation repository) first: https://github.com/GDQuest/learn-gdscript-translations/pulls
+
+Weblate will not detect and synchronize with those pull requests until we integrate them into the repository. If there is an open pull request for your target language, please coordinate with contributors and us to avoid losing work.
+
+If there is no open pull request for your desired language, you can get started on Weblate right away.
+
+Translate the app using Weblate today: https://hosted.weblate.org/projects/learn-gdscript-from-zero/
+
+We warmly thank Weblate for giving us access to their free hosted plan for open source projects.
 
 ### Adding translations to PO files
 
@@ -19,6 +37,8 @@ _Note: we hired a professional translator to translate the app to Spanish fully,
 There, you'll find PO translation files. To edit those, you'll need a dedicated program.
 
 There are several free and open-source translation programs you can use to translate PO files. We recommend [Poedit](https://poedit.net/) as it's available on all three major desktop platforms and it offers an accessible interface.
+
+![](images/poedit.png)
 
 Among other features, it allows you to mark translations you're unsure of as "needing work" so another translator can check it before publishing it.
 
