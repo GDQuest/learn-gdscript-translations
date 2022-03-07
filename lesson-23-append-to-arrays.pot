@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-03 08:35+0100\n"
+"POT-Creation-Date: 2022-03-07 21:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -139,10 +139,13 @@ msgid ""
 "[code]pop_back()[/code] array function.\n"
 "\n"
 "This function removes (pops) the last value from the array and returns it"
-" to you."
+" to you.\n"
+"\n"
+"Here we pop the last value of the array and print what's left of the "
+"array to demonstrate how the array gets smaller."
 msgstr ""
 
-#: course/lesson-23-append-to-arrays/lesson.tres:245
+#: course/lesson-23-append-to-arrays/lesson.tres:247
 msgid ""
 "Like [code]pop_front()[/code], the function returns the value removed "
 "from the array. You will often store that value in a variable.\n"
@@ -154,15 +157,15 @@ msgid ""
 "[code]pop_front()[/code], and [code]pop_back()[/code] array functions."
 msgstr ""
 
-#: course/lesson-23-append-to-arrays/lesson.tres:257
+#: course/lesson-23-append-to-arrays/lesson.tres:259
 msgid "Completing orders"
 msgstr ""
 
-#: course/lesson-23-append-to-arrays/lesson.tres:258
+#: course/lesson-23-append-to-arrays/lesson.tres:260
 msgid ""
 "The [code]waiting_orders[/code] array will be filled over time.\n"
 "\n"
-"Your job is to move orders from waiting list  to "
+"Your job is to move orders from waiting list to "
 "[code]completed_orders[/code] list using the array's "
 "[code]append()[/code] and [code]pop_front()[/code] functions.\n"
 "\n"
@@ -171,17 +174,17 @@ msgid ""
 " to another function."
 msgstr ""
 
-#: course/lesson-23-append-to-arrays/lesson.tres:273
+#: course/lesson-23-append-to-arrays/lesson.tres:275
 msgid ""
 "Orders are piling up in the kitchen, and we need to clear them fast using"
 " the array's [code]pop_front()[/code] function."
 msgstr ""
 
-#: course/lesson-23-append-to-arrays/lesson.tres:278
+#: course/lesson-23-append-to-arrays/lesson.tres:280
 msgid "Clearing up the crates"
 msgstr ""
 
-#: course/lesson-23-append-to-arrays/lesson.tres:279
+#: course/lesson-23-append-to-arrays/lesson.tres:281
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping"
 " them from the [code]crates[/code] array.\n"
@@ -195,13 +198,13 @@ msgid ""
 "software."
 msgstr ""
 
-#: course/lesson-23-append-to-arrays/lesson.tres:295
+#: course/lesson-23-append-to-arrays/lesson.tres:297
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping"
 " them from their array."
 msgstr ""
 
-#: course/lesson-23-append-to-arrays/lesson.tres:299
+#: course/lesson-23-append-to-arrays/lesson.tres:301
 msgid "Appending and popping values from arrays"
 msgstr ""
 

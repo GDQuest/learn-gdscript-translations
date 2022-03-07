@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-03 08:35+0100\n"
+"POT-Creation-Date: 2022-03-07 21:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,8 +35,8 @@ msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:27
 msgid ""
-"Many functions built into with GDScript make calculations and return a "
-"new value.\n"
+"Many functions built into GDScript make calculations and return a new "
+"value.\n"
 "\n"
 "For example, the [code]round()[/code] function takes a decimal number as "
 "an argument and gives you back a new number rounded to the nearest digit."
@@ -145,23 +145,16 @@ msgid ""
 "\n"
 "The function takes a [code]Vector2[/code] cell coordinates as an "
 "argument. It should return the corresponding [code]Vector2[/code] screen "
-"coordinates at the center of the cell.\n"
-"\n"
-"Every cell is a square of size [code]cell_size[/code]. You can multiply "
-"the [code]cell[/code] by this value to calculate the top-left of a cell "
-"in screen coordinates.\n"
-"\n"
-"To get the center of a cell, you need to add half the "
-"[code]cell_size[/code] to the product."
+"coordinates at the center of the cell."
 msgstr ""
 
-#: course/lesson-22-functions-return-values/lesson.tres:226
+#: course/lesson-22-functions-return-values/lesson.tres:222
 msgid ""
 "We lost the function to convert grid coordinates, but we desperately need"
 " it for our game! Make the turtle move again by coding it."
 msgstr ""
 
-#: course/lesson-22-functions-return-values/lesson.tres:230
+#: course/lesson-22-functions-return-values/lesson.tres:226
 msgid "Functions that return a value"
 msgstr ""
 

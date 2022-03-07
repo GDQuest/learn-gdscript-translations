@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-05 13:08+0100\n"
+"POT-Creation-Date: 2022-03-07 21:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,11 +86,11 @@ msgid "\"healing heart\""
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
-msgid "\"ice gem\""
+msgid "\"shield\""
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
-msgid "\"fire gem\""
+msgid "\"sword\""
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:120
@@ -128,7 +128,7 @@ msgid ""
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:168
-msgid "How would you access how many ice gems the player has?"
+msgid "How would you access how many gems the player has?"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:171
@@ -136,21 +136,20 @@ msgid ""
 "We need to make sure the key is the same as we defined in the dictionary."
 "\n"
 "\n"
-"In our case, [code]var item_count = inventory[\"ice gem\"][/code] is "
-"correct."
+"In our case, [code]var item_count = inventory[\"gems\"][/code] is correct."
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 #: course/lesson-25-creating-dictionaries/lesson.tres:175
-msgid "var item_count = inventory[\"ice gem\"]"
+msgid "var item_count = inventory[\"gem\"]"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
-msgid "var item_count = inventory[\"ice gems\"]"
+msgid "var item_count = inventory[\"gems\"]"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
-msgid "var item_count = inventory[\"fire gem\"]"
+msgid "var item_count = inventory[\"sword\"]"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:182
@@ -184,8 +183,8 @@ msgid ""
 " to the dictionary:\n"
 "\n"
 "- Three \"healing heart\".\n"
-"- Two \"fire gem\".\n"
-"- One \"ice gem\".\n"
+"- Nine \"gems\".\n"
+"- One \"sword\".\n"
 "\n"
 "The keys should be text strings, and the values whole numbers."
 msgstr ""
@@ -212,7 +211,7 @@ msgid ""
 "should increase the value by [code]amount[/code].\n"
 "\n"
 "To test this practice, we'll use your [code]add_item()[/code] function to"
-" increase the item count of Healing Heart, Fire Gem, and Ice Gem."
+" increase the item count of Healing Heart, Gems, and Sword."
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:262
