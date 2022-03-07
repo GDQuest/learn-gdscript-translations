@@ -1,0 +1,236 @@
+# Translations template for Learn GDScript From Zero.
+# Copyright (C) 2022 GDQuest
+# This file is distributed under the same license as the Learn GDScript From
+# Zero project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Learn GDScript From Zero\n"
+"Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
+"POT-Creation-Date: 2022-03-03 08:35+0100\n"
+"PO-Revision-Date: 2022-03-04 15:20+0100\n"
+"Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: course/lesson-21-strings/lesson.tres:14
+#, fuzzy
+msgid ""
+"Throughout this course, we've mostly stored numbers in variables. But what "
+"if we wanted to store a player's name?\n"
+"\n"
+"This is where strings help us.\n"
+"\n"
+"Strings are instrumental in games and applications. We use them to display "
+"information such as the description of a spell or the name of a character."
+msgstr ""
+"Während dieses Kurses haben wir hauptsächlich Zahlen in Variablen "
+"gespeichert. Aber was wäre, wenn wir den Namen eines Spielers speichern "
+"wollten?\n"
+"\n"
+"Hier helfen uns Strings.\n"
+"\n"
+"Saiten sind maßgeblich an Spielen und Anwendungen beteiligt. Wir verwenden "
+"sie, um Informationen wie die Beschreibung eines Zauberspruchs oder den "
+"Namen eines Charakters anzuzeigen."
+
+#: course/lesson-21-strings/lesson.tres:36
+#, fuzzy
+msgid "What are strings"
+msgstr "Was sind Strings?"
+
+#: course/lesson-21-strings/lesson.tres:38
+#, fuzzy
+msgid ""
+"A [code]String[/code] is a value type which holds text. To create a "
+"[code]String[/code], you write text wrapped in quotation marks ([code]\"\"[/"
+"code]). For example: [code]\"This is a text string.\"[/code]\n"
+"\n"
+"The quotation marks differentiate strings from other value types and "
+"function names.\n"
+"\n"
+"You may remember we've used strings before in previous lessons."
+msgstr ""
+"Ein [code]String[/code] ist ein Werttyp, der Text enthält. Um eine "
+"[code]String[/code] zu erstellen, schreiben Sie Text, der in "
+"Anführungszeichen ([code]\"\"[/code]) eingeschlossen ist. Beispiel: "
+"[code]\"Dies ist eine Textzeichenfolge.\" [/code]\n"
+"\n"
+"Die Anführungszeichen unterscheiden Zeichenfolgen von anderen Werttypen und "
+"Funktionsnamen.\n"
+"\n"
+"Sie erinnern sich vielleicht, dass wir in früheren Lektionen bereits "
+"Zeichenfolgen verwendet haben."
+
+#: course/lesson-21-strings/lesson.tres:62
+#, fuzzy
+msgid ""
+"Under the hood, strings are arrays of characters. In fact, we can loop "
+"through the characters of a [code]String[/code] in the same way as arrays, "
+"using a [code]for[/code] loop."
+msgstr ""
+"Unter der Haube sind Strings Arrays von Zeichen. Tatsächlich können wir die "
+"Zeichen eines [code]String[/code] auf die gleiche Weise wie Arrays "
+"durchlaufen, indem wir eine [code]for[/code]-Schleife verwenden."
+
+#: course/lesson-21-strings/lesson.tres:80
+#, fuzzy
+msgid "Which of these are strings?"
+msgstr "Welche davon sind Strings?"
+
+#: course/lesson-21-strings/lesson.tres:83
+#, fuzzy
+msgid ""
+"[code]\"1\"[/code] and [code]\"name\"[/code] are strings.\n"
+"\n"
+"[code]\"1\"[/code] only contains a character and [i]doesn't[/i] represent "
+"the number [code]1[/code].\n"
+"\n"
+"[code]\"name\"[/code] is made up of four different characters."
+msgstr ""
+"[code]\"1\"[/code] und [code]\"name\"[/code] sind Zeichenfolgen.\n"
+"\n"
+"[code]\"1\"[/code] enthält nur ein Zeichen und [i]stellt nicht[/i] die Zahl "
+"[code]1[/code] dar.\n"
+"\n"
+"[code]\"name\"[/code] besteht aus vier verschiedenen Zeichen."
+
+#: course/lesson-21-strings/lesson.tres:88
+msgid "1"
+msgstr "1"
+
+#: course/lesson-21-strings/lesson.tres:88
+#: course/lesson-21-strings/lesson.tres:89
+#, fuzzy
+msgid "\"1\""
+msgstr "\"1\""
+
+#: course/lesson-21-strings/lesson.tres:88
+#: course/lesson-21-strings/lesson.tres:89
+#, fuzzy
+msgid "\"name\""
+msgstr "Der Name einer Funktion."
+
+#: course/lesson-21-strings/lesson.tres:96
+#, fuzzy
+msgid "Why we use strings"
+msgstr "Warum wir Strings verwenden"
+
+#: course/lesson-21-strings/lesson.tres:118
+#, fuzzy
+msgid ""
+"Every piece of text you see in this app is a string that Godot is displaying "
+"for us.\n"
+"\n"
+"Much like how [code]Vector2[/code] variables make calculations easier, "
+"string variables come with many helper functions and tricks we can use.\n"
+"\n"
+"We can use arrays to store strings too. This is useful for chaining "
+"animations. In this example, the [code]play_animation()[/code] plays a "
+"specific animation"
+msgstr ""
+"Jeder Text, den Sie in dieser App sehen, ist eine Zeichenfolge, die Godot "
+"für uns anzeigt.\n"
+"\n"
+"Ähnlich wie [code]Vector2[/code] Variablen Berechnungen erleichtern, kommen "
+"String-Variablen mit vielen Hilfsfunktionen und Tricks, die wir verwenden "
+"können.\n"
+"\n"
+"Wir können Arrays auch zum Speichern von Zeichenfolgen verwenden. Dies ist "
+"nützlich für die Verkettung von Animationen. In diesem Beispiel spielt die "
+"[code]play_animation()[/code] eine bestimmte Animation ab."
+
+#: course/lesson-21-strings/lesson.tres:142
+#, fuzzy
+msgid ""
+"In the next few practices, we'll use strings in combination with different "
+"concepts from earlier lessons."
+msgstr ""
+"In den nächsten Übungen werden wir Zeichenfolgen in Kombination mit "
+"verschiedenen Konzepten aus früheren Lektionen verwenden."
+
+#: course/lesson-21-strings/lesson.tres:150
+#, fuzzy
+msgid "Creating string variables"
+msgstr "Erstellen von Zeichenfolgenvariablen"
+
+#: course/lesson-21-strings/lesson.tres:151
+#, fuzzy
+msgid ""
+"Currently, the robot has a number stored in the [code]robot_name[/code] "
+"variable. \n"
+"\n"
+"Change the [code]robot_name[/code] variable so that it's a string instead. "
+"You can give it any name you'd like."
+msgstr ""
+"Derzeit hat der Roboter eine Nummer, die in der Variablen [code]robot_name[/"
+"code] gespeichert ist. \n"
+"\n"
+"Ändern Sie die Variable [code]robot_name[/code], sodass es sich stattdessen "
+"um eine Zeichenfolge handelt. Sie können ihm einen beliebigen Namen geben."
+
+#: course/lesson-21-strings/lesson.tres:161
+#, fuzzy
+msgid "Give the robot a readable name using a string stored in a variable."
+msgstr ""
+"Geben Sie dem Roboter einen lesbaren Namen mithilfe einer in einer Variablen "
+"gespeicherten Zeichenfolge."
+
+#: course/lesson-21-strings/lesson.tres:166
+#, fuzzy
+msgid "Using an array of strings to play a combo"
+msgstr ""
+"Verwenden eines Arrays von Zeichenfolgen zum Abspielen einer Kombination"
+
+#: course/lesson-21-strings/lesson.tres:167
+#, fuzzy
+msgid ""
+"In this practice, we'll chain together animations using an array of strings. "
+"You might find such combinations in fighting games.\n"
+"\n"
+"The robot has the following animation names:\n"
+"\n"
+"- [code]jab[/code] (makes the robot perform a quick punch)\n"
+"- [code]uppercut[/code] (the robot uses a powerful jumping punch)\n"
+"\n"
+"Populate the combo array with animation names as strings.\n"
+"\n"
+"Then, for each action in the array, call the [code]play_animation()[/code] "
+"function to play them.\n"
+"\n"
+"The robot should do the following actions in order: [code]jab, jab, "
+"uppercut[/code]"
+msgstr ""
+"In dieser Praxis verketten wir Animationen mithilfe eines Arrays von "
+"Zeichenfolgen. Sie können solche Kombinationen in Kampfspielen finden.\n"
+"\n"
+"Der Roboter hat die folgenden Animationsnamen:\n"
+"\n"
+"- [code]jab[/code] (lässt den Roboter einen schnellen Schlag ausführen)\n"
+"- [code]uppercut[/code] (der Roboter verwendet einen mächtigen Jumping "
+"Punch)\n"
+"\n"
+"Füllen Sie das Kombinationsarray mit Animationsnamen als Zeichenfolgen auf.\n"
+"\n"
+"Rufen Sie dann für jede Aktion im Array die Funktion [code]play_animation()[/"
+"code] auf, um sie wiederzugeben.\n"
+"\n"
+"Der Roboter sollte der Reihe nach die folgenden Aktionen ausführen: "
+"[code]jab, jab, uppercut[/code]"
+
+#: course/lesson-21-strings/lesson.tres:186
+#, fuzzy
+msgid "Define an array of strings to unleash a powerful combo."
+msgstr ""
+"Definieren Sie ein Array von Strings, um eine mächtige Combo freizusetzen."
+
+#: course/lesson-21-strings/lesson.tres:190
+msgid "Strings"
+msgstr "Strings"
