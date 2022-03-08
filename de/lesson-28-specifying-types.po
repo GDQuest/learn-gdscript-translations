@@ -1,0 +1,306 @@
+# Translations template for Learn GDScript From Zero.
+# Copyright (C) 2022 GDQuest
+# This file is distributed under the same license as the Learn GDScript From
+# Zero project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Learn GDScript From Zero\n"
+"Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
+"POT-Creation-Date: 2022-03-03 08:35+0100\n"
+"PO-Revision-Date: 2022-03-04 15:25+0100\n"
+"Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: course/lesson-28-specifying-types/lesson.tres:13
+#, fuzzy
+msgid ""
+"By default, GDScript is what we call a dynamically-typed language. That "
+"means that you can just write variables, assign them a value with a number, "
+"and assign them another value with a different type.\n"
+"\n"
+"Unlike in some other languages, in GDScript, the following code is valid."
+msgstr ""
+"Standardmäßig ist GDScript eine so genannte dynamisch typisierte Sprache. "
+"Das bedeutet, dass Sie einfach Variablen schreiben, ihnen einen Wert mit "
+"einer Zahl zuweisen und ihnen einen anderen Wert mit einem anderen Typ "
+"zuweisen können.\n"
+"\n"
+"Im Gegensatz zu einigen anderen Sprachen ist in GDScript der folgende Code "
+"gültig."
+
+#: course/lesson-28-specifying-types/lesson.tres:35
+#, fuzzy
+msgid ""
+"But this feature often causes problems down the line. Let's take one example."
+msgstr ""
+"Aber diese Funktion verursacht oft Probleme auf der ganzen Linie. Nehmen wir "
+"ein Beispiel."
+
+#: course/lesson-28-specifying-types/lesson.tres:43
+#, fuzzy
+msgid "Cell size: decimal number, or 2D vector?"
+msgstr "Zellengröße: Dezimalzahl oder 2D-Vektor?"
+
+#: course/lesson-28-specifying-types/lesson.tres:45
+#, fuzzy
+msgid ""
+"Games use grids all the time, be it for grid-based gameplay or to make "
+"algorithms faster.\n"
+"\n"
+"When working with grids, you need to convert grid coordinates into positions "
+"in the game world all the time. To do so, you give each cell a size in "
+"pixels.\n"
+"\n"
+"You'll likely pick one of two types for that: [code]float[/code] or "
+"[code]Vector2[/code].\n"
+"\n"
+"Either of those two values would be fine:"
+msgstr ""
+"Spiele verwenden ständig Grids, sei es für Grid-basiertes Gameplay oder um "
+"Algorithmen schneller zu machen.\n"
+"\n"
+"Wenn Sie mit Rastern arbeiten, müssen Sie ständig Gitterkoordinaten in "
+"Positionen in der Spielwelt umwandeln. Dazu geben Sie jeder Zelle eine Größe "
+"in Pixeln.\n"
+"\n"
+"Sie werden wahrscheinlich einen von zwei Typen dafür auswählen: [code]float[/"
+"code] oder [code]Vector2[/code].\n"
+"\n"
+"Jeder dieser beiden Werte wäre in Ordnung:"
+
+#: course/lesson-28-specifying-types/lesson.tres:71
+#, fuzzy
+msgid ""
+"Using a [code]Vector2[/code] could simplify some calculations. For example, "
+"when converting grid coordinates to game world coordinates."
+msgstr ""
+"Die Verwendung eines [code]Vector2[/code] könnte einige Berechnungen "
+"vereinfachen. Zum Beispiel beim Konvertieren von Gitterkoordinaten in "
+"Spielweltkoordinaten."
+
+#: course/lesson-28-specifying-types/lesson.tres:91
+#, fuzzy
+msgid ""
+"In this example, because both [code]cell[/code] and [code]cell_size[/code] "
+"are [code]Vector2[/code] values, we can add them.\n"
+"\n"
+"However, if [code]cell_size[/code] is a [code]float[/code], we will get a "
+"type error."
+msgstr ""
+"Da in diesem Beispiel sowohl [code]cell[/code] als auch [code]cell_size[/"
+"code] [code]Vector2[/code]-Werte sind, können wir sie hinzufügen.\n"
+"\n"
+"Wenn [code]cell_size[/code] jedoch ein [code]float[/code] ist, erhalten wir "
+"einen Typfehler."
+
+#: course/lesson-28-specifying-types/lesson.tres:123
+#, fuzzy
+msgid ""
+"Worse: due to dynamic typing, we won't get an error [i]right away[/i]. We "
+"will only get the error when calling [code]grid_to_world(Vector2(1, 1))[/"
+"code].\n"
+"\n"
+"And that's a big problem."
+msgstr ""
+"Schlimmer noch: Aufgrund der dynamischen Eingabe erhalten wir nicht sofort "
+"einen Fehler [i][/i]. Wir erhalten den Fehler nur, wenn wir "
+"[code]grid_to_world(Vector2(1, 1))[/code] aufrufen.\n"
+"\n"
+"Und das ist ein großes Problem."
+
+#: course/lesson-28-specifying-types/lesson.tres:135
+#, fuzzy
+msgid ""
+"Because we're learning, we only have small code examples in this course. But "
+"your games' code will get long and split into many files. When coding, you "
+"often forget about the code you wrote several weeks ago.\n"
+"\n"
+"And with a lot of code, it could take [i]hours[/i] of play before players "
+"trigger a type error in your code."
+msgstr ""
+"Da wir lernen, haben wir in diesem Kurs nur kleine Codebeispiele. Aber der "
+"Code Ihrer Spiele wird lang und in viele Dateien aufgeteilt. Beim Codieren "
+"vergisst man oft den Code, den man vor einigen Wochen geschrieben hat.\n"
+"\n"
+"Und mit viel Code kann es [i]Stunden[/i] des Spiels dauern, bis Spieler "
+"einen Tippfehler in Ihrem Code auslösen."
+
+#: course/lesson-28-specifying-types/lesson.tres:145
+#, fuzzy
+msgid "Using type hints"
+msgstr "Verwenden von Typhinweisen"
+
+#: course/lesson-28-specifying-types/lesson.tres:147
+#, fuzzy
+msgid ""
+"Fortunately, since recent versions, GDScript got optional [i]type hints[/"
+"i].\n"
+"\n"
+"Type hints let the computer know the value type you want for variables and "
+"report errors before running the code.\n"
+"\n"
+"To specify the type a variable can accept, you can write a colon and a type "
+"after the name when defining a new variable."
+msgstr ""
+"Glücklicherweise hat GDScript seit den letzten Versionen optionale Hinweise "
+"vom Typ [i][/i] erhalten.\n"
+"\n"
+"Typhinweise teilen dem Computer den gewünschten Werttyp für Variablen mit "
+"und melden Fehler, bevor der Code ausgeführt wird.\n"
+"\n"
+"Um den Typ anzugeben, den eine Variable akzeptieren kann, können Sie beim "
+"Definieren einer neuen Variablen einen Doppelpunkt und einen Typ nach dem "
+"Namen schreiben."
+
+#: course/lesson-28-specifying-types/lesson.tres:171
+#, fuzzy
+msgid ""
+"You could tell the computer you want [code]cell_size[/code] only to accept "
+"[code]Vector2[/code] values like so."
+msgstr ""
+"Sie können dem Computer mitteilen, dass [code]cell_size[/code] nur "
+"[code]Vector2[/code]-Werte wie folgt akzeptieren soll."
+
+#: course/lesson-28-specifying-types/lesson.tres:191
+#, fuzzy
+msgid ""
+"If you try to replace the [code]cell_size[/code] with a value of another "
+"type later, the computer will not let you."
+msgstr ""
+"Wenn Sie später versuchen, die [code]cell_size[/code] durch einen Wert eines "
+"anderen Typs zu ersetzen, lässt der Computer Sie nicht zu."
+
+#: course/lesson-28-specifying-types/lesson.tres:219
+#, fuzzy
+msgid "Letting the computer figure it out"
+msgstr "Lassen Sie den Computer es herausfinden"
+
+#: course/lesson-28-specifying-types/lesson.tres:221
+#, fuzzy
+msgid ""
+"GDScript comes with a feature called type inference. In many cases, but not "
+"all, the computer can figure out the type of a variable for you.\n"
+"\n"
+"To do so, you write [code]:=[/code], without the type. The computer will set "
+"the type using the value after the equal sign. We could make "
+"[code]cell_size[/code] a variable of type [code]Vector2[/code] like so:"
+msgstr ""
+"GDScript wird mit einer Funktion namens Typinferenz geliefert. In vielen "
+"Fällen, aber nicht in allen, kann der Computer den Typ einer Variablen für "
+"Sie herausfinden.\n"
+"\n"
+"Dazu schreiben Sie [code]:=[/code], ohne den Typ. Der Computer legt den Typ "
+"mithilfe des Werts nach dem Gleichheitszeichen fest. Wir könnten "
+"[code]cell_size[/code] zu einer Variablen vom Typ [code]Vector2[/code] wie "
+"folgt machen:"
+
+#: course/lesson-28-specifying-types/lesson.tres:243
+#, fuzzy
+msgid ""
+"This takes little typing, yet you get the benefits of using type hints, like "
+"the computer reporting errors better and faster."
+msgstr ""
+"Dies erfordert wenig Tippen, aber Sie profitieren von den Vorteilen der "
+"Verwendung von Tipphinweisen, z. B. wenn der Computer Fehler besser und "
+"schneller meldet."
+
+#: course/lesson-28-specifying-types/lesson.tres:251
+#, fuzzy
+msgid "Why bother to add hints?"
+msgstr "Warum sich die Mühe machen, Hinweise hinzuzufügen?"
+
+#: course/lesson-28-specifying-types/lesson.tres:253
+#, fuzzy
+msgid ""
+"When you give the language hints like that, it will [i]prevent[/i] major "
+"type errors. When you work in Godot, you will see that the computer can "
+"report issues as you write the code. It makes the benefit even greater.\n"
+"\n"
+"Type hints can also help improve the readability of your code. It can help "
+"to put more information directly in the code. As we saw, types are essential "
+"when coding, and when using type hints, the computer will add them to the "
+"engine's built-in code documentation system.\n"
+"\n"
+"There's an incredible third benefit for you: by using type hints, you will "
+"learn types much faster. It's excellent for learning.\n"
+"\n"
+"In the following practices, you will write the correct type hints to make "
+"the code error-free."
+msgstr ""
+"Wenn Sie der Sprache solche Hinweise geben, wird [i] größere Tippfehler "
+"verhindert. Wenn Sie in Godot arbeiten, werden Sie sehen, dass der Computer "
+"Probleme melden kann, während Sie den Code schreiben. Es macht den Nutzen "
+"noch größer.\n"
+"\n"
+"Typhinweise können auch dazu beitragen, die Lesbarkeit des Codes zu "
+"verbessern. Es kann helfen, mehr Informationen direkt in den Code "
+"einzufügen. Wie wir gesehen haben, sind Typen beim Codieren unerlässlich, "
+"und wenn Typhinweise verwendet werden, fügt der Computer sie dem "
+"integrierten Codedokumentationssystem des Moduls hinzu.\n"
+"\n"
+"Es gibt einen unglaublichen dritten Vorteil für Sie: Durch die Verwendung "
+"von Typhinweisen lernen Sie Typen viel schneller. Es eignet sich "
+"hervorragend zum Lernen.\n"
+"\n"
+"In den folgenden Übungen schreiben Sie die richtigen Typhinweise, um den "
+"Code fehlerfrei zu machen."
+
+#: course/lesson-28-specifying-types/lesson.tres:267
+#, fuzzy
+msgid "Add the correct type hints to variables"
+msgstr "Hinzufügen der richtigen Typhinweise zu Variablen"
+
+#: course/lesson-28-specifying-types/lesson.tres:268
+#, fuzzy
+msgid ""
+"Our variables get the correct values but not the right hints. Using your "
+"type-fu, add the correct type names in the variable definitions.\n"
+"\n"
+"You need to write the type name between the colon and the equal sign.\n"
+"\n"
+"Note: You cannot use type inference in this practice. You need to write the "
+"type name in full."
+msgstr ""
+"Unsere Variablen erhalten die richtigen Werte, aber nicht die richtigen "
+"Hinweise. Fügen Sie mit type-fu die richtigen Typnamen in den "
+"Variablendefinitionen hinzu.\n"
+"\n"
+"Sie müssen den Typnamen zwischen den Doppelpunkt und das Gleichheitszeichen "
+"schreiben.\n"
+"\n"
+"Hinweis: Sie können in dieser Praxis keine Typinferenz verwenden. Sie müssen "
+"den Typnamen vollständig schreiben."
+
+#: course/lesson-28-specifying-types/lesson.tres:287
+#, fuzzy
+msgid "Fix the values to match the type hints"
+msgstr "Korrigieren der Werte, die den Typhinweisen entsprechen"
+
+#: course/lesson-28-specifying-types/lesson.tres:288
+#, fuzzy
+msgid ""
+"It is the other way around in this practice: the type hints are fine, but "
+"the values are not.\n"
+"\n"
+"Your task is to fix the values after the equal sign, so they match the type "
+"hint of each variable."
+msgstr ""
+"Bei dieser Praxis ist es umgekehrt: Die Typenhinweise sind in Ordnung, die "
+"Werte jedoch nicht.\n"
+"\n"
+"Ihre Aufgabe besteht darin, die Werte nach dem Gleichheitszeichen so zu "
+"korrigieren, dass sie mit dem Typhinweis jeder Variablen übereinstimmen."
+
+#: course/lesson-28-specifying-types/lesson.tres:304
+#, fuzzy
+msgid "Specifying types with type hints"
+msgstr "Typen mit Typenhinweisen angeben"

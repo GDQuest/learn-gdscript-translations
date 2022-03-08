@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-18 15:02+0300\n"
+"POT-Creation-Date: 2022-03-07 21:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:14
 msgid ""
@@ -293,17 +293,17 @@ msgid ""
 "[code]length[/code] parameter to draw corners."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:307
+#: course/lesson-6-multiple-function-parameters/lesson.tres:309
 msgid ""
 "Using function parameters, code a function you can reuse to draw corners "
 "with lines of varying sizes."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:312
+#: course/lesson-6-multiple-function-parameters/lesson.tres:314
 msgid "Using multiple parameters"
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:313
+#: course/lesson-6-multiple-function-parameters/lesson.tres:315
 msgid ""
 "In this practice, we'll improve our [code]draw_corner()[/code] function "
 "so the angle can also vary.\n"
@@ -312,15 +312,15 @@ msgid ""
 "function and use it to draw corners of varying angles."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:325
+#: course/lesson-6-multiple-function-parameters/lesson.tres:329
 msgid "With two parameters, code a function to draw corners with any angle."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:330
+#: course/lesson-6-multiple-function-parameters/lesson.tres:334
 msgid "Drawing squares of any size"
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:331
+#: course/lesson-6-multiple-function-parameters/lesson.tres:335
 msgid ""
 "We want a function to draw squares of any size.\n"
 "\n"
@@ -328,20 +328,23 @@ msgid ""
 " game, as a frame for items in an inventory, and more.\n"
 "\n"
 "Create a function named [code]draw_square()[/code] that takes one "
-"parameter: the [code]length[/code] of the square's sides."
+"parameter: the [code]length[/code] of the square's sides.\n"
+"\n"
+"The turtle should face towards the right when starting or completing a "
+"rectangle."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:342
+#: course/lesson-6-multiple-function-parameters/lesson.tres:350
 msgid ""
 "In the previous lesson, your function would draw squares of a fixed size."
 " Using a parameter, code a function to draw squares of any size."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:347
+#: course/lesson-6-multiple-function-parameters/lesson.tres:355
 msgid "Drawing rectangles of any size"
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:348
+#: course/lesson-6-multiple-function-parameters/lesson.tres:356
 msgid ""
 "Let's make our square drawing function more flexible to include "
 "rectangles of varying sizes.\n"
@@ -350,18 +353,21 @@ msgid ""
 "takes two parameters: the [code]length[/code] and the [code]height[/code]"
 " of the rectangle.\n"
 "\n"
+"The turtle should face towards the right when starting or completing a "
+"rectangle.\n"
+"\n"
 "Note that we could still draw a square with [code]draw_rectangle()[/code]"
 " by having the [code]length[/code] and [code]height[/code] equal the same"
 " value."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:359
+#: course/lesson-6-multiple-function-parameters/lesson.tres:379
 msgid ""
 "With one parameter, you can make squares of any size. With two, you can "
 "draw any rectangle! You'll do so in this practice."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:363
+#: course/lesson-6-multiple-function-parameters/lesson.tres:383
 msgid "Your First Function Parameter"
 msgstr ""
 

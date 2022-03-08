@@ -9,22 +9,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-18 15:02+0300\n"
+"POT-Creation-Date: 2022-03-07 21:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:14
 msgid ""
 "Learning to program can be daunting.\n"
 "\n"
-"Yet, you want to make video games, so there is no way around learning to "
-"program. Every video game is a computer program.\n"
-"\n"
+"Yet, you want to make video games, so [b]there is no way around learning "
+"to program[/b]. [i]Every[/i] video game is a computer program."
+msgstr ""
+
+#: course/lesson-1-what-code-is-like/lesson.tres:24
+msgid "Telling the computer what to do"
+msgstr ""
+
+#: course/lesson-1-what-code-is-like/lesson.tres:26
+msgid ""
 "Programming is the process of writing precise instructions that tell a "
 "computer how to perform a task.\n"
 "\n"
@@ -32,81 +39,77 @@ msgid ""
 "life bar, or playing a sound."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:30
+#: course/lesson-1-what-code-is-like/lesson.tres:38
 msgid ""
-"To do any of that, you need to learn a programming language: a "
-"specialized language to tell the computer what to do.\n"
-"\n"
+"To do any of that, you need to learn a [b]programming language[/b]: a "
+"specialized language to tell the computer what to do."
+msgstr ""
+
+#: course/lesson-1-what-code-is-like/lesson.tres:58
+msgid ""
 "Programming languages are different from natural ones like English or "
-"Spanish. The computer does not think. It can't [i]interpret[/i] what you "
-"tell it.\n"
+"Spanish. The computer does not think. Unlike us,it can't [i]interpret[/i]"
+" what you tell it.\n"
 "\n"
-"So you can't tell it something vague like \"draw a circle.\"\n"
+"You can't tell it something vague like \"draw a circle.\"\n"
 "\n"
 "Which circle? Where? Which color should it be? How big should it be?"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:46
+#: course/lesson-1-what-code-is-like/lesson.tres:70
+msgid "The computer needs exact instructions"
+msgstr ""
+
+#: course/lesson-1-what-code-is-like/lesson.tres:72
 msgid ""
 "To draw a filled circle, the computer needs to know exact drawing "
-"coordinates, the radius, the thickness, and color you want for the "
-"outline.\n"
+"coordinates, the radius, the thickness, and color you want.\n"
 "\n"
 "The code to do so [i]may[/i] look like this.\n"
 "\n"
-"[i]Click the Run button to run the code example and see the result.[/i]"
-msgstr ""
-
-#: course/lesson-1-what-code-is-like/lesson.tres:70
-msgid ""
-"[i]The dark gray parts following the \"#\" sign are comments, they're not"
-" part of the code. The computer skips comments.[/i]"
-msgstr ""
-
-#: course/lesson-1-what-code-is-like/lesson.tres:80
-msgid ""
-"In the following lessons, you'll learn how this code works and what each "
-"part means.\n"
-"\n"
-"For now, we want to give you a sense of what computer code looks like: in"
-" this example, each parenthesis, capital letter, period, and comma "
-"matter.\n"
-"\n"
-"The computer will always do exactly what you tell it to. No more, no "
-"less. It [i]blindly[/i] follows every instruction.\n"
-"\n"
-"[b]When you program, you're the one in charge, and you're free to do "
-"[i]anything[/i] you want.[/b]\n"
-"\n"
-"At the same time, there is a [i]lot[/i] to learn to tame the dumb beast "
-"that is your computer."
+"[i]Click the button to run the code example and see the result.[/i]"
 msgstr ""
 
 #: course/lesson-1-what-code-is-like/lesson.tres:96
+msgid ""
+"In the following lessons, you'll learn how this code works.\n"
+"\n"
+"For now, we want to give you a sense of what computer code looks like. In"
+" this example, everything matters: each parenthesis, capital letter, "
+"period, and comma.\n"
+"\n"
+"The computer always does [b]exactly[/b] what you tell it to. No more, no "
+"less. It [i]blindly[/i] follows every instruction.\n"
+"\n"
+"[b]When you program, you're the one in charge, and you're free to do "
+"[i]anything[/i] you want.[/b]"
+msgstr ""
+
+#: course/lesson-1-what-code-is-like/lesson.tres:110
 msgid "How do you give instructions to a computer?"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:99
+#: course/lesson-1-what-code-is-like/lesson.tres:113
 msgid ""
 "Computers don't understand natural languages like English. To make them "
 "do anything, you need to give them precise instructions they understand, "
 "using a programming language."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:100
-#: course/lesson-1-what-code-is-like/lesson.tres:101
+#: course/lesson-1-what-code-is-like/lesson.tres:114
+#: course/lesson-1-what-code-is-like/lesson.tres:115
 msgid "Using a programming language and precise instructions"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:100
+#: course/lesson-1-what-code-is-like/lesson.tres:114
 msgid "Using prose in plain English"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:108
+#: course/lesson-1-what-code-is-like/lesson.tres:122
 msgid "You'll learn to code with GDScript"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:110
+#: course/lesson-1-what-code-is-like/lesson.tres:124
 msgid ""
 "In this course, you'll learn the GDScript programming language (the name "
 "stands for \"Godot script\").\n"
@@ -118,20 +121,24 @@ msgid ""
 " Engineers at Tesla use it for their cars' dashboards."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:124
+#: course/lesson-1-what-code-is-like/lesson.tres:148
 msgid ""
-"It's an excellent language to get started with programming because it's "
-"specialized. Unlike some other languages, it doesn't have an overwhelming"
-" amount of features for you to learn.\n"
-"\n"
+"GDScript is an excellent language to get started with programming because"
+" it's specialized. Unlike some other languages, it doesn't have an "
+"[i]overwhelming[/i] amount of features for you to learn."
+msgstr ""
+
+#: course/lesson-1-what-code-is-like/lesson.tres:156
+msgid "Most programming languages are similar"
+msgstr ""
+
+#: course/lesson-1-what-code-is-like/lesson.tres:158
+msgid ""
 "Don't be afraid of being locked in. The concepts you learn in your first "
 "programming language will apply to all the others.\n"
 "\n"
 "Most languages have more similarities than differences. Once you learn "
 "one, it takes much less time to become productive with the next one.\n"
-"\n"
-"Like most game developers, we learned and used more than ten programming "
-"languages.\n"
 "\n"
 "Here's an example of the same code in three languages: GDScript, "
 "JavaScript, and Python.\n"
@@ -139,21 +146,21 @@ msgid ""
 "Try to spot the similarities and differences."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:154
+#: course/lesson-1-what-code-is-like/lesson.tres:184
 msgid "It doesn't look [i]that[/i] different, does it?"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:162
+#: course/lesson-1-what-code-is-like/lesson.tres:192
 msgid "Are programming languages all completely different?"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:163
+#: course/lesson-1-what-code-is-like/lesson.tres:193
 msgid ""
 "If you learn one language and then want to learn another, will you have "
 "to start from scratch?"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:165
+#: course/lesson-1-what-code-is-like/lesson.tres:195
 msgid ""
 "Most programming languages build upon the same ideas of how to program. "
 "As a result, they're mostly similar.\n"
@@ -166,97 +173,101 @@ msgid ""
 "others build upon a similar programming philosophy."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:170
-#: course/lesson-1-what-code-is-like/lesson.tres:171
+#: course/lesson-1-what-code-is-like/lesson.tres:200
+#: course/lesson-1-what-code-is-like/lesson.tres:201
 msgid "No, they have many similarities"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:170
+#: course/lesson-1-what-code-is-like/lesson.tres:200
 msgid "Yes, they are completely different"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:178
+#: course/lesson-1-what-code-is-like/lesson.tres:208
 msgid "This is a course for beginners"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:180
+#: course/lesson-1-what-code-is-like/lesson.tres:210
 msgid ""
 "If you want to learn to make games or code but don't know where to start,"
-" this course should be perfect.\n"
-"\n"
-"We designed it for absolute beginners, but if you already know another "
-"language, it can also be a fun way to get started with Godot.\n"
+" this course should be perfect."
+msgstr ""
+
+#: course/lesson-1-what-code-is-like/lesson.tres:230
+msgid ""
+"We designed it for [i]absolute beginners[/i], but if you already know "
+"another language, it can be a fun way to get started with Godot.\n"
 "\n"
 "We will give you the coding foundations you need to start making games "
 "and applications with Godot.\n"
 "\n"
-"Please be patient. Mind that it will take time before you can make your "
-"first complete game or app alone."
+"Please be patient. It will take time before you can make your first "
+"complete game alone."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:196
+#: course/lesson-1-what-code-is-like/lesson.tres:242
+msgid "Learning to make games takes practice"
+msgstr ""
+
+#: course/lesson-1-what-code-is-like/lesson.tres:244
 msgid ""
 "Creating games is more accessible than ever, but it still takes a lot of "
-"work and practice. Do not expect any single course, or book, to turn you "
-"into a professional. Programming is something you learn through practice."
+"work and practice.\n"
 "\n"
+"Do not expect any single course or book to turn you into a professional. "
+"[b]Programming is something you learn through practice.[/b]\n"
 "\n"
 "If something doesn't make immediate sense, don't stress it too much! Keep"
-" practicing and come back to it later. Enjoy the learning process, and "
-"celebrate every little success.\n"
+" learning and come back to it later.\n"
 "\n"
-"It's important because you will never stop learning as a game designer "
-"and developer. You will keep discovering new and more expressive ways to "
-"program as you gain experience.\n"
-"\n"
-"It's part of the process."
+"Enjoy the process and celebrate every little success. You will never stop"
+" learning as a game developer."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:210
+#: course/lesson-1-what-code-is-like/lesson.tres:258
 msgid "What and how you'll learn"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:212
-msgid "By the end of the series, you will create [b]this[/b]."
+#: course/lesson-1-what-code-is-like/lesson.tres:260
+msgid ""
+"In this free course, you will learn the foundations you need to start "
+"coding things like those."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:232
+#: course/lesson-1-what-code-is-like/lesson.tres:290
 msgid ""
 "Along the way, we'll teach you:\n"
 "\n"
 "- Some of the mindset you need as a developer. Too many programming "
 "courses skip that essential part.\n"
-"- Some foundations of game programming. Knowing that will help you with "
-"any game engine.\n"
-"- How to write real GDScript code.\n"
-"- Most of the GDScript language's syntax.\n"
+"- How to write GDScript code.\n"
+"- Essentials programming foundations to get you started.\n"
 "\n"
 "As you go through the course, you will have many questions. We will "
 "answer them the best we can as we go.\n"
 "\n"
-"But there is so much to cover that we'll have to take a few shortcuts. We"
-" don't want to [i]overwhelm[/i] you with information. We also want to "
+"But there is so much to cover that we have to take a few shortcuts. We "
+"don't want to [i]overwhelm[/i] you with information. We also want to "
 "respect the pace at which our brains memorize things.\n"
 "\n"
-"We broke down the course into bite-size lessons with many short "
-"practices. If we put too much in each part, you'd learn slower.\n"
+"We broke down the course into short lessons and practices. If we put too "
+"much into each part, you'd learn slower.\n"
 "\n"
 "If at any time you're left with burning questions, you're more than "
 "welcome to join [url=https://discord.gg/87NNb3Z]our Discord "
 "community[/url]."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:253
+#: course/lesson-1-what-code-is-like/lesson.tres:310
 msgid "Programming is a skill"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:255
+#: course/lesson-1-what-code-is-like/lesson.tres:312
 msgid ""
 "Programming is a skill, so to get good at it, you must practice. It is "
 "why we built this app.\n"
 "\n"
-"Each short lesson is immediately followed by an interactive practice to "
-"get you to use what you learned.\n"
+"Each lesson is followed by an interactive practice to use what you "
+"learned.\n"
 "\n"
 "Speaking of which, it's time to look at the practice screen!\n"
 "\n"
@@ -264,11 +275,11 @@ msgid ""
 "short run through how practices work."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:269
+#: course/lesson-1-what-code-is-like/lesson.tres:326
 msgid "Try Your First Code"
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:270
+#: course/lesson-1-what-code-is-like/lesson.tres:327
 msgid ""
 "We prepared a code sample for you. For this practice, you don't need to "
 "change anything.\n"
@@ -276,11 +287,11 @@ msgid ""
 "To test the code, click the [i]Run[/i] button below the code editor."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:280
+#: course/lesson-1-what-code-is-like/lesson.tres:339
 msgid "Run your first bit of code and see the result."
 msgstr ""
 
-#: course/lesson-1-what-code-is-like/lesson.tres:284
+#: course/lesson-1-what-code-is-like/lesson.tres:343
 msgid "What Code is Like"
 msgstr ""
 

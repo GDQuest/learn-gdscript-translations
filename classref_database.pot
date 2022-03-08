@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-21 20:14+0300\n"
+"POT-Creation-Date: 2022-03-07 21:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #. Reference: show
 #: ./course/documentation.csv:2
@@ -97,13 +97,65 @@ msgstr ""
 msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
 msgstr ""
 
-#. Reference: select_units
+#. Reference: play_animation
 #: ./course/documentation.csv:16
+msgid "Orders the robot to play an animation."
+msgstr ""
+
+#. Reference: select_units
+#: ./course/documentation.csv:17
 msgid "Selects units in the cell coordinates passed as the function's argument."
 msgstr ""
 
 #. Reference: robot.move_to
-#: ./course/documentation.csv:17
+#: ./course/documentation.csv:18
 msgid "Queues a move animation towards the target cell."
+msgstr ""
+
+#. Reference: array.append
+#: ./course/documentation.csv:19
+msgid "Adds the value passed as an argument at the back of the array."
+msgstr ""
+
+#. Reference: array.pop_front
+#: ./course/documentation.csv:20
+msgid "Removes the first value from the array and returns it."
+msgstr ""
+
+#. Reference: array.pop_back
+#: ./course/documentation.csv:21
+msgid "Removes the last value from the array and returns it."
+msgstr ""
+
+#. Reference: str
+#: ./course/documentation.csv:22
+msgid ""
+"Returns the argument converted into a [code]String[/code]. Works with the"
+" majority of value types."
+msgstr ""
+
+#. Reference: int
+#: ./course/documentation.csv:23
+msgid ""
+"Returns the argument converted into an [code]int[/code] (whole number) "
+"[i]if possible[/i]. Supports converting decimal numbers, strings, and "
+"booleans. Useful to convert player text input into numbers."
+msgstr ""
+
+#. Reference: place_unit
+#: ./course/documentation.csv:24
+msgid ""
+"Creates a new unit matching the type parameter and places it at the "
+"desired cell position on the game grid."
+msgstr ""
+
+#. Reference: display_item
+#: ./course/documentation.csv:25
+msgid "Creates a new item and displays it in the inventory."
+msgstr ""
+
+#. Reference: add_item
+#: ./course/documentation.csv:26
+msgid "Increases the item count by amount."
 msgstr ""
 
