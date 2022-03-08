@@ -6,10 +6,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Learn GDScript From Zero  \n"
+"Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-02-18 15:02+0300\n"
-"PO-Revision-Date: 2022-02-18 15:02+0300\n"
+"PO-Revision-Date: 2022-03-02 08:56+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.9.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 #: course/lesson-10-the-game-loop/lesson.tres:14
 msgid ""
@@ -32,6 +33,16 @@ msgid ""
 "\n"
 "Take the [code]_process()[/code] function."
 msgstr ""
+"Como hemos visto, Godot tiene funciones que realizan ciertas acciones. Por "
+"ejemplo, las funciones [code]show()[/code] y [code]hide()[/code] cambian la "
+"visibilidad de las cosas.\n"
+"\n"
+"También podemos crear nuestras propias funciones para hacer efectos "
+"personalizados, como agregarle o quitarle salud a un personaje.\n"
+"\n"
+"Godot también tiene funciones especiales que podemos personalizar o añadir.\n"
+"\n"
+"Por ejemplo, toma la función [code]_process()[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.tres:40
 msgid ""
@@ -42,16 +53,24 @@ msgid ""
 "are always moving along a conveyor belt, while different machines operate on "
 "them."
 msgstr ""
+"La función [code]_process()[/code] recibe su nombre porque realiza cálculos "
+"o acciones continuas.\n"
+"\n"
+"Es como una fábrica de jugos que [b]procesa[/b] botellas de jugo: las "
+"botellas se mueven siempre a lo largo de una cinta transportadora, mientras "
+"diferentes máquinas operan sobre ellas."
 
 #: course/lesson-10-the-game-loop/lesson.tres:52
 msgid ""
 "It's similar in Godot, but this function can run [b]hundreds of times a "
 "second[/b]."
 msgstr ""
+"Es similar en Godot, pero esta función puede ejecutarse [b]cientos de veces "
+"por segundo[/b]."
 
 #: course/lesson-10-the-game-loop/lesson.tres:60
 msgid "How many parameters does this function take?"
-msgstr ""
+msgstr "¿Cuántos parámetros toma esta función?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:61
 msgid ""
@@ -59,6 +78,9 @@ msgid ""
 "func _process(delta):\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"func _process(delta):\n"
+"[/code]"
 
 #: course/lesson-10-the-game-loop/lesson.tres:65
 msgid ""
@@ -68,15 +90,19 @@ msgid ""
 "We'll look at what [code]delta[/code] is in the next lesson, as well as show "
 "how to use it."
 msgstr ""
+"La función [code]_process()[/code] toma un parámetro: [code]delta[/code].\n"
+"\n"
+"En la próxima lección veremos qué es [code]delta[/code], así como también te "
+"mostraremos cómo utilizarlo."
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
 #: course/lesson-10-the-game-loop/lesson.tres:69
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: course/lesson-10-the-game-loop/lesson.tres:78
 msgid ""
@@ -90,11 +116,22 @@ msgid ""
 "If the function exists, and is called exactly [code]_process[/code], then "
 "Godot will automatically run it every frame. "
 msgstr ""
+"La función [code]_process()[/code] no hará nada hasta que le agreguemos "
+"algo.\n"
+"\n"
+"Puedes observar el guión bajo [code]_[/code] delante del nombre de la "
+"función. Esta es una convención. Significa que la función ya está definida "
+"por Godot.\n"
+"\n"
+"Si la función existe y se llama exactamente [code]_process[/code], entonces "
+"Godot la ejecutará automáticamente en cada fotograma. "
 
 #: course/lesson-10-the-game-loop/lesson.tres:92
 msgid ""
 "Other game engines might use different names like [code]_update()[/code]."
 msgstr ""
+"Otros motores de juegos pueden utilizar nombres diferentes como "
+"[code]_update()[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.tres:102
 msgid ""
@@ -105,6 +142,12 @@ msgid ""
 "\n"
 "Take the following example."
 msgstr ""
+"[font=res://ui/theme/fonts/font_title.tres]¿Por qué es útil [code]_process()"
+"[/code]?[/font]\n"
+"\n"
+"Quizá sea mejor ver la función [code]_process()[/code] en acción\n"
+"\n"
+"Toma el siguiente ejemplo."
 
 #: course/lesson-10-the-game-loop/lesson.tres:126
 msgid ""
@@ -116,10 +159,18 @@ msgid ""
 "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the "
 "character by [code]0.05[/code] radians [b]many[/b] times a second."
 msgstr ""
+"Cuando haces clic en el botón [code]set_process(true)[/code], activas el "
+"procesamiento en el robot.\n"
+"\n"
+"A partir de ahí, en cada fotograma, Godot ejecuta la función [code]_process()"
+"[/code].\n"
+"\n"
+"Como hemos escrito una instrucción [code]rotate()[/code], Godot gira el "
+"personaje [code]0.05[/code] radianes [b]muchas[/b] veces por segundo."
 
 #: course/lesson-10-the-game-loop/lesson.tres:138
 msgid "How often does the _process() function run?"
-msgstr ""
+msgstr "¿Con qué frecuencia se ejecuta la función _process()?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:141
 msgid ""
@@ -128,25 +179,32 @@ msgid ""
 "Godot will try and run [code]_process()[/code] as quickly as it can. This "
 "makes sure any movement or animations look smooth and fluid."
 msgstr ""
+"Cuanto más rápido sea tu computadora, más veces se ejecutará [code]_process()"
+"[/code].\n"
+"\n"
+"Godot intentará ejecutar [code]_process()[/code] tan rápido como pueda. Esto "
+"asegura que cualquier movimiento o animación se vea de forma suave y fluida."
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
 msgid "Once a second."
-msgstr ""
+msgstr "Una vez por segundo."
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
 #: course/lesson-10-the-game-loop/lesson.tres:145
 msgid "Multiple times a second."
-msgstr ""
+msgstr "Varias veces por segundo."
 
 #: course/lesson-10-the-game-loop/lesson.tres:154
 msgid ""
 "In the practice, you'll learn how to use the process function to rotate and "
 "move a character yourself."
 msgstr ""
+"En la práctica, aprenderás cómo utilizar la función [code]_process()[/code] "
+"para girar y mover un personaje tú mismo."
 
 #: course/lesson-10-the-game-loop/lesson.tres:162
 msgid "Rotating a Character Continuously"
-msgstr ""
+msgstr "Girar un personaje de forma continua"
 
 #: course/lesson-10-the-game-loop/lesson.tres:163
 msgid ""
@@ -155,10 +213,15 @@ msgid ""
 "\n"
 "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr ""
+"Haz que el robot gire lentamente añadiendo código a la función "
+"[code]_process()[/code].\n"
+"\n"
+"Una velocidad de rotación de aproximadamente [code]0.05[/code] por fotograma "
+"debería de ser suficiente."
 
 #: course/lesson-10-the-game-loop/lesson.tres:178
 msgid "Creating Circular Movement"
-msgstr ""
+msgstr "Crear un movimiento circular"
 
 #: course/lesson-10-the-game-loop/lesson.tres:179
 msgid ""
@@ -171,7 +234,15 @@ msgid ""
 "Use a rotation speed of [code]0.05[/code] radians per frame, and move the "
 "robot [code]5[/code] pixels per frame."
 msgstr ""
+"Haz que el robot se mueva lentamente en un gran círculo, girándolo y "
+"moviéndolo simultáneamente a lo largo de su dirección x.\n"
+"\n"
+"Para hacer esto, agrega las funciones [code]rotate()[/code] y "
+"[code]move_local_x()[/code] a [code]_process()[/code].\n"
+"\n"
+"Utiliza una velocidad de rotación de [code]0.05[/code] radianes por "
+"fotograma, y mueve el robot [code]5[/code] pixeles por fotograma."
 
 #: course/lesson-10-the-game-loop/lesson.tres:195
 msgid "The Game Loop"
-msgstr ""
+msgstr "El bucle del juego"
