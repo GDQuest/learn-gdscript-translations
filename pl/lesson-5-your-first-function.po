@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-09 18:55+0000\n"
+"PO-Revision-Date: 2022-03-10 19:54+0000\n"
 "Last-Translator: Katarzyna Twardowska <katarina.twardowska@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-5-your-first-function/pl/>\n"
@@ -109,6 +109,12 @@ msgid ""
 "You could write another function that calls [code]move_and_rotate()[/code] "
 "four times to draw a square of length 200 pixels."
 msgstr ""
+"Funkcja [code]move_and_rotate()[/code] składa się z dwóch instrukcji: każdej "
+"w osobnej linii. Obie z instrukcji wywołują inną, znaną nam funkcję.\n"
+"\n"
+"Równie dobrze możemy teraz napisać kolejną funkcję, która wywoła "
+"[code]move_and_rotate()[/code] cztery razy, dzięki czemu narysujemy kwadrat "
+"o długości 200 pikseli."
 
 #: course/lesson-5-your-first-function/lesson.tres:100
 msgid ""
@@ -124,10 +130,21 @@ msgid ""
 "\n"
 "[i]Drag the slider to change the square's size.[/i]"
 msgstr ""
+"Za każdym razem, gdy wywołujemy funkcję [code]move_and_rotate()[/code], dwie "
+"znajdujące się w jej wnętrzu funkcje ([code]move_forward(200)[/code] i "
+"[code]turn_right(90)[/code]) są wywoływane po kolei.\n"
+"\n"
+"W tak prostym przykładzie używanie funkcji wewnątrz siebie może nie wydawać "
+"się zbyt przydatne. Spróbujmy więc z bardziej użyteczną i realistyczną "
+"funkcją: funkcją do rysowania dowolnego prostokąta.\n"
+"\n"
+"Poniższa funkcja używa [i]parametrów[/i], które omówimy w następnej lekcji.\n"
+"\n"
+"[i]Przeciągnij suwak obok Size, aby zmienić rozmiar rysowanego kwadratu.[/i]"
 
 #: course/lesson-5-your-first-function/lesson.tres:124
 msgid "How to define your own functions"
-msgstr ""
+msgstr "Jak definiować własne funkcje"
 
 #: course/lesson-5-your-first-function/lesson.tres:126
 msgid ""
@@ -136,6 +153,10 @@ msgid ""
 "A function definition starts with the [code]func[/code] keyword followed by "
 "a space, the function's name, parentheses, and a colon."
 msgstr ""
+"Przejdźmy do tego, jak definiujemy funkcje.\n"
+"\n"
+"Definicja funkcji zaczyna się zawsze od słowa kluczowego [code]func[/code], "
+"po którym następuje spacja, następnie nazwa funkcji, nawiasy i dwukropek."
 
 #: course/lesson-5-your-first-function/lesson.tres:148
 msgid ""
@@ -146,10 +167,17 @@ msgid ""
 "We call those leading tabs [i]indents[/i]. They're important: the computer "
 "uses them to know which instructions are part of the same code block."
 msgstr ""
+"Wszystkie instrukcje wewnątrz funkcji [b]muszą[/b] zaczynać się od wiodącego "
+"znaku tabulacji. Możesz wstawić znak tabulacji, naciskając klawisz "
+"[b]TAB[/b].\n"
+"\n"
+"Ów wiodące tabulatory nazywamy [i]wcięciami[/i]. Są niezmiernie ważne: "
+"komputer używa ich, aby wiedzieć, które instrukcje są częścią tego samego "
+"bloku kodu."
 
 #: course/lesson-5-your-first-function/lesson.tres:158
 msgid "Why do we use functions?"
-msgstr ""
+msgstr "Do czego używamy funkcji?"
 
 #: course/lesson-5-your-first-function/lesson.tres:161
 msgid ""
@@ -159,25 +187,30 @@ msgid ""
 "Because we give functions a name, they also allow us to name a set of "
 "instructions, which is handy!"
 msgstr ""
+"Funkcje są grupami instrukcji, których używamy ponownie za każdym razem, gdy "
+"wywołujemy daną funkcję.\n"
+"\n"
+"Ponieważ nadajemy funkcjom nazwy, pozwala nam to nazwać zestawy instrukcji, "
+"co jest naprawdę przydatne!"
 
 #: course/lesson-5-your-first-function/lesson.tres:164
 #: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To reuse code multiple times. "
-msgstr ""
+msgstr "Aby wielokrotnie użyć tego samego kodu. "
 
 #: course/lesson-5-your-first-function/lesson.tres:164
 #: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To run multiple instructions at once."
-msgstr ""
+msgstr "Aby uruchomić kilka instrukcji na raz."
 
 #: course/lesson-5-your-first-function/lesson.tres:164
 #: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To put a name on multiple lines of code."
-msgstr ""
+msgstr "Aby nazwać kilka linii kodu."
 
 #: course/lesson-5-your-first-function/lesson.tres:172
 msgid "Names in code have rules"
-msgstr ""
+msgstr "Nazwy w programowaniu mają swoje zasady"
 
 #: course/lesson-5-your-first-function/lesson.tres:174
 msgid ""
@@ -202,14 +235,35 @@ msgid ""
 "[i]can't[/i] begin with a number, but you can use numbers after the first "
 "character."
 msgstr ""
+"Identyfikatory funkcji nie mogą zawierać spacji. Ogólnie wszystkie nazwy w "
+"językach programowania nie mogą ich zawierać.\n"
+"\n"
+"Komputer wykorzystuje spacje do wykrywania separacji między różnymi słowami "
+"kluczowymi i identyfikatorami.\n"
+"\n"
+"Zamiast spacji w GDScripcie używamy podkreśleń (\"_\"). Spotkałeś się już z "
+"nimi w funkcjach takich jak [code]move_forward()[/code] czy "
+"[code]move_local_x()[/code]. Jest to konwencja, którą stosujemy w języku "
+"GDScript.\n"
+"\n"
+"Jest jeszcze jedna konwencja, którą programiści stosują w niektórych innych "
+"językach programowania.\n"
+"\n"
+"Zamiast używać podkreśleń, zaczynają słowa wielkimi literami, z pominięciem "
+"pierwszego wyrazu. Zgodnie z tą konwencją tworząc funkcje nazwalibyśmy je "
+"[code]moveForward()[/code] lub [code]moveLocalX()[/code]\n"
+"\n"
+"Identyfikatory również [i]muszą[/i] zaczynać się od litery lub podkreślenia: "
+"[i]nie możesz[/i] zacząć nazwy funkcji od liczby, możesz jednak używać cyfr "
+"w dalszej jej części (po pierwszym znaku)."
 
 #: course/lesson-5-your-first-function/lesson.tres:192
 msgid "Which of the following names are valid function names?"
-msgstr ""
+msgstr "Które z poniższych nazw są poprawnymi nazwami funkcji?"
 
 #: course/lesson-5-your-first-function/lesson.tres:193
 msgid "Note that it's fine to use capital letters."
-msgstr ""
+msgstr "Pamiętaj, że możesz używać wielkich liter."
 
 #: course/lesson-5-your-first-function/lesson.tres:195
 msgid ""
@@ -222,20 +276,28 @@ msgid ""
 "However, having numbers elsewhere in a function name is fine. That's why "
 "[code]make3NewCharacters[/code] works."
 msgstr ""
+"Nie możesz nazwać funkcji [code]move forward[/code] , ponieważ nazwa ta "
+"zawiera spację. Nazwy w kodzie nie mogą zawierać spacji.\n"
+"\n"
+"Nie mogą też zaczynać się od cyfr, dlatego [code]45_degree_turn[/code] "
+"również jest nieprawidłowa.\n"
+"\n"
+"Jednak umieszczanie liczb w innym miejscu nazwy funkcji jest całkowicie w "
+"porządku. Dlatego nazwa [code]make3NewCharacters[/code] jest prawidłowa."
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 msgid "move forward"
-msgstr ""
+msgstr "move forward"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 #: course/lesson-5-your-first-function/lesson.tres:201
 msgid "jump"
-msgstr ""
+msgstr "jump"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 #: course/lesson-5-your-first-function/lesson.tres:201
 msgid "make3NewCharacters"
-msgstr ""
+msgstr "make3NewCharacters"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 #: course/lesson-5-your-first-function/lesson.tres:201
@@ -244,11 +306,11 @@ msgstr "move_forward"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 msgid "45_degree_turn"
-msgstr ""
+msgstr "45_degree_turn"
 
 #: course/lesson-5-your-first-function/lesson.tres:208
 msgid "Instantly moving the turtle to a different position"
-msgstr ""
+msgstr "Natychmiastowe przenoszenie żółwika na inną pozycję"
 
 #: course/lesson-5-your-first-function/lesson.tres:210
 msgid ""
@@ -261,10 +323,19 @@ msgid ""
 "So calling [code]jump(-100, 50)[/code] moves the turtle by 100 pixels to the "
 "[b]left[/b] and 50 pixels [b]down[/b] without drawing any lines."
 msgstr ""
+"Aby narysować wiele kwadratów w różnych pozycjach, potrzebna nam będzie nowa "
+"funkcja, z której może korzystać nasz żółwik.\n"
+"\n"
+"Funkcja [code]jump()[/code] podnosi żółwika i przemieszcza go względem "
+"miejsca, w którym się znajduje.\n"
+"\n"
+"Tak więc wywołanie [code]jump(-100, 50)[/code] przesunie żółwika o 100 "
+"pikseli w [b]lewo[/b] i 50 pikseli [b]w dół[/b] nie rysując przy tym żadnych "
+"linii."
 
 #: course/lesson-5-your-first-function/lesson.tres:232
 msgid "A function to draw squares"
-msgstr ""
+msgstr "Funkcja do rysowania kwadratów"
 
 #: course/lesson-5-your-first-function/lesson.tres:233
 msgid ""
@@ -277,16 +348,28 @@ msgid ""
 "In the following practice, you'll use the [code]draw_square()[/code] "
 "function to draw multiple squares by calling your own function."
 msgstr ""
+"Stwórz funkcję o nazwie [code]draw_square()[/code], która rysować będzie "
+"jeden kwadrat o długości 200 pikseli. Funkcja nie powinna przyjmować żadnych "
+"parametrów.\n"
+"\n"
+"Użyj funkcji [code]move_forward()[/code] i [code]turn_right()[/code], aby "
+"poinstruować żółwika, jak powinien to zrobić.\n"
+"\n"
+"W kolejnym ćwiczeniu użyjesz funkcji [code]draw_square()[/code] do "
+"narysowania wielu kwadratów wywołując stworzona przez siebie funkcję."
 
 #: course/lesson-5-your-first-function/lesson.tres:246
 msgid ""
 "Until now, you've had to write code by hand, and it's boring. It's time to "
 "code a reusable function. You'll use it to draw multiple squares."
 msgstr ""
+"Dotychczas musiałeś pisać cały kod ręcznie, co było dość nudne. Czas "
+"stworzyć funkcję wielokrotnego użytku. Użyjesz jej do narysowania wielu "
+"kwadratów."
 
 #: course/lesson-5-your-first-function/lesson.tres:251
 msgid "Drawing multiple squares"
-msgstr ""
+msgstr "Rysowanie wielu kwadratów"
 
 #: course/lesson-5-your-first-function/lesson.tres:252
 msgid ""
@@ -304,12 +387,27 @@ msgid ""
 "Calling [code]jump(300, 300)[/code] makes the turtle jump by 300 pixels to "
 "the right and 300 pixels down without drawing any lines."
 msgstr ""
+"Mamy już funkcję do rysowania jednego kwadratu: [code]draw_square()[/code]. "
+"Użyjmy jej, aby narysować trzy kwadraty.\n"
+"\n"
+"Stworzyliśmy już za ciebie funkcję [code]draw_square()[/code]. Utwórz nową "
+"funkcję o nazwie [code]draw_three_squares[/code], która trzykrotnie wywoła "
+"funkcję [code]draw_square()[/code].\n"
+"\n"
+"Jeśli po prostu wywołasz funkcję, wszystkie trzy kwadraty nałożą się na "
+"siebie. Aby ustawić je po przekątnej, pomiędzy wywołaniami funkcji "
+"[code]draw_square()[/code] wstaw [code]jump(300, 300)[/code].\n"
+"\n"
+"Wywołanie [code]jump(300, 300)[/code] spowoduje, że nasz żółwik przeskoczy o "
+"300 pikseli w prawo i 300 pikseli w dół bez pozostawiania za sobą linii."
 
 #: course/lesson-5-your-first-function/lesson.tres:275
 msgid ""
 "Now you created a function to draw squares, you can reuse it by calling it "
 "multiple times."
 msgstr ""
+"Jako że stworzyłeś funkcję do rysowania kwadratów, możesz jej użyć ile razy "
+"chcesz, wywołując ją ponownie."
 
 #: course/lesson-5-your-first-function/lesson.tres:279
 msgid "Coding Your First Function"
