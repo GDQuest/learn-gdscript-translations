@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-09 18:55+0000\n"
-"Last-Translator: 孔祥理 <zcxvcb2@gmail.com>\n"
+"PO-Revision-Date: 2022-03-12 00:58+0000\n"
+"Last-Translator: lemon37564 <stonydragon0701@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/application/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -54,15 +54,15 @@ msgstr "提示%s"
 
 #: ui/UIPractice.gd:216
 msgid "Validating Your Code..."
-msgstr ""
+msgstr "驗證您的程式碼..."
 
 #: ui/UIPractice.gd:269
 msgid "Running Your Code..."
-msgstr ""
+msgstr "執行您的程式碼"
 
 #: ui/UIPractice.gd:300
 msgid "Running Tests..."
-msgstr ""
+msgstr "執行測試..."
 
 #: ui/UIPractice.tscn:138
 msgid "Suggested Solution"
@@ -130,8 +130,9 @@ msgid "Our error explanation."
 msgstr "我們對錯誤的解釋。"
 
 #: ui/components/LockedOverlay.gd:14
+#, fuzzy
 msgid "Can't reach the server. The tests will be less precise."
-msgstr ""
+msgstr "無法連接到伺服器。測試結果可能不準確。"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
 msgid "ERROR:"
@@ -182,16 +183,16 @@ msgstr ""
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
 msgid "Confirm"
-msgstr ""
+msgstr "確認"
 
 #: ui/components/popups/ConfirmPopup.tscn:127
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:46
 msgid "Original error message"
-msgstr ""
+msgstr "原始錯誤訊息"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:65
 msgid "Why this happens"
@@ -218,7 +219,7 @@ msgstr ""
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:128
 msgid "Hide"
-msgstr ""
+msgstr "隱藏"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
 msgid "Where do external errors come from?"
@@ -243,7 +244,7 @@ msgstr ""
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
-msgstr ""
+msgstr "知道了！"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
@@ -287,12 +288,12 @@ msgstr ""
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:226
 msgid "Close"
-msgstr ""
+msgstr "關閉"
 
 #: ui/components/popups/ReportFormPopup.tscn:66
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:59
 msgid "Report an issue"
-msgstr ""
+msgstr "回報問題"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
@@ -347,11 +348,11 @@ msgstr ""
 
 #: ui/components/popups/SettingsPopup.tscn:106
 msgid "Language"
-msgstr ""
+msgstr "語言"
 
 #: ui/components/popups/SettingsPopup.tscn:126
 msgid "Text Size"
-msgstr ""
+msgstr "字體大小"
 
 #: ui/components/popups/SettingsPopup.tscn:153
 msgid "Sample text"
@@ -424,11 +425,11 @@ msgstr ""
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
-msgstr ""
+msgstr "重設進度"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
 msgid "Confirm Resetting Progress"
-msgstr ""
+msgstr "確認重設進度"
 
 #: ui/screens/end_screen/EndScreen.tscn:122
 msgid "That's it... for now!"
@@ -463,23 +464,23 @@ msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
 msgid "Explanation"
-msgstr ""
+msgstr "解釋"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:107
 msgid "Skip"
-msgstr ""
+msgstr "跳過"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
-msgstr ""
+msgstr "提交"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr ""
+msgstr "您答對了！"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
-msgstr ""
+msgstr "答案在這裡"
 
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
@@ -496,7 +497,7 @@ msgstr ""
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
-msgstr ""
+msgstr "下一個"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
@@ -504,7 +505,7 @@ msgstr ""
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
-msgstr ""
+msgstr "您在這裡"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
@@ -532,11 +533,11 @@ msgstr ""
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
-msgstr ""
+msgstr "目標"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:119
 msgid "Hints"
-msgstr ""
+msgstr "提示"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
 msgid "Checks"
@@ -556,7 +557,7 @@ msgstr ""
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:121
 msgid "Learn GDScript From Zero"
-msgstr ""
+msgstr "從零開始學GDScript"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:174
 msgid ""
@@ -639,8 +640,8 @@ msgstr ""
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:385
 msgid "Open Course Index"
-msgstr ""
+msgstr "開啟課程目錄"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:398
 msgid "Quit"
-msgstr ""
+msgstr "離開"
