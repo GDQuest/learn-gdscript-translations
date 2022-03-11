@@ -6,19 +6,21 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Learn GDScript From Zero  \n"
+"Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-07 21:03+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-12 00:58+0000\n"
+"Last-Translator: Katarzyna Twardowska <katarina.twardowska@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/error-explanations/pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
 
 #. Reference: CYCLIC_REFERENCE
 #: lsp/error_database.csv:38
@@ -36,6 +38,18 @@ msgid ""
 "do this. Godot 4 should solve this problem, but you need to work around it "
 "in the meantime."
 msgstr ""
+"Odwołanie cykliczne ma miejsce wtedy, gdy klasa odwołuje się do samej "
+"siebie, bezpośrednio lub pośrednio.\n"
+"\n"
+"Istnieją dwie przyczyny takiego stanu:\n"
+"\n"
+"1. Użyłeś nazwy klasy w samej klasie.\n"
+"2. Twój kod odnosi się do innej klasy, która odwołuje się do tej klasy, "
+"powodując niekończący się cykl referencyjny.\n"
+"\n"
+"Tak czy inaczej, ze względu na sposób działania GDScript w Godot 3 niestety "
+"nie możesz tego zrobić. Godot 4 powinien rozwiązać ten problem, jednak na "
+"ten moment musisz go obejść."
 
 #. Reference: CYCLIC_REFERENCE
 #: lsp/error_database.csv:38
@@ -58,6 +72,14 @@ msgid ""
 "The computer uses those leading tab characters on code lines to know which "
 "lines of code are part of a code block, like a function."
 msgstr ""
+"Wcięcia w twoim kodzie (ilość znaków tabulacji na początku wierszy) nie są "
+"prawidłowe.\n"
+"\n"
+"Brakuje jednego lub większej ilości TABów lub też wstawiono ich za dużo.\n"
+"\n"
+"Komputer używa wiodących znaków tabulacji w wierszach kodu, aby wiedzieć, "
+"które wiersze kodu są częścią którego bloku kodu, jak tego odpowiadającego "
+"za ciało funkcji."
 
 #. Reference: INVALID_INDENTATION
 #: lsp/error_database.csv:45
@@ -108,6 +130,11 @@ msgid ""
 "Three keywords in GDScript work like function calls and require parentheses: "
 "[code]yield()[/code], [code]preload()[/code], and [code]assert()[/code]."
 msgstr ""
+"Ten błąd informuje o braku nawiasu (czasem również przecinka lub ścieżki).\n"
+"\n"
+"Trzy słowa kluczowe w GDScript działają jak wywołania funkcji i wymagają "
+"nawiasów: [code]yield()[/code], [code]preload()[/code] i "
+"[code]assert()[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: lsp/error_database.csv:57
@@ -115,6 +142,8 @@ msgid ""
 "To address the error, you want to add the missing opening parenthesis, the "
 "closing parenthesis, or the comma."
 msgstr ""
+"Aby naprawić błąd, dodaj brakujący nawias otwierający, nawias zamykający lub "
+"przecinek."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: lsp/error_database.csv:58
@@ -141,6 +170,14 @@ msgid ""
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
+"Błąd ten występuje w kilku przypadkach:\n"
+"\n"
+"1. Zapisałeś identyfikator (nazwę zmiennej lub funkcji) w niewłaściwym "
+"miejscu.\n"
+"2. Użyłeś słowa kluczowego, jak [code]var[/code], [code]func[/code], "
+"[code]for[/code] lub [code]signal[/code], jednak nie dodałeś po nim nazwy.\n"
+"3. Utworzyłeś definicję funkcji, jednak zapomniałeś nawiasów przed "
+"dwukropkiem."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: lsp/error_database.csv:68
