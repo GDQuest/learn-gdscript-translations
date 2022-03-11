@@ -9,13 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-12 00:58+0000\n"
+"Last-Translator: Alexandre Vinicius Gonçalves <alexandre.craneo@hotmail.com>"
+"\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/error-explanations/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: CYCLIC_REFERENCE
@@ -34,6 +38,18 @@ msgid ""
 "cannot do this. Godot 4 should solve this problem, but you need to work "
 "around it in the meantime."
 msgstr ""
+"Uma referência cíclica é quando uma classe referencia ela mesma, direta ou "
+"indiretamente.\n"
+"\n"
+"Possui duas causas possíveis:\n"
+"\n"
+"1. Você usou o nome da classe na própria classe.\n"
+"2. Seu código se refere a outra classe que se refere para esta classe, "
+"causando um ciclo de referência infinito.\n"
+"\n"
+"De qualquer jeito, devido ao jeito que o GDScript funciona no Godot 3, "
+"infelizmente, você não pode fazer isso. Godot 4 poderá resolver esse "
+"problema, mas você precisa contornar isso nesse meio tempo."
 
 #. Reference: CYCLIC_REFERENCE
 #: ./lsp/error_database.csv:38
@@ -45,6 +61,11 @@ msgid ""
 "causing cyclic references. It solves the problem in the vast majority of "
 "cases."
 msgstr ""
+"Apague a dica de tipo na linha de erro, e o problema deve desaparecer.\n"
+"\n"
+"No GDQuest, quando encontramos esse erro, nós removemos as dicas de tipo nas "
+"linhas que causam referências cíclicas. Isso resolve o problema na grande "
+"maioria dos casos."
 
 #. Reference: INVALID_INDENTATION
 #: ./lsp/error_database.csv:45
@@ -57,6 +78,14 @@ msgid ""
 "The computer uses those leading tab characters on code lines to know "
 "which lines of code are part of a code block, like a function."
 msgstr ""
+"A indentação do seu código (o número de caracteres de tabulação no começo da "
+"linha) está incorreto.\n"
+"\n"
+"Está faltando um ou mais caracteres de tabulação, ou você colocou demais.\n"
+"\n"
+"O computador usa esses caracteres de tabulação nas linhas de código para "
+"saber quais dessas linhas fazem parte de um bloco de código, como uma função "
+"por exemplo."
 
 #. Reference: INVALID_INDENTATION
 #: ./lsp/error_database.csv:45
@@ -68,6 +97,12 @@ msgid ""
 "In other words, your line should have one more leading tab character than"
 " the function definition."
 msgstr ""
+"Se a linha de código que contém o erro estiver logo após uma linha que "
+"termina com dois pontos, como uma função por exemplo, você precisa de um "
+"nível extra de indentação comparado a linha anterior.\n"
+"\n"
+"Em outras palavras, sua linha deverá ter um caractere de tabulação a mais do "
+"que a definição da função."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./lsp/error_database.csv:54
@@ -83,6 +118,16 @@ msgid ""
 "Note that this error can appear [b]after[/b] the line causing it due to "
 "how the computer reads and analyzes your code."
 msgstr ""
+"Você recebe esse erro quando você escreveu alguma palavra sintaticamente "
+"inválida, ou quando está faltando algo para completar essa linha de código "
+"ou a anterior.\n"
+"\n"
+"Você deve ser extremamente preciso quando for escrever código para o "
+"computador. Esse tipo de erro é comum acontecer pois precisa somente de um "
+"caractere errado.\n"
+"\n"
+"Note que esse erro pode aparecer [b]depois[/b] da linha que está causando "
+"ele devido a forma que o computador lê e analisa seu código."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./lsp/error_database.csv:54
@@ -98,6 +143,16 @@ msgid ""
 " an expression, like a closing bracket. In this case, it most likely "
 "comes from the line with the error."
 msgstr ""
+"A maneira de resolver esse tipo de erro é altamente contextual. A mensagem "
+"de erro deve falar para você qual caractere ou elemento está faltando.\n"
+"\n"
+"Se o erro disser \"esperado,\" então é bem provável que está faltando algo "
+"nas linhas de código [b]anteriores[/b]. Pode ser um sinal de pontuação, um "
+"parênteses, ou qualquer coisa assim.\n"
+"\n"
+"Se disser \"indeterminado\", então está faltando algum caractere no final de "
+"uma expressão, como um colchete de fechamento. Nesse caso, é bem provável "
+"que esteja na linha do próprio erro."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./lsp/error_database.csv:57
@@ -109,6 +164,12 @@ msgid ""
 "parentheses: [code]yield()[/code], [code]preload()[/code], and "
 "[code]assert()[/code]."
 msgstr ""
+"Esse erro fala pra você que está faltando um parêntesis (ou às vezes uma "
+"vírgula ou um caminho de algum arquivo).\n"
+"\n"
+"Três palavras-chave no GDScript funcionam como chamadas de função e precisam "
+"de parênteses: [code]yield()[/code], [code]preload()[/code], e "
+"[code]assert()[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./lsp/error_database.csv:57
@@ -116,6 +177,8 @@ msgid ""
 "To address the error, you want to add the missing opening parenthesis, "
 "the closing parenthesis, or the comma."
 msgstr ""
+"Para resolver esse erro, você precisa adicionar o parêntese de abertura, o "
+"parêntese de fechamento, ou a vírgula que estiver faltando."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./lsp/error_database.csv:58
@@ -123,6 +186,8 @@ msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
 msgstr ""
+"Esse erro fala pra você que está faltando algum parêntese, uma vírgula, ou "
+"algum valor na sua dica de exportação."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./lsp/error_database.csv:58
@@ -130,6 +195,8 @@ msgid ""
 "You need to read the error message and add the missing character or value"
 " it requests."
 msgstr ""
+"Você precisa ler a mensagem de erro e adicionar o caractere ou o valor que "
+"estiver faltando."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./lsp/error_database.csv:68
@@ -144,6 +211,14 @@ msgid ""
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
+"Esse erro acontece em muitos casos:\n"
+"\n"
+"1. Você escreveu um identificador (variável ou nome de um função) no lugar "
+"errado.\n"
+"2. Você escreveu uma palavra-chave como [code]var[/code], [code]func[/code], "
+"[code]for[/code], or [code]signal[/code], e em seguida não colocou um nome.\n"
+"3. Você escreveu uma definição de função mas esqueceu o parêntese antes do "
+"sinal de dois pontos."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./lsp/error_database.csv:68
@@ -162,6 +237,20 @@ msgid ""
 "function definition, [code]for[/code] loop, or a line starting with "
 "[code]if[/code], [code]elif[/code], or [code]else[/code]."
 msgstr ""
+"Se o erro te disser que espera algo, você provavelmente esqueceu de escrever "
+"um nome depois de uma palavra-chave como [code]var[/code], [code]func[/code]"
+", [code]for[/code], or [code]signal[/code], fazendo assim seu código "
+"inválido. Ou você esqueceu um parêntese numa definição de função. Você pode "
+"resolver esse erro adicionando o nome ou parêntese que estiver faltando.\n"
+"\n"
+"Se o erro disser que você tem algo inesperado, você provavelmente esqueceu "
+"de uma palavra-chave como [code]var[/code], [code]func[/code], "
+"[code]for[/code], etc.\n"
+"\n"
+"Outra possibilidade é que você precisa escrever o sinal de dois pontos no "
+"final da definição da função, estrutura de repetição [code]for[/code], ou "
+"numa linha começando com [code]if[/code], [code]elif[/code], ou "
+"[code]else[/code]."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: ./lsp/error_database.csv:73
@@ -178,6 +267,17 @@ msgid ""
 "parentheses of a function definition but do not follow it with a type "
 "name."
 msgstr ""
+"Esse erro fala para você que está faltando um tipo em algum lugar. Um tipo "
+"pode ser [code]int[/code], [code]float[/code], [code]String[/code], "
+"[code]Array[/code], [code]Vector2[/code], e muitos identificadores que "
+"representam uma estrutura de dados.\n"
+"\n"
+"Na maioria das vezes, esse erro acontece quando você escreve o sinal de dois "
+"pontos depois de um nome de uma variável que não possui o nome do tipo dela "
+"logo em seguida.\n"
+"\n"
+"Também acontece quando você escreve uma seta ([code]->[/code]) depois de um "
+"parêntese de uma definição de função que não foi seguido pelo nome do tipo."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: ./lsp/error_database.csv:73
@@ -186,6 +286,10 @@ msgid ""
 "arrow (in the case of function return types), inside parentheses (for "
 "export types), or after the [code]as[/code] keyword."
 msgstr ""
+"Para resolver esse erro, você precisa escrever o nome do tipo depois do "
+"sinal de dois pontos, da seta (no caso de ser uma função que retorna algum "
+"tipo), de dentro do parêntese (para tipos que exportam), ou depois da "
+"palavra-chave [code]as[/code]."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: ./lsp/error_database.csv:82
@@ -199,6 +303,15 @@ msgid ""
 "The other cause for this error is that you didn't define the variable, "
 "function, or class you're trying to access."
 msgstr ""
+"A variável, nome de função, ou nome de classe que você está tentando usar "
+"não existe.\n"
+"\n"
+"Você geralmente recebe esse erro quando você comete erros na digitação de "
+"alguma palavra. Talvez você trocou duas letras de lugar, esqueceu uma "
+"letra... às vezes é difícil de identificar.\n"
+"\n"
+"A outra causa para você ter recebido esse erro é que você não definiu a "
+"variável, função, ou classe que você está tentando acessar."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: ./lsp/error_database.csv:82
@@ -211,6 +324,14 @@ msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
+"Para resolver esse erro, cheque várias vezes que não há erros de digitação "
+"na linha de código.\n"
+"\n"
+"Se você puder, tente ir na definição da variável ou função, reveja o nome, "
+"copie ele e cole onde estiver dando o erro.\n"
+"\n"
+"Se você não achar nenhum erro de digitação, então garanta que você definiu a "
+"variável, a função ou a classe que você estiver tentando referenciar."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./lsp/error_database.csv:87
@@ -222,6 +343,14 @@ msgid ""
 "the loop.\" And the [code]break[/code] keyword means \"end the loop right"
 " now and jump to the first line of code after the loop block."
 msgstr ""
+"Você só pode usar palavras-chave como: [code]break[/code] ou "
+"[code]continue[/code] numa estrutura de repetição. Fora de uma estrutura de "
+"repetição, elas são inválidas.\n"
+"\n"
+"A palavra-chave [code]continue[/code] significa \"vá para a próxima iteração "
+"da repetição.\" e a palavra_chave [code]break[/code] significa \"finalize a "
+"repetição agora mesmo e vá para a primeira linha de código depois do bloco "
+"dessa estrutura de repetição\"."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./lsp/error_database.csv:87
@@ -233,6 +362,12 @@ msgid ""
 "likely at fault. You may need to insert one or more leading tab "
 "characters to the keyword."
 msgstr ""
+"Se você escreveu uma dessas palavras-chave fora de uma estrutura de "
+"repetição, você precisa remove-la.\n"
+"\n"
+"Se você estiver tentando usa-las dentro de uma estrutura de repetição, sua "
+"indentação provavelmente está errada. Você precisa colocar um ou mais "
+"caractere de tabulação na palavra-chave."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./lsp/error_database.csv:92
@@ -244,6 +379,12 @@ msgid ""
 " computer will reject function calls and variables where it needs a "
 "constant expression."
 msgstr ""
+"Quando o computador fala sobre uma expressão constante, ele espera um valor "
+"fixo, um cálculo fixo ou o nome de uma constante existente.\n"
+"\n"
+"Em outras palavras, ele quer alguma coisa que nunca pode mudar. É por isso "
+"que o computador irá rejeitar chamadas de funções e variáveis onde precisam "
+"de uma expressão constante."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./lsp/error_database.csv:92
@@ -255,6 +396,12 @@ msgid ""
 "You can also use arithmetic operators like multiplications (*), additions"
 " (+), and so on."
 msgstr ""
+"Você precisa substituir chamadas de funções ou variáveis com um valor "
+"constante como um número inteiro, um número decimal, string (cadeia de "
+"caractere), vetor, um array (uma matriz) predefinido, etc.\n"
+"\n"
+"Você também pode usar operadores aritméticos como multiplicações (*), "
+"adições (+), e assim por diante."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./lsp/error_database.csv:97
@@ -265,6 +412,11 @@ msgid ""
 "We typically write class names in PascalCase: with a capital letter at "
 "the start of every word that composes the class name."
 msgstr ""
+"Quando definir uma nova classe, você precisa seguir um padrão específico. "
+"Você precisa escrever o nome dela com texto puro, começando com uma letra.\n"
+"\n"
+"Nós tipicamente escrevemos nome de classes em PascalCase: Com uma letra em "
+"maiúscula no começo de cada palavra que compõe o nome da classe."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./lsp/error_database.csv:97
@@ -275,6 +427,12 @@ msgid ""
 "\n"
 "You can optionally use numbers in the name, but not in the first position."
 msgstr ""
+"Para resolver esse erro, substitua tudo aquilo que você colocou depois das "
+"palavras-chave 'extends' ou 'class_name' por um nome sem espaços entre eles "
+"e começando com uma letra em maiúscula.\n"
+"\n"
+"Você tem a opção de usar números no nome, mas não na primeira posição (não "
+"pode começar com números)."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./lsp/error_database.csv:102
@@ -285,6 +443,11 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file,"
 " but it may also be in a parent class that this GDScript code extends."
 msgstr ""
+"Você está tentando definir uma função ou variável que já existe. Você não "
+"pode fazer isso.\n"
+"\n"
+"Talvez a função ou variável já exista no arquivo de código atual, mas também "
+"pode estar na classe pai que esse código de GDScript estende."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./lsp/error_database.csv:102
@@ -296,6 +459,12 @@ msgid ""
 " one that will not collide with an existing one or remove this line of "
 "code."
 msgstr ""
+"No app, seu código estende alguns códigos que já vêm integrado na Godot que "
+"não visíveis para você.\n"
+"\n"
+"Quando isso acontece, você precisa: ou renomear sua função ou variável que "
+"não seja igual a um nome que já exista nesses códigos integrados ou remover "
+"essa linha de código."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./lsp/error_database.csv:107
@@ -306,6 +475,11 @@ msgid ""
 "Perhaps the signal already exists in the current code file, but it may "
 "also be in a parent class that this GDScript code extends."
 msgstr ""
+"Você está tentando definir um sinal que já existe; Você não pode fazer isso."
+"\n"
+"\n"
+"Talvez esse sinal já exista no arquivo do código atual, mas também pode "
+"estar na classe pai que esse código de GDScript estende."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./lsp/error_database.csv:107
@@ -316,6 +490,12 @@ msgid ""
 "When that happens, you need to either rename your signal to one that will"
 " not collide with an existing one or remove this line of code."
 msgstr ""
+"No app, seu código estende alguns códigos que já vêm integrado na Godot que "
+"não visíveis para você.\n"
+"\n"
+"Quando isso acontece, você precisa: ou renomear seu sinal que não seja igual "
+"a um nome que já exista nesses códigos integrados ou remover essa linha de "
+"código."
 
 #. Reference: SIGNATURE_MISMATCH
 #: ./lsp/error_database.csv:112
@@ -331,6 +511,17 @@ msgid ""
 "also to have two arguments. If you use type hints in your function "
 "definitions, the argument types must match the parent class."
 msgstr ""
+"A função que você está tentando definir já existe numa classe pai, então sua "
+"definição sobrescreve a função da classe pai.\n"
+"\n"
+"Quando você sobrescreve uma função da classe pai, a nova função precisa "
+"corresponder a da classe pai. A nova função deve ter o mesmo número e tipo "
+"de parâmetros que a classe pai.\n"
+"\n"
+"Por exemplo, se a classe pai possuir dois argumentos, você precisa garantir "
+"que a nova função também tenha dois argumentos. Se você usar a dica de tipo "
+"na suas definições de funções, os tipos de argumentos devem corresponder a "
+"da classe pai."
 
 #. Reference: SIGNATURE_MISMATCH
 #: ./lsp/error_database.csv:112
@@ -339,6 +530,9 @@ msgid ""
 "code reference. Then, you need to edit your function definition to have "
 "the same number and type of parameters as the parent class."
 msgstr ""
+"Você precisa checar a função da classe pai e suas definições na referência "
+"de código. Então, você precisa editar sua definição de função para ter o "
+"mesmo número e tipos de parâmetros que a classe pai."
 
 #. Reference: INVALID_ARGUMENTS
 #: ./lsp/error_database.csv:113
@@ -347,6 +541,9 @@ msgid ""
 "the wrong number of arguments or the wrong kind of argument. You will "
 "need to use the error message to see what is going wrong."
 msgstr ""
+"Todos esses erros de classe tem a ver com chamar funções com o número de "
+"argumentos errados ou com o tipo errado de argumento. Você precisa usar a "
+"mensagem de erro para ver o que está dando de errado."
 
 #. Reference: INVALID_ARGUMENTS
 #: ./lsp/error_database.csv:113
@@ -356,6 +553,10 @@ msgid ""
 "arguments you need, you need to check the code reference. It will show "
 "you the function definition and the mandatory arguments."
 msgstr ""
+"Você precisa remover, adicionar ou mudar os valores que está tentando passar "
+"para a função para resolver esse problema. Para saber exatamente quantos "
+"argumentos você precisa usar, você precisa verificar a referência de código. "
+"Ela vai mostrar pra você a definição da função e os argumentos mandatórios."
 
 #. Reference: TYPE_MISMATCH
 #: ./lsp/error_database.csv:124
@@ -374,6 +575,20 @@ msgid ""
 "You'll need to read the error message to see what is not matching because"
 " there are many possible cases."
 msgstr ""
+"Todos os valores no seu código possuem um tipo específico. Esse tipo pode "
+"ser um número inteiro (int), um número decimal (float), um texto (String), e "
+"assim por diante. Há vários tipos possíveis, e você pode até mesmo definir "
+"seus próprios tipos!\n"
+"\n"
+"Quando você faz qualquer operação, o computador compara os tipos que você "
+"está usando.\n"
+"\n"
+"Alguns tipos são compatíveis, e outros não. Por exemplo, você não pode "
+"adicionar diretamente um número inteiro a uma cadeia de caractere (string). "
+"Você precisa primeiro converter o número em texto.\n"
+"\n"
+"Você vai precisar ler a mensagem de erro para ver o que não está compatível "
+"porque existe muitos casos possíveis."
 
 #. Reference: TYPE_MISMATCH
 #: ./lsp/error_database.csv:124
@@ -389,6 +604,16 @@ msgid ""
 "example, while you can add two 2D vectors, you can't add a whole number "
 "or text to a 2D vector."
 msgstr ""
+"Se o erro mencionar que o tipo do valor não é compatível com a variável, o "
+"problema está no lado direito do sinal de igual (=).\n"
+"\n"
+"Se o erro disser que o tipo de retorno não é compatível com a função, então "
+"é o valor depois da palavra-chave 'return' que está causando o problema.\n"
+"\n"
+"Se o computador disser sobre um operador inválido, então o problema é que a "
+"operação para aquele tipo que você está tentando usar não existe. Por "
+"exemplo, você pode somar dois vetores 2D, mas você não pode somar um número "
+"inteiro ou um texto e um vetor 2D."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: ./lsp/error_database.csv:129
@@ -400,6 +625,12 @@ msgid ""
 "When that happens, you need to specify the type yourself or remove type "
 "inference altogether for this variable."
 msgstr ""
+"GDScript suporta inferência de tipo. O computador vai reconhecer "
+"automaticamente o tipo de valor que você estiver usando. Porém, em alguns "
+"casos ele não vai conseguir descobrir o tipo.\n"
+"\n"
+"Quando isso acontecer, você mesmo precisa especificar o tipo ou remover "
+"completamente a inferência de tipo para essa variável."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: ./lsp/error_database.csv:129
@@ -411,6 +642,12 @@ msgid ""
 "We recommend specifying the type whenever possible to reap the typing "
 "system's benefits."
 msgstr ""
+"A maneira mais simples de resolver esse erro é remover os tipos dessa "
+"variável ou os argumentos dessa função. Caso contrário, você pode "
+"especificar manualmente o tipo do valor depois do sinal de dois pontos.\n"
+"\n"
+"Nós recomendamos especificar o tipo sempre que for possível para colher os "
+"benefícios do sistema de digitação."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: ./lsp/error_database.csv:135
@@ -425,6 +662,15 @@ msgid ""
 "returning a value in all possible branches (if, elif, and else blocks) or"
 " at the end."
 msgstr ""
+"Tem um problema com o valor de retorno da sua função. Há dois casos "
+"principais aqui:\n"
+"\n"
+"1. Sua função é uma função vazia, logo não deve retornar um valor. Isso "
+"inclui funções com a sintaxe '-> void' e construtores de classe ('_init()')."
+"\n"
+"2. Você especificou um tipo de retorno na sua função, mas você não está "
+"retornando nenhum valor em todas as ramificações possíveis (blocos if, elif, "
+"e else) ou no final."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: ./lsp/error_database.csv:135
@@ -437,6 +683,12 @@ msgid ""
 "of the function or in every branch (if, elif, and else block) of the "
 "function."
 msgstr ""
+"Quando a sua função é vazia (void), você nunca deve retornar um valor. Você "
+"pode usar a palavra-chave 'return' para encerrar a função mais cedo, mas "
+"nunca deve escrever nada depois disso.\n"
+"\n"
+"Quando você usa um tipo de retorno, você precisa sempre retornar algo no "
+"final da função ou em toda ramificação (blocos if, elif, e else) da função."
 
 #. Reference: CANNOT_CONNECT_TO_LSP
 #: ./lsp/error_database.csv:137
@@ -445,6 +697,10 @@ msgid ""
 "or browser add-on may be blocking the connection. If you use an ad "
 "blocker or script blocker, please disable it for this website."
 msgstr ""
+"O servidor ou seu computador pode estar desconectado no momento. Além disso, "
+"um aplicativo ou um complemento do navegador pode estar bloqueando a "
+"conexão. Se você usa um bloqueador de anúncios ou bloqueador de script, por "
+"favor desative-o(s) para este site."
 
 #. Reference: CANNOT_CONNECT_TO_LSP
 #: ./lsp/error_database.csv:137
@@ -452,6 +708,9 @@ msgid ""
 "Please make sure you're connected to the internet. If you use an ad "
 "blocker or script blocker, please ensure it is turned off on this page."
 msgstr ""
+"Por favor, verifique se você está conectado à internet. Se você usa um "
+"bloqueador de anúncios ou bloqueador de script, por favor certifique-se que "
+"estão desativados para essa página."
 
 #. Reference: LSP_UNDETECTED_ERROR
 #: ./lsp/error_database.csv:138
@@ -459,6 +718,8 @@ msgid ""
 "Godot was unable to load your script, yet the language checker server "
 "found nothing wrong. It's possible you are not online"
 msgstr ""
+"A Godot não foi capaz de carregar seu script, mas o servidor de checagem de "
+"idioma não encontrou nada de errado, É possível que você não esteja online"
 
 #. Reference: LSP_UNDETECTED_ERROR
 #: ./lsp/error_database.csv:138
@@ -466,6 +727,8 @@ msgid ""
 "If you're offline, this error is expected. Otherwise, please click on the"
 " \"report\" button at the top and please let us know"
 msgstr ""
+"Esse erro é esperado se você estiver offline, Caso contrário, por favor "
+"clique no botão \"reportar\" na parte superior nos informe"
 
 #. Reference: LSP_TIMED_OUT
 #: ./lsp/error_database.csv:139
@@ -473,6 +736,8 @@ msgid ""
 "Either your connection is very slow, or the Language Verifier server is "
 "under load"
 msgstr ""
+"Sua conexão é muito lenta ou o servidor de verificação de língua está "
+"sobrecarregado"
 
 #. Reference: LSP_TIMED_OUT
 #: ./lsp/error_database.csv:139
@@ -480,11 +745,14 @@ msgid ""
 "Please try again, and if it happens again, warn us with the \"report\" "
 "button at the top. Thank you!"
 msgstr ""
+"Por favor tente novamente e, se acontecer de novo, nos avise com o botão "
+"\"reportar\" na parte superior. Obrigado!"
 
 #. Reference: RECURSIVE_FUNCTION
 #: ./lsp/error_database.csv:140
 msgid "You called a function inside itself. This will loop forever."
 msgstr ""
+"Você chamou um função dentro dela mesma. Isso vai se repetir para sempre."
 
 #. Reference: RECURSIVE_FUNCTION
 #: ./lsp/error_database.csv:140
@@ -492,3 +760,5 @@ msgid ""
 "There are valid reasons for using recursive functions, but none of them "
 "are part of this course, so this cannot be a valid solution."
 msgstr ""
+"Há razões válidas para usar funções recursivas, mas nenhuma delas fazem "
+"parte desse curso, então isso não pode ser uma solução válida."
