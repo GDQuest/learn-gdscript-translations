@@ -9,136 +9,143 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-09 18:55+0000\n"
+"Last-Translator: Wladimir Roberto Barbosa <wladrbarbosa@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/application/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
 msgid "You need to type a whole number for this answer. Example: 42"
-msgstr ""
+msgstr "Você precisa digitar um número inteiro para esta resposta. Exemplo: 42"
 
 #: resources/QuizInputField.gd:22
 msgid ""
 "You need to type a decimal for this answer. Use a \".\" to separate the "
 "decimal part. Example: 3.14"
 msgstr ""
+"Você precisa digitar um número real para esta resposta. Use um \".\" para "
+"separar a parte decimal. Exemplo: 3.14"
 
 #: ui/UILesson.tscn:90
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: ui/UILesson.tscn:125
 msgid "Practices"
-msgstr ""
+msgstr "Práticas"
 
 #: ui/UINavigator.gd:350
 msgid "Go back in your navigation history"
-msgstr ""
+msgstr "Volte no seu histórico de navegação"
 
 #: ui/UINavigator.gd:353
 msgid "(no previous history)"
-msgstr ""
+msgstr "(sem histórico anterior)"
 
 #: ui/UIPractice.gd:133 ui/UIPractice.gd:191
 #, python-format
 msgid "Hint %s"
-msgstr ""
+msgstr "Dica %s"
 
 #: ui/UIPractice.gd:216
 msgid "Validating Your Code..."
-msgstr ""
+msgstr "Validando seu código..."
 
 #: ui/UIPractice.gd:269
 msgid "Running Your Code..."
-msgstr ""
+msgstr "Rodando seu código..."
 
 #: ui/UIPractice.gd:300
 msgid "Running Tests..."
-msgstr ""
+msgstr "Rodando testes..."
 
 #: ui/UIPractice.tscn:138
 msgid "Suggested Solution"
-msgstr ""
+msgstr "Solução Sugerida"
 
 #: ui/UIPractice.tscn:189
 msgid "Use Solution"
-msgstr ""
+msgstr "Use a Solução"
 
 #: ui/UIPractice.tscn:207
 msgid "Leave unfinished practice?"
-msgstr ""
+msgstr "Deixar prática não finalizada?"
 
 #: ui/components/BigGreenButton.tscn:24
 msgid "Button"
-msgstr ""
+msgstr "Botão"
 
 #: ui/components/CodeEditor.tscn:161
 msgid "Run"
-msgstr ""
+msgstr "Rodar"
 
 #: ui/components/CodeEditor.tscn:175
 msgid "Pause"
-msgstr ""
+msgstr "Pausar"
 
 #: ui/components/CodeEditor.tscn:190 ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
-msgstr ""
+msgstr "Resetar"
 
 #: ui/components/CodeEditor.tscn:212
 msgid "Solution"
-msgstr ""
+msgstr "Solução"
 
 #: ui/components/CodeEditor.tscn:226 ui/components/OutputConsole.tscn:43
 msgid "Output"
-msgstr ""
+msgstr "Saída"
 
 #: ui/components/CodeEditor.tscn:241
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 #: ui/components/ConnectionIndicator.gd:17
 msgid "Connected to the server."
-msgstr ""
+msgstr "Conectado ao servidor."
 
 #: ui/components/ConnectionIndicator.gd:20
 msgid ""
 "Can't reach the server. The server might be down, or your internet may be"
 " down."
 msgstr ""
+"Não é possível acessar o servidor. O servidor pode estar inativo ou sua "
+"internet pode estar inativa."
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
-msgstr ""
+msgstr "Pausado"
 
 #: ui/components/GlossaryPopup.tscn:37
 msgid "Term"
-msgstr ""
+msgstr "Termo"
 
 #: ui/components/GlossaryPopup.tscn:53
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
-msgstr ""
+msgstr "Nossa explicação do erro."
 
 #: ui/components/LockedOverlay.gd:14
 msgid "Can't reach the server. The tests will be less precise."
-msgstr ""
+msgstr "Não é possível acessar o servidor. Os testes serão menos precisos."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
 msgid "ERROR:"
-msgstr ""
+msgstr "ERRO:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 #: ui/components/ScrollableTextBox.tscn:43
 #: ui/screens/lesson/UIContentBlock.tscn:68
 msgid "Placeholder text"
-msgstr ""
+msgstr "Texto de dica"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
@@ -159,18 +166,19 @@ msgstr ""
 #: ui/components/OutputConsoleErrorMessage.tscn:92
 msgid "Sometimes errors are reported outside of your code. Why does that happen?"
 msgstr ""
+"Às vezes, erros são reportados fora do seu código. Por que isso acontece?"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
 msgid "Explain"
-msgstr ""
+msgstr "Explique"
 
 #: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: ui/components/Revealer.tscn:74
 msgid "Expand"
-msgstr ""
+msgstr "Expandir"
 
 #: ui/components/RunnableCodeExample.tscn:96
 msgid "run()"

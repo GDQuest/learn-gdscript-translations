@@ -2,24 +2,20 @@
 # Copyright (C) 2022 GDQuest
 # This file is distributed under the same license as the Learn GDScript From
 # Zero project.
-# Automatically generated, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-10 19:54+0000\n"
-"Last-Translator: Katarzyna Twardowska <katarina.twardowska@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-26-looping-over-dictionaries/pl/>\n"
-"Language: pl\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:13
@@ -36,29 +32,30 @@ msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:25
 msgid ""
-"To display the player's inventory, you need to know what it contains. You "
-"need the name and amount of each object.\n"
+"To display the player's inventory, you need to know what it contains. You"
+" need the name and amount of each object.\n"
 "\n"
 "And from code, you can only achieve that by looping over the whole "
 "dictionary and processing key-value pairs one by one.\n"
 "\n"
-"To get the list of keys in the dictionary, you can call it's [code]keys()[/"
-"code] member function."
+"To get the list of keys in the dictionary, you can call it's "
+"[code]keys()[/code] member function."
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:49
 msgid ""
-"But it's something we do so much that you don't need to call the function.\n"
+"But it's something we do so much that you don't need to call the "
+"function.\n"
 "\n"
-"Instead, you can directly type the variable name in a [code]for[/code] loop "
-"after the [code]in[/code] keyword. The language understands that you "
-"implicitly want to loop over the dictionary's keys."
+"Instead, you can directly type the variable name in a [code]for[/code] "
+"loop after the [code]in[/code] keyword. The language understands that you"
+" implicitly want to loop over the dictionary's keys."
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:71
 msgid ""
-"You can get the values with the syntax [code]dictionary[key][/code] as you "
-"learned in the previous lesson.\n"
+"You can get the values with the syntax [code]dictionary[key][/code] as "
+"you learned in the previous lesson.\n"
 "\n"
 "We can loop over the inventory keys, get the corresponding values, and "
 "display all that information in the user interface."
@@ -66,8 +63,9 @@ msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:103
 msgid ""
-"Instead of printing the key-value pairs to the output console, we can code "
-"and call a dedicated function that displays items in the user interface."
+"Instead of printing the key-value pairs to the output console, we can "
+"code and call a dedicated function that displays items in the user "
+"interface."
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:131
@@ -82,8 +80,9 @@ msgid ""
 "That's how you'd typically code a board game, a grid-based RPG, or a "
 "tactical RPG.\n"
 "\n"
-"While we focused on [code]String[/code] keys so far, GDScript dictionaries "
-"accept any value type as a key, allowing you to map anything to anything.\n"
+"While we focused on [code]String[/code] keys so far, GDScript "
+"dictionaries accept any value type as a key, allowing you to map anything"
+" to anything.\n"
 "\n"
 "The only limitation is that every key must be unique."
 msgstr ""
@@ -106,9 +105,9 @@ msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:198
 msgid ""
-"We use a dictionary to represent the player's inventory in this game. The "
-"dictionary keys are the name of items, and they map to the number of items "
-"that the player owns.\n"
+"We use a dictionary to represent the player's inventory in this game. The"
+" dictionary keys are the name of items, and they map to the number of "
+"items that the player owns.\n"
 "\n"
 "You need to loop over the dictionary and display the name and amount of "
 "every item in the inventory.\n"
@@ -119,8 +118,8 @@ msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:216
 msgid ""
-"We need to display the player's inventory on the screen but lack the code to "
-"do so. Use a loop to display every item."
+"We need to display the player's inventory on the screen but lack the code"
+" to do so. Use a loop to display every item."
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:221
@@ -129,8 +128,8 @@ msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:222
 msgid ""
-"We have a dictionary named [code]units[/code] that maps a cell position on "
-"the grid to a unit to put there.\n"
+"We have a dictionary named [code]units[/code] that maps a cell position "
+"on the grid to a unit to put there.\n"
 "\n"
 "Using a for loop and the [code]place_unit()[/code] function, place every "
 "unit in the units dictionary at the desired position on the game board."
@@ -138,10 +137,10 @@ msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:238
 msgid ""
-"We want to populate our game board with units at the start of every battle. "
-"Loop over the dictionary to place units on the board."
+"We want to populate our game board with units at the start of every "
+"battle. Loop over the dictionary to place units on the board."
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:242
 msgid "Looping over dictionaries"
-msgstr "Zapętlanie słowników (dictionaries)"
+msgstr ""
