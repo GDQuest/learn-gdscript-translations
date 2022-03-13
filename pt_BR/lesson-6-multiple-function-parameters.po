@@ -9,13 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-13 19:58+0000\n"
+"Last-Translator: Alexandre Vinicius Gonçalves <alexandre.craneo@hotmail.com>"
+"\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-6-multiple-function-parameters/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:14
@@ -30,6 +34,15 @@ msgid ""
 "In previous lessons, you used the [code]rotate()[/code] function and gave"
 " it a [i]parameter[/i]."
 msgstr ""
+"Na parte anterior, você criou uma função para desenhar um quadrado de "
+"tamanho fixo.\n"
+"\n"
+"Essa função é um pouco limitada. Seria muito melhor se tivéssemos uma função "
+"para desenhar um quadrado de [i]qualquer[/i] tamanho. Ou melhor: qualquer "
+"tipo de retângulo (um quadrado é um tipo específico de retângulo).\n"
+"\n"
+"Nas lições anteriores, você usou a função [code]rotate()[/code] e deu a ela "
+"um [i]parâmetro[/i]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:38
 msgid ""
@@ -37,12 +50,17 @@ msgid ""
 "[i]parameters[/i]. Parameters are labels you give to values passed to the"
 " function."
 msgstr ""
+"Assim como a função [code]rotate()[/code], também podemos dar à nossa função "
+"[i]parâmetros[/i]. Os parâmetros são nomes que você dá aos valores que são "
+"passados para a função."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:48
 msgid ""
 "The [code]radians[/code] can be a positive or negative number, which "
 "allows you to rotate both clockwise and counter-clockwise."
 msgstr ""
+"O [code]radiano[/code] pode ser um número positivo ou negativo, o que te "
+"permite girar no sentido horário e anti-horário."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:58
 msgid ""
@@ -60,10 +78,25 @@ msgid ""
 "\n"
 "For now, we'll stick to numbers as we have yet to see other value types."
 msgstr ""
+"Por enquanto, concentre-se na primeira linha: [code]func "
+"rotate(radiano)[/code].\n"
+"\n"
+"Quando você chama a função [code]rotate(0.5)[/code], o computador vincula o "
+"valor [code]0.5[/code] ao nome [code]radiano[/code].\n"
+"\n"
+"Sempre que o computador vê o identificador [code]radiano[/code] dentro da "
+"função, ele substitui o nome pelo valor [code]0.5[/code].\n"
+"\n"
+"O nome do parâmetro é sempre um nome que você usa para se referir a um "
+"[i]valor[/i]. O valor em questão pode ser um número, texto ou qualquer outra "
+"coisa.\n"
+"\n"
+"Por enquanto, vamos continuar a usar números, pois ainda temos que ver "
+"outros tipos de valores."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:74
 msgid "What is a function parameter?"
-msgstr ""
+msgstr "O que é um parâmetro de uma função?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:77
 msgid ""
@@ -72,23 +105,27 @@ msgid ""
 "The value in question can change: it depends on what you put in "
 "parentheses when calling a function."
 msgstr ""
+"Um parâmetro é um nome que representa um valor.\n"
+"\n"
+"O valor em questão pode mudar: depende do que você coloca entre parênteses "
+"ao chamar uma função."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:80
 #: course/lesson-6-multiple-function-parameters/lesson.tres:81
 msgid "A label you give to a value the function receives."
-msgstr ""
+msgstr "Um nome que você dá a um valor que a função recebe."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:80
 msgid "A number you use to make calculations."
-msgstr ""
+msgstr "Um número que você usa para fazer cálculos."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:80
 msgid "The name of a function."
-msgstr ""
+msgstr "O nome de uma função."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:88
 msgid "How to create functions with parameters"
-msgstr ""
+msgstr "Como criar funções com parâmetros"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:90
 msgid ""
@@ -97,6 +134,10 @@ msgid ""
 "\n"
 "To do so, you add a name inside of the parentheses."
 msgstr ""
+"Você pode dar parâmetros para suas funções ao escrever sua [i]definição[/i] ("
+"a linha que começa com a palavra-chave [code]func[/code]).\n"
+"\n"
+"Para fazer isso, você adiciona um nome dentro dos parênteses."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:112
 msgid ""
@@ -109,6 +150,13 @@ msgid ""
 "The following function definition is exactly equivalent to the previous "
 "one."
 msgstr ""
+"Você pode dar qualquer nome aos parâmetros. Você decide como nomear suas "
+"funções e parâmetros.\n"
+"\n"
+"Lembre-se de que os nomes não podem conter espaços. Para escrever nomes de "
+"parâmetros com várias palavras, você precisa usar o sinal de underscore.\n"
+"\n"
+"A definição de função a seguir é exatamente equivalente à anterior."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:136
 msgid ""
@@ -118,10 +166,15 @@ msgid ""
 "change the value passed to the function and draw squares of different "
 "sizes."
 msgstr ""
+"Os parâmetros facilitam a reutilização do seu código.\n"
+"\n"
+"Aqui está um exemplo de uma função para desenhar qualquer quadrado. Use o "
+"slider para alterar o valor passado para a função e desenhar quadrados de "
+"tamanhos diferentes."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:156
 msgid "Which is the correct syntax for a function definition?"
-msgstr ""
+msgstr "Qual é a sintaxe correta para uma definição de função?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:159
 msgid ""
@@ -133,27 +186,35 @@ msgid ""
 " see moving forward that keywords other than [code]func[/code] require a "
 "colon at the end of the line."
 msgstr ""
+"Para definir uma função, você precisa começar com a palavra-chave "
+"[code]func[/code] seguida por um espaço, o [code]nome_da_função[/code] e "
+"parâmetros opcionais dentro dos parênteses.\n"
+"\n"
+"Você deve terminar a linha com o sinal de dois pontos, que define um novo "
+"bloco de código. Vamos ver mais pra frente que outras palavras-chave "
+"diferentes de [code]func[/code] também vão exigir os dois pontos no final da "
+"linha."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 #: course/lesson-6-multiple-function-parameters/lesson.tres:163
 msgid "func function_name(parameter_name):"
-msgstr ""
+msgstr "func nome_da_função(nome_do_parâmetro):"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 msgid "func (function_name): parameter_name"
-msgstr ""
+msgstr "func (nome_da_função): nome_do_parâmetro"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 msgid "func function_name(parameter_name)"
-msgstr ""
+msgstr "func nome_da_função(nome_do_parâmetro)"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 msgid "function_name(parameter_name):"
-msgstr ""
+msgstr "nome_da_função(nome_do_parâmetro):"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:170
 msgid "Functions can have multiple parameters"
-msgstr ""
+msgstr "Funções podem ter vários parâmetros"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:172
 msgid ""
@@ -163,10 +224,15 @@ msgid ""
 "To separate the function parameters, you need to write a comma between "
 "them."
 msgstr ""
+"Você pode usar vários parâmetros em uma função. Na verdade, você pode usar "
+"quantos parâmetros você [i]precisar[/i].\n"
+"\n"
+"Para separar os parâmetros da função, você precisa escrever uma vírgula "
+"entre eles."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:192
 msgid "Must I write  spaces between function parameters?"
-msgstr ""
+msgstr "Devo escrever  espaços entre os parâmetros da função?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:194
 msgid ""
@@ -179,16 +245,27 @@ msgid ""
 "\n"
 "We often use spaces after the comma for readability."
 msgstr ""
+"Em uma definição de função, você deve ter um espaço entre a palavra-chave "
+"[code]func[/code] e o nome da função.\n"
+"\n"
+"No entanto, como usamos a vírgula para separar os parâmetros, não importa se "
+"você usa espaços entre os parâmetros. Contanto que você tenha a vírgula, "
+"qualquer uma das sintaxes está correta.\n"
+"\n"
+"Nós costumamos a usar espaços após a vírgula para facilitar a leitura do "
+"código."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:208
 msgid ""
 "The following example defines a function that uses two parameters to move"
 " an entity on both the X and Y axes."
 msgstr ""
+"O exemplo a seguir define uma função que usa dois parâmetros para mover uma "
+"entidade nos eixos X e Y."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:226
 msgid "How should I name my functions and parameters?"
-msgstr ""
+msgstr "De que forma eu devo nomear minhas funções e parâmetros?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:228
 msgid ""
@@ -224,58 +301,96 @@ msgid ""
 "Based on a few characters you type, it will offer you to complete long "
 "names."
 msgstr ""
+"Os nomes de funções, parâmetros ou outras coisas em seu código dependem "
+"inteiramente de você.\n"
+"\n"
+"Eles são escritos por nós programadores para outros programadores. Você "
+"sempre vai querer usar nomes que fazem mais sentido, tanto para você quanto "
+"para outros programadores.\n"
+"\n"
+"Você poderia muito bem escrever nomes usando uma única letra como nas aulas "
+"de matemática: [code]a[/code], [code]b[/code], [code]f[/code].\n"
+"\n"
+"Você também pode escrever nomes abreviados como [code]pos[/code] para "
+"posição, [code]bg[/code] para background e assim por diante.\n"
+"\n"
+"Muitos programadores fazem uma ou ambas das opções acima.\n"
+"\n"
+"Aqui na GDQuest, privilegiamos nomes completos e explícitos.\n"
+"\n"
+"Nós geralmente tentamos escrever códigos que sejam explícitos e "
+"relativamente fáceis de ler.\n"
+"\n"
+"No momento, você precisa digitar todas as letras ao programar, portanto, "
+"nomes longos podem parecer inconvenientes.\n"
+"\n"
+"No entanto, isso é bom para aprender: isso treina seus dedos para você "
+"conseguir digitar com precisão.\n"
+"\n"
+"Então, depois de terminar esse curso, você vai ver que o computador te ajuda "
+"muito na hora de programar jogos reais com um recurso chamado auto-completar "
+"(auto-completion).\n"
+"\n"
+"Com base em alguns caracteres que você digita, ele vai oferecer para você "
+"nomes longos completos."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:256
 msgid "When defining a function, parameters are..."
-msgstr ""
+msgstr "Ao definir uma função, os parâmetros são..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:259
 msgid ""
 "You can define functions with or without parameters, depending on your "
 "needs."
 msgstr ""
+"Você pode definir funções com ou sem parâmetros, depende da suas "
+"necessidades."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:260
 #: course/lesson-6-multiple-function-parameters/lesson.tres:261
 msgid "Optional"
-msgstr ""
+msgstr "Opcional"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:260
 msgid "Mandatory"
-msgstr ""
+msgstr "Obrigatório"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:268
 msgid "What's the correct syntax to define a function with multiple parameters?"
-msgstr ""
+msgstr "Qual é a sintaxe correta para definir uma função com vários parâmetros?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:271
 msgid ""
 "You always write the function parameters inside of the parentheses. To "
 "define multiple parameters, you separate them with a comma."
 msgstr ""
+"Você sempre escreve os parâmetros da função dentro dos parênteses. Para "
+"definir vários parâmetros, você separa eles com uma vírgula."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:272
 #: course/lesson-6-multiple-function-parameters/lesson.tres:273
 msgid "func function_name(parameter_1, parameter_2, ...):"
-msgstr ""
+msgstr "func nome_da_função(parâmetro_1, parâmetro_2, ...):"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:272
 msgid "func function_name(parameter_1 parameter_2 ...):"
-msgstr ""
+msgstr "func nome_da_função(parâmetro_1 parâmetro_2 ...):"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:272
 msgid "func function_name(): parameter_1, parameter_2, ..."
-msgstr ""
+msgstr "func nome_da_função(): parâmetro_1, parâmetro_2, ..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:282
 msgid ""
 "Now it's your turn to create a function with multiple parameters: a "
 "function to draw rectangles of any size."
 msgstr ""
+"Agora é sua vez de criar uma função com vários parâmetros: uma função para "
+"desenhar retângulos de qualquer tamanho."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:290
 msgid "Drawing corners of different sizes"
-msgstr ""
+msgstr "Desenhando ângulos de 90° de tamanhos diferentes"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:291
 msgid ""
@@ -292,16 +407,30 @@ msgid ""
 "Complete the [code]draw_corner()[/code] function so it uses the "
 "[code]length[/code] parameter to draw corners."
 msgstr ""
+"Antes de criarmos um retângulo de qualquer tamanho, vamos primeiro ver como "
+"podemos usar parâmetros para desenhar formas mais simples.\n"
+"\n"
+"Aqui temos uma função incompleta que irá desenhar ângulos de 90° com linhas "
+"de qualquer comprimento, mas está faltando o parâmetro [code]length[/code].\n"
+"\n"
+"A função vai mover a tartaruga para frente pela quantidade definida pelo "
+"parâmetro [code]length[/code], vai girar [code]90[/code] graus, então vai "
+"mover para frente pela quantidade de [code]length[/code] pixels.\n"
+"\n"
+"Complete a função [code]draw_corner()[/code] para que ela use o parâmetro "
+"[code]length[/code] para desenhar ângulos de 90°."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:309
 msgid ""
 "Using function parameters, code a function you can reuse to draw corners "
 "with lines of varying sizes."
 msgstr ""
+"Usando parâmetros de função, programe uma função que você pode reutilizar "
+"para desenhar ângulos de 90° com linhas de tamanhos variados."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:314
 msgid "Using multiple parameters"
-msgstr ""
+msgstr "Usando vários parâmetros"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:315
 msgid ""
@@ -311,14 +440,21 @@ msgid ""
 "Add the [code]angle[/code] parameter to the [code]draw_corner()[/code] "
 "function and use it to draw corners of varying angles."
 msgstr ""
+"Nessa prática, vamos melhorar nossa função [code]draw_corner()[/code] para "
+"que o ângulo também possa variar.\n"
+"\n"
+"Adicione o parâmetro [code]angle[/code] na função [code]draw_corner()[/code] "
+"e use ela para desenhar ângulos de 90° com ângulos variados."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:329
 msgid "With two parameters, code a function to draw corners with any angle."
 msgstr ""
+"Com dois parâmetros, programe uma função para desenhar ângulos de 90° com "
+"qualquer ângulo."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:334
 msgid "Drawing squares of any size"
-msgstr ""
+msgstr "Desenhando quadrados de qualquer tamanho"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:335
 msgid ""
@@ -333,16 +469,29 @@ msgid ""
 "The turtle should face towards the right when starting or completing a "
 "rectangle."
 msgstr ""
+"Nós queremos uma função para desenhar quadrados de qualquer tamanho.\n"
+"\n"
+"Poderíamos usar esses quadrados como contornos ao selecionar unidades em um "
+"jogo tático, como moldura para itens em um inventário e muito mais.\n"
+"\n"
+"Crie uma função chamada [code]draw_square()[/code] que receba um parâmetro: "
+"o [code]length[/code] (comprimento) dos lados do quadrado.\n"
+"\n"
+"A tartaruga deve ficar virada para a direita ao iniciar ou quando completar "
+"um retângulo."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:350
 msgid ""
 "In the previous lesson, your function would draw squares of a fixed size."
 " Using a parameter, code a function to draw squares of any size."
 msgstr ""
+"Na lição anterior, sua função podia desenhar quadrados de tamanho fixo. "
+"Usando um parâmetro, programe uma função para desenhar quadrados de qualquer "
+"tamanho."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:355
 msgid "Drawing rectangles of any size"
-msgstr ""
+msgstr "Desenhando retângulos de qualquer tamanho"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:356
 msgid ""
@@ -360,13 +509,29 @@ msgid ""
 " by having the [code]length[/code] and [code]height[/code] equal the same"
 " value."
 msgstr ""
+"Vamos fazer nossa função de desenhar quadrado mais flexível para incluir "
+"retângulos de tamanhos variados.\n"
+"\n"
+"Seu trabalho agora é programar uma função chamada "
+"[code]draw_rectangle()[/code] que recebe dois parâmetros: o "
+"[code]length[/code] (comprimento)e o [code]height[/code] (altura) do "
+"retângulo.\n"
+"\n"
+"A tartaruga deve ficar virada para a direita ao iniciar ou quando completar "
+"um retângulo.\n"
+"\n"
+"Observe que ainda podemos desenhar um quadrado com a função "
+"[code]draw_rectangle()[/code] fazendo com que [code]length[/code] (o "
+"comprimento) e [code]height[/code] (a altura) tenham o mesmo valor."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:379
 msgid ""
 "With one parameter, you can make squares of any size. With two, you can "
 "draw any rectangle! You'll do so in this practice."
 msgstr ""
+"Com um parâmetro, você pode fazer quadrados de qualquer tamanho. Com dois, "
+"você pode desenhar qualquer retângulo! Você vai fazer isso nessa prática."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:383
 msgid "Your First Function Parameter"
-msgstr ""
+msgstr "Seu Primeiro Parâmetro de Função"
