@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-09 20:21+0100\n"
+"PO-Revision-Date: 2022-03-15 14:06+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -194,9 +194,6 @@ msgstr ""
 "materiales de pilas de cajas. Estas llegan a la fábrica apiladas "
 "verticalmente, y tienes que tomarlas de una en una de arriba a abajo."
 
-# To take a crate from the back of the array
-# removes (pops)
-# we pop saltamos
 #: course/lesson-23-append-to-arrays/lesson.tres:223
 msgid ""
 "To take a crate from the back of the array, this time, we use the "
@@ -211,8 +208,7 @@ msgstr ""
 "Para tomar una caja de la parte de atrás de la matriz, esta vez, utilizamos "
 "la función de matriz [code]pop_back()[/code].\n"
 "\n"
-"Esta función elimina (extrae) el último valor de la matriz y te lo "
-"devuelve.\n"
+"Esta función elimina el último valor de la matriz y te lo devuelve.\n"
 "\n"
 "Aquí extraemos el último valor de la matriz e imprimimos lo que queda de la "
 "matriz para demostrar cómo esta se vuelve más pequeña."
