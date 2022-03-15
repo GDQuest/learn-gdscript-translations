@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-21 23:38+0300\n"
+"POT-Creation-Date: 2022-03-07 21:03+0100\n"
 "PO-Revision-Date: 2022-03-01 19:28+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.0\n"
 
@@ -32,11 +32,11 @@ msgstr ""
 "Debes escribir un decimal para esta respuesta. Utiliza un \".\" para separar "
 "la parte decimal. Ejemplo: 3.14"
 
-#: ui/UILesson.tscn:92
+#: ui/UILesson.tscn:90
 msgid "Title"
 msgstr "Título"
 
-#: ui/UILesson.tscn:127
+#: ui/UILesson.tscn:125
 msgid "Practices"
 msgstr "Prácticas"
 
@@ -48,62 +48,62 @@ msgstr "Vuelve al historial de navegación"
 msgid "(no previous history)"
 msgstr "(sin historial previo)"
 
-#: ui/UIPractice.gd:132 ui/UIPractice.gd:190
+#: ui/UIPractice.gd:133 ui/UIPractice.gd:191
 #, python-format
 msgid "Hint %s"
 msgstr "Pista %s"
 
-#: ui/UIPractice.gd:215
+#: ui/UIPractice.gd:216
 msgid "Validating Your Code..."
 msgstr "Validando tu código..."
 
-#: ui/UIPractice.gd:268
+#: ui/UIPractice.gd:269
 msgid "Running Your Code..."
 msgstr "Ejecutando tu código..."
 
-#: ui/UIPractice.gd:299
+#: ui/UIPractice.gd:300
 msgid "Running Tests..."
 msgstr "Ejecutando pruebas..."
 
-#: ui/UIPractice.tscn:144
+#: ui/UIPractice.tscn:138
 msgid "Suggested Solution"
 msgstr "Solución sugerida"
 
-#: ui/UIPractice.tscn:183
+#: ui/UIPractice.tscn:189
 msgid "Use Solution"
 msgstr "Utilizar la solución"
 
-#: ui/UIPractice.tscn:201
+#: ui/UIPractice.tscn:207
 msgid "Leave unfinished practice?"
 msgstr "¿Dejar la práctica sin terminar?"
 
-#: ui/components/BigGreenButton.tscn:25
+#: ui/components/BigGreenButton.tscn:24
 msgid "Button"
 msgstr "Botón"
 
-#: ui/components/CodeEditor.tscn:166
+#: ui/components/CodeEditor.tscn:161
 msgid "Run"
 msgstr "Ejecutar"
 
-#: ui/components/CodeEditor.tscn:182
+#: ui/components/CodeEditor.tscn:175
 msgid "Pause"
 msgstr "Pausa"
 
-#: ui/components/CodeEditor.tscn:199 ui/components/RunnableCodeExample.tscn:73
+#: ui/components/CodeEditor.tscn:190 ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
 msgstr "Reiniciar"
 
-#: ui/components/CodeEditor.tscn:223
+#: ui/components/CodeEditor.tscn:212
 msgid "Solution"
 msgstr "Solución"
 
-#: ui/components/CodeEditor.tscn:239 ui/components/OutputConsole.tscn:46
+#: ui/components/CodeEditor.tscn:226 ui/components/OutputConsole.tscn:43
 msgid "Output"
 msgstr "Salida"
 
-#: ui/components/CodeEditor.tscn:256
-#: ui/components/popups/LessonDonePopup.tscn:206
-#: ui/components/popups/PracticeDonePopup.tscn:176
+#: ui/components/CodeEditor.tscn:241
+#: ui/components/popups/LessonDonePopup.tscn:198
+#: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
 msgstr "Continuar"
 
@@ -123,6 +123,15 @@ msgstr ""
 msgid "Paused"
 msgstr "En pausa"
 
+#: ui/components/GlossaryPopup.tscn:37
+msgid "Term"
+msgstr ""
+
+#: ui/components/GlossaryPopup.tscn:53
+#: ui/components/popups/ErrorOverlayPopup.tscn:74
+msgid "Our error explanation."
+msgstr "Nuestra explicación del error."
+
 #: ui/components/LockedOverlay.gd:14
 msgid "Can't reach the server. The tests will be less precise."
 msgstr "No se puede acceder al servidor. Las pruebas serán menos precisas."
@@ -132,8 +141,10 @@ msgid "ERROR:"
 msgstr "ERROR:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
-msgid "There has been a horrible accident!"
-msgstr "¡Ha habido un horrible accidente!"
+#: ui/components/ScrollableTextBox.tscn:43
+#: ui/screens/lesson/UIContentBlock.tscn:68
+msgid "Placeholder text"
+msgstr ""
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
@@ -169,55 +180,37 @@ msgstr "Valor"
 msgid "Expand"
 msgstr "Expandir"
 
-#: ui/components/RunnableCodeExample.tscn:87
+#: ui/components/RunnableCodeExample.tscn:96
 msgid "run()"
 msgstr "run()"
 
-#: ui/components/ScrollableTextBox.tscn:43
-msgid ""
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices "
-"condimentum velit. Fusce egestas vestibulum libero, non eleifend velit "
-"luctus a. Mauris dolor tellus, aliquet at malesuada sed, mattis vel velit. "
-"Mauris vestibulum diam id commodo congue. Maecenas risus ligula, bibendum "
-"sit amet urna non, volutpat viverra nisi."
-msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices "
-"condimentum velit. Fusce egestas vestibulum libero, non eleifend velit "
-"luctus a. Mauris dolor tellus, aliquet at malesuada sed, mattis vel velit. "
-"Mauris vestibulum diam id commodo congue. Maecenas risus ligula, bibendum "
-"sit amet urna non, volutpat viverra nisi."
-
-#: ui/components/popups/ConfirmPopup.tscn:119
-#: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:123
+#: ui/components/popups/ConfirmPopup.tscn:115
+#: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
 msgid "Confirm"
 msgstr "Confirmar"
 
-#: ui/components/popups/ConfirmPopup.tscn:135
-#: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:139
+#: ui/components/popups/ConfirmPopup.tscn:127
+#: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: ui/components/popups/ErrorOverlayPopup.tscn:54
+#: ui/components/popups/ErrorOverlayPopup.tscn:46
 msgid "Original error message"
 msgstr "Mensaje de error original"
 
-#: ui/components/popups/ErrorOverlayPopup.tscn:73
+#: ui/components/popups/ErrorOverlayPopup.tscn:65
 msgid "Why this happens"
 msgstr "Por qué ocurre esto"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
-msgid "Our error explanation."
-msgstr "Nuestra explicación del error."
-
-#: ui/components/popups/ErrorOverlayPopup.tscn:90
 msgid "How to fix this"
 msgstr "Cómo solucionarlo"
 
-#: ui/components/popups/ErrorOverlayPopup.tscn:99
+#: ui/components/popups/ErrorOverlayPopup.tscn:91
 msgid "Our suggestion on how to fix it."
 msgstr "Nuestra sugerencia sobre cómo solucionarlo."
 
-#: ui/components/popups/ErrorOverlayPopup.tscn:110
+#: ui/components/popups/ErrorOverlayPopup.tscn:102
 msgid ""
 "Sorry, we don't have this particular error message covered yet!\n"
 "\n"
@@ -236,15 +229,15 @@ msgstr ""
 "\n"
 "[center]¡Gracias![/center]"
 
-#: ui/components/popups/ErrorOverlayPopup.tscn:137
+#: ui/components/popups/ErrorOverlayPopup.tscn:128
 msgid "Hide"
 msgstr "Ocultar"
 
-#: ui/components/popups/ExternalErrorPopup.tscn:70
+#: ui/components/popups/ExternalErrorPopup.tscn:66
 msgid "Where do external errors come from?"
 msgstr "¿De dónde vienen los errores externos?"
 
-#: ui/components/popups/ExternalErrorPopup.tscn:87
+#: ui/components/popups/ExternalErrorPopup.tscn:83
 msgid ""
 "Lessons in this course are constructed in such a way that you only need to "
 "edit the [b]important bits[/b]. But there is much more code outside of what "
@@ -275,15 +268,15 @@ msgstr ""
 "errores a los que te enfrentas. Rápido, ¡haz clic en el botón [b]Explicar[/"
 "b] junto al mensaje de error!"
 
-#: ui/components/popups/ExternalErrorPopup.tscn:123
+#: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
 msgstr "¡Entendido!"
 
-#: ui/components/popups/LessonDonePopup.tscn:136
+#: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
 msgstr "¡Lección completa!"
 
-#: ui/components/popups/LessonDonePopup.tscn:145
+#: ui/components/popups/LessonDonePopup.tscn:142
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
@@ -291,7 +284,7 @@ msgstr ""
 "Pero todavía hay algunas prácticas\n"
 "que te has saltado."
 
-#: ui/components/popups/LessonDonePopup.tscn:158
+#: ui/components/popups/LessonDonePopup.tscn:155
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
@@ -299,20 +292,20 @@ msgstr ""
 "[center][b]Quédate[/b] y revisa el material de estudio,\n"
 "o [b]continúa[/b] el curso.[/center]"
 
-#: ui/components/popups/LessonDonePopup.tscn:190
-#: ui/components/popups/PracticeDonePopup.tscn:154
+#: ui/components/popups/LessonDonePopup.tscn:183
+#: ui/components/popups/PracticeDonePopup.tscn:144
 msgid "Stay"
 msgstr "Quedarse"
 
-#: ui/components/popups/PracticeDonePopup.tscn:95
+#: ui/components/popups/PracticeDonePopup.tscn:89
 msgid "Well done!"
 msgstr "¡Bien hecho!"
 
-#: ui/components/popups/PracticeDonePopup.tscn:104
+#: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
 msgstr "Has completado la práctica."
 
-#: ui/components/popups/PracticeDonePopup.tscn:116
+#: ui/components/popups/PracticeDonePopup.tscn:110
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
@@ -320,22 +313,21 @@ msgstr ""
 "[center][b]Quédate[/b] y experimenta un poco más,\n"
 "o [b]continúa[/b] el curso.[/center]"
 
-#: ui/components/popups/PracticeListPopup.tscn:71
+#: ui/components/popups/PracticeListPopup.tscn:67
 msgid "Practice List"
 msgstr "Lista de prácticas"
 
-#: ui/components/popups/PracticeListPopup.tscn:120
-#: ui/components/popups/SettingsPopup.tscn:225
+#: ui/components/popups/PracticeListPopup.tscn:115
+#: ui/components/popups/SettingsPopup.tscn:226
 msgid "Close"
 msgstr "Cerrar"
 
-#: ui/components/popups/ReportFormPopup.tscn:70
-#: ui/screens/end_screen/EndScreen.tscn:77
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:63
+#: ui/components/popups/ReportFormPopup.tscn:66
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:59
 msgid "Report an issue"
 msgstr "Informar de un problema"
 
-#: ui/components/popups/ReportFormPopup.tscn:87
+#: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
 "If you face an issue in the app, please click the link below to report it on "
 "GitHub:\n"
@@ -416,32 +408,32 @@ msgstr ""
 "\n"
 "[center]¡Gracias por contribuir al código abierto![/center]"
 
-#: ui/components/popups/ReportFormPopup.tscn:162
+#: ui/components/popups/ReportFormPopup.tscn:158
 msgid "OK"
 msgstr "OK"
 
-#: ui/components/popups/SettingsPopup.tscn:74
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:384
+#: ui/components/popups/SettingsPopup.tscn:79
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:378
 msgid "Configure the App"
 msgstr "Configurar la aplicación"
 
-#: ui/components/popups/SettingsPopup.tscn:101
+#: ui/components/popups/SettingsPopup.tscn:106
 msgid "Language"
 msgstr "Idioma"
 
-#: ui/components/popups/SettingsPopup.tscn:121
+#: ui/components/popups/SettingsPopup.tscn:126
 msgid "Text Size"
 msgstr "Tamaño del texto"
 
-#: ui/components/popups/SettingsPopup.tscn:148
+#: ui/components/popups/SettingsPopup.tscn:153
 msgid "Sample text"
 msgstr "Texto de muestra"
 
-#: ui/components/popups/SettingsPopup.tscn:161
+#: ui/components/popups/SettingsPopup.tscn:166
 msgid "Scroll sensitivity"
 msgstr "Sensibilidad de desplazamiento"
 
-#: ui/components/popups/SettingsPopup.tscn:187
+#: ui/components/popups/SettingsPopup.tscn:192
 msgid "Framerate cap"
 msgstr "Límite de velocidad de fotogramas"
 
@@ -449,41 +441,41 @@ msgstr "Límite de velocidad de fotogramas"
 msgid "Apply"
 msgstr "Aplicar"
 
-#: ui/screens/course_outliner/CourseLessonDetails.gd:92
+#: ui/screens/course_outliner/CourseLessonDetails.gd:93
 msgid "Open Lesson"
 msgstr "Abrir lección"
 
-#: ui/screens/course_outliner/CourseLessonDetails.gd:94
+#: ui/screens/course_outliner/CourseLessonDetails.gd:95
 msgid "Continue Lesson"
 msgstr "Continuar con la lección"
 
-#: ui/screens/course_outliner/CourseLessonDetails.gd:96
+#: ui/screens/course_outliner/CourseLessonDetails.gd:97
 msgid "Start Lesson"
 msgstr "Iniciar lección"
 
-#: ui/screens/course_outliner/CourseLessonDetails.tscn:38
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:35
 msgid "Lesson Title Goes Here"
 msgstr "El título de la lección va aquí"
 
-#: ui/screens/course_outliner/CourseLessonDetails.tscn:51
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:48
 msgid "Lesson read"
 msgstr "Lectura de la lección"
 
-#: ui/screens/course_outliner/CourseLessonDetails.tscn:59
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:56
 msgid "0%"
 msgstr "0%"
 
 # Revision de conocimientos
-#: ui/screens/course_outliner/CourseLessonDetails.tscn:82
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:79
 msgid "Quizzes completed"
 msgstr "Quices completados"
 
-#: ui/screens/course_outliner/CourseLessonDetails.tscn:90
-#: ui/screens/course_outliner/CourseLessonDetails.tscn:111
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:87
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:108
 msgid "0 / 0"
 msgstr "0 / 0"
 
-#: ui/screens/course_outliner/CourseLessonDetails.tscn:103
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:100
 msgid "Practices completed"
 msgstr "Prácticas completadas"
 
@@ -495,27 +487,27 @@ msgstr "Lección 0"
 msgid "Lesson Title"
 msgstr "Título de la Lección"
 
-#: ui/screens/course_outliner/CourseOutliner.tscn:47
+#: ui/screens/course_outliner/CourseOutliner.tscn:44
 msgid "Course Index - "
 msgstr "Índice del curso - "
 
-#: ui/screens/course_outliner/CourseOutliner.tscn:54
+#: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
 msgstr "El título del curso va aquí"
 
-#: ui/screens/course_outliner/CourseOutliner.tscn:86
+#: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
 msgstr "Reiniciar progreso"
 
-#: ui/screens/course_outliner/CourseOutliner.tscn:101
+#: ui/screens/course_outliner/CourseOutliner.tscn:98
 msgid "Confirm Resetting Progress"
 msgstr "Confirmar reiniciar el progreso"
 
-#: ui/screens/end_screen/EndScreen.tscn:128
+#: ui/screens/end_screen/EndScreen.tscn:122
 msgid "That's it... for now!"
 msgstr "Eso es todo... ¡por ahora!"
 
-#: ui/screens/end_screen/EndScreen.tscn:166
+#: ui/screens/end_screen/EndScreen.tscn:160
 msgid ""
 "Thanks for participating in the beta test.\n"
 "\n"
@@ -537,7 +529,7 @@ msgstr ""
 "La buena noticia es que, ahora que hemos resuelto muchas de las partes más "
 "complejas, podemos centrarnos en nuevas lecciones y prácticas."
 
-#: ui/screens/end_screen/EndScreen.tscn:194
+#: ui/screens/end_screen/EndScreen.tscn:188
 msgid ""
 "[font=res://ui/theme/fonts/font_title.tres]What's coming next[/font]\n"
 "\n"
@@ -554,27 +546,27 @@ msgstr ""
 "github.com/GDQuest/learn-gdscript#roadmap]plan del proyecto (_roadmap_)[/"
 "url]."
 
-#: ui/screens/lesson/UIBaseQuiz.tscn:61
+#: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
 msgstr "[b]Pregunta[/b]"
 
-#: ui/screens/lesson/UIBaseQuiz.tscn:85 ui/screens/lesson/UIBaseQuiz.tscn:172
+#: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
 msgid "Explanation"
 msgstr "Explicación"
 
-#: ui/screens/lesson/UIBaseQuiz.tscn:111
+#: ui/screens/lesson/UIBaseQuiz.tscn:107
 msgid "Skip"
 msgstr "Saltar"
 
-#: ui/screens/lesson/UIBaseQuiz.tscn:122
+#: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
 msgstr "Enviar"
 
-#: ui/screens/lesson/UIBaseQuiz.tscn:153
+#: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
 msgstr "¡Estás en lo cierto!"
 
-#: ui/screens/lesson/UIBaseQuiz.tscn:163
+#: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
 msgstr "Respuestas aquí"
 
@@ -584,60 +576,22 @@ msgid "Learn More"
 msgstr "Aprende más"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
-msgid "Optional Heading"
-msgstr "Título opcional"
-
-#: ui/screens/lesson/UIContentBlock.tscn:68
-msgid ""
-"Eat all the power cords play time please stop looking at your phone and pet "
-"me milk the cow. Sugar, my siamese, stalks me (in a good way), day and "
-"night . Meowzer pose purrfectly to show my beauty. Naughty running cat. Meow "
-"all night the fat cat sat on the mat bat away with paws. Scoot butt on the "
-"rug knock dish off table head butt cant eat out of my own dish for pet me "
-"pet me pet me pet me, bite, scratch, why are you petting me leave hair "
-"everywhere i do no work yet get food, shelter, and lots of stuff just like "
-"man who lives with us. White cat sleeps on a black shirt jump off balcony, "
-"onto stranger's head. Lounge in doorway my left donut is missing, as is my "
-"right shake treat bag, yet jump launch to pounce upon little yarn mouse, "
-"bare fangs at toy run hide in litter box until treats are fed or spot "
-"something, big eyes, big eyes, crouch, shake butt, prepare to pounce. Only "
-"use one corner of the litter box. Play time. Hey! you there, with the hands "
-"meowing chowing and wowing lick sellotape stare at ceiling, for sit as close "
-"as possible to warm fire "
+msgid "Placeholder heading"
 msgstr ""
-"Eat all the power cords play time please stop looking at your phone and pet "
-"me milk the cow. Sugar, my siamese, stalks me (in a good way), day and "
-"night . Meowzer pose purrfectly to show my beauty. Naughty running cat. Meow "
-"all night the fat cat sat on the mat bat away with paws. Scoot butt on the "
-"rug knock dish off table head butt cant eat out of my own dish for pet me "
-"pet me pet me pet me, bite, scratch, why are you petting me leave hair "
-"everywhere i do no work yet get food, shelter, and lots of stuff just like "
-"man who lives with us. White cat sleeps on a black shirt jump off balcony, "
-"onto stranger's head. Lounge in doorway my left donut is missing, as is my "
-"right shake treat bag, yet jump launch to pounce upon little yarn mouse, "
-"bare fangs at toy run hide in litter box until treats are fed or spot "
-"something, big eyes, big eyes, crouch, shake butt, prepare to pounce. Only "
-"use one corner of the litter box. Play time. Hey! you there, with the hands "
-"meowing chowing and wowing lick sellotape stare at ceiling, for sit as close "
-"as possible to warm fire "
 
-#: ui/screens/lesson/UIPracticeButton.tscn:66
+#: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
 msgstr "Título de la práctica"
 
-#: ui/screens/lesson/UIPracticeButton.tscn:91
+#: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
 msgstr "siguiente"
 
-#: ui/screens/lesson/UIPracticeButton.tscn:98
-msgid "Description"
-msgstr "Descripción"
-
-#: ui/screens/lesson/UIPracticeButton.tscn:113
+#: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
 msgstr "Práctica"
 
-#: ui/screens/lesson/UIPracticeButton.tscn:123
+#: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
 msgstr "Estás aquí"
 
@@ -653,11 +607,11 @@ msgstr "(selecciona todas las que correspondan)"
 msgid "Show Hint"
 msgstr "Mostrar pista"
 
-#: ui/screens/practice/PracticeInfoPanel.gd:141
+#: ui/screens/practice/PracticeInfoPanel.gd:143
 msgid "Method descriptions"
 msgstr "Descripciones de los métodos"
 
-#: ui/screens/practice/PracticeInfoPanel.gd:157
+#: ui/screens/practice/PracticeInfoPanel.gd:159
 msgid "Property descriptions"
 msgstr "Descripciones de las propiedades"
 
@@ -689,11 +643,11 @@ msgstr "Lista de prácticas abiertas"
 msgid "Test text"
 msgstr "Texto de prueba"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:127
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:121
 msgid "Learn GDScript From Zero"
 msgstr "Aprende GDScript desde cero"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:180
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:174
 msgid ""
 "GDScript Learn is a Free and Open-Source app and series to help you learn to "
 "code, [b]from zero[/b], with Godot's GDScript programming language.\n"
@@ -726,14 +680,14 @@ msgstr ""
 "Por eso hemos creado esta aplicación: te facilita el aprendizaje, con "
 "demostraciones interactivas."
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:220
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:214
 msgid ""
 "Mini quizzes in the lessons will help you test and remember what you learned."
 msgstr ""
 "Los miniquices en las lecciones te ayudarán a comprobar y recordar lo que "
 "has aprendido."
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:244
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:238
 msgid ""
 "[b]Every lesson[/b] ends with one or more [i]practices[/i].\n"
 "\n"
@@ -785,7 +739,7 @@ msgstr ""
 "regalar) uno de nuestros [url=https://gdquest.mavenseed.com/courses]cursos "
 "de Godot[/url]."
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:293
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:287
 msgid ""
 "[font=res://ui/theme/fonts/font_title.tres]Get started now[/font]\n"
 "\n"
@@ -795,11 +749,11 @@ msgstr ""
 "\n"
 "Para empezar, haz clic en el botón [i]Iniciar curso[/i] de la derecha."
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:343
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:337
 msgid "Early beta release"
 msgstr "Versión beta temprana"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:354
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:348
 msgid ""
 "The app is in [b]beta[/b].\n"
 "\n"
@@ -823,6 +777,65 @@ msgstr ""
 "[b]Es crucial[/b]: utilizaremos tus informes y comentarios para mejorar la "
 "aplicación, tanto para ti como para los demás."
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:391
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:385
 msgid "Open Course Index"
 msgstr "Abrir índice de cursos"
+
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:398
+msgid "Quit"
+msgstr ""
+
+#~ msgid "There has been a horrible accident!"
+#~ msgstr "¡Ha habido un horrible accidente!"
+
+#~ msgid ""
+#~ "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices "
+#~ "condimentum velit. Fusce egestas vestibulum libero, non eleifend velit "
+#~ "luctus a. Mauris dolor tellus, aliquet at malesuada sed, mattis vel "
+#~ "velit. Mauris vestibulum diam id commodo congue. Maecenas risus ligula, "
+#~ "bibendum sit amet urna non, volutpat viverra nisi."
+#~ msgstr ""
+#~ "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices "
+#~ "condimentum velit. Fusce egestas vestibulum libero, non eleifend velit "
+#~ "luctus a. Mauris dolor tellus, aliquet at malesuada sed, mattis vel "
+#~ "velit. Mauris vestibulum diam id commodo congue. Maecenas risus ligula, "
+#~ "bibendum sit amet urna non, volutpat viverra nisi."
+
+#~ msgid "Optional Heading"
+#~ msgstr "Título opcional"
+
+#~ msgid ""
+#~ "Eat all the power cords play time please stop looking at your phone and "
+#~ "pet me milk the cow. Sugar, my siamese, stalks me (in a good way), day "
+#~ "and night . Meowzer pose purrfectly to show my beauty. Naughty running "
+#~ "cat. Meow all night the fat cat sat on the mat bat away with paws. Scoot "
+#~ "butt on the rug knock dish off table head butt cant eat out of my own "
+#~ "dish for pet me pet me pet me pet me, bite, scratch, why are you petting "
+#~ "me leave hair everywhere i do no work yet get food, shelter, and lots of "
+#~ "stuff just like man who lives with us. White cat sleeps on a black shirt "
+#~ "jump off balcony, onto stranger's head. Lounge in doorway my left donut "
+#~ "is missing, as is my right shake treat bag, yet jump launch to pounce "
+#~ "upon little yarn mouse, bare fangs at toy run hide in litter box until "
+#~ "treats are fed or spot something, big eyes, big eyes, crouch, shake butt, "
+#~ "prepare to pounce. Only use one corner of the litter box. Play time. Hey! "
+#~ "you there, with the hands meowing chowing and wowing lick sellotape stare "
+#~ "at ceiling, for sit as close as possible to warm fire "
+#~ msgstr ""
+#~ "Eat all the power cords play time please stop looking at your phone and "
+#~ "pet me milk the cow. Sugar, my siamese, stalks me (in a good way), day "
+#~ "and night . Meowzer pose purrfectly to show my beauty. Naughty running "
+#~ "cat. Meow all night the fat cat sat on the mat bat away with paws. Scoot "
+#~ "butt on the rug knock dish off table head butt cant eat out of my own "
+#~ "dish for pet me pet me pet me pet me, bite, scratch, why are you petting "
+#~ "me leave hair everywhere i do no work yet get food, shelter, and lots of "
+#~ "stuff just like man who lives with us. White cat sleeps on a black shirt "
+#~ "jump off balcony, onto stranger's head. Lounge in doorway my left donut "
+#~ "is missing, as is my right shake treat bag, yet jump launch to pounce "
+#~ "upon little yarn mouse, bare fangs at toy run hide in litter box until "
+#~ "treats are fed or spot something, big eyes, big eyes, crouch, shake butt, "
+#~ "prepare to pounce. Only use one corner of the litter box. Play time. Hey! "
+#~ "you there, with the hands meowing chowing and wowing lick sellotape stare "
+#~ "at ceiling, for sit as close as possible to warm fire "
+
+#~ msgid "Description"
+#~ msgstr "Descripción"

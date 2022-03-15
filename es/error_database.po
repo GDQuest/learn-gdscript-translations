@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-18 17:25+0300\n"
+"POT-Creation-Date: 2022-03-07 21:03+0100\n"
 "PO-Revision-Date: 2022-03-01 19:28+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.0\n"
 
@@ -430,6 +430,38 @@ msgstr ""
 
 #. Reference: DUPLICATE_DECLARATION
 #: lsp/error_database.csv:102
+#, fuzzy
+msgid ""
+"You are trying to define a function or variable that already exists; You "
+"can't do that.\n"
+"\n"
+"Perhaps the function or variable already exists in the current code file, "
+"but it may also be in a parent class that this GDScript code extends."
+msgstr ""
+"Estás tratando de definir una señal que ya existe; no es posible hacer "
+"esto.\n"
+"\n"
+"Quizás la señal ya existe en el archivo de código actual, pero también puede "
+"estar en una clase padre que extiende este código GDScript."
+
+#. Reference: DUPLICATE_DECLARATION
+#: lsp/error_database.csv:102
+#, fuzzy
+msgid ""
+"In the app, your code extends some built-in Godot code that's not visible to "
+"you.\n"
+"\n"
+"When that happens, you need to either rename your function or variable to "
+"one that will not collide with an existing one or remove this line of code."
+msgstr ""
+"En la aplicación, tu código extiende un código incorporado de Godot que no "
+"es visible para ti.\n"
+"\n"
+"Cuando esto ocurra, deberás cambiar el nombre de tu señal por otro que no "
+"colisione con uno ya existente o eliminar esta línea de código."
+
+#. Reference: DUPLICATE_SIGNAL_DECLARATION
+#: lsp/error_database.csv:107
 msgid ""
 "You are trying to define a signal that already exists; You can't do that.\n"
 "\n"
@@ -442,8 +474,8 @@ msgstr ""
 "Quizás la señal ya existe en el archivo de código actual, pero también puede "
 "estar en una clase padre que extiende este código GDScript."
 
-#. Reference: DUPLICATE_DECLARATION
-#: lsp/error_database.csv:102
+#. Reference: DUPLICATE_SIGNAL_DECLARATION
+#: lsp/error_database.csv:107
 msgid ""
 "In the app, your code extends some built-in Godot code that's not visible to "
 "you.\n"
@@ -458,7 +490,7 @@ msgstr ""
 "colisione con uno ya existente o eliminar esta línea de código."
 
 #. Reference: SIGNATURE_MISMATCH
-#: lsp/error_database.csv:107
+#: lsp/error_database.csv:112
 msgid ""
 "The function you're trying to define exists in a parent class, so your "
 "definition overrides the parent class's function.\n"
@@ -484,7 +516,7 @@ msgstr ""
 "padre."
 
 #. Reference: SIGNATURE_MISMATCH
-#: lsp/error_database.csv:107
+#: lsp/error_database.csv:112
 msgid ""
 "You need to check the parent class's function and its definition in the code "
 "reference. Then, you need to edit your function definition to have the same "
@@ -495,7 +527,7 @@ msgstr ""
 "para que tenga el mismo número y tipo de parámetros que la clase padre."
 
 #. Reference: INVALID_ARGUMENTS
-#: lsp/error_database.csv:108
+#: lsp/error_database.csv:113
 msgid ""
 "This whole class of errors has to do with calling functions with either the "
 "wrong number of arguments or the wrong kind of argument. You will need to "
@@ -506,7 +538,7 @@ msgstr ""
 "Deberás utilizar el mensaje de error para ver qué está fallando."
 
 #. Reference: INVALID_ARGUMENTS
-#: lsp/error_database.csv:108
+#: lsp/error_database.csv:113
 msgid ""
 "You need to either remove, add, or change the values you're trying to pass "
 "to the function to solve this issue. To know exactly how many arguments you "
@@ -519,7 +551,7 @@ msgstr ""
 "mostrará la definición de la función y los argumentos obligatorios."
 
 #. Reference: TYPE_MISMATCH
-#: lsp/error_database.csv:119
+#: lsp/error_database.csv:124
 msgid ""
 "All the values in your code have a specific type. That type can be a whole "
 "number (int), a decimal number (float), text (String), and so on. There are "
@@ -549,7 +581,7 @@ msgstr ""
 "que hay muchos casos posibles."
 
 #. Reference: TYPE_MISMATCH
-#: lsp/error_database.csv:119
+#: lsp/error_database.csv:124
 msgid ""
 "If the error mentions the assigned value type not matching the variable, the "
 "problem is on the right side of the equal sign (=).\n"
@@ -575,7 +607,7 @@ msgstr ""
 "entero o un texto a un vector 2D."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
-#: lsp/error_database.csv:124
+#: lsp/error_database.csv:129
 msgid ""
 "GDScript supports type inference. The computer will automatically recognize "
 "the type of value you are working with. In some cases, though, it can't "
@@ -592,7 +624,7 @@ msgstr ""
 "inferencia de tipo por completo para esta variable."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
-#: lsp/error_database.csv:124
+#: lsp/error_database.csv:129
 msgid ""
 "The simplest way to solve this error is to remove types for this variable or "
 "this function's arguments. Otherwise, you can manually specify the value "
@@ -609,7 +641,7 @@ msgstr ""
 "ventajas del sistema de tipos."
 
 #. Reference: RETURN_VALUE_MISMATCH
-#: lsp/error_database.csv:130
+#: lsp/error_database.csv:135
 msgid ""
 "There is an issue with the return value of your function. There are two main "
 "cases here:\n"
@@ -631,7 +663,7 @@ msgstr ""
 "al final."
 
 #. Reference: RETURN_VALUE_MISMATCH
-#: lsp/error_database.csv:130
+#: lsp/error_database.csv:135
 msgid ""
 "When your function is 'void', you should never return a value. You can use "
 "the 'return' keyword to end the function early, but you should never write "
@@ -648,7 +680,7 @@ msgstr ""
 "la función o en cada rama (bloque if, elif y else) de la función."
 
 #. Reference: CANNOT_CONNECT_TO_LSP
-#: lsp/error_database.csv:132
+#: lsp/error_database.csv:137
 msgid ""
 "The server or your computer may currently be disconnected. Also, an app or "
 "browser add-on may be blocking the connection. If you use an ad blocker or "
@@ -660,7 +692,7 @@ msgstr ""
 "scripts, desactívalo para este sitio web."
 
 #. Reference: CANNOT_CONNECT_TO_LSP
-#: lsp/error_database.csv:132
+#: lsp/error_database.csv:137
 msgid ""
 "Please make sure you're connected to the internet. If you use an ad blocker "
 "or script blocker, please ensure it is turned off on this page."
@@ -670,7 +702,7 @@ msgstr ""
 "desactivado en esta página."
 
 #. Reference: LSP_UNDETECTED_ERROR
-#: lsp/error_database.csv:133
+#: lsp/error_database.csv:138
 msgid ""
 "Godot was unable to load your script, yet the language checker server found "
 "nothing wrong. It's possible you are not online"
@@ -680,7 +712,7 @@ msgstr ""
 "estés en línea."
 
 #. Reference: LSP_UNDETECTED_ERROR
-#: lsp/error_database.csv:133
+#: lsp/error_database.csv:138
 msgid ""
 "If you're offline, this error is expected. Otherwise, please click on the "
 "\"report\" button at the top and please let us know"
@@ -689,7 +721,7 @@ msgstr ""
 "el botón \"informar\" de la parte superior y háznoslo saber."
 
 #. Reference: LSP_TIMED_OUT
-#: lsp/error_database.csv:134
+#: lsp/error_database.csv:139
 msgid ""
 "Either your connection is very slow, or the Language Verifier server is "
 "under load"
@@ -698,7 +730,7 @@ msgstr ""
 "bajo carga."
 
 #. Reference: LSP_TIMED_OUT
-#: lsp/error_database.csv:134
+#: lsp/error_database.csv:139
 msgid ""
 "Please try again, and if it happens again, warn us with the \"report\" "
 "button at the top. Thank you!"
@@ -707,12 +739,12 @@ msgstr ""
 "\"informar\" de la parte superior. ¡Gracias!"
 
 #. Reference: RECURSIVE_FUNCTION
-#: lsp/error_database.csv:135
+#: lsp/error_database.csv:140
 msgid "You called a function inside itself. This will loop forever."
 msgstr "Llamaste a una función dentro de sí misma. Esto hará un bucle eterno."
 
 #. Reference: RECURSIVE_FUNCTION
-#: lsp/error_database.csv:135
+#: lsp/error_database.csv:140
 msgid ""
 "There are valid reasons for using recursive functions, but none of them are "
 "part of this course, so this cannot be a valid solution."
