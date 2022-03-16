@@ -2,35 +2,33 @@
 # Copyright (C) 2022 GDQuest
 # This file is distributed under the same license as the Learn GDScript From
 # Zero project.
-# Automatically generated, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-12 00:58+0000\n"
-"Last-Translator: Katarzyna Twardowska <katarina.twardowska@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/glossary_database/pl/>\n"
-"Language: pl\n"
+"PO-Revision-Date: 2022-03-08 17:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. Reference: member function
 #: course/glossary.csv:6
 msgid "member function"
-msgstr "funkcja składowa"
+msgstr "función miembro"
 
 #. Reference: member function
 #: course/glossary.csv:6
 msgid "member functions"
-msgstr "funkcje składowe"
+msgstr "funciones miembro"
 
 #. Reference: member function
 #: course/glossary.csv:6
@@ -43,24 +41,24 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
-"Funkcje składowe są to funkcje dołączone do określonego typu wartości, jak "
-"tablice, ciągi lub słowniki. Nazywamy je również metodami.\n"
+"Las funciones miembro son funciones adjuntas a un tipo de valor específico, "
+"como matrices, cadenas o diccionarios. También las llamamos métodos.\n"
 "\n"
-"Przykładowo tablice mają funkcje składowe, takie jak [code]array."
-"append()[/code].\n"
+"Por ejemplo, las matrices tienen funciones miembro como [code]array.append()"
+"[/code].\n"
 "\n"
-"Funkcje można wywołać tylko w tablicy, używając operatora dostępu "
-"([code].[/code]), aby uzyskać do nich dostęp tak, jak to pokazano powyżej."
+"Sólo puedes llamar a la función en una matriz, utilizando el operador de "
+"acceso ([code].[/code]) para acceder a ella, como se muestra arriba."
 
 #. Reference: member variable
 #: course/glossary.csv:9
 msgid "member variable"
-msgstr "zmienna składowa"
+msgstr "variable miembro"
 
 #. Reference: member variable
 #: course/glossary.csv:9
 msgid "member variables"
-msgstr "zmienne składowe"
+msgstr "variables miembro"
 
 #. Reference: member variable
 #: course/glossary.csv:9
@@ -73,23 +71,23 @@ msgid ""
 "by the access operator ([code].[/code]). For example, [code]position.x[/"
 "code]."
 msgstr ""
-"Zmienne składowe to zmienne dołączone do określonego typu wartości, takie "
-"jak podzmienne wektora [code]x[/code] i [code]y[/code] . Nazywamy je również "
-"[i]właściwościami[/i] lub [i]polami[/i] wektora.\n"
+"Las variables miembro son variables adjuntas a un tipo de valor específico, "
+"como las subvariables [code]x[/code] y [code]y[/code] de un vector. También "
+"las llamamos [i]propiedades[/i] o [i]campos[/i] del vector.\n"
 "\n"
-"Aby uzyskać dostęp do zmiennej składowej, należy najpierw wpisać nazwę "
-"wartości, po której następuje operator dostępu ([code].[/code]). Przykładowo:"
-" [code]position.x[/code]."
+"Para acceder a una variable miembro, debes escribir primero el nombre del "
+"valor seguido del operador de acceso ([code].[/code]). Por ejemplo, "
+"[code]position.x[/code]."
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameter"
-msgstr "parametr"
+msgstr "parámetro"
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameters"
-msgstr "parametry"
+msgstr "parámetros"
 
 #. Reference: parameter
 #: course/glossary.csv:12
@@ -99,20 +97,21 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in the "
 "function's body."
 msgstr ""
-"Parametr to zmienna, którą tworzysz jako część definicji funkcji.\n"
+"Un parámetro es una variable que creas como parte de la definición de una "
+"función.\n"
 "\n"
-"Pozwala ona na częstsze ponowne wykorzystanie tej samej funkcji dzięki "
-"podawaniu wartościom, które zmieniają się wewnątrz funkcji."
+"Te permite reutilizar más la función al tener valores que varían en el "
+"cuerpo de la función."
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radian"
-msgstr "radian"
+msgstr "radián"
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radians"
-msgstr "radiany"
+msgstr "radianes"
 
 #. Reference: radian
 #: course/glossary.csv:17
@@ -126,24 +125,25 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And an "
 "angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
-"Radian to jednostka miary kątów oparta na obwodzie koła.\n"
+"Un radián es una unidad de medida de ángulos basada en la circunferencia del "
+"círculo.\n"
 "\n"
-"W codziennym życiu do mierzenia kątów częściej używamy stopni, jednak w "
-"programowaniu komputerowym, a zwłaszcza w grach, to właśnie radiany są "
-"powszechnie wykorzystywane.\n"
+"Tendemos a utilizar más los grados en nuestra vida cotidiana, pero en la "
+"programación informática, y especialmente en los juegos, los radianes son "
+"comunes.\n"
 "\n"
-"Kąt [code]2 * PI[/code] radianów odpowiada 360 stopniom. Kąt [code]PI[/code] "
-"radianów odpowiada 180 stopniom."
+"Un ángulo de [code]2 * PI[/code] radianes corresponde a 360 grados. Y un "
+"ángulo de [code]PI[/code] radianes corresponde a 180 grados."
 
 #. Reference: type
 #: course/glossary.csv:20
 msgid "type"
-msgstr "typ"
+msgstr "tipo"
 
 #. Reference: type
 #: course/glossary.csv:20
 msgid "types"
-msgstr "typy"
+msgstr "tipos"
 
 #. Reference: type
 #: course/glossary.csv:20
@@ -155,23 +155,23 @@ msgid ""
 "The computer uses types to determine which operations are valid between two "
 "values and when they're undefined."
 msgstr ""
-"W programowaniu komputerowym typ jest klasą wartości. Na przykład liczby "
-"całkowite, takie jak [code]3[/code], [code]11[/code], czy [code]255462[/code]"
-" odpowiadają typowi [code]int[/code] (to skrót od integer, co w języku "
-"angielskim oznacza liczbę całkowitą).\n"
+"En programación informática, un tipo es la clase de un valor. Por ejemplo, "
+"los números enteros como [code]3[/code], [code]11[/code] y [code]255462[/"
+"code] son todos del tipo [code]int[/code] (abreviatura del inglés "
+"[i]integer[/i], que significa \"entero\").\n"
 "\n"
-"Komputer używa typów do określenia, które z operacji są prawidłowe pomiędzy "
-"dwiema wartościami i kiedy są niezdefiniowane."
+"La computadora utiliza los tipos para determinar qué operaciones son válidas "
+"entre dos valores y cuándo son indefinidas."
 
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iteration"
-msgstr "iteracja"
+msgstr "iteración"
 
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iterations"
-msgstr "iteracje"
+msgstr "iteraciones"
 
 #. Reference: iteration
 #: course/glossary.csv:23
@@ -183,22 +183,22 @@ msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
-"W kodzie komputerowym iteracja jest jednym powtórzeniem jakiegoś procesu lub "
-"kodu. Tego terminu używamy zazwyczaj z pętlami, gdzie jedna iteracja jest "
-"jednym przejściem kodu znajdującego się wewnątrz pętli.\n"
+"En código informático, una iteración es una repetición de algún proceso o "
+"código. Solemos utilizar el término con los bucles, donde una iteración es "
+"una ejecución del código del bucle.\n"
 "\n"
-"Mówiąc o algorytmach, iteracja może oznaczać pełne przejście algorytmu po "
-"zbiorze danych."
+"Cuando hablamos de algoritmos, una iteración puede significar una pasada "
+"completa del algoritmo sobre un conjunto de datos."
 
 #. Reference: vector
 #: course/glossary.csv:28
 msgid "vector"
-msgstr "wektor"
+msgstr "vector"
 
 #. Reference: vector
 #: course/glossary.csv:28
 msgid "vectors"
-msgstr "wektory"
+msgstr "vectores"
 
 #. Reference: vector
 #: course/glossary.csv:28
@@ -213,25 +213,25 @@ msgid ""
 "Vectors can seem daunting at first because they are pretty abstract, but as "
 "you will see, they'll simplify code tremendously."
 msgstr ""
-"W matematyce wektory są listą liczb. W grach często używamy wektorów 2D i 3D:"
-" odpowiednio one listom dwu- i trzyliczbowym.\n"
+"En matemáticas, un vector es una lista de números. En los juegos, a menudo "
+"utilizamos vectores 2D y 3D: respectivamente, listas de dos y tres números.\n"
 "\n"
-"Liczb tych używamy tego do reprezentowania kierunku i wielkości lub "
-"intensywności w przestrzeni. Dla przykładu: możesz użyć wektora do "
-"reprezentowania kierunku i prędkości, z jaką porusza się postać lub pojazd.\n"
+"Los utilizamos para representar una dirección y una magnitud o intensidad en "
+"el espacio. Por ejemplo, puedes utilizar un vector para representar la "
+"dirección y la rapidez a la que se mueve un personaje o un vehículo.\n"
 "\n"
-"Wektory mogą początkowo wydawać się dość skomplikowaną jednostką, ponieważ "
-"są dość abstrakcyjne, jednak szybko zobaczysz, że znacznie uproszczają kod."
+"Los vectores pueden parecer abrumadores al principio porque son bastante "
+"abstractos, pero como verás, simplificarán enormemente el código."
 
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "argument"
-msgstr "argument"
+msgstr "argumento"
 
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "arguments"
-msgstr "argumenty"
+msgstr "argumentos"
 
 #. Reference: argument
 #: course/glossary.csv:37
@@ -253,32 +253,33 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and "
 "[code]y[/code] are [i]parameters[/i]."
 msgstr ""
-"Argument to wartość, którą przekazujesz do funkcji podczas jej wywoływania. "
-"Na przykład w wywołaniu [code]rotate(0.5)[/code] argumentem jest znajdująca "
-"się w nawiasach wartość [code]0.5[/code].\n"
+"Un argumento es un valor que le pasas a una función cuando llamas a la "
+"función. Por ejemplo, en la llamada [code]rotate(0.5)[/code], el valor "
+"[code]0.5[/code] entre los paréntesis es un argumento.\n"
 "\n"
-"Funkcja może nie otrzymać żadnych argumentów, otrzymywać jeden argument lub "
-"wiele argumentów. Argumenty mogą być obowiązkowe lub opcjonalne.\n"
+"Una función puede no recibir ningún argumento, recibir un argumento o "
+"recibir varios argumentos. Los argumentos pueden ser obligatorios u "
+"opcionales.\n"
 "\n"
-"Gdy funkcja przyjmuje wiele argumentów, oddzielasz wartości przecinkami, tak "
-"jak w tym wywołaniu funkcji: [code]jump(50, 100)[/code]\n"
+"Cuando una función recibe varios argumentos, se separan los valores con "
+"comas, como en esta llamada de función: jump(50, 100).\n"
 "\n"
-"Gdy [i]wywołujemy[/i] funkcję, nazywamy wartości podane w nawiasach "
-"[i]argumentami[/i].\n"
+"Al [i]llamar[/i] a una función, llamamos a los valores que se pasan entre "
+"paréntesis [i]argumentos[/i].\n"
 "\n"
-"Jednak w wypadku tworzenia definicji funkcji, mówimy już o [i]parametrach[/i]"
-" funkcji. W poniższym przykładzie nazwy [code]x[/code] i [code]y[/code] są "
-"[i]parametrami[/i]."
+"Sin embargo, al escribir una definición de función, hablamos de los "
+"[i]parámetros[/i] de la función. En el siguiente ejemplo, los nombres "
+"[code]x[/code] y [code]y[/code] son [i]parámetros[/i]."
 
 #. Reference: array
 #: course/glossary.csv:44
 msgid "array"
-msgstr "tablica"
+msgstr "matriz"
 
 #. Reference: array
 #: course/glossary.csv:44
 msgid "arrays"
-msgstr "tablice"
+msgstr "matrices"
 
 #. Reference: array
 #: course/glossary.csv:44
@@ -296,23 +297,24 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
-"Tablica jest to lista wartości. W języku GDScript tablice mogą zawierać "
-"[i]dowolne[/i] typy wartości.\n"
+"Una matriz, o [i]array[/i], es una lista de valores. En GDScript, las "
+"matrices pueden contener [i]cualquier[/i] tipo de valor.\n"
 "\n"
-"Aby utworzyć tablicę, wpisujesz wartości oddzielone przecinkami w nawiasach "
-"kwadratowych: : [code]var three_numbers = [1, 2, 3][/code]\n"
+"Para crear una matriz, escribes valores separados por comas entre corchetes: "
+"[code]var three_numbers = [1, 2, 3][/code].\n"
 "\n"
-"W grach przez cały czas używamy tablic do przechowywania listy postaci w "
-"drużynie, listy przedmiotów w ekwipunku, listy zaklęć odblokowanych przez "
-"gracza i tak dalej. Są wszędzie.\n"
+"En los juegos, utilizamos matrices todo el tiempo para almacenar listas de "
+"personajes en un grupo, listas de objetos en el inventario, listas de "
+"hechizos que el jugador ha desbloqueado, etc. Están por todas partes.\n"
 "\n"
-"Tablice są podstawowym typem wartości w programowaniu komputerowym. "
-"Znajdziesz je w prawie każdym języku programowania."
+"Las matrices son un tipo de valor fundamental en la programación "
+"informática. Encontrarás matrices en prácticamente cualquier lenguaje de "
+"programación."
 
 #. Reference: assign
 #: course/glossary.csv:45
 msgid "assign"
-msgstr "przypisanie"
+msgstr "asignar"
 
 #. Reference: assign
 #: course/glossary.csv:45
@@ -320,19 +322,18 @@ msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
-"Przypisanie wartości do zmiennej oznacza, że do wnętrza zmiennej "
-"[i]wkładasz[/i] daną wartość. Robisz to wykorzystując znak równości "
-"([code]=[/code])."
+"Asignar un valor a una variable significa que almacenas un valor dentro de "
+"la variable. Haces esto con el signo de igual ([code]=[/code])."
 
 #. Reference: dictionary
 #: course/glossary.csv:52
 msgid "dictionary"
-msgstr "słownik (dictionary)"
+msgstr "diccionario"
 
 #. Reference: dictionary
 #: course/glossary.csv:52
 msgid "dictionaries"
-msgstr "słowniki (dictionaries)"
+msgstr "diccionarios"
 
 #. Reference: dictionary
 #: course/glossary.csv:52
@@ -353,32 +354,32 @@ msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
-"Słownik (dictionary) to struktura danych, która mapuje wartości w pary klucz-"
-"wartość. Kiedy nadasz słownikowi klucz, znajdzie on i zwróci ci "
-"odpowiadającą mu wartość.\n"
+"Un diccionario es una estructura de datos que mapea valores con pares clave-"
+"valor. Cuando le das una clave al diccionario, éste encuentra y te devuelve "
+"el valor correspondiente.\n"
 "\n"
-"W języku GDScript klucze mogą być wieloma rzeczami. Często używać będziemy "
-"ciągów tekstowych lub liczb, ale nie musimy się do tego ograniczać. "
-"Prawidłowym kluczem może być [code]Vector2[/code], który jest przydatny do "
-"mapowania komórek siatki dla obiektów lub przedmiotów w grach opartych na "
-"siatce (tzw. grid-based games).\n"
+"En GDScript, las claves pueden ser muchas cosas. A menudo utilizamos cadenas "
+"de texto o números, pero las claves no se limitan solo a eso. Un "
+"[code]Vector2[/code] también puede ser una clave válida, lo que resulta útil "
+"para mapear una celda de cuadrícula a una unidad o a un objeto en un juego "
+"basado en cuadrículas.\n"
 "\n"
-"Często będziesz używać słowników do kojarzenia bitów danych w swoich grach. "
-"Przykładowo: możemy ich użyć do powiązania nazwy sprzętu ze statystykami "
-"broni w bazie danych.\n"
+"A menudo usarás los diccionarios para asociar fragmentos de datos en tus "
+"juegos. Por ejemplo, podríamos utilizarlos para asociar el nombre de un "
+"equipo de armas con las estadísticas de las armas en una base de datos.\n"
 "\n"
-"Podobnie jak tablice, słowniki są podstawowym typem danych, który zobaczysz "
-"w wielu językach programowania i będziesz go często używał."
+"Al igual que las matrices, son un tipo de datos fundamental que verás en "
+"muchos lenguajes de programación y que utilizarás mucho."
 
 #. Reference: for loop
 #: course/glossary.csv:59
 msgid "for loop"
-msgstr "pętla for"
+msgstr "bucle for"
 
 #. Reference: for loop
 #: course/glossary.csv:59
 msgid "for loops"
-msgstr "pętle for"
+msgstr "bucles for"
 
 #. Reference: for loop
 #: course/glossary.csv:59
@@ -396,31 +397,33 @@ msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to "
 "use than while loops."
 msgstr ""
-"Pętla for instruuje komputer do powtarzania zestaw instrukcji po jednym "
-"razie dla każdej z wartości w tablicy.\n"
+"Un bucle for le indica a la computadora que repita un conjunto de "
+"instrucciones una vez por cada valor en una matriz.\n"
 "\n"
-"W każdej iteracji pętli kompilator wyodrębnia jedną wartość z tablicy i daje "
-"do niej dostęp wartościom w ciele pętli.\n"
+"En cada iteración del bucle, el compilador extrae un valor de la matriz y te "
+"da acceso a él en el cuerpo del bucle.\n"
 "\n"
-"W przypadku pętli uruchamiamy kod ograniczoną liczbę razy: jeden raz na "
-"wartość w tablicy. To odróżnia pętle for od pętli while, która powtarza kod, "
-"dopóki jej warunek nie zostanie spełniony.\n"
+"Los bucles for ejecutan el código una cantidad limitada de veces: una por "
+"cada valor en la matriz. Es diferente de los bucles while, que siguen "
+"repitiendo el código hasta que se cumpla una condición.\n"
 "\n"
-"Zalecamy preferowanie pętli for, kiedy tylko jest to możliwe. Są "
-"bezpieczniejsze i łatwiejsze w użyciu od pętli while."
+"Recomendamos favorecer los bucles for siempre que puedas. Son más seguros y "
+"fáciles de usar que los bucles while."
 
 #. Reference: function
 #: course/glossary.csv:64
 msgid "function"
-msgstr "funkcja"
+msgstr "función"
 
 #. Reference: function
 #: course/glossary.csv:64
 msgid "functions"
-msgstr "funkcje"
+msgstr "funciones"
 
+#  opcionalmente un valor al código que las llama.
 #. Reference: function
 #: course/glossary.csv:64
+#, fuzzy
 msgid ""
 "A function is a group of code instructions you give a name. When you define "
 "a function, you can call it any time to run all the instructions it "
@@ -432,42 +435,42 @@ msgid ""
 "\n"
 "Also, functions can optionally return a value to the code calling it."
 msgstr ""
-"Funkcja jest to grupa instrukcji kodu, której nadajesz nazwę. Kiedy "
-"definiujesz funkcję, w późniejszym czasie możesz ją wywołać w dowolnym "
-"momencie, aby uruchomić wszystkie zawarte w niej instrukcje.\n"
+"Una función es un grupo de instrucciones de código al que le das un nombre. "
+"Cuando defines una función, puedes llamarla en cualquier momento para "
+"ejecutar todas las instrucciones que contiene.\n"
 "\n"
-"Możesz modyfikować zachowanie funkcji za pomocą parametrów. Parametry to "
-"nazwy zmiennych, które wpisujesz w definicji funkcji. Możesz następnie użyć "
-"ich w ciele funkcji, aby dostosować swój kod do różnych przypadków.\n"
+"Puedes modificar el comportamiento de una función con parámetros. Los "
+"parámetros son nombres de variables que escribes en la definición de la "
+"función. Luego puedes utilizarlos en el cuerpo de la función para hacer que "
+"tu código se adapte a diferentes casos.\n"
 "\n"
-"Ponadto funkcje mogą opcjonalnie zwracać wartość do kodu, który ją wywołuje."
+"Además, las funciones pueden devolver opcionalmente un valor al código que "
+"lo llama."
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "increment"
-msgstr "inkrementacja"
+msgstr "incremento"
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "increments"
-msgstr "inkrementacje"
+msgstr "incrementos"
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "An increment is the amount by which a value changes in your code."
-msgstr ""
-"Inkrementacja (przyrost) to wielkość, o którą zmienia się dana wartość w "
-"kodzie."
+msgstr "Un incremento es la cantidad por la cual cambia un valor en tu código."
 
 #. Reference: instruction
 #: course/glossary.csv:68
 msgid "instruction"
-msgstr "instrukcja"
+msgstr "instrucción"
 
 #. Reference: instruction
 #: course/glossary.csv:68
 msgid "instructions"
-msgstr "instrukcje"
+msgstr "instrucciones"
 
 #. Reference: instruction
 #: course/glossary.csv:68
@@ -478,21 +481,21 @@ msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
 msgstr ""
-"W programowaniu komputerowym instrukcje są pojedynczymi operacjami, które "
-"komputer rozpoznaje i może wykonać.\n"
+"En la programación informática, las instrucciones son una operación única "
+"que la computadora reconoce y puede ejecutar.\n"
 "\n"
-"Będzie to na przykład wywołanie funkcji, czy dodanie lub przypisanie "
-"wartości do zmiennej."
+"Por ejemplo, una llamada a una función, una suma o la asignación de un valor "
+"a una variable."
 
 #. Reference: variable
 #: course/glossary.csv:77
 msgid "variable"
-msgstr "zmienna"
+msgstr "variable"
 
 #. Reference: variable
 #: course/glossary.csv:77
 msgid "variables"
-msgstr "zmienne"
+msgstr "variables"
 
 #. Reference: variable
 #: course/glossary.csv:77
@@ -513,33 +516,34 @@ msgid ""
 "that you attach to some value. Any time, you can take the label and stick it "
 "onto a new product or, in that case, a new value."
 msgstr ""
-"Zmienne są narzędziem służącym do nadawania wartościom nazw, które chcemy "
-"przechowywać w kodzie i zmieniać w czasie.\n"
+"Las variables son una herramienta para dar un nombre a los valores que "
+"quieras almacenar en tu código y que quieras cambiar con el tiempo.\n"
 "\n"
-"Dla przykłady weźmy zdrowie postaci: gdy postać otrzyma cios, będziemy "
-"chcieli, aby jego wartość spadła. Podczas leczenia natomiast, aby znowu "
-"wróciło do normy.\n"
+"Por ejemplo, la salud de un personaje: cuando el personaje reciba un golpe, "
+"quieres que la salud baje. Cuando el personaje se cure, quieres que la salud "
+"vuelva a subir.\n"
 "\n"
-"Dla tego celu możemy utworzyć zmienną o nazwie [code]health[/code], która "
-"reprezentować będzie zdrowie.\n"
+"Puedes crear una variable llamada [code]health[/code] para representar la "
+"salud.\n"
 "\n"
-"Dzięki temu za każdym razem, gdy w kodzie wpisane zostanie słowo kluczowe "
-"[code]health[/code], komputer pobierze odpowiednią wartość ze swojej pamięci."
+"Entonces, cada vez que escribas la palabra clave [code]health[/code] en tu "
+"código, la computadora buscará el valor correspondiente en su memoria para "
+"ti.\n"
 "\n"
-"\n"
-"Zmienne działają trochę jak etykiety produktów w supermarkecie. Są to nazwy, "
-"które przypisujesz do jakiejś wartości. W każdej chwili możesz wziąć "
-"etykietę i nakleić ją na nowy produkt lub, w naszym przypadku, nową wartość."
+"Las variables funcionan un poco como las etiquetas de los productos en un "
+"supermercado. Son nombres que adjuntas a algún valor. En cualquier momento, "
+"puedes tomar la etiqueta y pegarla en un nuevo producto o, en este caso, en "
+"un nuevo valor."
 
 #. Reference: while loop
 #: course/glossary.csv:84
 msgid "while loop"
-msgstr "pętla while"
+msgstr "bucle while"
 
 #. Reference: while loop
 #: course/glossary.csv:84
 msgid "while loops"
-msgstr "pętle while"
+msgstr "bucles while"
 
 #. Reference: while loop
 #: course/glossary.csv:84
@@ -555,24 +559,24 @@ msgid ""
 "However, there are still essential cases in which we use while loops, like "
 "processing files, processing computer code, or for powerful algorithms."
 msgstr ""
-"Pętla while instruuje komputer to wykonywania kod w kółko w oparciu o podany "
-"warunek. Dopóki warunek będzie spełniony, pętla będzie działać.\n"
+"Un bucle while le indica a la computadora que siga ejecutando código en "
+"función de una condición. Mientras la condición sea verdadera, el bucle "
+"seguirá ejecutándose.\n"
 "\n"
-"Podczas używania pętli while musisz być bardzo ostrożny: pętle te mogą "
-"działać w nieskończoność i zfreezować grę, jeśli podany w nich warunek nie "
-"będzie prawidłowy.\n"
+"Cuando codifiques bucles while, debes tener cuidado: seguirán ejecutándose "
+"infinitamente y congelarán tu juego si te equivocas en la condición.\n"
 "\n"
-"Jest to powód, dla którego zalecamy używanie bezpieczniejszej pętli for "
-"kiedy tylko jest to możliwe.\n"
+"Por eso recomendamos utilizar el bucle for, el cual es más seguro, siempre "
+"que puedas.\n"
 "\n"
-"Nadal jednak znajdą się istotne przypadki, w których wymagane będzie użycie "
-"pętli while, jak przetwarzanie plików, przetwarzanie kodu komputerowego czy "
-"dla co potężniejszych algorytmów."
+"Sin embargo, todavía hay casos esenciales en los que utilizamos los bucles "
+"while, como el procesamiento de archivos, el procesamiento de código "
+"informático o para usar algoritmos poderosos."
 
 #. Reference: body
 #: course/glossary.csv:85
 msgid "body"
-msgstr "ciało"
+msgstr "cuerpo"
 
 #. Reference: body
 #: course/glossary.csv:85
@@ -580,13 +584,13 @@ msgid ""
 "We talk about a loop or a function's body to refer to the lines of code that "
 "are part of the loop or function."
 msgstr ""
-"Mówiąc o pętli lub ciele funkcji odnosimy się do wierszy kodu, które są "
-"częścią danej pętli lub funkcji (jej treścią)."
+"Hablamos del cuerpo de un bucle o de una función para referirnos a las "
+"líneas de código que forman parte del bucle o de la función."
 
 #. Reference: return
 #: course/glossary.csv:88
 msgid "return"
-msgstr "zwróć (return)"
+msgstr "devolver"
 
 #. Reference: return
 #: course/glossary.csv:88
@@ -597,22 +601,21 @@ msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed by "
 "a value, for example: [code]return -1[/code]."
 msgstr ""
-"Zwracanie wartości to proces wysyłania wartości do miejsca, w którym "
-"wywołana została funkcja.\n"
+"Devolver un valor es el proceso de enviar un valor al lugar donde se llama a "
+"una función.\n"
 "\n"
-"Dzieje się to w przypadku wykorzystywania przez funkcję słowa kluczowego "
-"[code]return[/code], po którym następuje wartość, na przykład: [code]return "
-"-1[/code]."
+"Ocurre cuando una función utiliza la palabra clave [code]return[/code] "
+"seguida de un valor, por ejemplo: [code]return -1[/code]."
 
 #. Reference: library
 #: course/glossary.csv:89
 msgid "library"
-msgstr "biblioteka"
+msgstr "biblioteca"
 
 #. Reference: library
 #: course/glossary.csv:89
 msgid "libraries"
-msgstr "biblioteki"
+msgstr "bibliotecas"
 
 #. Reference: library
 #: course/glossary.csv:89
@@ -620,9 +623,9 @@ msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
-"Zbiór cennego kodu wielokrotnego użytku stworzonego wspólnymi siłami przez "
-"innych programistów w celu zaoszczędzenia twojego czasu. Wszyscy programiści "
-"używają bibliotek."
+"Una colección de código valioso y reutilizable agrupado por otros "
+"programadores para ahorrarte tiempo. Todos los programadores utilizan "
+"bibliotecas de código."
 
 #. Reference: sprite
 #: course/glossary.csv:90
@@ -632,7 +635,7 @@ msgstr "sprite"
 #. Reference: sprite
 #: course/glossary.csv:90
 msgid "sprites"
-msgstr "sprite'y"
+msgstr "sprites"
 
 #. Reference: sprite
 #: course/glossary.csv:90
@@ -641,6 +644,6 @@ msgid ""
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
 msgstr ""
-"W grafice komputerowej sprite jest to obraz, który wyświetlasz na ekranie. "
-"Zwykle używamy tego słowa, gdy mówimy o ruchomych obrazach, takich jak "
-"postacie, potwory lub przedmioty spadające na ziemię."
+"En gráficos por computadora, un sprite es una imagen que se muestra en la "
+"pantalla. Generalmente utilizamos esta palabra para hablar de imágenes en "
+"movimiento, como un personaje, un monstruo o un objeto que cae al suelo."

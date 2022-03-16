@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-21 20:14+0300\n"
-"PO-Revision-Date: 2022-03-08 12:17+0100\n"
+"POT-Creation-Date: 2022-03-15 14:27+0100\n"
+"PO-Revision-Date: 2022-03-08 12:57+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -40,7 +40,7 @@ msgid ""
 "instead of the [code]range()[/code] function."
 msgstr ""
 "Una lista de valores, numéricos o no, tiene un nombre preciso en código: la "
-"llamamos [i]matriz[/i] (en inglés [i]array[/i]). Así que podemos decir que "
+"llamamos [i]matriz[/i] (o [code]array[/code]). Así que podemos decir que "
 "llamar a la función [code]range()[/code] produce una [i]matriz[/i] de "
 "números.\n"
 "\n"
@@ -60,10 +60,11 @@ msgid "We write arrays this way in GDScript."
 msgstr "En GDScript, escribimos las matrices de esta manera."
 
 #: course/lesson-19-creating-arrays/lesson.tres:85
+#, fuzzy
 msgid ""
-"You start with an opening angular bracket. Then, you write comma-separated "
-"values that compose the array. Finally, you need a closing angular bracket "
-"to complete the array.\n"
+"You start with an opening square bracket. Then, you write comma-separated "
+"values that compose the array. Finally, you need a closing square bracket to "
+"complete the array.\n"
 "\n"
 "Here are a couple of valid arrays. Notice how you can mix values, and they "
 "don't need to follow one another."
@@ -229,7 +230,7 @@ msgstr ""
 "Recomendamos copiar y pegar para llenar la matriz con valores [code]Vector2[/"
 "code] separados por comas más rápidamente."
 
-#: course/lesson-19-creating-arrays/lesson.tres:264
+#: course/lesson-19-creating-arrays/lesson.tres:266
 msgid ""
 "Help the turtle find its way to the robot! Give it a path to follow to reach "
 "the robot."
@@ -237,11 +238,11 @@ msgstr ""
 "¡Ayuda a la tortuga a encontrar el camino hacia el robot! Indícale el camino "
 "que debe seguir para llegar al robot."
 
-#: course/lesson-19-creating-arrays/lesson.tres:269
+#: course/lesson-19-creating-arrays/lesson.tres:271
 msgid "Selecting units"
 msgstr "Selección de unidades"
 
-#: course/lesson-19-creating-arrays/lesson.tres:270
+#: course/lesson-19-creating-arrays/lesson.tres:272
 msgid ""
 "In this tactical game, the player and computer can select multiple units at "
 "once. You need to call the [code]select_units()[/code] function and pass it "
@@ -270,12 +271,12 @@ msgstr ""
 "Selecciona todas las unidades en el tablero pasando la matriz correcta a la "
 "función [code]select_units()[/code]."
 
-#: course/lesson-19-creating-arrays/lesson.tres:284
+#: course/lesson-19-creating-arrays/lesson.tres:288
 msgid "Write an array to select all units on the board in this strategy game."
 msgstr ""
 "Escribe una matriz para seleccionar todas las unidades del tablero en este "
 "juego de estrategia."
 
-#: course/lesson-19-creating-arrays/lesson.tres:288
+#: course/lesson-19-creating-arrays/lesson.tres:292
 msgid "Creating arrays"
 msgstr "Crear matrices"
