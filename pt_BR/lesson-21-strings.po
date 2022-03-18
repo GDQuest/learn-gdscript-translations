@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-14 07:16+0000\n"
+"PO-Revision-Date: 2022-03-17 12:54+0000\n"
 "Last-Translator: Alexandre Vinicius Gonçalves <alexandre.craneo@hotmail.com>"
 "\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -33,10 +33,17 @@ msgid ""
 "display information such as the description of a spell or the name of a "
 "character."
 msgstr ""
+"Ao longo desse curso, armazenamos principalmente números em variáveis. Mas e "
+"se quiséssemos armazenar o nome de um jogador?\n"
+"\n"
+"É aqui que as strings nos ajudam.\n"
+"\n"
+"Strings são fundamentais em jogos e aplicativos. Nós as usamos para exibir "
+"informações como a descrição de um feitiço ou o nome de um personagem."
 
 #: course/lesson-21-strings/lesson.tres:36
 msgid "What are strings"
-msgstr ""
+msgstr "O que são strings"
 
 #: course/lesson-21-strings/lesson.tres:38
 msgid ""
@@ -50,6 +57,13 @@ msgid ""
 "\n"
 "You may remember we've used strings before in previous lessons."
 msgstr ""
+"Uma [code]String[/code] é um tipo de valor que contém texto. Para criar uma "
+"[code]String[/code], você escreve o texto entre aspas ([code]\"\"[/code]). "
+"Por exemplo: [code]\"Esta é uma string de texto.\"[/code]\n"
+"\n"
+"As aspas diferenciam strings de outros tipos de valores e nomes de funções.\n"
+"\n"
+"Você deve se lembrar que já usamos strings em lições anteriores."
 
 #: course/lesson-21-strings/lesson.tres:62
 msgid ""
@@ -57,10 +71,13 @@ msgid ""
 "through the characters of a [code]String[/code] in the same way as "
 "arrays, using a [code]for[/code] loop."
 msgstr ""
+"Na realidade, as strings são arrays de caracteres. Na verdade, podemos fazer "
+"um loop pelos caracteres de uma [code]String[/code] da mesma forma que os "
+"arrays, usando um loop [code]for[/code]."
 
 #: course/lesson-21-strings/lesson.tres:80
 msgid "Which of these are strings?"
-msgstr ""
+msgstr "Quais dessas opções são strings?"
 
 #: course/lesson-21-strings/lesson.tres:83
 msgid ""
@@ -71,6 +88,12 @@ msgid ""
 "\n"
 "[code]\"name\"[/code] is made up of four different characters."
 msgstr ""
+"[code]\"1\"[/code] e [code]\"name\"[/code] são strings.\n"
+"\n"
+"[code]\"1\"[/code] contém apenas um caractere e [i]não[/i] representa o "
+"número [code]1[/code].\n"
+"\n"
+"[code]\"name\"[/code] é composto por quatro caracteres diferentes."
 
 #: course/lesson-21-strings/lesson.tres:88
 msgid "1"
@@ -79,16 +102,16 @@ msgstr "1"
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"1\""
-msgstr ""
+msgstr "\"1\""
 
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"name\""
-msgstr ""
+msgstr "\"name\""
 
 #: course/lesson-21-strings/lesson.tres:96
 msgid "Why we use strings"
-msgstr ""
+msgstr "Por quê usamos strings"
 
 #: course/lesson-21-strings/lesson.tres:118
 msgid ""
@@ -102,16 +125,28 @@ msgid ""
 "animations. In this example, the [code]play_animation()[/code] plays a "
 "specific animation"
 msgstr ""
+"Cada pedaço de texto que você vê nesse aplicativo é uma string que a Godot "
+"está exibindo para nós.\n"
+"\n"
+"Assim como as variáveis [code]Vector2[/code] facilitam os cálculos, as "
+"variáveis de string vêm com muitas funções auxiliares e truques que podemos "
+"usar.\n"
+"\n"
+"Podemos usar arrays para armazenar strings também. Isso é útil para encadear "
+"animações. Nesse exemplo, o [code]play_animation()[/code] reproduz uma "
+"animação específica"
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
 "In the next few practices, we'll use strings in combination with "
 "different concepts from earlier lessons."
 msgstr ""
+"Nas próximas práticas, vamos usar strings em combinação com diferentes "
+"conceitos das lições anteriores."
 
 #: course/lesson-21-strings/lesson.tres:150
 msgid "Creating string variables"
-msgstr ""
+msgstr "Criando variáveis do tipo string"
 
 #: course/lesson-21-strings/lesson.tres:151
 msgid ""
@@ -121,14 +156,20 @@ msgid ""
 "Change the [code]robot_name[/code] variable so that it's a string "
 "instead. You can give it any name you'd like."
 msgstr ""
+"Atualmente, o robô tem um número armazenado na variável "
+"[code]robot_name[/code]. \n"
+"\n"
+"Altere a variável [code]robot_name[/code] para que seja uma string. Você "
+"pode dar o nome que quiser."
 
 #: course/lesson-21-strings/lesson.tres:161
 msgid "Give the robot a readable name using a string stored in a variable."
 msgstr ""
+"Dê ao robô um nome legível usando uma string armazenada em uma variável."
 
 #: course/lesson-21-strings/lesson.tres:166
 msgid "Using an array of strings to play a combo"
-msgstr ""
+msgstr "Usando um array de strings para executar um combo"
 
 #: course/lesson-21-strings/lesson.tres:167
 msgid ""
@@ -148,11 +189,26 @@ msgid ""
 "The robot should do the following actions in order: [code]jab, jab, "
 "uppercut[/code]"
 msgstr ""
+"Nessa prática, vamos encadear animações usando um array de strings. Você "
+"pode encontrar essas combinações em jogos de luta.\n"
+"\n"
+"O robô tem os seguintes nomes de animação:\n"
+"\n"
+"- [code]jab[/code] (faz o robô dar um soco rápido)\n"
+"- [code]uppercut[/code] (o robô usa um poderoso soco enquanto pula)\n"
+"\n"
+"Preencha o array de combos com nomes de animação como strings.\n"
+"\n"
+"Em seguida, para cada ação no array, chame a função "
+"[code]play_animation()[/code] para reproduzi-las.\n"
+"\n"
+"O robô deve fazer as seguintes ações em ordem: [code]jab, jab, "
+"uppercut[/code]"
 
 #: course/lesson-21-strings/lesson.tres:186
 msgid "Define an array of strings to unleash a powerful combo."
-msgstr ""
+msgstr "Defina um array de strings para liberar um combo poderoso."
 
 #: course/lesson-21-strings/lesson.tres:190
 msgid "Strings"
-msgstr ""
+msgstr "Strings"
