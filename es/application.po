@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-01 19:28+0100\n"
+"PO-Revision-Date: 2022-03-20 10:51+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"Generated-By: Babel 2.9.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: resources/QuizInputField.gd:17
 msgid "You need to type a whole number for this answer. Example: 42"
@@ -125,7 +125,7 @@ msgstr "En pausa"
 
 #: ui/components/GlossaryPopup.tscn:37
 msgid "Term"
-msgstr ""
+msgstr "Término"
 
 #: ui/components/GlossaryPopup.tscn:53
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
@@ -140,11 +140,13 @@ msgstr "No se puede acceder al servidor. Las pruebas serán menos precisas."
 msgid "ERROR:"
 msgstr "ERROR:"
 
+# Texto de relleno
+# Marcador de posición
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 #: ui/components/ScrollableTextBox.tscn:43
 #: ui/screens/lesson/UIContentBlock.tscn:68
 msgid "Placeholder text"
-msgstr ""
+msgstr "﻿Texto de relleno"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
@@ -223,7 +225,7 @@ msgstr ""
 "Lo sentimos, ¡todavía no tenemos cubierto este mensaje de error en "
 "particular!\n"
 "\n"
-"Por favor, utiliza el botón [b]Informar[/b] en la esquina superior derecha "
+"Por favor, utiliza el botón [b]Reportar[/b] en la esquina superior derecha "
 "para contarnos más sobre cómo lo obtuviste e intentaremos mejorar nuestra "
 "base de conocimientos para la próxima versión de la aplicación.\n"
 "\n"
@@ -265,7 +267,7 @@ msgstr ""
 "i] Hay una gran cantidad de código oculto que ejecutan para asegurarse de "
 "que tus proyectos se ejecuten sin problemas. Y sin embargo, un error en tus "
 "scripts puede romperlos. Intentaremos explicar cómo abordar cada uno de los "
-"errores a los que te enfrentas. Rápido, ¡haz clic en el botón [b]Explicar[/"
+"errores a los que te enfrentes. Rápido, ¡haz clic en el botón [b]Explicar[/"
 "b] junto al mensaje de error!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
@@ -325,7 +327,7 @@ msgstr "Cerrar"
 #: ui/components/popups/ReportFormPopup.tscn:66
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:59
 msgid "Report an issue"
-msgstr "Informar de un problema"
+msgstr "Reportar un problema"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
@@ -368,7 +370,7 @@ msgid ""
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
 "Si te encuentras con algún problema en la aplicación, haz clic en el "
-"siguiente enlace para informar sobre él en GitHub:\n"
+"siguiente enlace para reportarlo en GitHub:\n"
 "\n"
 "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
 "> GDQuest > learn-gdscript > Issues[/b][/center]\n"
@@ -389,8 +391,7 @@ msgstr ""
 "desarrolladores a organizar su trabajo y a colaborar en línea.\n"
 "\n"
 "Puedes utilizar GitHub para estudiar el código fuente de muchos proyectos "
-"abiertos, informar de problemas o incluso contribuir tú mismo con el "
-"código.\n"
+"abiertos, reportar problemas o incluso contribuir tú mismo con el código.\n"
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]Cómo informar de un problema[/"
 "font]\n"
@@ -577,7 +578,7 @@ msgstr "Aprende más"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr ""
+msgstr "Título de relleno"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
@@ -635,9 +636,10 @@ msgstr "Comprobaciones"
 msgid "Documentation"
 msgstr "Documentación"
 
+# lista de practicas abiertas
 #: ui/screens/practice/PracticeInfoPanel.tscn:175
 msgid "Open Practice List"
-msgstr "Lista de prácticas abiertas"
+msgstr "Abrir lista de prácticas"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:42
 msgid "Test text"
@@ -783,7 +785,7 @@ msgstr "Abrir índice de cursos"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:398
 msgid "Quit"
-msgstr ""
+msgstr "Salir"
 
 #~ msgid "There has been a horrible accident!"
 #~ msgstr "¡Ha habido un horrible accidente!"

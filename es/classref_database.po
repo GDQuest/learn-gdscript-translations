@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-01 19:28+0100\n"
+"PO-Revision-Date: 2022-03-20 10:00+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"Generated-By: Babel 2.9.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. Reference: show
 #: course/documentation.csv:2
@@ -116,7 +116,7 @@ msgstr ""
 #. Reference: play_animation
 #: course/documentation.csv:16
 msgid "Orders the robot to play an animation."
-msgstr ""
+msgstr "Ordena al robot que reproduzca una animación."
 
 #. Reference: select_units
 #: course/documentation.csv:17
@@ -135,16 +135,17 @@ msgstr "Pone en cola una animación de movimiento hacia la celda de destino."
 #: course/documentation.csv:19
 msgid "Adds the value passed as an argument at the back of the array."
 msgstr ""
+"Añade el valor pasado como argumento en la parte posterior de la matriz."
 
 #. Reference: array.pop_front
 #: course/documentation.csv:20
 msgid "Removes the first value from the array and returns it."
-msgstr ""
+msgstr "Elimina el primer valor de la matriz y lo devuelve."
 
 #. Reference: array.pop_back
 #: course/documentation.csv:21
 msgid "Removes the last value from the array and returns it."
-msgstr ""
+msgstr "Elimina el último valor de la matriz y lo devuelve."
 
 #. Reference: str
 #: course/documentation.csv:22
@@ -152,6 +153,8 @@ msgid ""
 "Returns the argument converted into a [code]String[/code]. Works with the "
 "majority of value types."
 msgstr ""
+"Devuelve el argumento convertido en una [code]String[/code]. Funciona con la "
+"mayoría de los tipos de valores."
 
 #. Reference: int
 #: course/documentation.csv:23
@@ -160,6 +163,9 @@ msgid ""
 "possible[/i]. Supports converting decimal numbers, strings, and booleans. "
 "Useful to convert player text input into numbers."
 msgstr ""
+"Devuelve el argumento convertido en un [code]int[/code] (número entero) "
+"[i]si es posible[/i]. Admite la conversión de números decimales, cadenas y "
+"booleanos. Es útil para convertir la entrada de texto del jugador en números."
 
 #. Reference: place_unit
 #: course/documentation.csv:24
@@ -167,13 +173,15 @@ msgid ""
 "Creates a new unit matching the type parameter and places it at the desired "
 "cell position on the game grid."
 msgstr ""
+"Crea una nueva unidad que coincida con el parámetro de tipo y la coloca en "
+"la posición de celda deseada en la cuadrícula del juego."
 
 #. Reference: display_item
 #: course/documentation.csv:25
 msgid "Creates a new item and displays it in the inventory."
-msgstr ""
+msgstr "Crea un nuevo objeto y lo muestra en el inventario."
 
 #. Reference: add_item
 #: course/documentation.csv:26
 msgid "Increases the item count by amount."
-msgstr ""
+msgstr "Aumenta el número de elementos por cantidad."

@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-01 19:28+0100\n"
+"PO-Revision-Date: 2022-03-20 10:05+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0\n"
+"Generated-By: Babel 2.9.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. Reference: CYCLIC_REFERENCE
 #: lsp/error_database.csv:38
@@ -430,7 +430,6 @@ msgstr ""
 
 #. Reference: DUPLICATE_DECLARATION
 #: lsp/error_database.csv:102
-#, fuzzy
 msgid ""
 "You are trying to define a function or variable that already exists; You "
 "can't do that.\n"
@@ -438,15 +437,14 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file, "
 "but it may also be in a parent class that this GDScript code extends."
 msgstr ""
-"Estás tratando de definir una señal que ya existe; no es posible hacer "
-"esto.\n"
+"Estás intentando definir una función o variable que ya existe; no es posible "
+"hacer esto.\n"
 "\n"
-"Quizás la señal ya existe en el archivo de código actual, pero también puede "
-"estar en una clase padre que extiende este código GDScript."
+"Quizás la función o variable ya existe en el archivo de código actual, pero "
+"también puede estar en una clase padre que extiende este código GDScript."
 
 #. Reference: DUPLICATE_DECLARATION
 #: lsp/error_database.csv:102
-#, fuzzy
 msgid ""
 "In the app, your code extends some built-in Godot code that's not visible to "
 "you.\n"
@@ -457,8 +455,9 @@ msgstr ""
 "En la aplicación, tu código extiende un código incorporado de Godot que no "
 "es visible para ti.\n"
 "\n"
-"Cuando esto ocurra, deberás cambiar el nombre de tu señal por otro que no "
-"colisione con uno ya existente o eliminar esta línea de código."
+"Cuando esto ocurra, deberás cambiar el nombre de tu función o variable por "
+"uno que no colisione con un nombre ya existente o eliminar esta línea de "
+"código."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: lsp/error_database.csv:107
