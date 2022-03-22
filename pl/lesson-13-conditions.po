@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-03-10 19:54+0000\n"
+"PO-Revision-Date: 2022-03-23 20:55+0000\n"
 "Last-Translator: Katarzyna Twardowska <katarina.twardowska@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-13-conditions/pl/>\n"
@@ -27,16 +27,21 @@ msgid ""
 "In previous lessons, we decreased and increased a character's health, but "
 "there was no limit to how much health they could have."
 msgstr ""
+"W poprzednich lekcjach zmniejszaliśmy i zwiększaliśmy zdrowie postaci, "
+"jednak nie ustaliliśmy ograniczeń co do tego, ile zdrowia mogą maksymalnie i "
+"minimalnie mieć."
 
 #: course/lesson-13-conditions/lesson.tres:34
 msgid ""
 "As a result, the player could increase their character's health "
 "indefinitely, which we do not want."
 msgstr ""
+"Rezultatem tego była możliwość zwiększania zdrowia postaci w nieskończoność, "
+"czego w naszej grze nie chcemy."
 
 #: course/lesson-13-conditions/lesson.tres:52
 msgid "What happens to health when we damage our character?"
-msgstr ""
+msgstr "Co dzieje się ze zdrowiem, gdy nasza postać otrzymuje obrażenia?"
 
 #: course/lesson-13-conditions/lesson.tres:53
 msgid ""
@@ -45,6 +50,10 @@ msgid ""
 "What would the value of health be if we called [code]take_damage(25)[/code] "
 "[b]five times[/b]?"
 msgstr ""
+"Załóżmy, że nasza postać ma [code]100[/code] zdrowia.\n"
+"\n"
+"Jaka byłaby wartość zdrowia, gdybyśmy wywołali funkcję "
+"[code]take_damage(25)[/code] [b]pięć razy[/b]?"
 
 #: course/lesson-13-conditions/lesson.tres:57
 msgid ""
@@ -58,19 +67,28 @@ msgid ""
 "0\n"
 "-25"
 msgstr ""
+"Wywołanie [code]take_damage(25)[/code] pięć razy spowoduje odjęcie "
+"[code]125[/code] od [code]100[/code].\n"
+"\n"
+"100\n"
+"75\n"
+"50\n"
+"25\n"
+"0\n"
+"-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 #: course/lesson-13-conditions/lesson.tres:66
 msgid "-25"
-msgstr ""
+msgstr "-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: course/lesson-13-conditions/lesson.tres:75
 msgid ""
@@ -80,6 +98,11 @@ msgid ""
 "the computer will run the corresponding instructions. Otherwise, those "
 "instructions will not run at all."
 msgstr ""
+"Do uruchamiania akcji [b]selektywnie[/b] możemy użyć warunków.\n"
+"\n"
+"Warunki powodują, że twój kod rozgałęzia się na dwie ścieżki: jeśli warunek "
+"jest spełniony, komputer uruchomia odpowiednie instrukcje. W przeciwnym "
+"razie te instrukcje w ogóle nie są brane pod uwagę."
 
 #: course/lesson-13-conditions/lesson.tres:87
 msgid ""
@@ -87,6 +110,9 @@ msgid ""
 "game input largely relies on conditions: [i]if[/i] the player presses the "
 "button on a gamepad, the character jumps."
 msgstr ""
+"Gry wideo i inne programy komputerowe są pełne warunków. Na przykład dane "
+"wejściowe w grze w dużej mierze zależą od warunków: [i]jeśli[/i] gracz "
+"naciśnie przycisk na gamepadzie, wówczas postać podskoczy."
 
 #: course/lesson-13-conditions/lesson.tres:107
 msgid ""
@@ -104,6 +130,18 @@ msgid ""
 "starting with [code]if[/code], type the condition to evaluate, and end the "
 "line with a colon."
 msgstr ""
+"Gdy komputer sprawdza warunek, nazywa się to [b]oceną[/b] warunku. Wszystkie "
+"warunki [b]oceniane są[/b] albo na wartość [code]true[/code] (prawdy), albo "
+"na wartość [code]false[/code] (fałszu).\n"
+"\n"
+"Albo gracz naciska przycisk, albo nie. Albo postać dotyka wroga, albo nie.\n"
+"\n"
+"W naszym przypadku, [i]jeśli[/i] zdrowie przekroczy maksymalną wartość, "
+"chcemy zresetować je do maksimum.\n"
+"\n"
+"Aby zdefiniować warunek, używamy słowa kluczowego [code]if[/code] (ang. "
+"jeśli). Piszemy wiersz rozpoczynający się od [code]if[/code], wpisujemy "
+"warunek do oceny i kończymy wiersz dwukropkiem."
 
 #: course/lesson-13-conditions/lesson.tres:133
 msgid ""
@@ -118,10 +156,21 @@ msgid ""
 "The computer knows which instructions belong to the condition because they "
 "are indented."
 msgstr ""
+"Zwróć uwagę na znak porównania [code]>[/code]. Symbol ten czytamy jako „"
+"większy niż”.\n"
+"\n"
+"Mieliśmy już sposobność zobaczyć, jak definicje funkcji używają dwukropka na "
+"końcu pierwszego wiersza i zagnieżdża w nim treści.\n"
+"\n"
+"W GDScript ta składnia jest powtarzającym się wzorcem dla wszystkich bloków "
+"kodu.\n"
+"\n"
+"Komputer wie, które instrukcje należą do warunku, ponieważ są odpowiednio "
+"wcięte."
 
 #: course/lesson-13-conditions/lesson.tres:157
 msgid "Comparisons"
-msgstr ""
+msgstr "Porównania"
 
 #: course/lesson-13-conditions/lesson.tres:159
 msgid ""
@@ -137,10 +186,21 @@ msgid ""
 "\n"
 "Here's how we might use these in [code]if[/code] statements.\n"
 msgstr ""
+"W powyższym przykładzie użyliśmy znaku [code]>[/code] do przekazania "
+"komputerowi, że coś jest „większe niż”.\n"
+"\n"
+"Liczby możemy porównywać również na inne sposoby.\n"
+"\n"
+"[code]>[/code] oznacza „większe niż”\n"
+"[code]<[/code] oznacza „mniejsze niż”\n"
+"[code]==[/code] oznacza „równe”\n"
+"[code]!=[/code] oznacza „nierówne”\n"
+"\n"
+"Oto jak możemy używać ich podczas tworzenia warunku [code]if[/code]:\n"
 
 #: course/lesson-13-conditions/lesson.tres:187
 msgid "Which of these statements are true?"
-msgstr ""
+msgstr "Które z tych warunków są prawdziwe?"
 
 #: course/lesson-13-conditions/lesson.tres:190
 msgid ""
@@ -156,33 +216,44 @@ msgid ""
 "The comparison [code]3 < 1[/code] means \"three is less than one\" which is "
 "[b]false[/b]."
 msgstr ""
+"Porównanie [code]3 > 1[/code] oznacza, że „trzy jest większe niż jeden”, co "
+"jest [b]prawdą[/b].\n"
+"Porównanie [code]2 < 3[/code] oznacza „dwa to mniej niż trzy”, co jest "
+"[b]prawdą[/b].\n"
+"Porównanie [code]1 != 3[/code] oznacza „jeden nie jest równy trzem”, co jest "
+"[b]prawdą[/b].\n"
+"\n"
+"Porównanie [code]2 == 1[/code] oznacza, że „dwa są równe jednemu”, co jest "
+"[b]fałszem[/b].\n"
+"Porównanie [code]3 < 1[/code] oznacza „trzy to mniej niż jeden”, co jest "
+"[b]fałszem[/b]."
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "3 > 1"
-msgstr ""
+msgstr "3 > 1"
 
 #: course/lesson-13-conditions/lesson.tres:196
 msgid "2 == 1"
-msgstr ""
+msgstr "2 == 1"
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "2 < 3"
-msgstr ""
+msgstr "2 < 3"
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "1 != 3"
-msgstr ""
+msgstr "1 != 3"
 
 #: course/lesson-13-conditions/lesson.tres:196
 msgid "3 < 1"
-msgstr ""
+msgstr "3 < 1"
 
 #: course/lesson-13-conditions/lesson.tres:204
 msgid "Or else..."
-msgstr ""
+msgstr "Jest też wypadek przeciwny…"
 
 #: course/lesson-13-conditions/lesson.tres:206
 msgid ""
@@ -192,22 +263,31 @@ msgid ""
 "You can write an [code]else[/code] block after an [code]if[/code] block, "
 "like so."
 msgstr ""
+"Słowo kluczowe [code]if[/code] zawiera uzupełniające słowo kluczowe "
+"[code]else[/code] (w przeciwnym razie).\n"
+"\n"
+"Możesz dodać blok [code]else[/code] po bloku [code]if[/code] w taki oto "
+"sposób:"
 
 #: course/lesson-13-conditions/lesson.tres:228
 msgid ""
 "The [code]else[/code] block will run whenever the condition above it isn't "
 "met."
 msgstr ""
+"Blok [code]else[/code] zostanie uruchomiony, gdy warunek powyżej niego nie "
+"zostanie spełniony."
 
 #: course/lesson-13-conditions/lesson.tres:238
 msgid ""
 "In the following practices, we'll use conditions and improve the way our "
 "character's health changes so it has limits."
 msgstr ""
+"W czekających nas ćwiczeniach wykorzystamy warunki i poprawimy sposób "
+"działania zdrowia naszej postaci dodając do niego stpsowne ograniczenia."
 
 #: course/lesson-13-conditions/lesson.tres:246
 msgid "Using Comparisons"
-msgstr ""
+msgstr "Korzystanie z porównań"
 
 #: course/lesson-13-conditions/lesson.tres:247
 msgid ""
@@ -230,16 +310,36 @@ msgid ""
 "Because [code]health = 100[/code], this is false so [code]print(\"health is "
 "greater than five.\")[/code] won't run."
 msgstr ""
+"Ta seria instrukcji [code]if[/code] jest błędna. Zmień porównania, aby każde "
+"porównanie odpowiadało znajdującemu się poniżej komunikatowi.\n"
+"\n"
+"Zachowaj wartości i stwierdzenia takimi, jakimi są; zmień wyłącznie znaki "
+"porównania.\n"
+"\n"
+"Przypominamy, że znaki porównania to:\n"
+"[code]\n"
+"> większe niż\n"
+"< mniejsze niż\n"
+"== równe\n"
+"!= nierówne\n"
+"[/code]\n"
+"\n"
+"Wiersz [code]health < 5:[/code] oznacza „zdrowie jest mniejsze niż 5”.\n"
+"\n"
+"Ponieważ [code]health = 100[/code] jest fałszem, komunikat [code]print("
+"\"health is greater than five.\")[/code] nie zostanie wyświetlony."
 
 #: course/lesson-13-conditions/lesson.tres:283
 msgid ""
 "Comparing values allows us to make decisions in code. But there's something "
 "wrong with these statements.."
 msgstr ""
+"Porównywanie wartości pozwala nam podejmować decyzje w kodzie. Ale z tymi "
+"warunkami coś jest nie tak…"
 
 #: course/lesson-13-conditions/lesson.tres:288
 msgid "Limiting Healing"
-msgstr ""
+msgstr "Ograniczanie uzdrawiania"
 
 #: course/lesson-13-conditions/lesson.tres:289
 msgid ""
@@ -248,16 +348,22 @@ msgid ""
 "Add to the function so the character's health is never greater than "
 "[code]80[/code]."
 msgstr ""
+"Mamy tu funkcję leczenia, która zwiększa zdrowie postaci.\n"
+"\n"
+"Dodaj do funkcji odpowiedni warunek, który sprawi, że zdrowie postaci nigdy "
+"nie wyniesie więcej niż [code]80[/code]."
 
 #: course/lesson-13-conditions/lesson.tres:301
 msgid ""
 "As much as we might like, we don't want our robot to have too much health. "
 "Limit how much healing the robot can take."
 msgstr ""
+"Na ile może nam się to podobać, na tyle nie chcemy, aby robot w naszej grze "
+"miał zbyt dużo zdrowia. Ogranicz ilość leczenia, którą może przyjąć robot."
 
 #: course/lesson-13-conditions/lesson.tres:306
 msgid "Preventing Health from Going Below Zero"
-msgstr ""
+msgstr "Zapobieganie spadnięciu zdrowia poniżej zera"
 
 #: course/lesson-13-conditions/lesson.tres:307
 msgid ""
@@ -274,12 +380,27 @@ msgid ""
 "If [code]health[/code] goes below [code]0[/code], set it to [code]0[/code] "
 "again."
 msgstr ""
+"Gdy robot otrzyma obrażenia, jego zdrowie może stać sie ujemne.\n"
+"\n"
+"Możemy chcieć wyświetlać stan zdrowia na ekranie niczym w japońskich grach "
+"RPG.\n"
+"\n"
+"Przez to nie chcemy liczb ujemnych. Zamiast tego chcemy zatrzymać się na "
+"zerze.\n"
+"\n"
+"Zastąp [code]pass[/code] kodem, który zmniejsza [code]health[/code] o "
+"[code]amount[/code].\n"
+"\n"
+"Jeśli [code]health[/code] spadnie poniżej wartości [code]0[/code], ponownie "
+"ustaw go na [code]0[/code]."
 
 #: course/lesson-13-conditions/lesson.tres:325
 msgid ""
 "Having a negative health value doesn't make a lot of sense. Make sure the "
 "robot's health can't go below zero."
 msgstr ""
+"Posiadanie ujemnej wartości zdrowia nie ma większego sensu. Upewnij się, że "
+"zdrowie robota nie spadnie poniżej zera."
 
 #: course/lesson-13-conditions/lesson.tres:329
 msgid "Conditions"
