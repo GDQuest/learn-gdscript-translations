@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-03 08:35+0100\n"
+"POT-Creation-Date: 2022-03-26 17:50+0100\n"
 "PO-Revision-Date: 2022-03-04 15:25+0100\n"
 "Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
 "Language-Team: \n"
@@ -142,8 +142,7 @@ msgstr "Verwenden von Typhinweisen"
 #: course/lesson-28-specifying-types/lesson.tres:147
 #, fuzzy
 msgid ""
-"Fortunately, since recent versions, GDScript got optional [i]type hints[/"
-"i].\n"
+"Fortunately, GDScript has optional [i]type hints[/i].\n"
 "\n"
 "Type hints let the computer know the value type you want for variables and "
 "report errors before running the code.\n"
@@ -187,8 +186,8 @@ msgstr "Lassen Sie den Computer es herausfinden"
 #: course/lesson-28-specifying-types/lesson.tres:221
 #, fuzzy
 msgid ""
-"GDScript comes with a feature called type inference. In many cases, but not "
-"all, the computer can figure out the type of a variable for you.\n"
+"GDScript comes with a feature called [i]type inference[/i]. In many cases, "
+"but not all, the computer can figure out the type of a variable for you.\n"
 "\n"
 "To do so, you write [code]:=[/code], without the type. The computer will set "
 "the type using the value after the equal sign. We could make "
@@ -280,6 +279,12 @@ msgstr ""
 "Hinweis: Sie können in dieser Praxis keine Typinferenz verwenden. Sie müssen "
 "den Typnamen vollständig schreiben."
 
+#: course/lesson-28-specifying-types/lesson.tres:282
+msgid ""
+"Our variables have the wrong type hints, causing errors. Correct them to "
+"make the code run."
+msgstr ""
+
 #: course/lesson-28-specifying-types/lesson.tres:287
 #, fuzzy
 msgid "Fix the values to match the type hints"
@@ -299,6 +304,12 @@ msgstr ""
 "\n"
 "Ihre Aufgabe besteht darin, die Werte nach dem Gleichheitszeichen so zu "
 "korrigieren, dass sie mit dem Typhinweis jeder Variablen übereinstimmen."
+
+#: course/lesson-28-specifying-types/lesson.tres:300
+msgid ""
+"This time, it's the other way around: variables have the correct type hints "
+"but the wrong values. Change the values to make the code run."
+msgstr ""
 
 #: course/lesson-28-specifying-types/lesson.tres:304
 #, fuzzy

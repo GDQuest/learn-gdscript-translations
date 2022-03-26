@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-18 15:02+0300\n"
+"POT-Creation-Date: 2022-03-26 17:50+0100\n"
 "PO-Revision-Date: 2022-03-01 19:55+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.0\n"
 
@@ -412,7 +412,7 @@ msgstr ""
 "Completa la función [code]draw_corner()[/code] para que use el parámetro "
 "[code]length[/code] para dibujar esquinas."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:307
+#: course/lesson-6-multiple-function-parameters/lesson.tres:309
 msgid ""
 "Using function parameters, code a function you can reuse to draw corners "
 "with lines of varying sizes."
@@ -420,11 +420,11 @@ msgstr ""
 "Usando parámetros de función, codifica una función que puedas reutilizar "
 "para dibujar esquinas con líneas de diferentes tamaños."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:312
+#: course/lesson-6-multiple-function-parameters/lesson.tres:314
 msgid "Using multiple parameters"
 msgstr "Usar múltiples parámetros"
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:313
+#: course/lesson-6-multiple-function-parameters/lesson.tres:315
 msgid ""
 "In this practice, we'll improve our [code]draw_corner()[/code] function so "
 "the angle can also vary.\n"
@@ -438,17 +438,18 @@ msgstr ""
 "Añade el parámetro [code]angle[/code] a la función [code]draw_corner()[/"
 "code] y utilízalo para dibujar esquinas de ángulos variables."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:325
+#: course/lesson-6-multiple-function-parameters/lesson.tres:329
 msgid "With two parameters, code a function to draw corners with any angle."
 msgstr ""
 "Con dos parámetros, codifica una función para dibujar esquinas con cualquier "
 "ángulo."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:330
+#: course/lesson-6-multiple-function-parameters/lesson.tres:334
 msgid "Drawing squares of any size"
 msgstr "Dibujar cuadrados de cualquier tamaño"
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:331
+#: course/lesson-6-multiple-function-parameters/lesson.tres:335
+#, fuzzy
 msgid ""
 "We want a function to draw squares of any size.\n"
 "\n"
@@ -456,7 +457,10 @@ msgid ""
 "game, as a frame for items in an inventory, and more.\n"
 "\n"
 "Create a function named [code]draw_square()[/code] that takes one parameter: "
-"the [code]length[/code] of the square's sides."
+"the [code]length[/code] of the square's sides.\n"
+"\n"
+"The turtle should face towards the right when starting or completing a "
+"rectangle."
 msgstr ""
 "Queremos una función para dibujar cuadrados de cualquier tamaño.\n"
 "\n"
@@ -466,7 +470,7 @@ msgstr ""
 "Crea una función llamada [code]draw_square()[/code] que tome un parámetro: "
 "[code]length[/code], la longitud de los lados del cuadrado."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:342
+#: course/lesson-6-multiple-function-parameters/lesson.tres:350
 msgid ""
 "In the previous lesson, your function would draw squares of a fixed size. "
 "Using a parameter, code a function to draw squares of any size."
@@ -475,11 +479,12 @@ msgstr ""
 "Utilizando un parámetro, codifica una función para dibujar cuadrados de "
 "cualquier tamaño."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:347
+#: course/lesson-6-multiple-function-parameters/lesson.tres:355
 msgid "Drawing rectangles of any size"
 msgstr "Dibujar rectángulos de cualquier tamaño"
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:348
+#: course/lesson-6-multiple-function-parameters/lesson.tres:356
+#, fuzzy
 msgid ""
 "Let's make our square drawing function more flexible to include rectangles "
 "of varying sizes.\n"
@@ -487,6 +492,9 @@ msgid ""
 "Your job is to code a function named [code]draw_rectangle()[/code] that "
 "takes two parameters: the [code]length[/code] and the [code]height[/code] of "
 "the rectangle.\n"
+"\n"
+"The turtle should face towards the right when starting or completing a "
+"rectangle.\n"
 "\n"
 "Note that we could still draw a square with [code]draw_rectangle()[/code] by "
 "having the [code]length[/code] and [code]height[/code] equal the same value."
@@ -502,7 +510,7 @@ msgstr ""
 "[code]draw_rectangle()[/code] haciendo que [code]length[/code] y "
 "[code]height[/code] tengan el mismo valor."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:359
+#: course/lesson-6-multiple-function-parameters/lesson.tres:379
 msgid ""
 "With one parameter, you can make squares of any size. With two, you can draw "
 "any rectangle! You'll do so in this practice."
@@ -510,6 +518,6 @@ msgstr ""
 "Con un parámetro, puedes hacer cuadrados de cualquier tamaño. Con dos, "
 "¡puedes dibujar cualquier rectángulo! Así lo harás en esta práctica."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:363
+#: course/lesson-6-multiple-function-parameters/lesson.tres:383
 msgid "Your First Function Parameter"
 msgstr "Tu primer parámetro de función"

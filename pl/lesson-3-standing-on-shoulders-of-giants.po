@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-21 23:39+0300\n"
+"POT-Creation-Date: 2022-03-26 17:50+0100\n"
 "PO-Revision-Date: 2022-03-09 18:55+0000\n"
 "Last-Translator: Katarzyna Twardowska <katarina.twardowska@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-3-standing-on-shoulders-of-giants/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-3-standing-on-shoulders-of-giants/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,6 +22,7 @@ msgstr ""
 "Generated-By: Babel 2.9.0\n"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:14
+#, fuzzy
 msgid ""
 "As programmers, we rely on a lot of code created by others before us.\n"
 "\n"
@@ -32,11 +33,8 @@ msgid ""
 "\n"
 "It's a bunch of code sitting there, waiting for you to use it.\n"
 "\n"
-"Game engines like Godot go a step further by bringing many libraries "
-"together. They provide a massive toolset aimed at solving the problems a "
-"game developer might face.\n"
-"\n"
-"It's a goldmine of time-saving code, especially when getting started."
+"Game engines like Godot bundle many libraries together. They provide a "
+"massive toolset to save you time when making games."
 msgstr ""
 "Jako programiści polegamy na dużej ilości kodu stworzonego przez innych "
 "będących przed nami.\n"
@@ -54,24 +52,21 @@ msgstr ""
 "\n"
 "To kopalnia kodu oszczędzającego czas, zwłaszcza na początku twojej przygody."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:32
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:30
 msgid "You'll always use a lot of existing code"
 msgstr "Zawsze będziesz używał całej masy istniejącego kodu"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:34
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:32
+#, fuzzy
 msgid ""
-"When coding, you're never quite on your own. Programming languages "
-"themselves build upon programs created by previous developers.\n"
+"When coding, you always use a lot of code from developers who came before "
+"you.\n"
 "\n"
-"Throughout this course, you will use a lot of code created by the Godot "
-"developers.\n"
+"In a moment, you'll write your first code. You'll use [i]functions[/i] "
+"created by the Godot developers.\n"
 "\n"
-"The first code you'll write will [i]call functions[/i] created by other "
-"programmers.\n"
-"\n"
-"A function is a list of instructions for the computer with an exact name. By "
-"using that name, we tell the computer to execute all the instructions in "
-"sequence."
+"A function is a list of instructions with an exact name. We can tell the "
+"computer to execute all the instructions in sequence with that name."
 msgstr ""
 "Podczas kodowania nigdy nie jesteś całkiem sam. Same języki programowania "
 "opierają się na programach stworzonych przez poprzednich programistów.\n"
@@ -86,48 +81,59 @@ msgstr ""
 "tej nazwy, mówimy komputerowi, aby wykonał wszystkie znajdujące się w niej "
 "instrukcje po kolei."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:48
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:44
 msgid "Calling functions"
 msgstr "Wywoływanie funkcji"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:50
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:46
 msgid ""
 "When you tell the computer to execute a function, we say you [i]call[/i] the "
 "function.\n"
 "\n"
-"To [i]call[/i] a function, you write its exact name followed by an open and "
+"To call a function, you write its [i]exact[/i] name followed by an open and "
 "closed parenthesis. To call the function named \"show\", you would write "
-"[code]show()[/code].\n"
-"\n"
-"The code listing below contains two lines of code calling the [code]show()[/"
-"code] and [code]hide()[/code] functions.\n"
-"\n"
-"We wrap them in a new function named [code]run()[/code] to execute the code. "
-"Creating a new function is necessary to execute instructions in GDScript.\n"
-"\n"
-"You'll learn more about creating new functions in the next lessons."
+"[code]show()[/code]."
 msgstr ""
-"Kiedy mówimy komputerowi, aby wykonał daną funkcję, nazywamy to "
-"[i]wywoływaniem[/i] funkcji.\n"
-"\n"
-"Aby [i]wywołać[/i] funkcję, wpisujesz jej dokładną nazwę, po której "
-"następuje otwarty i zamknięty nawias. Aby wywołać funkcję o nazwie \"show\", "
-"napisałbyś [code]show()[/code].\n"
-"\n"
-"Poniższy kod zawiera dwa wiersze kodu wywołujące funkcje [code]show()[/code] "
-"i [code]hide()[/code].\n"
-"\n"
-"\"Zawijamy je\" w funkcję o nazwie [code]run()[/code], aby nasz program "
-"wykonał (uruchomił) kod. Utworzenie nowej funkcji jest konieczne do "
-"wykonania instrukcji w GDScript.\n"
-"\n"
-"Więcej o tworzeniu nowych funkcji dowiesz się z następnych lekcji."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:76
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:58
+msgid ""
+"In Godot, calling [code]show()[/code] makes something visible, like a "
+"character or item. The complementary [code]hide()[/code] function hides the "
+"entity.\n"
+"\n"
+"Once an entity is visible, calling [code]show()[/code] again doesn't have "
+"any effect.\n"
+"\n"
+"Similarly, once you hide something, calling [code]hide()[/code] again "
+"doesn't change anything.\n"
+"\n"
+"[i]Click the Run button on any example below to execute the code listing.[/i]"
+msgstr ""
+"W Godocie wywołanie [code]show()[/code] sprawia, że coś jest widoczne (może "
+"być to na przykład nasza postać bądź przedmiot). Uzupełniająca ją funkcja "
+"[code]hide()[/code] sprawi, że ta sama rzecz zostanie ukryta.\n"
+"\n"
+"Gdy już raz uczynimy dany element widocznym, ponowne wywołanie [code]show()[/"
+"code] nie da żadnego efektu.\n"
+"\n"
+"Tak samo jest w przypadku, gdy coś zostanie ukryte. Ponowne wywołanie "
+"[code]hide()[/code] niczego nie zmieni.\n"
+"\n"
+"[i]Kliknij przycisk Uruchom na dowolnym przykładzie poniżej, aby uruchomić "
+"znajdujący się tam kod.[/i]"
+
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:84
+msgid ""
+"In the code listing above, we write the function call [code]hide()[/code] in "
+"a new function named [code]run()[/code] to execute the code. Creating a new "
+"function is necessary to execute instructions in GDScript."
+msgstr ""
+
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:92
 msgid "Can you tell me more about that \"run()\" function?"
 msgstr "Zdradzicie coś więcej o funkcji „run()”?"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:78
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:94
 msgid ""
 "In GDScript, unlike in some other languages, we must write our code inside "
 "of custom functions.\n"
@@ -169,50 +175,24 @@ msgstr ""
 "Następnie musisz przejść do następnej linii i w niej napisać treść funkcji. "
 "Wszystkie napisane tam przez ciebie linie staną się instrukcjami funkcji.\n"
 "\n"
-"Zwróć uwagę, że każda instrukcja zaczyna się od wiodącego znaku "
-"[code]TAB[/code]. Komputer używa przesunięć, aby wiedzieć, które linie są "
-"częścią danej funkcji.\n"
+"Zwróć uwagę, że każda instrukcja zaczyna się od wiodącego znaku [code]TAB[/"
+"code]. Komputer używa przesunięć, aby wiedzieć, które linie są częścią danej "
+"funkcji.\n"
 "\n"
 "W trakcie kursu zobaczysz wiele funkcji o nazwie [code]run()[/code].\n"
 "\n"
 "Funkcje te są stworzone przez nas i mają na celu ukazanie ci interaktywnych "
 "przykładów."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:102
-msgid ""
-"In Godot, calling [code]show()[/code] makes something visible, like a "
-"character or item. The complementary [code]hide()[/code] function hides the "
-"entity.\n"
-"\n"
-"Once an entity is visible, calling [code]show()[/code] again doesn't have "
-"any effect.\n"
-"\n"
-"Similarly, once you hide something, calling [code]hide()[/code] again "
-"doesn't change anything.\n"
-"\n"
-"[i]Click the Run button on any example below to execute the code listing.[/i]"
-msgstr ""
-"W Godocie wywołanie [code]show()[/code] sprawia, że coś jest widoczne (może "
-"być to na przykład nasza postać bądź przedmiot). Uzupełniająca ją funkcja "
-"[code]hide()[/code] sprawi, że ta sama rzecz zostanie ukryta.\n"
-"\n"
-"Gdy już raz uczynimy dany element widocznym, ponowne wywołanie [code]show()[/"
-"code] nie da żadnego efektu.\n"
-"\n"
-"Tak samo jest w przypadku, gdy coś zostanie ukryte. Ponowne wywołanie "
-"[code]hide()[/code] niczego nie zmieni.\n"
-"\n"
-"[i]Kliknij przycisk Uruchom na dowolnym przykładzie poniżej, aby uruchomić "
-"znajdujący się tam kod.[/i]"
-
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:126
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:116
 msgid "Function arguments"
 msgstr "Argumenty funkcji"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:128
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:118
+#, fuzzy
 msgid ""
-"We use parentheses to call functions. This is because you can give the "
-"function [i]arguments[/i] inside the parentheses when calling it.\n"
+"We use parentheses to call functions because you can give the function "
+"[i]arguments[/i] inside the parentheses when calling it.\n"
 "\n"
 "Here's a [i]sprite[/i] standing straight. If we call the [code]rotate(0.3)[/"
 "code] function, the character [i]sprite[/i] turns by 0.3 units."
@@ -223,7 +203,7 @@ msgstr ""
 "Oto [i]sprite[/i] stojący prosto. Jeśli wywołamy funkcję [code]rotate(0.3)[/"
 "code], [i]sprite[/i] naszej postaci zostanie obrócony o 0,3 jednostki."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:150
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:140
 msgid ""
 "The [code]0.3[/code] part between the parentheses is the function's "
 "[i]argument[/i].\n"
@@ -268,11 +248,11 @@ msgstr ""
 "używać właśnie kropki. Nie możesz używać przecinków, ponieważ mają one inne "
 "przeznaczenie w kodzie."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:168
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:158
 msgid "What are radians?"
 msgstr "Czym są radiany?"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:170
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:160
 msgid ""
 "The value of [code]0.3[/code] is an angle in [i]radians[/i]. In daily life, "
 "we're used to measuring angles in degrees. The radian is another scale "
@@ -316,22 +296,22 @@ msgstr ""
 "Radiany to sposób mierzenia kątów na podstawie promienia okręgu.\n"
 "\n"
 "Aby uzyskać kąt w radianach, bierzesz promień okręgu i owijasz go wokół "
-"okręgu. Ten kąt to [code]1[/code] radian, ponieważ owijasz promień "
-"[code]1[/code] raz wokół okręgu.\n"
+"okręgu. Ten kąt to [code]1[/code] radian, ponieważ owijasz promień [code]1[/"
+"code] raz wokół okręgu.\n"
 "\n"
 "Ponieważ obwód okręgu to [code]2 * PI * radius[/code], pełny obrót (360°) "
 "odpowiada [code]2 * PI[/code] radianom: musisz owinąć promień okręgu [code]2 "
 "* PI[/code] razy wokół niego, aby utworzyć pełny okrąg."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:192
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:182
 msgid "What does the code below do?"
 msgstr "Co robi poniższy kod?"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:193
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:183
 msgid "[code]show()[/code]"
 msgstr "[code]show()[/code]"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:195
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:185
 msgid ""
 "Both answers were right! Technically, the code calls the [code]show()[/code] "
 "function. And doing so makes the game entity visible."
@@ -340,18 +320,18 @@ msgstr ""
 "funkcję [code]show()[/code]. A dzięki jej wywołaniu dana rzecz staje się "
 "widoczna."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:196
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:197
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:186
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:187
 msgid "It calls the function named \"show.\""
 msgstr "Wywołuje funkcję o nazwie „show”"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:196
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:197
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:186
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:187
 msgid "It makes the entity (like a game character or a sprite) visible."
 msgstr ""
 "Sprawia, że dana rzecz (jak postać w grze lub sprite) staje się widoczna."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:206
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:196
 msgid ""
 "Another example: With the [code]move_local_x()[/code] function, you can move "
 "the character to its left and right. The function takes one argument: a "
@@ -373,11 +353,11 @@ msgstr ""
 "Jest to jeden ze sposobów poruszania postacią w grze, chociaż później "
 "odkryjemy bardziej skuteczne sposoby na zrobienie tego."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:228
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:218
 msgid "Why move_local_y(20) moves the character down"
 msgstr "Dlaczego move_local_y(20) przesuwa postać w dół"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:230
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:220
 msgid ""
 "With positive values ([code]20[/code]), the code above moves the robot to "
 "the right and down.\n"
@@ -401,15 +381,15 @@ msgstr ""
 "skierowana w dół. Przez to za każdym razem, gdy przesuniesz coś na osi Y o "
 "wartość dodatnią, przesunie się ona [i]w dół[/i]."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:242
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:232
 msgid "How do you call a function?"
 msgstr "W jaki sposób wywołujesz funkcję?"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:243
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:233
 msgid "What is the syntax you use to call a function in general?"
 msgstr "Jakiej ogólnej składni używasz do wywoływania funkcji?"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:245
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:235
 msgid ""
 "To call a function, you need to write its exact name followed by an opening "
 "and a closing parenthesis.\n"
@@ -423,17 +403,17 @@ msgstr ""
 "Jeśli funkcja wymaga co najmniej jednego [i]argumentu[/i], dodajesz go/je w "
 "nawiasach. To, czy musisz to zrobić, czy nie, zależy od funkcji."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:248
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:249
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:238
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:239
 msgid "You write its name followed by an opening and a closing parenthesis."
 msgstr ""
 "Podajesz jej nazwę, po której wstawiasz otwierający i zamykający nawias."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:248
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:238
 msgid "You write its name followed by a colon."
 msgstr "Podajesz jej nazwę, po której wstawiasz dwukropek."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:248
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:238
 msgid ""
 "You write a value, like a number, followed by an opening and a closing "
 "parenthesis."
@@ -441,11 +421,11 @@ msgstr ""
 "Podajesz wartość, taką jak liczba, po której wstawiasz otwierający i "
 "zamykający nawias."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:256
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:246
 msgid "Make The Character Visible"
 msgstr "Spraw, aby postać stała się widoczna"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:257
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:247
 msgid ""
 "Our robot character's invisible! Call the [code]show()[/code] function to "
 "make it appear.\n"
@@ -461,15 +441,15 @@ msgstr ""
 "[code]2[/code] i zachowaj znak [code]TAB[/code] na początku linii. Komputer "
 "potrzebuje go, aby zrozumieć twój kod."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:267
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:259
 msgid "The robot's invisible! Call a function to bring it back."
 msgstr "Robot jest niewidzialny! Wywołaj funkcję, która go przywróci."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:272
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:264
 msgid "Make the Robot Upright"
 msgstr "Ustaw robota w pozycji pionowej"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:273
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:265
 msgid ""
 "The robot was turned by [code]-0.5[/code] radians. You need to make it "
 "upright by calling the [code]rotate()[/code] function.\n"
@@ -485,13 +465,46 @@ msgstr ""
 "[code]2[/code] i zachowaj znak [code]TAB[/code] na początku linii. Komputer "
 "potrzebuje tego, aby zrozumieć twój kod."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:283
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:277
 msgid ""
 "The robot is turned sideways. Help it straighten up with a function call."
 msgstr ""
 "Robot jest obrócony na bok. Pomóż mu się wyprostować wywołując odpowiednią "
 "funkcję."
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:287
+#: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:281
 msgid "We Stand on the Shoulders of Giants"
 msgstr "Stojąc na barkach gigantów"
+
+#~ msgid ""
+#~ "When you tell the computer to execute a function, we say you [i]call[/i] "
+#~ "the function.\n"
+#~ "\n"
+#~ "To [i]call[/i] a function, you write its exact name followed by an open "
+#~ "and closed parenthesis. To call the function named \"show\", you would "
+#~ "write [code]show()[/code].\n"
+#~ "\n"
+#~ "The code listing below contains two lines of code calling the [code]show()"
+#~ "[/code] and [code]hide()[/code] functions.\n"
+#~ "\n"
+#~ "We wrap them in a new function named [code]run()[/code] to execute the "
+#~ "code. Creating a new function is necessary to execute instructions in "
+#~ "GDScript.\n"
+#~ "\n"
+#~ "You'll learn more about creating new functions in the next lessons."
+#~ msgstr ""
+#~ "Kiedy mówimy komputerowi, aby wykonał daną funkcję, nazywamy to "
+#~ "[i]wywoływaniem[/i] funkcji.\n"
+#~ "\n"
+#~ "Aby [i]wywołać[/i] funkcję, wpisujesz jej dokładną nazwę, po której "
+#~ "następuje otwarty i zamknięty nawias. Aby wywołać funkcję o nazwie \"show"
+#~ "\", napisałbyś [code]show()[/code].\n"
+#~ "\n"
+#~ "Poniższy kod zawiera dwa wiersze kodu wywołujące funkcje [code]show()[/"
+#~ "code] i [code]hide()[/code].\n"
+#~ "\n"
+#~ "\"Zawijamy je\" w funkcję o nazwie [code]run()[/code], aby nasz program "
+#~ "wykonał (uruchomił) kod. Utworzenie nowej funkcji jest konieczne do "
+#~ "wykonania instrukcji w GDScript.\n"
+#~ "\n"
+#~ "Więcej o tworzeniu nowych funkcji dowiesz się z następnych lekcji."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-24 18:05+0100\n"
+"POT-Creation-Date: 2022-03-26 17:50+0100\n"
 "PO-Revision-Date: 2022-03-01 23:08+0100\n"
 "Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
 "Language-Team: \n"
@@ -29,12 +29,13 @@ msgstr ""
 "code]-Schleifen verwendet."
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:34
+#, fuzzy
 msgid ""
 "The [code]range()[/code] function produced an array that the [code]for[/"
 "code] keyword could loop over.\n"
 "\n"
-"We can give for loops [i]any[/i] array, and they will loop over them just "
-"the same.\n"
+"We can give [code]for[/code] loops [i]any[/i] array, and they will loop over "
+"them just the same.\n"
 "\n"
 "Instead of using the [code]range()[/code] function, we could manually write "
 "the numbers and get the same result."
@@ -87,18 +88,19 @@ msgstr ""
 "[/code]"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:86
+#, fuzzy
 msgid ""
 "Compared to previous examples, we store the array in the [code]numbers[/"
-"code] variable. Using the [code]numbers[/code] variable in our for loop "
-"allows the computer to access the array of numbers like before.\n"
+"code] variable. Using the [code]numbers[/code] variable in our [code]for[/"
+"code] loop allows the computer to access the array of numbers like before.\n"
 "\n"
 "We have three numbers in the array: [code]0[/code], [code]1[/code], and "
 "[code]2[/code].\n"
 "\n"
 "The loop extracts each of them sequentially and assigns it to the "
-"[code]number[/code] temporary variable. As, inside the loop, we print the "
-"number, the output will print [code]0[/code], then [code]1[/code], then "
-"[code]2[/code], each on a separate line."
+"[code]number[/code] temporary variable. As the loop processes each number, "
+"the output will print [code]0[/code], then [code]1[/code], then [code]2[/"
+"code], each on a separate line."
 msgstr ""
 "Im Vergleich zu früheren Beispielen speichern wir das Array in der Variablen "
 "[code]numbers[/code]. Die Verwendung der Variablen [code]numbers[/code] in "
@@ -171,8 +173,9 @@ msgstr ""
 "zusammen."
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:185
+#, fuzzy
 msgid ""
-"The code above uses several features you didn't learn yet:\n"
+"The code above uses several features you haven't learned yet:\n"
 "\n"
 "- In a condition, the [code]in[/code] keyword allows you to check if a value "
 "exists [i]in[/i] an array.\n"
@@ -207,12 +210,13 @@ msgstr ""
 "aufgreifen."
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:204
+#, fuzzy
 msgid ""
 "The beauty of loops is that they work regardless of the size of your "
 "arrays. \n"
 "\n"
-"The code just works whether you have one or 10,000 units to select. And that "
-"with only a couple lines of code.\n"
+"The code just works whether you have one or ten thousand units to select. It "
+"is all accomplished with only a couple lines of code.\n"
 "\n"
 "That's the power of computer programming.\n"
 "\n"
@@ -257,7 +261,7 @@ msgstr ""
 "Die Funktion [code]move_to()[/code] existiert nur für den Roboter, weshalb "
 "Du auf diese Weise darauf zugreifen musst."
 
-#: course/lesson-20-looping-over-arrays/lesson.tres:233
+#: course/lesson-20-looping-over-arrays/lesson.tres:235
 msgid ""
 "Our AI pathfinding algorithm is giving us a path to move the robot. Now, you "
 "need to make the turtle move along the path."
@@ -266,15 +270,16 @@ msgstr ""
 "bewegen. Jetzt musst Du die Schildkröte dazu bringen, sich auf dem Weg zu "
 "bewegen."
 
-#: course/lesson-20-looping-over-arrays/lesson.tres:238
+#: course/lesson-20-looping-over-arrays/lesson.tres:240
 msgid "Back to the drawing board"
 msgstr "Zurück zur Planung"
 
-#: course/lesson-20-looping-over-arrays/lesson.tres:239
+#: course/lesson-20-looping-over-arrays/lesson.tres:241
+#, fuzzy
 msgid ""
 "We want to draw many rectangles, something surprisingly common in games.\n"
 "\n"
-"When writing the code by hand, it gets tedious. Instead, you'll often store "
+"However, writing this code by hand can get tedious. Instead, you could store "
 "the size of your shapes in arrays and use a loop to draw them all in "
 "batches.\n"
 "\n"
@@ -303,7 +308,7 @@ msgstr ""
 "Die Rechtecke sollten sich nicht überlappen oder kreuzen. Um dies zu "
 "vermeiden, musst Du die Funktion [code]jump()[/code] aufrufen."
 
-#: course/lesson-20-looping-over-arrays/lesson.tres:257
+#: course/lesson-20-looping-over-arrays/lesson.tres:261
 msgid ""
 "The drawing turtle makes its comeback. Fear not! Armed with loops, you'll "
 "make it draw faster than ever before."
@@ -311,6 +316,6 @@ msgstr ""
 "Die zeichnende Schildkröte feiert ihr Comeback. Fürchte dich nicht! "
 "Bewaffnet mit Schleifen lässt Du sie schneller zeichnen als je zuvor."
 
-#: course/lesson-20-looping-over-arrays/lesson.tres:261
+#: course/lesson-20-looping-over-arrays/lesson.tres:265
 msgid "Looping over arrays"
 msgstr "Durchlaufen von Arrays"

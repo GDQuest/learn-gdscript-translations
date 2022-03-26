@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-18 15:02+0300\n"
+"POT-Creation-Date: 2022-03-26 17:50+0100\n"
 "PO-Revision-Date: 2022-03-01 22:40+0100\n"
 "Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
 "Language-Team: \n"
@@ -21,13 +21,14 @@ msgstr ""
 "X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
+#, fuzzy
 msgid ""
-"In the last lesson, we looked at while loops. We found they were useful if "
-"we don't know how many times we should repeat code. \n"
+"In the last lesson, we looked at [code]while[/code] loops. We found they "
+"were useful if we don't know how many times we should repeat code. \n"
 "\n"
 "However, they could result in infinite loops if we're not careful.\n"
 "\n"
-"The loop below never ends because we never increment [code]number[/code]"
+"The loop below never ends because we never increment [code]number[/code]."
 msgstr ""
 "In der letzten Lektion haben wir uns while-Schleifen angesehen. Wir haben "
 "herausgefunden, dass sie nützlich sind, wenn wir nicht wissen, wie oft wir "
@@ -166,7 +167,8 @@ msgstr ""
 "einschließlich anderer Funktionsaufrufe wie [code]draw_rectangle()[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:135
-msgid "Using a for loop instead of while loops"
+#, fuzzy
+msgid "Using a for loop instead of a while loop"
 msgstr "Verwenden einer for-Schleife anstelle von while-Schleifen"
 
 #: course/lesson-18-for-loops/lesson.tres:137
@@ -199,9 +201,10 @@ msgstr ""
 "Die Funktion funktioniert immer noch gleich. Du kannst es unten ausführen."
 
 #: course/lesson-18-for-loops/lesson.tres:199
+#, fuzzy
 msgid ""
-"In the practices, we'll use for loops in different ways to get you used to "
-"using them."
+"In the practices, we'll use [code]for[/code] loops in different ways to get "
+"you used to using them."
 msgstr ""
 "In den Übungen werden wir for-Schleifen auf verschiedene Arten verwenden, um "
 "Dich daran zu gewöhnen, sie zu verwenden."
@@ -211,11 +214,12 @@ msgid "Using a for loop to move to the end of the board"
 msgstr "Verwenden einer for-Schleife, um zum Ende des Bretts zu gelangen"
 
 #: course/lesson-18-for-loops/lesson.tres:208
+#, fuzzy
 msgid ""
 "Once again, the robot has decided to stand at the top of the board.\n"
 "\n"
-"This time, use a for loop in the [code]move_to_bottom()[/code] function to "
-"have it move to the bottom of the board.\n"
+"This time, use a [code]for[/code] loop in the [code]move_to_bottom()[/code] "
+"function to have it move to the bottom of the board.\n"
 "\n"
 "The board size is determined by the [code]Vector2[/code] variable "
 "[code]board_size[/code].\n"
@@ -233,7 +237,7 @@ msgstr ""
 "\n"
 "Die Startzelle des Roboters ist [code]Vector2(2, 0)[/code]."
 
-#: course/lesson-18-for-loops/lesson.tres:222
+#: course/lesson-18-for-loops/lesson.tres:224
 msgid ""
 "Use a for loop to have our robot move from the top of the board to the "
 "bottom."
@@ -241,19 +245,20 @@ msgstr ""
 "Verwende eine for-Schleife, damit sich unser Roboter von der Oberseite des "
 "Bretts nach unten bewegt."
 
-#: course/lesson-18-for-loops/lesson.tres:227
+#: course/lesson-18-for-loops/lesson.tres:229
 msgid "Improving code with a for loop"
 msgstr "Verbessern von Code mit einer for-Schleife"
 
-#: course/lesson-18-for-loops/lesson.tres:228
+#: course/lesson-18-for-loops/lesson.tres:230
+#, fuzzy
 msgid ""
-"Use a for loop to remove the duplicate code in the [code]run()[/code] "
-"function.\n"
+"Use a [code]for[/code] loop to remove the duplicate code in the [code]run()[/"
+"code] function.\n"
 "\n"
 "In this practice, we revisit the turtle and drawing rectangles.\n"
 "\n"
-"With our new knowledge of for loops, we can condense this code to take up "
-"less space and make it easier to modify.\n"
+"With our new knowledge of [code]for[/code] loops, we can condense this code "
+"to take up less space and make it easier to modify.\n"
 "\n"
 "The turtle should draw three squares in a horizontal line. The squares "
 "should be 100 pixels apart."
@@ -271,7 +276,7 @@ msgstr ""
 "Die Schildkröte soll drei Quadrate in einer horizontalen Linie zeichnen. Die "
 "Quadrate sollen 100 Pixel voneinander entfernt sein."
 
-#: course/lesson-18-for-loops/lesson.tres:249
+#: course/lesson-18-for-loops/lesson.tres:253
 msgid ""
 "In the past we had to copy and paste code to draw multiple rectangles. Let's "
 "revisit previous code and improve it with a for loop."
@@ -280,6 +285,6 @@ msgstr ""
 "Rechtecke zu zeichnen. Lass uns den vorherigen Code erneut aufgreifen und "
 "mit einer for-Schleife verbessern."
 
-#: course/lesson-18-for-loops/lesson.tres:253
+#: course/lesson-18-for-loops/lesson.tres:257
 msgid "Introduction to For Loops"
 msgstr "Einführung in for-Schleifen"

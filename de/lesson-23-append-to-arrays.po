@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-03 08:35+0100\n"
+"POT-Creation-Date: 2022-03-26 17:50+0100\n"
 "PO-Revision-Date: 2022-03-04 15:22+0100\n"
 "Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
 "Language-Team: \n"
@@ -81,7 +81,7 @@ msgid ""
 "code] functions of the array, respectively.\n"
 "\n"
 "Try to read the code below before moving on. Don't worry if not everything "
-"makes sense as we'll break it down."
+"makes sense, as we'll break it all down."
 msgstr ""
 "Wie behalten Sie den Überblick über ausstehende und abgeschlossene "
 "Bestellungen? Mit einem Array!\n"
@@ -217,7 +217,10 @@ msgid ""
 "[code]pop_back()[/code] array function.\n"
 "\n"
 "This function removes (pops) the last value from the array and returns it to "
-"you."
+"you.\n"
+"\n"
+"Here we pop the last value of the array and print what's left of the array "
+"to demonstrate how the array gets smaller."
 msgstr ""
 "Um eine Kiste von der Rückseite des Arrays zu nehmen, verwenden wir diesmal "
 "die Array-Funktion [code]pop_back()[/code].\n"
@@ -225,7 +228,7 @@ msgstr ""
 "Diese Funktion entfernt (poppt) den letzten Wert aus dem Array und gibt ihn "
 "an Sie zurück."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:245
+#: course/lesson-23-append-to-arrays/lesson.tres:247
 #, fuzzy
 msgid ""
 "Like [code]pop_front()[/code], the function returns the value removed from "
@@ -246,19 +249,19 @@ msgstr ""
 "In den folgenden Verfahren verwenden Sie die Arrayfunktionen [code]append()[/"
 "code], [code]pop_front()[/code] und [code]pop_back()[/code]."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:257
+#: course/lesson-23-append-to-arrays/lesson.tres:259
 #, fuzzy
 msgid "Completing orders"
 msgstr "Abschließen von Bestellungen"
 
-#: course/lesson-23-append-to-arrays/lesson.tres:258
+#: course/lesson-23-append-to-arrays/lesson.tres:260
 #, fuzzy
 msgid ""
 "The [code]waiting_orders[/code] array will be filled over time.\n"
 "\n"
-"Your job is to move orders from waiting list  to [code]completed_orders[/"
-"code] list using the array's [code]append()[/code] and [code]pop_front()[/"
-"code] functions.\n"
+"Your job is to move orders from the waiting list to the "
+"[code]completed_orders[/code] list using the array's [code]append()[/code] "
+"and [code]pop_front()[/code] functions.\n"
 "\n"
 "Remember that the array's [code]pop_front()[/code] function returns the "
 "popped value, which allows you to store it in a variable and then pass it to "
@@ -274,7 +277,7 @@ msgstr ""
 "popupfähigen Wert zurückgibt, mit dem Sie ihn in einer Variablen speichern "
 "und dann an eine andere Funktion übergeben können."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:273
+#: course/lesson-23-append-to-arrays/lesson.tres:275
 #, fuzzy
 msgid ""
 "Orders are piling up in the kitchen, and we need to clear them fast using "
@@ -283,12 +286,12 @@ msgstr ""
 "Bestellungen häufen sich in der Küche, und wir müssen sie schnell mit der "
 "[code]pop_front()[/code]-Funktion des Arrays löschen."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:278
+#: course/lesson-23-append-to-arrays/lesson.tres:280
 #, fuzzy
 msgid "Clearing up the crates"
 msgstr "Kisten aufräumen"
 
-#: course/lesson-23-append-to-arrays/lesson.tres:279
+#: course/lesson-23-append-to-arrays/lesson.tres:281
 #, fuzzy
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping "
@@ -314,7 +317,7 @@ msgstr ""
 "[b] Vorsichtig! [/b] Wenn Sie eine While-Schleife unvorsichtig ausführen, "
 "können Sie die Software sperren."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:295
+#: course/lesson-23-append-to-arrays/lesson.tres:297
 #, fuzzy
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping "
@@ -323,7 +326,7 @@ msgstr ""
 "Kisten stapeln sich auf der Plattform. Verschieben Sie sie aus dem Weg, "
 "indem Sie sie aus ihrem Array entfernen."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:299
+#: course/lesson-23-append-to-arrays/lesson.tres:301
 #, fuzzy
 msgid "Appending and popping values from arrays"
 msgstr "Anhängen und Freigeben von Werten aus Arrays"

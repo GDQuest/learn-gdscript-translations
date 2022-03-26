@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-02-21 20:14+0300\n"
+"POT-Creation-Date: 2022-03-26 17:50+0100\n"
 "PO-Revision-Date: 2022-03-01 22:55+0100\n"
 "Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
 "Language-Team: \n"
@@ -59,13 +59,14 @@ msgid "We write arrays this way in GDScript."
 msgstr "Wir schreiben Arrays auf diese Weise in GDScript."
 
 #: course/lesson-19-creating-arrays/lesson.tres:85
+#, fuzzy
 msgid ""
-"You start with an opening angular bracket. Then, you write comma-separated "
-"values that compose the array. Finally, you need a closing angular bracket "
-"to complete the array.\n"
+"You start with an opening square bracket. Then, you write comma-separated "
+"values that compose the array. Finally, you need a closing square bracket to "
+"complete the array.\n"
 "\n"
-"Here are a couple of valid arrays. Notice how you can mix values, and they "
-"don't need to follow one another."
+"Here are a couple of valid arrays. Notice how you can mix values, and how "
+"they don't need to follow one another."
 msgstr ""
 "Du beginnst mit einer sich öffnenden eckigen Klammer. Anschließend schreibst "
 "Du kommagetrennte Werte, aus denen sich das Array zusammensetzt. Schließlich "
@@ -175,9 +176,10 @@ msgstr ""
 "erreichen? Mit einem Array!"
 
 #: course/lesson-19-creating-arrays/lesson.tres:218
+#, fuzzy
 msgid ""
-"Every value in the array is a [code]Vector2[/code] and represents the cell "
-"the turtle needs to walk.\n"
+"Every value in the array is a [code]Vector2[/code] and represents a cell the "
+"turtle needs to walk through.\n"
 "\n"
 "Together, all the values in the array represent a path we can draw."
 msgstr ""
@@ -228,7 +230,7 @@ msgstr ""
 "Wir empfehlen das Kopieren und Einfügen, um das Array schnell mit "
 "kommagetrennten [code]Vector2[/code]-Werten zu füllen."
 
-#: course/lesson-19-creating-arrays/lesson.tres:264
+#: course/lesson-19-creating-arrays/lesson.tres:266
 msgid ""
 "Help the turtle find its way to the robot! Give it a path to follow to reach "
 "the robot."
@@ -236,11 +238,11 @@ msgstr ""
 "Hilf der Schildkröte, ihren Weg zum Roboter zu finden! Gib ihr einen Weg "
 "vor, der sie folgen kann, um den Roboter zu erreichen."
 
-#: course/lesson-19-creating-arrays/lesson.tres:269
+#: course/lesson-19-creating-arrays/lesson.tres:271
 msgid "Selecting units"
 msgstr "Einheiten auswählen"
 
-#: course/lesson-19-creating-arrays/lesson.tres:270
+#: course/lesson-19-creating-arrays/lesson.tres:272
 msgid ""
 "In this tactical game, the player and computer can select multiple units at "
 "once. You need to call the [code]select_units()[/code] function and pass it "
@@ -270,12 +272,12 @@ msgstr ""
 "Wähle alle Einheiten auf dem Spielbrett aus, indem Du das richtige Array an "
 "die Funktion [code]select_units()[/code] übergibst."
 
-#: course/lesson-19-creating-arrays/lesson.tres:284
+#: course/lesson-19-creating-arrays/lesson.tres:288
 msgid "Write an array to select all units on the board in this strategy game."
 msgstr ""
 "Schreibe ein Array, um alle Einheiten auf dem Spielfeld in diesem "
 "Strategiespiel auszuwählen."
 
-#: course/lesson-19-creating-arrays/lesson.tres:288
+#: course/lesson-19-creating-arrays/lesson.tres:292
 msgid "Creating arrays"
 msgstr "Erstellen von Arrays"
