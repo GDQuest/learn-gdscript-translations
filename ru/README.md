@@ -1,8 +1,8 @@
 Hi there! 
 
-If you'd like to help translate, please use any file in "▶️ To Do" status from the table below (Translation progress section).
+If you'd like to help translate, please use any file in "▶️ To Do" status from the table below (⏳ Translation progress section).
 
-Also, be sure to check out the Translation guide section before you get started.
+Also, be sure to check out the 📜 Translation guide section before you get started.
 
 Any help is welcome!
 
