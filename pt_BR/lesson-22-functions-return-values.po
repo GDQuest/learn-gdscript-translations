@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-03-17 12:54+0000\n"
-"Last-Translator: Alexandre Vinicius Gonçalves <alexandre.craneo@hotmail."
-"com>\n"
+"PO-Revision-Date: 2022-03-28 13:16+0000\n"
+"Last-Translator: Alexandre Vinicius Gonçalves <alexandre.craneo@hotmail.com>"
+"\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-22-functions-return-values/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -93,7 +93,6 @@ msgid "A cooler example: lerp()"
 msgstr "Um exemplo mais legal: lerp()"
 
 #: course/lesson-22-functions-return-values/lesson.tres:83
-#, fuzzy
 msgid ""
 "The [code]lerp()[/code] function, short for [i]linear interpolate[/i], "
 "calculates and returns a weighted average between two values.\n"
@@ -110,8 +109,8 @@ msgstr ""
 "São necessários três argumentos: os dois valores para a média e um valor "
 "entre [code]0.0[/code] e [code]1.0[/code] para distorcer o resultado.\n"
 "\n"
-"É popular em jogos animar coisas se movendo em direção a um alvo com uma "
-"única linha de código."
+"Em programação para jogos, isso é usado para animar coisas que se movem em "
+"direção a um alvo com uma única linha de código."
 
 #: course/lesson-22-functions-return-values/lesson.tres:117
 msgid ""
@@ -206,7 +205,6 @@ msgid "Converting coordinates from the grid to the screen"
 msgstr "Convertendo coordenadas do grid para a tela"
 
 #: course/lesson-22-functions-return-values/lesson.tres:210
-#, fuzzy
 msgid ""
 "Define a function that converts a position on a grid to the screen.\n"
 "\n"
@@ -214,11 +212,11 @@ msgid ""
 "should return the corresponding [code]Vector2[/code] screen coordinates at "
 "the center of the cell."
 msgstr ""
-"Defina uma função que converte uma posição de um grid para a tela.\n"
+"Defina uma função que converta uma posição de um grid para a tela.\n"
 "\n"
 "A função recebe as coordenadas de uma célula do tipo [code]Vector2[/code] "
 "como argumento. Ela deve retornar as coordenadas de tela do tipo "
-"[code]Vector2[/code] correspondentes no centro da célula."
+"[code]Vector2[/code] no centro da célula."
 
 #: course/lesson-22-functions-return-values/lesson.tres:222
 msgid ""
