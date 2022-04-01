@@ -1,8 +1,10 @@
 Hi there! 
 
-If you'd like to help translate, please use any file in "▶️ To Do" status from the table below (⏳ Translation progress section).
+If you'd like to help translate, please use any file in `▶️ To Do` status from the table below (`⏳ Translation progress` section).
 
-Also, be sure to check out the 📜 Translation guide section before you get started.
+If you want to test the translation in the app, read the instructions in the `🧪 How to test Russian translation in Godot` section.
+
+Also, be sure to check out the `📜 Translation` guide section before you get started.
 
 Any help is welcome!
 
@@ -51,6 +53,24 @@ Any help is welcome!
 | 30 |lesson-26-looping-over-dictionaries.po      |   5 112  | 1,94 |    ▶️ To Do   |
 | 31 |lesson-27-value-types.po                    |   8 103  | 3,07 |    ▶️ To Do   |
 | 32 |lesson-28-specifying-types.po               |   7 167  | 2,72 |    ▶️ To Do   |
+</details>
+
+---
+
+<details>
+<summary>🧪 How to test Russian translation in Godot</summary>
+
+1. Copy the latest version of `learn-gdscript` app code [from the GitHub repository](https://github.com/GDQuest/learn-gdscript/) in any way you like by cloning repository or simply downloading from GitHub WebPage (`Code-Download ZIP`). If you downloaded ZIP unpack `learn-gdscript-main` folder.
+2. Copy the contents of the `ru` folder [from the translation repository](https://github.com/GDQuest/learn-gdscript-translations/tree/main/ru) to the `learn-gdscript-main/i18n/ru` folder.
+3. Import the `learn-gdscript-main/project.godot` into Godot.
+4. Open the `res://autoload/TranslationManager.gd` script in the Godot file manager and add `ru` language code to its `SUPPORTED_LOCALES` constant. The order of languages in `SUPPORTED_LOCALES` defines the order they'll appear in the settings menu. Example code fragment from `TranslationManager.gd`:
+
+```Python
+const SUPPORTED_LOCALES := [
+	"en", "ru"
+]
+```
+5. Run the app by pressing F5, open the settings menu, and select the Russian language. The app will remember your choice when you reopen it.
 </details>
 
 ---
