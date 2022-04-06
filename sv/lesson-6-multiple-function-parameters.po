@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-06 08:07+0000\n"
+"Last-Translator: Peter Oldhammer <peter.oldhammer@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-6-multiple-function-parameters/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:14
@@ -30,6 +33,16 @@ msgid ""
 "In previous lessons, you used the [code]rotate()[/code] function and gave"
 " it a [i]parameter[/i]."
 msgstr ""
+"I föregående del skapade du en funktion för att rita en kvadrat med en fast "
+"storlek.\n"
+"\n"
+"Denna funktion är lite begränsande. Istället skulle det vara mycket bättre "
+"om vi hade en funktion för att rita en kvadrat av [i]valfri[/i] storlek. "
+"Eller bättre: vilken typ av rektangel som helst (en kvadrat är en specifik "
+"typ av rektangel).\n"
+"\n"
+"I tidigare lektioner använde du funktionen [code]rotate()[/code] och gav den "
+"en [i]parameter[/i]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:38
 msgid ""
@@ -37,12 +50,17 @@ msgid ""
 "[i]parameters[/i]. Parameters are labels you give to values passed to the"
 " function."
 msgstr ""
+"Precis som [code]rotate()[/code] kan vi också ge vår funktion "
+"[i]parametrar[/i]. Parametrar är etiketter du ger till värden som skickas "
+"till funktionen."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:48
 msgid ""
 "The [code]radians[/code] can be a positive or negative number, which "
 "allows you to rotate both clockwise and counter-clockwise."
 msgstr ""
+"[code]radianer[/code] kan vara ett positivt eller negativt tal, vilket gör "
+"att du kan rotera både medurs och moturs."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:58
 msgid ""
@@ -60,10 +78,25 @@ msgid ""
 "\n"
 "For now, we'll stick to numbers as we have yet to see other value types."
 msgstr ""
+"För tillfället, vänligen fokusera på den första raden: [code]func "
+"rotate(radians)[/code].\n"
+"\n"
+"När du anropar [code]rotate(0.5)[/code] binder datorn värdet [code]0.5[/code]"
+" till etiketten [code]radians[/code].\n"
+"\n"
+"Varhelst datorn ser identifieraren [code]radians[/code] inuti funktionen, "
+"ersätter datorn den med värdet [code]0,5[/code].\n"
+"\n"
+"Parameternamnet är alltid en etikett som du använder för att referera till "
+"ett [i]värde[/i]. Värdet i fråga kan vara ett nummer, text eller något annat."
+"\n"
+"\n"
+"För närvarande kommer vi att hålla oss till siffror eftersom vi ännu inte "
+"har sett andra värdetyper."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:74
 msgid "What is a function parameter?"
-msgstr ""
+msgstr "Vad är en funktionsparameter?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:77
 msgid ""
@@ -72,23 +105,27 @@ msgid ""
 "The value in question can change: it depends on what you put in "
 "parentheses when calling a function."
 msgstr ""
+"En parameter är en etikett som representerar ett värde.\n"
+"\n"
+"Värdet i fråga kan ändras: det beror på vad du sätter inom parentes när du "
+"anropar en funktion."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:80
 #: course/lesson-6-multiple-function-parameters/lesson.tres:81
 msgid "A label you give to a value the function receives."
-msgstr ""
+msgstr "En etikett du ger till ett värde som funktionen får."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:80
 msgid "A number you use to make calculations."
-msgstr ""
+msgstr "Ett tal du använder för att göra beräkningar."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:80
 msgid "The name of a function."
-msgstr ""
+msgstr "Namnet på en funktion."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:88
 msgid "How to create functions with parameters"
-msgstr ""
+msgstr "Hur man skapar funktioner med parametrar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:90
 msgid ""
@@ -97,6 +134,10 @@ msgid ""
 "\n"
 "To do so, you add a name inside of the parentheses."
 msgstr ""
+"Du kan ge dina funktionsparametrar när du skriver dess [i]definition[/i] ("
+"raden som börjar med nyckelordet [code]func[/code]).\n"
+"\n"
+"För att göra det lägger du till ett namn inom parentesen."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:112
 msgid ""
@@ -109,6 +150,13 @@ msgid ""
 "The following function definition is exactly equivalent to the previous "
 "one."
 msgstr ""
+"Du kan ge parametrar vilket namn som helst. Hur du namnger funktioner och "
+"parametrar är upp till dig.\n"
+"\n"
+"Kom bara ihåg att namn inte kan innehålla mellanslag. För att skriva "
+"parameternamn med flera ord måste du använda understreck.\n"
+"\n"
+"Följande funktionsdefinition är exakt likvärdig med den föregående."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:136
 msgid ""
