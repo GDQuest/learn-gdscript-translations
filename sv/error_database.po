@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-06 08:07+0000\n"
+"Last-Translator: Peter Oldhammer <peter.oldhammer@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/error-explanations/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: CYCLIC_REFERENCE
@@ -34,6 +37,18 @@ msgid ""
 "cannot do this. Godot 4 should solve this problem, but you need to work "
 "around it in the meantime."
 msgstr ""
+"En cyclic reference är när en klass refererar till sig själv, direkt eller "
+"indirekt.\n"
+"\n"
+"Det har två möjliga anledningar:\n"
+"\n"
+"1. Du använde klassnamnet i själva klassen.\n"
+"2. Din kod hänvisar till en annan klass som hänvisar till den här klassen, "
+"vilket orsakar en oändlig referenscykel.\n"
+"\n"
+"Hur som helst, på grund av hur GDScript fungerar i Godot 3, kan du tyvärr "
+"inte göra detta. Godot 4 borde lösa det här problemet, men du måste arbeta "
+"runt det under tiden."
 
 #. Reference: CYCLIC_REFERENCE
 #: ./lsp/error_database.csv:38
@@ -45,6 +60,10 @@ msgid ""
 "causing cyclic references. It solves the problem in the vast majority of "
 "cases."
 msgstr ""
+"Radera typtipset i felraden så borde problemet försvinna.\n"
+"\n"
+"På GDQuest, när vi möter detta fel, tar vi bort typtipsen på linjer som "
+"orsakar cykliska referenser. Det löser problemet i de allra flesta fall."
 
 #. Reference: INVALID_INDENTATION
 #: ./lsp/error_database.csv:45
@@ -57,6 +76,12 @@ msgid ""
 "The computer uses those leading tab characters on code lines to know "
 "which lines of code are part of a code block, like a function."
 msgstr ""
+"Indraget i din kod (antalet tabbtecken i början av raden) är felaktig.\n"
+"\n"
+"Du saknar en eller flera tabbar eller så har du infogat för många.\n"
+"\n"
+"Datorn använder de ledande tabbtecken på kodrader för att veta vilka "
+"kodrader som är en del av ett kodblock, som en funktion."
 
 #. Reference: INVALID_INDENTATION
 #: ./lsp/error_database.csv:45
@@ -68,6 +93,12 @@ msgid ""
 "In other words, your line should have one more leading tab character than"
 " the function definition."
 msgstr ""
+"Om kodraden med felet ligger precis efter en rad som slutar med ett kolon, "
+"som en funktionsdefinition, behöver du en extra indragsnivå jämfört med "
+"föregående rad.\n"
+"\n"
+"Med andra ord bör din rad ha ett mer ledande tabbtecken än "
+"funktionsdefinitionen."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./lsp/error_database.csv:54
@@ -83,6 +114,14 @@ msgid ""
 "Note that this error can appear [b]after[/b] the line causing it due to "
 "how the computer reads and analyzes your code."
 msgstr ""
+"Du får det här felet när du skrev något som är syntaktiskt ogiltigt, eller "
+"om du saknar något för att komplettera denna rad eller tidigare kodrader.\n"
+"\n"
+"Du måste vara extremt exakt när du skriver kod till datorn. Den här typen av "
+"fel är lätt att få eftersom allt som krävs är en fel karaktär.\n"
+"\n"
+"Observera att det här felet kan dyka upp [b]efter[/b] raden som orsakar det "
+"på grund av hur datorn läser och analyserar din kod."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./lsp/error_database.csv:54
@@ -98,6 +137,16 @@ msgid ""
 " an expression, like a closing bracket. In this case, it most likely "
 "comes from the line with the error."
 msgstr ""
+"Sättet att lösa denna typ av fel är mycket kontextuellt. Felmeddelandet bör "
+"tala om för dig vilket tecken eller element det saknas.\n"
+"\n"
+"Om felet säger \"expected\" så missar du sannolikt något i någon av de "
+"[b]föregående[/b] kodraderna. Det kan vara ett skiljetecken, en parentes "
+"eller något annat.\n"
+"\n"
+"Om det står \"unterminated\" saknar du något tecken i slutet av ett uttryck, "
+"som en avslutande parentes. I det här fallet kommer det troligen från linjen "
+"med felet."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./lsp/error_database.csv:57
@@ -109,6 +158,11 @@ msgid ""
 "parentheses: [code]yield()[/code], [code]preload()[/code], and "
 "[code]assert()[/code]."
 msgstr ""
+"Det här felet talar om för dig att du saknar en parentes (eller ibland ett "
+"kommatecken eller en sökväg).\n"
+"\n"
+"Tre nyckelord i GDScript fungerar som funktionsanrop och kräver parenteser: "
+"[code]yield()[/code], [code]preload()[/code] och [code]assert()[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./lsp/error_database.csv:57
@@ -116,6 +170,8 @@ msgid ""
 "To address the error, you want to add the missing opening parenthesis, "
 "the closing parenthesis, or the comma."
 msgstr ""
+"För att åtgärda felet vill du lägga till den saknade öppningsparentesen, den "
+"avslutande parentesen eller kommatecken."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./lsp/error_database.csv:58
@@ -123,6 +179,8 @@ msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
 msgstr ""
+"För att åtgärda felet vill du lägga till den saknade öppningsparentesen, den "
+"avslutande parentesen eller kommatecken."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./lsp/error_database.csv:58
@@ -130,6 +188,8 @@ msgid ""
 "You need to read the error message and add the missing character or value"
 " it requests."
 msgstr ""
+"Du måste läsa felmeddelandet och lägga till det saknade tecken eller värde "
+"som efterfrågas."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./lsp/error_database.csv:68
@@ -144,6 +204,13 @@ msgid ""
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
+"Detta fel inträffar i flera fall:\n"
+"\n"
+"1. Du skrev en identifierare (variabel eller funktionsnamn) på fel ställe.\n"
+"2. Du skrev ett nyckelord som [code]var[/code], [code]func[/code], "
+"[code]for[/code], eller [code]signal[/code], och du följde det inte med ett "
+"namn.\n"
+"3. Du skrev en funktionsdefinition men glömde parenteserna före kolon."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./lsp/error_database.csv:68
@@ -162,6 +229,19 @@ msgid ""
 "function definition, [code]for[/code] loop, or a line starting with "
 "[code]if[/code], [code]elif[/code], or [code]else[/code]."
 msgstr ""
+"Om felet talar om för dig att det förväntade dig något, glömde du "
+"förmodligen att skriva ett namn efter ett nyckelord som [code]var[/code], "
+"[code]func[/code], [code]for[/code] eller [code] ]signal[/code], vilket gör "
+"din kod ogiltig. Eller så glömde du parenteser i en funktionsdefinition. Du "
+"kan åtgärda felet genom att lägga till det saknade namnet eller parenteserna."
+"\n"
+"\n"
+"Om felet säger att du har något oväntat, saknar du troligen ett nyckelord "
+"som [code]var[/code], [code]func[/code], [code]for[/code], etc.\n"
+"\n"
+"En annan möjlighet är att du behöver skriva ett kolon i slutet av en "
+"funktionsdefinition, [code]for[/code] loop, eller en rad som börjar med "
+"[code]if[/code], [code]elif[/code] , eller [code]annan[/code]."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: ./lsp/error_database.csv:73
@@ -178,6 +258,16 @@ msgid ""
 "parentheses of a function definition but do not follow it with a type "
 "name."
 msgstr ""
+"Det här felet talar om för dig att du saknar en typ någonstans. En typ kan "
+"vara [code]int[/code], [code]float[/code], [code]String[/code], "
+"[code]Array[/code], [code]Vector2[/code] och många identifierare som "
+"representerar en datastruktur.\n"
+"\n"
+"För det mesta uppstår detta fel när du skrev ett kolon efter ett "
+"variabelnamn men inte följde det med ett typnamn.\n"
+"\n"
+"Det förekommer också när du skriver en pil ([code]->[/code]) efter "
+"parenteserna för en funktionsdefinition men inte följer den med ett typnamn."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: ./lsp/error_database.csv:73
@@ -186,6 +276,9 @@ msgid ""
 "arrow (in the case of function return types), inside parentheses (for "
 "export types), or after the [code]as[/code] keyword."
 msgstr ""
+"För att lösa detta måste du skriva namnet på typen efter kolon, pil (vid "
+"funktionsreturtyper), inom parentes (för exporttyper) eller efter "
+"nyckelordet [code]as[/code]."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: ./lsp/error_database.csv:82
@@ -199,6 +292,14 @@ msgid ""
 "The other cause for this error is that you didn't define the variable, "
 "function, or class you're trying to access."
 msgstr ""
+"Variabeln, funktionsnamnet eller klassnamnet du försöker använda finns inte."
+"\n"
+"\n"
+"Du får oftast detta fel när du gör stavfel. Kanske har du bytt två "
+"bokstäver, glömt en bokstav... ibland är det svårt att upptäcka.\n"
+"\n"
+"Den andra orsaken till detta fel är att du inte definierade variabeln, "
+"funktionen eller klassen du försöker komma åt."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: ./lsp/error_database.csv:82
@@ -211,6 +312,14 @@ msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
+"För att lösa detta fel, trippelkontrollera att det inte finns något stavfel "
+"i raden.\n"
+"\n"
+"Om du kan, försök att gå till variabeln eller funktionsdefinitionen, "
+"dubbelklicka på namnet, kopiera det och klistra in det där du ser felet.\n"
+"\n"
+"Om du inte ser något stavfel måste du se till att du har definierat "
+"variabeln, funktionen eller klassen du hänvisar till."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./lsp/error_database.csv:87
@@ -222,6 +331,12 @@ msgid ""
 "the loop.\" And the [code]break[/code] keyword means \"end the loop right"
 " now and jump to the first line of code after the loop block."
 msgstr ""
+"Du kan bara använda nyckelord som [code]break[/code] eller "
+"[code]continue[/code] i en loop. Utanför en slinga är de ogiltiga.\n"
+"\n"
+"Nyckelordet [code]continue[/code] betyder \"hoppa till nästa iteration av "
+"loopen.\" Och nyckelordet [code]break[/code] betyder \"avsluta loopen just "
+"nu och hoppa till den första raden med kod efter loopblocket."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./lsp/error_database.csv:87
@@ -233,6 +348,11 @@ msgid ""
 "likely at fault. You may need to insert one or more leading tab "
 "characters to the keyword."
 msgstr ""
+"Om du skrev något av dessa nyckelord utanför en loop måste du ta bort det.\n"
+"\n"
+"Om du försöker använda den inuti en slinga är det troligtvis fel på din "
+"indragning. Du kan behöva infoga ett eller flera inledande tabbtecken i "
+"sökordet."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./lsp/error_database.csv:92
@@ -244,6 +364,12 @@ msgid ""
 " computer will reject function calls and variables where it needs a "
 "constant expression."
 msgstr ""
+"När datorn talar om ett konstant uttryck förväntar den sig ett fast värde, "
+"en fast beräkning eller namnet på en befintlig konstant.\n"
+"\n"
+"Den vill med andra ord något som aldrig kan förändras. Det är därför datorn "
+"kommer att avvisa funktionsanrop och variabler där den behöver ett konstant "
+"uttryck."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./lsp/error_database.csv:92
@@ -255,6 +381,11 @@ msgid ""
 "You can also use arithmetic operators like multiplications (*), additions"
 " (+), and so on."
 msgstr ""
+"Du måste ersätta funktionsanrop eller variabler med ett konstant värde som "
+"ett heltal, decimaltal, sträng, vektor, en fördefinierad matris, etc.\n"
+"\n"
+"Du kan också använda aritmetiska operatorer som multiplikationer (*), "
+"tillägg (+) och så vidare."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./lsp/error_database.csv:97
@@ -265,6 +396,11 @@ msgid ""
 "We typically write class names in PascalCase: with a capital letter at "
 "the start of every word that composes the class name."
 msgstr ""
+"När du definierar en ny klass måste du följa ett specifikt mönster. Du måste "
+"skriva namnet i klartext, börja med en bokstav.\n"
+"\n"
+"Vi skriver vanligtvis klassnamn i PascalCase: med en stor bokstav i början "
+"av varje ord som utgör klassnamnet."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./lsp/error_database.csv:97
@@ -275,6 +411,11 @@ msgid ""
 "\n"
 "You can optionally use numbers in the name, but not in the first position."
 msgstr ""
+"För att åtgärda det här felet, ersätt det du lägger efter nyckelordet "
+"'extends' eller 'class_name' med ett namn utan mellanslag och som börjar med "
+"en stor bokstav.\n"
+"\n"
+"Du kan använda siffror i namnet, men inte i första positionen."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./lsp/error_database.csv:102
@@ -285,6 +426,11 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file,"
 " but it may also be in a parent class that this GDScript code extends."
 msgstr ""
+"Du försöker definiera en funktion eller variabel som redan finns; Det kan du "
+"inte göra.\n"
+"\n"
+"Kanske finns funktionen eller variabeln redan i den aktuella kodfilen, men "
+"det kan också vara i en överordnad klass som denna GDScript-kod utökas."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./lsp/error_database.csv:102
@@ -296,6 +442,11 @@ msgid ""
 " one that will not collide with an existing one or remove this line of "
 "code."
 msgstr ""
+"I appen utökar din kod en del inbyggd Godot-kod som inte är synlig för dig.\n"
+"\n"
+"När det händer måste du antingen byta namn på din funktion eller variabel "
+"till en som inte kommer att kollidera med en befintlig eller ta bort den här "
+"kodraden."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./lsp/error_database.csv:107
@@ -306,6 +457,10 @@ msgid ""
 "Perhaps the signal already exists in the current code file, but it may "
 "also be in a parent class that this GDScript code extends."
 msgstr ""
+"Du försöker definiera en signal som redan finns; Det kan du inte göra.\n"
+"\n"
+"Kanske finns signalen redan i den aktuella kodfilen, men det kan också vara "
+"i en överordnad klass som denna GDScript-kod utökas."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./lsp/error_database.csv:107
@@ -316,6 +471,10 @@ msgid ""
 "When that happens, you need to either rename your signal to one that will"
 " not collide with an existing one or remove this line of code."
 msgstr ""
+"I appen utökar din kod en del inbyggd Godot-kod som inte är synlig för dig.\n"
+"\n"
+"När det händer måste du antingen byta namn på din signal till en som inte "
+"kommer att kollidera med en befintlig eller ta bort den här kodraden."
 
 #. Reference: SIGNATURE_MISMATCH
 #: ./lsp/error_database.csv:112
@@ -331,6 +490,16 @@ msgid ""
 "also to have two arguments. If you use type hints in your function "
 "definitions, the argument types must match the parent class."
 msgstr ""
+"Funktionen du försöker definiera finns i en överordnad klass, så din "
+"definition åsidosätter den överordnade klassens funktion.\n"
+"\n"
+"När du åsidosätter en överordnad klasss funktion måste den nya funktionen "
+"matcha den överordnade. Den nya funktionen ska ha samma antal och typ av "
+"parametrar som den överordnade klassen.\n"
+"\n"
+"Till exempel, om föräldern har två argument, behöver du att din nya funktion "
+"också har två argument. Om du använder typtips i dina funktionsdefinitioner "
+"måste argumenttyperna matcha den överordnade klassen."
 
 #. Reference: SIGNATURE_MISMATCH
 #: ./lsp/error_database.csv:112
@@ -339,6 +508,9 @@ msgid ""
 "code reference. Then, you need to edit your function definition to have "
 "the same number and type of parameters as the parent class."
 msgstr ""
+"Du måste kontrollera moderklassens funktion och dess definition i "
+"kodreferensen. Sedan måste du redigera din funktionsdefinition så att den "
+"har samma antal och typ av parametrar som den överordnade klassen."
 
 #. Reference: INVALID_ARGUMENTS
 #: ./lsp/error_database.csv:113
@@ -347,6 +519,9 @@ msgid ""
 "the wrong number of arguments or the wrong kind of argument. You will "
 "need to use the error message to see what is going wrong."
 msgstr ""
+"Hela denna klass av fel har att göra med att anropa funktioner med antingen "
+"fel antal argument eller fel sorts argument. Du måste använda felmeddelandet "
+"för att se vad som går fel."
 
 #. Reference: INVALID_ARGUMENTS
 #: ./lsp/error_database.csv:113
@@ -356,6 +531,10 @@ msgid ""
 "arguments you need, you need to check the code reference. It will show "
 "you the function definition and the mandatory arguments."
 msgstr ""
+"Du måste antingen ta bort, lägga till eller ändra värdena du försöker skicka "
+"till funktionen för att lösa det här problemet. För att veta exakt hur många "
+"argument du behöver måste du kontrollera kodreferensen. Den kommer att visa "
+"dig funktionsdefinitionen och de obligatoriska argumenten."
 
 #. Reference: TYPE_MISMATCH
 #: ./lsp/error_database.csv:124
@@ -374,6 +553,18 @@ msgid ""
 "You'll need to read the error message to see what is not matching because"
 " there are many possible cases."
 msgstr ""
+"Alla värden i din kod har en specifik typ. Den typen kan vara ett heltal "
+"(int), ett decimaltal (float), text (String) och så vidare. Det finns massor "
+"av möjliga typer, och du kan till och med definiera din egen!\n"
+"\n"
+"När du gör någon åtgärd jämför datorn de typer du använder.\n"
+"\n"
+"Vissa typer är kompatibla och andra inte. Du kan till exempel inte lägga "
+"till ett heltal direkt i en textsträng. Du måste först konvertera numret "
+"till text.\n"
+"\n"
+"Du måste läsa felmeddelandet för att se vad som inte matchar eftersom det "
+"finns många möjliga fall."
 
 #. Reference: TYPE_MISMATCH
 #: ./lsp/error_database.csv:124
@@ -389,6 +580,16 @@ msgid ""
 "example, while you can add two 2D vectors, you can't add a whole number "
 "or text to a 2D vector."
 msgstr ""
+"Om felet nämner att den tilldelade värdetypen inte matchar variabeln, finns "
+"problemet på höger sida om likhetstecknet (=).\n"
+"\n"
+"Om felet talar om att returtypen inte matchar funktionen så är det värdet "
+"efter returnyckelordet som är problematiskt.\n"
+"\n"
+"Om datorn talar om en ogiltig operand är problemet att operationen inte "
+"finns för den typ du försöker använda. Till exempel, medan du kan lägga till "
+"två 2D-vektorer, kan du inte lägga till ett heltal eller text till en 2D-"
+"vektor."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: ./lsp/error_database.csv:129
@@ -400,6 +601,11 @@ msgid ""
 "When that happens, you need to specify the type yourself or remove type "
 "inference altogether for this variable."
 msgstr ""
+"GDScript stöder typinferens. Datorn känner automatiskt igen vilken typ av "
+"värde du arbetar med. I vissa fall kan den dock inte räkna ut det.\n"
+"\n"
+"När det händer måste du specificera typen själv eller ta bort typinferens "
+"helt för denna variabel."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: ./lsp/error_database.csv:129
@@ -411,6 +617,12 @@ msgid ""
 "We recommend specifying the type whenever possible to reap the typing "
 "system's benefits."
 msgstr ""
+"Det enklaste sättet att lösa det här felet är att ta bort typer för denna "
+"variabel eller denna funktions argument. Annars kan du manuellt ange "
+"värdetypen efter kolon.\n"
+"\n"
+"Vi rekommenderar att du specificerar typen när det är möjligt för att dra "
+"nytta av maskinskrivningssystemets fördelar."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: ./lsp/error_database.csv:135
@@ -425,6 +637,14 @@ msgid ""
 "returning a value in all possible branches (if, elif, and else blocks) or"
 " at the end."
 msgstr ""
+"Det finns ett problem med returvärdet för din funktion. Det finns två "
+"huvudfall här:\n"
+"\n"
+"1. Din funktion är en void funktion, så den bör inte returnera ett värde. "
+"Detta inkluderar funktioner med '-> void'-syntaxen och klasskonstruktörer "
+"('_init()').\n"
+"2. Du angav en returtyp för din funktion, men du returnerar inte ett värde i "
+"alla möjliga grenar (if-, elif- och annat-block) eller i slutet."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: ./lsp/error_database.csv:135
@@ -437,6 +657,12 @@ msgid ""
 "of the function or in every branch (if, elif, and else block) of the "
 "function."
 msgstr ""
+"När din funktion är \"void\", bör du aldrig returnera ett värde. Du kan "
+"använda nyckelordet 'retur' för att avsluta funktionen tidigt, men du ska "
+"aldrig skriva något efter det.\n"
+"\n"
+"När du använder en returtyp måste du alltid returnera något i slutet av "
+"funktionen eller i varje gren (if, elif och annat block) av funktionen."
 
 #. Reference: CANNOT_CONNECT_TO_LSP
 #: ./lsp/error_database.csv:137
@@ -445,6 +671,10 @@ msgid ""
 "or browser add-on may be blocking the connection. If you use an ad "
 "blocker or script blocker, please disable it for this website."
 msgstr ""
+"Servern eller din dator kan för närvarande vara frånkopplad. Dessutom kan en "
+"app eller ett webbläsartillägg blockera anslutningen. Om du använder en "
+"annonsblockerare eller skriptblockerare, vänligen inaktivera den för denna "
+"webbplats."
 
 #. Reference: CANNOT_CONNECT_TO_LSP
 #: ./lsp/error_database.csv:137
@@ -452,6 +682,8 @@ msgid ""
 "Please make sure you're connected to the internet. If you use an ad "
 "blocker or script blocker, please ensure it is turned off on this page."
 msgstr ""
+"Se till att du är ansluten till internet. Om du använder en annonsblockerare "
+"eller skriptblockerare, se till att den är avstängd på den här sidan."
 
 #. Reference: LSP_UNDETECTED_ERROR
 #: ./lsp/error_database.csv:138
@@ -459,6 +691,8 @@ msgid ""
 "Godot was unable to load your script, yet the language checker server "
 "found nothing wrong. It's possible you are not online"
 msgstr ""
+"Godot kunde inte ladda ditt skript, men språkkontrollservern hittade inget "
+"fel. Det är möjligt att du inte är online"
 
 #. Reference: LSP_UNDETECTED_ERROR
 #: ./lsp/error_database.csv:138
@@ -466,6 +700,8 @@ msgid ""
 "If you're offline, this error is expected. Otherwise, please click on the"
 " \"report\" button at the top and please let us know."
 msgstr ""
+"Om du är offline förväntas det här felet. Annars, klicka på knappen "
+"\"rapportera\" högst upp och meddela oss."
 
 #. Reference: LSP_TIMED_OUT
 #: ./lsp/error_database.csv:139
@@ -473,6 +709,8 @@ msgid ""
 "Either your connection is very slow, or the Language Verifier server is "
 "under load"
 msgstr ""
+"Antingen är din anslutning väldigt långsam eller så är Language Verifier-"
+"servern under belastning"
 
 #. Reference: LSP_TIMED_OUT
 #: ./lsp/error_database.csv:139
@@ -480,11 +718,13 @@ msgid ""
 "Please try again, and if it happens again, warn us with the \"report\" "
 "button at the top. Thank you!"
 msgstr ""
+"Vänligen försök igen, och om det händer igen, varna oss med knappen "
+"\"rapportera\" högst upp. Tack!"
 
 #. Reference: RECURSIVE_FUNCTION
 #: ./lsp/error_database.csv:140
 msgid "You called a function inside itself. This will loop forever."
-msgstr ""
+msgstr "Du kallade en funktion i sig själv. Detta kommer att loopa för alltid."
 
 #. Reference: RECURSIVE_FUNCTION
 #: ./lsp/error_database.csv:140
@@ -492,3 +732,5 @@ msgid ""
 "There are valid reasons for using recursive functions, but none of them "
 "are part of this course, so this cannot be a valid solution."
 msgstr ""
+"Det finns giltiga skäl för att använda rekursiva funktioner, men ingen av "
+"dem är en del av denna kurs, så detta kan inte vara en giltig lösning."
