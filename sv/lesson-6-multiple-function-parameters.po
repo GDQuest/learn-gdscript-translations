@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-04-06 08:07+0000\n"
+"PO-Revision-Date: 2022-04-08 06:06+0000\n"
 "Last-Translator: Peter Oldhammer <peter.oldhammer@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-6-multiple-function-parameters/sv/>\n"
@@ -166,10 +166,15 @@ msgid ""
 "change the value passed to the function and draw squares of different "
 "sizes."
 msgstr ""
+"Parametrar gör din kod lättare att återanvända.\n"
+"\n"
+"Här är ett exempel med en funktion för att rita valfri kvadrat. Använd "
+"skjutreglaget för att ändra värdet som skickas till funktionen och rita "
+"rutor av olika storlekar."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:156
 msgid "Which is the correct syntax for a function definition?"
-msgstr ""
+msgstr "Vilken är den korrekta syntaxen för en funktionsdefinition?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:159
 msgid ""
@@ -181,27 +186,34 @@ msgid ""
 " see moving forward that keywords other than [code]func[/code] require a "
 "colon at the end of the line."
 msgstr ""
+"För att definiera en funktion måste du börja med nyckelordet "
+"[code]func[/code] följt av ett mellanslag, [code]function_name[/code] och "
+"valfria parametrar inom parentes.\n"
+"\n"
+"Du måste avsluta raden med ett kolon, som definierar ett nytt kodblock. Vi "
+"kommer att se framåt att andra sökord än [code]func[/code] kräver ett kolon "
+"i slutet av raden."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 #: course/lesson-6-multiple-function-parameters/lesson.tres:163
 msgid "func function_name(parameter_name):"
-msgstr ""
+msgstr "func funktion_namn(parameter_namn):"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 msgid "func (function_name): parameter_name"
-msgstr ""
+msgstr "func (funktion_namn): parameter_namn"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 msgid "func function_name(parameter_name)"
-msgstr ""
+msgstr "func funktion_namn(paramter_namn)"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 msgid "function_name(parameter_name):"
-msgstr ""
+msgstr "funktion_namn(parameter_namn):"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:170
 msgid "Functions can have multiple parameters"
-msgstr ""
+msgstr "Funktioner kan ha flera parametrar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:172
 msgid ""
@@ -211,10 +223,15 @@ msgid ""
 "To separate the function parameters, you need to write a comma between "
 "them."
 msgstr ""
+"Du kan använda flera parametrar i en funktion. Faktum är att du kan använda "
+"så många du [i]behöver[/i].\n"
+"\n"
+"För att separera funktionsparametrarna måste du skriva ett kommatecken "
+"mellan dem."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:192
 msgid "Must I write  spaces between function parameters?"
-msgstr ""
+msgstr "Måste jag skriva mellanslag mellan funktionsparametrar?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:194
 msgid ""
@@ -227,16 +244,26 @@ msgid ""
 "\n"
 "We often use spaces after the comma for readability."
 msgstr ""
+"I en funktionsdefinition måste du ha ett mellanslag mellan nyckelordet "
+"[code]func[/code] och funktionsnamnet.\n"
+"\n"
+"Men eftersom vi använder kommatecken för att separera parametrar, spelar det "
+"ingen roll om du använder mellanslag mellan parametrarna. Så länge du har "
+"kommatecken är endera syntaxen korrekt.\n"
+"\n"
+"Vi använder ofta mellanslag efter kommatecken för läsbarhet."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:208
 msgid ""
 "The following example defines a function that uses two parameters to move"
 " an entity on both the X and Y axes."
 msgstr ""
+"Följande exempel definierar en funktion som använder två parametrar för att "
+"flytta en entitet på både X- och Y-axeln."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:226
 msgid "How should I name my functions and parameters?"
-msgstr ""
+msgstr "Hur ska jag namnge mina funktioner och parametrar?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:228
 msgid ""
@@ -272,58 +299,94 @@ msgid ""
 "Based on a few characters you type, it will offer you to complete long "
 "names."
 msgstr ""
+"Namnen på funktioner, parametrar eller andra saker i din kod är helt upp "
+"till dig.\n"
+"\n"
+"De är skrivna av oss programmerare för andra programmerare. Du vill använda "
+"de namn som är mest meningsfulla för dig och andra programmerare.\n"
+"\n"
+"Du kan absolut skriva enbokstavsnamn som i matematikklasser: [code]a[/code], "
+"[code]b[/code], [code]f[/code].\n"
+"\n"
+"Du kan också skriva förkortade namn som [code]pos[/code] för position, "
+"[code]bg[/code] för bakgrund och så vidare.\n"
+"\n"
+"Många programmerare gör endera eller båda av ovanstående.\n"
+"\n"
+"På GDQuest föredrar vi fullständiga och explicita namn.\n"
+"\n"
+"Vi försöker i allmänhet att skriva kod som är explicit och relativt lätt att "
+"läsa.\n"
+"\n"
+"Just nu måste du skriva varje bokstav när du kodar, så långa namn kan kännas "
+"obekvämt.\n"
+"\n"
+"Detta är dock bra för att lära sig: det tränar fingrarna att skriva exakt.\n"
+"\n"
+"Sedan, efter att du är klar med den här kursen, kommer du att se att datorn "
+"hjälper dig mycket när du kodar riktiga spel med en funktion som kallas "
+"autokomplettering.\n"
+"\n"
+"Baserat på några tecken du skriver, kommer det att erbjuda dig att fylla i "
+"långa namn."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:256
 msgid "When defining a function, parameters are..."
-msgstr ""
+msgstr "När du definierar en funktion är parametrarna..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:259
 msgid ""
 "You can define functions with or without parameters, depending on your "
 "needs."
 msgstr ""
+"Du kan definiera funktioner med eller utan parametrar, beroende på dina "
+"behov."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:260
 #: course/lesson-6-multiple-function-parameters/lesson.tres:261
 msgid "Optional"
-msgstr ""
+msgstr "Valfri"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:260
 msgid "Mandatory"
-msgstr ""
+msgstr "Obligatorisk"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:268
 msgid "What's the correct syntax to define a function with multiple parameters?"
-msgstr ""
+msgstr "Vad är rätt syntax för att definiera en funktion med flera parametrar?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:271
 msgid ""
 "You always write the function parameters inside of the parentheses. To "
 "define multiple parameters, you separate them with a comma."
 msgstr ""
+"Du skriver alltid funktionsparametrarna inom parentes. För att definiera "
+"flera parametrar separerar du dem med ett kommatecken."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:272
 #: course/lesson-6-multiple-function-parameters/lesson.tres:273
 msgid "func function_name(parameter_1, parameter_2, ...):"
-msgstr ""
+msgstr "func funktion_namn(parameter_1, parameter_2, ...):"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:272
 msgid "func function_name(parameter_1 parameter_2 ...):"
-msgstr ""
+msgstr "func funktion_namn(parameter_1 parameter_2 ...):"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:272
 msgid "func function_name(): parameter_1, parameter_2, ..."
-msgstr ""
+msgstr "func funktion_namn(): parameter_1, parameter_2, ..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:282
 msgid ""
 "Now it's your turn to create a function with multiple parameters: a "
 "function to draw rectangles of any size."
 msgstr ""
+"Nu är det din tur att skapa en funktion med flera parametrar: en funktion "
+"för att rita rektanglar av valfri storlek."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:290
 msgid "Drawing corners of different sizes"
-msgstr ""
+msgstr "Rita hörn av olika storlekar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:291
 msgid ""
@@ -340,16 +403,30 @@ msgid ""
 "Complete the [code]draw_corner()[/code] function so it uses the "
 "[code]length[/code] parameter to draw corners."
 msgstr ""
+"Innan vi skapar en rektangel av valfri storlek, låt oss först se hur vi kan "
+"använda parametrar för att rita enklare former.\n"
+"\n"
+"Här har vi en ofullständig funktion som kommer att rita hörn med linjer av "
+"valfri längd, men den saknar parametern [code]length[/code].\n"
+"\n"
+"Funktionen flyttar sköldpaddan framåt ett belopp som definieras av "
+"parametern [code]length[/code], vrider [code]90[/code] grader och flyttar "
+"sedan framåt [code]length[/code] pixlar.\n"
+"\n"
+"Fyll i funktionen [code]draw_corner()[/code] så att den använder parametern "
+"[code]length[/code] för att rita hörn."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:309
 msgid ""
 "Using function parameters, code a function you can reuse to draw corners "
 "with lines of varying sizes."
 msgstr ""
+"Använd funktionsparametrar och koda en funktion som du kan återanvända för "
+"att rita hörn med linjer av varierande storlek."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:314
 msgid "Using multiple parameters"
-msgstr ""
+msgstr "Använder flera parametrar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:315
 msgid ""
@@ -359,14 +436,21 @@ msgid ""
 "Add the [code]angle[/code] parameter to the [code]draw_corner()[/code] "
 "function and use it to draw corners of varying angles."
 msgstr ""
+"I den här övningen kommer vi att förbättra vår [code]draw_corner()[/code]-"
+"funktion så att vinkeln också kan variera.\n"
+"\n"
+"Lägg till parametern [code]angle[/code] till funktionen "
+"[code]draw_corner()[/code] och använd den för att rita hörn med olika "
+"vinklar."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:329
 msgid "With two parameters, code a function to draw corners with any angle."
 msgstr ""
+"Med två parametrar, koda en funktion för att rita hörn med valfri vinkel."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:334
 msgid "Drawing squares of any size"
-msgstr ""
+msgstr "Rita rutor av alla storlekar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:335
 msgid ""
@@ -381,16 +465,28 @@ msgid ""
 "The turtle should face towards the right when starting or completing a "
 "rectangle."
 msgstr ""
+"Vi vill ha en funktion för att rita rutor av valfri storlek.\n"
+"\n"
+"Vi skulle kunna använda dessa rutor som konturer när vi väljer enheter i ett "
+"taktiskt spel, som en ram för föremål i en inventering och mer.\n"
+"\n"
+"Skapa en funktion som heter [code]draw_square()[/code] som tar en parameter: "
+"[code]length[/code] på kvadratens sidor.\n"
+"\n"
+"Sköldpaddan ska vända sig åt höger när man startar eller slutför en "
+"rektangel."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:350
 msgid ""
 "In the previous lesson, your function would draw squares of a fixed size."
 " Using a parameter, code a function to draw squares of any size."
 msgstr ""
+"I föregående lektion ritade din funktion rutor med en fast storlek. Använd "
+"en parameter och koda en funktion för att rita kvadrater av valfri storlek."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:355
 msgid "Drawing rectangles of any size"
-msgstr ""
+msgstr "Rita rektanglar av alla storlekar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:356
 msgid ""
@@ -408,13 +504,29 @@ msgid ""
 " by having the [code]length[/code] and [code]height[/code] equal the same"
 " value."
 msgstr ""
+"Låt oss göra vår fyrkantiga ritfunktion mer flexibel så att den inkluderar "
+"rektanglar av varierande storlek.\n"
+"\n"
+"Ditt jobb är att koda en funktion som heter [code]draw_rectangle()[/code] "
+"som tar två parametrar: [code]length[/code] (längd) och "
+"[code]height[/code](höjd) för rektangeln.\n"
+"\n"
+"Sköldpaddan ska vända sig åt höger när man startar eller slutför en "
+"rektangel.\n"
+"\n"
+"Observera att vi fortfarande kan rita en kvadrat med "
+"[code]draw_rectangle()[/code] genom att ha [code]length[/code] och "
+"[code]height[/code] lika med samma värde."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:379
 msgid ""
 "With one parameter, you can make squares of any size. With two, you can "
 "draw any rectangle! You'll do so in this practice."
 msgstr ""
+"Med en parameter kan du göra rutor av vilken storlek som helst. Med två kan "
+"du rita vilken rektangel som helst! Du kommer att göra det i den här "
+"övningen."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:383
 msgid "Your First Function Parameter"
-msgstr ""
+msgstr "Din första funktionsparameter"
