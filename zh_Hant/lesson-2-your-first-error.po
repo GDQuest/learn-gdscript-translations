@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-14 16:08+0000\n"
+"Last-Translator: 孔祥理 <zcxvcb2@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-2-your-first-error/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-2-your-first-error/lesson.tres:14
@@ -32,16 +35,24 @@ msgid ""
 " something, it's not the case: [b]errors help you write correct "
 "programs[/b]."
 msgstr ""
+"撰寫程式時，你極有可能遇到錯誤。很多錯誤。\n"
+"\n"
+"但你不該擔心！在電腦上，[b]錯誤是好事[/b]。\n"
+"\n"
+"你會遇到錯誤，[i]那沒關係[/i]：所有工程師都會，尤其是職業的。\n"
+"\n"
+"在學校，你可能會學習說錯誤是壞事。在寫程式時，不是這麼一回事：[b]錯誤幫助你寫"
+"出正確的程式[/b]。"
 
 #: course/lesson-2-your-first-error/lesson.tres:30
 msgid ""
 "A code error looks like this. It's a message that tells you some bit of "
 "your code doesn't work."
-msgstr ""
+msgstr "程式碼錯誤看起來像這樣。這是個告訴你程式碼哪裡無法運作的訊息。"
 
 #: course/lesson-2-your-first-error/lesson.tres:48
 msgid "Making errors friendlier"
-msgstr ""
+msgstr "讓錯誤友善點"
 
 #: course/lesson-2-your-first-error/lesson.tres:50
 msgid ""
@@ -53,6 +64,12 @@ msgid ""
 "It shows you why an error happens and what the message means. It also "
 "gives you some tips on how to fix it."
 msgstr ""
+"錯誤訊息看起來可能有點像加密謎題。這是因為那是由工程師，設計給受過訓練的工程"
+"師看的。\n"
+"\n"
+"我們在應用程式中新增了「錯誤翻譯機」來幫助你踏出第一步。\n"
+"\n"
+"它會告訴你錯誤為何產生以及訊息的意思。它也會給你一些修復錯誤的秘訣。"
 
 #: course/lesson-2-your-first-error/lesson.tres:74
 msgid ""
@@ -63,10 +80,14 @@ msgid ""
 "you from the past. Importantly, errors won't break your computer. At "
 "least not with GDScript because it's a pretty safe language."
 msgstr ""
+"錯誤是由在你之前的工程師刻意設計的訊息。他們預期你會遇到特定的問題。\n"
+"\n"
+"你不該把錯誤當成失敗。他們就像是來幫助你的過來人。更重要的，錯誤不會損壞你的"
+"電腦。至少GDScript不會，這是個相當安全的語言。"
 
 #: course/lesson-2-your-first-error/lesson.tres:84
 msgid "Are errors a good or a bad thing in code?"
-msgstr ""
+msgstr "程式碼的錯誤是好事還壞事？"
 
 #: course/lesson-2-your-first-error/lesson.tres:87
 msgid ""
@@ -76,25 +97,30 @@ msgid ""
 " experience, you'll learn to make your code work more reliably thanks to "
 "error messages."
 msgstr ""
+"沒錯，錯誤是來幫助你的！\n"
+"\n"
+"仔細注意，並且盡力閱讀理解它們。有了經驗，你會學到用錯誤來讓程式碼運作地更穩"
+"固。"
 
 #: course/lesson-2-your-first-error/lesson.tres:90
 msgid "They're bad: errors are always bad."
-msgstr ""
+msgstr "壞事：錯誤總是壞事。"
 
 #: course/lesson-2-your-first-error/lesson.tres:90
 #: course/lesson-2-your-first-error/lesson.tres:91
 msgid "They're good: they're here to help."
-msgstr ""
+msgstr "好事：他們是來幫忙的。"
 
 #: course/lesson-2-your-first-error/lesson.tres:100
 msgid ""
 "Okay, let's see an error in action. Once again, click the [i]Practice[/i]"
 " button below to face your first real error."
-msgstr ""
+msgstr "好，來實際演練一次錯誤看看。在一次地，請按下[i]練習[/i]按鈕來面對你的第一個真"
+"正的錯誤。"
 
 #: course/lesson-2-your-first-error/lesson.tres:108
 msgid "Fix Your First Error"
-msgstr ""
+msgstr "修正你的第一個錯誤"
 
 #: course/lesson-2-your-first-error/lesson.tres:109
 msgid ""
@@ -114,11 +140,24 @@ msgid ""
 "Otherwise, that'll cause another error. You may try that too, if you feel"
 " like it."
 msgstr ""
+"這個程式碼並不正確，並會在你嘗試執行時給予錯誤。\n"
+"\n"
+"這個程式碼定義了一個叫做[code]this_code_is_wrong[/code]的功能。\n"
+"\n"
+"要運作，這個功能應該使用[code]return[/code]關鍵字。但是這個關鍵字現在在會被電"
+"腦忽視的註解裡面。\n"
+"\n"
+"按下[i]執行[/i]按鈕測試現在的程式碼。\n"
+"\n"
+"然後，移除註解標誌（#）使程式碼變得可行。\n"
+"\n"
+"小心不要疑除掉[code]return[/code]前面的空白！否則，會導致另一種錯誤。你想要的"
+"話也可以試試看。"
 
 #: course/lesson-2-your-first-error/lesson.tres:129
 msgid "There's an error in this code. We need you to fix it!"
-msgstr ""
+msgstr "程式碼裡有錯誤。我們需要你修復它！"
 
 #: course/lesson-2-your-first-error/lesson.tres:133
 msgid "Your First Error"
-msgstr ""
+msgstr "你的第一個錯誤"
