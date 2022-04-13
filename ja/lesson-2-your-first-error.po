@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-10 05:09+0000\n"
+"Last-Translator: ueshita <nalto32@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-2-your-first-error/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-2-your-first-error/lesson.tres:14
@@ -32,16 +35,29 @@ msgid ""
 " something, it's not the case: [b]errors help you write correct "
 "programs[/b]."
 msgstr ""
+"プログラミングをしていると、必ずと言っていいほどエラーに遭遇します。しかも大"
+"量に。\n"
+"\n"
+"でも心配することはありません。コンピュータの世界では[b]エラーは良いこと[/b]な"
+"のです。\n"
+"\n"
+"エラーは発生するものです。しかし、[i]それでいいんです[/i]。プログラマーなら誰"
+"でもそうですし、プロフェッショナルも例外ではありません。\n"
+"\n"
+"学校では、間違いは悪いことだと習ったかもしれません。しかしプログラミングする"
+"ときはそうではありません。[b]エラーは正しいプログラムを書くのに役立ちます[/b]"
+"。"
 
 #: course/lesson-2-your-first-error/lesson.tres:30
 msgid ""
 "A code error looks like this. It's a message that tells you some bit of "
 "your code doesn't work."
-msgstr ""
+msgstr "コードのエラーは次のようなものです。これはコードの一部が動作しないことを伝え"
+"るメッセージです。"
 
 #: course/lesson-2-your-first-error/lesson.tres:48
 msgid "Making errors friendlier"
-msgstr ""
+msgstr "エラーを友だちにするために"
 
 #: course/lesson-2-your-first-error/lesson.tres:50
 msgid ""
@@ -53,6 +69,13 @@ msgid ""
 "It shows you why an error happens and what the message means. It also "
 "gives you some tips on how to fix it."
 msgstr ""
+"エラーメッセージは少し不可解に見えることがあります。これはプログラマーがエラ"
+"ーメッセージを、訓練されたプログラマーのために設計したものだからです。\n"
+"\n"
+"このアプリにはエラー翻訳機能があります。\n"
+"\n"
+"なぜエラーが発生するのか、そのメッセージが何を意味するのかが分かります。また"
+"、それを修正するためのヒントも教えてくれます。"
 
 #: course/lesson-2-your-first-error/lesson.tres:74
 msgid ""
@@ -63,10 +86,16 @@ msgid ""
 "you from the past. Importantly, errors won't break your computer. At "
 "least not with GDScript because it's a pretty safe language."
 msgstr ""
+"エラーは先人のプログラマーが意図的に作ったメッセージです。彼らは、あなたが具"
+"体的な問題を抱えるかもしれないことを予期していたのです。\n"
+"\n"
+"エラーを失敗と考えるべきではありません。エラーは過去からあなたを助けてくれる"
+"師匠のようなものなのです。重要なのは、エラーが起きてもあなたのコンピュータは"
+"壊れないということです。少なくともGDScriptは安全な言語ですから。"
 
 #: course/lesson-2-your-first-error/lesson.tres:84
 msgid "Are errors a good or a bad thing in code?"
-msgstr ""
+msgstr "コードにおけるエラーは良いことなのか悪いことなのか？"
 
 #: course/lesson-2-your-first-error/lesson.tres:87
 msgid ""
@@ -76,25 +105,30 @@ msgid ""
 " experience, you'll learn to make your code work more reliably thanks to "
 "error messages."
 msgstr ""
+"そうです、エラーはあなたを助けるためにあるのです\n"
+"\n"
+"注意して読んで、理解できるように頑張りましょう。経験を積めばエラーメッセージ"
+"のおかげで、より確実にコードを動作させることができるようになります。"
 
 #: course/lesson-2-your-first-error/lesson.tres:90
 msgid "They're bad: errors are always bad."
-msgstr ""
+msgstr "悪いこと: エラーは常に悪いものです。"
 
 #: course/lesson-2-your-first-error/lesson.tres:90
 #: course/lesson-2-your-first-error/lesson.tres:91
 msgid "They're good: they're here to help."
-msgstr ""
+msgstr "良いこと: エラーは私たちを助けてくれます。"
 
 #: course/lesson-2-your-first-error/lesson.tres:100
 msgid ""
 "Okay, let's see an error in action. Once again, click the [i]Practice[/i]"
 " button below to face your first real error."
-msgstr ""
+msgstr "では実際にエラーを見てみましょう。もう一度、下の[i]練習[/i]ボタンをクリックし"
+"て、最初の実際のエラーを確認してください。"
 
 #: course/lesson-2-your-first-error/lesson.tres:108
 msgid "Fix Your First Error"
-msgstr ""
+msgstr "最初のエラーを修正する"
 
 #: course/lesson-2-your-first-error/lesson.tres:109
 msgid ""
@@ -114,11 +148,27 @@ msgid ""
 "Otherwise, that'll cause another error. You may try that too, if you feel"
 " like it."
 msgstr ""
+"このコードは間違っており、実行するとエラーになります。\n"
+"\n"
+"このコードでは、[code]this_code_is_wrong[/code]という名前の空の関数を定義して"
+"います。\n"
+"\n"
+"この関数が動作するには、[code]return[/code]キーワードを使用する必要があります"
+"。しかし、このキーワードは現在コメントの中にあり、コンピュータはこれを無視し"
+"てしまいます。\n"
+"\n"
+"[i]実行[/i]ボタンを押して、現在のコードをテストしてください。\n"
+"\n"
+"次に、コメント記号(#)を削除して、コードを有効にしてください。\n"
+"\n"
+"このとき、[code]return[/code]の前にあるスペースを削除しないように注意してくだ"
+"さい！ さもないと別のエラーが発生します。気が向いたら、それも試してみてもいい"
+"かもしれません。"
 
 #: course/lesson-2-your-first-error/lesson.tres:129
 msgid "There's an error in this code. We need you to fix it!"
-msgstr ""
+msgstr "このコードにはエラーがあります。修正する必要があります！"
 
 #: course/lesson-2-your-first-error/lesson.tres:133
 msgid "Your First Error"
-msgstr ""
+msgstr "最初のエラー"

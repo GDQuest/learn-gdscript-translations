@@ -9,24 +9,27 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-13 00:11+0000\n"
+"Last-Translator: catfloor <neko.neko.4567@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member function"
-msgstr ""
+msgstr "メンバ関数"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member functions"
-msgstr ""
+msgstr "メンバ関数"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
@@ -40,16 +43,23 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
+"メンバ関数は、配列、文字列、辞書などの特定の値型に関連付けられた関数です。 "
+"それらはメソッドとも呼びます。\n"
+"\n"
+"たとえば、配列には[code]array.append()[/code]のようなメンバ関数があります。\n"
+"\n"
+"上記のように、アクセス演算子([code].[/code])を使用すると、配列の関数を呼び出"
+"すことができます。"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variable"
-msgstr ""
+msgstr "メンバ変数"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variables"
-msgstr ""
+msgstr "メンバ変数"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
@@ -62,16 +72,23 @@ msgid ""
 "followed by the access operator ([code].[/code]). For example, "
 "[code]position.x[/code]."
 msgstr ""
+"メンバー変数とは、ベクトルの[code]x[/code]および、[code]y[/code]といったサブ"
+"変数のように、特定の値型に関連付けられた変数です。 "
+"それらをベクトルの[i]プロパティ[/i]、または[i]フィールド[/i]とも呼びます。\n"
+"\n"
+"メンバー変数にアクセスするには、最初に値の名前を記述して次にアクセス演算子([c"
+"ode].[/code])を記述する必要があります。 たとえば、[code]position."
+"x[/code]のように記述します。"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameter"
-msgstr ""
+msgstr "パラメータ"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameters"
-msgstr ""
+msgstr "パラメータ"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
@@ -81,16 +98,19 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in "
 "the function's body."
 msgstr ""
+"パラメータは関数定義の一部として作成する変数です。\n"
+"\n"
+"関数の本体で値を変えることで、関数をより便利に活用できます。"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radian"
-msgstr ""
+msgstr "ラジアン"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radians"
-msgstr ""
+msgstr "ラジアン"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
@@ -104,16 +124,23 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And "
 "an angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
+"ラジアンとは、円の円周に基づく角度の測定単位です。\n"
+"\n"
+"私たちは日常生活で度を使用する傾向がありますが、コンピュータープログラミング"
+"、特にゲームではラジアンが一般的です。\n"
+"\n"
+"[code]2 * PI[/code]ラジアンの角度は360度に対応します。 "
+"また、[code]PI[/code]ラジアンの角度は180度に対応します。"
 
 #. Reference: type
 #: ./course/glossary.csv:20
 msgid "type"
-msgstr ""
+msgstr "型"
 
 #. Reference: type
 #: ./course/glossary.csv:20
 msgid "types"
-msgstr ""
+msgstr "型"
 
 #. Reference: type
 #: ./course/glossary.csv:20
@@ -126,16 +153,22 @@ msgid ""
 "The computer uses types to determine which operations are valid between "
 "two values and when they're undefined."
 msgstr ""
+"コンピュータプログラミングでは、型は値のクラスと言えます。 たとえば[code]3[/c"
+"ode]、[code]11[/code]、[code]255462[/code]などの整数はすべて[code]int[/code]("
+"integerの略)型です。\n"
+"\n"
+"コンピュータは、型を使用して2つの値の間で有効な操作と、それらが未定義の場合を"
+"判別します。"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
 msgid "iteration"
-msgstr ""
+msgstr "反復"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
 msgid "iterations"
-msgstr ""
+msgstr "反復"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
@@ -147,16 +180,22 @@ msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
+"コンピュータのコード処理では、反復とはあるプロセスまたはコードの1回の繰り返し"
+"処理のことです。 通常この用語はループで使用されます。ここでは1回の反復はルー"
+"プでの1回分のコード処理実行です。\n"
+"\n"
+"アルゴリズムについて話すとき、反復はデータセットに対するアルゴリズムの完全な"
+"処理実行を意味する場合があります。"
 
 #. Reference: vector
 #: ./course/glossary.csv:28
 msgid "vector"
-msgstr ""
+msgstr "ベクトル"
 
 #. Reference: vector
 #: ./course/glossary.csv:28
 msgid "vectors"
-msgstr ""
+msgstr "ベクトル"
 
 #. Reference: vector
 #: ./course/glossary.csv:28
@@ -171,6 +210,14 @@ msgid ""
 "Vectors can seem daunting at first because they are pretty abstract, but "
 "as you will see, they'll simplify code tremendously."
 msgstr ""
+"数学のベクトルは数値のリストです。 ゲームでは2Dおよび3Dベクトルを使用すること"
+"がよくあります。それぞれ、2つおよび3つの数値のリストです。\n"
+"\n"
+"これを使用して空間の方向と大きさまたは強度を表します。 たとえばベクトルを使用"
+"してキャラクター、または車両が移動する方向と速度を表すことができます。\n"
+"\n"
+"ベクトルはかなり抽象的であるため、ちょっと難しく思えるかもしれません。でも後"
+"で分かりますがコードはとてもシンプルになります。"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
@@ -342,12 +389,12 @@ msgstr ""
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instruction"
-msgstr ""
+msgstr "命令"
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instructions"
-msgstr ""
+msgstr "命令"
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
@@ -358,6 +405,10 @@ msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
 msgstr ""
+"コンピュータプログラミングにおいて、命令とはコンピュータが識別して実行できる1"
+"つの処理のこと。\n"
+"\n"
+"例えば、関数呼び出し、加算、変数に値を代入することなどがある。"
 
 #. Reference: variable
 #: ./course/glossary.csv:77
