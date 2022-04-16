@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-04-16 11:09+0000\n"
+"PO-Revision-Date: 2022-04-17 12:10+0000\n"
 "Last-Translator: ueshita <nalto32@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/application/ja/>\n"
@@ -39,7 +39,7 @@ msgstr "タイトル"
 
 #: ui/UILesson.tscn:125
 msgid "Practices"
-msgstr "練習"
+msgstr "演習"
 
 #: ui/UINavigator.gd:350
 msgid "Go back in your navigation history"
@@ -106,11 +106,11 @@ msgstr "出力"
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
-msgstr "次へ"
+msgstr "進む"
 
 #: ui/components/ConnectionIndicator.gd:17
 msgid "Connected to the server."
-msgstr "サーバーに接続しました。"
+msgstr "サーバーに接続されています。"
 
 #: ui/components/ConnectionIndicator.gd:20
 msgid ""
@@ -126,7 +126,7 @@ msgstr "ポーズ中"
 
 #: ui/components/GlossaryPopup.tscn:37
 msgid "Term"
-msgstr ""
+msgstr "用語"
 
 #: ui/components/GlossaryPopup.tscn:53
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
@@ -149,7 +149,7 @@ msgstr "プレースホルダーテキスト"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
-msgstr ""
+msgstr "in"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
 msgid "FileName"
@@ -157,16 +157,17 @@ msgstr "ファイル名"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
 msgid "at"
-msgstr ""
+msgstr "at"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:82
 msgid "0:0"
-msgstr ""
+msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
 msgid ""
 "Sometimes errors are reported outside of your code. Why does that happen?"
-msgstr ""
+msgstr "コード外でエラーが報告されることがあります。 "
+"なぜそのようなことが起こるのですか？"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
 msgid "Explain"
@@ -174,15 +175,15 @@ msgstr "説明を見る"
 
 #: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
-msgstr ""
+msgstr "値"
 
 #: ui/components/Revealer.tscn:74
 msgid "Expand"
-msgstr ""
+msgstr "拡張"
 
 #: ui/components/RunnableCodeExample.tscn:96
 msgid "run()"
-msgstr ""
+msgstr "実行"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
@@ -268,7 +269,7 @@ msgstr ""
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
-msgstr ""
+msgstr "了解！"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
@@ -287,38 +288,42 @@ msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]留まる[/b] を押すとここのコースに留まり、\n"
+"[b]次へ[/b] を押すと次のコースに進みます。[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 #: ui/components/popups/PracticeDonePopup.tscn:144
 msgid "Stay"
-msgstr ""
+msgstr "留まる"
 
 #: ui/components/popups/PracticeDonePopup.tscn:89
 msgid "Well done!"
-msgstr ""
+msgstr "よくできました！"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
-msgstr ""
+msgstr "演習をクリアしました。"
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]留まる[/b] を押すとここに留まり、\n"
+"[b]進む[/b] を押すと次のコースに進みます。[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:67
 msgid "Practice List"
-msgstr ""
+msgstr "演習リスト"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:226
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: ui/components/popups/ReportFormPopup.tscn:66
 msgid "Report an issue"
-msgstr ""
+msgstr "問題を報告する"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
@@ -360,103 +365,140 @@ msgid ""
 "\n"
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
+"アプリで問題が発生した場合は、以下のリンクをクリックしてGitHubで報告してくだ"
+"さい。\n"
+"\n"
+"[center] [b] [url=https://github.com/GDQuest/learn-gdscript/issues]"
+"GitHub.com> GDQuest> learn-gdscript> Issues[/url] [/b] [/center]\n"
+"\n"
+"そのページでは不具合またはレッスンでエラーが発生したかどうかにかかわらず問題"
+"を報告できます。\n"
+"\n"
+"問題の特定に役立つログを生成できます。これを行うにはここをクリックしてくださ"
+"い：[b][url=download]エラーログの生成[/url][/b]。\n"
+"\n"
+"生成されたファイルをGitHubのIssueにドラッグアンドドロップして添付してください"
+"。\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]GitHubとは[/font]\n"
+"\n"
+"GitHubはGDScript Learn Appなどのオープンソースプロジェクトをホストおよび管理"
+"するためのオンラインプラットフォームです。これは、開発者が作業を整理しオンラ"
+"インで共同作業するのに役立ちます。\n"
+"\n"
+"GitHubを使用して多くのオープンプロジェクトのソースコードを調べたり、問題を報"
+"告したり自分でコードを提供したりすることができます。\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]問題を報告する方法[/ font]\n"
+"\n"
+"1. 上のリンクをクリックして、[i]GitHubのIssues[/i]ページにアクセスします。\n"
+"2. [i]New Issue[/i]ボタンをクリックします。\n"
+"3. フォームに記入して問題について詳しく書いてください。\n"
+"\n"
+"報告するにはGitHubアカウントが必要です。\n"
+"\n"
+"アプリへのアクセスに使用しているデバイスの種類など、できるだけ多くの情報を追"
+"加してください。問題を紹介するスクリーンショットやビデオクリップを添付してく"
+"ださい。\n"
+"\n"
+"[center]オープンソースに貢献していただきありがとうございます！[/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:158
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ui/components/popups/SettingsPopup.tscn:79
 msgid "Configure the App"
-msgstr ""
+msgstr "アプリの設定"
 
 #: ui/components/popups/SettingsPopup.tscn:106
 msgid "Language"
-msgstr ""
+msgstr "言語"
 
 #: ui/components/popups/SettingsPopup.tscn:126
 msgid "Text Size"
-msgstr ""
+msgstr "テキストサイズ"
 
 #: ui/components/popups/SettingsPopup.tscn:153
 msgid "Sample text"
-msgstr ""
+msgstr "サンプルテキスト"
 
 #: ui/components/popups/SettingsPopup.tscn:166
 msgid "Scroll sensitivity"
-msgstr ""
+msgstr "スクロール感度"
 
 #: ui/components/popups/SettingsPopup.tscn:192
 msgid "Framerate cap"
-msgstr ""
+msgstr "フレームレート制限"
 
 #: ui/components/popups/SettingsPopup.tscn:241
 msgid "Apply"
-msgstr ""
+msgstr "適用"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:93
 msgid "Open Lesson"
-msgstr ""
+msgstr "レッスンを開始する"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:95
 msgid "Continue Lesson"
-msgstr ""
+msgstr "次のレッスンに進む"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:97
 msgid "Start Lesson"
-msgstr ""
+msgstr "レッスン開始"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
 msgid "Lesson Title Goes Here"
-msgstr ""
+msgstr "レッスンの表紙はこちら"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
 msgid "Lesson read"
-msgstr ""
+msgstr "レッスンを読む"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:56
 msgid "0%"
-msgstr ""
+msgstr "0%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:79
 msgid "Quizzes completed"
-msgstr ""
+msgstr "クイズをクリア"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:108
 msgid "0 / 0"
-msgstr ""
+msgstr "0 / 0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:100
 msgid "Practices completed"
-msgstr ""
+msgstr "演習をクリア"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:36
 msgid "Lesson 0"
-msgstr ""
+msgstr "レッスン 0"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
 msgid "Lesson Title"
-msgstr ""
+msgstr "レッスン表紙"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
 msgid "Course Index - "
-msgstr ""
+msgstr "コース番号 - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
-msgstr ""
+msgstr "コース表紙はこちら"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
-msgstr ""
+msgstr "進捗をリセットする"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
 msgid "Confirm Resetting Progress"
-msgstr ""
+msgstr "進捗リセットの確認"
 
 #: ui/screens/end_screen/EndScreen.tscn:122
 msgid "That's it... for now!"
-msgstr ""
+msgstr "今のところはそれだけです！"
 
 #: ui/screens/end_screen/EndScreen.tscn:160
 msgid ""
@@ -470,6 +512,15 @@ msgid ""
 "The good news is: now we figured out many of the more challenging parts, "
 "moving forward, we can shift our focus onto new lessons and practices."
 msgstr ""
+"ベータテストにご参加いただきありがとうございます。\n"
+"\n"
+"これまでに利用できるものを楽しんでいただけたでしょうか。\n"
+"\n"
+"すでにたくさんの情報があればいいのですが、このアプリの作成には[i]たくさん[/i]"
+"の時間がかかりました。。\n"
+"\n"
+"良いニュースは次のとおりです。より困難な部分の多くを理解し、新しいレッスンと"
+"実践に焦点を移すことができます。"
 
 #: ui/screens/end_screen/EndScreen.tscn:188
 msgid ""
@@ -480,103 +531,109 @@ msgid ""
 "You can find our plan for future releases on our [url=https://github.com/"
 "GDQuest/learn-gdscript#roadmap]roadmap[/url]."
 msgstr ""
+"[font=res://ui/theme/fonts/font_title.tres]次の予定[/ font]\n"
+"\n"
+"さらに多くのレッスンと改善の計画があります。\n"
+"\n"
+"今後のリリースの計画については、[url = https://github.com/GDQuest/learn-"
+"gdscript#roadmap]ロードマップ[/url]をご覧ください。"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
-msgstr ""
+msgstr "[b]質問[/b]"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
 msgid "Explanation"
-msgstr ""
+msgstr "説明"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:107
 msgid "Skip"
-msgstr ""
+msgstr "スキップ"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
-msgstr ""
+msgstr "提出"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr ""
+msgstr "正解！"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
-msgstr ""
+msgstr "答えはこちら"
 
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
-msgstr ""
+msgstr "もっと学ぶ"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr ""
+msgstr "プレースホルダーの見出し"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
-msgstr ""
+msgstr "演習タイトル"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
-msgstr ""
+msgstr "次"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
-msgstr ""
+msgstr "演習"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
-msgstr ""
+msgstr "あなたはこちら"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
-msgstr ""
+msgstr "答えのラベル"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
 msgid "(select all that apply)"
-msgstr ""
+msgstr "(該当するものをすべて選択)"
 
 #: ui/screens/practice/PracticeHint.tscn:8
 msgid "Show Hint"
-msgstr ""
+msgstr "ヒントを表示"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:143
 msgid "Method descriptions"
-msgstr ""
+msgstr "メソッドの説明"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:159
 msgid "Property descriptions"
-msgstr ""
+msgstr "プロパティの説明"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
 msgid "Summary - Lesson Name"
-msgstr ""
+msgstr "まとめ - レッスン名"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
-msgstr ""
+msgstr "目標"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:119
 msgid "Hints"
-msgstr ""
+msgstr "ヒント"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
 msgid "Checks"
-msgstr ""
+msgstr "チェック"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:134
 msgid "Documentation"
-msgstr ""
+msgstr "ドキュメント化"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:175
 msgid "Open Practice List"
-msgstr ""
+msgstr "演習リストを開く"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:42
 msgid "Test text"
-msgstr ""
+msgstr "テストテキスト"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:42
 msgid "CONTINUE"
