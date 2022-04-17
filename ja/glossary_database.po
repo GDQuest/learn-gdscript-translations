@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-04-13 00:11+0000\n"
-"Last-Translator: catfloor <neko.neko.4567@gmail.com>\n"
+"PO-Revision-Date: 2022-04-17 12:10+0000\n"
+"Last-Translator: ueshita <nalto32@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/glossary_database/ja/>\n"
 "Language: ja\n"
@@ -222,12 +222,12 @@ msgstr ""
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "argument"
-msgstr ""
+msgstr "引数"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "arguments"
-msgstr ""
+msgstr "引数"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
@@ -249,16 +249,30 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and"
 " [code]y[/code] are [i]parameters[/i]."
 msgstr ""
+"引数とは関数を呼び出すときに渡す値です。 たとえば[code]rotate(0."
+"5)[/code]の呼び出しでは、括弧内の値[code]0.5[/code]は引数です。\n"
+"\n"
+"関数は引数なし、もしくは1つから複数の引数を受け取ることができます。 "
+"引数はオプションです。\n"
+"\n"
+"関数が複数の引数を取る場合は、次の関数呼び出しのように、値をコンマで区切りま"
+"す。例: jump(50, 100)\n"
+"\n"
+"関数を[i]呼び出す[/i]ときは、括弧内に渡される[i]引数[/i]の値に名前を付けます"
+"。\n"
+"\n"
+"関数定義を作成するときは、後ほど関数の[i]パラメーター[/i]について説明します。"
+" 次の例では、名前[code]x[/code]と[code]y[/code]は[i]パラメータ[/i]です。"
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "array"
-msgstr ""
+msgstr "配列"
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "arrays"
-msgstr ""
+msgstr "配列"
 
 #. Reference: array
 #: ./course/glossary.csv:44
@@ -276,28 +290,41 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
+"配列は値のリストです。 "
+"GDScriptでは配列には[i]任意の[/i]タイプの値を含めることができます。\n"
+"\n"
+"配列を作成するには、角かっこでコンマ区切りの値を記述します。[code] var "
+"three_numbers = [1, 2, 3] [/code]\n"
+"\n"
+"ゲームでは配列を使用して、パーティーのキャラクターのリスト、インベントリ内の"
+"アイテムのリスト、プレーヤーがロック解除した呪文のリストなどを保存します。 "
+"配列はいたるところで使われます。\n"
+"\n"
+"配列はコンピュータープログラミングの基本的な型です。 "
+"配列はほとんどすべてのプログラミング言語で見つかります。"
 
 #. Reference: assign
 #: ./course/glossary.csv:45
 msgid "assign"
-msgstr ""
+msgstr "代入"
 
 #. Reference: assign
 #: ./course/glossary.csv:45
 msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
-msgstr ""
+msgstr "変数に値を代入するということは、変数内に値を格納することを意味します。 "
+"これはイコール記号([code] = [/code])で行います。"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionary"
-msgstr ""
+msgstr "辞書"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionaries"
-msgstr ""
+msgstr "辞書"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
@@ -318,16 +345,30 @@ msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
+"辞書は値をキーと値のペアでマップするデータ構造の型です。 "
+"辞書にキーを与えると、対応する値が検出されて返されます。\n"
+"\n"
+"GDScriptではキーは様々な型が使用可能です。 "
+"通常はテキスト文字列や数字をよく使用しますが、それに限定されません。 [code] "
+"Vector2 [/code]も有効なキーにすることができます。これは例えばグリッドベースの"
+"ゲームでグリッドセルをユニットまたはアイテムにマッピングするときに便利です。"
+"\n"
+"\n"
+"多くの場合、辞書を使用してゲーム内のデータの一部を関連付けます。例えば装備し"
+"ている武器の名前をデータベース内の武器データに関連付けることができます。\n"
+"\n"
+"配列と同様、辞書は多くのプログラミング言語で見られ、よく使用される基本的なデ"
+"ータ型です。"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loop"
-msgstr ""
+msgstr "forループ"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loops"
-msgstr ""
+msgstr "forループ"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
@@ -345,16 +386,27 @@ msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to"
 " use than while loops."
 msgstr ""
+"forループは配列内の値ごとに一連の命令を繰り返し行うようにコンピューターに指示"
+"します。\n"
+"\n"
+"ループの反復ごとにコンパイラは配列から1つの値を取り出し、ループの本体でその値"
+"にアクセスできるようにします。\n"
+"\n"
+"forループの場合、コードを実行する回数は配列内の値ごとに1回です。 "
+"これは条件が満たされるまでコードを繰り返し続けるwhileループとは異なります。\n"
+"\n"
+"できるだけforループを優先して使用することをお勧めします。 "
+"forループはwhileループより安全で使いやすくなっています。"
 
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "function"
-msgstr ""
+msgstr "関数"
 
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "functions"
-msgstr ""
+msgstr "関数"
 
 #. Reference: function
 #: ./course/glossary.csv:64
@@ -370,21 +422,29 @@ msgid ""
 "\n"
 "Also, functions can optionally return a value to the code calling it."
 msgstr ""
+"関数は名前が付けられた命令コードのグループです。 関数を定義すれば、いつでも呼"
+"び出すことができ、関数に含まれるすべての命令を実行できます。\n"
+"\n"
+"パラメータを使用して関数の動作を変更できます。 "
+"パラメータは関数定義に一緒に書かれる変数のことです。 次にパラメータを関数の本"
+"体で使用して、コードを様々な用途に適応させることができます。\n"
+"\n"
+"また、関数はオプション的に呼び出し側のコードに値を返すことができます。"
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "increment"
-msgstr ""
+msgstr "インクリメント"
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "increments"
-msgstr ""
+msgstr "インクリメント"
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "An increment is the amount by which a value changes in your code."
-msgstr ""
+msgstr "インクリメントとはコードの中で値が変化する量のことです。"
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
