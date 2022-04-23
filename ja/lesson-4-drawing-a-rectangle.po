@@ -9,30 +9,34 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-23 13:49+0000\n"
+"Last-Translator: ueshita <nalto32@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-4-drawing-a-rectangle/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:14
 msgid ""
 "We'll use code created by others like we did in the previous lesson. This"
 " time, we'll solve a more complicated problem: drawing shapes."
-msgstr ""
+msgstr "前回のレッスンと同様に他の人が作ったコードを使います。今回はもう少し複雑な問"
+"題の「図形を描く」ことにチャレンジします。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:22
 msgid "Meet the turtle"
-msgstr ""
+msgstr "カメの登場"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:24
 msgid ""
 "We present you: the turtle! We created the turtle to teach you how to "
 "call functions."
-msgstr ""
+msgstr "カメを紹介します。このカメを使って関数の呼び方を覚えましょう。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:44
 msgid ""
@@ -60,6 +64,28 @@ msgid ""
 "For example, to move the turtle 200 pixels, you would write "
 "[code]move_forward(200)[/code]."
 msgstr ""
+"このカメは前に進んだり、曲がったりして、その軌道に沿って線を描く小さなロボッ"
+"トです。\n"
+"\n"
+"このロボットに図形を描かせるには、1行に1つの関数を呼び出すように指示を出しま"
+"す。\n"
+"\n"
+"ここにいくつかの関数があります。\n"
+"\n"
+"- [code]move_forward(pixels)[/code] "
+"はカメを与えられた[i]ピクセル[/i]の距離を前進させます。\n"
+"- [code]turn_right(degrees)[/code]はカメを正確な[i]角度(degrees)[/i]だけ右に"
+"回転させる。\n"
+"- [code]turn_left(degrees)[/code] は、カメが左を向く以外は "
+"[code]turn_right(degrees)[/code] と同じように動作します。\n"
+"\n"
+"これらの関数は、以前[code]rotate()[/code]を使ったのと同じように使うことができ"
+"ます。\n"
+"\n"
+"カメは移動しながら白い線を描きます。この線を使って図形を描きます。\n"
+"\n"
+"例えば、カメを200ピクセル動かすには、[code]move_forward(200)[/code]と書きます"
+"。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:78
 msgid ""
@@ -72,6 +98,13 @@ msgid ""
 "If we call [code]turn_right(45)[/code], the turtle turns 45 degrees to "
 "the right before moving on to the next instruction."
 msgstr ""
+"関数 [code]turn_left()[/code] と [code]turn_right()[/code] "
+"は同じ働きをします。\n"
+"\n"
+"右に45度回るには、[code]turn_right(45)[/code]と書きます。\n"
+"\n"
+"[code]turn_right(45)[/code]を呼ぶと、亀は右に45度回ってから次の命令に移ります"
+"。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:102
 msgid ""
@@ -82,14 +115,20 @@ msgid ""
 "In the next practice, you'll use the functions we saw above to first draw"
 " a corner, then a rectangle like this one."
 msgstr ""
+"この方法を使えば、どんな平面的な形でも作ることができます。\n"
+"\n"
+"試しに下の例題に挑戦しましょう。\n"
+"\n"
+"次の演習では上で見た関数を使ってまず角を描き、次のような長方形を描いてみまし"
+"ょう。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
 msgid "In the function definition below, which part is the function parameter?"
-msgstr ""
+msgstr "以下の関数の定義において、関数のパラメータはどの部分でしょうか？"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
 msgid "[code]func move_forward(pixels)[/code]"
-msgstr ""
+msgstr "[code]func move_forward(pixels)[/code]"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:127
 msgid ""
@@ -99,23 +138,27 @@ msgid ""
 "The [code]func[/code] keyword tells the computer you're defining a new "
 "function, and [code]move_forward[/code] is the function's name."
 msgstr ""
+"関数のパラメータは関数定義の括弧の中にあります。\n"
+"\n"
+"[code]func[/code] キーワードは新しい関数を定義することを意味しており、[code]m"
+"ove_forward[/code]は関数の名前です。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:130
 msgid "func"
-msgstr ""
+msgstr "func"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:130
 msgid "move_forward"
-msgstr ""
+msgstr "move_forward"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:130
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:131
 msgid "pixels"
-msgstr ""
+msgstr "pixels"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:138
 msgid "Drawing a Corner"
-msgstr ""
+msgstr "角を描く"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:139
 msgid ""
@@ -139,17 +182,33 @@ msgid ""
 "rectangles.\n"
 "\n"
 msgstr ""
+"この演習ではカメに角を描くように指示します。\n"
+"\n"
+"コーナーは長さ[code]200[/code]の2本の線で構成されます。線は両端が[code]90[/co"
+"de]度の直角で結ばれています。\n"
+"\n"
+"右にある [code]move_forward()[/code] と [code]turn_right()[/code] "
+"関数は角を描画しますが、いくつかのパラメータが不足しています。\n"
+"\n"
+"足りないパラメータを追加して、亀が[code]200[/code]ピクセル前進し、[code]90[/c"
+"ode]度右折し、再び[code]200[/code]ピクセル前進するようにしてください。\n"
+"\n"
+"最初のパラメータは指定されているので、カメは前方に[code]200[/code]ピクセル移"
+"動します。\n"
+"\n"
+"次の演習では、複数の角を描いて長方形を作ります。\n"
+"\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:163
 msgid ""
 "Use the turtle to draw a square's corner. You'll then build upon it to "
 "draw a rectangle."
-msgstr ""
+msgstr "カメを使って角を描きます。それをベースに四角形を描きます。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:168
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:216
 msgid "Drawing a Rectangle"
-msgstr ""
+msgstr "四角形を描く"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:169
 msgid ""
@@ -162,14 +221,21 @@ msgid ""
 "In the next practice, you'll use the same functions to draw a bigger "
 "rectangle."
 msgstr ""
+"関数 [code]move_forward()[/code] と [code]turn_right()[/code] "
+"に正しいパラメータを追加して、幅 [code]200[/code] ピクセル、高さ "
+"[code]120[/code] ピクセルの四角形を描画します。\n"
+"\n"
+"最初のパラメータは既に書かれています。\n"
+"\n"
+"次の演習では同じ関数を使って、より大きな四角形を描きます。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:189
 msgid "Based on your rectangle corner, you now need to draw a complete rectangle."
-msgstr ""
+msgstr "四角形の角をベースに、今度は完全な四角形を描きましょう。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:194
 msgid "Drawing a Bigger Rectangle"
-msgstr ""
+msgstr "より大きな四角形を描く"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:195
 msgid ""
@@ -185,9 +251,19 @@ msgid ""
 "computer understands it's part of the [code]draw_rectangle()[/code] "
 "function."
 msgstr ""
+"関数[code]move_forward()[/code]と[code]turn_right()[/code]の呼び出しを書いて"
+"、幅220ピクセル、高さ260ピクセルの四角形を描画しましょう。\n"
+"\n"
+"最初の2行は既に書かれています。\n"
+"\n"
+"各命令は必ず1行にまとめて書いてください。\n"
+"\n"
+"どの行も[code]タブ[/code] 文字で始まるようにして、コンピュータが[code]draw_re"
+"ctangle()[/code]関数の一部であることを認識できるようにしてください。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:212
 msgid ""
 "At this point, you're ready to code entirely on your own. Call functions "
 "by yourself to draw a complete rectangle."
-msgstr ""
+msgstr "この時点で、あなた自身でコーディングする準備が整ったことになります。今度は関"
+"数を呼び出して完全な四角形を描画してみましょう。"
