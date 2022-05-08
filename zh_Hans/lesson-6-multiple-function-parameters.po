@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-08 14:10+0000\n"
+"Last-Translator: 巽星石 <xun19900424@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-6-multiple-function-parameters/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:14
@@ -30,6 +33,13 @@ msgid ""
 "In previous lessons, you used the [code]rotate()[/code] function and gave"
 " it a [i]parameter[/i]."
 msgstr ""
+"在上一部分中，您创建了一个函数来绘制一个固定大小的正方形。\n"
+"\n"
+"这个功能有点限制。 相反，如果我们有一个函数来绘制一个 [i]any[/i] "
+"大小的正方形会更好。 或者更好：任何类型的矩形（正方形是特定类型的矩形）。\n"
+"\n"
+"在之前的课程中，您使用了 [code]rotate()[/code] 函数并给了它一个 [i] "
+"参数[/i]。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:38
 msgid ""
@@ -37,12 +47,14 @@ msgid ""
 "[i]parameters[/i]. Parameters are labels you give to values passed to the"
 " function."
 msgstr ""
+"就像 [code]rotate()[/code] 一样，我们也可以给我们的函数 [i]parameters[/i]。 "
+"参数是您赋予传递给函数的值的标签。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:48
 msgid ""
 "The [code]radians[/code] can be a positive or negative number, which "
 "allows you to rotate both clockwise and counter-clockwise."
-msgstr ""
+msgstr "[code]radians[/code] 可以是正数或负数，它允许您顺时针和逆时针旋转。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:58
 msgid ""
@@ -60,10 +72,22 @@ msgid ""
 "\n"
 "For now, we'll stick to numbers as we have yet to see other value types."
 msgstr ""
+"现在，请关注第一行：[code]func rotate(radians)[/code]。\n"
+"\n"
+"当您调用 [code]rotate(0.5)[/code] 时，计算机会将值 [code]0.5[/code] "
+"绑定到标签 [code]radians[/code]。\n"
+"\n"
+"无论计算机在函数内何处看到标识符 [code]radians[/code]，都会将其替换为 [code]0"
+".5[/code] 值。\n"
+"\n"
+"参数名称始终是您用来引用 [i] 值[/i] 的标签。 "
+"有问题的值可以是数字、文本或其他任何内容。\n"
+"\n"
+"目前，我们将坚持使用数字，因为我们还没有看到其他值类型。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:74
 msgid "What is a function parameter?"
-msgstr ""
+msgstr "什么是函数参数？"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:77
 msgid ""
@@ -72,23 +96,26 @@ msgid ""
 "The value in question can change: it depends on what you put in "
 "parentheses when calling a function."
 msgstr ""
+"参数是表示值的标签。\n"
+"\n"
+"有问题的值可能会改变：这取决于您在调用函数时放入括号中的内容。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:80
 #: course/lesson-6-multiple-function-parameters/lesson.tres:81
 msgid "A label you give to a value the function receives."
-msgstr ""
+msgstr "您为函数接收的值赋予的标签。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:80
 msgid "A number you use to make calculations."
-msgstr ""
+msgstr "用于计算的数字。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:80
 msgid "The name of a function."
-msgstr ""
+msgstr "函数的名称。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:88
 msgid "How to create functions with parameters"
-msgstr ""
+msgstr "如何创建带参数的函数"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:90
 msgid ""
@@ -97,6 +124,10 @@ msgid ""
 "\n"
 "To do so, you add a name inside of the parentheses."
 msgstr ""
+"您可以在编写函数的 [i]definition[/i]（以 [code]func[/code] "
+"关键字开头的行）时提供函数参数。\n"
+"\n"
+"为此，您在括号内添加一个名称。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:112
 msgid ""
@@ -109,6 +140,11 @@ msgid ""
 "The following function definition is exactly equivalent to the previous "
 "one."
 msgstr ""
+"您可以为参数指定任何名称。 如何命名函数和参数取决于您。\n"
+"\n"
+"请记住，名称不能包含空格。 要用多个单词编写参数名称，您需要使用下划线。\n"
+"\n"
+"下面的函数定义与前一个完全相同。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:136
 msgid ""
@@ -118,10 +154,14 @@ msgid ""
 "change the value passed to the function and draw squares of different "
 "sizes."
 msgstr ""
+"参数使您的代码更易于重用。\n"
+"\n"
+"这是一个带有绘制任何正方形的函数的示例。 "
+"使用滑块更改传递给函数的值并绘制不同大小的正方形。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:156
 msgid "Which is the correct syntax for a function definition?"
-msgstr ""
+msgstr "函数定义的正确语法是什么？"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:159
 msgid ""
@@ -133,27 +173,32 @@ msgid ""
 " see moving forward that keywords other than [code]func[/code] require a "
 "colon at the end of the line."
 msgstr ""
+"要定义一个函数，您需要以 [code]func[/code] "
+"关键字开头，后跟一个空格、[code]function_name[/code] 和括号内的可选参数。\n"
+"\n"
+"您必须以冒号结束该行，它定义了一个新的代码块。 我们将看到除 [code]func[/code]"
+" 以外的关键字在行尾需要冒号。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 #: course/lesson-6-multiple-function-parameters/lesson.tres:163
 msgid "func function_name(parameter_name):"
-msgstr ""
+msgstr "func 函数名（参数名）："
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 msgid "func (function_name): parameter_name"
-msgstr ""
+msgstr "func (函数名): 参数名"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 msgid "func function_name(parameter_name)"
-msgstr ""
+msgstr "func 函数名（参数名）"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 msgid "function_name(parameter_name):"
-msgstr ""
+msgstr "函数名（参数名）："
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:170
 msgid "Functions can have multiple parameters"
-msgstr ""
+msgstr "函数可以有多个参数"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:172
 msgid ""
@@ -163,10 +208,14 @@ msgid ""
 "To separate the function parameters, you need to write a comma between "
 "them."
 msgstr ""
+"您可以在一个函数中使用多个参数。 事实上，您可以使用 [i] 需要 [/i] "
+"的任意数量。\n"
+"\n"
+"要分隔函数参数，您需要在它们之间写一个逗号。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:192
 msgid "Must I write  spaces between function parameters?"
-msgstr ""
+msgstr "我必须在函数参数之间写空格吗？"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:194
 msgid ""
@@ -179,16 +228,22 @@ msgid ""
 "\n"
 "We often use spaces after the comma for readability."
 msgstr ""
+"在函数定义中，[code]func[/code] 关键字和函数名之间必须有一个空格。\n"
+"\n"
+"但是，因为我们使用逗号分隔参数，所以参数之间是否使用空格无关紧要。 "
+"只要你有逗号，任何一种语法都是正确的。\n"
+"\n"
+"为了便于阅读，我们经常在逗号后使用空格。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:208
 msgid ""
 "The following example defines a function that uses two parameters to move"
 " an entity on both the X and Y axes."
-msgstr ""
+msgstr "以下示例定义了一个函数，该函数使用两个参数在 X 轴和 Y 轴上移动实体。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:226
 msgid "How should I name my functions and parameters?"
-msgstr ""
+msgstr "我应该如何命名我的函数和参数？"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:228
 msgid ""
@@ -224,58 +279,83 @@ msgid ""
 "Based on a few characters you type, it will offer you to complete long "
 "names."
 msgstr ""
+"代码中的函数、参数或其他内容的名称完全取决于您。\n"
+"\n"
+"它们是我们程序员为其他程序员编写的。您想使用对您和其他程序员最有意义的名称。"
+"\n"
+"\n"
+"你绝对可以像在数学课中那样写单字母名称：[code]a[/code]、[code]b[/code]、[code"
+"]f[/code]。\n"
+"\n"
+"您还可以写缩写名称，例如 [code]pos[/code] 表示位置，[code]bg[/code] "
+"表示背景，等等。\n"
+"\n"
+"许多程序员都做上述任何一种或两种。\n"
+"\n"
+"在 GDQuest，我们倾向于完整和明确的名称。\n"
+"\n"
+"我们通常会尝试编写明确且相对容易阅读的代码。\n"
+"\n"
+"现在，您必须在编码时输入每个字母，因此长名称可能会让人感到不便。\n"
+"\n"
+"但是，这对学习有好处：它可以训练您的手指精确打字。\n"
+"\n"
+"然后，在您完成本课程后，您会发现当您使用称为自动完成的功能编写真实游戏时，计"
+"算机会为您提供很多帮助。\n"
+"\n"
+"根据您键入的几个字符，它会为您提供完整的长名称。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:256
 msgid "When defining a function, parameters are..."
-msgstr ""
+msgstr "定义函数时，参数..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:259
 msgid ""
 "You can define functions with or without parameters, depending on your "
 "needs."
-msgstr ""
+msgstr "您可以根据需要定义带或不带参数的函数。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:260
 #: course/lesson-6-multiple-function-parameters/lesson.tres:261
 msgid "Optional"
-msgstr ""
+msgstr "可选"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:260
 msgid "Mandatory"
-msgstr ""
+msgstr "强制的"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:268
 msgid "What's the correct syntax to define a function with multiple parameters?"
-msgstr ""
+msgstr "定义具有多个参数的函数的正确语法是什么？"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:271
 msgid ""
 "You always write the function parameters inside of the parentheses. To "
 "define multiple parameters, you separate them with a comma."
-msgstr ""
+msgstr "您总是将函数参数写在括号内。 要定义多个参数，请用逗号分隔它们。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:272
 #: course/lesson-6-multiple-function-parameters/lesson.tres:273
 msgid "func function_name(parameter_1, parameter_2, ...):"
-msgstr ""
+msgstr "func 函数名（参数_1，参数_2，...）："
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:272
 msgid "func function_name(parameter_1 parameter_2 ...):"
-msgstr ""
+msgstr "func 函数名（参数_1 参数_2 ...）："
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:272
 msgid "func function_name(): parameter_1, parameter_2, ..."
-msgstr ""
+msgstr "func 函数名（）：参数_1，参数_2，..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:282
 msgid ""
 "Now it's your turn to create a function with multiple parameters: a "
 "function to draw rectangles of any size."
-msgstr ""
+msgstr "现在轮到你创建一个具有多个参数的函数了：一个绘制任意大小矩形的函数。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:290
 msgid "Drawing corners of different sizes"
-msgstr ""
+msgstr "绘制不同大小的角"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:291
 msgid ""
@@ -292,16 +372,26 @@ msgid ""
 "Complete the [code]draw_corner()[/code] function so it uses the "
 "[code]length[/code] parameter to draw corners."
 msgstr ""
+"在我们创建任意大小的矩形之前，让我们先看看如何使用参数来绘制更简单的形状。\n"
+"\n"
+"这里我们有一个不完整的函数，它可以用任意长度的线绘制角，但是它缺少它的 "
+"[code]length[/code] 参数。\n"
+"\n"
+"该函数将把海龟向前移动一个由参数 [code]length[/code] 定义的量，转动 "
+"[code]90[/code] 度，然后向前移动 [code]length[/code] 个像素。\n"
+"\n"
+"完成 [code]draw_corner()[/code] 函数，使其使用 [code]length[/code] "
+"参数绘制角。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:309
 msgid ""
 "Using function parameters, code a function you can reuse to draw corners "
 "with lines of varying sizes."
-msgstr ""
+msgstr "使用函数参数，编写一个函数，您可以重复使用以绘制不同大小的线的角。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:314
 msgid "Using multiple parameters"
-msgstr ""
+msgstr "使用多个参数"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:315
 msgid ""
@@ -311,14 +401,19 @@ msgid ""
 "Add the [code]angle[/code] parameter to the [code]draw_corner()[/code] "
 "function and use it to draw corners of varying angles."
 msgstr ""
+"在这个实践中，我们将改进我们的 [code]draw_corner()[/code] "
+"函数，以便角度也可以变化。\n"
+"\n"
+"将 [code]angle[/code] 参数添加到 [code]draw_corner()[/code] "
+"函数中，并使用它来绘制不同角度的角。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:329
 msgid "With two parameters, code a function to draw corners with any angle."
-msgstr ""
+msgstr "使用两个参数，编写一个函数来绘制任意角度的角。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:334
 msgid "Drawing squares of any size"
-msgstr ""
+msgstr "绘制任意大小的正方形"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:335
 msgid ""
@@ -333,16 +428,26 @@ msgid ""
 "The turtle should face towards the right when starting or completing a "
 "rectangle."
 msgstr ""
+"我们想要一个函数来绘制任意大小的正方形。\n"
+"\n"
+"在战术游戏中选择单位时，我们可以将这些正方形用作轮廓，用作库存中物品的框架等"
+"等。\n"
+"\n"
+"创建一个名为 [code]draw_square()[/code] 的函数，它采用一个参数：正方形边的 "
+"[code]length[/code]。\n"
+"\n"
+"开始或完成一个矩形时，乌龟应该面向右侧。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:350
 msgid ""
 "In the previous lesson, your function would draw squares of a fixed size."
 " Using a parameter, code a function to draw squares of any size."
-msgstr ""
+msgstr "在上一课中，您的函数将绘制固定大小的正方形。 "
+"使用一个参数，编写一个函数来绘制任意大小的正方形。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:355
 msgid "Drawing rectangles of any size"
-msgstr ""
+msgstr "绘制任意大小的矩形"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:356
 msgid ""
@@ -360,13 +465,23 @@ msgid ""
 " by having the [code]length[/code] and [code]height[/code] equal the same"
 " value."
 msgstr ""
+"让我们让正方形绘图功能更加灵活，以包含不同大小的矩形。\n"
+"\n"
+"你的工作是编写一个名为 [code]draw_rectangle()[/code] 的函数，它接受两个参数："
+"矩形的 [code]length[/code] 和 [code]height[/code]。\n"
+"\n"
+"开始或完成一个矩形时，乌龟应该面向右侧。\n"
+"\n"
+"请注意，我们仍然可以使用 [code]draw_rectangle()[/code] 通过使 "
+"[code]length[/code] 和 [code]height[/code] 等于相同的值来绘制正方形。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:379
 msgid ""
 "With one parameter, you can make squares of any size. With two, you can "
 "draw any rectangle! You'll do so in this practice."
-msgstr ""
+msgstr "使用一个参数，您可以制作任意大小的正方形。 有了两个，您可以绘制任何矩形！ "
+"您将在本练习中这样做。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:383
 msgid "Your First Function Parameter"
-msgstr ""
+msgstr "您的第一个函数参数"
