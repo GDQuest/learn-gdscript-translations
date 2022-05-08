@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-08 14:10+0000\n"
+"Last-Translator: 巽星石 <xun19900424@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-28-specifying-types/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-28-specifying-types/lesson.tres:13
@@ -26,16 +29,20 @@ msgid ""
 "\n"
 "Unlike in some other languages, in GDScript, the following code is valid."
 msgstr ""
+"默认情况下，GDScript 就是我们所说的动态类型语言。 这意味着您可以只编写变量，"
+"为它们分配一个带有数字的值，然后为它们分配另一个具有不同类型的值。\n"
+"\n"
+"与其他一些语言不同，在 GDScript 中，以下代码是有效的。"
 
 #: course/lesson-28-specifying-types/lesson.tres:35
 msgid ""
 "But this feature often causes problems down the line. Let's take one "
 "example."
-msgstr ""
+msgstr "但是此功能通常会导致问题。 让我们举一个例子。"
 
 #: course/lesson-28-specifying-types/lesson.tres:43
 msgid "Cell size: decimal number, or 2D vector?"
-msgstr ""
+msgstr "格子大小：十进制数还是二维向量？"
 
 #: course/lesson-28-specifying-types/lesson.tres:45
 msgid ""
@@ -51,12 +58,22 @@ msgid ""
 "\n"
 "Either of those two values would be fine:"
 msgstr ""
+"游戏一直都在使用网格，无论是基于网格的游戏玩法还是让算法更快。\n"
+"\n"
+"使用网格时，您需要始终将网格坐标转换为游戏世界中的位置。 "
+"为此，您需要为每个单元格指定一个像素大小。\n"
+"\n"
+"您可能会为此选择以下两种类型之一：[code]float[/code] 或 "
+"[code]Vector2[/code]。\n"
+"\n"
+"这两个值中的任何一个都可以："
 
 #: course/lesson-28-specifying-types/lesson.tres:71
 msgid ""
 "Using a [code]Vector2[/code] could simplify some calculations. For "
 "example, when converting grid coordinates to game world coordinates."
-msgstr ""
+msgstr "使用 [code]Vector2[/code] 可以简化一些计算。 "
+"例如，将网格坐标转换为游戏世界坐标时。"
 
 #: course/lesson-28-specifying-types/lesson.tres:91
 msgid ""
@@ -67,6 +84,10 @@ msgid ""
 "However, if [code]cell_size[/code] is a [code]float[/code], we will get a"
 " type error."
 msgstr ""
+"在这个例子中，因为 [code]cell[/code] 和 [code]cell_size[/code] 都是 "
+"[code]Vector2[/code] 值，我们可以添加它们。\n"
+"\n"
+"但是，如果 [code]cell_size[/code] 是 [code]float[/code]，我们将收到类型错误。"
 
 #: course/lesson-28-specifying-types/lesson.tres:123
 msgid ""
@@ -76,6 +97,10 @@ msgid ""
 "\n"
 "And that's a big problem."
 msgstr ""
+"更糟糕的是：由于动态类型，我们不会立即得到错误 [i][/i]。 我们只会在调用 "
+"[code]grid_to_world(Vector2(1, 1))[/code] 时得到错误。\n"
+"\n"
+"这是一个大问题。"
 
 #: course/lesson-28-specifying-types/lesson.tres:135
 msgid ""
@@ -86,10 +111,16 @@ msgid ""
 "And with a lot of code, it could take [i]hours[/i] of play before players"
 " trigger a type error in your code."
 msgstr ""
+"因为我们正在学习，所以我们在本课程中只有小代码示例。 "
+"但是您的游戏代码会变长并分成许多文件。 编码时，您经常会忘记几周前编写的代码。"
+"\n"
+"\n"
+"并且使用大量代码，玩家可能需要 [i] 小时 [/i] "
+"的播放时间才能触发代码中的类型错误。"
 
 #: course/lesson-28-specifying-types/lesson.tres:145
 msgid "Using type hints"
-msgstr ""
+msgstr "使用类型提示"
 
 #: course/lesson-28-specifying-types/lesson.tres:147
 msgid ""
@@ -101,22 +132,29 @@ msgid ""
 "To specify the type a variable can accept, you can write a colon and a "
 "type after the name when defining a new variable."
 msgstr ""
+"幸运的是，GDScript 有可选的 [i] 类型提示[/i]。\n"
+"\n"
+"类型提示让计算机知道您想要的变量值类型并在运行代码之前报告错误。\n"
+"\n"
+"要指定变量可以接受的类型，可以在定义新变量时在名称后写一个冒号和一个类型。"
 
 #: course/lesson-28-specifying-types/lesson.tres:171
 msgid ""
 "You could tell the computer you want [code]cell_size[/code] only to "
 "accept [code]Vector2[/code] values like so."
-msgstr ""
+msgstr "您可以告诉计算机您希望 [code]cell_size[/code] 只接受 [code]Vector2[/code] "
+"这样的值。"
 
 #: course/lesson-28-specifying-types/lesson.tres:191
 msgid ""
 "If you try to replace the [code]cell_size[/code] with a value of another "
 "type later, the computer will not let you."
-msgstr ""
+msgstr "如果您稍后尝试将 [code]cell_size[/code] "
+"替换为其他类型的值，计算机将不会让您这样做。"
 
 #: course/lesson-28-specifying-types/lesson.tres:219
 msgid "Letting the computer figure it out"
-msgstr ""
+msgstr "让电脑自己解决"
 
 #: course/lesson-28-specifying-types/lesson.tres:221
 msgid ""
@@ -128,16 +166,23 @@ msgid ""
 "set the type using the value after the equal sign. We could make "
 "[code]cell_size[/code] a variable of type [code]Vector2[/code] like so:"
 msgstr ""
+"GDScript 带有一个称为 [i]type inference[/i] 的功能。 "
+"在许多情况下，但不是全部情况下，计算机可以为您找出变量的类型。\n"
+"\n"
+"为此，您编写 [code]:=[/code]，不带类型。 计算机将使用等号后面的值设置类型。 "
+"我们可以将 [code]cell_size[/code] 设为 [code]Vector2[/code] "
+"类型的变量，如下所示："
 
 #: course/lesson-28-specifying-types/lesson.tres:243
 msgid ""
 "This takes little typing, yet you get the benefits of using type hints, "
 "like the computer reporting errors better and faster."
-msgstr ""
+msgstr "这需要很少的输入，但您会获得使用类型提示的好处，例如计算机更好更快地报告错误"
+"。"
 
 #: course/lesson-28-specifying-types/lesson.tres:251
 msgid "Why bother to add hints?"
-msgstr ""
+msgstr "为什么要添加提示？"
 
 #: course/lesson-28-specifying-types/lesson.tres:253
 msgid ""
@@ -156,10 +201,21 @@ msgid ""
 "In the following practices, you will write the correct type hints to make"
 " the code error-free."
 msgstr ""
+"当你给出这样的语言提示时，它将[i]防止[/i]主要类型错误。 当您在 Godot "
+"中工作时，您会看到计算机可以在您编写代码时报告问题。 它使收益更大。\n"
+"\n"
+"类型提示还可以帮助提高代码的可读性。 它可以帮助将更多信息直接放入代码中。 正"
+"如我们所看到的，类型在编码时是必不可少的，当使用类型提示时，计算机会将它们添"
+"加到引擎的内置代码文档系统中。\n"
+"\n"
+"还有一个令人难以置信的第三个好处：通过使用类型提示，您将更快地学习类型。 "
+"它非常适合学习。\n"
+"\n"
+"在以下实践中，您将编写正确的类型提示以使代码无错误。"
 
 #: course/lesson-28-specifying-types/lesson.tres:267
 msgid "Add the correct type hints to variables"
-msgstr ""
+msgstr "向变量添加正确的类型提示"
 
 #: course/lesson-28-specifying-types/lesson.tres:268
 msgid ""
@@ -171,16 +227,22 @@ msgid ""
 "Note: You cannot use type inference in this practice. You need to write "
 "the type name in full."
 msgstr ""
+"我们的变量得到了正确的值，但没有得到正确的提示。 使用您的 type-"
+"fu，在变量定义中添加正确的类型名称。\n"
+"\n"
+"您需要在冒号和等号之间写入类型名称。\n"
+"\n"
+"注意：您不能在此实践中使用类型推断。 您需要完整填写类型名称。"
 
 #: course/lesson-28-specifying-types/lesson.tres:282
 msgid ""
 "Our variables have the wrong type hints, causing errors. Correct them to "
 "make the code run."
-msgstr ""
+msgstr "我们的变量有错误的类型提示，导致错误。 更正它们以使代码运行。"
 
 #: course/lesson-28-specifying-types/lesson.tres:287
 msgid "Fix the values to match the type hints"
-msgstr ""
+msgstr "修复值以匹配类型提示"
 
 #: course/lesson-28-specifying-types/lesson.tres:288
 msgid ""
@@ -190,13 +252,17 @@ msgid ""
 "Your task is to fix the values after the equal sign, so they match the "
 "type hint of each variable."
 msgstr ""
+"在这种做法中情况正好相反：类型提示很好，但值不是。\n"
+"\n"
+"您的任务是修复等号后的值，使它们与每个变量的类型提示相匹配。"
 
 #: course/lesson-28-specifying-types/lesson.tres:300
 msgid ""
 "This time, it's the other way around: variables have the correct type "
 "hints but the wrong values. Change the values to make the code run."
-msgstr ""
+msgstr "这一次，情况正好相反：变量有正确的类型提示，但有错误的值。 "
+"更改值以使代码运行。"
 
 #: course/lesson-28-specifying-types/lesson.tres:304
 msgid "Specifying types with type hints"
-msgstr ""
+msgstr "使用类型提示指定类型"
