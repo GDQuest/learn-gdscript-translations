@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-08 12:00+0000\n"
+"Last-Translator: Haoyu Qiu <timothyqiu32@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-2-your-first-error/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-2-your-first-error/lesson.tres:14
@@ -32,16 +35,26 @@ msgid ""
 " something, it's not the case: [b]errors help you write correct "
 "programs[/b]."
 msgstr ""
+"编写程序时，你肯定会遇到报错，而且超级多。\n"
+"\n"
+"不过你不必担心！对于计算机而言，[b]报错是好事[/b]。\n"
+"\n"
+"你会遇到报错，但[i]没有什么大不了的[/i]：所有程序员都会遇到。专业人士遇到得尤"
+"其多。\n"
+"\n"
+"在学校里，你可能认为犯错是坏事。编写代码时则不同：[b]这些错误可以帮助你编写正"
+"确的程序[/b]。"
 
 #: course/lesson-2-your-first-error/lesson.tres:30
 msgid ""
 "A code error looks like this. It's a message that tells you some bit of "
 "your code doesn't work."
-msgstr ""
+msgstr "代码错误看上去类似这样。这就是一条消息，告诉你你的代码里有些内容无法正常工作"
+"。"
 
 #: course/lesson-2-your-first-error/lesson.tres:48
 msgid "Making errors friendlier"
-msgstr ""
+msgstr "让报错更友好"
 
 #: course/lesson-2-your-first-error/lesson.tres:50
 msgid ""
@@ -53,6 +66,12 @@ msgid ""
 "It shows you why an error happens and what the message means. It also "
 "gives you some tips on how to fix it."
 msgstr ""
+"错误消息可能看上去很难理解。这是因为它们是程序员设计的，针对的是训练有素的程"
+"序员。\n"
+"\n"
+"我们在这个应用中添加了错误翻译器，来帮助你入门。\n"
+"\n"
+"它会显示为什么会报这个错误，以及错误消息是含义是什么。还会给你一些修复建议。"
 
 #: course/lesson-2-your-first-error/lesson.tres:74
 msgid ""
@@ -63,10 +82,15 @@ msgid ""
 "you from the past. Importantly, errors won't break your computer. At "
 "least not with GDScript because it's a pretty safe language."
 msgstr ""
+"错误是程序员先驱故意设计的消息。他们预料到你可能遇到了特定的问题。\n"
+"\n"
+"你不应该把错误理解为自己的失败。它们是来自过去的导师，是来帮助你的。重要的是"
+"，错误并不会破坏你的电脑。至少用 GDScript "
+"的时候不会，因为这是一门相当安全的语言。"
 
 #: course/lesson-2-your-first-error/lesson.tres:84
 msgid "Are errors a good or a bad thing in code?"
-msgstr ""
+msgstr "代码报错是好事还是坏事？"
 
 #: course/lesson-2-your-first-error/lesson.tres:87
 msgid ""
@@ -76,25 +100,30 @@ msgid ""
 " experience, you'll learn to make your code work more reliably thanks to "
 "error messages."
 msgstr ""
+"是的，报错是来帮你的！\n"
+"\n"
+"请集中注意，尽最大努力去阅读和理解它们。随着经验的积累，你将逐渐学会利用错误"
+"信息来让你的代码更可靠地工作。"
 
 #: course/lesson-2-your-first-error/lesson.tres:90
 msgid "They're bad: errors are always bad."
-msgstr ""
+msgstr "坏事：错误都是不应该的。"
 
 #: course/lesson-2-your-first-error/lesson.tres:90
 #: course/lesson-2-your-first-error/lesson.tres:91
 msgid "They're good: they're here to help."
-msgstr ""
+msgstr "好事：它们能帮到你。"
 
 #: course/lesson-2-your-first-error/lesson.tres:100
 msgid ""
 "Okay, let's see an error in action. Once again, click the [i]Practice[/i]"
 " button below to face your first real error."
-msgstr ""
+msgstr "好了，让我们来看看实际操作中的报错。还是那句话，请点击下方的[i]练习[/i]按钮，"
+"迎接你的第一个实际的错误。"
 
 #: course/lesson-2-your-first-error/lesson.tres:108
 msgid "Fix Your First Error"
-msgstr ""
+msgstr "修正你的第一个错误"
 
 #: course/lesson-2-your-first-error/lesson.tres:109
 msgid ""
@@ -114,11 +143,24 @@ msgid ""
 "Otherwise, that'll cause another error. You may try that too, if you feel"
 " like it."
 msgstr ""
+"这段代码并不正确，你尝试运行的话就会引起报错。\n"
+"\n"
+"代码中定义了一个空的函数，叫作 [code]this_code_is_wrong[/code]。\n"
+"\n"
+"要让它正常工作，就应该使用 [code]return[/code] "
+"关键字。不过这个关键字目前位于注释之中，会被计算机忽略。\n"
+"\n"
+"请点击[i]运行[/i]按钮测试目前的代码。\n"
+"\n"
+"然后，请移除注释标记（#），让代码有效。\n"
+"\n"
+"请小心，不要把 [code]return[/code] "
+"之前的空白也一并移除！否则就会引起另一种报错。如果你喜欢的话，也可以试试。"
 
 #: course/lesson-2-your-first-error/lesson.tres:129
 msgid "There's an error in this code. We need you to fix it!"
-msgstr ""
+msgstr "这段代码中有一个错误。我们需要你来修正！"
 
 #: course/lesson-2-your-first-error/lesson.tres:133
 msgid "Your First Error"
-msgstr ""
+msgstr "你的第一个错误"
