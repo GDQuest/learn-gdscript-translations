@@ -9,30 +9,34 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-08 14:10+0000\n"
+"Last-Translator: 巽星石 <xun19900424@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-4-drawing-a-rectangle/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:14
 msgid ""
 "We'll use code created by others like we did in the previous lesson. This"
 " time, we'll solve a more complicated problem: drawing shapes."
-msgstr ""
+msgstr "我们将使用其他人创建的代码，就像我们在上一课中所做的那样。 "
+"这一次，我们将解决一个更复杂的问题：绘制形状。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:22
 msgid "Meet the turtle"
-msgstr ""
+msgstr "遇见乌龟"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:24
 msgid ""
 "We present you: the turtle! We created the turtle to teach you how to "
 "call functions."
-msgstr ""
+msgstr "我们向您介绍：乌龟！ 我们创建了海龟来教你如何调用函数。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:44
 msgid ""
@@ -60,6 +64,23 @@ msgid ""
 "For example, to move the turtle 200 pixels, you would write "
 "[code]move_forward(200)[/code]."
 msgstr ""
+"乌龟是一个小机器，它会向前移动、转动并沿着它的路径画线。\n"
+"\n"
+"为了让它绘制，你给它一个指令列表：在每一行代码上，你调用一个特定的函数。\n"
+"\n"
+"我们为您准备了几个功能：\n"
+"\n"
+"- [code]move_forward(pixels)[/code] 使海龟向前移动 [i]pixels[/i] "
+"中的给定距离。\n"
+"- [code]turn_right(degrees)[/code] 使海龟向右转动精确的 [i]degrees[/i]。\n"
+"- [code]turn_left(degrees)[/code] 与 [code]turn_right(degrees)[/code] "
+"相同，只是海龟向左转。\n"
+"\n"
+"您将像以前使用 [code]rotate()[/code] 一样使用这些函数。\n"
+"\n"
+"乌龟在移动时会画一条白线。 我们将使用这条线来绘制形状。\n"
+"\n"
+"例如，要将海龟移动 200 像素，您可以编写 [code]move_forward(200)[/code]。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:78
 msgid ""
@@ -72,6 +93,12 @@ msgid ""
 "If we call [code]turn_right(45)[/code], the turtle turns 45 degrees to "
 "the right before moving on to the next instruction."
 msgstr ""
+"[code]turn_left()[/code] 和 [code]turn_right()[/code] 功能相同。\n"
+"\n"
+"要向右转 45 度，可以编写 [code]turn_right(45)[/code]。\n"
+"\n"
+"如果我们调用 [code]turn_right(45)[/code]，海龟会向右转 45 "
+"度，然后继续执行下一条指令。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:102
 msgid ""
@@ -82,14 +109,20 @@ msgid ""
 "In the next practice, you'll use the functions we saw above to first draw"
 " a corner, then a rectangle like this one."
 msgstr ""
+"使用这些说明，我们可以制作任何我们喜欢的二维形状！\n"
+"\n"
+"试着理解下面的例子。\n"
+"\n"
+"在下一个练习中，您将使用我们在上面看到的函数首先绘制一个角，然后绘制一个像这"
+"样的矩形。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
 msgid "In the function definition below, which part is the function parameter?"
-msgstr ""
+msgstr "在下面的函数定义中，哪一部分是函数参数？"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
 msgid "[code]func move_forward(pixels)[/code]"
-msgstr ""
+msgstr "[code]func move_forward(pixels)[/code]"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:127
 msgid ""
@@ -99,23 +132,27 @@ msgid ""
 "The [code]func[/code] keyword tells the computer you're defining a new "
 "function, and [code]move_forward[/code] is the function's name."
 msgstr ""
+"函数参数位于函数定义的括号内。\n"
+"\n"
+"[code]func[/code] 关键字告诉计算机您正在定义一个新函数，而 "
+"[code]move_forward[/code] 是函数的名称。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:130
 msgid "func"
-msgstr ""
+msgstr "func"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:130
 msgid "move_forward"
-msgstr ""
+msgstr "move_forward"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:130
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:131
 msgid "pixels"
-msgstr ""
+msgstr "像素"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:138
 msgid "Drawing a Corner"
-msgstr ""
+msgstr "画一个角"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:139
 msgid ""
@@ -139,17 +176,32 @@ msgid ""
 "rectangles.\n"
 "\n"
 msgstr ""
+"在这个练习中，我们将告诉海龟画一个角。\n"
+"\n"
+"角由两条 [code]200[/code] 像素长的线组成。 这些线在每一端以 [code]90[/code] "
+"度或直角连接。\n"
+"\n"
+"右边的 [code]move_forward()[/code] 和 [code]turn_right()[/code] "
+"函数画了一个角，但它们缺少一些参数。\n"
+"\n"
+"添加缺少的参数，使海龟向前移动 [code]200[/code] 像素，向右转 [code]90[/code] "
+"度，然后再次向前移动 [code]200[/code] 像素。\n"
+"\n"
+"我们为您添加了第一个参数，以便海龟向前移动 [code]200[/code] 像素。\n"
+"\n"
+"在下面的实践中，我们将绘制多个角来创建矩形。\n"
+"\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:163
 msgid ""
 "Use the turtle to draw a square's corner. You'll then build upon it to "
 "draw a rectangle."
-msgstr ""
+msgstr "使用海龟画一个正方形的角。 然后，您将在它的基础上绘制一个矩形。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:168
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:216
 msgid "Drawing a Rectangle"
-msgstr ""
+msgstr "绘制一个矩形"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:169
 msgid ""
@@ -162,14 +214,20 @@ msgid ""
 "In the next practice, you'll use the same functions to draw a bigger "
 "rectangle."
 msgstr ""
+"在函数[code]move_forward()[/code]和[code]turn_right()[/code]中添加正确的参数"
+"，绘制一个宽度为[code]200[/code]像素、高度为 [code]120[/code] 像素。\n"
+"\n"
+"我们为您编写了第一个参数。\n"
+"\n"
+"在下一个练习中，您将使用相同的函数来绘制一个更大的矩形。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:189
 msgid "Based on your rectangle corner, you now need to draw a complete rectangle."
-msgstr ""
+msgstr "根据您的矩形角，您现在需要绘制一个完整的矩形。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:194
 msgid "Drawing a Bigger Rectangle"
-msgstr ""
+msgstr "画一个更大的矩形"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:195
 msgid ""
@@ -185,9 +243,18 @@ msgid ""
 "computer understands it's part of the [code]draw_rectangle()[/code] "
 "function."
 msgstr ""
+"写出对函数 [code]move_forward()[/code] 和 [code]turn_right()[/code] 的调用，"
+"以绘制一个宽度为 220 像素、高度为 260 像素的矩形。\n"
+"\n"
+"我们为您编写了前两行。\n"
+"\n"
+"确保将每条指令写在单独的行上。\n"
+"\n"
+"每一行都应该以一个 [code]Tab[/code] 字符开头，以便计算机理解它是 "
+"[code]draw_rectangle()[/code] 函数的一部分。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:212
 msgid ""
 "At this point, you're ready to code entirely on your own. Call functions "
 "by yourself to draw a complete rectangle."
-msgstr ""
+msgstr "此时，您已准备好完全自己编写代码。 自己调用函数绘制一个完整的矩形。"
