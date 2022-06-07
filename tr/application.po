@@ -9,11 +9,11 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-05-20 14:17+0000\n"
-"Last-Translator: Oskar <weblate@rakso.nl>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/user-interface/nl/>\n"
-"Language: nl\n"
+"PO-Revision-Date: 2022-06-07 15:58+0000\n"
+"Last-Translator: Ümit Kara <sakarian54@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/user-interface/tr/>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,336 +23,343 @@ msgstr ""
 
 #: resources/QuizInputField.gd:17
 msgid "You need to type a whole number for this answer. Example: 42"
-msgstr "Bij dit antwoord moet je een geheel getal typen. Bijvoorbeeld: 42"
+msgstr "Bu cevap için tam sayı yazmanız gerekiyor. Örnek: 42"
 
 #: resources/QuizInputField.gd:22
 msgid ""
 "You need to type a decimal for this answer. Use a \".\" to separate the "
 "decimal part. Example: 3.14"
 msgstr ""
-"Bij dit antwoord moet je een decimaal typen. Gebruik een \".\" om de "
-"decimaal te scheiden. Bijvoorbeeld: 3.14"
+"Bu cevap için bir ondalık sayı yazmanız gerekiyor. Ondalık kısmı ayırmak "
+"için \".\" kullanın. Örnek: 3.14"
 
 #: ui/UILesson.tscn:90
 msgid "Title"
-msgstr "Titel"
+msgstr "Başlık"
 
 #: ui/UILesson.tscn:125
+#, fuzzy
 msgid "Practices"
-msgstr "Praktijken"
+msgstr "Uygulamalar"
 
 #: ui/UINavigator.gd:350
 msgid "Go back in your navigation history"
-msgstr "Ga terug in je navigatiegeschiedenis"
+msgstr "Gezinme geçmişinizde geri dönün"
 
 #: ui/UINavigator.gd:353
 msgid "(no previous history)"
-msgstr "(geen vorige geschiedenis)"
+msgstr "(geçmiş kayıt bulunamadı)"
 
 #: ui/UIPractice.gd:133 ui/UIPractice.gd:191
 #, python-format
 msgid "Hint %s"
-msgstr "Hint %s"
+msgstr "İpucu %s"
 
 #: ui/UIPractice.gd:216
 msgid "Validating Your Code..."
-msgstr "Je Code Valideren..."
+msgstr "Kodunuz Doğrulanıyor..."
 
 #: ui/UIPractice.gd:269
 msgid "Running Your Code..."
-msgstr "Je Code Uitvoeren..."
+msgstr "Kodunuz Çalıştırılıyor..."
 
 #: ui/UIPractice.gd:300
 msgid "Running Tests..."
-msgstr "Tests Uitvoeren..."
+msgstr "Testler Çalıştırılıyor..."
 
 #: ui/UIPractice.tscn:138
 msgid "Suggested Solution"
-msgstr "Voorgestelde Oplossing"
+msgstr "Önerilen Çözüm"
 
 #: ui/UIPractice.tscn:189
 msgid "Use Solution"
-msgstr "Gebruik Oplossing"
+msgstr "Çözümü Kullan"
 
 #: ui/UIPractice.tscn:207
+#, fuzzy
 msgid "Leave unfinished practice?"
-msgstr "Onafgemaakte oefening verlaten?"
+msgstr "Bitmemiş uygulama kapatılsın mı?"
 
 #: ui/components/BigGreenButton.tscn:24
 msgid "Button"
-msgstr "Knop"
+msgstr "Buton"
 
 #: ui/components/CodeEditor.tscn:161
 msgid "Run"
-msgstr "Uitvoeren"
+msgstr "Çalıştır"
 
 #: ui/components/CodeEditor.tscn:175
 msgid "Pause"
-msgstr "Pauzeren"
+msgstr "Duraklat"
 
 #: ui/components/CodeEditor.tscn:190 ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
-msgstr "Resetten"
+msgstr "Sıfırla"
 
 #: ui/components/CodeEditor.tscn:212
 msgid "Solution"
-msgstr "Oplossing"
+msgstr "Çözüm"
 
 #: ui/components/CodeEditor.tscn:226 ui/components/OutputConsole.tscn:43
 msgid "Output"
-msgstr "Uitvoer"
+msgstr "Çıktı"
 
 #: ui/components/CodeEditor.tscn:241
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
-msgstr "Hervatten"
+msgstr "Devam et"
 
 #: ui/components/ConnectionIndicator.gd:17
 msgid "Connected to the server."
-msgstr "Verbonden met de server."
+msgstr "Sunucuya bağlanıldı."
 
 #: ui/components/ConnectionIndicator.gd:20
+#, fuzzy
 msgid ""
-"Can't reach the server. The server might be down, or your internet may be "
-"down."
-msgstr ""
-"Kan de server niet bereiken. De server kan uitgevallen zijn, of je internet "
-"ligt er uit."
+"Can't reach the server. The server might be down, or your internet may be"
+" down."
+msgstr "Sunucuya ulaşılamıyor. Sunucu veya internetiniz kapalı olabilir."
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
-msgstr "Gepauzeerd"
+msgstr "Duraklatıldı"
 
 #: ui/components/GlossaryPopup.tscn:37
+#, fuzzy
 msgid "Term"
-msgstr "Term"
+msgstr "Dönem"
 
 #: ui/components/GlossaryPopup.tscn:53
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
-msgstr "Onze foutmelding omschrijving."
+msgstr "Hata açıklamamız."
 
 #: ui/components/LockedOverlay.gd:14
 msgid "Can't reach the server. The tests will be less precise."
-msgstr "Kan de server niet bereiken. De tests zullen minder accuraat zijn."
+msgstr "Sunucuya ulaşılamıyor. Testler daha az hassas olacaktır."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
+#, fuzzy
 msgid "ERROR:"
-msgstr "FOUTMELDING:"
+msgstr "HATA:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 #: ui/components/ScrollableTextBox.tscn:43
 #: ui/screens/lesson/UIContentBlock.tscn:68
 msgid "Placeholder text"
-msgstr "Tijdelijke text"
+msgstr "Yer tutucu metin"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
+#, fuzzy
 msgid "in"
-msgstr "in"
+msgstr "içinde"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
 msgid "FileName"
-msgstr "BestandsNaam"
+msgstr "DosyaAdı"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
+#, fuzzy
 msgid "at"
-msgstr "bij"
+msgstr "de"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:82
 msgid "0:0"
 msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
-msgid ""
-"Sometimes errors are reported outside of your code. Why does that happen?"
-msgstr ""
-"Soms worden er foutmeldingen gerapporteerd van buiten jouw code. Waarom "
-"gebeurt dit?"
+msgid "Sometimes errors are reported outside of your code. Why does that happen?"
+msgstr "Bazen hatalar kodunuzun dışında rapor edilir. Bu neden oluyor olabilir?"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
 msgid "Explain"
-msgstr "Leg uit"
+msgstr "Açıkla"
 
 #: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
-msgstr "Waarde"
+msgstr "Değer"
 
 #: ui/components/Revealer.tscn:74
-#, fuzzy
 msgid "Expand"
-msgstr "Uitbreiden"
+msgstr "Genişlet"
 
 #: ui/components/RunnableCodeExample.tscn:96
 msgid "run()"
-msgstr "run()"
+msgstr "çalıştır()"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
 msgid "Confirm"
-msgstr "Bevestigen"
+msgstr "Onayla"
 
 #: ui/components/popups/ConfirmPopup.tscn:127
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr "İptal"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:46
 msgid "Original error message"
-msgstr "Oorspronkelijke foutmelding"
+msgstr "Orijinal hata mesajı"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:65
 msgid "Why this happens"
-msgstr "Waarom dit gebeurt"
+msgstr "Bu neden olur"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
 msgid "How to fix this"
-msgstr "Hoe dit op te lossen"
+msgstr "Bu nasıl düzeltilir"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:91
 msgid "Our suggestion on how to fix it."
-msgstr "Onze suggestie om dit op te lossen."
+msgstr "Nasıl düzeltileceğine dair önerimiz."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:102
 msgid ""
 "Sorry, we don't have this particular error message covered yet!\n"
 "\n"
-"Please, use the [b]Report[/b] button in the top-right corner to tell us more "
-"about how you've got it, and we will try to improve our knowledge base for "
-"the next version of the application.\n"
+"Please, use the [b]Report[/b] button in the top-right corner to tell us "
+"more about how you've got it, and we will try to improve our knowledge "
+"base for the next version of the application.\n"
 "\n"
 "[center]Thank you![/center]"
 msgstr ""
-"Sorry, we hebben deze specifieke foutmelding nog niet behandeld.\n"
+"Üzgünüz, henüz bu özel hata mesajını ele almadık!\n"
 "\n"
-"Graag de [b]Rapporteer[/b] knop in de rechter-boven hoek gebruiken om ons "
-"meer te vertellen hoe je deze melding hebt gekregen, dan zullen wij proberen "
-"onze kennisbank te verbeteren in de volgende versie van de applicatie.\n"
+"Lütfen sağ üst köşedeki [b]Bildir[/b] düğmesini kullanarak bize nasıl elde "
+"ettiğiniz hakkında daha fazla bilgi verin; uygulamanın bir sonraki sürümü "
+"için bilgi tabanımızı geliştirmeye çalışacağız.\n"
 "\n"
-"[center]Dank je![/center]"
+"[center]Teşekkürler![/center]"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:128
 msgid "Hide"
-msgstr "Verbergen"
+msgstr "Gizle"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
+#, fuzzy
 msgid "Where do external errors come from?"
-msgstr "Waar komen externe foutmeldingen vandaan?"
+msgstr "Harici hatalar nereden geliyor?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
 msgid ""
-"Lessons in this course are constructed in such a way that you only need to "
-"edit the [b]important bits[/b]. But there is much more code outside of what "
-"you see that makes the project run.\n"
+"Lessons in this course are constructed in such a way that you only need "
+"to edit the [b]important bits[/b]. But there is much more code outside of"
+" what you see that makes the project run.\n"
 "\n"
 "This means that sometimes changes that you make can affect code that you "
 "have no control over. But don't worry, you can still fix all the issues "
 "yourself with the code you [b]can[/b] edit!\n"
 "\n"
-"[i]This is kind of like game engines work too.[/i] There is a lot of hidden "
-"code that they execute to make sure your projects runs smoothly. And yet, an "
-"error in your scripts can break them. We'll try to explain how to address "
-"each individual error that you face. Quick, click the [b]Explain[/b] button "
-"next to the error message!"
+"[i]This is kind of like game engines work too.[/i] There is a lot of "
+"hidden code that they execute to make sure your projects runs smoothly. "
+"And yet, an error in your scripts can break them. We'll try to explain "
+"how to address each individual error that you face. Quick, click the "
+"[b]Explain[/b] button next to the error message!"
 msgstr ""
-"Lessen in deze cursus zijn op zo'n wijze opgezet dat je alleen de "
-"[b]belangrijke stukken[/b] hoeft aan te passen. Maar er is veel meer code, "
-"buiten die je kunt zien, welke er voor zorgt dat je het project kunt "
-"uitvoeren.\n"
+"Bu kurstaki dersler, yalnızca [b]önemli kısımları[/b] düzenlemeniz gerekecek "
+"şekilde oluşturulmuştur. Ancak gördüğünüzün dışında projenin çalışmasını "
+"sağlayan çok daha fazla kod var.\n"
 "\n"
-"Soms betekent dit dat aanpassingen die je maakt aan de code een effect heeft "
-"op codee waar je geen invloed op hebt. Niet gevreest, je kunt zelf nog "
-"steeds alle problemen oplossen met de code die je [b]kunt[/b] aanpassen.\n"
+"Bu, bazen yaptığınız değişikliklerin üzerinde kontrolünüz olmayan kodları "
+"etkileyebileceği anlamına gelir. Ancak endişelenmeyin, "
+"[b]düzenleyebileceğiniz[/b] kod ile tüm sorunları kendiniz düzeltebilirsiniz!"
 "\n"
-"[i]Zo werkt het bij game engines ook.[/i] Er is heel veel verborgen code "
-"welke uitgevoerd wordt om je project naadloos uit te voeren. En toch kan een "
-"fout in je scrips deze breken. We zullen proberen uit te leggen hoe elke "
-"individuele foutmelding aan te pakken die je tegenkomt. Snel, klik de [b]"
-"[Uitleg[/b] knop naast de foutmelding!"
+"\n"
+"[i]Bu, oyun motorlarının da çalışması gibidir.[/i] Projelerinizin sorunsuz "
+"çalıştığından emin olmak için yürüttükleri çok sayıda gizli kod vardır. Yine "
+"de, komut dosyalarınızdaki bir hata onları bozabilir. Karşılaştığınız her "
+"bir hatayı nasıl ele alacağınızı açıklamaya çalışacağız. Çabuk, hata "
+"mesajının yanındaki [b]Açıkla[/b] düğmesine tıklayın!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
-msgstr "Ik snap het!"
+msgstr "Anladım!"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
-msgstr "Les afgerond!"
+msgstr "Ders tamamlandı!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
-"Baar er zijn nog steeds oefeningen\n"
-"die je hebt overgeslagen."
+"Ancak hala tamamlamadığınız \n"
+"uygulamalar var."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
+#, fuzzy
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
-"[center][b]Blijf[/b] en herzie het stuidie materiaal,\n"
-"of [b]ga verder[/b] met de cursus.[/center]"
+"[center][b]Kalın[/b] ve çalışma materyalini tekrar gözden geçirin,\n"
+"veya [b]kursa devam edin[/b].[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 #: ui/components/popups/PracticeDonePopup.tscn:144
+#, fuzzy
 msgid "Stay"
-msgstr "Blijf"
+msgstr "Kal"
 
 #: ui/components/popups/PracticeDonePopup.tscn:89
 msgid "Well done!"
-msgstr "Goed gedaan!"
+msgstr "Aferin!"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
-msgstr "Je hebt de oefening afgerond."
+msgstr "Uygulamayı tamamladınız."
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
+#, fuzzy
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
-"[center][b]Blijf[/b] en speel verder,\n"
-"of [b]ga verder[/b] met de cursus.[/center]"
+"[center][b]Kalın[/b] ve etrafta vakit geçirin,\n"
+"veya [b]kursa devam edin[/b].[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:67
 msgid "Practice List"
-msgstr "Oefeningen Lijst"
+msgstr "Uygulama Listesi"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:226
 msgid "Close"
-msgstr "Sluiten"
+msgstr "Kapat"
 
 #: ui/components/popups/ReportFormPopup.tscn:66
 msgid "Report an issue"
-msgstr "Meld een probleem"
+msgstr "Bir sorun bildirin"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
+#, fuzzy
 msgid ""
-"If you face an issue in the app, please click the link below to report it on "
-"GitHub:\n"
+"If you face an issue in the app, please click the link below to report it"
+" on GitHub:\n"
 "\n"
-"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
-"> GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
+"[center][b][url=https://github.com/GDQuest/learn-"
+"gdscript/issues]GitHub.com > GDQuest > learn-gdscript > "
+"Issues[/url][/b][/center]\n"
 "\n"
-"On that page, you can report any issues, whether something's not working or "
-"there's an error in a lesson.\n"
+"On that page, you can report any issues, whether something's not working "
+"or there's an error in a lesson.\n"
 "\n"
 "You can generate a log to help us identify the problem. To do so, click "
 "here: [b][url=download]generate error log[/url][/b].\n"
 "\n"
-"Please drag and drop the generated file onto your issue on GitHub to attach "
-"it.\n"
+"Please drag and drop the generated file onto your issue on GitHub to "
+"attach it.\n"
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]\n"
 "\n"
-"GitHub is an online platform to host and manage open-source projects like "
-"the GDScript Learn app. It helps developers organize their work and "
+"GitHub is an online platform to host and manage open-source projects like"
+" the GDScript Learn app. It helps developers organize their work and "
 "collaborate online.\n"
 "\n"
-"You can use GitHub to study the source code of many open projects, report "
-"issues, or even contribute code yourself.\n"
+"You can use GitHub to study the source code of many open projects, report"
+" issues, or even contribute code yourself.\n"
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]\n"
 "\n"
@@ -368,104 +375,108 @@ msgid ""
 "\n"
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
-"Als je een probleem tegenkomt in de app, klik dan op de onderstaande link om "
-"dit op GitHub te melden:\n"
+"Uygulamada bir sorunla karşılaşırsanız, lütfen GitHub'da bildirmek için "
+"aşağıdaki bağlantıya tıklayın:\n"
 "\n"
 "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
 "> GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
 "\n"
-"Op die pagina kun je eventuele problemen melden, als iets niet werkt, of als "
-"er een fout in een les zit.\n"
+"Bu sayfada, bir şeyin çalışmaması veya bir derste hata olması gibi her türlü "
+"sorunu bildirebilirsiniz.\n"
 "\n"
-"Je kan een log-bestand genereren om ons te helpen het probleem te "
-"identificeren. Klik hier: [b][url=download]genereer fouten log[/url][/b].\n"
+"Sorunu tanımlamamıza yardımcı olmak için bir günlük oluşturabilirsiniz. Bunu "
+"yapmak için buraya tıklayın: [b][url=download]hata günlüğü oluştur[/url][/b]."
 "\n"
-"Sleep het gegenereerde bestand naar je melding (issue) op GitHub om het bij "
-"te voegen.\n"
 "\n"
-"[font=res://ui/theme/fonts/font_title.tres]Wat is GitHub[/font]\n"
+"Oluşturulan dosyayı eklemek için lütfen GitHub'daki sorununuza sürükleyip "
+"bırakın.\n"
 "\n"
-"GitHub is een online platform voor het hosten en beheren van open-"
-"sourceprojecten zoals de GDScript Learn-app. Het helpt ontwikkelaars hun "
-"werk te organiseren en online samen te werken.\n"
+"[font=res://ui/theme/fonts/font_title.tres]GitHub nedir[/font]\n"
 "\n"
-"Je kunt GitHub gebruiken om de broncode van veel open projecten te "
-"bestuderen, problemen te melden, of zelfs zelf code bij te dragen.\n"
+"GitHub, GDScript Learn uygulaması gibi açık kaynaklı projeleri barındırmak "
+"ve yönetmek için kullanılan çevrimiçi bir platformdur. Geliştiricilerin "
+"çalışmalarını düzenlemelerine ve çevrimiçi işbirliği yapmalarına yardımcı "
+"olur.\n"
 "\n"
-"[font=res://ui/theme/fonts/font_title.tres]Een probleem melden[/font]\n"
+"GitHub'ı birçok açık projenin kaynak kodunu incelemek, sorunları bildirmek "
+"ve hatta koda kendiniz katkıda bulunmak için kullanabilirsiniz.\n"
 "\n"
-"1. Klik op de bovenstaande link om naar de pagina [i]GitHub Issues[/i] te "
-"gaan.\n"
-"2. Klik op de knop [i]New issue[/i].\n"
-"3. Vul het formulier in om ons meer over het probleem te vertellen.\n"
+"[font=res://ui/theme/fonts/font_title.tres]Bir sorun nasıl bildirilir[/font]"
 "\n"
-"Je hebt hiervoor een GitHub-account nodig.\n"
 "\n"
-"Voeg zoveel mogelijk relevante informatie toe, zoals het soort apparaat dat "
-"je gebruikt om toegang te krijgen tot de app en voeg eventueel een "
-"screenshot of video bij waarin het probleem wordt getoond.\n"
+"1. [i]GitHub Sorunları[/i] sayfasına gitmek için yukarıdaki bağlantıya "
+"tıklayın.\n"
+"2. [i]Yeni Sorun[/i] düğmesine tıklayın.\n"
+"3. Bize sorununuz hakkında daha fazla bilgi vermek için formu doldurun.\n"
 "\n"
-"[center]Bedankt voor het bijdragen aan open source![/center]"
+"Bunu yapmak için bir GitHub hesabına ihtiyacınız olacak.\n"
+"\n"
+"Lütfen uygulamaya erişmek için kullandığınız cihaz türü gibi mümkün "
+"olduğunca çok ilgili bilgi ekleyin ve belki sorunu gösteren bir ekran "
+"görüntüsü veya video klip ekleyin.\n"
+"\n"
+"[center]Açık kaynağa katkıda bulunduğunuz için teşekkür ederiz![/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:158
 msgid "OK"
-msgstr "OK"
+msgstr "TAMAM."
 
 #: ui/components/popups/SettingsPopup.tscn:79
 msgid "Configure the App"
-msgstr "App Configureren"
+msgstr "Uygulamayı Yapılandırın"
 
 #: ui/components/popups/SettingsPopup.tscn:106
 msgid "Language"
-msgstr "Taal"
+msgstr "Dil"
 
 #: ui/components/popups/SettingsPopup.tscn:126
 msgid "Text Size"
-msgstr "Tekstgrootte"
+msgstr "Metin boyutu"
 
 #: ui/components/popups/SettingsPopup.tscn:153
 msgid "Sample text"
-msgstr "Voorbeeldtekst"
+msgstr "Örnek metin"
 
 #: ui/components/popups/SettingsPopup.tscn:166
 msgid "Scroll sensitivity"
-msgstr "Scroll gevoeligheid"
+msgstr "Kaydırma hassasiyeti"
 
 #: ui/components/popups/SettingsPopup.tscn:192
 msgid "Framerate cap"
-msgstr "Framerate-limiet"
+msgstr "Kare hızı sınırı"
 
 #: ui/components/popups/SettingsPopup.tscn:241
 msgid "Apply"
-msgstr "Toepassen"
+msgstr "Uygula"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:93
 msgid "Open Lesson"
-msgstr "Les Openen"
+msgstr "Açık Ders"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:95
 msgid "Continue Lesson"
-msgstr "Les Hervatten"
+msgstr "Derse Devam Et"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:97
 msgid "Start Lesson"
-msgstr "Les Starten"
+msgstr "Dersi Başlat"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
 msgid "Lesson Title Goes Here"
-msgstr "Les Titel Komt Hier"
+msgstr "Ders Başlığı Buraya Gelecek"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
+#, fuzzy
 msgid "Lesson read"
-msgstr "Les gelezen"
+msgstr "Ders metni"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:56
 msgid "0%"
-msgstr "0%"
+msgstr "%0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:79
 msgid "Quizzes completed"
-msgstr "Quizzen afgerond"
+msgstr "Sınavlar tamamlandı"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:108
@@ -474,188 +485,194 @@ msgstr "0 / 0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:100
 msgid "Practices completed"
-msgstr "Oefeningen voltooid"
+msgstr "Uygulamalar tamamlandı"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:36
 msgid "Lesson 0"
-msgstr "Les 0"
+msgstr "Ders 0"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
 msgid "Lesson Title"
-msgstr "Les Titel"
+msgstr "Ders Başlığı"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
 msgid "Course Index - "
-msgstr "Cursus Inhoudsopgave - "
+msgstr "Ders Dizini - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
-msgstr "Cursus Titel Komt Hier"
+msgstr "Ders Adı Buraya Gelecek"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
-msgstr "Voortgang Resetten"
+msgstr "İlerlemeyi Sıfırla"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
+#, fuzzy
 msgid "Confirm Resetting Progress"
-msgstr "Voortgang Resetten Bevestigen"
+msgstr "Sıfırlamayı Onayla"
 
 #: ui/screens/end_screen/EndScreen.tscn:122
 msgid "That's it... for now!"
-msgstr "Dat is het... voor nu!"
+msgstr "Şimdilik bu kadar!"
 
 #: ui/screens/end_screen/EndScreen.tscn:160
+#, fuzzy
 msgid ""
 "Thanks for participating in the beta test.\n"
 "\n"
 "We hope you enjoyed what's available so far.\n"
 "\n"
-"We wish we had a lot more to give you already, but creating this app took "
-"time. A [i]lot[/i] of time.\n"
+"We wish we had a lot more to give you already, but creating this app took"
+" time. A [i]lot[/i] of time.\n"
 "\n"
 "The good news is: now we figured out many of the more challenging parts, "
 "moving forward, we can shift our focus onto new lessons and practices."
 msgstr ""
-"Bedankt voor je deelname aan de bètatest.\n"
+"Beta testine katıldığınız için teşekkür ederiz.\n"
 "\n"
-"We hopen dat je genoten hebt van wat er tot nu toe beschikbaar is.\n"
+"Umarız şu ana kadar mevcut olan içeriği beğenmişsinizdir.\n"
 "\n"
-"We zouden willen dat we je al veel meer konden bieden, maar het maken van "
-"deze app kostte tijd. Heel [i]veel[/i] tijd.\n"
+"Size verebileceğimiz çok daha fazla şey olmasını isterdik, ancak bu "
+"uygulamayı oluşturmak zaman aldı. [i]Çok fazla[/i] zaman.\n"
 "\n"
-"Het goede nieuws is: nu we veel van de meer uitdagende onderdelen hebben "
-"uitgevogeld, kunnen we ons focussen op nieuwe lessen en oefeningen."
+"İyi haber şu: Artık zorlu kısımların çoğunu çözdük, ileriye dönük olarak "
+"odağımızı yeni derslere ve uygulamalar olarak belirledik."
 
 #: ui/screens/end_screen/EndScreen.tscn:188
+#, fuzzy
 msgid ""
 "[font=res://ui/theme/fonts/font_title.tres]What's coming next[/font]\n"
 "\n"
 "We have plans for many more lessons and improvements.\n"
 "\n"
-"You can find our plan for future releases on our [url=https://github.com/"
-"GDQuest/learn-gdscript#roadmap]roadmap[/url]."
+"You can find our plan for future releases on our "
+"[url=https://github.com/GDQuest/learn-gdscript#roadmap]roadmap[/url]."
 msgstr ""
-"[font=res://ui/theme/fonts/font_title.tres]What's coming next[/font]\n"
+"[font=res://ui/theme/fonts/font_title.tres]Sırada ne var[/font]\n"
 "\n"
-"We hebben plannen voor veel meer lessen en verbeteringen.\n"
+"Daha birçok ders ve iyileştirme için planlarımız var.\n"
 "\n"
-"Je kunt onze plannen voor toekomstige uitgaven vinden op onze [url=https://"
-"github.com/GDQuest/learn-gdscript#roadmap]roadmap[/url]."
+"Gelecek sürümler için planımızı [url=https://github.com/GDQuest/learn-"
+"gdscript#roadmap]yol haritamızda[/url] bulabilirsiniz."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
-msgstr "[b]Vraag[/b]"
+msgstr "[b]Soru[/b]"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
 msgid "Explanation"
-msgstr "Uitleg"
+msgstr "Açıklama"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:107
 msgid "Skip"
-msgstr "Overslaan"
+msgstr "Atla"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
-msgstr "Indienen"
+msgstr "Gönder"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr "Je hebt het goed!"
+msgstr "Doğru!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
-msgstr "Antwoorden hier"
+msgstr "Cevabını buraya yaz"
 
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
-msgstr "Leer Meer"
+msgstr "Daha fazla bilgi edin"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr "Tijdelijke Kop"
+msgstr "Yer tutucu başlık"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
-msgstr "Titel Oefening"
+msgstr "Uygulama başlığı"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
-msgstr "volgende"
+msgstr "sonraki"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
-msgstr "Oefening"
+msgstr "Uygulama"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
-msgstr "Je bevind je hier"
+msgstr "Buradasınız"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
-msgstr "Antwoord Label"
+msgstr "Cevap etiketi"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
+#, fuzzy
 msgid "(select all that apply)"
-msgstr "(selecteer alles wat van toepassing is)"
+msgstr "(geçerli olanların tümünü seçin)"
 
 #: ui/screens/practice/PracticeHint.tscn:8
 msgid "Show Hint"
-msgstr "Toon Hint"
+msgstr "İpucu Göster"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:143
 msgid "Method descriptions"
-msgstr "Methode omschrijvingen"
+msgstr "Yöntem açıklamaları"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:159
+#, fuzzy
 msgid "Property descriptions"
-msgstr "Eigenshap omschrijvingen"
+msgstr "Özellik açıklamaları"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
 msgid "Summary - Lesson Name"
-msgstr "Samenvatting - Les Naam"
+msgstr "Özet - Ders Adı"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
-msgstr "Doelen"
+msgstr "Hedefler"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:119
 msgid "Hints"
-msgstr "Hints"
+msgstr "İpuçları"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
+#, fuzzy
 msgid "Checks"
-msgstr "Controles"
+msgstr "Kontroller"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:134
 msgid "Documentation"
-msgstr "Documentatie"
+msgstr "Dokümantasyon"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:175
 msgid "Open Practice List"
-msgstr "Open Oefeningen Lijst"
+msgstr "Uygulama Listesini Aç"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:42
 msgid "Test text"
-msgstr "Test tekst"
+msgstr "Test metni"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:42
 msgid "CONTINUE"
-msgstr "VERDER GAAN"
+msgstr "DEVAM ET"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:44
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:627
 msgid "START"
-msgstr "START"
+msgstr "BAŞLA"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:645
 msgid "SELECT LESSON"
-msgstr "SELECTEER LES"
+msgstr "DERS SEÇ"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:659
 msgid "OPTIONS"
-msgstr "OPTIES"
+msgstr "SEÇENEKLER"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:693
 msgid "QUIT"
-msgstr "AFSLUITEN"
+msgstr "ÇIKIŞ"
