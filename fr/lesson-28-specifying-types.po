@@ -6,18 +6,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Learn GDScript From Zero  \n"
+"Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-03-07 21:03+0100\n"
+"PO-Revision-Date: 2022-05-16 09:25+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-28-specifying-types/lesson.tres:13
 msgid ""
@@ -27,15 +28,23 @@ msgid ""
 "\n"
 "Unlike in some other languages, in GDScript, the following code is valid."
 msgstr ""
+"Par défaut, GDScript est ce que nous appelons un langage à typage dynamique. "
+"Cela signifie que vous pouvez simplement écrire des variables, leur assigner "
+"une valeur avec un nombre et leur assigner une autre valeur avec un type "
+"différent.\n"
+"\n"
+"Contrairement à d'autres langages, en GDScript, le code suivant est valide."
 
 #: course/lesson-28-specifying-types/lesson.tres:35
 msgid ""
 "But this feature often causes problems down the line. Let's take one example."
 msgstr ""
+"Mais cette fonctionnalité entraîne souvent des problèmes par la suite. "
+"Prenons un exemple."
 
 #: course/lesson-28-specifying-types/lesson.tres:43
 msgid "Cell size: decimal number, or 2D vector?"
-msgstr ""
+msgstr "Taille de la case : nombre décimal ou vecteur 2D ?"
 
 #: course/lesson-28-specifying-types/lesson.tres:45
 msgid ""
@@ -51,12 +60,26 @@ msgid ""
 "\n"
 "Either of those two values would be fine:"
 msgstr ""
+"Les jeux utilisent des grilles tout le temps, que ce soit pour un gameplay "
+"basé sur une grille ou pour rendre les algorithmes plus rapides.\n"
+"\n"
+"Lorsque vous travaillez avec des grilles, vous devez convertir les "
+"coordonnées de la grille en positions du monde du jeu tout le temps. Pour ce "
+"faire, vous donnez à chaque case une taille en pixels.\n"
+"\n"
+"Vous choisirez probablement l'un des deux types suivants pour cela : "
+"[code]float[/code] ou [code]Vector2[/code].\n"
+"\n"
+"L'une ou l'autre de ces deux valeurs ferait l'affaire :"
 
 #: course/lesson-28-specifying-types/lesson.tres:71
 msgid ""
 "Using a [code]Vector2[/code] could simplify some calculations. For example, "
 "when converting grid coordinates to game world coordinates."
 msgstr ""
+"L'utilisation d'un [code]Vector2[/code] pourrait simplifier certains "
+"calculs. Par exemple, lors de la conversion des coordonnées de la grille en "
+"coordonnées du monde du jeu."
 
 #: course/lesson-28-specifying-types/lesson.tres:91
 msgid ""
@@ -66,6 +89,11 @@ msgid ""
 "However, if [code]cell_size[/code] is a [code]float[/code], we will get a "
 "type error."
 msgstr ""
+"Dans cet exemple, comme [code]cell[/code] et [code]cell_size[/code] sont "
+"tous deux des valeurs [code]Vector2[/code], nous pouvons les additionner.\n"
+"\n"
+"Cependant, si [code]cell_size[/code] est un [code]float[/code], nous "
+"obtiendrons une erreur de type."
 
 #: course/lesson-28-specifying-types/lesson.tres:123
 msgid ""
@@ -75,6 +103,11 @@ msgid ""
 "\n"
 "And that's a big problem."
 msgstr ""
+"Pire : en raison du typage dynamique, nous n'obtiendrons pas d'erreur "
+"[i]tout de suite[/i]. Nous n'obtiendrons l'erreur que lors de l'appel de "
+"[code]grid_to_world(Vector2(1, 1))[/code].\n"
+"\n"
+"Et c'est un gros problème."
 
 #: course/lesson-28-specifying-types/lesson.tres:135
 msgid ""
@@ -85,10 +118,17 @@ msgid ""
 "And with a lot of code, it could take [i]hours[/i] of play before players "
 "trigger a type error in your code."
 msgstr ""
+"Comme nous sommes en train d'apprendre, nous n'avons que de petits exemples "
+"de code dans ce cours. Mais le code de vos jeux deviendra long et sera "
+"divisé en plusieurs fichiers. Lorsque l'on code, on oublie souvent le code "
+"que l'on a écrit il y a plusieurs semaines.\n"
+"\n"
+"Et avec beaucoup de code, cela peut prendre des [i]heures[/i] de jeu avant "
+"que les joueurs ne déclenchent une erreur de type dans votre code."
 
 #: course/lesson-28-specifying-types/lesson.tres:145
 msgid "Using type hints"
-msgstr ""
+msgstr "Utiliser des suggestions de type"
 
 #: course/lesson-28-specifying-types/lesson.tres:147
 msgid ""
@@ -100,22 +140,36 @@ msgid ""
 "To specify the type a variable can accept, you can write a colon and a type "
 "after the name when defining a new variable."
 msgstr ""
+"Heureusement, GDScript a des [i]suggestions de type[/i] facultatives.\n"
+"\n"
+"Les suggestions de type, ou « type hints », permettent à l'ordinateur de "
+"connaître le type de valeur que vous souhaitez pour les variables et de "
+"signaler des erreurs avant d'exécuter le code.\n"
+"\n"
+"Pour spécifier le type qu'une variable peut accepter, vous pouvez écrire "
+"deux points et un type après le nom lors de la définition d'une nouvelle "
+"variable."
 
 #: course/lesson-28-specifying-types/lesson.tres:171
 msgid ""
 "You could tell the computer you want [code]cell_size[/code] only to accept "
 "[code]Vector2[/code] values like so."
 msgstr ""
+"Vous pouvez dire à l'ordinateur que vous voulez que [code]cell_size[/code] "
+"n'accepte que les valeurs [code]Vector2[/code] comme ceci."
 
 #: course/lesson-28-specifying-types/lesson.tres:191
 msgid ""
 "If you try to replace the [code]cell_size[/code] with a value of another "
 "type later, the computer will not let you."
 msgstr ""
+"Si vous essayez de remplacer [code]cell_size[/code] par une valeur d'un "
+"autre type plus tard, l'ordinateur ne vous laissera pas faire."
 
 #: course/lesson-28-specifying-types/lesson.tres:219
+#, fuzzy
 msgid "Letting the computer figure it out"
-msgstr ""
+msgstr "Laisser l'ordinateur s'en sortir"
 
 #: course/lesson-28-specifying-types/lesson.tres:221
 msgid ""
@@ -126,16 +180,29 @@ msgid ""
 "the type using the value after the equal sign. We could make "
 "[code]cell_size[/code] a variable of type [code]Vector2[/code] like so:"
 msgstr ""
+"GDScript est livré avec une fonctionnalité appelée [i]inférence de type[/i]. "
+"Dans de nombreux cas, mais pas tous, l'ordinateur peut déterminer le type "
+"d'une variable pour vous.\n"
+"\n"
+"Pour ce faire, vous écrivez [code]:=[/code], sans le type. L'ordinateur "
+"définira le type à l'aide de la valeur située après le signe égal. Nous "
+"pourrions faire de [code]cell_size[/code] une variable de type "
+"[code]Vector2[/code] ainsi :"
 
+# typer un peu*
 #: course/lesson-28-specifying-types/lesson.tres:243
+#, fuzzy
 msgid ""
 "This takes little typing, yet you get the benefits of using type hints, like "
 "the computer reporting errors better and faster."
 msgstr ""
+"Cela demande un peu de frappe, mais vous bénéficiez des avantages de "
+"l'utilisation des suggestions de type, comme le fait que l'ordinateur "
+"signale les erreurs mieux et plus rapidement."
 
 #: course/lesson-28-specifying-types/lesson.tres:251
 msgid "Why bother to add hints?"
-msgstr ""
+msgstr "Pourquoi prendre la peine d'ajouter des suggestions de type ?"
 
 #: course/lesson-28-specifying-types/lesson.tres:253
 msgid ""
@@ -154,10 +221,28 @@ msgid ""
 "In the following practices, you will write the correct type hints to make "
 "the code error-free."
 msgstr ""
+"Lorsque vous donnez des suggestions au langage de cette manière, vous "
+"[i]prévenez[/i] les principales erreurs de type. Lorsque vous travaillez "
+"dans Godot, vous verrez que l'ordinateur peut signaler des problèmes au fur "
+"et à mesure que vous écrivez le code. Cela rend le bénéfice encore plus "
+"grand.\n"
+"\n"
+"Les suggestions de type peuvent également aider à améliorer la lisibilité de "
+"votre code. Cela peut vous aider à mettre plus d'informations directement "
+"dans le code. Comme nous l'avons vu, les types sont essentiels lorsque l'on "
+"code, et lors de l'utilisation de suggestions de type, l'ordinateur les "
+"ajoutera au système de documentation de code intégré au moteur.\n"
+"\n"
+"Il y a un troisième avantage incroyable pour vous : en utilisant les "
+"suggestions de type, vous apprendrez les types beaucoup plus rapidement. "
+"C'est excellent pour l'apprentissage.\n"
+"\n"
+"Dans la pratique suivante, vous écrirez les suggestions de type correctes "
+"pour faire que le code soit exempt d'erreurs."
 
 #: course/lesson-28-specifying-types/lesson.tres:267
 msgid "Add the correct type hints to variables"
-msgstr ""
+msgstr "Ajouter les suggestions de type correctes aux variables"
 
 #: course/lesson-28-specifying-types/lesson.tres:268
 msgid ""
@@ -169,16 +254,26 @@ msgid ""
 "Note: You cannot use type inference in this practice. You need to write the "
 "type name in full."
 msgstr ""
+"Nos variables reçoivent les bonnes valeurs mais pas les bonnes suggestions. "
+"Ajoutez les noms de type corrects dans les définitions des variables.\n"
+"\n"
+"Vous devez écrire le nom du type entre le deux-points et le signe égal.\n"
+"\n"
+"Remarque : Vous ne pouvez pas utiliser la suggestion de type dans cet "
+"exercice. Vous devez écrire le nom du type en entier."
 
 #: course/lesson-28-specifying-types/lesson.tres:282
 msgid ""
 "Our variables have the wrong type hints, causing errors. Correct them to "
 "make the code run."
 msgstr ""
+"Nos variables ont les mauvaises suggestions de type, ce qui provoque des "
+"erreurs. Corrigez-les pour que le code s'exécute."
 
 #: course/lesson-28-specifying-types/lesson.tres:287
 msgid "Fix the values to match the type hints"
 msgstr ""
+"Corriger les valeurs pour qu'elles correspondent aux suggestions de type"
 
 #: course/lesson-28-specifying-types/lesson.tres:288
 msgid ""
@@ -188,13 +283,24 @@ msgid ""
 "Your task is to fix the values after the equal sign, so they match the type "
 "hint of each variable."
 msgstr ""
+"C'est l'inverse dans cette pratique : les suggestions de type sont "
+"correctes, mais les valeurs ne le sont pas.\n"
+"\n"
+"Votre tâche consiste à corriger les valeurs après le signe égal, afin "
+"qu'elles correspondent à la suggestion de type de chaque variable."
 
 #: course/lesson-28-specifying-types/lesson.tres:300
 msgid ""
 "This time, it's the other way around: variables have the correct type hints "
 "but the wrong values. Change the values to make the code run."
 msgstr ""
+"Cette fois, c'est l'inverse : les variables ont les bonnes suggestions de "
+"type mais les mauvaises valeurs. Changez les valeurs pour que le code "
+"s'exécute."
 
+# indices de type
+# indications de type
+# type hinting
 #: course/lesson-28-specifying-types/lesson.tres:304
 msgid "Specifying types with type hints"
-msgstr ""
+msgstr "Spécification de types avec des suggestions de type"
