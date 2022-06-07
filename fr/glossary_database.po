@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-03-07 21:03+0100\n"
+"PO-Revision-Date: 2022-03-31 09:24+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -319,7 +319,7 @@ msgstr ""
 #. Reference: assign
 #: course/glossary.csv:45
 msgid "assign"
-msgstr "assign (« attribuer »)"
+msgstr "assigner"
 
 #. Reference: assign
 #: course/glossary.csv:45
@@ -327,7 +327,7 @@ msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
-"Attribuer une valeur à une variable signifie que vous stockez une valeur à "
+"Assigner une valeur à une variable signifie que vous stockez une valeur à "
 "l'intérieur de la variable. Vous faites cela avec le signe égal ([code]=[/"
 "code])."
 
@@ -341,10 +341,8 @@ msgstr "dictionnaire"
 msgid "dictionaries"
 msgstr "dictionnaires"
 
-# équipement aux statistiques de l´arme
 #. Reference: dictionary
 #: course/glossary.csv:52
-#, fuzzy
 msgid ""
 "A dictionary is a data structure that maps values with key-value pairs. When "
 "you give the dictionary a key, it finds and gives you back the corresponding "
@@ -372,10 +370,9 @@ msgstr ""
 "pratique pour mapper une cellule de grille à une unité ou un élément dans un "
 "jeu basé sur une grille.\n"
 "\n"
-"Vous utiliserez souvent des dictionnaires pour associer des fragments de "
-"données dans vos jeux. Par exemple, nous pourrions les utiliser pour "
-"associer le nom d'un équipement aux statistiques des armes dans une base de "
-"données.\n"
+"Vous utiliserez souvent des dictionnaires pour associer des données dans vos "
+"jeux. Par exemple, nous pourrions les utiliser pour associer le nom d'un "
+"équipement à ses statistiques dans une base de données.\n"
 "\n"
 "Comme les tableaux, ils sont un type de données fondamental que vous verrez "
 "dans de nombreux langages de programmation et que vous utiliserez beaucoup."
@@ -430,10 +427,8 @@ msgstr "fonction"
 msgid "functions"
 msgstr "fonctions"
 
-# Une fois qu'une fonction est définie,
 #. Reference: function
 #: course/glossary.csv:64
-#, fuzzy
 msgid ""
 "A function is a group of code instructions you give a name. When you define "
 "a function, you can call it any time to run all the instructions it "
@@ -602,11 +597,10 @@ msgstr ""
 #. Reference: return
 #: course/glossary.csv:88
 msgid "return"
-msgstr "return (« retour »)"
+msgstr "retour"
 
 #. Reference: return
 #: course/glossary.csv:88
-#, fuzzy
 msgid ""
 "Returning a value is the process of sending a value to the place where you "
 "call a function.\n"
@@ -614,8 +608,8 @@ msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed by "
 "a value, for example: [code]return -1[/code]."
 msgstr ""
-"Le retour d'une valeur est le processus qui consiste à envoyer une valeur à "
-"l'endroit où vous appelez une fonction.\n"
+"Le retour (en anglais [i]return[/i]) d'une valeur est le processus qui "
+"consiste à envoyer une valeur à l'endroit où vous appelez une fonction.\n"
 "\n"
 "Cela se produit lorsqu'une fonction utilise le mot-clé [code]return[/code] "
 "suivi d'une valeur, par exemple : [code]return -1[/code]."

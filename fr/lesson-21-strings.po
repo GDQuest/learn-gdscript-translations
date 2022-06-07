@@ -6,18 +6,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Learn GDScript From Zero  \n"
+"Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-03-07 21:03+0100\n"
+"PO-Revision-Date: 2022-04-30 14:43+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-21-strings/lesson.tres:14
 msgid ""
@@ -29,10 +30,19 @@ msgid ""
 "Strings are instrumental in games and applications. We use them to display "
 "information such as the description of a spell or the name of a character."
 msgstr ""
+"Tout au long de ce cours, nous avons principalement stocké des nombres dans "
+"des variables. Mais que faire si nous voulions stocker le nom d'un joueur ?\n"
+"\n"
+"C'est là que les chaînes de caractères nous aident.\n"
+"\n"
+"Les chaînes de caractères sont essentielles dans les jeux et les "
+"applications. Nous les utilisons pour afficher des informations telles que "
+"la description d'un sort ou le nom d'un personnage."
 
 #: course/lesson-21-strings/lesson.tres:36
+#, fuzzy
 msgid "What are strings"
-msgstr ""
+msgstr "Que sont les chaînes de caractères"
 
 #: course/lesson-21-strings/lesson.tres:38
 msgid ""
@@ -45,6 +55,16 @@ msgid ""
 "\n"
 "You may remember we've used strings before in previous lessons."
 msgstr ""
+"Une chaîne de caractères, ou [code]String[/code], est un type de valeur qui "
+"contient du texte. Pour créer un [code]String[/code], vous écrivez du texte "
+"entouré de guillemets ([code]\"\"[/code]). Par exemple : [code] \"Ceci est "
+"une chaîne de texte.\"[/code]\n"
+"\n"
+"Les guillemets différencient les chaînes de caractères des autres types de "
+"valeurs et noms de fonctions.\n"
+"\n"
+"Vous vous souvenez peut-être que nous avons déjà utilisé des chaînes de "
+"caractères dans des leçons précédentes."
 
 #: course/lesson-21-strings/lesson.tres:62
 msgid ""
@@ -52,10 +72,14 @@ msgid ""
 "[code]for[/code] loop to loop through the characters of a [code]String[/"
 "code] as we would with any other array."
 msgstr ""
+"Sous le capot, les chaînes de caractères sont des tableaux de caractères. En "
+"fait, nous pouvons utiliser une boucle [code]for[/code] pour parcourir les "
+"caractères d'un [code]String[/code] comme nous le ferions avec n'importe "
+"quel autre tableau."
 
 #: course/lesson-21-strings/lesson.tres:80
 msgid "Which of these are strings?"
-msgstr ""
+msgstr "Lesquels de ces éléments sont des chaînes de caractères ?"
 
 #: course/lesson-21-strings/lesson.tres:83
 msgid ""
@@ -66,25 +90,34 @@ msgid ""
 "\n"
 "[code]\"name\"[/code] is made up of four different characters."
 msgstr ""
+"[code]\"1\"[/code] et [code]\"name\"[/code] sont des chaînes de caractères.\n"
+"\n"
+"[code]\"1\"[/code] contient uniquement un caractère et [i]ne représente pas[/"
+"i] le nombre [code]1[/code].\n"
+"\n"
+"[code]\"name\"[/code] est composé de quatre caractères différents."
 
 #: course/lesson-21-strings/lesson.tres:88
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"1\""
-msgstr ""
+msgstr "\"1\""
 
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"name\""
-msgstr ""
+msgstr "\"name\""
 
+# Pourquoi utilisons-nous des chaînes de caractères ?
 #: course/lesson-21-strings/lesson.tres:96
+#, fuzzy
 msgid "Why we use strings"
-msgstr ""
+msgstr "Pourquoi nous utilisons des chaînes de caractères"
 
+# d'aide
 #: course/lesson-21-strings/lesson.tres:118
 msgid ""
 "Every piece of text you see in this app is a string that Godot is displaying "
@@ -98,16 +131,29 @@ msgid ""
 "animations. In this example, the [code]play_animation()[/code] plays a "
 "specific animation."
 msgstr ""
+"Chaque morceau de texte que vous voyez dans cette application est une chaîne "
+"de caractères que Godot affiche pour nous.\n"
+"\n"
+"Tout comme les variables [code]Vector2[/code] facilitent les calculs, les "
+"variables [code]string[/code] sont accompagnées de nombreuses fonctions "
+"auxiliaires et d'astuces que nous pouvons utiliser.\n"
+"\n"
+"Nous pouvons également utiliser des tableaux pour stocker des chaînes de "
+"caractères. Ceci est utile pour enchaîner des animations. Dans cet "
+"exemple, \n"
+"[code]play_animation()[/code] joue une animation spécifique."
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
 "In the next few practices, we'll use strings in combination with different "
 "concepts from earlier lessons."
 msgstr ""
+"Dans les exercices suivants, nous utiliserons des chaînes de caractères en "
+"combinaison avec différents concepts des leçons précédentes."
 
 #: course/lesson-21-strings/lesson.tres:150
 msgid "Creating string variables"
-msgstr ""
+msgstr "Créer des variables de chaîne de caractères"
 
 #: course/lesson-21-strings/lesson.tres:151
 msgid ""
@@ -117,14 +163,21 @@ msgid ""
 "Change the [code]robot_name[/code] variable so that it's a string instead. "
 "You can give it any name you'd like."
 msgstr ""
+"Actuellement, le robot a un nombre enregistré dans la variable "
+"[code]robot_name[/code].\n"
+"\n"
+"Modifiez la variable [code]robot_name[/code] pour qu'elle soit une chaîne de "
+"caractères à la place. Vous pouvez lui donner le nom que vous souhaitez."
 
 #: course/lesson-21-strings/lesson.tres:161
 msgid "Give the robot a readable name using a string stored in a variable."
 msgstr ""
+"Donnez au robot un nom lisible en utilisant une chaîne de caractères stockée "
+"dans une variable."
 
 #: course/lesson-21-strings/lesson.tres:166
 msgid "Using an array of strings to play a combo"
-msgstr ""
+msgstr "Utiliser un tableau de chaînes de caractères pour jouer un combo"
 
 #: course/lesson-21-strings/lesson.tres:167
 msgid ""
@@ -144,11 +197,29 @@ msgid ""
 "The robot should do the following actions in order: [code]jab, jab, "
 "uppercut[/code]."
 msgstr ""
+"Dans cet exercice, nous allons enchaîner des animations à l'aide d'un "
+"tableau de chaînes de caractères. Vous pourriez trouver de telles "
+"combinaisons dans les jeux de combat.\n"
+"\n"
+"Le robot a les noms d'animation suivants :\n"
+"\n"
+"- [code]jab[/code] (le robot donne un coup de poing rapide)\n"
+"- [code]uppercut[/code] (le robot utilise un puissant coup de poing en "
+"sautant)\n"
+"\n"
+"Remplissez le tableau de combos avec les noms des animations sous forme de "
+"chaînes de caractères.\n"
+"\n"
+"Ensuite, pour chaque action du tableau, appelez la fonction "
+"[code]play_animation()[/code] pour les jouer.\n"
+"\n"
+"Le robot doit effectuer les actions suivantes dans l'ordre : [code]jab, jab, "
+"uppercut[/code]."
 
 #: course/lesson-21-strings/lesson.tres:186
 msgid "Define an array of strings to unleash a powerful combo."
-msgstr ""
+msgstr "Définissez un tableau de chaînes pour déclencher un combo puissant."
 
 #: course/lesson-21-strings/lesson.tres:190
 msgid "Strings"
-msgstr ""
+msgstr "Chaînes de caractères"
