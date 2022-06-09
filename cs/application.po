@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-04-04 19:11+0000\n"
-"Last-Translator: Jakub Krejčí <krejci.jakub@volny.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/application/cs/>\n"
+"PO-Revision-Date: 2022-06-09 12:41+0000\n"
+"Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/user-interface/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
@@ -43,170 +43,172 @@ msgstr "Cvičení"
 
 #: ui/UINavigator.gd:350
 msgid "Go back in your navigation history"
-msgstr ""
+msgstr "Návrat do historie navigace"
 
 #: ui/UINavigator.gd:353
 msgid "(no previous history)"
-msgstr ""
+msgstr "(žádná předchozí historie)"
 
 #: ui/UIPractice.gd:133 ui/UIPractice.gd:191
 #, python-format
 msgid "Hint %s"
-msgstr ""
+msgstr "Tip %s"
 
 #: ui/UIPractice.gd:216
 msgid "Validating Your Code..."
-msgstr ""
+msgstr "Ověřování kódu..."
 
 #: ui/UIPractice.gd:269
 msgid "Running Your Code..."
-msgstr ""
+msgstr "Probíhá spouštění kódu..."
 
 #: ui/UIPractice.gd:300
 msgid "Running Tests..."
-msgstr ""
+msgstr "Probíhají testy..."
 
 #: ui/UIPractice.tscn:138
 msgid "Suggested Solution"
-msgstr ""
+msgstr "Navrhované řešení"
 
 #: ui/UIPractice.tscn:189
 msgid "Use Solution"
-msgstr ""
+msgstr "Použít řešení"
 
 #: ui/UIPractice.tscn:207
 msgid "Leave unfinished practice?"
-msgstr ""
+msgstr "Opustit nedokončené cvičení?"
 
 #: ui/components/BigGreenButton.tscn:24
 msgid "Button"
-msgstr ""
+msgstr "Tlačítko"
 
 #: ui/components/CodeEditor.tscn:161
 msgid "Run"
-msgstr ""
+msgstr "Spustit"
 
 #: ui/components/CodeEditor.tscn:175
 msgid "Pause"
-msgstr ""
+msgstr "Pauza"
 
 #: ui/components/CodeEditor.tscn:190 ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
-msgstr ""
+msgstr "Resetovat"
 
 #: ui/components/CodeEditor.tscn:212
 msgid "Solution"
-msgstr ""
+msgstr "Řešení"
 
 #: ui/components/CodeEditor.tscn:226 ui/components/OutputConsole.tscn:43
 msgid "Output"
-msgstr ""
+msgstr "Výstup"
 
 #: ui/components/CodeEditor.tscn:241
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
-msgstr ""
+msgstr "Pokračovat"
 
 #: ui/components/ConnectionIndicator.gd:17
 msgid "Connected to the server."
-msgstr ""
+msgstr "Připojeno k serveru."
 
 #: ui/components/ConnectionIndicator.gd:20
 msgid ""
 "Can't reach the server. The server might be down, or your internet may be "
 "down."
 msgstr ""
+"Nelze se spojit se serverem. Server může být vypnutý nebo může být vypnutý "
+"váš internet."
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
-msgstr ""
+msgstr "Pozastaveno"
 
 #: ui/components/GlossaryPopup.tscn:37
 msgid "Term"
-msgstr ""
+msgstr "Termín"
 
 #: ui/components/GlossaryPopup.tscn:53
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
-msgstr ""
+msgstr "Naše vysvětlení chyby."
 
 #: ui/components/LockedOverlay.gd:14
 msgid "Can't reach the server. The tests will be less precise."
-msgstr ""
+msgstr "Nelze se spojit se serverem. Testy budou méně přesné."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
 msgid "ERROR:"
-msgstr ""
+msgstr "CHYBA:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 #: ui/components/ScrollableTextBox.tscn:43
 #: ui/screens/lesson/UIContentBlock.tscn:68
 msgid "Placeholder text"
-msgstr ""
+msgstr "Zástupný text"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
-msgstr ""
+msgstr "v"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
 msgid "FileName"
-msgstr ""
+msgstr "Název souboru"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
 msgid "at"
-msgstr ""
+msgstr "na"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:82
 msgid "0:0"
-msgstr ""
+msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
 msgid ""
 "Sometimes errors are reported outside of your code. Why does that happen?"
-msgstr ""
+msgstr "Někdy jsou chyby hlášeny mimo váš kód. Proč se to děje?"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
 msgid "Explain"
-msgstr ""
+msgstr "Vysvětlit"
 
 #: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
-msgstr ""
+msgstr "Hodnota"
 
 #: ui/components/Revealer.tscn:74
 msgid "Expand"
-msgstr ""
+msgstr "Rozbalit"
 
 #: ui/components/RunnableCodeExample.tscn:96
 msgid "run()"
-msgstr ""
+msgstr "run()"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdit"
 
 #: ui/components/popups/ConfirmPopup.tscn:127
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:46
 msgid "Original error message"
-msgstr ""
+msgstr "Původní chybová zpráva"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:65
 msgid "Why this happens"
-msgstr ""
+msgstr "Proč k tomu dochází"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
 msgid "How to fix this"
-msgstr ""
+msgstr "Jak to opravit"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:91
 msgid "Our suggestion on how to fix it."
-msgstr ""
+msgstr "Náš návrh, jak to opravit."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:102
 msgid ""
@@ -218,14 +220,21 @@ msgid ""
 "\n"
 "[center]Thank you![/center]"
 msgstr ""
+"Omlouváme se, ale tuto konkrétní chybovou zprávu zatím neznáme!\n"
+"\n"
+"Použijte prosím tlačítko [b]Report[/b] v pravém horním rohu, abyste nám "
+"sdělili více informací o tom, jak se vám to stalo, a my se pokusíme vylepšit "
+"naši znalostní databázi pro příští verzi aplikace.\n"
+"\n"
+"[center]Děkujeme vám![/center]"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:128
 msgid "Hide"
-msgstr ""
+msgstr "Skrýt"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
 msgid "Where do external errors come from?"
-msgstr ""
+msgstr "Odkud se berou externí chyby?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
 msgid ""
@@ -243,58 +252,77 @@ msgid ""
 "each individual error that you face. Quick, click the [b]Explain[/b] button "
 "next to the error message!"
 msgstr ""
+"Lekce v tomto kurzu jsou sestaveny tak, abyste museli upravovat pouze [b]"
+"důležité části[/b]. Mimo to, co vidíte, však existuje mnohem více kódu, "
+"který zajišťuje běh projektu.\n"
+"\n"
+"To znamená, že změny, které provedete, mohou někdy ovlivnit kód nad kterým "
+"nemáte kontrolu. Ale nemějte obavy, všechny problémy můžete stále opravit "
+"sami pomocí kódu, který [b]můžete[/b] upravovat!\n"
+"\n"
+"[i]Tak nějak fungují i herní enginy.[/i] Existuje spousta skrytého kódu, "
+"který zajišťuje hladký chod vašich projektů. A přesto je chyba ve vašich "
+"skriptech může rozbít. Pokusíme se vám vysvětlit, jak řešit jednotlivé "
+"chyby, se kterými se setkáte. Rychle klikněte na tlačítko [b]Vysvětlení[/b] "
+"vedle chybové zprávy!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
-msgstr ""
+msgstr "Mám to!"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
-msgstr ""
+msgstr "Lekce dokončena!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
+"Stále však existují některé postupy,\n"
+"které jste přeskočili."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]Zůstaňte[/b] a zopakujte si studijní materiál,\n"
+"nebo [b]pokračovat[/b] v kurzu.[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 #: ui/components/popups/PracticeDonePopup.tscn:144
 msgid "Stay"
-msgstr ""
+msgstr "Zůstat"
 
 #: ui/components/popups/PracticeDonePopup.tscn:89
 msgid "Well done!"
-msgstr ""
+msgstr "Skvělá práce!"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
-msgstr ""
+msgstr "Cvičení jste dokončili."
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]Zůstaňte[/b] a hrajte si,\n"
+"nebo [b]pokračujte[/b] v kurzu.[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:67
 msgid "Practice List"
-msgstr ""
+msgstr "Seznam cvičení"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:226
 msgid "Close"
-msgstr ""
+msgstr "Zavřít"
 
 #: ui/components/popups/ReportFormPopup.tscn:66
 msgid "Report an issue"
-msgstr ""
+msgstr "Nahlásit problém"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
@@ -336,103 +364,140 @@ msgid ""
 "\n"
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
+"Pokud v aplikaci narazíte na problém, klikněte na níže uvedený odkaz a "
+"nahlaste ho na GitHubu:\n"
+"\n"
+"[center] [b] [url=https://github.com/GDQuest/learn-gdscript/issues]"
+"GitHub.com > GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
+"\n"
+"Na této stránce můžete nahlásit jakékoli problémy, ať už něco nefunguje nebo "
+"je v lekci chyba.\n"
+"\n"
+"Můžete vygenerovat protokol, který nám pomůže identifikovat problém. Chcete-"
+"li tak učinit, klikněte sem: [b][url=download]generate error log[/url][/b].\n"
+"\n"
+"Přetáhněte vygenerovaný soubor na problém na GitHubu a připojte ho.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres] Co je GitHub[/font]\n"
+"\n"
+"GitHub je online platforma pro hostování a správu opensourcových projektů, "
+"jako je aplikace GDScript Learn. Pomáhá vývojářům organizovat jejich práci a "
+"spolupracovat online.\n"
+"\n"
+"GitHub můžete použít ke studiu zdrojového kódu mnoha otevřených projektů, "
+"hlášení problémů nebo dokonce k přispívání kódu sami.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres] Jak nahlásit problém[/font]\n"
+"\n"
+"1. Kliknutím na výše uvedený odkaz se dostanete na stránku [i]GitHub "
+"Issues[/i].\n"
+"2. Klikněte na tlačítko [i]New Issue[/i].\n"
+"3. Vyplňte formulář a řekněte nám více o vašem problému.\n"
+"\n"
+"K tomu budete potřebovat účet GitHub.\n"
+"\n"
+"Přidejte co nejvíce relevantních informací, například typ zařízení, které "
+"používáte pro přístup k aplikaci, a možná připojte snímek obrazovky nebo "
+"videoklip představující problém.\n"
+"\n"
+"[center] Děkujeme, že jste přispěli k open source! [/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:158
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ui/components/popups/SettingsPopup.tscn:79
 msgid "Configure the App"
-msgstr ""
+msgstr "Nakonfigurujte aplikaci"
 
 #: ui/components/popups/SettingsPopup.tscn:106
 msgid "Language"
-msgstr ""
+msgstr "Jazyk"
 
 #: ui/components/popups/SettingsPopup.tscn:126
 msgid "Text Size"
-msgstr ""
+msgstr "Velikost textu"
 
 #: ui/components/popups/SettingsPopup.tscn:153
 msgid "Sample text"
-msgstr ""
+msgstr "Ukázka textu"
 
 #: ui/components/popups/SettingsPopup.tscn:166
 msgid "Scroll sensitivity"
-msgstr ""
+msgstr "Citlivost rolování"
 
 #: ui/components/popups/SettingsPopup.tscn:192
 msgid "Framerate cap"
-msgstr ""
+msgstr "Omezení snímkové frekvence"
 
 #: ui/components/popups/SettingsPopup.tscn:241
 msgid "Apply"
-msgstr ""
+msgstr "Použít"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:93
 msgid "Open Lesson"
-msgstr ""
+msgstr "Otevřít lekci"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:95
 msgid "Continue Lesson"
-msgstr ""
+msgstr "Pokračovat v lekci"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:97
 msgid "Start Lesson"
-msgstr ""
+msgstr "Spustit lekci"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
 msgid "Lesson Title Goes Here"
-msgstr ""
+msgstr "Název lekce patří sem"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
 msgid "Lesson read"
-msgstr ""
+msgstr "Lekce přečtena"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:56
 msgid "0%"
-msgstr ""
+msgstr "0%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:79
 msgid "Quizzes completed"
-msgstr ""
+msgstr "Kvízy dokončeny"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:108
 msgid "0 / 0"
-msgstr ""
+msgstr "0 / 0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:100
 msgid "Practices completed"
-msgstr ""
+msgstr "Cvičení dokončena"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:36
 msgid "Lesson 0"
-msgstr ""
+msgstr "Lekce 0"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
 msgid "Lesson Title"
-msgstr ""
+msgstr "Název lekce"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
 msgid "Course Index - "
-msgstr ""
+msgstr "Index kurzu - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
-msgstr ""
+msgstr "Název kurzu patří sem"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
-msgstr ""
+msgstr "Resetovat průběh"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
 msgid "Confirm Resetting Progress"
-msgstr ""
+msgstr "Potvrďte Resetování Průběhu"
 
 #: ui/screens/end_screen/EndScreen.tscn:122
 msgid "That's it... for now!"
-msgstr ""
+msgstr "To je vše... prozatím!"
 
 #: ui/screens/end_screen/EndScreen.tscn:160
 msgid ""
@@ -446,6 +511,15 @@ msgid ""
 "The good news is: now we figured out many of the more challenging parts, "
 "moving forward, we can shift our focus onto new lessons and practices."
 msgstr ""
+"Děkujeme za účast v beta testu.\n"
+"\n"
+"Doufáme, že se vám líbilo, co je zatím k dispozici.\n"
+"\n"
+"Přáli bychom si, abychom vám toho už teď mohli dát mnohem víc, ale vytvoření "
+"této aplikace si vyžádalo čas. [i] Hodně[/i] času.\n"
+"\n"
+"Dobrá zpráva je: nyní jsme vyřešili mnoho náročnějších částí, a tak se "
+"můžeme posunout dál a zaměřit se na nové lekce a postupy."
 
 #: ui/screens/end_screen/EndScreen.tscn:188
 msgid ""
@@ -456,121 +530,127 @@ msgid ""
 "You can find our plan for future releases on our [url=https://github.com/"
 "GDQuest/learn-gdscript#roadmap]roadmap[/url]."
 msgstr ""
+"[font=res://ui/theme/fonts/font_title.tres] Co se chystá dál[/font]\n"
+"\n"
+"Máme plány na mnoho dalších lekcí a vylepšení.\n"
+"\n"
+"Náš plán pro budoucí vydání najdete na našem [url=https://github.com/GDQuest/"
+"learn-gdscript#roadmap]roadmap[/url]."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
-msgstr ""
+msgstr "[b]Dotaz[/b]"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
 msgid "Explanation"
-msgstr ""
+msgstr "Vysvětlení"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:107
 msgid "Skip"
-msgstr ""
+msgstr "Přeskočit"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
-msgstr ""
+msgstr "Odeslat"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr ""
+msgstr "Máš pravdu!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
-msgstr ""
+msgstr "Odpovědi zde"
 
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
-msgstr ""
+msgstr "Dozvědět se více"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr ""
+msgstr "Zástupný nadpis"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
-msgstr ""
+msgstr "Název cvičení"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
-msgstr ""
+msgstr "další"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
-msgstr ""
+msgstr "Cvičení"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
-msgstr ""
+msgstr "Nacházíte se zde"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
-msgstr ""
+msgstr "Štítek odpovědi"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
 msgid "(select all that apply)"
-msgstr ""
+msgstr "(vyberte vše, co platí)"
 
 #: ui/screens/practice/PracticeHint.tscn:8
 msgid "Show Hint"
-msgstr ""
+msgstr "Zobrazit Tip"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:143
 msgid "Method descriptions"
-msgstr ""
+msgstr "Popisy metod"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:159
 msgid "Property descriptions"
-msgstr ""
+msgstr "Popisy Vlastností"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
 msgid "Summary - Lesson Name"
-msgstr ""
+msgstr "Shrnutí - Název lekce"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
-msgstr ""
+msgstr "Cíle"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:119
 msgid "Hints"
-msgstr ""
+msgstr "Rady"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
 msgid "Checks"
-msgstr ""
+msgstr "Kontroly"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:134
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentace"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:175
 msgid "Open Practice List"
-msgstr ""
+msgstr "Otevřít seznam cvičení"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:42
 msgid "Test text"
-msgstr ""
+msgstr "Zkušební text"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:42
 msgid "CONTINUE"
-msgstr ""
+msgstr "POKRAČOVAT"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:44
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:627
 msgid "START"
-msgstr ""
+msgstr "START"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:645
 msgid "SELECT LESSON"
-msgstr ""
+msgstr "VYBERTE LEKCI"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:659
 msgid "OPTIONS"
-msgstr ""
+msgstr "VOLBY"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:693
 msgid "QUIT"
-msgstr ""
+msgstr "PŘESTAT"
