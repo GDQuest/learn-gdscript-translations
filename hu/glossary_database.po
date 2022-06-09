@@ -9,24 +9,27 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-09 17:11+0000\n"
+"Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member function"
-msgstr ""
+msgstr "tagfüggvény"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member functions"
-msgstr ""
+msgstr "tagfüggvények"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
@@ -40,16 +43,23 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
+"A tagfüggvény olyan függvény, ami egy specifikus változó típushoz van kötve, "
+"például tömb, string, vagy könyvtár. Metódusnak is hívják.\n"
+"\n"
+"Példa egy tömb tagfüggvényre: [code]array.append()[/code].\n"
+"\n"
+"Csak akkor lehet hívni a függvényt a tömbön, ha [code].[/code]-tal "
+"hozzákapcsoljuk, ahogy fent is látható."
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variable"
-msgstr ""
+msgstr "tagváltozó"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variables"
-msgstr ""
+msgstr "tagváltozók"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
@@ -62,16 +72,22 @@ msgid ""
 "followed by the access operator ([code].[/code]). For example, "
 "[code]position.x[/code]."
 msgstr ""
+"A tagváltozó olyan változó, ami egy adott változó típushoz van kötve, mint "
+"például a vektor [code]x[/code] és [code]y[/code] részváltozói. A vektor "
+"[i]tulajdonságainak[/i] vagy [i]mezőinek[/i] is hívjuk őket.\n"
+"\n"
+"Ahhoz, hogy elérd a tagváltozókat, először ki kell írni a változót nevét, "
+"majd egy [code].[/code]-ot. Például: [code]position.x[/code]."
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameter"
-msgstr ""
+msgstr "paraméter"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameters"
-msgstr ""
+msgstr "paraméterek"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
@@ -81,16 +97,20 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in "
 "the function's body."
 msgstr ""
+"A paraméter egy olyan változó, amit függvény deklarálásakor hozol létre.\n"
+"\n"
+"Ez lehetővé teszi, hogy többször is felhasználd a függvényt, azoknak "
+"változóknak köszönhetően, melyeknek az értéke változhat a függvénytörzsben."
 
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radian"
-msgstr ""
+msgstr "radián"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radians"
-msgstr ""
+msgstr "radián"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
@@ -104,16 +124,24 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And "
 "an angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
+"A radián egy mértékegység a szögeg mérésére, ami a kör kerületét veszi "
+"alapul.\n"
+"\n"
+"A hétköznapi életben általában fokot használunk, de a programozásban, és "
+"különösen a játék programozásban, a radián elég gyakori.\n"
+"\n"
+"A radián [code]2 * PI[/code] az 360 fok. A [code]PI[/code] pedig 180 foknak "
+"felel meg."
 
 #. Reference: type
 #: ./course/glossary.csv:20
 msgid "type"
-msgstr ""
+msgstr "típus"
 
 #. Reference: type
 #: ./course/glossary.csv:20
 msgid "types"
-msgstr ""
+msgstr "típusok"
 
 #. Reference: type
 #: ./course/glossary.csv:20
@@ -126,16 +154,22 @@ msgid ""
 "The computer uses types to determine which operations are valid between "
 "two values and when they're undefined."
 msgstr ""
+"A programozásban a típus az egy változónak a fajtája. például, az egész "
+"számok, mint a [code]3[/code], [code]11[/code], és [code]255462[/code] mind "
+"[code]int[/code] (vagy integer) típusúak.\n"
+"\n"
+"A számítógép a típusokat használja, hogy eldöntse milyen műveleteket hajthat "
+"végre két változó közt és azok mikor értelmezhetetlenek."
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
 msgid "iteration"
-msgstr ""
+msgstr "iteráció"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
 msgid "iterations"
-msgstr ""
+msgstr "iteráció"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
@@ -147,16 +181,22 @@ msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
+"A programozásban az iteráció, egy adott folyamatnak vagy kódnak az egyszeri "
+"végrehajtása. Általában ciklusoknál használjuk, ahol egy iteráció, a ciklus "
+"kódjának egyszeri lefutását jelenti.\n"
+"\n"
+"Ha algoritmusokról beszélünk, akkor az iteráció jelentheti az algoritmus "
+"teljes lefutását az adathalmazon."
 
 #. Reference: vector
 #: ./course/glossary.csv:28
 msgid "vector"
-msgstr ""
+msgstr "vektor"
 
 #. Reference: vector
 #: ./course/glossary.csv:28
 msgid "vectors"
-msgstr ""
+msgstr "vektorok"
 
 #. Reference: vector
 #: ./course/glossary.csv:28
@@ -171,16 +211,26 @@ msgid ""
 "Vectors can seem daunting at first because they are pretty abstract, but "
 "as you will see, they'll simplify code tremendously."
 msgstr ""
+"A matematikában a vektor egy számokból álló lista. Játékokban gyakran "
+"használunk 2 vagy 3 dimenzós vektorokat: ezek 2 vagy 3 számos listákat "
+"jelentenek\n"
+"\n"
+"Arra használjuk, hogy irányt és méretet adjunk meg, vagy intenzitást a "
+"térben. Például használhatod a vektorokat arra, hogy megadd egy karakter "
+"vagy jármű irányát és sebességét.\n"
+"\n"
+"A vektorok talán bonyolultnak tűnnek elsőre, mert elég absztraktak, de amint "
+"látni fogod, jelentősen leegyszerűsítik a kódot."
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "argument"
-msgstr ""
+msgstr "argumentum"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "arguments"
-msgstr ""
+msgstr "argumentumok"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
@@ -202,16 +252,32 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and"
 " [code]y[/code] are [i]parameters[/i]."
 msgstr ""
+"Az argumentum egy olyan változó, amit a függvénynek adsz át, amikor hívod "
+"azt. Például, a [code]rotate(0.5)[/code] függvényben, a [code]0.5[/code] az "
+"argumentum.\n"
+"\n"
+"Egy függvénynek lehet 0, 1 vagy több argumentuma is. Az argumentum lehet "
+"kötelező, vagy opcionális.\n"
+"\n"
+"Ha egy függvény több argumentumot is fogad, akkor az értékeket \",\"-vel "
+"választjuk el, ahogy itt is látható: [code]jump(50, 100)[/code]\n"
+"\n"
+"Amikor [i]hívjuk[/i] a függvényt, a zárójelben lévő értékeket "
+"[i]argumentumnak[/i] nevezzük.\n"
+"\n"
+"Azonban amikor definiáljuk azt, akkor függvény [i]paraméterekről[/i] "
+"beszélünk. A következő példában az [code]x[/code] és [code]y[/code] egy-egy "
+"paraméter."
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "array"
-msgstr ""
+msgstr "tömb"
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "arrays"
-msgstr ""
+msgstr "tömbök"
 
 #. Reference: array
 #: ./course/glossary.csv:44
@@ -229,11 +295,23 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
+"A tömb egy változókat tartalmazó lista. A GDScriptben [i]bármilyen[/i] "
+"típusú értéket tartalmazhatnak.\n"
+"\n"
+"Tömb létrehozásához, az adatokat szögletes zárójelben add meg, \",\"-vel "
+"elválasztva: [code]var three_numbers = [1, 2, 3][/code]\n"
+"\n"
+"A játékokban állandóan használjuk a tömböket: karakterek egy csapatban, "
+"tárgyak az eszköztáradban, feloldott varázslatok, stb. Mindenhol ott vannak."
+"\n"
+"\n"
+"A tömbök alapvető fontosságúak a programozásban. Gyakorlatilag minden "
+"programnyelvben találkozhatsz velük."
 
 #. Reference: assign
 #: ./course/glossary.csv:45
 msgid "assign"
-msgstr ""
+msgstr "hozzárendelés"
 
 #. Reference: assign
 #: ./course/glossary.csv:45
@@ -241,16 +319,18 @@ msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
+"Az érték hozzárendelése egy változóhoz azt jelent, hogy abban a változóban "
+"tárolod az értéket. Ezt az [code]=[/code] jellel lehet megtenni."
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionary"
-msgstr ""
+msgstr "könyvtár"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionaries"
-msgstr ""
+msgstr "könyvtárak"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
@@ -271,16 +351,31 @@ msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
+"A könyvtár egy olyan adatstruktúra, ami az értékeket, kulcs-érték párokká "
+"alakítja. Ha megadsz aegy kulcsot a könyvtárban, az a hozzá tartozó értéket "
+"fogja visszaadni.\n"
+"\n"
+"A GDScriptben sokféle kulcs lehet. Leggyajrabban szavakat vagy számokat "
+"használunk, de nem kell ehhez ragaszkodni. Egy [code]Vector2[/code] is lehet "
+"érvényes kulcs, ami jól jön, ha egy mezőt kell egy egységhez vagy egy "
+"tárgyhoz rendelni, egy mezőkre osztott játékban.\n"
+"\n"
+"Gyakran használhatsz könyvtárakat, hogy összekapcsolj adatokat a játékodban. "
+"Például, használhatjuk arra, hogy összekapcsoljuk egy fegyver nevét, a hozzá "
+"tartozó értékekkel.\n"
+"\n"
+"A tömbökhöz hasonlóan, ezek is alapvető adat típusok, amelyekkel a legtöbb "
+"programnyelvben találkozhatsz, és gyakran fogsz használni."
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loop"
-msgstr ""
+msgstr "for ciklus"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loops"
-msgstr ""
+msgstr "for ciklusok"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
