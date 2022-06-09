@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-10 09:56+0000\n"
+"Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/error-explanations/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: CYCLIC_REFERENCE
@@ -34,6 +37,18 @@ msgid ""
 "cannot do this. Godot 4 should solve this problem, but you need to work "
 "around it in the meantime."
 msgstr ""
+"A körkörös hivatkozás az, amikor egy osztály saját magát hívja közvetett "
+"vagy közvetlen módon.\n"
+"\n"
+"Két lehetséges oka van:\n"
+"\n"
+"1. Az osztály nevét használtad az osztályon belül.\n"
+"2. A kódod egy másik osztályra hivatkozik, ami viszont erre az osztályra "
+"hivatkozik, így egy végtelen referencia kör jön létre.\n"
+"\n"
+"Akármelyik lehetőség is áll fenn, ahogy a GDScript működik a Godot 3-ban, "
+"sajnos, ilyet nem csinálhatsz. A Godot 4 megoldást kínálhat erre a "
+"problémára, de addig más megoldást kell keresned."
 
 #. Reference: CYCLIC_REFERENCE
 #: ./lsp/error_database.csv:38
@@ -45,6 +60,12 @@ msgid ""
 "causing cyclic references. It solves the problem in the vast majority of "
 "cases."
 msgstr ""
+"Töröld a típus meghatározást a hibás sorból, és a problémának meg kell "
+"oldódnia.\n"
+"\n"
+"A GDQuestnél, ha ebbe a hibába futunk, töröljük a típus meghatározást a "
+"körkörös hivatkozást okozó sorokból. A legtöbb esetben ez megoldja a "
+"problémát."
 
 #. Reference: INVALID_INDENTATION
 #: ./lsp/error_database.csv:45
@@ -57,6 +78,12 @@ msgid ""
 "The computer uses those leading tab characters on code lines to know "
 "which lines of code are part of a code block, like a function."
 msgstr ""
+"Nem jó a behúzás a kódodban (a tabok száma a sorok elején).\n"
+"\n"
+"Vagy hiányzik egy vagy több tab, vagy pedig túl sok van.\n"
+"\n"
+"A számítógép arra használja azokat a tabokat a sorok elején, hogy tudja "
+"melyik kódblokkhoz (pl. függvény) mely sorok tartoznak."
 
 #. Reference: INVALID_INDENTATION
 #: ./lsp/error_database.csv:45
@@ -68,6 +95,11 @@ msgid ""
 "In other words, your line should have one more leading tab character than"
 " the function definition."
 msgstr ""
+"Ha a hibás sor közvetlenül egy olyan után van, ami kettőspontra végződik, "
+"akkor az előző sorhoz képest egy tabbal beljebb kell kezdeni.\n"
+"\n"
+"Más szóval, a sorodnak eggyel több tabbal kell kezdődni, mint a függvénynek, "
+"ami tartalmazza."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./lsp/error_database.csv:54
@@ -83,6 +115,14 @@ msgid ""
 "Note that this error can appear [b]after[/b] the line causing it due to "
 "how the computer reads and analyzes your code."
 msgstr ""
+"Akkor kapod ezt a hibaüzenetet, ha szintaktikai hibát vétesz, vagy ha "
+"kihagysz valamit, amivel befejeznéd ezt vagy az előző sort.\n"
+"\n"
+"Nagyon pontosnak kell lenned, ha kódot írsz a számítógépen. Nagyon könnyű "
+"belefutni ebbe a hibába, mert elég hozzá egyetlen elütés is.\n"
+"\n"
+"Vedd észre, hogy ez a hiba megjelenhet azután a sor [b]után[/b] is, ami "
+"okozza, mert a számítógép így olvassa és dolgozza fel a kódot."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./lsp/error_database.csv:54
@@ -98,6 +138,15 @@ msgid ""
 " an expression, like a closing bracket. In this case, it most likely "
 "comes from the line with the error."
 msgstr ""
+"Ennek a problémának a megoldása eléggé környezetfüggő. A hibaüzenet el kéne, "
+"hogy árulja, melyik karakter, vagy elem hiányzik.\n"
+"\n"
+"Ha az üzenet azt mondja \"expected\", akkor valószíűleg kihagytál valamit az "
+"[b]előző[/b] sor(ok)ban. Lehet írásjel, zárójel, vagy valami más.\n"
+"\n"
+"Ha azt írja \"unterminated\", akkor a kifejezés végéről hiányzik valami, pl. "
+"egy csukó zárójel. Ebben az esetben, valószínűleg abban a sorban lesz a "
+"hiba, ahol jelzi."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./lsp/error_database.csv:57
@@ -109,13 +158,19 @@ msgid ""
 "parentheses: [code]yield()[/code], [code]preload()[/code], and "
 "[code]assert()[/code]."
 msgstr ""
+"Ez a hiba azt jelenti, hogy hiányzik egy zárójel (vagy néha egy vessző, vagy "
+"egy útvonal).\n"
+"\n"
+"A GDScriptben van három kulcsszó, ami függvényként működik, és szüksége van "
+"zárójelre: [code]yield()[/code], [code]preload()[/code], és "
+"[code]assert()[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./lsp/error_database.csv:57
 msgid ""
 "To address the error, you want to add the missing opening parenthesis, "
 "the closing parenthesis, or the comma."
-msgstr ""
+msgstr "A hiba javításához add meg a nyitó/csukó zárójelet, vagy vesszőt."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./lsp/error_database.csv:58
@@ -123,13 +178,15 @@ msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
 msgstr ""
+"Ez a hibaüzenet azt jelenti, hogy hiányzik a nyitó/csukó zárójel, egy "
+"vessző, vagy valamilyen érték az export tippnél."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./lsp/error_database.csv:58
 msgid ""
 "You need to read the error message and add the missing character or value"
 " it requests."
-msgstr ""
+msgstr "Olvasd el a hibaüzenetet és add meg a hiányzó karaktert vagy értéket."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./lsp/error_database.csv:68
@@ -144,6 +201,13 @@ msgid ""
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
+"Ennek a hibának több oka is lehet:\n"
+"\n"
+"1. Rossz helyre írtál egy azonosítót (változó vagy függvénynév).\n"
+"2. Használtad a [code]var[/code], [code]func[/code], [code]for[/code], vagy "
+"[code]signal[/code] kulcsszavak egyikét, de nem adtál meg nevet.\n"
+"3. Definiáltál egy függvényt, de lefelejtetted a zárójeleket a kettőspont "
+"előtt."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./lsp/error_database.csv:68
@@ -162,6 +226,19 @@ msgid ""
 "function definition, [code]for[/code] loop, or a line starting with "
 "[code]if[/code], [code]elif[/code], or [code]else[/code]."
 msgstr ""
+"Ha hiba az, hogy \"expected\", akkor valószínűleg elfelejtettél nevet írni a "
+"[code]var[/code], [code]func[/code], [code]for[/code], vagy "
+"[code]signal[/code] kulcsszavak valamelyike után, ezzel érvénytelenné téve a "
+"kódod. Vagy lehagytad a zárójelet a függvényhíváskor. Kijavíthatod a hibát, "
+"ha pótolod ezeket.\n"
+"\n"
+"Ha a hiba szerint valami \"unexpected\", akkor valószínűleg lehagytad a "
+"[code]var[/code], [code]func[/code], [code]for[/code], stb kulcsszavak "
+"valamelyikét.\n"
+"\n"
+"Egy másik lehetőség, hogy tenned kell egy kettőspontot a függvény definíció, "
+"[code]for[/code] ciklus, vagy pedig egy [code]if[/code], [code]elif[/code], "
+"vagy [code]else[/code] kulcsszóval kezdődő sor végére."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: ./lsp/error_database.csv:73
@@ -178,6 +255,16 @@ msgid ""
 "parentheses of a function definition but do not follow it with a type "
 "name."
 msgstr ""
+"Ez a hiba azt jelenti, hogy valahol nem adtál meg típust. A típus lehet "
+"[code]int[/code], [code]float[/code], [code]String[/code], [code]Array[/code]"
+", [code]Vector2[/code], és még sok más, ami valamilyen adatstruktúrát jelöl."
+"\n"
+"\n"
+"A legtöbb esetben akkor jön elő, ha tettél egy kettőspontot egy változó neve "
+"után, de nem írtál utána típust.\n"
+"\n"
+"Akkor is előjön, ha egy nyilat ([code]->[/code]) raksz a függvény definíció "
+"zárójele után, de nem követed azt típus megadással."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: ./lsp/error_database.csv:73
@@ -186,6 +273,9 @@ msgid ""
 "arrow (in the case of function return types), inside parentheses (for "
 "export types), or after the [code]as[/code] keyword."
 msgstr ""
+"A javításhoz add meg a típust a kettőspont vagy nyíl (függvény visszatérési "
+"típus esetén) után, zárójelben (export típus), vagy az [code]as[/code] "
+"kulcsszó után."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: ./lsp/error_database.csv:82
@@ -199,6 +289,13 @@ msgid ""
 "The other cause for this error is that you didn't define the variable, "
 "function, or class you're trying to access."
 msgstr ""
+"A változó, függvény vagy osztály, amire hivatkozol, nem létezik.\n"
+"\n"
+"Legtöbbször akkor jön elő ez a hiba, ha elírtál valamit. Talán megcseréltél "
+"két betűt, vagy kihagytál egyet... néha nehéz észrevenni.\n"
+"\n"
+"A másik ok az lehet, hogy még nem hoztad létre a változót, függvényt vagy "
+"osztályt, amit el szeretnél érni."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: ./lsp/error_database.csv:82
@@ -211,6 +308,14 @@ msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
+"Hogy kijavítsd ezt a hibád, ellenőrizd többször is, hogy nincs-e elírás az "
+"adott sorban.\n"
+"\n"
+"Ha lehetséges, menj a változó vagy függvény deklarációhoz, jelöld ki, másold "
+"majd illeszd be a hibás sorba.\n"
+"\n"
+"Ha nem látsz semmi elírást, győzödj meg róla, hogy definiáltad-e egyáltalán "
+"a változót, függvényt vagy osztályt, amire hivatkozol."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./lsp/error_database.csv:87
@@ -222,6 +327,12 @@ msgid ""
 "the loop.\" And the [code]break[/code] keyword means \"end the loop right"
 " now and jump to the first line of code after the loop block."
 msgstr ""
+"A [code]break[/code] vagy [code]continue[/code] kulcsszavakat csak "
+"ciklusokban használhatod. A cikluson kívül érvénytelenek.\n"
+"\n"
+"A [code]continue[/code] azt jelenti, hogy \"ugorj a ciklus következő "
+"iterációjára.\" A [code]break[/code] pedig azt, hogy \"azonnal fejezd be a "
+"ciklust és ugorj a ciklus utáni első sorra\"."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./lsp/error_database.csv:87
@@ -233,6 +344,11 @@ msgid ""
 "likely at fault. You may need to insert one or more leading tab "
 "characters to the keyword."
 msgstr ""
+"Ha valamelyik kulcsszót a cikluson kívülre írtad, akkor töröld onnan.\n"
+"\n"
+"Ha cikluson belül próbálod használni, akkor valószínűleg a behúzással lesz "
+"probléma. Lehet, hogy egy vagy több tab karakterre lesz szükséged a kulcsszó "
+"előtt."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./lsp/error_database.csv:92
@@ -244,6 +360,11 @@ msgid ""
 " computer will reject function calls and variables where it needs a "
 "constant expression."
 msgstr ""
+"Ha \"constant expression\"-ről beszél a számítógép, akkor egy fix értékre, "
+"számításra vagy egy már létező konstans nevére számít.\n"
+"\n"
+"Más szavakkal, valami olyasmit vár, ami soha nem változhat. Ezért nem fogad "
+"el a számítógép függvényt vagy változót ott, ahol konstansra van szüksége."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./lsp/error_database.csv:92
@@ -255,6 +376,11 @@ msgid ""
 "You can also use arithmetic operators like multiplications (*), additions"
 " (+), and so on."
 msgstr ""
+"A függvények vagy változók helyett egy konstans kell használnod, például: "
+"egész szám, tört szám, string, vector, előre definiált tömb, stb.\n"
+"\n"
+"Használhatsz műveleti jeleket is, mint például szorzás (*) vagy összeadás "
+"(+)."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./lsp/error_database.csv:97
@@ -265,6 +391,11 @@ msgid ""
 "We typically write class names in PascalCase: with a capital letter at "
 "the start of every word that composes the class name."
 msgstr ""
+"Osztály létrehozásánál egy bizonyos mintát kell követned. Egyszerű "
+"szövegként kell megadni a nevet, betűvel kezdve.\n"
+"\n"
+"Az osztályneveket általában PascalCase-ben írjuk: az osztály nevét alkotó "
+"szavak mind nagybetűvel kezdődnek."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./lsp/error_database.csv:97
@@ -275,6 +406,10 @@ msgid ""
 "\n"
 "You can optionally use numbers in the name, but not in the first position."
 msgstr ""
+"A javításhoz, cseréld le ami az \"extends\" vagy a \"class_name\" után van, "
+"egy olyan névre, ami nem tartalmaz szóközöket és nagybetűvel kezdődik.\n"
+"\n"
+"Használhatsz számokat is a névben, de nem kezdheted azzal."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./lsp/error_database.csv:102
@@ -285,6 +420,11 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file,"
 " but it may also be in a parent class that this GDScript code extends."
 msgstr ""
+"Egy olyan függvényt vagy változót próbálsz meg létrehozni, ami már létezik. "
+"Ilyet nem lehet.\n"
+"\n"
+"Lehet, hogy az a függvény már létezik az aktuális script fájlban, vagy egy "
+"szülő osztályban, amiből ez a script leszármazik."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./lsp/error_database.csv:102
@@ -296,6 +436,12 @@ msgid ""
 " one that will not collide with an existing one or remove this line of "
 "code."
 msgstr ""
+"Az alkalmazásban a kódod olyan GDScript kódra is épül, ami számodra nem "
+"látható.\n"
+"\n"
+"Amikor ez történik, akkor át kell nevezned a függvényt vagy változót valami "
+"olyanra, ami nem egyezik meg egy már létezővel, vagy törölnöd kell azt a "
+"sort."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./lsp/error_database.csv:107
