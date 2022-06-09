@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-09 17:11+0000\n"
+"Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/error-explanations/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: CYCLIC_REFERENCE
@@ -34,6 +37,17 @@ msgid ""
 "cannot do this. Godot 4 should solve this problem, but you need to work "
 "around it in the meantime."
 msgstr ""
+"Cyklický odkaz je, když se třída přímo nebo nepřímo odkazuje sama na sebe.\n"
+"\n"
+"Má dvě možné příčiny:\n"
+"\n"
+"1. Název třídy jste použili v samotné třídě.\n"
+"2. Váš kód odkazuje na jinou třídu, která odkazuje na tuto třídu, což "
+"způsobuje nekonečný referenční cyklus.\n"
+"\n"
+"Ať tak či onak, vzhledem k tomu, jak GDScript v Godotu 3 funguje, to bohužel "
+"nelze. Godot 4 by měl tento problém vyřešit, ale do té doby jej musíte "
+"obejít."
 
 #. Reference: CYCLIC_REFERENCE
 #: ./lsp/error_database.csv:38
@@ -45,6 +59,10 @@ msgid ""
 "causing cyclic references. It solves the problem in the vast majority of "
 "cases."
 msgstr ""
+"Vymažte návrh typu hodnoty v řádku s chybou a problém by měl zmizet. \n"
+"\n"
+"V GDQuestu, když čelíme této chybě, odstraníme nápovědy typu na řádcích "
+"způsobujících cyklické odkazy. Řeší problém v naprosté většině případů."
 
 #. Reference: INVALID_INDENTATION
 #: ./lsp/error_database.csv:45
@@ -57,6 +75,13 @@ msgid ""
 "The computer uses those leading tab characters on code lines to know "
 "which lines of code are part of a code block, like a function."
 msgstr ""
+"Odsazení vašeho kódu (počet znaků tabulátoru na začátku řádku) je nesprávné."
+"\n"
+"\n"
+"Chybí jeden nebo více tabulátorů nebo jste jich vložili příliš mnoho.\n"
+"\n"
+"Počítač používá tyto úvodní znaky tabulátoru na řádcích kódu k tomu, aby "
+"poznal, které řádky kódu jsou součástí bloku kódu, například funkce."
 
 #. Reference: INVALID_INDENTATION
 #: ./lsp/error_database.csv:45
@@ -68,6 +93,12 @@ msgid ""
 "In other words, your line should have one more leading tab character than"
 " the function definition."
 msgstr ""
+"Pokud se řádek kódu s chybou nachází hned za řádkem končícím dvojtečkou, "
+"jako je definice funkce, je třeba oproti předchozímu řádku přidat jednu "
+"úroveň odsazení navíc.\n"
+"\n"
+"Jinými slovy, váš řádek by měl mít o jeden úvodní znak tabulátoru více než "
+"definice funkce."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./lsp/error_database.csv:54
@@ -83,6 +114,14 @@ msgid ""
 "Note that this error can appear [b]after[/b] the line causing it due to "
 "how the computer reads and analyzes your code."
 msgstr ""
+"Tato chyba se zobrazí, pokud jste napsali něco, co je syntakticky neplatné, "
+"nebo vám chybí něco k dokončení tohoto řádku nebo předchozích řádků kódu.\n"
+"\n"
+"Při psaní kódu pro počítač musíte být velmi přesní. Tento druh chyby se "
+"snadno objeví, protože stačí jeden chybný znak.\n"
+"\n"
+"Všimněte si, že tato chyba se může objevit [b]po[/b] řádku, který ji "
+"způsobuje, a to kvůli tomu, jak počítač čte a analyzuje váš kód."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./lsp/error_database.csv:54
@@ -98,6 +137,16 @@ msgid ""
 " an expression, like a closing bracket. In this case, it most likely "
 "comes from the line with the error."
 msgstr ""
+"Způsob řešení tohoto druhu chyby je velmi závislý na kontextu. Chybová "
+"zpráva by vám měla sdělit, který znak nebo prvek chybí.\n"
+"\n"
+"Pokud chyba říká \"expected,\", pak vám'pravděpodobně něco chybí v některém "
+"z [b]předchozích[/b] řádků kódu. Může to být interpunkční znaménko, závorka "
+"nebo něco jiného.\n"
+"\n"
+"Pokud je napsáno \"neukončeno,\" chybí vám nějaký znak na konci výrazu, "
+"například uzavírací závorka. V tomto případě nejspíše pochází z řádku s "
+"chybou."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./lsp/error_database.csv:57
@@ -109,6 +158,12 @@ msgid ""
 "parentheses: [code]yield()[/code], [code]preload()[/code], and "
 "[code]assert()[/code]."
 msgstr ""
+"Tato chyba vás informuje o tom, že chybí závorka (nebo někdy čárka či cesta)."
+"\n"
+"\n"
+"Tři klíčová slova v jazyce GDScript fungují jako volání funkcí a vyžadují "
+"závorky: [code]yield()[/code], [code]preload()[/code] a "
+"[code]assert()[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./lsp/error_database.csv:57
@@ -116,6 +171,8 @@ msgid ""
 "To address the error, you want to add the missing opening parenthesis, "
 "the closing parenthesis, or the comma."
 msgstr ""
+"Chybu vyřešíte tak, že doplníte chybějící úvodní závorku, uzavírací závorku "
+"nebo čárku."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./lsp/error_database.csv:58
@@ -123,6 +180,8 @@ msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
 msgstr ""
+"Tato chyba vás informuje o tom, že v nápovědě k exportu chybí závorka, čárka "
+"nebo nějaká hodnota."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./lsp/error_database.csv:58
@@ -130,6 +189,8 @@ msgid ""
 "You need to read the error message and add the missing character or value"
 " it requests."
 msgstr ""
+"Musíte si přečíst chybovou zprávu a doplnit chybějící znak nebo hodnotu, "
+"kterou požaduje."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./lsp/error_database.csv:68
@@ -144,9 +205,17 @@ msgid ""
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
+"K této chybě dochází v několika případech:\n"
+"\n"
+"1. Zapsali jste identifikátor (název proměnné nebo funkce) na špatné místo.\n"
+"2. Napsali jste klíčové slovo jako [code]var[/code], [code]func[/code], "
+"[code]for[/code] nebo [code]signal[/code] a nenásledoval za ním název.\n"
+"3. Napsali jste definici funkce, ale zapomněli jste na závorky před "
+"dvojtečkou."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./lsp/error_database.csv:68
+#, fuzzy
 msgid ""
 "If the error tells you it expected something, you likely forgot to write "
 "a name after a keyword like [code]var[/code], [code]func[/code], "
@@ -162,6 +231,19 @@ msgid ""
 "function definition, [code]for[/code] loop, or a line starting with "
 "[code]if[/code], [code]elif[/code], or [code]else[/code]."
 msgstr ""
+"Pokud vám chyba říká, že něco očekávala, pravděpodobně jste zapomněli napsat "
+"jméno za klíčové slovo jako [code]var[/code], [code]func[/code], "
+"[code]for[/code] nebo [code]signal[/code], čímž se váš kód stane neplatným. "
+"Nebo jste zapomněli závorky v definici funkce. Chybu můžete vyřešit přidáním "
+"chybějícího názvu nebo závorek.\n"
+"\n"
+"Pokud chyba říká, že máte něco neočekávaného, pravděpodobně vám chybí "
+"klíčové slovo jako [code]var[/code], [code]func[/code], [code]for[/code] atd."
+"\n"
+"\n"
+"Další možností je, že musíte napsat dvojtečku na konec definice funkce, "
+"[code]for[/code] smyčku nebo řádek začínající na [code]if[/code], "
+"[code]elif[/code] nebo [code]else[/code]."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: ./lsp/error_database.csv:73
@@ -178,6 +260,15 @@ msgid ""
 "parentheses of a function definition but do not follow it with a type "
 "name."
 msgstr ""
+"Tato chyba vám říká, že vám někde chybí typ. Typ může být [code]int[/code], "
+"[code]float[/code], [code]String[/code], [code]Array[/code], "
+"[code]Vector2[/code] a mnoho identifikátorů představujících data struktura.\n"
+"\n"
+"K této chybě většinou dochází, když jste za názvem proměnné napsali "
+"dvojtečku, ale nenásledovali jste ji názvem typu.\n"
+"\n"
+"Objevuje se také, když napíšete šipku ([code]->[/code]) za závorku definice "
+"funkce, ale nenásleduje za ní název typu."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: ./lsp/error_database.csv:73
