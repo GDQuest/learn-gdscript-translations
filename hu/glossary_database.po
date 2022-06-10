@@ -9,27 +9,27 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-06-09 12:42+0000\n"
-"Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/glossary_database/cs/>\n"
-"Language: cs\n"
+"PO-Revision-Date: 2022-06-09 17:11+0000\n"
+"Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member function"
-msgstr "členská funkce"
+msgstr "tagfüggvény"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member functions"
-msgstr "členské funkce"
+msgstr "tagfüggvények"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
@@ -43,23 +43,23 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
-"Členské funkce jsou funkce připojené k určitému typu hodnoty, jako jsou "
-"pole, řetězce nebo slovníky. Říkáme jim také metody.\n"
+"A tagfüggvény olyan függvény, ami egy specifikus változó típushoz van kötve, "
+"például tömb, string, vagy könyvtár. Metódusnak is hívják.\n"
 "\n"
-"Například pole mají členské funkce jako [code]array.append()[/code].\n"
+"Példa egy tömb tagfüggvényre: [code]array.append()[/code].\n"
 "\n"
-"Funkci můžete zavolat pouze na poli, přičemž pro přístup k ní použijete "
-"operátor přístupu ([code].[/code]), jak je uvedeno výše."
+"Csak akkor lehet hívni a függvényt a tömbön, ha [code].[/code]-tal "
+"hozzákapcsoljuk, ahogy fent is látható."
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variable"
-msgstr "členská proměnná"
+msgstr "tagváltozó"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variables"
-msgstr "členské proměnné"
+msgstr "tagváltozók"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
@@ -72,23 +72,22 @@ msgid ""
 "followed by the access operator ([code].[/code]). For example, "
 "[code]position.x[/code]."
 msgstr ""
-"Členské proměnné jsou proměnné připojené ke konkrétnímu typu hodnoty, jako "
-"jsou podproměnné [code]x[/code] a [code]y[/code] vektoru. Říkáme jim také "
-"[i]vlastnosti[/i] nebo [i]pole[/i] vektoru.\n"
+"A tagváltozó olyan változó, ami egy adott változó típushoz van kötve, mint "
+"például a vektor [code]x[/code] és [code]y[/code] részváltozói. A vektor "
+"[i]tulajdonságainak[/i] vagy [i]mezőinek[/i] is hívjuk őket.\n"
 "\n"
-"Chcete-li získat přístup k členské proměnné, musíte nejprve napsat název "
-"hodnoty a za ním operátor přístupu ([code].[/code]). Například [code]position"
-".x[/code]."
+"Ahhoz, hogy elérd a tagváltozókat, először ki kell írni a változót nevét, "
+"majd egy [code].[/code]-ot. Például: [code]position.x[/code]."
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameter"
-msgstr "parametr"
+msgstr "paraméter"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameters"
-msgstr "parametry"
+msgstr "paraméterek"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
@@ -98,10 +97,10 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in "
 "the function's body."
 msgstr ""
-"Parametr je proměnná, kterou vytvoříte jako součást definice funkce.\n"
+"A paraméter egy olyan változó, amit függvény deklarálásakor hozol létre.\n"
 "\n"
-"Umožňuje opakované použití funkce tím, že má hodnoty, které se v těle funkce "
-"mění."
+"Ez lehetővé teszi, hogy többször is felhasználd a függvényt, azoknak "
+"változóknak köszönhetően, melyeknek az értéke változhat a függvénytörzsben."
 
 #. Reference: radian
 #: ./course/glossary.csv:17
@@ -111,7 +110,7 @@ msgstr "radián"
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radians"
-msgstr "radiánů"
+msgstr "radián"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
@@ -125,23 +124,24 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And "
 "an angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
-"Radián je jednotka pro měření úhlů na základě obvodu kruhu.\n"
+"A radián egy mértékegység a szögeg mérésére, ami a kör kerületét veszi "
+"alapul.\n"
 "\n"
-"V každodenním životě používáme spíše stupně, ale v počítačovém programování "
-"a zejména ve hrách se radiány používají běžně.\n"
+"A hétköznapi életben általában fokot használunk, de a programozásban, és "
+"különösen a játék programozásban, a radián elég gyakori.\n"
 "\n"
-"Úhel [code]2 * PI[/code] radiánů odpovídá 360 stupňům. A úhel [code]PI[/code]"
-" radiánů odpovídá 180 stupňům."
+"A radián [code]2 * PI[/code] az 360 fok. A [code]PI[/code] pedig 180 foknak "
+"felel meg."
 
 #. Reference: type
 #: ./course/glossary.csv:20
 msgid "type"
-msgstr "typ"
+msgstr "típus"
 
 #. Reference: type
 #: ./course/glossary.csv:20
 msgid "types"
-msgstr "typy"
+msgstr "típusok"
 
 #. Reference: type
 #: ./course/glossary.csv:20
@@ -154,22 +154,22 @@ msgid ""
 "The computer uses types to determine which operations are valid between "
 "two values and when they're undefined."
 msgstr ""
-"V počítačovém programování je typ třídou hodnoty. Například celá čísla jako "
-"[code]3[/code], [code]11[/code] a [code]255462[/code] jsou všechna typu "
-"[code]int[/code] (zkratka pro celé číslo).\n"
+"A programozásban a típus az egy változónak a fajtája. például, az egész "
+"számok, mint a [code]3[/code], [code]11[/code], és [code]255462[/code] mind "
+"[code]int[/code] (vagy integer) típusúak.\n"
 "\n"
-"Počítač používá typy k určení, které operace jsou platné mezi dvěma "
-"hodnotami a kdy jsou nedefinované."
+"A számítógép a típusokat használja, hogy eldöntse milyen műveleteket hajthat "
+"végre két változó közt és azok mikor értelmezhetetlenek."
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
 msgid "iteration"
-msgstr "iterace"
+msgstr "iteráció"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
 msgid "iterations"
-msgstr "iterací"
+msgstr "iteráció"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
@@ -181,11 +181,12 @@ msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
-"V počítačovém kódu je iterace opakováním nějakého procesu nebo kódu. Obvykle "
-"používáme termín se smyčkami, kde jedna iterace je jeden běh kódu smyčky.\n"
+"A programozásban az iteráció, egy adott folyamatnak vagy kódnak az egyszeri "
+"végrehajtása. Általában ciklusoknál használjuk, ahol egy iteráció, a ciklus "
+"kódjának egyszeri lefutását jelenti.\n"
 "\n"
-"Když mluvíme o algoritmech, iterace může znamenat úplný průchod algoritmu na "
-"datové sadě."
+"Ha algoritmusokról beszélünk, akkor az iteráció jelentheti az algoritmus "
+"teljes lefutását az adathalmazon."
 
 #. Reference: vector
 #: ./course/glossary.csv:28
@@ -195,7 +196,7 @@ msgstr "vektor"
 #. Reference: vector
 #: ./course/glossary.csv:28
 msgid "vectors"
-msgstr "vektory"
+msgstr "vektorok"
 
 #. Reference: vector
 #: ./course/glossary.csv:28
@@ -210,25 +211,26 @@ msgid ""
 "Vectors can seem daunting at first because they are pretty abstract, but "
 "as you will see, they'll simplify code tremendously."
 msgstr ""
-"V matematice je vektor seznamem čísel. Ve hrách často používáme 2D a 3D "
-"vektory: seznamy dvou a tří čísel.\n"
+"A matematikában a vektor egy számokból álló lista. Játékokban gyakran "
+"használunk 2 vagy 3 dimenzós vektorokat: ezek 2 vagy 3 számos listákat "
+"jelentenek\n"
 "\n"
-"Používáme to k reprezentaci směru a velikosti nebo intenzity v prostoru. "
-"Můžete například použít vektor k vyjádření směru a rychlosti, kterou se "
-"postava nebo vozidlo pohybuje.\n"
+"Arra használjuk, hogy irányt és méretet adjunk meg, vagy intenzitást a "
+"térben. Például használhatod a vektorokat arra, hogy megadd egy karakter "
+"vagy jármű irányát és sebességét.\n"
 "\n"
-"Vektory se mohou na první pohled zdát skličující, protože jsou dost "
-"abstraktní, ale jak uvidíte, ohromně zjednoduší kód."
+"A vektorok talán bonyolultnak tűnnek elsőre, mert elég absztraktak, de amint "
+"látni fogod, jelentősen leegyszerűsítik a kódot."
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "argument"
-msgstr "argument"
+msgstr "argumentum"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "arguments"
-msgstr "argumenty"
+msgstr "argumentumok"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
@@ -250,32 +252,32 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and"
 " [code]y[/code] are [i]parameters[/i]."
 msgstr ""
-"Argument je hodnota, kterou předáváte funkci při jejím volání. Například ve "
-"volání [code]rotate(0,5)[/code] je argumentem hodnota [code]0,5[/code] v "
-"závorce.\n"
+"Az argumentum egy olyan változó, amit a függvénynek adsz át, amikor hívod "
+"azt. Például, a [code]rotate(0.5)[/code] függvényben, a [code]0.5[/code] az "
+"argumentum.\n"
 "\n"
-"Funkce může mít žádné argumenty, jeden argument nebo více argumentů. "
-"Argumenty mohou být povinné nebo nepovinné.\n"
+"Egy függvénynek lehet 0, 1 vagy több argumentuma is. Az argumentum lehet "
+"kötelező, vagy opcionális.\n"
 "\n"
-"Pokud funkce přijímá více argumentů, oddělují se hodnoty čárkami, jako v "
-"tomto volání funkce: jump(50, 100)\n"
+"Ha egy függvény több argumentumot is fogad, akkor az értékeket \",\"-vel "
+"választjuk el, ahogy itt is látható: [code]jump(50, 100)[/code]\n"
 "\n"
-"Při [i]volání[/i] funkce pojmenováváme předávané hodnoty v závorkách jako "
-"[i]argumenty[/i].\n"
+"Amikor [i]hívjuk[/i] a függvényt, a zárójelben lévő értékeket "
+"[i]argumentumnak[/i] nevezzük.\n"
 "\n"
-"Při psaní definice funkce však hovoříme o parametrech funkce [i]parametry[/i]"
-". V následujícím příkladu jsou jména [code]x[/code] a [code]y[/code] "
-"[i]parametry[/i]."
+"Azonban amikor definiáljuk azt, akkor függvény [i]paraméterekről[/i] "
+"beszélünk. A következő példában az [code]x[/code] és [code]y[/code] egy-egy "
+"paraméter."
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "array"
-msgstr "pole"
+msgstr "tömb"
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "arrays"
-msgstr "pole"
+msgstr "tömbök"
 
 #. Reference: array
 #: ./course/glossary.csv:44
@@ -293,23 +295,23 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
-"Pole je seznam hodnot. V jazyce GDScript mohou pole obsahovat hodnoty "
-"[i]jakéhokoli[/i] typu.\n"
+"A tömb egy változókat tartalmazó lista. A GDScriptben [i]bármilyen[/i] "
+"típusú értéket tartalmazhatnak.\n"
 "\n"
-"Pole vytvoříte tak, že hodnoty oddělené čárkami zapíšete do hranatých "
-"závorek: [code]var three_numbers = [1, 2, 3][/code].\n"
+"Tömb létrehozásához, az adatokat szögletes zárójelben add meg, \",\"-vel "
+"elválasztva: [code]var three_numbers = [1, 2, 3][/code]\n"
 "\n"
-"Ve hrách používáme pole neustále k ukládání seznamů postav v partě, seznamů "
-"předmětů v inventáři, seznamů kouzel, která hráč odemkl, a podobně. Jsou "
-"všude.\n"
+"A játékokban állandóan használjuk a tömböket: karakterek egy csapatban, "
+"tárgyak az eszköztáradban, feloldott varázslatok, stb. Mindenhol ott vannak."
 "\n"
-"Pole jsou základním hodnotovým typem v počítačovém programování. Pole "
-"najdete v podstatě v každém programovacím jazyce."
+"\n"
+"A tömbök alapvető fontosságúak a programozásban. Gyakorlatilag minden "
+"programnyelvben találkozhatsz velük."
 
 #. Reference: assign
 #: ./course/glossary.csv:45
 msgid "assign"
-msgstr "přiřadit"
+msgstr "hozzárendelés"
 
 #. Reference: assign
 #: ./course/glossary.csv:45
@@ -317,18 +319,18 @@ msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
-"Přiřazení hodnoty proměnné znamená, že do proměnné uložíte hodnotu. To "
-"provedete pomocí znaménka rovnosti ([code]=[/code])."
+"Az érték hozzárendelése egy változóhoz azt jelent, hogy abban a változóban "
+"tárolod az értéket. Ezt az [code]=[/code] jellel lehet megtenni."
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionary"
-msgstr "slovník"
+msgstr "könyvtár"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionaries"
-msgstr "slovníky"
+msgstr "könyvtárak"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
@@ -349,30 +351,31 @@ msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
-"Slovník je datová struktura, která mapuje hodnoty pomocí párů klíč–hodnota. "
-"Když dáte slovníku klíč, najde a vrátí vám odpovídající hodnotu.\n"
+"A könyvtár egy olyan adatstruktúra, ami az értékeket, kulcs-érték párokká "
+"alakítja. Ha megadsz aegy kulcsot a könyvtárban, az a hozzá tartozó értéket "
+"fogja visszaadni.\n"
 "\n"
-"V GDScriptu mohou být klíče mnoho věcí. Často používáme textové řetězce nebo "
-"čísla, ale nejste tím omezeni. [code]Vector2[/code] může být také platným "
-"klíčem, který je užitečný pro mapování buňky mřížky na jednotku nebo předmět "
-"ve hře založené na mřížce.\n"
+"A GDScriptben sokféle kulcs lehet. Leggyajrabban szavakat vagy számokat "
+"használunk, de nem kell ehhez ragaszkodni. Egy [code]Vector2[/code] is lehet "
+"érvényes kulcs, ami jól jön, ha egy mezőt kell egy egységhez vagy egy "
+"tárgyhoz rendelni, egy mezőkre osztott játékban.\n"
 "\n"
-"K přiřazení bitů dat ve vašich hrách budete často používat slovníky. Mohli "
-"bychom je například použít k přiřazení názvu zařízení k jeho statistikám "
-"zbraní v databázi.\n"
+"Gyakran használhatsz könyvtárakat, hogy összekapcsolj adatokat a játékodban. "
+"Például, használhatjuk arra, hogy összekapcsoljuk egy fegyver nevét, a hozzá "
+"tartozó értékekkel.\n"
 "\n"
-"Stejně jako pole jsou slovníky základním datovým typem, který uvidíte v "
-"mnoha programovacích jazycích a budete ho hodně používat."
+"A tömbökhöz hasonlóan, ezek is alapvető adat típusok, amelyekkel a legtöbb "
+"programnyelvben találkozhatsz, és gyakran fogsz használni."
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loop"
-msgstr "smyčka for"
+msgstr "for ciklus"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loops"
-msgstr "smyčky for"
+msgstr "for ciklusok"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
@@ -390,28 +393,16 @@ msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to"
 " use than while loops."
 msgstr ""
-"Smyčka for dává počítači pokyn, aby pro každou hodnotu v poli jednou "
-"zopakoval sadu instrukcí.\n"
-"\n"
-"V každé iteraci cyklu kompilátor z pole vybere jednu hodnotu a zpřístupní ji "
-"v těle cyklu.\n"
-"\n"
-"Smyčky for spouštějí kód daný počet opakování: jednou na každou hodnotu v "
-"poli. Tím se liší od smyček while, které opakují kód, dokud není splněna "
-"podmínka.\n"
-"\n"
-"Doporučujeme upřednostňovat smyčky for, pokud to jde. Jsou bezpečnější a "
-"snadněji použitelné než smyčky while."
 
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "function"
-msgstr "funkce"
+msgstr ""
 
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "functions"
-msgstr "funkcí"
+msgstr ""
 
 #. Reference: function
 #: ./course/glossary.csv:64
@@ -427,39 +418,31 @@ msgid ""
 "\n"
 "Also, functions can optionally return a value to the code calling it."
 msgstr ""
-"Funkce je skupina instrukcí kódu, které pojmenujete. Když definujete funkci, "
-"můžete ji kdykoli zavolat a spustit všechny pokyny, které obsahuje.\n"
-"\n"
-"Chování funkce můžete upravit pomocí parametrů. Parametry jsou názvy "
-"proměnných, které zapíšete do definice funkce. Pak je můžete použít v těle "
-"funkce, aby se váš kód přizpůsobil různým případům.\n"
-"\n"
-"Funkce mohou také volitelně vrátit hodnotu kódu, který ji volá."
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "increment"
-msgstr "přírůstek"
+msgstr ""
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "increments"
-msgstr "přírůstky"
+msgstr ""
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "An increment is the amount by which a value changes in your code."
-msgstr "Přírůstek je hodnota, o kterou se změní hodnota v kódu."
+msgstr ""
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instruction"
-msgstr "instrukce"
+msgstr ""
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instructions"
-msgstr "instrukce"
+msgstr ""
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
@@ -470,20 +453,16 @@ msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
 msgstr ""
-"V počítačovém programování představují instrukce jednotlivé operace, které "
-"počítač rozpozná a může provést.\n"
-"\n"
-"Například volání funkce, sčítání nebo přiřazení hodnoty proměnné."
 
 #. Reference: variable
 #: ./course/glossary.csv:77
 msgid "variable"
-msgstr "proměnná"
+msgstr ""
 
 #. Reference: variable
 #: ./course/glossary.csv:77
 msgid "variables"
-msgstr "proměnné"
+msgstr ""
 
 #. Reference: variable
 #: ./course/glossary.csv:77
@@ -504,31 +483,16 @@ msgid ""
 " that you attach to some value. Any time, you can take the label and "
 "stick it onto a new product or, in that case, a new value."
 msgstr ""
-"Proměnné jsou nástrojem pro pojmenování hodnot, které chcete uložit do kódu "
-"a v průběhu času je měnit.\n"
-"\n"
-"Například zdraví postavy: když postava dostane zásah, chcete, aby šel dolů. "
-"Při léčení chcete, aby se zdraví vrátilo nahoru.\n"
-"\n"
-"Můžete vytvořit proměnnou s názvem [code]health[/code], která bude "
-"reprezentovat zdraví.\n"
-"\n"
-"Poté, pokaždé, když do kódu napíšete klíčové slovo [code]health[/code], "
-"počítač za vás načte odpovídající hodnotu ve své paměti.\n"
-"\n"
-"Proměnné fungují trochu jako štítky produktů v supermarketu. Jsou to jména, "
-"kterým přikládáte nějakou hodnotu. Kdykoli můžete vzít štítek a nalepit jej "
-"na nový produkt nebo v takovém případě na novou hodnotu."
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
 msgid "while loop"
-msgstr "smyčka while"
+msgstr ""
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
 msgid "while loops"
-msgstr "smyčky while"
+msgstr ""
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
@@ -545,21 +509,11 @@ msgid ""
 "like processing files, processing computer code, or for powerful "
 "algorithms."
 msgstr ""
-"Smyčka while dává počítači pokyn, aby ponechal spuštěný kód na základě "
-"podmínky. Pokud je podmínka pravdivá, smyčka běží dál.\n"
-"\n"
-"Při kódování smyček while musíte být opatrní: poběží nekonečně dlouho a "
-"zmrazí vaši hru, pokud podmínku uděláte špatně.\n"
-"\n"
-"Proto doporučujeme používat bezpečnější smyčku for, kdykoli je to možné.\n"
-"\n"
-"Stále však existují zásadní případy, kdy smyčky while používáme, jako je "
-"zpracování souborů, zpracování počítačového kódu nebo pro výkonné algoritmy."
 
 #. Reference: body
 #: ./course/glossary.csv:85
 msgid "body"
-msgstr "tělo"
+msgstr ""
 
 #. Reference: body
 #: ./course/glossary.csv:85
@@ -567,13 +521,11 @@ msgid ""
 "We talk about a loop or a function's body to refer to the lines of code "
 "that are part of the loop or function."
 msgstr ""
-"O těle smyčky nebo funkce hovoříme, když označujeme řádky kódu, které jsou "
-"součástí smyčky nebo funkce."
 
 #. Reference: return
 #: ./course/glossary.csv:88
 msgid "return"
-msgstr "return"
+msgstr ""
 
 #. Reference: return
 #: ./course/glossary.csv:88
@@ -584,21 +536,16 @@ msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed "
 "by a value, for example: [code]return -1[/code]."
 msgstr ""
-"Vrácení hodnoty je proces odeslání hodnoty na místo, kde jste zavolali "
-"funkci.\n"
-"\n"
-"Dochází k němu, když funkce použije klíčové slovo [code]return[/code] "
-"následované hodnotou: [code]return -1[/code]."
 
 #. Reference: library
 #: ./course/glossary.csv:89
 msgid "library"
-msgstr "knihovna"
+msgstr ""
 
 #. Reference: library
 #: ./course/glossary.csv:89
 msgid "libraries"
-msgstr "knihovny"
+msgstr ""
 
 #. Reference: library
 #: ./course/glossary.csv:89
@@ -606,19 +553,16 @@ msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
-"Sbírka cenného a opakovaně použitelného kódu, kterou spojili dohromady jiní "
-"programátoři, aby vám ušetřili čas. Všichni programátoři používají knihovny "
-"kódu."
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
 msgid "sprite"
-msgstr "sprite"
+msgstr ""
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
 msgid "sprites"
-msgstr "sprity"
+msgstr ""
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
@@ -627,6 +571,3 @@ msgid ""
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
 msgstr ""
-"V počítačové grafice je sprite obrázek, který se zobrazuje na obrazovce. "
-"Obvykle toto slovo používáme pro pohyblivé obrázky, jako je postava, příšera "
-"nebo předmět padající na zem."

@@ -9,331 +9,346 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-06-09 11:26+0000\n"
-"Last-Translator: Alt Air <altairush@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/learn-"
-"gdscript-from-zero/user-interface/id/>\n"
-"Language: id\n"
+"PO-Revision-Date: 2022-06-09 17:11+0000\n"
+"Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/application/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
 msgid "You need to type a whole number for this answer. Example: 42"
-msgstr "Anda perlu mengetikkan bilangan bulat untuk jawaban ini. Contoh: 42"
+msgstr "A válaszhoz egy egész számot kell megadnod. Példa: 42"
 
 #: resources/QuizInputField.gd:22
 msgid ""
 "You need to type a decimal for this answer. Use a \".\" to separate the "
 "decimal part. Example: 3.14"
 msgstr ""
-"Anda perlu mengetikkan bilangan desimal untuk jawaban ini. Gunakan \".\" "
-"untuk memisahkan bagian desimal. Contoh: 3.14"
+"A válaszhoz egy tört számot kell megadnod. Az elválasztáshoz használj \".\"-"
+"ot. Példa: 3.14"
 
 #: ui/UILesson.tscn:90
 msgid "Title"
-msgstr "Judul"
+msgstr "Cím"
 
 #: ui/UILesson.tscn:125
 msgid "Practices"
-msgstr "Latihan"
+msgstr "Gyakorlatok"
 
 #: ui/UINavigator.gd:350
 msgid "Go back in your navigation history"
-msgstr "Kembali ke riwayat navigasi anda"
+msgstr "Menj vissza az előzményekben"
 
 #: ui/UINavigator.gd:353
 msgid "(no previous history)"
-msgstr "(tidak ada riwayat sebelumnya)"
+msgstr "(nincsenek előzmények)"
 
 #: ui/UIPractice.gd:133 ui/UIPractice.gd:191
 #, python-format
 msgid "Hint %s"
-msgstr "Petunjuk %s"
+msgstr "Tipp %s"
 
 #: ui/UIPractice.gd:216
 msgid "Validating Your Code..."
-msgstr "Memvalidasi Kode Anda..."
+msgstr "Kód ellenőrzése..."
 
 #: ui/UIPractice.gd:269
 msgid "Running Your Code..."
-msgstr "Menjalankan Kode Anda..."
+msgstr "Kód futtatása..."
 
 #: ui/UIPractice.gd:300
 msgid "Running Tests..."
-msgstr "Menjalankan Tes..."
+msgstr "Tesztek futtatása..."
 
 #: ui/UIPractice.tscn:138
 msgid "Suggested Solution"
-msgstr "Solusi Yang Disarankan"
+msgstr "Javasolt megoldás"
 
 #: ui/UIPractice.tscn:189
 msgid "Use Solution"
-msgstr "Gunakan Solusi"
+msgstr "Megoldás használata"
 
 #: ui/UIPractice.tscn:207
 msgid "Leave unfinished practice?"
-msgstr "Tinggalkan Latihan yang belum selesai?"
+msgstr "Kilépsz a befejezetlen gyakorlatból?"
 
 #: ui/components/BigGreenButton.tscn:24
 msgid "Button"
-msgstr "Tombol"
+msgstr "Gomb"
 
 #: ui/components/CodeEditor.tscn:161
 msgid "Run"
-msgstr "Jalankan"
+msgstr "Futtatás"
 
 #: ui/components/CodeEditor.tscn:175
 msgid "Pause"
-msgstr "Jeda"
+msgstr "Szünet"
 
 #: ui/components/CodeEditor.tscn:190 ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
-msgstr "Mengatur Ulang"
+msgstr "Visszaállítás"
 
 #: ui/components/CodeEditor.tscn:212
 msgid "Solution"
-msgstr "Solusi"
+msgstr "Megoldás"
 
 #: ui/components/CodeEditor.tscn:226 ui/components/OutputConsole.tscn:43
 msgid "Output"
-msgstr "Hasil"
+msgstr "Kimenet"
 
 #: ui/components/CodeEditor.tscn:241
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
-msgstr "Melanjutkan"
+msgstr "Folytatás"
 
 #: ui/components/ConnectionIndicator.gd:17
 msgid "Connected to the server."
-msgstr "Terhubung ke server."
+msgstr "Kapcsolódva a szerverhez."
 
 #: ui/components/ConnectionIndicator.gd:20
 msgid ""
-"Can't reach the server. The server might be down, or your internet may be "
-"down."
+"Can't reach the server. The server might be down, or your internet may be"
+" down."
 msgstr ""
-"Tidak dapat menjangkau server. Server mungkin sedang down, atau internet "
-"anda sedang mati."
+"Nem sikerült elérni a szervert. Lehetséges, hogy probléma van a szerverrel, "
+"vagy az internetkapcsolatoddal."
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
-msgstr "Dijeda"
+msgstr "Szüneteltetve"
 
 #: ui/components/GlossaryPopup.tscn:37
 msgid "Term"
-msgstr "Ketentuan"
+msgstr "Kifejezés"
 
 #: ui/components/GlossaryPopup.tscn:53
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
-msgstr "Penjelasan kesalahan kami."
+msgstr "A hiba magyarázata."
 
 #: ui/components/LockedOverlay.gd:14
 msgid "Can't reach the server. The tests will be less precise."
-msgstr "Tidak dapat Menjangkau server. Tes mungkin akan kurang akurat."
+msgstr "Nem sikerült elérni a szervert. A tesztek kevésbé lesznek pontosak."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
 msgid "ERROR:"
-msgstr "ERROR:"
+msgstr "HIBA:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 #: ui/components/ScrollableTextBox.tscn:43
 #: ui/screens/lesson/UIContentBlock.tscn:68
-#, fuzzy
 msgid "Placeholder text"
-msgstr "Text Pengganti"
+msgstr "Kitöltő szöveg"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
-msgstr "di"
+msgstr "Ebben"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
-#, fuzzy
 msgid "FileName"
-msgstr "NamaFile"
+msgstr "FájlNév"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
 msgid "at"
-msgstr "pada"
+msgstr "Itt"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:82
 msgid "0:0"
 msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
-msgid ""
-"Sometimes errors are reported outside of your code. Why does that happen?"
-msgstr "Terkadang kesalahan dilaporkan di luar kode Anda. Mengapa itu terjadi?"
+msgid "Sometimes errors are reported outside of your code. Why does that happen?"
+msgstr "Néha a hibaüzenetek jelennek meg a kódodon kívül. Miért történik ez?"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
 msgid "Explain"
-msgstr "Menjelaskan"
+msgstr "Magyarázat"
 
 #: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
-msgstr "Nilai"
+msgstr "Érték"
 
 #: ui/components/Revealer.tscn:74
 msgid "Expand"
-msgstr "Meluaskan"
+msgstr "Kibontás"
 
 #: ui/components/RunnableCodeExample.tscn:96
-#, fuzzy
 msgid "run()"
-msgstr "Jalankan()"
+msgstr "futtatás()"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
 msgid "Confirm"
-msgstr "Konfirmasi"
+msgstr "Megerősítés"
 
 #: ui/components/popups/ConfirmPopup.tscn:127
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
 msgid "Cancel"
-msgstr "Batalkan"
+msgstr "Mégsem"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:46
 msgid "Original error message"
-msgstr "Pesan kesalahan asli"
+msgstr "Eredeti hibaüzenet"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:65
 msgid "Why this happens"
-msgstr "Mengapa ini terjadi"
+msgstr "Ezért történik"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
 msgid "How to fix this"
-msgstr "Bagaimana cara memperbaikinya"
+msgstr "Így javítsd ki"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:91
 msgid "Our suggestion on how to fix it."
-msgstr "Saran kami tentang cara memperbaikinya."
+msgstr "Javaslatunk a javításra."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:102
 msgid ""
 "Sorry, we don't have this particular error message covered yet!\n"
 "\n"
-"Please, use the [b]Report[/b] button in the top-right corner to tell us more "
-"about how you've got it, and we will try to improve our knowledge base for "
-"the next version of the application.\n"
+"Please, use the [b]Report[/b] button in the top-right corner to tell us "
+"more about how you've got it, and we will try to improve our knowledge "
+"base for the next version of the application.\n"
 "\n"
 "[center]Thank you![/center]"
 msgstr ""
-"Maaf, pesan kesalahan khusus ini belum kami cakup!\n"
+"Sajnáljuk, ezt a hibaüzenetet még nem dogoztuk fel.\n"
 "\n"
-"Silakan, gunakan tombol [b]Laporkan[/b] di sudut kanan atas untuk memberi "
-"tahu kami lebih banyak tentang bagaimana Anda mendapatkannya, dan kami akan "
-"mencoba meningkatkan basis pengetahuan kami untuk versi aplikasi "
-"berikutnya.\n"
+"Kérjük, használd a [b]Jelentés[/b] gombot a jobb felső sarokban, hogy "
+"elmondd nekünk, hogyan kaptad, és mi megpróbáljuk frissíteni a "
+"tudásbázisunkat az alkalmazás következő verziójában.\n"
 "\n"
-"[center]Terima kasih![/center]"
+"[center]Köszönjük![/center]"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:128
 msgid "Hide"
-msgstr "Sembunyikan"
+msgstr "Elrejtés"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
 msgid "Where do external errors come from?"
-msgstr "Dari mana kesalahan eksternal berasal?"
+msgstr "Honnan jönnek a külső hibák?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
 msgid ""
-"Lessons in this course are constructed in such a way that you only need to "
-"edit the [b]important bits[/b]. But there is much more code outside of what "
-"you see that makes the project run.\n"
+"Lessons in this course are constructed in such a way that you only need "
+"to edit the [b]important bits[/b]. But there is much more code outside of"
+" what you see that makes the project run.\n"
 "\n"
 "This means that sometimes changes that you make can affect code that you "
 "have no control over. But don't worry, you can still fix all the issues "
 "yourself with the code you [b]can[/b] edit!\n"
 "\n"
-"[i]This is kind of like game engines work too.[/i] There is a lot of hidden "
-"code that they execute to make sure your projects runs smoothly. And yet, an "
-"error in your scripts can break them. We'll try to explain how to address "
-"each individual error that you face. Quick, click the [b]Explain[/b] button "
-"next to the error message!"
+"[i]This is kind of like game engines work too.[/i] There is a lot of "
+"hidden code that they execute to make sure your projects runs smoothly. "
+"And yet, an error in your scripts can break them. We'll try to explain "
+"how to address each individual error that you face. Quick, click the "
+"[b]Explain[/b] button next to the error message!"
 msgstr ""
+"Ebben a kurzusban úgy vannak elkészítve a leckék, hogy csak a [b]fontos "
+"részeket[/b] kell szerkesztened. De sokkal több kód van annál, mint amit "
+"látsz, hogy működhessen a projekt.\n"
+"\n"
+"Ez azt jelenti, hogy néhány változtatás olyan kódra is kihatással lehet, "
+"amit nem tudsz elérni. De nincs miért aggódnod, ezeket mindig ki tudod "
+"javítani a kód azon részével, amit [b]tudsz[/b] szerkeszteni!\n"
+"\n"
+"[i]Valahogy így működnek a játék enginek is.[/i] Nagyon sok rejtett kódot "
+"futtatnak, hogy simán működjenek a programjaid. És mégis, egy hiba a "
+"scriptedben térdre kényszeríti őket. Megpróbáljuk elmagyarázni, hogy hogyan "
+"kezeld az összes hibát, amivel találkozhatsz. Gyorsan, kattints a "
+"[b]Magyarázat[/b] gombra a hibaüzenet mellett!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
-msgstr ""
+msgstr "Értem!"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
-msgstr ""
+msgstr "Lecke befejezve!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
+"Még van néhány gyakorlat,\n"
+"amit kihagytál."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]Maradj[/b] és ismételd át a tanultakat,\n"
+"vagy [b]folytasd[/b] a kurzust.[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 #: ui/components/popups/PracticeDonePopup.tscn:144
 msgid "Stay"
-msgstr ""
+msgstr "Maradj"
 
 #: ui/components/popups/PracticeDonePopup.tscn:89
 msgid "Well done!"
-msgstr ""
+msgstr "Szép munka!"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
-msgstr ""
+msgstr "Befejezted a gyakorlatot."
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]Maradj[/b] és próbálgasd a dolgokat,\n"
+"vagy [b]folytasd[/b] a kurzust.[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:67
 msgid "Practice List"
-msgstr ""
+msgstr "Gyakorlatok"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:226
 msgid "Close"
-msgstr ""
+msgstr "Bezárás"
 
 #: ui/components/popups/ReportFormPopup.tscn:66
 msgid "Report an issue"
-msgstr ""
+msgstr "Hibajelentés küldése"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
-"If you face an issue in the app, please click the link below to report it on "
-"GitHub:\n"
+"If you face an issue in the app, please click the link below to report it"
+" on GitHub:\n"
 "\n"
-"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
-"> GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
+"[center][b][url=https://github.com/GDQuest/learn-"
+"gdscript/issues]GitHub.com > GDQuest > learn-gdscript > "
+"Issues[/url][/b][/center]\n"
 "\n"
-"On that page, you can report any issues, whether something's not working or "
-"there's an error in a lesson.\n"
+"On that page, you can report any issues, whether something's not working "
+"or there's an error in a lesson.\n"
 "\n"
 "You can generate a log to help us identify the problem. To do so, click "
 "here: [b][url=download]generate error log[/url][/b].\n"
 "\n"
-"Please drag and drop the generated file onto your issue on GitHub to attach "
-"it.\n"
+"Please drag and drop the generated file onto your issue on GitHub to "
+"attach it.\n"
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]\n"
 "\n"
-"GitHub is an online platform to host and manage open-source projects like "
-"the GDScript Learn app. It helps developers organize their work and "
+"GitHub is an online platform to host and manage open-source projects like"
+" the GDScript Learn app. It helps developers organize their work and "
 "collaborate online.\n"
 "\n"
-"You can use GitHub to study the source code of many open projects, report "
-"issues, or even contribute code yourself.\n"
+"You can use GitHub to study the source code of many open projects, report"
+" issues, or even contribute code yourself.\n"
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]\n"
 "\n"
@@ -349,103 +364,141 @@ msgid ""
 "\n"
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
+"Ha hibát találnál az alkalmazásban, kérlek kattints a linkre, hogy jelezd "
+"nekünk GitHubon (angolul):\n"
+"\n"
+"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
+"> GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
+"\n"
+"Azon az oldalon bármit jelenthetsz, ha valami nem működik, vagy valami hiba "
+"van az egyik leckében, stb.\n"
+"\n"
+"Generálhatsz egy log fájlt, hogy segíts nekünk a hiba felderítésében. Csak "
+"kattints a linkre: [b][url=download]generate error log[/url][/b].\n"
+"\n"
+"Kérjük csatold az így létrejött fájlt a hibajelzésedhez GitHubon..\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]\n"
+"\n"
+"A GitHub egy online platform, olyan nyílt forráskodú programok tárolására, "
+"mint amilyen a GDScript Learn app is. Segít a fejlesztőknek rendszerezni a "
+"munkájukat és együttműködni másokkal.\n"
+"\n"
+"Használhatod a GitHubot, hogy tanulmányozd sok-sok nyílt forráskódú projekt "
+"felépítését, küldhetsz hibajelzéseket, vagy akár saját kódot is beadhatsz a "
+"közösbe.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]\n"
+"\n"
+"1. Kattints a fenti linkre, hogy megnyisd a [i]GitHub Issues[/i] oldalt.\n"
+"2. Kattints a [i]New Issue[/i] gombra.\n"
+"3. Töltsd ki az űrlapot, hogy többet tudjunk meg a problémádról.\n"
+"\n"
+"Ehhez szükséged lesz egy GitHub fiókra.\n"
+"\n"
+"Kérjük, próbáld meg a lehető legtöbb releváns információt közölni, például, "
+"hogy milyen eszközön használod az alkalmazást, sőt akár képernyőképet vagy "
+"videót is mellékelhetsz.\n"
+"\n"
+"[center]Köszönjük, hogy hozzájárulsz a nyílt forráskódú "
+"programokhoz![/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:158
 msgid "OK"
-msgstr ""
+msgstr "Oké"
 
 #: ui/components/popups/SettingsPopup.tscn:79
 msgid "Configure the App"
-msgstr ""
+msgstr "Alkalmazás beállítása"
 
 #: ui/components/popups/SettingsPopup.tscn:106
 msgid "Language"
-msgstr ""
+msgstr "Nyelv"
 
 #: ui/components/popups/SettingsPopup.tscn:126
 msgid "Text Size"
-msgstr ""
+msgstr "Szövegméret"
 
 #: ui/components/popups/SettingsPopup.tscn:153
 msgid "Sample text"
-msgstr ""
+msgstr "Példa szöveg"
 
 #: ui/components/popups/SettingsPopup.tscn:166
 msgid "Scroll sensitivity"
-msgstr ""
+msgstr "Görgetés érzékenysége"
 
 #: ui/components/popups/SettingsPopup.tscn:192
 msgid "Framerate cap"
-msgstr ""
+msgstr "FPS korlát"
 
 #: ui/components/popups/SettingsPopup.tscn:241
 msgid "Apply"
-msgstr ""
+msgstr "Alkalmazás"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:93
 msgid "Open Lesson"
-msgstr ""
+msgstr "Lecke megnyitása"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:95
 msgid "Continue Lesson"
-msgstr ""
+msgstr "Lecke folytatása"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:97
 msgid "Start Lesson"
-msgstr ""
+msgstr "Lecke kezdése"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
 msgid "Lesson Title Goes Here"
-msgstr ""
+msgstr "Lecke címének helye"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
 msgid "Lesson read"
-msgstr ""
+msgstr "Lecke elolvasva"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:56
 msgid "0%"
-msgstr ""
+msgstr "0%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:79
 msgid "Quizzes completed"
-msgstr ""
+msgstr "Befejezett kvízek"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:108
 msgid "0 / 0"
-msgstr ""
+msgstr "0 / 0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:100
 msgid "Practices completed"
-msgstr ""
+msgstr "Befejezett gyakorlatok"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:36
 msgid "Lesson 0"
-msgstr ""
+msgstr "0. lecke"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
 msgid "Lesson Title"
-msgstr ""
+msgstr "Lecke címe"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
 msgid "Course Index - "
-msgstr ""
+msgstr "Kurzusok - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
-msgstr ""
+msgstr "Kurzus címének helye"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
-msgstr ""
+msgstr "Haladás törlése"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
 msgid "Confirm Resetting Progress"
-msgstr ""
+msgstr "Haladás törlésének megerősítése"
 
 #: ui/screens/end_screen/EndScreen.tscn:122
 msgid "That's it... for now!"
-msgstr ""
+msgstr "Ennyi volt... egyelőre!"
 
 #: ui/screens/end_screen/EndScreen.tscn:160
 msgid ""
@@ -453,12 +506,21 @@ msgid ""
 "\n"
 "We hope you enjoyed what's available so far.\n"
 "\n"
-"We wish we had a lot more to give you already, but creating this app took "
-"time. A [i]lot[/i] of time.\n"
+"We wish we had a lot more to give you already, but creating this app took"
+" time. A [i]lot[/i] of time.\n"
 "\n"
 "The good news is: now we figured out many of the more challenging parts, "
 "moving forward, we can shift our focus onto new lessons and practices."
 msgstr ""
+"Köszönjük, hogy részt vettél a bétateszten.\n"
+"\n"
+"Reméljük, hogy tetszett, ami eddig elérhető.\n"
+"\n"
+"Szeretnénk, ha már most többet adhatnánk, de ennek az alkalmazásnak az "
+"elkészítése időbe telik. [i]Nagyon[/i] sok időbe.\n"
+"\n"
+"A jó hír: a nehezén már túl vagyunk, ezután már csak arra kell "
+"koncentrálnunk, hogy újabb leckéket és gyakorlatokat készítsünk."
 
 #: ui/screens/end_screen/EndScreen.tscn:188
 msgid ""
@@ -466,124 +528,130 @@ msgid ""
 "\n"
 "We have plans for many more lessons and improvements.\n"
 "\n"
-"You can find our plan for future releases on our [url=https://github.com/"
-"GDQuest/learn-gdscript#roadmap]roadmap[/url]."
+"You can find our plan for future releases on our "
+"[url=https://github.com/GDQuest/learn-gdscript#roadmap]roadmap[/url]."
 msgstr ""
+"[font=res://ui/theme/fonts/font_title.tres]Ami ezután jön[/font]\n"
+"\n"
+"Még rengeteg tervünk van az új leckékre és a fejlődésre.\n"
+"\n"
+"Itt megtalálod a terveinket a jövőre nézve: [url=https://github.com/GDQuest/"
+"learn-gdscript#roadmap]roadmap[/url]."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
-msgstr ""
+msgstr "[b]Kérdés[/b]"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
 msgid "Explanation"
-msgstr ""
+msgstr "Magyarázat"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:107
 msgid "Skip"
-msgstr ""
+msgstr "Kihagyás"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
-msgstr ""
+msgstr "Beküldés"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr ""
+msgstr "Igazad van!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
-msgstr ""
+msgstr "Válaszok helye"
 
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
-msgstr ""
+msgstr "Tudj meg többet"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr ""
+msgstr "Címsor helye"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
-msgstr ""
+msgstr "Gyakorlat címe"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
-msgstr ""
+msgstr "következő"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
-msgstr ""
+msgstr "Gyakorlat"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
-msgstr ""
+msgstr "Itt vagy most"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
-msgstr ""
+msgstr "Válasz címke"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
 msgid "(select all that apply)"
-msgstr ""
+msgstr "(több válasz is jelölhető)"
 
 #: ui/screens/practice/PracticeHint.tscn:8
 msgid "Show Hint"
-msgstr ""
+msgstr "Tipp mutatása"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:143
 msgid "Method descriptions"
-msgstr ""
+msgstr "Metódusok leírása"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:159
 msgid "Property descriptions"
-msgstr ""
+msgstr "Tulajdonságok leírása"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
 msgid "Summary - Lesson Name"
-msgstr ""
+msgstr "Összegzés - Lecke neve"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
-msgstr ""
+msgstr "Célok"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:119
 msgid "Hints"
-msgstr ""
+msgstr "Tippek"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
 msgid "Checks"
-msgstr ""
+msgstr "Ellenőrzések"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:134
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentáció"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:175
 msgid "Open Practice List"
-msgstr ""
+msgstr "Gyakorlatok megnyitása"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:42
 msgid "Test text"
-msgstr ""
+msgstr "Teszt szöveg"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:42
 msgid "CONTINUE"
-msgstr ""
+msgstr "FOLYTATÁS"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:44
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:627
 msgid "START"
-msgstr ""
+msgstr "KEZDÉS"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:645
 msgid "SELECT LESSON"
-msgstr ""
+msgstr "LECKE KIVÁLASZTÁSA"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:659
 msgid "OPTIONS"
-msgstr ""
+msgstr "BEÁLLÍTÁSOK"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:693
 msgid "QUIT"
-msgstr ""
+msgstr "KILÉPÉS"
