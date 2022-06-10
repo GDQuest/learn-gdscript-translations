@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-06-09 17:11+0000\n"
+"PO-Revision-Date: 2022-06-10 09:56+0000\n"
 "Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/cs/>\n"
@@ -215,7 +215,6 @@ msgstr ""
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./lsp/error_database.csv:68
-#, fuzzy
 msgid ""
 "If the error tells you it expected something, you likely forgot to write "
 "a name after a keyword like [code]var[/code], [code]func[/code], "
@@ -242,7 +241,7 @@ msgstr ""
 "\n"
 "\n"
 "Další možností je, že musíte napsat dvojtečku na konec definice funkce, "
-"[code]for[/code] smyčku nebo řádek začínající na [code]if[/code], "
+"[code]for[/code] smyčky nebo řádku začínajícího na [code]if[/code], "
 "[code]elif[/code] nebo [code]else[/code]."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
@@ -277,6 +276,9 @@ msgid ""
 "arrow (in the case of function return types), inside parentheses (for "
 "export types), or after the [code]as[/code] keyword."
 msgstr ""
+"Chcete-li to vyřešit, musíte napsat název typu za dvojtečku, šipku (v "
+"případě návratových typů funkcí), do závorek (u typů exportu) nebo za "
+"klíčové slovo [code]as[/code]."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: ./lsp/error_database.csv:82
@@ -290,6 +292,13 @@ msgid ""
 "The other cause for this error is that you didn't define the variable, "
 "function, or class you're trying to access."
 msgstr ""
+"Název proměnné, funkce nebo třídy, kterou se snažíte použít, neexistuje.\n"
+"\n"
+"Tato chyba se nejčastěji objevuje při překlepu. Možná jste prohodili dvě "
+"písmena, zapomněli na písmeno... někdy je těžké to odhalit.\n"
+"\n"
+"Další příčinou této chyby je, že jste nedefinovali proměnnou, funkci nebo "
+"třídu, ke které se snažíte přistupovat."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: ./lsp/error_database.csv:82
@@ -302,6 +311,15 @@ msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
+"Chcete-li tuto chybu vyřešit, třikrát zkontrolujte, zda v řádku není překlep."
+"\n"
+"\n"
+"Pokud můžete, zkuste přejít na definici proměnné nebo funkce, dvakrát "
+"klikněte na její název, zkopírujte jej a vložte na místo, kde se chyba "
+"objevila.\n"
+"\n"
+"Pokud žádný překlep nevidíte, pak se musíte ujistit, že jste definovali "
+"proměnnou, funkci nebo třídu, na kterou se odkazujete."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./lsp/error_database.csv:87
@@ -313,6 +331,12 @@ msgid ""
 "the loop.\" And the [code]break[/code] keyword means \"end the loop right"
 " now and jump to the first line of code after the loop block."
 msgstr ""
+"Klíčová slova jako [code]break[/code] nebo [code]continue[/code] můžete "
+"použít pouze ve smyčce. Mimo smyčku jsou neplatné.\n"
+"\n"
+"Klíčové slovo [code]continue[/code] znamená \"skok na další iteraci smyčky.\""
+" A klíčové slovo [code]break[/code] znamená \"ukončení smyčky právě teď a "
+"skok na první řádek kódu za blokem smyčky."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./lsp/error_database.csv:87
@@ -324,6 +348,12 @@ msgid ""
 "likely at fault. You may need to insert one or more leading tab "
 "characters to the keyword."
 msgstr ""
+"Pokud jste jedno z těchto klíčových slov napsali mimo smyčku, musíte ho "
+"odstranit.\n"
+"\n"
+"Pokud se ho snažíte použít uvnitř smyčky, je pravděpodobně na vině vaše "
+"odsazení. Možná budete muset ke klíčovému slovu vložit jeden nebo více "
+"úvodních znaků tabulátoru."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./lsp/error_database.csv:92
@@ -335,6 +365,11 @@ msgid ""
 " computer will reject function calls and variables where it needs a "
 "constant expression."
 msgstr ""
+"Když počítač mluví o konstantním výrazu, očekává pevnou hodnotu, pevný "
+"výpočet nebo jméno existující konstanty.\n"
+"\n"
+"Jinými slovy, chce něco, co se nikdy nemůže změnit. Proto počítač odmítne "
+"volání funkcí a proměnných tam, kde potřebuje konstantní výraz."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./lsp/error_database.csv:92
@@ -346,6 +381,11 @@ msgid ""
 "You can also use arithmetic operators like multiplications (*), additions"
 " (+), and so on."
 msgstr ""
+"Volání funkcí nebo proměnné musíte nahradit konstantní hodnotou, jako je "
+"celé číslo, desetinné číslo, řetězec, vektor, předdefinované pole atd.\n"
+"\n"
+"Můžete také použít aritmetické operátory jako násobení (*), sčítání (+) a "
+"tak dále."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./lsp/error_database.csv:97
@@ -356,6 +396,11 @@ msgid ""
 "We typically write class names in PascalCase: with a capital letter at "
 "the start of every word that composes the class name."
 msgstr ""
+"Při definování nové třídy se musíte řídit konkrétním vzorem. Jméno musíte "
+"napsat jako prostý text, počínaje písmenem.\n"
+"\n"
+"Názvy tříd obvykle píšeme v PascalCase: s velkým písmenem na začátku každého "
+"slova, které tvoří název třídy."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./lsp/error_database.csv:97
@@ -366,6 +411,11 @@ msgid ""
 "\n"
 "You can optionally use numbers in the name, but not in the first position."
 msgstr ""
+"Chcete-li tuto chybu opravit, nahraďte vše, co jste vložili za klíčové slovo "
+"'extends' nebo 'class_name', názvem bez mezer a s počátečním velkým písmenem."
+"\n"
+"\n"
+"Volitelně můžete v názvu použít čísla, ale ne na první pozici."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./lsp/error_database.csv:102
@@ -376,6 +426,11 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file,"
 " but it may also be in a parent class that this GDScript code extends."
 msgstr ""
+"Pokoušíte se definovat funkci nebo proměnnou, která již existuje; To nemůžeš."
+"\n"
+"\n"
+"Možná funkce nebo proměnná již existuje v aktuálním souboru kódu, ale může "
+"být také v nadřazené třídě, kterou tento kód GDScript rozšiřuje."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./lsp/error_database.csv:102
@@ -387,6 +442,11 @@ msgid ""
 " one that will not collide with an existing one or remove this line of "
 "code."
 msgstr ""
+"Váš kód v aplikaci rozšiřuje vestavěný kód Godotu, který není viditelný.\n"
+"\n"
+"Když se to stane, musíte buď přejmenovat svou funkci nebo proměnnou na "
+"takovou, která nebude kolidovat s již existující funkcí nebo tento řádek "
+"kódu odstranit."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./lsp/error_database.csv:107
@@ -397,6 +457,10 @@ msgid ""
 "Perhaps the signal already exists in the current code file, but it may "
 "also be in a parent class that this GDScript code extends."
 msgstr ""
+"Snažíte se definovat signál, který již existuje; To nelze.\n"
+"\n"
+"Možná, že signál již existuje v aktuálním souboru kódu, ale může být také v "
+"nadřazené třídě, kterou tento kód GDScript rozšiřuje."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./lsp/error_database.csv:107
@@ -407,6 +471,10 @@ msgid ""
 "When that happens, you need to either rename your signal to one that will"
 " not collide with an existing one or remove this line of code."
 msgstr ""
+"Váš kód v aplikaci rozšiřuje integrovaný kód Godotu, který není viditelný.\n"
+"\n"
+"Když se to stane, musíte buď přejmenovat svůj signál na takový, který nebude "
+"kolidovat s existujícím, nebo tento řádek kódu odstranit."
 
 #. Reference: SIGNATURE_MISMATCH
 #: ./lsp/error_database.csv:112
@@ -422,6 +490,16 @@ msgid ""
 "also to have two arguments. If you use type hints in your function "
 "definitions, the argument types must match the parent class."
 msgstr ""
+"Funkce, kterou se snažíte definovat, existuje v nadřazené třídě, takže vaše "
+"definice přepisuje funkci nadřazené třídy.\n"
+"\n"
+"Když přepíšete funkci nadřazené třídy, musí nová funkce odpovídat nadřazené "
+"třídě. Nová funkce by měla mít stejný počet a typ parametrů jako rodičovská "
+"třída.\n"
+"\n"
+"Například pokud má rodičovská třída dva argumenty, musí mít vaše nová funkce "
+"také dva argumenty. Pokud v definicích funkcí používáte typové nápovědy, "
+"musí typy argumentů odpovídat rodičovské třídě."
 
 #. Reference: SIGNATURE_MISMATCH
 #: ./lsp/error_database.csv:112
@@ -430,6 +508,9 @@ msgid ""
 "code reference. Then, you need to edit your function definition to have "
 "the same number and type of parameters as the parent class."
 msgstr ""
+"Je třeba zkontrolovat funkci nadřazené třídy a její definici v odkazu na "
+"kód. Poté musíte upravit definici své funkce tak, aby měla stejný počet a "
+"typ parametrů jako nadřazená třída."
 
 #. Reference: INVALID_ARGUMENTS
 #: ./lsp/error_database.csv:113
@@ -438,6 +519,9 @@ msgid ""
 "the wrong number of arguments or the wrong kind of argument. You will "
 "need to use the error message to see what is going wrong."
 msgstr ""
+"Celá tato skupina chyb souvisí s voláním funkcí s nesprávným počtem "
+"argumentů nebo nesprávným druhem argumentu. Abyste zjistili, co je špatně, "
+"musíte porozumět chybovému hlášení."
 
 #. Reference: INVALID_ARGUMENTS
 #: ./lsp/error_database.csv:113
@@ -447,6 +531,10 @@ msgid ""
 "arguments you need, you need to check the code reference. It will show "
 "you the function definition and the mandatory arguments."
 msgstr ""
+"Abyste tento problém vyřešili, musíte buď odebrat, přidat, nebo změnit "
+"hodnoty, které se snažíte funkci předat. Chcete-li přesně zjistit, kolik "
+"argumentů potřebujete, musíte se podívat do reference kódu. Ten vám ukáže "
+"definici funkce a povinné argumenty."
 
 #. Reference: TYPE_MISMATCH
 #: ./lsp/error_database.csv:124
@@ -465,6 +553,17 @@ msgid ""
 "You'll need to read the error message to see what is not matching because"
 " there are many possible cases."
 msgstr ""
+"Všechny hodnoty ve vašem kódu mají určitý typ. Tímto typem může být celé "
+"číslo (int), desetinné číslo (float), text (String) atd. Existuje spousta "
+"možných typů a můžete si dokonce definovat vlastní!\n"
+"\n"
+"Když provádíte jakoukoli operaci, počítač porovnává typy, které používáte.\n"
+"\n"
+"Některé typy jsou kompatibilní a některé ne. Například k textovému řetězci "
+"nelze přímo přičíst celé číslo. Nejprve musíte číslo převést na text.\n"
+"\n"
+"Budete si muset porozumět chybovému hlášení, abyste zjistili, co se "
+"neshoduje, protože existuje mnoho možných případů."
 
 #. Reference: TYPE_MISMATCH
 #: ./lsp/error_database.csv:124
@@ -480,6 +579,15 @@ msgid ""
 "example, while you can add two 2D vectors, you can't add a whole number "
 "or text to a 2D vector."
 msgstr ""
+"Pokud je v chybě uvedeno, že přiřazený typ hodnoty neodpovídá proměnné, je "
+"problém na pravé straně znaménka rovnosti (=).\n"
+"\n"
+"Pokud chyba hovoří o tom, že typ návratové hodnoty neodpovídá funkci, pak je "
+"problematická hodnota za klíčovým slovem return.\n"
+"\n"
+"Pokud počítač hovoří o neplatném operandu, pak je problém v tom, že operace "
+"pro typ, který se snažíte použít, neexistuje. Zatímco například můžete "
+"sečíst dva 2D vektory, nemůžete k 2D vektoru přičíst celé číslo nebo text."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: ./lsp/error_database.csv:129
@@ -491,6 +599,12 @@ msgid ""
 "When that happens, you need to specify the type yourself or remove type "
 "inference altogether for this variable."
 msgstr ""
+"GDScript podporuje odvozování typů. Počítač automaticky rozpozná typ "
+"hodnoty, se kterou pracujete. V některých případech to však nedokáže zjistit."
+"\n"
+"\n"
+"V takovém případě musíte typ zadat sami nebo odvození typu pro tuto "
+"proměnnou zcela odstranit."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: ./lsp/error_database.csv:129
@@ -502,6 +616,12 @@ msgid ""
 "We recommend specifying the type whenever possible to reap the typing "
 "system's benefits."
 msgstr ""
+"Nejjednodušší způsob, jak tuto chybu vyřešit, je odstranit typy pro tuto "
+"proměnnou nebo argumenty této funkce. V opačném případě můžete ručně zadat "
+"typ hodnoty za dvojtečkou.\n"
+"\n"
+"Doporučujeme uvádět typ, kdykoli je to možné, abyste využili výhod systému "
+"typování - např. nabízení relevantních metod pro daný typ při psaní kódu."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: ./lsp/error_database.csv:135
@@ -516,6 +636,12 @@ msgid ""
 "returning a value in all possible branches (if, elif, and else blocks) or"
 " at the end."
 msgstr ""
+"V návratové hodnotě vaší funkce je problém. Existují dva hlavní případy:\n"
+"\n"
+"1. Vaše funkce je funkce void, neměla by tedy vracet žádnou hodnotu. To "
+"zahrnuje funkce se syntaxí '-> void' a konstruktory tříd ('_init()').\n"
+"2. Zadali jste návratový typ funkce, ale nevracíte hodnotu ve všech možných "
+"větvích (bloky if, elif a else) nebo na konci."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: ./lsp/error_database.csv:135
@@ -528,6 +654,12 @@ msgid ""
 "of the function or in every branch (if, elif, and else block) of the "
 "function."
 msgstr ""
+"Pokud je vaše funkce 'void', nikdy byste neměli vracet žádnou hodnotu. "
+"Klíčové slovo 'return' můžete použít k předčasnému ukončení funkce, ale "
+"nikdy byste po něm neměli nic psát.\n"
+"\n"
+"Použijete-li return s hodnotou (ta je vždy určitého typu), musíte ji vždy "
+"vrátit na konci funkce nebo v každé větvi (bloku if, elif a else) funkce."
 
 #. Reference: CANNOT_CONNECT_TO_LSP
 #: ./lsp/error_database.csv:137
@@ -536,6 +668,9 @@ msgid ""
 "or browser add-on may be blocking the connection. If you use an ad "
 "blocker or script blocker, please disable it for this website."
 msgstr ""
+"Server nebo váš počítač může být momentálně odpojen. Připojení může také "
+"blokovat nějaká aplikace nebo doplněk prohlížeče. Pokud používáte blokátor "
+"reklam nebo skriptů, vypněte jej pro tuto webovou stránku."
 
 #. Reference: CANNOT_CONNECT_TO_LSP
 #: ./lsp/error_database.csv:137
@@ -543,6 +678,8 @@ msgid ""
 "Please make sure you're connected to the internet. If you use an ad "
 "blocker or script blocker, please ensure it is turned off on this page."
 msgstr ""
+"Ujistěte se, že jste připojeni k internetu. Pokud používáte blokátor reklam "
+"nebo skriptů, ujistěte se, že je na této stránce vypnutý."
 
 #. Reference: LSP_UNDETECTED_ERROR
 #: ./lsp/error_database.csv:138
@@ -550,6 +687,8 @@ msgid ""
 "Godot was unable to load your script, yet the language checker server "
 "found nothing wrong. It's possible you are not online"
 msgstr ""
+"Godot nebyl schopen načíst váš skript, ale server kontroly jazyka nenašel "
+"nic špatného. Je možné, že nejste online"
 
 #. Reference: LSP_UNDETECTED_ERROR
 #: ./lsp/error_database.csv:138
@@ -557,6 +696,8 @@ msgid ""
 "If you're offline, this error is expected. Otherwise, please click on the"
 " \"report\" button at the top and please let us know."
 msgstr ""
+"Pokud jste v režimu offline, je tato chyba očekávaná. V opačném případě "
+"klikněte na tlačítko \"nahlásit\" v horní části a dejte nám prosím vědět."
 
 #. Reference: LSP_TIMED_OUT
 #: ./lsp/error_database.csv:139
@@ -564,6 +705,7 @@ msgid ""
 "Either your connection is very slow, or the Language Verifier server is "
 "under load"
 msgstr ""
+"Buď je vaše připojení velmi pomalé, nebo je server Language Verifier zatížen"
 
 #. Reference: LSP_TIMED_OUT
 #: ./lsp/error_database.csv:139
@@ -571,11 +713,15 @@ msgid ""
 "Please try again, and if it happens again, warn us with the \"report\" "
 "button at the top. Thank you!"
 msgstr ""
+"Zkuste to prosím znovu, a pokud se to bude opakovat, upozorněte nás pomocí "
+"tlačítka \"nahlásit\" nahoře. Děkujeme!"
 
 #. Reference: RECURSIVE_FUNCTION
 #: ./lsp/error_database.csv:140
 msgid "You called a function inside itself. This will loop forever."
 msgstr ""
+"Zavolali jste funkci uvnitř sebe sama(rekurzivně). Rekurze se bude opakovat "
+"věčně (infinite loop)."
 
 #. Reference: RECURSIVE_FUNCTION
 #: ./lsp/error_database.csv:140
@@ -583,3 +729,5 @@ msgid ""
 "There are valid reasons for using recursive functions, but none of them "
 "are part of this course, so this cannot be a valid solution."
 msgstr ""
+"Existují oprávněné důvody pro použití rekurzivních funkcí, ale žádný z nich "
+"není součástí tohoto kurzu, takže toto nemůže být fungující řešení."
