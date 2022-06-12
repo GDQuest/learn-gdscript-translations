@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-07 21:03+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-03-29 08:08+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -266,6 +266,7 @@ msgstr "Comment dois-je nommer mes fonctions et paramètres ?"
 
 # Vous voudrez peut-etre
 #: course/lesson-6-multiple-function-parameters/lesson.tres:228
+#, fuzzy
 msgid ""
 "The names of functions, parameters, or other things in your code are "
 "entirely up to you.\n"
@@ -286,16 +287,17 @@ msgid ""
 "We generally try to write code that is explicit and relatively easy to "
 "read.\n"
 "\n"
-"Right now, you have to type every letter when you code, so long names may "
+"Right now, you have to enter every letter when you code, so long names may "
 "feel inconvenient.\n"
 "\n"
-"However, this is good for learning: it trains your fingers to type "
+"However, this is good for learning: it trains your fingers to [ignore]type "
 "precisely.\n"
 "\n"
 "Then, after you finish this course, you will see that the computer assists "
 "you a lot when you code real games with a feature called auto-completion.\n"
 "\n"
-"Based on a few characters you type, it will offer you to complete long names."
+"Based on a few characters you [ignore]type, it will offer you to complete "
+"long names."
 msgstr ""
 "Les noms des fonctions, des paramètres ou d'autres éléments de votre code "
 "dépendent entièrement de vous.\n"
@@ -435,12 +437,14 @@ msgid "Using multiple parameters"
 msgstr "Utiliser plusieurs paramètres"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:315
+#, fuzzy
 msgid ""
 "In this practice, we'll improve our [code]draw_corner()[/code] function so "
 "the angle can also vary.\n"
 "\n"
-"Add the [code]angle[/code] parameter to the [code]draw_corner()[/code] "
-"function and use it to draw corners of varying angles."
+"Add the [code]angle[/code] parameter after the [code]length[/code] parameter "
+"in the [code]draw_corner()[/code] function and use it to draw corners of "
+"varying angles."
 msgstr ""
 "Dans cet exercice, nous allons améliorer notre fonction [code]draw_corner()[/"
 "code] pour que l'angle puisse également varier.\n"
@@ -459,6 +463,7 @@ msgid "Drawing squares of any size"
 msgstr "Dessiner des carrés de n'importe quelle taille"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:335
+#, fuzzy
 msgid ""
 "We want a function to draw squares of any size.\n"
 "\n"
@@ -468,8 +473,11 @@ msgid ""
 "Create a function named [code]draw_square()[/code] that takes one parameter: "
 "the [code]length[/code] of the square's sides.\n"
 "\n"
-"The turtle should face towards the right when starting or completing a "
-"rectangle."
+"[b]The turtle should face towards the right when starting or completing a "
+"square.[/b]\n"
+"\n"
+"Be sure to call [b]turn_right(90)[/b]  enough times in your function to do "
+"so."
 msgstr ""
 "Nous voulons une fonction pour dessiner des carrés de n'importe quelle "
 "taille.\n"
@@ -484,7 +492,7 @@ msgstr ""
 "La tortue doit être orientée vers la droite lorsqu'elle commence ou termine "
 "un rectangle."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:350
+#: course/lesson-6-multiple-function-parameters/lesson.tres:352
 msgid ""
 "In the previous lesson, your function would draw squares of a fixed size. "
 "Using a parameter, code a function to draw squares of any size."
@@ -493,11 +501,12 @@ msgstr ""
 "fixe. En utilisant un paramètre, codez une fonction pour dessiner des carrés "
 "de n'importe quelle taille."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:355
+#: course/lesson-6-multiple-function-parameters/lesson.tres:357
 msgid "Drawing rectangles of any size"
 msgstr "Dessiner des rectangles de n'importe quelle taille"
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:356
+#: course/lesson-6-multiple-function-parameters/lesson.tres:358
+#, fuzzy
 msgid ""
 "Let's make our square drawing function more flexible to include rectangles "
 "of varying sizes.\n"
@@ -506,8 +515,8 @@ msgid ""
 "takes two parameters: the [code]length[/code] and the [code]height[/code] of "
 "the rectangle.\n"
 "\n"
-"The turtle should face towards the right when starting or completing a "
-"rectangle.\n"
+"[b]The turtle should face towards the right when starting or completing a "
+"rectangle.[/b]\n"
 "\n"
 "Note that we could still draw a square with [code]draw_rectangle()[/code] by "
 "having the [code]length[/code] and [code]height[/code] equal the same value."
@@ -526,7 +535,7 @@ msgstr ""
 "[code]draw_rectangle()[/code] en faisant en sorte que [code]length[/code] et "
 "[code]height[/code] aient la même valeur."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:379
+#: course/lesson-6-multiple-function-parameters/lesson.tres:381
 msgid ""
 "With one parameter, you can make squares of any size. With two, you can draw "
 "any rectangle! You'll do so in this practice."
@@ -535,6 +544,6 @@ msgstr ""
 "Avec deux, vous pouvez dessiner n'importe quel rectangle ! C'est ce que vous "
 "ferez dans cet exercice."
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:383
+#: course/lesson-6-multiple-function-parameters/lesson.tres:385
 msgid "Your First Function Parameter"
 msgstr "Votre premier paramètre de fonction"

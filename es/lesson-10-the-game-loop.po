@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-03-02 08:56+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -133,12 +133,15 @@ msgstr ""
 "Otros motores de juegos pueden utilizar nombres diferentes como "
 "[code]_update()[/code]."
 
+#: course/lesson-10-the-game-loop/lesson.tres:100
+#, fuzzy
+msgid "Why is the _process() function useful?"
+msgstr "¿Con qué frecuencia se ejecuta la función _process()?"
+
 #: course/lesson-10-the-game-loop/lesson.tres:102
+#, fuzzy
 msgid ""
-"[font=res://ui/theme/fonts/font_title.tres]Why is [code]_process()[/code] "
-"useful?[/font]\n"
-"\n"
-"It's perhaps better to see the [code]_process()[/code] function in action. \n"
+"It's perhaps better to see the [code]_process()[/code] function in action.\n"
 "\n"
 "Take the following example."
 msgstr ""
@@ -149,7 +152,7 @@ msgstr ""
 "\n"
 "Toma el siguiente ejemplo."
 
-#: course/lesson-10-the-game-loop/lesson.tres:126
+#: course/lesson-10-the-game-loop/lesson.tres:124
 msgid ""
 "When you click the button [code]set_process(true)[/code], you activate "
 "processing on the robot.\n"
@@ -168,11 +171,11 @@ msgstr ""
 "Como hemos escrito una instrucción [code]rotate()[/code], Godot gira el "
 "personaje [code]0.05[/code] radianes [b]muchas[/b] veces por segundo."
 
-#: course/lesson-10-the-game-loop/lesson.tres:138
+#: course/lesson-10-the-game-loop/lesson.tres:136
 msgid "How often does the _process() function run?"
 msgstr "¿Con qué frecuencia se ejecuta la función _process()?"
 
-#: course/lesson-10-the-game-loop/lesson.tres:141
+#: course/lesson-10-the-game-loop/lesson.tres:139
 msgid ""
 "The faster your computer, the more times [code]_process()[/code] will run.\n"
 "\n"
@@ -185,16 +188,16 @@ msgstr ""
 "Godot intentará ejecutar [code]_process()[/code] tan rápido como pueda. Esto "
 "asegura que cualquier movimiento o animación se vea de forma suave y fluida."
 
-#: course/lesson-10-the-game-loop/lesson.tres:144
+#: course/lesson-10-the-game-loop/lesson.tres:142
 msgid "Once a second."
 msgstr "Una vez por segundo."
 
-#: course/lesson-10-the-game-loop/lesson.tres:144
-#: course/lesson-10-the-game-loop/lesson.tres:145
+#: course/lesson-10-the-game-loop/lesson.tres:142
+#: course/lesson-10-the-game-loop/lesson.tres:143
 msgid "Multiple times a second."
 msgstr "Varias veces por segundo."
 
-#: course/lesson-10-the-game-loop/lesson.tres:154
+#: course/lesson-10-the-game-loop/lesson.tres:152
 msgid ""
 "In the practice, you'll learn how to use the process function to rotate and "
 "move a character yourself."
@@ -202,11 +205,11 @@ msgstr ""
 "En la práctica, aprenderás cómo utilizar la función [code]_process()[/code] "
 "para girar y mover un personaje tú mismo."
 
-#: course/lesson-10-the-game-loop/lesson.tres:162
+#: course/lesson-10-the-game-loop/lesson.tres:160
 msgid "Rotating a Character Continuously"
 msgstr "Girar un personaje de forma continua"
 
-#: course/lesson-10-the-game-loop/lesson.tres:163
+#: course/lesson-10-the-game-loop/lesson.tres:161
 msgid ""
 "Make the robot rotate slowly by adding to the [code]_process()[/code] "
 "function.\n"
@@ -219,11 +222,11 @@ msgstr ""
 "Una velocidad de rotación de aproximadamente [code]0.05[/code] por fotograma "
 "debería de ser suficiente."
 
-#: course/lesson-10-the-game-loop/lesson.tres:180
+#: course/lesson-10-the-game-loop/lesson.tres:178
 msgid "Creating Circular Movement"
 msgstr "Crear un movimiento circular"
 
-#: course/lesson-10-the-game-loop/lesson.tres:181
+#: course/lesson-10-the-game-loop/lesson.tres:179
 msgid ""
 "Make the robot move in a large circle slowly by rotating it and "
 "simultaneously moving it along its x direction.\n"
@@ -243,6 +246,6 @@ msgstr ""
 "Utiliza una velocidad de rotación de [code]0.05[/code] radianes por "
 "fotograma, y mueve el robot [code]5[/code] pixeles por fotograma."
 
-#: course/lesson-10-the-game-loop/lesson.tres:199
+#: course/lesson-10-the-game-loop/lesson.tres:197
 msgid "The Game Loop"
 msgstr "El bucle del juego"

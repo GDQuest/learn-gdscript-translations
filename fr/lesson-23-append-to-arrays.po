@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-05-03 14:58+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -265,7 +265,7 @@ msgstr ""
 "valeur extraite, ce qui vous permet de la stocker dans une variable, et "
 "puis, de la transmettre à une autre fonction."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:275
+#: course/lesson-23-append-to-arrays/lesson.tres:277
 msgid ""
 "Orders are piling up in the kitchen, and we need to clear them fast using "
 "the array's [code]pop_front()[/code] function."
@@ -274,12 +274,13 @@ msgstr ""
 "rapidement en utilisant la fonction [code]pop_front()[/code] du tableau."
 
 # Se débarraser des caises
-#: course/lesson-23-append-to-arrays/lesson.tres:280
+#: course/lesson-23-append-to-arrays/lesson.tres:282
 msgid "Clearing up the crates"
 msgstr "Déplacer les caisses"
 
 # verrouiller
-#: course/lesson-23-append-to-arrays/lesson.tres:281
+#: course/lesson-23-append-to-arrays/lesson.tres:283
+#, fuzzy
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping "
 "them from the [code]crates[/code] array.\n"
@@ -290,7 +291,10 @@ msgid ""
 "Your code should remove all the crates in the array using a while loop.\n"
 "\n"
 "[b]Careful![/b] if you run a while loop carelessly, you can lock the "
-"software."
+"software.\n"
+"\n"
+"You can check if the [code]crates[/code] array still contains values by "
+"writing [code]while crates:[/code]"
 msgstr ""
 "Les caisses s'empilent sur la plateforme. Déplacez-les en les enlevant du "
 "tableau [code]crates[/code].\n"
@@ -304,7 +308,7 @@ msgstr ""
 "[b]Attention ![/b] Si vous exécutez une boucle while sans précaution, vous "
 "pouvez bloquer le logiciel."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:297
+#: course/lesson-23-append-to-arrays/lesson.tres:303
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping "
 "them from their array."
@@ -312,6 +316,6 @@ msgstr ""
 "Des caisses s'empilent sur la plateforme. Déplacez-les en les retirant de "
 "leur tableau."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:301
+#: course/lesson-23-append-to-arrays/lesson.tres:307
 msgid "Appending and popping values from arrays"
 msgstr "Ajouter et enlever des valeurs des tableaux"

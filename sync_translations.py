@@ -25,9 +25,7 @@ for subdirectory in subdirectories:
     for po_file in os.listdir(os.path.join(THIS_DIR, subdirectory)):
         file_path = os.path.join(THIS_DIR, subdirectory, po_file)
         if not po_file.endswith(".po"):
-            raise Exception(
-                "Unexpected file in translations directory: {}".format(file_path)
-            )
+            continue
         command = [
             "msgmerge",
             "--update",

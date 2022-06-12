@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-06-09 12:41+0000\n"
 "Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/user-interface/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.13-dev\n"
@@ -49,20 +49,20 @@ msgstr "Návrat do historie navigace"
 msgid "(no previous history)"
 msgstr "(žádná předchozí historie)"
 
-#: ui/UIPractice.gd:133 ui/UIPractice.gd:191
+#: ui/UIPractice.gd:144 ui/UIPractice.gd:202
 #, python-format
 msgid "Hint %s"
 msgstr "Tip %s"
 
-#: ui/UIPractice.gd:216
+#: ui/UIPractice.gd:230
 msgid "Validating Your Code..."
 msgstr "Ověřování kódu..."
 
-#: ui/UIPractice.gd:269
+#: ui/UIPractice.gd:286
 msgid "Running Your Code..."
 msgstr "Probíhá spouštění kódu..."
 
-#: ui/UIPractice.gd:300
+#: ui/UIPractice.gd:337
 msgid "Running Tests..."
 msgstr "Probíhají testy..."
 
@@ -82,43 +82,31 @@ msgstr "Opustit nedokončené cvičení?"
 msgid "Button"
 msgstr "Tlačítko"
 
-#: ui/components/CodeEditor.tscn:161
+#: ui/components/CodeEditor.tscn:144
 msgid "Run"
 msgstr "Spustit"
 
-#: ui/components/CodeEditor.tscn:175
+#: ui/components/CodeEditor.tscn:158
 msgid "Pause"
 msgstr "Pauza"
 
-#: ui/components/CodeEditor.tscn:190 ui/components/RunnableCodeExample.tscn:78
+#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
 msgstr "Resetovat"
 
-#: ui/components/CodeEditor.tscn:212
+#: ui/components/CodeEditor.tscn:195
 msgid "Solution"
 msgstr "Řešení"
 
-#: ui/components/CodeEditor.tscn:226 ui/components/OutputConsole.tscn:43
+#: ui/components/CodeEditor.tscn:209 ui/components/OutputConsole.tscn:43
 msgid "Output"
 msgstr "Výstup"
 
-#: ui/components/CodeEditor.tscn:241
+#: ui/components/CodeEditor.tscn:224
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
 msgstr "Pokračovat"
-
-#: ui/components/ConnectionIndicator.gd:17
-msgid "Connected to the server."
-msgstr "Připojeno k serveru."
-
-#: ui/components/ConnectionIndicator.gd:20
-msgid ""
-"Can't reach the server. The server might be down, or your internet may be "
-"down."
-msgstr ""
-"Nelze se spojit se serverem. Server může být vypnutý nebo může být vypnutý "
-"váš internet."
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -132,10 +120,6 @@ msgstr "Termín"
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
 msgstr "Naše vysvětlení chyby."
-
-#: ui/components/LockedOverlay.gd:14
-msgid "Can't reach the server. The tests will be less precise."
-msgstr "Nelze se spojit se serverem. Testy budou méně přesné."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
 msgid "ERROR:"
@@ -316,7 +300,7 @@ msgid "Practice List"
 msgstr "Seznam cvičení"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
-#: ui/components/popups/SettingsPopup.tscn:226
+#: ui/components/popups/SettingsPopup.tscn:227
 msgid "Close"
 msgstr "Zavřít"
 
@@ -418,19 +402,19 @@ msgstr "Jazyk"
 msgid "Text Size"
 msgstr "Velikost textu"
 
-#: ui/components/popups/SettingsPopup.tscn:153
+#: ui/components/popups/SettingsPopup.tscn:154
 msgid "Sample text"
 msgstr "Ukázka textu"
 
-#: ui/components/popups/SettingsPopup.tscn:166
+#: ui/components/popups/SettingsPopup.tscn:167
 msgid "Scroll sensitivity"
 msgstr "Citlivost rolování"
 
-#: ui/components/popups/SettingsPopup.tscn:192
+#: ui/components/popups/SettingsPopup.tscn:193
 msgid "Framerate cap"
 msgstr "Omezení snímkové frekvence"
 
-#: ui/components/popups/SettingsPopup.tscn:241
+#: ui/components/popups/SettingsPopup.tscn:242
 msgid "Apply"
 msgstr "Použít"
 
@@ -495,47 +479,60 @@ msgstr "Resetovat průběh"
 msgid "Confirm Resetting Progress"
 msgstr "Potvrďte Resetování Průběhu"
 
-#: ui/screens/end_screen/EndScreen.tscn:122
-msgid "That's it... for now!"
-msgstr "To je vše... prozatím!"
-
-#: ui/screens/end_screen/EndScreen.tscn:160
-msgid ""
-"Thanks for participating in the beta test.\n"
-"\n"
-"We hope you enjoyed what's available so far.\n"
-"\n"
-"We wish we had a lot more to give you already, but creating this app took "
-"time. A [i]lot[/i] of time.\n"
-"\n"
-"The good news is: now we figured out many of the more challenging parts, "
-"moving forward, we can shift our focus onto new lessons and practices."
+#: ui/screens/end_screen/EndScreen.tscn:229
+msgid "Congratulations!"
 msgstr ""
-"Děkujeme za účast v beta testu.\n"
-"\n"
-"Doufáme, že se vám líbilo, co je zatím k dispozici.\n"
-"\n"
-"Přáli bychom si, abychom vám toho už teď mohli dát mnohem víc, ale vytvoření "
-"této aplikace si vyžádalo čas. [i] Hodně[/i] času.\n"
-"\n"
-"Dobrá zpráva je: nyní jsme vyřešili mnoho náročnějších částí, a tak se "
-"můžeme posunout dál a zaměřit se na nové lekce a postupy."
 
-#: ui/screens/end_screen/EndScreen.tscn:188
+#: ui/screens/end_screen/EndScreen.tscn:236
 msgid ""
-"[font=res://ui/theme/fonts/font_title.tres]What's coming next[/font]\n"
+"You completed Learn GDScript From Zero. You now have the basics you need to "
+"dive into game creation with the Godot game engine.\n"
 "\n"
-"We have plans for many more lessons and improvements.\n"
-"\n"
-"You can find our plan for future releases on our [url=https://github.com/"
-"GDQuest/learn-gdscript#roadmap]roadmap[/url]."
+"If you're looking for a free series to keep learning the basics with us, you "
+"can move on to [url=https://www.gdquest.com/tutorial/godot/learning-paths/"
+"getting-started-in-2021/]Getting Started with Godot[/url]."
 msgstr ""
-"[font=res://ui/theme/fonts/font_title.tres] Co se chystá dál[/font]\n"
+
+#: ui/screens/end_screen/EndScreen.tscn:249
+msgid "Or level up faster by taking this shortcut"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:256
+msgid ""
+"There are loads of free game creation tutorials, but they don't form a clear "
+"path.\n"
 "\n"
-"Máme plány na mnoho dalších lekcí a vylepšení.\n"
+"Worse, most of them are like step-by-step recipes. But as you learned, you "
+"can't become a developer by just following recipes.\n"
 "\n"
-"Náš plán pro budoucí vydání najdete na našem [url=https://github.com/GDQuest/"
-"learn-gdscript#roadmap]roadmap[/url]."
+"Every project has unique challenges and requires [i]creative problem "
+"solving[/i]. You need to [i]think like a programmer[/i].\n"
+"\n"
+"Learning that on your own can take years."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:277
+msgid "Learn to Code From Zero, with Godot"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:284
+msgid ""
+"This app is the free part of our in-depth course, [url=https://gdquest."
+"mavenseed.com/courses/learn-to-code-from-zero-with-godot][b]Learn to Code "
+"From Zero, with Godot[/b][/url].\n"
+"\n"
+"The course picks up right where this app ends to take you to the point where "
+"you can make [i]your[/i] game.\n"
+"\n"
+"It's the only course that'll truly teach you [i]how to become a game "
+"developer[/i] with Godot."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:308
+#: ui/screens/lesson/UIContentBlock.gd:70
+#: ui/screens/lesson/UIContentBlock.gd:134
+msgid "Learn More"
+msgstr "Dozvědět se více"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
@@ -560,11 +557,6 @@ msgstr "Máš pravdu!"
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
 msgstr "Odpovědi zde"
-
-#: ui/screens/lesson/UIContentBlock.gd:70
-#: ui/screens/lesson/UIContentBlock.gd:134
-msgid "Learn More"
-msgstr "Dozvědět se více"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
@@ -654,3 +646,55 @@ msgstr "VOLBY"
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:693
 msgid "QUIT"
 msgstr "PŘESTAT"
+
+#~ msgid "Connected to the server."
+#~ msgstr "Připojeno k serveru."
+
+#~ msgid ""
+#~ "Can't reach the server. The server might be down, or your internet may be "
+#~ "down."
+#~ msgstr ""
+#~ "Nelze se spojit se serverem. Server může být vypnutý nebo může být "
+#~ "vypnutý váš internet."
+
+#~ msgid "Can't reach the server. The tests will be less precise."
+#~ msgstr "Nelze se spojit se serverem. Testy budou méně přesné."
+
+#~ msgid "That's it... for now!"
+#~ msgstr "To je vše... prozatím!"
+
+#~ msgid ""
+#~ "Thanks for participating in the beta test.\n"
+#~ "\n"
+#~ "We hope you enjoyed what's available so far.\n"
+#~ "\n"
+#~ "We wish we had a lot more to give you already, but creating this app took "
+#~ "time. A [i]lot[/i] of time.\n"
+#~ "\n"
+#~ "The good news is: now we figured out many of the more challenging parts, "
+#~ "moving forward, we can shift our focus onto new lessons and practices."
+#~ msgstr ""
+#~ "Děkujeme za účast v beta testu.\n"
+#~ "\n"
+#~ "Doufáme, že se vám líbilo, co je zatím k dispozici.\n"
+#~ "\n"
+#~ "Přáli bychom si, abychom vám toho už teď mohli dát mnohem víc, ale "
+#~ "vytvoření této aplikace si vyžádalo čas. [i] Hodně[/i] času.\n"
+#~ "\n"
+#~ "Dobrá zpráva je: nyní jsme vyřešili mnoho náročnějších částí, a tak se "
+#~ "můžeme posunout dál a zaměřit se na nové lekce a postupy."
+
+#~ msgid ""
+#~ "[font=res://ui/theme/fonts/font_title.tres]What's coming next[/font]\n"
+#~ "\n"
+#~ "We have plans for many more lessons and improvements.\n"
+#~ "\n"
+#~ "You can find our plan for future releases on our [url=https://github.com/"
+#~ "GDQuest/learn-gdscript#roadmap]roadmap[/url]."
+#~ msgstr ""
+#~ "[font=res://ui/theme/fonts/font_title.tres] Co se chystá dál[/font]\n"
+#~ "\n"
+#~ "Máme plány na mnoho dalších lekcí a vylepšení.\n"
+#~ "\n"
+#~ "Náš plán pro budoucí vydání najdete na našem [url=https://github.com/"
+#~ "GDQuest/learn-gdscript#roadmap]roadmap[/url]."

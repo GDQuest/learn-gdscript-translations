@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-03-28 13:16+0000\n"
-"Last-Translator: Alexandre Vinicius Gonçalves <alexandre.craneo@hotmail.com>"
-"\n"
+"Last-Translator: Alexandre Vinicius Gonçalves <alexandre.craneo@hotmail."
+"com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-23-append-to-arrays/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -86,8 +86,8 @@ msgstr ""
 "array. Então, ao completar uma refeição na cozinha e servi-la, você deseja "
 "removê-la do array.\n"
 "\n"
-"Você pode fazer isso com as funções [code]append()[/code] e "
-"[code]pop_front()[/code] do array, respectivamente.\n"
+"Você pode fazer isso com as funções [code]append()[/code] e [code]pop_front()"
+"[/code] do array, respectivamente.\n"
 "\n"
 "Tente ler o código abaixo antes de prosseguir. Não se preocupe se nem tudo "
 "fizer sentido, porque vamos entrar em detalhes para explicar."
@@ -259,7 +259,7 @@ msgstr ""
 "removido, que te permite armazená-lo em uma variável e depois passá-lo para "
 "outra função."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:275
+#: course/lesson-23-append-to-arrays/lesson.tres:277
 msgid ""
 "Orders are piling up in the kitchen, and we need to clear them fast using "
 "the array's [code]pop_front()[/code] function."
@@ -267,11 +267,12 @@ msgstr ""
 "Os pedidos estão se acumulando na cozinha e precisamos completa-los "
 "rapidamente usando a função [code]pop_front()[/code] do array."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:280
+#: course/lesson-23-append-to-arrays/lesson.tres:282
 msgid "Clearing up the crates"
 msgstr "Limpando as caixas"
 
-#: course/lesson-23-append-to-arrays/lesson.tres:281
+#: course/lesson-23-append-to-arrays/lesson.tres:283
+#, fuzzy
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping "
 "them from the [code]crates[/code] array.\n"
@@ -282,7 +283,10 @@ msgid ""
 "Your code should remove all the crates in the array using a while loop.\n"
 "\n"
 "[b]Careful![/b] if you run a while loop carelessly, you can lock the "
-"software."
+"software.\n"
+"\n"
+"You can check if the [code]crates[/code] array still contains values by "
+"writing [code]while crates:[/code]"
 msgstr ""
 "As caixas estão se acumulando na plataforma. Mova elas para fora do caminho, "
 "removendo elas do array [code]crates[/code].\n"
@@ -295,7 +299,7 @@ msgstr ""
 "[b]Cuidado![/b] se você executar um loop while de forma descuidada, poderá "
 "travar o aplicativo."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:297
+#: course/lesson-23-append-to-arrays/lesson.tres:303
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping "
 "them from their array."
@@ -303,6 +307,6 @@ msgstr ""
 "As caixas estão se acumulando na plataforma. Mova elas para fora do caminho, "
 "tirando-as do array."
 
-#: course/lesson-23-append-to-arrays/lesson.tres:301
+#: course/lesson-23-append-to-arrays/lesson.tres:307
 msgid "Appending and popping values from arrays"
 msgstr "Anexando e removendo valores de arrays"

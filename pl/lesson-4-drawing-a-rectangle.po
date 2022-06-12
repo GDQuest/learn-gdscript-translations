@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-07 21:03+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-03-09 18:55+0000\n"
 "Last-Translator: Katarzyna Twardowska <katarina.twardowska@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-4-drawing-a-rectangle/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-4-drawing-a-rectangle/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,45 +132,42 @@ msgstr ""
 "przykładach, aby najpierw narysować róg, a następnie prostokąt taki jak ten."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
-msgid "In the function definition below, which part is the function parameter?"
+#, fuzzy
+msgid "In the function call below, which part is the argument?"
 msgstr ""
 "W funkcji zdefiniowanej poniżej, która część odpowiada za jej parametry?"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
-msgid "[code]func move_forward(pixels)[/code]"
+#, fuzzy
+msgid "[code]move_forward(30)[/code]"
 msgstr "[code]func move_forward(liczba_pikseli)[/code]"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:127
 msgid ""
-"The function parameters are inside the parentheses in a function "
-"definition.\n"
+"A function's arguments are all the values inside the parentheses. In this "
+"case, there's only one, but there can be multiple separated by commas.\n"
 "\n"
-"The [code]func[/code] keyword tells the computer you're defining a new "
-"function, and [code]move_forward[/code] is the function's name."
+"In this case, [code]move_forward[/code] is the function's name and [code]30[/"
+"code] is the argument.\n"
+"\n"
+"This function call will make the turtle move forward by [code]30[/code] "
+"pixels."
 msgstr ""
-"Parametry definiowanej funkcji znajdują się wewnątrz nawiasów.\n"
-"\n"
-"Słowo kluczowe [code]func[/code] informuje komputer, że definiujesz nową "
-"funkcję, a [code]move_forward[/code] jest nazwą funkcji."
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:130
-msgid "func"
-msgstr "func"
-
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:130
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 msgid "move_forward"
 msgstr "move_forward"
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:130
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:131
-msgid "pixels"
-msgstr "liczba_pikseli"
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:132
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:133
+msgid "30"
+msgstr ""
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:138
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:140
 msgid "Drawing a Corner"
 msgstr "Narysuj róg"
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:139
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:141
 msgid ""
 "In this practice, we'll tell the turtle to draw a corner.\n"
 "\n"
@@ -195,8 +192,8 @@ msgstr ""
 "W tym ćwiczeniu wykorzystamy naszego żółwika, aby narysować róg.\n"
 "\n"
 "Róg składa się z dwóch linii o długości [code]200[/code] pikseli. Linie są "
-"połączone ze sobą pod kątem [code]90[/code] stopni (czyli pod kątem prostym)."
-"\n"
+"połączone ze sobą pod kątem [code]90[/code] stopni (czyli pod kątem "
+"prostym).\n"
 "\n"
 "Podane funkcje [code]move_forward()[/code] i [code]turn_right()[/code] w "
 "istocie rysują róg, ale brakuje im niektórych parametrów.\n"
@@ -211,7 +208,7 @@ msgstr ""
 "W kolejnych praktykach narysujemy wiele narożników, tworząc prostokąty.\n"
 "\n"
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:163
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:165
 msgid ""
 "Use the turtle to draw a square's corner. You'll then build upon it to draw "
 "a rectangle."
@@ -219,12 +216,12 @@ msgstr ""
 "Użyj żółwika, aby narysować róg kwadratu. Następnie, opierając się na "
 "zdobytej umiejętności rysowania rogów, narysujesz złożony z rogów prostokąt."
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:168
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:216
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:170
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:218
 msgid "Drawing a Rectangle"
 msgstr "Narysuj prostokąt"
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:169
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:171
 msgid ""
 "Add the correct parameters to the functions [code]move_forward()[/code] and "
 "[code]turn_right()[/code] to draw a rectangle with a width of [code]200[/"
@@ -236,24 +233,24 @@ msgid ""
 "rectangle."
 msgstr ""
 "Dodaj prawidłowe parametry do funkcji [code]move_forward()[/code] i "
-"[code]turn_right()[/code], aby narysować prostokąt o szerokości "
-"[code]200[/code] pikseli i wysokości [code]120[/code] pikseli.\n"
+"[code]turn_right()[/code], aby narysować prostokąt o szerokości [code]200[/"
+"code] pikseli i wysokości [code]120[/code] pikseli.\n"
 "\n"
 "Wpisaliśmy już za ciebie pierwszy z parametrów.\n"
 "\n"
 "W następnym ćwiczeniu użyjesz tych samych funkcji do narysowania jeszcze "
 "większego prostokąta."
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:189
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:191
 msgid ""
 "Based on your rectangle corner, you now need to draw a complete rectangle."
 msgstr "Bazując na umiejętności rysowania rogów narysuj cały prostokąt."
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:194
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:196
 msgid "Drawing a Bigger Rectangle"
 msgstr "Narysuj większy prostokąt"
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:195
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:197
 msgid ""
 "Write out calls to the functions [code]move_forward()[/code] and "
 "[code]turn_right()[/code] to draw a rectangle with a width of 220 pixels, "
@@ -277,10 +274,28 @@ msgstr ""
 "dzięki czemu nasz komputer będzie wiedział, że jest ona częścią funkcji "
 "[code]draw_rectangle()[/code]."
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:212
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:214
 msgid ""
 "At this point, you're ready to code entirely on your own. Call functions by "
 "yourself to draw a complete rectangle."
 msgstr ""
 "W tym momencie jesteś już gotów do samodzielnego kodowania. Wywołaj "
 "wszystkie potrzebne do narysowania pełnego prostokąta funkcje samodzielnie."
+
+#~ msgid ""
+#~ "The function parameters are inside the parentheses in a function "
+#~ "definition.\n"
+#~ "\n"
+#~ "The [code]func[/code] keyword tells the computer you're defining a new "
+#~ "function, and [code]move_forward[/code] is the function's name."
+#~ msgstr ""
+#~ "Parametry definiowanej funkcji znajdują się wewnątrz nawiasów.\n"
+#~ "\n"
+#~ "Słowo kluczowe [code]func[/code] informuje komputer, że definiujesz nową "
+#~ "funkcję, a [code]move_forward[/code] jest nazwą funkcji."
+
+#~ msgid "func"
+#~ msgstr "func"
+
+#~ msgid "pixels"
+#~ msgstr "liczba_pikseli"

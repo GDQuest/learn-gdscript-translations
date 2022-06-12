@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-03-04 15:20+0100\n"
 "Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
 "Language-Team: \n"
@@ -83,9 +83,9 @@ msgstr ""
 msgid ""
 "Notice how we assign the result of the function call to a variable. Because "
 "the [code]round()[/code] function returns a [i]new[/i] value, we need to "
-"store the result.\n"
+"either store the result or use the value immediately.\n"
 "\n"
-"So we assign the result to a variable."
+"Above, we assigned it to a variable, but you could also do the following."
 msgstr ""
 "Beachten Sie, wie wir das Ergebnis des Funktionsaufrufs einer Variablen "
 "zuweisen. Da die Funktion [code]round()[/code] einen [i]new[/i]-Wert "
@@ -93,12 +93,18 @@ msgstr ""
 "\n"
 "Also ordnen wir das Ergebnis einer Variablen zu."
 
-#: course/lesson-22-functions-return-values/lesson.tres:81
+#: course/lesson-22-functions-return-values/lesson.tres:93
+msgid ""
+"You can assign the return value of a function call if you plan on using it "
+"more than once."
+msgstr ""
+
+#: course/lesson-22-functions-return-values/lesson.tres:101
 #, fuzzy
 msgid "A cooler example: lerp()"
 msgstr "Ein cooleres Beispiel: lerp()"
 
-#: course/lesson-22-functions-return-values/lesson.tres:83
+#: course/lesson-22-functions-return-values/lesson.tres:103
 #, fuzzy
 msgid ""
 "The [code]lerp()[/code] function, short for [i]linear interpolate[/i], "
@@ -121,7 +127,7 @@ msgstr ""
 "Es ist beliebt in Spielen, um Dinge zu animieren, die sich mit einer "
 "einzigen Codezeile auf ein Ziel zubewegen."
 
-#: course/lesson-22-functions-return-values/lesson.tres:117
+#: course/lesson-22-functions-return-values/lesson.tres:137
 #, fuzzy
 msgid ""
 "Every frame, the code calculates a position somewhere between the turtle and "
@@ -138,12 +144,12 @@ msgstr ""
 "Es ist nicht der robusteste Ansatz für eine reibungslose Bewegung, wie Sie "
 "in Zukunft lernen werden, aber es ist dennoch eine hilfreiche Funktion."
 
-#: course/lesson-22-functions-return-values/lesson.tres:127
+#: course/lesson-22-functions-return-values/lesson.tres:147
 #, fuzzy
 msgid "Writing a function that returns a value"
 msgstr "Schreiben einer Funktion, die einen Wert zurückgibt"
 
-#: course/lesson-22-functions-return-values/lesson.tres:129
+#: course/lesson-22-functions-return-values/lesson.tres:149
 #, fuzzy
 msgid ""
 "You can make [i]your[/i] functions return values. \n"
@@ -170,7 +176,7 @@ msgstr ""
 "Nun, Zellenkoordinaten entsprechen nicht den Positionen auf dem Bildschirm, "
 "daher müssen wir Zellenpositionen in Bildschirmpositionen konvertieren."
 
-#: course/lesson-22-functions-return-values/lesson.tres:157
+#: course/lesson-22-functions-return-values/lesson.tres:177
 #, fuzzy
 msgid ""
 "To do so, we use a function. It multiplies the cell coordinate by the cell "
@@ -180,7 +186,7 @@ msgstr ""
 "Zellgröße, addiert dem Produkt die Hälfte der Zellgröße und gibt das "
 "Ergebnis zurück."
 
-#: course/lesson-22-functions-return-values/lesson.tres:177
+#: course/lesson-22-functions-return-values/lesson.tres:197
 #, fuzzy
 msgid ""
 "The [code]return[/code] keyword returns the value to the code calling the "
@@ -190,7 +196,7 @@ msgstr ""
 "die Funktion aufruft. Sie erhalten das Ergebnis, in dem Sie die Funktion "
 "aufrufen."
 
-#: course/lesson-22-functions-return-values/lesson.tres:197
+#: course/lesson-22-functions-return-values/lesson.tres:217
 #, fuzzy
 msgid ""
 "Some functions return values, and some do not. You can learn which functions "
@@ -213,12 +219,12 @@ msgstr ""
 "\n"
 "Lassen Sie uns zunächst üben, Werte aus Funktionen zurückzugeben!"
 
-#: course/lesson-22-functions-return-values/lesson.tres:209
+#: course/lesson-22-functions-return-values/lesson.tres:229
 #, fuzzy
 msgid "Converting coordinates from the grid to the screen"
 msgstr "Konvertieren von Koordinaten aus dem Raster in den Bildschirm"
 
-#: course/lesson-22-functions-return-values/lesson.tres:210
+#: course/lesson-22-functions-return-values/lesson.tres:230
 #, fuzzy
 msgid ""
 "Define a function that converts a position on a grid to the screen.\n"
@@ -241,7 +247,7 @@ msgstr ""
 "Um die Mitte einer Zelle zu erhalten, müssen Sie dem Produkt die Hälfte der "
 "[code]cell_size[/code] hinzufügen."
 
-#: course/lesson-22-functions-return-values/lesson.tres:222
+#: course/lesson-22-functions-return-values/lesson.tres:244
 #, fuzzy
 msgid ""
 "We lost the function to convert grid coordinates, but we desperately need it "
@@ -251,7 +257,7 @@ msgstr ""
 "wir brauchen sie dringend für unser Spiel! Lassen Sie die Schildkröte wieder "
 "bewegen, indem Sie sie codieren."
 
-#: course/lesson-22-functions-return-values/lesson.tres:226
+#: course/lesson-22-functions-return-values/lesson.tres:248
 #, fuzzy
 msgid "Functions that return a value"
 msgstr "Funktionen, die einen Wert zurückgeben"

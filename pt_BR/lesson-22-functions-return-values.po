@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-03-28 13:16+0000\n"
-"Last-Translator: Alexandre Vinicius Gonçalves <alexandre.craneo@hotmail.com>"
-"\n"
+"Last-Translator: Alexandre Vinicius Gonçalves <alexandre.craneo@hotmail."
+"com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-22-functions-return-values/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -75,12 +75,13 @@ msgstr ""
 "Nesse caso, você pode usar a função [code]round()[/code], assim."
 
 #: course/lesson-22-functions-return-values/lesson.tres:71
+#, fuzzy
 msgid ""
 "Notice how we assign the result of the function call to a variable. Because "
 "the [code]round()[/code] function returns a [i]new[/i] value, we need to "
-"store the result.\n"
+"either store the result or use the value immediately.\n"
 "\n"
-"So we assign the result to a variable."
+"Above, we assigned it to a variable, but you could also do the following."
 msgstr ""
 "Observe como atribuímos o resultado da chamada da função em uma variável. "
 "Como a função [code]round()[/code] retorna um valor [i]novo[/i], precisamos "
@@ -88,11 +89,17 @@ msgstr ""
 "\n"
 "Então atribuímos o resultado em uma variável."
 
-#: course/lesson-22-functions-return-values/lesson.tres:81
+#: course/lesson-22-functions-return-values/lesson.tres:93
+msgid ""
+"You can assign the return value of a function call if you plan on using it "
+"more than once."
+msgstr ""
+
+#: course/lesson-22-functions-return-values/lesson.tres:101
 msgid "A cooler example: lerp()"
 msgstr "Um exemplo mais legal: lerp()"
 
-#: course/lesson-22-functions-return-values/lesson.tres:83
+#: course/lesson-22-functions-return-values/lesson.tres:103
 msgid ""
 "The [code]lerp()[/code] function, short for [i]linear interpolate[/i], "
 "calculates and returns a weighted average between two values.\n"
@@ -112,7 +119,7 @@ msgstr ""
 "Em programação para jogos, isso é usado para animar coisas que se movem em "
 "direção a um alvo com uma única linha de código."
 
-#: course/lesson-22-functions-return-values/lesson.tres:117
+#: course/lesson-22-functions-return-values/lesson.tres:137
 msgid ""
 "Every frame, the code calculates a position somewhere between the turtle and "
 "the mouse cursor. The [code]lerp()[/code] function takes care of "
@@ -128,11 +135,11 @@ msgstr ""
 "Não é a abordagem mais robusta para movimentos suaves, como você vai "
 "aprender no futuro, mas ainda assim é uma função útil."
 
-#: course/lesson-22-functions-return-values/lesson.tres:127
+#: course/lesson-22-functions-return-values/lesson.tres:147
 msgid "Writing a function that returns a value"
 msgstr "Escrevendo uma função que retorna um valor"
 
-#: course/lesson-22-functions-return-values/lesson.tres:129
+#: course/lesson-22-functions-return-values/lesson.tres:149
 msgid ""
 "You can make [i]your[/i] functions return values. \n"
 "\n"
@@ -160,7 +167,7 @@ msgstr ""
 "Bem, as coordenadas das células não correspondem às posições na tela, então "
 "precisamos converter as posições das células em posições de tela."
 
-#: course/lesson-22-functions-return-values/lesson.tres:157
+#: course/lesson-22-functions-return-values/lesson.tres:177
 msgid ""
 "To do so, we use a function. It multiplies the cell coordinate by the cell "
 "size, adds half the cell size to the product, and returns the result."
@@ -169,7 +176,7 @@ msgstr ""
 "pelo tamanho da célula, adiciona metade do tamanho da célula ao produto e "
 "retorna o resultado."
 
-#: course/lesson-22-functions-return-values/lesson.tres:177
+#: course/lesson-22-functions-return-values/lesson.tres:197
 msgid ""
 "The [code]return[/code] keyword returns the value to the code calling the "
 "function. You'll receive the result where you call the function."
@@ -177,7 +184,7 @@ msgstr ""
 "A palavra-chave [code]return[/code] retorna o valor para o código que está "
 "chamando a função. Você vai receber o resultado onde chamar a função."
 
-#: course/lesson-22-functions-return-values/lesson.tres:197
+#: course/lesson-22-functions-return-values/lesson.tres:217
 msgid ""
 "Some functions return values, and some do not. You can learn which functions "
 "return a result using the documentation panel in the practice screen.\n"
@@ -200,11 +207,11 @@ msgstr ""
 "\n"
 "Por enquanto, vamos praticar o retorno de valores de funções!"
 
-#: course/lesson-22-functions-return-values/lesson.tres:209
+#: course/lesson-22-functions-return-values/lesson.tres:229
 msgid "Converting coordinates from the grid to the screen"
 msgstr "Convertendo coordenadas do grid para a tela"
 
-#: course/lesson-22-functions-return-values/lesson.tres:210
+#: course/lesson-22-functions-return-values/lesson.tres:230
 msgid ""
 "Define a function that converts a position on a grid to the screen.\n"
 "\n"
@@ -218,7 +225,7 @@ msgstr ""
 "como argumento. Ela deve retornar as coordenadas de tela do tipo "
 "[code]Vector2[/code] no centro da célula."
 
-#: course/lesson-22-functions-return-values/lesson.tres:222
+#: course/lesson-22-functions-return-values/lesson.tres:244
 msgid ""
 "We lost the function to convert grid coordinates, but we desperately need it "
 "for our game! Make the turtle move again by coding it."
@@ -227,6 +234,6 @@ msgstr ""
 "desesperadamente dela para o nosso jogo! Faça a tartaruga se mover novamente "
 "programando ela."
 
-#: course/lesson-22-functions-return-values/lesson.tres:226
+#: course/lesson-22-functions-return-values/lesson.tres:248
 msgid "Functions that return a value"
 msgstr "Funções que retornam um valor"

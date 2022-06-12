@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-05-07 16:15+0000\n"
 "Last-Translator: Haoyu Qiu <timothyqiu32@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/application/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.12.1\n"
@@ -47,20 +47,20 @@ msgstr "导航历史回退"
 msgid "(no previous history)"
 msgstr "（没有更早的历史）"
 
-#: ui/UIPractice.gd:133 ui/UIPractice.gd:191
+#: ui/UIPractice.gd:144 ui/UIPractice.gd:202
 #, python-format
 msgid "Hint %s"
 msgstr "提示 %s"
 
-#: ui/UIPractice.gd:216
+#: ui/UIPractice.gd:230
 msgid "Validating Your Code..."
 msgstr "正在校验你的代码..."
 
-#: ui/UIPractice.gd:269
+#: ui/UIPractice.gd:286
 msgid "Running Your Code..."
 msgstr "正在运行你的代码..."
 
-#: ui/UIPractice.gd:300
+#: ui/UIPractice.gd:337
 msgid "Running Tests..."
 msgstr "正在运行测试..."
 
@@ -80,41 +80,31 @@ msgstr "要离开未完成的练习吗？"
 msgid "Button"
 msgstr "按钮"
 
-#: ui/components/CodeEditor.tscn:161
+#: ui/components/CodeEditor.tscn:144
 msgid "Run"
 msgstr "运行"
 
-#: ui/components/CodeEditor.tscn:175
+#: ui/components/CodeEditor.tscn:158
 msgid "Pause"
 msgstr "暂停"
 
-#: ui/components/CodeEditor.tscn:190 ui/components/RunnableCodeExample.tscn:78
+#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
 msgstr "重置"
 
-#: ui/components/CodeEditor.tscn:212
+#: ui/components/CodeEditor.tscn:195
 msgid "Solution"
 msgstr "解答"
 
-#: ui/components/CodeEditor.tscn:226 ui/components/OutputConsole.tscn:43
+#: ui/components/CodeEditor.tscn:209 ui/components/OutputConsole.tscn:43
 msgid "Output"
 msgstr "输出"
 
-#: ui/components/CodeEditor.tscn:241
+#: ui/components/CodeEditor.tscn:224
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
 msgstr "继续"
-
-#: ui/components/ConnectionIndicator.gd:17
-msgid "Connected to the server."
-msgstr "已连接至服务器。"
-
-#: ui/components/ConnectionIndicator.gd:20
-msgid ""
-"Can't reach the server. The server might be down, or your internet may be "
-"down."
-msgstr "无法连接服务器。服务器可能宕机，或者你的网络连接已断开。"
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -128,10 +118,6 @@ msgstr "术语"
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
 msgstr "我们的错误说明。"
-
-#: ui/components/LockedOverlay.gd:14
-msgid "Can't reach the server. The tests will be less precise."
-msgstr "无法连接服务器。测试精度会降低。"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
 msgid "ERROR:"
@@ -308,7 +294,7 @@ msgid "Practice List"
 msgstr "练习列表"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
-#: ui/components/popups/SettingsPopup.tscn:226
+#: ui/components/popups/SettingsPopup.tscn:227
 msgid "Close"
 msgstr "关闭"
 
@@ -404,19 +390,19 @@ msgstr "语言"
 msgid "Text Size"
 msgstr "文本大小"
 
-#: ui/components/popups/SettingsPopup.tscn:153
+#: ui/components/popups/SettingsPopup.tscn:154
 msgid "Sample text"
 msgstr "示例文本"
 
-#: ui/components/popups/SettingsPopup.tscn:166
+#: ui/components/popups/SettingsPopup.tscn:167
 msgid "Scroll sensitivity"
 msgstr "滚轮灵敏度"
 
-#: ui/components/popups/SettingsPopup.tscn:192
+#: ui/components/popups/SettingsPopup.tscn:193
 msgid "Framerate cap"
 msgstr "帧率上限"
 
-#: ui/components/popups/SettingsPopup.tscn:241
+#: ui/components/popups/SettingsPopup.tscn:242
 msgid "Apply"
 msgstr "应用"
 
@@ -481,46 +467,60 @@ msgstr "重置进度"
 msgid "Confirm Resetting Progress"
 msgstr "确认重置进度"
 
-#: ui/screens/end_screen/EndScreen.tscn:122
-msgid "That's it... for now!"
-msgstr "目前就是这样了！"
-
-#: ui/screens/end_screen/EndScreen.tscn:160
-msgid ""
-"Thanks for participating in the beta test.\n"
-"\n"
-"We hope you enjoyed what's available so far.\n"
-"\n"
-"We wish we had a lot more to give you already, but creating this app took "
-"time. A [i]lot[/i] of time.\n"
-"\n"
-"The good news is: now we figured out many of the more challenging parts, "
-"moving forward, we can shift our focus onto new lessons and practices."
+#: ui/screens/end_screen/EndScreen.tscn:229
+msgid "Congratulations!"
 msgstr ""
-"感谢参加 Beta 测试。\n"
-"\n"
-"我们希望你喜欢目前的内容。\n"
-"\n"
-"我们希望能够为你提供更多内容，但创建这个应用需要时间。[i]非常多[/i]的时间。\n"
-"\n"
-"好消息是：我们已经解决了很多比较具有挑战性的部分，此后，我们可以将工作集中在"
-"新的课程和练习上。"
 
-#: ui/screens/end_screen/EndScreen.tscn:188
+#: ui/screens/end_screen/EndScreen.tscn:236
 msgid ""
-"[font=res://ui/theme/fonts/font_title.tres]What's coming next[/font]\n"
+"You completed Learn GDScript From Zero. You now have the basics you need to "
+"dive into game creation with the Godot game engine.\n"
 "\n"
-"We have plans for many more lessons and improvements.\n"
-"\n"
-"You can find our plan for future releases on our [url=https://github.com/"
-"GDQuest/learn-gdscript#roadmap]roadmap[/url]."
+"If you're looking for a free series to keep learning the basics with us, you "
+"can move on to [url=https://www.gdquest.com/tutorial/godot/learning-paths/"
+"getting-started-in-2021/]Getting Started with Godot[/url]."
 msgstr ""
-"[font=res://ui/theme/fonts/font_title.tres]预告[/font]\n"
+
+#: ui/screens/end_screen/EndScreen.tscn:249
+msgid "Or level up faster by taking this shortcut"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:256
+msgid ""
+"There are loads of free game creation tutorials, but they don't form a clear "
+"path.\n"
 "\n"
-"我们计划制作更多课程和改进。\n"
+"Worse, most of them are like step-by-step recipes. But as you learned, you "
+"can't become a developer by just following recipes.\n"
 "\n"
-"你可以在我们的[url=https://github.com/GDQuest/learn-gdscript#roadmap]路线图[/"
-"url]中查看未来版本的计划。"
+"Every project has unique challenges and requires [i]creative problem "
+"solving[/i]. You need to [i]think like a programmer[/i].\n"
+"\n"
+"Learning that on your own can take years."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:277
+msgid "Learn to Code From Zero, with Godot"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:284
+msgid ""
+"This app is the free part of our in-depth course, [url=https://gdquest."
+"mavenseed.com/courses/learn-to-code-from-zero-with-godot][b]Learn to Code "
+"From Zero, with Godot[/b][/url].\n"
+"\n"
+"The course picks up right where this app ends to take you to the point where "
+"you can make [i]your[/i] game.\n"
+"\n"
+"It's the only course that'll truly teach you [i]how to become a game "
+"developer[/i] with Godot."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:308
+#: ui/screens/lesson/UIContentBlock.gd:70
+#: ui/screens/lesson/UIContentBlock.gd:134
+msgid "Learn More"
+msgstr "了解更多"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
@@ -545,11 +545,6 @@ msgstr "答对了！"
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
 msgstr "请在此处作答"
-
-#: ui/screens/lesson/UIContentBlock.gd:70
-#: ui/screens/lesson/UIContentBlock.gd:134
-msgid "Learn More"
-msgstr "了解更多"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
@@ -639,3 +634,53 @@ msgstr "选项"
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:693
 msgid "QUIT"
 msgstr "退出"
+
+#~ msgid "Connected to the server."
+#~ msgstr "已连接至服务器。"
+
+#~ msgid ""
+#~ "Can't reach the server. The server might be down, or your internet may be "
+#~ "down."
+#~ msgstr "无法连接服务器。服务器可能宕机，或者你的网络连接已断开。"
+
+#~ msgid "Can't reach the server. The tests will be less precise."
+#~ msgstr "无法连接服务器。测试精度会降低。"
+
+#~ msgid "That's it... for now!"
+#~ msgstr "目前就是这样了！"
+
+#~ msgid ""
+#~ "Thanks for participating in the beta test.\n"
+#~ "\n"
+#~ "We hope you enjoyed what's available so far.\n"
+#~ "\n"
+#~ "We wish we had a lot more to give you already, but creating this app took "
+#~ "time. A [i]lot[/i] of time.\n"
+#~ "\n"
+#~ "The good news is: now we figured out many of the more challenging parts, "
+#~ "moving forward, we can shift our focus onto new lessons and practices."
+#~ msgstr ""
+#~ "感谢参加 Beta 测试。\n"
+#~ "\n"
+#~ "我们希望你喜欢目前的内容。\n"
+#~ "\n"
+#~ "我们希望能够为你提供更多内容，但创建这个应用需要时间。[i]非常多[/i]的时"
+#~ "间。\n"
+#~ "\n"
+#~ "好消息是：我们已经解决了很多比较具有挑战性的部分，此后，我们可以将工作集中"
+#~ "在新的课程和练习上。"
+
+#~ msgid ""
+#~ "[font=res://ui/theme/fonts/font_title.tres]What's coming next[/font]\n"
+#~ "\n"
+#~ "We have plans for many more lessons and improvements.\n"
+#~ "\n"
+#~ "You can find our plan for future releases on our [url=https://github.com/"
+#~ "GDQuest/learn-gdscript#roadmap]roadmap[/url]."
+#~ msgstr ""
+#~ "[font=res://ui/theme/fonts/font_title.tres]预告[/font]\n"
+#~ "\n"
+#~ "我们计划制作更多课程和改进。\n"
+#~ "\n"
+#~ "你可以在我们的[url=https://github.com/GDQuest/learn-gdscript#roadmap]路线"
+#~ "图[/url]中查看未来版本的计划。"

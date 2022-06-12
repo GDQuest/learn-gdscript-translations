@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-02-25 14:36+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -47,20 +47,20 @@ msgstr "Cofnij się w historii nawigacji"
 msgid "(no previous history)"
 msgstr "(brak dalszej historii)"
 
-#: ui/UIPractice.gd:133 ui/UIPractice.gd:191
+#: ui/UIPractice.gd:144 ui/UIPractice.gd:202
 #, python-format
 msgid "Hint %s"
 msgstr "Wskazówka %s"
 
-#: ui/UIPractice.gd:216
+#: ui/UIPractice.gd:230
 msgid "Validating Your Code..."
 msgstr "Weryfikacja kodu…"
 
-#: ui/UIPractice.gd:269
+#: ui/UIPractice.gd:286
 msgid "Running Your Code..."
 msgstr "Uruchamianie kodu…"
 
-#: ui/UIPractice.gd:300
+#: ui/UIPractice.gd:337
 msgid "Running Tests..."
 msgstr "Testowanie rozwiązania…"
 
@@ -80,43 +80,31 @@ msgstr "Chcesz opuścić niedokończone ćwiczenie?"
 msgid "Button"
 msgstr "Przycisk"
 
-#: ui/components/CodeEditor.tscn:161
+#: ui/components/CodeEditor.tscn:144
 msgid "Run"
 msgstr "Uruchom"
 
-#: ui/components/CodeEditor.tscn:175
+#: ui/components/CodeEditor.tscn:158
 msgid "Pause"
 msgstr "Pauza"
 
-#: ui/components/CodeEditor.tscn:190 ui/components/RunnableCodeExample.tscn:78
+#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
 msgstr "Reset"
 
-#: ui/components/CodeEditor.tscn:212
+#: ui/components/CodeEditor.tscn:195
 msgid "Solution"
 msgstr "Rozwiązanie"
 
-#: ui/components/CodeEditor.tscn:226 ui/components/OutputConsole.tscn:43
+#: ui/components/CodeEditor.tscn:209 ui/components/OutputConsole.tscn:43
 msgid "Output"
 msgstr "Wynik wyjściowy"
 
-#: ui/components/CodeEditor.tscn:241
+#: ui/components/CodeEditor.tscn:224
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
 msgstr "Kontynuuj"
-
-#: ui/components/ConnectionIndicator.gd:17
-msgid "Connected to the server."
-msgstr "Połączono z serwerem."
-
-#: ui/components/ConnectionIndicator.gd:20
-msgid ""
-"Can't reach the server. The server might be down, or your internet may be "
-"down."
-msgstr ""
-"Niemożliwe połączenie z serwerem. Możliwe, że serwer jest wyłączony lub masz "
-"problemy z Internetem."
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -130,11 +118,6 @@ msgstr ""
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
 msgstr "Nasze wytłumaczenie błędu."
-
-#: ui/components/LockedOverlay.gd:14
-msgid "Can't reach the server. The tests will be less precise."
-msgstr ""
-"Niemożliwe połączenie z serwerem. Testy rozwiązań będą mniej precyzyjne."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
 msgid "ERROR:"
@@ -317,7 +300,7 @@ msgid "Practice List"
 msgstr "Lista ćwiczenia"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
-#: ui/components/popups/SettingsPopup.tscn:226
+#: ui/components/popups/SettingsPopup.tscn:227
 msgid "Close"
 msgstr "Zamknij"
 
@@ -422,19 +405,19 @@ msgstr "Język"
 msgid "Text Size"
 msgstr "Wielkość tekstu"
 
-#: ui/components/popups/SettingsPopup.tscn:153
+#: ui/components/popups/SettingsPopup.tscn:154
 msgid "Sample text"
 msgstr "Przykładowy tekst"
 
-#: ui/components/popups/SettingsPopup.tscn:166
+#: ui/components/popups/SettingsPopup.tscn:167
 msgid "Scroll sensitivity"
 msgstr "Czułość przewijania"
 
-#: ui/components/popups/SettingsPopup.tscn:192
+#: ui/components/popups/SettingsPopup.tscn:193
 msgid "Framerate cap"
 msgstr "Ogranicz liczbę klatek"
 
-#: ui/components/popups/SettingsPopup.tscn:241
+#: ui/components/popups/SettingsPopup.tscn:242
 msgid "Apply"
 msgstr "Zatwierdź"
 
@@ -499,47 +482,60 @@ msgstr "Zresetuj postępy"
 msgid "Confirm Resetting Progress"
 msgstr "Potwierdź reset postępów"
 
-#: ui/screens/end_screen/EndScreen.tscn:122
-msgid "That's it... for now!"
-msgstr "I to wszystko... póki co!"
-
-#: ui/screens/end_screen/EndScreen.tscn:160
-msgid ""
-"Thanks for participating in the beta test.\n"
-"\n"
-"We hope you enjoyed what's available so far.\n"
-"\n"
-"We wish we had a lot more to give you already, but creating this app took "
-"time. A [i]lot[/i] of time.\n"
-"\n"
-"The good news is: now we figured out many of the more challenging parts, "
-"moving forward, we can shift our focus onto new lessons and practices."
+#: ui/screens/end_screen/EndScreen.tscn:229
+msgid "Congratulations!"
 msgstr ""
-"Dziękujemy za udział w testach beta.\n"
-"\n"
-"Mamy nadzieję, że podobała ci się dotychczasowa zawartość kursu.\n"
-"\n"
-"Bardzo chcielibyśmy już teraz podzielić się z tobą większą ilością wiedzy, "
-"jednak tworzenie aplikacji jak ta zajmuje czas. Naprawdę [i]dużo[/i] czasu.\n"
-"\n"
-"Z dobrych wiadomości: odkryliśmy co bardziej wymagające zagadnienia, więc "
-"przechodząc dalej będziemy mogli skupić się na nowych lekcjach i ćwiczeniach."
 
-#: ui/screens/end_screen/EndScreen.tscn:188
+#: ui/screens/end_screen/EndScreen.tscn:236
 msgid ""
-"[font=res://ui/theme/fonts/font_title.tres]What's coming next[/font]\n"
+"You completed Learn GDScript From Zero. You now have the basics you need to "
+"dive into game creation with the Godot game engine.\n"
 "\n"
-"We have plans for many more lessons and improvements.\n"
-"\n"
-"You can find our plan for future releases on our [url=https://github.com/"
-"GDQuest/learn-gdscript#roadmap]roadmap[/url]."
+"If you're looking for a free series to keep learning the basics with us, you "
+"can move on to [url=https://www.gdquest.com/tutorial/godot/learning-paths/"
+"getting-started-in-2021/]Getting Started with Godot[/url]."
 msgstr ""
-"[font=res://ui/theme/fonts/font_title.tres]Co dalej[/font]\n"
+
+#: ui/screens/end_screen/EndScreen.tscn:249
+msgid "Or level up faster by taking this shortcut"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:256
+msgid ""
+"There are loads of free game creation tutorials, but they don't form a clear "
+"path.\n"
 "\n"
-"Planujemy jeszcze wiele lekcji i usprawnień.\n"
+"Worse, most of them are like step-by-step recipes. But as you learned, you "
+"can't become a developer by just following recipes.\n"
 "\n"
-"Plany dotyczące przyszłych aktualizacji możesz znaleźć na naszej "
-"[url=https://github.com/GDQuest/learn-gdscript#roadmap]roadmapie[/url]."
+"Every project has unique challenges and requires [i]creative problem "
+"solving[/i]. You need to [i]think like a programmer[/i].\n"
+"\n"
+"Learning that on your own can take years."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:277
+msgid "Learn to Code From Zero, with Godot"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:284
+msgid ""
+"This app is the free part of our in-depth course, [url=https://gdquest."
+"mavenseed.com/courses/learn-to-code-from-zero-with-godot][b]Learn to Code "
+"From Zero, with Godot[/b][/url].\n"
+"\n"
+"The course picks up right where this app ends to take you to the point where "
+"you can make [i]your[/i] game.\n"
+"\n"
+"It's the only course that'll truly teach you [i]how to become a game "
+"developer[/i] with Godot."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:308
+#: ui/screens/lesson/UIContentBlock.gd:70
+#: ui/screens/lesson/UIContentBlock.gd:134
+msgid "Learn More"
+msgstr "Dowiedz się więcej"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
@@ -564,11 +560,6 @@ msgstr "Masz rację!"
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
 msgstr "Odpowiedzi tutaj"
-
-#: ui/screens/lesson/UIContentBlock.gd:70
-#: ui/screens/lesson/UIContentBlock.gd:134
-msgid "Learn More"
-msgstr "Dowiedz się więcej"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
@@ -658,6 +649,61 @@ msgstr ""
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:693
 msgid "QUIT"
 msgstr ""
+
+#~ msgid "Connected to the server."
+#~ msgstr "Połączono z serwerem."
+
+#~ msgid ""
+#~ "Can't reach the server. The server might be down, or your internet may be "
+#~ "down."
+#~ msgstr ""
+#~ "Niemożliwe połączenie z serwerem. Możliwe, że serwer jest wyłączony lub "
+#~ "masz problemy z Internetem."
+
+#~ msgid "Can't reach the server. The tests will be less precise."
+#~ msgstr ""
+#~ "Niemożliwe połączenie z serwerem. Testy rozwiązań będą mniej precyzyjne."
+
+#~ msgid "That's it... for now!"
+#~ msgstr "I to wszystko... póki co!"
+
+#~ msgid ""
+#~ "Thanks for participating in the beta test.\n"
+#~ "\n"
+#~ "We hope you enjoyed what's available so far.\n"
+#~ "\n"
+#~ "We wish we had a lot more to give you already, but creating this app took "
+#~ "time. A [i]lot[/i] of time.\n"
+#~ "\n"
+#~ "The good news is: now we figured out many of the more challenging parts, "
+#~ "moving forward, we can shift our focus onto new lessons and practices."
+#~ msgstr ""
+#~ "Dziękujemy za udział w testach beta.\n"
+#~ "\n"
+#~ "Mamy nadzieję, że podobała ci się dotychczasowa zawartość kursu.\n"
+#~ "\n"
+#~ "Bardzo chcielibyśmy już teraz podzielić się z tobą większą ilością "
+#~ "wiedzy, jednak tworzenie aplikacji jak ta zajmuje czas. Naprawdę [i]dużo[/"
+#~ "i] czasu.\n"
+#~ "\n"
+#~ "Z dobrych wiadomości: odkryliśmy co bardziej wymagające zagadnienia, więc "
+#~ "przechodząc dalej będziemy mogli skupić się na nowych lekcjach i "
+#~ "ćwiczeniach."
+
+#~ msgid ""
+#~ "[font=res://ui/theme/fonts/font_title.tres]What's coming next[/font]\n"
+#~ "\n"
+#~ "We have plans for many more lessons and improvements.\n"
+#~ "\n"
+#~ "You can find our plan for future releases on our [url=https://github.com/"
+#~ "GDQuest/learn-gdscript#roadmap]roadmap[/url]."
+#~ msgstr ""
+#~ "[font=res://ui/theme/fonts/font_title.tres]Co dalej[/font]\n"
+#~ "\n"
+#~ "Planujemy jeszcze wiele lekcji i usprawnień.\n"
+#~ "\n"
+#~ "Plany dotyczące przyszłych aktualizacji możesz znaleźć na naszej "
+#~ "[url=https://github.com/GDQuest/learn-gdscript#roadmap]roadmapie[/url]."
 
 #~ msgid "There has been a horrible accident!"
 #~ msgstr "Wydarzył się straszliwy wypadek!"

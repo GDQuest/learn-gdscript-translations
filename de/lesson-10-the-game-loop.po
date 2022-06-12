@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-02-25 00:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -135,12 +135,15 @@ msgstr ""
 "Andere Spiel-Engines verwenden möglicherweise andere Namen wie "
 "[code]_update()[/code]."
 
+#: course/lesson-10-the-game-loop/lesson.tres:100
+#, fuzzy
+msgid "Why is the _process() function useful?"
+msgstr "Wie oft wird die Funktion _process() aufgerufen?"
+
 #: course/lesson-10-the-game-loop/lesson.tres:102
+#, fuzzy
 msgid ""
-"[font=res://ui/theme/fonts/font_title.tres]Why is [code]_process()[/code] "
-"useful?[/font]\n"
-"\n"
-"It's perhaps better to see the [code]_process()[/code] function in action. \n"
+"It's perhaps better to see the [code]_process()[/code] function in action.\n"
 "\n"
 "Take the following example."
 msgstr ""
@@ -152,7 +155,7 @@ msgstr ""
 "\n"
 "Nehmen wir das folgende Beispiel."
 
-#: course/lesson-10-the-game-loop/lesson.tres:126
+#: course/lesson-10-the-game-loop/lesson.tres:124
 msgid ""
 "When you click the button [code]set_process(true)[/code], you activate "
 "processing on the robot.\n"
@@ -171,11 +174,11 @@ msgstr ""
 "Da wir eine [code]rotate()[/code]-Anweisung geschrieben haben, dreht Godot "
 "den Roboter um [code]0,05[/code] Bogenmaß [b]viele[/b] Male pro Sekunde."
 
-#: course/lesson-10-the-game-loop/lesson.tres:138
+#: course/lesson-10-the-game-loop/lesson.tres:136
 msgid "How often does the _process() function run?"
 msgstr "Wie oft wird die Funktion _process() aufgerufen?"
 
-#: course/lesson-10-the-game-loop/lesson.tres:141
+#: course/lesson-10-the-game-loop/lesson.tres:139
 msgid ""
 "The faster your computer, the more times [code]_process()[/code] will run.\n"
 "\n"
@@ -189,16 +192,16 @@ msgstr ""
 "auszuführen. Dies stellt sicher, dass alle Bewegungen oder Animationen glatt "
 "und flüssig aussehen."
 
-#: course/lesson-10-the-game-loop/lesson.tres:144
+#: course/lesson-10-the-game-loop/lesson.tres:142
 msgid "Once a second."
 msgstr "Einmal pro Sekunde."
 
-#: course/lesson-10-the-game-loop/lesson.tres:144
-#: course/lesson-10-the-game-loop/lesson.tres:145
+#: course/lesson-10-the-game-loop/lesson.tres:142
+#: course/lesson-10-the-game-loop/lesson.tres:143
 msgid "Multiple times a second."
 msgstr "Mehrmals pro Sekunde."
 
-#: course/lesson-10-the-game-loop/lesson.tres:154
+#: course/lesson-10-the-game-loop/lesson.tres:152
 msgid ""
 "In the practice, you'll learn how to use the process function to rotate and "
 "move a character yourself."
@@ -206,11 +209,11 @@ msgstr ""
 "In den Übungen lernst du, wie du die Prozessfunktion verwendest, um einen "
 "Charakter selbst zu drehen und zu bewegen."
 
-#: course/lesson-10-the-game-loop/lesson.tres:162
+#: course/lesson-10-the-game-loop/lesson.tres:160
 msgid "Rotating a Character Continuously"
 msgstr "Kontinuierliches Drehen eines Charakters"
 
-#: course/lesson-10-the-game-loop/lesson.tres:163
+#: course/lesson-10-the-game-loop/lesson.tres:161
 msgid ""
 "Make the robot rotate slowly by adding to the [code]_process()[/code] "
 "function.\n"
@@ -223,11 +226,11 @@ msgstr ""
 "Eine Rotationsgeschwindigkeit von etwa [code]0.05[/code]Bogenmaß pro Frame "
 "sollte reichen."
 
-#: course/lesson-10-the-game-loop/lesson.tres:180
+#: course/lesson-10-the-game-loop/lesson.tres:178
 msgid "Creating Circular Movement"
 msgstr "Kreisförmige Bewegungungen erzeugen"
 
-#: course/lesson-10-the-game-loop/lesson.tres:181
+#: course/lesson-10-the-game-loop/lesson.tres:179
 msgid ""
 "Make the robot move in a large circle slowly by rotating it and "
 "simultaneously moving it along its x direction.\n"
@@ -247,6 +250,6 @@ msgstr ""
 "Verwende eine Rotationsgeschwindigkeit von [code]0,05[/code] Bogenmaß pro "
 "Frame und bewege den Roboter [code]5[/code] Pixel pro Frame."
 
-#: course/lesson-10-the-game-loop/lesson.tres:199
+#: course/lesson-10-the-game-loop/lesson.tres:197
 msgid "The Game Loop"
 msgstr "Die Spielschleife"

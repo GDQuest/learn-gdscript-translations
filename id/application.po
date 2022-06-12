@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-06-09 11:26+0000\n"
 "Last-Translator: Alt Air <altairush@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/learn-"
 "gdscript-from-zero/user-interface/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.13-dev\n"
@@ -49,20 +49,20 @@ msgstr "Kembali ke riwayat navigasi anda"
 msgid "(no previous history)"
 msgstr "(tidak ada riwayat sebelumnya)"
 
-#: ui/UIPractice.gd:133 ui/UIPractice.gd:191
+#: ui/UIPractice.gd:144 ui/UIPractice.gd:202
 #, python-format
 msgid "Hint %s"
 msgstr "Petunjuk %s"
 
-#: ui/UIPractice.gd:216
+#: ui/UIPractice.gd:230
 msgid "Validating Your Code..."
 msgstr "Memvalidasi Kode Anda..."
 
-#: ui/UIPractice.gd:269
+#: ui/UIPractice.gd:286
 msgid "Running Your Code..."
 msgstr "Menjalankan Kode Anda..."
 
-#: ui/UIPractice.gd:300
+#: ui/UIPractice.gd:337
 msgid "Running Tests..."
 msgstr "Menjalankan Tes..."
 
@@ -82,43 +82,31 @@ msgstr "Tinggalkan Latihan yang belum selesai?"
 msgid "Button"
 msgstr "Tombol"
 
-#: ui/components/CodeEditor.tscn:161
+#: ui/components/CodeEditor.tscn:144
 msgid "Run"
 msgstr "Jalankan"
 
-#: ui/components/CodeEditor.tscn:175
+#: ui/components/CodeEditor.tscn:158
 msgid "Pause"
 msgstr "Jeda"
 
-#: ui/components/CodeEditor.tscn:190 ui/components/RunnableCodeExample.tscn:78
+#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
 msgstr "Mengatur Ulang"
 
-#: ui/components/CodeEditor.tscn:212
+#: ui/components/CodeEditor.tscn:195
 msgid "Solution"
 msgstr "Solusi"
 
-#: ui/components/CodeEditor.tscn:226 ui/components/OutputConsole.tscn:43
+#: ui/components/CodeEditor.tscn:209 ui/components/OutputConsole.tscn:43
 msgid "Output"
 msgstr "Hasil"
 
-#: ui/components/CodeEditor.tscn:241
+#: ui/components/CodeEditor.tscn:224
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
 msgstr "Melanjutkan"
-
-#: ui/components/ConnectionIndicator.gd:17
-msgid "Connected to the server."
-msgstr "Terhubung ke server."
-
-#: ui/components/ConnectionIndicator.gd:20
-msgid ""
-"Can't reach the server. The server might be down, or your internet may be "
-"down."
-msgstr ""
-"Tidak dapat menjangkau server. Server mungkin sedang down, atau internet "
-"anda sedang mati."
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -132,10 +120,6 @@ msgstr "Ketentuan"
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
 msgstr "Penjelasan kesalahan kami."
-
-#: ui/components/LockedOverlay.gd:14
-msgid "Can't reach the server. The tests will be less precise."
-msgstr "Tidak dapat Menjangkau server. Tes mungkin akan kurang akurat."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
 msgid "ERROR:"
@@ -301,7 +285,7 @@ msgid "Practice List"
 msgstr ""
 
 #: ui/components/popups/PracticeListPopup.tscn:115
-#: ui/components/popups/SettingsPopup.tscn:226
+#: ui/components/popups/SettingsPopup.tscn:227
 msgid "Close"
 msgstr ""
 
@@ -366,19 +350,19 @@ msgstr ""
 msgid "Text Size"
 msgstr ""
 
-#: ui/components/popups/SettingsPopup.tscn:153
+#: ui/components/popups/SettingsPopup.tscn:154
 msgid "Sample text"
 msgstr ""
 
-#: ui/components/popups/SettingsPopup.tscn:166
+#: ui/components/popups/SettingsPopup.tscn:167
 msgid "Scroll sensitivity"
 msgstr ""
 
-#: ui/components/popups/SettingsPopup.tscn:192
+#: ui/components/popups/SettingsPopup.tscn:193
 msgid "Framerate cap"
 msgstr ""
 
-#: ui/components/popups/SettingsPopup.tscn:241
+#: ui/components/popups/SettingsPopup.tscn:242
 msgid "Apply"
 msgstr ""
 
@@ -443,31 +427,59 @@ msgstr ""
 msgid "Confirm Resetting Progress"
 msgstr ""
 
-#: ui/screens/end_screen/EndScreen.tscn:122
-msgid "That's it... for now!"
+#: ui/screens/end_screen/EndScreen.tscn:229
+msgid "Congratulations!"
 msgstr ""
 
-#: ui/screens/end_screen/EndScreen.tscn:160
+#: ui/screens/end_screen/EndScreen.tscn:236
 msgid ""
-"Thanks for participating in the beta test.\n"
+"You completed Learn GDScript From Zero. You now have the basics you need to "
+"dive into game creation with the Godot game engine.\n"
 "\n"
-"We hope you enjoyed what's available so far.\n"
-"\n"
-"We wish we had a lot more to give you already, but creating this app took "
-"time. A [i]lot[/i] of time.\n"
-"\n"
-"The good news is: now we figured out many of the more challenging parts, "
-"moving forward, we can shift our focus onto new lessons and practices."
+"If you're looking for a free series to keep learning the basics with us, you "
+"can move on to [url=https://www.gdquest.com/tutorial/godot/learning-paths/"
+"getting-started-in-2021/]Getting Started with Godot[/url]."
 msgstr ""
 
-#: ui/screens/end_screen/EndScreen.tscn:188
+#: ui/screens/end_screen/EndScreen.tscn:249
+msgid "Or level up faster by taking this shortcut"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:256
 msgid ""
-"[font=res://ui/theme/fonts/font_title.tres]What's coming next[/font]\n"
+"There are loads of free game creation tutorials, but they don't form a clear "
+"path.\n"
 "\n"
-"We have plans for many more lessons and improvements.\n"
+"Worse, most of them are like step-by-step recipes. But as you learned, you "
+"can't become a developer by just following recipes.\n"
 "\n"
-"You can find our plan for future releases on our [url=https://github.com/"
-"GDQuest/learn-gdscript#roadmap]roadmap[/url]."
+"Every project has unique challenges and requires [i]creative problem "
+"solving[/i]. You need to [i]think like a programmer[/i].\n"
+"\n"
+"Learning that on your own can take years."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:277
+msgid "Learn to Code From Zero, with Godot"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:284
+msgid ""
+"This app is the free part of our in-depth course, [url=https://gdquest."
+"mavenseed.com/courses/learn-to-code-from-zero-with-godot][b]Learn to Code "
+"From Zero, with Godot[/b][/url].\n"
+"\n"
+"The course picks up right where this app ends to take you to the point where "
+"you can make [i]your[/i] game.\n"
+"\n"
+"It's the only course that'll truly teach you [i]how to become a game "
+"developer[/i] with Godot."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:308
+#: ui/screens/lesson/UIContentBlock.gd:70
+#: ui/screens/lesson/UIContentBlock.gd:134
+msgid "Learn More"
 msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
@@ -492,11 +504,6 @@ msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
-msgstr ""
-
-#: ui/screens/lesson/UIContentBlock.gd:70
-#: ui/screens/lesson/UIContentBlock.gd:134
-msgid "Learn More"
 msgstr ""
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
@@ -587,3 +594,16 @@ msgstr ""
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:693
 msgid "QUIT"
 msgstr ""
+
+#~ msgid "Connected to the server."
+#~ msgstr "Terhubung ke server."
+
+#~ msgid ""
+#~ "Can't reach the server. The server might be down, or your internet may be "
+#~ "down."
+#~ msgstr ""
+#~ "Tidak dapat menjangkau server. Server mungkin sedang down, atau internet "
+#~ "anda sedang mati."
+
+#~ msgid "Can't reach the server. The tests will be less precise."
+#~ msgstr "Tidak dapat Menjangkau server. Tes mungkin akan kurang akurat."

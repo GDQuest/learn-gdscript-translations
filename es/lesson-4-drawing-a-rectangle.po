@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: 2022-03-19 16:33+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -128,48 +128,43 @@ msgstr ""
 "para dibujar primero una esquina y luego un rectángulo como este."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
-msgid "In the function definition below, which part is the function parameter?"
+#, fuzzy
+msgid "In the function call below, which part is the argument?"
 msgstr ""
 "En la siguiente definición de función, ¿qué parte es el parámetro de la "
 "función?"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
-msgid "[code]func move_forward(pixels)[/code]"
+#, fuzzy
+msgid "[code]move_forward(30)[/code]"
 msgstr "[code]func move_forward(pixels)[/code]"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:127
 msgid ""
-"The function parameters are inside the parentheses in a function "
-"definition.\n"
+"A function's arguments are all the values inside the parentheses. In this "
+"case, there's only one, but there can be multiple separated by commas.\n"
 "\n"
-"The [code]func[/code] keyword tells the computer you're defining a new "
-"function, and [code]move_forward[/code] is the function's name."
+"In this case, [code]move_forward[/code] is the function's name and [code]30[/"
+"code] is the argument.\n"
+"\n"
+"This function call will make the turtle move forward by [code]30[/code] "
+"pixels."
 msgstr ""
-"Los parámetros de la función están dentro de los paréntesis en la definición "
-"de una función.\n"
-"\n"
-"La palabra clave [code]func[/code] le indica a la computadora que estás "
-"definiendo una nueva función, y [code]move_forward[/code] es el nombre de la "
-"función."
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:130
-msgid "func"
-msgstr "func"
-
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:130
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 msgid "move_forward"
 msgstr "move_forward"
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:130
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:131
-msgid "pixels"
-msgstr "pixels"
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:132
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:133
+msgid "30"
+msgstr ""
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:138
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:140
 msgid "Drawing a Corner"
 msgstr "Dibujar una esquina"
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:139
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:141
 msgid ""
 "In this practice, we'll tell the turtle to draw a corner.\n"
 "\n"
@@ -211,7 +206,7 @@ msgstr ""
 "rectángulos.\n"
 "\n"
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:163
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:165
 msgid ""
 "Use the turtle to draw a square's corner. You'll then build upon it to draw "
 "a rectangle."
@@ -219,12 +214,12 @@ msgstr ""
 "Utiliza la tortuga para dibujar la esquina de un cuadrado. Luego te basarás "
 "en ella para dibujar un rectángulo."
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:168
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:216
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:170
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:218
 msgid "Drawing a Rectangle"
 msgstr "Dibujar un rectángulo"
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:169
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:171
 msgid ""
 "Add the correct parameters to the functions [code]move_forward()[/code] and "
 "[code]turn_right()[/code] to draw a rectangle with a width of [code]200[/"
@@ -244,18 +239,18 @@ msgstr ""
 "En la siguiente práctica, utilizarás las mismas funciones para dibujar un "
 "rectángulo más grande."
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:189
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:191
 msgid ""
 "Based on your rectangle corner, you now need to draw a complete rectangle."
 msgstr ""
 "Basándote en la esquina del rectángulo, ahora tienes que dibujar un "
 "rectángulo completo."
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:194
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:196
 msgid "Drawing a Bigger Rectangle"
 msgstr "Dibujar un rectángulo más grande"
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:195
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:197
 msgid ""
 "Write out calls to the functions [code]move_forward()[/code] and "
 "[code]turn_right()[/code] to draw a rectangle with a width of 220 pixels, "
@@ -280,7 +275,7 @@ msgstr ""
 "computadora entienda que forma parte de la función [code]draw_rectangle()[/"
 "code]."
 
-#: course/lesson-4-drawing-a-rectangle/lesson.tres:212
+#: course/lesson-4-drawing-a-rectangle/lesson.tres:214
 msgid ""
 "At this point, you're ready to code entirely on your own. Call functions by "
 "yourself to draw a complete rectangle."
@@ -288,3 +283,23 @@ msgstr ""
 "Llegados a este punto, ya tienes los conocimientos necesarios para empezar a "
 "codificar por tu cuenta. Llama a las funciones por ti mismo para dibujar un "
 "rectángulo completo."
+
+#~ msgid ""
+#~ "The function parameters are inside the parentheses in a function "
+#~ "definition.\n"
+#~ "\n"
+#~ "The [code]func[/code] keyword tells the computer you're defining a new "
+#~ "function, and [code]move_forward[/code] is the function's name."
+#~ msgstr ""
+#~ "Los parámetros de la función están dentro de los paréntesis en la "
+#~ "definición de una función.\n"
+#~ "\n"
+#~ "La palabra clave [code]func[/code] le indica a la computadora que estás "
+#~ "definiendo una nueva función, y [code]move_forward[/code] es el nombre de "
+#~ "la función."
+
+#~ msgid "func"
+#~ msgstr "func"
+
+#~ msgid "pixels"
+#~ msgstr "pixels"
