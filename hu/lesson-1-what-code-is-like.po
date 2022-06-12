@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-13 17:18+0000\n"
+"Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-1-what-code-is-like/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:14
@@ -25,10 +28,14 @@ msgid ""
 "Yet, you want to make video games, so [b]there is no way around learning to "
 "program[/b]. [i]Every[/i] video game is a computer program."
 msgstr ""
+"Megtanulni programozni elég ijesztő lehet.\n"
+"\n"
+"És mégis, videójátékokat szeretnél készíteni, tehát [b]nem lehet elekrülni a "
+"megtanulását[/b]. [i]Minden[/i] videójáték egy számítógépes program."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:24
 msgid "Telling the computer what to do"
-msgstr ""
+msgstr "Elmondani a számítógépnek, mit csináljon"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:26
 msgid ""
@@ -38,12 +45,20 @@ msgid ""
 "A game's instructions are, for example: moving a character, drawing a life "
 "bar, or playing a sound."
 msgstr ""
+"A programozás az a folyamat, amikor precíz utasításokat írunk, hogy "
+"elmondjuk a számítógépnek, hogyan hajtson végre egy feladatot.\n"
+"\n"
+"Egy játék utasításai példál a következők lehetnek: egy karakter mozgatása, "
+"életerőcsík kirajzolása, vagy egy hang lejátszása."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:38
 msgid ""
 "To do any of that, you need to learn a [b]programming language[/b]: a "
 "specialized language to tell the computer what to do."
 msgstr ""
+"Hogy ezek közül bármit megcsinálj, meg kell tanulnod egy [b]programozási "
+"nyelvet[/b]: egy speciális nyelvet, ami megmondja a számítógépnek, hogy mit "
+"csináljon."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:58
 msgid ""
@@ -55,10 +70,17 @@ msgid ""
 "\n"
 "Which circle? Where? Which color should it be? How big should it be?"
 msgstr ""
+"A programnyelvek különböznek az élő nyelvektől, mint amilyen a magyar vagy "
+"az angol. A számítógép nem gondolkodik. Velünk ellentétben, nem tudja "
+"[i]értelmezni[/i], hogy mit mondunk neki.\n"
+"\n"
+"Nem mondhatsz egy olyan általános dolgot, mint pl. \"rajzolj egy kört\".\n"
+"\n"
+"Melyik kört? Hova? Milyen színű legyen? Milyen nagy legyen?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:70
 msgid "The computer needs exact instructions"
-msgstr ""
+msgstr "A számítógépnek pontos utasításokra van szüksége"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:72
 msgid ""
@@ -69,6 +91,12 @@ msgid ""
 "\n"
 "[i]Click the button to run the code example and see the result.[/i]"
 msgstr ""
+"Ahhoz, hogy egy teli kört rajzoljon, a számítógépnek tudnia kell a pontos "
+"koordinátákat, a sugarat, a vastagságot, és a kívánt színt.\n"
+"\n"
+"A szükséges kód [i]valahogy így[/i] nézhet ki.\n"
+"\n"
+"[i]Kattints a gombra, hogy futtasd a kódot és lásd az eredményét.[/i]"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:96
 msgid ""
@@ -84,10 +112,20 @@ msgid ""
 "[b]When you program, you're the one in charge, and you're free to do "
 "[i]anything[/i] you want.[/b]"
 msgstr ""
+"Az elkövetkezendő leckékben meg fogod tanulni, hogy működik ez a kód.\n"
+"\n"
+"Egyelőre, csak egy kis ízelítőt akartunk mutatni abból, hogy néz ki a "
+"számítógépes kód. Ebben a példában minden számít: az összes zárójel, a "
+"nagybetűk, a pont és a vessző.\n"
+"\n"
+"A számítógép mindig [b]pontosan[/b] azt teszi, amit mondasz neki. Se többet, "
+"se kevesebbet. [i]Vakon[/i] követ minden utasítást.\n"
+"\n"
+"[b]Amikor programozol, te irányítasz, és [i]bármit[/i] megtehetsz.[/b]"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:110
 msgid "How do you give instructions to a computer?"
-msgstr ""
+msgstr "Hogyan adsz utasításokat a számítógépnek?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:113
 msgid ""
@@ -95,19 +133,22 @@ msgid ""
 "anything, you need to give them precise instructions they understand, using "
 "a programming language."
 msgstr ""
+"A számítógépek nem értik a magyarhoz hasonló élő nyelveket. Ahhoz, hogy "
+"bármit is csináljanak, pontos utasításokat kell nekik adnod egy "
+"programnyelvet használva."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:114
 #: course/lesson-1-what-code-is-like/lesson.tres:115
 msgid "Using a programming language and precise instructions"
-msgstr ""
+msgstr "Programnyelv használata és pontos utasítások"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:114
 msgid "Using prose in plain English"
-msgstr ""
+msgstr "Egyszerű, magyar szöveg használata"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:122
 msgid "You'll learn to code with GDScript"
-msgstr ""
+msgstr "Metanulsz GDScriptben kódolni"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:124
 msgid ""
@@ -120,6 +161,14 @@ msgid ""
 "SEGA used the Godot engine to create the remake of Sonic Colors Ultimate. "
 "Engineers at Tesla use it for their cars' dashboards."
 msgstr ""
+"Ebben a kurzusban a GDScript használatát fogod megtanulni (a név a \"Godot "
+"Script\" rövidítése).\n"
+"\n"
+"Ez egy nyelv, melyet játékfejlesztők készítettek játékfejlesztőknek. A Godot "
+"Engine-ben használhatod, hogy játékokat és alakalmazásokat készíts.\n"
+"\n"
+"A SEGA a Godotot használta a Sonic Colors Ultimate remake elkészítéséhez. A "
+"Tesla mérnökei is ezt használják az autóik kezelőfelületéhez."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:148
 msgid ""
@@ -127,10 +176,13 @@ msgid ""
 "it's specialized. Unlike some other languages, it doesn't have an "
 "[i]overwhelming[/i] amount of features for you to learn."
 msgstr ""
+"A GDScript egy remek nyelv a kezdéshez, mert specializált. Más nyelvekkel "
+"ellentétben, nincs [i]telepakolva[/i] funkciókkal, így megkönnyítve a "
+"tanulást."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:156
 msgid "Most programming languages are similar"
-msgstr ""
+msgstr "A legtöbb programnyelv hasonló"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:158
 msgid ""
@@ -145,20 +197,32 @@ msgid ""
 "\n"
 "Try to spot the similarities and differences."
 msgstr ""
+"Ne aggódj amiatt, hogy egy zárt rendszerbe kerülsz. A fogalmak, amiket "
+"megtanulsz az első nyelvedben, érvényesek lesznek az összes többiben is.\n"
+"\n"
+"A legtöbb nyelvben több a hasonlóság, mint az eltérés. Ha egyet megtanulsz, "
+"akkor sokkal kevesebb ideig fog tartani, hogy produktív legyél egy másikban "
+"is.\n"
+"\n"
+"Itt egy példa, ugynarra a kódra, 3 nyelven: GDScript, JavaScript és Python.\n"
+"\n"
+"Próbáld meg észrevenni a hasonlóságokat és a különbségeket."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:184
 msgid "It doesn't look [i]that[/i] different, does it?"
-msgstr ""
+msgstr "Nem is néznek ki [i]annyira[/i] másnak, igaz?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:192
 msgid "Are programming languages all completely different?"
-msgstr ""
+msgstr "A programnyelvek teljesen különbözőek?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:193
 msgid ""
 "If you learn one language and then want to learn another, will you have to "
 "start from scratch?"
 msgstr ""
+"Ha megtanulsz egy programnyelvet, majd meg akarsz tanulni egy másikat, "
+"muszáj a nulláról kezdened?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:195
 msgid ""
@@ -172,25 +236,36 @@ msgid ""
 "However, languages like GDScript, Python, JavaScript, C++, C#, and many "
 "others build upon a similar programming philosophy."
 msgstr ""
+"A legtöbb programnyelv ugyanarra az elvre épül. Ennek köszönhetően sokban "
+"hasnlítanak.\n"
+"\n"
+"Azonban, nem arról van szó, hogy minden nyelv ugyanolyan. Vannak olyanok, "
+"amelyeknek teljesen egyedi szintaktikájuk van és teljesen eltérő "
+"gondolkodásmódot igényelnek, mint a GDScript.\n"
+"\n"
+"Azonban, az olyan nyelvek, mint a GDScript, Python, JavaScript, C++, C#, és "
+"még sok más, hasonló programozási szemléletre épülnek."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:200
 #: course/lesson-1-what-code-is-like/lesson.tres:201
 msgid "No, they have many similarities"
-msgstr ""
+msgstr "Nem, sok mindenben hasonlítanak"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:200
 msgid "Yes, they are completely different"
-msgstr ""
+msgstr "Igen, teljesen különbözőek"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:208
 msgid "This is a course for beginners"
-msgstr ""
+msgstr "Ez egy kezdőknek szóló kurzus"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:210
 msgid ""
 "If you want to learn to make games or code but don't know where to start, "
 "this course should be perfect."
 msgstr ""
+"Ha meg akarsz tanulni programozni vagy játékot fejleszteni, de enm tudod, "
+"hogy kezdj neki, akkor ez a kurzus pont neked szól."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:230
 msgid ""
@@ -203,10 +278,19 @@ msgid ""
 "Please be patient. It will take time before you can make your first complete "
 "game alone."
 msgstr ""
+"A képzést [i]teljesen kezdőknek[/i] terveztük, de ha már ismersz más "
+"nyelveket, akkor is remek módja lehet a Godot Engine-nel való ismerkedésnek."
+"\n"
+"\n"
+"Megadjuk a programozási alapokat, amelyek szükségesek lesznek, hogy "
+"elkészíthesd a saját játékaid.\n"
+"\n"
+"Kérjük, legyél türelmes. Időbe fog telni, míg egyedül is el fogod tudni "
+"készíteni az első játékod."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:242
 msgid "Learning to make games takes practice"
-msgstr ""
+msgstr "A játékfejlesztés megtanulása, gyakorlást igényel"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:244
 msgid ""
@@ -222,16 +306,29 @@ msgid ""
 "Enjoy the process and celebrate every little success. You will never stop "
 "learning as a game developer."
 msgstr ""
+"A játékok készítése még sosem volt ennyire hozzáférhető bárki számára, de "
+"így is rengeteg munkát és gyakorlást igényel..\n"
+"\n"
+"Ne számíts rá, hogy egyetlen könyv vagy kurzus profit csinál belőled. [b]A "
+"programozás egy olyan dolog, amit gyakorlás utján tanulhastz meg.[/b]\n"
+"\n"
+"Ha valami nem rögtön egyértelmű, ne stresszelj miatta! Tanulj tovább, és "
+"később térj vissza hozzá.\n"
+"\n"
+"Élvezd a folyamatot, és ünepelj meg minden apró sikert. Játékfejlesztőként "
+"soha nem fejeződik be a tanulás."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:258
 msgid "What and how you'll learn"
-msgstr ""
+msgstr "Mit, és hogyan tanulsz majd"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:260
 msgid ""
 "In this free course, you will learn the foundations you need to start coding "
 "things like those."
 msgstr ""
+"Ebben az ingyenes kurzusban elsajátíthatod az alapokat, hogy olyan dolgokat "
+"kódolhass, mint azok."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:290
 msgid ""
@@ -255,10 +352,29 @@ msgid ""
 "If at any time you're left with burning questions, you're more than welcome "
 "to join [url=https://discord.gg/87NNb3Z]our Discord community[/url]."
 msgstr ""
+"A kurzus során megtanítjuk:\n"
+"\n"
+"- A gondolkodásmódot, amire fejlesztőként szükséged lesz. Túl sok programozó "
+"kurzus hagyja ki ezt a nélülözhetetlen lépést.\n"
+"- Hogyan írj GDScript kódot.\n"
+"- Nélkülözhetetlen programozási alapokat a kezdéshez.\n"
+"\n"
+"Ahogy haladsz a kurzusban, sok kérdésed lesz majd. Igyekszünk a lehető "
+"legjobb válaszokat adni rájuk.\n"
+"\n"
+"De olyan sok dolog van, hogy megkötéseket kell hoznunk. Nem akarunk "
+"[i]túlterhelni[/i] az információkkal. Az elménk bdóképességét is "
+"tiszteletben akarjuk tartani.\n"
+"\n"
+"Rövid leckékre és gyakorlatokra osztottuk a kurzust. Ha túl sok mindent "
+"tennénk egy leckébe, lassabban haladnál..\n"
+"\n"
+"Ha bármi kérdés merül fel benned a tanulás során, akkor nyugodatn csatlakozz "
+"a [url=https://discord.gg/87NNb3Z]Discord közösségünkhöz[/url]."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:310
 msgid "Programming is a skill"
-msgstr ""
+msgstr "A programozás egy készség"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:312
 msgid ""
@@ -272,10 +388,20 @@ msgid ""
 "To continue, click the [i]Practice[/i] button below. It will give you a "
 "short run through how practices work."
 msgstr ""
+"A programozás egy készség, tehát ahhoz, hogy jó legyél benne, gyakorolnod "
+"kell. Ezért készítettük ezt az alkalmazást.\n"
+"\n"
+"Minden lecke egy interaktív gyakorlattal zárul, hogy kipróbálhasd, amit "
+"tanultál.\n"
+"\n"
+"Ha már szóba került, nézzük is meg a gyakorlatokat!\n"
+"\n"
+"A folytatáshoz kattints a [i]Gyakorlat[/i] gombra. Ez röviden bemutatja "
+"majd, hogy működnek a gyakorlatok."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:326
 msgid "Try Your First Code"
-msgstr ""
+msgstr "Írd meg az első kódod"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:327
 msgid ""
@@ -284,11 +410,15 @@ msgid ""
 "\n"
 "To test the code, click the [i]Run[/i] button below the code editor."
 msgstr ""
+"Előkészítettünk egy kódrészletet a számodra. Ebben a gyakorlatban nem kell "
+"vele csinálnod semmit.\n"
+"\n"
+"A teszteléshez, kattints a [i]Futtatás[/i] gombra a kódszerkesztő alatt."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:339
 msgid "Run your first bit of code and see the result."
-msgstr ""
+msgstr "Futtasd az első kódod, és nézd mi történik."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:343
 msgid "What Code is Like"
-msgstr ""
+msgstr "Milyen a kód"
