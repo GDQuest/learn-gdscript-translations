@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-19 16:33+0100\n"
+"PO-Revision-Date: 2022-06-12 11:21+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -128,16 +128,14 @@ msgstr ""
 "para dibujar primero una esquina y luego un rectángulo como este."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
-#, fuzzy
 msgid "In the function call below, which part is the argument?"
 msgstr ""
-"En la siguiente definición de función, ¿qué parte es el parámetro de la "
+"En la siguiente definición de función, ¿qué parte es el argumento de la "
 "función?"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
-#, fuzzy
 msgid "[code]move_forward(30)[/code]"
-msgstr "[code]func move_forward(pixels)[/code]"
+msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:127
 msgid ""
@@ -150,6 +148,14 @@ msgid ""
 "This function call will make the turtle move forward by [code]30[/code] "
 "pixels."
 msgstr ""
+"Los argumentos de una función son todos los valores dentro de los "
+"paréntesis. En este caso solo hay uno, pero pueden ser varios separados por "
+"comas.\n"
+"\n"
+"En este caso, [code]mover_adelante[/code] es el nombre de la función y "
+"[code]30[/code] es el argumento.\n"
+"\n"
+"Esta llamada de función hará que la tortuga avance [code]30[/code] píxeles."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 msgid "move_forward"
@@ -158,7 +164,7 @@ msgstr "move_forward"
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:133
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:140
 msgid "Drawing a Corner"

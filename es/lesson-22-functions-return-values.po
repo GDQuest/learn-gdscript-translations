@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-26 18:31+0100\n"
+"PO-Revision-Date: 2022-06-12 11:30+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -73,7 +73,6 @@ msgstr ""
 "ese caso, puedes utilizar la función [code]round()[/code], así."
 
 #: course/lesson-22-functions-return-values/lesson.tres:71
-#, fuzzy
 msgid ""
 "Notice how we assign the result of the function call to a variable. Because "
 "the [code]round()[/code] function returns a [i]new[/i] value, we need to "
@@ -83,15 +82,17 @@ msgid ""
 msgstr ""
 "Observa cómo asignamos el resultado de la llamada de función a una variable. "
 "Como la función [code]round()[/code] devuelve un [i]nuevo[/i] valor, "
-"necesitamos almacenar el resultado.\n"
+"necesitamos almacenar el resultado o usar el valor inmediatamente.\n"
 "\n"
-"Así que asignamos el resultado a una variable."
+"Arriba, lo asignamos a una variable, pero también podrías hacer lo siguiente."
 
 #: course/lesson-22-functions-return-values/lesson.tres:93
 msgid ""
 "You can assign the return value of a function call if you plan on using it "
 "more than once."
 msgstr ""
+"Puedes asignar el valor de retorno de una llamada de función si planeas "
+"usarla más de una vez."
 
 #: course/lesson-22-functions-return-values/lesson.tres:101
 msgid "A cooler example: lerp()"

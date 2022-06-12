@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-28 15:15+0200\n"
+"PO-Revision-Date: 2022-06-12 11:25+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -263,7 +263,6 @@ msgid "How should I name my functions and parameters?"
 msgstr "¿Cómo debo nombrar mis funciones y parámetros?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:228
-#, fuzzy
 msgid ""
 "The names of functions, parameters, or other things in your code are "
 "entirely up to you.\n"
@@ -427,7 +426,6 @@ msgid "Using multiple parameters"
 msgstr "Usar múltiples parámetros"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:315
-#, fuzzy
 msgid ""
 "In this practice, we'll improve our [code]draw_corner()[/code] function so "
 "the angle can also vary.\n"
@@ -439,8 +437,9 @@ msgstr ""
 "En esta práctica, mejoraremos nuestra función [code]draw_corner()[/code] "
 "para que el ángulo también pueda variar.\n"
 "\n"
-"Añade el parámetro [code]angle[/code] a la función [code]draw_corner()[/"
-"code] y utilízalo para dibujar esquinas de ángulos variables."
+"Añade el parámetro [code]angle[/code] después del parametro [code]length[/"
+"code] a la función [code]draw_corner()[/code] y utilízalo para dibujar "
+"esquinas de ángulos variables."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:329
 msgid "With two parameters, code a function to draw corners with any angle."
@@ -453,7 +452,6 @@ msgid "Drawing squares of any size"
 msgstr "Dibujar cuadrados de cualquier tamaño"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:335
-#, fuzzy
 msgid ""
 "We want a function to draw squares of any size.\n"
 "\n"
@@ -477,8 +475,10 @@ msgstr ""
 "Crea una función llamada [code]draw_square()[/code] que tome un parámetro: "
 "la [code]length[/code], o la longitud, de los lados del cuadrado.\n"
 "\n"
-"La tortuga debe estar posicionada mirando hacia la derecha al comenzar o "
-"completar un rectángulo."
+"[b]La tortuga debe estar posicionada mirando hacia la derecha al comenzar o "
+"completar un cuadrado.[/b]\n"
+"\n"
+"Asegúrese de llamar a [b]turn_right(90)[/b] suficientes veces para hacerlo."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:352
 msgid ""
@@ -494,7 +494,6 @@ msgid "Drawing rectangles of any size"
 msgstr "Dibujar rectángulos de cualquier tamaño"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:358
-#, fuzzy
 msgid ""
 "Let's make our square drawing function more flexible to include rectangles "
 "of varying sizes.\n"
@@ -516,8 +515,8 @@ msgstr ""
 "que tome dos parámetros: [code]length[/code] y [code]height[/code], que "
 "designan la longitud y la altura del rectángulo respectivamente.\n"
 "\n"
-"La tortuga debe estar posicionada mirando hacia la derecha al comenzar o "
-"completar un rectángulo.\n"
+"[b]La tortuga debe estar posicionada mirando hacia la derecha al comenzar o "
+"completar un rectángulo.[/b]\n"
 "\n"
 "Ten en cuenta que aún podríamos dibujar un cuadrado con "
 "[code]draw_rectangle()[/code] haciendo que [code]length[/code] y "

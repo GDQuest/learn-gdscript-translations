@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-26 18:32+0100\n"
+"PO-Revision-Date: 2022-06-12 11:31+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -272,7 +272,6 @@ msgid "Clearing up the crates"
 msgstr "Deshacerse de las cajas"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:283
-#, fuzzy
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping "
 "them from the [code]crates[/code] array.\n"
@@ -298,7 +297,10 @@ msgstr ""
 "while.\n"
 "\n"
 "[b]¡Cuidado![/b], si ejecutas un bucle while sin cuidado, puedes bloquear el "
-"software."
+"software.\n"
+"\n"
+"Puedes verificar si la matriz [code]crates[/code] aún contiene valores "
+"escribiendo [code]while crates:[/code]"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:303
 msgid ""
