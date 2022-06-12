@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-11 08:44+0000\n"
+"Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-2-your-first-error/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-2-your-first-error/lesson.tres:14
@@ -32,16 +35,28 @@ msgid ""
 " something, it's not the case: [b]errors help you write correct "
 "programs[/b]."
 msgstr ""
+"Při programování určitě narazíte na chyby. Je jich spousta.\n"
+"\n"
+"Ale neměli byste se bát! V počítači jsou [b] chyby dobrá věc[/b].\n"
+"\n"
+"S chybami se budete setkávat a [i]to je v pořádku[/i]: dělá je každý "
+"programátor. Zvláště profesionálové.\n"
+"\n"
+"Ve škole jste se možná učili, že chyby jsou špatná věc. Když něco "
+"programujete, není to pravda: [b]Chyby vám pomáhají psát správné "
+"programy[/b]."
 
 #: course/lesson-2-your-first-error/lesson.tres:30
 msgid ""
 "A code error looks like this. It's a message that tells you some bit of "
 "your code doesn't work."
 msgstr ""
+"Chybový kód vypadá takto. Je to zpráva, která vám říká, že některá část "
+"vašeho kódu nefunguje."
 
 #: course/lesson-2-your-first-error/lesson.tres:48
 msgid "Making errors friendlier"
-msgstr ""
+msgstr "Dělat chyby přátelštější"
 
 #: course/lesson-2-your-first-error/lesson.tres:50
 msgid ""
@@ -53,6 +68,13 @@ msgid ""
 "It shows you why an error happens and what the message means. It also "
 "gives you some tips on how to fix it."
 msgstr ""
+"Chybová hlášení mohou vypadat poněkud záhadně. Je to proto, že je navrhli "
+"programátoři pro vyškolené programátory.\n"
+"\n"
+"Do této aplikace jsme přidali překladač chyb, který vám pomůže začít.\n"
+"\n"
+"Ukáže vám, proč k chybě dochází a co daná zpráva znamená. Poskytne vám také "
+"několik tipů, jak ji opravit."
 
 #: course/lesson-2-your-first-error/lesson.tres:74
 msgid ""
@@ -63,10 +85,15 @@ msgid ""
 "you from the past. Importantly, errors won't break your computer. At "
 "least not with GDScript because it's a pretty safe language."
 msgstr ""
+"Chyby jsou zprávy, které záměrně navrhli kolegové programátoři, kteří přišli "
+"před vámi. Předpokládali, že byste mohli mít konkrétní problémy.\n"
+"\n"
+"Chyby jsou jako rádci, kteří vám pomáhají z minulosti a váš počítač "
+"nerozbijí. Alespoň ne v jazyce GDScript, protože je to docela bezpečný jazyk."
 
 #: course/lesson-2-your-first-error/lesson.tres:84
 msgid "Are errors a good or a bad thing in code?"
-msgstr ""
+msgstr "Jsou chyby v kódu dobrá nebo špatná věc?"
 
 #: course/lesson-2-your-first-error/lesson.tres:87
 msgid ""
@@ -76,25 +103,32 @@ msgid ""
 " experience, you'll learn to make your code work more reliably thanks to "
 "error messages."
 msgstr ""
+"Ano, chyby jsou zde, aby vám pomohly!\n"
+"\n"
+"Věnujte jim pozornost a snažte se je číst a porozumět jim. Se zkušenostmi se "
+"naučíte, jak díky chybovým hlášením zajistit, aby váš kód fungoval "
+"spolehlivěji."
 
 #: course/lesson-2-your-first-error/lesson.tres:90
 msgid "They're bad: errors are always bad."
-msgstr ""
+msgstr "Jsou špatné: chyby jsou vždycky špatné."
 
 #: course/lesson-2-your-first-error/lesson.tres:90
 #: course/lesson-2-your-first-error/lesson.tres:91
 msgid "They're good: they're here to help."
-msgstr ""
+msgstr "Jsou dobré: jsou tu, aby pomohli."
 
 #: course/lesson-2-your-first-error/lesson.tres:100
 msgid ""
 "Okay, let's see an error in action. Once again, click the [i]Practice[/i]"
 " button below to face your first real error."
 msgstr ""
+"Podívejme se na chybu v akci. Ještě jednou klikněte na [i]Practice[/i] "
+"tlačítko níže, abyste se setkali s první skutečnou chybou."
 
 #: course/lesson-2-your-first-error/lesson.tres:108
 msgid "Fix Your First Error"
-msgstr ""
+msgstr "Opravte svou první chybu"
 
 #: course/lesson-2-your-first-error/lesson.tres:109
 msgid ""
@@ -114,11 +148,25 @@ msgid ""
 "Otherwise, that'll cause another error. You may try that too, if you feel"
 " like it."
 msgstr ""
+"Tento kód je nesprávný a při pokusu o jeho spuštění dojde k chybě.\n"
+"\n"
+"Kód definuje prázdnou funkci s názvem [code]this_code_is_wrong[/code].\n"
+"\n"
+"Aby funkce fungovala, měla by používat klíčové slovo [code]return[/code]. "
+"Toto klíčové slovo je však v současné době uvnitř komentáře, který počítač "
+"ignoruje.\n"
+"\n"
+"Otestujte aktuální kód stisknutím tlačítka [i]Run[/i].\n"
+"\n"
+"Poté odstraňte znak komentáře (#), aby byl kód platný.\n"
+"\n"
+"Dejte pozor, abyste neodstranili mezeru před [code]return[/code]! Jinak to "
+"způsobí další chybu. Ale můžete si zkusit způsobit i tuto chybu ;-)"
 
 #: course/lesson-2-your-first-error/lesson.tres:129
 msgid "There's an error in this code. We need you to fix it!"
-msgstr ""
+msgstr "V tomto kódu je chyba. Potřebujeme, abyste ji opravili!"
 
 #: course/lesson-2-your-first-error/lesson.tres:133
 msgid "Your First Error"
-msgstr ""
+msgstr "Vaše první chyba"
