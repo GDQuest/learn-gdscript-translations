@@ -1,3 +1,4 @@
+"""Merges updates from the template files into the translation files."""
 import os
 import subprocess
 

@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2022-06-12 11:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:14
 msgid ""
@@ -211,18 +211,18 @@ msgid ""
 "We generally try to write code that is explicit and relatively easy to "
 "read.\n"
 "\n"
-"Right now, you have to type every letter when you code, so long names may"
-" feel inconvenient.\n"
+"Right now, you have to enter every letter when you code, so long names "
+"may feel inconvenient.\n"
 "\n"
-"However, this is good for learning: it trains your fingers to type "
-"precisely.\n"
+"However, this is good for learning: it trains your fingers to "
+"[ignore]type precisely.\n"
 "\n"
 "Then, after you finish this course, you will see that the computer "
 "assists you a lot when you code real games with a feature called auto-"
 "completion.\n"
 "\n"
-"Based on a few characters you type, it will offer you to complete long "
-"names."
+"Based on a few characters you [ignore]type, it will offer you to complete"
+" long names."
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:256
@@ -308,8 +308,9 @@ msgid ""
 "In this practice, we'll improve our [code]draw_corner()[/code] function "
 "so the angle can also vary.\n"
 "\n"
-"Add the [code]angle[/code] parameter to the [code]draw_corner()[/code] "
-"function and use it to draw corners of varying angles."
+"Add the [code]angle[/code] parameter after the [code]length[/code] "
+"parameter in the [code]draw_corner()[/code] function and use it to draw "
+"corners of varying angles."
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:329
@@ -330,21 +331,24 @@ msgid ""
 "Create a function named [code]draw_square()[/code] that takes one "
 "parameter: the [code]length[/code] of the square's sides.\n"
 "\n"
-"The turtle should face towards the right when starting or completing a "
-"rectangle."
+"[b]The turtle should face towards the right when starting or completing a"
+" square.[/b]\n"
+"\n"
+"Be sure to call [b]turn_right(90)[/b]  enough times in your function to "
+"do so."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:350
+#: course/lesson-6-multiple-function-parameters/lesson.tres:352
 msgid ""
 "In the previous lesson, your function would draw squares of a fixed size."
 " Using a parameter, code a function to draw squares of any size."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:355
+#: course/lesson-6-multiple-function-parameters/lesson.tres:357
 msgid "Drawing rectangles of any size"
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:356
+#: course/lesson-6-multiple-function-parameters/lesson.tres:358
 msgid ""
 "Let's make our square drawing function more flexible to include "
 "rectangles of varying sizes.\n"
@@ -353,21 +357,21 @@ msgid ""
 "takes two parameters: the [code]length[/code] and the [code]height[/code]"
 " of the rectangle.\n"
 "\n"
-"The turtle should face towards the right when starting or completing a "
-"rectangle.\n"
+"[b]The turtle should face towards the right when starting or completing a"
+" rectangle.[/b]\n"
 "\n"
 "Note that we could still draw a square with [code]draw_rectangle()[/code]"
 " by having the [code]length[/code] and [code]height[/code] equal the same"
 " value."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:379
+#: course/lesson-6-multiple-function-parameters/lesson.tres:381
 msgid ""
 "With one parameter, you can make squares of any size. With two, you can "
 "draw any rectangle! You'll do so in this practice."
 msgstr ""
 
-#: course/lesson-6-multiple-function-parameters/lesson.tres:383
+#: course/lesson-6-multiple-function-parameters/lesson.tres:385
 msgid "Your First Function Parameter"
 msgstr ""
 
