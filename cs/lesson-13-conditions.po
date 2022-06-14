@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-14 18:18+0000\n"
+"Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-13-conditions/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-13-conditions/lesson.tres:14
@@ -23,16 +26,20 @@ msgid ""
 "In previous lessons, we decreased and increased a character's health, but "
 "there was no limit to how much health they could have."
 msgstr ""
+"V předchozích lekcích jsme snižovali a zvyšovali zdraví postavy, ale "
+"neexistoval žádný limit, kolik zdraví může mít."
 
 #: course/lesson-13-conditions/lesson.tres:34
 msgid ""
 "As a result, the player could increase their character's health "
 "indefinitely, which we do not want."
 msgstr ""
+"V důsledku toho by si hráč mohl neomezeně zvyšovat zdraví své postavy, což "
+"nechceme."
 
 #: course/lesson-13-conditions/lesson.tres:52
 msgid "What happens to health when we damage our character?"
-msgstr ""
+msgstr "Co se stane se zdravím, když postavu poškodíme?"
 
 #: course/lesson-13-conditions/lesson.tres:53
 msgid ""
@@ -41,6 +48,10 @@ msgid ""
 "What would the value of health be if we called [code]take_damage(25)[/code] "
 "[b]five times[/b]?"
 msgstr ""
+"Předpokládejme, že naše postava má [code]100[/code] zdraví.\n"
+"\n"
+"Jaká by byla hodnota zdraví, kdybychom zavolali [code]take_damage(25)[/code] "
+"[b] pětkrát[/b]?"
 
 #: course/lesson-13-conditions/lesson.tres:57
 msgid ""
@@ -54,19 +65,28 @@ msgid ""
 "0\n"
 "-25"
 msgstr ""
+"Pětkrát zavoláním [code]take_damage(25)[/code] se od [code]100[/code] odečte "
+"celkem [code]125[/code].\n"
+"\n"
+"100\n"
+"75\n"
+"50\n"
+"25\n"
+"0\n"
+"-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 #: course/lesson-13-conditions/lesson.tres:66
 msgid "-25"
-msgstr ""
+msgstr "-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: course/lesson-13-conditions/lesson.tres:75
 msgid ""
@@ -76,6 +96,11 @@ msgid ""
 "the computer will run the corresponding instructions. Otherwise, those "
 "instructions will not run at all."
 msgstr ""
+"Pomocí podmínek můžeme spouštět akce [b]selektivně[/b].\n"
+"\n"
+"Podmínky způsobí, že se váš kód rozvětví na dvě cesty: pokud je podmínka "
+"splněna, počítač spustí odpovídající instrukce. V opačném případě se tyto "
+"instrukce vůbec nespustí."
 
 #: course/lesson-13-conditions/lesson.tres:87
 msgid ""
@@ -83,6 +108,9 @@ msgid ""
 "game input largely relies on conditions: [i]if[/i] the player presses the "
 "button on a gamepad, the character jumps."
 msgstr ""
+"Videohry a další počítačové programy jsou plné podmínek. Například zadávání "
+"dat do her se z velké části opírá o podmínky: [i]pokud[/i] hráč stiskne "
+"tlačítko na gamepadu, postava vyskočí."
 
 #: course/lesson-13-conditions/lesson.tres:107
 msgid ""
@@ -100,6 +128,19 @@ msgid ""
 "starting with [code]if[/code], type the condition to evaluate, and end the "
 "line with a colon."
 msgstr ""
+"Když počítač kontroluje podmínku, nazývá se [b]vyhodnocení[/b] podmínky. "
+"Všechny podmínky [b]vyhodnotí[/b] buď [code]pravdivě[/code], nebo "
+"[code]nepravdivě[/code].\n"
+"\n"
+"Buď hráč tlačítko stiskne, nebo ne. Buď se postava dotýká nepřítele, nebo ne."
+"\n"
+"\n"
+"V našem případě [i]pokud[/i] zdraví přesáhne maximální hodnotu, chceme ho "
+"resetovat na maximum.\n"
+"\n"
+"K definování podmínky použijeme klíčové slovo [code]if[/code]. Napíšeme "
+"řádek začínající [code]if[/code], zadáme podmínku, která se má vyhodnotit, a "
+"řádek ukončíme dvojtečkou."
 
 #: course/lesson-13-conditions/lesson.tres:133
 msgid ""
@@ -114,10 +155,20 @@ msgid ""
 "The computer knows which instructions belong to the condition because they "
 "are indented."
 msgstr ""
+"Všimněte si srovnávacího znaku [code]>[/code]. Tento symbol čteme jako "
+"\"větší než\". \n"
+"\n"
+"Viděli jsme, jak definice funkcí používají dvojtečku na konci prvního řádku "
+"a vnořují obsah dovnitř.\n"
+"\n"
+"V jazyce GDScript je tato syntaxe opakujícím se vzorem pro všechny bloky "
+"kódu.\n"
+"\n"
+"Počítač ví, které instrukce patří do podmínky, protože jsou odsazené."
 
 #: course/lesson-13-conditions/lesson.tres:157
 msgid "Comparisons"
-msgstr ""
+msgstr "Porovnání"
 
 #: course/lesson-13-conditions/lesson.tres:159
 msgid ""
@@ -133,10 +184,21 @@ msgid ""
 "\n"
 "Here's how we might use these in [code]if[/code] statements.\n"
 msgstr ""
+"Ve výše uvedeném příkladu jsme použili syntaxi [code]>[/code], která znamená "
+"\"větší než\".\n"
+"\n"
+"Čísla můžeme porovnávat i jinými způsoby.\n"
+"\n"
+"[code]>[/code] znamená \"větší než\"\n"
+"[code]<[/code] znamená \"menší než\"\n"
+"[code]==[/code] znamená \"rovná se\"\n"
+"[code]!=[/code] znamená \"nerovná se\"\n"
+"\n"
+"Tady je uvedeno, jak bychom je mohli použít v příkazech [code]if[/code].\n"
 
 #: course/lesson-13-conditions/lesson.tres:187
 msgid "Which of these statements are true?"
-msgstr ""
+msgstr "Která z těchto tvrzení jsou pravdivá?"
 
 #: course/lesson-13-conditions/lesson.tres:190
 msgid ""
@@ -152,33 +214,44 @@ msgid ""
 "The comparison [code]3 < 1[/code] means \"three is less than one\" which is "
 "[b]false[/b]."
 msgstr ""
+"Porovnání [code]3 > 1[/code] znamená \"tři je větší než jedna\", což je "
+"[b]pravda[/b].\n"
+"Porovnání [code]2 < 3[/code] znamená \"dva je méně než tři\", což je "
+"[b]pravda[/b].\n"
+"Porovnání [code]1 != 3[/code] znamená \"jedna není rovna třem\", což je "
+"[b]pravda[/b].\n"
+"\n"
+"Porovnání [code]2 == 1[/code] znamená \"dvě se rovná jedné\", což je "
+"[b]nepravda[/b].\n"
+"Porovnání [code]3 < 1[/code] znamená \"tři je méně než jedna\", což je "
+"[b]nepravda[/b]."
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "3 > 1"
-msgstr ""
+msgstr "3 > 1"
 
 #: course/lesson-13-conditions/lesson.tres:196
 msgid "2 == 1"
-msgstr ""
+msgstr "2 == 1"
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "2 < 3"
-msgstr ""
+msgstr "2 < 3"
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "1 != 3"
-msgstr ""
+msgstr "1 != 3"
 
 #: course/lesson-13-conditions/lesson.tres:196
 msgid "3 < 1"
-msgstr ""
+msgstr "3 < 1"
 
 #: course/lesson-13-conditions/lesson.tres:204
 msgid "Or else..."
-msgstr ""
+msgstr "Or else..."
 
 #: course/lesson-13-conditions/lesson.tres:206
 msgid ""
@@ -188,22 +261,31 @@ msgid ""
 "You can write an [code]else[/code] block after an [code]if[/code] block, "
 "like so."
 msgstr ""
+"Klíčové slovo [code]if[/code] je doplněno doplňkovým klíčovým slovem "
+"[code]else[/code].\n"
+"\n"
+"Blok [code]else[/code] můžete napsat za blok [code]if[/code], například "
+"takto."
 
 #: course/lesson-13-conditions/lesson.tres:228
 msgid ""
 "The [code]else[/code] block will run whenever the condition above it isn't "
 "met."
 msgstr ""
+"Blok [code]else[/code] se spustí vždy, když není splněna podmínka uvedená "
+"nad ním."
 
 #: course/lesson-13-conditions/lesson.tres:238
 msgid ""
 "In the following practices, we'll use conditions and improve the way our "
 "character's health changes so it has limits."
 msgstr ""
+"V následujících postupech použijeme podmínky a zlepšíme způsob, jakým se "
+"zdraví naší postavy mění tak, aby mělo limity."
 
 #: course/lesson-13-conditions/lesson.tres:246
 msgid "Using Comparisons"
-msgstr ""
+msgstr "Použití porovnání"
 
 #: course/lesson-13-conditions/lesson.tres:247
 msgid ""
@@ -226,16 +308,36 @@ msgid ""
 "Because [code]health = 100[/code], this is false so [code]print(\"health is "
 "greater than five.\")[/code] won't run."
 msgstr ""
+"Tato série příkazů [code]if[/code] je špatně. Změňte porovnání tak, aby "
+"každé porovnání odpovídalo instrukci, která je pod ním.\n"
+"\n"
+"Hodnoty a příkazy ponechte tak, jak jsou; změňte pouze porovnávací znaménka."
+"\n"
+"\n"
+"Připomínáme, že porovnávací znaménka jsou následující:\n"
+"[kód]\n"
+"> větší než\n"
+"< menší než\n"
+"== rovná se\n"
+"!= nerovná se\n"
+"[/code]\n"
+"\n"
+"Řádek [code]health < 5:[/code] znamená \"zdraví je menší než 5\".\n"
+"\n"
+"Protože [code]health = 100[/code] je nepravda, tak se [code]print(\"health "
+"is greater than five.\")[/code] nespustí."
 
 #: course/lesson-13-conditions/lesson.tres:283
 msgid ""
 "Comparing values allows us to make decisions in code. But there's something "
 "wrong with these statements.."
 msgstr ""
+"Porovnávání hodnot nám umožňuje rozhodovat v kódu. V těchto výrocích je však "
+"něco špatně.."
 
 #: course/lesson-13-conditions/lesson.tres:288
 msgid "Limiting Healing"
-msgstr ""
+msgstr "Omezení léčení"
 
 #: course/lesson-13-conditions/lesson.tres:289
 msgid ""
@@ -244,16 +346,22 @@ msgid ""
 "Add to the function so the character's health is never greater than "
 "[code]80[/code]."
 msgstr ""
+"Máme funkci léčení, která přidává určitou hodnotu ke zdraví postavy.\n"
+"\n"
+"Přidejte do funkce podmínku, aby zdraví postavy nebylo nikdy větší než "
+"[code]80[/code]."
 
 #: course/lesson-13-conditions/lesson.tres:301
 msgid ""
 "As much as we might like, we don't want our robot to have too much health. "
 "Limit how much healing the robot can take."
 msgstr ""
+"I když bychom si to možná přáli, nechceme, aby náš robot měl příliš mnoho "
+"zdraví. Omezte, kolik léčení může robot přijmout."
 
 #: course/lesson-13-conditions/lesson.tres:306
 msgid "Preventing Health from Going Below Zero"
-msgstr ""
+msgstr "Prevence poklesu zdraví pod nulu"
 
 #: course/lesson-13-conditions/lesson.tres:307
 msgid ""
@@ -270,13 +378,26 @@ msgid ""
 "If [code]health[/code] goes below [code]0[/code], set it to [code]0[/code] "
 "again."
 msgstr ""
+"Když robot utrpí poškození, jeho zdraví může být záporné.\n"
+"\n"
+"Možná budeme chtít zobrazit číslo zdraví na obrazovce, jako je tomu v "
+"japonských RPG hrách.\n"
+"\n"
+"Nechceme záporná čísla. Místo toho se chceme zastavit na nule.\n"
+"\n"
+"Volání funkce by mělo snížit [code]health[/code] o [code]amount[/code].\n"
+"\n"
+"Pokud [code]health[/code] klesne pod [code]0[/code], nastavte jej opět na "
+"[code]0[/code]."
 
 #: course/lesson-13-conditions/lesson.tres:325
 msgid ""
 "Having a negative health value doesn't make a lot of sense. Make sure the "
 "robot's health can't go below zero."
 msgstr ""
+"Záporná hodnota zdraví nedává smysl. Ujistěte se, že zdraví robota nemůže "
+"klesnout pod nulu."
 
 #: course/lesson-13-conditions/lesson.tres:329
 msgid "Conditions"
-msgstr ""
+msgstr "Podmínky"
