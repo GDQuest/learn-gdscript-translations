@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-13 17:18+0000\n"
+"Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-2-your-first-error/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-2-your-first-error/lesson.tres:14
@@ -32,16 +35,27 @@ msgid ""
 " something, it's not the case: [b]errors help you write correct "
 "programs[/b]."
 msgstr ""
+"Ha programozol, előbb-utóbb hibákba szaladsz. Rengetegbe.\n"
+"\n"
+"De ne aggódj! A számítógépen, [b]a hibák jó dolgok[/b].\n"
+"\n"
+"Találkozni fogsz hibákkal, és ez [i]rendben van[/i]: minden programozó "
+"találkozik velük. Főleg a profik.\n"
+"\n"
+"Az iskolában, talán azt tanultad, hogy a hibák rossz dolgok. Ha programozol, "
+"nem ez a helyzet: [b]a hibák segítenek jobbá tenni a programod[/b]."
 
 #: course/lesson-2-your-first-error/lesson.tres:30
 msgid ""
 "A code error looks like this. It's a message that tells you some bit of "
 "your code doesn't work."
 msgstr ""
+"Így néz ki egy hiba a kódban. Ez egy üzenet, ami közli, hogy a kódod "
+"valamelyik része nem működik."
 
 #: course/lesson-2-your-first-error/lesson.tres:48
 msgid "Making errors friendlier"
-msgstr ""
+msgstr "A hibák megszelídítése"
 
 #: course/lesson-2-your-first-error/lesson.tres:50
 msgid ""
@@ -53,6 +67,14 @@ msgid ""
 "It shows you why an error happens and what the message means. It also "
 "gives you some tips on how to fix it."
 msgstr ""
+"A hibaüzenetek rejtélyesnek tűnhetnek. Ez azért van mert programozók "
+"készítették őket, gyakorlott programozóknak.\n"
+"\n"
+"Adtunk egy hibaüzenet fordítót az alkalmazáshoz, hogy segítsen az "
+"elindulásban.\n"
+"\n"
+"Megmutatja, hogy miért történt a hiba és mit jelent az üzenet. Ezenkívül "
+"néhány tippet is ad a javításhoz.."
 
 #: course/lesson-2-your-first-error/lesson.tres:74
 msgid ""
@@ -63,10 +85,17 @@ msgid ""
 "you from the past. Importantly, errors won't break your computer. At "
 "least not with GDScript because it's a pretty safe language."
 msgstr ""
+"A hibaüzenetek olyan dolgok, amiket szándékosan terveztek meg az előtted "
+"járó programozók. Számítottak rá, hogy belefutsz bizonyos hibákba.\n"
+"\n"
+"Ne gondolj bukásként a hibaüzenetekre. Ezek amolyan mentorok a múltból, akik "
+"segítenek téged. Fontos, hogy a hibaüzenetek nem teszik tönkre a "
+"számítógéped. Legalábbis a GDScript biztos nem, ez egy nagyon biztonságos "
+"nyelv."
 
 #: course/lesson-2-your-first-error/lesson.tres:84
 msgid "Are errors a good or a bad thing in code?"
-msgstr ""
+msgstr "A hibaüzenetek jók vagy rosszak a kódban?"
 
 #: course/lesson-2-your-first-error/lesson.tres:87
 msgid ""
@@ -76,25 +105,32 @@ msgid ""
 " experience, you'll learn to make your code work more reliably thanks to "
 "error messages."
 msgstr ""
+"Igen, a hibaüzenetek azért vannak itt, hogy segítsenek!\n"
+"\n"
+"Figyelj oda rájuk, és próbáld meg a lehető legjobban megérteni őket. Kis "
+"gyakorlás után megtanulod, hoygan tedd jobbá a kódod, a hibaüzeneteknek "
+"köszönhetően."
 
 #: course/lesson-2-your-first-error/lesson.tres:90
 msgid "They're bad: errors are always bad."
-msgstr ""
+msgstr "Rosszak: a hibaüzenetek mindig rosszak."
 
 #: course/lesson-2-your-first-error/lesson.tres:90
 #: course/lesson-2-your-first-error/lesson.tres:91
 msgid "They're good: they're here to help."
-msgstr ""
+msgstr "Jók: azért vannak, hogy segítsenek."
 
 #: course/lesson-2-your-first-error/lesson.tres:100
 msgid ""
 "Okay, let's see an error in action. Once again, click the [i]Practice[/i]"
 " button below to face your first real error."
 msgstr ""
+"Oké, lássunk egy hibaüzenetet működés közben. Kattints ismét a "
+"[i]Gyakorlat[/i] gombra, hogy lásd az első igazi hibaüzeneted."
 
 #: course/lesson-2-your-first-error/lesson.tres:108
 msgid "Fix Your First Error"
-msgstr ""
+msgstr "Javítsd ki az első hibád"
 
 #: course/lesson-2-your-first-error/lesson.tres:109
 msgid ""
@@ -114,11 +150,25 @@ msgid ""
 "Otherwise, that'll cause another error. You may try that too, if you feel"
 " like it."
 msgstr ""
+"Ez a kód hibás, és hibaüzenetet fog dobni, ha futtatni próbálod.\n"
+"\n"
+"A kód létrehoz egy üres függvényt, [code]this_code_is_wrong[/code] néven.\n"
+"\n"
+"Ahhoz, hogy működjön, a függvényt a [code]return[/code] kulcsszóval kell "
+"lezárni. Ez a kulcsszó jelenleg ki van kommentálva, ezért a számítógép "
+"ignorálja.\n"
+"\n"
+"Teszteld az aktuális kódot, nyomd meg a [i]Futtatás[/i] gombot.\n"
+"\n"
+"Ezután, távolítsd el a komment jelet (#) hogy érvényes legyen a kód.\n"
+"\n"
+"Vigyázz, nehogy töröld a bekezdést a [code]return[/code] előtt! Ha így "
+"tennél, akkor egy másik hibaüzenetet kapnál. Kipróbálhatod azt is, ha akarod."
 
 #: course/lesson-2-your-first-error/lesson.tres:129
 msgid "There's an error in this code. We need you to fix it!"
-msgstr ""
+msgstr "Van egy hiba ebbena kódban. Szükségünk van rád, hogy kijavítsd!"
 
 #: course/lesson-2-your-first-error/lesson.tres:133
 msgid "Your First Error"
-msgstr ""
+msgstr "Az első hibaüzeneted"

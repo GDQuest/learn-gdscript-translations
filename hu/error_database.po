@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-06-10 09:56+0000\n"
+"PO-Revision-Date: 2022-06-13 17:18+0000\n"
 "Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/error-explanations/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/error-explanations/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -441,6 +441,10 @@ msgid ""
 "Perhaps the signal already exists in the current code file, but it may also "
 "be in a parent class that this GDScript code extends."
 msgstr ""
+"Egy már létező signalt próbálsz létrehozni. Ez nem megengedett.\n"
+"\n"
+"Lehet, hogy a signal már létezik az aktuális kódban, de lehet, hogy egy "
+"szülő osztályban van, amiből a GDScript kód leszármazik."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: script_checking/error_database.csv:107
@@ -451,6 +455,11 @@ msgid ""
 "When that happens, you need to either rename your signal to one that will "
 "not collide with an existing one or remove this line of code."
 msgstr ""
+"Az alkalmazásban a kódod, egy már előre megírt Godot kódot egészít ki, ami "
+"számodra nem látható.\n"
+"\n"
+"Ha ez történik, akkor olyan nevet kell adnod a signalnak, amilyen még nem "
+"szerepel a kódban, vagy törölnöd kell azt."
 
 #. Reference: SIGNATURE_MISMATCH
 #: script_checking/error_database.csv:112
@@ -466,6 +475,16 @@ msgid ""
 "also to have two arguments. If you use type hints in your function "
 "definitions, the argument types must match the parent class."
 msgstr ""
+"A függvény, amit létre akarsz hozni, már létezik egy szülő osztályban, "
+"szóval a deklarációd felülírja a szülő osztályban lévő függvényt.\n"
+"\n"
+"Ha felülírod a szülő osztályban lévő függvényt, az új függvények meg kell "
+"egyeznie vele. Az új függvény paramétereinek száma és típusa meg kell, hogy "
+"ezzen a szülő osztályéval.\n"
+"\n"
+"Például, ha a szülőnek két argumentuma van, akkor az új függvényednek is két "
+"argumentummal kell rendelkeznie. Ha használsz típusmeghatározást a szülő "
+"osztályban, akkor az argumentumok típusának meg kell egyeznie azzal."
 
 #. Reference: SIGNATURE_MISMATCH
 #: script_checking/error_database.csv:112
@@ -474,6 +493,9 @@ msgid ""
 "reference. Then, you need to edit your function definition to have the same "
 "number and type of parameters as the parent class."
 msgstr ""
+"Ellenőrizned kell a szülő osztályban lévő függvényt és annak deklarációját a "
+"kódban. Ezután módosítanod kell a saját függvény deklarációd, hogy azonos "
+"típusú és számú argumentummal rendelkezze, mint a szülő."
 
 #. Reference: INVALID_ARGUMENTS
 #: script_checking/error_database.csv:113
@@ -482,6 +504,9 @@ msgid ""
 "wrong number of arguments or the wrong kind of argument. You will need to "
 "use the error message to see what is going wrong."
 msgstr ""
+"Az összes ilyen típusú hiba arra utal, hogy nem megfelelő számú vagy típusú "
+"argumentumot adtál meg. A hibaüzenetet kell használnod, hogy kiderítsd, "
+"pontosan mi a baj."
 
 #. Reference: INVALID_ARGUMENTS
 #: script_checking/error_database.csv:113
@@ -491,6 +516,11 @@ msgid ""
 "need, you need to check the code reference. It will show you the function "
 "definition and the mandatory arguments."
 msgstr ""
+"Ahhoz, hogy javítsd ezt a hibát, lehet, hogy törölnöd, hozzádnod vagy "
+"módosítanod kell az értékeket, amelyeket a függvénynek próbálsz meg átadni. "
+"Ahhoz, hogy megtudd pontosan hány argumentumra van szükséged, meg kell "
+"nézned a kódot. Ez megmutatja neked a függvény deklarációt és a szükséges "
+"argumentumokat."
 
 #. Reference: TYPE_MISMATCH
 #: script_checking/error_database.csv:124
@@ -508,6 +538,18 @@ msgid ""
 "You'll need to read the error message to see what is not matching because "
 "there are many possible cases."
 msgstr ""
+"A kódban minden értéknek van egy egyedi típusa. Ez lehet egész szám (int), "
+"törtszám (float), szöveg (String), stb. Rengetegféle típus létezik, sőt "
+"sajátot is létrehozhatsz!\n"
+"\n"
+"Ha valamilyen műveletet hajtasz végre, a számítógép összehasonlítja a "
+"típusokat, amiket használsz.\n"
+"\n"
+"Néhány típus kompatibilis, mások viszont nem. Példáül, nem adhatsz egy egész "
+"számot egy szöveghez. Először szöveggé kell konvertálnod a számot.\n"
+"\n"
+"El kell olvasnod hibaüzenetet, hogy lásd, pontosan mi a probléma, mert "
+"sokféle eset lehetséges."
 
 #. Reference: TYPE_MISMATCH
 #: script_checking/error_database.csv:124
@@ -523,6 +565,16 @@ msgid ""
 "while you can add two 2D vectors, you can't add a whole number or text to a "
 "2D vector."
 msgstr ""
+"Ha a hibaüzenet szerint a megadott érték nem egyezik meg a változó "
+"típusával, akkor a hiba az egyenlőség jel (=) jobb oldalán van.\n"
+"\n"
+"Ha a hibaüzenet szerint a visszatérési érték típusa nem egyezik meg a "
+"függvényével, akkor a baj a [code]return[/code] kulcsszó után van.\n"
+"\n"
+"Ha a számítógép érvénytelen műveletről beszél, akkor a művelet, amit végre "
+"akarsz hajtani, nem létezik az adott típushoz, amit épp használsz. Például, "
+"két 2 dimenziós vektort összeadhatsz egymással, de egy egész számmal vagy "
+"szöveggel már nem."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: script_checking/error_database.csv:129
@@ -534,6 +586,12 @@ msgid ""
 "When that happens, you need to specify the type yourself or remove type "
 "inference altogether for this variable."
 msgstr ""
+"A GDScript képes a típus kikövetkeztetésére. A számítógép legtöbb esetben "
+"automatikusan felismeri a változó típusát, amivel dolgozol. Néhány esetben "
+"azonban erre nem képes.\n"
+"\n"
+"Ha ez történik, akkor neked kell megadnod a típust, vagy épp el kell hagynod "
+"a típus megadást."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: script_checking/error_database.csv:129
@@ -545,6 +603,13 @@ msgid ""
 "We recommend specifying the type whenever possible to reap the typing "
 "system's benefits."
 msgstr ""
+"Ennek a hibának a legegyszerűbb megoldása, ha eltávolítod a típusokat az "
+"adott változóhoz, vagy függvény argumentumhoz. Vagy, megadhatod te magad is "
+"a típust a változó neve után kettősponttal. Példa: [code]var health : "
+"int[/code]\n"
+"\n"
+"Ajánlott a típust minden esetben megadni, amikor csak lehetséges, hogy "
+"élvezhessük a típusok előnyeit."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:135
@@ -558,6 +623,13 @@ msgid ""
 "2. You specified a return type for your function, but you are not returning "
 "a value in all possible branches (if, elif, and else blocks) or at the end."
 msgstr ""
+"Valami baj van a függvényed visszatérési értékével. Ennek két fő oka lehet:\n"
+"\n"
+"1. A függvényed void, így nem kéne visszatérnie semmilyen értékkel. Ide "
+"tartoznak a '-> void' kulcsszóval ellátott függvények és a beépített "
+"osztályok ('_init()').\n"
+"2. Megadtál egy visszatérési típust, de nem adsz meg visszatérési értéket "
+"minden elágazásnál (if, elif, és else blokkok) vagy a függvény végén."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:135
@@ -569,6 +641,13 @@ msgid ""
 "When you use a return type, you must always return something at the end of "
 "the function or in every branch (if, elif, and else block) of the function."
 msgstr ""
+"Ha 'void' függvényed van, soha ne adj meg visszatérési értéket. Használhatod "
+"a 'return' kulcsszót, hogy rendesen lezárd a függvényt, de soha ne írj utána "
+"semmit.\n"
+"\n"
+"Ha megadsz visszatérési típust, akkor minden esetben vissza kell térned "
+"valamilyen értékkel, minden elágazásnál (if, elif, és else blokkok) vagy a "
+"függvény végén."
 
 #. Reference: INVALID_NO_CATCH
 #: script_checking/error_database.csv:137
@@ -576,17 +655,19 @@ msgid ""
 "Godot was unable to load your script, yet the language checker found nothing "
 "wrong."
 msgstr ""
+"A Godot nem tudta betölteni a szkripted, a nyelv ellenőrző mégsem talált "
+"semmilyen hibát."
 
 #. Reference: INVALID_NO_CATCH
 #: script_checking/error_database.csv:137
 msgid ""
 "Please click on the \"report\" button at the top and please let us know."
-msgstr ""
+msgstr "Kérjük kattints a \"hibajelzés\" gombra, és tudasd velünk."
 
 #. Reference: RECURSIVE_FUNCTION
 #: script_checking/error_database.csv:138
 msgid "You called a function inside itself. This will loop forever."
-msgstr ""
+msgstr "Saját magában hívtál egy függvényt. Ez végtelen ciklust eredményez."
 
 #. Reference: RECURSIVE_FUNCTION
 #: script_checking/error_database.csv:138
@@ -594,3 +675,5 @@ msgid ""
 "There are valid reasons for using recursive functions, but none of them are "
 "part of this course, so this cannot be a valid solution."
 msgstr ""
+"Vannak olyan esetek, amikor rekurzív függvényekre van szükség, de azok nem "
+"részei ennek a kurzusnak, szóval ez nem lehet a helyes megoldás."
