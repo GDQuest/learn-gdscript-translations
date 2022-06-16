@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-17 07:12+0000\n"
+"Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/user-interface/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
@@ -87,25 +90,25 @@ msgstr ""
 
 #: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
-msgstr ""
+msgstr "Resetta"
 
 #: ui/components/CodeEditor.tscn:195
 msgid "Solution"
-msgstr ""
+msgstr "Soluzione"
 
 #: ui/components/CodeEditor.tscn:209 ui/components/OutputConsole.tscn:43
 msgid "Output"
-msgstr ""
+msgstr "Risultato"
 
 #: ui/components/CodeEditor.tscn:224
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
-msgstr ""
+msgstr "Continua"
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
-msgstr ""
+msgstr "In Pausa"
 
 #: ui/components/GlossaryPopup.tscn:37
 msgid "Term"
@@ -114,80 +117,82 @@ msgstr ""
 #: ui/components/GlossaryPopup.tscn:53
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
-msgstr ""
+msgstr "Nostra spiegazione dell'errore."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
 msgid "ERROR:"
-msgstr ""
+msgstr "ERRORE:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 #: ui/components/ScrollableTextBox.tscn:43
 #: ui/screens/lesson/UIContentBlock.tscn:68
 msgid "Placeholder text"
-msgstr ""
+msgstr "Testo tappabuchi"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
-msgstr ""
+msgstr "in"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
 msgid "FileName"
-msgstr ""
+msgstr "FileName"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
 msgid "at"
-msgstr ""
+msgstr "at"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:82
 msgid "0:0"
-msgstr ""
+msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
 msgid ""
 "Sometimes errors are reported outside of your code. Why does that happen?"
 msgstr ""
+"Certe volte gli errori sono segnalati al di fuori del tuo codice. Perché "
+"succede questo?"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
 msgid "Explain"
-msgstr ""
+msgstr "Spiega"
 
 #: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
-msgstr ""
+msgstr "Valore"
 
 #: ui/components/Revealer.tscn:74
 msgid "Expand"
-msgstr ""
+msgstr "Espandi"
 
 #: ui/components/RunnableCodeExample.tscn:96
 msgid "run()"
-msgstr ""
+msgstr "run()"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
 msgid "Confirm"
-msgstr ""
+msgstr "Conferma"
 
 #: ui/components/popups/ConfirmPopup.tscn:127
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
 msgid "Cancel"
-msgstr ""
+msgstr "Annulla"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:46
 msgid "Original error message"
-msgstr ""
+msgstr "Messaggio di errore originario"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:65
 msgid "Why this happens"
-msgstr ""
+msgstr "Perché succede questo"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
 msgid "How to fix this"
-msgstr ""
+msgstr "Come sistemarlo"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:91
 msgid "Our suggestion on how to fix it."
-msgstr ""
+msgstr "Il nostro suggerimento su come sistemarlo."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:102
 msgid ""
@@ -199,14 +204,22 @@ msgid ""
 "\n"
 "[center]Thank you![/center]"
 msgstr ""
+"Ci dispiace, non abbiamo ancora trattato questo particolare messaggio di "
+"errore!\n"
+"\n"
+"Per piacere, usa il bottone [b]Segnala[/b] nell'angolo in alto a destra per "
+"dirci di più su come l'hai ottenuto, così da poterlo implementare nella "
+"prossima versione dell'applicazione.\n"
+"\n"
+"[center]Grazie![/center]"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:128
 msgid "Hide"
-msgstr ""
+msgstr "Nascondi"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
 msgid "Where do external errors come from?"
-msgstr ""
+msgstr "Da dove arrivano gli errori esterni?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
 msgid ""
@@ -224,26 +237,44 @@ msgid ""
 "each individual error that you face. Quick, click the [b]Explain[/b] button "
 "next to the error message!"
 msgstr ""
+"Le lezioni di questo corso sono costruite in modo tale che hai solo bisogno "
+"di modificare le [b]parti importanti[/b].Ma c'è molto più codice nascosto "
+"alla tua vista che fa eseguire il progetto.\n"
+"\n"
+"Ciò significa che certe volte, i cambiamenti che fai possono incidere su "
+"parti del codice su cui tu non hai alcun controllo. Ma non ti preoccupare, "
+"puoi sistemare i problemi da te con il codice che tu [b]puoi[/b] modificare!"
+"\n"
+"\n"
+"[i]Così è un po' come pure i game engine funzionano.[/i] C'è un sacco di "
+"codice nascosto che viene eseguito in modo tale che il tuo codice venga "
+"eseguito senza intoppi. Eppure, un errore nei tuoi codici lo può bloccare. "
+"Cercheremo di spiegare come risolvere ogni singolo errore che incontri. "
+"Presto, clicca il bottone [b]Spiega[/b] vicino al messaggio di errore!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
-msgstr ""
+msgstr "Fatto!"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
-msgstr ""
+msgstr "Lezione completata!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
+"Ma ci sono ancora alcune pratiche\n"
+"che hai saltato."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]Rimani[/b] e rivisita il materiale da studiare,\n"
+"o [b]continua[/b] il corso.[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 #: ui/components/popups/PracticeDonePopup.tscn:144
