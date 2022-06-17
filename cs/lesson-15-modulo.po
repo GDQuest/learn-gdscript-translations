@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-06-13 17:18+0000\n"
+"PO-Revision-Date: 2022-06-16 09:17+0000\n"
 "Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-15-modulo/cs/>\n"
@@ -35,14 +35,24 @@ msgid ""
 "Play around with the modulo widget on the right to see how modulo works "
 "visually."
 msgstr ""
+"Operace modulo ([code]%[/code]) vypočítá zbytek po dělení celých čísel.\n"
+"\n"
+"Například modulo [code]5[/code] podle [code]3[/code] ([code]5 % 3[/code]) je "
+"[code]2[/code].\n"
+"\n"
+"Tuto operaci obvykle používáme k určení, zda je číslo sudé nebo liché, nebo "
+"k vytvoření náhodného čísla v určitém rozsahu (jako při hodu kostkou).\n"
+"\n"
+"Pohrajte si s widgetem modulo vpravo a podívejte se, jak modulo funguje "
+"vizuálně."
 
 #: course/lesson-15-modulo/lesson.tres:28
 msgid "What's the result of this modulo operation?"
-msgstr ""
+msgstr "Jaký je výsledek této modulo operace?"
 
 #: course/lesson-15-modulo/lesson.tres:29
 msgid "[code]11 % 4[/code]"
-msgstr ""
+msgstr "[code]11 % 4[/code]"
 
 #: course/lesson-15-modulo/lesson.tres:31
 msgid ""
@@ -51,11 +61,15 @@ msgid ""
 "\n"
 "So [code]11 % 4[/code] is [code]3[/code]."
 msgstr ""
+"[code]11[/code] děleno [code]4[/code] je [code]2[/code], a [b]zbytek[/b] "
+"dělení je [code]3[/code].\n"
+"\n"
+"Takže [code]11 % 4[/code] je [code]3[/code]."
 
 #: course/lesson-15-modulo/lesson.tres:34
 #: course/lesson-15-modulo/lesson.tres:35
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: course/lesson-15-modulo/lesson.tres:34
 msgid "2"
@@ -63,7 +77,7 @@ msgstr "2"
 
 #: course/lesson-15-modulo/lesson.tres:34
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #: course/lesson-15-modulo/lesson.tres:44
 msgid ""
@@ -74,10 +88,16 @@ msgid ""
 "\n"
 "All three examples below will cause an error in your code."
 msgstr ""
+"Operace modulo funguje pouze pro [b]celá čísla[/b]; nikoliv pro desetinná "
+"čísla.\n"
+"\n"
+"Stejně jako u běžného dělení ani zde nemůže být dělitel nula.\n"
+"\n"
+"Všechny tři níže uvedené příklady způsobí ve vašem kódu chybu."
 
 #: course/lesson-15-modulo/lesson.tres:66
 msgid "Three ways we use the modulo operation"
-msgstr ""
+msgstr "Tři způsoby použití operace modulo"
 
 #: course/lesson-15-modulo/lesson.tres:68
 msgid ""
@@ -86,6 +106,10 @@ msgid ""
 "\n"
 "Take a traffic light, for example."
 msgstr ""
+"Operace modulo má důležité využití v programování, například při vytváření "
+"číselného cyklu.\n"
+"\n"
+"Vezměme si například semafor."
 
 #: course/lesson-15-modulo/lesson.tres:90
 msgid ""
@@ -101,6 +125,16 @@ msgid ""
 "Instead, you could use a condition; In this case, we use the modulo as a "
 "shortcut."
 msgstr ""
+"Pro vyjádření aktuálního stavu semaforu použijeme číslo "
+"[code]light_index[/code].\n"
+"\n"
+"Semafory se vždy cyklicky střídají: nejprve máme červené světlo, pak žluté a "
+"nakonec zelené.\n"
+"\n"
+"Pro znázornění tohoto cyklu můžete k číslu pravidelně přičítat jedničku a "
+"pomocí operátoru modulo se vrátit zpět na [code]0[/code].\n"
+"\n"
+"Můžete použít podmínku; Ale když použijeme modulo, je to kratší a hezčí."
 
 #: course/lesson-15-modulo/lesson.tres:116
 msgid ""
@@ -112,10 +146,17 @@ msgid ""
 "We don't want to waste any number, and as the first number the computer "
 "knows about is [code]0[/code], we start counting from [code]0[/code]."
 msgstr ""
+"V počítačovém kódu velmi často počítáme od [code]0[/code].\n"
+"\n"
+"Každé číslo se ve stroji převede na přesnou kombinaci bitů, počínaje "
+"[code]0[/code].\n"
+"\n"
+"Nechceme plýtvat žádným číslem, a protože první číslo, které počítač zná, je "
+"[code]0[/code], začínáme počítat od [code]0[/code]."
 
 #: course/lesson-15-modulo/lesson.tres:128
 msgid "Using modulo to find even and odd numbers"
-msgstr ""
+msgstr "Použití modulo k nalezení sudých a lichých čísel"
 
 #: course/lesson-15-modulo/lesson.tres:130
 msgid ""
@@ -123,6 +164,9 @@ msgid ""
 "divide a number by [code]2[/code] and there's no remainder, then the "
 "number is [b]even[/b]."
 msgstr ""
+"Můžeme také použít modulo ke kontrole, zda je číslo sudé nebo liché. Pokud "
+"vydělíme číslo [code]2[/code] a nezůstane žádný zbytek, pak číslo je "
+"[b]sudé[/b]."
 
 #: course/lesson-15-modulo/lesson.tres:150
 msgid ""
@@ -134,10 +178,16 @@ msgid ""
 "Like with divisions, the only case you can't use modulo is with a divisor"
 " of [code]0[/code]."
 msgstr ""
+"Všimněte si, že modulo může být větší než číslo, které se dělí(dělenec). "
+"Například [code]1 % 2[/code] dává [code]1[/code]. To proto, že [code]1[/code]"
+" děleno [code]2[/code] je rovno [code]0[/code] a zbytek je [code]1[/code].\n"
+"\n"
+"Stejně jako u dělení, jediný případ, kdy nelze použít modulo, je dělitel "
+"[code]0[/code]."
 
 #: course/lesson-15-modulo/lesson.tres:170
 msgid "Calculating a random number within a range"
-msgstr ""
+msgstr "Výpočet náhodného čísla v určitém rozsahu"
 
 #: course/lesson-15-modulo/lesson.tres:172
 msgid ""
@@ -153,6 +203,16 @@ msgid ""
 "\n"
 "You can use the modulo operation to limit the random number's range."
 msgstr ""
+"Modulo můžeme použít k simulaci hodu kostkou. Za tímto účelem vygenerujeme "
+"velké náhodné číslo a pomocí operátoru modulo omezíme jeho rozsah.\n"
+"\n"
+"Chcete-li vygenerovat náhodné celé číslo, můžete zavolat funkci "
+"[code]randi()[/code]. Název je zkratkou pro náhodné celé číslo.\n"
+"\n"
+"Číslo, které funkce vygeneruje, může být obrovské: zhruba až 2 miliardy na "
+"zařízení se systémem Android a přibližně 10^18 na 64bitovém počítači.\n"
+"\n"
+"K omezení rozsahu náhodného čísla můžete použít operaci modulo."
 
 #: course/lesson-15-modulo/lesson.tres:198
 msgid ""
@@ -163,10 +223,16 @@ msgid ""
 "lights, add maximum health to the robot on every odd level, and learn how"
 " to code dice rolls."
 msgstr ""
+"Výsledek je také náhodný, protože používáme operaci modulo na náhodné číslo."
+"\n"
+"\n"
+"V následujících postupech budete používat modulo k posunu semaforů, přidání "
+"maximálního zdraví robotovi na všech lichých úrovních a naučíte se kódovat "
+"hody kostkami."
 
 #: course/lesson-15-modulo/lesson.tres:208
 msgid "Advancing Traffic Lights"
-msgstr ""
+msgstr "Postupující semafory"
 
 #: course/lesson-15-modulo/lesson.tres:209
 msgid ""
@@ -180,16 +246,25 @@ msgid ""
 "The value of [code]light_index[/code] should only ever be [code]0[/code],"
 " [code]1[/code], or [code]2[/code]."
 msgstr ""
+"Přidejte do funkce [code]advance_traffic_light()[/code], aby se proměnná "
+"[code]light_index[/code] zvýšila o jedničku a pak se vrátila zpět na "
+"[code]0[/code], pokud je příliš vysoká.\n"
+"\n"
+"Použijte operátor modulo [code]%[/code], abyste se ujistili, že se hodnota "
+"[code]light_index[/code] vrátí zpět na [code]0[/code].\n"
+"\n"
+"Hodnota [code]light_index[/code] by měla být vždy pouze [code]0[/code], "
+"[code]1[/code] nebo [code]2[/code]."
 
 #: course/lesson-15-modulo/lesson.tres:223
 msgid ""
 "Learn how to use modulo to wrap a number back to zero using traffic "
 "lights."
-msgstr ""
+msgstr "Naučte se používat modulo k vracení čísla zpět na nulu pomocí semaforů."
 
 #: course/lesson-15-modulo/lesson.tres:228
 msgid "Rolling Dice"
-msgstr ""
+msgstr "Házení kostkou"
 
 #: course/lesson-15-modulo/lesson.tres:229
 msgid ""
@@ -202,16 +277,26 @@ msgid ""
 "Using the [code]return[/code] keyword inside the function, return a "
 "random number between [code]1[/code] and [code]sides[/code]."
 msgstr ""
+"Naše funkce házení kostkou nefunguje! Nyní vždy udává výsledek, kolik stran "
+"má kostka: 20.\n"
+"\n"
+"Použijte [code]randi()[/code] pro vygenerování náhodného čísla a operaci "
+"modulo [code]%[/code].\n"
+"\n"
+"Pomocí klíčového slova [code]return[/code] uvnitř funkce vraťte náhodné "
+"číslo mezi [code]1[/code] a [code]sides[/code]."
 
 #: course/lesson-15-modulo/lesson.tres:243
 msgid ""
 "Whether in a board game or video game, getting a random number is always "
 "useful. Here, we create a function that simulates a dice roll."
 msgstr ""
+"Získání náhodného čísla je vždy užitečné, ať už se jedná o stolní hru nebo "
+"videohru. Zde vytvoříme funkci, která simuluje hod kostkou."
 
 #: course/lesson-15-modulo/lesson.tres:248
 msgid "Bonus Health Every Other Level"
-msgstr ""
+msgstr "Bonus zdraví na každé druhé úrovni"
 
 #: course/lesson-15-modulo/lesson.tres:249
 msgid ""
@@ -226,13 +311,25 @@ msgid ""
 " levels when you run the code. At level 4, the robot should have "
 "[code]125[/code] maximum health."
 msgstr ""
+"Změňte funkci [code]level_up()[/code] tak, aby provedla následující:\n"
+"\n"
+"1) Zvýší [code]level[/code] o [code]1[/code].\n"
+"2) Zvýší [code]max_health[/code] o [code]5[/code].\n"
+"3) Pokud je [code]level[/code] [b]sudý[/b], zvyš [code]max_health[/code] o "
+"dalších [code]5[/code].\n"
+"\n"
+"Robot začíná s maximálním zdravím [code]100[/code]. Po spuštění kódu získá "
+"tři úrovně. Na čtvrté úrovni by měl mít robot maximální zdraví "
+"[code]125[/code]."
 
 #: course/lesson-15-modulo/lesson.tres:265
 msgid ""
 "There are other ways to increase maximum health. You could use a modulo "
 "to give a bonus every even level. Learn how here!"
 msgstr ""
+"Existují i jiné způsoby, jak zvýšit maximální zdraví. Můžete použít modulo, "
+"abyste získali bonus na každé sudé úrovni. Jak na to, se dozvíte zde!"
 
 #: course/lesson-15-modulo/lesson.tres:269
 msgid "Modulo"
-msgstr ""
+msgstr "Modulo"

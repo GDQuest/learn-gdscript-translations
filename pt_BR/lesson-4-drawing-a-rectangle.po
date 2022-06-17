@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-12 17:58+0000\n"
-"Last-Translator: Alexandre Vinicius Gonçalves <alexandre.craneo@hotmail."
-"com>\n"
+"PO-Revision-Date: 2022-06-16 15:19+0000\n"
+"Last-Translator: Joel Gomes da Silva <joelgomes1994@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-4-drawing-a-rectangle/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:14
@@ -132,14 +131,12 @@ msgstr ""
 "primeiro, desenhar um ângulo de 90 graus e depois uma retângulo como esse."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
-#, fuzzy
 msgid "In the function call below, which part is the argument?"
-msgstr "Na definição de função abaixo, qual parte é o parâmetro da função?"
+msgstr "Na chamada de função abaixo, qual parte é o argumento?"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
-#, fuzzy
 msgid "[code]move_forward(30)[/code]"
-msgstr "[code]func move_forward(pixels)[/code]"
+msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:127
 msgid ""
@@ -152,6 +149,13 @@ msgid ""
 "This function call will make the turtle move forward by [code]30[/code] "
 "pixels."
 msgstr ""
+"Os argumentos de uma função são todos os valores dentro dos parênteses. "
+"Nesse caso, há apenas um, mas pode haver vários separados por vírgulas.\n"
+"\n"
+"Neste caso, [code]move_forward[/code] é o nome da função e [code]30[/code] é "
+"o argumento.\n"
+"\n"
+"Esta chamada de função fará a tartaruga avançar em [code]30[/code] pixels."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 msgid "move_forward"
@@ -160,7 +164,7 @@ msgstr "move_forward"
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:133
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:140
 msgid "Drawing a Corner"

@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-16 09:17+0000\n"
+"Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-18-for-loops/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
@@ -27,6 +30,13 @@ msgid ""
 "\n"
 "The loop below never ends because we never increment [code]number[/code]."
 msgstr ""
+"V minulé lekci jsme se zabývali cykly [code]while[/code]. Zjistili jsme, že "
+"jsou užitečné, pokud nevíme, kolikrát máme kód opakovat.\n"
+"\n"
+"Mohou však vést k nekonečným smyčkám, pokud si nedáme pozor.\n"
+"\n"
+"Níže uvedená smyčka nikdy neskončí, protože nikdy neinkrementujeme "
+"[code]number[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:38
 msgid ""
@@ -44,14 +54,27 @@ msgid ""
 "\n"
 "The loop below will change the [code]cell[/code] three times."
 msgstr ""
+"Existuje bezpečnější a často jednodušší druh smyčky: [code]for[/code].\n"
+"\n"
+"V této lekci se na ni podíváme.\n"
+"\n"
+"Na rozdíl od smyček [code]while[/code] neběží smyčky [code]for[/code] do "
+"nekonečna, takže je mnohem méně pravděpodobné, že se ve hře objeví chyby. [b]"
+"Doporučujeme upřednostňovat smyčky for před smyčkami while právě z tohoto "
+"důvodu[/b].\n"
+"\n"
+"Změňme výše uvedený kód tak, aby místo něj používal smyčku [code]for[/code]."
+"\n"
+"\n"
+"Níže uvedená smyčka změní [code]cell[/code] třikrát."
 
 #: course/lesson-18-for-loops/lesson.tres:66
 msgid "Let's explain what's going on here."
-msgstr ""
+msgstr "Pojďme si vysvětlit, co se tu děje."
 
 #: course/lesson-18-for-loops/lesson.tres:74
 msgid "The range() function"
-msgstr ""
+msgstr "Funkce range()."
 
 #: course/lesson-18-for-loops/lesson.tres:76
 msgid ""
@@ -63,14 +86,20 @@ msgid ""
 "2][/code], and [code]range(5)[/code] outputs [code][0, 1, 2, 3, "
 "4][/code]."
 msgstr ""
+"Godot má pomocnou funkci [code]range()[/code]. Zavoláním "
+"[code]range(n)[/code] se vytvoří seznam čísel od [code]0[/code] do [code]n - "
+"1[/code].\n"
+"\n"
+"Takže volání [code]range(3)[/code] vypíše seznam čísel [code][0, 1, 2][/code]"
+" a [code]range(5)[/code] vypíše [code][0, 1, 2, 3, 4][/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:86
 msgid "What list of numbers would range(6) create?"
-msgstr ""
+msgstr "Jaký seznam čísel by vytvořila funkce range(6)?"
 
 #: course/lesson-18-for-loops/lesson.tres:87
 msgid "What would [code]print(range(6))[/code] print to the console?"
-msgstr ""
+msgstr "Co by [code]print(range(6))[/code] vypsal do konzoly?"
 
 #: course/lesson-18-for-loops/lesson.tres:89
 msgid ""
@@ -81,23 +110,29 @@ msgid ""
 "So calling [code]range(6)[/code] will output a list of six numbers which "
 "are [code][0, 1, 2, 3, 4, 5][/code].\n"
 msgstr ""
+"Funkce [code]range(n)[/code] vytvoří seznam čísel od [code]0[/code] do [code]"
+"n - 1[/code]. Výstupní seznam bude začínat [code]0[/code] a končit "
+"[code]5[/code].\n"
+"\n"
+"Voláním [code]range(6)[/code] se tedy vypíše seznam šesti čísel, která jsou "
+"[code][0, 1, 2, 3, 4, 5][/code].\n"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 #: course/lesson-18-for-loops/lesson.tres:94
 msgid "[0, 1, 2, 3, 4, 5]"
-msgstr ""
+msgstr "[0, 1, 2, 3, 4, 5]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 msgid "[1, 2, 3, 4, 5, 6]"
-msgstr ""
+msgstr "[1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 msgid "[0, 1, 2, 3, 4, 5, 6]"
-msgstr ""
+msgstr "[0, 1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:101
 msgid "How for loops work"
-msgstr ""
+msgstr "Jak fungují smyčky for"
 
 #: course/lesson-18-for-loops/lesson.tres:103
 msgid ""
@@ -105,6 +140,9 @@ msgid ""
 "stores it in a temporary variable, and executes the code in the loop once"
 " per value."
 msgstr ""
+"Ve smyčce [code]for[/code] počítač vezme každou hodnotu uvnitř seznamu, "
+"uloží ji do dočasné proměnné a jednou za každou hodnotu provede kód ve "
+"smyčce."
 
 #: course/lesson-18-for-loops/lesson.tres:123
 msgid ""
@@ -118,22 +156,34 @@ msgid ""
 "We can put whatever code we like in the loop's code block, including "
 "other function calls like [code]draw_rectangle()[/code]."
 msgstr ""
+"Ve výše uvedeném příkladu Godot pro každou položku seznamu [code][0, 1, "
+"2][/code] nastaví [code]number[/code] na položku a poté provede kód ve "
+"smyčce [code]for[/code].\n"
+"\n"
+"V tomto příkladu vypisujeme hodnotu [code]number[/code], jak Godot prochází "
+"smyčkou.\n"
+"\n"
+"Do bloku kódu smyčky můžeme vložit libovolný kód, včetně volání dalších "
+"funkcí, například [code]draw_rectangle()[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:135
 msgid "Using a for loop instead of a while loop"
-msgstr ""
+msgstr "Použití cyklu for místo cyklu while"
 
 #: course/lesson-18-for-loops/lesson.tres:137
 msgid ""
 "Here's our old [code]move_to_end()[/code] function which used in a "
 "[code]while[/code] loop."
 msgstr ""
+"Zde je naše stará funkce [code]move_to_end()[/code], která se používala ve "
+"smyčce [code]while [/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:157
 msgid ""
 "If we use a [code]for[/code] loop instead, the code becomes a little "
 "simpler."
 msgstr ""
+"Pokud místo toho použijeme smyčku [code]for[/code], kód se trochu zjednoduší."
 
 #: course/lesson-18-for-loops/lesson.tres:177
 msgid ""
@@ -143,16 +193,23 @@ msgid ""
 "\n"
 "The function still works the same. You can execute it below."
 msgstr ""
+"Namísto neustálé kontroly, zda robot dosáhl konce hrací plochy, pomocí "
+"smyčky [code]for[/code] předem vezmeme šířku desky a poté robotem pohybujeme "
+"stanovený počet opakování.\n"
+"\n"
+"Funkce funguje stále stejně. Můžete ji spustit níže."
 
 #: course/lesson-18-for-loops/lesson.tres:199
 msgid ""
 "In the practices, we'll use [code]for[/code] loops in different ways to "
 "get you used to using them."
 msgstr ""
+"V cvičeních budeme používat [code]for[/code] cykly různými způsoby, abyste "
+"si na jejich používání zvykli."
 
 #: course/lesson-18-for-loops/lesson.tres:207
 msgid "Using a for loop to move to the end of the board"
-msgstr ""
+msgstr "Použití smyčky for k přesunu na konec desky"
 
 #: course/lesson-18-for-loops/lesson.tres:208
 msgid ""
@@ -167,16 +224,26 @@ msgid ""
 "\n"
 "The robot's starting cell is [code]Vector2(2, 0)[/code]."
 msgstr ""
+"Robot se opět rozhodl postavit na vrchol šachovnice.\n"
+"\n"
+"Tentokrát použijte cyklus [code]for[/code] ve funkci "
+"[code]move_to_bottom()[/code], aby se přesunul na spodní část desky.\n"
+"\n"
+"Velikost desky je určena hodnotou typu [code]Vector2[/code] v proměnné "
+"[code]board_size[/code].\n"
+"\n"
+"Počáteční buňka robota je [code]Vector2(2, 0)[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:224
 msgid ""
 "Use a for loop to have our robot move from the top of the board to the "
 "bottom."
 msgstr ""
+"Použijte smyčku for, aby se náš robot pohyboval z horní části desky do dolní."
 
 #: course/lesson-18-for-loops/lesson.tres:229
 msgid "Improving code with a for loop"
-msgstr ""
+msgstr "Vylepšení kódu pomocí smyčky for"
 
 #: course/lesson-18-for-loops/lesson.tres:230
 msgid ""
@@ -191,13 +258,25 @@ msgid ""
 "The turtle should draw three squares in a horizontal line. The squares "
 "should be 100 pixels apart."
 msgstr ""
+"Pomocí smyčky [code]for[/code] odstraňte duplicitní kód ve funkci "
+"[code]run()[/code].\n"
+"\n"
+"V tomto cvičení se vrátíme k želvě a kreslení obdélníků.\n"
+"\n"
+"Díky novým znalostem o cyklech [code]for[/code] můžeme tento kód zestručnit, "
+"aby zabíral méně místa a dal se snadněji upravovat.\n"
+"\n"
+"Želva by měla nakreslit tři čtverce ve vodorovné linii. Čtverce by měly být "
+"od sebe vzdáleny 100 pixelů."
 
 #: course/lesson-18-for-loops/lesson.tres:253
 msgid ""
 "In the past we had to copy and paste code to draw multiple rectangles. "
 "Let's revisit previous code and improve it with a for loop."
 msgstr ""
+"Dříve jsme museli kopírovat a vkládat kód, abychom nakreslili více "
+"obdélníků. Vraťme se k předchozímu kódu a vylepšeme ho pomocí smyčky for."
 
 #: course/lesson-18-for-loops/lesson.tres:257
 msgid "Introduction to For Loops"
-msgstr ""
+msgstr "Úvod do smyček For"

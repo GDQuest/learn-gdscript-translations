@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-06-13 17:18+0000\n"
+"PO-Revision-Date: 2022-06-16 15:17+0000\n"
 "Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-21-strings/cs/>\n"
@@ -31,10 +31,17 @@ msgid ""
 "Strings are instrumental in games and applications. We use them to display "
 "information such as the description of a spell or the name of a character."
 msgstr ""
+"V tomto kurzu jsme většinou ukládali do proměnných čísla. Ale co kdybychom "
+"chtěli uložit jméno hráče?\n"
+"\n"
+"Zde nám pomohou řetězce(string).\n"
+"\n"
+"Řetězce jsou ve hrách a aplikacích velmi důležité. Používáme je k zobrazení "
+"informací, jako je popis kouzla nebo jméno postavy."
 
 #: course/lesson-21-strings/lesson.tres:36
 msgid "What are strings"
-msgstr ""
+msgstr "Co jsou to řetězce(string)"
 
 #: course/lesson-21-strings/lesson.tres:38
 msgid ""
@@ -47,6 +54,14 @@ msgid ""
 "\n"
 "You may remember we've used strings before in previous lessons."
 msgstr ""
+"[code]String[/code] je typ hodnoty, který obsahuje text. Chcete-li vytvořit "
+"[code]String[/code], napíšete text zabalený do uvozovek ([code]\"\"[/code]). "
+"Například: [code]\"Toto je textový řetězec.\"[/code]\n"
+"\n"
+"Uvozovky odlišují řetězce od jiných typů hodnot a názvů funkcí.\n"
+"\n"
+"Možná si pamatujete, že jsme již dříve v předchozích lekcích používali "
+"řetězce."
 
 #: course/lesson-21-strings/lesson.tres:62
 msgid ""
@@ -54,10 +69,13 @@ msgid ""
 "[code]for[/code] loop to loop through the characters of a [code]String[/"
 "code] as we would with any other array."
 msgstr ""
+"Pod kapotou jsou řetězce pole znaků. Ve skutečnosti můžeme použít smyčku "
+"[code]for[/code] k procházení znaků [code]String[/code] stejně jako u "
+"jakéhokoli jiného pole."
 
 #: course/lesson-21-strings/lesson.tres:80
 msgid "Which of these are strings?"
-msgstr ""
+msgstr "Které z hodnot jsou řetězce?"
 
 #: course/lesson-21-strings/lesson.tres:83
 msgid ""
@@ -68,6 +86,12 @@ msgid ""
 "\n"
 "[code]\"name\"[/code] is made up of four different characters."
 msgstr ""
+"[code]\"1\"[/code] a [code]\"name\"[/code] jsou řetězce.\n"
+"\n"
+"[code]\"1\"[/code] obsahuje pouze znak a [i]nepředstavuje[/i] číslo "
+"[code]1[/code].\n"
+"\n"
+"[code]\"jméno\"[/code] se skládá ze čtyř různých znaků."
 
 #: course/lesson-21-strings/lesson.tres:88
 msgid "1"
@@ -76,16 +100,16 @@ msgstr "1"
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"1\""
-msgstr ""
+msgstr "\"1\""
 
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"name\""
-msgstr ""
+msgstr "\"name\""
 
 #: course/lesson-21-strings/lesson.tres:96
 msgid "Why we use strings"
-msgstr ""
+msgstr "Proč používáme řetězce"
 
 #: course/lesson-21-strings/lesson.tres:118
 msgid ""
@@ -100,16 +124,28 @@ msgid ""
 "animations. In this example, the [code]play_animation()[/code] plays a "
 "specific animation."
 msgstr ""
+"Každý text, který v této aplikaci vidíte, je řetězec, který pro nás Godot "
+"zobrazuje.\n"
+"\n"
+"Podobně jako proměnné [code]Vector2[/code] usnadňují výpočty, tak i proměnné "
+"[code]string[/code] obsahují mnoho pomocných funkcí a triků, které můžeme "
+"použít.\n"
+"\n"
+"K ukládání řetězců můžeme používat i pole. To je užitečné pro řetězení "
+"animací. V tomto příkladu [code]play_animation()[/code] přehraje konkrétní "
+"animaci."
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
 "In the next few practices, we'll use strings in combination with different "
 "concepts from earlier lessons."
 msgstr ""
+"V několika následujících cvičeních budeme používat řetězce v kombinaci s "
+"různými koncepty z předchozích lekcí."
 
 #: course/lesson-21-strings/lesson.tres:150
 msgid "Creating string variables"
-msgstr ""
+msgstr "Vytváření string proměnných"
 
 #: course/lesson-21-strings/lesson.tres:151
 msgid ""
@@ -119,14 +155,18 @@ msgid ""
 "Change the [code]robot_name[/code] variable so that it's a string instead. "
 "You can give it any name you'd like."
 msgstr ""
+"V současné době má robot číslo uložené v proměnné [code]robot_name[/code]. \n"
+"\n"
+"Změňte proměnnou [code]robot_name[/code] tak, aby se místo toho jednalo o "
+"řetězec. Můžete mu dát libovolné jméno, které chcete."
 
 #: course/lesson-21-strings/lesson.tres:163
 msgid "Give the robot a readable name using a string stored in a variable."
-msgstr ""
+msgstr "Dejte robotovi čitelné jméno pomocí řetězce uloženého v proměnné."
 
 #: course/lesson-21-strings/lesson.tres:168
 msgid "Using an array of strings to play a combo"
-msgstr ""
+msgstr "Použití pole řetězců k přehrávání komba"
 
 #: course/lesson-21-strings/lesson.tres:169
 msgid ""
@@ -146,11 +186,26 @@ msgid ""
 "The robot should do the following actions in order: [code]jab, jab, "
 "uppercut[/code]."
 msgstr ""
+"V tomto cvičení budeme řetězit animace pomocí pole řetězců. S takovými "
+"kombinacemi se můžete setkat v bojových hrách.\n"
+"\n"
+"Robot má následující názvy animací:\n"
+"\n"
+"- [code]jab[/code] (robot provede rychlý úder).\n"
+"- [code]uppercut[/code] (robot použije silný úder ve výskoku)\n"
+"\n"
+"Naplňte pole combo názvy animací jako řetězce.\n"
+"\n"
+"Pak pro každou akci v poli zavolejte funkci [code]play_animation()[/code], "
+"aby se přehrála.\n"
+"\n"
+"Robot by měl provést následující akce v následujícím pořadí: [code]jab, jab, "
+"uppercut[/code]."
 
 #: course/lesson-21-strings/lesson.tres:190
 msgid "Define an array of strings to unleash a powerful combo."
-msgstr ""
+msgstr "Definujte pole řetězců, abyste mohli spustit silné kombo."
 
 #: course/lesson-21-strings/lesson.tres:194
 msgid "Strings"
-msgstr ""
+msgstr "Řetězce"
