@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-18 13:18+0000\n"
+"Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-25-creating-dictionaries/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:14
@@ -38,10 +41,27 @@ msgid ""
 "To define a dictionary, we use curly brackets. A colon separates each key"
 " and its value. A comma separates each key and value pair."
 msgstr ""
+"V minulé lekci jsme použili pole k reprezentaci inventáře hráče.\n"
+"\n"
+"S pouhým polem názvů položek však nemůžeme snadno sledovat množství "
+"jednotlivých položek.\n"
+"\n"
+"Avšak můžeme názvy položek a jejich množství spojit do jednoho [i]slovníku "
+"(dictionary) [/i].\n"
+"\n"
+"Slovník je datová struktura, která umožňuje mapovat dvojice hodnot. V této "
+"dvojici nazýváme první hodnotu [i]klíč[/i], protože ji používáme pro přístup "
+"k druhé hodnotě.\n"
+"\n"
+"Jinými slovy, slovník má seznam [i]klíčů[/i] a každý klíč ukazuje na "
+"[i]hodnotu[/i].\n"
+"\n"
+"Pro definici slovníku používáme složené závorky - {}. Dvojtečka odděluje "
+"každý klíč a jeho hodnotu. Čárka odděluje každou dvojici klíče a hodnoty."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:42
 msgid "Dictionaries can hold any values"
-msgstr ""
+msgstr "Slovníky mohou obsahovat libovolné hodnoty"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:44
 msgid ""
@@ -51,6 +71,10 @@ msgid ""
 "the corresponding value. This makes dictionaries excellent for keeping "
 "track of a player's inventory."
 msgstr ""
+"Slovníky mohou mapovat jakoukoli hodnotu na jakoukoli jinou hodnotu.\n"
+"\n"
+"Jako klíč můžeme například použít název položky a jako odpovídající hodnotu "
+"částku. Díky tomu jsou slovníky vynikající pro sledování inventáře hráče."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:66
 msgid ""
@@ -61,14 +85,20 @@ msgid ""
 " key has to be [i]unique[/i]. That means we [i]couldn't[/i] have a "
 "dictionary like the following."
 msgstr ""
+"Zde jsme přiřadili název (řetězec) k částce (číslo). Klíčem však může být "
+"řetězec, číslo nebo dokonce vektor!\n"
+"\n"
+"Ačkoli můžeme mít všechny tyto různé klíče, mějte na paměti, že každý klíč "
+"musí být [i]jedinečný[/i]. To znamená, že bychom [i]nemohli mít[/i] slovník, "
+"jako je následující."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:88
 msgid "We would get the following error."
-msgstr ""
+msgstr "Objevila by se následující chyba."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:106
 msgid "In the above example, which key would cause an error?"
-msgstr ""
+msgstr "Který klíč by ve výše uvedeném příkladu způsobil chybu?"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:109
 msgid ""
@@ -79,23 +109,28 @@ msgid ""
 "[code]3[/code] or [code]8[/code] when using [code]inventory[\"healing "
 "heart\"][/code]. This is why keys need to be unique."
 msgstr ""
+"Klíč [code]\"healing heart\"[/code] se ve slovníku objevuje [b]dvakrát[/b].\n"
+"\n"
+"Ve výše uvedeném příkladu by Godot nevěděl, zda má vrátit [code]3[/code] "
+"nebo [code]8[/code] při použití [code]inventory[\"healing heart\"][/code]. "
+"Proto musí být klíče jedinečné."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 #: course/lesson-25-creating-dictionaries/lesson.tres:113
 msgid "\"healing heart\""
-msgstr ""
+msgstr "\"healing heart\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 msgid "\"shield\""
-msgstr ""
+msgstr "\"shield\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 msgid "\"sword\""
-msgstr ""
+msgstr "\"sword\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:120
 msgid "How dictionaries work under the hood"
-msgstr ""
+msgstr "Jak fungují slovníky uvnitř"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:122
 msgid ""
@@ -116,20 +151,37 @@ msgid ""
 "That's also why you can't have the same key twice: it would map to the "
 "same array index, causing you to overwrite an existing value."
 msgstr ""
+"Slovníky se také nazývají mapování nebo [i]asociativní pole[/i]. Uvnitř "
+"používají pole a několik funkcí k efektivnímu ukládání a načítání hodnot "
+"napříč poli.\n"
+"\n"
+"Přesněji řečeno, slovníky používají [i]hashovací algoritmus[/i]. Hashovací "
+"algoritmy převádějí jednu hodnotu na jinou.\n"
+"\n"
+"V tomto případě hashování spočívá v převodu daného klíče na jedinečné celé "
+"číslo. Slovník pak toto číslo použije jako index pole!\n"
+"\n"
+"Slovník funguje takto: když mu dáte klíč, převede jej na jedinečný index a "
+"použije tento index k načtení odpovídající hodnoty v paměti počítače.\n"
+"\n"
+"To je také důvod, proč nemůžete mít stejný klíč dvakrát: mapoval by se na "
+"stejný index pole, což by způsobilo přepsání existující hodnoty."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:138
 msgid "Accessing values"
-msgstr ""
+msgstr "Přístup k hodnotám"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:140
 msgid ""
 "We access the value of keys by writing the dictionary name, with the key "
 "in between square brackets."
 msgstr ""
+"K hodnotě klíčů přistupujeme tak, že zapíšeme název slovníku a klíč vložíme "
+"do hranatých závorek."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:168
 msgid "How would you access how many gems the player has?"
-msgstr ""
+msgstr "Jak se dostanete k tomu, kolik drahokamů hráč má?"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:171
 msgid ""
@@ -138,39 +190,46 @@ msgid ""
 "\n"
 "In our case, [code]var item_count = inventory[\"gems\"][/code] is correct."
 msgstr ""
+"Musíme se ujistit, že klíč je stejný, jako jsme ho definovali ve slovníku.\n"
+"\n"
+"V našem případě je [code]var item_count = inventory[\"gems\"][/code] správné."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 msgid "var item_count = inventory[\"gem\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"gem\"]"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 #: course/lesson-25-creating-dictionaries/lesson.tres:175
 msgid "var item_count = inventory[\"gems\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"gems\"]"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 msgid "var item_count = inventory[\"sword\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"sword\"]"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:182
 msgid "Changing values"
-msgstr ""
+msgstr "Změna hodnot"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:184
 msgid ""
 "We can also change values directly, which is useful in our case for "
 "adding or removing items from the player's inventory."
 msgstr ""
+"Hodnoty můžeme měnit také přímo, což je v našem případě užitečné pro "
+"přidávání nebo odebírání předmětů z inventáře hráče."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:214
 msgid ""
 "In the following practices, we'll use a dictionary to create a player "
 "inventory and create a function to change the value of items."
 msgstr ""
+"V následujících postupech použijeme slovník pro vytvoření inventáře hráče a "
+"vytvoříme funkci pro změnu hodnoty položek."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:222
 msgid "Creating an inventory using a dictionary"
-msgstr ""
+msgstr "Vytvoření inventáře pomocí slovníku"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:223
 msgid ""
@@ -188,16 +247,31 @@ msgid ""
 "\n"
 "The keys should be text strings, and the values whole numbers."
 msgstr ""
+"Dejme hráči nějaké předměty.\n"
+"\n"
+"Pro inventář hráče používáme slovník. Definovali jsme pro vás proměnnou "
+"[code]inventory[/code], ale zatím neobsahuje žádné položky.\n"
+"\n"
+"Dejte hráči následující položky přidáním správných kláves a hodnot do "
+"slovníku:\n"
+"\n"
+"- Tři \"léčivé srdce\" - \"healing heart\".\n"
+"- Devět \"drahokamů\" - \"gems\".\n"
+"- Jeden \"meč\" - \"sword\".\n"
+"\n"
+"Klíče by měly být textové řetězce a hodnoty celá čísla."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:244
 msgid ""
 "Collecting items is fun, but we need a good way to store them. Write a "
 "dictionary to display the player's items."
 msgstr ""
+"Sbírání předmětů je zábava, ale potřebujeme dobrý způsob, jak je uložit. "
+"Napište slovník pro zobrazení hráčových předmětů."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:249
 msgid "Increasing item counts"
-msgstr ""
+msgstr "Zvyšování počtu položek"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:250
 msgid ""

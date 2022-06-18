@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-06-14 18:18+0000\n"
+"PO-Revision-Date: 2022-06-17 07:13+0000\n"
 "Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-5-your-first-function/hu/>\n"
@@ -107,6 +107,12 @@ msgid ""
 "You could write another function that calls [code]move_and_rotate()[/code] "
 "four times to draw a square of length 200 pixels."
 msgstr ""
+"A [code]move_and_rotate()[/code] függvény két utasításból áll, mindegyik új "
+"sorban. Ez a 2 utasítás, már ismerős függvényeket hív.\n"
+"\n"
+"Írhatsz egy újabb függvényt, ami négyszer hívja "
+"[code]move_and_rotate()[/code] függvényt, hogy egy 200 pixel oldalhosszúságú "
+"négyzetet rajzoljon."
 
 #: course/lesson-5-your-first-function/lesson.tres:100
 msgid ""
@@ -122,10 +128,21 @@ msgid ""
 "\n"
 "[i]Drag the slider to change the square's size.[/i]"
 msgstr ""
+"Minden alkalommal, amikor hívjuk a [code]move_and_rotate()[/code] függvényt, "
+"a benne lévő [code]move_forward(200)[/code] és [code]turn_right(90)[/code] "
+"is hívódik ebben a sorrendben.\n"
+"\n"
+"Ebben a pééldában talán nem tűnik nagyon hasznosnak. Itt egy hasznosabb és "
+"valóságosabb példa: egy függvény, ami egy négyzetet rajzol.\n"
+"\n"
+"A következő függvény [i]paramétereket[/i] használ, amiket a következő "
+"leckében vizsgálunk majd meg.\n"
+"\n"
+"[i]Mozgasd a csúszkát, hgy változtasd a négyzet méretét.[/i]"
 
 #: course/lesson-5-your-first-function/lesson.tres:124
 msgid "How to define your own functions"
-msgstr ""
+msgstr "Így deklaráld a saját függvényeid"
 
 #: course/lesson-5-your-first-function/lesson.tres:126
 msgid ""
@@ -134,6 +151,10 @@ msgid ""
 "A function definition starts with the [code]func[/code] keyword followed by "
 "a space, the function's name, parentheses, and a colon."
 msgstr ""
+"Nézzük meg, hogy deklarálhatod a saját függvényeid.\n"
+"\n"
+"A függvény deklaráció a [code]func[/code] kulcsszóval kezdődik, majd egy "
+"szőköz következik, ezután a függvény neve, zárójelek és végül egy kettőspont."
 
 #: course/lesson-5-your-first-function/lesson.tres:148
 msgid ""
@@ -144,10 +165,16 @@ msgid ""
 "We call those leading tabs [i]indents[/i]. They're important: the computer "
 "uses them to know which instructions are part of the same code block."
 msgstr ""
+"A függvényben lévő utasításoknak egy tab karkterrel [b]kell[/b] kezdődniük. "
+"Ezt a karaktert a [b]Tab[/b] billentyű lenyomásával illesztheted be.\n"
+"\n"
+"Ezeket a kezdő tab karaktereket [i]indentációnak[/i] hívjuk. Fontos szerepük "
+"van: a számítógép arra használja őket, hogy tudja, mely utasítások tartoznak "
+"az adott kódblokkhoz."
 
 #: course/lesson-5-your-first-function/lesson.tres:158
 msgid "Why do we use functions?"
-msgstr ""
+msgstr "Miért használunk függvényeket?"
 
 #: course/lesson-5-your-first-function/lesson.tres:161
 msgid ""
@@ -157,25 +184,30 @@ msgid ""
 "Because we give functions a name, they also allow us to name a set of "
 "instructions, which is handy!"
 msgstr ""
+"A függvények utasítások csoportjai, amelyeket újr felhasználunk, ahányszor "
+"csak hívjuk a függvényt.\n"
+"\n"
+"Mivel a a függvényeket eknevezzük, így a utasítások egy csoportját is el "
+"tudjuk nevezni, ami hasznos!"
 
 #: course/lesson-5-your-first-function/lesson.tres:164
 #: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To reuse code multiple times. "
-msgstr ""
+msgstr "Hogy többször felhasználhassuk a kódot. "
 
 #: course/lesson-5-your-first-function/lesson.tres:164
 #: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To run multiple instructions in one go."
-msgstr ""
+msgstr "Hogy egyszerre több utasítást is végrehajthassunk."
 
 #: course/lesson-5-your-first-function/lesson.tres:164
 #: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To put a name on multiple lines of code."
-msgstr ""
+msgstr "Hogy elnevezhessünk több sornyi kódot."
 
 #: course/lesson-5-your-first-function/lesson.tres:172
 msgid "Names in code have rules"
-msgstr ""
+msgstr "Az elnevezések a kódban szabályhoz kötöttek"
 
 #: course/lesson-5-your-first-function/lesson.tres:174
 msgid ""
@@ -200,14 +232,34 @@ msgid ""
 "[i]can't[/i] begin with a number, but you can use numbers after the first "
 "character."
 msgstr ""
+"A függvény azonosítók nem tartalmazhatnak szóközt. Általánosságban, az "
+"elnevezések a programozásban nem tartalmazhatnak szóközt.\n"
+"\n"
+"A számítógép arra használja a szóközöket, hogy el tudja választani egymástól "
+"a különböző kulcsszavakat és azonosítókat.\n"
+"\n"
+"Szóköz helyett, GDScriptben, aláhúzásjelet használunk (\"_\"). Ezt már "
+"korábban is láttad a [code]move_forward()[/code] vagy a "
+"[code]move_local_x()[/code] függvényeknél. Ezt a jelölésrendszert használjuk "
+"GDScriptben.\n"
+"\n"
+"Más nyelvekben a programozók másféle jelölést használnak.\n"
+"\n"
+"Aláhúzásjel helyett, az első szó kivételével, mindet nagybetűvel kezdik. "
+"Ezzel a jelölésrendszerrel, így [code]moveForward()[/code] vagy így "
+"[code]moveLocalX()[/code] írnád a függvények neveit.\n"
+"\n"
+"Ezenkívül, az azonosítóknak betűvel vagy aláhúzásjellel [i]kell[/i] "
+"kezdődniük; [i]Nem[/i] kezdhetsz számmal, de az első karakter után bárhol "
+"állhat szám."
 
 #: course/lesson-5-your-first-function/lesson.tres:192
 msgid "Which of the following names are valid function names?"
-msgstr ""
+msgstr "Az alábbiak közül mely függvénynevek érvényesek?"
 
 #: course/lesson-5-your-first-function/lesson.tres:193
 msgid "Note that it's fine to use capital letters."
-msgstr ""
+msgstr "Emlékezz, hogy nyugodtan használhatsz nagybetűket."
 
 #: course/lesson-5-your-first-function/lesson.tres:195
 msgid ""
@@ -220,20 +272,28 @@ msgid ""
 "However, having numbers elsewhere in a function name is fine. That's why "
 "[code]make3NewCharacters[/code] works."
 msgstr ""
+"Nem adhatod egy függvénynek a [code]move forward[/code] nevet, mert szóközt "
+"tartalmaz. A kódban az elnevzések nem tartalmazhatnak szóközt.\n"
+"\n"
+"Számokkal sem kezdődhetnek, ezért érvénytelen a [code]45_degree_turn[/code] "
+"is.\n"
+"\n"
+"Azonban, ha a névben máshol szerepel szám, az nem probléma. Ezért működik a "
+"[code]make3NewCharacters[/code]."
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 msgid "move forward"
-msgstr ""
+msgstr "move forward"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 #: course/lesson-5-your-first-function/lesson.tres:201
 msgid "jump"
-msgstr ""
+msgstr "jump"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 #: course/lesson-5-your-first-function/lesson.tres:201
 msgid "make3NewCharacters"
-msgstr ""
+msgstr "make3NewCharacters"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 #: course/lesson-5-your-first-function/lesson.tres:201
@@ -242,11 +302,11 @@ msgstr "move_forward"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 msgid "45_degree_turn"
-msgstr ""
+msgstr "45_degree_turn"
 
 #: course/lesson-5-your-first-function/lesson.tres:208
 msgid "Instantly moving the turtle to a different position"
-msgstr ""
+msgstr "A teknős azonnali új helyre mozdítása"
 
 #: course/lesson-5-your-first-function/lesson.tres:210
 msgid ""
@@ -259,10 +319,19 @@ msgid ""
 "So calling [code]jump(-100, 50)[/code] moves the turtle by 100 pixels to the "
 "[b]left[/b] and 50 pixels [b]down[/b] without drawing any lines."
 msgstr ""
+"Ahhoz, hogy több négyzetet is rajzolhassunk, különböző helyekre, bevezetünk "
+"a teknősünk számára egy új függvényt.\n"
+"\n"
+"A [code]jump()[/code] függvény felemli a teknőst, és a megadott értékkel "
+"elmozdítja a jelenlegi helyétől.\n"
+"\n"
+"Tehát a [code]jump(-100, 50)[/code] hívása 100 pixellel [b]balra[/b] és 50 "
+"pixellel [b]lefelé[/b] mozdítja el a teknősünket, anélkül, hogy vonalat "
+"húzna."
 
 #: course/lesson-5-your-first-function/lesson.tres:232
 msgid "A function to draw squares"
-msgstr ""
+msgstr "Egy négyzet rajzoló függvény"
 
 #: course/lesson-5-your-first-function/lesson.tres:233
 msgid ""
@@ -275,16 +344,27 @@ msgid ""
 "In the following practice, you'll use the [code]draw_square()[/code] "
 "function to draw multiple squares by calling your own function."
 msgstr ""
+"Írj egy [code]draw_square()[/code] nevű függvényt, ami egy 200 pixel "
+"oldalhosszúságú négyzetet rajzol. A függvény ne kérjen paramétereket.\n"
+"\n"
+"Használd a [code]move_forward()[/code] és a [code]turn_right()[/code] "
+"függvényeket a teknős irányítására.\n"
+"\n"
+"A következő gyakorlatban, a [code]draw_square()[/code] nevű függvényt fogod "
+"használni, hogy négyzeteket rajzolj a saját függvényed hívásával."
 
 #: course/lesson-5-your-first-function/lesson.tres:246
 msgid ""
 "Until now, you've had to write code by hand, and it's boring. It's time to "
 "code a reusable function. You'll use it to draw multiple squares."
 msgstr ""
+"Eddig minden kódot magadnak kellett megírnod, ami unalmas. Itt az ideje, "
+"hogy készítsünk egy újrafelhasználható függvényt. Ezzel fogsz négyzeteket "
+"rajzolni."
 
 #: course/lesson-5-your-first-function/lesson.tres:251
 msgid "Drawing multiple squares"
-msgstr ""
+msgstr "Több négyzet rajzolása"
 
 #: course/lesson-5-your-first-function/lesson.tres:252
 msgid ""
@@ -302,13 +382,28 @@ msgid ""
 "Calling [code]jump(300, 300)[/code] makes the turtle jump by 300 pixels to "
 "the right and 300 pixels down without drawing any lines."
 msgstr ""
+"Van egy függvényed, ami egy négyzetet rajzol: [code]draw_square()[/code]. "
+"Rajzolj vele 3 négyzetet.\n"
+"\n"
+"Már előre elkészítettük számodra a [code]draw_square()[/code] függvényt. "
+"Készíts egy [code]draw_three_squares[/code] nevű függvényt, ami háromszor "
+"hívja a [code]draw_square()[/code] függvényt.\n"
+"\n"
+"Ha egyszerűen csak hívod a függvényt, egymásra fogja rajzolni mindhárom "
+"négyzetet. Ahhoz, hogy átlósan rajzoltasd ki őket, hívd a [code]jump(300, "
+"300)[/code] függvényt a [code]draw_square()[/code] függvények közt.\n"
+"\n"
+"A [code]jump(300, 300)[/code] hatására a teknős 300 pixelt ugrik jobbra és "
+"le, anélkül, hogy vonalat húzna."
 
 #: course/lesson-5-your-first-function/lesson.tres:275
 msgid ""
 "Now you created a function to draw squares, you can reuse it by calling it "
 "multiple times."
 msgstr ""
+"Most, hogy elkészült a négyzet rajzoló függvényed, újra felhasználhatod azt, "
+"többszöri hívással."
 
 #: course/lesson-5-your-first-function/lesson.tres:279
 msgid "Coding Your First Function"
-msgstr ""
+msgstr "Az első függvényed megírása"
