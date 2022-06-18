@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-06-18 19:08+0000\n"
+"PO-Revision-Date: 2022-06-19 11:18+0000\n"
 "Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-7-member-variables/it/>\n"
@@ -137,23 +137,29 @@ msgid ""
 "You can also use them to put a name on a value you want to reuse throughout "
 "your code. It makes your code easier to read and to change."
 msgstr ""
+"Le variabili come etichette che utilizzi per accedere a valori che cambiano "
+"con il tempo.\n"
+"\n"
+"Le puoi pure usare per mettere nomi a valori che vuoi riutilizzare nel tuo "
+"codice. Rende il tuo codice più facile da leggere e da cambiare in seguito."
 
 #: course/lesson-7-member-variables/lesson.tres:120
 #: course/lesson-7-member-variables/lesson.tres:121
 msgid "A label you use to keep track of a value that can change."
 msgstr ""
+"Come un'etichetta che usi per tenere d'occhio un valore che può cambiare."
 
 #: course/lesson-7-member-variables/lesson.tres:120
 msgid "A function that varies over time."
-msgstr ""
+msgstr "Una funzione che varia con il tempo."
 
 #: course/lesson-7-member-variables/lesson.tres:120
 msgid "A decimal number."
-msgstr ""
+msgstr "Un numero decimale."
 
 #: course/lesson-7-member-variables/lesson.tres:128
 msgid "Accessing sub-variables with the dot"
-msgstr ""
+msgstr "Accedere sotto-variabili con un punto"
 
 #: course/lesson-7-member-variables/lesson.tres:130
 msgid ""
@@ -172,6 +178,20 @@ msgid ""
 "The code below places the entity at [code]180[/code] pixels on the x-axis "
 "and [code]120[/code] pixels on the y-axis."
 msgstr ""
+"Nei videogiochi, userai molte variabili membro che hanno sotto-valori.\n"
+"\n"
+"Per esempio, la [code]position[/code] che abbiamo citato prima ha due "
+"coordinate: [code]x[/code] e [code]y[/code].\n"
+"\n"
+"Lo stesso avviene per la variabile [code]scale[/code]: possiede le sotto-"
+"variabili [code]x[/code] e [code]y[/code], che controllano rispettivamente "
+"la grandezza orizzontale e verticale di un elemento in un gioco.\n"
+"\n"
+"Per accedere a quelle sotto-componenti X e Y, aggiungi un punto (\".\") dopo "
+"il nome della variabile.\n"
+"\n"
+"Il codice qua sotto piazza l'elemento a [code]180[/code] pixel sull'asse x e "
+"a [code]120[/code] pixel sull'asse y."
 
 #: course/lesson-7-member-variables/lesson.tres:158
 msgid ""
@@ -185,10 +205,19 @@ msgid ""
 "variable on the left\". We assign values so often in code that we prefer to "
 "reserve the equal sign for that."
 msgstr ""
+"Nota come viene utilizzato il segno uguale (\"=\") per assegnare i numeri "
+"sulla destra alle sotto-variabili sulla sinistra.\n"
+"\n"
+"Al contrario della matematica, in programmazione informatica, il segno di "
+"uguaglianza (\"=\") non significa \"è uguale a\".\n"
+"\n"
+"Invece, significa \"assegna il risultato dell'espressione sulla destra alla "
+"variabile a sinistra\". Assegniamo valori così spesso programmando che "
+"preferiamo riservare il simbolo di uguaglianza per quello."
 
 #: course/lesson-7-member-variables/lesson.tres:170
 msgid "In games, the Y-axis is positive going down"
-msgstr ""
+msgstr "Nei giochi, l'asse y è positiva andando verso il basso"
 
 #: course/lesson-7-member-variables/lesson.tres:172
 msgid ""
@@ -201,6 +230,15 @@ msgid ""
 "The convention is the [i]opposite[/i] in video games and many computer "
 "applications: the y-axis is positive going down."
 msgstr ""
+"Nota bene che nei giochi, assumendo la posizione del tuo personaggio partire "
+"a (0, 0), il codice qua sopra muove l'elemento di [code]180[/code] pixel "
+"sulla destra e [code]120[/code] pixel verso il basso.\n"
+"\n"
+"In matematica, l'asse y è generalmente positivo verso l'alto per convenzione."
+"\n"
+"\n"
+"Questa convenzione è [i]opposta[/i] nei videogiochi e in molte applicazioni "
+"per computer: l'asse y è positiva verso il basso."
 
 #: course/lesson-7-member-variables/lesson.tres:196
 msgid ""
@@ -217,16 +255,30 @@ msgid ""
 "calculate and display pixels starting from the top left corner and moving "
 "towards the bottom right corner."
 msgstr ""
+"Questo potrebbe essere confusionario se avessi visto, in matematica, l'asse "
+"y andare solo verso l'alto. Tuttavia, in matematica, le assi vanno in ogni "
+"direzione. Non devono neanche essere perpendicolari.\n"
+"\n"
+"Sul computer, la posizione (0, 0) corrisponde all'angolo in alto a sinistra "
+"sul tuo schermo. Ha dunque senso per le coordinate di essere positive "
+"andando verso l'angolo in basso a destra.\n"
+"\n"
+"Questo scaturisce un'altra domanda: perchè la posizione iniziale è l'angolo "
+"in alto a sinistra? Questo è dovuto alla storia dei computer e degli schermi "
+"TV: all'inizio calcolavano e mostravano i pixel a partire dall'angolo in "
+"alto a sinistra muovendosi verso la posizione in basso a destra."
 
 #: course/lesson-7-member-variables/lesson.tres:210
 msgid ""
 "Let's look at one last example before moving on to the practice. The "
 "following code makes the character 1.5 times its starting size."
 msgstr ""
+"Vediamo un ultimo esempio prima di andare a fare pratica. Il seguente codice "
+"rende il personaggio 1.5 volte la sua dimensione iniziale."
 
 #: course/lesson-7-member-variables/lesson.tres:228
 msgid "How do you access sub-variables?"
-msgstr ""
+msgstr "Come accedi alle sotto-variabili?"
 
 #: course/lesson-7-member-variables/lesson.tres:229
 msgid ""
@@ -234,6 +286,9 @@ msgid ""
 "variables: [code]x[/code] and [code]y[/code]. How would you access the "
 "[code]x[/code], for example?"
 msgstr ""
+"Spesso le variabili contengono sotto-valori, come la [code]position[/code] "
+"ha le due sotto-variabili: [code]x[/code] e [code]y[/code]. Come accederesti "
+"alla sotto-variabile [code]x[/code], per esempio?"
 
 #: course/lesson-7-member-variables/lesson.tres:231
 msgid ""
@@ -243,21 +298,29 @@ msgid ""
 "For example, to access the [code]x[/code] sub-variable of the "
 "[code]position[/code] variable, you'll write [code]position.x[/code]."
 msgstr ""
+"Per accedere ad una sotto-variabile, devi inserire un punto tra il nome "
+"della variabile parente e il nome della sotto-variabile.\n"
+"\n"
+"Per esempio, per accedere alla sotto-variabile [code]x[/code] della "
+"variabile [code]position[/code], scriverai [code]position.x[/code]."
 
 #: course/lesson-7-member-variables/lesson.tres:234
 #: course/lesson-7-member-variables/lesson.tres:235
 msgid "You write a dot (\".\") between the variable and the sub-variable name."
 msgstr ""
+"Scrivi un punto (\".\") tra la variabile e il nome della sotto-variabile."
 
 #: course/lesson-7-member-variables/lesson.tres:234
 msgid ""
 "You write an arrow (\"->\") between the variable and the sub-variable name."
 msgstr ""
+"Scrivi una freccia (\"->\") tra la variabile e il nome della sotto-variabile."
 
 #: course/lesson-7-member-variables/lesson.tres:234
 msgid ""
 "You write a slash (\"/\") between the variable and the sub-variable name."
 msgstr ""
+"Scrivi uno slash (\"/\") tra la variabile e il nome della sotto-variabile."
 
 #: course/lesson-7-member-variables/lesson.tres:244
 msgid ""
@@ -274,10 +337,23 @@ msgid ""
 "\n"
 "For now, let's practice accessing variables."
 msgstr ""
+"In una lezione futura, spiegheremo perchè e come quelle variabili possiedono "
+"sotto-variabili.\n"
+"\n"
+"Per ora, sappi soltanto che puoi usare il punto per accedervi.\n"
+"\n"
+"Ti diremo quali variabili possiedono sotto-componenti e quali sono i loro "
+"nomi successivamente.\n"
+"\n"
+"Nelle prossimi lezioni, creerai le tue variabili e farai operazioni su "
+"queste per aggiungere o rimuovere [code]punteggio[/code], [code]vita[/code] "
+"e così via.\n"
+"\n"
+"Per ora, facciamo pratica accedendo a delle variabili."
 
 #: course/lesson-7-member-variables/lesson.tres:260
 msgid "Draw a rectangle at a precise position"
-msgstr ""
+msgstr "Disegna un rettangolo in una posizione precisa"
 
 #: course/lesson-7-member-variables/lesson.tres:261
 msgid ""
@@ -287,16 +363,23 @@ msgid ""
 "You need to replace the numbers in the code editor to draw the correct "
 "rectangle."
 msgstr ""
+"Disegna un rettangolo di 200 x 120 pixel alla posizione x di 120 pixel e "
+"alla posizione y di 100 pixel.\n"
+"\n"
+"Devi rimpiazzare i numeri nell'editor di codice per disegnare il rettangolo "
+"corretto."
 
 #: course/lesson-7-member-variables/lesson.tres:275
 msgid ""
 "Use the position member variable and its sub-variables to change the "
 "rectangle's position."
 msgstr ""
+"Usa la variabile membro position e le sue sotto-variabili per cambiare la "
+"posizione del rettangolo."
 
 #: course/lesson-7-member-variables/lesson.tres:280
 msgid "Draw squares at different positions"
-msgstr ""
+msgstr "Disegna quadrati a posizioni differenti"
 
 #: course/lesson-7-member-variables/lesson.tres:281
 msgid ""
@@ -314,6 +397,19 @@ msgid ""
 "Write your code inside the [code]run()[/code] function so the computer can "
 "recognize it."
 msgstr ""
+"Disegna tre quadrati di grandezza 100 x 100 che sono distanti 100 pixel "
+"lungo l'asse orizzontale. In altre parole, ci dovrebbe essere uno spazio di "
+"100 pixel tra due quadrati.\n"
+"\n"
+"Dovresti disegnare i quadrati partendo dalla posizione (100, 100). Questo "
+"significa che dovresti posizionare il primo quadrato a 100 sull'asse x e 100 "
+"sull'asse y.\n"
+"\n"
+"Ricorda che devi usare il segno di uguaglianza ([code]=[/code]) per cambiare "
+"il valore di una variabile, come la posizione della tartaruga.\n"
+"\n"
+"Scrivi il tuo codice all'interno della funzione [code]run()[/code] così che "
+"il computer possa rriconoscerlo."
 
 #: course/lesson-7-member-variables/lesson.tres:297
 msgid ""
@@ -321,7 +417,10 @@ msgid ""
 "practice, you'll place three squares side by side to really get the hang of "
 "properties."
 msgstr ""
+"Ora puoi piazzare e disegnare una figura, ma ché ne pensi di disegnarne "
+"diverse? In questa pratica, piazzerai tre quadrati uno a fianco all'altro "
+"per prendere bene la mano con le proprietà."
 
 #: course/lesson-7-member-variables/lesson.tres:301
 msgid "Introduction to Member Variables"
-msgstr ""
+msgstr "Introduzione alle Variabili Membro"
