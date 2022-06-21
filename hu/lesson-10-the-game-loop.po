@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-21 23:43+0000\n"
+"Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-10-the-game-loop/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-10-the-game-loop/lesson.tres:14
@@ -31,6 +34,17 @@ msgid ""
 "\n"
 "Take the [code]_process()[/code] function."
 msgstr ""
+"Ahogy már láthattuk, a Godotnak vannak különböző célú függvényei. Például a "
+"[code]show()[/code] és [code]hide()[/code] függvények a láthatóságot "
+"változtatják.\n"
+"\n"
+"Készíthetünk saját függvényeket is, hogy egyedi dolgokat hajtsanak végre, "
+"például a karakter életerejének növelése vagy csökkentése.\n"
+"\n"
+"A Godotnak vannak speciális függvényeoi is, melyeket testreszabhatunk vagy "
+"kiegészíthetünk.\n"
+"\n"
+"Nézzük meg a [code]_process()[/code] függvényt."
 
 #: course/lesson-10-the-game-loop/lesson.tres:40
 msgid ""
@@ -41,16 +55,23 @@ msgid ""
 "are always moving along a conveyor belt, while different machines operate on "
 "them."
 msgstr ""
+"A [code]_process()[/code] (folyamat) függvény neve onnan ered, hogy "
+"számításokat véget vagy folyamatosan végrehajt dolgokat.\n"
+"\n"
+"Olyan, mint egy [b]munkafolyamat[/b], ami üdítős üvegeket gyárt: az üvegek "
+"folymatosan mozognak a szalagon, miközben különböző gépek dolgoznak rajtuk."
 
 #: course/lesson-10-the-game-loop/lesson.tres:52
 msgid ""
 "It's similar in Godot, but this function can run [b]hundreds of times a "
 "second[/b]."
 msgstr ""
+"Ez a Godotban is hasonlóan működik, de ezek a folyamatok [b]másodpercenként "
+"többszázszor[/b] is lefuthatnak."
 
 #: course/lesson-10-the-game-loop/lesson.tres:60
 msgid "How many parameters does this function take?"
-msgstr ""
+msgstr "Hány paramétert fogad az alábbi függvény?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:61
 msgid ""
@@ -58,6 +79,9 @@ msgid ""
 "func _process(delta):\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"func _process(delta):\n"
+"[/code]"
 
 #: course/lesson-10-the-game-loop/lesson.tres:65
 msgid ""
@@ -67,15 +91,20 @@ msgid ""
 "We'll look at what [code]delta[/code] is in the next lesson, as well as show "
 "how to use it."
 msgstr ""
+"A [code]_process()[/code] függvény csak egy paramétert fogad: "
+"[code]delta[/code].\n"
+"\n"
+"A következő leckében megnézzük mi is ez a [code]delta[/code], és megmutatjuk "
+"azt is, hogyan használd.."
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
 #: course/lesson-10-the-game-loop/lesson.tres:69
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: course/lesson-10-the-game-loop/lesson.tres:78
 msgid ""
@@ -89,15 +118,23 @@ msgid ""
 "If the function exists, and is called exactly [code]_process[/code], then "
 "Godot will automatically run it every frame. "
 msgstr ""
+"A [code]_process()[/code] függvény nem csinál semmit, amíg írunk bele "
+"valamit.\n"
+"\n"
+"Bizonyára észrevetted az aláhúzásjelet [code]_[/code] a függvény neve előtt. "
+"Ez egy konvenció. Azt jelenti, hogy a Godot már definiálta ezt a függvényt.\n"
+"\n"
+"ha a függvény már létezik, és pontosan [code]_process[/code] a neve, akkor a "
+"Godot automatikusan futtatni fogja minden framen. "
 
 #: course/lesson-10-the-game-loop/lesson.tres:92
 msgid ""
 "Other game engines might use different names like [code]_update()[/code]."
-msgstr ""
+msgstr "Más enginek lehet, hogy máshogy hívják, például [code]_update[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.tres:100
 msgid "Why is the _process() function useful?"
-msgstr ""
+msgstr "Mire jó a _process() függvény?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:102
 msgid ""
@@ -105,6 +142,10 @@ msgid ""
 "\n"
 "Take the following example."
 msgstr ""
+"talán jobb, ha működés közben nézzük meg a [code]_process()[/code] függvényt."
+"\n"
+"\n"
+"Vegyük az alábbi példát."
 
 #: course/lesson-10-the-game-loop/lesson.tres:124
 msgid ""
@@ -116,10 +157,19 @@ msgid ""
 "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the "
 "character by [code]0.05[/code] radians [b]many[/b] times a second."
 msgstr ""
+"Amikor rákattintasz a [code]set_process(true)[/code] nevű gombra, aktiválod "
+"a feldolgozást a roboton.\n"
+"\n"
+"Ezután, a Godot minden framen lefuttatja a [code]_process()[/code] függvényt."
+"\n"
+"\n"
+"Mivel készítettünk egy [code]rotate()[/code] utasítást, a Godot elfordítja a "
+"karaktert [code]0.05[/code] radiánnal, másodpercenként [b]rengeteg[/b] "
+"alkalommal."
 
 #: course/lesson-10-the-game-loop/lesson.tres:136
 msgid "How often does the _process() function run?"
-msgstr ""
+msgstr "Milyen gyakran fut le a _process() függvény?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:139
 msgid ""
@@ -128,25 +178,33 @@ msgid ""
 "Godot will try and run [code]_process()[/code] as quickly as it can. This "
 "makes sure any movement or animations look smooth and fluid."
 msgstr ""
+"Minél gyorsabb a számítógéped, annál többször fog lefutni a "
+"[code]_process()[/code] függvény.\n"
+"\n"
+"A Godot megpróbálja olyan gyorsan lefuttatni a [code]_process()[/code] "
+"függvényt, ahogy csak tudja. Ez biztosítja, hogy minden mozgás és animáció "
+"simán fut."
 
 #: course/lesson-10-the-game-loop/lesson.tres:142
 msgid "Once a second."
-msgstr ""
+msgstr "Másodpercenként egyszer."
 
 #: course/lesson-10-the-game-loop/lesson.tres:142
 #: course/lesson-10-the-game-loop/lesson.tres:143
 msgid "Multiple times a second."
-msgstr ""
+msgstr "Másodpercenként többször."
 
 #: course/lesson-10-the-game-loop/lesson.tres:152
 msgid ""
 "In the practice, you'll learn how to use the process function to rotate and "
 "move a character yourself."
 msgstr ""
+"A gyakorlatban megtanulod, hogyan használd a _process() függvényt, hogy "
+"elforgasd és mozgasd a karaktert."
 
 #: course/lesson-10-the-game-loop/lesson.tres:160
 msgid "Rotating a Character Continuously"
-msgstr ""
+msgstr "A karakter folyamatos forgatása"
 
 #: course/lesson-10-the-game-loop/lesson.tres:161
 msgid ""
@@ -155,10 +213,13 @@ msgid ""
 "\n"
 "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr ""
+"Forgasd lassan a karktert a [code]_process()[/code] függvény módosításával.\n"
+"\n"
+"Frame-enként [code]0.05[/code]-os forgatási sebességnek jónak kell lennie."
 
 #: course/lesson-10-the-game-loop/lesson.tres:178
 msgid "Creating Circular Movement"
-msgstr ""
+msgstr "Körkörös mozgás létrehozása"
 
 #: course/lesson-10-the-game-loop/lesson.tres:179
 msgid ""
@@ -171,7 +232,15 @@ msgid ""
 "Use a rotation speed of [code]0.05[/code] radians per frame, and move the "
 "robot [code]5[/code] pixels per frame."
 msgstr ""
+"Mozgasd körbe egy nagy körben a robotot, lassan forgatva és folymatosan "
+"mozgatva előre az X tengelyén.\n"
+"\n"
+"Ehhez add hozzá a [code]rotate()[/code] és a [code]move_local_x()[/code] "
+"függvényeket a [code]_process()[/code] függvényhez.\n"
+"\n"
+"A forgatási sebesség legyen frame-enként [code]0.05[/code] radián, és "
+"mozgasd a robotot előre frame-enként [code]5[/code] pixellel."
 
 #: course/lesson-10-the-game-loop/lesson.tres:197
 msgid "The Game Loop"
-msgstr ""
+msgstr "A game loop"
