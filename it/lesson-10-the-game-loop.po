@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-06-18 13:18+0000\n"
+"PO-Revision-Date: 2022-06-18 19:08+0000\n"
 "Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-10-the-game-loop/it/>\n"
@@ -159,10 +159,17 @@ msgid ""
 "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the "
 "character by [code]0.05[/code] radians [b]many[/b] times a second."
 msgstr ""
+"Premendo il tasto [code]set_process(true)[/code] attivi la funzione continua "
+"per il robot.\n"
+"\n"
+"Da lì, ad ogni frame, Godot esegue la funzione [code]_process()[/code].\n"
+"\n"
+"Dato che abbiamo scritto l'istruzione [code]rotate()[/code], Godot ruota il "
+"personaggio di [code]0.05[/code] radianti [b]tante[/b] volte al secondo."
 
 #: course/lesson-10-the-game-loop/lesson.tres:136
 msgid "How often does the _process() function run?"
-msgstr ""
+msgstr "Quanto spesso la funzione _process() viene eseguita?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:139
 msgid ""
@@ -171,25 +178,31 @@ msgid ""
 "Godot will try and run [code]_process()[/code] as quickly as it can. This "
 "makes sure any movement or animations look smooth and fluid."
 msgstr ""
+"Più veloce è il tuo computer, più [code]_process()[/code] viene eseguito.\n"
+"\n"
+"Godot proverà ad eseguire[code]_process()[/code] quanto più veloce "
+"possibile. Questo fa si che ogni movimento o animazione sembri fluida."
 
 #: course/lesson-10-the-game-loop/lesson.tres:142
 msgid "Once a second."
-msgstr ""
+msgstr "Una volta al secondo."
 
 #: course/lesson-10-the-game-loop/lesson.tres:142
 #: course/lesson-10-the-game-loop/lesson.tres:143
 msgid "Multiple times a second."
-msgstr ""
+msgstr "Molte volte al secondo."
 
 #: course/lesson-10-the-game-loop/lesson.tres:152
 msgid ""
 "In the practice, you'll learn how to use the process function to rotate and "
 "move a character yourself."
 msgstr ""
+"Nella pratica, imparerai come usare la funzione _process() per ruotare e "
+"muovere un personaggio te stesso."
 
 #: course/lesson-10-the-game-loop/lesson.tres:160
 msgid "Rotating a Character Continuously"
-msgstr ""
+msgstr "Ruotando un Personaggio in Continuazione"
 
 #: course/lesson-10-the-game-loop/lesson.tres:161
 msgid ""
@@ -198,10 +211,15 @@ msgid ""
 "\n"
 "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr ""
+"Fa sì che il robot si ruoti lentamente aggiungendo codice alla funzione "
+"[code]_process()[/code].\n"
+"\n"
+"Una velocità di rotazione di circa [code]0.05[/code] ad ogni frame dovrebbe "
+"andare."
 
 #: course/lesson-10-the-game-loop/lesson.tres:178
 msgid "Creating Circular Movement"
-msgstr ""
+msgstr "Creando Moto Circolare"
 
 #: course/lesson-10-the-game-loop/lesson.tres:179
 msgid ""
@@ -214,7 +232,15 @@ msgid ""
 "Use a rotation speed of [code]0.05[/code] radians per frame, and move the "
 "robot [code]5[/code] pixels per frame."
 msgstr ""
+"Fa sì che il robot si muova lentamente lungo un grande cerchio facendolo "
+"ruotare e muovere lungo la sua direzione x simultaneamente.\n"
+"\n"
+"Per far ciò, aggiungi le funzioni [code]rotate()[/code] e "
+"[code]move_local_x()[/code] alla funzione [code]_process()[/code].\n"
+"\n"
+"Usa una velocità di rotazione di [code]0.05[/code] radianti per frame e "
+"muovi il robot di [code]5[/code] pixel per frame."
 
 #: course/lesson-10-the-game-loop/lesson.tres:197
 msgid "The Game Loop"
-msgstr ""
+msgstr "Il Ciclo Di Gioco"

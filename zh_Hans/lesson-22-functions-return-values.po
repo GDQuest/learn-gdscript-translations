@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-05-08 12:00+0000\n"
-"Last-Translator: 巽星石 <xun19900424@gmail.com>\n"
+"PO-Revision-Date: 2022-06-19 11:18+0000\n"
+"Last-Translator: adadaadadade <272169607@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-22-functions-return-values/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-22-functions-return-values/lesson.tres:13
@@ -70,7 +70,6 @@ msgstr ""
 "[code]round()[/code] 函数。"
 
 #: course/lesson-22-functions-return-values/lesson.tres:71
-#, fuzzy
 msgid ""
 "Notice how we assign the result of the function call to a variable. Because "
 "the [code]round()[/code] function returns a [i]new[/i] value, we need to "
@@ -78,16 +77,16 @@ msgid ""
 "\n"
 "Above, we assigned it to a variable, but you could also do the following."
 msgstr ""
-"请注意我们如何将函数调用的结果分配给变量。因为 [code]round()[/code] 函数返回"
-"一个 [i]新[/i] 值，我们需要存储结果。\n"
+"请注意我们如何将函数调用的结果赋值给变量。因为 [code]round()[/code] "
+"函数返回一个 [i]新[/i] 值，我们需要存储结果或者立即使用这个值。\n"
 "\n"
-"所以我们将结果分配给一个变量。"
+"在上面，我们将结果赋值给一个变量，但你也可以像接下来这样做。"
 
 #: course/lesson-22-functions-return-values/lesson.tres:93
 msgid ""
 "You can assign the return value of a function call if you plan on using it "
 "more than once."
-msgstr ""
+msgstr "如果你计划使用多次使用一个函数的返回值的话，你可以将它赋值给一个变量。"
 
 #: course/lesson-22-functions-return-values/lesson.tres:101
 msgid "A cooler example: lerp()"

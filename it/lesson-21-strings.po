@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-06-18 13:18+0000\n"
+"PO-Revision-Date: 2022-06-19 11:18+0000\n"
 "Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-21-strings/it/>\n"
@@ -31,10 +31,18 @@ msgid ""
 "Strings are instrumental in games and applications. We use them to display "
 "information such as the description of a spell or the name of a character."
 msgstr ""
+"Durante questo corso, abbiamo conservato maggiormente numeri nelle "
+"variabili. Ma come puoi fare per immagazzinare il nome del giocatore?\n"
+"\n"
+"Ecco dove le stringhe possono aiutarci.\n"
+"\n"
+"Le stringhe hanno una funzione strumentale nei giochi e nelle applicazioni. "
+"Le usiamo per mostrare informazioni come le descrizioni di un'incantesimo o "
+"il nome di un personaggio."
 
 #: course/lesson-21-strings/lesson.tres:36
 msgid "What are strings"
-msgstr ""
+msgstr "Cosa sono le stringhe"
 
 #: course/lesson-21-strings/lesson.tres:38
 msgid ""
@@ -47,6 +55,15 @@ msgid ""
 "\n"
 "You may remember we've used strings before in previous lessons."
 msgstr ""
+"Una [code]String[/code] è un tipo di valore che contiene testo. Per creare "
+"una [code]String[/code], scrivi il testo avvolto da virgolette ([code]\"\""
+"[/code]). Per esempio: [code]\"Questa è una stringa\"[/code].\n"
+"\n"
+"Le virgolette differenziano le stringhe da altri tipi di valori e nomi di "
+"funzioni.\n"
+"\n"
+"Potresti ricordare che abbiamo già usato le stringhe nelle lezioni "
+"precedenti."
 
 #: course/lesson-21-strings/lesson.tres:62
 msgid ""
@@ -54,10 +71,13 @@ msgid ""
 "[code]for[/code] loop to loop through the characters of a [code]String[/"
 "code] as we would with any other array."
 msgstr ""
+"Dietro le quinte, le stringhe sono array di caratteri. Infatti, possiamo "
+"usare un ciclo [code]for[/code] per analizzare ciclicamente i caratteri di "
+"una [code]String[/code] come potremmo fare in un qualsiasi altro array."
 
 #: course/lesson-21-strings/lesson.tres:80
 msgid "Which of these are strings?"
-msgstr ""
+msgstr "Quali tra queste sono stringhe?"
 
 #: course/lesson-21-strings/lesson.tres:83
 msgid ""
@@ -68,6 +88,12 @@ msgid ""
 "\n"
 "[code]\"name\"[/code] is made up of four different characters."
 msgstr ""
+"[code]\"1\"[/code] e [code]\"nome\"[/code] sono stringhe.\n"
+"\n"
+"[code]\"1\"[/code] contiene soltanto un carattere e [i]non[/i] rappresenta "
+"il numero [code]1[/code].\n"
+"\n"
+"[code]\"nome\"[/code] è composto da quattro caratteri differenti."
 
 #: course/lesson-21-strings/lesson.tres:88
 msgid "1"
@@ -76,16 +102,16 @@ msgstr "1"
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"1\""
-msgstr ""
+msgstr "\"1\""
 
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"name\""
-msgstr ""
+msgstr "\"nome\""
 
 #: course/lesson-21-strings/lesson.tres:96
 msgid "Why we use strings"
-msgstr ""
+msgstr "Perchè usiamo le stringhe"
 
 #: course/lesson-21-strings/lesson.tres:118
 msgid ""
@@ -100,16 +126,28 @@ msgid ""
 "animations. In this example, the [code]play_animation()[/code] plays a "
 "specific animation."
 msgstr ""
+"Ogni tratto di testo che vedi in quest'applicazione è una stringa che Godot "
+"sta mostrando per noi.\n"
+"\n"
+"Molto come le variabili [code]Vector2[/code] rendano i calcoli semplici, le "
+"variabili [code]stringa[/code] vengono utilizzati attraverso molte funzioni "
+"di supporto e trucchetti che possiamo usare.\n"
+"\n"
+"Possiamo usare gli array pure per conservare stringhe. Questo è comodo per "
+"concatenare animazioni. In questo esempio, la funzione "
+"[code]play_animation()[/code] riproduce una specifica animazione."
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
 "In the next few practices, we'll use strings in combination with different "
 "concepts from earlier lessons."
 msgstr ""
+"Nelle prossime pratiche, useremo le stringhe in combinazione con concetti "
+"differenti di lezioni precedenti."
 
 #: course/lesson-21-strings/lesson.tres:150
 msgid "Creating string variables"
-msgstr ""
+msgstr "Creando variabili stringa"
 
 #: course/lesson-21-strings/lesson.tres:151
 msgid ""
@@ -119,14 +157,20 @@ msgid ""
 "Change the [code]robot_name[/code] variable so that it's a string instead. "
 "You can give it any name you'd like."
 msgstr ""
+"Al momento, il robot ha un numero conservato nella variabile "
+"[code]robot_name[/code].\n"
+"\n"
+"Cambia la variabile [code]robot_name[/code] in modo tale che questo "
+"piuttosto sia una stringa. Gli puoi dare il nome che ti pare."
 
 #: course/lesson-21-strings/lesson.tres:163
 msgid "Give the robot a readable name using a string stored in a variable."
 msgstr ""
+"Dà al robot un nome leggibile usando una stringa conservata in una variabile."
 
 #: course/lesson-21-strings/lesson.tres:168
 msgid "Using an array of strings to play a combo"
-msgstr ""
+msgstr "Usando un array di stringhe per riprodurre una combo"
 
 #: course/lesson-21-strings/lesson.tres:169
 msgid ""
@@ -146,11 +190,26 @@ msgid ""
 "The robot should do the following actions in order: [code]jab, jab, "
 "uppercut[/code]."
 msgstr ""
+"In questa pratica, concateneremo insieme animazioni usando array di "
+"stringhe. Potresti trovare queste combinazioni nei giochi di combattimento.\n"
+"\n"
+"Il robot ha i nomi delle seguenti animazioni:\n"
+"\n"
+"-[code]jab[/code] (fa fare un rapido pugno al robot)\n"
+"-[code]uppercut[/code] (fa fare un potente pugno in salto al robot)\n"
+"\n"
+"Popola l'array di combo con i nomi delle animazioni come stringhe.\n"
+"\n"
+"Dopo, per ogni azione nell'array, chiama la funzione "
+"[code]play_animation()[/code] per riprodurli.\n"
+"\n"
+"Il robot dovrebbe eseguire le seguenti azioni in ordine: [code]jab, jab, "
+"uppercut[/code]."
 
 #: course/lesson-21-strings/lesson.tres:190
 msgid "Define an array of strings to unleash a powerful combo."
-msgstr ""
+msgstr "Definisci un array di stringhe per rilasciare una poderosa combo."
 
 #: course/lesson-21-strings/lesson.tres:194
 msgid "Strings"
-msgstr ""
+msgstr "Stringhe"
