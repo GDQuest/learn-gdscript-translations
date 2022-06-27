@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-06-20 15:19+0000\n"
+"PO-Revision-Date: 2022-06-26 11:17+0000\n"
 "Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-4-drawing-a-rectangle/it/>\n"
@@ -22,7 +22,6 @@ msgstr ""
 "Generated-By: Babel 2.9.0\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:14
-#, fuzzy
 msgid ""
 "We'll use code created by others like we did in the previous lesson. This "
 "time, we'll solve a more complicated problem: drawing shapes."
@@ -32,19 +31,18 @@ msgstr ""
 "geometriche."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:22
-#, fuzzy
 msgid "Meet the turtle"
 msgstr "Ti presentiamo la tartaruga"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:24
-#, fuzzy
 msgid ""
 "We present you: the turtle! We created the turtle to teach you how to call "
 "functions."
-msgstr "Abbiamo creato la tartaruga per insegnarti a chiamare le funzioni."
+msgstr ""
+"Ti presentiamo: la tartaruga! Abbiamo creato la tartaruga per insegnarti a "
+"chiamare le funzioni."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:44
-#, fuzzy
 msgid ""
 "The turtle is a little machine that moves forward, turns, and draws lines "
 "along its path.\n"
@@ -74,8 +72,8 @@ msgstr ""
 "il suo cammino.\n"
 "\n"
 "Per fare in modo che le disegni bisogna assegnare alla tartaruga una lista "
-"di istruzioni: in ogni linea di codice, devi chiamare una funzione "
-"specifica.\n"
+"di istruzioni: in ogni linea di codice, devi chiamare una funzione specifica."
+"\n"
 "\n"
 "Abbiamo preparato varie funzioni per te:\n"
 "\n"
@@ -97,7 +95,6 @@ msgstr ""
 "[code]move_forward(200)[/code]."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:78
-#, fuzzy
 msgid ""
 "The functions [code]turn_left()[/code] and [code]turn_right()[/code] work "
 "the same.\n"
@@ -111,14 +108,13 @@ msgstr ""
 "Le funzioni [code]turn_left()[/code] e [code]turn_right()[/code] funzionano "
 "allo stesso modo.\n"
 "\n"
-"Per ruotare di 45 gradi a destra, dovresti scrivere [code]turn_right(45)[/"
-"code].\n"
+"Per ruotare di 45 gradi a destra, dovresti scrivere "
+"[code]turn_right(45)[/code].\n"
 "\n"
 "Se chiamiamo [code]turn_right(45)[/code], la tartaruga ruoterà di 45 gradi a "
 "destra prima di passare all'istruzione successiva."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:102
-#, fuzzy
 msgid ""
 "Using these instructions, we can make any two-dimensional shape we like!\n"
 "\n"
@@ -136,14 +132,12 @@ msgstr ""
 "disegnare un angolo, poi un rettangolo, proprio come questo."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
-#, fuzzy
 msgid "In the function call below, which part is the argument?"
-msgstr "Nella funzione definita qui sotto, quale parte è il parametro?"
+msgstr "Nella funzione chiamata qui sotto, quale parte è il parametro?"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
-#, fuzzy
 msgid "[code]move_forward(30)[/code]"
-msgstr "[code]func move_forward(pixels)[/code]"
+msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:127
 msgid ""
@@ -156,6 +150,15 @@ msgid ""
 "This function call will make the turtle move forward by [code]30[/code] "
 "pixels."
 msgstr ""
+"Gli argomenti di una funzione sono tutti i valori all'interno delle "
+"parentesi. In questo caso, ce n'è solo uno, ma ce ne possono essere "
+"molteplici separati da virgole.\n"
+"\n"
+"In questo caso, [code]move_forward[/code] è il nome della funzione e "
+"[code]30[/code] è l'argomento.\n"
+"\n"
+"Questa chiamata di funzione farà si che la tartaruga si muova in avanti di "
+"[code]30[/code] pixel."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 msgid "move_forward"
@@ -164,15 +167,13 @@ msgstr "move_forward"
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:133
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:140
-#, fuzzy
 msgid "Drawing a Corner"
-msgstr "Disegnare un Angolo"
+msgstr "Disegnando uno Spigolo"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:141
-#, fuzzy
 msgid ""
 "In this practice, we'll tell the turtle to draw a corner.\n"
 "\n"
@@ -194,43 +195,41 @@ msgid ""
 "rectangles.\n"
 "\n"
 msgstr ""
-"In questo esercizio, diremo alla tartaruga di disegnare un angolo.\n"
+"In questo esercizio, diremo alla tartaruga di disegnare uno spigolo.\n"
 "\n"
-"L'angolo è formato da due linee di lunghezza [code]200[/code] pixel. Le "
+"Lo spigolo è formato da due linee di lunghezza [code]200[/code] pixel. Le "
 "linee sono connesse alle loro estremità in modo tale che formi un angolo di "
 "[code]90[/code] gradi, o un angolo retto.\n"
 "\n"
 "Le funzioni [code]move_forward()[/code] e [code]turn_right()[/code] sulla "
-"destra disegnano un angolo, ma mancano alcuni parametri.\n"
+"destra disegnano uno spigolo, ma mancano alcuni parametri.\n"
 "\n"
-"Aggiungi i parametri mancanti per far muovere la tartaruga di [code]200[/"
-"code] pixel e per farlo ruotare a destra di [code]90[/code] gradi, dopodiché "
-"fallo muovere nuovamente in avanti di [code]200[/code] pixel.\n"
+"Aggiungi i parametri mancanti per far muovere la tartaruga di "
+"[code]200[/code] pixel e per farla ruotare a destra di [code]90[/code] "
+"gradi, dopodiché falla muovere nuovamente in avanti di [code]200[/code] "
+"pixel.\n"
 "\n"
 "Abbiamo aggiunto il primo parametro per te, cosicché la tartaruga si muova "
 "avanti di [code]200[/code] pixel.\n"
 "\n"
-"Negli esercizi successivi, disegneremo più angoli per creare dei "
-"rettangoli.\n"
+"Negli esercizi successivi, disegneremo più spigoli per creare dei rettangoli."
+"\n"
 "\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:165
-#, fuzzy
 msgid ""
 "Use the turtle to draw a square's corner. You'll then build upon it to draw "
 "a rectangle."
 msgstr ""
-"Usa la tartaruga per disegnare l'angolo di un quadrato. Dopodiché su quella "
-"base, disegnerai un rettangolo."
+"Usa la tartaruga per disegnare lo spigolo di un quadrato. Dopodiché su "
+"quella base, disegnerai un rettangolo."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:170
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:218
-#, fuzzy
 msgid "Drawing a Rectangle"
-msgstr "Disegnare un Rettangolo"
+msgstr "Disegnando un Rettangolo"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:171
-#, fuzzy
 msgid ""
 "Add the correct parameters to the functions [code]move_forward()[/code] and "
 "[code]turn_right()[/code] to draw a rectangle with a width of [code]200[/"
@@ -247,24 +246,21 @@ msgstr ""
 "\n"
 "Abbiamo scritto il primo parametro per te.\n"
 "\n"
-"Nel prossimo esercizio, userai le stesse funzioni per disegnare un "
+"Nella prossima pratica, userai le stesse funzioni per disegnare un "
 "rettangolo più grande."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:191
-#, fuzzy
 msgid ""
 "Based on your rectangle corner, you now need to draw a complete rectangle."
 msgstr ""
-"A partire dall'angolo che hai creato, ora dovrai disegnare un rettangolo "
+"A partire dallo spigolo che hai creato, ora dovrai disegnare un rettangolo "
 "completo."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:196
-#, fuzzy
 msgid "Drawing a Bigger Rectangle"
-msgstr "Disegnare un Rettangolo Più Grande"
+msgstr "Disegnando un Rettangolo Più Grande"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:197
-#, fuzzy
 msgid ""
 "Write out calls to the functions [code]move_forward()[/code] and "
 "[code]turn_right()[/code] to draw a rectangle with a width of 220 pixels, "
@@ -285,17 +281,16 @@ msgstr ""
 "\n"
 "Assicurati di scrivere ogni funzione su una linea diversa.\n"
 "\n"
-"Ricorda che ogni linea deve cominciare con [code]Tab[/code] così da far "
-"comprendere al computer che quelle linee sono parte della funzione "
-"[code]draw_rectangle()[/code]."
+"Ricorda che ogni linea deve cominciare con il carattere [code]Tab[/code] "
+"così da far comprendere al computer che quelle linee sono parte della "
+"funzione [code]draw_rectangle()[/code]."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:214
-#, fuzzy
 msgid ""
 "At this point, you're ready to code entirely on your own. Call functions by "
 "yourself to draw a complete rectangle."
 msgstr ""
-"A questo punto, sei pronto per scrivere codice da solo. Chiama le funzioni e "
+"A questo punto, sei pronto a scrivere codice da solo. Chiama le funzioni e "
 "disegna un rettangolo completo."
 
 #, fuzzy
