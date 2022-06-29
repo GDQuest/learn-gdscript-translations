@@ -6,34 +6,40 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Learn GDScript From Zero  \n"
+"Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-07 21:03+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-29 12:14+0000\n"
+"Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-13-conditions/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: course/lesson-13-conditions/lesson.tres:14
 msgid ""
 "In previous lessons, we decreased and increased a character's health, but "
 "there was no limit to how much health they could have."
 msgstr ""
+"Nelle lezioni precedenti, abbiamo diminuito e aumentato la vita di un "
+"personaggio, ma non c'era alcun limite a quanta vita potesse avere."
 
 #: course/lesson-13-conditions/lesson.tres:34
 msgid ""
 "As a result, the player could increase their character's health "
 "indefinitely, which we do not want."
 msgstr ""
+"Come risultato, il giocatore potrebbe aumentare la vita del suo personaggio "
+"per sempre, cosa che noi non vogliamo che succeda."
 
 #: course/lesson-13-conditions/lesson.tres:52
 msgid "What happens to health when we damage our character?"
-msgstr ""
+msgstr "Cosa succede alla vita quando danneggiamo il nostro personaggio?"
 
 #: course/lesson-13-conditions/lesson.tres:53
 msgid ""
@@ -42,6 +48,10 @@ msgid ""
 "What would the value of health be if we called [code]take_damage(25)[/code] "
 "[b]five times[/b]?"
 msgstr ""
+"Supponiamo che il nostro giocatore abbia [code]100[/code] punti vita.\n"
+"\n"
+"Quanti punti vita rimarrebbero se chiamassimo [code]take_damage(25)[/code] "
+"[b]cinque volte[/b]?"
 
 #: course/lesson-13-conditions/lesson.tres:57
 msgid ""
@@ -55,19 +65,28 @@ msgid ""
 "0\n"
 "-25"
 msgstr ""
+"Chiamare [code]take_damage(25)[/code]cinque volte sottrarrebbe un totale di "
+"[code]125[/code] da [code]100[/code].\n"
+"\n"
+"100\n"
+"75\n"
+"50\n"
+"25\n"
+"0\n"
+"-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 #: course/lesson-13-conditions/lesson.tres:66
 msgid "-25"
-msgstr ""
+msgstr "-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: course/lesson-13-conditions/lesson.tres:75
 msgid ""
@@ -77,6 +96,11 @@ msgid ""
 "the computer will run the corresponding instructions. Otherwise, those "
 "instructions will not run at all."
 msgstr ""
+"Possiamo usare le condizioni per eseguire azioni [b]in modo selettivo[/b].\n"
+"\n"
+"Le condizioni diramano il tuo codice in due percorsi: se la condizione è "
+"soddisfatta, il computer eseguirà le istruzioni corrispondenti. Altrimenti, "
+"quelle istruzioni non verranno eseguite."
 
 #: course/lesson-13-conditions/lesson.tres:87
 msgid ""
@@ -84,6 +108,9 @@ msgid ""
 "game input largely relies on conditions: [i]if[/i] the player presses the "
 "button on a gamepad, the character jumps."
 msgstr ""
+"I videogiochi e molti altri programmi per computer sono pieni di condizioni. "
+"Per esempio, gli input di gioco fanno grande affidamento sulle condizioni: "
+"[i]se[/i] il giocatore preme il pulsante sul gamepad, il personaggio salta."
 
 #: course/lesson-13-conditions/lesson.tres:107
 msgid ""
@@ -101,6 +128,19 @@ msgid ""
 "starting with [code]if[/code], type the condition to evaluate, and end the "
 "line with a colon."
 msgstr ""
+"Quando il computer controlla una condizione, si dice che [b]valutano[/b] una "
+"condizione. Tutte le condizioni [b]valutano[/b] che la condizione sia o "
+"[code]vera[/code] o [code]falsa[/code].\n"
+"\n"
+"O il giocatore sta premendo il pulsante, oppure no. O il personaggio sta "
+"toccando un nemico, oppure no. \n"
+"\n"
+"Nel nostro caso, [i]se[/i] la vita va sotto un valore minimo, lo vogliamo "
+"resettare la massimo.\n"
+"\n"
+"Per definire una condizione, usiamo la parola chiave [code]if[/code]. "
+"Scriviamo una riga che inizia con [code]if[/code], inseriamo la condizione "
+"da valutare e finiamo con i due punti."
 
 #: course/lesson-13-conditions/lesson.tres:133
 msgid ""
@@ -115,10 +155,21 @@ msgid ""
 "The computer knows which instructions belong to the condition because they "
 "are indented."
 msgstr ""
+"Nota il segno [code]>[/code] di comparazione. Interpretiamo questo simbolo "
+"come \"maggiore di\". \n"
+"\n"
+"Abbiamo visto come le definizioni delle funzioni mettono i due punti alla "
+"fine e inseriscono il contenuto indentato all'interno.\n"
+"\n"
+"In GDScript, questa sintassi è un motivo ricorrente per tutti i blocchi di "
+"codice.\n"
+"\n"
+"Il computer capisce quali istruzioni appartengono alla condizione attraverso "
+"le indentazioni."
 
 #: course/lesson-13-conditions/lesson.tres:157
 msgid "Comparisons"
-msgstr ""
+msgstr "Comparazioni"
 
 #: course/lesson-13-conditions/lesson.tres:159
 msgid ""
@@ -134,10 +185,21 @@ msgid ""
 "\n"
 "Here's how we might use these in [code]if[/code] statements.\n"
 msgstr ""
+"Nell'esempio qui sopra, abbiamo usato la sintassi [code]>[/code] per "
+"intendere \"maggiore di\".\n"
+"\n"
+"Possiamo comparare numeri anche in altri modi.\n"
+"\n"
+"[code]>[/code] significa \"maggiore di\"\n"
+"[code]<[/code] significa \"minore di\"\n"
+"[code]==[/code] significa \"uguale a\"\n"
+"[code]!=[/code] significa \"diverso da\"\n"
+"\n"
+"Ecco come potremmo usare queste condizioni [code]if[/code].\n"
 
 #: course/lesson-13-conditions/lesson.tres:187
 msgid "Which of these statements are true?"
-msgstr ""
+msgstr "Quali di queste affermazioni è vera?"
 
 #: course/lesson-13-conditions/lesson.tres:190
 msgid ""
@@ -153,33 +215,44 @@ msgid ""
 "The comparison [code]3 < 1[/code] means \"three is less than one\" which is "
 "[b]false[/b]."
 msgstr ""
+"Il confronto [code]3 > 1[/code] significa \"tre è maggiore di uno\" che è "
+"[b]vero[/b].\n"
+"Il confronto [code]2 < 3[/code] significa \"due è minore di tre\" che è "
+"[b]vero[/b].\n"
+"Il confronto [code]1 != 3[/code] significa \"uno è diverso da tre\" che è "
+"[b]vero[/b].\n"
+"\n"
+"Il confronto [code]2 == 1[/code] significa \"due è uguale a uno\" che è "
+"[b]falso[/b].\n"
+"Il confronto [code]3 < 1[/code] significa \"tre è minore di uno\" che è "
+"[b]falso[/b]."
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "3 > 1"
-msgstr ""
+msgstr "3 > 1"
 
 #: course/lesson-13-conditions/lesson.tres:196
 msgid "2 == 1"
-msgstr ""
+msgstr "2 == 1"
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "2 < 3"
-msgstr ""
+msgstr "2 < 3"
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "1 != 3"
-msgstr ""
+msgstr "1 != 3"
 
 #: course/lesson-13-conditions/lesson.tres:196
 msgid "3 < 1"
-msgstr ""
+msgstr "3 < 1"
 
 #: course/lesson-13-conditions/lesson.tres:204
 msgid "Or else..."
-msgstr ""
+msgstr "Altrimenti..."
 
 #: course/lesson-13-conditions/lesson.tres:206
 msgid ""
@@ -189,22 +262,31 @@ msgid ""
 "You can write an [code]else[/code] block after an [code]if[/code] block, "
 "like so."
 msgstr ""
+"La parola chiave [code]if[/code] ha un'altra parola chiave complementare "
+"[code]else[/code].\n"
+"\n"
+"Puoi scrivere un blocco [code]else[/code] solo dopo un blocco [code]if[/code]"
+", così."
 
 #: course/lesson-13-conditions/lesson.tres:228
 msgid ""
 "The [code]else[/code] block will run whenever the condition above it isn't "
 "met."
 msgstr ""
+"Il blocco [code]else[/code] si eseguirà ogniqualvolta che la condizione "
+"sopra non è raggiunta."
 
 #: course/lesson-13-conditions/lesson.tres:238
 msgid ""
 "In the following practices, we'll use conditions and improve the way our "
 "character's health changes so it has limits."
 msgstr ""
+"Nelle seguenti pratiche, useremo le condizioni per migliorare il modo in cui "
+"la vita del nostro personaggio cambia cosicché abbia dei limiti."
 
 #: course/lesson-13-conditions/lesson.tres:246
 msgid "Using Comparisons"
-msgstr ""
+msgstr "Usando Le Comparazioni"
 
 #: course/lesson-13-conditions/lesson.tres:247
 msgid ""
@@ -227,16 +309,36 @@ msgid ""
 "Because [code]health = 100[/code], this is false so [code]print(\"health is "
 "greater than five.\")[/code] won't run."
 msgstr ""
+"Questa serie di condizioni [code]if[/code] sono tutte sbagliate. Cambia le "
+"comparazioni cosicché ognuna rispecchi le istruzioni sotto di esse.\n"
+"\n"
+"Mantieni i valori e le condizioni così come sono; cambia solo il segno di "
+"comparazione.\n"
+"\n"
+"Come promemoria, ecco i vari segni di comparazione:\n"
+"[code]\n"
+"> maggiore di\n"
+"< minore di\n"
+"== uguale a\n"
+"!= diverso da\n"
+"[/code]\n"
+"\n"
+"La riga [code]health < 5:[/code] significa \"la vita è minore di 5\". \n"
+"\n"
+"Poiché [code]health = 100[/code], questo è falso quindi [code]print(\"health "
+"is greater than five.\")[/code] non verrà eseguito."
 
 #: course/lesson-13-conditions/lesson.tres:283
 msgid ""
 "Comparing values allows us to make decisions in code. But there's something "
 "wrong with these statements.."
 msgstr ""
+"Comparare valori ci consente di prendere delle decisioni nel nostro codice. "
+"Ma c'è qualcosa di sbagliato in queste condizioni.."
 
 #: course/lesson-13-conditions/lesson.tres:288
 msgid "Limiting Healing"
-msgstr ""
+msgstr "Limitando Le Cure"
 
 #: course/lesson-13-conditions/lesson.tres:289
 msgid ""
@@ -245,16 +347,23 @@ msgid ""
 "Add to the function so the character's health is never greater than "
 "[code]80[/code]."
 msgstr ""
+"Abbiamo una funzione di cura che aggiunge una quantità alla vita del "
+"personaggio.\n"
+"\n"
+"Aggiungi alla funzione cosicché la vita del personaggio non sia mai maggiore "
+"di [code]80[/code]."
 
 #: course/lesson-13-conditions/lesson.tres:301
 msgid ""
 "As much as we might like, we don't want our robot to have too much health. "
 "Limit how much healing the robot can take."
 msgstr ""
+"Per quanto ci potrebbe stare simpatico, non vogliamo che il nostro robot "
+"abbia troppa vita. Limita quanto il robot si possa curare."
 
 #: course/lesson-13-conditions/lesson.tres:306
 msgid "Preventing Health from Going Below Zero"
-msgstr ""
+msgstr "Impedendo Che La Vita Superi Lo Zero"
 
 #: course/lesson-13-conditions/lesson.tres:307
 msgid ""
@@ -271,13 +380,26 @@ msgid ""
 "If [code]health[/code] goes below [code]0[/code], set it to [code]0[/code] "
 "again."
 msgstr ""
+"Quando il robot prende danno, la sua vita può essere negativa.\n"
+"\n"
+"Potremmo voler mostrare la i punti vita su schermo, come nei JRPG.\n"
+"\n"
+"Non vogliamo i numeri negativi. Vogliamo fermarci a zero invece.\n"
+"\n"
+"Chiamare la funzione dovrebbe ridurre [code]health[/code] di "
+"[code]amount[/code].\n"
+"\n"
+"Se [code]health[/code] va sotto [code]0[/code], settala a [code]0[/code] di "
+"nuovo."
 
 #: course/lesson-13-conditions/lesson.tres:325
 msgid ""
 "Having a negative health value doesn't make a lot of sense. Make sure the "
 "robot's health can't go below zero."
 msgstr ""
+"Avere una vita negativa non ha molto senso. Fa sì ché la vita del robot non "
+"possa mai andare sotto zero."
 
 #: course/lesson-13-conditions/lesson.tres:329
 msgid "Conditions"
-msgstr ""
+msgstr "Condizioni"
