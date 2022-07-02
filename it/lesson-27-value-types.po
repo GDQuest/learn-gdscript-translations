@@ -6,18 +6,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Learn GDScript From Zero  \n"
+"Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-07 21:03+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-07-02 10:17+0000\n"
+"Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-27-value-types/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: course/lesson-27-value-types/lesson.tres:13
 msgid ""
@@ -31,10 +33,19 @@ msgid ""
 "As a result, it's essential to understand types: they are not fully "
 "compatible with one another, and misusing them will cause errors."
 msgstr ""
+"Nel tuo codice, i valori hanno un particolare [i]tipo[/i]. Ne hai già "
+"imparati vari: numeri interi, numeri decimali, stringhe, vettori 2D, array e "
+"dizionari.\n"
+"\n"
+"Il computer usa i tipi di valore per sapere quali operazioni e funzioni puoi "
+"usare su di essi.\n"
+"\n"
+"Per questo, è dunque necessario capire i tipi di valore: spesso non sono "
+"compatibili l'un l'altro e usarli male può causare errori."
 
 #: course/lesson-27-value-types/lesson.tres:25
 msgid "A prime example"
-msgstr ""
+msgstr "Un buon esempio"
 
 #: course/lesson-27-value-types/lesson.tres:27
 msgid ""
@@ -42,6 +53,9 @@ msgid ""
 "health as a whole number, a value of type [code]int[/code] (short for "
 "integer)."
 msgstr ""
+"Vuoi mostrare la vita del giocatore nell'interfaccia. Il tuo codice "
+"rappresenta la vita come un numero intero, un valore di tipo [code]int[/code]"
+" (abbreviazione di intero)."
 
 #: course/lesson-27-value-types/lesson.tres:47
 msgid ""
@@ -50,14 +64,18 @@ msgid ""
 "\n"
 "You can concatenate two strings with the [code]+[/code] operator."
 msgstr ""
+"Tuttavia, per mostrarlo sullo schermo del giocatore, il computer vuole del "
+"testo: necessita un valore di tipo [code]String[/code].\n"
+"\n"
+"Puoi concatenare due stringhe con l'operatore [code]+[/code]."
 
 #: course/lesson-27-value-types/lesson.tres:69
 msgid "So the following code looks like it could work at first glance."
-msgstr ""
+msgstr "Il seguente codice sembra che possa funzionare, a prima vista."
 
 #: course/lesson-27-value-types/lesson.tres:89
 msgid "But when running the code, we get this strange error."
-msgstr ""
+msgstr "Ma quando il codice viene eseguito, otteniamo questo strano errore."
 
 #: course/lesson-27-value-types/lesson.tres:109
 msgid ""
@@ -67,10 +85,15 @@ msgid ""
 "In that case, you need to convert the [code]health[/code] number into a "
 "[code]String[/code]."
 msgstr ""
+"Ti dice che non puoi sommare due valori di tipo [code]String[/code] e "
+"[code]int[/code]: sono incompatibili.\n"
+"\n"
+"In questo caso, devi convertire il numero della [code]health[/code] in una "
+"[code]String[/code]."
 
 #: course/lesson-27-value-types/lesson.tres:119
 msgid "Converting values into strings"
-msgstr ""
+msgstr "Convertire i valori in stringhe"
 
 #: course/lesson-27-value-types/lesson.tres:121
 msgid ""
@@ -81,16 +104,24 @@ msgid ""
 "You can use this function whenever you want to turn some number or vector "
 "into text."
 msgstr ""
+"Puoi ottenere la rappresentazione a testo di un valore chiamando la funzione "
+"[code]str()[/code] (abbreviazione di stringa). La funzione ritorna il suo "
+"argomento come una nuova [code]String[/code].\n"
+"\n"
+"Puoi usare questa funzione quando vuoi trasformare un numero o un vettore in "
+"testo."
 
 #: course/lesson-27-value-types/lesson.tres:143
 msgid ""
 "In this case, it turns the number [code]100[/code] into the string "
 "[code]\"100\"[/code]. Or whatever number [code]health[/code] is currently."
 msgstr ""
+"In questo caso, trasforma il numero [code]100[/code] nella stringa [code]"
+"\"100\"[/code]. O qualsiasi numero [code]health[/code] sia correntemente."
 
 #: course/lesson-27-value-types/lesson.tres:151
 msgid "Converting strings into numbers"
-msgstr ""
+msgstr "Convertire stringhe in numeri"
 
 #: course/lesson-27-value-types/lesson.tres:153
 msgid ""
@@ -100,10 +131,16 @@ msgid ""
 "Those functions can convert what the player writes in a text field into a "
 "number. For example, the number of potions to sell at once in a shop."
 msgstr ""
+"Puoi pure convertire stringhe in numeri interi o numeri decimali usando "
+"rispettivamente le funzioni [code]int()[/code] e [code]float()[/code].\n"
+"\n"
+"Queste funzioni possono convertire ciò che il giocatore scrive in una "
+"casella di testo in un numero. Per esempio, il numero di pozioni da vendere "
+"tutte insieme in un negozio."
 
 #: course/lesson-27-value-types/lesson.tres:173
 msgid "Some types are partially compatible"
-msgstr ""
+msgstr "Alcuni tipi sono parzialmente compatibili"
 
 #: course/lesson-27-value-types/lesson.tres:175
 msgid ""
@@ -113,6 +150,11 @@ msgid ""
 "However, some types are [i]partially[/i] compatible. For example, you can "
 "multiply or divide a vector by a number. "
 msgstr ""
+"La maggior parte dei tipi sono incompatibili. Per esempio, non puoi "
+"direttamente aggiungere o moltiplicare un array con un numero.\n"
+"\n"
+"Tuttavia, alcuni tipi sono [i]parzialmente[/i] compatibili. Per esempio, "
+"puoi moltiplicare o dividere un vettore per un numero. "
 
 #: course/lesson-27-value-types/lesson.tres:197
 msgid ""
