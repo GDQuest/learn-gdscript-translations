@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-04-24 14:13+0000\n"
-"Last-Translator: ueshita <nalto32@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/lesson-4-drawing-a-rectangle/ja/>\n"
+"PO-Revision-Date: 2022-07-17 22:13+0000\n"
+"Last-Translator: TATSUNO Yasuhiro <ytatsuno.jp@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-4-drawing-a-rectangle/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:14
@@ -125,14 +125,12 @@ msgstr ""
 "しょう。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
-#, fuzzy
 msgid "In the function call below, which part is the argument?"
-msgstr "以下の関数の定義において、関数のパラメータはどの部分でしょうか？"
+msgstr "以下の関数の定義において、関数の引数はどの部分でしょうか？"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
-#, fuzzy
 msgid "[code]move_forward(30)[/code]"
-msgstr "[code]func move_forward(pixels)[/code]"
+msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:127
 msgid ""
@@ -145,6 +143,13 @@ msgid ""
 "This function call will make the turtle move forward by [code]30[/code] "
 "pixels."
 msgstr ""
+"関数の引数とは括弧の中にある値すべてです。この場合はひとつだけですが、コンマ"
+"区切りで複数にもできます。\n"
+"\n"
+"この場合、[code]move_forward[/code] が関数の名前で、[code]30[/code] "
+"が引数です。\n"
+"\n"
+"この関数の呼び出しで、カメを [code]30[/code] ピクセル移動させるでしょう。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 msgid "move_forward"
@@ -153,7 +158,7 @@ msgstr "move_forward"
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:133
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:140
 msgid "Drawing a Corner"
