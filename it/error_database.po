@@ -6,18 +6,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Learn GDScript From Zero  \n"
+"Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-07 21:03+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-07-05 10:19+0000\n"
+"Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/error-explanations/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:38
@@ -35,6 +37,18 @@ msgid ""
 "do this. Godot 4 should solve this problem, but you need to work around it "
 "in the meantime."
 msgstr ""
+"Una referenza ciclica avviene quando una classe si riferisce a se stessa, "
+"direttamente o indirettamente.\n"
+"\n"
+"Questo può avere due possibili cause:\n"
+"\n"
+"1. Ha usato il nome della classe all'interno di essa.\n"
+"2. Il tuo codice fa riferimento ad un'altra classe che fa riferimento a "
+"questa classe, causando una referenza ciclica senza fine.\n"
+"\n"
+"In ogni modo, a causa di come GDScript funziona in Godot 3, sfortunatamente, "
+"non lo puoi fare. Godot 4 dovrebbe risolvere questo problema, ma per ora "
+"avrai bisogno di un metodo alternativo."
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:38
@@ -45,6 +59,12 @@ msgid ""
 "causing cyclic references. It solves the problem in the vast majority of "
 "cases."
 msgstr ""
+"Elimina il suggerimento di tipo nella riga di errore e il problema dovrebbe "
+"scomparire. \n"
+"\n"
+"A GDQuest, quando incontriamo questo errore, rimuoviamo i suggerimenti di "
+"tipo sulle righe che causano le referenze cicliche. Questo risolve il "
+"problema nella maggior parte dei casi."
 
 #. Reference: INVALID_INDENTATION
 #: script_checking/error_database.csv:45
@@ -57,6 +77,13 @@ msgid ""
 "The computer uses those leading tab characters on code lines to know which "
 "lines of code are part of a code block, like a function."
 msgstr ""
+"L'indentazione del tuo codice (il numero di caratteri di tabbazione "
+"all'inizio della riga) è incorretto.\n"
+"\n"
+"Ti manca uno o più simboli di tabbazione o ne ha inseriti troppi.\n"
+"\n"
+"Il computer usa quei caratteri iniziali per capire quali righe fanno parte "
+"di un blocco di codice, come una funzione."
 
 #. Reference: INVALID_INDENTATION
 #: script_checking/error_database.csv:45
@@ -68,6 +95,12 @@ msgid ""
 "In other words, your line should have one more leading tab character than "
 "the function definition."
 msgstr ""
+"Se la riga di codice con l'errore è subito dopo una riga che finisce con dei "
+"due punti, come una definizione di funzione, devi aggiungere un livello di "
+"indentazione extra rispetto alla riga precedente.\n"
+"\n"
+"In altre parole, la tua riga dovrebbe avere un'indentazione iniziale "
+"maggiore rispetto alla definizione della funzione."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: script_checking/error_database.csv:54
@@ -82,6 +115,15 @@ msgid ""
 "Note that this error can appear [b]after[/b] the line causing it due to how "
 "the computer reads and analyzes your code."
 msgstr ""
+"Ricevi questo errore quando scrivi qualcosa di sintatticamente invalido o ti "
+"manca qualcosa per completare questa riga o le righe precedenti del codice.\n"
+"\n"
+"Devi essere estremamente preciso quando scrivi codice per il computer. "
+"Questi tipi di errore sono molto facili da ottenere poiché basta sbagliare "
+"un solo carattere.\n"
+"\n"
+"Nota che questo errore si manifesta [b]dopo[/b] la riga che lo causa poiché "
+"il computer legge e analizza il tuo codice in questo modo."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: script_checking/error_database.csv:54
@@ -97,6 +139,17 @@ msgid ""
 "expression, like a closing bracket. In this case, it most likely comes from "
 "the line with the error."
 msgstr ""
+"Il modo per risolvere questo tipo di errori dipende fortemente dal contesto. "
+"Il messaggio di errore ti dovrebbe dire quale carattere o elemento è "
+"mancante.\n"
+"\n"
+"Se l'errore dice \"expected\", probabilmente ti manca qualcosa in una delle "
+"righe di codice [b]precedenti[/b]. Potrebbe essere un simbolo di "
+"punteggiatura, una parentesi o qualcos'altro.\n"
+"\n"
+"Se dice \"unterminated\", ti manca qualche carattere alla fine di "
+"un'espressione, come una parentesi chiusa. In questo caso, molto "
+"probabilmente l'errore viene dalla riga specificata."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:57
@@ -107,6 +160,12 @@ msgid ""
 "Three keywords in GDScript work like function calls and require parentheses: "
 "[code]yield()[/code], [code]preload()[/code], and [code]assert()[/code]."
 msgstr ""
+"Questo errore ti dice ti manca una parentesi (o certe volte una virgola o un "
+"percorso).\n"
+"\n"
+"Tre parole chiave in GDScript funzionano come delle chiamate di funzione e "
+"richiedono delle parentesi: [code]yield()[/code], [code]preload()[/code] e "
+"[code]assert()[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:57
@@ -114,6 +173,8 @@ msgid ""
 "To address the error, you want to add the missing opening parenthesis, the "
 "closing parenthesis, or the comma."
 msgstr ""
+"Per risolvere l'errore, devi aggiungere le parentesi di apertura mancanti, "
+"le parentesi di chiusura o la virgola."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: script_checking/error_database.csv:58
@@ -121,6 +182,8 @@ msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
 msgstr ""
+"Questo errore ti dice che ti mancano delle parentesi, una virgola o qualche "
+"valore nel tuo suggerimento di export."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: script_checking/error_database.csv:58
@@ -128,6 +191,8 @@ msgid ""
 "You need to read the error message and add the missing character or value it "
 "requests."
 msgstr ""
+"Devi leggere il messaggio di errore e aggiungere il carattere mancante o il "
+"valore richiesto."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: script_checking/error_database.csv:68
@@ -140,6 +205,15 @@ msgid ""
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
+"Questo errore avviene in molti casi:\n"
+"\n"
+"1. Hai scritto un identificatore (il nome di una variabile o di una funzione)"
+" nel posto sbagliato.\n"
+"2. Hai scritto una parola chiave come [code]var[/code], [code]func[/code], "
+"[code]for[/code] o [code]signal[/code] e non l'hai accompagnata con un nome."
+"\n"
+"3. Hai scritto una definizione di funzione e hai dimenticato le parentesi "
+"prima della virgola."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: script_checking/error_database.csv:68
@@ -157,6 +231,20 @@ msgid ""
 "function definition, [code]for[/code] loop, or a line starting with "
 "[code]if[/code], [code]elif[/code], or [code]else[/code]."
 msgstr ""
+"Se l'errore ti dice che si aspettava qualcosa, probabilmente hai dimenticato "
+"di scrivere un nome dopo una parola chiave come [code]var[/code], "
+"[code]func[/code], [code]for[/code] o [code]signal[/code], rendendo il tuo "
+"codice non valido. Oppure hai dimenticato le parentesi nella definizione di "
+"una funzione. Puoi risolvere l'errore aggiungendo il nome o le parentesi "
+"mancanti.\n"
+"\n"
+"Se l'errore dice che c'è qualcosa di inaspettato, probabilmente ti manca un "
+"una parola chiave come [code]var[/code], [code]func[/code], [code]for[/code]"
+", ecc.\n"
+"\n"
+"Un'altra possibilità può essere che devi scrivere dei due punti alla fine "
+"della definizione di una funzione, di un ciclo [code]for[/code] o di una "
+"riga che inizia con [code]if[/code], [code]elif[/code] o [code]else[/code]."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: script_checking/error_database.csv:73
@@ -172,6 +260,17 @@ msgid ""
 "It also occurs when you write an arrow ([code]->[/code]) after the "
 "parentheses of a function definition but do not follow it with a type name."
 msgstr ""
+"Questo errore ti dice che ti manca un tipo da qualche parte. Un tipo può "
+"essere [code]int[/code], [code]float[/code], [code]String[/code], "
+"[code]Array[/code], [code]Vector2[/code] e molti altri identificatori che "
+"rappresentano strutture di dati.\n"
+"\n"
+"La maggior parte delle volte, questo errore si verifica quando scrivi dei "
+"due punti dopo il nome di una variabile ma non li accompagni con il nome di "
+"un tipo.\n"
+"\n"
+"Si verifica pure quando scrivi una freccia ([code]->[/code]) dopo le "
+"parentesi di una funzione ma non la accompagni con il nome di un tipo."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: script_checking/error_database.csv:73
@@ -180,6 +279,9 @@ msgid ""
 "(in the case of function return types), inside parentheses (for export "
 "types), or after the [code]as[/code] keyword."
 msgstr ""
+"Per risolverlo, devi scrivere il nome del tipo dopo i due punti, freccia ("
+"nel caso di del tipo di ritorno di una funzione), dentro le parentesi (oer i "
+"tipi da esportare) o dopo la parola chiave [code]as[/code]."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: script_checking/error_database.csv:82
@@ -193,6 +295,15 @@ msgid ""
 "The other cause for this error is that you didn't define the variable, "
 "function, or class you're trying to access."
 msgstr ""
+"La variabile, nome della funzione, o nome della classe che stai cercando di "
+"usare non esiste.\n"
+"\n"
+"Spesso ottieni questo errore quando fai degli errori di battitura. Forse hai "
+"scambiato due lettere, dimenticato lettere... certe volte è difficile da "
+"trovare.\n"
+"\n"
+"L'altro caso in cui questo errore si verifica è quando non definisci la "
+"variabile, la funzione o la classe che stai cercando di usare."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: script_checking/error_database.csv:82
@@ -205,6 +316,14 @@ msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
+"Per risolvere questo errore, controlla più volte che non ci siano errori di "
+"battitura (typo) nella riga.\n"
+"\n"
+"Se puoi, cerca di andare alla definizione della variabile o della funzione, "
+"clicca due volte il nome, copialo e incollalo dove vedi l'errore.\n"
+"\n"
+"Se non vedi alcun typo, allora ti devi assicurare che hai definito quella "
+"variabile, funzione o classe a cui ti riferisci."
 
 #. Reference: MISPLACED_KEYWORD
 #: script_checking/error_database.csv:87
@@ -216,6 +335,13 @@ msgid ""
 "loop.\" And the [code]break[/code] keyword means \"end the loop right now "
 "and jump to the first line of code after the loop block."
 msgstr ""
+"Puoi solamente usare parole chiave come [code]break[/code] o "
+"[code]continue[/code] in un ciclo. Fuori dal ciclo, sono invalide.\n"
+"\n"
+"La parola chiave [code]continue[/code] significa \"salta la prossima "
+"iterazione del ciclo\". E la parola chiave [code]break[/code] significa "
+"\"finisci il ciclo adesso e salta alla prima riga di codice dopo il blocco "
+"del ciclo\"."
 
 #. Reference: MISPLACED_KEYWORD
 #: script_checking/error_database.csv:87
@@ -226,6 +352,11 @@ msgid ""
 "at fault. You may need to insert one or more leading tab characters to the "
 "keyword."
 msgstr ""
+"Se scrivi una di queste parole chiave fuori da un ciclo, devi rimuoverla.\n"
+"\n"
+"Se stai cercando di usarlo all'interno di un ciclo, la tua indentazione è "
+"probabilmente sbagliata. Potresti dover inserire uno o più caratteri di "
+"tabbazione iniziali alla parola chiave."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: script_checking/error_database.csv:92
@@ -237,6 +368,12 @@ msgid ""
 "computer will reject function calls and variables where it needs a constant "
 "expression."
 msgstr ""
+"Quando il computer parla di un'espressione costante, si aspetta un valore "
+"fisso, un calcolo fisso o un nome si una costante esistente.\n"
+"\n"
+"In altre parole, vuole qualcosa che non può mai cambiare. Questo è il motivo "
+"pe cui il computer rifiuterà le chiamate di funzione e le variabili dove "
+"necessita di un'espressione costante."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: script_checking/error_database.csv:92
@@ -247,6 +384,11 @@ msgid ""
 "You can also use arithmetic operators like multiplications (*), additions "
 "(+), and so on."
 msgstr ""
+"Devi rimpiazzare le chiamate di funzione o le variabili con un valore "
+"costante come un numero intero, stringa, vettore un array predefinito, ecc.\n"
+"\n"
+"Puoi pure usare un'operazione aritmetica come le moltiplicazioni (*), "
+"addizioni (+) e così via."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: script_checking/error_database.csv:97
@@ -257,6 +399,11 @@ msgid ""
 "We typically write class names in PascalCase: with a capital letter at the "
 "start of every word that composes the class name."
 msgstr ""
+"Quando definisci una nuova classe, devi seguire uno schema specifico. Devi "
+"scrivere il nome in testo semplice, che inizi con una lettera.\n"
+"\n"
+"Tipicamente scriviamo il nome di una classe in PascalCase: con una lettera "
+"maiuscola all'inizio di ogni parola che compone il nome della classe."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: script_checking/error_database.csv:97
@@ -267,6 +414,11 @@ msgid ""
 "\n"
 "You can optionally use numbers in the name, but not in the first position."
 msgstr ""
+"Per risolvere questo errore, rimpiazza qualsiasi cosa tu abbia messo dopo le "
+"parole chiave \"extends\" o \"class_name\" con un nome senza spazi e che "
+"inizi con una lettera maiuscola.\n"
+"\n"
+"Volendo puoi inserire i numeri nel nome, ma non nella prima posizione."
 
 #. Reference: DUPLICATE_DECLARATION
 #: script_checking/error_database.csv:102
@@ -277,6 +429,12 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file, "
 "but it may also be in a parent class that this GDScript code extends."
 msgstr ""
+"Stai cercando di definire una funzione o una variabile che già esiste; Non "
+"lo puoi fare.\n"
+"\n"
+"Forse la funzione o la variabile già esiste nel corrente file di codice, ma "
+"potrebbe pure essere in una classe genitore che questo codice GDScript "
+"estende."
 
 #. Reference: DUPLICATE_DECLARATION
 #: script_checking/error_database.csv:102
@@ -287,6 +445,12 @@ msgid ""
 "When that happens, you need to either rename your function or variable to "
 "one that will not collide with an existing one or remove this line of code."
 msgstr ""
+"Nell'applicazione, il tuo codice estende alcuni codici integrati di Godot a "
+"cui tu non puoi accedere.\n"
+"\n"
+"Quando questo succede, devi o rinominare la tua funzione o la variabile con "
+"un nome che non entri in conflitto con uno già esistente o rimuovi questa "
+"riga di codice."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: script_checking/error_database.csv:107
@@ -296,6 +460,10 @@ msgid ""
 "Perhaps the signal already exists in the current code file, but it may also "
 "be in a parent class that this GDScript code extends."
 msgstr ""
+"Stai cercando di definire un segnale che già esiste; Non puoi farlo.\n"
+"\n"
+"Forse il segnale già esiste nel seguente file di codice, ma potrebbe pure "
+"essere in una classe genitore che questo codice GDScript estende."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: script_checking/error_database.csv:107
@@ -306,6 +474,11 @@ msgid ""
 "When that happens, you need to either rename your signal to one that will "
 "not collide with an existing one or remove this line of code."
 msgstr ""
+"Nell'applicazione, il tuo codice estende alcuni codici integrati di Godot a "
+"cui tu non puoi accedere.\n"
+"\n"
+"Quando questo succede, devi o rinominare il tuo segnale con un nome che non "
+"entri in conflitto con uno già esistente o rimuovi questa riga di codice."
 
 #. Reference: SIGNATURE_MISMATCH
 #: script_checking/error_database.csv:112
@@ -321,6 +494,17 @@ msgid ""
 "also to have two arguments. If you use type hints in your function "
 "definitions, the argument types must match the parent class."
 msgstr ""
+"La funzione che stai cercando di definire esiste in una classe genitore, "
+"quindi la tua definizione sovrascrive la funzione della classe genitore.\n"
+"\n"
+"Quando sovrascrivi la funzione di una classe genitore, la nuova funzione "
+"deve combaciare con quella genitore. La nuova funzione dovrebbe avere lo "
+"stesso numero e tipo di parametri della classe genitore.\n"
+"\n"
+"Per esempio, se il genitore ha due argomenti, devi far sì che la tua nuova "
+"funzione abbia due argomenti. Se usi i suggerimenti di tipo nella "
+"definizione della tua funzione, i tipi dell'argomento devono combaciare la "
+"classe genitore."
 
 #. Reference: SIGNATURE_MISMATCH
 #: script_checking/error_database.csv:112
@@ -329,6 +513,10 @@ msgid ""
 "reference. Then, you need to edit your function definition to have the same "
 "number and type of parameters as the parent class."
 msgstr ""
+"Devi controllare la funzione della classe genitore e la sua definizione nel "
+"riferimento del codice. Poi, devi modificare la tua funzione di definizione "
+"per far sì che abbia lo stesso numero e tipo di parametri della classe "
+"genitore."
 
 #. Reference: INVALID_ARGUMENTS
 #: script_checking/error_database.csv:113
@@ -337,6 +525,9 @@ msgid ""
 "wrong number of arguments or the wrong kind of argument. You will need to "
 "use the error message to see what is going wrong."
 msgstr ""
+"Questo intero insieme di errori ha a che fare con chiamate di funzioni che "
+"hanno o il numero errato di argomenti o il tipo errato dell'argomento. "
+"Dovrai usare il messaggio di errore per vedere cosa è andato storto."
 
 #. Reference: INVALID_ARGUMENTS
 #: script_checking/error_database.csv:113
@@ -346,6 +537,10 @@ msgid ""
 "need, you need to check the code reference. It will show you the function "
 "definition and the mandatory arguments."
 msgstr ""
+"Devi rimuovere, aggiungere o cambiare i valori che stai cercando di passare "
+"alla funzione per risolvere questo problema. Per sapere esattamente quanti "
+"argomenti ti servono, devi controllare il rimando del codice. Ti mostrerà la "
+"definizione della funzione e gli argomenti obbligatori."
 
 #. Reference: TYPE_MISMATCH
 #: script_checking/error_database.csv:124
@@ -363,6 +558,18 @@ msgid ""
 "You'll need to read the error message to see what is not matching because "
 "there are many possible cases."
 msgstr ""
+"Tutti i valori nel tuo codice hanno dei tipi specifici. Questo tipo può "
+"essere un numero intero (int), un numero decimale (float), testo (String) e "
+"così via. Ci sono un sacco di possibili tipi e puoi anche definire il tuo!\n"
+"\n"
+"Quando fai ogni operazione, il computer compara i tipi che stai usando.\n"
+"\n"
+"Alcuni tipi sono compatibili e altri no. Per esempio, non puoi aggiungere "
+"direttamente dei numeri interi ad una stringa di testo. Devi prima "
+"convertirei numeri in testo.\n"
+"\n"
+"Devi leggere il messaggio di errore per vedere cosa non combacia perchè ci "
+"sono molti casi possibili."
 
 #. Reference: TYPE_MISMATCH
 #: script_checking/error_database.csv:124
@@ -378,6 +585,16 @@ msgid ""
 "while you can add two 2D vectors, you can't add a whole number or text to a "
 "2D vector."
 msgstr ""
+"Se l'errore menziona il tipo di valore assegnato che non combacia con la "
+"variabile, il problema è alla destra del segno di uguaglianza (=).\n"
+"\n"
+"Se l'errore parla di un tipo di valore di ritorno che non combacia con la "
+"funzione, allora è il valore dopo la parola chiave return che dà problemi.\n"
+"\n"
+"Se il computer parla di un operando invalido, allora il problema è che "
+"l'operazione non esiste per il tipo che stai cercando di usare. Per esempio: "
+"puoi sommare due vettori 2D tra di loro, ma non puoi aggiungere un numero "
+"intero o del testo ad un vettore 2D."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: script_checking/error_database.csv:129
@@ -389,6 +606,12 @@ msgid ""
 "When that happens, you need to specify the type yourself or remove type "
 "inference altogether for this variable."
 msgstr ""
+"GDScript supporta l'inferenza del tipo. Il computer riconoscerà "
+"automaticamente il tipo del valore con cui stai valorando. In alcuni casi, "
+"tuttavia, non riesce a riconoscerlo.\n"
+"\n"
+"Quando questo succede, devi specificare tu stesso il tipo o rimuovere "
+"l'inferenza del tipo per quella variabile."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: script_checking/error_database.csv:129
@@ -400,6 +623,13 @@ msgid ""
 "We recommend specifying the type whenever possible to reap the typing "
 "system's benefits."
 msgstr ""
+"Il modo più semplice per risolvere questo errore è quello di rimuovere i "
+"tipi per questa variabile o per gli argomenti di questa funzione. "
+"Altrimenti, puoi specificare manualmente il tipo di valore con dei due punti."
+"\n"
+"\n"
+"Ti consigliamo di specificare il tipo quando possibile per sfruttare i "
+"vantaggi del sistema di scrittura."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:135
@@ -413,6 +643,15 @@ msgid ""
 "2. You specified a return type for your function, but you are not returning "
 "a value in all possible branches (if, elif, and else blocks) or at the end."
 msgstr ""
+"C'è un problema con il valore di ritorno della tua funzione. I casi "
+"possibili sono due:\n"
+"\n"
+"1. La tua funzione è una funzione void, dunque non dovrebbe ritornare alcun "
+"valore. Questo include le funzioni con la sintassi \"-> void\" e i "
+"costruttori di classi \"_init()\".\n"
+"2. Hai specificato un tipo di ritorno per la tua funzione, ma non stai "
+"ritornato un valore in ogni possibile ramificazione (blocchi if, elif e else)"
+" o alla fine."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:135
@@ -424,6 +663,13 @@ msgid ""
 "When you use a return type, you must always return something at the end of "
 "the function or in every branch (if, elif, and else block) of the function."
 msgstr ""
+"Quando la tua funzione è \"void\", non dovresti mai ritornare un valore. "
+"Puoi usare la parola chiave \"return\" per finire prima la funzione, ma non "
+"dovresti mai scrivere niente dopo questa.\n"
+"\n"
+"Quando usi un tipo di ritorno, devi sempre ritornare qualcosa alla fine "
+"della funzione o in ogni possibile ramificazione (blocchi if, elif e else) "
+"della funzione."
 
 #. Reference: INVALID_NO_CATCH
 #: script_checking/error_database.csv:137
@@ -431,17 +677,20 @@ msgid ""
 "Godot was unable to load your script, yet the language checker found nothing "
 "wrong."
 msgstr ""
+"Godot non è riuscito a caricare il tuo script, ma il tuo correttore di "
+"codice non ha trovato nulla di sbagliato."
 
 #. Reference: INVALID_NO_CATCH
 #: script_checking/error_database.csv:137
 msgid ""
 "Please click on the \"report\" button at the top and please let us know."
-msgstr ""
+msgstr "Per favore clicca sul pulsante \"report\" in alto e facci sapere."
 
 #. Reference: RECURSIVE_FUNCTION
 #: script_checking/error_database.csv:138
 msgid "You called a function inside itself. This will loop forever."
 msgstr ""
+"Hai chiamato una funzione dentro se stessa. Questo ciclerà all'infinito."
 
 #. Reference: RECURSIVE_FUNCTION
 #: script_checking/error_database.csv:138
@@ -449,3 +698,5 @@ msgid ""
 "There are valid reasons for using recursive functions, but none of them are "
 "part of this course, so this cannot be a valid solution."
 msgstr ""
+"Ci sono motivi validi per usare funzioni recursive, ma nessuna di queste è "
+"parte di questo corso, quindi questa non può essere una soluzione valida."

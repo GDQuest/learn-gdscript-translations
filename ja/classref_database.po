@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-04-13 00:11+0000\n"
-"Last-Translator: ueshita <nalto32@gmail.com>\n"
+"PO-Revision-Date: 2022-07-17 22:13+0000\n"
+"Last-Translator: TATSUNO Yasuhiro <ytatsuno.jp@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/classref_database/ja/>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: show
@@ -80,6 +80,9 @@ msgid ""
 "[code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] "
 "is false, normalizes the movement."
 msgstr ""
+"ノードの X 座標を [code]Node._process[/code] の [code]delta[/code] "
+"にもとづいて局所変換します。もし [code]scaled[/code] が false "
+"なら、移動量を正規化します。"
 
 #. Reference: board_size
 #: ./course/documentation.csv:13
@@ -87,55 +90,58 @@ msgid ""
 "Stores how many cells make up the width ([code]board_size.x[/code]) and "
 "height ([code]board_size.y[/code]) of the board."
 msgstr ""
+"ボードの幅 [code]board_size.x[/code]) と高さ ([code]board_size.y[/code]) "
+"をどれくらい多くのセルで埋めるかを格納します。"
 
 #. Reference: cell
 #: ./course/documentation.csv:14
 msgid ""
 "The cell position of the robot on the board. [code]Vector2(0, 0)[/code] "
 "is the square cell in the top left of the board."
-msgstr ""
+msgstr "ボード上のロボットのセル位置。[code]Vector2(0, 0)[/code] "
+"はボードの左上の四角形セル。"
 
 #. Reference: range
 #: ./course/documentation.csv:15
 msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
-msgstr ""
+msgstr "[code]0[/code] から [code]length - 1[/code] までの数のリストを作ります。"
 
 #. Reference: play_animation
 #: ./course/documentation.csv:16
 msgid "Orders the robot to play an animation."
-msgstr ""
+msgstr "ロボットにアニメーションを再生するよう命令します。"
 
 #. Reference: select_units
 #: ./course/documentation.csv:17
 msgid "Selects units in the cell coordinates passed as the function's argument."
-msgstr ""
+msgstr "関数の引数として与えられるセル座標の単位を選びます。"
 
 #. Reference: robot.move_to
 #: ./course/documentation.csv:18
 msgid "Queues a move animation towards the target cell."
-msgstr ""
+msgstr "目標セルへの動作アニメーションをキューに入れます。"
 
 #. Reference: array.append
 #: ./course/documentation.csv:19
 msgid "Adds the value passed as an argument at the back of the array."
-msgstr ""
+msgstr "引数として与えられた値を配列の最後に追加します。"
 
 #. Reference: array.pop_front
 #: ./course/documentation.csv:20
 msgid "Removes the first value from the array and returns it."
-msgstr ""
+msgstr "配列から最初の値を取り除き、それを返します。"
 
 #. Reference: array.pop_back
 #: ./course/documentation.csv:21
 msgid "Removes the last value from the array and returns it."
-msgstr ""
+msgstr "配列から最後の値を取り除き、それを返します。"
 
 #. Reference: str
 #: ./course/documentation.csv:22
 msgid ""
 "Returns the argument converted into a [code]String[/code]. Works with the"
 " majority of value types."
-msgstr ""
+msgstr "引数を[code]String[/code]に変換して返します。大部分の値型で動きます。"
 
 #. Reference: int
 #: ./course/documentation.csv:23
@@ -144,20 +150,24 @@ msgid ""
 "[i]if possible[/i]. Supports converting decimal numbers, strings, and "
 "booleans. Useful to convert player text input into numbers."
 msgstr ""
+"引数を[i]可能なら[/i][code]int[/code]（整数）に変換して返します。小数、文字列"
+"、真偽値をサポートしています。プレイヤーのテキスト入力を数値に変換するのに便"
+"利です。"
 
 #. Reference: place_unit
 #: ./course/documentation.csv:24
 msgid ""
 "Creates a new unit matching the type parameter and places it at the "
 "desired cell position on the game grid."
-msgstr ""
+msgstr "型パラメーターにマッチする新しい単位を作成し、それをゲームグリッドの望んだセ"
+"ルの位置に配置にします。"
 
 #. Reference: display_item
 #: ./course/documentation.csv:25
 msgid "Creates a new item and displays it in the inventory."
-msgstr ""
+msgstr "新しいアイテムを作成し、それをインベントリに表示します。"
 
 #. Reference: add_item
 #: ./course/documentation.csv:26
 msgid "Increases the item count by amount."
-msgstr ""
+msgstr "アイテムの個数を増やします。"
