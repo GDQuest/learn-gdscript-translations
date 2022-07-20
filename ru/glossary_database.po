@@ -9,17 +9,18 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-12 05:02+0300\n"
-"Last-Translator: Paul Argent <PaulArgentCode@gmail.com>\n"
-"Language-Team: \n"
-"Language: ru_RU\n"
+"PO-Revision-Date: 2022-07-20 14:56+0000\n"
+"Last-Translator: degradka <degradka@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #. Reference: member function
 #: course/glossary.csv:6
@@ -225,7 +226,7 @@ msgstr ""
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "argument"
-msgstr "argument"
+msgstr "аргумент"
 
 #. Reference: argument
 #: course/glossary.csv:37
@@ -234,7 +235,6 @@ msgstr "аргументы"
 
 #. Reference: argument
 #: course/glossary.csv:37
-#, fuzzy
 msgid ""
 "An argument is a value that you pass to a function when calling the "
 "function. For example, in the call [code]rotate(0.5)[/code], the value "
@@ -258,8 +258,8 @@ msgstr ""
 "круглых скобках является аргументом.\n"
 "\n"
 "Функция может не принимать никаких аргументов, принимать один аргумент или "
-"несколько аргументов. Аргументы могут быть обязательными или "
-"необязательными.\n"
+"несколько аргументов. Аргументы могут быть обязательными или необязательными."
+"\n"
 "\n"
 "Когда функция принимает несколько аргументов, вы разделяете значения "
 "запятыми, как в этом вызове функции: jump(50, 100)\n"
