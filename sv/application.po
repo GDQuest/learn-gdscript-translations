@@ -9,29 +9,29 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-04-06 08:07+0000\n"
-"Last-Translator: Peter Oldhammer <peter.oldhammer@gmail.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/application/sv/>\n"
+"PO-Revision-Date: 2022-08-14 21:20+0000\n"
+"Last-Translator: Johan Thelin <e8johan@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/application/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
 msgid "You need to type a whole number for this answer. Example: 42"
-msgstr "Du kommer behöva skriva ett helt nummer för detta svar. Exempel: 42"
+msgstr "Du behöver skriva ett heltal för detta svar. Exempel: 42"
 
 #: resources/QuizInputField.gd:22
 msgid ""
 "You need to type a decimal for this answer. Use a \".\" to separate the "
 "decimal part. Example: 3.14"
 msgstr ""
-"Du kommer behöva att skriva en decimal för detta svar. Använd ett \".\" för "
-"att separera decimal-delen. Exempel: 3.14"
+"Du behöver skriva ett decimaltal för detta svar. Använd ett \".\" för att "
+"separera decimal-delen. Exempel: 3.14"
 
 #: ui/UILesson.tscn:90
 msgid "Title"
@@ -56,15 +56,15 @@ msgstr "Tips %s"
 
 #: ui/UIPractice.gd:230
 msgid "Validating Your Code..."
-msgstr "Validerar Din Kod..."
+msgstr "Validerar din kod..."
 
 #: ui/UIPractice.gd:286
 msgid "Running Your Code..."
-msgstr "Kör Din Kod..."
+msgstr "Kör din kod..."
 
 #: ui/UIPractice.gd:337
 msgid "Running Tests..."
-msgstr "Kör Test..."
+msgstr "Kör test..."
 
 #: ui/UIPractice.tscn:138
 msgid "Suggested Solution"
@@ -72,7 +72,7 @@ msgstr "Föreslagen lösning"
 
 #: ui/UIPractice.tscn:189
 msgid "Use Solution"
-msgstr "Använd Lösningen"
+msgstr "Använd lösningen"
 
 #: ui/UIPractice.tscn:207
 msgid "Leave unfinished practice?"
@@ -206,7 +206,7 @@ msgid ""
 msgstr ""
 "Tyvärr, vi har inte täckt detta specifika felmeddelande ännu!\n"
 "\n"
-"Vänligen använd [b]Rapport[/b] knappen uppe i högra hörnet för att berätta "
+"Vänligen använd knappen[b]Rapportera[/b] uppe i högra hörnet för att berätta "
 "mer om hur du fick det, så ska vi försöka förbättra vår kunskapsdatabas för "
 "nästa version av applikationen.\n"
 "\n"
@@ -237,7 +237,7 @@ msgid ""
 "next to the error message!"
 msgstr ""
 "Lektioner i denna kursen är byggda på ett sådant sätt att du bara behöver "
-"redigera dom [b]viktiga bitarna[/b]. Men där är mycket mer kod bakom vad du "
+"redigera dom [b]viktiga delarna[/b]. Men det är mycket mer kod bakom vad du "
 "kan se för att få projektet att köra.\n"
 "\n"
 "Detta betyder att ibland så kan ändringar du gör påverka koden som du inte "
@@ -247,7 +247,7 @@ msgstr ""
 "[i]Det är lite så här en spelmotor fungerar också.[/i] Där är mycket gömd "
 "kod som körs för att säkerställa att ditt projekt körs som det ska. Men "
 "trots det så kan ett fel i dina script få dom att krascha. Vi kommer att "
-"försöka att förklara hur man hanterar varje individuellt fel du kan möte. "
+"försöka att förklara hur man hanterar varje individuellt fel du kan möta. "
 "Snabbt, klicka på [b]Förklara[/b] knappen bredvid felmeddelandet!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
@@ -256,7 +256,7 @@ msgstr "Jag förstår!"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
-msgstr "Lektion avklarad!"
+msgstr "Lektionen är avklarad!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
 msgid ""
@@ -354,28 +354,28 @@ msgstr ""
 "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
 "> GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
 "\n"
-"På den sidan kan du rapportera alla fel, oavsett om det är något som ej "
+"På den sidan kan du rapportera alla fel, oavsett om det är något som inte "
 "fungerar eller om där är ett fel i lektionen.\n"
 "\n"
 "Du kan generera en log för att hjälpa oss att identifiera problemet. För att "
-"göra så, klicka här:[b][url=download]generera fel log[/url][/b].\n"
+"göra så, klicka här:[b][url=download]generera fellog[/url][/b].\n"
 "\n"
 "Vänligen dra och släpp den genererade filen i din felanmälan på Github för "
 "att bifoga den.\n"
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]Vad är GitHub[/font]\n"
 "\n"
-"GitHub är en online platform för att hosta och hantera öppen källkod projekt "
-"som t.ex. GDScript Learn appen. Den hjälper utvecklare att organisera deras "
+"GitHub är en onlineplattform för att hosta och hantera öppna källkodsprojekt "
+"som t.ex. GDScript Learn-appen. Den hjälper utvecklare att organisera deras "
 "arbete och samarbeta online.\n"
 "\n"
 "Du kan använda GitHub för att studera källkoden till många öppna projekt, "
 "rapportera problem eller t.o.m. bidra med kod själv.\n"
 "\n"
-"[font=res://ui/theme/fonts/font_title.tres]Hur man rapporterar ett problem[/"
-"font]\n"
+"[font=res://ui/theme/fonts/font_title.tres]Hur man rapporterar ett "
+"problem[/font]\n"
 "\n"
-"1. Klicka på länken ovan för att gå till [i]GitHub Issues[/i] sidan.\n"
+"1. Klicka på länken ovan för att gå till [i]GitHub Issues[/i]-sidan.\n"
 "2. Klicka på knappen [i]New Issue[/i].\n"
 "3. Fyll ut formuläret för att berätta för oss om problemet.\n"
 "\n"
@@ -385,11 +385,11 @@ msgstr ""
 "vilken typ av enhet du använder för att komma åt appen, kanske en bifogad "
 "skärmdump eller ett videoklipp över hur problemet uppstår.\n"
 "\n"
-"[center]Tack för att ni bidrar till öppna projekt![/center]"
+"[center]Tack för att ni bidrar till öppen källkod![/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:158
 msgid "OK"
-msgstr "OK"
+msgstr "Ok"
 
 #: ui/components/popups/SettingsPopup.tscn:79
 msgid "Configure the App"
@@ -413,7 +413,7 @@ msgstr "Bläddringskänslighet"
 
 #: ui/components/popups/SettingsPopup.tscn:193
 msgid "Framerate cap"
-msgstr "Framerate begränsning"
+msgstr "Bildfrekvensbegränsning"
 
 #: ui/components/popups/SettingsPopup.tscn:242
 msgid "Apply"
@@ -433,7 +433,7 @@ msgstr "Starta lektionen"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
 msgid "Lesson Title Goes Here"
-msgstr "Lektion titel kommer hit"
+msgstr "Lektionens titel hamnar här"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
 msgid "Lesson read"
@@ -462,7 +462,7 @@ msgstr "Lektion 0"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
 msgid "Lesson Title"
-msgstr "Lektion titel"
+msgstr "Lektionstitel"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
 msgid "Course Index - "
@@ -470,7 +470,7 @@ msgstr "Kursindex - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
-msgstr "Kurs titel landar här"
+msgstr "Kurstitel hamnar här"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
@@ -478,11 +478,11 @@ msgstr "Återställ framsteg"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
 msgid "Confirm Resetting Progress"
-msgstr "Bekräfta Återställning Av Framgång"
+msgstr "Bekräfta återställning av framsteg"
 
 #: ui/screens/end_screen/EndScreen.tscn:229
 msgid "Congratulations!"
-msgstr ""
+msgstr "Grattis!"
 
 #: ui/screens/end_screen/EndScreen.tscn:236
 msgid ""
@@ -493,10 +493,16 @@ msgid ""
 "can move on to [url=https://www.gdquest.com/tutorial/godot/learning-paths/"
 "getting-started-in-2021/]Getting Started with Godot[/url]."
 msgstr ""
+"Du har slutfört Learn GDScript from Zero. Nu kan du grunderna som du behöver "
+"för att skapa spel med spelmotorn Godot.\n"
+"\n"
+"Om du letar efter gratis innehåll för att fortsätta lära dig grunderna med "
+"oss kan du fortsätta på [url=https://www.gdquest.com/tutorial/godot/"
+"learning-paths/getting-started-in-2021/]Getting Started with Godot[/url]."
 
 #: ui/screens/end_screen/EndScreen.tscn:249
 msgid "Or level up faster by taking this shortcut"
-msgstr ""
+msgstr "Eller fortsätt snabbare med den här genvägen"
 
 #: ui/screens/end_screen/EndScreen.tscn:256
 msgid ""
@@ -511,10 +517,20 @@ msgid ""
 "\n"
 "Learning that on your own can take years."
 msgstr ""
+"Det finns många gratis kurser för att skapa spel, men de är inte en del av "
+"en längre väg.\n"
+"\n"
+"Värre än, de flesta är steg-för-steg-recept. Men som du märkt så kan du inte "
+"lära dig skriva kod genom att skriva av andras recept.\n"
+"\n"
+"Varje projekt har unika utmaningar och kräver [i]kreativ problemlösning[/i]. "
+"Då måste lära dig att [i]tänka som en programmerare[/i].\n"
+"\n"
+"Att lära sig det på egen hand kan ta många år."
 
 #: ui/screens/end_screen/EndScreen.tscn:277
 msgid "Learn to Code From Zero, with Godot"
-msgstr ""
+msgstr "Learn to Code From Zero, med Godot"
 
 #: ui/screens/end_screen/EndScreen.tscn:284
 msgid ""
@@ -528,12 +544,21 @@ msgid ""
 "It's the only course that'll truly teach you [i]how to become a game "
 "developer[/i] with Godot."
 msgstr ""
+"Den här appen är den fria delen av vår djupgående kurs, [url=https://gdquest."
+"mavenseed.com/courses/learn-to-code-from-zero-with-godot][b]Learn to Code "
+"From Zero, with Godot[/b][/url].\n"
+"\n"
+"Kursen fortsätter där den här appen tar slut och tar dig till en punkt där "
+"du kan skapa [i]ditt[/i] spel.\n"
+"\n"
+"Det är den enda kursen som verkligen lär dig [i]att bli en "
+"spelprogrammerare[/i] med Godot."
 
 #: ui/screens/end_screen/EndScreen.tscn:308
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
-msgstr "Läs Mer"
+msgstr "Läs mer"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
@@ -561,7 +586,7 @@ msgstr "Svar här"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr "Placeringshållare titel"
+msgstr "Platshållartitel"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
@@ -581,11 +606,11 @@ msgstr "Du är här"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
-msgstr "Svar etikett"
+msgstr "Svarsetikett"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
 msgid "(select all that apply)"
-msgstr "(välj allt som stämmer)"
+msgstr "(välj alla alternativ som stämmer)"
 
 #: ui/screens/practice/PracticeHint.tscn:8
 msgid "Show Hint"
@@ -601,7 +626,7 @@ msgstr "Egenskapsbeskrivningar"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
 msgid "Summary - Lesson Name"
-msgstr "Summering - Lektionsnamn"
+msgstr "Sammanfattning - Lektionsnamn"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
@@ -625,7 +650,7 @@ msgstr "Öppna övningslista"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:42
 msgid "Test text"
-msgstr "Test text"
+msgstr "Testtext"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:42
 msgid "CONTINUE"
