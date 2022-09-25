@@ -9,24 +9,27 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-09-26 19:22+0000\n"
+"Last-Translator: Worajedt Sitthidumrong <sjedt@3ddaily.com>\n"
+"Language-Team: Thai <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.10.1\n"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member function"
-msgstr ""
+msgstr "ฟังก์ชั่นสมาชิก"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member functions"
-msgstr ""
+msgstr "ฟังก์ชั่นสมาชิก"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
@@ -40,16 +43,26 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
+"ฟังก์ชั่นสมาชิก (member functions) คือ ฟังก์ชั่นที่แถมติดมากับโครงสร้างข้อมู"
+"ลบางประเภท เช่น อะเรย์ สตริง ดิกชันนารี เราอาจจะเจอคนเรียกมันว่า เมธอด "
+"(methods) ก็ได้ \n"
+" \n"
+"ตัวอย่าง : ตัวแปรอะเรย์ใดๆ ก็จะมีฟังก์ชั่นสมาชิก เช่น [code]array."
+"append()[/code] มาให้เสมอ เพราะ ตัวแปรชนิดอะเรย์นี้ เราเพิ่มสมาชิกต่อท้ายได้ "
+"ด้วยฟังก์ชั่น [code].append()[/code] \n"
+" \n"
+"เธอสามารถเรียกฟังก์ชั่นนี้ได้เฉพาะตัวแปรที่มีโครงสร้างข้อมูลแบบอะเรย์เท่านั้"
+"น เพียงแค่ใช้ access operator ([code].[/code]) เพื่อเข้าถึงมัน"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variable"
-msgstr ""
+msgstr "ตัวแปรสมาชิก"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variables"
-msgstr ""
+msgstr "ตัวแปรสมาชิก"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
@@ -62,16 +75,25 @@ msgid ""
 "followed by the access operator ([code].[/code]). For example, "
 "[code]position.x[/code]."
 msgstr ""
+"ตัวแปรสมาชิก (member variables) "
+"คือตัวแปรกลุ่มหนึ่งที่เก็บค่าเอาไว้ในโครงสร้างข้อมูลบางประเภท เช่น เวกเตอร์ "
+"มีค่า [code]x[/code] และค่า [code]y[/code] เป็นตัวแปรย่อยภายในเวกเตอร์ \n"
+" \n"
+"ถ้าต้องการเข้าถึงตัวแปรสมาชิก เราก็ใช้ ชื่อตัวแปร ตามด้วย access operator "
+"([code].[/code]) เพื่อเข้าถึงมัน \n"
+" \n"
+"สังเกต : ความต่างจากฟังก์ชั่นภายในก็คือ ไม่มี [code](...)[/code] "
+"ตามหลังชื่อตัวแปรสมาชิก"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameter"
-msgstr ""
+msgstr "พารามิเตอร์"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameters"
-msgstr ""
+msgstr "พารามิเตอร์"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
@@ -81,16 +103,21 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in "
 "the function's body."
 msgstr ""
+"พารามิเตอร์ คือ ตัวแปร ที่เราสร้างขึ้นมาพร้อมกับการนิยามฟังก์ชั่น \n"
+" \n"
+"ตัวแปรนี้จะทำให้เรานำฟังก์ชั่นไปใช้ซ้ำ ๆ ได้ "
+"โดยการที่ตัวแปรพารามิเตอร์จะเป็นช่องรับค่าต่าง ๆ ที่เปลี่ยนไปเรื่อย ๆ "
+"มาให้ฟังก์ชั่นประมวลผล"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radian"
-msgstr ""
+msgstr "เรเดียน"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radians"
-msgstr ""
+msgstr "เรเดียน"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
@@ -104,6 +131,13 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And "
 "an angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
+"เรเดียน คือ หน่วยวัดมุมชนิดหนึ่งที่ใช้การอ้างอิงจาก เส้นรอบวงกลม \n"
+" \n"
+"เรามักนำเอาหน่วยวัดมุมแบบองศาไปใช้ในชีวิตประจำวันเสียมาก แต่ในภาษาโปรแกรมมิ่"
+"ง โดยเฉพาะเกมส์ หน่วยเรเดียน จะเป็นที่นิยมมาก \n"
+" \n"
+"มุมที่มีค่า [code]2 x PI[/code] เรเดียน นั้น เท่ากับ 360 องศา และมุมที่มีค่า "
+"[code]PI[/code] เรเดียน ก็เท่ากับ 180 องศา เป็นต้น"
 
 #. Reference: type
 #: ./course/glossary.csv:20
@@ -175,7 +209,7 @@ msgstr ""
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "argument"
-msgstr ""
+msgstr "อาร์กิวเมนต์"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
@@ -302,7 +336,7 @@ msgstr ""
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "function"
-msgstr ""
+msgstr "ฟังก์ชั่น"
 
 #. Reference: function
 #: ./course/glossary.csv:64
@@ -347,7 +381,7 @@ msgstr ""
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instructions"
-msgstr ""
+msgstr "ชุดคำสั่ง"
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
