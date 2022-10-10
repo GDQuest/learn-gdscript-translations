@@ -9,45 +9,58 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-10-10 21:11+0000\n"
+"Last-Translator: Alex Alexandrov <alex05872@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-12-using-variables/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-12-using-variables/lesson.tres:14
+#, fuzzy
 msgid ""
 "In this lesson, we'll make our code easier to follow and understand at a "
 "glance.\n"
 "\n"
 "Take a look at this example."
 msgstr ""
+"В этом уроке мы сделаем наш код более простым и понятным с первого взгляда.\n"
+"\n"
+"Взгляните на этот пример."
 
 #: course/lesson-12-using-variables/lesson.tres:34
 msgid "In the above example, what does the number 4 mean?"
-msgstr ""
+msgstr "В приведенном выше примере, что означает число 4?"
 
 #: course/lesson-12-using-variables/lesson.tres:37
 msgid "The code above rotates the character [code]4[/code] radians per second."
 msgstr ""
+"Приведенный выше код вращает символ на [code]4[/code] радиана в секунду."
 
 #: course/lesson-12-using-variables/lesson.tres:38
 #: course/lesson-12-using-variables/lesson.tres:39
+#, fuzzy
 msgid "It's how fast the character rotates."
-msgstr ""
+msgstr "Это то, как быстро вращается персонаж."
 
 #: course/lesson-12-using-variables/lesson.tres:38
+#, fuzzy
 msgid "It's how far the character moves in pixels."
-msgstr ""
+msgstr "Это расстояние, на которое перемещается персонаж в пикселях."
 
 #: course/lesson-12-using-variables/lesson.tres:38
+#, fuzzy
 msgid "It's how long the rotation takes."
-msgstr ""
+msgstr "Это то, сколько времени занимает вращение."
 
 #: course/lesson-12-using-variables/lesson.tres:48
+#, fuzzy
 msgid ""
 "We can guess what a number represents by looking at the function names, "
 "but it's harder to recall what this number does by quickly looking at the"
@@ -56,8 +69,14 @@ msgid ""
 "We've seen how different functions have their own names. Using these "
 "names communicates to developers what the functions do."
 msgstr ""
+"Мы можем догадаться, что представляет собой число, глядя на имена функций, "
+"но сложнее вспомнить, что делает это число, быстро взглянув на код.\n"
+"\n"
+"Мы видели, как разные функции имеют свои собственные имена. Использование "
+"этих имен сообщает разработчикам, что делают функции."
 
 #: course/lesson-12-using-variables/lesson.tres:70
+#, fuzzy
 msgid ""
 "As we learned in lesson 8, we can also assign labels to numbers to help "
 "us remember what they do.\n"
@@ -69,28 +88,48 @@ msgid ""
 "\n"
 "Let's recap how to define a variable."
 msgstr ""
+"Как мы узнали в уроке 8, мы также можем присваивать числам метки, чтобы "
+"помочь нам запомнить, что они делают.\n"
+"\n"
+"Мы называем эти метки [i]переменными[/i].\n"
+"\n"
+"[b]Переменная - это метка для значения, которое мы можем сохранить, изменить "
+"и прочитать позже.[/b]\n"
+"\n"
+"Давайте вспомним, как определить переменную."
 
 #: course/lesson-12-using-variables/lesson.tres:96
+#, fuzzy
 msgid ""
 "We improve the first example to make it clear what the number "
 "[code]4[/code] does."
 msgstr ""
+"Мы улучшим первый пример, чтобы было понятно, что делает число "
+"[code]4[/code]."
 
 #: course/lesson-12-using-variables/lesson.tres:116
+#, fuzzy
 msgid ""
 "Labeling a value makes the code easier for us to read now [i]and[/i] in "
 "the future."
 msgstr ""
+"Маркировка значения облегчает нам чтение кода сейчас [i]и[/i] в будущем."
 
 #: course/lesson-12-using-variables/lesson.tres:124
+#, fuzzy
 msgid "In the above example, which line defines the angular speed variable?"
 msgstr ""
+"В приведенном выше примере, какая строка определяет переменную угловой "
+"скорости?"
 
 #: course/lesson-12-using-variables/lesson.tres:127
+#, fuzzy
 msgid ""
 "We create the [code]angular_speed[/code] variable, then assign it the "
 "value of [code]4[/code]."
 msgstr ""
+"Мы создаем переменную [code]angular_speed[/code], затем присваиваем ей "
+"значение [code]4[/code]."
 
 #: course/lesson-12-using-variables/lesson.tres:128
 #: course/lesson-12-using-variables/lesson.tres:129
@@ -117,6 +156,19 @@ msgid ""
 "the [code]_process()[/code] function and the "
 "[code]set_angular_speed()[/code] function."
 msgstr ""
+"Если мы определяем переменные вне функций, мы можем повторно использовать их "
+"в различных функциях.\n"
+"\n"
+"Поскольку любая функция может использовать переменные, которые мы определяем "
+"вне функций, (в этом контексте) мы называем их [b]общедоступная переменная "
+"скрипта[/b]. (В оригинале использовано [i]script-wide variables[/i], т.е. "
+"дословно переменные доступные в любом месте скрипта. (доступ к переменной "
+"(публичной) из другого скрипта в данном уроке не рассматривается) — [i]Прим. "
+"пер.[/i]).\n"
+"\n"
+"Здесь мы используем переменную [code]angular_speed[/code] доступную как в "
+"функции [code]_process()[/code], так и в функции "
+"[code]set_angular_speed()[/code]."
 
 #: course/lesson-12-using-variables/lesson.tres:162
 msgid ""
