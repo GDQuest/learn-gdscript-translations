@@ -9,17 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-10-09 19:46+0000\n"
+"PO-Revision-Date: 2022-10-27 21:21+0700\n"
 "Last-Translator: Alex Alexandrov <alex05872@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-10-the-game-loop/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-10-the-game-loop/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Poedit 3.2\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-10-the-game-loop/lesson.tres:14
@@ -36,19 +36,18 @@ msgid ""
 "Take the [code]_process()[/code] function."
 msgstr ""
 "Как мы уже видели, в Godot есть функции, которые выполняют определенные "
-"действия. Например, функции [code]show()[/code] и [code]hide()[/code] "
-"изменяют видимость объектов.\n"
+"действия. Например, [code]show()[/code] и [code]hide()[/code] изменяют "
+"видимость объектов.\n"
 "\n"
-"Мы также можем создавать собственные функции для создания пользовательских "
-"эффектов, таких как добавление или удаление здоровья персонажа.\n"
+"Также мы можем создавать собственные функции, оказывающие нужные нам "
+"эффекты, например, снижающие или восстанавливающие здоровье персонажа.\n"
 "\n"
-"В Godot также есть специальные функции, которые мы можем настраивать или "
-"добавлять поведение.\n"
+"В Godot также есть специальные функции, которые мы можем настраивать и "
+"использовать в наших скриптах.\n"
 "\n"
-"Возьмем, например, функцию [code]_process()[/code]."
+"Рассмотрим функцию [code]_process()[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.tres:40
-#, fuzzy
 msgid ""
 "The [code]_process()[/code] function gets its name because it does "
 "calculations or continuous actions.\n"
@@ -60,21 +59,19 @@ msgstr ""
 "Функция [code]_process()[/code] получила свое название потому, что она "
 "выполняет вычисления или непрерывные действия.\n"
 "\n"
-"Это похоже на фабрику сока, которая [b]обрабатывает[/b] бутылки с соком: "
-"бутылки постоянно движутся по конвейеру, а различные машины работают над "
-"ними."
+"Она похожа на фабрику сока, выполняющую [b]процесс обработки[/b] бутылок "
+"сока: бутылки постоянно движутся по конвейеру, а различные машины совершают "
+"операции над ними."
 
 #: course/lesson-10-the-game-loop/lesson.tres:52
-#, fuzzy
 msgid ""
 "It's similar in Godot, but this function can run [b]hundreds of times a "
 "second[/b]."
 msgstr ""
-"Подобное есть и в Godot, но эта функция может выполняться [b]сотни раз в "
-"секунду[/b]."
+"В Godot происходит нечто похожее, но эта функция может выполняться [b]сотни "
+"раз в секунду[/b]."
 
 #: course/lesson-10-the-game-loop/lesson.tres:60
-#, fuzzy
 msgid "How many parameters does this function take?"
 msgstr "Сколько параметров принимает эта функция?"
 
@@ -86,7 +83,6 @@ msgid ""
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:65
-#, fuzzy
 msgid ""
 "The [code]_process()[/code] function takes one parameter: [code]delta[/"
 "code].\n"
@@ -94,11 +90,11 @@ msgid ""
 "We'll look at what [code]delta[/code] is in the next lesson, as well as show "
 "how to use it."
 msgstr ""
-"Функция [code]_process()[/code] принимает один параметр: [code]delta[/code]."
-"\n"
+"Функция [code]_process()[/code] принимает один параметр: [code]delta[/"
+"code].\n"
 "\n"
 "Мы рассмотрим, что такое [code]delta[/code] в следующем уроке, а также "
-"покажем, как ее использовать."
+"покажем, как этот параметр использовать."
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
 #: course/lesson-10-the-game-loop/lesson.tres:69
@@ -110,7 +106,6 @@ msgid "2"
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:78
-#, fuzzy
 msgid ""
 "The [code]_process()[/code] function won't do anything until we add "
 "something to it.\n"
@@ -123,37 +118,38 @@ msgid ""
 "Godot will automatically run it every frame. "
 msgstr ""
 "Функция [code]_process()[/code] не будет ничего делать, пока мы не добавим в "
-"нее что-нибудь.\n"
+"неё что-нибудь.\n"
 "\n"
-"Вы можете заметить подчеркивание [code]_[/code] перед именем функции. Это "
-"условное обозначение. Оно означает, что функция уже определена в Godot.\n"
+"Вы можете заметить подчеркивание [code]_[/code] перед именем функции. Этот "
+"символ является частью соглашения принятого разработчиками для координации "
+"работ, он станет значим для вас после того, как вы наберётесь опыта в "
+"программировании в Godot.\n"
 "\n"
-"Если функция существует и называется точно [code]_process[/code], то Godot "
-"будет автоматически запускать ее каждый кадр. "
+"Всё что вам нужно знать сейчас — если в вашем в коде существует функция "
+"[code]_process[/code], то Godot будет автоматически запускать её каждый "
+"кадр. "
 
 #: course/lesson-10-the-game-loop/lesson.tres:92
-#, fuzzy
 msgid ""
 "Other game engines might use different names like [code]_update()[/code]."
 msgstr ""
-"Другие игровые движки могут использовать другие названия, например "
-"[code]_update()[/code]."
+"Другие игровые движки для тех же целей могут использовать функции с другими "
+"названиями, например [code]_update()[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.tres:100
-#, fuzzy
 msgid "Why is the _process() function useful?"
-msgstr "Почему функция _process() полезна?"
+msgstr "Чем полезна функция _process()?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:102
-#, fuzzy
 msgid ""
 "It's perhaps better to see the [code]_process()[/code] function in action.\n"
 "\n"
 "Take the following example."
 msgstr ""
-"Возможно, лучше увидеть функцию [code]_process()[/code] в действии.\n"
+"Чтобы ответить на этот вопрос, давайте посмотрим на функцию [code]_process()"
+"[/code] в действии.\n"
 "\n"
-"Возьмем следующий пример."
+"Рассмотрим следующий пример."
 
 #: course/lesson-10-the-game-loop/lesson.tres:124
 msgid ""
@@ -165,56 +161,50 @@ msgid ""
 "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the "
 "character by [code]0.05[/code] radians [b]many[/b] times a second."
 msgstr ""
-"Когда вы нажимаете кнопку [code]set_process(true)[/code], вы активируете "
-"обработку на роботе.\n"
+"Нажатием кнопки [code]set_process(true)[/code] вы активируете выполнение "
+"функции [code]_process[/code] на роботе.\n"
 "\n"
 "После этого каждый кадр Godot запускает функцию [code]_process()[/code].\n"
 "\n"
 "Поскольку мы написали инструкцию [code]rotate()[/code], Godot поворачивает "
-"персонажа на [code]0,05[/code] радиан [b]много[/b] раз в секунду."
+"персонажа на [code]0.05[/code] радиан [b]много[/b] раз в секунду."
 
 #: course/lesson-10-the-game-loop/lesson.tres:136
-#, fuzzy
 msgid "How often does the _process() function run?"
 msgstr "Как часто выполняется функция _process()?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:139
-#, fuzzy
 msgid ""
 "The faster your computer, the more times [code]_process()[/code] will run.\n"
 "\n"
 "Godot will try and run [code]_process()[/code] as quickly as it can. This "
 "makes sure any movement or animations look smooth and fluid."
 msgstr ""
-"Чем быстрее ваш компьютер, тем больше раз будет выполняться "
-"[code]_process()[/code].\n"
+"Чем быстрее ваш компьютер, тем чаще будет выполняться [code]_process()[/"
+"code].\n"
 "\n"
 "Godot постарается выполнить [code]_process()[/code] так быстро, как только "
 "сможет. Благодаря этому любое движение или анимация выглядят плавными и "
 "текучими."
 
 #: course/lesson-10-the-game-loop/lesson.tres:142
-#, fuzzy
 msgid "Once a second."
 msgstr "Раз в секунду."
 
 #: course/lesson-10-the-game-loop/lesson.tres:142
 #: course/lesson-10-the-game-loop/lesson.tres:143
-#, fuzzy
 msgid "Multiple times a second."
 msgstr "Несколько раз в секунду."
 
 #: course/lesson-10-the-game-loop/lesson.tres:152
-#, fuzzy
 msgid ""
 "In the practice, you'll learn how to use the process function to rotate and "
 "move a character yourself."
 msgstr ""
-"На практике вы узнаете, как использовать функцию process для "
-"самостоятельного поворота и перемещения персонажа."
+"В упражнении вы самостоятельно научитесь использовать функцию process для "
+"вращения и перемещения персонажа."
 
 #: course/lesson-10-the-game-loop/lesson.tres:160
-#, fuzzy
 msgid "Rotating a Character Continuously"
 msgstr "Непрерывное вращение персонажа"
 
@@ -225,19 +215,16 @@ msgid ""
 "\n"
 "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr ""
-"Заставьте робота медленно вращаться, изменив функцию [code]_process()[/code]."
+"Заставьте робота медленно вращаться, изменив функцию [code]_process()[/"
+"code].\n"
 "\n"
-"\n"
-"Скорость вращения примерно [code]0,05[/code] в каждом кадре должна быть "
-"достаточной."
+"Скорости вращения в [code]0.05[/code] радиан за кадр будет достаточно."
 
 #: course/lesson-10-the-game-loop/lesson.tres:178
-#, fuzzy
 msgid "Creating Circular Movement"
 msgstr "Создание кругового движения"
 
 #: course/lesson-10-the-game-loop/lesson.tres:179
-#, fuzzy
 msgid ""
 "Make the robot move in a large circle slowly by rotating it and "
 "simultaneously moving it along its x direction.\n"
@@ -251,13 +238,12 @@ msgstr ""
 "Заставьте робота медленно двигаться по большому кругу, вращая его и "
 "одновременно перемещая вдоль направления x.\n"
 "\n"
-"Для этого добавьте функции [code]rotate()[/code] и "
-"[code]move_local_x()[/code] в [code]_process()[/code].\n"
+"Для этого добавьте функции [code]rotate()[/code] и [code]move_local_x()[/"
+"code] в [code]_process()[/code].\n"
 "\n"
-"Используйте скорость вращения [code]0,05[/code] радиан за кадр и перемещайте "
-"робота [code]на 5[/code] пикселей за кадр."
+"Используйте скорость вращения [code]0.05[/code] радиан за кадр и перемещайте "
+"робота на [code]5[/code] пикселей каждый кадр."
 
 #: course/lesson-10-the-game-loop/lesson.tres:197
-#, fuzzy
 msgid "The Game Loop"
 msgstr "Игровой цикл"
