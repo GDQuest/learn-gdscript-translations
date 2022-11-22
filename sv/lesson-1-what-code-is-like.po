@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-11-23 19:47+0000\n"
+"Last-Translator: Matias Särs <m7s@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-1-what-code-is-like/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:14
@@ -25,10 +28,14 @@ msgid ""
 "Yet, you want to make video games, so [b]there is no way around learning to "
 "program[/b]. [i]Every[/i] video game is a computer program."
 msgstr ""
+"Att lära sig programmera kan vara utmanande.\n"
+"\n"
+"Men vill du lära dig göra spel finns det [b]inga andra alternativ än att "
+"lära sig programmera[/b]. [i]Varje[/i] datorspel är ett datorprogram."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:24
 msgid "Telling the computer what to do"
-msgstr ""
+msgstr "Berätta för datorn vad den ska göra"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:26
 msgid ""
@@ -38,12 +45,20 @@ msgid ""
 "A game's instructions are, for example: moving a character, drawing a life "
 "bar, or playing a sound."
 msgstr ""
+"Att programmera är att skriva exakta instruktioner som berättar för datorn "
+"hur den ska göra en uppgift.\n"
+"\n"
+"Instruktioner i ett spel kan till exempel vara: flytta en karaktär, rita en "
+"life bar på skärmen eller spela ett ljud."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:38
 msgid ""
 "To do any of that, you need to learn a [b]programming language[/b]: a "
 "specialized language to tell the computer what to do."
 msgstr ""
+"För att kunna göra något av det, behöver du lära dig ett "
+"[b]programmeringsspråk[/b]: ett specialiserat språk för att berätta för "
+"datorn vad den ska göra."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:58
 msgid ""
@@ -55,10 +70,17 @@ msgid ""
 "\n"
 "Which circle? Where? Which color should it be? How big should it be?"
 msgstr ""
+"Programmeringsspråk är annorlunda en naturliga språk som svenska eller "
+"engelska. Datorer tänker inte. I motsats till oss kan datorer inte "
+"[i]tolka[/i] det du berättar åt den.\n"
+"\n"
+"Du kan inte säga åt den någonting vagt som \"rita en cirkel\".\n"
+"\n"
+"Vilken cirkel? Var? Vilken färg ska den ha? Hur stor ska den vara?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:70
 msgid "The computer needs exact instructions"
-msgstr ""
+msgstr "Datorn behöver exakta instruktioner"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:72
 msgid ""
@@ -69,6 +91,12 @@ msgid ""
 "\n"
 "[i]Click the button to run the code example and see the result.[/i]"
 msgstr ""
+"För att rita en fylld cirkel behöver datorn veta exakta koordinater för "
+"cirkeln, cirkelns radie, tjockleken och vilken färg cirkeln ska ha.\n"
+"\n"
+"Koden för att göra rita cirkeln [i]kan[/i] se ut så här.\n"
+"\n"
+"[i]Klicka på knappen för att köra kodexemplet och se resultatet.[/i]"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:96
 msgid ""
@@ -84,10 +112,19 @@ msgid ""
 "[b]When you program, you're the one in charge, and you're free to do "
 "[i]anything[/i] you want.[/b]"
 msgstr ""
+"I de följande lektionerna lär du dig hur kod fungerar.\n"
+"\n"
+"Just nu vill vi ge dig en känsla för hur kod ser ut. I det här exemplet har "
+"allting betydelse: varje parentes, stor bokstav, punkt och komma.\n"
+"\n"
+"Datorn gör alltid [b]exakt[/b] vad du instruerar den att göra. Inte mer, "
+"inte mindre. Den följer [i]blint[/i] varje instruktion.\n"
+"[b]När du programmerar är det du som har ansvaret. Du kan göra vad som heslt "
+"du vill. [/b]"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:110
 msgid "How do you give instructions to a computer?"
-msgstr ""
+msgstr "Hur ger du instruktioner åt en dator?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:113
 msgid ""
@@ -95,11 +132,14 @@ msgid ""
 "anything, you need to give them precise instructions they understand, using "
 "a programming language."
 msgstr ""
+"Datorer för inte naturliga språk som svenska. För att få dem att göra något "
+"måste du ge dem exakta instruktioner de förstår genom att använda ett "
+"programmeringsspråk."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:114
 #: course/lesson-1-what-code-is-like/lesson.tres:115
 msgid "Using a programming language and precise instructions"
-msgstr ""
+msgstr "Använda ett programmeringsspråk och exakta instruktioner"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:114
 msgid "Using prose in plain English"
@@ -107,7 +147,7 @@ msgstr ""
 
 #: course/lesson-1-what-code-is-like/lesson.tres:122
 msgid "You'll learn to code with GDScript"
-msgstr ""
+msgstr "Du lär dig koda med GDScript"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:124
 msgid ""
@@ -120,6 +160,14 @@ msgid ""
 "SEGA used the Godot engine to create the remake of Sonic Colors Ultimate. "
 "Engineers at Tesla use it for their cars' dashboards."
 msgstr ""
+"I den här kursen lär du dig programmeringsspråket GDScript (namnet är en "
+"förkortning för \"Godot script\").\n"
+"\n"
+"Det här är ett språk gjort av spelutvecklare för spelutvecklare. Du kan "
+"använda det i Godot för att skapa spel och programl\n"
+"\n"
+"SEGA använde Godot för att skapa en remake av Sonic Colors Ultimate. "
+"Ingenjörer använder Godot för deras bilars instrumentbrädor."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:148
 msgid ""
@@ -127,6 +175,9 @@ msgid ""
 "it's specialized. Unlike some other languages, it doesn't have an "
 "[i]overwhelming[/i] amount of features for you to learn."
 msgstr ""
+"GDScript är ett utmärkt språk då man lär sig programmera eftersom det är "
+"specialiserat. Till skillnad från andra språk har det inte "
+"[i]överväldigande[/i] många funktioner som du måste lära dig."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:156
 msgid "Most programming languages are similar"
