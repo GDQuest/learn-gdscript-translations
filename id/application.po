@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-06-09 11:26+0000\n"
-"Last-Translator: Alt Air <altairush@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/learn-"
-"gdscript-from-zero/user-interface/id/>\n"
+"PO-Revision-Date: 2022-11-23 19:47+0000\n"
+"Last-Translator: Harryanto <hwinsen.gamedev@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/application/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
@@ -68,7 +68,7 @@ msgstr "Menjalankan Tes..."
 
 #: ui/UIPractice.tscn:138
 msgid "Suggested Solution"
-msgstr "Solusi Yang Disarankan"
+msgstr "Solusi yang Disarankan"
 
 #: ui/UIPractice.tscn:189
 msgid "Use Solution"
@@ -128,16 +128,14 @@ msgstr "ERROR:"
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 #: ui/components/ScrollableTextBox.tscn:43
 #: ui/screens/lesson/UIContentBlock.tscn:68
-#, fuzzy
 msgid "Placeholder text"
-msgstr "Text Pengganti"
+msgstr "Teks pengganti"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
 msgstr "di"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
-#, fuzzy
 msgid "FileName"
 msgstr "NamaFile"
 
@@ -167,9 +165,8 @@ msgid "Expand"
 msgstr "Meluaskan"
 
 #: ui/components/RunnableCodeExample.tscn:96
-#, fuzzy
 msgid "run()"
-msgstr "Jalankan()"
+msgstr "run()"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
@@ -240,58 +237,79 @@ msgid ""
 "each individual error that you face. Quick, click the [b]Explain[/b] button "
 "next to the error message!"
 msgstr ""
+"Pelajaran pada kursus ini dibuat sesederhana mungkin sehingga kamu hanya "
+"perlu mengubah [b]bagian tertentu saja[/b]. Sebenarnya ada banyak kode lain "
+"yang tidak terlihat tapi tetap dibutuhkan agar aplikasinya tetap berjalan "
+"dengan baik.\n"
+"\n"
+"Artinya, kode yang kamu buat dapat mempengaruhi kode lain yang kamu tidak "
+"ketahui. Namun, jangan khawatir, kamu bisa memperbaiki kendala yang terjadi "
+"dengan memperbaiki kode yang kamu [b]bisa[/b] ubah!\n"
+"\n"
+"[i]Cara kerja aplikasi ini mirip seperti game engine.[/i] Ada banyak kode "
+"tersembunyi yang dijalankan agar game kamu berjalan dengan lancar. Namun, "
+"jika ada error di script yang kamu buat, maka kode tersembunyi tadi akan "
+"error juga. Kami akan coba jelaskan bagaimana caranya untuk mengatasi setiap "
+"error yang kamu hadapi. Yuk, coba klik tombol [b]Explain[/b] di sebelah "
+"error message!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
-msgstr ""
+msgstr "Mantap!"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
-msgstr ""
+msgstr "Pelajaran selesai!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
+"Tapi masih ada beberapa latihan\n"
+"yang kamu lewati."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]Menetap[/b] dan pelajari kembali Materi,\n"
+"atau [b]Lanjut[/b] ke Materi berikutnya.[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 #: ui/components/popups/PracticeDonePopup.tscn:144
 msgid "Stay"
-msgstr ""
+msgstr "Menetap"
 
 #: ui/components/popups/PracticeDonePopup.tscn:89
 msgid "Well done!"
-msgstr ""
+msgstr "Berhasil!"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
-msgstr ""
+msgstr "Kamu telah menyelesaikan latihan."
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]Menetap[/b] dan coba eksperimen,\n"
+"atau [b]lanjut[/b] ke Materi berikutnya.[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:67
 msgid "Practice List"
-msgstr ""
+msgstr "Daftar latihan"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:227
 msgid "Close"
-msgstr ""
+msgstr "Tutup"
 
 #: ui/components/popups/ReportFormPopup.tscn:66
 msgid "Report an issue"
-msgstr ""
+msgstr "Laporkan masalah"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
@@ -333,103 +351,140 @@ msgid ""
 "\n"
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
+"Jika kamu mengalami kendala ketika menggunakan aplikasi, mohon untuk klik di "
+"bawah untuk melaporkannya di GitHub:\n"
+"\n"
+"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
+"> GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
+"\n"
+"Pada laman tersebut, kamu dapat melaporkan kendala apapun, baik terkait ada "
+"yang berjalan ataupun ada kesalahan dalam Pelajaran.\n"
+"\n"
+"Kamu dapat membuat sebuah log yang dapat membantu kami menemukan masalahnya. "
+"Caranya, klik di sini: [b][url=download]generate error log[/url][/b].\n"
+"\n"
+"Mohon untuk seret dan lepas file yang dihasilkan ke issue yang telah kamu "
+"buat di GitHub untuk melampirkannya.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]\n"
+"\n"
+"GitHub adalah sebuah platform online untuk menyimpan dan mengelola proyek "
+"open-source seperti aplikasi Learn GDScript. Github membantu developer "
+"mengatur pekerjaan mereka dan berkolaborasi secara online.\n"
+"\n"
+"Kamu bisa menggunakan GitHub untuk mempelajari kode dari banyak proyek umum, "
+"melaporkan masalah, atau bahkan menyumbangkan kode kamu sendiri.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]\n"
+"\n"
+"1. Klik tautan di atas untuk masuk ke laman [i]GitHub Issues[/i].\n"
+"2. Klik tombol [i]New Issue[/i].\n"
+"3. Isi formulir untuk menjelaskan ke kami masalah yang kamu alami.\n"
+"\n"
+"Kamu butuh akun GitHub untuk melakukan langkah tersebut.\n"
+"\n"
+"Mohon cantumkan informasi bersangkutan sedetil mungkin, seperti perangkat "
+"apa yang kamu gunakan untuk mengakses aplikasi, dan tambahkan screenshot "
+"atau video yang memperlihatkan kejadian kendalanya.\n"
+"\n"
+"[center]Terima kasih telah berkontribusi ke dunia open-source![/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:158
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ui/components/popups/SettingsPopup.tscn:79
 msgid "Configure the App"
-msgstr ""
+msgstr "Atur Aplikasi"
 
 #: ui/components/popups/SettingsPopup.tscn:106
 msgid "Language"
-msgstr ""
+msgstr "Bahasa"
 
 #: ui/components/popups/SettingsPopup.tscn:126
 msgid "Text Size"
-msgstr ""
+msgstr "Ukuran Teks"
 
 #: ui/components/popups/SettingsPopup.tscn:154
 msgid "Sample text"
-msgstr ""
+msgstr "Contoh teks"
 
 #: ui/components/popups/SettingsPopup.tscn:167
 msgid "Scroll sensitivity"
-msgstr ""
+msgstr "Sensitivitas scroll"
 
 #: ui/components/popups/SettingsPopup.tscn:193
 msgid "Framerate cap"
-msgstr ""
+msgstr "Batas framerate"
 
 #: ui/components/popups/SettingsPopup.tscn:242
 msgid "Apply"
-msgstr ""
+msgstr "Terapkan"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:93
 msgid "Open Lesson"
-msgstr ""
+msgstr "Buka Pelajaran"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:95
 msgid "Continue Lesson"
-msgstr ""
+msgstr "Lanjut ke Pelajaran berikutnya"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:97
 msgid "Start Lesson"
-msgstr ""
+msgstr "Mulai Pelajaran"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
 msgid "Lesson Title Goes Here"
-msgstr ""
+msgstr "Judul Pelajaran Ada Di Sini"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
 msgid "Lesson read"
-msgstr ""
+msgstr "Pelajaran sudah dibaca"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:56
 msgid "0%"
-msgstr ""
+msgstr "0%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:79
 msgid "Quizzes completed"
-msgstr ""
+msgstr "Kuis selesai"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:108
 msgid "0 / 0"
-msgstr ""
+msgstr "0 / 0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:100
 msgid "Practices completed"
-msgstr ""
+msgstr "Latihan selesai"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:36
 msgid "Lesson 0"
-msgstr ""
+msgstr "Pelajaran 0"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
 msgid "Lesson Title"
-msgstr ""
+msgstr "Judul Pelajaran"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
 msgid "Course Index - "
-msgstr ""
+msgstr "Indeks Kursus - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
-msgstr ""
+msgstr "Judul Kursus Ada Di Sini"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
-msgstr ""
+msgstr "Hapus Progres"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
 msgid "Confirm Resetting Progress"
-msgstr ""
+msgstr "Konfirmasi Hapus Progres"
 
 #: ui/screens/end_screen/EndScreen.tscn:229
 msgid "Congratulations!"
-msgstr ""
+msgstr "Selamat!"
 
 #: ui/screens/end_screen/EndScreen.tscn:236
 msgid ""
@@ -440,10 +495,16 @@ msgid ""
 "can move on to [url=https://www.gdquest.com/tutorial/godot/learning-paths/"
 "getting-started-in-2021/]Getting Started with Godot[/url]."
 msgstr ""
+"Kamu telah menyelesaikan Belajar GDScript Dari Nol. Kamu telah memahami "
+"dasar serta terjun langsung membuat game dengan Godot game engine.\n"
+"\n"
+"Jika kamu ingin belajar lebih lanjut bersama kami secara gratis, kamu bisa "
+"kunjungi [url=https://www.gdquest.com/tutorial/godot/learning-paths/"
+"getting-started-in-2021/]Getting Started with Godot[/url]."
 
 #: ui/screens/end_screen/EndScreen.tscn:249
 msgid "Or level up faster by taking this shortcut"
-msgstr ""
+msgstr "Atau naik tingkat lebih cepat dengan mengambil jalan pintas ini"
 
 #: ui/screens/end_screen/EndScreen.tscn:256
 msgid ""
@@ -458,10 +519,22 @@ msgid ""
 "\n"
 "Learning that on your own can take years."
 msgstr ""
+"Ada banyak tutorial gratis membuat game, tetapi mereka tidak menjelaskan "
+"dengan baik.\n"
+"\n"
+"Lebih buruknya lagi, kebanyakan mereka hanya memberikan langkah-langkahnya "
+"saja. Seiring kamu belajar, kamu tidak akan bisa menjadi developer dengan "
+"mengikuti langkah saja.\n"
+"\n"
+"Setiap proyek memiliki rintangan tersendiri dan membutuhkan [i]penyelesaian "
+"masalah secara kreatif[/i]. Kamu perlu memiliki kemampuan untuk [i]berpikir "
+"sebagai seorang programmer[/i].\n"
+"\n"
+"Mempelajari pola pikir itu sendiri membutuhkan waktu bertahun-tahun."
 
 #: ui/screens/end_screen/EndScreen.tscn:277
 msgid "Learn to Code From Zero, with Godot"
-msgstr ""
+msgstr "Belajar Koding Dari Nol, dengan Godot"
 
 #: ui/screens/end_screen/EndScreen.tscn:284
 msgid ""
@@ -475,125 +548,134 @@ msgid ""
 "It's the only course that'll truly teach you [i]how to become a game "
 "developer[/i] with Godot."
 msgstr ""
+"Aplikasi ini adalah bagian dari kursus mendalam kami, [url=https://gdquest."
+"mavenseed.com/courses/learn-to-code-from-zero-with-godot][b]Belajar Koding "
+"Dari Nol, dengan Godot[/b][/url].\n"
+"\n"
+"Kursus ini lanjut langsung dari akhir aplikasi ini sampai akhirnya kamu bisa "
+"buat [i]game kamu[/i] sendiri.\n"
+"\n"
+"Ini satu-satunya kursus yang akan mengajari kamu [i]bagaimana cara menjadi "
+"seorang game developer[/i] dengan Godot."
 
 #: ui/screens/end_screen/EndScreen.tscn:308
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
-msgstr ""
+msgstr "Pelajari lebih lanjut"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
-msgstr ""
+msgstr "[b]Pertanyaan[/b]"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
 msgid "Explanation"
-msgstr ""
+msgstr "Penjelasan"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:107
 msgid "Skip"
-msgstr ""
+msgstr "Lewati"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
-msgstr ""
+msgstr "Kirim"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr ""
+msgstr "Kamu benar!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
-msgstr ""
+msgstr "Jawaban ada di sini"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr ""
+msgstr "Judul penampung"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
-msgstr ""
+msgstr "Judul Latihan"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
-msgstr ""
+msgstr "berikutnya"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
-msgstr ""
+msgstr "Latihan"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
-msgstr ""
+msgstr "Kamu ada di sini"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
-msgstr ""
+msgstr "Label Jawaban"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
 msgid "(select all that apply)"
-msgstr ""
+msgstr "(pilih semua yang berlaku)"
 
 #: ui/screens/practice/PracticeHint.tscn:8
 msgid "Show Hint"
-msgstr ""
+msgstr "Tampilkan Petunjuk"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:143
 msgid "Method descriptions"
-msgstr ""
+msgstr "Deskripsi Metode"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:159
 msgid "Property descriptions"
-msgstr ""
+msgstr "Deskripsi Properti"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
 msgid "Summary - Lesson Name"
-msgstr ""
+msgstr "Rangkuman - Nama Pelajaran"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
-msgstr ""
+msgstr "Tujuan"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:119
 msgid "Hints"
-msgstr ""
+msgstr "Petunjuk"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
 msgid "Checks"
-msgstr ""
+msgstr "Cek"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:134
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentasi"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:175
 msgid "Open Practice List"
-msgstr ""
+msgstr "Buka Daftar Latihan"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:42
 msgid "Test text"
-msgstr ""
+msgstr "Teks tes"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:42
 msgid "CONTINUE"
-msgstr ""
+msgstr "LANJUTKAN"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:44
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:627
 msgid "START"
-msgstr ""
+msgstr "MULAI"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:645
 msgid "SELECT LESSON"
-msgstr ""
+msgstr "PILIH PELAJARAN"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:659
 msgid "OPTIONS"
-msgstr ""
+msgstr "PENGATURAN"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:693
 msgid "QUIT"
-msgstr ""
+msgstr "KELUAR"
 
 #~ msgid "Connected to the server."
 #~ msgstr "Terhubung ke server."
