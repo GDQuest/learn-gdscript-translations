@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-11-23 19:47+0000\n"
+"PO-Revision-Date: 2022-11-26 12:48+0000\n"
 "Last-Translator: Matias Särs <m7s@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-1-what-code-is-like/sv/>\n"
@@ -139,11 +139,11 @@ msgstr ""
 #: course/lesson-1-what-code-is-like/lesson.tres:114
 #: course/lesson-1-what-code-is-like/lesson.tres:115
 msgid "Using a programming language and precise instructions"
-msgstr "Använda ett programmeringsspråk och exakta instruktioner"
+msgstr "Genom att använda programmeringsspråk och exakta instruktioner"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:114
 msgid "Using prose in plain English"
-msgstr ""
+msgstr "Genom att använda vanlig enkel svenska och skriva lättläst text"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:122
 msgid "You'll learn to code with GDScript"
@@ -164,10 +164,10 @@ msgstr ""
 "förkortning för \"Godot script\").\n"
 "\n"
 "Det här är ett språk gjort av spelutvecklare för spelutvecklare. Du kan "
-"använda det i Godot för att skapa spel och programl\n"
+"använda det i Godot för att skapa spel och program.\n"
 "\n"
 "SEGA använde Godot för att skapa en remake av Sonic Colors Ultimate. "
-"Ingenjörer använder Godot för deras bilars instrumentbrädor."
+"Ingenjörer vid Testla använder Godot för bilarnas instrumentbrädor."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:148
 msgid ""
@@ -175,13 +175,13 @@ msgid ""
 "it's specialized. Unlike some other languages, it doesn't have an "
 "[i]overwhelming[/i] amount of features for you to learn."
 msgstr ""
-"GDScript är ett utmärkt språk då man lär sig programmera eftersom det är "
-"specialiserat. Till skillnad från andra språk har det inte "
+"GDScript är ett utmärkt första språk då man lär sig programmera eftersom det "
+"är specialiserat. Till skillnad från många andra språk har det inte "
 "[i]överväldigande[/i] många funktioner som du måste lära dig."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:156
 msgid "Most programming languages are similar"
-msgstr ""
+msgstr "De flesta programmeringsspråk liknar varandra"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:158
 msgid ""
@@ -196,20 +196,32 @@ msgid ""
 "\n"
 "Try to spot the similarities and differences."
 msgstr ""
+"Var inte rädd för att låsa dig. De koncept som du lär dig i ditt första "
+"programmeringsspråk gäller också i alla andra programmeringsspråk.\n"
+"\n"
+"De flesta språk har fler likheter än skillnader. När du lärt dig ett går det "
+"mycket snabbare att lära sig nästa.\n"
+"\n"
+"Här är ett exempel av samma kod i tre olika språk: GDScript, JavaScript och "
+"Python.\n"
+"\n"
+"Försök upptäcka likheterna och skillnaderna."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:184
 msgid "It doesn't look [i]that[/i] different, does it?"
-msgstr ""
+msgstr "Det ser inte [i]så[/i] olika ut, eller hur?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:192
 msgid "Are programming languages all completely different?"
-msgstr ""
+msgstr "Är alla programmeringsspråk helt olika?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:193
 msgid ""
 "If you learn one language and then want to learn another, will you have to "
 "start from scratch?"
 msgstr ""
+"Om du har lärt dig ett språk och sedan vill lära dig ett annat, måste du "
+"starta om från noll då?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:195
 msgid ""
@@ -223,25 +235,35 @@ msgid ""
 "However, languages like GDScript, Python, JavaScript, C++, C#, and many "
 "others build upon a similar programming philosophy."
 msgstr ""
+"De flesta programmeringsspråk bygger på samma idéer om hur man programmerar. "
+"Därför är de relativt lika varandra.\n"
+"\n"
+"Det betyder inte att alla språk är precis likadana. Några har en alldeles "
+"unik syntax och kräver ett helt annat sätt att tänka jämfört med GDScript.\n"
+"\n"
+"Men många vanliga programmeringsspråk som GDScript, Python, JavaScript, C++, "
+"C# och många andra bygger på liknande programmeringsfilosofier."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:200
 #: course/lesson-1-what-code-is-like/lesson.tres:201
 msgid "No, they have many similarities"
-msgstr ""
+msgstr "Nej, de har många likheter"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:200
 msgid "Yes, they are completely different"
-msgstr ""
+msgstr "Ja, de är helt olika"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:208
 msgid "This is a course for beginners"
-msgstr ""
+msgstr "Det här är en kurs för nybörjare"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:210
 msgid ""
 "If you want to learn to make games or code but don't know where to start, "
 "this course should be perfect."
 msgstr ""
+"Om du vill lära dig göra spel eller koda men inte vet var du ska börja, "
+"borde den här kursen vara perfekt för dig."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:230
 msgid ""
@@ -254,10 +276,18 @@ msgid ""
 "Please be patient. It will take time before you can make your first complete "
 "game alone."
 msgstr ""
+"Vi gjorde den för [i]absoluta nybörjare[/i], men om du redan kan ett annat "
+"programmeringsspråk kan det vara ett roligt sätt att komma igång med Godot.\n"
+"\n"
+"Vi ger dig de grunder i kodning som du behöver för att kunna börja göra spel "
+"och program med Godot.\n"
+"\n"
+"Ha tålamod. Det kommer att ta ett tag innan du kan göra ditt första "
+"fullständiga spel på egen hand."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:242
 msgid "Learning to make games takes practice"
-msgstr ""
+msgstr "Att lära sig göra spel kräver övning"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:244
 msgid ""
@@ -273,16 +303,29 @@ msgid ""
 "Enjoy the process and celebrate every little success. You will never stop "
 "learning as a game developer."
 msgstr ""
+"Att göra spel är mer lättillgängligt än någonsin men det kräver fortfarande "
+"mycket arbete och övning.\n"
+"\n"
+"Förvänta dig inte att en enda kurs eller bok ska göra dig till ett proffs. "
+"[b]Programmering är någonting du lär dig genom att öva.[/b]\n"
+"\n"
+"Om det är något som du inte genast förstår ska du inte oroa dig speciellt "
+"mycket! Fortsätt lära dig och kom tillbaka till det senare.\n"
+"\n"
+"Njut av processen och fira varje litet framsteg. Du slutar aldrig lära dig "
+"nya saker då du är en spelutvecklare."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:258
 msgid "What and how you'll learn"
-msgstr ""
+msgstr "Vad och hur du lär dig"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:260
 msgid ""
 "In this free course, you will learn the foundations you need to start coding "
 "things like those."
 msgstr ""
+"I den här gratiskursen kommer du lära dig grunderna för att koda saker som "
+"dessa:"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:290
 msgid ""
