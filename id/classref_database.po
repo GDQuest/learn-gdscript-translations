@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-11-26 12:48+0000\n"
-"Last-Translator: Harryanto <hwinsen.gamedev@gmail.com>\n"
+"PO-Revision-Date: 2022-11-29 17:48+0000\n"
+"Last-Translator: Harryanto Winsen <hwinsen.gamedev@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/classref_database/id/>\n"
 "Language: id\n"
@@ -24,12 +24,12 @@ msgstr ""
 #. Reference: show
 #: ./course/documentation.csv:2
 msgid "shows the current scene"
-msgstr ""
+msgstr "memunculkan scene saat ini"
 
 #. Reference: hide
 #: ./course/documentation.csv:3
 msgid "hides the current scene"
-msgstr ""
+msgstr "sembunyikan scene saat ini"
 
 #. Reference: rotate
 #: ./course/documentation.csv:4
@@ -68,12 +68,12 @@ msgstr ""
 #. Reference: position.x
 #: ./course/documentation.csv:10
 msgid "The position of the entity on the horizontal axis."
-msgstr ""
+msgstr "Posisi entitas pada sumbu horizontal."
 
 #. Reference: position.y
 #: ./course/documentation.csv:11
 msgid "The position of the entity on the vertical axis."
-msgstr ""
+msgstr "Posisi entitas pada sumbu vertikal."
 
 #. Reference: move_local_x
 #: ./course/documentation.csv:12
@@ -82,6 +82,9 @@ msgid ""
 "[code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] "
 "is false, normalizes the movement."
 msgstr ""
+"Menerapkan translasi lokal pada sumbu X node berdasarkan parameter "
+"[code]delta[/code] pada [code]Node._process[/code]. Jika [code]scaled[/code] "
+"memiliki nilai salah, maka normalisasi gerakannya."
 
 #. Reference: board_size
 #: ./course/documentation.csv:13
@@ -89,6 +92,8 @@ msgid ""
 "Stores how many cells make up the width ([code]board_size.x[/code]) and "
 "height ([code]board_size.y[/code]) of the board."
 msgstr ""
+"Menyimpan berapa banyak sel yang membentuk lebar ([code]board_size.x[/code]) "
+"dan tinggi ([code]board_size.y[/code]) papan."
 
 #. Reference: cell
 #: ./course/documentation.csv:14
@@ -96,6 +101,8 @@ msgid ""
 "The cell position of the robot on the board. [code]Vector2(0, 0)[/code] "
 "is the square cell in the top left of the board."
 msgstr ""
+"Posisi sel dari si robot di atas papan. [code]Vector2(0, 0)[/code] adalah "
+"sel persegi di paling kiri atas papan."
 
 #. Reference: range
 #: ./course/documentation.csv:15
@@ -113,16 +120,17 @@ msgstr "Perintahkan robot untuk memainkan sebuah animasi."
 #: ./course/documentation.csv:17
 msgid "Selects units in the cell coordinates passed as the function's argument."
 msgstr ""
+"Memilih unit dalam koordinat sel yang diteruskan sebagai argumen fungsi."
 
 #. Reference: robot.move_to
 #: ./course/documentation.csv:18
 msgid "Queues a move animation towards the target cell."
-msgstr ""
+msgstr "Mengantrikan sebuah animasi yang bergerak ke sel target."
 
 #. Reference: array.append
 #: ./course/documentation.csv:19
 msgid "Adds the value passed as an argument at the back of the array."
-msgstr ""
+msgstr "Menambahkan nilai yang diteruskan sebagai argumen di belakang array."
 
 #. Reference: array.pop_front
 #: ./course/documentation.csv:20
@@ -150,6 +158,9 @@ msgid ""
 "[i]if possible[/i]. Supports converting decimal numbers, strings, and "
 "booleans. Useful to convert player text input into numbers."
 msgstr ""
+"Mengembalikan argumen yang diubah menjadi [code]int[/code] (bilangan bulat) "
+"[i]jika memungkinkan[/i]. Mendukung konversi angka desimal, string, dan "
+"boolean. Berguna untuk mengubah input teks pemain menjadi angka."
 
 #. Reference: place_unit
 #: ./course/documentation.csv:24
@@ -157,13 +168,15 @@ msgid ""
 "Creates a new unit matching the type parameter and places it at the "
 "desired cell position on the game grid."
 msgstr ""
+"Membuat unit baru yang cocok dengan parameter tipe dan menempatkannya pada "
+"posisi sel yang diinginkan pada kisi permainan."
 
 #. Reference: display_item
 #: ./course/documentation.csv:25
 msgid "Creates a new item and displays it in the inventory."
-msgstr ""
+msgstr "Membuat item baru dan menampilkannya di inventaris."
 
 #. Reference: add_item
 #: ./course/documentation.csv:26
 msgid "Increases the item count by amount."
-msgstr ""
+msgstr "Meningkatkan jumlah item berdasarkan amount."
