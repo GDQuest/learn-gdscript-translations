@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-12-16 11:48+0000\n"
+"PO-Revision-Date: 2022-12-17 19:49+0000\n"
 "Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-15-modulo/hu/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-15-modulo/lesson.tres:14
@@ -157,7 +157,7 @@ msgstr ""
 
 #: course/lesson-15-modulo/lesson.tres:128
 msgid "Using modulo to find even and odd numbers"
-msgstr ""
+msgstr "Páros és páratlan számok keresése, a modulo segítségével"
 
 #: course/lesson-15-modulo/lesson.tres:130
 msgid ""
@@ -165,6 +165,9 @@ msgid ""
 "divide a number by [code]2[/code] and there's no remainder, then the "
 "number is [b]even[/b]."
 msgstr ""
+"Arra is használhatjuk a moduilot, hogy kiderítsük, egy szám páros vagy "
+"páratlan. Ha elosztunk egy számot [code]2[/code]-vel, és nem marad semmi, "
+"akkor a szám [b]páros[/b]."
 
 #: course/lesson-15-modulo/lesson.tres:150
 msgid ""
@@ -175,7 +178,7 @@ msgid ""
 "\n"
 "Like with divisions, the only case you can't use modulo is with a divisor"
 " of [code]0[/code]."
-msgstr ""
+msgstr "Figyeld meg, hogy a modulo lehet nagyobb, mint a szám."
 
 #: course/lesson-15-modulo/lesson.tres:170
 msgid "Calculating a random number within a range"
