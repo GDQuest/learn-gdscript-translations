@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-12-16 11:48+0000\n"
+"Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-13-conditions/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-13-conditions/lesson.tres:14
@@ -23,16 +26,20 @@ msgid ""
 "In previous lessons, we decreased and increased a character's health, but "
 "there was no limit to how much health they could have."
 msgstr ""
+"Az előző leckékben növeltük és csökkentettük a karakterünk életét, de nem "
+"volt határa annak, hogy mennyi lehet neki."
 
 #: course/lesson-13-conditions/lesson.tres:34
 msgid ""
 "As a result, the player could increase their character's health "
 "indefinitely, which we do not want."
 msgstr ""
+"Ennek eredményeképpen a játékos a végtelenségig növelheti az életei számát, "
+"amit nem szeretnénk."
 
 #: course/lesson-13-conditions/lesson.tres:52
 msgid "What happens to health when we damage our character?"
-msgstr ""
+msgstr "Mi történik az élettel, ha sebződik a karakterünk?"
 
 #: course/lesson-13-conditions/lesson.tres:53
 msgid ""
@@ -41,6 +48,10 @@ msgid ""
 "What would the value of health be if we called [code]take_damage(25)[/code] "
 "[b]five times[/b]?"
 msgstr ""
+"Tegyük fel, hogy a karakterünknek [code]100[/code] élete van.\n"
+"\n"
+"Mennyi élete maradna, ha [b]ötször[/b] hívnánk a [code]take_damage(25)[/code]"
+" függvényt?"
 
 #: course/lesson-13-conditions/lesson.tres:57
 msgid ""
@@ -54,19 +65,28 @@ msgid ""
 "0\n"
 "-25"
 msgstr ""
+"A [code]take_damage(25)[/code] függvény ötszöri hívása [code]125[/code]-öt "
+"vonna ki a [code]100[/code]-ból.\n"
+"\n"
+"100\n"
+"75\n"
+"50\n"
+"25\n"
+"0\n"
+"-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 #: course/lesson-13-conditions/lesson.tres:66
 msgid "-25"
-msgstr ""
+msgstr "-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: course/lesson-13-conditions/lesson.tres:75
 msgid ""
@@ -76,6 +96,11 @@ msgid ""
 "the computer will run the corresponding instructions. Otherwise, those "
 "instructions will not run at all."
 msgstr ""
+"Használhatunk feltételeket, hogy [b]szelektíven[/b] futtassuk a kódot.\n"
+"\n"
+"A feltételek két irányba ágazzák a kódot: ha a feltétel teljesül, a "
+"számítógép végrehajtja a hozzá tatrtozó utasításokat. Ennek hiányában a "
+"kódrész nem fog lefutni."
 
 #: course/lesson-13-conditions/lesson.tres:87
 msgid ""
@@ -83,6 +108,9 @@ msgid ""
 "game input largely relies on conditions: [i]if[/i] the player presses the "
 "button on a gamepad, the character jumps."
 msgstr ""
+"A videójátékok és más programok tele vannak feltételekkel. Például, az input "
+"nagyban függ a feltételektől: [i]ha[/i] a játékos megnyomja a gombot a "
+"kontrolleren, a karakter ugrik egyet."
 
 #: course/lesson-13-conditions/lesson.tres:107
 msgid ""
@@ -100,6 +128,19 @@ msgid ""
 "starting with [code]if[/code], type the condition to evaluate, and end the "
 "line with a colon."
 msgstr ""
+"Amikor a számítógép ellenőriz egy feltételt, azt [b]kiértékelésnek[/b] "
+"hívjuk. Minden feltételt [b]ki lehet értékelni[/b], hogy [code]igaz-e[/code] "
+"vagy [code]hamis[/code].\n"
+"\n"
+"A játékos vagy megnyomta a gombot, vagy nem. A karakter vagy hozzáér az "
+"ellenfélhez, vagy nem.\n"
+"\n"
+"Esetünkben, [i]ha[/i] az élet túlmegy a maximumon, vissza akarjuk állítani a "
+"maximumra.\n"
+"\n"
+"Feltétel létrehozásához, az [code]if[/code] szót használjuk. Létrehozunk egy "
+"[code]if[/code] kezdetű sort, leírjuk a kiértékelendő feltételt, és egy "
+"kettősponttal zárjuk a sort."
 
 #: course/lesson-13-conditions/lesson.tres:133
 msgid ""
@@ -114,10 +155,20 @@ msgid ""
 "The computer knows which instructions belong to the condition because they "
 "are indented."
 msgstr ""
+"Vedd észre a [code]>[/code] összehasonlító jelet. Ezt úgy mondjuk \"nagyobb, "
+"mint\". \n"
+"\n"
+"Már láttuk, hogy a függvény definíciók is kettősponttal zárulnak, és alá "
+"ágyazzák be a kódot.\n"
+"\n"
+"A GDScriptben, ez a szintaxis egy visszatértő elem minden kód blokknál.\n"
+"\n"
+"A számítógép tudja, hogy mely utasítások tartoznak a feltételhez, mert "
+"beljebb vannak kezdve."
 
 #: course/lesson-13-conditions/lesson.tres:157
 msgid "Comparisons"
-msgstr ""
+msgstr "Összehasonlítások"
 
 #: course/lesson-13-conditions/lesson.tres:159
 msgid ""
@@ -133,10 +184,22 @@ msgid ""
 "\n"
 "Here's how we might use these in [code]if[/code] statements.\n"
 msgstr ""
+"A fenti példában a [code]>[/code] jelet használtuk, hogy azt mondjuk "
+"\"nagyobb, miknt\".\n"
+"\n"
+"Másként is hasonlíthatuink össze számokat.\n"
+"\n"
+"a [code]>[/code] jelentése \"nagyobb, mint\"\n"
+"a [code]<[/code] jelentése \"kisebb, mint\"\n"
+"az [code]==[/code] jelentése \"egyenlő\"\n"
+"a [code]!=[/code] jelentése \"nem egyenlő\"\n"
+"\n"
+"Itt egy példa, hogyan használhatjuk ezeket egy [code]if[/code] (feltételes) "
+"függvényben.\n"
 
 #: course/lesson-13-conditions/lesson.tres:187
 msgid "Which of these statements are true?"
-msgstr ""
+msgstr "Melyik állítás igaz?"
 
 #: course/lesson-13-conditions/lesson.tres:190
 msgid ""
@@ -152,33 +215,44 @@ msgid ""
 "The comparison [code]3 < 1[/code] means \"three is less than one\" which is "
 "[b]false[/b]."
 msgstr ""
+"A [code]3 > 1[/code] azt jelenti: \"három nagyobb, mint egy\", ami "
+"[b]igaz[/b].\n"
+"A [code]2 < 3[/code] azt jelenti: \"kettő kisebb, mint három\", ami "
+"[b]igaz[/b].\n"
+"A [code]1 != 3[/code] azt jelenti: \"egy nem egyenlő hárommal\", ami "
+"[b]igaz[/b].\n"
+"\n"
+"A [code]2 == 1[/code] azt jelenti: \"kettő egyenlő eggyel\", ami "
+"[b]hamis[/b].\n"
+"A [code]3 < 1[/code] azt jelenti: \"három kisebb, mint egy\", ami "
+"[b]hamis[/b]."
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "3 > 1"
-msgstr ""
+msgstr "3 > 1"
 
 #: course/lesson-13-conditions/lesson.tres:196
 msgid "2 == 1"
-msgstr ""
+msgstr "2 == 1"
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "2 < 3"
-msgstr ""
+msgstr "2 < 3"
 
 #: course/lesson-13-conditions/lesson.tres:196
 #: course/lesson-13-conditions/lesson.tres:197
 msgid "1 != 3"
-msgstr ""
+msgstr "1 != 3"
 
 #: course/lesson-13-conditions/lesson.tres:196
 msgid "3 < 1"
-msgstr ""
+msgstr "3 < 1"
 
 #: course/lesson-13-conditions/lesson.tres:204
 msgid "Or else..."
-msgstr ""
+msgstr "Különben..."
 
 #: course/lesson-13-conditions/lesson.tres:206
 msgid ""
@@ -188,22 +262,31 @@ msgid ""
 "You can write an [code]else[/code] block after an [code]if[/code] block, "
 "like so."
 msgstr ""
+"Az [code]if[/code] szócskának van egy kiegészítő párja is, az "
+"[code]else[/code].\n"
+"\n"
+"Az alábbiak szerint írhatsz egy [code]else[/code] blokkot az [code]if[/code] "
+"blokk után."
 
 #: course/lesson-13-conditions/lesson.tres:228
 msgid ""
 "The [code]else[/code] block will run whenever the condition above it isn't "
 "met."
 msgstr ""
+"AZ [code]else[/code] blokk akkor fog lefutni, ha a felette lévő feltétel nem "
+"teljesül."
 
 #: course/lesson-13-conditions/lesson.tres:238
 msgid ""
 "In the following practices, we'll use conditions and improve the way our "
 "character's health changes so it has limits."
 msgstr ""
+"A következő példákban feltételeket fogunk használni, és javítunk azon, "
+"hogyan változik a karakter élete, így már lesznek határai."
 
 #: course/lesson-13-conditions/lesson.tres:246
 msgid "Using Comparisons"
-msgstr ""
+msgstr "Összehasonlítások használata"
 
 #: course/lesson-13-conditions/lesson.tres:247
 msgid ""
@@ -226,16 +309,37 @@ msgid ""
 "Because [code]health = 100[/code], this is false so [code]print(\"health is "
 "greater than five.\")[/code] won't run."
 msgstr ""
+"Ez az egész [code]if[/code] sorozat rossz. Változtasd meg a feltételeket, "
+"hogy megfeleljenek a felettük írtaknak.\n"
+"\n"
+"Az értékeket hagyd változatlanul; csak az összehasonlító jeleket változtasd."
+"\n"
+"\n"
+"Emlékeztetőül, ezek az alábbiak:\n"
+"[code]\n"
+"> nagyobb, mint\n"
+"< kisebb, mint\n"
+"== egyenlő\n"
+"!= nem egyenlő\n"
+"[/code]\n"
+"\n"
+"A [code]health < 5:[/code] sor azt jhelenti, hogy a \"health értéke "
+"kevesebb, mint 5\". \n"
+"\n"
+"Mivel a [code]health = 100[/code], ez nem igaz, így a [code]print(\"health "
+"is greater than five.\")[/code] sor nem fog lefutni."
 
 #: course/lesson-13-conditions/lesson.tres:283
 msgid ""
 "Comparing values allows us to make decisions in code. But there's something "
 "wrong with these statements.."
 msgstr ""
+"Az értéket összehasonlításával döntéseket tudunk hozni a kódban. De valami "
+"nem stimmel ezekkel az állításokkal..."
 
 #: course/lesson-13-conditions/lesson.tres:288
 msgid "Limiting Healing"
-msgstr ""
+msgstr "Gyógyulás korlátozása"
 
 #: course/lesson-13-conditions/lesson.tres:289
 msgid ""
@@ -244,16 +348,22 @@ msgid ""
 "Add to the function so the character's health is never greater than "
 "[code]80[/code]."
 msgstr ""
+"Van egy heal függvényünk, ami hozzáad egy értéket a karakter életéhez.\n"
+"\n"
+"Módosítsd úgy a függvényt, hogy a karakter élete soha ne legyen több, mint "
+"[code]80[/code]."
 
 #: course/lesson-13-conditions/lesson.tres:301
 msgid ""
 "As much as we might like, we don't want our robot to have too much health. "
 "Limit how much healing the robot can take."
 msgstr ""
+"Bármennyire is jó lenne, nem szeretnénk, hogy a robotunknak túl sok élete "
+"legyen.Korlátozd, mennyit gyógyulhat a robot."
 
 #: course/lesson-13-conditions/lesson.tres:306
 msgid "Preventing Health from Going Below Zero"
-msgstr ""
+msgstr "Az élet 0 alá csökkenésének megakadályozása"
 
 #: course/lesson-13-conditions/lesson.tres:307
 msgid ""
@@ -270,13 +380,27 @@ msgid ""
 "If [code]health[/code] goes below [code]0[/code], set it to [code]0[/code] "
 "again."
 msgstr ""
+"Amikor a robot sebződik, az élete lehet negatív szám is.\n"
+"\n"
+"Tegyük fel, hogy meg akarjuk jeleníteni az életét a képernyőn, mint a japán "
+"RPG-k.\n"
+"\n"
+"Nem szeretnénk negatív számokat látni. Helyette meg akarunk állni nuláánál.\n"
+"\n"
+"A függvény hívásának csökkenteni kell a [code]health[/code] értékét "
+"[code]amount[/code]-tal.\n"
+"\n"
+"Ha a [code]health[/code] értéke kisebb, mint [code]0[/code], állítsd vissza "
+"[code]0[/code]-ra."
 
 #: course/lesson-13-conditions/lesson.tres:325
 msgid ""
 "Having a negative health value doesn't make a lot of sense. Make sure the "
 "robot's health can't go below zero."
 msgstr ""
+"A negatív életnek nem sok értelme van. Győződj meg róla, hogy a robot élete "
+"nem mehet 0 alá."
 
 #: course/lesson-13-conditions/lesson.tres:329
 msgid "Conditions"
-msgstr ""
+msgstr "Feltételek"

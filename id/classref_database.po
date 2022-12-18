@@ -9,66 +9,71 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-11-29 17:48+0000\n"
+"Last-Translator: Harryanto Winsen <hwinsen.gamedev@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/classref_database/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: show
 #: ./course/documentation.csv:2
 msgid "shows the current scene"
-msgstr ""
+msgstr "memunculkan scene saat ini"
 
 #. Reference: hide
 #: ./course/documentation.csv:3
 msgid "hides the current scene"
-msgstr ""
+msgstr "sembunyikan scene saat ini"
 
 #. Reference: rotate
 #: ./course/documentation.csv:4
 msgid ""
 "Applies a rotation to the node, in radians, starting from its current "
 "rotation."
-msgstr ""
+msgstr "Memutar node, dalam radian, mulai dari rotasi saat ini."
 
 #. Reference: move_forward
 #: ./course/documentation.csv:5
 msgid "Moves the turtle in the direction it's facing by some pixels."
-msgstr ""
+msgstr "Gerakkan kura-kura ke arah yang dihadapinya dengan beberapa piksel."
 
 #. Reference: turn_right
 #: ./course/documentation.csv:6
 msgid "Rotates the turtle to the right by some degrees."
-msgstr ""
+msgstr "Putar kura-kura ke kanan beberapa derajat."
 
 #. Reference: turn_left
 #: ./course/documentation.csv:7
 msgid "Rotates the turtle to the left by some degrees."
-msgstr ""
+msgstr "Putar kura-kura ke kiri beberapa derajat."
 
 #. Reference: jump
 #: ./course/documentation.csv:8
 msgid "Offsets the turtle's position by the given x and y amounts of pixels."
-msgstr ""
+msgstr "Buat kura-kura meloncat dengan jumlah piksel x dan y yang diberikan."
 
 #. Reference: draw_rectangle
 #: ./course/documentation.csv:9
 msgid "Makes the turtle draw a rectangle starting at its current position."
 msgstr ""
+"Buat kura-kura menggambar sebuah persegi panjang, mulai dari posisinya saat "
+"ini."
 
 #. Reference: position.x
 #: ./course/documentation.csv:10
 msgid "The position of the entity on the horizontal axis."
-msgstr ""
+msgstr "Posisi entitas pada sumbu horizontal."
 
 #. Reference: position.y
 #: ./course/documentation.csv:11
 msgid "The position of the entity on the vertical axis."
-msgstr ""
+msgstr "Posisi entitas pada sumbu vertikal."
 
 #. Reference: move_local_x
 #: ./course/documentation.csv:12
@@ -77,6 +82,9 @@ msgid ""
 "[code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] "
 "is false, normalizes the movement."
 msgstr ""
+"Menerapkan translasi lokal pada sumbu X node berdasarkan parameter "
+"[code]delta[/code] pada [code]Node._process[/code]. Jika [code]scaled[/code] "
+"memiliki nilai salah, maka normalisasi gerakannya."
 
 #. Reference: board_size
 #: ./course/documentation.csv:13
@@ -84,6 +92,8 @@ msgid ""
 "Stores how many cells make up the width ([code]board_size.x[/code]) and "
 "height ([code]board_size.y[/code]) of the board."
 msgstr ""
+"Menyimpan berapa banyak sel yang membentuk lebar ([code]board_size.x[/code]) "
+"dan tinggi ([code]board_size.y[/code]) papan."
 
 #. Reference: cell
 #: ./course/documentation.csv:14
@@ -91,41 +101,46 @@ msgid ""
 "The cell position of the robot on the board. [code]Vector2(0, 0)[/code] "
 "is the square cell in the top left of the board."
 msgstr ""
+"Posisi sel dari si robot di atas papan. [code]Vector2(0, 0)[/code] adalah "
+"sel persegi di paling kiri atas papan."
 
 #. Reference: range
 #: ./course/documentation.csv:15
 msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
 msgstr ""
+"Buat sebuah daftar berisi nomor dari [code]0[/code] sampai [code]length - "
+"1[/code]."
 
 #. Reference: play_animation
 #: ./course/documentation.csv:16
 msgid "Orders the robot to play an animation."
-msgstr ""
+msgstr "Perintahkan robot untuk memainkan sebuah animasi."
 
 #. Reference: select_units
 #: ./course/documentation.csv:17
 msgid "Selects units in the cell coordinates passed as the function's argument."
 msgstr ""
+"Memilih unit dalam koordinat sel yang diteruskan sebagai argumen fungsi."
 
 #. Reference: robot.move_to
 #: ./course/documentation.csv:18
 msgid "Queues a move animation towards the target cell."
-msgstr ""
+msgstr "Mengantrikan sebuah animasi yang bergerak ke sel target."
 
 #. Reference: array.append
 #: ./course/documentation.csv:19
 msgid "Adds the value passed as an argument at the back of the array."
-msgstr ""
+msgstr "Menambahkan nilai yang diteruskan sebagai argumen di belakang array."
 
 #. Reference: array.pop_front
 #: ./course/documentation.csv:20
 msgid "Removes the first value from the array and returns it."
-msgstr ""
+msgstr "Menghapus nilai pertama dari array dan mengembalikan nilai tersebut."
 
 #. Reference: array.pop_back
 #: ./course/documentation.csv:21
 msgid "Removes the last value from the array and returns it."
-msgstr ""
+msgstr "Menghapus nilai terakhir dari array dan mengembalikan nilai tersebut."
 
 #. Reference: str
 #: ./course/documentation.csv:22
@@ -133,6 +148,8 @@ msgid ""
 "Returns the argument converted into a [code]String[/code]. Works with the"
 " majority of value types."
 msgstr ""
+"Mengembalikan argumen yang telah diubah menjadi sebuah [code]String[/code]. "
+"Berlaku untuk sebagian besar tipe data."
 
 #. Reference: int
 #: ./course/documentation.csv:23
@@ -141,6 +158,9 @@ msgid ""
 "[i]if possible[/i]. Supports converting decimal numbers, strings, and "
 "booleans. Useful to convert player text input into numbers."
 msgstr ""
+"Mengembalikan argumen yang diubah menjadi [code]int[/code] (bilangan bulat) "
+"[i]jika memungkinkan[/i]. Mendukung konversi angka desimal, string, dan "
+"boolean. Berguna untuk mengubah input teks pemain menjadi angka."
 
 #. Reference: place_unit
 #: ./course/documentation.csv:24
@@ -148,13 +168,15 @@ msgid ""
 "Creates a new unit matching the type parameter and places it at the "
 "desired cell position on the game grid."
 msgstr ""
+"Membuat unit baru yang cocok dengan parameter tipe dan menempatkannya pada "
+"posisi sel yang diinginkan pada kisi permainan."
 
 #. Reference: display_item
 #: ./course/documentation.csv:25
 msgid "Creates a new item and displays it in the inventory."
-msgstr ""
+msgstr "Membuat item baru dan menampilkannya di inventaris."
 
 #. Reference: add_item
 #: ./course/documentation.csv:26
 msgid "Increases the item count by amount."
-msgstr ""
+msgstr "Meningkatkan jumlah item berdasarkan amount."

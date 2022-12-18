@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-06-21 23:43+0000\n"
+"PO-Revision-Date: 2022-12-17 19:49+0000\n"
 "Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-15-modulo/hu/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-15-modulo/lesson.tres:14
@@ -35,14 +35,25 @@ msgid ""
 "Play around with the modulo widget on the right to see how modulo works "
 "visually."
 msgstr ""
+"A modulo ([code]%[/code]) a maradékot adja meg 2 egész szám osztása után.\n"
+"\n"
+"Például, az [code]5[/code] osztva [code]3[/code]-mal ([code]5 % 3[/code]) "
+"moduloja [code]2[/code].\n"
+"\n"
+"Általában arra használjuk, hogy eldöntsük egy számról, hogy páros vagy "
+"páratlan, de véletlenszámokat is generálhatunk egy bizonyos határon belül ("
+"mint egy kockadobás).\n"
+"\n"
+"Próbálgasd a modulo widgetet a jobb oldalon, hogy vizuálisan is lásd, hogy "
+"működik."
 
 #: course/lesson-15-modulo/lesson.tres:28
 msgid "What's the result of this modulo operation?"
-msgstr ""
+msgstr "Mi az eredménye enneka modulo műveletnek?"
 
 #: course/lesson-15-modulo/lesson.tres:29
 msgid "[code]11 % 4[/code]"
-msgstr ""
+msgstr "[code]11 % 4[/code]"
 
 #: course/lesson-15-modulo/lesson.tres:31
 msgid ""
@@ -51,11 +62,15 @@ msgid ""
 "\n"
 "So [code]11 % 4[/code] is [code]3[/code]."
 msgstr ""
+"[code]11[/code] osztva [code]4[/code]-gyel, az [code]2[/code], az osztás "
+"[b]maradéka[/b] pedig [code]3[/code].\n"
+"\n"
+"Tehát, [code]11 % 4[/code] az [code]3[/code]."
 
 #: course/lesson-15-modulo/lesson.tres:34
 #: course/lesson-15-modulo/lesson.tres:35
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: course/lesson-15-modulo/lesson.tres:34
 msgid "2"
@@ -63,7 +78,7 @@ msgstr "2"
 
 #: course/lesson-15-modulo/lesson.tres:34
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #: course/lesson-15-modulo/lesson.tres:44
 msgid ""
@@ -74,10 +89,15 @@ msgid ""
 "\n"
 "All three examples below will cause an error in your code."
 msgstr ""
+"A modulo művelet csak [b]egész számokkal[/b] működik; törtekkel nem.\n"
+"\n"
+"Továbbá, ahogy a hagyományos osztásnál, az osztó itt sem lehet 0.\n"
+"\n"
+"Mind a három lenti példa hibát fog eredményezni a kódban."
 
 #: course/lesson-15-modulo/lesson.tres:66
 msgid "Three ways we use the modulo operation"
-msgstr ""
+msgstr "A modulo három használati módja"
 
 #: course/lesson-15-modulo/lesson.tres:68
 msgid ""
@@ -86,6 +106,10 @@ msgid ""
 "\n"
 "Take a traffic light, for example."
 msgstr ""
+"A modulonak fontos felhasználási területei vannak a programozásban, például "
+"egy számkör létrehozása.\n"
+"\n"
+"Vegyünk példának egy közlekedési lámpát."
 
 #: course/lesson-15-modulo/lesson.tres:90
 msgid ""
@@ -101,6 +125,16 @@ msgid ""
 "Instead, you could use a condition; In this case, we use the modulo as a "
 "shortcut."
 msgstr ""
+"A [code]light_index[/code] nevű szám mutatja a lámpa a jelenlegi helyzetét.\n"
+"\n"
+"A fények mindig ugyanabban a sorrendben kapcsolnak be: először a piros, majd "
+"a sárga, végül a zöld.\n"
+"\n"
+"Ennek a körnek a reprezentálásához, hozzáadhatsz mindig egyet egy számhoz, "
+"majd használhatod a modulo operátort, hogy visszajuss [code]0[/code]-ra.\n"
+"\n"
+"Ehelyett, használhatunk egy feltételt; ebben az esetben a modulot "
+"rövidítésként használhatjuk."
 
 #: course/lesson-15-modulo/lesson.tres:116
 msgid ""
@@ -112,10 +146,18 @@ msgid ""
 "We don't want to waste any number, and as the first number the computer "
 "knows about is [code]0[/code], we start counting from [code]0[/code]."
 msgstr ""
+"A számítógépes kódban, gyakran kezdjük [code]0[/code]-tól a számolást.\n"
+"\n"
+"Minden szám a bitek egy speciális kombinációja, kezdve a [code]0[/code]-tól."
+"\n"
+"\n"
+"Egy számot sem akarunk elvesztegetni, és mivel az első szám, amit a "
+"számítógép ismer a [code]0[/code], ezért [code]0[/code]-tól kezdjük a "
+"számolást."
 
 #: course/lesson-15-modulo/lesson.tres:128
 msgid "Using modulo to find even and odd numbers"
-msgstr ""
+msgstr "Páros és páratlan számok keresése, a modulo segítségével"
 
 #: course/lesson-15-modulo/lesson.tres:130
 msgid ""
@@ -123,6 +165,9 @@ msgid ""
 "divide a number by [code]2[/code] and there's no remainder, then the "
 "number is [b]even[/b]."
 msgstr ""
+"Arra is használhatjuk a moduilot, hogy kiderítsük, egy szám páros vagy "
+"páratlan. Ha elosztunk egy számot [code]2[/code]-vel, és nem marad semmi, "
+"akkor a szám [b]páros[/b]."
 
 #: course/lesson-15-modulo/lesson.tres:150
 msgid ""
@@ -133,7 +178,7 @@ msgid ""
 "\n"
 "Like with divisions, the only case you can't use modulo is with a divisor"
 " of [code]0[/code]."
-msgstr ""
+msgstr "Figyeld meg, hogy a modulo lehet nagyobb, mint a szám."
 
 #: course/lesson-15-modulo/lesson.tres:170
 msgid "Calculating a random number within a range"
