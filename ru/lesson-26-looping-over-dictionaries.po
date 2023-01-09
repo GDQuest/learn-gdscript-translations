@@ -9,26 +9,36 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-10 13:48+0000\n"
+"Last-Translator: Alexander Alexandrov <alex7850.alex@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-26-looping-over-dictionaries/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:13
+#, fuzzy
 msgid ""
 "Like with arrays, you can loop over dictionaries. You can loop over both "
 "their keys and values.\n"
 "\n"
 "Let's see how it works with two examples."
 msgstr ""
+"Как и в случае с массивами, вы можете перебирать словари. Можно перебирать "
+"как ключи, так и значения.\n"
+"\n"
+"Давайте посмотрим, как это работает на двух примерах."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:23
+#, fuzzy
 msgid "Displaying an inventory's content"
-msgstr ""
+msgstr "Отображение содержимого инвентаря"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:25
 msgid ""
@@ -41,6 +51,14 @@ msgid ""
 "To get the list of keys in the dictionary, you can call its [code]keys()[/"
 "code] member function."
 msgstr ""
+"Чтобы отобразить инвентарь игрока, необходимо знать, что в нем находится. "
+"Вам нужно знать название и количество каждого предмета.\n"
+"\n"
+"А из кода этого можно добиться, только перебирая весь словарь и обрабатывая "
+"пары ключ-значение одну за другой.\n"
+"\n"
+"Чтобы получить список ключей в словаре, можно вызвать его встроенную функцию "
+"[code]keys()[/code]."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:49
 msgid ""
@@ -50,6 +68,11 @@ msgid ""
 "after the [code]in[/code] keyword. The language understands that you "
 "implicitly want to loop over the dictionary's keys."
 msgstr ""
+"Но это то, что мы делаем так часто, что вам не нужно вызывать функцию.\n"
+"\n"
+"Вместо этого вы можете напрямую ввести имя переменной в цикле "
+"[code]for[/code] после ключевого слова [code]in[/code]. Язык понимает, что "
+"вы хотите перебрать ключи словаря."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:71
 msgid ""
@@ -59,16 +82,25 @@ msgid ""
 "We can loop over the inventory keys, get the corresponding values, and "
 "display all that information in the user interface."
 msgstr ""
+"Вы можете получить значения с помощью синтаксиса [code]dictionary[key][/code]"
+", как вы узнали в предыдущем уроке.\n"
+"\n"
+"Мы можем перебирать ключи инвентаря, получать соответствующие значения и "
+"отобразить всю эту информацию в пользовательском интерфейсе."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:103
+#, fuzzy
 msgid ""
 "Instead of printing the key-value pairs to the output console, we can code "
 "and call a dedicated function that displays items in the user interface."
 msgstr ""
+"Вместо того чтобы выводить пары ключ-значение на консоль вывода, мы можем "
+"написать и вызвать специальную функцию, которая отображает элементы в "
+"пользовательском интерфейсе."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:131
 msgid "Mapping grid cells to units"
-msgstr ""
+msgstr "Разметка юнитов по сетке ячеек"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:133
 msgid ""
@@ -83,22 +115,40 @@ msgid ""
 "\n"
 "The only limitation is that every key must be unique."
 msgstr ""
+"Мы также можем использовать словарь, чтобы разметить положение юнитов на "
+"игровом поле.\n"
+"\n"
+"Так обычно кодируются настольные игры, ролевые игры на основе сетки или "
+"тактические ролевые игры.\n"
+"\n"
+"Хотя до сих пор мы фокусировались на ключах типа [code]String[/code], "
+"словари GDScript принимают в качестве ключа любой тип значения, позволяя "
+"сопоставлять что угодно с чем угодно.\n"
+"\n"
+"Единственное ограничение заключается в том, что каждый ключ должен быть "
+"уникальным."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:159
+#, fuzzy
 msgid ""
 "Using a [code]for[/code] loop, you can use the key-value pairs to place "
 "units on the board at the start of a game."
 msgstr ""
+"Используя цикл [code]for[/code], вы можете использовать пары ключ-значение "
+"для размещения юнитов на доске в начале игры."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:189
 msgid ""
 "In the following practices, you will loop over dictionaries and process "
 "their content."
 msgstr ""
+"В следующих практических занятиях вы будете перебирать словари и "
+"обрабатывать их содержимое."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:197
+#, fuzzy
 msgid "Displaying the inventory"
-msgstr ""
+msgstr "Отображение инвентаря"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:198
 msgid ""
@@ -112,16 +162,29 @@ msgid ""
 "To do so, call the [code]display_item()[/code] function. It takes two "
 "arguments: the item name and the amount."
 msgstr ""
+"Для представления инвентаря игрока в этой игре мы используем словарь. Ключи "
+"словаря - это названия предметов, а их значения количество предметов, "
+"которыми владеет игрок.\n"
+"\n"
+"Вам нужно пройти циклом по словарю и вывести название и количество каждого "
+"предмета в инвентаре.\n"
+"\n"
+"Для этого вызовите функцию [code]display_item()[/code]. Она принимает два "
+"аргумента: название предмета и количество."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:218
+#, fuzzy
 msgid ""
 "We need to display the player's inventory on the screen but lack the code to "
 "do so. Use a loop to display every item."
 msgstr ""
+"Нам нужно отобразить инвентарь игрока на экране, но у нас нет кода для "
+"этого. Используйте цикл для отображения каждого предмета."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:223
+#, fuzzy
 msgid "Placing units on the board"
-msgstr ""
+msgstr "Размещение юнитов на доске"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:224
 msgid ""
@@ -131,13 +194,20 @@ msgid ""
 "Using a for loop and the [code]place_unit()[/code] function, place every "
 "unit in the units dictionary at the desired position on the game board."
 msgstr ""
+"У нас есть словарь с именем [code]units[/code], который хранит позицию "
+"ячейки на сетке, в которую нужно поместить юнитов.\n"
+"\n"
+"Используя цикл for и функцию [code]place_unit()[/code], поместите каждый "
+"юнит из словаря units в нужную позицию на игровом поле."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:242
 msgid ""
 "We want to populate our game board with units at the start of every battle. "
 "Loop over the dictionary to place units on the board."
 msgstr ""
+"Мы хотим заполнить наше игровое поле юнитами в начале каждой битвы. "
+"Переберите словарь, чтобы разместить юниты на доске."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:246
 msgid "Looping over dictionaries"
-msgstr ""
+msgstr "Перебор словарей"
