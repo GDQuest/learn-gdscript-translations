@@ -9,13 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-10 13:48+0000\n"
+"Last-Translator: Alexander Alexandrov <alex7850.alex@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-25-creating-dictionaries/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:14
@@ -38,12 +42,31 @@ msgid ""
 "To define a dictionary, we use curly brackets. A colon separates each key"
 " and its value. A comma separates each key and value pair."
 msgstr ""
+"В прошлом уроке мы использовали массив для представления инвентаря игрока.\n"
+"\n"
+"Однако, имея только массив названий предметов, мы не можем легко отслеживать "
+"количество каждого предмета.\n"
+"\n"
+"Вместо этого мы можем объединить названия предметов и их количество в один "
+"[i]словарь[/i] (dictionary).\n"
+"\n"
+"Словарь - это структура данных, которая позволяет сопоставлять пары "
+"значений. В паре мы называем первое значение [i]ключом[/i], поскольку "
+"используем его для доступа ко второму.\n"
+"\n"
+"Другими словами, словарь имеет список [i]ключей[/i] (key), и каждый ключ "
+"указывает на [i]значение[/i] (value).\n"
+"\n"
+"Для определения словаря мы используем фигурные скобки. Двоеточие разделяет "
+"каждый ключ и его значение. Запятая разделяет каждую пару ключа и значения."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:42
+#, fuzzy
 msgid "Dictionaries can hold any values"
-msgstr ""
+msgstr "Словари могут содержать любые значения"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:44
+#, fuzzy
 msgid ""
 "Dictionaries can map about any value to any other value.\n"
 "\n"
@@ -51,8 +74,14 @@ msgid ""
 "the corresponding value. This makes dictionaries excellent for keeping "
 "track of a player's inventory."
 msgstr ""
+"Словари могут сопоставлять любое значение с любым другим значением.\n"
+"\n"
+"Например, мы можем использовать название предмета в качестве ключа, а "
+"количество - в качестве соответствующего значения. Благодаря этому словари "
+"отлично подходят для отслеживания инвентаря игрока."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:66
+#, fuzzy
 msgid ""
 "Here we matched the name (a string) to the amount (a number). But a key "
 "could be a string, a number, or even a vector! \n"
@@ -61,14 +90,22 @@ msgid ""
 " key has to be [i]unique[/i]. That means we [i]couldn't[/i] have a "
 "dictionary like the following."
 msgstr ""
+"Здесь мы сопоставили название (строка) и сумму (число). Но ключ может быть "
+"строкой, числом или даже вектором! \n"
+"\n"
+"Хотя мы можем иметь все эти различные ключи, имейте в виду, что каждый ключ "
+"должен быть [i]уникальным[/i]. Это означает, что мы [i]не можем[/i] иметь "
+"словарь, подобный следующему."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:88
+#, fuzzy
 msgid "We would get the following error."
-msgstr ""
+msgstr "Мы получим следующую ошибку."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:106
+#, fuzzy
 msgid "In the above example, which key would cause an error?"
-msgstr ""
+msgstr "В приведенном выше примере, какой ключ вызовет ошибку?"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:109
 msgid ""
@@ -79,6 +116,11 @@ msgid ""
 "[code]3[/code] or [code]8[/code] when using [code]inventory[\"healing "
 "heart\"][/code]. This is why keys need to be unique."
 msgstr ""
+"Ключ [code]\"healing heart\"[/code] встречается [b]дважды[/b] в словаре.\n"
+"\n"
+"В приведенном выше примере Годо не знает, что вернуть: [code]3[/code] или "
+"[code]8[/code] при использовании [code]inventory[\"healing heart\"][/code]. "
+"Вот почему ключи должны быть уникальными."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 #: course/lesson-25-creating-dictionaries/lesson.tres:113
@@ -94,8 +136,9 @@ msgid "\"sword\""
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:120
+#, fuzzy
 msgid "How dictionaries work under the hood"
-msgstr ""
+msgstr "Как словари работают под капотом"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:122
 msgid ""
@@ -116,28 +159,56 @@ msgid ""
 "That's also why you can't have the same key twice: it would map to the "
 "same array index, causing you to overwrite an existing value."
 msgstr ""
+"Словари также называют [i]ассоциативными массивами[/i] (associative arrays). "
+"В них используются массивы и несколько функций для эффективного хранения и "
+"извлечения значений из массивов.\n"
+"\n"
+"Точнее, словари используют алгоритм [i]хэширования [/i]. Алгоритмы "
+"хэширования преобразуют одно значение в другое.\n"
+"\n"
+"В данном случае хэширование заключается в преобразовании заданного ключа в "
+"уникальное целое число. Затем словарь использует это число в качестве "
+"индекса массива!\n"
+"\n"
+"Вот как работает словарь: когда вы даете ему ключ, он преобразует его в "
+"уникальный индекс и использует этот индекс для получения соответствующего "
+"значения в памяти компьютера.\n"
+"\n"
+"Именно поэтому вы не можете использовать один и тот же ключ дважды: он будет "
+"сопоставлен с одним и тем же индексом массива, что приведет к перезаписи "
+"существующего значения."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:138
+#, fuzzy
 msgid "Accessing values"
-msgstr ""
+msgstr "Доступ к значениям"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:140
+#, fuzzy
 msgid ""
 "We access the value of keys by writing the dictionary name, with the key "
 "in between square brackets."
 msgstr ""
+"Мы получаем доступ к значению ключей, записывая имя словаря с ключом в "
+"квадратных скобках."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:168
+#, fuzzy
 msgid "How would you access how many gems the player has?"
-msgstr ""
+msgstr "Как получить доступ к количеству драгоценных камней у игрока?"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:171
+#, fuzzy
 msgid ""
 "We need to make sure the key is the same as we defined in the dictionary."
 "\n"
 "\n"
 "In our case, [code]var item_count = inventory[\"gems\"][/code] is correct."
 msgstr ""
+"Мы должны убедиться, что ключ тот же, что мы определили в словаре.\n"
+"\n"
+"В нашем случае [code]var item_count = inventory[\"gems\"][/code] является "
+"правильным."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 msgid "var item_count = inventory[\"gem\"]"
@@ -153,24 +224,30 @@ msgid "var item_count = inventory[\"sword\"]"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:182
+#, fuzzy
 msgid "Changing values"
-msgstr ""
+msgstr "Изменение значений"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:184
+#, fuzzy
 msgid ""
 "We can also change values directly, which is useful in our case for "
 "adding or removing items from the player's inventory."
 msgstr ""
+"Мы также можем изменять значения напрямую, что полезно в нашем случае для "
+"добавления или удаления предметов из инвентаря игрока."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:214
 msgid ""
 "In the following practices, we'll use a dictionary to create a player "
 "inventory and create a function to change the value of items."
 msgstr ""
+"В следующих практических занятиях мы будем использовать словарь для создания "
+"инвентаря игрока и создадим функцию для изменения количества предметов."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:222
 msgid "Creating an inventory using a dictionary"
-msgstr ""
+msgstr "Создание инвентаря с помощью словаря"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:223
 msgid ""
@@ -188,16 +265,32 @@ msgid ""
 "\n"
 "The keys should be text strings, and the values whole numbers."
 msgstr ""
+"Давайте дадим несколько предметов игроку.\n"
+"\n"
+"Мы используем словарь для инвентаря игрока. Мы определили для вас переменную "
+"[code]inventory[/code], но она пока не содержит никаких предметов.\n"
+"\n"
+"Дайте игроку следующие предметы, добавив правильные ключи и значения в "
+"словарь:\n"
+"\n"
+"- Три \"healing heart\".\n"
+"- Девять \"gems\".\n"
+"- Один \"sword\".\n"
+"\n"
+"Ключи должны быть текстовыми строками, а значения - целыми числами."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:244
 msgid ""
 "Collecting items is fun, but we need a good way to store them. Write a "
 "dictionary to display the player's items."
 msgstr ""
+"Собирать предметы — это весело, но нам нужен хороший способ их хранения. "
+"Напишите словарь для отображения предметов игрока."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:249
+#, fuzzy
 msgid "Increasing item counts"
-msgstr ""
+msgstr "Увеличение количества предметов"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:250
 msgid ""
@@ -213,13 +306,28 @@ msgid ""
 "To test this practice, we'll use your [code]add_item()[/code] function to"
 " increase the item count of Healing Heart, Gems, and Sword."
 msgstr ""
+"Мы хотим изменять количество предметов в инвентаре игрока каждый раз, когда "
+"игрок берет или использует предмет.\n"
+"\n"
+"Мы объявили за вас функцию [code]add_item()[/code].\n"
+"\n"
+"Словарь [code]inventory[/code] должен использовать параметр "
+"[code]item_name[/code] в качестве ключа для доступа к своим значениям, и мы "
+"должны увеличить значение на количество [code]amount[/code].\n"
+"\n"
+"Чтобы проверить эту практику, мы воспользуемся вашей функцией "
+"[code]add_item()[/code], чтобы увеличить количество предметов Healing Heart, "
+"Gems и Sword."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:266
 msgid ""
 "The player might walk over a pick-up or find something in a chest, so we "
 "need a way to change the item counts in our inventory."
 msgstr ""
+"Игрок может поднять предмет или найти что-то в сундуке, поэтому нам нужен "
+"способ изменить количество предметов в инвентаре."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:270
+#, fuzzy
 msgid "Creating Dictionaries"
-msgstr ""
+msgstr "Создание словарей"
