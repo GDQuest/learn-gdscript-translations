@@ -9,13 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-10 13:48+0000\n"
+"Last-Translator: Alexander Alexandrov <alex7850.alex@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-27-value-types/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-27-value-types/lesson.tres:13
@@ -30,33 +34,56 @@ msgid ""
 "As a result, it's essential to understand types: they are not fully "
 "compatible with one another, and misusing them will cause errors."
 msgstr ""
+"В вашем коде значения имеют определенный [i]тип[/i]. Вы уже узнали о "
+"нескольких: целые числа, десятичные дроби, строки, двумерные векторы, "
+"массивы и словари.\n"
+"\n"
+"Компьютер использует тип значения, чтобы знать, какие операции и функции "
+"можно с ним использовать.\n"
+"\n"
+"Поэтому очень важно понимать типы: они не полностью совместимы друг с "
+"другом, и неправильное их использование приведет к ошибкам."
 
 #: course/lesson-27-value-types/lesson.tres:25
+#, fuzzy
 msgid "A prime example"
-msgstr ""
+msgstr "Наглядный пример"
 
 #: course/lesson-27-value-types/lesson.tres:27
+#, fuzzy
 msgid ""
 "You want to display the player's health in the interface. Your code tracks "
 "health as a whole number, a value of type [code]int[/code] (short for "
 "integer)."
 msgstr ""
+"Вы хотите отображать здоровье игрока в интерфейсе. Ваш код отслеживает "
+"здоровье как целое число, значение типа [code]int[/code] (сокращение от "
+"integer)."
 
 #: course/lesson-27-value-types/lesson.tres:47
+#, fuzzy
 msgid ""
 "However, to display it on the player's screen, the computer wants text: it "
 "needs a value of type [code]String[/code].\n"
 "\n"
 "You can concatenate two strings with the [code]+[/code] operator."
 msgstr ""
+"Однако, чтобы отобразить его на экране игрока, компьютер хочет получить "
+"текст: ему нужно значение типа [code]String[/code].\n"
+"\n"
+"Вы можете объединить две строки с помощью оператора [code]+[/code]."
 
 #: course/lesson-27-value-types/lesson.tres:69
+#, fuzzy
 msgid "So the following code looks like it could work at first glance."
 msgstr ""
+"Поэтому следующий код на первый взгляд выглядит так, как будто он может "
+"работать."
 
 #: course/lesson-27-value-types/lesson.tres:89
+#, fuzzy
 msgid "But when running the code, we get this strange error."
-msgstr ""
+msgstr "Но при выполнении кода мы получаем эту странную ошибку."
 
 #: course/lesson-27-value-types/lesson.tres:109
 msgid ""
@@ -66,10 +93,16 @@ msgid ""
 "In that case, you need to convert the [code]health[/code] number into a "
 "[code]String[/code]."
 msgstr ""
+"Он сообщает вам, что вы не можете складывать значения типа "
+"[code]String[/code] и [code]int[/code]: они несовместимы.\n"
+"\n"
+"В этом случае вам нужно преобразовать число [code]health[/code] в "
+"[code]String[/code]."
 
 #: course/lesson-27-value-types/lesson.tres:119
+#, fuzzy
 msgid "Converting values into strings"
-msgstr ""
+msgstr "Преобразование значений в строки"
 
 #: course/lesson-27-value-types/lesson.tres:121
 msgid ""
@@ -80,16 +113,25 @@ msgid ""
 "You can use this function whenever you want to turn some number or vector "
 "into text."
 msgstr ""
+"Вы можете получить текстовое представление значения, вызвав функцию "
+"[code]str()[/code] (сокращение от \"string\"). Функция возвращает свой "
+"аргумент в виде новой строки типа [code]String[/code].\n"
+"\n"
+"Вы можете использовать эту функцию всякий раз, когда хотите превратить "
+"некоторое число или вектор в текст."
 
 #: course/lesson-27-value-types/lesson.tres:143
 msgid ""
 "In this case, it turns the number [code]100[/code] into the string "
 "[code]\"100\"[/code]. Or whatever number [code]health[/code] is currently."
 msgstr ""
+"В данном случае он превращает число [code]100[/code] в строку [code]\"100\""
+"[/code]. Или любое другое число из [code]health[/code] в данный момент."
 
 #: course/lesson-27-value-types/lesson.tres:151
+#, fuzzy
 msgid "Converting strings into numbers"
-msgstr ""
+msgstr "Преобразование строк в числа"
 
 #: course/lesson-27-value-types/lesson.tres:153
 msgid ""
@@ -99,12 +141,20 @@ msgid ""
 "Those functions can convert what the player writes in a text field into a "
 "number. For example, the number of potions to sell at once in a shop."
 msgstr ""
+"Вы также можете преобразовать строки в целые числа или десятичные дроби, "
+"используя соответственно функции [code]int()[/code] и [code]float()[/code].\n"
+"\n"
+"Эти функции могут преобразовать то, что игрок пишет в текстовом поле, в "
+"число. Например, количество зелий, которые можно продать за один раз в "
+"магазине."
 
 #: course/lesson-27-value-types/lesson.tres:173
+#, fuzzy
 msgid "Some types are partially compatible"
-msgstr ""
+msgstr "Некоторые типы частично совместимы"
 
 #: course/lesson-27-value-types/lesson.tres:175
+#, fuzzy
 msgid ""
 "Most types are incompatible. For example, you can't directly add or multiply "
 "an array with a number.\n"
@@ -112,6 +162,11 @@ msgid ""
 "However, some types are [i]partially[/i] compatible. For example, you can "
 "multiply or divide a vector by a number. "
 msgstr ""
+"Большинство типов несовместимы. Например, вы не можете напрямую сложить или "
+"умножить массив с числом.\n"
+"\n"
+"Однако некоторые типы [i]частично[/i] совместимы. Например, вы можете "
+"умножить или разделить вектор на число. "
 
 #: course/lesson-27-value-types/lesson.tres:197
 msgid ""
@@ -122,16 +177,26 @@ msgid ""
 "get an error. That's why, in earlier lessons, you had to access the sub-"
 "variables of [code]position[/code] to add numbers to them."
 msgstr ""
+"Это возможно, потому что другие разработчики определили эту операцию для вас "
+"под капотом.\n"
+"\n"
+"Однако вы не можете напрямую прибавить или вычесть число из вектора. Вы "
+"получите ошибку. Вот почему в предыдущих уроках вам приходилось обращаться к "
+"подпеременным вектора [code]position[/code], чтобы добавить к ним числа."
 
 #: course/lesson-27-value-types/lesson.tres:207
+#, fuzzy
 msgid "A surprising result"
-msgstr ""
+msgstr "Удивительный результат"
 
 #: course/lesson-27-value-types/lesson.tres:209
+#, fuzzy
 msgid ""
 "Take the following division: [code]3/2[/code]. What result would you expect "
 "to get? [code]1.5[/code]?"
 msgstr ""
+"Выполните следующее деление: [code]3/2[/code]. Какой результат вы ожидаете "
+"получить? [code]1.5[/code]?"
 
 #: course/lesson-27-value-types/lesson.tres:229
 msgid ""
@@ -145,6 +210,15 @@ msgid ""
 "When you divide decimal numbers instead, you will get a decimal number as a "
 "result."
 msgstr ""
+"Так, для компьютера результатом [code]3/2[/code] будет [code]1[/code].\n"
+"\n"
+"Подождите, что?!\n"
+"\n"
+"Это потому, что для компьютера при делении двух целых чисел всегда "
+"получается целое число.\n"
+"\n"
+"Когда вы делите значения вещественного типа, в результате вы получите "
+"десятичную дробь."
 
 #: course/lesson-27-value-types/lesson.tres:255
 msgid ""
@@ -156,12 +230,21 @@ msgid ""
 "bugs like controls not working as intended or charging the wrong price to "
 "players. "
 msgstr ""
+"Даже если это просто [code]0[/code], добавление десятичного разряда после "
+"точки говорит компьютеру, что нам нужны десятичные дроби.\n"
+"\n"
+"Это показывает, насколько внимательным нужно быть при работе с типами. В "
+"противном случае вы получите неожиданные результаты. Это может быть довольно "
+"серьезно: ошибки в числах могут привести к таким ошибкам, как неработающие "
+"элементы управления или неправильная цена для игроков. "
 
 #: course/lesson-27-value-types/lesson.tres:265
+#, fuzzy
 msgid "Understanding and mastering types is a key skill for developers"
-msgstr ""
+msgstr "Понимание и освоение типов - ключевой навык для разработчиков"
 
 #: course/lesson-27-value-types/lesson.tres:267
+#, fuzzy
 msgid ""
 "Programming beginners often struggle due to the lack of understanding of "
 "types.\n"
@@ -175,10 +258,22 @@ msgid ""
 "\n"
 "That said, let's practice some type conversions."
 msgstr ""
+"Начинающие программисты часто испытывают трудности из-за недостаточного "
+"понимания типов.\n"
+"\n"
+"Такие языки, как GDScript, по умолчанию скрывают от вас типы. В результате, "
+"если вы не понимаете, что некоторые из них несовместимы, вы можете застрять, "
+"столкнувшись с ошибками, связанными с типами.\n"
+"\n"
+"Вам следует помнить об этом в процессе обучения. При написании кода вам "
+"необходимо понимать все, что происходит.\n"
+"\n"
+"Учитывая это, давайте потренируемся в преобразовании типов."
 
 #: course/lesson-27-value-types/lesson.tres:281
+#, fuzzy
 msgid "Displaying the player's health and energy"
-msgstr ""
+msgstr "Отображение здоровья и энергии игрока"
 
 #: course/lesson-27-value-types/lesson.tres:282
 msgid ""
@@ -194,16 +289,30 @@ msgid ""
 "[code]\"80\"[/code] would break the rest of the game's code. You must "
 "convert the value when calling [code]display_energy()[/code]."
 msgstr ""
+"Мы хотим отображать энергию игрока в пользовательском интерфейсе.\n"
+"\n"
+"В настоящее время в нашем коде присутствует ошибка типа. Мы пытаемся "
+"отобразить целое число, в то время как функция [code]display_energy()[/code] "
+"ожидает строку.\n"
+"\n"
+"Используя функцию [code]str()[/code], устраните ошибку типизации и сделайте "
+"так, чтобы количество энергии отображалось на интерфейсе.\n"
+"\n"
+"Вы не можете изменить определение переменной [code]energy[/code]: установка "
+"значения [code]\"80\"[/code] нарушит остальной код игры. Вы должны "
+"преобразовать значение при вызове [code]display_energy()[/code]."
 
 #: course/lesson-27-value-types/lesson.tres:300
 msgid ""
 "We want to display the player's energy in the interface but face a type "
 "error. Use your new knowledge to fix it."
 msgstr ""
+"Мы хотим отображать энергию игрока в интерфейсе, но столкнулись с ошибкой "
+"типизации. Используйте свои новые знания, чтобы исправить ее."
 
 #: course/lesson-27-value-types/lesson.tres:305
 msgid "Letting the player type numbers"
-msgstr ""
+msgstr "Разрешим игроку вводить цифры"
 
 #: course/lesson-27-value-types/lesson.tres:306
 msgid ""
@@ -219,13 +328,28 @@ msgid ""
 "Using the [code]int()[/code] function, convert the player's input into a "
 "whole number and store the result in the [code]item_count[/code] variable."
 msgstr ""
+"В магазинах нашей игры мы хотим позволить игроку вводить цифры, чтобы "
+"выбрать количество предметов, которые он хочет купить или продать.\n"
+"\n"
+"Нам нужно знать количество предметов как [code]int[/code], но компьютер "
+"считывает ввод игрока как [code]String[/code].\n"
+"\n"
+"Ваша задача — преобразовать вводимые игроком данные в числа, чтобы код "
+"магазина заработал.\n"
+"\n"
+"Используя функцию [code]int()[/code], преобразуйте введенные игроком данные "
+"в целое число и сохраните результат в переменной [code]item_count[/code]."
 
 #: course/lesson-27-value-types/lesson.tres:326
+#, fuzzy
 msgid ""
 "We want the player to choose the number of items they buy or sell in our "
 "game's shops. But right now, all we get are type errors."
 msgstr ""
+"Мы хотим, чтобы игрок мог выбирать количество предметов, которые он покупает "
+"или продает в магазинах нашей игры. Но сейчас мы получаем только ошибки типа."
 
 #: course/lesson-27-value-types/lesson.tres:330
+#, fuzzy
 msgid "Value types"
-msgstr ""
+msgstr "Типы значений"
