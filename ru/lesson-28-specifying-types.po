@@ -9,13 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-10 13:48+0000\n"
+"Last-Translator: Alexander Alexandrov <alex7850.alex@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-28-specifying-types/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-28-specifying-types/lesson.tres:13
@@ -26,15 +30,25 @@ msgid ""
 "\n"
 "Unlike in some other languages, in GDScript, the following code is valid."
 msgstr ""
+"По умолчанию GDScript является языком, который мы называем динамически-"
+"типизированным. Это означает, что вы можете просто написать переменные, "
+"присвоить им значение (например число) и потом присвоить им другое значение "
+"с другим типом.\n"
+"\n"
+"В отличие от некоторых других языков, в GDScript следующий код является "
+"допустимым."
 
 #: course/lesson-28-specifying-types/lesson.tres:35
+#, fuzzy
 msgid ""
 "But this feature often causes problems down the line. Let's take one example."
 msgstr ""
+"Но эта функция часто вызывает проблемы в дальнейшем. Рассмотрим один пример."
 
 #: course/lesson-28-specifying-types/lesson.tres:43
+#, fuzzy
 msgid "Cell size: decimal number, or 2D vector?"
-msgstr ""
+msgstr "Размер ячейки: десятичное число или двумерный вектор?"
 
 #: course/lesson-28-specifying-types/lesson.tres:45
 msgid ""
@@ -50,12 +64,26 @@ msgid ""
 "\n"
 "Either of those two values would be fine:"
 msgstr ""
+"Игры постоянно используют сетки, будь то для основанного на сетке геймплея, "
+"или для ускорения работы алгоритмов.\n"
+"\n"
+"При работе с сетками вам постоянно нужно преобразовывать координаты сетки в "
+"позиции в игровом мире. Для этого каждой ячейке присваивается размер в "
+"пикселях.\n"
+"\n"
+"Скорее всего, вы выберете для этого один из двух типов: [code]float[/code] ("
+"число с плавающей точкой) или [code]Vector2[/code].\n"
+"\n"
+"Любое из этих двух значений подойдет:"
 
 #: course/lesson-28-specifying-types/lesson.tres:71
+#, fuzzy
 msgid ""
 "Using a [code]Vector2[/code] could simplify some calculations. For example, "
 "when converting grid coordinates to game world coordinates."
 msgstr ""
+"Использование [code]Vector2[/code] может упростить некоторые вычисления. "
+"Например, при преобразовании координат сетки в координаты игрового мира."
 
 #: course/lesson-28-specifying-types/lesson.tres:91
 msgid ""
@@ -65,8 +93,14 @@ msgid ""
 "However, if [code]cell_size[/code] is a [code]float[/code], we will get a "
 "type error."
 msgstr ""
+"В этом примере, поскольку и [code]cell[/code], и [code]cell_size[/code] оба "
+"являются значениями [code]Vector2[/code], мы можем их сложить.\n"
+"\n"
+"Однако, если [code]cell_size[/code] является [code]float[/code], мы получим "
+"ошибку типизации."
 
 #: course/lesson-28-specifying-types/lesson.tres:123
+#, fuzzy
 msgid ""
 "Worse: due to dynamic typing, we won't get an error [i]right away[/i]. We "
 "will only get the error when calling [code]grid_to_world(Vector2(1, 1))[/"
@@ -74,6 +108,11 @@ msgid ""
 "\n"
 "And that's a big problem."
 msgstr ""
+"Хуже того: из-за динамической типизации мы не получим ошибку [i]сразу[/i]. "
+"Мы получим ошибку только при вызове [code]grid_to_world(Vector2(1, "
+"1))[/code].\n"
+"\n"
+"А это уже большая проблема."
 
 #: course/lesson-28-specifying-types/lesson.tres:135
 msgid ""
@@ -84,10 +123,17 @@ msgid ""
 "And with a lot of code, it could take [i]hours[/i] of play before players "
 "trigger a type error in your code."
 msgstr ""
+"Поскольку мы учимся, в этом курсе у нас только небольшие примеры кода. Но "
+"код ваших игр будет длинным и разбитым на множество файлов. При кодировании "
+"вы часто забываете о коде, который вы написали несколько недель назад.\n"
+"\n"
+"А при большом количестве кода могут пройти [i]часы[/i] игры, прежде чем "
+"игроки вызовут ошибку типизации в вашем коде."
 
 #: course/lesson-28-specifying-types/lesson.tres:145
+#, fuzzy
 msgid "Using type hints"
-msgstr ""
+msgstr "Использование подсказок типов"
 
 #: course/lesson-28-specifying-types/lesson.tres:147
 msgid ""
@@ -99,22 +145,36 @@ msgid ""
 "To specify the type a variable can accept, you can write a colon and a type "
 "after the name when defining a new variable."
 msgstr ""
+"К счастью, в GDScript есть необязательные [i]подсказки типа[/i] (type hints)."
+"\n"
+"\n"
+"Подсказки типов позволяют компьютеру узнать тип значения, который вы хотите "
+"использовать для переменных, и сообщают об ошибках до выполнения кода.\n"
+"\n"
+"Чтобы указать тип, который может принимать переменная, при определении новой "
+"переменной нужно написать двоеточие и тип после имени."
 
 #: course/lesson-28-specifying-types/lesson.tres:171
+#, fuzzy
 msgid ""
 "You could tell the computer you want [code]cell_size[/code] only to accept "
 "[code]Vector2[/code] values like so."
 msgstr ""
+"Вы можете сказать компьютеру, что хотите, чтобы [code]cell_size[/code] "
+"принимал только [code]Vector2[/code] значения, например, так."
 
 #: course/lesson-28-specifying-types/lesson.tres:191
+#, fuzzy
 msgid ""
 "If you try to replace the [code]cell_size[/code] with a value of another "
 "type later, the computer will not let you."
 msgstr ""
+"Если позже вы попытаетесь заменить значение [code]cell_size[/code] значением "
+"другого типа, компьютер вам этого не позволит."
 
 #: course/lesson-28-specifying-types/lesson.tres:219
 msgid "Letting the computer figure it out"
-msgstr ""
+msgstr "Пусть компьютер разберется"
 
 #: course/lesson-28-specifying-types/lesson.tres:221
 msgid ""
@@ -125,16 +185,28 @@ msgid ""
 "the type using the value after the equal sign. We could make "
 "[code]cell_size[/code] a variable of type [code]Vector2[/code] like so:"
 msgstr ""
+"GDScript поставляется с функцией, называемой [i]вывод типов[/i] (type "
+"inference). Во многих случаях, но не во всех, компьютер может определить тип "
+"переменной за вас.\n"
+"\n"
+"Для этого нужно написать [code]:=[/code], без указания типа. Компьютер "
+"определит тип, используя значение после знака равенства. Мы можем сделать "
+"[code]cell_size[/code] переменной типа [code]Vector2[/code] следующим "
+"образом:"
 
 #: course/lesson-28-specifying-types/lesson.tres:243
+#, fuzzy
 msgid ""
 "This takes little typing, yet you get the benefits of using type hints, like "
 "the computer reporting errors better and faster."
 msgstr ""
+"Это занимает немного времени, но при этом вы получаете преимущества "
+"использования подсказок типа, например, компьютер лучше и быстрее сообщает "
+"об ошибках."
 
 #: course/lesson-28-specifying-types/lesson.tres:251
 msgid "Why bother to add hints?"
-msgstr ""
+msgstr "Зачем запариваться с добавлением подсказок типа?"
 
 #: course/lesson-28-specifying-types/lesson.tres:253
 msgid ""
@@ -153,10 +225,26 @@ msgid ""
 "In the following practices, you will write the correct type hints to make "
 "the code error-free."
 msgstr ""
+"Когда вы даете языку такие подсказки, он [i]предотвращает[/i] серьезные "
+"ошибки типизации. Когда вы будете работать в Godot, вы увидите, что "
+"компьютер может сообщать о проблемах по мере написания кода. Это делает "
+"преимущество еще более значительным.\n"
+"\n"
+"Подсказки типов также могут помочь улучшить читабельность вашего кода. Это "
+"может помочь разместить больше информации непосредственно в коде. Как мы "
+"видели, типы необходимы при программировании, а при использовании подсказок "
+"типов компьютер будет добавлять их во встроенную систему документации кода.\n"
+"\n"
+"Есть и третье невероятное преимущество: используя подсказки типов, вы будете "
+"изучать типы гораздо быстрее. Это отлично подходит для обучения.\n"
+"\n"
+"В следующей практике вы напишете правильные подсказки типов, чтобы исправить "
+"ошибки в коде."
 
 #: course/lesson-28-specifying-types/lesson.tres:267
+#, fuzzy
 msgid "Add the correct type hints to variables"
-msgstr ""
+msgstr "Добавьте правильные подсказки типа к переменным"
 
 #: course/lesson-28-specifying-types/lesson.tres:268
 msgid ""
@@ -168,16 +256,28 @@ msgid ""
 "Note: You cannot use type inference in this practice. You need to write the "
 "type name in full."
 msgstr ""
+"Наши переменные получают правильные значения, но не правильные подсказки. "
+"Используя свое владение мастерством типов, добавьте правильные имена типов в "
+"определения переменных.\n"
+"\n"
+"Имя типа нужно писать между двоеточием и знаком равенства.\n"
+"\n"
+"Примечание: В этой практике нельзя использовать вывод типа. Вы должны "
+"написать имя типа полностью."
 
 #: course/lesson-28-specifying-types/lesson.tres:284
+#, fuzzy
 msgid ""
 "Our variables have the wrong type hints, causing errors. Correct them to "
 "make the code run."
 msgstr ""
+"Наши переменные имеют неправильные подсказки типа, что приводит к ошибкам. "
+"Исправьте их, чтобы код выполнялся."
 
 #: course/lesson-28-specifying-types/lesson.tres:289
+#, fuzzy
 msgid "Fix the values to match the type hints"
-msgstr ""
+msgstr "Исправьте значения в соответствии с подсказками типов"
 
 #: course/lesson-28-specifying-types/lesson.tres:290
 msgid ""
@@ -187,13 +287,22 @@ msgid ""
 "Your task is to fix the values after the equal sign, so they match the type "
 "hint of each variable."
 msgstr ""
+"В данной практике все происходит наоборот: подсказки типов подходят, а "
+"значения - нет.\n"
+"\n"
+"Ваша задача — исправить значения после знака равенства, чтобы они "
+"соответствовали подсказке типа каждой переменной."
 
 #: course/lesson-28-specifying-types/lesson.tres:304
+#, fuzzy
 msgid ""
 "This time, it's the other way around: variables have the correct type hints "
 "but the wrong values. Change the values to make the code run."
 msgstr ""
+"В этот раз все наоборот: переменные имеют правильный тип подсказки, но "
+"неправильные значения. Измените значения, чтобы код выполнился."
 
 #: course/lesson-28-specifying-types/lesson.tres:308
+#, fuzzy
 msgid "Specifying types with type hints"
-msgstr ""
+msgstr "Указание типов с помощью подсказок типов"
