@@ -42,11 +42,11 @@ msgstr "Başlık"
 msgid "Practices"
 msgstr "Uygulamalar"
 
-#: ui/UINavigator.gd:365
+#: ui/UINavigator.gd:365 ui/UINavigator.gd:350
 msgid "Go back in your navigation history"
 msgstr "Gezinme geçmişinizde geri dönün"
 
-#: ui/UINavigator.gd:368
+#: ui/UINavigator.gd:368 ui/UINavigator.gd:353
 msgid "(no previous history)"
 msgstr "(geçmiş kayıt bulunamadı)"
 
@@ -58,12 +58,13 @@ msgstr ""
 msgid "CHRISTMAS SALE"
 msgstr ""
 
-#: ui/UIPractice.gd:154 ui/UIPractice.gd:220
+#: ui/UIPractice.gd:154 ui/UIPractice.gd:220 ui/UIPractice.gd:144
+#: ui/UIPractice.gd:202
 #, python-format
 msgid "Hint %s"
 msgstr "İpucu %s"
 
-#: ui/UIPractice.gd:248
+#: ui/UIPractice.gd:248 ui/UIPractice.gd:230
 msgid "Validating Your Code..."
 msgstr "Kodunuz Doğrulanıyor..."
 
@@ -72,7 +73,7 @@ msgstr "Kodunuz Doğrulanıyor..."
 msgid "The function `%s` calls itself, this creates an infinite loop"
 msgstr ""
 
-#: ui/UIPractice.gd:301
+#: ui/UIPractice.gd:301 ui/UIPractice.gd:286
 msgid "Running Your Code..."
 msgstr "Kodunuz Çalıştırılıyor..."
 
@@ -87,7 +88,7 @@ msgid ""
 "Oh no! The script has an error, but the Script Verifier did not catch it"
 msgstr ""
 
-#: ui/UIPractice.gd:369
+#: ui/UIPractice.gd:369 ui/UIPractice.gd:337
 msgid "Running Tests..."
 msgstr "Testler Çalıştırılıyor..."
 
@@ -117,6 +118,7 @@ msgid "Pause"
 msgstr "Duraklat"
 
 #: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:87
+#: ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
 msgstr "Sıfırla"
 
@@ -197,6 +199,7 @@ msgid "Expand"
 msgstr "Genişlet"
 
 #: ui/components/RunnableCodeExample.tscn:105
+#: ui/components/RunnableCodeExample.tscn:96
 msgid "run()"
 msgstr "çalıştır()"
 
@@ -366,6 +369,7 @@ msgstr "Uygulama Listesi"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:244
+#: ui/components/popups/SettingsPopup.tscn:227
 msgid "Close"
 msgstr "Kapat"
 
@@ -461,26 +465,32 @@ msgid "OK"
 msgstr "TAMAM."
 
 #: ui/components/popups/SettingsPopup.tscn:76
+#: ui/components/popups/SettingsPopup.tscn:79
 msgid "Configure the App"
 msgstr "Uygulamayı Yapılandırın"
 
 #: ui/components/popups/SettingsPopup.tscn:103
+#: ui/components/popups/SettingsPopup.tscn:106
 msgid "Language"
 msgstr "Dil"
 
 #: ui/components/popups/SettingsPopup.tscn:123
+#: ui/components/popups/SettingsPopup.tscn:126
 msgid "Text Size"
 msgstr "Metin boyutu"
 
 #: ui/components/popups/SettingsPopup.tscn:151
+#: ui/components/popups/SettingsPopup.tscn:154
 msgid "Sample text"
 msgstr "Örnek metin"
 
 #: ui/components/popups/SettingsPopup.tscn:164
+#: ui/components/popups/SettingsPopup.tscn:167
 msgid "Scroll sensitivity"
 msgstr "Kaydırma hassasiyeti"
 
 #: ui/components/popups/SettingsPopup.tscn:190
+#: ui/components/popups/SettingsPopup.tscn:193
 msgid "Framerate cap"
 msgstr "Kare hızı sınırı"
 
@@ -489,6 +499,7 @@ msgid "Lower contrast"
 msgstr ""
 
 #: ui/components/popups/SettingsPopup.tscn:259
+#: ui/components/popups/SettingsPopup.tscn:242
 msgid "Apply"
 msgstr "Uygula"
 
@@ -556,9 +567,8 @@ msgid "Confirm Resetting Progress"
 msgstr "Sıfırlamayı Onayla"
 
 #: ui/screens/end_screen/EndScreen.tscn:229
-#: ui/screens/end_screen/SponsorlessEndScreen.tscn:196
 msgid "Congratulations!"
-msgstr ""
+msgstr "Tebrikler!"
 
 #: ui/screens/end_screen/EndScreen.tscn:236
 msgid ""
@@ -629,8 +639,8 @@ msgstr ""
 msgid ""
 "Like Godot, this app and course is free and open-source. \n"
 "\n"
-"You can find the app's source code and contribute translations here: "
-"[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
+"You can find the app's source code and contribute translations here: [url="
+"\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
 
@@ -692,10 +702,12 @@ msgid "Show Hint"
 msgstr "İpucu Göster"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:144
+#: ui/screens/practice/PracticeInfoPanel.gd:143
 msgid "Method descriptions"
 msgstr "Yöntem açıklamaları"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:160
+#: ui/screens/practice/PracticeInfoPanel.gd:159
 #, fuzzy
 msgid "Property descriptions"
 msgstr "Özellik açıklamaları"
@@ -726,6 +738,7 @@ msgid "Open Practice List"
 msgstr "Uygulama Listesini Aç"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:40
+#: ui/screens/practice/PracticeTestDisplay.tscn:42
 msgid "Test text"
 msgstr "Test metni"
 
@@ -749,6 +762,37 @@ msgstr "SEÇENEKLER"
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:693
 msgid "QUIT"
 msgstr "ÇIKIŞ"
+
+#: ui/components/popups/ExternalErrorPopup.tscn:83
+msgid ""
+"Lessons in this course are constructed in such a way that you only need to "
+"edit the [b]important bits[/b]. But there is much more code outside of what "
+"you see that makes the project run.\n"
+"\n"
+"This means that sometimes changes that you make can affect code that you "
+"have no control over. But don't worry, you can still fix all the issues "
+"yourself with the code you [b]can[/b] edit!\n"
+"\n"
+"[i]This is kind of like game engines work too.[/i] There is a lot of hidden "
+"code that they execute to make sure your projects runs smoothly. And yet, an "
+"error in your scripts can break them. We'll try to explain how to address "
+"each individual error that you face. Quick, click the [b]Explain[/b] button "
+"next to the error message!"
+msgstr ""
+"Bu kurstaki dersler, yalnızca [b]önemli kısımları[/b] düzenlemeniz gerekecek "
+"şekilde oluşturulmuştur. Ancak gördüğünüzün dışında projenin çalışmasını "
+"sağlayan çok daha fazla kod var.\n"
+"\n"
+"Bu, bazen yaptığınız değişikliklerin üzerinde kontrolünüz olmayan kodları "
+"etkileyebileceği anlamına gelir. Ancak endişelenmeyin, "
+"[b]düzenleyebileceğiniz[/b] kod ile tüm sorunları kendiniz "
+"düzeltebilirsiniz!\n"
+"\n"
+"[i]Bu, oyun motorlarının da çalışması gibidir.[/i] Projelerinizin sorunsuz "
+"çalıştığından emin olmak için yürüttükleri çok sayıda gizli kod vardır. Yine "
+"de, komut dosyalarınızdaki bir hata onları bozabilir. Karşılaştığınız her "
+"bir hatayı nasıl ele alacağınızı açıklamaya çalışacağız. Çabuk, hata "
+"mesajının yanındaki [b]Açıkla[/b] düğmesine tıklayın!"
 
 #~ msgid "Connected to the server."
 #~ msgstr "Sunucuya bağlanıldı."
