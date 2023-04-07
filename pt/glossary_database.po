@@ -9,24 +9,27 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-07 05:48+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member function"
-msgstr ""
+msgstr "função menbro"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member functions"
-msgstr ""
+msgstr "funções membro"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
@@ -40,16 +43,23 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
+"As funções membro são funções anexadas a um tipo de valor específico, como "
+"arrays, strings ou dicionários. Também os chamamos de métodos.\n"
+"\n"
+"Por exemplo, arrays têm funções membros como [code]array.append()[/code].\n"
+"\n"
+" Só pode chamar a função num array, usando o operador de acesso "
+"([code].[/code]) para acessá-la, conforme mostrado acima."
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variable"
-msgstr ""
+msgstr "variável menbro"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variables"
-msgstr ""
+msgstr "variáveis menbro"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
@@ -62,16 +72,23 @@ msgid ""
 "followed by the access operator ([code].[/code]). For example, "
 "[code]position.x[/code]."
 msgstr ""
+"As variáveis membro são variáveis anexadas a um tipo de valor específico, "
+"como as sub-variáveis [code]x[/code] e [code]y[/code] de um vetor. Também as "
+"chamamos de [i]propriedades[/i] ou [i]campos[/i] do vetor.\n"
+"\n"
+"Para acessar uma variável membro, deve primeiro escrever o nome do valor "
+"seguido pelo operador de acesso ([code].[/code]). Por exemplo, [code]position"
+".x[/code]."
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameter"
-msgstr ""
+msgstr "parâmetro"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameters"
-msgstr ""
+msgstr "parâmetros"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
@@ -81,16 +98,21 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in "
 "the function's body."
 msgstr ""
+"Um parâmetro é uma variável que você cria como parte de uma definição de "
+"função.\n"
+"\n"
+"Permite que reutilize mais vezes a função por ter valores que variam no "
+"corpo da função."
 
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radian"
-msgstr ""
+msgstr "radiano"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radians"
-msgstr ""
+msgstr "radianos"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
@@ -104,16 +126,24 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And "
 "an angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
+"Um radiano é uma unidade de medida de ângulos com base na circunferência do "
+"círculo.\n"
+"\n"
+"Costumamos usar mais ângulos em nossas vidas diárias, mas em programação e "
+"especialmente em jogos, radianos são comuns.\n"
+"\n"
+"Um ângulo de [code]2 * PI[/code] radianos corresponde a 360 graus. E um "
+"ângulo de [code]PI[/code] radianos corresponde a 180 graus."
 
 #. Reference: type
 #: ./course/glossary.csv:20
 msgid "type"
-msgstr ""
+msgstr "tipo"
 
 #. Reference: type
 #: ./course/glossary.csv:20
 msgid "types"
-msgstr ""
+msgstr "tipos"
 
 #. Reference: type
 #: ./course/glossary.csv:20
@@ -126,16 +156,22 @@ msgid ""
 "The computer uses types to determine which operations are valid between "
 "two values and when they're undefined."
 msgstr ""
+"Em programação, um tipo é a classe de um valor. Por exemplo, números "
+"inteiros como [code]3[/code], [code]11[/code] e [code]255462[/code] são "
+"todos do tipo [code]int[/code] (abreviação de integer).\n"
+"\n"
+"O computador usa tipos para determinar quais operações são válidas entre "
+"dois valores e quando são indefinidos."
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
 msgid "iteration"
-msgstr ""
+msgstr "iteração"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
 msgid "iterations"
-msgstr ""
+msgstr "iterações"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
@@ -147,16 +183,22 @@ msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
+"Em código de computador, uma iteração é uma repetição de algum processo ou "
+"código. Normalmente usamos o termo com loops, onde uma iteração é uma "
+"execução do código do loop.\n"
+"\n"
+"Ao falar de algoritmos, uma iteração pode significar uma passagem completa "
+"do algoritmo num conjunto de dados."
 
 #. Reference: vector
 #: ./course/glossary.csv:28
 msgid "vector"
-msgstr ""
+msgstr "vetor"
 
 #. Reference: vector
 #: ./course/glossary.csv:28
 msgid "vectors"
-msgstr ""
+msgstr "vetores"
 
 #. Reference: vector
 #: ./course/glossary.csv:28
@@ -171,16 +213,25 @@ msgid ""
 "Vectors can seem daunting at first because they are pretty abstract, but "
 "as you will see, they'll simplify code tremendously."
 msgstr ""
+"Em matemática, um vetor é uma lista de números. Nos jogos, geralmente usamos "
+"vetores 2D e 3D: respectivamente, listas de dois e três números.\n"
+"\n"
+"Usamos isso para representar uma direção e magnitude ou intensidade no "
+"espaço do jogo. Por exemplo, pode usar um vetor para representar a direção e "
+"a velocidade em que um personagem ou veículo se move.\n"
+"\n"
+"Os vetores podem parecer assustadores no início porque são bastante "
+"abstratos, mas como vai ver, eles simplificarão tremendamente o código."
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "argument"
-msgstr ""
+msgstr "argumento"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "arguments"
-msgstr ""
+msgstr "argumentos"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
@@ -202,16 +253,32 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and"
 " [code]y[/code] are [i]parameters[/i]."
 msgstr ""
+"Um argumento é um valor que passa a uma função ao chamá-la. Por exemplo, na "
+"chamada [code]rotate(0.5)[/code], o valor [code]0.5[/code] entre parênteses "
+"é um argumento.\n"
+"\n"
+"Uma função pode receber nenhum argumento, um argumento ou vários argumentos. "
+"Os argumentos podem ser obrigatórios ou opcionais.\n"
+"\n"
+"Quando uma função recebe vários argumentos, eepara os valores com vírgulas, "
+"como nesta chamada de função: [code]jump(50, 100)[/code]\n"
+"\n"
+"Ao [i]chamar[/i] uma função, nomeamos os valores passados entre parênteses "
+"[i]argumentos[/i].\n"
+"\n"
+"Ao escrever uma definição de função, no entanto, falamos sobre "
+"[i]parâmetros[/i] da função. No exemplo a seguir, os nomes [code]x[/code] e "
+"[code]y[/code] são [i]parâmetros[/i]."
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "array"
-msgstr ""
+msgstr "array"
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "arrays"
-msgstr ""
+msgstr "arrays"
 
 #. Reference: array
 #: ./course/glossary.csv:44
@@ -229,11 +296,23 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
+"Um array é uma lista de valores. No GDScript, os arrays podem conter "
+"[i]qualquer[/i] tipo de valor.\n"
+"\n"
+"Para criar um array, escreve valores separados por vírgulas entre colchetes: "
+"[code]var three_numbers = [1, 2, 3][/code]\n"
+"\n"
+"Nos jogos, usamos arrays o tempo todo para armazenar listas de personagens "
+"num grupo, listas de itens no inventário, listas de feitiços que o jogador "
+"desbloqueou e assim por diante. Eles estão em toda parte.\n"
+"\n"
+"Arrays são um tipo de valor fundamental na programação. Vai encontrar arrays "
+"em praticamente qualquer linguagem de programação."
 
 #. Reference: assign
 #: ./course/glossary.csv:45
 msgid "assign"
-msgstr ""
+msgstr "atribuir"
 
 #. Reference: assign
 #: ./course/glossary.csv:45
@@ -241,16 +320,18 @@ msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
+"Atribuir um valor a uma variável significa que armazena um valor dentro da "
+"variável. Faz isso com o sinal de igual ([code]=[/code])."
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionary"
-msgstr ""
+msgstr "dicionário"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionaries"
-msgstr ""
+msgstr "dicionários"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
@@ -271,16 +352,31 @@ msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
+"Um dicionário é uma estrutura de dados que mapeia valores com pares chave-"
+"valor. Quando dá uma chave ao dicionário, ele encontra e devolve o valor "
+"correspondente.\n"
+"\n"
+"No GDScript, as chaves podem ser muitas coisas. Costumamos usar strings ou "
+"números, mas não está limitado a isso. Um [code]Vector2[/code] também pode "
+"ser uma chave válida, o que é útil para mapear uma célula de grid para uma "
+"unidade ou um item num jogo baseado em grid.\n"
+"\n"
+"Costuma usar dicionários para associar pequenas partes de dados nos seus "
+"jogos. Por exemplo, poderíamos usá-los para associar o nome de um "
+"equipamento às estatísticas das armas dele num banco de dados.\n"
+"\n"
+"Assim como os arrays, eles são um tipo de dados fundamental que verá em "
+"muitas linguagens de programação e usará muito."
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loop"
-msgstr ""
+msgstr "loop for"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loops"
-msgstr ""
+msgstr "loops for"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
@@ -298,16 +394,28 @@ msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to"
 " use than while loops."
 msgstr ""
+"Um loop for instrui o computador a repetir um conjunto de instruções uma vez "
+"para cada valor num array.\n"
+"\n"
+"Em cada iteração do loop, o compilador extrai um valor do array e dá acesso "
+"a ele no corpo do loop.\n"
+"\n"
+"For loops, executa o código uma quantidade limitada de vezes: uma por valor "
+"no array. É diferente dos loops while que continuam repetindo o código até "
+"que uma condição seja atendida.\n"
+"\n"
+"Recomendamos usar os loops for quando puder. Eles são mais seguros e fáceis "
+"de usar do que loops while."
 
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "function"
-msgstr ""
+msgstr "função"
 
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "functions"
-msgstr ""
+msgstr "funções"
 
 #. Reference: function
 #: ./course/glossary.csv:64
@@ -323,31 +431,42 @@ msgid ""
 "\n"
 "Also, functions can optionally return a value to the code calling it."
 msgstr ""
+"Uma função é um grupo de instruções de código que dá um nome. Ao definir uma "
+"função, pode chamá-la a qualquer momento para executar todas as instruções "
+"que ela contém.\n"
+"\n"
+"Pode modificar o comportamento de uma função com parâmetros. Parâmetros são "
+"nomes de variáveis que escreve na definição da função. Pode então usá-los no "
+"corpo da função para fazer com que o seu código se adapte a diferentes casos."
+"\n"
+"\n"
+"Além disso, as funções podem, opcionalmente, retornar um valor ao código que "
+"o chama."
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "increment"
-msgstr ""
+msgstr "incremento"
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "increments"
-msgstr ""
+msgstr "incrementos"
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "An increment is the amount by which a value changes in your code."
-msgstr ""
+msgstr "Um incremento é a quantidade pela qual um valor muda no seu código."
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instruction"
-msgstr ""
+msgstr "instrução"
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instructions"
-msgstr ""
+msgstr "instruções"
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
@@ -358,16 +477,21 @@ msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
 msgstr ""
+"Em programação, as instruções são uma única operação que o computador "
+"reconhece e pode executar.\n"
+"\n"
+"Por exemplo, uma chamada de função, uma adição ou atribuição de um valor a "
+"uma variável."
 
 #. Reference: variable
 #: ./course/glossary.csv:77
 msgid "variable"
-msgstr ""
+msgstr "variável"
 
 #. Reference: variable
 #: ./course/glossary.csv:77
 msgid "variables"
-msgstr ""
+msgstr "variáveis"
 
 #. Reference: variable
 #: ./course/glossary.csv:77
@@ -388,16 +512,32 @@ msgid ""
 " that you attach to some value. Any time, you can take the label and "
 "stick it onto a new product or, in that case, a new value."
 msgstr ""
+"As variáveis são uma ferramenta para dar um nome aos valores que deseja "
+"armazenar no seu código e alterar ao longo do tempo.\n"
+"\n"
+"Por exemplo, a vida de um personagem: quando o personagem é atingido, quer "
+"que ele diminua. Ao curar, quer que a vida aumente.\n"
+"\n"
+"Pode criar uma variável chamada [code]health[/code] para representar a vida."
+"\n"
+"\n"
+"Então, toda vez que escrever a palavra-chave [code]health[/code] no seu "
+"código, o computador irá buscar o valor correspondente na memória dele para "
+"si.\n"
+"\n"
+"As variáveis funcionam um pouco como rótulos de produtos num supermercado. "
+"São nomes que você atribui a algum valor. A qualquer momento, Pode copiar o "
+"rótulo e colá-lo num novo produto ou, nesse caso, num novo valor."
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
 msgid "while loop"
-msgstr ""
+msgstr "loop while"
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
 msgid "while loops"
-msgstr ""
+msgstr "loops while"
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
@@ -414,11 +554,24 @@ msgid ""
 "like processing files, processing computer code, or for powerful "
 "algorithms."
 msgstr ""
+"Um loop while instrui o computador a continuar executando o código com base "
+"numa condição. Enquanto a condição for verdadeira, o loop continua em "
+"execução.\n"
+"\n"
+"Ao programar loops while, deve ter cuidado: eles continuarão executando "
+"infinitamente e vão travar o seu jogo se errar a condição.\n"
+"\n"
+"É por isso que recomendamos usar o loop for, que é mais seguro, sempre que "
+"puder.\n"
+"\n"
+"No entanto, ainda existem casos essenciais em que usamos loops while, como "
+"processamento de ficheiros, processamento de código de computador ou "
+"algoritmos poderosos."
 
 #. Reference: body
 #: ./course/glossary.csv:85
 msgid "body"
-msgstr ""
+msgstr "corpo"
 
 #. Reference: body
 #: ./course/glossary.csv:85
@@ -426,11 +579,13 @@ msgid ""
 "We talk about a loop or a function's body to refer to the lines of code "
 "that are part of the loop or function."
 msgstr ""
+"Falamos de um loop ou corpo de uma função para nos referirmos às linhas de "
+"código que fazem parte do loop ou função."
 
 #. Reference: return
 #: ./course/glossary.csv:88
 msgid "return"
-msgstr ""
+msgstr "return"
 
 #. Reference: return
 #: ./course/glossary.csv:88
@@ -441,16 +596,21 @@ msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed "
 "by a value, for example: [code]return -1[/code]."
 msgstr ""
+"Retornar um valor é o processo de enviar um valor ao local onde chama uma "
+"função.\n"
+"\n"
+"Isso acontece quando uma função usa a palavra-chave [code]return[/code] "
+"seguida de um valor, por exemplo: [code]return -1[/code]."
 
 #. Reference: library
 #: ./course/glossary.csv:89
 msgid "library"
-msgstr ""
+msgstr "biblioteca"
 
 #. Reference: library
 #: ./course/glossary.csv:89
 msgid "libraries"
-msgstr ""
+msgstr "bibliotecas"
 
 #. Reference: library
 #: ./course/glossary.csv:89
@@ -458,16 +618,19 @@ msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
+"Uma coleção de códigos valiosos e reutilizáveis agrupados por outros "
+"programadores para economizar o seu tempo. Todos os programadores usam "
+"bibliotecas de código."
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
 msgid "sprite"
-msgstr ""
+msgstr "sprite"
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
 msgid "sprites"
-msgstr ""
+msgstr "sprites"
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
@@ -476,3 +639,6 @@ msgid ""
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
 msgstr ""
+"Em computação gráfica, uma sprite é uma imagem que exibe na tela. Geralmente "
+"usamos essa palavra para falar de imagens em movimento, como um personagem, "
+"um monstro ou um item caindo no chão."
