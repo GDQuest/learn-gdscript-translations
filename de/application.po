@@ -41,11 +41,11 @@ msgstr "Titel"
 msgid "Practices"
 msgstr "Übungen"
 
-#: ui/UINavigator.gd:365
+#: ui/UINavigator.gd:365 ui/UINavigator.gd:350
 msgid "Go back in your navigation history"
 msgstr "Zurück zu deinem Navigationsverlauf"
 
-#: ui/UINavigator.gd:368
+#: ui/UINavigator.gd:368 ui/UINavigator.gd:353
 msgid "(no previous history)"
 msgstr "(kein Verlauf)"
 
@@ -57,12 +57,13 @@ msgstr ""
 msgid "CHRISTMAS SALE"
 msgstr ""
 
-#: ui/UIPractice.gd:154 ui/UIPractice.gd:220
+#: ui/UIPractice.gd:154 ui/UIPractice.gd:220 ui/UIPractice.gd:144
+#: ui/UIPractice.gd:202
 #, python-format
 msgid "Hint %s"
 msgstr "Hinweis %s"
 
-#: ui/UIPractice.gd:248
+#: ui/UIPractice.gd:248 ui/UIPractice.gd:230
 msgid "Validating Your Code..."
 msgstr "Code wird validiert..."
 
@@ -71,7 +72,7 @@ msgstr "Code wird validiert..."
 msgid "The function `%s` calls itself, this creates an infinite loop"
 msgstr ""
 
-#: ui/UIPractice.gd:301
+#: ui/UIPractice.gd:301 ui/UIPractice.gd:286
 msgid "Running Your Code..."
 msgstr "Code wird ausgeführt..."
 
@@ -86,7 +87,7 @@ msgid ""
 "Oh no! The script has an error, but the Script Verifier did not catch it"
 msgstr ""
 
-#: ui/UIPractice.gd:369
+#: ui/UIPractice.gd:369 ui/UIPractice.gd:337
 msgid "Running Tests..."
 msgstr "Tests werden ausgeführt..."
 
@@ -115,6 +116,7 @@ msgid "Pause"
 msgstr "Pause"
 
 #: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:87
+#: ui/components/RunnableCodeExample.tscn:78
 msgid "Reset"
 msgstr "Zurücksetzen"
 
@@ -158,7 +160,7 @@ msgstr "FEHLER:"
 #: ui/components/ScrollableTextBox.tscn:43
 #: ui/screens/lesson/UIContentBlock.tscn:68
 msgid "Placeholder text"
-msgstr ""
+msgstr "Platzhalter-Text"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
@@ -191,6 +193,7 @@ msgid "Expand"
 msgstr "Erweitern"
 
 #: ui/components/RunnableCodeExample.tscn:105
+#: ui/components/RunnableCodeExample.tscn:96
 msgid "run()"
 msgstr "Ausführen"
 
@@ -358,6 +361,7 @@ msgstr "Übungsliste"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:244
+#: ui/components/popups/SettingsPopup.tscn:227
 msgid "Close"
 msgstr "Schließen"
 
@@ -450,26 +454,32 @@ msgid "OK"
 msgstr "OK"
 
 #: ui/components/popups/SettingsPopup.tscn:76
+#: ui/components/popups/SettingsPopup.tscn:79
 msgid "Configure the App"
 msgstr "Konfigurieren der App"
 
 #: ui/components/popups/SettingsPopup.tscn:103
+#: ui/components/popups/SettingsPopup.tscn:106
 msgid "Language"
 msgstr "Sprache"
 
 #: ui/components/popups/SettingsPopup.tscn:123
+#: ui/components/popups/SettingsPopup.tscn:126
 msgid "Text Size"
 msgstr "Schriftgröße"
 
 #: ui/components/popups/SettingsPopup.tscn:151
+#: ui/components/popups/SettingsPopup.tscn:154
 msgid "Sample text"
 msgstr "Mustertext"
 
 #: ui/components/popups/SettingsPopup.tscn:164
+#: ui/components/popups/SettingsPopup.tscn:167
 msgid "Scroll sensitivity"
 msgstr "Scroll-Empfindlichkeit"
 
 #: ui/components/popups/SettingsPopup.tscn:190
+#: ui/components/popups/SettingsPopup.tscn:193
 msgid "Framerate cap"
 msgstr "Framerate-Obergrenze"
 
@@ -478,6 +488,7 @@ msgid "Lower contrast"
 msgstr ""
 
 #: ui/components/popups/SettingsPopup.tscn:259
+#: ui/components/popups/SettingsPopup.tscn:242
 msgid "Apply"
 msgstr "Übernehmen"
 
@@ -543,9 +554,8 @@ msgid "Confirm Resetting Progress"
 msgstr "Zurücksetzen bestätigen"
 
 #: ui/screens/end_screen/EndScreen.tscn:229
-#: ui/screens/end_screen/SponsorlessEndScreen.tscn:196
 msgid "Congratulations!"
-msgstr ""
+msgstr "Glückwunsch!"
 
 #: ui/screens/end_screen/EndScreen.tscn:236
 msgid ""
@@ -559,7 +569,7 @@ msgstr ""
 
 #: ui/screens/end_screen/EndScreen.tscn:249
 msgid "Or level up faster by taking this shortcut"
-msgstr ""
+msgstr "Oder steige schneller auf, indem Du diese Abkürzung verwendest"
 
 #: ui/screens/end_screen/EndScreen.tscn:256
 msgid ""
@@ -574,6 +584,17 @@ msgid ""
 "\n"
 "Learning that on your own can take years."
 msgstr ""
+"Es gibt eine Menge kostenloser Anleitungen zur Spielherstellung, aber sie "
+"bilden keinen klaren Weg.\n"
+"\n"
+"Schlimmer noch, die meisten von ihnen sind wie Schritt-für-Schritt-Rezepte. "
+"Aber wie Du gelernt hast, kann man kein Entwickler werden, indem man einfach "
+"Rezepten folgt.\n"
+"\n"
+"Jedes Projekt hat einzigartige Herausforderungen und erfordert [i]kreative "
+"Problemlösungen[/i]. Du musst [i]wie ein Programmierer denken[/i].\n"
+"\n"
+"Alleine das zu lernen kann Jahre dauern."
 
 #: ui/screens/end_screen/EndScreen.tscn:277
 msgid "Learn to Code From Zero, with Godot"
@@ -616,8 +637,8 @@ msgstr ""
 msgid ""
 "Like Godot, this app and course is free and open-source. \n"
 "\n"
-"You can find the app's source code and contribute translations here: "
-"[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
+"You can find the app's source code and contribute translations here: [url="
+"\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
 
@@ -647,7 +668,7 @@ msgstr "Antworten hier"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr ""
+msgstr "Platzhalter-Überschrift"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
@@ -663,7 +684,7 @@ msgstr "Üben"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
-msgstr "Sie sind hier"
+msgstr "Du bist hier"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
@@ -678,10 +699,12 @@ msgid "Show Hint"
 msgstr "Hinweis anzeigen"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:144
+#: ui/screens/practice/PracticeInfoPanel.gd:143
 msgid "Method descriptions"
 msgstr "Methodenbeschreibungen"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:160
+#: ui/screens/practice/PracticeInfoPanel.gd:159
 msgid "Property descriptions"
 msgstr "Objektbeschreibungen"
 
@@ -709,31 +732,62 @@ msgstr "Dokumentation"
 msgid "Open Practice List"
 msgstr "Öffne Übungsliste"
 
-#: ui/screens/practice/PracticeTestDisplay.tscn:40
-#, fuzzy
+#: ui/screens/practice/PracticeTestDisplay.tscn:42
 msgid "Test text"
 msgstr "Testtext"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:42
 msgid "CONTINUE"
-msgstr ""
+msgstr "FORTSETZEN"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:44
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:627
 msgid "START"
-msgstr ""
+msgstr "START"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:645
 msgid "SELECT LESSON"
-msgstr ""
+msgstr "LEKTION AUSWÄHLEN"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:659
 msgid "OPTIONS"
-msgstr ""
+msgstr "OPTIONEN"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:693
 msgid "QUIT"
+msgstr "VERLASSEN"
+
+#: ui/components/popups/ExternalErrorPopup.tscn:83
+msgid ""
+"Lessons in this course are constructed in such a way that you only need to "
+"edit the [b]important bits[/b]. But there is much more code outside of what "
+"you see that makes the project run.\n"
+"\n"
+"This means that sometimes changes that you make can affect code that you "
+"have no control over. But don't worry, you can still fix all the issues "
+"yourself with the code you [b]can[/b] edit!\n"
+"\n"
+"[i]This is kind of like game engines work too.[/i] There is a lot of hidden "
+"code that they execute to make sure your projects runs smoothly. And yet, an "
+"error in your scripts can break them. We'll try to explain how to address "
+"each individual error that you face. Quick, click the [b]Explain[/b] button "
+"next to the error message!"
 msgstr ""
+"Die Lektionen in diesem Kurs sind so aufgebaut, dass Du nur die [b]wichtigen "
+"Teile[/b] bearbeiten musst. Aber es gibt viel mehr Code außerhalb dessen, "
+"was Du sehen kannst, der das Projekt zum Laufen bringt.\n"
+"\n"
+"Dies bedeutet, dass sich Änderungen, die Du vornimmst, manchmal auf Code "
+"auswirken können, über den Du keine Kontrolle hast. Aber keine Sorge, Du "
+"kannst immer noch alle Probleme selbst mit dem Code beheben, den Du "
+"bearbeiten [b]kannst![/b]\n"
+"\n"
+"[i] So ähnlich funktionieren andere Spiel-Engines auch. [/i] Es gibt eine "
+"Menge versteckten Code, der ausgeführt wird, um sicherzustellen, dass Deine "
+"Projekte reibungslos laufen. Dennoch kann ein Fehler in Deinen Skripten sie "
+"zum Absturz bringen. Wir werden versuchen zu erklären, wie Du jeden "
+"einzelnen Fehler beheben kannst, mit dem Du konfrontiert wirst. Klicken Sie "
+"schnell auf die Schaltfläche [b]Erklären[/b] neben der Fehlermeldung!"
 
 #~ msgid "Connected to the server."
 #~ msgstr "Verbunden mit dem Server."
