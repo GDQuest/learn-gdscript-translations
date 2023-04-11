@@ -285,6 +285,8 @@ msgid ""
 "Our variables have the wrong type hints, causing errors. Correct them to "
 "make the code run."
 msgstr ""
+"Unsere Variablen haben die falschen Typhinweise, was zu Fehlern führt. "
+"Korrigieren Sie sie, damit der Code ausgeführt wird."
 
 #: course/lesson-28-specifying-types/lesson.tres:289
 #, fuzzy
@@ -311,8 +313,37 @@ msgid ""
 "This time, it's the other way around: variables have the correct type hints "
 "but the wrong values. Change the values to make the code run."
 msgstr ""
+"Diesmal ist es umgekehrt: Variablen haben die richtigen Typhinweise, aber "
+"die falschen Werte. Ändern Sie die Werte, damit der Code ausgeführt wird."
 
 #: course/lesson-28-specifying-types/lesson.tres:308
 #, fuzzy
 msgid "Specifying types with type hints"
 msgstr "Typen mit Typenhinweisen angeben"
+
+#: course/lesson-28-specifying-types/lesson.tres:45
+#, fuzzy
+msgid ""
+"Games use grids all the time, be it for grid-based gameplay or to make "
+"algorithms faster.\n"
+"\n"
+"When working with grids, you need to convert grid coordinates into positions "
+"in the game world all the time. To do so, you give each cell a size in "
+"pixels.\n"
+"\n"
+"You'll likely pick one of two types for that: [code]float[/code] or "
+"[code]Vector2[/code].\n"
+"\n"
+"Either of those two values would be fine:"
+msgstr ""
+"Spiele verwenden ständig Grids, sei es für Grid-basiertes Gameplay oder um "
+"Algorithmen schneller zu machen.\n"
+"\n"
+"Wenn Sie mit Rastern arbeiten, müssen Sie ständig Gitterkoordinaten in "
+"Positionen in der Spielwelt umwandeln. Dazu geben Sie jeder Zelle eine Größe "
+"in Pixeln.\n"
+"\n"
+"Sie werden wahrscheinlich einen von zwei Typen dafür auswählen: [code]float[/"
+"code] oder [code]Vector2[/code].\n"
+"\n"
+"Jeder dieser beiden Werte wäre in Ordnung:"
