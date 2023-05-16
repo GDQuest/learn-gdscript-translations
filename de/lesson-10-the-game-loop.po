@@ -57,8 +57,8 @@ msgstr ""
 "Die Funktion [code]_process()[/code] erhält ihren Namen, weil sie "
 "Berechnungen oder fortlaufende Aktionen ausführt.\n"
 "\n"
-"Es ist wie in einer Saftfabrik, die Saftflaschen verarbeitet: Die Flaschen "
-"bewegen sich immer entlang eines Förderbandes, während verschiedene "
+"Es ist wie in einer Saftfabrik, die Saftflaschen [b]verarbeite[/b]t: Die "
+"Flaschen bewegen sich immer entlang eines Förderbandes, während verschiedene "
 "Maschinen mit ihnen arbeiten."
 
 #: course/lesson-10-the-game-loop/lesson.tres:52
@@ -137,33 +137,30 @@ msgid "Is this the same for other engines?"
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:94
+#: course/lesson-10-the-game-loop/lesson.tres:92
 msgid ""
 "Other game engines might use different names like [code]_update()[/code]."
 msgstr ""
 "Andere Spiel-Engines verwenden möglicherweise andere Namen wie "
 "[code]_update()[/code]."
 
-#: course/lesson-10-the-game-loop/lesson.tres:102
-#, fuzzy
+#: course/lesson-10-the-game-loop/lesson.tres:100
 msgid "Why is the _process() function useful?"
-msgstr "Wie oft wird die Funktion _process() aufgerufen?"
+msgstr "Warum ist die Funktion _process() nützlich?"
 
-#: course/lesson-10-the-game-loop/lesson.tres:104
-#, fuzzy
+#: course/lesson-10-the-game-loop/lesson.tres:102
 msgid ""
 "It's perhaps better to see the [code]_process()[/code] function in action.\n"
 "\n"
 "Take the following example."
 msgstr ""
-"[font=res://ui/theme/fonts/font_title.tres]Warum ist [code]_process()[/code] "
-"nützlich?[/font]\n"
-"\n"
 "Es ist vielleicht besser, die Funktion [code]_process()[/code] in Aktion zu "
 "sehen. \n"
 "\n"
 "Nehmen wir das folgende Beispiel."
 
 #: course/lesson-10-the-game-loop/lesson.tres:126
+#: course/lesson-10-the-game-loop/lesson.tres:124
 msgid ""
 "When you click the button [code]set_process(true)[/code], you activate "
 "processing on the robot.\n"
@@ -183,10 +180,12 @@ msgstr ""
 "den Roboter um [code]0,05[/code] Bogenmaß [b]viele[/b] Male pro Sekunde."
 
 #: course/lesson-10-the-game-loop/lesson.tres:138
+#: course/lesson-10-the-game-loop/lesson.tres:136
 msgid "How often does the _process() function run?"
 msgstr "Wie oft wird die Funktion _process() aufgerufen?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:141
+#: course/lesson-10-the-game-loop/lesson.tres:139
 msgid ""
 "The faster your computer, the more times [code]_process()[/code] will run.\n"
 "\n"
@@ -201,15 +200,19 @@ msgstr ""
 "und flüssig aussehen."
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
+#: course/lesson-10-the-game-loop/lesson.tres:142
 msgid "Once a second."
 msgstr "Einmal pro Sekunde."
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
 #: course/lesson-10-the-game-loop/lesson.tres:145
+#: course/lesson-10-the-game-loop/lesson.tres:142
+#: course/lesson-10-the-game-loop/lesson.tres:143
 msgid "Multiple times a second."
 msgstr "Mehrmals pro Sekunde."
 
 #: course/lesson-10-the-game-loop/lesson.tres:154
+#: course/lesson-10-the-game-loop/lesson.tres:152
 msgid ""
 "In the practice, you'll learn how to use the process function to rotate and "
 "move a character yourself."
@@ -218,10 +221,12 @@ msgstr ""
 "Charakter selbst zu drehen und zu bewegen."
 
 #: course/lesson-10-the-game-loop/lesson.tres:162
+#: course/lesson-10-the-game-loop/lesson.tres:160
 msgid "Rotating a Character Continuously"
 msgstr "Kontinuierliches Drehen eines Charakters"
 
 #: course/lesson-10-the-game-loop/lesson.tres:163
+#: course/lesson-10-the-game-loop/lesson.tres:161
 msgid ""
 "Make the robot rotate slowly by adding to the [code]_process()[/code] "
 "function.\n"
@@ -235,10 +240,12 @@ msgstr ""
 "sollte reichen."
 
 #: course/lesson-10-the-game-loop/lesson.tres:180
+#: course/lesson-10-the-game-loop/lesson.tres:178
 msgid "Creating Circular Movement"
 msgstr "Kreisförmige Bewegungungen erzeugen"
 
 #: course/lesson-10-the-game-loop/lesson.tres:181
+#: course/lesson-10-the-game-loop/lesson.tres:179
 msgid ""
 "Make the robot move in a large circle slowly by rotating it and "
 "simultaneously moving it along its x direction.\n"
@@ -259,5 +266,28 @@ msgstr ""
 "Frame und bewege den Roboter [code]5[/code] Pixel pro Frame."
 
 #: course/lesson-10-the-game-loop/lesson.tres:199
+#: course/lesson-10-the-game-loop/lesson.tres:197
 msgid "The Game Loop"
 msgstr "Die Spielschleife"
+
+#: course/lesson-10-the-game-loop/lesson.tres:78
+msgid ""
+"The [code]_process()[/code] function won't do anything until we add "
+"something to it.\n"
+"\n"
+"You might notice the underscore [code]_[/code] in front of the function "
+"name. This is a convention. It means the function is already defined by "
+"Godot.\n"
+"\n"
+"If the function exists, and is called exactly [code]_process[/code], then "
+"Godot will automatically run it every frame. "
+msgstr ""
+"Die Funktion [code]_process()[/code] wird nichts tun, bis wir ihr etwas "
+"hinzufügen.\n"
+"\n"
+"Möglicherweise bemerkst Du den Unterstrich [code]_[/code] vor dem "
+"Funktionsnamen. Dies ist eine Konvention. Es bedeutet, dass die Funktion "
+"bereits von Godot definiert ist.\n"
+"\n"
+"Wenn die Funktion existiert und genau [code]_process[/code] genannt wird, "
+"führt Godot sie automatisch in jedem Frame aus. "

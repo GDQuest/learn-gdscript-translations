@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 
 #. Reference: CYCLIC_REFERENCE
-#: script_checking/error_database.csv:57
+#: script_checking/error_database.csv:57 script_checking/error_database.csv:38
 msgid ""
 "A cyclic reference is when a class references itself, directly or "
 "indirectly.\n"
@@ -105,7 +105,7 @@ msgstr ""
 "in der Zwischenzeit umgehen."
 
 #. Reference: CYCLIC_REFERENCE
-#: script_checking/error_database.csv:57
+#: script_checking/error_database.csv:57 script_checking/error_database.csv:38
 msgid ""
 "Erase the type hint in the error line, and the problem should disappear. \n"
 "\n"
@@ -121,7 +121,7 @@ msgstr ""
 "Problem in den allermeisten Fällen."
 
 #. Reference: INVALID_INDENTATION
-#: script_checking/error_database.csv:64
+#: script_checking/error_database.csv:64 script_checking/error_database.csv:45
 msgid ""
 "The indentation of your code (the number of tab characters at the start of "
 "the line) is incorrect.\n"
@@ -141,7 +141,7 @@ msgstr ""
 "wissen, welche Codezeilen Teil eines Codeblocks sind, wie eine Funktion."
 
 #. Reference: INVALID_INDENTATION
-#: script_checking/error_database.csv:64
+#: script_checking/error_database.csv:64 script_checking/error_database.csv:45
 msgid ""
 "If the line of code with the error is right after a line ending with a "
 "colon, like a function definition, you need one extra indent level compared "
@@ -158,7 +158,7 @@ msgstr ""
 "haben als die Funktionsdefinition."
 
 #. Reference: UNEXPECTED_CHARACTER
-#: script_checking/error_database.csv:73
+#: script_checking/error_database.csv:73 script_checking/error_database.csv:54
 msgid ""
 "You get this error when you wrote something that is syntactically invalid, "
 "or you are missing something to complete this line or previous lines of "
@@ -183,7 +183,7 @@ msgstr ""
 "und analysiert."
 
 #. Reference: UNEXPECTED_CHARACTER
-#: script_checking/error_database.csv:73
+#: script_checking/error_database.csv:73 script_checking/error_database.csv:54
 msgid ""
 "The way to solve this kind of error is highly contextual. The error message "
 "should tell you which character or element it's missing.\n"
@@ -208,7 +208,7 @@ msgstr ""
 "höchstwahrscheinlich von der Zeile mit dem Fehler."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
-#: script_checking/error_database.csv:76
+#: script_checking/error_database.csv:76 script_checking/error_database.csv:57
 msgid ""
 "This error tells you that you are missing a parenthesis (or sometimes a "
 "comma or a path).\n"
@@ -224,7 +224,7 @@ msgstr ""
 "[code]assert()[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
-#: script_checking/error_database.csv:76
+#: script_checking/error_database.csv:76 script_checking/error_database.csv:57
 msgid ""
 "To address the error, you want to add the missing opening parenthesis, the "
 "closing parenthesis, or the comma."
@@ -233,7 +233,7 @@ msgstr ""
 "schließende Klammer oder das Komma hinzufügen."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
-#: script_checking/error_database.csv:77
+#: script_checking/error_database.csv:77 script_checking/error_database.csv:58
 msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
@@ -242,7 +242,7 @@ msgstr ""
 "Exporthinweis fehlt."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
-#: script_checking/error_database.csv:77
+#: script_checking/error_database.csv:77 script_checking/error_database.csv:58
 msgid ""
 "You need to read the error message and add the missing character or value it "
 "requests."
@@ -251,7 +251,7 @@ msgstr ""
 "angeforderten Wert hinzufügen."
 
 #. Reference: MISPLACED_IDENTIFIER
-#: script_checking/error_database.csv:86
+#: script_checking/error_database.csv:86 script_checking/error_database.csv:68
 msgid ""
 "This error happens in several cases:\n"
 "\n"
@@ -272,7 +272,7 @@ msgstr ""
 "Doppelpunkt vergessen."
 
 #. Reference: MISPLACED_IDENTIFIER
-#: script_checking/error_database.csv:86
+#: script_checking/error_database.csv:86 script_checking/error_database.csv:68
 msgid ""
 "If the error tells you it expected something, you likely forgot to write a "
 "name after a keyword like [code]var[/code], [code]func[/code], [code]for[/"
@@ -304,7 +304,7 @@ msgstr ""
 "[code]else[/code] beginnt."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
-#: script_checking/error_database.csv:91
+#: script_checking/error_database.csv:91 script_checking/error_database.csv:73
 msgid ""
 "This error tells you that you are missing a type somewhere. A type can be "
 "[code]int[/code], [code]float[/code], [code]String[/code], [code]Array[/"
@@ -329,7 +329,7 @@ msgstr ""
 "einer Funktionsdefinition schreibt, aber keinen Typnamen definiert."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
-#: script_checking/error_database.csv:91
+#: script_checking/error_database.csv:91 script_checking/error_database.csv:73
 msgid ""
 "To solve this, you need to write the name of the type after the colon, arrow "
 "(in the case of function return types), inside parentheses (for export "
@@ -340,7 +340,7 @@ msgstr ""
 "(für Exporttypen) oder nach dem Schlüsselwort [code]as[/code] schreiben."
 
 #. Reference: NONEXISTENT_IDENTIFIER
-#: script_checking/error_database.csv:100
+#: script_checking/error_database.csv:100 script_checking/error_database.csv:82
 msgid ""
 "The variable, function name, or class name you are trying to use does not "
 "exist.\n"
@@ -362,7 +362,7 @@ msgstr ""
 "Klasse, auf die Du zugreifen möchtest, nicht definiert ist."
 
 #. Reference: NONEXISTENT_IDENTIFIER
-#: script_checking/error_database.csv:100
+#: script_checking/error_database.csv:100 script_checking/error_database.csv:82
 msgid ""
 "To solve this error, triple-check that there is no typo in the line.\n"
 "\n"
@@ -372,7 +372,7 @@ msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
-"Um diesen Fehler zu beheben, überprüfe , ob in der Zeile kein Tippfehler "
+"Um diesen Fehler zu beheben, überprüfe, ob in der Zeile kein Tippfehler "
 "vorhanden ist.\n"
 "\n"
 "Wenn möglich, versuche zur Variablen- oder Funktionsdefinition zu wechseln, "
@@ -380,10 +380,10 @@ msgstr ""
 "der der Fehler angezeigt wird.\n"
 "\n"
 "Wenn Du keinen Tippfehler entdecken kannst, musst Du sicherstellen, dass Du "
-"die Variable, Funktion oder Klasse definiert hast, auf die Du dich beziehst."
+"die Variable, Funktion oder Klasse definiert hast, auf die Du Dich beziehst."
 
 #. Reference: MISPLACED_KEYWORD
-#: script_checking/error_database.csv:105
+#: script_checking/error_database.csv:105 script_checking/error_database.csv:87
 msgid ""
 "You can only use keywords like [code]break[/code] or [code]continue[/code] "
 "in a loop. Outside a loop, they are invalid.\n"
@@ -402,7 +402,7 @@ msgstr ""
 "Schleifenblock."
 
 #. Reference: MISPLACED_KEYWORD
-#: script_checking/error_database.csv:105
+#: script_checking/error_database.csv:105 script_checking/error_database.csv:87
 msgid ""
 "If you wrote one of these keywords outside a loop, you need to remove it.\n"
 "\n"
@@ -418,7 +418,7 @@ msgstr ""
 "führende Tabulatorzeichen in das Schlüsselwort einfügen."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
-#: script_checking/error_database.csv:110
+#: script_checking/error_database.csv:110 script_checking/error_database.csv:92
 msgid ""
 "When the computer talks about a constant expression, it expects a fixed "
 "value, a fixed calculation, or the name of an existing constant.\n"
@@ -436,7 +436,7 @@ msgstr ""
 "konstanten Ausdruck benötigt."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
-#: script_checking/error_database.csv:110
+#: script_checking/error_database.csv:110 script_checking/error_database.csv:92
 msgid ""
 "You need to replace function calls or variables with a constant value like a "
 "whole number, decimal number, string, vector, a predefined array, etc.\n"
@@ -452,7 +452,7 @@ msgstr ""
 "(+) usw. verwenden."
 
 #. Reference: INVALID_CLASS_DECLARATION
-#: script_checking/error_database.csv:115
+#: script_checking/error_database.csv:115 script_checking/error_database.csv:97
 msgid ""
 "When defining a new class, you need to follow a specific pattern. You must "
 "write the name in plain text, starting with a letter.\n"
@@ -468,7 +468,7 @@ msgstr ""
 "zusammensetzt."
 
 #. Reference: INVALID_CLASS_DECLARATION
-#: script_checking/error_database.csv:115
+#: script_checking/error_database.csv:115 script_checking/error_database.csv:97
 msgid ""
 "To fix this error, replace whatever you put after the 'extends' or "
 "'class_name' keyword by a name without spaces and starting with a capital "
@@ -484,8 +484,7 @@ msgstr ""
 "Position."
 
 #. Reference: DUPLICATE_DECLARATION
-#: script_checking/error_database.csv:120
-#, fuzzy
+#: script_checking/error_database.csv:102
 msgid ""
 "You are trying to define a function or variable that already exists; You "
 "can't do that.\n"
@@ -493,16 +492,15 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file, "
 "but it may also be in a parent class that this GDScript code extends."
 msgstr ""
-"Du versuchst, ein Signal zu definieren, das bereits vorhanden ist. Das geht "
-"nicht.\n"
+"Du versuchst, eine Funktion oder Variable zu definieren, die bereits "
+"vorhanden ist. Das geht nicht.\n"
 "\n"
-"Möglicherweise ist das Signal bereits in der aktuellen Codedatei vorhanden, "
-"aber es kann sich auch in einer übergeordneten Klasse befinden, die dieser "
-"GDScript-Code erweitert."
+"Möglicherweise ist die Funktion oder Variable bereits in der aktuellen "
+"Codedatei vorhanden, aber es kann sich auch in einer übergeordneten Klasse "
+"befinden, die dieser GDScript-Code erweitert."
 
 #. Reference: DUPLICATE_DECLARATION
-#: script_checking/error_database.csv:120
-#, fuzzy
+#: script_checking/error_database.csv:102
 msgid ""
 "In the app, your code extends some built-in Godot code that's not visible to "
 "you.\n"
@@ -513,11 +511,13 @@ msgstr ""
 "In der App erweitert Dein Code einen integrierten Godot-Code, der für Dich "
 "nicht sichtbar ist.\n"
 "\n"
-"Wenn das passiert, musst Du entweder dein Signal in eines umbenennen, das "
-"nicht mit einem vorhandenen kollidiert, oder diese Codezeile entfernen."
+"Wenn das passiert, musst Du entweder deine Funktion oder Variable in eines "
+"umbenennen, das nicht mit einem vorhandenen kollidiert, oder diese Codezeile "
+"entfernen."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: script_checking/error_database.csv:125
+#: script_checking/error_database.csv:107
 msgid ""
 "You are trying to define a signal that already exists; You can't do that.\n"
 "\n"
@@ -533,6 +533,7 @@ msgstr ""
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: script_checking/error_database.csv:125
+#: script_checking/error_database.csv:107
 msgid ""
 "In the app, your code extends some built-in Godot code that's not visible to "
 "you.\n"
@@ -548,6 +549,7 @@ msgstr ""
 
 #. Reference: SIGNATURE_MISMATCH
 #: script_checking/error_database.csv:130
+#: script_checking/error_database.csv:112
 msgid ""
 "The function you're trying to define exists in a parent class, so your "
 "definition overrides the parent class's function.\n"
@@ -576,6 +578,7 @@ msgstr ""
 
 #. Reference: SIGNATURE_MISMATCH
 #: script_checking/error_database.csv:130
+#: script_checking/error_database.csv:112
 msgid ""
 "You need to check the parent class's function and its definition in the code "
 "reference. Then, you need to edit your function definition to have the same "
@@ -588,18 +591,20 @@ msgstr ""
 
 #. Reference: INVALID_ARGUMENTS
 #: script_checking/error_database.csv:131
+#: script_checking/error_database.csv:113
 msgid ""
 "This whole class of errors has to do with calling functions with either the "
 "wrong number of arguments or the wrong kind of argument. You will need to "
 "use the error message to see what is going wrong."
 msgstr ""
 "Diese ganze Klasse von Fehlern hat mit dem Aufrufen von Funktionen zu tun, "
-"die entweder die falsche Anzahl von Argumenten oder die falsche Art von "
-"Argument haben. Du musst die Fehlermeldung lesen, um zu sehen, was schief "
-"läuft."
+"die entweder die falsche Anzahl von Parametern oder die falsche Art von "
+"Parametern haben. Du musst die Fehlermeldung lesen, um zu sehen, was "
+"schiefläuft."
 
 #. Reference: INVALID_ARGUMENTS
 #: script_checking/error_database.csv:131
+#: script_checking/error_database.csv:113
 msgid ""
 "You need to either remove, add, or change the values you're trying to pass "
 "to the function to solve this issue. To know exactly how many arguments you "
@@ -608,11 +613,12 @@ msgid ""
 msgstr ""
 "Du musst die Werte, die Du an die Funktion übergeben möchtest, entweder "
 "entfernen, hinzufügen oder ändern, um dieses Problem zu beheben. Um genau zu "
-"wissen, wie viele Argumente benötigt werden, musst Du die Codereferenz "
-"überprüfen. Es zeigt die Funktionsdefinition und die nötigen Argumente."
+"wissen, wie viele Parameter benötigt werden, musst Du die Codereferenz "
+"überprüfen. Es zeigt die Funktionsdefinition und die nötigen Parameter."
 
 #. Reference: TYPE_MISMATCH
 #: script_checking/error_database.csv:142
+#: script_checking/error_database.csv:124
 msgid ""
 "All the values in your code have a specific type. That type can be a whole "
 "number (int), a decimal number (float), text (String), and so on. There are "
@@ -643,6 +649,7 @@ msgstr ""
 
 #. Reference: TYPE_MISMATCH
 #: script_checking/error_database.csv:142
+#: script_checking/error_database.csv:124
 msgid ""
 "If the error mentions the assigned value type not matching the variable, the "
 "problem is on the right side of the equal sign (=).\n"
@@ -665,11 +672,12 @@ msgstr ""
 "\n"
 "Wenn der Computer über einen ungültigen Operanden spricht, besteht das "
 "Problem darin, dass der Vorgang für den Typ, den Sie verwenden möchten, "
-"nicht vorhanden ist. Während Sie beispielsweise zwei 2D-Vektoren hinzufügen "
-"können, können Sie einem 2D-Vektor keine ganze Zahl oder Text hinzufügen."
+"nicht vorhanden ist. Während Du beispielsweise zwei 2D-Vektoren hinzufügen "
+"kannst, kannst Du einem 2D-Vektor keine ganze Zahl oder Text hinzufügen."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: script_checking/error_database.csv:147
+#: script_checking/error_database.csv:129
 msgid ""
 "GDScript supports type inference. The computer will automatically recognize "
 "the type of value you are working with. In some cases, though, it can't "
@@ -687,6 +695,7 @@ msgstr ""
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: script_checking/error_database.csv:147
+#: script_checking/error_database.csv:129
 msgid ""
 "The simplest way to solve this error is to remove types for this variable or "
 "this function's arguments. Otherwise, you can manually specify the value "
@@ -696,15 +705,16 @@ msgid ""
 "system's benefits."
 msgstr ""
 "Die einfachste Möglichkeit, diesen Fehler zu beheben, besteht darin, Typen "
-"für diese Variable oder die Argumente dieser Funktion zu entfernen. "
+"für diese Variable oder die Parameter dieser Funktion zu entfernen. "
 "Andernfalls kannst Du den Typ der Variable nach dem Doppelpunkt manuell "
 "angeben.\n"
 "\n"
-"Wir empfehlen, den Typ nach Möglichkeit anzugeben, um die Vorteile des "
+"Wir empfehlen nach Möglichkeit, den Typ anzugeben, um die Vorteile des "
 "Typisierungssystems zu nutzen."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:153
+#: script_checking/error_database.csv:135
 msgid ""
 "There is an issue with the return value of your function. There are two main "
 "cases here:\n"
@@ -727,6 +737,7 @@ msgstr ""
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:153
+#: script_checking/error_database.csv:135
 msgid ""
 "When your function is 'void', you should never return a value. You can use "
 "the 'return' keyword to end the function early, but you should never write "
@@ -744,26 +755,23 @@ msgstr ""
 "zurückgeben."
 
 #. Reference: INVALID_NO_CATCH
-#: script_checking/error_database.csv:154
-#, fuzzy
+#: script_checking/error_database.csv:137
 msgid ""
 "Godot was unable to load your script, yet the language checker found nothing "
 "wrong."
 msgstr ""
-"Godot konnte dein Skript nicht laden, aber der Sprachprüfungsserver hat "
-"keinen Fehler erkannt. Es ist möglich, dass Du nicht online bist"
+"Godot konnte dein Skript nicht laden, trotzdem hat der Sprachprüfungsserver "
+"keinen Fehler erkannt."
 
 #. Reference: INVALID_NO_CATCH
-#: script_checking/error_database.csv:154
-#, fuzzy
+#: script_checking/error_database.csv:137
 msgid ""
 "Please click on the \"report\" button at the top and please let us know."
-msgstr ""
-"Wenn Du offline best, wird dieser Fehler erwartet. Ansonsten klicke bitte "
-"oben auf den Button \"Melden\" und lasse es uns bitte wissen"
+msgstr "Bitte klicke oben auf den Button \"Melden\" und lasse es uns wissen."
 
 #. Reference: RECURSIVE_FUNCTION
 #: script_checking/error_database.csv:155
+#: script_checking/error_database.csv:138
 msgid "You called a function inside itself. This will loop forever."
 msgstr ""
 "Du hast eine Funktion in sich selbst aufgerufen. Dies wird sich für immer "
@@ -771,6 +779,7 @@ msgstr ""
 
 #. Reference: RECURSIVE_FUNCTION
 #: script_checking/error_database.csv:155
+#: script_checking/error_database.csv:138
 msgid ""
 "There are valid reasons for using recursive functions, but none of them are "
 "part of this course, so this cannot be a valid solution."
