@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-19 11:18+0000\n"
 "Last-Translator: adadaadadade <272169607@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -146,6 +146,7 @@ msgid "Accessing sub-variables with the dot"
 msgstr "使用点访问子变量"
 
 #: course/lesson-7-member-variables/lesson.tres:130
+#, fuzzy
 msgid ""
 "In video games, you will see many member variables that have sub-values.\n"
 "\n"
@@ -159,8 +160,8 @@ msgid ""
 "To access those X and Y sub-components, you add a dot (\".\") after the "
 "variable name.\n"
 "\n"
-"The code below places the entity at [code]180[/code] pixels on the x-axis "
-"and [code]120[/code] pixels on the y-axis."
+"The code below places the entity at [code]200[/code] pixels on the x-axis "
+"and [code]250[/code] pixels on the y-axis."
 msgstr ""
 "在视频游戏中，您会看到许多具有子值的成员变量。\n"
 "\n"
@@ -215,6 +216,11 @@ msgstr ""
 "在数学中，按照惯例，y 轴通常为正向上。\n"
 "\n"
 "该约定与视频游戏和许多计算机应用程序中的[i]相反[/i]：y轴向下为正。"
+
+#: course/lesson-7-member-variables/lesson.tres:194
+#, fuzzy
+msgid "Why does the Y-axis point downwards?"
+msgstr "在游戏中，Y 轴为正向下"
 
 #: course/lesson-7-member-variables/lesson.tres:196
 msgid ""
@@ -342,6 +348,7 @@ msgid "Draw squares at different positions"
 msgstr "在不同位置绘制多个矩形"
 
 #: course/lesson-7-member-variables/lesson.tres:281
+#, fuzzy
 msgid ""
 "Draw three squares of size 100 by 100 that are 100 pixels apart on the "
 "horizontal axis. In other words, there should be a 100-pixel gap between two "
@@ -355,7 +362,9 @@ msgid ""
 "of a variable, like the turtle's position.\n"
 "\n"
 "Write your code inside the [code]run()[/code] function so the computer can "
-"recognize it."
+"recognize it.\n"
+"\n"
+"Use the provided [code]draw_rectangle()[/code] function to draw each square."
 msgstr ""
 "绘制三个大小为 100 x 100 的正方形，它们在水平轴上相距 100 像素。 换句话说，两"
 "个正方形之间应该有 100 像素的间隙。\n"
@@ -367,14 +376,15 @@ msgstr ""
 "\n"
 "在 [code]run()[/code] 函数中编写您的代码，以便计算机能够识别它。"
 
-#: course/lesson-7-member-variables/lesson.tres:297
+#: course/lesson-7-member-variables/lesson.tres:299
 msgid ""
 "Now you can place and draw one shape, but how about drawing several? In this "
 "practice, you'll place three squares side by side to really get the hang of "
 "properties."
-msgstr "现在你可以放置和绘制一个矩形，但如何放置几个呢？在这一练习中，你将并排放置三"
+msgstr ""
+"现在你可以放置和绘制一个矩形，但如何放置几个呢？在这一练习中，你将并排放置三"
 "个矩形来真正掌握属性的使用。"
 
-#: course/lesson-7-member-variables/lesson.tres:301
+#: course/lesson-7-member-variables/lesson.tres:303
 msgid "Introduction to Member Variables"
 msgstr "成员变量简介"

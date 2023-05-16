@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-20 15:19+0000\n"
 "Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-19-creating-arrays/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-19-creating-arrays/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,13 +32,15 @@ msgstr ""
 "[code]range(3)[/code] produce la lista [code][0, 1, 2][/code]."
 
 #: course/lesson-19-creating-arrays/lesson.tres:33
+#, fuzzy
 msgid ""
 "A list of values, numbers or otherwise, has a precise name in code: we call "
-"them [i]arrays[/i]. So we can say calling the [code]range()[/code] function "
+"it an [i]array[/i]. So we can say calling the [code]range()[/code] function "
 "produces an [i]array[/i] of numbers.\n"
 "\n"
 "We could directly write and use that array inside our [code]for[/code] loop "
-"instead of the [code]range()[/code] function."
+"instead of the [code]range()[/code] function. You can run the next function "
+"step-by-step to see how it works."
 msgstr ""
 "Una lista di valori, numeri o qualsiasi altra cosa, ha un nome preciso in "
 "programmazione: li chiamiamo [i]array[/i]. Dunque possiamo dire che la "
@@ -48,18 +50,30 @@ msgstr ""
 "ciclo [code]for[/code] al posto della funzione [code]range()[/code]."
 
 #: course/lesson-19-creating-arrays/lesson.tres:55
-msgid "As you can see, the code still works the same."
-msgstr "Come puoi vedere, funziona ancora allo stesso modo."
+msgid ""
+"As you can see, the code still works the same. Notice that when we create a "
+"[code]for[/code] loop, we also create a local variable to which the loop "
+"assigns one value per iteration. Above, we named it [code]number[/code] "
+"because the array we loop over contains three numbers (0, 1, and 2).\n"
+"\n"
+"But we could name it anything we'd like!"
+msgstr ""
 
-#: course/lesson-19-creating-arrays/lesson.tres:63
+#: course/lesson-19-creating-arrays/lesson.tres:77
+msgid ""
+"If we \"unwrap\" the [code]for[/code] loop above, we'd get the following "
+"code with the exact same behaviour:"
+msgstr ""
+
+#: course/lesson-19-creating-arrays/lesson.tres:95
 msgid "The syntax of arrays"
 msgstr "La sintassi degli array"
 
-#: course/lesson-19-creating-arrays/lesson.tres:65
+#: course/lesson-19-creating-arrays/lesson.tres:97
 msgid "We write arrays this way in GDScript."
 msgstr "Scriviamo gli array in questo modo in GDScript."
 
-#: course/lesson-19-creating-arrays/lesson.tres:85
+#: course/lesson-19-creating-arrays/lesson.tres:117
 msgid ""
 "You start with an opening square bracket. Then, you write comma-separated "
 "values that compose the array. Finally, you need a closing square bracket to "
@@ -75,7 +89,7 @@ msgstr ""
 "Ecco una serie di array validi. Nota bene che puoi usare diversi tipi di "
 "valori e questi non devono conformarsi l'uno agli altri."
 
-#: course/lesson-19-creating-arrays/lesson.tres:107
+#: course/lesson-19-creating-arrays/lesson.tres:139
 msgid ""
 "Because arrays themselves are a value type, just like numbers or "
 "[code]Vector2[/code], we can assign arrays to variables to reaccess them "
@@ -91,15 +105,15 @@ msgstr ""
 "Questo tornerà utile nella prossima lezione, in cui useremo queste variabili "
 "all'interno di cicli."
 
-#: course/lesson-19-creating-arrays/lesson.tres:129
+#: course/lesson-19-creating-arrays/lesson.tres:161
 msgid "But first, let's see [i]when[/i] you'd use an array."
 msgstr "Ma prima, vediamo [i]quando[/i] dovresti usare un array."
 
-#: course/lesson-19-creating-arrays/lesson.tres:137
+#: course/lesson-19-creating-arrays/lesson.tres:169
 msgid "When you use arrays"
 msgstr "Quando usi gli array"
 
-#: course/lesson-19-creating-arrays/lesson.tres:139
+#: course/lesson-19-creating-arrays/lesson.tres:171
 msgid ""
 "In computer programming, we use arrays [i]all the time[/i].\n"
 "\n"
@@ -129,11 +143,12 @@ msgstr ""
 "\n"
 "Tutti questi e molti altri fanno affidamento su degli array."
 
-#: course/lesson-19-creating-arrays/lesson.tres:158
+#: course/lesson-19-creating-arrays/lesson.tres:190
 msgid "Using arrays to follow a path"
 msgstr "Usando gli array per seguire un percorso"
 
-#: course/lesson-19-creating-arrays/lesson.tres:160
+#: course/lesson-19-creating-arrays/lesson.tres:192
+#, fuzzy
 msgid ""
 "Let's look at a widespread use of arrays in games: finding and following a "
 "path.\n"
@@ -141,7 +156,7 @@ msgid ""
 "In games, you need allies or monsters to find their way to their target, "
 "whether it's the player or some point of interest.\n"
 "\n"
-"To achieve that, we use [i]pathfinding algorithms[/i]. As a name suggests, "
+"To achieve that, we use [i]pathfinding algorithms[/i]. As the name suggests, "
 "those algorithms find the path between two points and allow AIs to traverse "
 "the game."
 msgstr ""
@@ -155,7 +170,7 @@ msgstr ""
 "percorso)[/i]. Come suggerisce il nome, questi algoritmi trovano il percorso "
 "tra due punti e consentono alle IA di vagare nel gioco."
 
-#: course/lesson-19-creating-arrays/lesson.tres:184
+#: course/lesson-19-creating-arrays/lesson.tres:216
 msgid ""
 "Many of those algorithms use arrays of [code]Vector2[/code] coordinates to "
 "represent the path.\n"
@@ -173,7 +188,7 @@ msgstr ""
 "\n"
 "Come possiamo dirle dove andare per raggiungere il robot? Con un array!"
 
-#: course/lesson-19-creating-arrays/lesson.tres:218
+#: course/lesson-19-creating-arrays/lesson.tres:250
 msgid ""
 "Every value in the array is a [code]Vector2[/code] and represents a cell the "
 "turtle needs to walk through.\n"
@@ -186,7 +201,7 @@ msgstr ""
 "Insieme, tutti i valori dell'array rappresentano un percorso che noi "
 "possiamo designare."
 
-#: course/lesson-19-creating-arrays/lesson.tres:240
+#: course/lesson-19-creating-arrays/lesson.tres:272
 msgid ""
 "In upcoming lessons, you will see how we can use arrays to store player "
 "inventories or design attack combos.\n"
@@ -198,11 +213,11 @@ msgstr ""
 "\n"
 "Per ora, facciamo pratica a creare array."
 
-#: course/lesson-19-creating-arrays/lesson.tres:250
+#: course/lesson-19-creating-arrays/lesson.tres:282
 msgid "Walking to the robot"
 msgstr "Arrivare fino al robot"
 
-#: course/lesson-19-creating-arrays/lesson.tres:251
+#: course/lesson-19-creating-arrays/lesson.tres:283
 msgid ""
 "The turtle wants to meet the robot! But it cannot find it on its own.\n"
 "\n"
@@ -227,7 +242,7 @@ msgstr ""
 "Ti consigliamo di copiare e incollare per riempire rapidamente l'array con "
 "valori [code]Vector2[/code] separati da virgole."
 
-#: course/lesson-19-creating-arrays/lesson.tres:266
+#: course/lesson-19-creating-arrays/lesson.tres:298
 msgid ""
 "Help the turtle find its way to the robot! Give it a path to follow to reach "
 "the robot."
@@ -235,11 +250,11 @@ msgstr ""
 "Aiuta la tartaruga ad arrivare dal robot! Dagli un percorso da seguire per "
 "raggiungere il robot."
 
-#: course/lesson-19-creating-arrays/lesson.tres:271
+#: course/lesson-19-creating-arrays/lesson.tres:303
 msgid "Selecting units"
 msgstr "Selezionando unità"
 
-#: course/lesson-19-creating-arrays/lesson.tres:272
+#: course/lesson-19-creating-arrays/lesson.tres:304
 msgid ""
 "In this tactical game, the player and computer can select multiple units at "
 "once. You need to call the [code]select_units()[/code] function and pass it "
@@ -255,9 +270,9 @@ msgid ""
 "[code]select_units()[/code] function."
 msgstr ""
 "In questo gioco tattico, il giocatore e il computer possono selezionare più "
-"unità allo stesso momento. Devi chiamare la funzione "
-"[code]select_units()[/code] e passarle un array di coordinate "
-"[code]Vector2[/code] per sapere quale unità selezionare.\n"
+"unità allo stesso momento. Devi chiamare la funzione [code]select_units()[/"
+"code] e passarle un array di coordinate [code]Vector2[/code] per sapere "
+"quale unità selezionare.\n"
 "\n"
 "Ogni [code]Vector2[/code] nell'array rappresenta una cella con un'unità.\n"
 "\n"
@@ -268,12 +283,15 @@ msgstr ""
 "Seleziona tutte le unità sulla tavola passandogli l'array corretto alla "
 "funzione [code]select_units()[/code]."
 
-#: course/lesson-19-creating-arrays/lesson.tres:288
+#: course/lesson-19-creating-arrays/lesson.tres:320
 msgid "Write an array to select all units on the board in this strategy game."
 msgstr ""
 "Scrivi un array per selezionare tutte le unità sulla tavola in questo gioco "
 "di strategia."
 
-#: course/lesson-19-creating-arrays/lesson.tres:292
+#: course/lesson-19-creating-arrays/lesson.tres:324
 msgid "Creating arrays"
 msgstr "Creando array"
+
+#~ msgid "As you can see, the code still works the same."
+#~ msgstr "Come puoi vedere, funziona ancora allo stesso modo."

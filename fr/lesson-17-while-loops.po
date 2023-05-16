@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-04-21 22:03+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -21,6 +21,7 @@ msgstr ""
 "X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-17-while-loops/lesson.tres:14
+#, fuzzy
 msgid ""
 "You've seen that you can use functions to [i]reuse[/i] code. In this lesson, "
 "you'll learn about [b]loops[/b]. Loops help you [i]repeat[/i] code.\n"
@@ -28,7 +29,8 @@ msgid ""
 "To illustrate how loops work, let's take a game board split into a grid.\n"
 "\n"
 "Our robot can move to neighboring cells by changing a [code]Vector2[/code] "
-"variable named [code]cell[/code].\n"
+"variable named [code]cell[/code]. It represents the current cell the robot "
+"is in.\n"
 "\n"
 "When we increase [code]cell.x[/code], the robot moves to the right.\n"
 "\n"
@@ -127,14 +129,19 @@ msgstr ""
 "Vous pouvez voir que le code suivant est exécuté quatre fois dans la console."
 
 #: course/lesson-17-while-loops/lesson.tres:126
+#, fuzzy
 msgid ""
 "Let's apply this to our [code]move_to_end()[/code] function.\n"
 "\n"
 "This time, we compare the number of loops to the board's width. We go "
 "through the loop until we reach the width of the board.\n"
 "\n"
-"Note that we move one less than the board's width because the robot is "
-"already on the first cell."
+"Note that we move the robot until its position is one less than the board's "
+"width because we are counting tiles from [code]0[/code].\n"
+"\n"
+"A board of [code]3[/code] by [code]3[/code] cells would have cell "
+"coordinates going from [code]0[/code] to [code]2[/code] on both the X and Y "
+"axes."
 msgstr ""
 "Appliquons cela à notre fonction [code]move_to_end()[/code].\n"
 "\n"
@@ -144,14 +151,14 @@ msgstr ""
 "Notez que nous nous déplaçons d'une case de moins que la largeur du plateau "
 "car le robot est déjà sur la première case."
 
-#: course/lesson-17-while-loops/lesson.tres:158
+#: course/lesson-17-while-loops/lesson.tres:160
 msgid "While loops can cause issues"
 msgstr "Les boucles while peuvent causer des problèmes"
 
 # l'application se bloquera
 # figer
 # planter
-#: course/lesson-17-while-loops/lesson.tres:160
+#: course/lesson-17-while-loops/lesson.tres:162
 #, fuzzy
 msgid ""
 "If you're not careful, your [code]while[/code] loop can run infinitely. In "
@@ -164,12 +171,12 @@ msgstr ""
 "\n"
 "Jetez un oeil à cet exemple de code."
 
-#: course/lesson-17-while-loops/lesson.tres:180
+#: course/lesson-17-while-loops/lesson.tres:182
 msgid "What would happen if the computer tried to run the code above?"
 msgstr ""
 "Que se passerait-il si l'ordinateur essayait d'exécuter le code ci-dessus ?"
 
-#: course/lesson-17-while-loops/lesson.tres:183
+#: course/lesson-17-while-loops/lesson.tres:185
 msgid ""
 "Because we don't increment [code]number[/code] within the [code]while[/code] "
 "loop, it always stays at [code]0[/code].\n"
@@ -196,25 +203,25 @@ msgstr ""
 "Lorsque les programmes ne répondent plus sur votre ordinateur, c'est souvent "
 "dû à une boucle infinie !"
 
-#: course/lesson-17-while-loops/lesson.tres:190
-#: course/lesson-17-while-loops/lesson.tres:191
+#: course/lesson-17-while-loops/lesson.tres:192
+#: course/lesson-17-while-loops/lesson.tres:193
 msgid "It would draw squares infinitely until the program is terminated"
 msgstr ""
 "Il dessinerait des carrés à l'infini jusqu'à ce que le programme soit termine"
 
-#: course/lesson-17-while-loops/lesson.tres:190
+#: course/lesson-17-while-loops/lesson.tres:192
 msgid "It would draw 10 squares"
 msgstr "Il dessinerait 10 carrés"
 
-#: course/lesson-17-while-loops/lesson.tres:190
+#: course/lesson-17-while-loops/lesson.tres:192
 msgid "It would draw 20 squares"
 msgstr "Il dessinerait 20 carrés"
 
-#: course/lesson-17-while-loops/lesson.tres:198
+#: course/lesson-17-while-loops/lesson.tres:200
 msgid "When to use while loops"
 msgstr "Quand utiliser les boucles while"
 
-#: course/lesson-17-while-loops/lesson.tres:200
+#: course/lesson-17-while-loops/lesson.tres:202
 msgid ""
 "At first, you will not need [code]while[/code] loops often. Even the code we "
 "show here has more efficient alternatives.\n"
@@ -268,7 +275,7 @@ msgstr ""
 "- Divers algorithmes de niveau intermédiaire à avancé, comme la recherche "
 "des chemins sur une carte pour l'IA."
 
-#: course/lesson-17-while-loops/lesson.tres:225
+#: course/lesson-17-while-loops/lesson.tres:227
 msgid ""
 "Let's practice some [code]while[/code] loops, as they're useful to know. "
 "It's also an excellent opportunity to practice 2D vectors.\n"
@@ -283,12 +290,12 @@ msgstr ""
 "Ensuite, nous passerons aux boucles [code]for[/code], qui sont plus sûres "
 "que les boucles while, dans la leçon suivante."
 
-#: course/lesson-17-while-loops/lesson.tres:235
+#: course/lesson-17-while-loops/lesson.tres:237
 msgid "Moving to the end of a board"
 msgstr "Déplacement à la fin d'un plateau"
 
 # pour n'importe quelle taille de carte.
-#: course/lesson-17-while-loops/lesson.tres:236
+#: course/lesson-17-while-loops/lesson.tres:238
 msgid ""
 "Our robot has decided to stand at the top of the board.\n"
 "\n"
@@ -317,7 +324,7 @@ msgstr ""
 "fonctionne quelle que soit la taille de la carte."
 
 # du haut du plateau vers le bas.
-#: course/lesson-17-while-loops/lesson.tres:254
+#: course/lesson-17-while-loops/lesson.tres:256
 msgid ""
 "Use a while loop to have our robot move from the top of the board to the "
 "bottom."
@@ -325,6 +332,6 @@ msgstr ""
 "Utilisez une boucle while pour que notre robot se déplace de la partie "
 "supérieure du plateau vers l'inférieure."
 
-#: course/lesson-17-while-loops/lesson.tres:258
+#: course/lesson-17-while-loops/lesson.tres:260
 msgid "Introduction to While Loops"
 msgstr "Introduction aux boucles while"

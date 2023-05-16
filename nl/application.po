@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-05-20 14:17+0000\n"
 "Last-Translator: Oskar <weblate@rakso.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/learn-gdscript-"
@@ -41,28 +41,52 @@ msgstr "Titel"
 msgid "Practices"
 msgstr "Praktijken"
 
-#: ui/UINavigator.gd:350
+#: ui/UINavigator.gd:365
 msgid "Go back in your navigation history"
 msgstr "Ga terug in je navigatiegeschiedenis"
 
-#: ui/UINavigator.gd:353
+#: ui/UINavigator.gd:368
 msgid "(no previous history)"
 msgstr "(geen vorige geschiedenis)"
 
-#: ui/UIPractice.gd:144 ui/UIPractice.gd:202
+#: ui/UINavigator.tscn:103
+msgid "CHRISTMAS SALE - 50% OFF"
+msgstr ""
+
+#: ui/UINavigator.tscn:163
+msgid "CHRISTMAS SALE"
+msgstr ""
+
+#: ui/UIPractice.gd:154 ui/UIPractice.gd:220
 #, python-format
 msgid "Hint %s"
 msgstr "Hint %s"
 
-#: ui/UIPractice.gd:230
+#: ui/UIPractice.gd:248
 msgid "Validating Your Code..."
 msgstr "Je Code Valideren..."
 
-#: ui/UIPractice.gd:286
+#: ui/UIPractice.gd:268
+#, python-format
+msgid "The function `%s` calls itself, this creates an infinite loop"
+msgstr ""
+
+#: ui/UIPractice.gd:301
 msgid "Running Your Code..."
 msgstr "Je Code Uitvoeren..."
 
-#: ui/UIPractice.gd:337
+#: ui/UIPractice.gd:328
+msgid ""
+"There is a division by zero in your code. You cannot divide by zero in code. "
+"Please ensure you have no \"/ 0\" or \"% 0\" in your code."
+msgstr ""
+
+#: ui/UIPractice.gd:343
+msgid ""
+"Oh no! The script has an error, but the Script Verifier did not catch it"
+msgstr ""
+
+#: ui/UIPractice.gd:369
 msgid "Running Tests..."
 msgstr "Tests Uitvoeren..."
 
@@ -90,7 +114,7 @@ msgstr "Uitvoeren"
 msgid "Pause"
 msgstr "Pauzeren"
 
-#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:78
+#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:87
 msgid "Reset"
 msgstr "Resetten"
 
@@ -107,6 +131,11 @@ msgstr "Uitvoer"
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
 msgstr "Hervatten"
+
+#: ui/components/DebuggerConsoleMonitoredVariable.tscn:20
+#: ui/components/OutputConsolePrintMessage.tscn:23
+msgid "Value"
+msgstr "Waarde"
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -158,18 +187,41 @@ msgstr ""
 msgid "Explain"
 msgstr "Leg uit"
 
-#: ui/components/OutputConsolePrintMessage.tscn:23
-msgid "Value"
-msgstr "Waarde"
-
 #: ui/components/Revealer.tscn:74
 #, fuzzy
 msgid "Expand"
 msgstr "Uitbreiden"
 
-#: ui/components/RunnableCodeExample.tscn:96
+#: ui/components/RunnableCodeExample.tscn:105
 msgid "run()"
 msgstr "run()"
+
+#: ui/components/RunnableCodeExample.tscn:123
+msgid "step"
+msgstr ""
+
+#: ui/components/RunnableCodeExampleDebugger.tscn:44
+msgid "Debugger"
+msgstr ""
+
+#: ui/components/SalePopup.tscn:121
+#, python-format
+msgid ""
+"[center]Get [b]50% off[/b] on all our Godot courses with the \n"
+"coupon code [b]DISCOUNT50[/b][/center]"
+msgstr ""
+
+#: ui/components/SalePopup.tscn:132
+msgid "Only until "
+msgstr ""
+
+#: ui/components/SalePopup.tscn:155
+msgid "CHECK OUT OUR COURSES"
+msgstr ""
+
+#: ui/components/SalePopup.tscn:180
+msgid "X"
+msgstr ""
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
@@ -224,20 +276,21 @@ msgid "Where do external errors come from?"
 msgstr "Waar komen externe foutmeldingen vandaan?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
+#, fuzzy
 msgid ""
-"Lessons in this course are constructed in such a way that you only need to "
-"edit the [b]important bits[/b]. But there is much more code outside of what "
-"you see that makes the project run.\n"
+"Lessons in this course are designed so you only need to edit the "
+"[b]important bits[/b]. But there is much more code outside of what you see "
+"that makes the project run.\n"
 "\n"
-"This means that sometimes changes that you make can affect code that you "
-"have no control over. But don't worry, you can still fix all the issues "
-"yourself with the code you [b]can[/b] edit!\n"
+"This means that sometimes changes you make can affect code you have no "
+"control over. But don't worry, you can still fix all the issues yourself "
+"with the code you [b]can[/b] edit!\n"
 "\n"
-"[i]This is kind of like game engines work too.[/i] There is a lot of hidden "
-"code that they execute to make sure your projects runs smoothly. And yet, an "
-"error in your scripts can break them. We'll try to explain how to address "
-"each individual error that you face. Quick, click the [b]Explain[/b] button "
-"next to the error message!"
+"[i]This is like how game engines work too.[/i] There is a lot of hidden code "
+"that they execute to ensure your project runs smoothly. And yet, an error in "
+"your scripts can break them. We'll try to explain how to address each "
+"individual error that you face. Quick, click the [b]Explain[/b] button next "
+"to the error message!"
 msgstr ""
 "Lessen in deze cursus zijn op zo'n wijze opgezet dat je alleen de "
 "[b]belangrijke stukken[/b] hoeft aan te passen. Maar er is veel meer code, "
@@ -304,7 +357,7 @@ msgid "Practice List"
 msgstr "Oefeningen Lijst"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
-#: ui/components/popups/SettingsPopup.tscn:227
+#: ui/components/popups/SettingsPopup.tscn:244
 msgid "Close"
 msgstr "Sluiten"
 
@@ -395,31 +448,35 @@ msgstr ""
 msgid "OK"
 msgstr "OK"
 
-#: ui/components/popups/SettingsPopup.tscn:79
+#: ui/components/popups/SettingsPopup.tscn:76
 msgid "Configure the App"
 msgstr "App Configureren"
 
-#: ui/components/popups/SettingsPopup.tscn:106
+#: ui/components/popups/SettingsPopup.tscn:103
 msgid "Language"
 msgstr "Taal"
 
-#: ui/components/popups/SettingsPopup.tscn:126
+#: ui/components/popups/SettingsPopup.tscn:123
 msgid "Text Size"
 msgstr "Tekstgrootte"
 
-#: ui/components/popups/SettingsPopup.tscn:154
+#: ui/components/popups/SettingsPopup.tscn:151
 msgid "Sample text"
 msgstr "Voorbeeldtekst"
 
-#: ui/components/popups/SettingsPopup.tscn:167
+#: ui/components/popups/SettingsPopup.tscn:164
 msgid "Scroll sensitivity"
 msgstr "Scroll gevoeligheid"
 
-#: ui/components/popups/SettingsPopup.tscn:193
+#: ui/components/popups/SettingsPopup.tscn:190
 msgid "Framerate cap"
 msgstr "Framerate-limiet"
 
-#: ui/components/popups/SettingsPopup.tscn:242
+#: ui/components/popups/SettingsPopup.tscn:212
+msgid "Lower contrast"
+msgstr ""
+
+#: ui/components/popups/SettingsPopup.tscn:259
 msgid "Apply"
 msgstr "Toepassen"
 
@@ -485,6 +542,7 @@ msgid "Confirm Resetting Progress"
 msgstr "Voortgang Resetten Bevestigen"
 
 #: ui/screens/end_screen/EndScreen.tscn:229
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:196
 msgid "Congratulations!"
 msgstr ""
 
@@ -538,6 +596,29 @@ msgstr ""
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
 msgstr "Leer Meer"
+
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:203
+msgid ""
+"You completed Learn GDScript From Zero. You now have the basics you need to "
+"make games with the Godot game engine.\n"
+"\n"
+"You can keep learning with the free series [url=https://docs.godotengine.org/"
+"en/stable/getting_started/step_by_step/index.html]Getting Started with "
+"Godot[/url]."
+msgstr ""
+
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:216
+msgid "This is an Open-Source project!"
+msgstr ""
+
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:223
+msgid ""
+"Like Godot, this app and course is free and open-source. \n"
+"\n"
+"You can find the app's source code and contribute translations here: "
+"[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
+"(Github repository)[/url]."
+msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
@@ -595,11 +676,11 @@ msgstr "(selecteer alles wat van toepassing is)"
 msgid "Show Hint"
 msgstr "Toon Hint"
 
-#: ui/screens/practice/PracticeInfoPanel.gd:143
+#: ui/screens/practice/PracticeInfoPanel.gd:144
 msgid "Method descriptions"
 msgstr "Methode omschrijvingen"
 
-#: ui/screens/practice/PracticeInfoPanel.gd:159
+#: ui/screens/practice/PracticeInfoPanel.gd:160
 msgid "Property descriptions"
 msgstr "Eigenshap omschrijvingen"
 
@@ -627,7 +708,7 @@ msgstr "Documentatie"
 msgid "Open Practice List"
 msgstr "Open Oefeningen Lijst"
 
-#: ui/screens/practice/PracticeTestDisplay.tscn:42
+#: ui/screens/practice/PracticeTestDisplay.tscn:40
 msgid "Test text"
 msgstr "Test tekst"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-19 11:18+0000\n"
 "Last-Translator: adadaadadade <272169607@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -39,28 +39,52 @@ msgstr "标题"
 msgid "Practices"
 msgstr "练习"
 
-#: ui/UINavigator.gd:350
+#: ui/UINavigator.gd:365
 msgid "Go back in your navigation history"
 msgstr "导航历史回退"
 
-#: ui/UINavigator.gd:353
+#: ui/UINavigator.gd:368
 msgid "(no previous history)"
 msgstr "（没有更早的历史）"
 
-#: ui/UIPractice.gd:144 ui/UIPractice.gd:202
+#: ui/UINavigator.tscn:103
+msgid "CHRISTMAS SALE - 50% OFF"
+msgstr ""
+
+#: ui/UINavigator.tscn:163
+msgid "CHRISTMAS SALE"
+msgstr ""
+
+#: ui/UIPractice.gd:154 ui/UIPractice.gd:220
 #, python-format
 msgid "Hint %s"
 msgstr "提示 %s"
 
-#: ui/UIPractice.gd:230
+#: ui/UIPractice.gd:248
 msgid "Validating Your Code..."
 msgstr "正在校验你的代码..."
 
-#: ui/UIPractice.gd:286
+#: ui/UIPractice.gd:268
+#, python-format
+msgid "The function `%s` calls itself, this creates an infinite loop"
+msgstr ""
+
+#: ui/UIPractice.gd:301
 msgid "Running Your Code..."
 msgstr "正在运行你的代码..."
 
-#: ui/UIPractice.gd:337
+#: ui/UIPractice.gd:328
+msgid ""
+"There is a division by zero in your code. You cannot divide by zero in code. "
+"Please ensure you have no \"/ 0\" or \"% 0\" in your code."
+msgstr ""
+
+#: ui/UIPractice.gd:343
+msgid ""
+"Oh no! The script has an error, but the Script Verifier did not catch it"
+msgstr ""
+
+#: ui/UIPractice.gd:369
 msgid "Running Tests..."
 msgstr "正在运行测试..."
 
@@ -88,7 +112,7 @@ msgstr "运行"
 msgid "Pause"
 msgstr "暂停"
 
-#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:78
+#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:87
 msgid "Reset"
 msgstr "重置"
 
@@ -105,6 +129,11 @@ msgstr "输出"
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
 msgstr "继续"
+
+#: ui/components/DebuggerConsoleMonitoredVariable.tscn:20
+#: ui/components/OutputConsolePrintMessage.tscn:23
+msgid "Value"
+msgstr "值"
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -154,17 +183,40 @@ msgstr "有时候会报告你的代码之外的错误。为什么会这样？"
 msgid "Explain"
 msgstr "解释"
 
-#: ui/components/OutputConsolePrintMessage.tscn:23
-msgid "Value"
-msgstr "值"
-
 #: ui/components/Revealer.tscn:74
 msgid "Expand"
 msgstr "展开"
 
-#: ui/components/RunnableCodeExample.tscn:96
+#: ui/components/RunnableCodeExample.tscn:105
 msgid "run()"
 msgstr "run()"
+
+#: ui/components/RunnableCodeExample.tscn:123
+msgid "step"
+msgstr ""
+
+#: ui/components/RunnableCodeExampleDebugger.tscn:44
+msgid "Debugger"
+msgstr ""
+
+#: ui/components/SalePopup.tscn:121
+#, python-format
+msgid ""
+"[center]Get [b]50% off[/b] on all our Godot courses with the \n"
+"coupon code [b]DISCOUNT50[/b][/center]"
+msgstr ""
+
+#: ui/components/SalePopup.tscn:132
+msgid "Only until "
+msgstr ""
+
+#: ui/components/SalePopup.tscn:155
+msgid "CHECK OUT OUR COURSES"
+msgstr ""
+
+#: ui/components/SalePopup.tscn:180
+msgid "X"
+msgstr ""
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
@@ -218,20 +270,21 @@ msgid "Where do external errors come from?"
 msgstr "外部错误是从哪里来的？"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
+#, fuzzy
 msgid ""
-"Lessons in this course are constructed in such a way that you only need to "
-"edit the [b]important bits[/b]. But there is much more code outside of what "
-"you see that makes the project run.\n"
+"Lessons in this course are designed so you only need to edit the "
+"[b]important bits[/b]. But there is much more code outside of what you see "
+"that makes the project run.\n"
 "\n"
-"This means that sometimes changes that you make can affect code that you "
-"have no control over. But don't worry, you can still fix all the issues "
-"yourself with the code you [b]can[/b] edit!\n"
+"This means that sometimes changes you make can affect code you have no "
+"control over. But don't worry, you can still fix all the issues yourself "
+"with the code you [b]can[/b] edit!\n"
 "\n"
-"[i]This is kind of like game engines work too.[/i] There is a lot of hidden "
-"code that they execute to make sure your projects runs smoothly. And yet, an "
-"error in your scripts can break them. We'll try to explain how to address "
-"each individual error that you face. Quick, click the [b]Explain[/b] button "
-"next to the error message!"
+"[i]This is like how game engines work too.[/i] There is a lot of hidden code "
+"that they execute to ensure your project runs smoothly. And yet, an error in "
+"your scripts can break them. We'll try to explain how to address each "
+"individual error that you face. Quick, click the [b]Explain[/b] button next "
+"to the error message!"
 msgstr ""
 "本教程的课程中，你都只需要编辑[b]重要的部分[/b]。但在你看到的代码之外，其实还"
 "有非常多的代码，才使得项目能够运行起来。\n"
@@ -294,7 +347,7 @@ msgid "Practice List"
 msgstr "练习列表"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
-#: ui/components/popups/SettingsPopup.tscn:227
+#: ui/components/popups/SettingsPopup.tscn:244
 msgid "Close"
 msgstr "关闭"
 
@@ -378,31 +431,35 @@ msgstr ""
 msgid "OK"
 msgstr "确定"
 
-#: ui/components/popups/SettingsPopup.tscn:79
+#: ui/components/popups/SettingsPopup.tscn:76
 msgid "Configure the App"
 msgstr "配置应用"
 
-#: ui/components/popups/SettingsPopup.tscn:106
+#: ui/components/popups/SettingsPopup.tscn:103
 msgid "Language"
 msgstr "语言"
 
-#: ui/components/popups/SettingsPopup.tscn:126
+#: ui/components/popups/SettingsPopup.tscn:123
 msgid "Text Size"
 msgstr "文本大小"
 
-#: ui/components/popups/SettingsPopup.tscn:154
+#: ui/components/popups/SettingsPopup.tscn:151
 msgid "Sample text"
 msgstr "示例文本"
 
-#: ui/components/popups/SettingsPopup.tscn:167
+#: ui/components/popups/SettingsPopup.tscn:164
 msgid "Scroll sensitivity"
 msgstr "滚轮灵敏度"
 
-#: ui/components/popups/SettingsPopup.tscn:193
+#: ui/components/popups/SettingsPopup.tscn:190
 msgid "Framerate cap"
 msgstr "帧率上限"
 
-#: ui/components/popups/SettingsPopup.tscn:242
+#: ui/components/popups/SettingsPopup.tscn:212
+msgid "Lower contrast"
+msgstr ""
+
+#: ui/components/popups/SettingsPopup.tscn:259
 msgid "Apply"
 msgstr "应用"
 
@@ -468,6 +525,7 @@ msgid "Confirm Resetting Progress"
 msgstr "确认重置进度"
 
 #: ui/screens/end_screen/EndScreen.tscn:229
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:196
 msgid "Congratulations!"
 msgstr "恭喜！"
 
@@ -544,6 +602,36 @@ msgstr ""
 msgid "Learn More"
 msgstr "了解更多"
 
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:203
+#, fuzzy
+msgid ""
+"You completed Learn GDScript From Zero. You now have the basics you need to "
+"make games with the Godot game engine.\n"
+"\n"
+"You can keep learning with the free series [url=https://docs.godotengine.org/"
+"en/stable/getting_started/step_by_step/index.html]Getting Started with "
+"Godot[/url]."
+msgstr ""
+"你已经完成了从零开始学 GDScript。你现在已经学习到了使用Godot游戏引擎钻研制作"
+"游戏的基础。\n"
+"\n"
+"如果你正在寻找和我们一起免费学习基础的系列，你可以访问 [url=https://www."
+"gdquest.com/tutorial/godot/learning-paths/getting-started-in-2021/]Getting "
+"Started with Godot[/url]。"
+
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:216
+msgid "This is an Open-Source project!"
+msgstr ""
+
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:223
+msgid ""
+"Like Godot, this app and course is free and open-source. \n"
+"\n"
+"You can find the app's source code and contribute translations here: "
+"[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
+"(Github repository)[/url]."
+msgstr ""
+
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
 msgstr "[b]问题[/b]"
@@ -600,11 +688,11 @@ msgstr "（多选）"
 msgid "Show Hint"
 msgstr "显示提示"
 
-#: ui/screens/practice/PracticeInfoPanel.gd:143
+#: ui/screens/practice/PracticeInfoPanel.gd:144
 msgid "Method descriptions"
 msgstr "方法说明"
 
-#: ui/screens/practice/PracticeInfoPanel.gd:159
+#: ui/screens/practice/PracticeInfoPanel.gd:160
 msgid "Property descriptions"
 msgstr "属性说明"
 
@@ -632,7 +720,7 @@ msgstr "文档"
 msgid "Open Practice List"
 msgstr "打开练习列表"
 
-#: ui/screens/practice/PracticeTestDisplay.tscn:42
+#: ui/screens/practice/PracticeTestDisplay.tscn:40
 msgid "Test text"
 msgstr "测试文本"
 

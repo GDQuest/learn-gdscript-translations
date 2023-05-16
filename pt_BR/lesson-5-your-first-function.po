@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-16 15:17+0000\n"
 "Last-Translator: Joel Gomes da Silva <joelgomes1994@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -53,6 +53,10 @@ msgstr ""
 "Usando o identificador, nós fazemos com que o computador execute todas as "
 "instruções dentro daquela função, quantas vezes a gente quiser. É isso que "
 "uma [i]chamada de função[/i] faz."
+
+#: course/lesson-5-your-first-function/lesson.tres:36
+msgid "Learn more about identifiers"
+msgstr ""
 
 #: course/lesson-5-your-first-function/lesson.tres:38
 msgid ""
@@ -119,13 +123,14 @@ msgstr ""
 "com o tamanho de 200 pixels."
 
 #: course/lesson-5-your-first-function/lesson.tres:100
+#, fuzzy
 msgid ""
 "Every time we call [code]move_and_rotate()[/code], the two functions "
 "[code]move_forward(200)[/code] and [code]turn_right(90)[/code] are called in "
 "sequence.\n"
 "\n"
 "In this simple example, it may not feel super useful. Here's a more useful "
-"and realistic one: a function to draw any rectangle.\n"
+"and realistic one: a function to draw any square.\n"
 "\n"
 "The following function uses [i]parameters[/i], which we will explore in the "
 "next lesson.\n"

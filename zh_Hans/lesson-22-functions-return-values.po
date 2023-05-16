@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-19 11:18+0000\n"
 "Last-Translator: adadaadadade <272169607@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -55,9 +55,10 @@ msgstr ""
 "最接近数字的新数字。"
 
 #: course/lesson-22-functions-return-values/lesson.tres:49
+#, fuzzy
 msgid ""
 "Imagine you have a game where you track the player's health as a percentage, "
-"a decimal number going from [code]0.0[/code] to [code]100.0[/code]. \n"
+"a decimal number going from [code]0.0[/code] to [code]100.0[/code].\n"
 "\n"
 "When displaying the health on the interface, you don't want to show the "
 "decimal part. In that case, you may use the [code]round()[/code] function, "
@@ -77,8 +78,8 @@ msgid ""
 "\n"
 "Above, we assigned it to a variable, but you could also do the following."
 msgstr ""
-"请注意我们如何将函数调用的结果赋值给变量。因为 [code]round()[/code] "
-"函数返回一个 [i]新[/i] 值，我们需要存储结果或者立即使用这个值。\n"
+"请注意我们如何将函数调用的结果赋值给变量。因为 [code]round()[/code] 函数返回"
+"一个 [i]新[/i] 值，我们需要存储结果或者立即使用这个值。\n"
 "\n"
 "在上面，我们将结果赋值给一个变量，但你也可以像接下来这样做。"
 
@@ -131,8 +132,9 @@ msgid "Writing a function that returns a value"
 msgstr "编写一个有返回值的函数"
 
 #: course/lesson-22-functions-return-values/lesson.tres:149
+#, fuzzy
 msgid ""
-"You can make [i]your[/i] functions return values. \n"
+"You can make [i]your[/i] functions return values.\n"
 "\n"
 "To make a function return a value, you use the [code]return[/code] keyword "
 "followed by the value in question.\n"
@@ -141,8 +143,9 @@ msgid ""
 "\n"
 "And for those practices, you were working directly with cell coordinates.\n"
 "\n"
-"Well, cell coordinates don't correspond to positions on the screen, so we "
-"need to convert cell positions to screen positions."
+"Well, cell coordinates don't correspond to positions on the screen. To find "
+"the center of any cell on the screen, we need to convert the cell's "
+"coordinates to a position on the screen, in pixels."
 msgstr ""
 "您可以使 [i]你的[/i] 函数返回值。\n"
 "\n"
@@ -156,13 +159,16 @@ msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:177
 msgid ""
-"To do so, we use a function. It multiplies the cell coordinate by the cell "
-"size, adds half the cell size to the product, and returns the result."
+"To do so, we use a function. The function does two things:\n"
+"\n"
+"1. First, it multiplies the cell coordinates by the cell size, which gives "
+"us the position of the cell's top-left corner on the screen, in pixels.\n"
+"2. Then, we add half of the cell size to get the center of the cell.\n"
+"\n"
+"The function returns the result, allowing us to store it in a variable."
 msgstr ""
-"为此，我们使用一个函数。它将单元格坐标乘以单元格大小，将单元格大小的一半加到"
-"乘积中，然后返回结果。"
 
-#: course/lesson-22-functions-return-values/lesson.tres:197
+#: course/lesson-22-functions-return-values/lesson.tres:202
 msgid ""
 "The [code]return[/code] keyword returns the value to the code calling the "
 "function. You'll receive the result where you call the function."
@@ -170,10 +176,12 @@ msgstr ""
 "[code]return[/code] 关键字将值返回给调用函数的代码。您将在调用该函数的位置收"
 "到结果。"
 
-#: course/lesson-22-functions-return-values/lesson.tres:217
+#: course/lesson-22-functions-return-values/lesson.tres:222
+#, fuzzy
 msgid ""
-"Some functions return values, and some do not. You can learn which functions "
-"return a result using the documentation panel in the practice screen.\n"
+"Some functions return values, and some do not. During practices, you can "
+"learn which functions return a value using the documentation panel. It will "
+"display if the practice requires using specific functions or variables.\n"
 "\n"
 "There, functions that start with the term [code]void[/code] do not return a "
 "value. Any other term means the function does return a value. You'll learn "
@@ -191,11 +199,11 @@ msgstr ""
 "\n"
 "现在，让我们练习从函数返回值！"
 
-#: course/lesson-22-functions-return-values/lesson.tres:229
+#: course/lesson-22-functions-return-values/lesson.tres:234
 msgid "Converting coordinates from the grid to the screen"
 msgstr "将坐标从网格转换到屏幕"
 
-#: course/lesson-22-functions-return-values/lesson.tres:230
+#: course/lesson-22-functions-return-values/lesson.tres:235
 msgid ""
 "Define a function that converts a position on a grid to the screen.\n"
 "\n"
@@ -208,7 +216,7 @@ msgstr ""
 "该函数将 [code]Vector2[/code] 单元格坐标作为参数。它应该返回单元格中心对应的 "
 "[code]Vector2[/code] 屏幕坐标。"
 
-#: course/lesson-22-functions-return-values/lesson.tres:244
+#: course/lesson-22-functions-return-values/lesson.tres:249
 msgid ""
 "We lost the function to convert grid coordinates, but we desperately need it "
 "for our game! Make the turtle move again by coding it."
@@ -216,6 +224,13 @@ msgstr ""
 "我们失去了转换网格坐标的函数，但我们的游戏迫切需要它！通过编码使乌龟再次移"
 "动。"
 
-#: course/lesson-22-functions-return-values/lesson.tres:248
+#: course/lesson-22-functions-return-values/lesson.tres:253
 msgid "Functions that return a value"
 msgstr "返回一个值的函数"
+
+#~ msgid ""
+#~ "To do so, we use a function. It multiplies the cell coordinate by the "
+#~ "cell size, adds half the cell size to the product, and returns the result."
+#~ msgstr ""
+#~ "为此，我们使用一个函数。它将单元格坐标乘以单元格大小，将单元格大小的一半加"
+#~ "到乘积中，然后返回结果。"

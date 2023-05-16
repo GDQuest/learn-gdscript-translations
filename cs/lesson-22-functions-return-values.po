@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-16 15:17+0000\n"
 "Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-22-functions-return-values/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-22-functions-return-values/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,9 +57,10 @@ msgstr ""
 "vrátí vám nové číslo zaokrouhlené na nejbližší číslici."
 
 #: course/lesson-22-functions-return-values/lesson.tres:49
+#, fuzzy
 msgid ""
 "Imagine you have a game where you track the player's health as a percentage, "
-"a decimal number going from [code]0.0[/code] to [code]100.0[/code]. \n"
+"a decimal number going from [code]0.0[/code] to [code]100.0[/code].\n"
 "\n"
 "When displaying the health on the interface, you don't want to show the "
 "decimal part. In that case, you may use the [code]round()[/code] function, "
@@ -137,8 +138,9 @@ msgid "Writing a function that returns a value"
 msgstr "Zápis funkce, která vrací hodnotu"
 
 #: course/lesson-22-functions-return-values/lesson.tres:149
+#, fuzzy
 msgid ""
-"You can make [i]your[/i] functions return values. \n"
+"You can make [i]your[/i] functions return values.\n"
 "\n"
 "To make a function return a value, you use the [code]return[/code] keyword "
 "followed by the value in question.\n"
@@ -147,13 +149,14 @@ msgid ""
 "\n"
 "And for those practices, you were working directly with cell coordinates.\n"
 "\n"
-"Well, cell coordinates don't correspond to positions on the screen, so we "
-"need to convert cell positions to screen positions."
+"Well, cell coordinates don't correspond to positions on the screen. To find "
+"the center of any cell on the screen, we need to convert the cell's "
+"coordinates to a position on the screen, in pixels."
 msgstr ""
 "Můžete vytvořit [i]své[/i] funkce vracející hodnoty.\n"
 "\n"
-"Chcete-li, aby funkce vracela hodnotu, použijte klíčové slovo "
-"[code]return[/code] následované příslušnou hodnotou.\n"
+"Chcete-li, aby funkce vracela hodnotu, použijte klíčové slovo [code]return[/"
+"code] následované příslušnou hodnotou.\n"
 "\n"
 "V předchozích lekcích jsme měli postavy chodící po mřížkách.\n"
 "\n"
@@ -164,13 +167,16 @@ msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:177
 msgid ""
-"To do so, we use a function. It multiplies the cell coordinate by the cell "
-"size, adds half the cell size to the product, and returns the result."
+"To do so, we use a function. The function does two things:\n"
+"\n"
+"1. First, it multiplies the cell coordinates by the cell size, which gives "
+"us the position of the cell's top-left corner on the screen, in pixels.\n"
+"2. Then, we add half of the cell size to get the center of the cell.\n"
+"\n"
+"The function returns the result, allowing us to store it in a variable."
 msgstr ""
-"K tomu použijeme funkci. Ta vynásobí souřadnici buňky velikostí buňky, k "
-"součinu přičte polovinu velikosti buňky a vrátí výsledek."
 
-#: course/lesson-22-functions-return-values/lesson.tres:197
+#: course/lesson-22-functions-return-values/lesson.tres:202
 msgid ""
 "The [code]return[/code] keyword returns the value to the code calling the "
 "function. You'll receive the result where you call the function."
@@ -178,10 +184,12 @@ msgstr ""
 "Klíčové slovo [code]return[/code] vrací hodnotu na místo v kódu, odkud se "
 "funkce volá."
 
-#: course/lesson-22-functions-return-values/lesson.tres:217
+#: course/lesson-22-functions-return-values/lesson.tres:222
+#, fuzzy
 msgid ""
-"Some functions return values, and some do not. You can learn which functions "
-"return a result using the documentation panel in the practice screen.\n"
+"Some functions return values, and some do not. During practices, you can "
+"learn which functions return a value using the documentation panel. It will "
+"display if the practice requires using specific functions or variables.\n"
 "\n"
 "There, functions that start with the term [code]void[/code] do not return a "
 "value. Any other term means the function does return a value. You'll learn "
@@ -200,11 +208,11 @@ msgstr ""
 "\n"
 "Prozatím si procvičme vracení hodnot z funkcí!"
 
-#: course/lesson-22-functions-return-values/lesson.tres:229
+#: course/lesson-22-functions-return-values/lesson.tres:234
 msgid "Converting coordinates from the grid to the screen"
 msgstr "Převod souřadnic z mřížky na souřadnice obrazovky"
 
-#: course/lesson-22-functions-return-values/lesson.tres:230
+#: course/lesson-22-functions-return-values/lesson.tres:235
 msgid ""
 "Define a function that converts a position on a grid to the screen.\n"
 "\n"
@@ -218,7 +226,7 @@ msgstr ""
 "vrátit odpovídající [code]Vector2[/code] souřadnice obrazovky ve středu "
 "buňky."
 
-#: course/lesson-22-functions-return-values/lesson.tres:244
+#: course/lesson-22-functions-return-values/lesson.tres:249
 msgid ""
 "We lost the function to convert grid coordinates, but we desperately need it "
 "for our game! Make the turtle move again by coding it."
@@ -227,6 +235,13 @@ msgstr ""
 "potřebujeme! Přinuťte želvu, aby se znovu pohybovala, a to tak, že funkci "
 "nakódujete."
 
-#: course/lesson-22-functions-return-values/lesson.tres:248
+#: course/lesson-22-functions-return-values/lesson.tres:253
 msgid "Functions that return a value"
 msgstr "Funkce, které vracejí hodnotu"
+
+#~ msgid ""
+#~ "To do so, we use a function. It multiplies the cell coordinate by the "
+#~ "cell size, adds half the cell size to the product, and returns the result."
+#~ msgstr ""
+#~ "K tomu použijeme funkci. Ta vynásobí souřadnici buňky velikostí buňky, k "
+#~ "součinu přičte polovinu velikosti buňky a vrátí výsledek."

@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-13 17:18+0000\n"
 "Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/error-explanations/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/error-explanations/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,8 +21,63 @@ msgstr ""
 "X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
+#. Reference: IN_EXPECTED_AFTER_IDENTIFIER
+#: script_checking/error_database.csv:40
+msgid ""
+"You get this error when the name between the [code]for[/code] and [code]in[/"
+"code] is not a valid variable name, or you are missing the [code]in[/code] "
+"keyword.\n"
+"\n"
+"In a [code]for[/code] loop, the [code]in[/code] keyword only accepts a valid "
+"temporary variable name to assign values in each loop iteration. The loop "
+"creates a new variable with the desired name and assigns each element of the "
+"array to it."
+msgstr ""
+
+#. Reference: IN_EXPECTED_AFTER_IDENTIFIER
+#: script_checking/error_database.csv:40
+msgid ""
+"To fix this error, you need to ensure that the name between the [code]for[/"
+"code] and [code]in[/code] keywords is a valid variable name with no "
+"punctuation or spaces.\n"
+"\n"
+"For example, this code is invalid: [code]for cell_position.x in "
+"cell_positions_array:[/code] because [code]cell_position.x[/code] isn't a "
+"valid variable name.\n"
+"\n"
+"To access the [code]x[/code] sub-component of the variable, you need to do "
+"that inside of the loop's body:\n"
+"\n"
+"[code]for cell_position in cell_positions_array:\n"
+"    cell_position.x += 1.0[/code]"
+msgstr ""
+
+#. Reference: ASSIGNING_TO_EXPRESSION
+#: script_checking/error_database.csv:47
+msgid ""
+"If you get this error, you are most likely trying to assign a value to "
+"something other than a variable, which is impossible. You can only assign "
+"values to variables.\n"
+"\n"
+"Another possibility is that you want to check for equality in a condition "
+"but wrote a single = instead of ==."
+msgstr ""
+
+#. Reference: ASSIGNING_TO_EXPRESSION
+#: script_checking/error_database.csv:47
+msgid ""
+"If you want to assign a value to a variable, double-check that what you have "
+"on the left side of the = sign is a variable and not a function.\n"
+"\n"
+"You also need to ensure the syntax is correct. For example, there shouldn't "
+"be parentheses on the left side of the equal sign.\n"
+"\n"
+"In the case of a condition, ensure that you are using two equal signs to "
+"check for equality (==)."
+msgstr ""
+
 #. Reference: CYCLIC_REFERENCE
-#: script_checking/error_database.csv:38
+#: script_checking/error_database.csv:57
 msgid ""
 "A cyclic reference is when a class references itself, directly or "
 "indirectly.\n"
@@ -50,7 +105,7 @@ msgstr ""
 "obejít."
 
 #. Reference: CYCLIC_REFERENCE
-#: script_checking/error_database.csv:38
+#: script_checking/error_database.csv:57
 msgid ""
 "Erase the type hint in the error line, and the problem should disappear. \n"
 "\n"
@@ -64,7 +119,7 @@ msgstr ""
 "způsobujících cyklické odkazy. Řeší problém v naprosté většině případů."
 
 #. Reference: INVALID_INDENTATION
-#: script_checking/error_database.csv:45
+#: script_checking/error_database.csv:64
 msgid ""
 "The indentation of your code (the number of tab characters at the start of "
 "the line) is incorrect.\n"
@@ -83,7 +138,7 @@ msgstr ""
 "poznal, které řádky kódu jsou součástí bloku kódu, například funkce."
 
 #. Reference: INVALID_INDENTATION
-#: script_checking/error_database.csv:45
+#: script_checking/error_database.csv:64
 msgid ""
 "If the line of code with the error is right after a line ending with a "
 "colon, like a function definition, you need one extra indent level compared "
@@ -100,7 +155,7 @@ msgstr ""
 "definice funkce."
 
 #. Reference: UNEXPECTED_CHARACTER
-#: script_checking/error_database.csv:54
+#: script_checking/error_database.csv:73
 msgid ""
 "You get this error when you wrote something that is syntactically invalid, "
 "or you are missing something to complete this line or previous lines of "
@@ -122,7 +177,7 @@ msgstr ""
 "způsobuje, a to kvůli tomu, jak počítač čte a analyzuje váš kód."
 
 #. Reference: UNEXPECTED_CHARACTER
-#: script_checking/error_database.csv:54
+#: script_checking/error_database.csv:73
 msgid ""
 "The way to solve this kind of error is highly contextual. The error message "
 "should tell you which character or element it's missing.\n"
@@ -147,7 +202,7 @@ msgstr ""
 "chybou."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
-#: script_checking/error_database.csv:57
+#: script_checking/error_database.csv:76
 msgid ""
 "This error tells you that you are missing a parenthesis (or sometimes a "
 "comma or a path).\n"
@@ -163,7 +218,7 @@ msgstr ""
 "code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
-#: script_checking/error_database.csv:57
+#: script_checking/error_database.csv:76
 msgid ""
 "To address the error, you want to add the missing opening parenthesis, the "
 "closing parenthesis, or the comma."
@@ -172,7 +227,7 @@ msgstr ""
 "nebo čárku."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
-#: script_checking/error_database.csv:58
+#: script_checking/error_database.csv:77
 msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
@@ -181,7 +236,7 @@ msgstr ""
 "nebo nějaká hodnota."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
-#: script_checking/error_database.csv:58
+#: script_checking/error_database.csv:77
 msgid ""
 "You need to read the error message and add the missing character or value it "
 "requests."
@@ -190,7 +245,7 @@ msgstr ""
 "kterou požaduje."
 
 #. Reference: MISPLACED_IDENTIFIER
-#: script_checking/error_database.csv:68
+#: script_checking/error_database.csv:86
 msgid ""
 "This error happens in several cases:\n"
 "\n"
@@ -209,7 +264,7 @@ msgstr ""
 "dvojtečkou."
 
 #. Reference: MISPLACED_IDENTIFIER
-#: script_checking/error_database.csv:68
+#: script_checking/error_database.csv:86
 msgid ""
 "If the error tells you it expected something, you likely forgot to write a "
 "name after a keyword like [code]var[/code], [code]func[/code], [code]for[/"
@@ -239,7 +294,7 @@ msgstr ""
 "[code]elif[/code] nebo [code]else[/code]."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
-#: script_checking/error_database.csv:73
+#: script_checking/error_database.csv:91
 msgid ""
 "This error tells you that you are missing a type somewhere. A type can be "
 "[code]int[/code], [code]float[/code], [code]String[/code], [code]Array[/"
@@ -263,7 +318,7 @@ msgstr ""
 "funkce, ale nenásleduje za ní název typu."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
-#: script_checking/error_database.csv:73
+#: script_checking/error_database.csv:91
 msgid ""
 "To solve this, you need to write the name of the type after the colon, arrow "
 "(in the case of function return types), inside parentheses (for export "
@@ -274,7 +329,7 @@ msgstr ""
 "klíčové slovo [code]as[/code]."
 
 #. Reference: NONEXISTENT_IDENTIFIER
-#: script_checking/error_database.csv:82
+#: script_checking/error_database.csv:100
 msgid ""
 "The variable, function name, or class name you are trying to use does not "
 "exist.\n"
@@ -294,7 +349,7 @@ msgstr ""
 "třídu, ke které se snažíte přistupovat."
 
 #. Reference: NONEXISTENT_IDENTIFIER
-#: script_checking/error_database.csv:82
+#: script_checking/error_database.csv:100
 msgid ""
 "To solve this error, triple-check that there is no typo in the line.\n"
 "\n"
@@ -315,7 +370,7 @@ msgstr ""
 "proměnnou, funkci nebo třídu, na kterou se odkazujete."
 
 #. Reference: MISPLACED_KEYWORD
-#: script_checking/error_database.csv:87
+#: script_checking/error_database.csv:105
 msgid ""
 "You can only use keywords like [code]break[/code] or [code]continue[/code] "
 "in a loop. Outside a loop, they are invalid.\n"
@@ -332,7 +387,7 @@ msgstr ""
 "skok na první řádek kódu za blokem smyčky."
 
 #. Reference: MISPLACED_KEYWORD
-#: script_checking/error_database.csv:87
+#: script_checking/error_database.csv:105
 msgid ""
 "If you wrote one of these keywords outside a loop, you need to remove it.\n"
 "\n"
@@ -348,7 +403,7 @@ msgstr ""
 "úvodních znaků tabulátoru."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
-#: script_checking/error_database.csv:92
+#: script_checking/error_database.csv:110
 msgid ""
 "When the computer talks about a constant expression, it expects a fixed "
 "value, a fixed calculation, or the name of an existing constant.\n"
@@ -364,7 +419,7 @@ msgstr ""
 "volání funkcí a proměnných tam, kde potřebuje konstantní výraz."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
-#: script_checking/error_database.csv:92
+#: script_checking/error_database.csv:110
 msgid ""
 "You need to replace function calls or variables with a constant value like a "
 "whole number, decimal number, string, vector, a predefined array, etc.\n"
@@ -379,7 +434,7 @@ msgstr ""
 "tak dále."
 
 #. Reference: INVALID_CLASS_DECLARATION
-#: script_checking/error_database.csv:97
+#: script_checking/error_database.csv:115
 msgid ""
 "When defining a new class, you need to follow a specific pattern. You must "
 "write the name in plain text, starting with a letter.\n"
@@ -394,7 +449,7 @@ msgstr ""
 "slova, které tvoří název třídy."
 
 #. Reference: INVALID_CLASS_DECLARATION
-#: script_checking/error_database.csv:97
+#: script_checking/error_database.csv:115
 msgid ""
 "To fix this error, replace whatever you put after the 'extends' or "
 "'class_name' keyword by a name without spaces and starting with a capital "
@@ -409,7 +464,7 @@ msgstr ""
 "Volitelně můžete v názvu použít čísla, ale ne na první pozici."
 
 #. Reference: DUPLICATE_DECLARATION
-#: script_checking/error_database.csv:102
+#: script_checking/error_database.csv:120
 msgid ""
 "You are trying to define a function or variable that already exists; You "
 "can't do that.\n"
@@ -424,7 +479,7 @@ msgstr ""
 "být také v nadřazené třídě, kterou tento kód GDScript rozšiřuje."
 
 #. Reference: DUPLICATE_DECLARATION
-#: script_checking/error_database.csv:102
+#: script_checking/error_database.csv:120
 msgid ""
 "In the app, your code extends some built-in Godot code that's not visible to "
 "you.\n"
@@ -439,7 +494,7 @@ msgstr ""
 "kódu odstranit."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
-#: script_checking/error_database.csv:107
+#: script_checking/error_database.csv:125
 msgid ""
 "You are trying to define a signal that already exists; You can't do that.\n"
 "\n"
@@ -452,7 +507,7 @@ msgstr ""
 "nadřazené třídě, kterou tento kód GDScript rozšiřuje."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
-#: script_checking/error_database.csv:107
+#: script_checking/error_database.csv:125
 msgid ""
 "In the app, your code extends some built-in Godot code that's not visible to "
 "you.\n"
@@ -466,7 +521,7 @@ msgstr ""
 "kolidovat s existujícím, nebo tento řádek kódu odstranit."
 
 #. Reference: SIGNATURE_MISMATCH
-#: script_checking/error_database.csv:112
+#: script_checking/error_database.csv:130
 msgid ""
 "The function you're trying to define exists in a parent class, so your "
 "definition overrides the parent class's function.\n"
@@ -491,7 +546,7 @@ msgstr ""
 "musí typy argumentů odpovídat rodičovské třídě."
 
 #. Reference: SIGNATURE_MISMATCH
-#: script_checking/error_database.csv:112
+#: script_checking/error_database.csv:130
 msgid ""
 "You need to check the parent class's function and its definition in the code "
 "reference. Then, you need to edit your function definition to have the same "
@@ -502,7 +557,7 @@ msgstr ""
 "typ parametrů jako nadřazená třída."
 
 #. Reference: INVALID_ARGUMENTS
-#: script_checking/error_database.csv:113
+#: script_checking/error_database.csv:131
 msgid ""
 "This whole class of errors has to do with calling functions with either the "
 "wrong number of arguments or the wrong kind of argument. You will need to "
@@ -513,7 +568,7 @@ msgstr ""
 "musíte porozumět chybovému hlášení."
 
 #. Reference: INVALID_ARGUMENTS
-#: script_checking/error_database.csv:113
+#: script_checking/error_database.csv:131
 msgid ""
 "You need to either remove, add, or change the values you're trying to pass "
 "to the function to solve this issue. To know exactly how many arguments you "
@@ -526,7 +581,7 @@ msgstr ""
 "definici funkce a povinné argumenty."
 
 #. Reference: TYPE_MISMATCH
-#: script_checking/error_database.csv:124
+#: script_checking/error_database.csv:142
 msgid ""
 "All the values in your code have a specific type. That type can be a whole "
 "number (int), a decimal number (float), text (String), and so on. There are "
@@ -554,7 +609,7 @@ msgstr ""
 "neshoduje, protože existuje mnoho možných případů."
 
 #. Reference: TYPE_MISMATCH
-#: script_checking/error_database.csv:124
+#: script_checking/error_database.csv:142
 msgid ""
 "If the error mentions the assigned value type not matching the variable, the "
 "problem is on the right side of the equal sign (=).\n"
@@ -578,7 +633,7 @@ msgstr ""
 "sečíst dva 2D vektory, nemůžete k 2D vektoru přičíst celé číslo nebo text."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
-#: script_checking/error_database.csv:129
+#: script_checking/error_database.csv:147
 msgid ""
 "GDScript supports type inference. The computer will automatically recognize "
 "the type of value you are working with. In some cases, though, it can't "
@@ -595,7 +650,7 @@ msgstr ""
 "proměnnou zcela odstranit."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
-#: script_checking/error_database.csv:129
+#: script_checking/error_database.csv:147
 msgid ""
 "The simplest way to solve this error is to remove types for this variable or "
 "this function's arguments. Otherwise, you can manually specify the value "
@@ -612,7 +667,7 @@ msgstr ""
 "typování - např. nabízení relevantních metod pro daný typ při psaní kódu."
 
 #. Reference: RETURN_VALUE_MISMATCH
-#: script_checking/error_database.csv:135
+#: script_checking/error_database.csv:153
 msgid ""
 "There is an issue with the return value of your function. There are two main "
 "cases here:\n"
@@ -631,7 +686,7 @@ msgstr ""
 "větvích (bloky if, elif a else) nebo na konci."
 
 #. Reference: RETURN_VALUE_MISMATCH
-#: script_checking/error_database.csv:135
+#: script_checking/error_database.csv:153
 msgid ""
 "When your function is 'void', you should never return a value. You can use "
 "the 'return' keyword to end the function early, but you should never write "
@@ -648,7 +703,7 @@ msgstr ""
 "vrátit na konci funkce nebo v každé větvi (bloku if, elif a else) funkce."
 
 #. Reference: INVALID_NO_CATCH
-#: script_checking/error_database.csv:137
+#: script_checking/error_database.csv:154
 msgid ""
 "Godot was unable to load your script, yet the language checker found nothing "
 "wrong."
@@ -657,26 +712,59 @@ msgstr ""
 "špatného."
 
 #. Reference: INVALID_NO_CATCH
-#: script_checking/error_database.csv:137
+#: script_checking/error_database.csv:154
 msgid ""
 "Please click on the \"report\" button at the top and please let us know."
-msgstr "Klikněte prosím na tlačítko „nahlásit“ v horní části a dejte nám vědět."
+msgstr ""
+"Klikněte prosím na tlačítko „nahlásit“ v horní části a dejte nám vědět."
 
 #. Reference: RECURSIVE_FUNCTION
-#: script_checking/error_database.csv:138
+#: script_checking/error_database.csv:155
 msgid "You called a function inside itself. This will loop forever."
 msgstr ""
 "Zavolali jste funkci uvnitř sebe sama(rekurzivně). Rekurze se bude opakovat "
 "věčně (infinite loop)."
 
 #. Reference: RECURSIVE_FUNCTION
-#: script_checking/error_database.csv:138
+#: script_checking/error_database.csv:155
 msgid ""
 "There are valid reasons for using recursive functions, but none of them are "
 "part of this course, so this cannot be a valid solution."
 msgstr ""
 "Existují oprávněné důvody pro použití rekurzivních funkcí, ale žádný z nich "
 "není součástí tohoto kurzu, takže toto nemůže být fungující řešení."
+
+#. Reference: UNEXPECTED_EOL
+#: script_checking/error_database.csv:157
+msgid ""
+"The computer reached the end of the line of code, but the line had a syntax "
+"error.\n"
+"The most common case is when you forget to close a string: you have opening "
+"quotes, but you forget to add a matching closing quote."
+msgstr ""
+
+#. Reference: UNEXPECTED_EOL
+#: script_checking/error_database.csv:157
+msgid ""
+"Double-check that you are not missing a quote character or that the quote "
+"character you used to start the string is the same as the one you used to "
+"close the string."
+msgstr ""
+
+#. Reference: CANT_GET_INDEX
+#: script_checking/error_database.csv:160
+msgid "The sub-variable you are trying to access does not exist."
+msgstr ""
+
+#. Reference: CANT_GET_INDEX
+#: script_checking/error_database.csv:160
+msgid ""
+"You probably have a typo in the name of the sub-variable that you are trying "
+"to access.\n"
+"\n"
+"Ensure that you don't have a capital letter where you should have a "
+"lowercase letter and vice versa."
+msgstr ""
 
 #~ msgid ""
 #~ "The server or your computer may currently be disconnected. Also, an app "

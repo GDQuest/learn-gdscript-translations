@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-30 14:20+0000\n"
 "Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-16-2d-vectors/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-16-2d-vectors/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,8 +73,8 @@ msgstr ""
 "In Godot, i vettori 2D sono una tipologia di valore molto comune e vengono "
 "chiamati [code]Vector2[/code],\n"
 "\n"
-"Al contrario dei numeri interi, questi conservano [i]due[/i] valori decimali:"
-" uno per la coordinata X e l'altro per la coordinata Y."
+"Al contrario dei numeri interi, questi conservano [i]due[/i] valori "
+"decimali: uno per la coordinata X e l'altro per la coordinata Y."
 
 #: course/lesson-16-2d-vectors/lesson.tres:72
 msgid ""
@@ -198,11 +198,12 @@ msgid "How would you move the robot 50 pixels to the left?"
 msgstr "Come muoveresti il robot di 50 pixel a sinistra?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:169
+#, fuzzy
 msgid ""
 "[code]position -= Vector2(50, 0)[/code] subtracts [code]50[/code] to the sub-"
 "variable [code]x[/code], and [code]0[/code] to [code]y[/code].\n"
 "\n"
-"[code]position.x -= Vector(50, 0)[/code] tries to subtract a 2D vector to "
+"[code]position.x -= Vector2(50, 0)[/code] tries to subtract a 2D vector to "
 "the sub-variable [code]x[/code], which is a decimal number. The value types "
 "are incompatible. If you try to do this, you will get an error."
 msgstr ""
@@ -219,7 +220,8 @@ msgid "position -= Vector2(50, 0)"
 msgstr "position -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
-msgid "position.x -= Vector(50, 0)"
+#, fuzzy
+msgid "position.x -= Vector2(50, 0)"
 msgstr "position.x -= Vector(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:182
@@ -241,8 +243,8 @@ msgid ""
 "it levels up."
 msgstr ""
 "Aggiungi una riga di codice alla funzione [code]level_up()[/code] per "
-"incrementare la [code]scale[/code] del robot di [code]Vector2(0.2, 0."
-"2)[/code] ogni volta che sale di livello."
+"incrementare la [code]scale[/code] del robot di [code]Vector2(0.2, 0.2)[/"
+"code] ogni volta che sale di livello."
 
 #: course/lesson-16-2d-vectors/lesson.tres:202
 msgid ""

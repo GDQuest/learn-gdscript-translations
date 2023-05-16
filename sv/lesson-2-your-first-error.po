@@ -8,32 +8,32 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-11-29 17:48+0000\n"
 "Last-Translator: Matias Särs <m7s@tutanota.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-2-your-first-error/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-2-your-first-error/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-2-your-first-error/lesson.tres:14
+#, fuzzy
 msgid ""
 "When you program, you are bound to run into errors. Tons of them.\n"
 "\n"
-"But you shouldn't worry! On the computer, [b]errors are a good thing[/b]."
+"But you shouldn't worry! On the computer, [b]errors are a good thing[/b].\n"
 "\n"
+"You will encounter errors, and [i]that's okay[/i]: every programmer does. "
+"Especially professionals.\n"
 "\n"
-"You will encounter errors, and [i]that's okay[/i]: every programmer does."
-" Especially professionals.\n"
-"\n"
-"At school, maybe you learned that mistakes are a bad thing. When you code"
-" something, it's not the case: [b]errors help you write correct "
-"programs[/b]."
+"At school, maybe you learned that mistakes are a bad thing. When you code "
+"something, it's not the case: [b]errors help you write correct programs[/b] "
+"because they show you what is wrong in your programs."
 msgstr ""
 "När du programmerar kommer du få felmeddelanden. Mängder av dem.\n"
 "\n"
@@ -47,8 +47,8 @@ msgstr ""
 
 #: course/lesson-2-your-first-error/lesson.tres:30
 msgid ""
-"A code error looks like this. It's a message that tells you some bit of "
-"your code doesn't work."
+"A code error looks like this. It's a message that tells you some bit of your "
+"code doesn't work."
 msgstr ""
 "Ett felmeddelande kan se ut såhär. Det är ett meddelande som berättar att "
 "någon del av din kod inte fungerar."
@@ -59,13 +59,13 @@ msgstr "Trevligare felmeddelanden"
 
 #: course/lesson-2-your-first-error/lesson.tres:50
 msgid ""
-"Error messages can look a bit cryptic. This is because they're designed "
-"by programmers, for trained programmers.\n"
+"Error messages can look a bit cryptic. This is because they're designed by "
+"programmers, for trained programmers.\n"
 "\n"
 "We added an error translator in this app that will help you get started.\n"
 "\n"
-"It shows you why an error happens and what the message means. It also "
-"gives you some tips on how to fix it."
+"It shows you why an error happens and what the message means. It also gives "
+"you some tips on how to fix it."
 msgstr ""
 "Felmeddelanden kan verka ganska kryptiska. Det här beror på att de är gjorda "
 "av programmerare, för utbildade programmerare.\n"
@@ -76,13 +76,19 @@ msgstr ""
 "dig också tips på hur du kan fixa felet."
 
 #: course/lesson-2-your-first-error/lesson.tres:74
+#, fuzzy
 msgid ""
-"Errors are messages designed on purpose by fellow programmers who came "
-"before you. They anticipated you might have specific issues.\n"
+"Error messages are designed on purpose by fellow programmers who came before "
+"you. They anticipated you might have specific issues and wanted to help you "
+"fix them.\n"
 "\n"
-"You shouldn't think of errors as failures. They are like mentors helping "
-"you from the past. Importantly, errors won't break your computer. At "
-"least not with GDScript because it's a pretty safe language."
+"You shouldn't think of errors as failures. They are like mentors helping you "
+"from the past. Importantly, errors won't break your computer. At least not "
+"with GDScript because it's a pretty safe language.\n"
+"\n"
+"Ultimately, you want to fix all the errors in your program. Understanding "
+"what is causing the errors, with the help of error messages, is key to "
+"fixing them."
 msgstr ""
 "Felmeddelanden är utvecklade av andra programmerare som gjort det här före "
 "dig. De förutsåg att du kommer ha specifika problem.\n"
@@ -92,16 +98,18 @@ msgstr ""
 "söndrar din dator. Åtminstone inte med GDScript för det är ett ganska säkert "
 "programmeringsspråk."
 
-#: course/lesson-2-your-first-error/lesson.tres:84
-msgid "Are errors a good or a bad thing in code?"
+#: course/lesson-2-your-first-error/lesson.tres:86
+#, fuzzy
+msgid "Are error messages a good or a bad thing in code?"
 msgstr "Är felmeddelanden bra eller dåliga?"
 
-#: course/lesson-2-your-first-error/lesson.tres:87
+#: course/lesson-2-your-first-error/lesson.tres:89
+#, fuzzy
 msgid ""
-"Yes, errors are here to help you!\n"
+"Yes, error messages are here to help you!\n"
 "\n"
-"Pay attention to them, and do your best to read and understand them. With"
-" experience, you'll learn to make your code work more reliably thanks to "
+"Pay attention to them, and do your best to read and understand them. With "
+"experience, you'll learn to make your code work more reliably thanks to "
 "error messages."
 msgstr ""
 "Ja, felmeddelanden är här för att hjälpa dig!\n"
@@ -110,44 +118,43 @@ msgstr ""
 "När du blir mer erfaren, lär du dig att koden blir pålitligare tack vare "
 "felmeddelanden."
 
-#: course/lesson-2-your-first-error/lesson.tres:90
-msgid "They're bad: errors are always bad."
+#: course/lesson-2-your-first-error/lesson.tres:92
+#, fuzzy
+msgid "They're bad: error messages are always bad."
 msgstr "De är dåliga: fel är alltid dåliga."
 
-#: course/lesson-2-your-first-error/lesson.tres:90
-#: course/lesson-2-your-first-error/lesson.tres:91
+#: course/lesson-2-your-first-error/lesson.tres:92
+#: course/lesson-2-your-first-error/lesson.tres:93
 msgid "They're good: they're here to help."
 msgstr "De är bra: de finns för att hjälpa."
 
-#: course/lesson-2-your-first-error/lesson.tres:100
+#: course/lesson-2-your-first-error/lesson.tres:102
 msgid ""
-"Okay, let's see an error in action. Once again, click the [i]Practice[/i]"
-" button below to face your first real error."
+"Okay, let's see an error in action. Once again, click the [i]Practice[/i] "
+"button below to face your first real error."
 msgstr ""
-"OK, dags att se på ett riktigt felmeddelande live. Klicka på [i]Öva[/i]"
-"knappen nedanför för att se ditt första riktiga fel."
+"OK, dags att se på ett riktigt felmeddelande live. Klicka på [i]Öva[/"
+"i]knappen nedanför för att se ditt första riktiga fel."
 
-#: course/lesson-2-your-first-error/lesson.tres:108
+#: course/lesson-2-your-first-error/lesson.tres:110
 msgid "Fix Your First Error"
 msgstr "Fixa ditt första fel"
 
-#: course/lesson-2-your-first-error/lesson.tres:109
+#: course/lesson-2-your-first-error/lesson.tres:111
 msgid ""
 "This code is incorrect and will cause an error when you try to run it.\n"
 "\n"
-"The code defines an empty function named [code]this_code_is_wrong[/code]."
+"The code defines an empty function named [code]this_code_is_wrong[/code].\n"
 "\n"
-"\n"
-"To work, the function should use the [code]return[/code] keyword. But "
-"this keyword is currently inside a comment, which the computer ignores.\n"
+"To work, the function should use the [code]return[/code] keyword. But this "
+"keyword is currently inside a comment, which the computer ignores.\n"
 "\n"
 "Test the current code by pressing the [i]Run[/i] button.\n"
 "\n"
 "Then, remove the comment sign (#) to make the code valid.\n"
 "\n"
-"Be careful not to remove the spacing before [code]return[/code]! "
-"Otherwise, that'll cause another error. You may try that too, if you feel"
-" like it."
+"Be careful not to remove the spacing before [code]return[/code]! Otherwise, "
+"that'll cause another error. You may try that too, if you feel like it."
 msgstr ""
 "Den här koden är felaktig och kommer ge ett felmeddelande när du kör den.\n"
 "\n"
@@ -164,10 +171,10 @@ msgstr ""
 "kommer det att orsaka ett annat felmeddelande. Du kan testa det också, om du "
 "vill."
 
-#: course/lesson-2-your-first-error/lesson.tres:129
+#: course/lesson-2-your-first-error/lesson.tres:131
 msgid "There's an error in this code. We need you to fix it!"
 msgstr "Det finns ett fel i den här koden. Du måste fixa det!"
 
-#: course/lesson-2-your-first-error/lesson.tres:133
+#: course/lesson-2-your-first-error/lesson.tres:135
 msgid "Your First Error"
 msgstr "Ditt första felmeddelande"

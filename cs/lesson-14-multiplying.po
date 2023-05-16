@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-16 09:17+0000\n"
 "Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-14-multiplying/cs/>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-14-multiplying/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,8 +48,8 @@ msgstr ""
 "Definujeme proměnnou [code]úroveň[/code] pro sledování úrovně robota. Začíná "
 "na úrovni jedna.\n"
 "\n"
-"Když robot porazil dostatek nepřátel, zavoláme funkci [code]level_up()[/code]"
-" ke zvýšení úrovně robota."
+"Když robot porazil dostatek nepřátel, zavoláme funkci [code]level_up()[/"
+"code] ke zvýšení úrovně robota."
 
 #: course/lesson-14-multiplying/lesson.tres:50
 msgid ""
@@ -60,13 +60,14 @@ msgstr ""
 "které se mohou zvýšit, když se zvýší jeho úroveň."
 
 #: course/lesson-14-multiplying/lesson.tres:70
+#, fuzzy
 msgid ""
 "In this lesson, we'll just focus on increasing the robot's [code]max_health[/"
 "code].\n"
 "\n"
 "The variable [code]max_health[/code] is the maximum amount the robot's "
-"[code]health[/code] can be. We change our [code]take_damage()[/code] "
-"function to use this variable."
+"[code]health[/code] can be. We change our [code]heal()[/code] function to "
+"use this variable."
 msgstr ""
 "V této lekci se zaměříme pouze na zvýšení [code]max_health[/code] robota.\n"
 "\n"
@@ -157,8 +158,8 @@ msgid ""
 "We multiply [code]power[/code] by [code]level[/code] using [code]*[/code] to "
 "get the result of [code]15[/code]."
 msgstr ""
-"Vynásobíme [code]power[/code] úrovní [code]level[/code] pomocí [code]*[/code]"
-", abychom získali výsledek [code]15[/code]."
+"Vynásobíme [code]power[/code] úrovní [code]level[/code] pomocí [code]*[/"
+"code], abychom získali výsledek [code]15[/code]."
 
 #: course/lesson-14-multiplying/lesson.tres:182
 #: course/lesson-14-multiplying/lesson.tres:183
@@ -302,7 +303,7 @@ msgstr ""
 "Robot je na úrovni 3. Nepřítel zaútočí za 10 poškození. Toto poškození by se "
 "mělo snížit na 5."
 
-#: course/lesson-14-multiplying/lesson.tres:302
+#: course/lesson-14-multiplying/lesson.tres:299
 msgid ""
 "At higher levels, we want our robot to be super tough and take even less "
 "damage!"
@@ -310,6 +311,6 @@ msgstr ""
 "Na vyšších úrovních chceme, aby byl náš robot super odolný a utrpěl ještě "
 "menší poškození!"
 
-#: course/lesson-14-multiplying/lesson.tres:306
+#: course/lesson-14-multiplying/lesson.tres:303
 msgid "Multiplying"
 msgstr "Násobení"

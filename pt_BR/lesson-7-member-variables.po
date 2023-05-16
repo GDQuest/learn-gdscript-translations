@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-16 15:17+0000\n"
 "Last-Translator: Joel Gomes da Silva <joelgomes1994@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -161,6 +161,7 @@ msgid "Accessing sub-variables with the dot"
 msgstr "Acessando sub-variáveis com o sinal de ponto final"
 
 #: course/lesson-7-member-variables/lesson.tres:130
+#, fuzzy
 msgid ""
 "In video games, you will see many member variables that have sub-values.\n"
 "\n"
@@ -174,8 +175,8 @@ msgid ""
 "To access those X and Y sub-components, you add a dot (\".\") after the "
 "variable name.\n"
 "\n"
-"The code below places the entity at [code]180[/code] pixels on the x-axis "
-"and [code]120[/code] pixels on the y-axis."
+"The code below places the entity at [code]200[/code] pixels on the x-axis "
+"and [code]250[/code] pixels on the y-axis."
 msgstr ""
 "Nos jogos, você vai ver muitas variáveis membro que possuem sub-valores.\n"
 "\n"
@@ -237,6 +238,11 @@ msgstr ""
 "\n"
 "A convenção em videogames é o [i]oposto[/i] e em muitos aplicativos de "
 "computador também: o eixo y é positivo descendo."
+
+#: course/lesson-7-member-variables/lesson.tres:194
+#, fuzzy
+msgid "Why does the Y-axis point downwards?"
+msgstr "Nos jogos, o eixo Y é positivo quando ele vai para baixo"
 
 #: course/lesson-7-member-variables/lesson.tres:196
 msgid ""
@@ -382,6 +388,7 @@ msgid "Draw squares at different positions"
 msgstr "Desenhe quadrados em diferentes posições"
 
 #: course/lesson-7-member-variables/lesson.tres:281
+#, fuzzy
 msgid ""
 "Draw three squares of size 100 by 100 that are 100 pixels apart on the "
 "horizontal axis. In other words, there should be a 100-pixel gap between two "
@@ -395,7 +402,9 @@ msgid ""
 "of a variable, like the turtle's position.\n"
 "\n"
 "Write your code inside the [code]run()[/code] function so the computer can "
-"recognize it."
+"recognize it.\n"
+"\n"
+"Use the provided [code]draw_rectangle()[/code] function to draw each square."
 msgstr ""
 "Desenhe três quadrados de tamanho 100 por 100, separados por 100 pixels no "
 "eixo horizontal. Em outras palavras, deve haver uma lacuna de 100 pixels "
@@ -411,7 +420,7 @@ msgstr ""
 "Escreva seu código dentro da função [code]run()[/code] para que o computador "
 "possa reconhecer o código."
 
-#: course/lesson-7-member-variables/lesson.tres:297
+#: course/lesson-7-member-variables/lesson.tres:299
 msgid ""
 "Now you can place and draw one shape, but how about drawing several? In this "
 "practice, you'll place three squares side by side to really get the hang of "
@@ -421,6 +430,6 @@ msgstr ""
 "Neste exercício, você colocará três quadrados lado a lado para realmente "
 "pegar o jeito das propriedades."
 
-#: course/lesson-7-member-variables/lesson.tres:301
+#: course/lesson-7-member-variables/lesson.tres:303
 msgid "Introduction to Member Variables"
 msgstr "Introdução às variáveis membro"

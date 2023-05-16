@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-06-19 11:47+0000\n"
 "Last-Translator: adadaadadade <272169607@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -21,8 +21,63 @@ msgstr ""
 "X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
+#. Reference: IN_EXPECTED_AFTER_IDENTIFIER
+#: script_checking/error_database.csv:40
+msgid ""
+"You get this error when the name between the [code]for[/code] and [code]in[/"
+"code] is not a valid variable name, or you are missing the [code]in[/code] "
+"keyword.\n"
+"\n"
+"In a [code]for[/code] loop, the [code]in[/code] keyword only accepts a valid "
+"temporary variable name to assign values in each loop iteration. The loop "
+"creates a new variable with the desired name and assigns each element of the "
+"array to it."
+msgstr ""
+
+#. Reference: IN_EXPECTED_AFTER_IDENTIFIER
+#: script_checking/error_database.csv:40
+msgid ""
+"To fix this error, you need to ensure that the name between the [code]for[/"
+"code] and [code]in[/code] keywords is a valid variable name with no "
+"punctuation or spaces.\n"
+"\n"
+"For example, this code is invalid: [code]for cell_position.x in "
+"cell_positions_array:[/code] because [code]cell_position.x[/code] isn't a "
+"valid variable name.\n"
+"\n"
+"To access the [code]x[/code] sub-component of the variable, you need to do "
+"that inside of the loop's body:\n"
+"\n"
+"[code]for cell_position in cell_positions_array:\n"
+"    cell_position.x += 1.0[/code]"
+msgstr ""
+
+#. Reference: ASSIGNING_TO_EXPRESSION
+#: script_checking/error_database.csv:47
+msgid ""
+"If you get this error, you are most likely trying to assign a value to "
+"something other than a variable, which is impossible. You can only assign "
+"values to variables.\n"
+"\n"
+"Another possibility is that you want to check for equality in a condition "
+"but wrote a single = instead of ==."
+msgstr ""
+
+#. Reference: ASSIGNING_TO_EXPRESSION
+#: script_checking/error_database.csv:47
+msgid ""
+"If you want to assign a value to a variable, double-check that what you have "
+"on the left side of the = sign is a variable and not a function.\n"
+"\n"
+"You also need to ensure the syntax is correct. For example, there shouldn't "
+"be parentheses on the left side of the equal sign.\n"
+"\n"
+"In the case of a condition, ensure that you are using two equal signs to "
+"check for equality (==)."
+msgstr ""
+
 #. Reference: CYCLIC_REFERENCE
-#: script_checking/error_database.csv:38
+#: script_checking/error_database.csv:57
 msgid ""
 "A cyclic reference is when a class references itself, directly or "
 "indirectly.\n"
@@ -48,7 +103,7 @@ msgstr ""
 "做的。Godot 4 应该会解决这个问题，但你目前需要寻找替代方案。"
 
 #. Reference: CYCLIC_REFERENCE
-#: script_checking/error_database.csv:38
+#: script_checking/error_database.csv:57
 msgid ""
 "Erase the type hint in the error line, and the problem should disappear. \n"
 "\n"
@@ -62,7 +117,7 @@ msgstr ""
 "大多数情况下都能解决问题。"
 
 #. Reference: INVALID_INDENTATION
-#: script_checking/error_database.csv:45
+#: script_checking/error_database.csv:64
 msgid ""
 "The indentation of your code (the number of tab characters at the start of "
 "the line) is incorrect.\n"
@@ -80,7 +135,7 @@ msgstr ""
 "数。"
 
 #. Reference: INVALID_INDENTATION
-#: script_checking/error_database.csv:45
+#: script_checking/error_database.csv:64
 msgid ""
 "If the line of code with the error is right after a line ending with a "
 "colon, like a function definition, you need one extra indent level compared "
@@ -95,7 +150,7 @@ msgstr ""
 "换句话说，您的行应该比函数定义多一个前导制表符。"
 
 #. Reference: UNEXPECTED_CHARACTER
-#: script_checking/error_database.csv:54
+#: script_checking/error_database.csv:73
 msgid ""
 "You get this error when you wrote something that is syntactically invalid, "
 "or you are missing something to complete this line or previous lines of "
@@ -117,7 +172,7 @@ msgstr ""
 "后 [b][/b]。"
 
 #. Reference: UNEXPECTED_CHARACTER
-#: script_checking/error_database.csv:54
+#: script_checking/error_database.csv:73
 msgid ""
 "The way to solve this kind of error is highly contextual. The error message "
 "should tell you which character or element it's missing.\n"
@@ -140,7 +195,7 @@ msgstr ""
 "它很可能来自错误所在的行。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
-#: script_checking/error_database.csv:57
+#: script_checking/error_database.csv:76
 msgid ""
 "This error tells you that you are missing a parenthesis (or sometimes a "
 "comma or a path).\n"
@@ -154,28 +209,28 @@ msgstr ""
 "[code]preload()[/code] 和 [code]assert()[/code]。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
-#: script_checking/error_database.csv:57
+#: script_checking/error_database.csv:76
 msgid ""
 "To address the error, you want to add the missing opening parenthesis, the "
 "closing parenthesis, or the comma."
 msgstr "要解决该错误，您需要添加缺少的左括号、右括号或逗号。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
-#: script_checking/error_database.csv:58
+#: script_checking/error_database.csv:77
 msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
 msgstr "此错误告诉您在导出提示中缺少某些括号、逗号或某些值。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
-#: script_checking/error_database.csv:58
+#: script_checking/error_database.csv:77
 msgid ""
 "You need to read the error message and add the missing character or value it "
 "requests."
 msgstr "您需要阅读错误消息并添加它请求的缺失字符或值。"
 
 #. Reference: MISPLACED_IDENTIFIER
-#: script_checking/error_database.csv:68
+#: script_checking/error_database.csv:86
 msgid ""
 "This error happens in several cases:\n"
 "\n"
@@ -193,7 +248,7 @@ msgstr ""
 "3. 你写了一个函数定义，但忘记了冒号前的括号。"
 
 #. Reference: MISPLACED_IDENTIFIER
-#: script_checking/error_database.csv:68
+#: script_checking/error_database.csv:86
 msgid ""
 "If the error tells you it expected something, you likely forgot to write a "
 "name after a keyword like [code]var[/code], [code]func[/code], [code]for[/"
@@ -220,7 +275,7 @@ msgstr ""
 "[code]elif[/code] 开头的行的末尾写一个冒号 , 或 [code]else[/code]。"
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
-#: script_checking/error_database.csv:73
+#: script_checking/error_database.csv:91
 msgid ""
 "This error tells you that you are missing a type somewhere. A type can be "
 "[code]int[/code], [code]float[/code], [code]String[/code], [code]Array[/"
@@ -244,7 +299,7 @@ msgstr ""
 "会发生这种情况。"
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
-#: script_checking/error_database.csv:73
+#: script_checking/error_database.csv:91
 msgid ""
 "To solve this, you need to write the name of the type after the colon, arrow "
 "(in the case of function return types), inside parentheses (for export "
@@ -254,7 +309,7 @@ msgstr ""
 "于导出类型）或 [code]as[/code] 关键字之后编写类型的名称。"
 
 #. Reference: NONEXISTENT_IDENTIFIER
-#: script_checking/error_database.csv:82
+#: script_checking/error_database.csv:100
 msgid ""
 "The variable, function name, or class name you are trying to use does not "
 "exist.\n"
@@ -273,7 +328,7 @@ msgstr ""
 "此错误的另一个原因是您没有定义您尝试访问的变量、函数或类。"
 
 #. Reference: NONEXISTENT_IDENTIFIER
-#: script_checking/error_database.csv:82
+#: script_checking/error_database.csv:100
 msgid ""
 "To solve this error, triple-check that there is no typo in the line.\n"
 "\n"
@@ -291,7 +346,7 @@ msgstr ""
 "如果您没有看到任何拼写错误，那么您需要确保您定义了您所指的变量、函数或类。"
 
 #. Reference: MISPLACED_KEYWORD
-#: script_checking/error_database.csv:87
+#: script_checking/error_database.csv:105
 msgid ""
 "You can only use keywords like [code]break[/code] or [code]continue[/code] "
 "in a loop. Outside a loop, they are invalid.\n"
@@ -307,7 +362,7 @@ msgstr ""
 "code] 关键字的意思是“立即结束循环并跳转到循环块之后的第一行代码。"
 
 #. Reference: MISPLACED_KEYWORD
-#: script_checking/error_database.csv:87
+#: script_checking/error_database.csv:105
 msgid ""
 "If you wrote one of these keywords outside a loop, you need to remove it.\n"
 "\n"
@@ -321,7 +376,7 @@ msgstr ""
 "入一个或多个前导制表符。"
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
-#: script_checking/error_database.csv:92
+#: script_checking/error_database.csv:110
 msgid ""
 "When the computer talks about a constant expression, it expects a fixed "
 "value, a fixed calculation, or the name of an existing constant.\n"
@@ -337,7 +392,7 @@ msgstr ""
 "式的函数调用和变量。"
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
-#: script_checking/error_database.csv:92
+#: script_checking/error_database.csv:110
 msgid ""
 "You need to replace function calls or variables with a constant value like a "
 "whole number, decimal number, string, vector, a predefined array, etc.\n"
@@ -351,7 +406,7 @@ msgstr ""
 "您还可以使用算术运算符，例如乘法 (*)、加法 (+) 等。"
 
 #. Reference: INVALID_CLASS_DECLARATION
-#: script_checking/error_database.csv:97
+#: script_checking/error_database.csv:115
 msgid ""
 "When defining a new class, you need to follow a specific pattern. You must "
 "write the name in plain text, starting with a letter.\n"
@@ -364,7 +419,7 @@ msgstr ""
 "我们通常用 PascalCase 写类名：在组成类名的每个单词的开头都有一个大写字母。"
 
 #. Reference: INVALID_CLASS_DECLARATION
-#: script_checking/error_database.csv:97
+#: script_checking/error_database.csv:115
 msgid ""
 "To fix this error, replace whatever you put after the 'extends' or "
 "'class_name' keyword by a name without spaces and starting with a capital "
@@ -378,7 +433,7 @@ msgstr ""
 "您可以选择在名称中使用数字，但不能在第一个位置使用。"
 
 #. Reference: DUPLICATE_DECLARATION
-#: script_checking/error_database.csv:102
+#: script_checking/error_database.csv:120
 msgid ""
 "You are trying to define a function or variable that already exists; You "
 "can't do that.\n"
@@ -392,7 +447,7 @@ msgstr ""
 "父类中。"
 
 #. Reference: DUPLICATE_DECLARATION
-#: script_checking/error_database.csv:102
+#: script_checking/error_database.csv:120
 msgid ""
 "In the app, your code extends some built-in Godot code that's not visible to "
 "you.\n"
@@ -406,7 +461,7 @@ msgstr ""
 "或变量，或者删除这行代码。"
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
-#: script_checking/error_database.csv:107
+#: script_checking/error_database.csv:125
 msgid ""
 "You are trying to define a signal that already exists; You can't do that.\n"
 "\n"
@@ -419,7 +474,7 @@ msgstr ""
 "中。"
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
-#: script_checking/error_database.csv:107
+#: script_checking/error_database.csv:125
 msgid ""
 "In the app, your code extends some built-in Godot code that's not visible to "
 "you.\n"
@@ -433,7 +488,7 @@ msgstr ""
 "码。"
 
 #. Reference: SIGNATURE_MISMATCH
-#: script_checking/error_database.csv:112
+#: script_checking/error_database.csv:130
 msgid ""
 "The function you're trying to define exists in a parent class, so your "
 "definition overrides the parent class's function.\n"
@@ -455,7 +510,7 @@ msgstr ""
 "使用类型提示，则参数类型必须与父类匹配。"
 
 #. Reference: SIGNATURE_MISMATCH
-#: script_checking/error_database.csv:112
+#: script_checking/error_database.csv:130
 msgid ""
 "You need to check the parent class's function and its definition in the code "
 "reference. Then, you need to edit your function definition to have the same "
@@ -465,7 +520,7 @@ msgstr ""
 "与父类相同数量和类型的参数。"
 
 #. Reference: INVALID_ARGUMENTS
-#: script_checking/error_database.csv:113
+#: script_checking/error_database.csv:131
 msgid ""
 "This whole class of errors has to do with calling functions with either the "
 "wrong number of arguments or the wrong kind of argument. You will need to "
@@ -475,7 +530,7 @@ msgstr ""
 "息来查看问题所在。"
 
 #. Reference: INVALID_ARGUMENTS
-#: script_checking/error_database.csv:113
+#: script_checking/error_database.csv:131
 msgid ""
 "You need to either remove, add, or change the values you're trying to pass "
 "to the function to solve this issue. To know exactly how many arguments you "
@@ -486,7 +541,7 @@ msgstr ""
 "个参数，您需要检查代码参考。 它将向您显示函数定义和强制参数。"
 
 #. Reference: TYPE_MISMATCH
-#: script_checking/error_database.csv:124
+#: script_checking/error_database.csv:142
 msgid ""
 "All the values in your code have a specific type. That type can be a whole "
 "number (int), a decimal number (float), text (String), and so on. There are "
@@ -512,7 +567,7 @@ msgstr ""
 "您需要阅读错误消息以查看不匹配的内容，因为有很多可能的情况。"
 
 #. Reference: TYPE_MISMATCH
-#: script_checking/error_database.csv:124
+#: script_checking/error_database.csv:142
 msgid ""
 "If the error mentions the assigned value type not matching the variable, the "
 "problem is on the right side of the equal sign (=).\n"
@@ -533,7 +588,7 @@ msgstr ""
 "然您可以添加两个 2D 矢量，但不能将整数或文本添加到 2D 矢量。"
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
-#: script_checking/error_database.csv:129
+#: script_checking/error_database.csv:147
 msgid ""
 "GDScript supports type inference. The computer will automatically recognize "
 "the type of value you are working with. In some cases, though, it can't "
@@ -548,7 +603,7 @@ msgstr ""
 "发生这种情况时，您需要自己指定类型或完全删除此变量的类型推断。"
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
-#: script_checking/error_database.csv:129
+#: script_checking/error_database.csv:147
 msgid ""
 "The simplest way to solve this error is to remove types for this variable or "
 "this function's arguments. Otherwise, you can manually specify the value "
@@ -563,7 +618,7 @@ msgstr ""
 "我们建议尽可能指定类型以获得打字系统的好处。"
 
 #. Reference: RETURN_VALUE_MISMATCH
-#: script_checking/error_database.csv:135
+#: script_checking/error_database.csv:153
 msgid ""
 "There is an issue with the return value of your function. There are two main "
 "cases here:\n"
@@ -582,7 +637,7 @@ msgstr ""
 "else 块）中或最后返回一个值。"
 
 #. Reference: RETURN_VALUE_MISMATCH
-#: script_checking/error_database.csv:135
+#: script_checking/error_database.csv:153
 msgid ""
 "When your function is 'void', you should never return a value. You can use "
 "the 'return' keyword to end the function early, but you should never write "
@@ -598,32 +653,66 @@ msgstr ""
 "块）中返回一些内容。"
 
 #. Reference: INVALID_NO_CATCH
-#: script_checking/error_database.csv:137
+#: script_checking/error_database.csv:154
 msgid ""
 "Godot was unable to load your script, yet the language checker found nothing "
 "wrong."
-msgstr "Godot 无法加载您的脚本，但语言检查器服务器没有发现任何错误。 你可能不在线。"
+msgstr ""
+"Godot 无法加载您的脚本，但语言检查器服务器没有发现任何错误。 你可能不在线。"
 
 #. Reference: INVALID_NO_CATCH
-#: script_checking/error_database.csv:137
+#: script_checking/error_database.csv:154
 msgid ""
 "Please click on the \"report\" button at the top and please let us know."
-msgstr "如果您处于离线状态，则会出现此错误。 "
-"否则，请点击顶部的“举报”按钮，并告知我们。"
+msgstr ""
+"如果您处于离线状态，则会出现此错误。 否则，请点击顶部的“举报”按钮，并告知我"
+"们。"
 
 #. Reference: RECURSIVE_FUNCTION
-#: script_checking/error_database.csv:138
+#: script_checking/error_database.csv:155
 msgid "You called a function inside itself. This will loop forever."
 msgstr "您在其内部调用了一个函数。 这将永远循环。"
 
 #. Reference: RECURSIVE_FUNCTION
-#: script_checking/error_database.csv:138
+#: script_checking/error_database.csv:155
 msgid ""
 "There are valid reasons for using recursive functions, but none of them are "
 "part of this course, so this cannot be a valid solution."
 msgstr ""
 "使用递归函数有正当理由，但它们都不是本课程的一部分，因此这不是一个有效的解决"
 "方案。"
+
+#. Reference: UNEXPECTED_EOL
+#: script_checking/error_database.csv:157
+msgid ""
+"The computer reached the end of the line of code, but the line had a syntax "
+"error.\n"
+"The most common case is when you forget to close a string: you have opening "
+"quotes, but you forget to add a matching closing quote."
+msgstr ""
+
+#. Reference: UNEXPECTED_EOL
+#: script_checking/error_database.csv:157
+msgid ""
+"Double-check that you are not missing a quote character or that the quote "
+"character you used to start the string is the same as the one you used to "
+"close the string."
+msgstr ""
+
+#. Reference: CANT_GET_INDEX
+#: script_checking/error_database.csv:160
+msgid "The sub-variable you are trying to access does not exist."
+msgstr ""
+
+#. Reference: CANT_GET_INDEX
+#: script_checking/error_database.csv:160
+msgid ""
+"You probably have a typo in the name of the sub-variable that you are trying "
+"to access.\n"
+"\n"
+"Ensure that you don't have a capital letter where you should have a "
+"lowercase letter and vice versa."
+msgstr ""
 
 #~ msgid ""
 #~ "The server or your computer may currently be disconnected. Also, an app "

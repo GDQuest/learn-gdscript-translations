@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-04-21 11:05+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -204,11 +204,12 @@ msgid "How would you move the robot 50 pixels to the left?"
 msgstr "Comment déplaceriez-vous le robot de 50 pixels vers la gauche ?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:169
+#, fuzzy
 msgid ""
 "[code]position -= Vector2(50, 0)[/code] subtracts [code]50[/code] to the sub-"
 "variable [code]x[/code], and [code]0[/code] to [code]y[/code].\n"
 "\n"
-"[code]position.x -= Vector(50, 0)[/code] tries to subtract a 2D vector to "
+"[code]position.x -= Vector2(50, 0)[/code] tries to subtract a 2D vector to "
 "the sub-variable [code]x[/code], which is a decimal number. The value types "
 "are incompatible. If you try to do this, you will get an error."
 msgstr ""
@@ -226,7 +227,8 @@ msgid "position -= Vector2(50, 0)"
 msgstr "position -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
-msgid "position.x -= Vector(50, 0)"
+#, fuzzy
+msgid "position.x -= Vector2(50, 0)"
 msgstr "position.x -= Vector(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:182
