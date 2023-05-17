@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-06-30 14:20+0000\n"
-"Last-Translator: Fettenderi <mang.marco03@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/lesson-16-2d-vectors/it/>\n"
+"PO-Revision-Date: 2023-05-17 10:51+0000\n"
+"Last-Translator: Riccardo Santangelo <s.burns@live.it>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-16-2d-vectors/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-16-2d-vectors/lesson.tres:14
@@ -198,7 +198,6 @@ msgid "How would you move the robot 50 pixels to the left?"
 msgstr "Come muoveresti il robot di 50 pixel a sinistra?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:169
-#, fuzzy
 msgid ""
 "[code]position -= Vector2(50, 0)[/code] subtracts [code]50[/code] to the sub-"
 "variable [code]x[/code], and [code]0[/code] to [code]y[/code].\n"
@@ -207,12 +206,13 @@ msgid ""
 "the sub-variable [code]x[/code], which is a decimal number. The value types "
 "are incompatible. If you try to do this, you will get an error."
 msgstr ""
-"[code]position -= Vector2(50, 0)[/code] sottrae [code]50[/code] alla sua "
-"sotto-variabile [code]x[/code] e [code]0[/code] alla [code]y[/code].\n"
+"[code]position -= Vector2(50, 0)[/code] sottrae [code]50[/code] alla "
+"sottovariabile [code]x[/code] e [code]0[/code] a [code]y[/code].\n"
 "\n"
-"[code]position.x -= Vector(50, 0)[/code] cerca di sottrarre un vettore 2D "
-"alla sotto-variabile [code]x[/code], che è un valore decimale. I due valori "
-"sono incompatibili. Se provi a farlo, otterrai un errore."
+"[code]position.x -= Vector2(50, 0)[/code] cerca di sottrarre un vettore 2D "
+"alla sottovariabile [code]x[/code], che è un numero decimale. I tipi di "
+"valore sono incompatibili. Se si tenta di eseguire questa operazione, si "
+"otterrà un errore."
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
 #: course/lesson-16-2d-vectors/lesson.tres:173
@@ -220,7 +220,6 @@ msgid "position -= Vector2(50, 0)"
 msgstr "position -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
-#, fuzzy
 msgid "position.x -= Vector2(50, 0)"
 msgstr "position.x -= Vector(50, 0)"
 
