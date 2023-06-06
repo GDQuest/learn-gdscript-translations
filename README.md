@@ -2,10 +2,6 @@
 
 You can contribute translations to the Free app [Learn GDScript From Zero](https://github.com/GDQuest/learn-gdscript/) in this repository. 
 
-**Please don't work on Spanish or French translations. We hired a professional to completely translate the app to both Spanish and French, so your contributions to those two languages would be lost.**
-
-**Also, please check the open pull requests for other languages like [german](https://github.com/GDQuest/learn-gdscript-translations/pull/2) and coordinate with those contributors: some translations are well on their way already and we will have to discard duplicate contributions on weblate. Thank you for your understanding.**
-
 ![](images/app-practice-screen.png)
 
 We keep translations separate from the app's source code to simplify the contribution process.
