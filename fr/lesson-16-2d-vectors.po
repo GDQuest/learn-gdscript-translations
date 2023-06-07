@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-04-21 11:05+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-08 15:10+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-16-2d-vectors/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-16-2d-vectors/lesson.tres:14
 msgid ""
@@ -110,7 +111,6 @@ msgstr "[code]health[/code] (santé)"
 
 # rapidité ?
 #: course/lesson-16-2d-vectors/lesson.tres:76
-#, fuzzy
 msgid "speed"
 msgstr "[code]speed[/code] (vitesse)"
 
@@ -120,7 +120,6 @@ msgstr "Les vecteurs sont parfaits pour les jeux"
 
 # comme ça
 #: course/lesson-16-2d-vectors/lesson.tres:86
-#, fuzzy
 msgid ""
 "Vectors are [i]essential[/i] in video games.\n"
 "\n"
@@ -204,7 +203,6 @@ msgid "How would you move the robot 50 pixels to the left?"
 msgstr "Comment déplaceriez-vous le robot de 50 pixels vers la gauche ?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:169
-#, fuzzy
 msgid ""
 "[code]position -= Vector2(50, 0)[/code] subtracts [code]50[/code] to the sub-"
 "variable [code]x[/code], and [code]0[/code] to [code]y[/code].\n"
@@ -218,7 +216,7 @@ msgstr ""
 "\n"
 "[code]position.x -= Vecteur(50, 0)[/code] essaie de soustraire un vecteur 2D "
 "à la sous-variable [code]x[/code], qui est un nombre décimal. Les types de "
-"valeurs sont incompatibles. Si vous essayez de ce faire, vous obtiendrez une "
+"valeurs sont incompatibles. Si vous essayez de le faire, vous obtiendrez une "
 "erreur."
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
@@ -227,9 +225,8 @@ msgid "position -= Vector2(50, 0)"
 msgstr "position -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
-#, fuzzy
 msgid "position.x -= Vector2(50, 0)"
-msgstr "position.x -= Vector(50, 0)"
+msgstr "position.x -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:182
 msgid ""
@@ -256,7 +253,6 @@ msgstr ""
 # Rien ne peut mal tourner
 # rien ne peut aller de travers
 #: course/lesson-16-2d-vectors/lesson.tres:202
-#, fuzzy
 msgid ""
 "To visually show our robot has gained in strength, let's increase its size "
 "every time it levels up. Nothing could go wrong!"
