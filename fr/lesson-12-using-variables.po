@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-07 21:03+0100\n"
-"PO-Revision-Date: 2022-04-12 09:08+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-07 21:52+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-12-using-variables/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-12-using-variables/lesson.tres:14
 msgid ""
@@ -73,7 +74,6 @@ msgstr ""
 
 # étiquette
 #: course/lesson-12-using-variables/lesson.tres:70
-#, fuzzy
 msgid ""
 "As we learned in lesson 8, we can also assign labels to numbers to help us "
 "remember what they do.\n"
@@ -86,8 +86,8 @@ msgid ""
 "Let's recap how to define a variable."
 msgstr ""
 "Comme nous l'avons appris dans la leçon 8, nous pouvons également assigner "
-"des étiquettes aux nombres pour nous aider à nous souvenir de ce qu'ils "
-"font.\n"
+"des étiquettes aux nombres pour nous aider à nous souvenir de ce qu'ils font."
+"\n"
 "\n"
 "Nous appelons ces étiquettes [i]variables[/i].\n"
 "\n"
@@ -252,7 +252,6 @@ msgstr "Clarifier le code en utilisant des variables"
 
 # étiquette
 #: course/lesson-12-using-variables/lesson.tres:255
-#, fuzzy
 msgid ""
 "Let's give the [code]4[/code] here a label so we know what it does.\n"
 "\n"
@@ -266,8 +265,8 @@ msgstr ""
 "fait.\n"
 "\n"
 "Créez une variable appelée [code]angular_speed[/code] en dehors de la "
-"fonction [code]_process()[/code] pour qu'elle soit script-wide. Cela nous "
-"permet de l'utiliser dans d'autres fonctions également.\n"
+"fonction [code]_process()[/code] pour qu'elle s'applique à l'ensemble du "
+"script. Cela nous permet de l'utiliser dans d'autres fonctions également.\n"
 "\n"
 "Ensuite, remplacez le [code]4[/code] par [code]angular_speed[/code]."
 
@@ -281,9 +280,8 @@ msgstr ""
 "dans une variable."
 
 #: course/lesson-12-using-variables/lesson.tres:274
-#, fuzzy
 msgid "Fixing an Out of Scope Error"
-msgstr "Corriger une erreur hors champ d'application"
+msgstr "Corriger une erreur \"Out of Scope\" (hors champ d'application)"
 
 #: course/lesson-12-using-variables/lesson.tres:275
 msgid ""
