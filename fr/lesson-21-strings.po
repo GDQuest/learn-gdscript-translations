@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-04-30 14:43+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-08 15:10+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-21-strings/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-21-strings/lesson.tres:14
 msgid ""
@@ -40,7 +41,6 @@ msgstr ""
 "la description d'un sort ou le nom d'un personnage."
 
 #: course/lesson-21-strings/lesson.tres:36
-#, fuzzy
 msgid "What are strings"
 msgstr "Que sont les chaînes de caractères"
 
@@ -113,7 +113,6 @@ msgstr "\"name\""
 
 # Pourquoi utilisons-nous des chaînes de caractères ?
 #: course/lesson-21-strings/lesson.tres:96
-#, fuzzy
 msgid "Why we use strings"
 msgstr "Pourquoi nous utilisons des chaînes de caractères"
 
@@ -139,9 +138,8 @@ msgstr ""
 "auxiliaires et d'astuces que nous pouvons utiliser.\n"
 "\n"
 "Nous pouvons également utiliser des tableaux pour stocker des chaînes de "
-"caractères. Ceci est utile pour enchaîner des animations. Dans cet "
-"exemple, \n"
-"[code]play_animation()[/code] joue une animation spécifique."
+"caractères. Ceci est utile pour enchaîner des animations. Dans cet exemple, "
+"la fonction [code]play_animation()[/code] joue une animation spécifique."
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
@@ -180,7 +178,6 @@ msgid "Using an array of strings to play a combo"
 msgstr "Utiliser un tableau de chaînes de caractères pour jouer un combo"
 
 #: course/lesson-21-strings/lesson.tres:169
-#, fuzzy
 msgid ""
 "In this practice, we'll chain together animations using an array of strings. "
 "You might find such combinations in fighting games.\n"
@@ -214,8 +211,8 @@ msgstr ""
 "Ensuite, pour chaque action du tableau, appelez la fonction "
 "[code]play_animation()[/code] pour les jouer.\n"
 "\n"
-"Le robot doit effectuer les actions suivantes dans l'ordre : [code]jab, jab, "
-"uppercut[/code]."
+"Le tableau doit contenir trois valeurs, de sorte que le robot effectue ces "
+"trois attaques : deux jabs suivis d'un uppercut."
 
 #: course/lesson-21-strings/lesson.tres:190
 msgid "Define an array of strings to unleash a powerful combo."
