@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-04-07 11:52+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-07 21:52+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-11-time-delta/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
 msgid ""
@@ -62,7 +63,7 @@ msgstr ""
 
 #: course/lesson-11-time-delta/lesson.tres:50
 msgid "This sounds like Frames Per Second..."
-msgstr ""
+msgstr "Ça ressemble à des images par seconde..."
 
 #: course/lesson-11-time-delta/lesson.tres:52
 msgid ""
@@ -134,7 +135,6 @@ msgstr ""
 "Les images prennent des quantités variables de temps pour être calculées"
 
 #: course/lesson-11-time-delta/lesson.tres:93
-#, fuzzy
 msgid ""
 "Depending on the game, the computer, and what the game engine needs to "
 "calculate, frames take more or less time to display.\n"
@@ -176,14 +176,20 @@ msgstr ""
 "pour terminer [b]l'image précédente[/b].\n"
 "\n"
 "Nous pouvons l'utiliser pour nous assurer que les variations entre les "
-"images ne rendent pas la simulation du jeu peu fiable."
+"images ne rendent pas le comportement du jeu peu fiable.\n"
+"\n"
+"En effet, les ordinateurs fonctionnent différemment, de sorte qu'un "
+"ordinateur rapide aura plus d'images par seconde qu'un ordinateur lent.\n"
+"\n"
+"Si nous ignorons [code]delta[/code], l'expérience de jeu variera en fonction "
+"de l'ordinateur. Le delta permet de rendre l'expérience de jeu cohérente "
+"pour tout le monde."
 
 #: course/lesson-11-time-delta/lesson.tres:115
 msgid "What do we know about delta?"
 msgstr "Que savons-nous de delta ?"
 
 #: course/lesson-11-time-delta/lesson.tres:118
-#, fuzzy
 msgid ""
 "[code]delta[/code] is the time it took Godot to complete the previous frame "
 "in seconds.\n"
@@ -195,7 +201,7 @@ msgstr ""
 "[code]delta[/code] est le temps qu'il faut à Godot pour terminer l'image "
 "précédente en secondes.\n"
 "\n"
-"C'est très petit car les images se produisent plusieurs fois par seconde.\n"
+"Il très petit car les images se produisent plusieurs fois par seconde.\n"
 "\n"
 "Il varie à chaque image car Godot a besoin de traiter plus ou moins chaque "
 "image."
@@ -212,9 +218,8 @@ msgstr "Il varie à chaque image."
 
 #: course/lesson-11-time-delta/lesson.tres:123
 #: course/lesson-11-time-delta/lesson.tres:124
-#, fuzzy
 msgid "It's the time it took Godot to complete the previous frame."
-msgstr "C'est le temps qu'il faut à Godot pour terminer l'image précédente."
+msgstr "C'est le temps qu'il a fallu à Godot pour terminer l'image précédente."
 
 #: course/lesson-11-time-delta/lesson.tres:131
 msgid "Multiplying by delta"
@@ -421,7 +426,6 @@ msgid "Moving in a Circle Using Delta"
 msgstr "Se déplacer en cercle en utilisant delta"
 
 #: course/lesson-11-time-delta/lesson.tres:272
-#, fuzzy
 msgid ""
 "In this practice, make the robot move in a smooth circle using delta.\n"
 "\n"
@@ -437,7 +441,11 @@ msgstr ""
 "\n"
 "Pour obtenir ce mouvement, le robot doit tourner de [code]2[/code] radians "
 "par seconde et se déplacer de [code]100[/code] pixels par seconde dans le "
-"sens des aiguilles d'une montre."
+"sens des aiguilles d'une montre.\n"
+"\n"
+"[b]Note :[/b] Veuillez écrire les valeurs entre parenthèses lorsque vous "
+"appelez les fonctions. Si vous définissez des variables supplémentaires, "
+"nous ne pourrons pas vérifier votre pratique."
 
 #: course/lesson-11-time-delta/lesson.tres:290
 msgid "Time Delta"
