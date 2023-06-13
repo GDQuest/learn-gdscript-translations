@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-03-31 12:52+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-07 21:52+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-7-member-variables/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-7-member-variables/lesson.tres:14
 msgid ""
@@ -93,7 +94,6 @@ msgstr ""
 
 # remettre à zéro
 #: course/lesson-7-member-variables/lesson.tres:80
-#, fuzzy
 msgid ""
 "This function increases or decreases the value of the entity's "
 "[code]rotation[/code] member variable.\n"
@@ -110,8 +110,8 @@ msgstr ""
 "Cette fonction augmente ou diminue la valeur de la variable membre "
 "[code]rotation[/code] de l'entité.\n"
 "\n"
-"Disons que nous voulons réinitialiser la rotation à [code]0[/code] et rendre "
-"le personnage droit. Utiliser la fonction [code]rotate()[/code] peut "
+"Disons que nous voulons réinitialiser la rotation à [code]0[/code] et "
+"redresser le personnage. Utiliser la fonction [code]rotate()[/code] peut "
 "s'avérer difficile : vous devez connaître l'angle actuel exact du personnage "
 "pour l'annuler.\n"
 "\n"
@@ -119,7 +119,7 @@ msgstr ""
 "fonction.\n"
 "\n"
 "Le code suivant attribue la valeur [code]0[/code] à la rotation du "
-"personnage, ce qui réinitialise son angle et rend au personnage droit."
+"personnage, ce qui réinitialise son angle et le redresse."
 
 #: course/lesson-7-member-variables/lesson.tres:106
 msgid ""
@@ -166,7 +166,6 @@ msgid "Accessing sub-variables with the dot"
 msgstr "Accéder aux sous-variables avec le point"
 
 #: course/lesson-7-member-variables/lesson.tres:130
-#, fuzzy
 msgid ""
 "In video games, you will see many member variables that have sub-values.\n"
 "\n"
@@ -189,15 +188,15 @@ msgstr ""
 "Par exemple, la [code]position[/code] que nous avons mentionnée a deux "
 "coordonnées : [code]x[/code] et [code]y[/code].\n"
 "\n"
-"Il en va de même pour la [code]scale[/code] : elle a les sous-variables "
-"[code]x[/code] et [code]y[/code]. Elles contrôlent respectivement la taille "
-"horizontale et verticale de l'entité du jeu.\n"
+"Il en va de même pour la [code]scale[/code] (l'échelle) : elle a les sous-"
+"variables [code]x[/code] et [code]y[/code]. Elles contrôlent respectivement "
+"la taille horizontale et verticale de l'entité du jeu.\n"
 "\n"
 "Pour accéder à ces sous-composantes X et Y, vous ajoutez un point (« . ») "
 "après le nom de la variable.\n"
 "\n"
-"Le code ci-dessous place l'entité à [code]180[/code] pixels sur l'axe x et "
-"[code]120[/code] pixels sur l'axe y."
+"Le code ci-dessous place l'entité à [code]200[/code] pixels sur l'axe x et "
+"[code]250[/code] pixels sur l'axe y."
 
 #: course/lesson-7-member-variables/lesson.tres:158
 msgid ""
@@ -227,7 +226,6 @@ msgstr "Dans les jeux, l'axe Y est positif en descendant"
 
 # la [i]contraire[/i]
 #: course/lesson-7-member-variables/lesson.tres:172
-#, fuzzy
 msgid ""
 "Note that in games, assuming your character's position starts at (0, 0), the "
 "code above moves the entity [code]180[/code] pixels to the right and "
@@ -239,8 +237,8 @@ msgid ""
 "applications: the y-axis is positive going down."
 msgstr ""
 "Notez que dans les jeux, en supposant que la position de votre personnage "
-"commence à (0, 0), le code ci-dessus déplace l'entité [code]180[/code] "
-"pixels vers la droite et [code]120[/code] pixels vers le bas.\n"
+"commence à (0, 0), le code ci-dessus déplace l'entité [code]200[/code] "
+"pixels vers la droite et [code]250[/code] pixels vers le bas.\n"
 "\n"
 "En mathématiques, l'axe y est généralement positif en montant, par "
 "convention.\n"
@@ -249,9 +247,8 @@ msgstr ""
 "applications informatiques : l'axe y est positif en descendant."
 
 #: course/lesson-7-member-variables/lesson.tres:194
-#, fuzzy
 msgid "Why does the Y-axis point downwards?"
-msgstr "Dans les jeux, l'axe Y est positif en descendant"
+msgstr "Pourquoi l’axe des Y pointe-t-il vers le bas ?"
 
 #: course/lesson-7-member-variables/lesson.tres:196
 msgid ""
@@ -342,7 +339,6 @@ msgstr ""
 # ou ce que vous voulez
 # entraînons-nous à accéder aux variables
 #: course/lesson-7-member-variables/lesson.tres:244
-#, fuzzy
 msgid ""
 "In a future lesson, we'll explain why and how those variables have sub-"
 "variables.\n"
@@ -368,7 +364,8 @@ msgstr ""
 "\n"
 "Dans les prochaines leçons, vous créerez vos propres variables et "
 "effectuerez des opérations sur elles pour ajouter ou supprimer du "
-"[code]score[/code], de la [code]santé[/code], ou ce que vous voulez.\n"
+"[code]score[/code], de la [code]health[/code] (santé), ou ce que vous voulez."
+"\n"
 "\n"
 "Pour l'instant, mettons en pratique nos connaissances sur l'accès aux "
 "variables."
@@ -400,12 +397,10 @@ msgstr ""
 "la position du rectangle."
 
 #: course/lesson-7-member-variables/lesson.tres:280
-#, fuzzy
 msgid "Draw squares at different positions"
-msgstr "Dessiner des rectangles à différentes positions"
+msgstr "Dessiner des carrés à différentes positions"
 
 #: course/lesson-7-member-variables/lesson.tres:281
-#, fuzzy
 msgid ""
 "Draw three squares of size 100 by 100 that are 100 pixels apart on the "
 "horizontal axis. In other words, there should be a 100-pixel gap between two "
@@ -435,18 +430,20 @@ msgstr ""
 "changer la valeur d'une variable, comme la position de la tortue.\n"
 "\n"
 "Écrivez votre code à l'intérieur de la fonction [code]run()[/code] pour que "
-"l'ordinateur puisse le reconnaître."
+"l'ordinateur puisse le reconnaître.\n"
+"\n"
+"Utilisez la fonction [code]draw_rectangle()[/code] fournie pour dessiner "
+"chaque carré."
 
 #: course/lesson-7-member-variables/lesson.tres:299
-#, fuzzy
 msgid ""
 "Now you can place and draw one shape, but how about drawing several? In this "
 "practice, you'll place three squares side by side to really get the hang of "
 "properties."
 msgstr ""
-"Maintenant que vous pouvez placer et dessiner un rectangle, que diriez-vous "
-"d'en placer plusieurs ? Pour vraiment prendre le coup de main sur les "
-"propriétés."
+"Vous pouvez maintenant placer et dessiner une forme, mais que diriez-vous "
+"d'en dessiner plusieurs ? Dans cet exercice, vous placerez trois carrés côte "
+"à côte pour vous familiariser avec les propriétés."
 
 #: course/lesson-7-member-variables/lesson.tres:303
 msgid "Introduction to Member Variables"

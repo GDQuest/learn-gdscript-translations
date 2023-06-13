@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-03-24 16:16+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-07 21:52+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-4-drawing-a-rectangle/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:14
 msgid ""
@@ -42,7 +43,6 @@ msgstr ""
 "à appeler des fonctions."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:44
-#, fuzzy
 msgid ""
 "The turtle is a little machine that moves forward, turns, and draws lines "
 "along its path.\n"
@@ -77,7 +77,7 @@ msgstr ""
 "Nous avons préparé plusieurs fonctions pour vous :\n"
 "\n"
 "- [code]move_forward(pixels)[/code] fait avancer la tortue sur une distance "
-"donnée en [i]pixels[/i].  \n"
+"donnée en [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] fait tourner la tortue vers la droite "
 "d'une quantité précise de [i]degrés[/i].\n"
 "- [code]turn_left(degrees)[/code] fonctionne de la même manière que "
@@ -131,16 +131,12 @@ msgstr ""
 "celui-ci."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
-#, fuzzy
 msgid "In the function call below, which part is the argument?"
-msgstr ""
-"Dans la définition de fonction ci-dessous, quelle partie est le paramètre de "
-"la fonction ?"
+msgstr "Dans l'appel de fonction ci-dessous, quelle partie est le paramètre ?"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
-#, fuzzy
 msgid "[code]move_forward(30)[/code]"
-msgstr "[code]func move_forward(pixels)[/code]"
+msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:127
 msgid ""
@@ -153,6 +149,14 @@ msgid ""
 "This function call will make the turtle move forward by [code]30[/code] "
 "pixels."
 msgstr ""
+"Les arguments d'une fonction sont toutes les valeurs situées entre les "
+"parenthèses. Dans ce cas, il n'y en a qu'un, mais il peut y en avoir "
+"plusieurs, séparés par des virgules.\n"
+"\n"
+"Dans ce cas, [code]move_forward[/code] est le nom de la fonction et "
+"[code]30[/code] est l'argument.\n"
+"\n"
+"Cet appel de fonction fera avancer la tortue de [code]30[/code] pixels."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 msgid "move_forward"
@@ -161,14 +165,13 @@ msgstr "move_forward"
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:133
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:140
 msgid "Drawing a Corner"
 msgstr "Dessiner un coin"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:141
-#, fuzzy
 msgid ""
 "In this practice, we'll tell the turtle to draw a corner.\n"
 "\n"
@@ -199,9 +202,9 @@ msgstr ""
 "Les fonctions [code]move_forward()[/code] et [code]turn_right()[/code] à "
 "droite dessinent un coin, mais il leur manque certains paramètres.\n"
 "\n"
-"Ajoutez les paramètres manquants pour que la tortue avance de [code]200[/"
-"code] pixels, tourne à droite de [code]90[/code] degrés, puis avance à "
-"nouveau de [code]200[/code] pixels.\n"
+"Ajoutez les paramètres manquants pour que la tortue avance de "
+"[code]200[/code] pixels, tourne à droite de [code]90[/code] degrés, puis "
+"avance à nouveau de [code]200[/code] pixels.\n"
 "\n"
 "Nous avons ajouté le premier paramètre pour vous afin que la tortue avance "
 "de [code]200[/code] pixels.\n"
@@ -225,7 +228,6 @@ msgid "Drawing a Rectangle"
 msgstr "Dessiner un rectangle"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:171
-#, fuzzy
 msgid ""
 "Add the correct arguments to the functions [code]move_forward()[/code] and "
 "[code]turn_right()[/code] to draw a rectangle with a width of [code]200[/"

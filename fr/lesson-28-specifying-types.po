@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-05-16 09:25+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-08 15:10+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-28-specifying-types/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-28-specifying-types/lesson.tres:13
 msgid ""
@@ -47,7 +48,6 @@ msgid "Cell size: decimal number, or 2D vector?"
 msgstr "Taille de la case : nombre décimal ou vecteur 2D ?"
 
 #: course/lesson-28-specifying-types/lesson.tres:45
-#, fuzzy
 msgid ""
 "Games use grids all the time, be it for grid-based gameplay or to make "
 "algorithms faster.\n"
@@ -70,7 +70,8 @@ msgstr ""
 "faire, vous donnez à chaque case une taille en pixels.\n"
 "\n"
 "Vous choisirez probablement l'un des deux types suivants pour cela : "
-"[code]float[/code] ou [code]Vector2[/code].\n"
+"[code]float[/code] ou [code]Vector2[/code], car les positions des pixels sur "
+"l'écran utilisent des coordonnées [code]Vector2[/code].\n"
 "\n"
 "L'une ou l'autre de ces deux valeurs ferait l'affaire :"
 
@@ -169,9 +170,8 @@ msgstr ""
 "autre type plus tard, l'ordinateur ne vous laissera pas faire."
 
 #: course/lesson-28-specifying-types/lesson.tres:219
-#, fuzzy
 msgid "Letting the computer figure it out"
-msgstr "Laisser l'ordinateur s'en sortir"
+msgstr "Laisser l'ordinateur se débrouiller"
 
 #: course/lesson-28-specifying-types/lesson.tres:221
 msgid ""
@@ -193,7 +193,6 @@ msgstr ""
 
 # typer un peu*
 #: course/lesson-28-specifying-types/lesson.tres:243
-#, fuzzy
 msgid ""
 "This takes little typing, yet you get the benefits of using type hints, like "
 "the computer reporting errors better and faster."

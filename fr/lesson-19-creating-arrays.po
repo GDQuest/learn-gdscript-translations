@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-04-26 13:58+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-08 15:10+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-19-creating-arrays/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-19-creating-arrays/lesson.tres:13
 msgid ""
@@ -31,7 +32,6 @@ msgstr ""
 "produit la liste de nombres [code][0, 1, 2][/code]."
 
 #: course/lesson-19-creating-arrays/lesson.tres:33
-#, fuzzy
 msgid ""
 "A list of values, numbers or otherwise, has a precise name in code: we call "
 "it an [i]array[/i]. So we can say calling the [code]range()[/code] function "
@@ -47,7 +47,9 @@ msgstr ""
 "nombres.\n"
 "\n"
 "Nous pouvons directement écrire et utiliser ce tableau dans notre boucle "
-"[code]for[/code] au lieu de la fonction [code]range()[/code]."
+"[code]for[/code] au lieu de la fonction [code]range()[/code]. Vous pouvez "
+"exécuter la fonction suivante étape par étape pour voir comment elle "
+"fonctionne."
 
 #: course/lesson-19-creating-arrays/lesson.tres:55
 msgid ""
@@ -58,12 +60,22 @@ msgid ""
 "\n"
 "But we could name it anything we'd like!"
 msgstr ""
+"Comme vous pouvez le constater, le code fonctionne toujours de la même "
+"manière. Remarquez que lorsque nous créons une boucle [code]for[/code], nous "
+"créons également une variable locale à laquelle la boucle attribue une "
+"valeur par itération. Ci-dessus, nous l'avons nommée [code]number[/code] "
+"parce que le tableau sur lequel nous bouclons contient trois nombres (0, 1 "
+"et 2).\n"
+"\n"
+"Mais nous pourrions lui donner n'importe quel nom !"
 
 #: course/lesson-19-creating-arrays/lesson.tres:77
 msgid ""
 "If we \"unwrap\" the [code]for[/code] loop above, we'd get the following "
 "code with the exact same behaviour:"
 msgstr ""
+"Si nous \"déballons\" la boucle [code]for[/code] ci-dessus, nous obtiendrons "
+"le code suivant, qui a exactement le même comportement :"
 
 #: course/lesson-19-creating-arrays/lesson.tres:95
 msgid "The syntax of arrays"
@@ -149,7 +161,6 @@ msgid "Using arrays to follow a path"
 msgstr "Utiliser des tableaux pour suivre un chemin"
 
 #: course/lesson-19-creating-arrays/lesson.tres:192
-#, fuzzy
 msgid ""
 "Let's look at a widespread use of arrays in games: finding and following a "
 "path.\n"
@@ -167,8 +178,8 @@ msgstr ""
 "Dans les jeux, vous avez besoin que les alliés ou les monstres trouvent leur "
 "chemin vers leur cible, que ce soit le joueur ou un point d'intérêt.\n"
 "\n"
-"Pour y parvenir, nous utilisons des [i]algorithmes de recherche de chemin[/"
-"i]. Comme leur nom l'indique, ces algorithmes trouvent le chemin entre deux "
+"Pour y parvenir, nous utilisons des [i]algorithmes de recherche de chemin[/i]"
+". Comme leur nom l'indique, ces algorithmes trouvent le chemin entre deux "
 "points et permettent aux IA de traverser le jeu."
 
 #: course/lesson-19-creating-arrays/lesson.tres:216

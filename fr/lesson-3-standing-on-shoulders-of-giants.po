@@ -9,16 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-03-28 16:32+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-07 21:52+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-3-standing-on-shoulders-of-giants/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,4,-1,-1,-1,-1,-1\n"
 
 # C'est un tas de code qui est là prêt à être utilisé
@@ -138,7 +139,7 @@ msgstr ""
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:92
 msgid "Can you tell me more about that \"run()\" function?"
-msgstr "Pouvez-vous m'en dire plus sur la fonction « run() »?"
+msgstr "Pouvez-vous m'en dire plus sur la fonction « run() » ?"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:94
 msgid ""
@@ -198,7 +199,6 @@ msgid "Function arguments"
 msgstr "Arguments de fonction"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:118
-#, fuzzy
 msgid ""
 "We use parentheses to call functions because you can give the function "
 "[i]arguments[/i] inside the parentheses when calling it.\n"
@@ -211,7 +211,7 @@ msgstr ""
 "de son appel.\n"
 "\n"
 "Voici un [i]sprite[/i] qui est droit. Si nous appelons la fonction "
-"[code]rotate(0.3)[/code], le personnage [i]sprite[/i] tourne de 0.3 unités."
+"[code]rotate(0.3)[/code], le personnage [i]sprite[/i] tourne de 0.3 radians."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:140
 msgid ""
@@ -345,7 +345,6 @@ msgid "It makes the entity (like a game character or a sprite) visible."
 msgstr "Il rend l'entité (comme un personnage de jeu ou un sprite) visible."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:196
-#, fuzzy
 msgid ""
 "Another example: With the [code]move_local_x()[/code] function, you can move "
 "the character to its left and right. The function takes one argument: a "
@@ -358,18 +357,18 @@ msgid ""
 "powerful ways to do this later."
 msgstr ""
 "Un autre exemple : avec la fonction [code]move_local_x()[/code], vous pouvez "
-"déplacer le personnage vers sa gauche et vers sa droite. La fonction prend "
-"un argument : un nombre de pixels pour décaler l'entité.\n"
+"déplacer le personnage vers sa gauche et sa droite. La fonction prend un "
+"argument : un nombre de pixels pour décaler l'entité.\n"
 "\n"
 "La fonction complémentaire [code]move_local_y()[/code] permet de déplacer le "
-"[i]sprite[/i] vers le haut et le bas.\n"
+"personnage vers le haut et le bas.\n"
 "\n"
 "C'est une façon de déplacer un personnage dans un jeu, bien que nous verrons "
 "des moyens plus puissants de le faire plus tard."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:218
 msgid "Why move_local_y(20) moves the character down"
-msgstr "Pourquoi move_local_y(20) déplace le personnage vers le bas ?"
+msgstr "Pourquoi move_local_y(20) déplace le personnage vers le bas"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:220
 msgid ""

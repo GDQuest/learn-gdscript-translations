@@ -9,19 +9,19 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-03-29 08:08+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-07 21:52+0000\n"
+"Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-6-multiple-function-parameters/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:14
-#, fuzzy
 msgid ""
 "In the previous part, you created a function to draw a square of a fixed "
 "size.\n"
@@ -37,12 +37,12 @@ msgstr ""
 "carré d'une taille fixe.\n"
 "\n"
 "Cependant, cette fonction est un peu restrictive. Il serait bien mieux "
-"d'avoir une fonction permettant de dessiner un carré de [i]n'importe quelle[/"
-"i] taille. Ou mieux : n'importe quel type de rectangle (un carré est un type "
-"spécifique de rectangle).\n"
+"d'avoir une fonction permettant de dessiner un carré de [i]n'importe "
+"quelle[/i] taille. Ou mieux : n'importe quel type de rectangle (un carré est "
+"un type spécifique de rectangle).\n"
 "\n"
-"Dans les leçons précédentes, vous avez utilisé la fonction [code]rotate()[/"
-"code] et vous lui avez donné un [i]paramètre[/i]."
+"Dans les leçons précédentes, vous avez utilisé la fonction "
+"[code]rotate()[/code] et vous lui avez donné un [i]paramètre[/i]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:38
 msgid ""
@@ -56,7 +56,7 @@ msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:46
 msgid "Can I rotate in both directions?"
-msgstr ""
+msgstr "Puis-je pivoter dans les deux sens ?"
 
 # d'effectuer une rotation
 #: course/lesson-6-multiple-function-parameters/lesson.tres:48
@@ -271,7 +271,6 @@ msgstr "Comment dois-je nommer mes fonctions et paramètres ?"
 
 # Vous voudrez peut-etre
 #: course/lesson-6-multiple-function-parameters/lesson.tres:228
-#, fuzzy
 msgid ""
 "The names of functions, parameters, or other things in your code are "
 "entirely up to you.\n"
@@ -442,7 +441,6 @@ msgid "Using multiple parameters"
 msgstr "Utiliser plusieurs paramètres"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:315
-#, fuzzy
 msgid ""
 "In this practice, we'll improve our [code]draw_corner()[/code] function so "
 "the angle can also vary.\n"
@@ -451,11 +449,12 @@ msgid ""
 "in the [code]draw_corner()[/code] function and use it to draw corners of "
 "varying angles."
 msgstr ""
-"Dans cet exercice, nous allons améliorer notre fonction [code]draw_corner()[/"
-"code] pour que l'angle puisse également varier.\n"
+"Dans cet exercice, nous allons améliorer notre fonction "
+"[code]draw_corner()[/code] pour que l'angle puisse également varier.\n"
 "\n"
-"Ajoutez le paramètre [code]angle[/code] à la fonction [code]draw_corner()[/"
-"code] et utilisez-le pour dessiner des angles variables."
+"Ajoutez le paramètre [code]angle[/code] à la fonction "
+"[code]draw_corner()[/code] après le paramètre [code]length[/code] et "
+"utilisez-le pour dessiner des angles variables."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:329
 msgid "With two parameters, code a function to draw corners with any angle."
@@ -468,7 +467,6 @@ msgid "Drawing squares of any size"
 msgstr "Dessiner des carrés de n'importe quelle taille"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:335
-#, fuzzy
 msgid ""
 "We want a function to draw squares of any size.\n"
 "\n"
@@ -494,8 +492,11 @@ msgstr ""
 "Créez une fonction appelée [code]draw_square()[/code] qui prend un paramètre "
 "représentant la [code]length[/code], ou la longueur, des côtés du carré.\n"
 "\n"
-"La tortue doit être orientée vers la droite lorsqu'elle commence ou termine "
-"un rectangle."
+"[b]La tortue doit être orientée vers la droite lorsqu'elle commence ou "
+"termine un rectangle.[/b]\n"
+"\n"
+"Veillez à appeler [b]turn_right(90)[/b] suffisamment de fois dans votre "
+"fonction pour que ce soit le cas."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:352
 msgid ""
@@ -511,7 +512,6 @@ msgid "Drawing rectangles of any size"
 msgstr "Dessiner des rectangles de n'importe quelle taille"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:358
-#, fuzzy
 msgid ""
 "Let's make our square drawing function more flexible to include rectangles "
 "of varying sizes.\n"
@@ -529,12 +529,13 @@ msgstr ""
 "Rendons notre fonction de dessin de carrés plus flexible pour inclure des "
 "rectangles de différentes tailles.\n"
 "\n"
-"Votre travail consiste à coder une fonction appelée [code]draw_rectangle()[/"
-"code] qui prend deux paramètres : [code]length[/code] et [code]height[/"
-"code], qui désignent respectivement la longueur et la hauteur du rectangle.\n"
+"Votre travail consiste à coder une fonction appelée "
+"[code]draw_rectangle()[/code] qui prend deux paramètres : [code]length[/code]"
+" et [code]height[/code], qui désignent respectivement la longueur et la "
+"hauteur du rectangle.\n"
 "\n"
-"La tortue doit être orientée vers la droite lorsqu'elle commence ou termine "
-"un rectangle.\n"
+"[b]La tortue doit être orientée vers la droite lorsqu'elle commence ou "
+"termine un rectangle.[/b]\n"
 "\n"
 "Notez que nous pourrions toujours dessiner un carré avec "
 "[code]draw_rectangle()[/code] en faisant en sorte que [code]length[/code] et "
