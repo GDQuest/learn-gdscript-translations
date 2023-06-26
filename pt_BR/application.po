@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-06-16 15:17+0000\n"
-"Last-Translator: Joel Gomes da Silva <joelgomes1994@hotmail.com>\n"
+"PO-Revision-Date: 2023-06-27 08:48+0000\n"
+"Last-Translator: Deolindo <deolindojvn@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/application/pt_BR/>\n"
+"learn-gdscript-from-zero/user-interface/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.18.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
@@ -51,11 +51,11 @@ msgstr "(sem histórico anterior)"
 
 #: ui/UINavigator.tscn:103
 msgid "CHRISTMAS SALE - 50% OFF"
-msgstr ""
+msgstr "PROMOÇÃO DE NATAL - 50% de desconto"
 
 #: ui/UINavigator.tscn:163
 msgid "CHRISTMAS SALE"
-msgstr ""
+msgstr "PROMOÇÃO DE NATAL"
 
 #: ui/UIPractice.gd:154 ui/UIPractice.gd:220
 #, python-format
@@ -69,7 +69,7 @@ msgstr "Validando seu código..."
 #: ui/UIPractice.gd:268
 #, python-format
 msgid "The function `%s` calls itself, this creates an infinite loop"
-msgstr ""
+msgstr "A função `%s` chama a si própria, isso cria um loop infinito"
 
 #: ui/UIPractice.gd:301
 msgid "Running Your Code..."
@@ -80,11 +80,15 @@ msgid ""
 "There is a division by zero in your code. You cannot divide by zero in code. "
 "Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr ""
+"Há uma divisão por zero em seu código. Você não pode dividir por zero no "
+"código. Certifique-se que não há \"/ 0\" ou \"% 0\" no seu código."
 
 #: ui/UIPractice.gd:343
 msgid ""
 "Oh no! The script has an error, but the Script Verifier did not catch it"
 msgstr ""
+"Oh não! O script possui um erro, mas o Verificador de Script não pôde "
+"identificá-lo"
 
 #: ui/UIPractice.gd:369
 msgid "Running Tests..."
@@ -200,7 +204,7 @@ msgstr ""
 
 #: ui/components/RunnableCodeExampleDebugger.tscn:44
 msgid "Debugger"
-msgstr ""
+msgstr "Depurador"
 
 #: ui/components/SalePopup.tscn:121
 #, python-format
@@ -208,14 +212,18 @@ msgid ""
 "[center]Get [b]50% off[/b] on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b][/center]"
 msgstr ""
+"[center]Receba [b]50% de desconto[/b] em todos os nossos cursos de Godot com "
+"o \n"
+"cupom [b]DISCOUNT50[/b][/center]"
 
 #: ui/components/SalePopup.tscn:132
+#, fuzzy
 msgid "Only until "
-msgstr ""
+msgstr "Até "
 
 #: ui/components/SalePopup.tscn:155
 msgid "CHECK OUT OUR COURSES"
-msgstr ""
+msgstr "CONHEÇA NOSSOS CURSOS"
 
 #: ui/components/SalePopup.tscn:180
 msgid "X"
@@ -274,7 +282,6 @@ msgid "Where do external errors come from?"
 msgstr "De onde vem os erros externos?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
-#, fuzzy
 msgid ""
 "Lessons in this course are designed so you only need to edit the "
 "[b]important bits[/b]. But there is much more code outside of what you see "
@@ -296,11 +303,11 @@ msgstr ""
 "\n"
 "Isso significa que, às vezes, as alterações feitas podem afetar o código "
 "sobre o qual você não tem controle. Mas não se preocupe, você ainda pode "
-"corrigir todos os problemas com o código que [b]você pode[/b] editar!\n"
+"corrigir todos os problemas com o código que você [b]pode[/b] editar!\n"
 "\n"
 "[i]É assim que os motores de jogos (engines) funcionam também .[/i] Há muito "
 "código oculto que eles executam para garantir que seus projetos funcionem "
-"sem problemas. E, no entanto, um erro em seus códigos podem quebrá-los. Nós "
+"sem problemas. Ainda assim, um erro em seus códigos pode quebrá-los. Nós "
 "vamos tentar explicar como resolver cada erro que você encontrar. Rápido, "
 "clique no botão [b]Explicar[/b] ao lado da mensagem de erro!"
 
@@ -471,7 +478,7 @@ msgstr "Limite de taxa de quadros"
 
 #: ui/components/popups/SettingsPopup.tscn:212
 msgid "Lower contrast"
-msgstr ""
+msgstr "Diminuir contraste"
 
 #: ui/components/popups/SettingsPopup.tscn:259
 msgid "Apply"
@@ -621,7 +628,6 @@ msgid "Learn More"
 msgstr "Aprenda Mais"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:203
-#, fuzzy
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to "
 "make games with the Godot game engine.\n"
@@ -630,16 +636,16 @@ msgid ""
 "en/stable/getting_started/step_by_step/index.html]Getting Started with "
 "Godot[/url]."
 msgstr ""
-"Você completou Aprenda GDScript Do Zero. Agora você sabe o básico que "
+"Você completou Aprenda GDScript do Zero. Agora você sabe o básico que "
 "precisa para mergulhar na criação de jogos com a game engine Godot.\n"
 "\n"
-"Se estiver procurante uma série gratuita para continuar aprendendo o básico "
-"conosco, você pode ir até [url=https://www.gdquest.com/tutorial/godot/"
-"learning-paths/getting-started-in-2021/]Iniciando com Godot[/url]."
+"Você pode continuar aprendendo gratuitamente em [url=https://docs.godotengine"
+".org/pt_BR/stable/getting_started/step_by_step/index.html]Iniciando em "
+"Godot[/url]."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:216
 msgid "This is an Open-Source project!"
-msgstr ""
+msgstr "Esse é um projeto de código aberto!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:223
 msgid ""
@@ -649,6 +655,11 @@ msgid ""
 "[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
+"Assim como Godot, esse aplicativo e curso é gratuito e de código aberto.\n"
+"\n"
+"Você pode encontrar o código fonte e contribuir com traduções aqui: [url="
+"\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero ("
+"Github repository)[/url]."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
