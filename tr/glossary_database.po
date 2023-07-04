@@ -9,27 +9,27 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-06-07 15:58+0000\n"
-"Last-Translator: Ümit Kara <sakarian54@gmail.com>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/glossary_database/tr/>\n"
+"PO-Revision-Date: 2023-07-04 12:52+0000\n"
+"Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: member function
 #: course/glossary.csv:6
 msgid "member function"
-msgstr ""
+msgstr "üye fonksiyon"
 
 #. Reference: member function
 #: course/glossary.csv:6
 msgid "member functions"
-msgstr ""
+msgstr "üye fonksiyonlar"
 
 #. Reference: member function
 #: course/glossary.csv:6
@@ -42,16 +42,26 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
+"Üye fonksiyonlar, diziler (array), dizeler (string), ve sözlükler "
+"(dictionary) gibi belirli bir değer tipine bağlanmış fonksiyonlardır. "
+"Bunlara ayrıca metodlar da denilir.\n"
+"\n"
+"Örneğin, dizilerin [code]array.append()[/code] (ekleme yapma) gibi üye "
+"fonksiyonları vardır.\n"
+"\n"
+"Böyle bir fonksiyonu çalıştırmak için, mesela bir dizi üzerinden erişirken, "
+"yukarıda görüldüğü gibi bir erişim işleci kullanılır ([code].[/code], nokta "
+"işareti)."
 
 #. Reference: member variable
 #: course/glossary.csv:9
 msgid "member variable"
-msgstr ""
+msgstr "üye değişken"
 
 #. Reference: member variable
 #: course/glossary.csv:9
 msgid "member variables"
-msgstr ""
+msgstr "üye değişkenler"
 
 #. Reference: member variable
 #: course/glossary.csv:9
@@ -64,16 +74,24 @@ msgid ""
 "by the access operator ([code].[/code]). For example, [code]position.x[/"
 "code]."
 msgstr ""
+"Üye değişkenler, belirli bir değer tipine bağlanmış değişkenlerdir; örneğin "
+"bir vektörün (vector) [code]x[/code] ve [code]y[/code] alt-değişkenleri "
+"gibi. Bunları ayrıca değer tipinin, mesela vektörün, [i]özellikleri[/i] veya "
+"[i]alanları[/i] olarakta isimlendiririz.\n"
+"\n"
+"Bir üye değişkene erişmek için, önce ana değişken ismini ve ardından erişim "
+"işlecini ([code].[/code], nokta işareti) yazmanız gerekir. Örneğin "
+"[code]position.x[/code]."
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameter"
-msgstr ""
+msgstr "değişken, alınan değişken, parametre"
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameters"
-msgstr ""
+msgstr "değişkenler, alınan değerler, parametreler"
 
 #. Reference: parameter
 #: course/glossary.csv:12
@@ -83,16 +101,21 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in the "
 "function's body."
 msgstr ""
+"Bir alınan değişken (parametre) bir fonksiyonun tanımının parçası olarak "
+"oluşturulan bir değişkendir.\n"
+"\n"
+"Bu bize, fonksiyon içinde değişebilen farklı değerler ile fonksiyonu farklı "
+"şekillerde yeniden kullanmayı sağlar."
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radian"
-msgstr ""
+msgstr "radyan"
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radians"
-msgstr ""
+msgstr "radyan"
 
 #. Reference: radian
 #: course/glossary.csv:17
@@ -106,16 +129,23 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And an "
 "angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
+"Bir radyan, bir dairenin çevresini temel alan bir açı ölçme birimidir.\n"
+"\n"
+"Günlük hayatımızda daha çok \"derece\" kullanmaya meyilliyiz, ama bilgisayar "
+"programcılığında, ve özellikle oyunlarda, radyan daha yaygındır.\n"
+"\n"
+"[code]2 * PI[/code] radyanlık bir açı 360 dereceye karşılık gelir. Ve "
+"[code]PI[/code] radyanlık açı da 180 derecedir."
 
 #. Reference: type
 #: course/glossary.csv:20
 msgid "type"
-msgstr ""
+msgstr "tip"
 
 #. Reference: type
 #: course/glossary.csv:20
 msgid "types"
-msgstr ""
+msgstr "tipler"
 
 #. Reference: type
 #: course/glossary.csv:20
@@ -127,16 +157,22 @@ msgid ""
 "The computer uses types to determine which operations are valid between two "
 "values and when they're undefined."
 msgstr ""
+"Bilgisayar programcılığında, bir tip, bir değerin sınıfıdır. Mesela, "
+"[code]3[/code], [code]11[/code], ve [code]255462[/code] gibi tam sayıların "
+"hepsi [code]int[/code] (integer'ın kısaltması) tipindedir.\n"
+"\n"
+"Bilgisayarlar, iki değer arasında hangi işlemlerin geçerli olduğunu, ve "
+"bunların ne zaman tanımsız olduğunu belirlerlerken tipleri kullanır."
 
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iteration"
-msgstr ""
+msgstr "yineleme"
 
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iterations"
-msgstr ""
+msgstr "tekrarlamalar"
 
 #. Reference: iteration
 #: course/glossary.csv:23
@@ -148,16 +184,22 @@ msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
+"Bilgisayar kodunda, bir yineleme, bir işlem yada kodun bir kere "
+"tekrarlamasıdır. Bu terimi genellikle döngülerde kullanırız; bir yineleme "
+"döngüdeki kodun bir kere çalışmasıdır.\n"
+"\n"
+"Algoritmalardan bahsederken, bir yineleme, bir veri kümesi üzerinde "
+"algoritmanın bir tam geçiş yapması anlamını taşıyabilir."
 
 #. Reference: vector
 #: course/glossary.csv:28
 msgid "vector"
-msgstr ""
+msgstr "vektör"
 
 #. Reference: vector
 #: course/glossary.csv:28
 msgid "vectors"
-msgstr ""
+msgstr "vektörler"
 
 #. Reference: vector
 #: course/glossary.csv:28
@@ -172,16 +214,27 @@ msgid ""
 "Vectors can seem daunting at first because they are pretty abstract, but as "
 "you will see, they'll simplify code tremendously."
 msgstr ""
+"Matematikte, bir vektör (vector) bir numara listesidir. Oyunlarda, "
+"genellikle 2D ve 3D vektörleri kullanırız; yani iki ve üç numaralık listeler."
+"\n"
+"\n"
+"Bunları, yön ve büyüklüğü ya da uzaysal yoğunluğu betimlemek için "
+"kullanırız. Örneğin, bir karakter yada aracın hareket yönünü ve hızını "
+"betimlerken bir vektör kullanırız.\n"
+"\n"
+"Vektörler, oldukça soyut olduklarından, ilk başta biraz caydırıcı "
+"olabilirler, ama ilerde göreceğiniz gibi, kodumuzu dehşet seviyede "
+"basitleştirirler."
 
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "argument"
-msgstr "argüman"
+msgstr "girilen değişken, verilen değer, argüman"
 
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "arguments"
-msgstr ""
+msgstr "girilen değişkenler, verilen değerler, argümanlar"
 
 #. Reference: argument
 #: course/glossary.csv:37
@@ -203,16 +256,33 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and "
 "[code]y[/code] are [i]parameters[/i]."
 msgstr ""
+"Bir girilen değişken (argüman), bir fonksiyonu çağırırken, fonksiyona "
+"girdiğiniz değerlerdir. Örneğin, [code]rotate(0.5)[/code] çağırmasında, "
+"parantez içindeki [code]0.5[/code] değeri bir girilen değişkendir.\n"
+"\n"
+"Bir fonksiyon hiç bir değer almayabileceği gibi, tek bir değer yada çoklu "
+"değerler de alabilir. Girilen değişkenler zorunlu yada isteğe bağlı "
+"olabilirler.\n"
+"\n"
+"Bir fonksiyon çoklu değerler bekliyorsa, değerleri virgül ile ayırmalısınız; "
+"mesela bu çağrıda olduğu gibi [code]jump(50, 100)[/code]\n"
+"\n"
+"Bir fonksiyonu [i]çağırırken[/i], parantez içine girdiğimiz değerlere [i]"
+"girilen değişken (verilen değer, argüman)[/i] ismini veriyoruz.\n"
+"\n"
+"Buna karşılık, bir fonksiyon tanımı yazarken, fonksiyonun [i]alınan "
+"değişkenleri (parameterler)[/i]'nden bahsederiz. Sıradaki örnekte, "
+"[code]x[/code] ve [code]y[/code] [i]alınan değişken (parametre)[/i]'lerdir."
 
 #. Reference: array
 #: course/glossary.csv:44
 msgid "array"
-msgstr ""
+msgstr "dizi"
 
 #. Reference: array
 #: course/glossary.csv:44
 msgid "arrays"
-msgstr ""
+msgstr "diziler"
 
 #. Reference: array
 #: course/glossary.csv:44
@@ -230,11 +300,24 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
+"Bir dizi, bir değerler listesidir. GDScript'te, [i]herhangi[/i] bir değer "
+"tipini taşıyabilir.\n"
+"\n"
+"Bir dizi oluşturmak için, köşeli parantez içinde virgülle-ayrılmış değerler "
+"yazarsınız: [code]var three_numbers = [1, 2, 3][/code]\n"
+"\n"
+"Oyunlarda, dizileri sürekli kullanırız; bir takımdaki karakterleri "
+"listelemek, envanterdeki öğeleri nlistelesini tutmak, oyuncunun kilidini "
+"açtığı büyülerin listesini saklamak, ve liste uzar gider. Bunlar her "
+"yerdeler.\n"
+"\n"
+"Diziler, bilgisayar programcılığının en temel değer tiplerinden biridir. "
+"Dizileri, belkide her tür programlama dilinde bulabilirsiniz."
 
 #. Reference: assign
 #: course/glossary.csv:45
 msgid "assign"
-msgstr ""
+msgstr "atama"
 
 #. Reference: assign
 #: course/glossary.csv:45
@@ -242,16 +325,18 @@ msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
+"Bir değeri bir değişkene atamak demek, bu değeri değişkenin içinde tutmak "
+"demektir. Bunun için eşitlik işareti ([code]=[/code]) kullanırsınız."
 
 #. Reference: dictionary
 #: course/glossary.csv:52
 msgid "dictionary"
-msgstr ""
+msgstr "sözlük"
 
 #. Reference: dictionary
 #: course/glossary.csv:52
 msgid "dictionaries"
-msgstr ""
+msgstr "sözlükler"
 
 #. Reference: dictionary
 #: course/glossary.csv:52
@@ -272,16 +357,32 @@ msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
+"Bir sözlük, değerleri, anahtar-değer çifti şeklinde haritalayan veri "
+"yapılarıdır. Bir sözlüğe bir anahtar verdiğinizde, karşılık olarak size, "
+"eşleşen değeri bulup geri döndürür.\n"
+"\n"
+"GDScript'te, anahtarlar bir çok şey olabilir. Genellikle yazı dizeleri yada "
+"numaralar kullanırız, ama bununla sınırlı değilsiniz. Bir "
+"[code]Vector2[/code] de geçerli anahtar olabilir; ızgara-temelli bir oyunda, "
+"bir ızgara hücresini bir birime yada bir öğeye haritalamak oldukça "
+"kullanışlı olur.\n"
+"\n"
+"Oyunlarınızdaki veri parçalarını ilişkilendirmek için sözlükleri sıklıkla "
+"kullanacaksınız. Örneğin, bir ekipmanın adını, onun veri tabanındaki silah "
+"bilgileri ile ilişkilendirmek için kullanabiliriz.\n"
+"\n"
+"Sözlükler, diziler gibi, bir çok programlama dilinde görebileceğiniz ve "
+"sıklıkla kullanacağınız en temel veri tiplerinden biridir."
 
 #. Reference: for loop
 #: course/glossary.csv:59
 msgid "for loop"
-msgstr ""
+msgstr "for döngüsü"
 
 #. Reference: for loop
 #: course/glossary.csv:59
 msgid "for loops"
-msgstr ""
+msgstr "for döngüleri"
 
 #. Reference: for loop
 #: course/glossary.csv:59
@@ -299,6 +400,18 @@ msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to "
 "use than while loops."
 msgstr ""
+"Bir for döngüsü, bilgisayara, bir dizinin içindeki her bir değer için bir "
+"kere olmak üzere, bir talimat setini yinelemesini emreder.\n"
+"\n"
+"Her bir döngü yinelemesinde, derleyici, diziden bir değer çeker ve döngü "
+"içerisinde buna erişmeyi sağlar.\n"
+"\n"
+"for döngüleri, kodu belli bir sayıda çalıştırır; dizideki her bir değer için "
+"bir kere. Bu döngü tipi, belli bir şart sağlanana kadar tekrar eden while "
+"döngüsünden farklıdır.\n"
+"\n"
+"Mümkün oldukça for döngülerini tercih etmenizi öneririz. Hem daha güvenli "
+"hem de kullanımı while döngülerinden kolaydır."
 
 #. Reference: function
 #: course/glossary.csv:64
@@ -308,7 +421,7 @@ msgstr "fonksiyon"
 #. Reference: function
 #: course/glossary.csv:64
 msgid "functions"
-msgstr ""
+msgstr "fonksiyonlar"
 
 #. Reference: function
 #: course/glossary.csv:64
@@ -323,31 +436,41 @@ msgid ""
 "\n"
 "Also, functions can optionally return a value to the code calling it."
 msgstr ""
+"Bir fonksiyon, bir isim altında topladığınız bir grup kod talimatlarıdır. "
+"Bir fonksiyon tanımladığınızda, içindeki tüm talimatları çalıştırmak için ne "
+"zaman isterseniz çağırabilirsiniz.\n"
+"\n"
+"Bir fonksiyonun davranışını, alınan değişkenler (parametreler) ile "
+"değiştirebilirsiniz. Bunlar fonksiyon tanımında yazdığınız değişken "
+"isimleridir. Bunları fonksiyon içinde, kodunuzu farklı durumlara uyarlamak "
+"için kullanabilirsiniz.\n"
+"\n"
+"Ayrıca fonksiyonlar, isteğe bağlı olarak, geriye değer döndürebilirler."
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "increment"
-msgstr ""
+msgstr "artış"
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "increments"
-msgstr ""
+msgstr "artışlar"
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "An increment is the amount by which a value changes in your code."
-msgstr ""
+msgstr "Bir artış, kodunuzdaki bir değerin değişme miktarıdır."
 
 #. Reference: instruction
 #: course/glossary.csv:68
 msgid "instruction"
-msgstr ""
+msgstr "talimat"
 
 #. Reference: instruction
 #: course/glossary.csv:68
 msgid "instructions"
-msgstr "Talimatlar"
+msgstr "talimatlar"
 
 #. Reference: instruction
 #: course/glossary.csv:68
@@ -358,16 +481,21 @@ msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
 msgstr ""
+"Bilgisayar programcılığında, talimatlar, bilgisayarın tanıdığı ve "
+"çalıştırabileceği tekil işlemlerdir.\n"
+"\n"
+"Örneğin, bir fonksiyon çağırma, toplama işlemi yapma, ya da bir değişkene "
+"değer atamak gibi."
 
 #. Reference: variable
 #: course/glossary.csv:77
 msgid "variable"
-msgstr ""
+msgstr "değişken"
 
 #. Reference: variable
 #: course/glossary.csv:77
 msgid "variables"
-msgstr ""
+msgstr "değişkenler"
 
 #. Reference: variable
 #: course/glossary.csv:77
@@ -388,16 +516,33 @@ msgid ""
 "that you attach to some value. Any time, you can take the label and stick it "
 "onto a new product or, in that case, a new value."
 msgstr ""
+"Değişkenler, kodunuzun içinde saklamak istediğiniz ve zamanla değişen "
+"değerlere isim vermeye yarayan araçlardır.\n"
+"\n"
+"Örneğin, bir karakterin sağlığı: karakter hasar aldığında, sağlığın "
+"azalmasını istersiniz. İyileşme durumunda, sağlığın tekrar artmasını "
+"istersiniz.\n"
+"\n"
+"Sağlığı temsil etmesi için [code]health[/code](sağlık) isminde bir değişken "
+"oluşturabilirsiniz.\n"
+"\n"
+"Bundan sonra kodunuzda, ne zaman klavyenizden [code]health[/code] "
+"yazarsanız, bilgisayar hafızasında karşılık gelen değeri sizin için bulup "
+"getirecektir.\n"
+"\n"
+"Değişkenler, süper marketlerdeki ürün etiketlerine biraz benzer. Bir değere "
+"iliştirdiğiniz isimlerdir. Herhangi bir zamanda, etiketi çıkartıp başka bir "
+"ürüne, yada bu durumda yeni bir değere, yapıştırabilirsiniz."
 
 #. Reference: while loop
 #: course/glossary.csv:84
 msgid "while loop"
-msgstr ""
+msgstr "while döngüsü"
 
 #. Reference: while loop
 #: course/glossary.csv:84
 msgid "while loops"
-msgstr ""
+msgstr "while döngüleri"
 
 #. Reference: while loop
 #: course/glossary.csv:84
@@ -413,11 +558,22 @@ msgid ""
 "However, there are still essential cases in which we use while loops, like "
 "processing files, processing computer code, or for powerful algorithms."
 msgstr ""
+"Bir while döngüsü bilgisayara, bir şarta bağlı olarak kodu sürekli "
+"çalıştırmasını emreder. Eğer şart geçerli ise, döngü sonsuza kadar çalışır.\n"
+"\n"
+"while döngüllerini kodlarken dikkatli olmanı gerekir: eğer şartı yanış "
+"seçerseniz, döngü sonsuza kadar çalışır ve bilgisayarınız donar.\n"
+"\n"
+"Münkün olduğunca daha güvenli olan for döngüsünü kullanmanızı önerme "
+"sebebimiz bu yüzdendir.\n"
+"\n"
+"Yine de, while döngülerini kullanmanızın çok gerekli olduğu durumlar da var; "
+"dosyaları işlemek, bilgisayar kodu işletmek, ya da güçlü algoritmalar yazmak."
 
 #. Reference: body
 #: course/glossary.csv:85
 msgid "body"
-msgstr ""
+msgstr "gövde"
 
 #. Reference: body
 #: course/glossary.csv:85
@@ -425,11 +581,13 @@ msgid ""
 "We talk about a loop or a function's body to refer to the lines of code that "
 "are part of the loop or function."
 msgstr ""
+"Bir döngüden yada bir fonksiyon'un içinden (gövdesinden) bahsederken, bir "
+"döngünün yada fonksiyonun parçası olan kod satırlarını kastediyoruz."
 
 #. Reference: return
 #: course/glossary.csv:88
 msgid "return"
-msgstr ""
+msgstr "return (geri dönüş)"
 
 #. Reference: return
 #: course/glossary.csv:88
@@ -440,16 +598,21 @@ msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed by "
 "a value, for example: [code]return -1[/code]."
 msgstr ""
+"Bir değeri geri döndürmek, bir fonksiyonu çağırdığınız noktaya bir değer "
+"döndürme işlemidir.\n"
+"\n"
+"Bunun için bir fonksiyon [code]return[/code] kelimesinden sonra bir değer "
+"kullanır; örneğin [code]return -1[/code] gibi."
 
 #. Reference: library
 #: course/glossary.csv:89
 msgid "library"
-msgstr ""
+msgstr "kütüphane"
 
 #. Reference: library
 #: course/glossary.csv:89
 msgid "libraries"
-msgstr ""
+msgstr "kütüphaneler"
 
 #. Reference: library
 #: course/glossary.csv:89
@@ -457,16 +620,19 @@ msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
+"Diğer programcılara zaman kazandırmak için bir araya toplanmış, değerli ve "
+"tekrar kullanılabilir kod yığınlarıdır. Tüm programcılar kod kütüphaneleri "
+"kullanırlar."
 
 #. Reference: sprite
 #: course/glossary.csv:90
 msgid "sprite"
-msgstr ""
+msgstr "grafik öğe"
 
 #. Reference: sprite
 #: course/glossary.csv:90
 msgid "sprites"
-msgstr ""
+msgstr "grafik öğeler"
 
 #. Reference: sprite
 #: course/glossary.csv:90
@@ -475,3 +641,6 @@ msgid ""
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
 msgstr ""
+"Bilgisayar grafiklerinde (çizimler, görseller), bir grafik öğe, ekranda "
+"gösterilen bir imgedir. Bu kelimeyi genellikle hareketli imgeler için "
+"kullanırız; bir karakter, bir canavar, ya da yere düşen bir nesne."
