@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-06-07 15:58+0000\n"
-"Last-Translator: Ümit Kara <sakarian54@gmail.com>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/application/tr/>\n"
+"PO-Revision-Date: 2023-07-04 12:52+0000\n"
+"Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/application/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
@@ -43,7 +43,7 @@ msgstr "Alıştırmalar"
 
 #: ui/UINavigator.gd:365 ui/UINavigator.gd:350
 msgid "Go back in your navigation history"
-msgstr "Gezinme geçmişinizde geri dönün"
+msgstr "Gezinme geçmişinizde geri gidin"
 
 #: ui/UINavigator.gd:368 ui/UINavigator.gd:353
 msgid "(no previous history)"
@@ -51,11 +51,11 @@ msgstr "(geçmiş kayıt bulunamadı)"
 
 #: ui/UINavigator.tscn:103
 msgid "CHRISTMAS SALE - 50% OFF"
-msgstr ""
+msgstr "YENİ YIL SATIŞI - 50% İNDİRİM"
 
 #: ui/UINavigator.tscn:163
 msgid "CHRISTMAS SALE"
-msgstr ""
+msgstr "YENİ YIL SATIŞI"
 
 #: ui/UIPractice.gd:154 ui/UIPractice.gd:220 ui/UIPractice.gd:144
 #: ui/UIPractice.gd:202
@@ -70,7 +70,7 @@ msgstr "Kodunuz Doğrulanıyor..."
 #: ui/UIPractice.gd:268
 #, python-format
 msgid "The function `%s` calls itself, this creates an infinite loop"
-msgstr ""
+msgstr "`%s` fonksiyonu kendini çağırıyor, bu da sonsuz döngü oluşturuyor"
 
 #: ui/UIPractice.gd:301 ui/UIPractice.gd:286
 msgid "Running Your Code..."
@@ -81,11 +81,13 @@ msgid ""
 "There is a division by zero in your code. You cannot divide by zero in code. "
 "Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr ""
+"Kodunuzda bir sıfıra bölme durumu var. Kodunuzda sıfıra bölme yapamazsınız. "
+"Lütfen, kodunuzda \"/ 0\" ya da \"% 0\" olmadığından emin olun."
 
 #: ui/UIPractice.gd:343
 msgid ""
 "Oh no! The script has an error, but the Script Verifier did not catch it"
-msgstr ""
+msgstr "Hadi be! Betikte bir hata var, ama Betik Doğrulayıcı bunu yakalayamadı"
 
 #: ui/UIPractice.gd:369 ui/UIPractice.gd:337
 msgid "Running Tests..."
@@ -105,7 +107,7 @@ msgstr "Bitmemiş alıştırma kapatılsın mı?"
 
 #: ui/components/BigGreenButton.tscn:24
 msgid "Button"
-msgstr "Buton"
+msgstr "Düğme"
 
 #: ui/components/CodeEditor.tscn:144
 msgid "Run"
@@ -144,17 +146,15 @@ msgid "Paused"
 msgstr "Duraklatıldı"
 
 #: ui/components/GlossaryPopup.tscn:37
-#, fuzzy
 msgid "Term"
-msgstr "Dönem"
+msgstr "Terim"
 
 #: ui/components/GlossaryPopup.tscn:53
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
-msgstr "Hata açıklamamız."
+msgstr "Bizim hata açıklamamız."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
-#, fuzzy
 msgid "ERROR:"
 msgstr "HATA:"
 
@@ -165,7 +165,6 @@ msgid "Placeholder text"
 msgstr "Yer tutucu metin"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
-#, fuzzy
 msgid "in"
 msgstr "içinde"
 
@@ -174,7 +173,6 @@ msgid "FileName"
 msgstr "DosyaAdı"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
-#, fuzzy
 msgid "at"
 msgstr "de"
 
@@ -203,11 +201,11 @@ msgstr "çalıştır()"
 
 #: ui/components/RunnableCodeExample.tscn:123
 msgid "step"
-msgstr ""
+msgstr "adım"
 
 #: ui/components/RunnableCodeExampleDebugger.tscn:44
 msgid "Debugger"
-msgstr ""
+msgstr "Hata ayıklayıcı"
 
 #: ui/components/SalePopup.tscn:121
 #, python-format
@@ -215,18 +213,20 @@ msgid ""
 "[center]Get [b]50% off[/b] on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b][/center]"
 msgstr ""
+"[center] Tüm Godot kurslarımızda, [b]DISCOUNT50[/b] kupon kodunu \n"
+"kullanarak [b]%50 indirim[/b] alın[/center]"
 
 #: ui/components/SalePopup.tscn:132
 msgid "Only until "
-msgstr ""
+msgstr "geçerlilik süresi "
 
 #: ui/components/SalePopup.tscn:155
 msgid "CHECK OUT OUR COURSES"
-msgstr ""
+msgstr "KURSLARIMIZA GÖZ ATIN"
 
 #: ui/components/SalePopup.tscn:180
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
@@ -240,11 +240,11 @@ msgstr "İptal"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:46
 msgid "Original error message"
-msgstr "Orijinal hata mesajı"
+msgstr "Orjinal hata mesajı"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:65
 msgid "Why this happens"
-msgstr "Bu neden olur"
+msgstr "Bu neden oluyor"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
 msgid "How to fix this"
@@ -252,7 +252,7 @@ msgstr "Bu nasıl düzeltilir"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:91
 msgid "Our suggestion on how to fix it."
-msgstr "Nasıl düzeltileceğine dair önerimiz."
+msgstr "Nasıl düzeltileceğine dair bizim önerimiz."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:102
 msgid ""
@@ -266,8 +266,8 @@ msgid ""
 msgstr ""
 "Üzgünüz, henüz bu özel hata mesajını ele almadık!\n"
 "\n"
-"Lütfen sağ üst köşedeki [b]Bildir[/b] düğmesini kullanarak bize nasıl elde "
-"ettiğiniz hakkında daha fazla bilgi verin; uygulamanın bir sonraki sürümü "
+"Lütfen sağ üst köşedeki [b]Bildir[/b] düğmesini kullanarak bize hataya nasıl "
+"ulaştığınız hakkında daha fazla bilgi verin; uygulamanın bir sonraki sürümü "
 "için bilgi tabanımızı geliştirmeye çalışacağız.\n"
 "\n"
 "[center]Teşekkürler![/center]"
@@ -277,12 +277,10 @@ msgid "Hide"
 msgstr "Gizle"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
-#, fuzzy
 msgid "Where do external errors come from?"
 msgstr "Harici hatalar nereden geliyor?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
-#, fuzzy
 msgid ""
 "Lessons in this course are designed so you only need to edit the "
 "[b]important bits[/b]. But there is much more code outside of what you see "
@@ -302,16 +300,15 @@ msgstr ""
 "şekilde oluşturulmuştur. Ancak gördüğünüzün dışında projenin çalışmasını "
 "sağlayan çok daha fazla kod var.\n"
 "\n"
-"Bu, bazen yaptığınız değişikliklerin üzerinde kontrolünüz olmayan kodları "
-"etkileyebileceği anlamına gelir. Ancak endişelenmeyin, "
-"[b]düzenleyebileceğiniz[/b] kod ile tüm sorunları kendiniz "
-"düzeltebilirsiniz!\n"
+"Bunun anlamı, yaptığınız değişikliklerin ara sıra üzerinde kontrolünüz "
+"olmayan kodları etkileyebileceğidir. Ama hemen endişe etmeyin, düzenlemenize "
+"açık kod ile tüm sorunları kendi başınıza [b]düzeltebilirsiniz[/b]!\n"
 "\n"
 "[i]Bu, oyun motorlarının da çalışması gibidir.[/i] Projelerinizin sorunsuz "
 "çalıştığından emin olmak için yürüttükleri çok sayıda gizli kod vardır. Yine "
-"de, komut dosyalarınızdaki bir hata onları bozabilir. Karşılaştığınız her "
-"bir hatayı nasıl ele alacağınızı açıklamaya çalışacağız. Çabuk, hata "
-"mesajının yanındaki [b]Açıkla[/b] düğmesine tıklayın!"
+"de, betik dosyalarınızdaki bir hata onları bozabilir. Karşılaştığınız her "
+"bir hatayı nasıl ele alacağınızı açıklamaya çalışacağız. Hadi durma, hata "
+"mesajının yanındaki [b]Açıkla[/b] düğmesine tıkla!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
@@ -326,40 +323,37 @@ msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
-"Ancak hâlâ atladığınız \n"
+"Ancak arada atladığınız \n"
 "alıştırmalar var."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
-#, fuzzy
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
-"[center][b]Kalın[/b] ve çalışma materyalini tekrar gözden geçirin,\n"
-"veya [b]kursa devam edin[/b].[/center]"
+"[center]Burada [b]kalın[/b] ve çalışma notlarını tekrar gözden geçirin,\n"
+"ya da kursa [b]devam[/b] edin.[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 #: ui/components/popups/PracticeDonePopup.tscn:144
-#, fuzzy
 msgid "Stay"
 msgstr "Kal"
 
 #: ui/components/popups/PracticeDonePopup.tscn:89
 msgid "Well done!"
-msgstr "Aferin!"
+msgstr "Bu iyiydi!"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
 msgstr "Alıştırmayı tamamladınız."
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
-#, fuzzy
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
-"[center][b]Kalın[/b] ve etrafta vakit geçirin,\n"
-"veya [b]kursa devam edin[/b].[/center]"
+"[center]Burada [b]kalın[/b] ve etrafta vakit geçirin,\n"
+"ya da kursa [b]devam[/b] edin.[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:67
 msgid "Practice List"
@@ -376,7 +370,6 @@ msgid "Report an issue"
 msgstr "Bir sorun bildirin"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
-#, fuzzy
 msgid ""
 "If you face an issue in the app, please click the link below to report it on "
 "GitHub:\n"
@@ -416,8 +409,8 @@ msgid ""
 "\n"
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
-"Uygulamada bir sorunla karşılaşırsanız, lütfen GitHub'da bildirmek için "
-"aşağıdaki bağlantıya tıklayın:\n"
+"Uygulamada bir sorunla karşılaşırsanız, lütfen GitHub üzerinden bildirmek "
+"için aşağıdaki bağlantıya tıklayın:\n"
 "\n"
 "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
 "> GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
@@ -426,8 +419,8 @@ msgstr ""
 "sorunu bildirebilirsiniz.\n"
 "\n"
 "Sorunu tanımlamamıza yardımcı olmak için bir günlük oluşturabilirsiniz. Bunu "
-"yapmak için buraya tıklayın: [b][url=download]hata günlüğü oluştur[/url][/"
-"b].\n"
+"yapmak için buraya tıklayın: [b][url=download]hata günlüğü oluştur[/url][/b]."
+"\n"
 "\n"
 "Oluşturulan dosyayı eklemek için lütfen GitHub'daki sorununuza sürükleyip "
 "bırakın.\n"
@@ -442,8 +435,8 @@ msgstr ""
 "GitHub'ı birçok açık projenin kaynak kodunu incelemek, sorunları bildirmek "
 "ve hatta koda kendiniz katkıda bulunmak için kullanabilirsiniz.\n"
 "\n"
-"[font=res://ui/theme/fonts/font_title.tres]Bir sorun nasıl bildirilir[/"
-"font]\n"
+"[font=res://ui/theme/fonts/font_title.tres]Bir sorun nasıl bildirilir[/font]"
+"\n"
 "\n"
 "1. [i]GitHub Sorunları[/i] sayfasına gitmek için yukarıdaki bağlantıya "
 "tıklayın.\n"
@@ -453,7 +446,7 @@ msgstr ""
 "Bunu yapmak için bir GitHub hesabına ihtiyacınız olacak.\n"
 "\n"
 "Lütfen uygulamaya erişmek için kullandığınız cihaz türü gibi mümkün "
-"olduğunca çok ilgili bilgi ekleyin ve belki sorunu gösteren bir ekran "
+"olduğunca çok ilgili bilgi ekleyin ve mümkünse sorunu gösteren bir ekran "
 "görüntüsü veya video klip ekleyin.\n"
 "\n"
 "[center]Açık kaynağa katkıda bulunduğunuz için teşekkür ederiz![/center]"
@@ -475,7 +468,7 @@ msgstr "Dil"
 #: ui/components/popups/SettingsPopup.tscn:123
 #: ui/components/popups/SettingsPopup.tscn:126
 msgid "Text Size"
-msgstr "Metin boyutu"
+msgstr "Metin Boyutu"
 
 #: ui/components/popups/SettingsPopup.tscn:151
 #: ui/components/popups/SettingsPopup.tscn:154
@@ -494,7 +487,7 @@ msgstr "Kare hızı sınırı"
 
 #: ui/components/popups/SettingsPopup.tscn:212
 msgid "Lower contrast"
-msgstr ""
+msgstr "Düşük zıtlık"
 
 #: ui/components/popups/SettingsPopup.tscn:259
 #: ui/components/popups/SettingsPopup.tscn:242
@@ -503,7 +496,7 @@ msgstr "Uygula"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:93
 msgid "Open Lesson"
-msgstr "Açık Ders"
+msgstr "Dersi Aç"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:95
 msgid "Continue Lesson"
@@ -518,9 +511,8 @@ msgid "Lesson Title Goes Here"
 msgstr "Ders Başlığı Buraya Gelecek"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
-#, fuzzy
 msgid "Lesson read"
-msgstr "Ders metni"
+msgstr "Ders metni okundu"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:56
 msgid "0%"
@@ -560,9 +552,8 @@ msgid "Reset Progress"
 msgstr "İlerlemeyi Sıfırla"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
-#, fuzzy
 msgid "Confirm Resetting Progress"
-msgstr "Sıfırlamayı Onayla"
+msgstr "Sıfırlama İşlemini Onayla"
 
 #: ui/screens/end_screen/EndScreen.tscn:229
 msgid "Congratulations!"
@@ -577,10 +568,17 @@ msgid ""
 "can move on to [url=https://www.gdquest.com/tutorial/godot/learning-paths/"
 "getting-started-in-2021/]Getting Started with Godot[/url]."
 msgstr ""
+"\"Learn GDScript From Zero\"yu tamamladınız. Godot oyun motoru ile oyun "
+"yaratıcılığına dalmak için gereken temel bilgilere artık sahipsiniz.\n"
+"\n"
+"Eğer temelleri bizimle öğrenmeye devam etmek için ücretsiz kurslar "
+"ararsanız, bu adrese devam edebilirsiniz [url=https://www.gdquest.com/"
+"tutorial/godot/learning-paths/getting-started-in-2021/]Getting Started with "
+"Godot[/url] (çn: bu sayfaların çevirisi bulunmayabilir)."
 
 #: ui/screens/end_screen/EndScreen.tscn:249
 msgid "Or level up faster by taking this shortcut"
-msgstr ""
+msgstr "Ya da bu kısayolu kullanarak hızlı seviye atlayın"
 
 #: ui/screens/end_screen/EndScreen.tscn:256
 msgid ""
@@ -595,10 +593,21 @@ msgid ""
 "\n"
 "Learning that on your own can take years."
 msgstr ""
+"Ücretsiz oyun yaratıcılığı derslerinden sürüyle bulabilirsiniz, ama bunlar "
+"genelde temiz hedeflere sahip değildir.\n"
+"\n"
+"Daha kötüsü, bunların pek çoğu adım-adım tarifleridir. Ama artık "
+"farketmişsinizdir, sadece tarifleri takip ederek geliştirici olamazsınız.\n"
+"\n"
+"Her projenin, [i]yaratıcı sorun çözme[/i] becerileri isteyen kendine has "
+"zorlukları var. Size gereken [i]bir programcı gibi düşünmek[/i].\n"
+"\n"
+"Bunu kendi başınıza öğrenmek ise yıllar alabilir."
 
 #: ui/screens/end_screen/EndScreen.tscn:277
 msgid "Learn to Code From Zero, with Godot"
 msgstr ""
+"Learn to Code From Zero, with Godot (Sıfırdan Kodlama Öğrenin, Godot ile)"
 
 #: ui/screens/end_screen/EndScreen.tscn:284
 msgid ""
@@ -612,12 +621,22 @@ msgid ""
 "It's the only course that'll truly teach you [i]how to become a game "
 "developer[/i] with Godot."
 msgstr ""
+"Bu uygulama, derinlemesine öğrenme içeren [url=https://gdquest.mavenseed.com/"
+"courses/learn-to-code-from-zero-with-godot][b]Learn to Code From Zero, with "
+"Godot[/b][/url] (Sıfırdan Kodlama Öğrenin, Godot ile) kursunun ücretsiz bir "
+"parçasıdır. (çn: çevirisi olmayabilir)\n"
+"\n"
+"İlgili kurs sizi, bu uygulamanın bittiği yerden alıp, [i]kendi[/i] oyununuzu "
+"yapabileceğiniz bir noktaya götürüyor.\n"
+"\n"
+"Size gerçek anlamda Godot ile [i]nasıl oyun geliştiricisi olunur[/i]u "
+"öğretecek tek kurstur."
 
 #: ui/screens/end_screen/EndScreen.tscn:308
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
-msgstr "Daha fazla bilgi edin"
+msgstr "Daha Fazlasını Öğrenin"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:203
 msgid ""
@@ -628,10 +647,18 @@ msgid ""
 "en/stable/getting_started/step_by_step/index.html]Getting Started with "
 "Godot[/url]."
 msgstr ""
+"Learn GDScript From Zero (Sıfırdan GDScript Öğrenin) kursunu tamamladınız. "
+"Godot oyun motoru ile oyunlar yapmak için gereken temel bilgilere artık "
+"sahipsiniz.\n"
+"\n"
+"Ücretsiz [url=https://docs.godotengine.org/en/stable/getting_started/"
+"step_by_step/index.html]Getting Started with Godot[/url] (Godot ile "
+"Başlangıç) serileri ile öğrenmeye devam edebilirsiniz (çn: çevirisi "
+"olmayabilir)."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:216
 msgid "This is an Open-Source project!"
-msgstr ""
+msgstr "Bu bir Açık-Kaynak projedir!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:223
 msgid ""
@@ -641,6 +668,11 @@ msgid ""
 "\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
+"Godot gibi, bu uygulama ve kurs ücretsiz ve açık-kaynak'tır.\n"
+"\n"
+"Uygulamanın kaynak koduna erişmek ve çevirilere katkıda bulunmak için: [url="
+"\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero ("
+"Github repository)[/url]."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
@@ -660,7 +692,7 @@ msgstr "Gönder"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr "Doğru!"
+msgstr "Doğru bildin!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
@@ -691,7 +723,6 @@ msgid "Answer label"
 msgstr "Cevap etiketi"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
-#, fuzzy
 msgid "(select all that apply)"
 msgstr "(geçerli olanların tümünü seçin)"
 
@@ -706,7 +737,6 @@ msgstr "Yöntem açıklamaları"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:160
 #: ui/screens/practice/PracticeInfoPanel.gd:159
-#, fuzzy
 msgid "Property descriptions"
 msgstr "Özellik açıklamaları"
 
@@ -723,7 +753,6 @@ msgid "Hints"
 msgstr "İpuçları"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
-#, fuzzy
 msgid "Checks"
 msgstr "Kontroller"
 
