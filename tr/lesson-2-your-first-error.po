@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-07-04 12:52+0000\n"
+"PO-Revision-Date: 2023-07-04 19:52+0000\n"
 "Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-2-your-first-error/tr/>\n"
@@ -51,10 +51,12 @@ msgid ""
 "A code error looks like this. It's a message that tells you some bit of your "
 "code doesn't work."
 msgstr ""
+"Bir kod hatası şöyle görünür. Size, kodunuzun bir parçasının çalışmadığını "
+"söyleyen bir bildirim."
 
 #: course/lesson-2-your-first-error/lesson.tres:48
 msgid "Making errors friendlier"
-msgstr ""
+msgstr "Hataları, dost canlısı yapmak"
 
 #: course/lesson-2-your-first-error/lesson.tres:50
 msgid ""
@@ -66,6 +68,14 @@ msgid ""
 "It shows you why an error happens and what the message means. It also gives "
 "you some tips on how to fix it."
 msgstr ""
+"Hata bildirimleri biraz şifreli gibi görünebilir. Bunun sebebi, programcılar "
+"tarafından, yine eğitimli programcılar için tasarlanmış olmaları.\n"
+"\n"
+"Bu uygulamada, başlamanıza yardımcı olması için bir hata tercümanı ekledik.\n"
+"\n"
+"Size, hatanın neden oluştuğunu ve hata mesajının ne anlama geldiğini "
+"gösterecek. Bunun yanında, onu nasıl düzelteceğiniz hakkında bazı ipuçları "
+"da verecek."
 
 #: course/lesson-2-your-first-error/lesson.tres:74
 msgid ""
@@ -81,10 +91,23 @@ msgid ""
 "what is causing the errors, with the help of error messages, is key to "
 "fixing them."
 msgstr ""
+"Hata bildirimleri, sizden önce gelen meslektaş programcılar tarafından "
+"bilerek böyle tasarlandı. Sizin başınıza gelebilecek belirli sorunları "
+"önceden tahmin ettiler ve size bunları düzelme konusunda yardım etmek "
+"istediler.\n"
+"\n"
+"Hataları, başarısızlık olarak düşünmemeye çalışın. Bunlar, geçmişten "
+"fırlayıp size yardım etmeye gelmiş rehberler gibidir. Daha önemlisi, hatalar "
+"bilgisayarınızı bozmazlar. En azından GDScript yapmaz, çünkü oldukça güvenli "
+"bir dildir.\n"
+"\n"
+"Eninde sonunda, programınızdaki tüm hataları düzeltmek isteyeceksiniz. Hata "
+"bildirimlerinin yardımıyla, hataların sebebini anlamak, onları düzeltmenin "
+"anahtarıdır."
 
 #: course/lesson-2-your-first-error/lesson.tres:86
 msgid "Are error messages a good or a bad thing in code?"
-msgstr ""
+msgstr "Kodunuzdaki hata bildirimleri iyi mi, yoksa kötü mü?"
 
 #: course/lesson-2-your-first-error/lesson.tres:89
 msgid ""
@@ -94,25 +117,32 @@ msgid ""
 "experience, you'll learn to make your code work more reliably thanks to "
 "error messages."
 msgstr ""
+"Evet, hata bildirimleri size yardım etmek için buradalar.\n"
+"\n"
+"Onlara dikkatinizi verin, ve okuyup anlamak için elinizden gelenin en "
+"iyisini yapın. Deneyim kazandıkça, hata mesajlarının yardımıyla, kodunuzun "
+"güvenilir ve hatasız şekilde çalışmasını sağlamayı öğreneceksiniz."
 
 #: course/lesson-2-your-first-error/lesson.tres:92
 msgid "They're bad: error messages are always bad."
-msgstr ""
+msgstr "Onlar kötü: hata mesajları her zaman kötüdür."
 
 #: course/lesson-2-your-first-error/lesson.tres:92
 #: course/lesson-2-your-first-error/lesson.tres:93
 msgid "They're good: they're here to help."
-msgstr ""
+msgstr "Onlar iyi: bize yardım etmek için buradalar."
 
 #: course/lesson-2-your-first-error/lesson.tres:102
 msgid ""
 "Okay, let's see an error in action. Once again, click the [i]Practice[/i] "
 "button below to face your first real error."
 msgstr ""
+"Tamam, hadi bir hatayı iş başında izleyelim. Bir kez daha, aşağıdaki "
+"[i]Alıştırma[/i] düğmesine basın ve ilk gerçek hatanızla yüzleşin."
 
 #: course/lesson-2-your-first-error/lesson.tres:110
 msgid "Fix Your First Error"
-msgstr ""
+msgstr "İlk Hatanızı Düzeltin"
 
 #: course/lesson-2-your-first-error/lesson.tres:111
 msgid ""
@@ -130,11 +160,27 @@ msgid ""
 "Be careful not to remove the spacing before [code]return[/code]! Otherwise, "
 "that'll cause another error. You may try that too, if you feel like it."
 msgstr ""
+"Bu kod yanlış ve çalıştırmayı denerseniz bir hataya sebep olacak.\n"
+"\n"
+"Bu kod içerisinde, [code]this_code_is_wrong[/code] (anlamı \"bu kod hatalı\")"
+" isimli boş bir fonksiyonu tanımlıyor.\n"
+"\n"
+"Çalışması için, fonksiyonun [code]return[/code] kelimesini kullanması "
+"gerekiyor. Ama bu kelime, şu an için bir yorumun içinde ve bilgiayar bunu "
+"görmezden geliyor. (yorum satırı)\n"
+"\n"
+"Kodu, şu an ki bozuk haliyle denemek için [i]Çalıştır[/i] düğmesine basın.\n"
+"\n"
+"Sonra, kodu geçerli yapmak için yorum işaretini (#) silin.\n"
+"\n"
+"[code]return[/code] kelimesinden önceki boşlukları silmemeye dikkat edin! "
+"Aksi halde başka bir hataya sebep olursunuz. İsterseniz bunu da "
+"deneyebilirsiniz. (çn: bu dil satır başı boşluklarına duyarlı)."
 
 #: course/lesson-2-your-first-error/lesson.tres:131
 msgid "There's an error in this code. We need you to fix it!"
-msgstr ""
+msgstr "Bu kodun içinde bir hata var. Bunu düzeltmeni istiyoruz!"
 
 #: course/lesson-2-your-first-error/lesson.tres:135
 msgid "Your First Error"
-msgstr ""
+msgstr "İlk Hatan"
