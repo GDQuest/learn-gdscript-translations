@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-06-16 15:17+0000\n"
-"Last-Translator: Joel Gomes da Silva <joelgomes1994@hotmail.com>\n"
+"PO-Revision-Date: 2023-07-01 12:52+0000\n"
+"Last-Translator: Deolindo <deolindojvn@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-7-member-variables/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-7-member-variables/lesson.tres:14
@@ -161,7 +161,6 @@ msgid "Accessing sub-variables with the dot"
 msgstr "Acessando sub-variáveis com o sinal de ponto final"
 
 #: course/lesson-7-member-variables/lesson.tres:130
-#, fuzzy
 msgid ""
 "In video games, you will see many member variables that have sub-values.\n"
 "\n"
@@ -240,9 +239,8 @@ msgstr ""
 "computador também: o eixo y é positivo descendo."
 
 #: course/lesson-7-member-variables/lesson.tres:194
-#, fuzzy
 msgid "Why does the Y-axis point downwards?"
-msgstr "Nos jogos, o eixo Y é positivo quando ele vai para baixo"
+msgstr "Por que o eixo Y aponta para baixo?"
 
 #: course/lesson-7-member-variables/lesson.tres:196
 msgid ""
@@ -388,7 +386,6 @@ msgid "Draw squares at different positions"
 msgstr "Desenhe quadrados em diferentes posições"
 
 #: course/lesson-7-member-variables/lesson.tres:281
-#, fuzzy
 msgid ""
 "Draw three squares of size 100 by 100 that are 100 pixels apart on the "
 "horizontal axis. In other words, there should be a 100-pixel gap between two "
@@ -407,7 +404,7 @@ msgid ""
 "Use the provided [code]draw_rectangle()[/code] function to draw each square."
 msgstr ""
 "Desenhe três quadrados de tamanho 100 por 100, separados por 100 pixels no "
-"eixo horizontal. Em outras palavras, deve haver uma lacuna de 100 pixels "
+"eixo horizontal. Em outras palavras, deve haver um espaço de 100 pixels "
 "entre os dois quadrados.\n"
 "\n"
 "Você deve desenhar os quadrados começando na posição (100, 100). Isso "
@@ -418,7 +415,9 @@ msgstr ""
 "alterar o valor de uma variável, como a posição da tartaruga.\n"
 "\n"
 "Escreva seu código dentro da função [code]run()[/code] para que o computador "
-"possa reconhecer o código."
+"possa reconhecer o código.\n"
+"\n"
+"Use a função [code]draw_rectangle()[/code] para desenhar cada quadrado."
 
 #: course/lesson-7-member-variables/lesson.tres:299
 msgid ""
