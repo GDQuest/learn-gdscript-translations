@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-07-04 19:52+0000\n"
+"PO-Revision-Date: 2023-07-05 21:52+0000\n"
 "Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-4-drawing-a-rectangle/tr/>\n"
@@ -109,7 +109,7 @@ msgstr ""
 "45 derece sağa dönmek için, [code]turn_right(45)[/code] yazmalısın.\n"
 "\n"
 "Eğer [code]turn_right(45)[/code] çağrısını kullanırsak, kaplumbağa, sonraki "
-"talimata geçmeden önce, 45 derece sağa dönecektir"
+"talimata geçmeden önce, 45 derece sağa dönecektir."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:102
 msgid ""
@@ -126,7 +126,7 @@ msgstr ""
 "Aşağıdaki örnei anlamaya çalışın.\n"
 "\n"
 "Sıradaki alıştırmada, yukarıda gördüğümüz fonksiyonları kullanarak önce bir "
-"köşe çizecek, sonra buna benzer bir dörtgen oluşturacağız."
+"köşe çizecek, sonra buna benzer bir dikdörtgen oluşturacağız."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
 msgid "In the function call below, which part is the argument?"
@@ -134,7 +134,6 @@ msgstr ""
 "Aşağıdaki fonksiyon çağrısında, hangisi bir girdi değişkenidir (argüman)?"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
-#, fuzzy
 msgid "[code]move_forward(30)[/code]"
 msgstr "[code]move_forward(30)[/code]"
 
@@ -153,7 +152,7 @@ msgstr ""
 "durumda, elimizde sadece bir tane var, ama virgül ile ayrılmış bir çoğu "
 "olabilirdi.\n"
 "\n"
-"Bu durum için, [code]move_forward[/code] fonksiyonun ismi,  [code]30[/code] "
+"Bu durum için, [code]move_forward[/code] fonksiyonun ismi, [code]30[/code] "
 "ise girdi değişkenidir.\n"
 "\n"
 "Bu fonksiyon çağrısı, kaplumbağanın [code]30[/code] benek kadar ileri "
@@ -161,17 +160,16 @@ msgstr ""
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 msgid "move_forward"
-msgstr "move_forward (hareket_et_ileri)"
+msgstr "move_forward"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:133
-#, fuzzy
 msgid "30"
 msgstr "30"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:140
 msgid "Drawing a Corner"
-msgstr ""
+msgstr "Bir Köşe Çizmek"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:141
 msgid ""
@@ -195,17 +193,37 @@ msgid ""
 "rectangles.\n"
 "\n"
 msgstr ""
+"Bu alıştırmada, kaplumbağaya bir köşe çizmesini söyleyeceğiz.\n"
+"\n"
+"Bu köşe, [code]200[/code] benek uzunluğundaki iki çizgiden oluşuyor. "
+"Çizgiler birbirlerine birer uçlarından [code]90[/code] derecelik açı ile ("
+"dik açı) ile bağlılar.\n"
+"\n"
+"Sağdaki [code]move_forward()[/code] ve [code]turn_right()[/code] "
+"fonksiyonları bir köşe çizecekler, ama girdi değişkenleri eksik durumda.\n"
+"\n"
+"Kablumbağanın ileriye [code]200[/code] benek gitmesi, sağa [code]90[/code] "
+"derece dönmesi, ve sonra tekrar [code]200[/code] benek ilerlemesi için, "
+"eksik olan girdi değişkenlerini ekleyin.\n"
+"\n"
+"İlk girdi değişekeni sizin için biz ekledik, bu sayede kaplumbağa "
+"[code]200[/code] benek ileri gidecektir.\n"
+"\n"
+"Sıradaki alıştırmalarda, dikdörtgenler çizmek için çoklu köşeler çizeceğiz.\n"
+"\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:165
 msgid ""
 "Use the turtle to draw a square's corner. You'll then build upon it to draw "
 "a rectangle."
 msgstr ""
+"Kaplumbağayı kullanarak karenin bir köşesini çizin. Sonra aynı şeklide devam "
+"edip bir dikdörtgen çizeceksiniz."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:170
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:218
 msgid "Drawing a Rectangle"
-msgstr ""
+msgstr "Bir Dikdörtgen Çiz"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:171
 msgid ""
@@ -218,15 +236,24 @@ msgid ""
 "In the next practice, you'll use the same functions to draw a bigger "
 "rectangle."
 msgstr ""
+"[code]move_forward()[/code] ve [code]turn_right()[/code] fonksiyonlarına "
+"doğru değerleri girerek, genişliği [code]200[/code] benek ve yüksekliği "
+"[code]120[/code] benek olan bir dikdörtgen çizin.\n"
+"\n"
+"İlk girdi değişkenini sizin için yazdık.\n"
+"\n"
+"Sıradaki alıştırmada, aynı fonksiyonları kullanarak daha büyük bir "
+"dikdörtgen çizeceksiniz."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:191
 msgid ""
 "Based on your rectangle corner, you now need to draw a complete rectangle."
 msgstr ""
+"Dikdörtgenin köşesinden yola çıkarak, şimdi dikdörtgenin tamamını çizmelisin."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:196
 msgid "Drawing a Bigger Rectangle"
-msgstr ""
+msgstr "Daha Büyük bir Dikdörtgen Çizmek"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:197
 msgid ""
@@ -241,9 +268,22 @@ msgid ""
 "Every line should start with one [code]Tab[/code] character so the computer "
 "understands it's part of the [code]draw_rectangle()[/code] function."
 msgstr ""
+"[code]move_forward()[/code] and [code]turn_right()[/code] fonksiyonlarına "
+"gerekli çağrıları yaparak, genişliği 220 benek ve yüksekliği 260 benek olan "
+"bir dikdörtgen çizin.\n"
+"\n"
+"İlk iki sizin satırı biz yazdık.\n"
+"\n"
+"Her bir talimatı ayrı satırda yazdığınızdan emin olun.\n"
+"\n"
+"Bilgisayarın, yazdığınız kodun [code]draw_rectangle()[/code] fonksiyonunun "
+"parçası olduğunu anlaması için, satırın başında bir [code]Sekme[/code] "
+"karakteri olmalı (genelde en solda üstünde iki yönlü ok olan tuş)."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:214
 msgid ""
 "At this point, you're ready to code entirely on your own. Call functions by "
 "yourself to draw a complete rectangle."
 msgstr ""
+"Bu noktada, artık tamamen kendi başınıza kodlama yapabilecek kadar "
+"hazırsınız. Tam bir dikdörtgen çizmek için, fonksiyonları kendiniz çağırın."
