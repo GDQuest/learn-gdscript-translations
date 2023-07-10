@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-11 00:13+0000\n"
+"Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-12-using-variables/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-12-using-variables/lesson.tres:14
@@ -25,27 +28,30 @@ msgid ""
 "\n"
 "Take a look at this example."
 msgstr ""
+"Bu derste, kodumuzu takip etmeyi ve bir bakışta anlamayı kolaylaştıracağız.\n"
+"\n"
+"Bu örneğe bir göz at."
 
 #: course/lesson-12-using-variables/lesson.tres:34
 msgid "In the above example, what does the number 4 mean?"
-msgstr ""
+msgstr "Yukarıdaki örnekte, 4 sayısı ne anlama geliyor?"
 
 #: course/lesson-12-using-variables/lesson.tres:37
 msgid "The code above rotates the character [code]4[/code] radians per second."
-msgstr ""
+msgstr "Yukarıdaki kod, karakterini saniyede [code]4[/code] radyan döndürür."
 
 #: course/lesson-12-using-variables/lesson.tres:38
 #: course/lesson-12-using-variables/lesson.tres:39
 msgid "It's how fast the character rotates."
-msgstr ""
+msgstr "Karakterin ne kadar hızlı döndüğüdür."
 
 #: course/lesson-12-using-variables/lesson.tres:38
 msgid "It's how far the character moves in pixels."
-msgstr ""
+msgstr "Karakterin, piksel cinsinden ne kadar uzağa hareket ettiğidir."
 
 #: course/lesson-12-using-variables/lesson.tres:38
 msgid "It's how long the rotation takes."
-msgstr ""
+msgstr "Dönme hareketinin ne kadar sürdüğüdür."
 
 #: course/lesson-12-using-variables/lesson.tres:48
 msgid ""
@@ -56,6 +62,12 @@ msgid ""
 "We've seen how different functions have their own names. Using these "
 "names communicates to developers what the functions do."
 msgstr ""
+"Fonksiyon isimlerine bakarak, bir sayının neyi temsil ettiğini tahmin "
+"edebiliriz, ancak koda hızlıca bakarak bu sayının ne işe yaradığını "
+"hatırlamak oldukça zordur.\n"
+"\n"
+"Farklı fonksiyonların nasıl kendi isimleri olduğunu gördük. Bu isimleri "
+"kullanmak, geliştiricilere fonksiyonların ne yaptığını bildirir."
 
 #: course/lesson-12-using-variables/lesson.tres:70
 msgid ""
@@ -69,41 +81,58 @@ msgid ""
 "\n"
 "Let's recap how to define a variable."
 msgstr ""
+"Ders 8'de öğrendiğimiz gibi, ne işe yaradıklarını hatırlamamıza yardımcı "
+"olması için sayılara da etiketler atayabiliriz.\n"
+"\n"
+"Bu etiketlere, [i]değişkenler[/i] diyoruz.\n"
+"\n"
+"[b]Değişken, bir değer için kaydedebileceğimiz, değiştirebileceğimiz ve daha "
+"sonra okuyabileceğimiz bir etikettir.[/b]\n"
+"\n"
+"Bir değişkenin nasıl tanımlanacağını özetleyelim."
 
 #: course/lesson-12-using-variables/lesson.tres:96
 msgid ""
 "We improve the first example to make it clear what the number "
 "[code]4[/code] does."
 msgstr ""
+"İlk örneğimizi, [code]4[/code] sayısının ne işe yaradığını netleştirmek için "
+"geliştirelim."
 
 #: course/lesson-12-using-variables/lesson.tres:116
 msgid ""
 "Labeling a value makes the code easier for us to read now [i]and[/i] in "
 "the future."
 msgstr ""
+"Bir değeri etiketlemek, kodu şimdi [i]ve[/i] gelecekte okumamızı "
+"kolaylaştırır."
 
 #: course/lesson-12-using-variables/lesson.tres:124
 msgid "In the above example, which line defines the angular speed variable?"
 msgstr ""
+"Yukarıdaki örnekte, hangi satır açısal hız değişkenini (angular speed) "
+"tanımlıyor?"
 
 #: course/lesson-12-using-variables/lesson.tres:127
 msgid ""
 "We create the [code]angular_speed[/code] variable, then assign it the "
 "value of [code]4[/code]."
 msgstr ""
+"Önce [code]angular_speed[/code] değişkenini oluşturup, sonra bu değişkene "
+"[code]4[/code] değerini atıyoruz."
 
 #: course/lesson-12-using-variables/lesson.tres:128
 #: course/lesson-12-using-variables/lesson.tres:129
 msgid "var angular_speed = 4"
-msgstr ""
+msgstr "var angular_speed = 4"
 
 #: course/lesson-12-using-variables/lesson.tres:128
 msgid "func _process(delta):"
-msgstr ""
+msgstr "func _process(delta):"
 
 #: course/lesson-12-using-variables/lesson.tres:128
 msgid "rotate(angular_speed * delta)"
-msgstr ""
+msgstr "rotate(angular_speed * delta)"
 
 #: course/lesson-12-using-variables/lesson.tres:138
 msgid ""
@@ -117,6 +146,17 @@ msgid ""
 "the [code]_process()[/code] function and the "
 "[code]set_angular_speed()[/code] function."
 msgstr ""
+"Eğer değişkenleri, fonksiyonların dışında tanımlarsak, onları farklı "
+"fonksiyonlarda tekrar kullanabiliriz.\n"
+"\n"
+"Herhangi bir fonksiyon, kendisinin dışında tanımladığımız değişkenleri "
+"kullanabileceği için, bu değişkenlere [b]betik-genelinde (script-wide)[/b] "
+"adını veriyoruz.\n"
+"\n"
+"Burada hem [code]_process()[/code] fonksiyonunda hem de "
+"[code]set_angular_speed()[/code] (ayarla_açısal_hız) fonksiyonunda, "
+"[code]angular_speed[/code] (açısal_hız) isimli betik-genelinde değişkenini "
+"kullanıyoruz."
 
 #: course/lesson-12-using-variables/lesson.tres:162
 msgid ""
@@ -128,6 +168,14 @@ msgid ""
 "If we define a variable inside of a function, only that function can use "
 "it."
 msgstr ""
+"Değişkenleri, fonksiyonların içinde de tanımlayabiliriz.\n"
+"\n"
+"Değişken atamasını fonksiyon gövdesinin bir parçası haline getirmek için, "
+"girinti yaparak hizalıyoruz. Kullanmadan önce değişkeni oluşturduğundan emin "
+"ol!\n"
+"\n"
+"Bir değişkeni, bir fonksiyonun içinde tanımlarsak, bunu yalnızca o fonksiyon "
+"kullanabilir."
 
 #: course/lesson-12-using-variables/lesson.tres:186
 msgid ""
@@ -139,10 +187,17 @@ msgid ""
 "\n"
 "Here's what this error might look like."
 msgstr ""
+"[code]angular_speed[/code] değişkeni, yalnızca [code]_process()[/code] "
+"içerisinde mevcuttur, çünkü onu orada tanımladık. "
+"[code]set_angular_speed()[/code] fonksiyonu bunu kullanamaz.\n"
+"\n"
+"Orada kullanmaya çalışmak bir hatayla sonuçlanacaktır.\n"
+"\n"
+"Bu hata şu şekilde görünebilir."
 
 #: course/lesson-12-using-variables/lesson.tres:208
 msgid "Where can we define variables?"
-msgstr ""
+msgstr "Değişkenleri nerede tanımlayabiliriz?"
 
 #: course/lesson-12-using-variables/lesson.tres:211
 msgid ""
@@ -152,16 +207,21 @@ msgid ""
 "If we define a variable inside of a function, only that function can use "
 "it."
 msgstr ""
+"Fonksiyonlar, fonksiyonların dışında tanımlanan değişkenleri kullanabilir. "
+"Bu değişkenler [b]betik-genelinde[/b]dir.\n"
+"\n"
+"Bir fonksiyonun içinde bir değişken tanımlarsak, bunu yalnızca o fonksiyon "
+"kullanabilir."
 
 #: course/lesson-12-using-variables/lesson.tres:214
 #: course/lesson-12-using-variables/lesson.tres:215
 msgid "Outside of functions."
-msgstr ""
+msgstr "Fonksiyonların dışında."
 
 #: course/lesson-12-using-variables/lesson.tres:214
 #: course/lesson-12-using-variables/lesson.tres:215
 msgid "Inside of functions."
-msgstr ""
+msgstr "Fonksiyonların içinde."
 
 #: course/lesson-12-using-variables/lesson.tres:224
 msgid ""
@@ -170,16 +230,23 @@ msgid ""
 "\n"
 "Grouping them in this way allows us to easily change them."
 msgstr ""
+"Değişkenler, bir karakterin nasıl davranacağını kontrol eden değerleri "
+"gruplamak için de harikadır.\n"
+"\n"
+"Bu şekilde gruplandırmak, bunları kolayca değiştirebilmemizi sağlar."
 
 #: course/lesson-12-using-variables/lesson.tres:246
 msgid ""
 "In the following practices, we'll define variables and use them with some"
 " familiar functions to make our code more readable."
 msgstr ""
+"Sıradaki uygulamalarda, kodumuzu daha okunabilir hale getirmek için, "
+"değişkenler tanımlayacak ve bunları bazı tanıdık fonksiyonlarla birlikte "
+"kullanacağız."
 
 #: course/lesson-12-using-variables/lesson.tres:254
 msgid "Clarifying Code Using Variables"
-msgstr ""
+msgstr "Değişkenler Kullanarak Kodu Netleştirmek"
 
 #: course/lesson-12-using-variables/lesson.tres:255
 msgid ""
@@ -191,16 +258,26 @@ msgid ""
 "\n"
 "Then, replace the [code]4[/code] with [code]angular_speed[/code]."
 msgstr ""
+"Buradaki [code]4[/code] sayısına bir etiket verelim ki ne işe yaradığını "
+"bilelim.\n"
+"\n"
+"Betik-genelinde olması için [code]_process()[/code] fonksiyonunun dışında "
+"[code]angular_speed[/code] (açısal_hız) adında bir değişken oluştur. Bu, onu "
+"diğer fonksiyonlarda da kullanmamızı sağlar.\n"
+"\n"
+"Ardından, [code]4[/code] değerini [code]angular_speed[/code] ile değiştir."
 
 #: course/lesson-12-using-variables/lesson.tres:269
 msgid ""
 "Using variables to store number values makes code easier to read. Tidy up"
 " this function by storing a value in a variable."
 msgstr ""
+"Sayısal değerleri saklamak için değişkenleri kullanmak kodun okunmasını "
+"kolaylaştırır. Bir değeri bir değişkende saklayarak bu fonksiyonu düzelt."
 
 #: course/lesson-12-using-variables/lesson.tres:274
 msgid "Fixing an Out of Scope Error"
-msgstr ""
+msgstr "Bir Kapsam Dışı (Out of Scope) Hatasını Düzeltmek"
 
 #: course/lesson-12-using-variables/lesson.tres:275
 msgid ""
@@ -210,11 +287,16 @@ msgid ""
 "\n"
 "Correct the code so it works as intended."
 msgstr ""
+"Buradaki kodda bir sorun var. Ne olduğunu görebiliyor musun?\n"
+"\n"
+"Kodu çalıştır ve hatayı oku. (Açıkla tuşunu kullanabilirsin)\n"
+"\n"
+"Amaçlandığı gibi çalışması için kodu düzelt."
 
 #: course/lesson-12-using-variables/lesson.tres:293
 msgid "Uh oh! There's something wrong here. Can you fix it?"
-msgstr ""
+msgstr "Eyvah! Burada bir sorun var. Düzeltebilir misin?"
 
 #: course/lesson-12-using-variables/lesson.tres:297
 msgid "Using Variables to Make Code Easier to Read"
-msgstr ""
+msgstr "Kodu Kolay Okunur Yapmak için Değişkenleri Kullanmak"
