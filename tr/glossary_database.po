@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-07-04 12:52+0000\n"
+"PO-Revision-Date: 2023-07-10 17:11+0000\n"
 "Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/glossary_database/tr/>\n"
@@ -86,12 +86,12 @@ msgstr ""
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameter"
-msgstr "değişken, alınan değişken, parametre"
+msgstr "alınan değişken, parametre"
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameters"
-msgstr "değişkenler, alınan değerler, parametreler"
+msgstr "Alınan değişkenler, Parametreler"
 
 #. Reference: parameter
 #: course/glossary.csv:12
@@ -101,7 +101,7 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in the "
 "function's body."
 msgstr ""
-"Bir alınan değişken (parametre) bir fonksiyonun tanımının parçası olarak "
+"Bir alınan değişken (parametre), bir fonksiyonun tanımının parçası olarak "
 "oluşturulan bir değişkendir.\n"
 "\n"
 "Bu bize, fonksiyon içinde değişebilen farklı değerler ile fonksiyonu farklı "
@@ -172,7 +172,7 @@ msgstr "yineleme"
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iterations"
-msgstr "tekrarlamalar"
+msgstr "yinelemeler"
 
 #. Reference: iteration
 #: course/glossary.csv:23
@@ -229,12 +229,12 @@ msgstr ""
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "argument"
-msgstr "girilen değişken, verilen değer, argüman"
+msgstr "girilen değişken, argüman"
 
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "arguments"
-msgstr "girilen değişkenler, verilen değerler, argümanlar"
+msgstr "girilen değişkenlerler, argümanlar"
 
 #. Reference: argument
 #: course/glossary.csv:37
@@ -257,7 +257,7 @@ msgid ""
 "[code]y[/code] are [i]parameters[/i]."
 msgstr ""
 "Bir girilen değişken (argüman), bir fonksiyonu çağırırken, fonksiyona "
-"girdiğiniz değerlerdir. Örneğin, [code]rotate(0.5)[/code] çağırmasında, "
+"girdiğin değerlerdir. Örneğin, [code]rotate(0.5)[/code] çağırmasında, "
 "parantez içindeki [code]0.5[/code] değeri bir girilen değişkendir.\n"
 "\n"
 "Bir fonksiyon hiç bir değer almayabileceği gibi, tek bir değer yada çoklu "
@@ -268,7 +268,7 @@ msgstr ""
 "mesela bu çağrıda olduğu gibi [code]jump(50, 100)[/code]\n"
 "\n"
 "Bir fonksiyonu [i]çağırırken[/i], parantez içine girdiğimiz değerlere [i]"
-"girilen değişken (verilen değer, argüman)[/i] ismini veriyoruz.\n"
+"girilen değişken (argüman)[/i] ismini veriyoruz.\n"
 "\n"
 "Buna karşılık, bir fonksiyon tanımı yazarken, fonksiyonun [i]alınan "
 "değişkenleri (parameterler)[/i]'nden bahsederiz. Sıradaki örnekte, "
@@ -304,7 +304,7 @@ msgstr ""
 "tipini taşıyabilir.\n"
 "\n"
 "Bir dizi oluşturmak için, köşeli parantez içinde virgülle-ayrılmış değerler "
-"yazarsınız: [code]var three_numbers = [1, 2, 3][/code]\n"
+"yazarsın: [code]var three_numbers = [1, 2, 3][/code]\n"
 "\n"
 "Oyunlarda, dizileri sürekli kullanırız; bir takımdaki karakterleri "
 "listelemek, envanterdeki öğeleri nlistelesini tutmak, oyuncunun kilidini "
@@ -312,7 +312,7 @@ msgstr ""
 "yerdeler.\n"
 "\n"
 "Diziler, bilgisayar programcılığının en temel değer tiplerinden biridir. "
-"Dizileri, belkide her tür programlama dilinde bulabilirsiniz."
+"Dizileri, belkide her tür programlama dilinde bulabilirsin."
 
 #. Reference: assign
 #: course/glossary.csv:45
@@ -326,7 +326,7 @@ msgid ""
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
 "Bir değeri bir değişkene atamak demek, bu değeri değişkenin içinde tutmak "
-"demektir. Bunun için eşitlik işareti ([code]=[/code]) kullanırsınız."
+"demektir. Bunun için eşitlik işareti ([code]=[/code]) kullanırsın."
 
 #. Reference: dictionary
 #: course/glossary.csv:52
@@ -358,21 +358,20 @@ msgid ""
 "programming languages and use a lot."
 msgstr ""
 "Bir sözlük, değerleri, anahtar-değer çifti şeklinde haritalayan veri "
-"yapılarıdır. Bir sözlüğe bir anahtar verdiğinizde, karşılık olarak size, "
+"yapılarıdır. Bir sözlüğe bir anahtar verdiğinde, karşılık olarak sana, "
 "eşleşen değeri bulup geri döndürür.\n"
 "\n"
 "GDScript'te, anahtarlar bir çok şey olabilir. Genellikle yazı dizeleri yada "
-"numaralar kullanırız, ama bununla sınırlı değilsiniz. Bir "
-"[code]Vector2[/code] de geçerli anahtar olabilir; ızgara-temelli bir oyunda, "
-"bir ızgara hücresini bir birime yada bir öğeye haritalamak oldukça "
-"kullanışlı olur.\n"
+"numaralar kullanırız, ama bununla sınırlı değilsin. Bir [code]Vector2[/code] "
+"de geçerli anahtar olabilir; ızgara-temelli bir oyunda, bir ızgara hücresini "
+"bir birime yada bir öğeye haritalamak oldukça kullanışlı olur.\n"
 "\n"
 "Oyunlarınızdaki veri parçalarını ilişkilendirmek için sözlükleri sıklıkla "
-"kullanacaksınız. Örneğin, bir ekipmanın adını, onun veri tabanındaki silah "
+"kullanacaksın. Örneğin, bir ekipmanın adını, onun veri tabanındaki silah "
 "bilgileri ile ilişkilendirmek için kullanabiliriz.\n"
 "\n"
-"Sözlükler, diziler gibi, bir çok programlama dilinde görebileceğiniz ve "
-"sıklıkla kullanacağınız en temel veri tiplerinden biridir."
+"Sözlükler, diziler gibi, bir çok programlama dilinde görebileceğin ve "
+"sıklıkla kullanacağın en temel veri tiplerinden biridir."
 
 #. Reference: for loop
 #: course/glossary.csv:59
@@ -410,8 +409,8 @@ msgstr ""
 "bir kere. Bu döngü tipi, belli bir şart sağlanana kadar tekrar eden while "
 "döngüsünden farklıdır.\n"
 "\n"
-"Mümkün oldukça for döngülerini tercih etmenizi öneririz. Hem daha güvenli "
-"hem de kullanımı while döngülerinden kolaydır."
+"Mümkün oldukça for döngülerini tercih etmeni öneririz. Hem daha güvenli hem "
+"de kullanımı while döngülerinden kolaydır."
 
 #. Reference: function
 #: course/glossary.csv:64
@@ -436,14 +435,14 @@ msgid ""
 "\n"
 "Also, functions can optionally return a value to the code calling it."
 msgstr ""
-"Bir fonksiyon, bir isim altında topladığınız bir grup kod talimatlarıdır. "
-"Bir fonksiyon tanımladığınızda, içindeki tüm talimatları çalıştırmak için ne "
-"zaman isterseniz çağırabilirsiniz.\n"
+"Bir fonksiyon, bir isim altında topladığın bir grup kod talimatlarıdır. Bir "
+"fonksiyon tanımladığında, içindeki tüm talimatları çalıştırmak için ne zaman "
+"istersen çağırabilirsin.\n"
 "\n"
 "Bir fonksiyonun davranışını, alınan değişkenler (parametreler) ile "
-"değiştirebilirsiniz. Bunlar fonksiyon tanımında yazdığınız değişken "
-"isimleridir. Bunları fonksiyon içinde, kodunuzu farklı durumlara uyarlamak "
-"için kullanabilirsiniz.\n"
+"değiştirebilirsin. Bunlar fonksiyon tanımında yazdığın değişken isimleridir. "
+"Bunları fonksiyon içinde, kodunuzu farklı durumlara uyarlamak için "
+"kullanabilirsin.\n"
 "\n"
 "Ayrıca fonksiyonlar, isteğe bağlı olarak, geriye değer döndürebilirler."
 
@@ -460,7 +459,7 @@ msgstr "artışlar"
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "An increment is the amount by which a value changes in your code."
-msgstr "Bir artış, kodunuzdaki bir değerin değişme miktarıdır."
+msgstr "Bir artış, kodundaki bir değerin değişme miktarıdır."
 
 #. Reference: instruction
 #: course/glossary.csv:68
@@ -516,23 +515,22 @@ msgid ""
 "that you attach to some value. Any time, you can take the label and stick it "
 "onto a new product or, in that case, a new value."
 msgstr ""
-"Değişkenler, kodunuzun içinde saklamak istediğiniz ve zamanla değişen "
-"değerlere isim vermeye yarayan araçlardır.\n"
+"Değişkenler, kodunun içinde saklamak istediğin ve zamanla değişen değerlere "
+"isim vermeye yarayan araçlardır.\n"
 "\n"
 "Örneğin, bir karakterin sağlığı: karakter hasar aldığında, sağlığın "
-"azalmasını istersiniz. İyileşme durumunda, sağlığın tekrar artmasını "
-"istersiniz.\n"
+"azalmasını istersin. İyileşme durumunda, sağlığın tekrar artmasını istersin."
+"\n"
 "\n"
 "Sağlığı temsil etmesi için [code]health[/code](sağlık) isminde bir değişken "
-"oluşturabilirsiniz.\n"
+"oluşturabilirsin.\n"
 "\n"
-"Bundan sonra kodunuzda, ne zaman klavyenizden [code]health[/code] "
-"yazarsanız, bilgisayar hafızasında karşılık gelen değeri sizin için bulup "
-"getirecektir.\n"
+"Bundan sonra kodunuzda, ne zaman klavyeden [code]health[/code] yazarsan, "
+"bilgisayar hafızasında karşılık gelen değeri senin için bulup getirecektir.\n"
 "\n"
 "Değişkenler, süper marketlerdeki ürün etiketlerine biraz benzer. Bir değere "
-"iliştirdiğiniz isimlerdir. Herhangi bir zamanda, etiketi çıkartıp başka bir "
-"ürüne, yada bu durumda yeni bir değere, yapıştırabilirsiniz."
+"iliştirdiğimiz isimlerdir. Herhangi bir zamanda, etiketi çıkartıp başka bir "
+"ürüne, yada bu durumda yeni bir değere, yapıştırabilirsin."
 
 #. Reference: while loop
 #: course/glossary.csv:84
@@ -561,13 +559,13 @@ msgstr ""
 "Bir while döngüsü bilgisayara, bir şarta bağlı olarak kodu sürekli "
 "çalıştırmasını emreder. Eğer şart geçerli ise, döngü sonsuza kadar çalışır.\n"
 "\n"
-"while döngüllerini kodlarken dikkatli olmanı gerekir: eğer şartı yanış "
-"seçerseniz, döngü sonsuza kadar çalışır ve bilgisayarınız donar.\n"
+"while döngüllerini kodlarken dikkatli olman gerekir: eğer şartı yanlış "
+"seçersen, döngü sonsuza kadar çalışır ve bilgisayarın donar.\n"
 "\n"
-"Münkün olduğunca daha güvenli olan for döngüsünü kullanmanızı önerme "
-"sebebimiz bu yüzdendir.\n"
+"Münkün olduğunca daha güvenli olan for döngüsünü kullanmanı önerme sebebimiz "
+"bu yüzdendir.\n"
 "\n"
-"Yine de, while döngülerini kullanmanızın çok gerekli olduğu durumlar da var; "
+"Yine de, while döngülerini kullanmanın çok gerekli olduğu durumlar da var; "
 "dosyaları işlemek, bilgisayar kodu işletmek, ya da güçlü algoritmalar yazmak."
 
 #. Reference: body
@@ -587,7 +585,7 @@ msgstr ""
 #. Reference: return
 #: course/glossary.csv:88
 msgid "return"
-msgstr "return (geri dönüş)"
+msgstr "geri döndürme (return)"
 
 #. Reference: return
 #: course/glossary.csv:88
@@ -598,7 +596,7 @@ msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed by "
 "a value, for example: [code]return -1[/code]."
 msgstr ""
-"Bir değeri geri döndürmek, bir fonksiyonu çağırdığınız noktaya bir değer "
+"Bir değeri geri döndürmek, bir fonksiyonu çağırdığın noktaya bir değer "
 "döndürme işlemidir.\n"
 "\n"
 "Bunun için bir fonksiyon [code]return[/code] kelimesinden sonra bir değer "
@@ -620,9 +618,9 @@ msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
-"Diğer programcılara zaman kazandırmak için bir araya toplanmış, değerli ve "
-"tekrar kullanılabilir kod yığınlarıdır. Tüm programcılar kod kütüphaneleri "
-"kullanırlar."
+"Diğer programcılar tarafında, bize zaman kazandırmak için bir araya "
+"toplanmış, değerli ve tekrar kullanılabilir kod yığınlarıdır. Tüm "
+"programcılar kod kütüphaneleri kullanırlar."
 
 #. Reference: sprite
 #: course/glossary.csv:90

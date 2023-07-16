@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-12 10:50+0000\n"
+"Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-18-for-loops/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
@@ -27,6 +30,14 @@ msgid ""
 "\n"
 "The loop below never ends because we never increment [code]number[/code]."
 msgstr ""
+"Son derste, [code]while[/code] döngülerine bakmıştık. Kodu kaç kez "
+"tekrarlamamız gerektiğini bilmediğimiz durumlarda yararlı olduklarını "
+"gördük. \n"
+"\n"
+"Ancak, dikkatli olmazsak sonsuz döngülere neden olabiliyorlar.\n"
+"\n"
+"Aşağıdaki döngü asla sona ermez çünkü [code]number[/code] değişkenini "
+"arttırmıyoruz."
 
 #: course/lesson-18-for-loops/lesson.tres:38
 msgid ""
@@ -42,14 +53,28 @@ msgid ""
 "\n"
 "The loop below will change the [code]cell[/code] three times."
 msgstr ""
+"Daha güvenli ve genellikle daha kolay bir döngü türü vardır: [code]for[/code]"
+" (... için) döngüsü.\n"
+"\n"
+"Bu derste buna bakacağız.\n"
+"\n"
+"[code]while[/code] döngülerinin aksine, [code]for[/code] döngüleri sonsuza "
+"kadar çalışmaz, bu nedenle oyununda hata oluşma olasılığı çok daha düşüktür. "
+"[b]Bu nedenle while döngüleri yerine for döngülerini tercih etmeni "
+"öneririz[/b].\n"
+"\n"
+"Yukarıdaki kodu, [code]for[/code] döngüsünü kullanacak şekilde değiştirelim."
+"\n"
+"\n"
+"Aşağıdaki döngü hücre değişkenini, [code]cell[/code], üç kez değiştirecektir."
 
 #: course/lesson-18-for-loops/lesson.tres:66
 msgid "Let's explain what's going on here."
-msgstr ""
+msgstr "Burada neler olduğunu açıklayalım."
 
 #: course/lesson-18-for-loops/lesson.tres:74
 msgid "The range() function"
-msgstr ""
+msgstr "range() fonksiyonu"
 
 #: course/lesson-18-for-loops/lesson.tres:76
 msgid ""
@@ -59,14 +84,21 @@ msgid ""
 "So calling [code]range(3)[/code] outputs the list of numbers [code][0, 1, 2]"
 "[/code], and [code]range(5)[/code] outputs [code][0, 1, 2, 3, 4][/code]."
 msgstr ""
+"Godot, [code]range()[/code] yardımcı fonksiyonu ile gelir. "
+"[code]range(n)[/code] çağrısı, [code]0[/code] ile [code]n - 1[/code] "
+"arasında tam sayılardan oluşan bir liste oluşturur.\n"
+"\n"
+"Yani, [code]range(3)[/code] çağrısı [code][0, 1, 2][/code] sayı listesi, ve "
+"[code]range(5)[/code] çağrısı [code][0, 1, 2, 3, 4][/code] sayı listesi "
+"çıktılarını verir."
 
 #: course/lesson-18-for-loops/lesson.tres:86
 msgid "What list of numbers would range(6) create?"
-msgstr ""
+msgstr "range(6) hangi sayı listesini oluşturur?"
 
 #: course/lesson-18-for-loops/lesson.tres:87
 msgid "What would [code]print(range(6))[/code] print to the console?"
-msgstr ""
+msgstr "[code]print(range(6))[/code] çağrısı, ekrana ne yazdırırdı?"
 
 #: course/lesson-18-for-loops/lesson.tres:89
 msgid ""
@@ -77,23 +109,29 @@ msgid ""
 "So calling [code]range(6)[/code] will output a list of six numbers which are "
 "[code][0, 1, 2, 3, 4, 5][/code].\n"
 msgstr ""
+"[code]range(n)[/code] fonksiyonu, [code]0[/code] ile [code]n - 1[/code] "
+"arasında bir sayı listesi oluşturur. Çıktı listesi [code]0[/code] ile "
+"başlayacak ve [code]5[/code] ile bitecektir.\n"
+"\n"
+"Bu nedenle [code]range(6)[/code] çağrısı, [code][0, 1, 2, 3, 4, 5][/code] "
+"şeklinde altı sayıdan oluşan bir liste çıktısı verecektir.\n"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 #: course/lesson-18-for-loops/lesson.tres:94
 msgid "[0, 1, 2, 3, 4, 5]"
-msgstr ""
+msgstr "[0, 1, 2, 3, 4, 5]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 msgid "[1, 2, 3, 4, 5, 6]"
-msgstr ""
+msgstr "[1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 msgid "[0, 1, 2, 3, 4, 5, 6]"
-msgstr ""
+msgstr "[0, 1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:101
 msgid "How for loops work"
-msgstr ""
+msgstr "for döngüleri nasıl çalışır"
 
 #: course/lesson-18-for-loops/lesson.tres:103
 msgid ""
@@ -101,6 +139,9 @@ msgid ""
 "stores it in a temporary variable, and executes the code in the loop once "
 "per value."
 msgstr ""
+"Bir [code]for[/code] döngüsünde, bilgisayar bir liste içindeki her değeri "
+"alır, geçici bir değişkende saklar ve döngüdeki kodu değer başına bir kez "
+"çalıştırır."
 
 #: course/lesson-18-for-loops/lesson.tres:123
 msgid ""
@@ -115,6 +156,16 @@ msgid ""
 "\n"
 "This code behaves the same as the previous example:"
 msgstr ""
+"Yukarıdaki örnekte Godot, [code][0, 1, 2][/code] listesindeki her bir öğe "
+"için, [code]number[/code] (sayı) değişkenini o öğeye ayarlar, ve ardından "
+"[code]for[/code] döngüsündeki kodu çalıştırır.\n"
+"\n"
+"Dizileri bir sonraki derste daha ayrıntılı olarak açıklayacağız, ancak "
+"[code]number[/code] değişkeninin sadece geçici bir değişken olduğuna dikkat "
+"et. Onu, döngüyü tanımlarken oluşturursun, ve onun değerini değiştirmek "
+"döngünün görevi olur. Ayrıca, bu değişkene istediğin ismi verebilirsin.\n"
+"\n"
+"Bu kod, önceki örnekle aynı şekilde davranır:"
 
 #: course/lesson-18-for-loops/lesson.tres:147
 msgid ""
@@ -129,27 +180,44 @@ msgid ""
 "We can break down the instructions the loop runs. You can see how a loop is "
 "a shortcut to code that otherwise gets very long."
 msgstr ""
+"Her iki örnekte de, oluşturduğumuz geçici değişkenin değerini yazdırıyoruz: "
+"ilk örnekte [code]number[/code] (sayı) ve ikincisinde [code]element[/code] "
+"(öğe).\n"
+"\n"
+"Godot döngüyü yinelerken, dizinin her bir değerini o değişkene atar. İlk "
+"olarak değişkeni [code]0[/code], ardından [code]1[/code] ve son olarak "
+"[code]2[/code] olarak ayarlar.\n"
+"\n"
+"Döngünün çalıştırdığı talimatları parçalara ayırabiliriz. Bir döngünün, "
+"başka şekilde olsa çok uzun olacak bir kod için, bir kısayol olduğunu "
+"görebilirsin."
 
 #: course/lesson-18-for-loops/lesson.tres:171
 msgid ""
 "We can put whatever code we like in the loop's code block, including other "
 "function calls like [code]draw_rectangle()[/code]."
 msgstr ""
+"Döngünün kod gövdesine, [code]draw_rectangle()[/code] gibi diğer fonksiyon "
+"çağrıları da dahil olmak üzere, istediğimiz kodu koyabiliriz."
 
 #: course/lesson-18-for-loops/lesson.tres:179
 msgid "Using a for loop instead of a while loop"
-msgstr ""
+msgstr "while döngüsü yerine, for döngüsü kullanmak"
 
 #: course/lesson-18-for-loops/lesson.tres:181
 msgid ""
 "Here's our old [code]move_to_end()[/code] function which used a [code]while[/"
 "code] loop."
 msgstr ""
+"İşte bizim [code]while[/code] döngüsü kullanan eski "
+"[code]move_to_end()[/code] fonksiyonumuz."
 
 #: course/lesson-18-for-loops/lesson.tres:201
 msgid ""
 "If we use a [code]for[/code] loop instead, the code becomes a little simpler."
 msgstr ""
+"Eğer bunun yerine [code]for[/code] döngüsü kullanırsak, kod biraz daha basit "
+"hale gelir."
 
 #: course/lesson-18-for-loops/lesson.tres:221
 msgid ""
@@ -159,16 +227,23 @@ msgid ""
 "\n"
 "The function still works the same. You can execute it below."
 msgstr ""
+"Robotun tahtanın sonuna ulaşıp ulaşmadığını sürekli kontrol etmek yerine, "
+"[code]for[/code] döngüsü kullanarak, tahtanın genişliğini başlarken alıyor, "
+"ardından robotu belirli sayıda hareket ettiriyoruz.\n"
+"\n"
+"Fonksiyon hala aynı şekilde çalışmaktadır. Aşağıda çalıştırabilirsin."
 
 #: course/lesson-18-for-loops/lesson.tres:243
 msgid ""
 "In the practices, we'll use [code]for[/code] loops in different ways to get "
 "you used to using them."
 msgstr ""
+"Alıştırmalarda, [code]for[/code] döngülerini farklı şekillerde kullanarak "
+"bunları kullanmaya alışmanı sağlayacağız."
 
 #: course/lesson-18-for-loops/lesson.tres:251
 msgid "Using a for loop to move to the end of the board"
-msgstr ""
+msgstr "Tahtanın sonuna gitmek için bir for döngüsü kullanmak"
 
 #: course/lesson-18-for-loops/lesson.tres:252
 msgid ""
@@ -182,16 +257,29 @@ msgid ""
 "\n"
 "The robot's starting cell is [code]Vector2(2, 0)[/code]."
 msgstr ""
+"Robot, bir kez daha, tahtanın tepesinde durmaya karar verdi.\n"
+"\n"
+"Bu kez, tahtanın altına hareket etmesini sağlamak için "
+"[code]move_to_bottom()[/code] fonksiyonunda bir [code]for[/code] döngüsü "
+"kullan.\n"
+"\n"
+"Tahtanın boyutu, [code]Vector2[/code] tipindeki [code]board_size[/code] "
+"değişkeni tarafından belirleniyor.\n"
+"\n"
+"Robotun konumu olan\"cell\" değişkenin, başlangıç değeri olarak "
+"[code]Vector2(2, 0)[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:268
 msgid ""
 "Use a for loop to have our robot move from the top of the board to the "
 "bottom."
 msgstr ""
+"Robotumuzun tahtanın üstünden altına doğru hareket etmesini sağlamak için "
+"bir for döngüsü kullan."
 
 #: course/lesson-18-for-loops/lesson.tres:273
 msgid "Improving code with a for loop"
-msgstr ""
+msgstr "Kodu, bir for döngüsü ile iyileştirmek"
 
 #: course/lesson-18-for-loops/lesson.tres:274
 msgid ""
@@ -206,13 +294,26 @@ msgid ""
 "The turtle should draw three squares in a horizontal line. The squares "
 "should be 100 pixels apart."
 msgstr ""
+"[code]run()[/code] fonksiyonundaki tekrarlanan kodu kaldırmak için bir "
+"[code]for[/code] döngüsü kullan.\n"
+"\n"
+"Bu alıştırmada kaplumbağa ve dikdörtgen çizme konusunu tekrar ele alıyoruz.\n"
+"\n"
+"[code]for[/code] döngüleri hakkındaki yeni bilgilerimizle, bu kodu daha az "
+"yer kaplayacak ve daha kolay değiştirilebilecek şekilde kısaltabiliriz.\n"
+"\n"
+"Kaplumbağa yatay bir çizgide üç kare çizmelidir. Kareler 100 piksel aralıklı "
+"olmalıdır."
 
 #: course/lesson-18-for-loops/lesson.tres:297
 msgid ""
 "In the past we had to copy and paste code to draw multiple rectangles. Let's "
 "revisit previous code and improve it with a for loop."
 msgstr ""
+"Geçmişte, birden fazla dikdörtgen çizmek için kodu kopyalayıp yapıştırarak "
+"çoğaltmamız gerekiyordu. Önceki kodu tekrar gözden geçirelim ve bir for "
+"döngüsü ile geliştirelim."
 
 #: course/lesson-18-for-loops/lesson.tres:301
 msgid "Introduction to For Loops"
-msgstr ""
+msgstr "For Döngülerine Giriş"
