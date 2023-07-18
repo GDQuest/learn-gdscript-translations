@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-08-30 17:22+0000\n"
-"Last-Translator: Maximilian Schön <maxleonschoen@gmail.com>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/application/de/>\n"
+"PO-Revision-Date: 2023-07-19 16:05+0000\n"
+"Last-Translator: Marco <eddex@outlook.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/application/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: resources/QuizInputField.gd:17
@@ -51,11 +51,11 @@ msgstr "(kein Verlauf)"
 
 #: ui/UINavigator.tscn:103
 msgid "CHRISTMAS SALE - 50% OFF"
-msgstr ""
+msgstr "WEIHNACHTSAKTION - 50% RABATT"
 
 #: ui/UINavigator.tscn:163
 msgid "CHRISTMAS SALE"
-msgstr ""
+msgstr "WEIHNACHTSAKTION"
 
 #: ui/UIPractice.gd:154 ui/UIPractice.gd:220 ui/UIPractice.gd:144
 #: ui/UIPractice.gd:202
@@ -71,6 +71,7 @@ msgstr "Code wird validiert..."
 #, python-format
 msgid "The function `%s` calls itself, this creates an infinite loop"
 msgstr ""
+"Die Funktion `%s`ruft sich selbst auf, dadurch entsteht eine Endlosschleife"
 
 #: ui/UIPractice.gd:301 ui/UIPractice.gd:286
 msgid "Running Your Code..."
@@ -81,11 +82,16 @@ msgid ""
 "There is a division by zero in your code. You cannot divide by zero in code. "
 "Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr ""
+"In deinem Code, teilst du durch null. Du kannst in deinem Code nicht durch "
+"null teilen. Bitte stelle sicher das du kein \"/0\" oder \"%0\" in deinem "
+"Code stehen hast."
 
 #: ui/UIPractice.gd:343
 msgid ""
 "Oh no! The script has an error, but the Script Verifier did not catch it"
 msgstr ""
+"Oh nein! Das Script hat einen Fehler, aber der Script Verifizierer hat "
+"diesen nicht abgefangen."
 
 #: ui/UIPractice.gd:369 ui/UIPractice.gd:337
 msgid "Running Tests..."
@@ -199,11 +205,11 @@ msgstr "Ausführen"
 
 #: ui/components/RunnableCodeExample.tscn:123
 msgid "step"
-msgstr ""
+msgstr "Schritt"
 
 #: ui/components/RunnableCodeExampleDebugger.tscn:44
 msgid "Debugger"
-msgstr ""
+msgstr "Debugger"
 
 #: ui/components/SalePopup.tscn:121
 #, python-format
@@ -211,18 +217,20 @@ msgid ""
 "[center]Get [b]50% off[/b] on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b][/center]"
 msgstr ""
+"[center]Erhalte [b]50% Rabatt[/b] auf alle unsere Godot Kurse mit dem \n"
+"Coupon Code [b]DISCOUNT50[/b][/center]"
 
 #: ui/components/SalePopup.tscn:132
 msgid "Only until "
-msgstr ""
+msgstr "Nur bis "
 
 #: ui/components/SalePopup.tscn:155
 msgid "CHECK OUT OUR COURSES"
-msgstr ""
+msgstr "SIEH DIR UNSERE KURSE AN"
 
 #: ui/components/SalePopup.tscn:180
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
@@ -244,7 +252,7 @@ msgstr "Warum das passiert"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
 msgid "How to fix this"
-msgstr "So behebst Du dieses Problem"
+msgstr "So behebst du dieses Problem"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:91
 msgid "Our suggestion on how to fix it."
