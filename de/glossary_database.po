@@ -9,32 +9,30 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-03-04 15:29+0100\n"
-"Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-07-21 18:03+0000\n"
+"Last-Translator: Marco <eddex@outlook.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #. Reference: member function
 #: course/glossary.csv:6
-#, fuzzy
 msgid "member function"
-msgstr "Mitgliedsfunktion"
+msgstr "Memberfunktion"
 
 #. Reference: member function
 #: course/glossary.csv:6
-#, fuzzy
 msgid "member functions"
-msgstr "Member-Funktionen"
+msgstr "Memberfunktionen"
 
 #. Reference: member function
 #: course/glossary.csv:6
-#, fuzzy
 msgid ""
 "Member functions are functions attached to a specific value type, like "
 "arrays, strings, or dictionaries. We also call them methods.\n"
@@ -44,31 +42,27 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
-"Memberfunktionen sind Funktionen, die an einen bestimmten Werttyp angefügt "
-"sind, z. B. Arrays, Zeichenfolgen oder Wörterbücher. Wir nennen sie auch "
-"Methoden.\n"
+"Memberfunktionen sind Funktionen, die auf einem bestimmten Wertyp angehören, "
+"z. B. Arrays, Strings oder Dictionaries. Wir nennen sie auch Methoden.\n"
 "\n"
-"Arrays verfügen beispielsweise über Memberfunktionen wie [code]array.append()"
-"[/code].\n"
+"Arrays verfügen beispielsweise über Memberfunktionen wie [code]array."
+"append()[/code].\n"
 "\n"
-"Sie können die Funktion in einem Array nur mit dem Zugriffsoperator ([code]"
-"[ aufrufen. /code]), um darauf zuzugreifen, wie oben gezeigt."
+"Du kannst die Methode auf einem Array nur mit dem Zugriffsoperator "
+"([code].[/code]) aufrufen, wie oben gezeigt."
 
 #. Reference: member variable
 #: course/glossary.csv:9
-#, fuzzy
 msgid "member variable"
-msgstr "Member-Variable"
+msgstr "Membervariable"
 
 #. Reference: member variable
 #: course/glossary.csv:9
-#, fuzzy
 msgid "member variables"
 msgstr "Membervariablen"
 
 #. Reference: member variable
 #: course/glossary.csv:9
-#, fuzzy
 msgid ""
 "Member variables are variables attached to a specific value type, like a "
 "vector's [code]x[/code] and [code]y[/code] sub-variables. We also call them "
@@ -78,41 +72,37 @@ msgid ""
 "by the access operator ([code].[/code]). For example, [code]position.x[/"
 "code]."
 msgstr ""
-"Membervariablen sind Variablen, die an einen bestimmten Werttyp angefügt "
-"sind, z. B. die Untervariablen [code]x[/code] und [code]y[/code] eines "
-"Vektors. Wir nennen sie auch [i]eigenschaften[/i] oder [i]felder[/i] des "
-"Vektors.\n"
+"Membervariablen sind Variablen, die Teil eines bestimmten Werttyps sind, z. "
+"B. die Untervariablen [code]x[/code] und [code]y[/code] eines Vektors. Wir "
+"nennen sie auch [i]Properties[/i] oder [i]Felder[/i] des Vektors.\n"
 "\n"
-"Um auf eine Membervariable zuzugreifen, müssen Sie zuerst den Namen des "
-"Werts und anschließend den Zugriffsoperator ([code][ /code]). Beispiel: "
-"[code]position.x[/code]."
+"Um auf eine Membervariable zuzugreifen, schreiben wir den Namen der "
+"Variablen gefolgt vom Zugriffsoperator ([code].[/code]) und dann dem Namen "
+"der Membervariable. Beispiel: [code]position.x[/code]."
 
 #. Reference: parameter
 #: course/glossary.csv:12
-#, fuzzy
 msgid "parameter"
-msgstr "parameter"
+msgstr "Parameter"
 
 #. Reference: parameter
 #: course/glossary.csv:12
-#, fuzzy
 msgid "parameters"
-msgstr "Funktionen können mehrere Parameter haben"
+msgstr "Parameter"
 
 #. Reference: parameter
 #: course/glossary.csv:12
-#, fuzzy
 msgid ""
 "A parameter is a variable you create as part of a function definition.\n"
 "\n"
 "It allows you to reuse the function more by having values that vary in the "
 "function's body."
 msgstr ""
-"Ein Parameter ist eine Variable, die Sie als Teil einer Funktionsdefinition "
-"erstellen.\n"
+"Ein Parameter ist eine Variable, die Teil einer Funktionsdefinition ist.\n"
 "\n"
-"Es ermöglicht Ihnen, die Funktion mehr wiederzuverwenden, indem Sie Werte "
-"haben, die im Körper der Funktion variieren."
+"Parameter ermöglichen es dir, Funktionen zu erstellen, die an mehreren "
+"Stellen in deinem Code verwendet werden können, indem du der Funktion bei "
+"Aufrufen andere Werte als Parameter mitgibst."
 
 #. Reference: radian
 #: course/glossary.csv:17
