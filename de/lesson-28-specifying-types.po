@@ -9,19 +9,19 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-03-04 15:25+0100\n"
-"Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-07-21 18:03+0000\n"
+"Last-Translator: Marco <eddex@outlook.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-28-specifying-types/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-28-specifying-types/lesson.tres:13
-#, fuzzy
 msgid ""
 "By default, GDScript is what we call a dynamically-typed language. That "
 "means that you can just write variables, assign them a value with a number, "
@@ -30,23 +30,21 @@ msgid ""
 "Unlike in some other languages, in GDScript, the following code is valid."
 msgstr ""
 "Standardmäßig ist GDScript eine so genannte dynamisch typisierte Sprache. "
-"Das bedeutet, dass Sie einfach Variablen schreiben, ihnen einen Wert mit "
-"einer Zahl zuweisen und ihnen einen anderen Wert mit einem anderen Typ "
-"zuweisen können.\n"
+"Das bedeutet, dass du einfach Variablen erstellen, ihnen einen Wert mit "
+"einer Zahl zuweisen und ihnen dann einen anderen Wert mit einem anderen Typ "
+"zuweisen kannst.\n"
 "\n"
-"Im Gegensatz zu einigen anderen Sprachen ist in GDScript der folgende Code "
-"gültig."
+"Im Gegensatz zu einigen anderen Sprachen funktioniert in GDScript der "
+"folgende Code problemlos."
 
 #: course/lesson-28-specifying-types/lesson.tres:35
-#, fuzzy
 msgid ""
 "But this feature often causes problems down the line. Let's take one example."
 msgstr ""
-"Aber diese Funktion verursacht oft Probleme auf der ganzen Linie. Nehmen wir "
-"ein Beispiel."
+"Aber diese Funktionalität kann oft zu Problemen führen. Schauen wir uns ein "
+"Beispiel an."
 
 #: course/lesson-28-specifying-types/lesson.tres:43
-#, fuzzy
 msgid "Cell size: decimal number, or 2D vector?"
 msgstr "Zellengröße: Dezimalzahl oder 2D-Vektor?"
 
@@ -79,14 +77,13 @@ msgstr ""
 "Jeder dieser beiden Werte wäre in Ordnung:"
 
 #: course/lesson-28-specifying-types/lesson.tres:71
-#, fuzzy
 msgid ""
 "Using a [code]Vector2[/code] could simplify some calculations. For example, "
 "when converting grid coordinates to game world coordinates."
 msgstr ""
 "Die Verwendung eines [code]Vector2[/code] könnte einige Berechnungen "
-"vereinfachen. Zum Beispiel beim Konvertieren von Gitterkoordinaten in "
-"Spielweltkoordinaten."
+"vereinfachen. Zum Beispiel beim Konvertieren von Raster-Koordinaten zu "
+"Spielwelt-Koordinaten."
 
 #: course/lesson-28-specifying-types/lesson.tres:91
 #, fuzzy

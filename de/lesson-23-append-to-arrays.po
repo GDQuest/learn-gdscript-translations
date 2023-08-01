@@ -9,19 +9,19 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-04 15:22+0100\n"
-"Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-07-19 16:05+0000\n"
+"Last-Translator: Marco <eddex@outlook.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-23-append-to-arrays/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:13
-#, fuzzy
 msgid ""
 "In previous lessons, you learned how to create arrays to store lists of "
 "values and how to loop over them. It's nice, but you won't go far with only "
@@ -30,26 +30,23 @@ msgid ""
 "The real strength of arrays is that you can add and remove values from them "
 "at any time. It allows you to [i]queue[/i] or [i]stack[/i] data."
 msgstr ""
-"In den vorherigen Lektionen haben Sie gelernt, wie Sie Arrays zum Speichern "
-"von Wertelisten erstellen und diese durchlaufen. Es ist schön, aber nur "
-"damit wirst du nicht weit kommen.\n"
+"In den vorherigen Lektionen hast du gelernt, wie du Arrays zum Speichern von "
+"mehreren Werten erstellst und Schleifen auf die Arrays anwendest. Das ist "
+"ein guter Start, aber nur damit wirst du nicht weit kommen.\n"
 "\n"
-"Die wahre Stärke von Arrays besteht darin, dass Sie ihnen jederzeit Werte "
-"hinzufügen und daraus entfernen können. Es ermöglicht Ihnen, [i]queue[/i] "
-"oder [i]stack[/i] Daten."
+"Die wahre Stärke von Arrays besteht darin, dass man ihnen jederzeit Werte "
+"hinzufügen und entfernen kann. Arrays ermöglichen es, Daten als [i]queue[/i] "
+"oder [i]stack[/i] darzustellen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:25
-#, fuzzy
 msgid "For now, let's take another example."
-msgstr "Nehmen wir zunächst ein anderes Beispiel."
+msgstr "Schauen wir uns zunächst ein weiteres Beispiel an."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:33
-#, fuzzy
 msgid "Tracking orders in a restaurant management game"
-msgstr "Nachverfolgen von Bestellungen in einem Restaurantverwaltungsspiel"
+msgstr "Abarbeiten von Bestellungen in einem Restaurantmanagementspiel"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:35
-#, fuzzy
 msgid ""
 "You're making a restaurant management game where customers place orders, and "
 "you need to handle them as they come.\n"
@@ -59,17 +56,16 @@ msgid ""
 "\n"
 "In this example, we simulate orders arriving and getting completed over time."
 msgstr ""
-"Sie machen ein Restaurant-Management-Spiel, bei dem Kunden Bestellungen "
-"aufgeben, und Sie müssen sie so behandeln, wie sie kommen.\n"
+"Du machst ein Restaurantmanagementspiel, in welchem Kunden Bestellungen "
+"aufgeben, die du bearbeiten musst.\n"
 "\n"
 "In diesem Spiel bestellen Kunden Mahlzeiten, die in einer Warteschlange "
-"landen. Sie müssen sie in der Küche zubereiten.\n"
+"landen. Du musst die Mahlzeiten in der Küche zubereiten.\n"
 "\n"
 "In diesem Beispiel simulieren wir, dass Bestellungen im Laufe der Zeit "
 "ankommen und abgeschlossen werden."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:59
-#, fuzzy
 msgid ""
 "How do you keep track of pending and completed orders? With an array!\n"
 "\n"
@@ -83,22 +79,21 @@ msgid ""
 "Try to read the code below before moving on. Don't worry if not everything "
 "makes sense, as we'll break it all down."
 msgstr ""
-"Wie behalten Sie den Überblick über ausstehende und abgeschlossene "
+"Wie behältst du den Überblick über ausstehende und abgeschlossene "
 "Bestellungen? Mit einem Array!\n"
 "\n"
-"Wenn ein Kunde eine Mahlzeit kauft, möchten Sie sie an das Array anhängen. "
-"Wenn Sie dann eine Mahlzeit in der Küche vervollständigen und servieren, "
-"möchten Sie sie aus dem Array entfernen.\n"
+"Wenn ein Kunde eine Mahlzeit kauft, möchtest du sie an das Array "
+"[i]anhängen[/i]. Wenn du dann eine Mahlzeit in der Küche vervollständigst "
+"und servierst, möchtest du sie aus dem Array entfernen.\n"
 "\n"
-"Sie können dies mit den Funktionen [code]append()[/code] bzw. "
+"Du kannst dies mit den Funktionen [code]append()[/code] bzw. "
 "[code]pop_front()[/code] des Arrays tun.\n"
 "\n"
-"Versuchen Sie, den folgenden Code zu lesen, bevor Sie fortfahren. Machen Sie "
-"sich keine Sorgen, wenn nicht alles Sinn ergibt, da wir es aufschlüsseln "
-"werden."
+"Versuche, den folgenden Code zu lesen, bevor du fortfährst. Mach dir keine "
+"Sorgen, wenn nicht alles Sinn ergibt, wir werden es später im Detail "
+"anschauen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:85
-#, fuzzy
 msgid ""
 "Notice how we call some functions by writing a dot after a variable name. "
 "Like a given value type can have sub-variables, it can also have its own "
@@ -108,72 +103,67 @@ msgid ""
 "on arrays. That's why to call them, we need to access it from the array "
 "using the dot: [code]array.append()[/code]."
 msgstr ""
-"Beachten Sie, wie wir einige Funktionen aufrufen, indem wir einen Punkt nach "
-"einem Variablennamen schreiben. So wie ein gegebener Werttyp Untervariablen "
-"haben kann, kann er auch seine eigenen Funktionen haben.\n"
+"Beachte, wie wir einige Funktionen aufrufen, indem wir einen Punkt nach "
+"einem Variablennamen schreiben. So wie ein Werttyp Untervariablen haben "
+"kann, kann er auch seine eigenen Funktionen haben.\n"
 "\n"
 "Funktionen wie [code]append()[/code] und [code]pop_front()[/code] existieren "
 "nur auf Arrays. Deshalb müssen wir, um sie aufzurufen, vom Array aus mit dem "
 "Punkt darauf zugreifen: [code]array.append()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:97
-#, fuzzy
 msgid ""
 "Let's break down the code.\n"
 "\n"
 "We queue orders in the [code]waiting_orders[/code] array by appending them "
 "to the array."
 msgstr ""
-"Lassen Sie uns den Code aufschlüsseln.\n"
+"Schauen wir uns den Code etwas genauer an.\n"
 "\n"
-"Wir stellen Bestellungen im Array [code]waiting_orders[/code] in die "
-"Warteschlange, indem wir sie an das Array anhängen."
+"Wir fügen Bestellungen in das Array [code]waiting_orders[/code], um diese in "
+"die Warteschlange zu legen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:119
-#, fuzzy
 msgid ""
 "We can use a string to represent a meal when calling the [code]add_order()[/"
 "code] function."
 msgstr ""
-"Wir können eine Zeichenfolge verwenden, um eine Mahlzeit darzustellen, wenn "
-"wir die Funktion [code]add_order()[/code] aufrufen."
+"Beim Aufruf der Funktion [code]add_order()[/code], geben wir den Namen der "
+"Mahlzeit als Zeichenfolge (String) mit."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:139
-#, fuzzy
 msgid ""
 "When completing an order, we remove it from the [code]waiting_orders[/code] "
 "array by calling its [code]pop_front()[/code] function. This function gives "
 "us the order back, which allows us to assign it to a temporary variable."
 msgstr ""
 "Wenn wir eine Bestellung abschließen, entfernen wir sie aus dem "
-"[code]waiting_orders[/code]-Array, indem wir ihre [code]pop_front()[/code]-"
-"Funktion aufrufen. Diese Funktion gibt uns die Bestellung zurück, wodurch "
-"wir sie einer temporären Variablen zuordnen können."
+"[code]waiting_orders[/code]-Array, indem wir auf dem Array die "
+"[code]pop_front()[/code]-Funktion aufrufen. Diese Funktion gibt uns die "
+"Bestellung zurück, wodurch wir sie einer temporären Variablen zuordnen "
+"können."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:159
-#, fuzzy
 msgid ""
 "We can then append the order to our [code]completed_orders[/code] array."
 msgstr ""
-"Wir können dann die Reihenfolge an unser [code]completed_orders[/code]-Array "
-"anhängen."
+"Nun können wir die Bestellung hinten in das [code]completed_orders[/code]-"
+"Array einfügen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:179
-#, fuzzy
 msgid ""
 "We call arrays like [code]waiting_orders[/code] a [i]queue[/i]: the first "
 "element we append to the array is the first one we remove."
 msgstr ""
-"Wir nennen Arrays wie [code]waiting_orders[/code] a [i]queue[/i]: Das erste "
-"Element, das wir an das Array anhängen, ist das erste, das wir entfernen."
+"Wir nennen Arrays wie [code]waiting_orders[/code] eine Warteschlange "
+"([i]queue[/i]): Das erste Element, das wir an das Array anhängen, ist das "
+"erste, das wir entfernen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:187
-#, fuzzy
 msgid "What does #... mean?"
-msgstr "Was bedeutet das?"
+msgstr "Was bedeutet #...?"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:189
-#, fuzzy
 msgid ""
 "We write [code]#...[/code] to represent ellipses in the code. It means "
 "\"we're completing the function's code.\" We use that to break down code "
@@ -182,18 +172,18 @@ msgid ""
 "The hash sign itself marks the start of a code comment. It's a line the "
 "computer will ignore, which is why it typically appears in grey."
 msgstr ""
-"Wir schreiben [code]#... [/code], um Ellipsen im Code darzustellen. Es "
-"bedeutet: \"Wir vervollständigen den Code der Funktion.\" Wir verwenden "
-"dies, um Codebeispiele aufzuschlüsseln und es einfacher zu machen, daraus zu "
-"lernen.\n"
+"Wir fügen [code]#... [/code] an manchen Stellen im Code ein, wo "
+"normalerweise noch mehr Code wäre, der aber für unser Beispiel nicht wichtig "
+"ist. Es bedeutet: \"Her wäre noch weiterer Code, der irgendetwas anderes "
+"macht.\" Den Code so zu vereinfachen macht es einfacher die Beispiele zu "
+"verstehen.\n"
 "\n"
 "Das Hashzeichen selbst markiert den Anfang eines Codekommentars. Es ist eine "
 "Zeile, die der Computer ignoriert, weshalb sie normalerweise grau erscheint."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:199
-#, fuzzy
 msgid "Using arrays as stacks"
-msgstr "Verwenden von Arrays als Stacks"
+msgstr "Verwenden von Arrays als Stapel (Stacks)"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:201
 #, fuzzy
