@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-08-01 20:05+0000\n"
+"PO-Revision-Date: 2023-08-02 12:05+0000\n"
 "Last-Translator: Peter Rake <prake71@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-6-multiple-function-parameters/de/>\n"
@@ -439,7 +439,6 @@ msgid "Using multiple parameters"
 msgstr "Verwenden mehrerer Parameter"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:315
-#, fuzzy
 msgid ""
 "In this practice, we'll improve our [code]draw_corner()[/code] function so "
 "the angle can also vary.\n"
@@ -451,9 +450,8 @@ msgstr ""
 "In dieser Übung verbessern wir unsere [code]draw_corner()[/code]-Funktion, "
 "sodass der Winkel auch variieren kann.\n"
 "\n"
-"Füge der Funktion [code]draw_corner()[/code] den Parameter [code]angle[/"
-"code] hinzu und verwende sie, um Ecken mit unterschiedlichen Winkeln zu "
-"zeichnen."
+"Füge der Funktion [code]draw_corner()[/code] den Parameter [code]angle[/code]"
+" hinzu und verwende sie, um Ecken mit unterschiedlichen Winkeln zu zeichnen."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:329
 msgid "With two parameters, code a function to draw corners with any angle."
@@ -466,7 +464,6 @@ msgid "Drawing squares of any size"
 msgstr "Zeichnen von Quadraten beliebiger Größe"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:335
-#, fuzzy
 msgid ""
 "We want a function to draw squares of any size.\n"
 "\n"
@@ -489,7 +486,12 @@ msgstr ""
 "mehr verwenden.\n"
 "\n"
 "Erstelle eine Funktion mit dem Namen [code]draw_square()[/code], die einen "
-"Parameter annimmt: die Länge([code]length[/code]) der Seiten des Quadrats."
+"Parameter annimmt: die Länge([code]length[/code]) der Seiten des Quadrats.\n"
+"\n"
+"[b]Die Schildkröte soll zu Beginn und am Ende der Zeichnung nach rechts "
+"schauen.[/b]\n"
+"\n"
+"Stelle sicher dafür oft genug  [b]turn_right(90)[/b] aufzurufen."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:352
 msgid ""
