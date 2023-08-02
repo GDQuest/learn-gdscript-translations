@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-08-02 12:05+0000\n"
+"PO-Revision-Date: 2023-08-03 17:06+0000\n"
 "Last-Translator: Peter Rake <prake71@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-6-multiple-function-parameters/de/>\n"
@@ -201,7 +201,9 @@ msgstr ""
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 #: course/lesson-6-multiple-function-parameters/lesson.tres:163
 msgid "func function_name(parameter_name):"
-msgstr "func function_name(parameter_name):"
+msgstr ""
+"func function_name(parameter_name):func function_name(parameter_name):func "
+"function_name(parameter_name):"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:162
 msgid "func (function_name): parameter_name"
@@ -354,7 +356,7 @@ msgstr "Optional"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:260
 msgid "Mandatory"
-msgstr "Notwendig"
+msgstr "Verpflichtend"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:268
 msgid ""
@@ -507,7 +509,6 @@ msgid "Drawing rectangles of any size"
 msgstr "Zeichnen von Rechtecken beliebiger Größe"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:358
-#, fuzzy
 msgid ""
 "Let's make our square drawing function more flexible to include rectangles "
 "of varying sizes.\n"
@@ -522,16 +523,20 @@ msgid ""
 "Note that we could still draw a square with [code]draw_rectangle()[/code] by "
 "having the [code]length[/code] and [code]height[/code] equal the same value."
 msgstr ""
-"Lass uns unsere quadratische Zeichnungsfunktion flexibler gestalten, um "
-"Rechtecke unterschiedlicher Größe einzubeziehen.\n"
+"Lass uns unsere Zeichenfunktion für das Quadrat flexibler gestalten, um "
+"Rechtecke unterschiedlicher Größe zu zeichnen.\n"
 "\n"
-"Deine Aufgabe ist es, eine Funktion mit dem Namen [code]draw_rectangle()[/"
-"code] zu programmieren, die zwei Parameter akzeptiert: die "
-"Länge([code]length[/code]) und die Höhe([code]height[/code]) des Rechtecks.\n"
+"Deine Aufgabe ist es, eine Funktion mit dem Namen "
+"[code]draw_rectangle()[/code] zu programmieren, die zwei Parameter "
+"akzeptiert: die Länge([code]length[/code]) und die Höhe([code]height[/code]) "
+"des Rechtecks.\n"
+"\n"
+"[b]Die Schildkröte soll am Anfang oder Ende des Zeichenvorgangs nach rechts "
+"schauen.[b]\n"
 "\n"
 "Beachte, dass wir immer noch ein Quadrat mit [code]draw_rectangle()[/code] "
 "zeichnen könnten, indem wir Länge([code]length[/code]) und "
-"Höhe([code]height[/code]) den gleichen Wert geben."
+"Höhe([code]height[/code]) den gleichen Wert zuweisen."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:381
 msgid ""
