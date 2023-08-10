@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-08-01 20:05+0000\n"
+"PO-Revision-Date: 2023-08-11 16:51+0000\n"
 "Last-Translator: Peter Rake <prake71@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-11-time-delta/de/>\n"
@@ -61,9 +61,8 @@ msgstr ""
 "Bewegung. Dies ähnelt der Funktionsweise herkömmlicher Animationen."
 
 #: course/lesson-11-time-delta/lesson.tres:50
-#, fuzzy
 msgid "This sounds like Frames Per Second..."
-msgstr "Das klingt nach Frames Per Second..."
+msgstr "Das klingt nach Frames Per Second (Bilder pro Sekunde)..."
 
 #: course/lesson-11-time-delta/lesson.tres:52
 msgid ""
@@ -98,7 +97,6 @@ msgid "What parameter does the _process() function take?"
 msgstr "Welchen Parameter nimmt die Funktion _process() an?"
 
 #: course/lesson-11-time-delta/lesson.tres:77
-#, fuzzy
 msgid ""
 "[code]\n"
 "func _process(delta):\n"
@@ -107,7 +105,7 @@ msgid ""
 msgstr ""
 "[code]\n"
 "func _process(delta):\n"
-"\tdrehen(0,05)\n"
+"\trotate(0,05)\n"
 "[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:82
@@ -119,7 +117,6 @@ msgstr ""
 "[code]delta[/code]."
 
 #: course/lesson-11-time-delta/lesson.tres:83
-#, fuzzy
 msgid "rotate"
 msgstr "drehen"
 
@@ -137,7 +134,6 @@ msgid "Frames take varying amounts of time to calculate"
 msgstr "Die Berechnung von Frames nimmt unterschiedlich lange Zeit in Anspruch"
 
 #: course/lesson-11-time-delta/lesson.tres:93
-#, fuzzy
 msgid ""
 "Depending on the game, the computer, and what the game engine needs to "
 "calculate, frames take more or less time to display.\n"
@@ -163,30 +159,31 @@ msgid ""
 "the computer. Delta helps to make the game experience consistent for "
 "everyone."
 msgstr ""
-"Je nach Spiel, Computer und Berechnungsaufwand der Spiel-Engine dauert die "
-"Anzeige von Frames mehr oder weniger lang.\n"
+"Je nach Spiel, Computerleistung und Rechenaufwand für die Spiel-Engine "
+"dauert ändert sich die Bildwiederholungsrate. Die Darstellung der einzelnen "
+"Bilder braucht mehr oder auch weniger Zeit.\n"
 "\n"
-"Es wird immer Abweichungen von Millisekunden von Frame zu Frame geben.\n"
+"Von Frame zu Frame wird immer Abweichungen im Millisekundenbereich geben.\n"
 "\n"
 "Aus diesem Grund erhält die Funktion [code]_process()[/code] einen Parameter "
 "[code]delta[/code].\n"
 "\n"
-"Delta stellt eine Zeitdifferenz dar. Es ist die Zeit, die seit dem "
-"vorherigen Frame vergangen ist, in Sekunden.\n"
+"Delta ist eine Zeitdifferenz. Es ist die Zeit in Sekunden, die seit der "
+"Darstellung des vorherigen Frames vergangen ist.\n"
 "\n"
 "Der Parameter [code]delta[/code] sagt uns, wie lange Godot gebraucht hat, um "
 "den [b]vorherigen Frame[/b] abzuschließen.\n"
 "\n"
 "Damit können wir sicherstellen, dass die Änderungen zwischen den Frames das "
-"Verhalten des Spiels nicht unzuverlässig machen.\n"
+"Verhalten des Spiels nicht beeinflussen.\n"
 "\n"
-"Dies liegt daran, dass verschiedene Computer unterschiedlich laufen, so dass "
-"ein schneller Computer mehr Bilder pro Sekunde hat als ein langsamer "
-"Computer.\n"
+"Dies liegt daran, dass verschiedene Computer unterschiedlich schnell sein "
+"können. Ein schneller Computer kann somit mehr Bilder pro Sekunde darstellen "
+"als ein langsamer Computer.\n"
 "\n"
-"Wenn wir [code]delta[/code] ignorieren, wird das Spielerlebnis je nach "
-"Computer unterschiedlich sein. Delta trägt dazu bei, dass das Spielerlebnis "
-"für alle gleich ist."
+"Wenn wir [code]delta[/code] ignorieren, wird das Spielerlebnis auf "
+"verschiedenen Computern unterscheiden. Die Berücksichtigung von Delta trägt "
+"dazu bei, dass das Spielerlebnis auf allen Computern gleich ist."
 
 #: course/lesson-11-time-delta/lesson.tres:115
 #: course/lesson-11-time-delta/lesson.tres:111
@@ -194,7 +191,6 @@ msgid "What do we know about delta?"
 msgstr "Was wissen wir über Delta?"
 
 #: course/lesson-11-time-delta/lesson.tres:118
-#, fuzzy
 msgid ""
 "[code]delta[/code] is the time it took Godot to complete the previous frame "
 "in seconds.\n"
@@ -203,13 +199,14 @@ msgid ""
 "\n"
 "It varies each frame because Godot needs to process more or less each frame."
 msgstr ""
-"[code]delta[/code] ist die Zeit, die Godot benötigt, um den vorherigen Frame "
-"in Sekunden abzuschließen.\n"
+"[code]delta[/code] ist die Zeit in Sekunden, die Godot benötigt, um den "
+"vorherigen Frame abzuschließen.\n"
 "\n"
-"Es ist sehr klein, weil Frames viele Male pro Sekunde berechnet werden.\n"
+"Delta ist eine sehr kleine Zahl, weil die Bilder viele Male pro Sekunde "
+"berechnet werden.\n"
 "\n"
-"Es variiert jeden Frame, da Godot mehr oder weniger jeden Frame verarbeiten "
-"muss."
+"Die Zeit von Frame zu Frame variiert, da Godot pro Frame mehr oder weniger "
+"rechnen muss."
 
 #: course/lesson-11-time-delta/lesson.tres:123
 #: course/lesson-11-time-delta/lesson.tres:124
@@ -227,10 +224,9 @@ msgstr "Es variiert jeden Frame."
 
 #: course/lesson-11-time-delta/lesson.tres:123
 #: course/lesson-11-time-delta/lesson.tres:124
-#, fuzzy
 msgid "It's the time it took Godot to complete the previous frame."
 msgstr ""
-"Es ist die Zeit, die Godot braucht, um den vorherigen Frame zu "
+"Es ist die Zeit, die Godot brauchte, um den vorherigen Frame zu "
 "vervollständigen."
 
 #: course/lesson-11-time-delta/lesson.tres:131
