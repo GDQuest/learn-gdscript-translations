@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-09-01 17:28+0000\n"
+"PO-Revision-Date: 2023-09-01 23:07+0000\n"
 "Last-Translator: gsomgsom <zhelneen@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-14-multiplying/ru/>\n"
@@ -63,7 +63,6 @@ msgstr ""
 "количество переменных, способных увеличиваться при повышении уровня."
 
 #: course/lesson-14-multiplying/lesson.tres:70
-#, fuzzy
 msgid ""
 "In this lesson, we'll just focus on increasing the robot's [code]max_health[/"
 "code].\n"
@@ -75,8 +74,8 @@ msgstr ""
 "В этом уроке мы сфокусируемся на повышении [code]max_health[/code] робота.\n"
 "\n"
 "Переменная [code]max_health[/code] — это максимальное значение, которое "
-"[code]health[/code] робота может иметь. Мы изменим нашу функцию [code]heal()"
-"[/code] и используем эту переменную в ней."
+"[code]health[/code] робота может иметь. Мы изменим нашу функцию "
+"[code]heal()[/code] и используем эту переменную в ней."
 
 #: course/lesson-14-multiplying/lesson.tres:92
 msgid ""
@@ -150,6 +149,13 @@ msgid ""
 "\tvar damage = power * level\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"var level = 5\n"
+"var power = 3\n"
+"\n"
+"func calculate_damage():\n"
+"\tvar damage = power * level\n"
+"[/code]"
 
 #: course/lesson-14-multiplying/lesson.tres:181
 msgid ""
@@ -162,15 +168,15 @@ msgstr ""
 #: course/lesson-14-multiplying/lesson.tres:182
 #: course/lesson-14-multiplying/lesson.tres:183
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: course/lesson-14-multiplying/lesson.tres:182
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: course/lesson-14-multiplying/lesson.tres:182
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: course/lesson-14-multiplying/lesson.tres:192
 msgid ""
@@ -195,6 +201,14 @@ msgid ""
 "\tdamage *= 2\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"var level = 5\n"
+"var power = 3\n"
+"\n"
+"func calculate_damage():\n"
+"\tvar damage = power * level\n"
+"\tdamage *= 2\n"
+"[/code]"
 
 #: course/lesson-14-multiplying/lesson.tres:210
 msgid ""
@@ -211,15 +225,15 @@ msgstr ""
 #: course/lesson-14-multiplying/lesson.tres:213
 #: course/lesson-14-multiplying/lesson.tres:214
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: course/lesson-14-multiplying/lesson.tres:213
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: course/lesson-14-multiplying/lesson.tres:213
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: course/lesson-14-multiplying/lesson.tres:223
 msgid ""
