@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-09-01 17:28+0000\n"
+"PO-Revision-Date: 2023-09-01 23:07+0000\n"
 "Last-Translator: gsomgsom <zhelneen@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-11-time-delta/ru/>\n"
@@ -23,7 +23,6 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
-#, fuzzy
 msgid ""
 "We've seen how we can use our character's [code]_process()[/code] function "
 "to make it move continuously."
@@ -32,7 +31,6 @@ msgstr ""
 "персонажа, чтобы заставить его двигаться непрерывно."
 
 #: course/lesson-11-time-delta/lesson.tres:34
-#, fuzzy
 msgid ""
 "But it's not just our character that has a [code]_process()[/code] function; "
 "Almost everything in the game has a [code]_process()[/code] function!\n"
@@ -63,12 +61,10 @@ msgstr ""
 "иллюзия движения. Это похоже на то, как работает традиционная анимация."
 
 #: course/lesson-11-time-delta/lesson.tres:50
-#, fuzzy
 msgid "This sounds like Frames Per Second..."
 msgstr "Это похоже на количество кадров в секунду..."
 
 #: course/lesson-11-time-delta/lesson.tres:52
-#, fuzzy
 msgid ""
 "You may have heard of frames per second, or FPS for short. Games often run "
 "at 60 frames per second. \n"
@@ -82,7 +78,7 @@ msgid ""
 "of frames per second."
 msgstr ""
 "Возможно, вы слышали о частоте кадров в секунду, или FPS, если сокращённо. "
-"Часто игры работают со скоростью 60 кадров в секунду\n"
+"Часто игры работают со скоростью 60 кадров в секунду.\n"
 "\n"
 "Это означает, что всё в игре обновляется 60 раз каждую секунду.\n"
 "\n"
@@ -93,12 +89,10 @@ msgstr ""
 "кадров в секунду."
 
 #: course/lesson-11-time-delta/lesson.tres:68
-#, fuzzy
 msgid "Let's look at the [code]_process()[/code] function in more detail."
 msgstr "Давайте рассмотрим функцию [code]_process()[/code] более детально."
 
 #: course/lesson-11-time-delta/lesson.tres:76
-#, fuzzy
 msgid "What parameter does the _process() function take?"
 msgstr "Какой параметр принимает функция _process()?"
 
@@ -109,9 +103,12 @@ msgid ""
 "\trotate(0.05)\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"func _process(delta):\n"
+"\trotate(0.05)\n"
+"[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:82
-#, fuzzy
 msgid ""
 "The [code]_process()[/code] function has one parameter named [code]delta[/"
 "code]."
@@ -121,21 +118,20 @@ msgstr ""
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "rotate"
-msgstr ""
+msgstr "rotate"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "0.05"
-msgstr ""
+msgstr "0.05"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 #: course/lesson-11-time-delta/lesson.tres:84
 msgid "delta"
-msgstr ""
+msgstr "delta"
 
 #: course/lesson-11-time-delta/lesson.tres:91
-#, fuzzy
 msgid "Frames take varying amounts of time to calculate"
-msgstr "Кадры требуют некоторого количества времени на вычисление"
+msgstr "Кадры требуют различного количества времени на вычисление"
 
 #: course/lesson-11-time-delta/lesson.tres:93
 msgid ""
@@ -195,7 +191,6 @@ msgid "What do we know about delta?"
 msgstr "Что мы знаем о параметре delta?"
 
 #: course/lesson-11-time-delta/lesson.tres:118
-#, fuzzy
 msgid ""
 "[code]delta[/code] is the time it took Godot to complete the previous frame "
 "in seconds.\n"
@@ -215,24 +210,20 @@ msgstr ""
 
 #: course/lesson-11-time-delta/lesson.tres:123
 #: course/lesson-11-time-delta/lesson.tres:124
-#, fuzzy
 msgid "It's a value in seconds."
 msgstr "Это значение в секундах."
 
 #: course/lesson-11-time-delta/lesson.tres:123
 #: course/lesson-11-time-delta/lesson.tres:124
-#, fuzzy
 msgid "It varies each frame."
 msgstr "Он имеет различное значение каждый кадр."
 
 #: course/lesson-11-time-delta/lesson.tres:123
 #: course/lesson-11-time-delta/lesson.tres:124
-#, fuzzy
 msgid "It's the time it took Godot to complete the previous frame."
 msgstr "Это время, которое затрачивает Godot для завершения предыдущего кадра."
 
 #: course/lesson-11-time-delta/lesson.tres:131
-#, fuzzy
 msgid "Multiplying by delta"
 msgstr "Умножение на дельту"
 
@@ -269,7 +260,6 @@ msgid "Why do we use the number 3.0 in this example?"
 msgstr "Почему мы используем число 3.0 в этом примере?"
 
 #: course/lesson-11-time-delta/lesson.tres:167
-#, fuzzy
 msgid ""
 "At the top of the lesson, we made the robot rotate a fixed amount every "
 "frame: [code]0.05[/code] radians.\n"
@@ -320,12 +310,10 @@ msgstr ""
 "ускорением и движением в ваших игровых проектах."
 
 #: course/lesson-11-time-delta/lesson.tres:187
-#, fuzzy
 msgid "Why the time between frames matters"
 msgstr "Почему разница во времени между кадрами важна"
 
 #: course/lesson-11-time-delta/lesson.tres:189
-#, fuzzy
 msgid ""
 "The time it takes to display a new frame varies.\n"
 "\n"
@@ -381,13 +369,12 @@ msgstr ""
 "непредсказуемой и беспорядочной."
 
 #: course/lesson-11-time-delta/lesson.tres:229
-#, fuzzy
 msgid "What does this mean?"
 msgstr "Что это значит?"
 
 #: course/lesson-11-time-delta/lesson.tres:230
 msgid "[code]rotation_speed * delta[/code]"
-msgstr ""
+msgstr "[code]rotation_speed * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:232
 msgid ""
@@ -415,14 +402,12 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "Мы вычитаем delta из rotation_speed."
 
 #: course/lesson-11-time-delta/lesson.tres:243
-#, fuzzy
 msgid "In the next practice, we'll use delta to make rotating time-dependent."
 msgstr ""
 "В следующем упражнении мы будем использовать delta чтобы сделать вращение "
 "зависимым от времени."
 
 #: course/lesson-11-time-delta/lesson.tres:251
-#, fuzzy
 msgid "Rotating Using Delta"
 msgstr "Вращение с использованием дельты"
 
@@ -447,7 +432,6 @@ msgid "Moving in a Circle Using Delta"
 msgstr "Перемещение по кругу с использованием дельты"
 
 #: course/lesson-11-time-delta/lesson.tres:272
-#, fuzzy
 msgid ""
 "In this practice, make the robot move in a smooth circle using delta.\n"
 "\n"
@@ -469,6 +453,5 @@ msgstr ""
 "проверить правильность вашего решения."
 
 #: course/lesson-11-time-delta/lesson.tres:290
-#, fuzzy
 msgid "Time Delta"
 msgstr "Дельта времени"
