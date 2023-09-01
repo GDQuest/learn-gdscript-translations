@@ -9,15 +9,18 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-10-31 22:07+0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-09-01 23:07+0000\n"
+"Last-Translator: gsomgsom <zhelneen@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-16-2d-vectors/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.2\n"
 
 #: course/lesson-16-2d-vectors/lesson.tres:14
 msgid ""
@@ -93,20 +96,20 @@ msgstr ""
 #: course/lesson-16-2d-vectors/lesson.tres:76
 #: course/lesson-16-2d-vectors/lesson.tres:77
 msgid "scale"
-msgstr ""
+msgstr "scale"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 #: course/lesson-16-2d-vectors/lesson.tres:77
 msgid "position"
-msgstr ""
+msgstr "position"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 msgid "health"
-msgstr ""
+msgstr "health"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 msgid "speed"
-msgstr ""
+msgstr "speed"
 
 #: course/lesson-16-2d-vectors/lesson.tres:84
 msgid "Vectors are great for games"
@@ -195,7 +198,6 @@ msgid "How would you move the robot 50 pixels to the left?"
 msgstr "Как бы вы передвинули робота на 50 пикселей влево?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:169
-#, fuzzy
 msgid ""
 "[code]position -= Vector2(50, 0)[/code] subtracts [code]50[/code] to the sub-"
 "variable [code]x[/code], and [code]0[/code] to [code]y[/code].\n"
@@ -208,18 +210,18 @@ msgstr ""
 "внутренней переменной [code]x[/code] и [code]0[/code] из [code]y[/code].\n"
 "\n"
 "[code]position.x -= Vector(50, 0)[/code] пытается вычесть 2D вектор из "
-"внутренней переменной [code]x[/code], являющейся десятичной дробью. Типы "
-"значений несовместимы. Если вы попытаетесь сделать так, то получите "
-"сообщение об ошибке."
+"внутренней переменной [code]x[/code], являющейся целым числом. Типы значений "
+"несовместимы. Если вы попытаетесь сделать так, то получите сообщение об "
+"ошибке."
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
 #: course/lesson-16-2d-vectors/lesson.tres:173
 msgid "position -= Vector2(50, 0)"
-msgstr ""
+msgstr "position -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
 msgid "position.x -= Vector2(50, 0)"
-msgstr ""
+msgstr "position.x -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:182
 msgid ""
