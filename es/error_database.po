@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-09-11 18:54+0000\n"
+"PO-Revision-Date: 2023-09-12 19:49+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/es/>\n"
@@ -809,6 +809,11 @@ msgid ""
 "The most common case is when you forget to close a string: you have opening "
 "quotes, but you forget to add a matching closing quote."
 msgstr ""
+"El ordenador llegó al final de la línea de código, pero la línea tenía un "
+"error de sintaxis.\n"
+"El caso más común es cuando te olvidas de cerrar una cadena: tienes comillas "
+"de apertura, pero te olvidas de añadir las comillas de cierre "
+"correspondientes."
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:157
@@ -817,11 +822,13 @@ msgid ""
 "character you used to start the string is the same as the one you used to "
 "close the string."
 msgstr ""
+"Comprueba que no te falta ninguna comilla o que la comilla con la que "
+"empiezas la cadena es la misma que utilizas para cerrarla."
 
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
 msgid "The sub-variable you are trying to access does not exist."
-msgstr ""
+msgstr "La subvariable a la que intentas acceder no existe."
 
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
@@ -832,6 +839,11 @@ msgid ""
 "Ensure that you don't have a capital letter where you should have a "
 "lowercase letter and vice versa."
 msgstr ""
+"Es probable que haya un error tipográfico en el nombre de la subvariable a "
+"la que intentas acceder.\n"
+"\n"
+"Asegúrate de que no tienes una letra mayúscula donde deberías tener una "
+"letra minúscula y viceversa."
 
 #~ msgid ""
 #~ "The server or your computer may currently be disconnected. Also, an app "
