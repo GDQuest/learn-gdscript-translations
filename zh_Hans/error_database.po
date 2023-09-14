@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-06-19 11:47+0000\n"
-"Last-Translator: adadaadadade <272169607@qq.com>\n"
+"PO-Revision-Date: 2023-09-14 03:34+0000\n"
+"Last-Translator: KeJun <kejun1997@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -33,6 +33,12 @@ msgid ""
 "creates a new variable with the desired name and assigns each element of the "
 "array to it."
 msgstr ""
+"如果 [code]for[/code] 和 [code]in[/code] 之间的名称不是有效的变量名，"
+"或者缺少 [code]in[/code] 关键字，则会出现此错误。\n"
+"\n"
+"在 [code]for[/code] 循环中，[code]in[/code] 关键字只接受有效的临时变量名，以"
+"便在每次循环迭代中赋值。循环使用所需的名称创建一个新变量，并将数组的每个元素"
+"赋值给它。"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
 #: script_checking/error_database.csv:40
@@ -51,6 +57,17 @@ msgid ""
 "[code]for cell_position in cell_positions_array:\n"
 "    cell_position.x += 1.0[/code]"
 msgstr ""
+"要解决此错误，您需要确保 [code]for[/code] 和 [code]in[/code] "
+"关键字之间的名称是一个有效的变量名，且没有标点符号或空格。\n"
+"\n"
+"例如，以下代码无效： [code]for cell_position.x in "
+"cell_positions_array:[/code] 因为 [code]cell_position.x[/code] "
+"不是一个有效的变量名。\n"
+"\n"
+"要访问变量的 [code]x[/code] 子组件，需要在循环的主体中进行：\n"
+"\n"
+"[code]for cell_position in cell_positions_array：\n"
+"    cell_position.x += 1.0[/code]"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:47
@@ -62,6 +79,10 @@ msgid ""
 "Another possibility is that you want to check for equality in a condition "
 "but wrote a single = instead of ==."
 msgstr ""
+"如果出现这个错误，很可能是你试图给变量以外的东西赋值，这是不可能的。你只能给"
+"变量赋值。\n"
+"\n"
+"另一种可能是，你想在条件中检查相等性，但却写了一个 = 而不是 ==。"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:47
@@ -75,6 +96,11 @@ msgid ""
 "In the case of a condition, ensure that you are using two equal signs to "
 "check for equality (==)."
 msgstr ""
+"如果要给变量赋值，请仔细检查 = 符号左边的是变量而不是函数。\n"
+"\n"
+"您还需要确保语法正确。例如，等号左侧不应有括号。\n"
+"\n"
+"如果是条件，请确保使用两个等号来检查是否相等（==）。"
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:57
@@ -690,6 +716,8 @@ msgid ""
 "The most common case is when you forget to close a string: you have opening "
 "quotes, but you forget to add a matching closing quote."
 msgstr ""
+"计算机运行到代码行的末尾，但该行出现了语法错误。\n"
+"最常见的情况是忘记关闭字符串：有了开头引号，却忘记添加结尾引号。"
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:157
@@ -697,12 +725,13 @@ msgid ""
 "Double-check that you are not missing a quote character or that the quote "
 "character you used to start the string is the same as the one you used to "
 "close the string."
-msgstr ""
+msgstr "仔细检查是否缺少一个引号字符，或者用于开始字符串的引号字符与用于结束字符串的"
+"引号字符是否相同（译者注：单双引号要匹配）。"
 
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
 msgid "The sub-variable you are trying to access does not exist."
-msgstr ""
+msgstr "您试图访问的子变量不存在。"
 
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
@@ -713,6 +742,9 @@ msgid ""
 "Ensure that you don't have a capital letter where you should have a "
 "lowercase letter and vice versa."
 msgstr ""
+"您尝试访问的子变量名可能有错别字。\n"
+"\n"
+"确保本应使用小写字母的地方没有大写字母，反之亦然。"
 
 #~ msgid ""
 #~ "The server or your computer may currently be disconnected. Also, an app "
