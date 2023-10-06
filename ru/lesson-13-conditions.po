@@ -9,15 +9,18 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-10-30 14:01+0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-09-01 23:07+0000\n"
+"Last-Translator: gsomgsom <zhelneen@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-13-conditions/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.2\n"
 
 #: course/lesson-13-conditions/lesson.tres:14
 msgid ""
@@ -48,8 +51,8 @@ msgid ""
 msgstr ""
 "Предположим, наш персонаж имеет [code]100[/code] здоровья.\n"
 "\n"
-"Сколько здоровья будет у персонажа, если мы вызовем [code]take_damage(25)[/"
-"code] [b]пять раз[/b]"
+"Сколько здоровья будет у персонажа, если мы вызовем "
+"[code]take_damage(25)[/code] [b]пять раз[/b]?"
 
 #: course/lesson-13-conditions/lesson.tres:57
 msgid ""
@@ -76,15 +79,15 @@ msgstr ""
 #: course/lesson-13-conditions/lesson.tres:65
 #: course/lesson-13-conditions/lesson.tres:66
 msgid "-25"
-msgstr ""
+msgstr "-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: course/lesson-13-conditions/lesson.tres:75
 msgid ""
@@ -111,7 +114,6 @@ msgstr ""
 "игрок нажал кнопку на геймпаде — персонаж подпрыгивает."
 
 #: course/lesson-13-conditions/lesson.tres:107
-#, fuzzy
 msgid ""
 "When the computer checks a condition, this is called [b]to evaluate[/b] a "
 "condition. All conditions [b]evaluate[/b] to either [code]true[/code] or "
@@ -128,7 +130,7 @@ msgid ""
 "end the line with a colon."
 msgstr ""
 "Процесс проверки условий компьютером называется [b]оценкой[/b] условий. Все "
-"условия оцениваются как истинные ([code]true[/code]) либо как ложные "
+"условия [b]оцениваются[/b] как истинные ([code]true[/code]) либо как ложные "
 "([code]false[/code]).\n"
 "\n"
 "Нажал ли игрок на кнопку или нет. Соприкасается ли игрок с противником или "
@@ -142,7 +144,6 @@ msgstr ""
 "заканчиваем строку двоеточием."
 
 #: course/lesson-13-conditions/lesson.tres:133
-#, fuzzy
 msgid ""
 "Notice the [code]>[/code] comparison sign. We read this symbol as \"greater "
 "than\".\n"
@@ -185,8 +186,8 @@ msgid ""
 "\n"
 "Here's how we might use these in [code]if[/code] statements.\n"
 msgstr ""
-"В примере выше мы использовали символ [code]>[/code] означающий «больше "
-"чем».\n"
+"В примере выше мы использовали символ [code]>[/code] означающий «больше чем»."
+"\n"
 "\n"
 "Мы можем сравнить числа и другими способами.\n"
 "\n"
@@ -195,11 +196,12 @@ msgstr ""
 "[code]==[/code] означает «равно»\n"
 "[code]!=[/code] означает «не равно»\n"
 "\n"
-"Вот примеры того, как мы можем использовать эти способы в условиях.\n"
+"Вот примеры того, как мы можем использовать эти способы в условии "
+"[code]if[/code].\n"
 
 #: course/lesson-13-conditions/lesson.tres:187
 msgid "What does \"pass\" do in the code?"
-msgstr ""
+msgstr "Что означает \"pass\" в коде?"
 
 #: course/lesson-13-conditions/lesson.tres:189
 msgid ""
@@ -215,6 +217,16 @@ msgid ""
 "lines, Godot would give us an \"Expected an indented block after 'if' \" "
 "error."
 msgstr ""
+"Ключевое слово [code]pass[/code] предотвращает ошибки в нашем коде, когда "
+"строка не может быть пустой.\n"
+"\n"
+"Например, после определения функции или блока [code]if[/code] должна быть "
+"строка кода. Если вы еще не знаете, что писать, вы можете использовать "
+"ключевое слово [code]pass[/code] в качестве заглушки, и Godot не выдаст "
+"никаких ошибок.\n"
+"\n"
+"В предыдущем примере, если бы под строками [code]if[/code] ничего не было, "
+"Godot выдал бы нам ошибку «Ожидается блок с отступом после 'if'»."
 
 #: course/lesson-13-conditions/lesson.tres:201
 msgid "Which of these statements are true?"
@@ -234,39 +246,40 @@ msgid ""
 "The comparison [code]3 < 1[/code] means \"three is less than one\" which is "
 "[b]false[/b]."
 msgstr ""
-"Сравнение [code]3 > 1[/code] означает «три больше чем один», что [b]истинно[/"
-"b].\n"
-"Сравнение [code]2 < 3[/code] означает «два меньше чем три», что [b]истинно[/"
-"b].\n"
-"Сравнение [code]1 != 3[/code] означает «один не равно трём», что [b]истинно[/"
-"b].\n"
+"Сравнение [code]3 > 1[/code] означает «три больше чем один», что "
+"[b]истинно[/b].\n"
+"Сравнение [code]2 < 3[/code] означает «два меньше чем три», что "
+"[b]истинно[/b].\n"
+"Сравнение [code]1 != 3[/code] означает «один не равно трём», что "
+"[b]истинно[/b].\n"
 "\n"
-"Сравнение [code]2 == 1[/code] означает «два равно одному», что [b]ложно[/"
-"b].\n"
-"Сравнение [code]3 < 1/code] означает «три меньше чем один», что [b]ложно[/b]."
+"Сравнение [code]2 == 1[/code] означает «два равно одному», что [b]ложно[/b]."
+"\n"
+"Сравнение [code]3 < 1[/code] означает «три меньше чем один», что "
+"[b]ложно[/b]."
 
 #: course/lesson-13-conditions/lesson.tres:210
 #: course/lesson-13-conditions/lesson.tres:211
 msgid "3 > 1"
-msgstr ""
+msgstr "3 > 1"
 
 #: course/lesson-13-conditions/lesson.tres:210
 msgid "2 == 1"
-msgstr ""
+msgstr "2 == 1"
 
 #: course/lesson-13-conditions/lesson.tres:210
 #: course/lesson-13-conditions/lesson.tres:211
 msgid "2 < 3"
-msgstr ""
+msgstr "2 < 3"
 
 #: course/lesson-13-conditions/lesson.tres:210
 #: course/lesson-13-conditions/lesson.tres:211
 msgid "1 != 3"
-msgstr ""
+msgstr "1 != 3"
 
 #: course/lesson-13-conditions/lesson.tres:210
 msgid "3 < 1"
-msgstr ""
+msgstr "3 < 1"
 
 #: course/lesson-13-conditions/lesson.tres:218
 msgid "Or else..."
@@ -306,7 +319,6 @@ msgid "Using Comparisons"
 msgstr "Использование условий"
 
 #: course/lesson-13-conditions/lesson.tres:261
-#, fuzzy
 msgid ""
 "This series of [code]if[/code] statements is all wrong. Change the "
 "comparisons so each comparison matches the instruction below it.\n"
@@ -330,7 +342,7 @@ msgstr ""
 "Вся последовательность условий [code]if[/code] сломана. Измените знаки "
 "сравнения, чтобы каждое условие удовлетворяло инструкции под ним.\n"
 "\n"
-"Значение я выражения менять не нужно, меняйте только знаки сравнения.\n"
+"Значения выражений менять не нужно, меняйте только знаки сравнения.\n"
 "\n"
 "Напоминаем, знаками сравнения являются:\n"
 "[code]\n"

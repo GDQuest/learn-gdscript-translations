@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-06-13 06:50+0000\n"
-"Last-Translator: suplife <2634557184@qq.com>\n"
+"PO-Revision-Date: 2023-09-14 03:34+0000\n"
+"Last-Translator: KeJun <kejun1997@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/application/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
@@ -49,11 +49,11 @@ msgstr "（没有更早的历史）"
 
 #: ui/UINavigator.tscn:103
 msgid "CHRISTMAS SALE - 50% OFF"
-msgstr ""
+msgstr "圣诞特惠 - 五折"
 
 #: ui/UINavigator.tscn:163
 msgid "CHRISTMAS SALE"
-msgstr ""
+msgstr "圣诞特惠"
 
 #: ui/UIPractice.gd:154 ui/UIPractice.gd:220
 #, python-format
@@ -194,11 +194,11 @@ msgstr "run()"
 
 #: ui/components/RunnableCodeExample.tscn:123
 msgid "step"
-msgstr ""
+msgstr "步骤"
 
 #: ui/components/RunnableCodeExampleDebugger.tscn:44
 msgid "Debugger"
-msgstr ""
+msgstr "调试"
 
 #: ui/components/SalePopup.tscn:121
 #, python-format
@@ -206,18 +206,20 @@ msgid ""
 "[center]Get [b]50% off[/b] on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b][/center]"
 msgstr ""
+"[center]使用优惠券代码 [b]DISCOUNT50[/b] \n"
+"可享受 Godot 课程[b]半价[/b]优惠[/center]"
 
 #: ui/components/SalePopup.tscn:132
 msgid "Only until "
-msgstr ""
+msgstr "除非 "
 
 #: ui/components/SalePopup.tscn:155
 msgid "CHECK OUT OUR COURSES"
-msgstr ""
+msgstr "查看我们的课程"
 
 #: ui/components/SalePopup.tscn:180
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
@@ -271,7 +273,6 @@ msgid "Where do external errors come from?"
 msgstr "外部错误是从哪里来的？"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
-#, fuzzy
 msgid ""
 "Lessons in this course are designed so you only need to edit the "
 "[b]important bits[/b]. But there is much more code outside of what you see "
@@ -458,7 +459,7 @@ msgstr "帧率上限"
 
 #: ui/components/popups/SettingsPopup.tscn:212
 msgid "Lower contrast"
-msgstr ""
+msgstr "差别更小"
 
 #: ui/components/popups/SettingsPopup.tscn:259
 msgid "Apply"
@@ -604,7 +605,6 @@ msgid "Learn More"
 msgstr "了解更多"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:203
-#, fuzzy
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to "
 "make games with the Godot game engine.\n"
@@ -613,8 +613,8 @@ msgid ""
 "en/stable/getting_started/step_by_step/index.html]Getting Started with "
 "Godot[/url]."
 msgstr ""
-"你已经完成了从零开始学 GDScript。你现在已经学习到了使用Godot游戏引擎钻研制作"
-"游戏的基础。\n"
+"你已经完成了从零开始学 "
+"GDScript。你现在已经学习到了使用Godot游戏引擎钻研制作游戏的基础。\n"
 "\n"
 "如果你正在寻找和我们一起免费学习基础的系列，你可以访问 [url=https://www."
 "gdquest.com/tutorial/godot/learning-paths/getting-started-in-2021/]Getting "
@@ -622,7 +622,7 @@ msgstr ""
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:216
 msgid "This is an Open-Source project!"
-msgstr ""
+msgstr "这是一个开源项目！"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:223
 msgid ""
@@ -632,6 +632,10 @@ msgid ""
 "[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
+"像 Godot 一样，这个应用和课程是免费和开源的。 \n"
+"\n"
+"你可以在这里找到本应用的源代码并提供翻译: [url=\"https://github.com/GDQuest/"
+"learn-gdscript\"]Learn GDScript From Zero (Github repository)[/url]."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
