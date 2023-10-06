@@ -9,20 +9,20 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-01-10 22:11+0700\n"
-"Last-Translator: Paul Argent <PaulArgentCode@gmail.com>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-09-01 23:07+0000\n"
+"Last-Translator: gsomgsom <zhelneen@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-2-your-first-error/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.2.2\n"
 
 #: course/lesson-2-your-first-error/lesson.tres:14
-#, fuzzy
 msgid ""
 "When you program, you are bound to run into errors. Tons of them.\n"
 "\n"
@@ -38,15 +38,15 @@ msgstr ""
 "В процессе программирования, вы обязательно столкнетесь с ошибками. С "
 "тоннами ошибок.\n"
 "\n"
-"Но не стоит беспокоиться! Ошибки в компьютере — [b]это хорошо и полезно[/"
-"b].\n"
+"Но не стоит беспокоиться! Ошибки в компьютере — [b]это хорошо и полезно[/b]."
+"\n"
 "\n"
 "Вы будете сталкиваться с ошибками, и [i]это нормально[/i]: каждый "
 "программист с ними сталкивается. Особенно профессионалы.\n"
 "\n"
 "В школе, возможно, вас научили тому, что ошибки — это плохо. Когда вы что-то "
 "программируете, это не так: [b]ошибки помогают вам писать правильные "
-"программы[/b]."
+"программы[/b], показывая что именно не так в ваших программах."
 
 #: course/lesson-2-your-first-error/lesson.tres:30
 msgid ""
@@ -80,7 +80,6 @@ msgstr ""
 "Переводчик также дает вам несколько советов о том, как исправить ошибку."
 
 #: course/lesson-2-your-first-error/lesson.tres:74
-#, fuzzy
 msgid ""
 "Error messages are designed on purpose by fellow programmers who came before "
 "you. They anticipated you might have specific issues and wanted to help you "
@@ -101,15 +100,17 @@ msgstr ""
 "Вы не должны думать об ошибках как о неудачах. Они подобны наставникам, "
 "помогающим вам из прошлого. Важно отметить, что ошибки не сломают ваш "
 "компьютер. По крайней мере, не ошибки в GDScript, потому что этот язык "
-"довольно безопасен."
+"довольно безопасен.\n"
+"\n"
+"В конечном итоге вы хотите исправить все ошибки в вашей программе. Понимание "
+"причин ошибок с помощью сообщений об ошибках является ключом к их "
+"исправлению."
 
 #: course/lesson-2-your-first-error/lesson.tres:86
-#, fuzzy
 msgid "Are error messages a good or a bad thing in code?"
 msgstr "Ошибки в коде — это хорошо или плохо?"
 
 #: course/lesson-2-your-first-error/lesson.tres:89
-#, fuzzy
 msgid ""
 "Yes, error messages are here to help you!\n"
 "\n"
@@ -124,7 +125,6 @@ msgstr ""
 "благодаря сообщениям об ошибках."
 
 #: course/lesson-2-your-first-error/lesson.tres:92
-#, fuzzy
 msgid "They're bad: error messages are always bad."
 msgstr "Они плохие: ошибки — это всегда плохо."
 

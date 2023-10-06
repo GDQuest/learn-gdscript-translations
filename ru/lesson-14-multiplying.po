@@ -9,15 +9,18 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-10-30 15:06+0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-09-01 23:07+0000\n"
+"Last-Translator: gsomgsom <zhelneen@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-14-multiplying/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.2\n"
 
 #: course/lesson-14-multiplying/lesson.tres:14
 msgid ""
@@ -60,7 +63,6 @@ msgstr ""
 "количество переменных, способных увеличиваться при повышении уровня."
 
 #: course/lesson-14-multiplying/lesson.tres:70
-#, fuzzy
 msgid ""
 "In this lesson, we'll just focus on increasing the robot's [code]max_health[/"
 "code].\n"
@@ -72,8 +74,8 @@ msgstr ""
 "В этом уроке мы сфокусируемся на повышении [code]max_health[/code] робота.\n"
 "\n"
 "Переменная [code]max_health[/code] — это максимальное значение, которое "
-"[code]health[/code] робота может иметь. Мы изменим нашу функцию [code]heal()"
-"[/code] и используем эту переменную в ней."
+"[code]health[/code] робота может иметь. Мы изменим нашу функцию "
+"[code]heal()[/code] и используем эту переменную в ней."
 
 #: course/lesson-14-multiplying/lesson.tres:92
 msgid ""
@@ -147,6 +149,13 @@ msgid ""
 "\tvar damage = power * level\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"var level = 5\n"
+"var power = 3\n"
+"\n"
+"func calculate_damage():\n"
+"\tvar damage = power * level\n"
+"[/code]"
 
 #: course/lesson-14-multiplying/lesson.tres:181
 msgid ""
@@ -159,15 +168,15 @@ msgstr ""
 #: course/lesson-14-multiplying/lesson.tres:182
 #: course/lesson-14-multiplying/lesson.tres:183
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: course/lesson-14-multiplying/lesson.tres:182
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: course/lesson-14-multiplying/lesson.tres:182
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: course/lesson-14-multiplying/lesson.tres:192
 msgid ""
@@ -192,6 +201,14 @@ msgid ""
 "\tdamage *= 2\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"var level = 5\n"
+"var power = 3\n"
+"\n"
+"func calculate_damage():\n"
+"\tvar damage = power * level\n"
+"\tdamage *= 2\n"
+"[/code]"
 
 #: course/lesson-14-multiplying/lesson.tres:210
 msgid ""
@@ -208,15 +225,15 @@ msgstr ""
 #: course/lesson-14-multiplying/lesson.tres:213
 #: course/lesson-14-multiplying/lesson.tres:214
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: course/lesson-14-multiplying/lesson.tres:213
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: course/lesson-14-multiplying/lesson.tres:213
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: course/lesson-14-multiplying/lesson.tres:223
 msgid ""
@@ -251,6 +268,7 @@ msgstr ""
 "Давайте сделаем так, чтобы робот усиливался при повышении уровня.\n"
 "\n"
 "Доработайте функцию [code]level_up()[/code], чтобы она:\n"
+"\n"
 "- Увеличивала [code]level[/code] на единицу.\n"
 "- Увеличивала [code]max_health[/code] на 10%."
 
@@ -284,11 +302,12 @@ msgstr ""
 "\n"
 "Доработайте функцию [code]take_damage()[/code], чтобы при её вызове "
 "случалось это:\n"
-"- [i]если[/i] [code]level[/code] робота больше чем [code]2[/code], уменьшить "
-"[code]amount[/code] принимаемого им урона на 50%\n"
 "\n"
-"Робот имеет уровень 3. Враг собирается нанести 10 урона своей атакой. Этот "
-"урон должен уменьшиться до 5."
+"- [code]если[/code] [code]level[/code] робота больше чем [code]2[/code], "
+"уменьшить [code]amount[/code] принимаемого им урона на 50%\n"
+"\n"
+"У Робота 3 уровень. Враг собирается нанести 10 урона своей атакой. Этот урон "
+"должен уменьшиться до 5."
 
 #: course/lesson-14-multiplying/lesson.tres:299
 msgid ""

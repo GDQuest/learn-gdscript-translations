@@ -9,15 +9,18 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2022-11-24 21:22+0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-09-01 23:07+0000\n"
+"Last-Translator: gsomgsom <zhelneen@yandex.ru>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-21-strings/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.2\n"
 
 #: course/lesson-21-strings/lesson.tres:14
 msgid ""
@@ -92,17 +95,17 @@ msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:88
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"1\""
-msgstr ""
+msgstr "\"1\""
 
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"name\""
-msgstr ""
+msgstr "\"name\""
 
 #: course/lesson-21-strings/lesson.tres:96
 msgid "Why we use strings"
@@ -168,7 +171,6 @@ msgid "Using an array of strings to play a combo"
 msgstr "Использование массива строк для выполнения комбо"
 
 #: course/lesson-21-strings/lesson.tres:169
-#, fuzzy
 msgid ""
 "In this practice, we'll chain together animations using an array of strings. "
 "You might find such combinations in fighting games.\n"
@@ -199,8 +201,8 @@ msgstr ""
 "Затем, для каждого действия в массиве, вызовите функцию "
 "[code]play_animation()[/code] для их запуска.\n"
 "\n"
-"Робот должен выполнить действия в таком порядке: [code]jab, jab, uppercut[/"
-"code]."
+"Массив должен содержать три значения, так робот совершает три атаки: два "
+"удара (jab), за которыми следует один апперкот (uppercut)."
 
 #: course/lesson-21-strings/lesson.tres:190
 msgid "Define an array of strings to unleash a powerful combo."
