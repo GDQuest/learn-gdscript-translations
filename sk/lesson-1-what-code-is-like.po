@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-10-06 08:18+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-10-25 19:00+0000\n"
+"Last-Translator: Rudolf Kovalčík <dudo.kovalcik@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-1-what-code-is-like/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.1.1\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:14
@@ -25,10 +28,14 @@ msgid ""
 "Yet, you want to make video games, so [b]there is no way around learning "
 "to program[/b]. [i]Every[/i] video game is a computer program."
 msgstr ""
+"Naučiť sa programovať nie je ľahké.\n"
+"\n"
+"Lenže, keď chcete robiť videohry [b]programovaniu sa nevyhnete[/b]. "
+"[i]Každá[/i] videohra je počítačový program."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:24
 msgid "Telling the computer what to do"
-msgstr ""
+msgstr "Ako povedať počítaču, čo má robiť"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:26
 msgid ""
@@ -38,12 +45,19 @@ msgid ""
 "A game's instructions are, for example: moving a character, drawing a "
 "life bar, or playing a sound."
 msgstr ""
+"Programovanie je proces napísania presných inštrukcií, ktoré počítaču "
+"povedia, ako má splniť určitú úlohu.\n"
+"\n"
+"Inštrukcie v hre sú napríklad: pohyb postavy, vykreslenie lišty života, "
+"alebo prehranie zvuku."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:38
 msgid ""
 "To do any of that, you need to learn a [b]programming language[/b]: a "
 "specialized language to tell the computer what to do."
 msgstr ""
+"Aby ste niečo z toho mohli urobiť, musíte sa naučiť [b]programovací "
+"jazyk[/b]: špeciálny jazyk, ktorý počítaču povie, čo má robiť."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:58
 msgid ""
@@ -55,10 +69,17 @@ msgid ""
 "\n"
 "Which circle? Where? Which color should it be? How big should it be?"
 msgstr ""
+"Programovacie jazyky sa od bežných jazykov, ako je angličtina alebo "
+"slovenčina, líšia. Počítač nerozmýšla. Na rozdiel od nás nevie "
+"[i]interpretovať[/i] čo mu povieme.\n"
+"\n"
+"Nestačí mu povedať niečo tak nejasné ako \"nakresli kruh\".\n"
+"\n"
+"Aký kruh? Kde? Akej farby? Aký by mal byť veľký?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:70
 msgid "The computer needs exact instructions"
-msgstr ""
+msgstr "Počítač vyžaduje presné inštrukcie"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:72
 msgid ""
@@ -69,6 +90,12 @@ msgid ""
 "\n"
 "[i]Click the button to run the code example and see the result.[/i]"
 msgstr ""
+"Aby nakreslil vyplnený kruh, počítač musí vedieť jeho presné súradnice, "
+"polomer, hrúbku a požadovanú farbu.\n"
+"\n"
+"Kód, ktorý by to vykonal, [i]môže[/i] vypadať takto.\n"
+"\n"
+"[i]Kliknutím na tlačidlo spustíte ukážku kódu a uvidíte výsledok.[/i]"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:96
 msgid ""
@@ -84,10 +111,20 @@ msgid ""
 "[b]When you program, you're the one in charge, and you're free to do "
 "[i]anything[/i] you want.[/b]"
 msgstr ""
+"Ako tento kód funguje sa naučíte v nasledujúcich lekciách.\n"
+"\n"
+"Nateraz vám chceme priblížiť, ako počítačový kód vypadá. V tejto ukážke "
+"záleží na všetkom: na každej zátvorke, veľkom písmene, bodke aj čiarke.\n"
+"\n"
+"Počítač vždy vykoná [b]presne[/b] to, čo mu poviete. Nič viac, nič menej. "
+"[i]Slepo[/i] vykoná každú inštrukciu.\n"
+"\n"
+"[b]Keď programujete, vy ste šéfom, a môžete urobiť [i]čokoľvek[/i], čo "
+"chcete.[/b]"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:110
 msgid "How do you give instructions to a computer?"
-msgstr ""
+msgstr "Ako sa dávajú inštrukcie počítaču?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:113
 msgid ""
@@ -95,19 +132,22 @@ msgid ""
 "do anything, you need to give them precise instructions they understand, "
 "using a programming language."
 msgstr ""
+"Prirodzeným jazykom, ako je angličtina, počítače nerozumejú. Aby čokoľvek "
+"vykonali, musia im byť programovacím jazykom dané presné inštrukcie, ktorým "
+"rozumejú."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:114
 #: course/lesson-1-what-code-is-like/lesson.tres:115
 msgid "Using a programming language and precise instructions"
-msgstr ""
+msgstr "Použitím programovacieho jazyka a presných inštrukcií"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:114
 msgid "Using prose in plain English"
-msgstr ""
+msgstr "Použitím prostej angličtiny"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:122
 msgid "You'll learn to code with GDScript"
-msgstr ""
+msgstr "Naučíte sa programovať v GDScripte"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:124
 msgid ""
@@ -125,6 +165,17 @@ msgid ""
 "\n"
 "Engineers at Tesla also used it for their cars' dashboards."
 msgstr ""
+"V tomto kurze sa naučíte programovať v programovacom jazyku GDScript (čo "
+"znamená \"Godot script\").\n"
+"\n"
+"Ide o jazyk od vývojárov hier pre vývojárov hier. Jeho použitím v hernom "
+"engine Godot vytvoríte hry a aplikácie.\n"
+"\n"
+"Je to jazyk použitý v hrách ako [ignore][url=https://store.steampowered.com/"
+"app/1637320/Dome_Keeper/]Dome Keeper[/url] a [ignore][url=https://store."
+"steampowered.com/app/1942280/Brotato/]Brotato[/url].\n"
+"\n"
+"Aj inžinieri z Tesly ho použili na prístrojové dosky ich áut."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:150
 msgid ""
@@ -132,10 +183,13 @@ msgid ""
 " it's specialized. Unlike some other languages, it doesn't have an "
 "[i]overwhelming[/i] amount of features for you to learn."
 msgstr ""
+"GDScript je vynikjúci jazyk pre začínajúcich programátorov, pretože je "
+"špecializovaný. Na rozdiel od iných jazykov, nemá [i]ohromujúce[/i] množstvo "
+"vlastností, ktoré by bolo treba zvládnuť."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:158
 msgid "Most programming languages are similar"
-msgstr ""
+msgstr "Väčšina programovacích jazykov si je podobná"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:160
 msgid ""
@@ -150,20 +204,32 @@ msgid ""
 "\n"
 "Try to spot the similarities and differences."
 msgstr ""
+"Nemusíte sa obávať zablokovania. Koncepty, ktoré si osvojíte v prvom "
+"programovacom jazyku, sa uplatnia aj vo všetkých ostatných.\n"
+"\n"
+"Väčšina jazykov má viac podobností ako odlišností. Keď sa naučíte jeden, o "
+"to rýchlejšie budete potom produktívni v ďalšom.\n"
+"\n"
+"Tu je ukážka toho istého kódu v troch jazykoch: GDScripte, JavaScripte a "
+"Pythone.\n"
+"\n"
+"Všimnite si podobností a odlišností."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:186
 msgid "It doesn't look [i]that[/i] different, does it?"
-msgstr ""
+msgstr "Nelíšia sa až [i]tak[/i] moc, že?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:194
 msgid "Are programming languages all completely different?"
-msgstr ""
+msgstr "Sú všetky programovacie jazyky úplne iné?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:195
 msgid ""
 "If you learn one language and then want to learn another, will you have "
 "to start from scratch?"
 msgstr ""
+"Keď sa naučíte jeden jazyk a potom sa chcete naučiť ďalší, musíte začať od "
+"nuly?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:197
 msgid ""
@@ -177,25 +243,35 @@ msgid ""
 "However, languages like GDScript, Python, JavaScript, C++, C#, and many "
 "others build upon a similar programming philosophy."
 msgstr ""
+"Väčšina programovacích jazykov stavia na tých istých základoch "
+"programovania. Preto sú si väčšinou podobné.\n"
+"\n"
+"To však neznamená, že všetky jazyku sú rovnaké. Niektoré majú fakt unikátnu "
+"syntax a vyžadujú úplne iné myslenie ako GDScript.\n"
+"\n"
+"Avšak jazyky ako GDScript, Python, JavaScript, C++, C# a mnoho ďalších, "
+"stavajú na podobnej filozofii programovania."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:202
 #: course/lesson-1-what-code-is-like/lesson.tres:203
 msgid "No, they have many similarities"
-msgstr ""
+msgstr "Nie, majú veľa podobností"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:202
 msgid "Yes, they are completely different"
-msgstr ""
+msgstr "Áno, sú úplne odlišné"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:210
 msgid "This is a course for beginners"
-msgstr ""
+msgstr "Toto je kurz pre začiatočníkov"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:212
 msgid ""
 "If you want to learn to make games or code but don't know where to start,"
 " this course should be perfect."
 msgstr ""
+"Ak sa chcete naučiť vyrábať hry alebo programovať, ale neviete kde začať, "
+"tento kurz by vám mal vyhohovať."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:232
 msgid ""
@@ -208,10 +284,18 @@ msgid ""
 "Please be patient. It will take time before you can make your first "
 "complete game alone."
 msgstr ""
+"Navrhli sme ho pre [i]úplných začiatočníkov[/i], ale ak už viete iný jazyk, "
+"môže to byť zábavný spôsob, ako začať s Godotom.\n"
+"\n"
+"Dáme vám základy programovania, aby ste mohli začať vytvárať hry a aplikácie "
+"s Godotom.\n"
+"\n"
+"Buďte, prosím, trpezliví. Chvíľu potrvá, než budete vedieť vytvoriť sami "
+"svoju prvú celú hru."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:244
 msgid "Learning to make games takes practice"
-msgstr ""
+msgstr "Naučiť sa tvoriť hry vyžaduje prax"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:246
 msgid ""
@@ -227,16 +311,29 @@ msgid ""
 "Enjoy the process and celebrate every little success. You will never stop"
 " learning as a game developer."
 msgstr ""
+"Tvorba hier je dostupnejšia než kedykoľvek predtým, stále si však žiada veľa "
+"práce a praxe.\n"
+"\n"
+"Neočakávajte, že z vás jediný kurz alebo kniha spravia profíka. [b]"
+"Programovanie sa učí praxou.[/b]\n"
+"\n"
+"Ak niečomu hneď neporozumiete, nestresujte sa tým! Pokračujte v učení a "
+"neskôr sa k tomu vráťte.\n"
+"\n"
+"Užívajte si postup a oslavujte každý malý úspech. Ako vývojár hier sa nikdy "
+"neprestanete učiť."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:260
 msgid "What and how you'll learn"
-msgstr ""
+msgstr "Čo a ako sa naučíte"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:262
 msgid ""
 "In this free course, you will learn the foundations you need to start "
 "coding things like these:"
 msgstr ""
+"V tomto kurze zadarmo sa naučíte základy, aby ste mohli začať programovať "
+"veci ako tieto:"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:292
 msgid ""
@@ -261,10 +358,29 @@ msgid ""
 "welcome to join [url=https://discord.gg/87NNb3Z]our Discord "
 "community[/url]."
 msgstr ""
+"Postupne vás naučíme:\n"
+"\n"
+"- Niektoré myšlienkové postupy, ktoré ako vývojár potrebujete. Príliš veľa "
+"kurzov programovania túto podstatnú časť vynecháva.\n"
+"- Ako písať kód v GDScripte.\n"
+"- Nevyhnutné základy programovania do vašich začiatkov.\n"
+"\n"
+"V priebehu kurzu budete mať veľa otázok. Postupne vám na ne odpovieme ako "
+"najlepšie vieme.\n"
+"\n"
+"Je toho však toľko, že sa musíme uchýliť k pár skratkám. Nechceme vás "
+"[i]zahltiť[/i] informáciami. Taktiež chceme rešpektovať tempo, akým sa naše "
+"mozgy učia.\n"
+"\n"
+"Kurz sme rozdelili do krátkych lekcií a cvičení. Keby sme do každej časti "
+"toho dali priveľa, učili by ste sa pomalšie.\n"
+"\n"
+"Ak by ste kedykoľvek narazili na pálčivé otázky, ste vítaní pripojiť sa k "
+"[url=https://discord.gg/87NNb3Z]našej Discord komunite[/url]."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:312
 msgid "Is this for Godot 4?"
-msgstr ""
+msgstr "Je toto pre Godot 4?"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:314
 msgid ""
@@ -272,10 +388,13 @@ msgid ""
 "While we initially designed this series for Godot 3, the foundations of "
 "GDScript are still the same in Godot 4."
 msgstr ""
+"Všetko, čo sa naučíte v tomto kurze zadarmo je úplne kompatibilné s Godotom "
+"4. Hoci sme tento kurz pôvodne navrhli pre Godot 3, základy GDScriptu "
+"ostávajú v Godote 4 rovnaké."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:322
 msgid "Programming is a skill"
-msgstr ""
+msgstr "Programovanie je zručnosť"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:324
 msgid ""
@@ -290,10 +409,20 @@ msgid ""
 "To continue, click the [i]Practice[/i] button below. It will give you a "
 "short run through how practices work."
 msgstr ""
+"Programovanie je zručnosť, takže aby ste sa v ňom zlepšili, musíte cvičiť. "
+"Preto sme vytvorili túto aplikáciu.\n"
+"\n"
+"Po každej lekcii nasleduje interaktívne cvičenie, kde využijete čo ste sa "
+"naučili.\n"
+"\n"
+"Keď o tom hovoríme, je načase pozrieť sa na obrazovku cvičenia!\n"
+"\n"
+"Pre pokračovanie kliknite tlačidlo [i]Practice[/i] dole. Stručne sa "
+"zoznámite s tým, ako cvičenia fungujú."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:338
 msgid "Try Your First Code"
-msgstr ""
+msgstr "Vyskúšajte svoj prvý kód"
 
 #: course/lesson-1-what-code-is-like/lesson.tres:339
 msgid ""
@@ -302,11 +431,15 @@ msgid ""
 "\n"
 "To test the code, click the [i]Run[/i] button below the code editor."
 msgstr ""
+"Pripravili sme pre vás ukážku kódu. V tomto cvičení nemusíte nič meniť.\n"
+"\n"
+"Ak chcete kód vyskúšať. kliknite na tlačidlo [i]Run[/i] dole pod editorom "
+"kódu."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:351
 msgid "Run your first bit of code and see the result."
-msgstr ""
+msgstr "Spusťte svoj prvý kúsok kódu a uvidíte výsledok."
 
 #: course/lesson-1-what-code-is-like/lesson.tres:355
 msgid "What Code is Like"
-msgstr ""
+msgstr "Ako kód vyzerá"
