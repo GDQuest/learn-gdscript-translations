@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-10-06 07:34+0200\n"
+"POT-Creation-Date: 2023-12-09 20:05+0100\n"
 "PO-Revision-Date: 2023-10-20 04:17+0000\n"
 "Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -77,8 +77,9 @@ msgstr "執行您的程式碼……"
 msgid ""
 "There is a division by zero in your code. You cannot divide by zero in code. "
 "Please ensure you have no \"/ 0\" or \"% 0\" in your code."
-msgstr "你的程式碼中存在除以0的情況。你不能在程式碼中除以0。請確保你的程式碼中沒有 \""
-"/ 0\" 或 \"% 0\" 。"
+msgstr ""
+"你的程式碼中存在除以0的情況。你不能在程式碼中除以0。請確保你的程式碼中沒有 "
+"\"/ 0\" 或 \"% 0\" 。"
 
 #: ui/UIPractice.gd:343
 msgid ""
@@ -294,10 +295,10 @@ msgstr ""
 "也就是說，有時候你所作出的修改可能會影響到你無法控制的程式碼。不過不用擔心，"
 "你還是可以通過修改你[b]能夠[/b]編輯的程式碼來修復所有這些問題。\n"
 "\n"
-"[i]這也正類似於遊戲引擎的工作原理。[/i]很多的程式碼是被隱藏的，有了這些程式碼"
-"，你的專案才能夠順利運行。但同時，你的腳本中的錯誤就可能會讓它們無法正常工作"
-"。我們會嘗試解釋如何解決你所遇到的每一個問題。很簡單，點擊錯誤消息旁邊的[b]解"
-"釋[/b]按鈕就行了！"
+"[i]這也正類似於遊戲引擎的工作原理。[/i]很多的程式碼是被隱藏的，有了這些程式"
+"碼，你的專案才能夠順利運行。但同時，你的腳本中的錯誤就可能會讓它們無法正常工"
+"作。我們會嘗試解釋如何解決你所遇到的每一個問題。很簡單，點擊錯誤消息旁邊的[b]"
+"解釋[/b]按鈕就行了！"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
@@ -411,11 +412,11 @@ msgstr ""
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]GitHub 是什麼[/font]\n"
 "\n"
-"GitHub 是一個線上平臺，用於託管和管理像 GDScript Learn "
-"套用這樣的開源專案，可以説明開發者組織他們的工作並進行線上協作。\n"
+"GitHub 是一個線上平臺，用於託管和管理像 GDScript Learn 套用這樣的開源專案，可"
+"以説明開發者組織他們的工作並進行線上協作。\n"
 "\n"
-"你可以使用 GitHub "
-"來研究許多開放專案的原始程式碼，報告問題，甚至自己貢獻程式碼。\n"
+"你可以使用 GitHub 來研究許多開放專案的原始程式碼，報告問題，甚至自己貢獻程式"
+"碼。\n"
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]如何報告問題[/font]\n"
 "\n"
@@ -527,83 +528,107 @@ msgstr "重設進度"
 msgid "Confirm Resetting Progress"
 msgstr "確認重設進度"
 
-#: ui/screens/end_screen/EndScreen.tscn:229
+#: ui/screens/end_screen/EndScreen.tscn:300
+#: ui/screens/end_screen/EndScreen.tscn:313
+msgid "YOU MADE IT!"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:343
+msgid ""
+"Not only did you learn the foundations of coding, you’re a big step closer "
+"to making your own games."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:363
+msgid "Don't stop here..."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:373
+msgid "The fun stuff starts now!"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:388
+msgid "There are 2 pathways learners traditionally take from here:"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:402
+msgid "Following video tutorials"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:417
+msgid ""
+"They’re a great way to pick up specific game mechanics but they’re not as "
+"effective when you’re trying to learn new skills from the ground up."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:449
+msgid "• There’s no clear learning path."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:464
+msgid "• Retention and skill acquisition is slow and limited."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:480
+msgid ""
+"We make our fair share of [b][color=#ebc3ff][url=https://www.youtube.com/"
+"@Gdquest/videos]free tutorials[/url][/color][/b]. They will come in very "
+"handy once you start making games on your own. But to get started, we really "
+"recommend you learn how to think like a game developer using [b]"
+"[color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]courses[/"
+"url][/color][/b]."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:495
+msgid "Learning with courses"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:511
+msgid ""
+"Note that most available courses online are actually premium series of video "
+"tutorials. The problem of retaining information and acquiring real skills "
+"unfortunately still applies to them."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:527
+msgid ""
+"At GDQuest, we’re educators at heart. We believe in applied study and we "
+"believe it doesn’t have to be boring. When teaching is done correctly, most "
+"people highly enjoy the sensation of leveling up!\n"
+"\n"
+"That’s the reason we made this app. It is in fact part of our beginner "
+"course [b][color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
+"[/b]."
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:565
+msgid "LEARN GAMEDEV WITH GODOT"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:710
+msgid "Now available"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:720
+msgid "for preorders"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:737
+msgid "Godot 4 courses!!"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:783
+msgid "Teaching gamedev in the classroom?"
+msgstr ""
+
+#: ui/screens/end_screen/EndScreen.tscn:796
+msgid "Get in touch"
+msgstr ""
+
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:196
 msgid "Congratulations!"
 msgstr "恭喜！"
-
-#: ui/screens/end_screen/EndScreen.tscn:236
-msgid ""
-"You completed Learn GDScript From Zero. You now have the basics you need to "
-"dive into game creation with the Godot game engine.\n"
-"\n"
-"If you're looking for a free series to keep learning the basics with us, you "
-"can move on to [url=https://www.gdquest.com/tutorial/godot/learning-paths/"
-"getting-started-in-2021/]Getting Started with Godot[/url]."
-msgstr ""
-"你已經完成了從零開始學 "
-"GDScript。你現在已經學習到了使用Godot遊戲引擎鑽研製作遊戲的基礎。\n"
-"\n"
-"如果你正在尋找和我們一起免費學習基礎的系列，你可以存取 [url=https://www."
-"gdquest.com/tutorial/godot/learning-paths/getting-started-in-2021/]Getting "
-"Started with Godot[/url]。"
-
-#: ui/screens/end_screen/EndScreen.tscn:249
-msgid "Or level up faster by taking this shortcut"
-msgstr "或者點擊這一捷徑來快速提升等級"
-
-#: ui/screens/end_screen/EndScreen.tscn:256
-msgid ""
-"There are loads of free game creation tutorials, but they don't form a clear "
-"path.\n"
-"\n"
-"Worse, most of them are like step-by-step recipes. But as you learned, you "
-"can't become a developer by just following recipes.\n"
-"\n"
-"Every project has unique challenges and requires [i]creative problem "
-"solving[/i]. You need to [i]think like a programmer[/i].\n"
-"\n"
-"Learning that on your own can take years."
-msgstr ""
-"現在有很多免費遊戲製作教學，但他們並沒有一個清晰的學習路徑。\n"
-"\n"
-"更糟的是，他們中的大多數只是一步步的流程。但在你學習之後，你並不能只靠固定流"
-"程來變成一名開發者。\n"
-"\n"
-"每個專案都有獨特的挑戰和需要[i]創造式的問題解決方式[/i]。你需要[i]像一個程式"
-"設計師一樣思考[/i]。\n"
-"\n"
-"自學這一方式需要好幾年。"
-
-#: ui/screens/end_screen/EndScreen.tscn:277
-msgid "Learn to Code From Zero, with Godot"
-msgstr "和Godot一起從零開始學程式碼"
-
-#: ui/screens/end_screen/EndScreen.tscn:284
-msgid ""
-"This app is the free part of our in-depth course, [url=https://gdquest."
-"mavenseed.com/courses/learn-to-code-from-zero-with-godot][b]Learn to Code "
-"From Zero, with Godot[/b][/url].\n"
-"\n"
-"The course picks up right where this app ends to take you to the point where "
-"you can make [i]your[/i] game.\n"
-"\n"
-"It's the only course that'll truly teach you [i]how to become a game "
-"developer[/i] with Godot."
-msgstr ""
-"這一套用是我們詳細課程 [url=https://gdquest.mavenseed.com/courses/learn-to-"
-"code-from-zero-with-godot][b]Learn to Code From Zero, with Godot[/b][/url] "
-"的免費部分。\n"
-"\n"
-"該課程可以銜接這一套用的結束來教你如何製作[i]你的[/i]遊戲。\n"
-"\n"
-"這是唯一真正教你[i]如何成為遊戲開發者[/i]的Godot課程。"
-
-#: ui/screens/end_screen/EndScreen.tscn:308
-#: ui/screens/lesson/UIContentBlock.gd:70
-#: ui/screens/lesson/UIContentBlock.gd:134
-msgid "Learn More"
-msgstr "瞭解更多"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:203
 msgid ""
@@ -614,8 +639,8 @@ msgid ""
 "en/stable/getting_started/step_by_step/index.html]Getting Started with "
 "Godot[/url]."
 msgstr ""
-"你已經完成了從零開始學 "
-"GDScript。你現在已經學習到了使用Godot遊戲引擎鑽研製作遊戲的基礎。\n"
+"你已經完成了從零開始學 GDScript。你現在已經學習到了使用Godot遊戲引擎鑽研製作"
+"遊戲的基礎。\n"
 "\n"
 "如果你正在尋找和我們一起免費學習基礎的系列，你可以存取 [url=https://www."
 "gdquest.com/tutorial/godot/learning-paths/getting-started-in-2021/]Getting "
@@ -637,6 +662,10 @@ msgstr ""
 "\n"
 "你可以在這裡找到本 App 的原始程式碼並提供翻譯: [url=\"https://github.com/"
 "GDQuest/learn-gdscript\"]Learn GDScript From Zero (Github repository)[/url]."
+
+#: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:42
+msgid "Early Access release: 2024/01/30"
+msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
@@ -661,6 +690,11 @@ msgstr "您答對了！"
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
 msgstr "答案在這裡"
+
+#: ui/screens/lesson/UIContentBlock.gd:70
+#: ui/screens/lesson/UIContentBlock.gd:134
+msgid "Learn More"
+msgstr "瞭解更多"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
@@ -735,21 +769,83 @@ msgid "CONTINUE"
 msgstr "繼續"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:44
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:627
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:625
 msgid "START"
 msgstr "開始"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:645
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:643
 msgid "SELECT LESSON"
 msgstr "選擇課程"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:659
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:657
 msgid "OPTIONS"
 msgstr "選項"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:693
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:691
 msgid "QUIT"
 msgstr "退出"
+
+#~ msgid ""
+#~ "You completed Learn GDScript From Zero. You now have the basics you need "
+#~ "to dive into game creation with the Godot game engine.\n"
+#~ "\n"
+#~ "If you're looking for a free series to keep learning the basics with us, "
+#~ "you can move on to [url=https://www.gdquest.com/tutorial/godot/learning-"
+#~ "paths/getting-started-in-2021/]Getting Started with Godot[/url]."
+#~ msgstr ""
+#~ "你已經完成了從零開始學 GDScript。你現在已經學習到了使用Godot遊戲引擎鑽研製"
+#~ "作遊戲的基礎。\n"
+#~ "\n"
+#~ "如果你正在尋找和我們一起免費學習基礎的系列，你可以存取 [url=https://www."
+#~ "gdquest.com/tutorial/godot/learning-paths/getting-started-"
+#~ "in-2021/]Getting Started with Godot[/url]。"
+
+#~ msgid "Or level up faster by taking this shortcut"
+#~ msgstr "或者點擊這一捷徑來快速提升等級"
+
+#~ msgid ""
+#~ "There are loads of free game creation tutorials, but they don't form a "
+#~ "clear path.\n"
+#~ "\n"
+#~ "Worse, most of them are like step-by-step recipes. But as you learned, "
+#~ "you can't become a developer by just following recipes.\n"
+#~ "\n"
+#~ "Every project has unique challenges and requires [i]creative problem "
+#~ "solving[/i]. You need to [i]think like a programmer[/i].\n"
+#~ "\n"
+#~ "Learning that on your own can take years."
+#~ msgstr ""
+#~ "現在有很多免費遊戲製作教學，但他們並沒有一個清晰的學習路徑。\n"
+#~ "\n"
+#~ "更糟的是，他們中的大多數只是一步步的流程。但在你學習之後，你並不能只靠固定"
+#~ "流程來變成一名開發者。\n"
+#~ "\n"
+#~ "每個專案都有獨特的挑戰和需要[i]創造式的問題解決方式[/i]。你需要[i]像一個程"
+#~ "式設計師一樣思考[/i]。\n"
+#~ "\n"
+#~ "自學這一方式需要好幾年。"
+
+#~ msgid "Learn to Code From Zero, with Godot"
+#~ msgstr "和Godot一起從零開始學程式碼"
+
+#~ msgid ""
+#~ "This app is the free part of our in-depth course, [url=https://gdquest."
+#~ "mavenseed.com/courses/learn-to-code-from-zero-with-godot][b]Learn to Code "
+#~ "From Zero, with Godot[/b][/url].\n"
+#~ "\n"
+#~ "The course picks up right where this app ends to take you to the point "
+#~ "where you can make [i]your[/i] game.\n"
+#~ "\n"
+#~ "It's the only course that'll truly teach you [i]how to become a game "
+#~ "developer[/i] with Godot."
+#~ msgstr ""
+#~ "這一套用是我們詳細課程 [url=https://gdquest.mavenseed.com/courses/learn-"
+#~ "to-code-from-zero-with-godot][b]Learn to Code From Zero, with Godot[/b][/"
+#~ "url] 的免費部分。\n"
+#~ "\n"
+#~ "該課程可以銜接這一套用的結束來教你如何製作[i]你的[/i]遊戲。\n"
+#~ "\n"
+#~ "這是唯一真正教你[i]如何成為遊戲開發者[/i]的Godot課程。"
 
 #~ msgid "Connected to the server."
 #~ msgstr "已連結至伺服器。"
