@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2023-12-18 08:01+0000\n"
+"PO-Revision-Date: 2023-12-19 19:09+0000\n"
 "Last-Translator: ebor <ebor@post.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/cs/>\n"
@@ -70,6 +70,12 @@ msgid ""
 "Another possibility is that you want to check for equality in a condition "
 "but wrote a single = instead of ==."
 msgstr ""
+"Pokud dojde k této chybě, pravděpodobně se pokoušíte přiřadit hodnotu něčemu "
+"jinému než proměnné, což není možné. Hodnoty lze přiřazovat pouze proměnným."
+"\n"
+"\n"
+"Další možností je, že chcete zkontrolovat rovnost v podmínce, ale místo = "
+"instead of ==."
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:47
@@ -83,6 +89,14 @@ msgid ""
 "In the case of a condition, ensure that you are using two equal signs to "
 "check for equality (==)."
 msgstr ""
+"Pokud chcete proměnné přiřadit hodnotu, zkontrolujte dvakrát, že to co máte "
+"na levé straně znaku =, je proměnná, a ne funkce.\n"
+"\n"
+"Je také třeba zajistit správnou syntaxi. Například na levé straně znaku "
+"rovnosti by neměly být závorky.\n"
+"\n"
+"V případě podmínky se ujistěte, že používáte dvě znaménka rovnosti pro "
+"kontrolu rovnosti (==)."
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:57
@@ -750,6 +764,9 @@ msgid ""
 "The most common case is when you forget to close a string: you have opening "
 "quotes, but you forget to add a matching closing quote."
 msgstr ""
+"Počítač došel na konec řádku kódu, ale řádek obsahoval syntaktickou chybu.\n"
+"Nejčastějším případem je, když zapomenete uzavřít řetězec: máte otevírací "
+"uvozovky, ale zapomenete přidat odpovídající uzavírací uvozovky."
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:157
@@ -758,6 +775,9 @@ msgid ""
 "character you used to start the string is the same as the one you used to "
 "close the string."
 msgstr ""
+"Překontrolujte, zda nechybí znak uvozovky nebo zda znak uvozovky, který jste "
+"použili na začátku řetězce, je stejný jako znak uvozovky, který jste použili "
+"na konci řetězce."
 
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
@@ -773,6 +793,11 @@ msgid ""
 "Ensure that you don't have a capital letter where you should have a "
 "lowercase letter and vice versa."
 msgstr ""
+"Pravděpodobně máte překlep v názvu dílčí proměnné, ke které se snažíte "
+"získat přístup.\n"
+"\n"
+"Ujistěte se, že nemáte velké písmeno tam, kde byste měli mít malé písmeno, a "
+"naopak."
 
 #~ msgid ""
 #~ "The server or your computer may currently be disconnected. Also, an app "
