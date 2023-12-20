@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2023-12-19 19:09+0000\n"
+"PO-Revision-Date: 2023-12-21 19:06+0000\n"
 "Last-Translator: ebor <ebor@post.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/cs/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -59,6 +59,19 @@ msgid ""
 "[code]for cell_position in cell_positions_array:\n"
 "    cell_position.x += 1.0[/code]"
 msgstr ""
+"Chcete-li tuto chybu opravit, musíte zajistit, aby název mezi klíčovými "
+"slovy [code]for[/code] a [code]in[/code] byl platný název proměnné bez "
+"interpunkce a mezer.\n"
+"\n"
+"Například tento kód je neplatný: [code]for cell_position.x in "
+"cell_positions_array:[/code] protože [code]cell_position.x[/code] není "
+"platný název proměnné.\n"
+"\n"
+"Chcete-li získat přístup k [code]x[/code] dílčí komponentě proměnné, musíte "
+"to udělat uvnitř těla smyčky:\n"
+"\n"
+"[code]for cell_position in cell_positions_array:\n"
+"    cell_position.x += 1.0[/code]"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:47
@@ -782,7 +795,7 @@ msgstr ""
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
 msgid "The sub-variable you are trying to access does not exist."
-msgstr ""
+msgstr "Dílčí proměnná, ke které se snažíte získat přístup, neexistuje."
 
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
