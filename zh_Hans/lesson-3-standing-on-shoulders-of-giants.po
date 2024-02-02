@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-10-06 07:34+0200\n"
-"PO-Revision-Date: 2022-05-09 15:18+0000\n"
-"Last-Translator: Haoyu Qiu <timothyqiu32@gmail.com>\n"
+"PO-Revision-Date: 2024-02-03 11:01+0000\n"
+"Last-Translator: 二中 <worigoule@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-3-standing-on-shoulders-of-giants/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 5.4-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:14
@@ -174,7 +174,6 @@ msgid "Function arguments"
 msgstr "函数参数"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:118
-#, fuzzy
 msgid ""
 "We use parentheses to call functions because you can give the function "
 "[i]arguments[/i] inside the parentheses when calling it.\n"
@@ -182,11 +181,11 @@ msgid ""
 "Here's a [i]sprite[/i] standing straight. If we call the [code]rotate(0.3)[/"
 "code] function, the character [i]sprite[/i] turns by 0.3 radians."
 msgstr ""
-"我们使用括号来调用函数，因为您可以在调用函数时在括号内给出函数的[i]参数[/"
-"i]。\n"
+"我们使用括号来调用函数，因为您可以在调用函数时在括号内给出函数的[i]参数[/i]。"
 "\n"
-"这是一个[i]精灵[/i]笔直站立的画面。 如果我们调用 [code]rotate(0.3)[/code] 函"
-"数，角色[i]精灵[/i]会转动 0.3 个单位。"
+"\n"
+"这是一个[i]精灵[/i]（Sprite）笔直站立的画面。 如果我们调用 [code]rotate(0."
+"3)[/code] 函数，角色[i]精灵[/i]会转动 0.3 个弧度单位。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:140
 msgid ""
@@ -297,9 +296,8 @@ msgstr ""
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:186
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:187
-#, fuzzy
 msgid "It calls the function named \"show\"."
-msgstr "它调用名为“show.”的函数"
+msgstr "它调用名为“show”的函数。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:186
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:187
@@ -307,7 +305,6 @@ msgid "It makes the entity (like a game character or a sprite) visible."
 msgstr "它使实体（如游戏角色或精灵）可见。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:196
-#, fuzzy
 msgid ""
 "Another example: With the [code]move_local_x()[/code] function, you can move "
 "the character to its left and right. The function takes one argument: a "
@@ -319,10 +316,10 @@ msgid ""
 "This is one way to move a character in a game, although we'll see more "
 "powerful ways to do this later."
 msgstr ""
-"另一个例子：使用 [code]move_local_x()[/code] 函数，您可以将字符左右移动。 该"
-"函数采用一个参数：偏移实体的像素数。\n"
+"另一个例子：使用 [code]move_local_x()[/code] 函数，您可以将字符左右移动。 "
+"该函数采用一个参数：偏移实体的像素数。\n"
 "\n"
-"补充函数 [code]move_local_y()[/code] 使 [i]sprite[/i] 上下移动。\n"
+"补充函数 [code]move_local_y()[/code] 使角色上下移动。\n"
 "\n"
 "这是在游戏中移动角色的一种方法，尽管稍后我们会看到更强大的方法来做到这一点。"
 
