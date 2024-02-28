@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2024-02-16 07:02+0000\n"
+"PO-Revision-Date: 2024-02-29 06:02+0000\n"
 "Last-Translator: 二中 <worigoule@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-16-2d-vectors/zh_Hans/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-16-2d-vectors/lesson.tres:14
@@ -69,8 +69,7 @@ msgstr ""
 "\n"
 "在 Godot 中，二维向量是一种常见的值类型，名为 [code]Vector2[/code]，\n"
 "\n"
-"与普通数字不同，它存储 [i] 两个 [/i] 十进制数：一个用于 X 坐标，一个用于 Y "
-"坐标。"
+"与普通数字不同，它存储 [i] 两个 [/i] 小数：一个用于 X 坐标，一个用于 Y 坐标。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:72
 msgid ""
@@ -195,8 +194,8 @@ msgstr ""
 "[code]50[/code]，[code]y[/code] 减去 [code]0[/code] 。\n"
 "\n"
 "[code]position.x -= Vector(50, 0)[/code] 是尝试在 子变量 [code]x[/code] 中减"
-"去一个二维向量，子变量是一个十进制数。值类型不兼容。如果你尝试这样做，会得到"
-"一个错误。"
+"去一个二维向量，子变量是一个小数。值类型不兼容。如果你尝试这样做，会得到一个"
+"错误。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
 #: course/lesson-16-2d-vectors/lesson.tres:173
