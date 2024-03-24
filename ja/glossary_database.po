@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2022-04-17 12:10+0000\n"
-"Last-Translator: ueshita <nalto32@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/glossary_database/ja/>\n"
+"PO-Revision-Date: 2024-03-24 16:33+0000\n"
+"Last-Translator: cyochot <k97un9ri@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: member function
@@ -229,7 +229,6 @@ msgstr "引数"
 
 #. Reference: argument
 #: course/glossary.csv:37
-#, fuzzy
 msgid ""
 "An argument is a value that you pass to a function when calling the "
 "function. For example, in the call [code]rotate(0.5)[/code], the value "
@@ -248,20 +247,20 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and "
 "[code]y[/code] are [i]parameters[/i]."
 msgstr ""
-"引数とは関数を呼び出すときに渡す値です。 たとえば[code]rotate(0.5)[/code]の呼"
-"び出しでは、括弧内の値[code]0.5[/code]は引数です。\n"
+"引数とは関数を呼び出すときに渡す値です。 たとえば[code]rotate(0."
+"5)[/code]の呼び出しでは、括弧内の値[code]0.5[/code]は引数です。\n"
 "\n"
-"関数は引数なし、もしくは1つから複数の引数を受け取ることができます。 引数はオ"
-"プションです。\n"
+"関数は引数なし、もしくは1つから複数の引数を受け取ることができます。 "
+"引数は必須またはオプションにすることができます。\n"
 "\n"
-"関数が複数の引数を取る場合は、次の関数呼び出しのように、値をコンマで区切りま"
-"す。例: jump(50, 100)\n"
+"関数が複数の引数を受け取る場合は、次の関数呼び出しのように、値をカンマで区切"
+"ります： [code]jump(50,100)[/code]のようにします。\n"
 "\n"
-"関数を[i]呼び出す[/i]ときは、括弧内に渡される[i]引数[/i]の値に名前を付けま"
-"す。\n"
+"関数を[i]呼び出す[/i]ときは、括弧内に渡される[i]引数[/i]の値に名前を付けます"
+"。\n"
 "\n"
-"関数定義を作成するときは、後ほど関数の[i]パラメーター[/i]について説明しま"
-"す。 次の例では、名前[code]x[/code]と[code]y[/code]は[i]パラメータ[/i]です。"
+"関数定義を作成する時の、関数の[i]パラメーター[/i]について説明します。 "
+"次の例では、名前[code]x[/code]と[code]y[/code]は[i]パラメータ[/i]です。"
 
 #. Reference: array
 #: course/glossary.csv:44
@@ -471,12 +470,12 @@ msgstr ""
 #. Reference: variable
 #: course/glossary.csv:77
 msgid "variable"
-msgstr ""
+msgstr "変数"
 
 #. Reference: variable
 #: course/glossary.csv:77
 msgid "variables"
-msgstr ""
+msgstr "変数"
 
 #. Reference: variable
 #: course/glossary.csv:77
@@ -497,16 +496,31 @@ msgid ""
 "that you attach to some value. Any time, you can take the label and stick it "
 "onto a new product or, in that case, a new value."
 msgstr ""
+"変数は、コードに保存して時間の経過とともに変更する値に名前を付けるツールです"
+"。\n"
+"\n"
+"たとえば、キャラクターの体力: "
+"キャラクターが攻撃を受けたとき、体力を低下させたいと考えます。 "
+"治癒するときは、体力を回復したいと考えます。\n"
+"\n"
+"体力状態を表す [code]health[/code] という名前の変数を作成できます。\n"
+"\n"
+"その後、コードにキーワード [code]health[/code] "
+"を書き込むたびに、コンピューターはメモリ内の対応する値を取得します。\n"
+"\n"
+"変数は、スーパーマーケットの商品の名前に似た働きをします。 "
+"変数は、何らかの値に付ける名前です。 "
+"いつでも名前の値を取得、または新しい名前に値を貼り付けることができます。"
 
 #. Reference: while loop
 #: course/glossary.csv:84
 msgid "while loop"
-msgstr ""
+msgstr "whileループ"
 
 #. Reference: while loop
 #: course/glossary.csv:84
 msgid "while loops"
-msgstr ""
+msgstr "whileループ"
 
 #. Reference: while loop
 #: course/glossary.csv:84
@@ -522,23 +536,35 @@ msgid ""
 "However, there are still essential cases in which we use while loops, like "
 "processing files, processing computer code, or for powerful algorithms."
 msgstr ""
+"while ループは、条件に基づいてコードを実行し続けるようにコンピューターに指示"
+"します。 条件が true の間、ループは実行され続けます。\n"
+"\n"
+"while ループをコーディングするときは注意が必要です。条件を間違えると無限に実"
+"行され続け、ゲームがフリーズしてしまいます。\n"
+"\n"
+"そのため、可能な限り、より安全な for ループを使用することをお勧めします。\n"
+"\n"
+"ただし、ファイルの処理、コンピューター "
+"コードの処理、または強力なアルゴリズムなど、while "
+"ループを使用する重要なケースが依然としてあります。"
 
 #. Reference: body
 #: course/glossary.csv:85
 msgid "body"
-msgstr ""
+msgstr "体"
 
 #. Reference: body
 #: course/glossary.csv:85
 msgid ""
 "We talk about a loop or a function's body to refer to the lines of code that "
 "are part of the loop or function."
-msgstr ""
+msgstr "ループまたは関数の本体については、ループまたは関数の一部であるコード行を指し"
+"ます。"
 
 #. Reference: return
 #: course/glossary.csv:88
 msgid "return"
-msgstr ""
+msgstr "戻る"
 
 #. Reference: return
 #: course/glossary.csv:88
@@ -549,16 +575,21 @@ msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed by "
 "a value, for example: [code]return -1[/code]."
 msgstr ""
+"値を返すとは、関数を呼び出した場所に値を送信するプロセスです。\n"
+"\n"
+"これは、関数で [code]return[/code] "
+"キーワードの後に値が使用されている場合に発生します (例: [code]return "
+"-1[/code])。"
 
 #. Reference: library
 #: course/glossary.csv:89
 msgid "library"
-msgstr ""
+msgstr "ライブラリ"
 
 #. Reference: library
 #: course/glossary.csv:89
 msgid "libraries"
-msgstr ""
+msgstr "ライブラリ"
 
 #. Reference: library
 #: course/glossary.csv:89
@@ -566,6 +597,8 @@ msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
+"時間を節約するために他のプログラマーによってバンドルされた貴重で再利用可能な"
+"コードのコレクション。 すべてのプログラマーはコード ライブラリを使用します。"
 
 #. Reference: sprite
 #: course/glossary.csv:90
