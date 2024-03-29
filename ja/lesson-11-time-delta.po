@@ -9,20 +9,24 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-03-29 22:02+0000\n"
+"Last-Translator: cyochot <k97un9ri@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-11-time-delta/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
 msgid ""
 "We've seen how we can use our character's [code]_process()[/code] function "
 "to make it move continuously."
-msgstr ""
+msgstr "キャラクターの [code]_process()[/code] "
+"関数を使用して、キャラクターを連続的に動かす方法を見てきました。"
 
 #: course/lesson-11-time-delta/lesson.tres:34
 msgid ""
@@ -40,10 +44,24 @@ msgid ""
 "As this happens dozens of times per second, you get the illusion of "
 "movement. This is similar to how traditional animation works."
 msgstr ""
+"しかし、[code]_process()[/code]関数を持っているのは私たちのキャラクターだけで"
+"はありません。ゲーム内のほとんどすべてに[code]_process()[/code]機能があります"
+"!\n"
+"\n"
+"毎秒数十回、Godotはゲーム内のすべての[code]_process()[/code]関数を実行して、"
+"ゲームの世界を更新します。\n"
+"\n"
+"その後、画面にゲーム世界の画像が表示されます。その画像を [b]フレーム[/b] "
+"と呼びます。\n"
+"\n"
+"その後、Godotは次のフレームの計算に移ります。\n"
+"\n"
+"これが毎秒何十回も起こると、動いているような錯覚に陥ります。これは、従来のア"
+"ニメーションの仕組みと似ています。"
 
 #: course/lesson-11-time-delta/lesson.tres:50
 msgid "This sounds like Frames Per Second..."
-msgstr ""
+msgstr "これはフレーム/秒のように聞こえます..."
 
 #: course/lesson-11-time-delta/lesson.tres:52
 msgid ""
@@ -58,14 +76,23 @@ msgid ""
 "On powerful computers, you may get frame rates in the hundreds or thousands "
 "of frames per second."
 msgstr ""
+"フレーム/秒、略してFPSについて聞いたことがあるかもしれません。ゲームは多くの"
+"場合、毎秒 60 フレームで実行されます。\n"
+"\n"
+"これは、ゲーム内のすべてが毎秒60回更新されることを意味します。\n"
+"\n"
+"この数は、ゲームやゲームが動作するデバイスによって、プレイ中に異なります。\n"
+"\n"
+"強力なコンピュータでは、毎秒数百または数千フレームのフレームレートが得られる"
+"場合があります。"
 
 #: course/lesson-11-time-delta/lesson.tres:68
 msgid "Let's look at the [code]_process()[/code] function in more detail."
-msgstr ""
+msgstr "[code]_process()[/code]関数をもう少し詳しく見てみましょう。"
 
 #: course/lesson-11-time-delta/lesson.tres:76
 msgid "What parameter does the _process() function take?"
-msgstr ""
+msgstr "_process()関数はどのパラメータを取りますか?"
 
 #: course/lesson-11-time-delta/lesson.tres:77
 msgid ""
@@ -79,11 +106,12 @@ msgstr ""
 msgid ""
 "The [code]_process()[/code] function has one parameter named [code]delta[/"
 "code]."
-msgstr ""
+msgstr "[code]_process()[/code] 関数には、[code]delta[/code] "
+"という名前のパラメーターが 1 つあります。"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "rotate"
-msgstr ""
+msgstr "回転"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "0.05"
@@ -92,11 +120,11 @@ msgstr ""
 #: course/lesson-11-time-delta/lesson.tres:83
 #: course/lesson-11-time-delta/lesson.tres:84
 msgid "delta"
-msgstr ""
+msgstr "デルタ"
 
 #: course/lesson-11-time-delta/lesson.tres:91
 msgid "Frames take varying amounts of time to calculate"
-msgstr ""
+msgstr "フレームの計算にかかる時間はさまざまです"
 
 #: course/lesson-11-time-delta/lesson.tres:93
 msgid ""
@@ -121,10 +149,29 @@ msgid ""
 "the computer. Delta helps to make the game experience consistent for "
 "everyone."
 msgstr ""
+"ゲーム、コンピューター、およびゲームエンジンが計算する必要がある内容に応じて"
+"、フレームの表示にかかる時間は多かれ少なかれ異なります。\n"
+"\n"
+"フレームごとに常にミリ秒の変動があります。\n"
+"\n"
+"そのため、[code]_process()[/code] 関数は [code]delta[/code] "
+"パラメーターを受け取ります。\n"
+"\n"
+"デルタは時間差を表します。これは、前のフレームから経過した時間 (秒単位) "
+"です。\n"
+"\n"
+"これを使用して、フレーム間の変更によってゲームの動作が信頼できなくなることが"
+"ないようにすることができます。\n"
+"\n"
+"これは、コンピューターが異なれば動作が異なるため、高速のコンピューターは低速"
+"のコンピューターよりも毎秒のフレーム数が多いためです。\n"
+"\n"
+"[code]delta[/code] を無視すると、ゲーム体験はコンピューターによって異なります"
+"。デルタは、すべての人にとって一貫したゲーム体験を提供するお手伝いをします。"
 
 #: course/lesson-11-time-delta/lesson.tres:113
 msgid "What do we know about delta?"
-msgstr ""
+msgstr "デルタについて私たちは何を知っていますか?"
 
 #: course/lesson-11-time-delta/lesson.tres:116
 msgid ""
@@ -135,25 +182,32 @@ msgid ""
 "\n"
 "It varies each frame because Godot needs to process more or less each frame."
 msgstr ""
+"[code]delta[/code]は、Godotが前のフレームを完了するのにかかった時間(秒単位)で"
+"す。\n"
+"\n"
+"フレームは1秒間に何回も発生するため、非常に小さいです。\n"
+"\n"
+"Godotは多かれ少なかれ各フレームを処理する必要があるため、フレームごとに異なり"
+"ます。"
 
 #: course/lesson-11-time-delta/lesson.tres:121
 #: course/lesson-11-time-delta/lesson.tres:122
 msgid "It's a value in seconds."
-msgstr ""
+msgstr "これは秒単位の値です。"
 
 #: course/lesson-11-time-delta/lesson.tres:121
 #: course/lesson-11-time-delta/lesson.tres:122
 msgid "It varies each frame."
-msgstr ""
+msgstr "フレームごとに異なります。"
 
 #: course/lesson-11-time-delta/lesson.tres:121
 #: course/lesson-11-time-delta/lesson.tres:122
 msgid "It's the time it took Godot to complete the previous frame."
-msgstr ""
+msgstr "これは、Godotが前のフレームを完成させるのにかかった時間です。"
 
 #: course/lesson-11-time-delta/lesson.tres:129
 msgid "Multiplying by delta"
-msgstr ""
+msgstr "デルタによる乗算"
 
 #: course/lesson-11-time-delta/lesson.tres:131
 msgid ""
@@ -163,6 +217,10 @@ msgid ""
 "To apply [code]delta[/code], you need to [i]multiply[/i] your speed values "
 "by it."
 msgstr ""
+"[code]_process()[/code]で取得する[code]delta[/code]は秒単位の時差です。"
+"通常は小さな 10 進数です。\n"
+"\n"
+"[code]delta[/code]を適用するには、速度値に[i]乗算[/i]する必要があります。"
 
 #: course/lesson-11-time-delta/lesson.tres:153
 msgid ""
@@ -171,10 +229,14 @@ msgid ""
 "\n"
 "That's essential to make your game consistent and fair."
 msgstr ""
+"[code]delta[/code] を乗算すると、モーションを[i]フレーム依存[/i]ではなく[i]時"
+"間依存[/i]にします。\n"
+"\n"
+"これは、ゲームの一貫性と公平性を保つために不可欠です。"
 
 #: course/lesson-11-time-delta/lesson.tres:163
 msgid "Why do we use the number 3.0 in this example?"
-msgstr ""
+msgstr "この例ではなぜ 3.0 という数字を使用するのでしょうか?"
 
 #: course/lesson-11-time-delta/lesson.tres:165
 msgid ""
@@ -200,10 +262,31 @@ msgid ""
 "Don't worry if it's a little confusing for now. It'll eventually click as "
 "you deal with speed, acceleration, and motion in your game projects."
 msgstr ""
+"レッスンの冒頭で、ロボットをフレームごとに一定量回転させました:[code]0."
+"05[/code]ラジアン。\n"
+"\n"
+"上の例では、[code]1.0[/code] よりはるかに小さい値である非常に小さな "
+"[code]delta[/code] 値を [i]乗算[/i]します。 "
+"これにより、ロボットは時間の経過とともに一定の速度で回転します。\n"
+"\n"
+"ただし、[code]delta[/code]のように[code]1."
+"0[/code]未満の数値を掛けると、結果が小さくなります。\n"
+"\n"
+"それを補い、ロボットの回転速度を上げるために、[code]0.05[/code] ではなく "
+"[code]3.0[/code] という以前よりも大きな数値を使用します。\n"
+"\n"
+"これらの数値には 2 つの異なる [i]単位 [/i] があります: [code]0.05[/code] "
+"はラジアン単位の[i]角度[/i]で、[code]3.0[/code] "
+"はラジアン/秒単位の[i]角速度[/i]です。\n"
+"\n"
+"速度に時間デルタを掛けると、角度が得られます。\n"
+"\n"
+"今のところ少し混乱していても心配しないでください。ゲームプロジェクトで速度、"
+"加速度、モーションを扱ううちに、いずれ理解できるようになります。"
 
 #: course/lesson-11-time-delta/lesson.tres:185
 msgid "Why the time between frames matters"
-msgstr ""
+msgstr "フレーム間の時間が重要な理由"
 
 #: course/lesson-11-time-delta/lesson.tres:187
 msgid ""
@@ -222,6 +305,20 @@ msgid ""
 "\n"
 "The bottom robot will move [i]differently for everyone[/i]!"
 msgstr ""
+"新しいフレームの表示にかかる時間はさまざまです。\n"
+"\n"
+"コードでその時間を考慮しないと、ゲームにゲームプレイの問題やバグが発生します"
+"。Godotは、[code]delta[/code]パラメータを介して[code]_process()[/code]関数に"
+"その時間を提供します。\n"
+"\n"
+"以下の例では、一番上のロボットが [code]delta[/code] "
+"を使用して移動しています。その結果、一定の速度で移動します。\n"
+"\n"
+"一番下のロボットは、[code]delta[/code]を考慮[i]せず[/i]に、フレームごとに一定"
+"の距離を移動します。コンピューターの一番上のロボットよりも速くまたは遅く動き"
+"ます。\n"
+"\n"
+"一番下のロボットの動きは[i]人それぞれ[/i]です!"
 
 #: course/lesson-11-time-delta/lesson.tres:215
 msgid ""
@@ -234,10 +331,18 @@ msgid ""
 "during gameplay. Because of that, the movement will differ for every player, "
 "making the game inconsistent and messy."
 msgstr ""
+"時間依存の値に [code]delta[/code] を掛けると、それらは [b] フレーム依存 [/b] "
+"ではなく [b] 時間依存 [/b] になります。\n"
+"\n"
+"おかげで、時間の経過とともに信頼性の高い動きが得られます。\n"
+"\n"
+"[code]delta[/code] を使用しない場合、フレーム時間はコンピューターごと、ゲーム"
+"プレイ中に異なります。そのため、プレイヤーごとに動きが異なり、ゲームに一貫性"
+"がなく、乱雑になります。"
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
-msgstr ""
+msgstr "これはどういう意味ですか?"
 
 #: course/lesson-11-time-delta/lesson.tres:228
 msgid "[code]rotation_speed * delta[/code]"
@@ -248,31 +353,33 @@ msgid ""
 "The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/"
 "code] by [code]delta[/code] time."
 msgstr ""
+"[code]*[/code] 記号は、[code]rotation_speed[/code] に [code]delta[/code] "
+"時間を掛けていることを意味します。"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 #: course/lesson-11-time-delta/lesson.tres:232
 msgid "We're multiplying rotation_speed by delta."
-msgstr ""
+msgstr "rotation_speedにデルタを掛けています。"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're dividing delta by rotation_speed."
-msgstr ""
+msgstr "デルタをrotation_speedで割っています。"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're adding rotation_speed to delta."
-msgstr ""
+msgstr "デルタにrotation_speedを追加しています。"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're subtracting delta from rotation_speed."
-msgstr ""
+msgstr "rotation_speedからデルタを差し引いています。"
 
 #: course/lesson-11-time-delta/lesson.tres:241
 msgid "In the next practice, we'll use delta to make rotating time-dependent."
-msgstr ""
+msgstr "次の演習では、デルタを使用して回転を時間依存にします。"
 
 #: course/lesson-11-time-delta/lesson.tres:249
 msgid "Rotating Using Delta"
-msgstr ""
+msgstr "デルタを使用した回転"
 
 #: course/lesson-11-time-delta/lesson.tres:250
 msgid ""
@@ -282,10 +389,15 @@ msgid ""
 "\n"
 "The robot should rotate [code]2[/code] radians per second."
 msgstr ""
+"現時点では、ロボットの回転はフレームに依存しています。\n"
+"\n"
+"[code]delta[/code]を追加して、回転速度を時間依存にします。\n"
+"\n"
+"ロボットは毎秒 [code]2[/code] ラジアン回転する必要があります。"
 
 #: course/lesson-11-time-delta/lesson.tres:269
 msgid "Moving in a Circle Using Delta"
-msgstr ""
+msgstr "デルタを使用して円を描くように移動する"
 
 #: course/lesson-11-time-delta/lesson.tres:270
 msgid ""
@@ -298,7 +410,15 @@ msgid ""
 "functions. If you define extra variables, we will not be able to check your "
 "practice."
 msgstr ""
+"この練習では、デルタを使用してロボットを滑らかな円で動かします。\n"
+"\n"
+"この動きを得るには、ロボットは毎秒 [code]2[/code] "
+"ラジアンを回転させ、[code]100[/code] "
+"ピクセル/秒を時計回りに動かす必要があります。\n"
+"\n"
+"[b]注:[/b]関数を呼び出すときは、括弧内に値を書き込んでください。余分な変数を"
+"定義すると、演習をチェックできなくなります。"
 
 #: course/lesson-11-time-delta/lesson.tres:288
 msgid "Time Delta"
-msgstr ""
+msgstr "タイムデルタ"
