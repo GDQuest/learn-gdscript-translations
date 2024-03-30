@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-03-31 02:31+0000\n"
+"Last-Translator: cyochot <k97un9ri@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-18-for-loops/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
@@ -27,6 +30,13 @@ msgid ""
 "\n"
 "The loop below never ends because we never increment [code]number[/code]."
 msgstr ""
+"前回のレッスンでは、[code]while[/code] ループについて説明しました。コードを何"
+"回繰り返すべきかわからない場合に便利であることがわかりました。\n"
+"\n"
+"ただし、注意しないと無限ループになる可能性があります。\n"
+"\n"
+"[code]number[/code]をインクリメントしないため、以下のループは決して終わりませ"
+"ん。"
 
 #: course/lesson-18-for-loops/lesson.tres:38
 msgid ""
@@ -42,14 +52,27 @@ msgid ""
 "\n"
 "The loop below will change the [code]cell[/code] three times."
 msgstr ""
+"より安全で、多くの場合、より簡単な種類のループがあります: [code]for[/code] "
+"ループです。\n"
+"\n"
+"このレッスンで見ていきます。\n"
+"\n"
+"[code]while[/code] ループとは異なり、[code]for[/code] ループは無限に実行され"
+"ないため、ゲームにバグが発生する可能性がはるかに低くなります。[b]このため、"
+"while ループよりも for ループを優先することをお勧めします[/b]。\n"
+"\n"
+"代わりに [code]for[/code] "
+"ループを使用するように上記のコードを変更しましょう。\n"
+"\n"
+"以下のループは、[code]cell[/code]を3回変更します。"
 
 #: course/lesson-18-for-loops/lesson.tres:66
 msgid "Let's explain what's going on here."
-msgstr ""
+msgstr "ここで何が起こっているのかを説明しましょう。"
 
 #: course/lesson-18-for-loops/lesson.tres:74
 msgid "The range() function"
-msgstr ""
+msgstr "range() 関数"
 
 #: course/lesson-18-for-loops/lesson.tres:76
 msgid ""
@@ -59,14 +82,21 @@ msgid ""
 "So calling [code]range(3)[/code] outputs the list of numbers [code][0, 1, 2]"
 "[/code], and [code]range(5)[/code] outputs [code][0, 1, 2, 3, 4][/code]."
 msgstr ""
+"Godotにはヘルパー関数[code]range()[/code]があります。[code]range(n)[/code] "
+"を呼び出すと、[code]0[/code] から [code]n - 1[/code] "
+"までの数値のリストが作成されます。\n"
+"\n"
+"したがって、[code]range(3)[/code]を呼び出すと数値のリストが出力されます[code]"
+"[0, 1, 2][/code]、[code]range(5)[/code]は[code][0, 1, 2, 3, "
+"4][/code]を出力します。"
 
 #: course/lesson-18-for-loops/lesson.tres:86
 msgid "What list of numbers would range(6) create?"
-msgstr ""
+msgstr "range(6)はどのような数値のリストを作成しますか?"
 
 #: course/lesson-18-for-loops/lesson.tres:87
 msgid "What would [code]print(range(6))[/code] print to the console?"
-msgstr ""
+msgstr "[code]print(range(6))[/code]はコンソールに何を出力しますか?"
 
 #: course/lesson-18-for-loops/lesson.tres:89
 msgid ""
@@ -77,23 +107,29 @@ msgid ""
 "So calling [code]range(6)[/code] will output a list of six numbers which are "
 "[code][0, 1, 2, 3, 4, 5][/code].\n"
 msgstr ""
+"関数 [code]range(n)[/code] は、[code]0[/code] から [code]n - 1[/code] "
+"までの数値のリストを作成します。出力リストは [code]0[/code] "
+"で始まり、[code]5[/code] で終わります。\n"
+"\n"
+"したがって、[code]range(6)[/code]を呼び出すと、[code][0, 1, 2, 3, 4, "
+"5][/code]の6つの数値のリストが出力されます。\n"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 #: course/lesson-18-for-loops/lesson.tres:94
 msgid "[0, 1, 2, 3, 4, 5]"
-msgstr ""
+msgstr "[0, 1, 2, 3, 4, 5]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 msgid "[1, 2, 3, 4, 5, 6]"
-msgstr ""
+msgstr "[1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 msgid "[0, 1, 2, 3, 4, 5, 6]"
-msgstr ""
+msgstr "[0, 1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:101
 msgid "How for loops work"
-msgstr ""
+msgstr "for ループのしくみ"
 
 #: course/lesson-18-for-loops/lesson.tres:103
 msgid ""
@@ -101,6 +137,9 @@ msgid ""
 "stores it in a temporary variable, and executes the code in the loop once "
 "per value."
 msgstr ""
+"[code]for[/code] "
+"ループでは、コンピューターはリスト内の各値を取得し、それを一時変数に格納し、"
+"値ごとにループ内のコードを 1 回実行します。"
 
 #: course/lesson-18-for-loops/lesson.tres:123
 msgid ""
@@ -115,6 +154,14 @@ msgid ""
 "\n"
 "This code behaves the same as the previous example:"
 msgstr ""
+"上記の例では、リスト[code][0, 1, 2][/code]の各項目について、Godotは[code]numb"
+"er[/code]を項目に設定し、[code]for[/code]ループでコードを実行します。\n"
+"\n"
+"配列については次のレッスンで詳しく説明しますが、[code]number[/code] は単なる"
+"一時変数であることに注意してください。ループを定義するときに作成し、ループが"
+"値の変更を処理します。また、この変数には任意の名前を付けることができます。\n"
+"\n"
+"このコードは、前の例と同じように動作します。"
 
 #: course/lesson-18-for-loops/lesson.tres:147
 msgid ""
@@ -129,27 +176,39 @@ msgid ""
 "We can break down the instructions the loop runs. You can see how a loop is "
 "a shortcut to code that otherwise gets very long."
 msgstr ""
+"どちらの例でも、作成した一時変数の値を出力します: 最初の例では "
+"[code]number[/code]、2 番目の例では [code]element[/code]。\n"
+"\n"
+"Godotがループ内を移動すると、配列の各値がその変数に割り当てられます。"
+"最初に変数を [code]0[/code] に設定し、次に [code]1[/code] に設定し、最後に "
+"[code]2[/code] に設定します。\n"
+"\n"
+"ループが実行する命令を分解できます。ループが、そうでなければ非常に長くなるコ"
+"ードへのショートカットであることがわかります。"
 
 #: course/lesson-18-for-loops/lesson.tres:171
 msgid ""
 "We can put whatever code we like in the loop's code block, including other "
 "function calls like [code]draw_rectangle()[/code]."
 msgstr ""
+"ループのコードブロックには、[code]draw_rectangle()[/code]のような他の関数呼び"
+"出しを含め、好きなコードを配置できます。"
 
 #: course/lesson-18-for-loops/lesson.tres:179
 msgid "Using a for loop instead of a while loop"
-msgstr ""
+msgstr "while ループの代わりに for ループを使用する"
 
 #: course/lesson-18-for-loops/lesson.tres:181
 msgid ""
 "Here's our old [code]move_to_end()[/code] function which used a [code]while[/"
 "code] loop."
-msgstr ""
+msgstr "これは、[code]while[/code]ループを使用した古い[code]move_to_end()[/code]関数"
+"です。"
 
 #: course/lesson-18-for-loops/lesson.tres:201
 msgid ""
 "If we use a [code]for[/code] loop instead, the code becomes a little simpler."
-msgstr ""
+msgstr "代わりに [code]for[/code] ループを使用すると、コードは少し単純になります。"
 
 #: course/lesson-18-for-loops/lesson.tres:221
 msgid ""
@@ -159,16 +218,21 @@ msgid ""
 "\n"
 "The function still works the same. You can execute it below."
 msgstr ""
+"[code]for[/code]ループでは、ロボットがボードの端に到達したかどうかを常にチェ"
+"ックするのではなく、ボードの幅を事前に取得し、ロボットを一定回数移動させます"
+"。\n"
+"\n"
+"関数は引き続き同じように機能します。以下で実行できます。"
 
 #: course/lesson-18-for-loops/lesson.tres:243
 msgid ""
 "In the practices, we'll use [code]for[/code] loops in different ways to get "
 "you used to using them."
-msgstr ""
+msgstr "練習では、[code]for[/code] ループをさまざまな方法で使用して、使用に慣れます。"
 
 #: course/lesson-18-for-loops/lesson.tres:251
 msgid "Using a for loop to move to the end of the board"
-msgstr ""
+msgstr "for ループを使用してボードの末尾に移動する"
 
 #: course/lesson-18-for-loops/lesson.tres:252
 msgid ""
@@ -182,16 +246,25 @@ msgid ""
 "\n"
 "The robot's starting cell is [code]Vector2(2, 0)[/code]."
 msgstr ""
+"ここでも、ロボットはボードの一番上に立つことにしました。\n"
+"\n"
+"今回は[code]move_to_bottom()[/code]関数で[code]for[/code]ループを使って、ボー"
+"ドの一番下まで移動させます。\n"
+"\n"
+"ボードサイズは [code]Vector2[/code] 変数 [code]board_size[/code] "
+"によって決定されます。\n"
+"\n"
+"ロボットの開始セルは [code]Vector2(2, 0)[/code] です。"
 
 #: course/lesson-18-for-loops/lesson.tres:268
 msgid ""
 "Use a for loop to have our robot move from the top of the board to the "
 "bottom."
-msgstr ""
+msgstr "for ループを使用して、ロボットをボードの上から下に移動します。"
 
 #: course/lesson-18-for-loops/lesson.tres:273
 msgid "Improving code with a for loop"
-msgstr ""
+msgstr "for ループによるコードの改善"
 
 #: course/lesson-18-for-loops/lesson.tres:274
 msgid ""
@@ -206,13 +279,24 @@ msgid ""
 "The turtle should draw three squares in a horizontal line. The squares "
 "should be 100 pixels apart."
 msgstr ""
+"[code]for[/code] ループを使用して、[code]run()[/code] "
+"関数内の重複コードを削除します。\n"
+"\n"
+"この練習では、亀を再訪し、長方形を描きます。\n"
+"\n"
+"[code]for[/code] ループに関する新しい知識により、このコードを凝縮して占有する"
+"スペースを減らし、変更を容易にすることができます。\n"
+"\n"
+"亀は水平線で3つの正方形を描く必要があります。正方形は 100 "
+"ピクセル離れている必要があります。"
 
 #: course/lesson-18-for-loops/lesson.tres:297
 msgid ""
 "In the past we had to copy and paste code to draw multiple rectangles. Let's "
 "revisit previous code and improve it with a for loop."
-msgstr ""
+msgstr "以前は、複数の長方形を描画するためにコードをコピーして貼り付ける必要がありま"
+"した。前のコードを再訪して、for ループで改善しましょう。"
 
 #: course/lesson-18-for-loops/lesson.tres:301
 msgid "Introduction to For Loops"
-msgstr ""
+msgstr "For ループの紹介"
