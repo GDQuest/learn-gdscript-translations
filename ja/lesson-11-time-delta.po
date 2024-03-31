@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-03-29 22:02+0000\n"
+"PO-Revision-Date: 2024-03-31 09:14+0000\n"
 "Last-Translator: cyochot <k97un9ri@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-11-time-delta/ja/>\n"
@@ -101,6 +101,10 @@ msgid ""
 "\trotate(0.05)\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"func _process(delta):\n"
+"\trotate(0.05)\n"
+"[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:82
 msgid ""
@@ -115,7 +119,7 @@ msgstr "回転"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "0.05"
-msgstr ""
+msgstr "0.05"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 #: course/lesson-11-time-delta/lesson.tres:84
@@ -346,7 +350,7 @@ msgstr "これはどういう意味ですか?"
 
 #: course/lesson-11-time-delta/lesson.tres:228
 msgid "[code]rotation_speed * delta[/code]"
-msgstr ""
+msgstr "[code]rotation_speed * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
 msgid ""
