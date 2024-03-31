@@ -9,23 +9,25 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2022-05-20 14:17+0000\n"
-"Last-Translator: Oskar <weblate@rakso.nl>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/application/nl/>\n"
+"PO-Revision-Date: 2024-04-01 14:01+0000\n"
+"Last-Translator: Matthijs <m4tthijsbl0m@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/application/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
+#, fuzzy
 msgid "You need to type a whole number for this answer. Example: 42"
 msgstr "Bij dit antwoord moet je een geheel getal typen. Bijvoorbeeld: 42"
 
 #: resources/QuizInputField.gd:22
+#, fuzzy
 msgid ""
 "You need to type a decimal for this answer. Use a \".\" to separate the "
 "decimal part. Example: 3.14"
@@ -34,18 +36,22 @@ msgstr ""
 "decimaal te scheiden. Bijvoorbeeld: 3.14"
 
 #: ui/UILesson.tscn:90
+#, fuzzy
 msgid "Title"
 msgstr "Titel"
 
 #: ui/UILesson.tscn:125
+#, fuzzy
 msgid "Practices"
 msgstr "Praktijken"
 
 #: ui/UINavigator.gd:365
+#, fuzzy
 msgid "Go back in your navigation history"
 msgstr "Ga terug in je navigatiegeschiedenis"
 
 #: ui/UINavigator.gd:368
+#, fuzzy
 msgid "(no previous history)"
 msgstr "(geen vorige geschiedenis)"
 
@@ -58,11 +64,12 @@ msgid "CHRISTMAS SALE"
 msgstr ""
 
 #: ui/UIPractice.gd:154 ui/UIPractice.gd:220
-#, python-format
+#, fuzzy, python-format
 msgid "Hint %s"
 msgstr "Hint %s"
 
 #: ui/UIPractice.gd:248
+#, fuzzy
 msgid "Validating Your Code..."
 msgstr "Je Code Valideren..."
 
@@ -72,6 +79,7 @@ msgid "The function `%s` calls itself, this creates an infinite loop"
 msgstr ""
 
 #: ui/UIPractice.gd:301
+#, fuzzy
 msgid "Running Your Code..."
 msgstr "Je Code Uitvoeren..."
 
@@ -87,96 +95,118 @@ msgid ""
 msgstr ""
 
 #: ui/UIPractice.gd:369
+#, fuzzy
 msgid "Running Tests..."
 msgstr "Tests Uitvoeren..."
 
 #: ui/UIPractice.tscn:138
+#, fuzzy
 msgid "Suggested Solution"
 msgstr "Voorgestelde Oplossing"
 
 #: ui/UIPractice.tscn:189
+#, fuzzy
 msgid "Use Solution"
 msgstr "Gebruik Oplossing"
 
 #: ui/UIPractice.tscn:207
+#, fuzzy
 msgid "Leave unfinished practice?"
 msgstr "Onafgemaakte oefening verlaten?"
 
 #: ui/components/BigGreenButton.tscn:24
+#, fuzzy
 msgid "Button"
 msgstr "Knop"
 
 #: ui/components/CodeEditor.tscn:144
+#, fuzzy
 msgid "Run"
 msgstr "Uitvoeren"
 
 #: ui/components/CodeEditor.tscn:158
+#, fuzzy
 msgid "Pause"
 msgstr "Pauzeren"
 
 #: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:87
+#, fuzzy
 msgid "Reset"
 msgstr "Resetten"
 
 #: ui/components/CodeEditor.tscn:195
+#, fuzzy
 msgid "Solution"
 msgstr "Oplossing"
 
 #: ui/components/CodeEditor.tscn:209 ui/components/OutputConsole.tscn:43
+#, fuzzy
 msgid "Output"
 msgstr "Uitvoer"
 
 #: ui/components/CodeEditor.tscn:224
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
+#, fuzzy
 msgid "Continue"
 msgstr "Hervatten"
 
 #: ui/components/DebuggerConsoleMonitoredVariable.tscn:20
 #: ui/components/OutputConsolePrintMessage.tscn:23
+#, fuzzy
 msgid "Value"
 msgstr "Waarde"
 
 #: ui/components/GameView.tscn:72
+#, fuzzy
 msgid "Paused"
 msgstr "Gepauzeerd"
 
 #: ui/components/GlossaryPopup.tscn:37
+#, fuzzy
 msgid "Term"
 msgstr "Term"
 
 #: ui/components/GlossaryPopup.tscn:53
 #: ui/components/popups/ErrorOverlayPopup.tscn:74
+#, fuzzy
 msgid "Our error explanation."
 msgstr "Onze foutmelding omschrijving."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
+#, fuzzy
 msgid "ERROR:"
 msgstr "FOUTMELDING:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 #: ui/components/ScrollableTextBox.tscn:43
 #: ui/screens/lesson/UIContentBlock.tscn:68
+#, fuzzy
 msgid "Placeholder text"
 msgstr "Tijdelijke text"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
+#, fuzzy
 msgid "in"
 msgstr "in"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
+#, fuzzy
 msgid "FileName"
 msgstr "BestandsNaam"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
+#, fuzzy
 msgid "at"
 msgstr "bij"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:82
+#, fuzzy
 msgid "0:0"
 msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
+#, fuzzy
 msgid ""
 "Sometimes errors are reported outside of your code. Why does that happen?"
 msgstr ""
@@ -184,6 +214,7 @@ msgstr ""
 "gebeurt dit?"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
+#, fuzzy
 msgid "Explain"
 msgstr "Leg uit"
 
@@ -193,6 +224,7 @@ msgid "Expand"
 msgstr "Uitbreiden"
 
 #: ui/components/RunnableCodeExample.tscn:105
+#, fuzzy
 msgid "run()"
 msgstr "run()"
 
@@ -225,31 +257,38 @@ msgstr ""
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
+#, fuzzy
 msgid "Confirm"
 msgstr "Bevestigen"
 
 #: ui/components/popups/ConfirmPopup.tscn:127
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
+#, fuzzy
 msgid "Cancel"
 msgstr "Annuleren"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:46
+#, fuzzy
 msgid "Original error message"
 msgstr "Oorspronkelijke foutmelding"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:65
+#, fuzzy
 msgid "Why this happens"
 msgstr "Waarom dit gebeurt"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
+#, fuzzy
 msgid "How to fix this"
 msgstr "Hoe dit op te lossen"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:91
+#, fuzzy
 msgid "Our suggestion on how to fix it."
 msgstr "Onze suggestie om dit op te lossen."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:102
+#, fuzzy
 msgid ""
 "Sorry, we don't have this particular error message covered yet!\n"
 "\n"
@@ -268,10 +307,12 @@ msgstr ""
 "[center]Dank je![/center]"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:128
+#, fuzzy
 msgid "Hide"
 msgstr "Verbergen"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
+#, fuzzy
 msgid "Where do external errors come from?"
 msgstr "Waar komen externe foutmeldingen vandaan?"
 
@@ -308,14 +349,17 @@ msgstr ""
 "[Uitleg[/b] knop naast de foutmelding!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
+#, fuzzy
 msgid "Got it!"
 msgstr "Ik snap het!"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
+#, fuzzy
 msgid "Lesson complete!"
 msgstr "Les afgerond!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
+#, fuzzy
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
@@ -324,6 +368,7 @@ msgstr ""
 "die je hebt overgeslagen."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
+#, fuzzy
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
@@ -333,18 +378,22 @@ msgstr ""
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 #: ui/components/popups/PracticeDonePopup.tscn:144
+#, fuzzy
 msgid "Stay"
 msgstr "Blijf"
 
 #: ui/components/popups/PracticeDonePopup.tscn:89
+#, fuzzy
 msgid "Well done!"
 msgstr "Goed gedaan!"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
+#, fuzzy
 msgid "You completed the practice."
 msgstr "Je hebt de oefening afgerond."
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
+#, fuzzy
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
@@ -353,19 +402,23 @@ msgstr ""
 "of [b]ga verder[/b] met de cursus.[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:67
+#, fuzzy
 msgid "Practice List"
 msgstr "Oefeningen Lijst"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:244
+#, fuzzy
 msgid "Close"
 msgstr "Sluiten"
 
 #: ui/components/popups/ReportFormPopup.tscn:66
+#, fuzzy
 msgid "Report an issue"
 msgstr "Meld een probleem"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
+#, fuzzy
 msgid ""
 "If you face an issue in the app, please click the link below to report it on "
 "GitHub:\n"
@@ -445,30 +498,37 @@ msgstr ""
 "[center]Bedankt voor het bijdragen aan open source![/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:158
+#, fuzzy
 msgid "OK"
 msgstr "OK"
 
 #: ui/components/popups/SettingsPopup.tscn:76
+#, fuzzy
 msgid "Configure the App"
 msgstr "App Configureren"
 
 #: ui/components/popups/SettingsPopup.tscn:103
+#, fuzzy
 msgid "Language"
 msgstr "Taal"
 
 #: ui/components/popups/SettingsPopup.tscn:123
+#, fuzzy
 msgid "Text Size"
 msgstr "Tekstgrootte"
 
 #: ui/components/popups/SettingsPopup.tscn:151
+#, fuzzy
 msgid "Sample text"
 msgstr "Voorbeeldtekst"
 
 #: ui/components/popups/SettingsPopup.tscn:164
+#, fuzzy
 msgid "Scroll sensitivity"
 msgstr "Scroll gevoeligheid"
 
 #: ui/components/popups/SettingsPopup.tscn:190
+#, fuzzy
 msgid "Framerate cap"
 msgstr "Framerate-limiet"
 
@@ -477,67 +537,83 @@ msgid "Lower contrast"
 msgstr ""
 
 #: ui/components/popups/SettingsPopup.tscn:259
+#, fuzzy
 msgid "Apply"
 msgstr "Toepassen"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:93
+#, fuzzy
 msgid "Open Lesson"
 msgstr "Les Openen"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:95
+#, fuzzy
 msgid "Continue Lesson"
 msgstr "Les Hervatten"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:97
+#, fuzzy
 msgid "Start Lesson"
 msgstr "Les Starten"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
+#, fuzzy
 msgid "Lesson Title Goes Here"
 msgstr "Les Titel Komt Hier"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
+#, fuzzy
 msgid "Lesson read"
 msgstr "Les gelezen"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:56
+#, fuzzy
 msgid "0%"
 msgstr "0%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:79
+#, fuzzy
 msgid "Quizzes completed"
 msgstr "Quizzen afgerond"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:108
+#, fuzzy
 msgid "0 / 0"
 msgstr "0 / 0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:100
+#, fuzzy
 msgid "Practices completed"
 msgstr "Oefeningen voltooid"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:36
+#, fuzzy
 msgid "Lesson 0"
 msgstr "Les 0"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
+#, fuzzy
 msgid "Lesson Title"
 msgstr "Les Titel"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
+#, fuzzy
 msgid "Course Index - "
 msgstr "Cursus Inhoudsopgave - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
+#, fuzzy
 msgid "Course Title Goes Here"
 msgstr "Cursus Titel Komt Hier"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
+#, fuzzy
 msgid "Reset Progress"
 msgstr "Voortgang Resetten"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
+#, fuzzy
 msgid "Confirm Resetting Progress"
 msgstr "Voortgang Resetten Bevestigen"
 
@@ -671,120 +747,148 @@ msgid "Early Access release: 2024/01/30"
 msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
+#, fuzzy
 msgid "[b]Question[/b]"
 msgstr "[b]Vraag[/b]"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
+#, fuzzy
 msgid "Explanation"
 msgstr "Uitleg"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:107
+#, fuzzy
 msgid "Skip"
 msgstr "Overslaan"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
+#, fuzzy
 msgid "Submit"
 msgstr "Indienen"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr "Je hebt het goed!"
+msgstr "Klopt!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
+#, fuzzy
 msgid "Answers here"
 msgstr "Antwoorden hier"
 
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
+#, fuzzy
 msgid "Learn More"
 msgstr "Leer Meer"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
+#, fuzzy
 msgid "Placeholder heading"
 msgstr "Tijdelijke Kop"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
+#, fuzzy
 msgid "Practice title"
 msgstr "Titel Oefening"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
+#, fuzzy
 msgid "next"
 msgstr "volgende"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
+#, fuzzy
 msgid "Practice"
-msgstr "Oefening"
+msgstr "Oefenen"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
+#, fuzzy
 msgid "You are here"
 msgstr "Je bevind je hier"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
+#, fuzzy
 msgid "Answer label"
 msgstr "Antwoord Label"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
+#, fuzzy
 msgid "(select all that apply)"
 msgstr "(selecteer alles wat van toepassing is)"
 
 #: ui/screens/practice/PracticeHint.tscn:8
+#, fuzzy
 msgid "Show Hint"
 msgstr "Toon Hint"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:144
+#, fuzzy
 msgid "Method descriptions"
 msgstr "Methode omschrijvingen"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:160
+#, fuzzy
 msgid "Property descriptions"
 msgstr "Eigenshap omschrijvingen"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
+#, fuzzy
 msgid "Summary - Lesson Name"
 msgstr "Samenvatting - Les Naam"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
+#, fuzzy
 msgid "Goals"
 msgstr "Doelen"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:119
+#, fuzzy
 msgid "Hints"
 msgstr "Hints"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
+#, fuzzy
 msgid "Checks"
 msgstr "Controles"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:134
+#, fuzzy
 msgid "Documentation"
 msgstr "Documentatie"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:175
+#, fuzzy
 msgid "Open Practice List"
 msgstr "Open Oefeningen Lijst"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:40
+#, fuzzy
 msgid "Test text"
 msgstr "Test tekst"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:42
+#, fuzzy
 msgid "CONTINUE"
 msgstr "VERDER GAAN"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:44
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:625
+#, fuzzy
 msgid "START"
 msgstr "START"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:643
+#, fuzzy
 msgid "SELECT LESSON"
 msgstr "SELECTEER LES"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:657
+#, fuzzy
 msgid "OPTIONS"
 msgstr "OPTIES"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:691
+#, fuzzy
 msgid "QUIT"
 msgstr "AFSLUITEN"
 
