@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2023-12-05 15:37+0000\n"
-"Last-Translator: Kshitij Bhardwaj <kshitij.bhardwaj21@gmail.com>\n"
+"PO-Revision-Date: 2024-03-31 09:14+0000\n"
+"Last-Translator: cyochot <k97un9ri@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-27-value-types/ja/>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-27-value-types/lesson.tres:13
@@ -33,17 +33,25 @@ msgid ""
 "As a result, it's essential to understand types: they are not fully "
 "compatible with one another, and misusing them will cause errors."
 msgstr ""
+"コードでは、値には特定の[i]型[/i]があります。整数、10進数、文字列、2Dベクトル"
+"、配列、辞書など、いくつかのものについてはすでに学習しました。\n"
+"\n"
+"コンピューターは、値の型を使用して、使用できる操作と関数を認識します。\n"
+"\n"
+"そのため、型は互いに完全に互換性があるわけではなく、誤用するとエラーの原因と"
+"なります。"
 
 #: course/lesson-27-value-types/lesson.tres:25
 msgid "A prime example"
-msgstr ""
+msgstr "その代表例"
 
 #: course/lesson-27-value-types/lesson.tres:27
 msgid ""
 "You want to display the player's health in the interface. Your code tracks "
 "health as a whole number, a value of type [code]int[/code] (short for "
 "integer)."
-msgstr ""
+msgstr "プレイヤーの体力をインターフェースに表示したい。コードは、正常性を整数、型 "
+"[code]int[/code] (整数) の値として追跡します。"
 
 #: course/lesson-27-value-types/lesson.tres:47
 msgid ""
@@ -52,14 +60,18 @@ msgid ""
 "\n"
 "You can concatenate two strings with the [code]+[/code] operator."
 msgstr ""
+"しかし、プレイヤーの画面に表示するには、コンピュータはテキストを必要とします"
+"。[code]String[/code] 型の値が必要です。\n"
+"\n"
+"2 つの文字列は [code]+[/code] 演算子で連結できます。"
 
 #: course/lesson-27-value-types/lesson.tres:69
 msgid "So the following code looks like it could work at first glance."
-msgstr ""
+msgstr "したがって、次のコードは一見うまくいくように見えます。"
 
 #: course/lesson-27-value-types/lesson.tres:89
 msgid "But when running the code, we get this strange error."
-msgstr ""
+msgstr "しかし、コードを実行すると、この奇妙なエラーが発生します。"
 
 #: course/lesson-27-value-types/lesson.tres:109
 msgid ""
@@ -69,10 +81,15 @@ msgid ""
 "In that case, you need to convert the [code]health[/code] number into a "
 "[code]String[/code]."
 msgstr ""
+"[code]String[/code] 型と [code]int[/code] 型の値を追加することはできません。"
+"\n"
+"\n"
+"その場合は、[code]health[/code]番号を[code]String[/code]に変換する必要があり"
+"ます。"
 
 #: course/lesson-27-value-types/lesson.tres:119
 msgid "Converting values into strings"
-msgstr ""
+msgstr "値を文字列に変換する"
 
 #: course/lesson-27-value-types/lesson.tres:121
 msgid ""
@@ -83,16 +100,24 @@ msgid ""
 "You can use this function whenever you want to turn some number or vector "
 "into text."
 msgstr ""
+"[code]str()[/code] 関数 (\"string\" の略) "
+"を呼び出すことで、値のテキスト表現を取得できます。この関数は、引数を新しい "
+"[code]String[/code] として返します。\n"
+"\n"
+"この関数は、数値またはベクトルをテキストに変換したいときにいつでも使用できま"
+"す。"
 
 #: course/lesson-27-value-types/lesson.tres:143
 msgid ""
 "In this case, it turns the number [code]100[/code] into the string "
 "[code]\"100\"[/code]. Or whatever number [code]health[/code] is currently."
 msgstr ""
+"この場合、数値 [code]100[/code] を文字列 [code]\"100\"[/code] "
+"に変換します。または、現在の [code]health[/code] の番号。"
 
 #: course/lesson-27-value-types/lesson.tres:151
 msgid "Converting strings into numbers"
-msgstr ""
+msgstr "文字列を数値に変換する"
 
 #: course/lesson-27-value-types/lesson.tres:153
 msgid ""
@@ -102,10 +127,15 @@ msgid ""
 "Those functions can convert what the player writes in a text field into a "
 "number. For example, the number of potions to sell at once in a shop."
 msgstr ""
+"[code]int()[/code] 関数と [code]float()[/code] 関数をそれぞれ使用して、"
+"文字列を整数または 10 進数に変換することもできます。\n"
+"\n"
+"これらの関数は、プレーヤーがテキストフィールドに書き込んだものを数値に変換で"
+"きます。たとえば、ショップで一度に販売するポーションの数。"
 
 #: course/lesson-27-value-types/lesson.tres:173
 msgid "Some types are partially compatible"
-msgstr ""
+msgstr "一部の型は部分的に互換性があります"
 
 #: course/lesson-27-value-types/lesson.tres:175
 msgid ""
@@ -115,6 +145,11 @@ msgid ""
 "However, some types are [i]partially[/i] compatible. For example, you can "
 "multiply or divide a vector by a number. "
 msgstr ""
+"ほとんどの型は互換性がありません。たとえば、配列に数値を直接加算または乗算す"
+"ることはできません。\n"
+"\n"
+"ただし、一部の型は[i]部分的[/i]に互換性があります。たとえば、ベクトルに数値を"
+"乗算または除算できます。 "
 
 #: course/lesson-27-value-types/lesson.tres:197
 msgid ""
@@ -125,16 +160,23 @@ msgid ""
 "get an error. That's why, in earlier lessons, you had to access the sub-"
 "variables of [code]position[/code] to add numbers to them."
 msgstr ""
+"これは、他の開発者が内部でその操作を定義しているから可能です。\n"
+"\n"
+"ただし、ベクトルに数値を直接加算または減算することはできません。エラーが表示"
+"されます。そのため、以前のレッスンでは、[code]position[/code]のサブ変数にアク"
+"セスして数値を追加する必要がありました。"
 
 #: course/lesson-27-value-types/lesson.tres:207
 msgid "A surprising result"
-msgstr ""
+msgstr "意外な結果"
 
 #: course/lesson-27-value-types/lesson.tres:209
 msgid ""
 "Take the following division: [code]3/2[/code]. What result would you expect "
 "to get? [code]1.5[/code]?"
-msgstr ""
+msgstr "[code]3/"
+"2[/code]という区分を取ります。どのような結果が得られると思いますか?[code] "
+"1.5 [/code]?"
 
 #: course/lesson-27-value-types/lesson.tres:229
 msgid ""
@@ -168,10 +210,17 @@ msgid ""
 "bugs like controls not working as intended or charging the wrong price to "
 "players. "
 msgstr ""
+"単なる [code]0[/code] であっても、小数点以下の桁数を追加すると、10 "
+"進数が必要であることがコンピューターに伝わります。\n"
+"\n"
+"これは、型にどれだけ気を配る必要があるかを示しています。そうしないと、予期し"
+"ない結果が生じます。数字のエラーは、コントロールが意図したとおりに機能しなか"
+"ったり、プレイヤーに間違った価格を請求したりするなどのバグにつながる可能性が"
+"あります。 "
 
 #: course/lesson-27-value-types/lesson.tres:265
 msgid "Understanding and mastering types is a key skill for developers"
-msgstr ""
+msgstr "型を理解して習得することは、開発者にとって重要なスキルです"
 
 #: course/lesson-27-value-types/lesson.tres:267
 msgid ""
@@ -187,10 +236,20 @@ msgid ""
 "\n"
 "That said, let's practice some type conversions."
 msgstr ""
+"プログラミングの初心者は、型の理解不足のために苦労することがよくあります。\n"
+"\n"
+"GDScript などの言語では、既定で型が非表示になります。その結果、一部に互換性が"
+"ないことを理解していないと、タイプ関連のエラーに直面したときに立ち往生する可"
+"能性があります。\n"
+"\n"
+"学習の旅では、そのことを念頭に置いておく必要があります。コードを記述するとき"
+"は、起こっていることをすべて理解する必要があります。\n"
+"\n"
+"そうは言っても、いくつかの型変換を練習しましょう。"
 
 #: course/lesson-27-value-types/lesson.tres:281
 msgid "Displaying the player's health and energy"
-msgstr ""
+msgstr "プレイヤーの体力とエネルギーを表示する"
 
 #: course/lesson-27-value-types/lesson.tres:282
 msgid ""
@@ -206,16 +265,28 @@ msgid ""
 "[code]\"80\"[/code] would break the rest of the game's code. You must "
 "convert the value when calling [code]display_energy()[/code]."
 msgstr ""
+"プレイヤーのエネルギーをユーザーインターフェースに表示したいのです。\n"
+"\n"
+"現在、コードに型エラーがあります。[code]display_energy()[/code]関数が文字列を"
+"期待している間、整数を表示しようとしています。\n"
+"\n"
+"[code]str()[/code]関数を使用して、タイプエラーをクリアし、インターフェイスに"
+"エネルギー量を表示します。\n"
+"\n"
+"[code]energy[/code] 変数の定義は変更できません。 [code]\"80\"[/code] に設定す"
+"ると、ゲームの残りのコードが壊れます。[code]display_energy()[/code]を呼び出す"
+"ときに値を変換する必要があります。"
 
 #: course/lesson-27-value-types/lesson.tres:300
 msgid ""
 "We want to display the player's energy in the interface but face a type "
 "error. Use your new knowledge to fix it."
-msgstr ""
+msgstr "プレイヤーのエネルギーをインターフェースに表示したいのですが、タイプエラーが"
+"発生します。新しい知識を使って修正してください。"
 
 #: course/lesson-27-value-types/lesson.tres:305
 msgid "Letting the player type numbers"
-msgstr ""
+msgstr "プレーヤーに数字を入力させる"
 
 #: course/lesson-27-value-types/lesson.tres:306
 msgid ""
@@ -231,13 +302,27 @@ msgid ""
 "Using the [code]int()[/code] function, convert the player's input into a "
 "whole number and store the result in the [code]item_count[/code] variable."
 msgstr ""
+"ゲームのショップでは、プレイヤーが数字を入力して、売買するアイテムの数を選択"
+"できるようにしたいと考えています。\n"
+"\n"
+"アイテムの数を [code]int[/code] として知る必要がありますが、"
+"コンピューターはプレイヤーの入力を [code]String[/code] として読み取ります。\n"
+"\n"
+"あなたの仕事は、プレイヤーの入力を数字に変換して、ショップのコードが機能する"
+"ようにすることです。\n"
+"\n"
+"[code]int()[/code]関数を使用して、プレーヤーの入力を整数に変換し、結果を[code"
+"]item_count[/code]変数に格納します。"
 
 #: course/lesson-27-value-types/lesson.tres:326
 msgid ""
 "We want the player to choose the number of items they buy or sell in our "
 "game's shops. But right now, all we get are type errors."
 msgstr ""
+"私たちは、プレイヤーがゲームのショップで購入または販売するアイテムの数を選択"
+"できるようにしたいと考えています。しかし、今のところ、私たちが得るのは型エラ"
+"ーだけです。"
 
 #: course/lesson-27-value-types/lesson.tres:330
 msgid "Value types"
-msgstr ""
+msgstr "値の型"
