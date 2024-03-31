@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-03-24 16:33+0000\n"
+"PO-Revision-Date: 2024-03-31 09:14+0000\n"
 "Last-Translator: cyochot <k97un9ri@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-7-member-variables/ja/>\n"
@@ -272,7 +272,7 @@ msgstr "実践に移る前に、最後の例を見てみましょう。 次の�
 
 #: course/lesson-7-member-variables/lesson.tres:228
 msgid "How do you access sub-variables?"
-msgstr ""
+msgstr "サブ変数にはどのようにアクセスしますか?"
 
 #: course/lesson-7-member-variables/lesson.tres:229
 msgid ""
@@ -280,6 +280,9 @@ msgid ""
 "variables: [code]x[/code] and [code]y[/code]. How would you access the "
 "[code]x[/code], for example?"
 msgstr ""
+"変数は、 [code]position[/code] が [code]x[/code] と [code]y[/code] の 2 つの"
+"サブ変数を持つように、サブ値を保持することがよくあります。たとえば、[code]x[/"
+"code]にどのようにアクセスしますか?"
 
 #: course/lesson-7-member-variables/lesson.tres:231
 msgid ""
@@ -289,21 +292,26 @@ msgid ""
 "For example, to access the [code]x[/code] sub-variable of the "
 "[code]position[/code] variable, you'll write [code]position.x[/code]."
 msgstr ""
+"サブ変数にアクセスするには、親変数名とサブ変数名の間にドットを書き込む必要が"
+"あります。\n"
+"\n"
+"たとえば、[code]position[/code] 変数の [code]x[/code] "
+"サブ変数にアクセスするには、[code]position.x[/code] と記述します。"
 
 #: course/lesson-7-member-variables/lesson.tres:234
 #: course/lesson-7-member-variables/lesson.tres:235
 msgid "You write a dot (\".\") between the variable and the sub-variable name."
-msgstr ""
+msgstr "変数とサブ変数名の間にドット (\".\") を書き込みます。"
 
 #: course/lesson-7-member-variables/lesson.tres:234
 msgid ""
 "You write an arrow (\"->\") between the variable and the sub-variable name."
-msgstr ""
+msgstr "変数とサブ変数名の間に矢印 (\"->\") を書き込みます。"
 
 #: course/lesson-7-member-variables/lesson.tres:234
 msgid ""
 "You write a slash (\"/\") between the variable and the sub-variable name."
-msgstr ""
+msgstr "変数とサブ変数名の間にスラッシュ (\"/\") を書き込みます。"
 
 #: course/lesson-7-member-variables/lesson.tres:244
 msgid ""
@@ -320,10 +328,22 @@ msgid ""
 "\n"
 "For now, let's practice accessing variables."
 msgstr ""
+"今後のレッスンでは、これらの変数にサブ変数がある理由と方法について説明します"
+"。\n"
+"\n"
+"今のところ、ドットを使用してそれらにアクセスできることを知っておいてください"
+"。\n"
+"\n"
+"どの変数にサブコンポーネントがあり、その名前が何であるかを説明します。\n"
+"\n"
+"次のレッスンでは、独自の変数を作成し、それらに対して操作を実行して、[code]sco"
+"re[/code]、[code]health[/code]などを追加または削除します。\n"
+"\n"
+"とりあえず、変数へのアクセスを練習しましょう。"
 
 #: course/lesson-7-member-variables/lesson.tres:260
 msgid "Draw a rectangle at a precise position"
-msgstr ""
+msgstr "正確な位置に矩形を描画する"
 
 #: course/lesson-7-member-variables/lesson.tres:261
 msgid ""
@@ -333,16 +353,21 @@ msgid ""
 "You need to replace the numbers in the code editor to draw the correct "
 "rectangle."
 msgstr ""
+"X 位置 120 ピクセル、Y 位置 100 ピクセルに 200 x 120 "
+"ピクセルの四角形を描画します。\n"
+"\n"
+"正しい四角形を描画するには、コード "
+"エディターで数値を置き換える必要があります。"
 
 #: course/lesson-7-member-variables/lesson.tres:275
 msgid ""
 "Use the position member variable and its sub-variables to change the "
 "rectangle's position."
-msgstr ""
+msgstr "position メンバー変数とそのサブ変数を使用して、四角形の位置を変更します。"
 
 #: course/lesson-7-member-variables/lesson.tres:280
 msgid "Draw squares at different positions"
-msgstr ""
+msgstr "さまざまな位置に正方形を描画する"
 
 #: course/lesson-7-member-variables/lesson.tres:281
 msgid ""
@@ -362,6 +387,20 @@ msgid ""
 "\n"
 "Use the provided [code]draw_rectangle()[/code] function to draw each square."
 msgstr ""
+"水平軸上に 100 ピクセル間隔でサイズが 100 x 100 の正方形を 3 "
+"つ描画します。つまり、2 つの正方形の間に 100 ピクセルのギャップが必要です。\n"
+"\n"
+"位置 (100, 100) から正方形を描画する必要があります。つまり、最初の正方形を X "
+"軸に 100、Y 軸に 100 を配置する必要があります。\n"
+"\n"
+"カメの位置など、変数の値を変更するには等号([code]=[/code])を使用する必要があ"
+"ることを忘れないでください。\n"
+"\n"
+"[code]run()[/code]関数内にコードを記述して、コンピューターが認識できるように"
+"します。\n"
+"\n"
+"提供されている[code]draw_rectangle()[/code]関数を使用して、各正方形を描画しま"
+"す。"
 
 #: course/lesson-7-member-variables/lesson.tres:299
 msgid ""
@@ -369,7 +408,9 @@ msgid ""
 "practice, you'll place three squares side by side to really get the hang of "
 "properties."
 msgstr ""
+"これで 1 つの図形を配置して描画できますが、複数描画するのはどうでしょうか。こ"
+"の練習では、3 つの正方形を並べて配置し、プロパティのコツをつかみます。"
 
 #: course/lesson-7-member-variables/lesson.tres:303
 msgid "Introduction to Member Variables"
-msgstr ""
+msgstr "メンバー変数の概要"
