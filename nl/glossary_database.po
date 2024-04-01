@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-04-01 14:01+0000\n"
+"Last-Translator: Matthijs <m4tthijsbl0m@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: member function
@@ -65,12 +68,12 @@ msgstr ""
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameter"
-msgstr ""
+msgstr "parameter"
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameters"
-msgstr ""
+msgstr "parameters"
 
 #. Reference: parameter
 #: course/glossary.csv:12
@@ -80,16 +83,21 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in the "
 "function's body."
 msgstr ""
+"Een parameter is een variabele die je maakt als onderdeel van een "
+"functiedefinitie.\n"
+"\n"
+"Hiermee kun je de functie vaker hergebruiken met waarden die variëren binnen "
+"de functie."
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radian"
-msgstr ""
+msgstr "radiaal"
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radians"
-msgstr ""
+msgstr "radialen"
 
 #. Reference: radian
 #: course/glossary.csv:17
@@ -103,6 +111,14 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And an "
 "angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
+"Een radiaal is een meeteenheid van hoeken gebaseerd op de omtrek van de "
+"cirkel.\n"
+"\n"
+"In ons dagelijks leven gebruiken we meestal graden, maar in "
+"computerprogrammering en vooral in games komen vaak radialen voor.\n"
+"\n"
+"Een hoek van [code]2 * PI[/code] radialen komt overeen met 360 graden. En "
+"een hoek van [code]PI[/code] radialen komt overeen met 180 graden."
 
 #. Reference: type
 #: course/glossary.csv:20
@@ -128,12 +144,12 @@ msgstr ""
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iteration"
-msgstr ""
+msgstr "iteratie"
 
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iterations"
-msgstr ""
+msgstr "iteraties"
 
 #. Reference: iteration
 #: course/glossary.csv:23
@@ -145,6 +161,12 @@ msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
+"In computercode is een iteratie een herhaling van een proces of code. We "
+"gebruiken de term meestal met lussen, waar een iteratie een herhaling is van "
+"de code in de lus.\n"
+"\n"
+"Wanneer we het over algoritmes hebben, kan een iteratie een volledige "
+"doorloop van het algoritme op een verzameling gegevens betekenen."
 
 #. Reference: vector
 #: course/glossary.csv:28
@@ -173,12 +195,12 @@ msgstr ""
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "argument"
-msgstr ""
+msgstr "argument"
 
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "arguments"
-msgstr ""
+msgstr "argumenten"
 
 #. Reference: argument
 #: course/glossary.csv:37
@@ -200,6 +222,22 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and "
 "[code]y[/code] are [i]parameters[/i]."
 msgstr ""
+"Een argument is een waarde die je aan een functie meegeeft wanneer je de "
+"functie aanroept. Bijvoorbeeld, in de aanroep [code]rotate(0.5)[/code] is de "
+"waarde [code]0.5[/code] tussen de haakjes een argument.\n"
+"\n"
+"Een functie kan geen argumenten, één argument of meerdere argumenten "
+"ontvangen. Argumenten kunnen verplicht of optioneel zijn.\n"
+"\n"
+"Als een functie meerdere argumenten krijgt, scheid je de waarden met "
+"komma's, zoals in deze functieaanroep: [code]jump(50, 100)[/code]\n"
+"\n"
+"Wanneer je een functie [i]aanroept[/i], noemen we de waarden tussen haakjes "
+"[i]argumenten[/i].\n"
+"\n"
+"Wanneer we echter een functiedefinitie schrijven, spreken we van "
+"[i]parameters[/i]. In het volgende voorbeeld zijn de namen [code]x[/code] en "
+"[code]y[/code] [i]parameters[/i]."
 
 #. Reference: array
 #: course/glossary.csv:44
@@ -300,12 +338,12 @@ msgstr ""
 #. Reference: function
 #: course/glossary.csv:64
 msgid "function"
-msgstr ""
+msgstr "functie"
 
 #. Reference: function
 #: course/glossary.csv:64
 msgid "functions"
-msgstr ""
+msgstr "functies"
 
 #. Reference: function
 #: course/glossary.csv:64
@@ -320,6 +358,17 @@ msgid ""
 "\n"
 "Also, functions can optionally return a value to the code calling it."
 msgstr ""
+"Een functie is een groep code-instructies die je een naam geeft. Wanneer je "
+"een functie definieert, kun je deze daarna op elk moment aanroepen om alle "
+"instructies die erin staan uit te voeren.\n"
+"\n"
+"Je kunt het gedrag van een functie aanpassen met parameters. Parameters zijn "
+"namen van variabelen die je in de functiedefinitie zet. Je kunt ze dan "
+"gebruiken binnen de functie om je code aan te passen aan verschillende "
+"situaties.\n"
+"\n"
+"Functies kunnen ook optioneel een waarde teruggeven aan de code die de "
+"functie aanroept."
 
 #. Reference: increment
 #: course/glossary.csv:65
@@ -339,12 +388,12 @@ msgstr ""
 #. Reference: instruction
 #: course/glossary.csv:68
 msgid "instruction"
-msgstr ""
+msgstr "instructie"
 
 #. Reference: instruction
 #: course/glossary.csv:68
 msgid "instructions"
-msgstr ""
+msgstr "instructies"
 
 #. Reference: instruction
 #: course/glossary.csv:68
@@ -355,16 +404,21 @@ msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
 msgstr ""
+"In computerprogrammering zijn instructies een enkele bewerking die de "
+"computer herkent en kan uitvoeren.\n"
+"\n"
+"Bijvoorbeeld een functieaanroep, een optelling of het toekennen van een "
+"waarde aan een variabele."
 
 #. Reference: variable
 #: course/glossary.csv:77
 msgid "variable"
-msgstr ""
+msgstr "variabele"
 
 #. Reference: variable
 #: course/glossary.csv:77
 msgid "variables"
-msgstr ""
+msgstr "variabelen"
 
 #. Reference: variable
 #: course/glossary.csv:77
@@ -385,6 +439,25 @@ msgid ""
 "that you attach to some value. Any time, you can take the label and stick it "
 "onto a new product or, in that case, a new value."
 msgstr ""
+"Variabelen zijn een hulpmiddel waarmee je een naam kunt geven aan waarden "
+"die je wilt opslaan in je code en die in de loop van de tijd wilt kunnen "
+"veranderen.\n"
+"\n"
+"Bijvoorbeeld de gezondheid van een personage: als het personage een geraakt "
+"wordt, wil je dat de gezondheid afneemt. Als het personage geneest, wil je "
+"dat de gezondheid weer toeneemt.\n"
+"\n"
+"Je kunt een variabele maken met de naam [code]health[/code] om de gezondheid "
+"weer te geven.\n"
+"\n"
+"Vervolgens, elke keer dat je het woord [code]health[/code] in je code "
+"schrijft, zal de computer de corresponderende waarde voor je ophalen uit het "
+"geheugen.\n"
+"\n"
+"Variabelen werken een beetje zoals productlabels in een supermarkt. Het zijn "
+"namen die je aan een waarde koppelt. Op elk moment kun je het label "
+"verwijderen en het op een nieuw product plakken ofwel, in dit geval, een "
+"nieuwe waarde."
 
 #. Reference: while loop
 #: course/glossary.csv:84
@@ -441,12 +514,12 @@ msgstr ""
 #. Reference: library
 #: course/glossary.csv:89
 msgid "library"
-msgstr ""
+msgstr "bibliotheek"
 
 #. Reference: library
 #: course/glossary.csv:89
 msgid "libraries"
-msgstr ""
+msgstr "bibliotheken"
 
 #. Reference: library
 #: course/glossary.csv:89
@@ -454,6 +527,9 @@ msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
+"Een verzameling waardevolle en herbruikbare code gebundeld door andere "
+"programmeurs om je tijd te besparen. Alle programmeurs gebruiken "
+"codebibliotheken."
 
 #. Reference: sprite
 #: course/glossary.csv:90
