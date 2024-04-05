@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-04-05 13:29+0000\n"
+"PO-Revision-Date: 2024-04-06 19:01+0000\n"
 "Last-Translator: Matthijs <m4tthijsbl0m@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/glossary_database/nl/>\n"
@@ -259,12 +259,12 @@ msgstr ""
 #. Reference: array
 #: course/glossary.csv:44
 msgid "array"
-msgstr ""
+msgstr "array"
 
 #. Reference: array
 #: course/glossary.csv:44
 msgid "arrays"
-msgstr ""
+msgstr "arrays"
 
 #. Reference: array
 #: course/glossary.csv:44
@@ -282,6 +282,18 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
+"Een array is een lijst van waarden. In GDScript kunnen arrays [i]elk[/i] "
+"type waarde bevatten.\n"
+"\n"
+"Om een array te maken, schrijf je door komma's gescheiden waarden tussen "
+"vierkante haken: [code]var three_numbers = [1, 2, 3][/code]\n"
+"\n"
+"In games gebruiken we vaak arrays om lijsten van personages in een groep op "
+"te slaan, lijsten van voorwerpen in de inventaris, lijsten van spreuken die "
+"de speler heeft vrijgespeeld, enzovoort. Ze zijn overal.\n"
+"\n"
+"Arrays zijn een fundamenteel waardentype in computerprogrammering. Je vindt "
+"arrays in vrijwel elke programmeertaal."
 
 #. Reference: assign
 #: course/glossary.csv:45
@@ -330,12 +342,12 @@ msgstr ""
 #. Reference: for loop
 #: course/glossary.csv:59
 msgid "for loop"
-msgstr ""
+msgstr "for-lus"
 
 #. Reference: for loop
 #: course/glossary.csv:59
 msgid "for loops"
-msgstr ""
+msgstr "for-lussen"
 
 #. Reference: for loop
 #: course/glossary.csv:59
@@ -353,6 +365,18 @@ msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to "
 "use than while loops."
 msgstr ""
+"Een for-lus geeft de computer de opdracht om een reeks instructies één keer "
+"te herhalen voor elke waarde in een array.\n"
+"\n"
+"Tijdens elke ronde van de lus haalt de compiler een waarde uit de array en "
+"geeft je er toegang toe binnen de lus.\n"
+"\n"
+"For-lussen voeren code een beperkt aantal keer uit: één keer per waarde in "
+"de array. Dit verschilt van while-lussen die code blijven herhalen tot aan "
+"een conditie wordt voldaan.\n"
+"\n"
+"We raden aan om waar mogelijk de voorkeur te geven aan for-lussen. Ze zijn "
+"veiliger en gemakkelijker te gebruiken dan while-lussen."
 
 #. Reference: function
 #: course/glossary.csv:64
@@ -481,12 +505,12 @@ msgstr ""
 #. Reference: while loop
 #: course/glossary.csv:84
 msgid "while loop"
-msgstr ""
+msgstr "while-lus"
 
 #. Reference: while loop
 #: course/glossary.csv:84
 msgid "while loops"
-msgstr ""
+msgstr "while-lussen"
 
 #. Reference: while loop
 #: course/glossary.csv:84
@@ -502,6 +526,18 @@ msgid ""
 "However, there are still essential cases in which we use while loops, like "
 "processing files, processing computer code, or for powerful algorithms."
 msgstr ""
+"Een while-lus geeft de computer de opdracht om code te blijven uitvoeren op "
+"basis van een conditie. Zolang de conditie waar is, blijft de lus lopen.\n"
+"\n"
+"Bij het coderen van while-lussen moet je voorzichtig zijn: ze blijven "
+"oneindig doorlopen en bevriezen je spel als je de verkeerde conditie "
+"gebruikt.\n"
+"\n"
+"Daarom raden we aan om waar mogelijk de veiligere for-lus te gebruiken.\n"
+"\n"
+"Er zijn echter nog steeds essentiële gevallen waarin we while-lussen "
+"gebruiken, zoals het verwerken van bestanden, het verwerken van computercode "
+"of voor krachtige algoritmen."
 
 #. Reference: body
 #: course/glossary.csv:85
