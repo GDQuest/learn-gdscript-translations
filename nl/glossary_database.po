@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-04-08 10:01+0000\n"
+"PO-Revision-Date: 2024-04-10 22:01+0000\n"
 "Last-Translator: Matthijs <m4tthijsbl0m@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/glossary_database/nl/>\n"
@@ -24,12 +24,12 @@ msgstr ""
 #. Reference: member function
 #: course/glossary.csv:6
 msgid "member function"
-msgstr ""
+msgstr "lidfunctie"
 
 #. Reference: member function
 #: course/glossary.csv:6
 msgid "member functions"
-msgstr ""
+msgstr "lidfuncties"
 
 #. Reference: member function
 #: course/glossary.csv:6
@@ -42,6 +42,13 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
+"Lidfuncties zijn functies die gekoppeld zijn aan een specifiek waardentype, "
+"zoals arrays, strings of dictionaries. We noemen ze ook wel methoden.\n"
+"\n"
+"Arrays hebben bijvoorbeeld lidfuncties zoals [code]array.append()[/code].\n"
+"\n"
+"Je kunt de functie alleen aanroepen op een array, met behulp van de "
+"toegangsoperator ([code].[/code]), zoals hierboven getoond."
 
 #. Reference: member variable
 #: course/glossary.csv:9
@@ -131,12 +138,12 @@ msgstr ""
 #. Reference: type
 #: course/glossary.csv:20
 msgid "type"
-msgstr ""
+msgstr "type"
 
 #. Reference: type
 #: course/glossary.csv:20
 msgid "types"
-msgstr ""
+msgstr "types"
 
 #. Reference: type
 #: course/glossary.csv:20
@@ -148,6 +155,12 @@ msgid ""
 "The computer uses types to determine which operations are valid between two "
 "values and when they're undefined."
 msgstr ""
+"In computerprogrammering is een type de klasse van een waarde. Bijvoorbeeld, "
+"gehele getallen zoals [code]3[/code], [code]11[/code], en [code]255462[/code]"
+" zijn allemaal van het type [code]int[/code] (afkorting voor integer).\n"
+"\n"
+"De computer gebruikt types om te bepalen welke bewerkingen geldig zijn "
+"tussen twee waarden en wanneer ze ongedefinieerd zijn."
 
 #. Reference: iteration
 #: course/glossary.csv:23
@@ -312,12 +325,12 @@ msgstr ""
 #. Reference: dictionary
 #: course/glossary.csv:52
 msgid "dictionary"
-msgstr ""
+msgstr "dictionary"
 
 #. Reference: dictionary
 #: course/glossary.csv:52
 msgid "dictionaries"
-msgstr ""
+msgstr "dictionaries"
 
 #. Reference: dictionary
 #: course/glossary.csv:52
@@ -338,6 +351,21 @@ msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
+"Een dictionary is een datastructuur die waarden opslaat als sleutel-waarde "
+"paren. Wanneer je de dictionary een sleutel geeft, vindt hij de "
+"overeenkomstige waarde en geeft die terug.\n"
+"\n"
+"In GDScript kunnen sleutels van alles zijn. We gebruiken vaak tekststrings "
+"of getallen, maar daar ben je niet toe beperkt. Een [code]Vector2[/code] kan "
+"ook een geldige sleutel zijn, wat handig is om een rastercel te koppelen aan "
+"een spelstuk of een voorwerp in een rastergebaseerd spel.\n"
+"\n"
+"Je zult vaak dictionaries gebruiken om stukjes data te koppelen in je "
+"spellen. We kunnen ze bijvoorbeeld gebruiken om de naam van een uitrusting "
+"te koppelen aan de wapenstatistieken in een database.\n"
+"\n"
+"Net als arrays zijn ze een fundamenteel datatype dat je in veel "
+"programmeertalen zult tegenkomen en veel zult gebruiken."
 
 #. Reference: for loop
 #: course/glossary.csv:59
@@ -416,17 +444,18 @@ msgstr ""
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "increment"
-msgstr ""
+msgstr "verhoging"
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "increments"
-msgstr ""
+msgstr "verhogingen"
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "An increment is the amount by which a value changes in your code."
 msgstr ""
+"Een verhoging is de hoeveelheid waarmee een waarde verandert in je code."
 
 #. Reference: instruction
 #: course/glossary.csv:68
@@ -542,7 +571,7 @@ msgstr ""
 #. Reference: body
 #: course/glossary.csv:85
 msgid "body"
-msgstr ""
+msgstr "inhoud"
 
 #. Reference: body
 #: course/glossary.csv:85
@@ -550,6 +579,8 @@ msgid ""
 "We talk about a loop or a function's body to refer to the lines of code that "
 "are part of the loop or function."
 msgstr ""
+"We spreken van de inhoud van een lus of functie om te verwijzen naar de "
+"regels code die deel uitmaken van de lus of functie."
 
 #. Reference: return
 #: course/glossary.csv:88
@@ -594,12 +625,12 @@ msgstr ""
 #. Reference: sprite
 #: course/glossary.csv:90
 msgid "sprite"
-msgstr ""
+msgstr "sprite"
 
 #. Reference: sprite
 #: course/glossary.csv:90
 msgid "sprites"
-msgstr ""
+msgstr "sprites"
 
 #. Reference: sprite
 #: course/glossary.csv:90
@@ -608,3 +639,7 @@ msgid ""
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
 msgstr ""
+"In computerafbeeldingen is een sprite een afbeelding die je op het scherm "
+"weergeeft. We gebruiken dit woord meestal om te praten over bewegende "
+"beelden, zoals een personage, een monster of een voorwerp dat op de grond "
+"valt."
