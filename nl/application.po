@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-04-10 22:01+0000\n"
+"PO-Revision-Date: 2024-04-11 23:02+0000\n"
 "Last-Translator: Matthijs <m4tthijsbl0m@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/application/nl/>\n"
@@ -22,18 +22,16 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
-#, fuzzy
 msgid "You need to type a whole number for this answer. Example: 42"
-msgstr "Bij dit antwoord moet je een geheel getal typen. Bijvoorbeeld: 42"
+msgstr "Je moet een geheel getal typen voor dit antwoord. Voorbeeld: 42"
 
 #: resources/QuizInputField.gd:22
-#, fuzzy
 msgid ""
 "You need to type a decimal for this answer. Use a \".\" to separate the "
 "decimal part. Example: 3.14"
 msgstr ""
-"Bij dit antwoord moet je een decimaal typen. Gebruik een \".\" om de "
-"decimaal te scheiden. Bijvoorbeeld: 3.14"
+"Je moet een kommagetal schrijven voor dit antwoord. Gebruik een \".\" om het "
+"decimale gedeelte te scheiden. Voorbeeld: 3.14"
 
 #: ui/UILesson.tscn:90
 msgid "Title"
@@ -53,11 +51,11 @@ msgstr "(geen eerdere geschiedenis)"
 
 #: ui/UINavigator.tscn:103
 msgid "CHRISTMAS SALE - 50% OFF"
-msgstr ""
+msgstr "KERSTVERKOOP - 50% KORTING"
 
 #: ui/UINavigator.tscn:163
 msgid "CHRISTMAS SALE"
-msgstr ""
+msgstr "KERSTVERKOOP"
 
 #: ui/UIPractice.gd:154 ui/UIPractice.gd:220
 #, python-format
@@ -65,14 +63,13 @@ msgid "Hint %s"
 msgstr "Hint %s"
 
 #: ui/UIPractice.gd:248
-#, fuzzy
 msgid "Validating Your Code..."
-msgstr "Je Code Valideren..."
+msgstr "Aan het valideren..."
 
 #: ui/UIPractice.gd:268
 #, python-format
 msgid "The function `%s` calls itself, this creates an infinite loop"
-msgstr ""
+msgstr "De functie `%s` roept zichzelf aan, dit veroorzaakt een oneindige lus"
 
 #: ui/UIPractice.gd:301
 msgid "Running Your Code..."
@@ -83,11 +80,15 @@ msgid ""
 "There is a division by zero in your code. You cannot divide by zero in code. "
 "Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr ""
+"Er is een deling door nul in je code. Je mag niet delen door nul in code. "
+"Zorg ervoor dat er geen \"/ 0\" of \"% 0\" in je code staat."
 
 #: ui/UIPractice.gd:343
 msgid ""
 "Oh no! The script has an error, but the Script Verifier did not catch it"
 msgstr ""
+"Oh nee! Het script heeft een fout, maar de Script Verifier heeft deze niet "
+"gevonden"
 
 #: ui/UIPractice.gd:369
 msgid "Running Tests..."
@@ -102,12 +103,10 @@ msgid "Use Solution"
 msgstr "Gebruik deze oplossing"
 
 #: ui/UIPractice.tscn:207
-#, fuzzy
 msgid "Leave unfinished practice?"
-msgstr "Onafgemaakte oefening verlaten?"
+msgstr "Onvoltooide oefeningen achterlaten?"
 
 #: ui/components/BigGreenButton.tscn:24
-#, fuzzy
 msgid "Button"
 msgstr "Knop"
 
@@ -157,14 +156,12 @@ msgid "Our error explanation."
 msgstr "Onze verklaring van de foutmelding."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
-#, fuzzy
 msgid "ERROR:"
-msgstr "FOUTMELDING:"
+msgstr "FOUT:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 #: ui/components/ScrollableTextBox.tscn:43
 #: ui/screens/lesson/UIContentBlock.tscn:68
-#, fuzzy
 msgid "Placeholder text"
 msgstr "Tijdelijke text"
 
@@ -174,9 +171,8 @@ msgid "in"
 msgstr "in"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
-#, fuzzy
 msgid "FileName"
-msgstr "BestandsNaam"
+msgstr "Bestandsnaam"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
 #, fuzzy
@@ -188,21 +184,17 @@ msgid "0:0"
 msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
-#, fuzzy
 msgid ""
 "Sometimes errors are reported outside of your code. Why does that happen?"
-msgstr ""
-"Soms worden er foutmeldingen gerapporteerd van buiten jouw code. Waarom "
-"gebeurt dit?"
+msgstr "Soms worden fouten buiten je code gemeld. Waarom gebeurt dat?"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
 msgid "Explain"
 msgstr "Leg uit"
 
 #: ui/components/Revealer.tscn:74
-#, fuzzy
 msgid "Expand"
-msgstr "Uitbreiden"
+msgstr "Klap uit"
 
 #: ui/components/RunnableCodeExample.tscn:105
 msgid "run()"
@@ -222,18 +214,20 @@ msgid ""
 "[center]Get [b]50% off[/b] on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b][/center]"
 msgstr ""
+"[center]Krijg [b]50% korting[/b] op al onze Godot-cursussen met de \n"
+"couponcode [b]DISCOUNT50[/b][/center]"
 
 #: ui/components/SalePopup.tscn:132
 msgid "Only until "
-msgstr ""
+msgstr "Alleen tot "
 
 #: ui/components/SalePopup.tscn:155
 msgid "CHECK OUT OUR COURSES"
-msgstr ""
+msgstr "BEKIJK ONZE CURSUSSEN"
 
 #: ui/components/SalePopup.tscn:180
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
@@ -284,12 +278,10 @@ msgid "Hide"
 msgstr "Verberg"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
-#, fuzzy
 msgid "Where do external errors come from?"
 msgstr "Waar komen externe foutmeldingen vandaan?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
-#, fuzzy
 msgid ""
 "Lessons in this course are designed so you only need to edit the "
 "[b]important bits[/b]. But there is much more code outside of what you see "
@@ -305,20 +297,20 @@ msgid ""
 "individual error that you face. Quick, click the [b]Explain[/b] button next "
 "to the error message!"
 msgstr ""
-"Lessen in deze cursus zijn op zo'n wijze opgezet dat je alleen de "
-"[b]belangrijke stukken[/b] hoeft aan te passen. Maar er is veel meer code, "
-"buiten die je kunt zien, welke er voor zorgt dat je het project kunt "
-"uitvoeren.\n"
+"De lessen in deze cursus zijn zo ontworpen dat je alleen de [b]belangrijke "
+"stukjes[/b] hoeft te bewerken. Maar er is veel meer code buiten wat je ziet "
+"die ervoor zorgt dat het project werkt.\n"
 "\n"
-"Soms betekent dit dat aanpassingen die je maakt aan de code een effect heeft "
-"op codee waar je geen invloed op hebt. Niet gevreest, je kunt zelf nog "
-"steeds alle problemen oplossen met de code die je [b]kunt[/b] aanpassen.\n"
+"Dit betekent dat wijzigingen die je aanbrengt soms van invloed kunnen zijn "
+"op code waar je geen controle over hebt. Maar maak je geen zorgen, je kunt "
+"nog steeds alle problemen zelf oplossen met de code die je [b]wel[/b] kunt "
+"aanpassen!\n"
 "\n"
-"[i]Zo werkt het bij game engines ook.[/i] Er is heel veel verborgen code "
-"welke uitgevoerd wordt om je project naadloos uit te voeren. En toch kan een "
-"fout in je scrips deze breken. We zullen proberen uit te leggen hoe elke "
-"individuele foutmelding aan te pakken die je tegenkomt. Snel, klik de [b]"
-"[Uitleg[/b] knop naast de foutmelding!"
+"[i]Dit is net zoals hoe game-engines ook werken.[/i] Er is veel verborgen "
+"code die ze uitvoeren om ervoor te zorgen dat je project soepel verloopt. En "
+"toch kan een fout in je scripts ze breken. We zullen proberen uit te leggen "
+"hoe je elke individuele foutmelding kunt aanpakken. Klik snel op de knop [b]"
+"Leg uit[/b] naast de foutmelding!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
@@ -329,12 +321,11 @@ msgid "Lesson complete!"
 msgstr "Les afgerond!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
-#, fuzzy
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
-"Baar er zijn nog steeds oefeningen\n"
+"Maar er zijn nog enkele oefeningen\n"
 "die je hebt overgeslagen."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
@@ -380,7 +371,6 @@ msgid "Report an issue"
 msgstr "Meld een probleem"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
-#, fuzzy
 msgid ""
 "If you face an issue in the app, please click the link below to report it on "
 "GitHub:\n"
@@ -420,42 +410,44 @@ msgid ""
 "\n"
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
-"Als je een probleem tegenkomt in de app, klik dan op de onderstaande link om "
-"dit op GitHub te melden:\n"
+"Als je tegen een probleem aanloopt in de app, klik dan op de link hieronder "
+"om dit te melden op GitHub:\n"
 "\n"
 "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
-"> GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
+"> GDQuest > learn-gdscript > Issues[/url][/center]\n"
 "\n"
-"Op die pagina kun je eventuele problemen melden, als iets niet werkt, of als "
-"er een fout in een les zit.\n"
+"Op die pagina kun je problemen melden, of er nu iets niet werkt of een fout "
+"in een les zit.\n"
 "\n"
-"Je kan een log-bestand genereren om ons te helpen het probleem te "
-"identificeren. Klik hier: [b][url=download]genereer fouten log[/url][/b].\n"
+"Je kunt een log-bestand genereren om ons te helpen het probleem te "
+"identificeren. Klik hier om dat te doen: [b][url=download]log-bestand "
+"genereren[/url][/b].\n"
 "\n"
-"Sleep het gegenereerde bestand naar je melding (issue) op GitHub om het bij "
-"te voegen.\n"
+"Sleep het gegenereerde bestand naar je issue op GitHub om het als bijlage "
+"toe te voegen.\n"
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]Wat is GitHub[/font]\n"
 "\n"
-"GitHub is een online platform voor het hosten en beheren van open-"
-"sourceprojecten zoals de GDScript Learn-app. Het helpt ontwikkelaars hun "
-"werk te organiseren en online samen te werken.\n"
+"GitHub is een online platform voor het hosten en beheren van open-source "
+"projecten zoals de GDScript Learn app. Het helpt ontwikkelaars hun werk te "
+"organiseren en online samen te werken.\n"
 "\n"
 "Je kunt GitHub gebruiken om de broncode van veel open projecten te "
-"bestuderen, problemen te melden, of zelfs zelf code bij te dragen.\n"
+"bestuderen, problemen te melden of zelfs zelf code bij te dragen.\n"
 "\n"
-"[font=res://ui/theme/fonts/font_title.tres]Een probleem melden[/font]\n"
+"[font=res://ui/theme/fonts/font_title.tres]Hoe een probleem te melden[/font]"
 "\n"
-"1. Klik op de bovenstaande link om naar de pagina [i]GitHub Issues[/i] te "
+"\n"
+"1. Klik op de bovenstaande link om naar de [i]GitHub Issues[/i] pagina te "
 "gaan.\n"
-"2. Klik op de knop [i]New issue[/i].\n"
-"3. Vul het formulier in om ons meer over het probleem te vertellen.\n"
+"2. Klik op de knop [i]New Issue[/i].\n"
+"3. Vul het formulier in om ons meer te vertellen over je probleem.\n"
 "\n"
-"Je hebt hiervoor een GitHub-account nodig.\n"
+"Je hebt een GitHub account nodig om dit te doen.\n"
 "\n"
 "Voeg zoveel mogelijk relevante informatie toe, zoals het soort apparaat dat "
-"je gebruikt om toegang te krijgen tot de app en voeg eventueel een "
-"screenshot of video bij waarin het probleem wordt getoond.\n"
+"je gebruikt om toegang te krijgen tot de app, en voeg misschien een "
+"screenshot of videoclip toe die het probleem laat zien.\n"
 "\n"
 "[center]Bedankt voor het bijdragen aan open source![/center]"
 
@@ -508,9 +500,8 @@ msgid "Start Lesson"
 msgstr "Begin les"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
-#, fuzzy
 msgid "Lesson Title Goes Here"
-msgstr "Les Titel Komt Hier"
+msgstr "Hier komt de lestitel"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
 msgid "Lesson read"
@@ -546,9 +537,8 @@ msgid "Course Index - "
 msgstr "Inhoudsopgave - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
-#, fuzzy
 msgid "Course Title Goes Here"
-msgstr "Cursus Titel Komt Hier"
+msgstr "Hier komt de cursustitel"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
@@ -561,43 +551,48 @@ msgstr "Voortgang resetten bevestigen"
 #: ui/screens/end_screen/EndScreen.tscn:300
 #: ui/screens/end_screen/EndScreen.tscn:313
 msgid "YOU MADE IT!"
-msgstr ""
+msgstr "JE HEBT HET EINDE GEHAALD!"
 
 #: ui/screens/end_screen/EndScreen.tscn:343
 msgid ""
 "Not only did you learn the foundations of coding, you’re a big step closer "
 "to making your own games."
 msgstr ""
+"Je hebt niet alleen de basis van coderen geleerd, maar je bent ook een grote "
+"stap dichter bij het maken van je eigen games."
 
 #: ui/screens/end_screen/EndScreen.tscn:363
 msgid "Don't stop here..."
-msgstr ""
+msgstr "Stop hier niet..."
 
 #: ui/screens/end_screen/EndScreen.tscn:373
 msgid "The fun stuff starts now!"
-msgstr ""
+msgstr "Het leuke werk begint nu!"
 
 #: ui/screens/end_screen/EndScreen.tscn:388
 msgid "There are 2 pathways learners traditionally take from here:"
-msgstr ""
+msgstr "Er zijn 2 paden die leerlingen vanaf hier kunnen volgen:"
 
 #: ui/screens/end_screen/EndScreen.tscn:402
 msgid "Following video tutorials"
-msgstr ""
+msgstr "Video-tutorials volgen"
 
 #: ui/screens/end_screen/EndScreen.tscn:417
 msgid ""
 "They’re a great way to pick up specific game mechanics but they’re not as "
 "effective when you’re trying to learn new skills from the ground up."
 msgstr ""
+"Deze zijn een geweldige manier om specifieke spelmechanismen te ontdekken, "
+"maar ze zijn niet zo effectief als je nieuwe vaardigheden grondig wilt leren."
 
 #: ui/screens/end_screen/EndScreen.tscn:449
 msgid "• There’s no clear learning path."
-msgstr ""
+msgstr "- Er is geen duidelijk leertraject."
 
 #: ui/screens/end_screen/EndScreen.tscn:464
 msgid "• Retention and skill acquisition is slow and limited."
 msgstr ""
+"- Het behoud en het aanleren van vaardigheden gaat langzaam en is beperkt."
 
 #: ui/screens/end_screen/EndScreen.tscn:480
 msgid ""
@@ -608,10 +603,16 @@ msgid ""
 "[color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]courses[/"
 "url][/color][/b]."
 msgstr ""
+"We dragen ons steentje bij door [b][color=#ebc3ff][url=https://www.youtube."
+"com/@Gdquest/videos]gratis tutorials[/url][/color][/b] te maken. Ze zullen "
+"erg van pas komen als je eenmaal begint met het zelf maken van spellen. Maar "
+"om te beginnen raden we je echt aan om te leren denken als een "
+"gameontwikkelaar met behulp van [b][color=#ebc3ff][url=https://school.gdquest"
+".com/godot-4-early-access]cursussen[/url][/color][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:495
 msgid "Learning with courses"
-msgstr ""
+msgstr "Leren via cursussen"
 
 #: ui/screens/end_screen/EndScreen.tscn:511
 msgid ""
@@ -619,6 +620,9 @@ msgid ""
 "tutorials. The problem of retaining information and acquiring real skills "
 "unfortunately still applies to them."
 msgstr ""
+"Merk op dat de meeste online beschikbare cursussen eigenlijk betaalde "
+"reeksen videotutorials zijn. Het probleem van informatie vasthouden en echte "
+"vaardigheden verwerven geldt voor hen helaas nog steeds."
 
 #: ui/screens/end_screen/EndScreen.tscn:527
 msgid ""
@@ -631,34 +635,43 @@ msgid ""
 "bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
 "[/b]."
 msgstr ""
+"Bij GDQuest zijn we onderwijzers in hart en nieren. Wij geloven in "
+"praktijkgericht leren en we geloven dat dit niet saai hoeft te zijn. Als het "
+"onderwijs op de juiste manier wordt gegeven, genieten de meeste mensen enorm "
+"van het gevoel dat ze in niveau stijgen!\n"
+"\n"
+"Daarom hebben we deze app gemaakt. Het is in feite een onderdeel van onze "
+"beginnerscursus [b][color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with "
+"Godot[/url][/color][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:565
 msgid "LEARN GAMEDEV WITH GODOT"
-msgstr ""
+msgstr "LEARN GAMEDEV WITH GODOT"
 
 #: ui/screens/end_screen/EndScreen.tscn:710
 msgid "Now available"
-msgstr ""
+msgstr "Nu verkrijgbaar"
 
 #: ui/screens/end_screen/EndScreen.tscn:720
 msgid "for preorders"
-msgstr ""
+msgstr "als pre-orders"
 
 #: ui/screens/end_screen/EndScreen.tscn:737
 msgid "Godot 4 courses!!"
-msgstr ""
+msgstr "Godot 4 cursussen!!"
 
 #: ui/screens/end_screen/EndScreen.tscn:783
 msgid "Teaching gamedev in the classroom?"
-msgstr ""
+msgstr "Gamedev onderwijzen in de klas?"
 
 #: ui/screens/end_screen/EndScreen.tscn:796
 msgid "Get in touch"
-msgstr ""
+msgstr "Neem contact op"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:196
 msgid "Congratulations!"
-msgstr ""
+msgstr "Gefeliciteerd!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:203
 msgid ""
@@ -669,10 +682,16 @@ msgid ""
 "en/stable/getting_started/step_by_step/index.html]Getting Started with "
 "Godot[/url]."
 msgstr ""
+"Je hebt Learn GDScript From Zero voltooid. Je hebt nu de basis die je nodig "
+"hebt om games te maken met de Godot game engine.\n"
+"\n"
+"Je kunt blijven leren met de gratis serie [url=https://docs.godotengine.org/"
+"en/stable/getting_started/step_by_step/index.html]Getting Started with "
+"Godot[/url]."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:216
 msgid "This is an Open-Source project!"
-msgstr ""
+msgstr "Dit is een Open-Source project!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:223
 msgid ""
@@ -682,10 +701,15 @@ msgid ""
 "[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
+"Net als Godot is deze app en cursus gratis en open-source. \n"
+"\n"
+"Je kunt hier de broncode van de app vinden en vertalingen bijdragen: [url="
+"\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero ("
+"Github repository)[/url]."
 
 #: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:42
 msgid "Early Access release: 2024/01/30"
-msgstr ""
+msgstr "Early Access uitgave: 2024/01/30"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
@@ -708,28 +732,23 @@ msgid "You're right!"
 msgstr "Klopt!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
-#, fuzzy
 msgid "Answers here"
 msgstr "Antwoorden hier"
 
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
-#, fuzzy
 msgid "Learn More"
-msgstr "Leer Meer"
+msgstr "Meer informatie"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
-#, fuzzy
 msgid "Placeholder heading"
-msgstr "Tijdelijke Kop"
+msgstr "Tijdelijke titel"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
-#, fuzzy
 msgid "Practice title"
-msgstr "Titel Oefening"
+msgstr "Oefeningtitel"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
-#, fuzzy
 msgid "next"
 msgstr "volgende"
 
@@ -738,14 +757,12 @@ msgid "Practice"
 msgstr "Oefening"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
-#, fuzzy
 msgid "You are here"
-msgstr "Je bevind je hier"
+msgstr "Je bevindt je hier"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
-#, fuzzy
 msgid "Answer label"
-msgstr "Antwoord Label"
+msgstr "Antwoordlabel"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
 msgid "(select all that apply)"
@@ -756,19 +773,16 @@ msgid "Show Hint"
 msgstr "Toon hint"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:144
-#, fuzzy
 msgid "Method descriptions"
-msgstr "Methode omschrijvingen"
+msgstr "Methodebeschrijvingen"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:160
-#, fuzzy
 msgid "Property descriptions"
-msgstr "Eigenshap omschrijvingen"
+msgstr "Eigenschapsbeschrijvingen"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
-#, fuzzy
 msgid "Summary - Lesson Name"
-msgstr "Samenvatting - Les Naam"
+msgstr "Samenvatting - Lesnaam"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
@@ -791,9 +805,8 @@ msgid "Open Practice List"
 msgstr "Open oefeningenlijst"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:40
-#, fuzzy
 msgid "Test text"
-msgstr "Test tekst"
+msgstr "Testtekst"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:42
 msgid "CONTINUE"
