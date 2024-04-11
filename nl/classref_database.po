@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2024-04-08 10:01+0000\n"
+"PO-Revision-Date: 2024-04-11 23:02+0000\n"
 "Last-Translator: Matthijs <m4tthijsbl0m@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/classref_database/nl/>\n"
@@ -156,6 +156,8 @@ msgid ""
 "Returns the argument converted into a [code]String[/code]. Works with the"
 " majority of value types."
 msgstr ""
+"Geeft als resultaat het argument omgezet in een [code]String[/code]. Werkt "
+"met de meeste waardentypes."
 
 #. Reference: int
 #: ./course/documentation.csv:23
@@ -164,6 +166,10 @@ msgid ""
 "[i]if possible[/i]. Supports converting decimal numbers, strings, and "
 "booleans. Useful to convert player text input into numbers."
 msgstr ""
+"Geeft als resultaat het argument omgezet in een [code]int[/code] (geheel "
+"getal), [i]indien mogelijk[/i]. Biedt de mogelijkheid om kommagetallen, "
+"strings en booleans om te zetten. Nuttig om tekstinvoer van spelers om te "
+"zetten in getallen."
 
 #. Reference: place_unit
 #: ./course/documentation.csv:24
@@ -171,13 +177,15 @@ msgid ""
 "Creates a new unit matching the type parameter and places it at the "
 "desired cell position on the game grid."
 msgstr ""
+"Creëert een nieuw spelstuk dat overeenkomt met de typeparameter en plaatst "
+"deze op de gewenste celpositie op het spelraster."
 
 #. Reference: display_item
 #: ./course/documentation.csv:25
 msgid "Creates a new item and displays it in the inventory."
-msgstr ""
+msgstr "Maakt een nieuw voorwerp aan en geeft het weer in de inventaris."
 
 #. Reference: add_item
 #: ./course/documentation.csv:26
 msgid "Increases the item count by amount."
-msgstr ""
+msgstr "Verhoogt het aantal voorwerpen met een aantal."
