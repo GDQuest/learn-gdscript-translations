@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-10-06 07:34+0200\n"
-"PO-Revision-Date: 2022-04-17 12:10+0000\n"
-"Last-Translator: ueshita <nalto32@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/lesson-3-standing-on-shoulders-of-giants/ja/>\n"
+"PO-Revision-Date: 2024-03-31 09:14+0000\n"
+"Last-Translator: cyochot <k97un9ri@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-3-standing-on-shoulders-of-giants/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:14
@@ -185,7 +185,6 @@ msgid "Function arguments"
 msgstr "関数の引数"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:118
-#, fuzzy
 msgid ""
 "We use parentheses to call functions because you can give the function "
 "[i]arguments[/i] inside the parentheses when calling it.\n"
@@ -193,12 +192,12 @@ msgid ""
 "Here's a [i]sprite[/i] standing straight. If we call the [code]rotate(0.3)[/"
 "code] function, the character [i]sprite[/i] turns by 0.3 radians."
 msgstr ""
-"関数を呼び出すときは括弧内に関数の[i]引数[/i]を指定できるため、関数の呼び出し"
-"には括弧を使用します。\n"
+"関数の呼び出しには括弧を使用します。関数を呼び出すときは括弧内に関数の[i]引数"
+"[/i]を指定できるためです。\n"
 "\n"
 "これはキャラクターの[i]スプライト[/i]がまっすぐ立っているところです。 "
-"[code]rotate(0.3)[/code]を呼び出すと、キャラクター[i]スプライト[/i]は0.3単位"
-"で回転します。"
+"[code]rotate(0.3)[/code]を呼び出すと、キャラクター[i]スプライト[/i]は0."
+"3単位で回転します。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:140
 msgid ""
@@ -314,9 +313,8 @@ msgstr ""
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:186
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:187
-#, fuzzy
 msgid "It calls the function named \"show\"."
-msgstr "\"show\"という名前の関数を呼び出します"
+msgstr "\"show\"という名前の関数を呼び出します。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:186
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:187
@@ -324,7 +322,6 @@ msgid "It makes the entity (like a game character or a sprite) visible."
 msgstr "エンティティ（ゲームのキャラクターやスプライトなど）が表示されます。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:196
-#, fuzzy
 msgid ""
 "Another example: With the [code]move_local_x()[/code] function, you can move "
 "the character to its left and right. The function takes one argument: a "
@@ -340,8 +337,7 @@ msgstr ""
 "できます。 この関数はエンティティの位置をオフセットするためのピクセル数という"
 "1つの引数を取ります。\n"
 "\n"
-"別の関数[code]move_local_y()[/code]は、[i]キャラクター[/i]を上下に動かしま"
-"す。\n"
+"別の関数[code]move_local_y()[/code]は、キャラクターを上下に動かします。\n"
 "\n"
 "これはゲーム内でキャラクターを動かす1つの方法ですが、これを行うためのより強力"
 "な方法については後で説明します。"

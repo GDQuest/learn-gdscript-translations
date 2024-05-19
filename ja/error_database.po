@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-03-31 09:14+0000\n"
+"Last-Translator: cyochot <k97un9ri@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/error-explanations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -30,6 +33,13 @@ msgid ""
 "creates a new variable with the desired name and assigns each element of the "
 "array to it."
 msgstr ""
+"[code]for[/code] と [code]in[/code] の間の名前が有効な変数名ではない場合、"
+"または [code]in[/code] "
+"キーワードが欠落している場合に、このエラーが発生します。\n"
+"\n"
+"[code]for[/code] ループの、[code]in[/code] キーワードでは、各ループ反復で値を"
+"割り当てるための有効な一時変数名のみを受け入れます。 このループは、必要な名前"
+"を持つ新しい変数を作成し、配列の各要素をそれに割り当てます。"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
 #: script_checking/error_database.csv:40
@@ -48,6 +58,19 @@ msgid ""
 "[code]for cell_position in cell_positions_array:\n"
 "    cell_position.x += 1.0[/code]"
 msgstr ""
+"このエラーを修正するには、[code]for[/code] キーワードと [code]in[/code] キー"
+"ワードの間の名前が、句読点やスペースのない有効な変数名であることを確認する必"
+"要があります。\n"
+"\n"
+"たとえば、次のコードは無効です: [code]for cell_position.x in "
+"cell_positions_array:[/code]。[code]cell_position.x[/code] "
+"は有効な変数名ではないためです。\n"
+"\n"
+"変数の [code]x[/code] サブコンポーネントにアクセスするには、ループ本体内でそ"
+"れを行う必要があります。\n"
+"\n"
+"[code]for cell_position in cell_positions_array:\n"
+"    cell_position.x += 1.0[/code]"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:47
@@ -59,6 +82,11 @@ msgid ""
 "Another possibility is that you want to check for equality in a condition "
 "but wrote a single = instead of ==."
 msgstr ""
+"このエラーが発生した場合は、変数以外のものに値を代入しようとしている可能性が"
+"高く、これは不可能です。 変数には値のみを代入できます。\n"
+"\n"
+"もう 1 つの可能性としては、条件内の等しいかどうかをチェックしたいが、== "
+"の代わりに単一の = を記述したということです。"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:47
@@ -72,6 +100,14 @@ msgid ""
 "In the case of a condition, ensure that you are using two equal signs to "
 "check for equality (==)."
 msgstr ""
+"変数に値を代入する場合は、「=」 "
+"記号の左側にあるものが関数ではなく変数であることを再確認してください。\n"
+"\n"
+"構文が正しいことも確認する必要があります。 "
+"たとえば、等号の左側に括弧があってはなりません。\n"
+"\n"
+"条件の場合は、等号 「==」をチェックするために 2 "
+"つの等号を使用していることを確認してください。"
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:57
@@ -89,6 +125,17 @@ msgid ""
 "do this. Godot 4 should solve this problem, but you need to work around it "
 "in the meantime."
 msgstr ""
+"循環参照とは、クラスが直接的または間接的にそれ自体を参照することです。\n"
+"\n"
+"考えられる原因は次の 2 つです。\n"
+"\n"
+"1. クラス自体でクラス名を使用しました。\n"
+"2. コードがこのクラスを参照する別のクラスを参照しているため、無限の参照サイク"
+"ルが発生します。\n"
+"\n"
+"いずれにせよ、Godot 3 での GDScript "
+"の動作方法により、残念ながらこれを行うことはできません。 Godot 4 "
+"ではこの問題は解決されるはずですが、それまでの間は回避する必要があります。"
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:57
@@ -99,6 +146,10 @@ msgid ""
 "causing cyclic references. It solves the problem in the vast majority of "
 "cases."
 msgstr ""
+"エラー行のタイプヒントを消去すると、問題は解消されるはずです。\n"
+"\n"
+"GDQuest では、このエラーが発生した場合、循環参照を引き起こしている行の型ヒン"
+"トを削除します。 ほとんどの場合、これで問題は解決します。"
 
 #. Reference: INVALID_INDENTATION
 #: script_checking/error_database.csv:64
@@ -111,6 +162,12 @@ msgid ""
 "The computer uses those leading tab characters on code lines to know which "
 "lines of code are part of a code block, like a function."
 msgstr ""
+"コードのインデント (行頭のtab文字の数) が正しくありません。\n"
+"\n"
+"1 つ以上のタブが欠落しているか、挿入したtabが多すぎます。\n"
+"\n"
+"コンピューターは、コード行の先頭のtab文字を使用して、"
+"コードのどの行が関数などのコード ブロックの一部であるかを認識します。"
 
 #. Reference: INVALID_INDENTATION
 #: script_checking/error_database.csv:64
@@ -122,6 +179,10 @@ msgid ""
 "In other words, your line should have one more leading tab character than "
 "the function definition."
 msgstr ""
+"関数定義など、エラーのあるコード行がコロンで終わる行の直後にある場合は、"
+"前の行と比較してインデント レベルを 1 つ増やす必要があります。\n"
+"\n"
+"つまり、行の先頭には関数定義よりも 1 つ多くのtab文字が必要です。"
 
 #. Reference: UNEXPECTED_CHARACTER
 #: script_checking/error_database.csv:73
@@ -136,6 +197,14 @@ msgid ""
 "Note that this error can appear [b]after[/b] the line causing it due to how "
 "the computer reads and analyzes your code."
 msgstr ""
+"このエラーは、構文的に無効な内容を記述した場合、またはコードのこの行または前"
+"の行を完了するためのものが不足している場合に発生します。\n"
+"\n"
+"コンピューター用のコードを記述するときは、非常に正確である必要があります。 "
+"この種のエラーは、1 文字間違っているだけで済むため、簡単に発生します。\n"
+"\n"
+"このエラーは、コンピュータがコードを読み取って分析する方法によって、原因とな"
+"った行の[b]後[/b]に表示される場合があることに注意してください。"
 
 #. Reference: UNEXPECTED_CHARACTER
 #: script_checking/error_database.csv:73
@@ -151,6 +220,16 @@ msgid ""
 "expression, like a closing bracket. In this case, it most likely comes from "
 "the line with the error."
 msgstr ""
+"この種のエラーを解決する方法は、状況に応じて大きく異なります。 エラー "
+"メッセージには、どの文字または要素が欠落しているかが示されます。\n"
+"\n"
+"エラーに「expected(予想通り)」と表示されている場合は、[b]前の[/b]コード行のい"
+"ずれかに何かが欠けている可能性があります。 "
+"句読点、括弧、またはその他のものである可能性があります。\n"
+"\n"
+"「unterminated(終了していない)」と表示されている場合は、右括弧など、式の末尾"
+"の文字が欠落しています。 "
+"この場合、エラーが発生した行から発生している可能性が高くなります。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:76
@@ -161,27 +240,35 @@ msgid ""
 "Three keywords in GDScript work like function calls and require parentheses: "
 "[code]yield()[/code], [code]preload()[/code], and [code]assert()[/code]."
 msgstr ""
+"このエラーは、括弧 (場合によってはカンマやパス) "
+"が欠落していることを示します。\n"
+"\n"
+"GDScript の 3 つのキーワードは関数呼び出しのように機能し、括弧が必要です: "
+"[code]yield()[/code]、[code]preload()[/code]、および [code]assert()[/code]。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:76
 msgid ""
 "To address the error, you want to add the missing opening parenthesis, the "
 "closing parenthesis, or the comma."
-msgstr ""
+msgstr "このエラーに対処するには、欠落している開き括弧、閉じ括弧、またはコンマを追加"
+"します。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: script_checking/error_database.csv:77
 msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
-msgstr ""
+msgstr "このエラーは、エクスポート "
+"ヒントに括弧、カンマ、または値が欠落していることを示します。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: script_checking/error_database.csv:77
 msgid ""
 "You need to read the error message and add the missing character or value it "
 "requests."
-msgstr ""
+msgstr "エラー メッセージを読み、不足している文字または要求されている値を追加する必要"
+"があります。"
 
 #. Reference: MISPLACED_IDENTIFIER
 #: script_checking/error_database.csv:86
@@ -194,6 +281,12 @@ msgid ""
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
+"このエラーはいくつかの場合に発生します。\n"
+"\n"
+"1. 識別子（変数名または関数名）を間違った場所に記述しました。\n"
+"2. [code]var[/code]、[code]func[/code]、[code]for[/code]、[code]signal[/code]"
+" などのキーワードを書き、その後に名前を付けなかった。\n"
+"3. 関数定義を書きましたが、コロンの前の括弧を忘れました。"
 
 #. Reference: MISPLACED_IDENTIFIER
 #: script_checking/error_database.csv:86
@@ -211,6 +304,18 @@ msgid ""
 "function definition, [code]for[/code] loop, or a line starting with "
 "[code]if[/code], [code]elif[/code], or [code]else[/code]."
 msgstr ""
+"もしエラーが何かを期待していたと言うのであれば、[code]var[/code]、[code]func["
+"/code]、[code]for[/code]、[code]signal[/code]のようなキーワードの後に名前を書"
+"き忘れていて、コードが無効になっている可能性があります。あるいは、関数の定義"
+"で括弧を忘れてしまった。不足している名前や括弧を追加することで、エラーに対処"
+"できます。\n"
+"\n"
+"エラーに「予期しないものがある」と書かれている場合は、[code]var[/code]、[code"
+"]func[/code]、[code]for[/code]などのキーワードが欠けている可能性が高い。\n"
+"\n"
+"もう一つの可能性は、関数定義、[code]for[/code]ループ、または[code]if[/code]、"
+"[code]elif[/code]、[code]else[/code]で始まる行の最後にコロンを書く必要がある"
+"ことです。"
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: script_checking/error_database.csv:91
@@ -226,6 +331,15 @@ msgid ""
 "It also occurs when you write an arrow ([code]->[/code]) after the "
 "parentheses of a function definition but do not follow it with a type name."
 msgstr ""
+"このエラーは、どこかに型がないことを示しています。型には、[code]int[/code]、["
+"code]float[/code]、[code]String[/code]、[code]Array[/code]、[code]Vector2[/co"
+"de]、その他データ構造を表す多くの識別子があります。\n"
+"\n"
+"ほとんどの場合、このエラーは変数名の後にコロンを書き、その後に型名を書かなか"
+"った場合に発生します。\n"
+"\n"
+"また、関数定義の括弧の後に矢印（[code]->[/code]）を書き、その後に型名を記述し"
+"なかった場合にも発生します。"
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: script_checking/error_database.csv:91
@@ -234,6 +348,9 @@ msgid ""
 "(in the case of function return types), inside parentheses (for export "
 "types), or after the [code]as[/code] keyword."
 msgstr ""
+"これを解決するには、コロンの後、矢印の後（関数のリターン型の場合）、括弧の中"
+"（エクスポート型の場合）、または[code]as[/code]キーワードの後に型名を書く必要"
+"がある。"
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: script_checking/error_database.csv:100
@@ -247,6 +364,13 @@ msgid ""
 "The other cause for this error is that you didn't define the variable, "
 "function, or class you're trying to access."
 msgstr ""
+"使用しようとしている変数名、関数名、またはクラス名が存在しません。\n"
+"\n"
+"このエラーは、タイプミスをしたときによく出ます。2文字を入れ替えてしまったり、"
+"1文字忘れてしまったり......見つけるのが難しいこともあります。\n"
+"\n"
+"このエラーのもう一つの原因は、アクセスしようとしている変数、関数、クラスを定"
+"義していないことです。"
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: script_checking/error_database.csv:100
@@ -259,6 +383,14 @@ msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
+"このエラーを解決するには、その行にタイプミスがないかをトリプルチェックしてく"
+"ださい。\n"
+"\n"
+"可能であれば、変数や関数の定義に移動し、名前をダブルクリックしてコピーし、エ"
+"ラーのある場所に貼り付けてみてください。\n"
+"\n"
+"タイプミスが見当たらない場合は、参照している変数、関数、クラスを確実に定義す"
+"る必要があります。"
 
 #. Reference: MISPLACED_KEYWORD
 #: script_checking/error_database.csv:105
@@ -270,6 +402,12 @@ msgid ""
 "loop.\" And the [code]break[/code] keyword means \"end the loop right now "
 "and jump to the first line of code after the loop block."
 msgstr ""
+"[code]break[/code]や[code]continue[/code]のようなキーワードはループの中でしか"
+"使えない。ループの外では、これらは無効です。\n"
+"\n"
+"[code]continue[/code]キーワードは、\"ループの次の繰り返しにジャンプする "
+"\"という意味です。そして、[code]break[/code]キーワードは、「今すぐループを終"
+"了し、ループブロックの後のコードの最初の行にジャンプする」という意味です。"
 
 #. Reference: MISPLACED_KEYWORD
 #: script_checking/error_database.csv:105
@@ -280,6 +418,11 @@ msgid ""
 "at fault. You may need to insert one or more leading tab characters to the "
 "keyword."
 msgstr ""
+"もしこれらのキーワードをループの外に書いたのなら、それを削除する必要がある。"
+"\n"
+"\n"
+"ループの中で使おうとしている場合は、インデントに問題がある可能性が高い。キー"
+"ワードの先頭に1つ以上のタブ文字を挿入する必要があるかもしれません。"
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: script_checking/error_database.csv:110
@@ -291,6 +434,11 @@ msgid ""
 "computer will reject function calls and variables where it needs a constant "
 "expression."
 msgstr ""
+"コンピュータが定数式について語るとき、固定値、固定計算、あるいは既存の定数の"
+"名前を期待している。\n"
+"\n"
+"言い換えれば、決して変化しないものを求めているのだ。コンピュータが定数式を必"
+"要とする関数呼び出しや変数を拒否するのはこのためです。"
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: script_checking/error_database.csv:110
@@ -301,6 +449,10 @@ msgid ""
 "You can also use arithmetic operators like multiplications (*), additions "
 "(+), and so on."
 msgstr ""
+"関数呼び出しや変数を、整数、10進数、文字列、ベクトル、定義済み配列などの定数"
+"値に置き換える必要がある。\n"
+"\n"
+"乗算（*）や加算（+）などの算術演算子も使用できます。"
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: script_checking/error_database.csv:115
@@ -311,6 +463,11 @@ msgid ""
 "We typically write class names in PascalCase: with a capital letter at the "
 "start of every word that composes the class name."
 msgstr ""
+"新しいクラスを定義するときは、特定のパターンに従わなければならない。クラス名"
+"は文字で始まるプレーンテキストで書かなければなりません。\n"
+"\n"
+"通常、クラス名はPascalCaseで書きます。クラス名を構成するすべての単語の先頭に"
+"大文字をつけます。"
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: script_checking/error_database.csv:115
@@ -321,6 +478,10 @@ msgid ""
 "\n"
 "You can optionally use numbers in the name, but not in the first position."
 msgstr ""
+"このエラーを修正するには、'extends'または'class_name'キーワードの後に付ける名"
+"前を、スペースを含まず大文字で始まる名前に置き換えてください。\n"
+"\n"
+"名前に数字を使用することもできますが、最初の位置には使用しないでください。"
 
 #. Reference: DUPLICATE_DECLARATION
 #: script_checking/error_database.csv:120
@@ -331,6 +492,10 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file, "
 "but it may also be in a parent class that this GDScript code extends."
 msgstr ""
+"既に存在する関数や変数を定義しようとしています。\n"
+"\n"
+"おそらく、その関数や変数は現在のコードファイルに既に存在していますが、この "
+"GDScript コードが継承している親クラスにも存在している可能性があります。"
 
 #. Reference: DUPLICATE_DECLARATION
 #: script_checking/error_database.csv:120
@@ -341,6 +506,11 @@ msgid ""
 "When that happens, you need to either rename your function or variable to "
 "one that will not collide with an existing one or remove this line of code."
 msgstr ""
+"アプリの中で、あなたのコードが、あなたには見えない組み込みのGodotコードを拡張"
+"しています。\n"
+"\n"
+"そのような場合は、関数名や変数名を既存のものと衝突しないものに変更するか、こ"
+"のコード行を削除する必要があります。"
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: script_checking/error_database.csv:125
@@ -350,6 +520,10 @@ msgid ""
 "Perhaps the signal already exists in the current code file, but it may also "
 "be in a parent class that this GDScript code extends."
 msgstr ""
+"すでに存在するシグナルを定義しようとしています。\n"
+"\n"
+"おそらく、そのシグナルは現在のコードファイルに既に存在していますが、このGDScr"
+"iptコードが継承している親クラスにも存在している可能性があります。"
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: script_checking/error_database.csv:125
@@ -360,6 +534,11 @@ msgid ""
 "When that happens, you need to either rename your signal to one that will "
 "not collide with an existing one or remove this line of code."
 msgstr ""
+"アプリの中で、あなたのコードが、あなたには見えない組み込みのGodotコードを拡張"
+"しています。\n"
+"\n"
+"そのような場合は、既存のシグナルと衝突しないようにシグナル名を変更するか、こ"
+"のコード行を削除する必要があります。"
 
 #. Reference: SIGNATURE_MISMATCH
 #: script_checking/error_database.csv:130
@@ -375,6 +554,16 @@ msgid ""
 "also to have two arguments. If you use type hints in your function "
 "definitions, the argument types must match the parent class."
 msgstr ""
+"定義しようとしている関数は親クラスに存在するので、定義した関数は親クラスの関"
+"数をオーバーライドします。\n"
+"\n"
+"親クラスの関数をオーバーライドする場合、新しい関数は親クラスと一致しなければ"
+"なりません。新しい関数は、親クラスと同じ数と型のパラメータを持つ必要がありま"
+"す。\n"
+"\n"
+"例えば、親クラスが2つの引数を持つ場合、新しい関数も2つの引数を持つ必要があり"
+"ます。関数定義で型ヒントを使用する場合、引数の型は親クラスと一致していなけれ"
+"ばなりません。"
 
 #. Reference: SIGNATURE_MISMATCH
 #: script_checking/error_database.csv:130
@@ -383,6 +572,9 @@ msgid ""
 "reference. Then, you need to edit your function definition to have the same "
 "number and type of parameters as the parent class."
 msgstr ""
+"親クラスの関数とその定義をコード・リファレンスで確認する必要がある。そして、"
+"親クラスと同じ数と種類のパラメータを持つように、関数定義を編集する必要があり"
+"ます。"
 
 #. Reference: INVALID_ARGUMENTS
 #: script_checking/error_database.csv:131
@@ -391,6 +583,9 @@ msgid ""
 "wrong number of arguments or the wrong kind of argument. You will need to "
 "use the error message to see what is going wrong."
 msgstr ""
+"このクラスのエラーは、間違った数の引数や間違った種類の引数で関数を呼び出すこ"
+"とに関係しています。何が間違っているのかを確認するには、エラーメッセージを使"
+"用する必要があります。"
 
 #. Reference: INVALID_ARGUMENTS
 #: script_checking/error_database.csv:131
@@ -400,6 +595,9 @@ msgid ""
 "need, you need to check the code reference. It will show you the function "
 "definition and the mandatory arguments."
 msgstr ""
+"この問題を解決するには、関数に渡そうとしている値を削除するか、追加するか、変"
+"更する必要がある。必要な引数の数を正確に知るには、コード・リファレンスをチェ"
+"ックする必要がある。関数の定義と必須の引数が表示されます。"
 
 #. Reference: TYPE_MISMATCH
 #: script_checking/error_database.csv:142
@@ -417,6 +615,16 @@ msgid ""
 "You'll need to read the error message to see what is not matching because "
 "there are many possible cases."
 msgstr ""
+"コード内のすべての値には特定の型があります。その型には整数（int）、小数（floa"
+"t）、テキスト（String）などがある。可能な型は大量にあり、自分で定義することも"
+"できる！\n"
+"\n"
+"演算を行う際、コンピュータは使用している型を比較します。\n"
+"\n"
+"互換性のある型もあれば、そうでない型もある。例えば、テキスト文字列に直接整数"
+"を加えることはできません。まず数値をテキストに変換する必要があります。\n"
+"\n"
+"エラーメッセージを読んで、何が一致しないのかを確認する必要があります。"
 
 #. Reference: TYPE_MISMATCH
 #: script_checking/error_database.csv:142
@@ -432,6 +640,15 @@ msgid ""
 "while you can add two 2D vectors, you can't add a whole number or text to a "
 "2D vector."
 msgstr ""
+"代入された値の型が変数と一致しないというエラーの場合、問題は等号（=）の右側に"
+"ある。\n"
+"\n"
+"戻り値の型が関数と一致しないというエラーの場合は、returnキーワードの後の値に"
+"問題があります。\n"
+"\n"
+"コンピュータがオペランドが無効だと言っている場合は、使おうとしている型にその"
+"演算が存在しないことが問題なのです。例えば、2つの2Dベクトルを加算することはで"
+"きますが、整数やテキストを2Dベクトルに加算することはできません。"
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: script_checking/error_database.csv:147
@@ -443,6 +660,11 @@ msgid ""
 "When that happens, you need to specify the type yourself or remove type "
 "inference altogether for this variable."
 msgstr ""
+"GDScript は型推論をサポートしています。コンピュータは、あなたが扱っている値の"
+"型を自動的に認識します。しかし、場合によっては認識できないこともあります。\n"
+"\n"
+"そのような場合は、自分で型を指定するか、この変数の型推論を完全に削除する必要"
+"があります。"
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: script_checking/error_database.csv:147
@@ -454,6 +676,11 @@ msgid ""
 "We recommend specifying the type whenever possible to reap the typing "
 "system's benefits."
 msgstr ""
+"このエラーを解決する最も簡単な方法は、この変数またはこの関数の引数の型を削除"
+"することである。そうでなければ、コロンの後に値の型を手動で指定します。\n"
+"\n"
+"型付けシステムのメリットを享受するために、可能な限り型を指定することをお勧め"
+"します。"
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:153
@@ -467,6 +694,12 @@ msgid ""
 "2. You specified a return type for your function, but you are not returning "
 "a value in all possible branches (if, elif, and else blocks) or at the end."
 msgstr ""
+"関数の戻り値に問題があります。ここには主に2つのケースがあります。\n"
+"\n"
+"1.関数がvoid関数であり、値を返してはならない。これには、'-> void' "
+"構文を持つ関数やクラス・コンストラクタ ('_init()')が含まれます。\n"
+"2. 関数に戻り値の型を指定したが、すべての可能な分岐（if、elif、elseブロック）"
+"または最後に値を返していない。"
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:153
@@ -478,31 +711,38 @@ msgid ""
 "When you use a return type, you must always return something at the end of "
 "the function or in every branch (if, elif, and else block) of the function."
 msgstr ""
+"関数が'void'の場合、決して値を返してはならない。'return'キーワードを使って関"
+"数を早めに終了させることはできますが、その後に何かを書いてはいけません。\n"
+"\n"
+"return型を使う場合は、関数の最後か、関数のすべての分岐（if、elif、elseブロッ"
+"ク）で必ず何かを返さなければなりません。"
 
 #. Reference: INVALID_NO_CATCH
 #: script_checking/error_database.csv:154
 msgid ""
 "Godot was unable to load your script, yet the language checker found nothing "
 "wrong."
-msgstr ""
+msgstr "Godotはあなたのスクリプトを読み込めませんでしたが、言語チェッカーは何も問題を"
+"発見しませんでした。"
 
 #. Reference: INVALID_NO_CATCH
 #: script_checking/error_database.csv:154
 msgid ""
 "Please click on the \"report\" button at the top and please let us know."
-msgstr ""
+msgstr "上部の \"報告 \"ボタンをクリックして、お知らせください。"
 
 #. Reference: RECURSIVE_FUNCTION
 #: script_checking/error_database.csv:155
 msgid "You called a function inside itself. This will loop forever."
-msgstr ""
+msgstr "あなたは自分自身の中に関数を呼び出した。これは永遠にループする。"
 
 #. Reference: RECURSIVE_FUNCTION
 #: script_checking/error_database.csv:155
 msgid ""
 "There are valid reasons for using recursive functions, but none of them are "
 "part of this course, so this cannot be a valid solution."
-msgstr ""
+msgstr "再帰関数を使用する正当な理由はありますが、それらはいずれもこのコースの一部で"
+"はないため、これは有効な解決策とはなりません。"
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:157
@@ -512,6 +752,10 @@ msgid ""
 "The most common case is when you forget to close a string: you have opening "
 "quotes, but you forget to add a matching closing quote."
 msgstr ""
+"コンピューターはコード行の終わりに到達しましたが、その行に構文エラーがありま"
+"した。\n"
+"最も一般的なケースは、文字列を閉じるのを忘れた場合です。開始引用符はあるもの"
+"の、対応する終了引用符を追加するのを忘れています。"
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:157
@@ -519,12 +763,13 @@ msgid ""
 "Double-check that you are not missing a quote character or that the quote "
 "character you used to start the string is the same as the one you used to "
 "close the string."
-msgstr ""
+msgstr "引用符が抜けていないか、文字列の開始に使用した引用文字が文字列の終了に使用し"
+"たものと同じであることを再確認してください。"
 
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
 msgid "The sub-variable you are trying to access does not exist."
-msgstr ""
+msgstr "アクセスしようとしているサブ変数は存在しません。"
 
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
@@ -535,3 +780,8 @@ msgid ""
 "Ensure that you don't have a capital letter where you should have a "
 "lowercase letter and vice versa."
 msgstr ""
+"おそらく、アクセスしようとしているサブ変数の名前にタイプミスがあると思われま"
+"す。\n"
+"\n"
+"小文字を使用する必要がある場所に大文字が使用されていないこと、またはその逆の"
+"ことを確認してください。"

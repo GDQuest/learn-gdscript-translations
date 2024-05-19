@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-04-10 22:01+0000\n"
+"Last-Translator: Matthijs <m4tthijsbl0m@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-18-for-loops/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
@@ -27,6 +30,13 @@ msgid ""
 "\n"
 "The loop below never ends because we never increment [code]number[/code]."
 msgstr ""
+"In de vorige les hebben we gekeken naar [code]while[/code]-lussen. We "
+"ontdekten dat ze handig zijn als we niet weten hoe vaak we code moeten "
+"herhalen. \n"
+"\n"
+"Ze kunnen echter leiden tot oneindige lussen als we niet voorzichtig zijn.\n"
+"\n"
+"De lus hieronder eindigt nooit omdat we [code]number[/code] nooit verhogen."
 
 #: course/lesson-18-for-loops/lesson.tres:38
 msgid ""
@@ -42,14 +52,27 @@ msgid ""
 "\n"
 "The loop below will change the [code]cell[/code] three times."
 msgstr ""
+"Er is een veiliger en vaak eenvoudiger soort lus: de [code]for[/code]-lus.\n"
+"\n"
+"Daar zullen we in deze les naar kijken.\n"
+"\n"
+"In tegenstelling tot [code]while[/code]-lussen, lopen [code]for[/code]-"
+"lussen niet oneindig door, dus het is veel minder waarschijnlijk dat je bugs "
+"in je spel krijgt. [b]We raden daarom aan om for-lussen te verkiezen boven "
+"while-lussen[/b].\n"
+"\n"
+"Laten we de bovenstaande code aanpassen en een [code]for[/code]-lus "
+"gebruiken.\n"
+"\n"
+"De onderstaande lus zal de [code]cel[/code] drie keer veranderen."
 
 #: course/lesson-18-for-loops/lesson.tres:66
 msgid "Let's explain what's going on here."
-msgstr ""
+msgstr "Laten we uitleggen wat hier gebeurt."
 
 #: course/lesson-18-for-loops/lesson.tres:74
 msgid "The range() function"
-msgstr ""
+msgstr "De functie range()"
 
 #: course/lesson-18-for-loops/lesson.tres:76
 msgid ""
@@ -59,14 +82,21 @@ msgid ""
 "So calling [code]range(3)[/code] outputs the list of numbers [code][0, 1, 2]"
 "[/code], and [code]range(5)[/code] outputs [code][0, 1, 2, 3, 4][/code]."
 msgstr ""
+"Godot heeft de helperfunctie [code]range()[/code]. Het aanroepen van "
+"[code]range(n)[/code] levert een lijst op van getallen van [code]0[/code] "
+"tot [code]n - 1[/code]. \n"
+"\n"
+"Dus [code]range(3)[/code] aanroepen geeft de lijst met getallen [code][0, 1, "
+"2][/code], en [code]range(5)[/code] geeft de lijst met getallen [code][0, 1, "
+"2, 3, 4][/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:86
 msgid "What list of numbers would range(6) create?"
-msgstr ""
+msgstr "Welke lijst van getallen zou range(6) opleveren?"
 
 #: course/lesson-18-for-loops/lesson.tres:87
 msgid "What would [code]print(range(6))[/code] print to the console?"
-msgstr ""
+msgstr "Wat zou [code]print(range(6))[/code] weergeven op de console?"
 
 #: course/lesson-18-for-loops/lesson.tres:89
 msgid ""
@@ -77,23 +107,29 @@ msgid ""
 "So calling [code]range(6)[/code] will output a list of six numbers which are "
 "[code][0, 1, 2, 3, 4, 5][/code].\n"
 msgstr ""
+"De functie [code]range(n)[/code] produceert een lijst met getallen van "
+"[code]0[/code] tot [code]n - 1[/code]. Deze lijst zal beginnen met "
+"[code]0[/code] en eindigen met [code]5[/code].\n"
+"\n"
+"Als je dus [code]range(6)[/code] aanroept, krijg je dus een lijst met zes "
+"getallen, namelijk [code][0, 1, 2, 3, 4, 5][/code].\n"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 #: course/lesson-18-for-loops/lesson.tres:94
 msgid "[0, 1, 2, 3, 4, 5]"
-msgstr ""
+msgstr "[0, 1, 2, 3, 4, 5]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 msgid "[1, 2, 3, 4, 5, 6]"
-msgstr ""
+msgstr "[1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 msgid "[0, 1, 2, 3, 4, 5, 6]"
-msgstr ""
+msgstr "[0, 1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:101
 msgid "How for loops work"
-msgstr ""
+msgstr "Hoe for-lussen werken"
 
 #: course/lesson-18-for-loops/lesson.tres:103
 msgid ""
@@ -101,6 +137,9 @@ msgid ""
 "stores it in a temporary variable, and executes the code in the loop once "
 "per value."
 msgstr ""
+"In een [code]for[/code]-lus neemt de computer elke waarde in een lijst, "
+"slaat deze op in een tijdelijke variabele en voert de code in de lus één "
+"keer per waarde uit."
 
 #: course/lesson-18-for-loops/lesson.tres:123
 msgid ""
@@ -115,6 +154,16 @@ msgid ""
 "\n"
 "This code behaves the same as the previous example:"
 msgstr ""
+"In het bovenstaande voorbeeld stelt Godot voor elk element in de lijst "
+"[code][0, 1, 2][/code] de variabele [code]nummer[/code] in op dat element en "
+"voert vervolgens de code uit in de [code]for[/code]-lus.\n"
+"\n"
+"We zullen arrays uitgebreider uitleggen in de volgende les, maar merk op dat "
+"[code]number[/code] slechts een tijdelijke variabele is. Je maakt hem aan "
+"wanneer je de lus definieert en de lus zorgt ervoor dat de waarde verandert. "
+"Je kunt de variabelennaam noemen zoals jij wilt.\n"
+"\n"
+"Deze code werkt hetzelfde als het vorige voorbeeld:"
 
 #: course/lesson-18-for-loops/lesson.tres:147
 msgid ""
@@ -129,27 +178,43 @@ msgid ""
 "We can break down the instructions the loop runs. You can see how a loop is "
 "a shortcut to code that otherwise gets very long."
 msgstr ""
+"In beide voorbeelden tonen we de waarde van de tijdelijke variabele die we "
+"hebben gemaakt: [code]number[/code] in het eerste voorbeeld en "
+"[code]element[/code] in het tweede.\n"
+"\n"
+"Terwijl Godot door de lus loopt, wordt elke waarde van de array toegewezen "
+"aan die variabele. Eerst stelt hij de variabele in op [code]0[/code], dan op "
+"[code]1[/code] en ten slotte op [code]2[/code].\n"
+"\n"
+"We kunnen de instructies die de lus uitvoert uit elkaar halen. Je kunt zien "
+"hoe een lus een kortere weg is naar code die anders erg lang wordt."
 
 #: course/lesson-18-for-loops/lesson.tres:171
 msgid ""
 "We can put whatever code we like in the loop's code block, including other "
 "function calls like [code]draw_rectangle()[/code]."
 msgstr ""
+"We kunnen in het codeblok van de lus zetten wat we maar willen, inclusief "
+"andere functieaanroepen zoals [code]draw_rectangle()[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:179
 msgid "Using a for loop instead of a while loop"
-msgstr ""
+msgstr "Een for-lus gebruiken in plaats van een while-lus"
 
 #: course/lesson-18-for-loops/lesson.tres:181
 msgid ""
 "Here's our old [code]move_to_end()[/code] function which used a [code]while[/"
 "code] loop."
 msgstr ""
+"Hier is onze oude [code]move_to_end()[/code] functie die een "
+"[code]while[/code]-lus gebruikte."
 
 #: course/lesson-18-for-loops/lesson.tres:201
 msgid ""
 "If we use a [code]for[/code] loop instead, the code becomes a little simpler."
 msgstr ""
+"Als we in plaats daarvan een [code]for[/code]-lus gebruiken, wordt de code "
+"iets eenvoudiger."
 
 #: course/lesson-18-for-loops/lesson.tres:221
 msgid ""
@@ -159,16 +224,23 @@ msgid ""
 "\n"
 "The function still works the same. You can execute it below."
 msgstr ""
+"In plaats van voortdurend te controleren of de robot het einde van het bord "
+"heeft bereikt, nemen we met de [code]for[/code]-lus vooraf de breedte van "
+"het bord en verplaatsen we de robot een vast aantal keren.\n"
+"\n"
+"De functie werkt nog steeds hetzelfde. Je kunt haar hieronder uitvoeren."
 
 #: course/lesson-18-for-loops/lesson.tres:243
 msgid ""
 "In the practices, we'll use [code]for[/code] loops in different ways to get "
 "you used to using them."
 msgstr ""
+"In de oefeningen zullen we [code]for[/code]-lussen op verschillende manieren "
+"gebruiken om je te laten wennen aan het gebruik ervan."
 
 #: course/lesson-18-for-loops/lesson.tres:251
 msgid "Using a for loop to move to the end of the board"
-msgstr ""
+msgstr "Een for-lus gebruiken om naar het einde van het bord te bewegen"
 
 #: course/lesson-18-for-loops/lesson.tres:252
 msgid ""
@@ -182,16 +254,28 @@ msgid ""
 "\n"
 "The robot's starting cell is [code]Vector2(2, 0)[/code]."
 msgstr ""
+"Wederom heeft de robot besloten om bovenaan het bord te gaan staan.\n"
+"\n"
+"Gebruik deze keer een [code]for[/code]-lus in de "
+"[code]move_to_bottom()[/code] functie om hem naar de onderkant van het bord "
+"te laten bewegen.\n"
+"\n"
+"De grootte van het bord is bepaald door de [code]Vector2[/code] variabele "
+"[code]board_size[/code].\n"
+"\n"
+"De begincel van de robot is [code]Vector2(2, 0)[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:268
 msgid ""
 "Use a for loop to have our robot move from the top of the board to the "
 "bottom."
 msgstr ""
+"Gebruik een for-lus om onze robot van de bovenkant van het bord naar de "
+"onderkant te laten bewegen."
 
 #: course/lesson-18-for-loops/lesson.tres:273
 msgid "Improving code with a for loop"
-msgstr ""
+msgstr "Code verbeteren door middel van een for-lus"
 
 #: course/lesson-18-for-loops/lesson.tres:274
 msgid ""
@@ -206,13 +290,28 @@ msgid ""
 "The turtle should draw three squares in a horizontal line. The squares "
 "should be 100 pixels apart."
 msgstr ""
+"Gebruik een [code]for[/code]-lus om de dubbele code in de [code]run()[/code] "
+"functie te verwijderen.\n"
+"\n"
+"In deze oefening bekijken we opnieuw de schildpad en het tekenen van "
+"rechthoeken.\n"
+"\n"
+"Met onze nieuwe kennis van [code]for[/code]-lussen, kunnen we deze code "
+"inkorten zodat hij minder ruimte in beslag neemt en gemakkelijker aan te "
+"passen is.\n"
+"\n"
+"De schildpad moet drie vierkanten in een horizontale lijn tekenen. De "
+"vierkanten moeten 100 pixels uit elkaar liggen."
 
 #: course/lesson-18-for-loops/lesson.tres:297
 msgid ""
 "In the past we had to copy and paste code to draw multiple rectangles. Let's "
 "revisit previous code and improve it with a for loop."
 msgstr ""
+"Voorheen moesten we code kopiëren en plakken om meerdere rechthoeken te "
+"tekenen. Laten we de vorige code opnieuw bekijken en verbeteren met een for-"
+"lus."
 
 #: course/lesson-18-for-loops/lesson.tres:301
 msgid "Introduction to For Loops"
-msgstr ""
+msgstr "Inleiding tot for-lussen"

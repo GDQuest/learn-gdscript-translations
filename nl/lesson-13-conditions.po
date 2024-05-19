@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-04-05 13:29+0000\n"
+"Last-Translator: Matthijs <m4tthijsbl0m@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-13-conditions/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-13-conditions/lesson.tres:14
@@ -23,16 +26,21 @@ msgid ""
 "In previous lessons, we decreased and increased a character's health, but "
 "there was no limit to how much health they could have."
 msgstr ""
+"In vorige lessen verlaagden en verhoogden we de gezondheid van een "
+"personage, maar er was geen limiet aan hoeveel gezondheid ze konden hebben."
 
 #: course/lesson-13-conditions/lesson.tres:34
 msgid ""
 "As a result, the player could increase their character's health "
 "indefinitely, which we do not want."
 msgstr ""
+"Hierdoor zou de speler de gezondheid van hun personage oneindig kunnen "
+"verhogen, wat we niet willen."
 
 #: course/lesson-13-conditions/lesson.tres:52
 msgid "What happens to health when we damage our character?"
 msgstr ""
+"Wat gebeurt er met de gezondheid als we ons personage schade toebrengen?"
 
 #: course/lesson-13-conditions/lesson.tres:53
 msgid ""
@@ -41,6 +49,10 @@ msgid ""
 "What would the value of health be if we called [code]take_damage(25)[/code] "
 "[b]five times[/b]?"
 msgstr ""
+"Stel dat ons personage [code]100[/code] gezondheid heeft.\n"
+"\n"
+"Wat zou de waarde van de gezondheid zijn als we [code]take_damage(25)[/code] "
+"[b]vijf keer[/b] aanroepen?"
 
 #: course/lesson-13-conditions/lesson.tres:57
 msgid ""
@@ -54,19 +66,28 @@ msgid ""
 "0\n"
 "-25"
 msgstr ""
+"Vijf keer [code]take_damage(25)[/code] aanroepen zou een totaal van "
+"[code]125[/code] van [code]100[/code] aftrekken.\n"
+"\n"
+"100\n"
+"75\n"
+"50\n"
+"25\n"
+"0\n"
+"-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 #: course/lesson-13-conditions/lesson.tres:66
 msgid "-25"
-msgstr ""
+msgstr "-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: course/lesson-13-conditions/lesson.tres:75
 msgid ""
@@ -76,6 +97,11 @@ msgid ""
 "the computer will run the corresponding instructions. Otherwise, those "
 "instructions will not run at all."
 msgstr ""
+"We kunnen condities gebruiken om acties [b]selectief[/b] uit te voeren.\n"
+"\n"
+"Condities laten je code vertakken in twee paden: als aan de conditie wordt "
+"voldaan, zal de computer de bijbehorende instructies uitvoeren. En als niet, "
+"dan worden die instructies helemaal niet uitgevoerd."
 
 #: course/lesson-13-conditions/lesson.tres:87
 msgid ""
@@ -83,6 +109,9 @@ msgid ""
 "game input largely relies on conditions: [i]if[/i] the player presses the "
 "button on a gamepad, the character jumps."
 msgstr ""
+"Videospellen en andere computerprogramma's zitten vol condities. De invoer "
+"in spellen is bijvoorbeeld grotendeels gebaseerd op condities: [i]als[/i] de "
+"speler op de knop op een gamepad drukt, dan springt het personage."
 
 #: course/lesson-13-conditions/lesson.tres:107
 msgid ""
@@ -100,6 +129,20 @@ msgid ""
 "starting with [code]if[/code], [ignore]type the condition to evaluate, and "
 "end the line with a colon."
 msgstr ""
+"Wanneer de computer een conditie controleert, heet dit een conditie "
+"[b]evalueren[/b]. Alle condities [b]evalueren[/b] naar ofwel "
+"[code]true[/code] (waar) of [code]false[/code] (onwaar).\n"
+"\n"
+"De speler drukt op de knop of niet. Het personage raakt een vijand aan, of "
+"niet.\n"
+"\n"
+"In ons geval, [i]als[/i] de gezondheid over een maximale waarde gaat, willen "
+"we het terugbrengen tot het maximum.\n"
+"\n"
+"Om een conditie te definiëren, gebruiken we het sleutelwoord [code]if[/code]"
+". We schrijven een regel die begint met [code]if[/code], [ignore]schrijven "
+"de conditie die we willen evalueren en eindigen de regel met een dubbele "
+"punt."
 
 #: course/lesson-13-conditions/lesson.tres:133
 msgid ""
@@ -114,10 +157,20 @@ msgid ""
 "The computer knows which instructions belong to the condition because they "
 "are indented."
 msgstr ""
+"Let op het vergelijkingsteken [code]>[/code]. We lezen dit symbool als "
+"\"groter dan\".\n"
+"\n"
+"We hebben gezien hoe functiedefinities een dubbele punt gebruiken aan het "
+"einde van de eerste regel en de inhoud erin nesten.\n"
+"\n"
+"In GDScript is deze vorm een terugkerend patroon voor alle codeblokken.\n"
+"\n"
+"De computer weet welke instructies bij de conditie horen doordat ze "
+"inspringen."
 
 #: course/lesson-13-conditions/lesson.tres:157
 msgid "Comparisons"
-msgstr ""
+msgstr "Vergelijkingen"
 
 #: course/lesson-13-conditions/lesson.tres:159
 msgid ""
@@ -133,10 +186,21 @@ msgid ""
 "\n"
 "Here's how we might use these in [code]if[/code] statements.\n"
 msgstr ""
+"In het bovenstaande voorbeeld hebben we de vorm [code]>[/code] gebruikt om "
+"\"groter dan\" aan te geven.\n"
+"\n"
+"We kunnen getallen ook op andere manieren vergelijken.\n"
+"\n"
+"[code]>[/code] betekent \"groter dan\".\n"
+"[code]<[/code] betekent \"minder dan\".\n"
+"[code]==[/code] betekent \"gelijk aan\".\n"
+"[code]!=[/code] betekent \"niet gelijk aan\".\n"
+"\n"
+"Dit is hoe we deze zouden kunnen gebruiken in [code]if[/code] instructies.\n"
 
 #: course/lesson-13-conditions/lesson.tres:187
 msgid "What does \"pass\" do in the code?"
-msgstr ""
+msgstr "Wat doet \"pass\" in de code?"
 
 #: course/lesson-13-conditions/lesson.tres:189
 msgid ""
@@ -152,10 +216,21 @@ msgid ""
 "lines, Godot would give us an \"Expected an indented block after 'if' \" "
 "error."
 msgstr ""
+"Het sleutelwoord [code]pass[/code] voorkomt fouten in onze code wanneer een "
+"regel niet leeg mag zijn.\n"
+"\n"
+"We moeten bijvoorbeeld een regel code hebben na een functiedefinitie of een "
+"[code]if[/code] blok. Als je nog niet weet wat je moet schrijven, kun je het "
+"sleutelwoord [code]pass[/code] gebruiken als plaatshouder en zal Godot geen "
+"fout melden.\n"
+"\n"
+"In het vorige voorbeeld, als er niets onder de [code]if[/code] regels stond, "
+"zou Godot ons een \"Expected an indented block after 'if'\" foutmelding "
+"geven."
 
 #: course/lesson-13-conditions/lesson.tres:201
 msgid "Which of these statements are true?"
-msgstr ""
+msgstr "Welke van deze beweringen zijn waar?"
 
 #: course/lesson-13-conditions/lesson.tres:204
 msgid ""
@@ -171,33 +246,44 @@ msgid ""
 "The comparison [code]3 < 1[/code] means \"three is less than one\" which is "
 "[b]false[/b]."
 msgstr ""
+"De vergelijking [code]3 > 1[/code] betekent \"drie is groter dan één\" wat "
+"[b]waar[/b] is.\n"
+"De vergelijking [code]2 < 3[/code] betekent \"twee is kleiner dan drie\" wat "
+"[b]waar[/b] is.\n"
+"De vergelijking [code]1 != 3[/code] betekent \"één is niet gelijk aan drie\" "
+"wat [b]waar[/b] is.\n"
+"\n"
+"De vergelijking [code]2 == 1[/code] betekent \"twee is gelijk aan één\" en "
+"dat is [b]onwaar[/b].\n"
+"De vergelijking [code]3 < 1[/code] betekent \"drie is kleiner dan één\" en "
+"dat is [b]onwaar[/b]."
 
 #: course/lesson-13-conditions/lesson.tres:210
 #: course/lesson-13-conditions/lesson.tres:211
 msgid "3 > 1"
-msgstr ""
+msgstr "3 > 1"
 
 #: course/lesson-13-conditions/lesson.tres:210
 msgid "2 == 1"
-msgstr ""
+msgstr "2 == 1"
 
 #: course/lesson-13-conditions/lesson.tres:210
 #: course/lesson-13-conditions/lesson.tres:211
 msgid "2 < 3"
-msgstr ""
+msgstr "2 < 3"
 
 #: course/lesson-13-conditions/lesson.tres:210
 #: course/lesson-13-conditions/lesson.tres:211
 msgid "1 != 3"
-msgstr ""
+msgstr "1 != 3"
 
 #: course/lesson-13-conditions/lesson.tres:210
 msgid "3 < 1"
-msgstr ""
+msgstr "3 < 1"
 
 #: course/lesson-13-conditions/lesson.tres:218
 msgid "Or else..."
-msgstr ""
+msgstr "En anders..."
 
 #: course/lesson-13-conditions/lesson.tres:220
 msgid ""
@@ -207,22 +293,32 @@ msgid ""
 "You can write an [code]else[/code] block after an [code]if[/code] block, "
 "like so."
 msgstr ""
+"Het sleutelwoord [code]if[/code] heeft een aanvullend sleutelwoord "
+"[code]else[/code].\n"
+"\n"
+"Je kunt een [code]else[/code] blok schrijven na een [code]if[/code] blok, "
+"als volgt."
 
 #: course/lesson-13-conditions/lesson.tres:242
 msgid ""
 "The [code]else[/code] block will run whenever the condition above it isn't "
 "met."
 msgstr ""
+"Het [code]else[/code] blok wordt uitgevoerd wanneer niet wordt voldaan aan "
+"de conditie erboven."
 
 #: course/lesson-13-conditions/lesson.tres:252
 msgid ""
 "In the following practices, we'll use conditions and improve the way our "
 "character's health changes so it has limits."
 msgstr ""
+"In de volgende oefeningen zullen we condities gebruiken en de manier waarop "
+"de gezondheid van ons personage verandert verbeteren zodat het grenzen "
+"krijgt."
 
 #: course/lesson-13-conditions/lesson.tres:260
 msgid "Using Comparisons"
-msgstr ""
+msgstr "Vergelijkingen gebruiken"
 
 #: course/lesson-13-conditions/lesson.tres:261
 msgid ""
@@ -245,16 +341,37 @@ msgid ""
 "Because [code]health = 100[/code], this is false so [code]print(\"health is "
 "greater than five.\")[/code] won't run."
 msgstr ""
+"Deze reeks [code]if[/code] instructies zit vol fouten. Verander de "
+"vergelijkingen zodat elke vergelijking overeenkomt met de instructie eronder."
+"\n"
+"\n"
+"Laat de waarden en beweringen zoals ze zijn; verander alleen de "
+"vergelijkingstekens.\n"
+"\n"
+"Ter herinnering, de vergelijkingstekens zijn:\n"
+"[code]\n"
+"> groter dan\n"
+"< kleiner dan\n"
+"== gelijk aan\n"
+"!= niet gelijk aan\n"
+"[/code]\n"
+"\n"
+"De regel [code]health < 5:[/code] betekent \"gezondheid is minder dan 5\".\n"
+"\n"
+"Omdat [code]health = 100[/code] is dit onwaar, dus [code]print(\"health is "
+"greater than five.\")[/code] wordt niet uitgevoerd."
 
 #: course/lesson-13-conditions/lesson.tres:297
 msgid ""
 "Comparing values allows us to make decisions in code. But there's something "
 "wrong with these statements.."
 msgstr ""
+"Door waarden te vergelijken kunnen we beslissingen nemen in code. Maar er is "
+"iets mis met deze beweringen..."
 
 #: course/lesson-13-conditions/lesson.tres:302
 msgid "Limiting Healing"
-msgstr ""
+msgstr "Genezing beperken"
 
 #: course/lesson-13-conditions/lesson.tres:303
 msgid ""
@@ -263,16 +380,23 @@ msgid ""
 "Add to the function so the character's health is never greater than "
 "[code]80[/code]."
 msgstr ""
+"We hebben een genezingsfunctie die een hoeveelheid toevoegt aan de "
+"gezondheid van het personage.\n"
+"\n"
+"Vul de functie aan zodat de gezondheid van het personage nooit groter is dan "
+"[code]80[/code]."
 
 #: course/lesson-13-conditions/lesson.tres:315
 msgid ""
 "As much as we might like, we don't want our robot to have too much health. "
 "Limit how much healing the robot can take."
 msgstr ""
+"Hoe leuk het ook zou zijn, we willen niet dat onze robot te veel "
+"gezondheidspunten heeft. Beperk hoeveel genezing de robot kan ontvangen."
 
 #: course/lesson-13-conditions/lesson.tres:320
 msgid "Preventing Health from Going Below Zero"
-msgstr ""
+msgstr "Voorkomen dat de gezondheid onder nul zakt"
 
 #: course/lesson-13-conditions/lesson.tres:321
 msgid ""
@@ -289,13 +413,28 @@ msgid ""
 "If [code]health[/code] goes below [code]0[/code], set it to [code]0[/code] "
 "again."
 msgstr ""
+"Wanneer de robot schade oploopt, kan zijn gezondheid negatief worden.\n"
+"\n"
+"We willen misschien het gezondheidsgetal op het scherm weergeven, zoals in "
+"Japanse RPG's.\n"
+"\n"
+"We willen geen negatieve getallen. In plaats daarvan willen we stoppen bij "
+"nul.\n"
+"\n"
+"Het aanroepen van de functie moet [code]health[/code] verminderen met "
+"[code]amount[/code].\n"
+"\n"
+"Als [code]health[/code] onder [code]0[/code] komt, zet het dan weer op "
+"[code]0[/code]."
 
 #: course/lesson-13-conditions/lesson.tres:339
 msgid ""
 "Having a negative health value doesn't make a lot of sense. Make sure the "
 "robot's health can't go below zero."
 msgstr ""
+"Een negatieve gezondheidswaarde heeft niet veel zin. Zorg ervoor dat de "
+"gezondheid van de robot niet onder nul kan komen."
 
 #: course/lesson-13-conditions/lesson.tres:343
 msgid "Conditions"
-msgstr ""
+msgstr "Condities"

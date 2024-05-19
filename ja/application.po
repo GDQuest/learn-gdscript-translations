@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2022-07-17 22:13+0000\n"
-"Last-Translator: TATSUNO Yasuhiro <ytatsuno.jp@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/application/ja/>\n"
+"PO-Revision-Date: 2024-03-31 12:09+0000\n"
+"Last-Translator: cyochot <k97un9ri@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/application/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
@@ -51,11 +51,11 @@ msgstr "(戻るページがありません)"
 
 #: ui/UINavigator.tscn:103
 msgid "CHRISTMAS SALE - 50% OFF"
-msgstr ""
+msgstr "クリスマス セール - 50% オフ"
 
 #: ui/UINavigator.tscn:163
 msgid "CHRISTMAS SALE"
-msgstr ""
+msgstr "クリスマスセール"
 
 #: ui/UIPractice.gd:154 ui/UIPractice.gd:220
 #, python-format
@@ -69,7 +69,7 @@ msgstr "コードを検証しています..."
 #: ui/UIPractice.gd:268
 #, python-format
 msgid "The function `%s` calls itself, this creates an infinite loop"
-msgstr ""
+msgstr "関数 `%s` がそれ自体を呼び出します。これにより無限ループが作成されます"
 
 #: ui/UIPractice.gd:301
 msgid "Running Your Code..."
@@ -80,11 +80,14 @@ msgid ""
 "There is a division by zero in your code. You cannot divide by zero in code. "
 "Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr ""
+"コード内にゼロ除算があります。 コード内ではゼロで除算することはできません。 "
+"コードに\"/ 0\"または\"% 0\"が含まれていないことを確認してください。"
 
 #: ui/UIPractice.gd:343
 msgid ""
 "Oh no! The script has an error, but the Script Verifier did not catch it"
-msgstr ""
+msgstr "なんてこった！ "
+"スクリプトにエラーがありますが、検証機がエラーを検出できませんでした"
 
 #: ui/UIPractice.gd:369
 msgid "Running Tests..."
@@ -100,7 +103,7 @@ msgstr "この答えを使う"
 
 #: ui/UIPractice.tscn:207
 msgid "Leave unfinished practice?"
-msgstr "未完了の練習を中断しますか？"
+msgstr "未完了の演習を中断しますか？"
 
 #: ui/components/BigGreenButton.tscn:24
 msgid "Button"
@@ -197,11 +200,11 @@ msgstr "実行"
 
 #: ui/components/RunnableCodeExample.tscn:123
 msgid "step"
-msgstr ""
+msgstr "ステップ"
 
 #: ui/components/RunnableCodeExampleDebugger.tscn:44
 msgid "Debugger"
-msgstr ""
+msgstr "デバッガ"
 
 #: ui/components/SalePopup.tscn:121
 #, python-format
@@ -209,18 +212,20 @@ msgid ""
 "[center]Get [b]50% off[/b] on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b][/center]"
 msgstr ""
+"[center]クーポン コード [b]DISCOUNT50[/b]を使用すると、\n"
+"すべての Godot コースが [b]50％ オフ[/b]になります[/center]"
 
 #: ui/components/SalePopup.tscn:132
 msgid "Only until "
-msgstr ""
+msgstr "終了 "
 
 #: ui/components/SalePopup.tscn:155
 msgid "CHECK OUT OUR COURSES"
-msgstr ""
+msgstr "私たちのコースをチェックしてください"
 
 #: ui/components/SalePopup.tscn:180
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
@@ -275,7 +280,6 @@ msgid "Where do external errors come from?"
 msgstr "外部エラーはどこから発生しますか？"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
-#, fuzzy
 msgid ""
 "Lessons in this course are designed so you only need to edit the "
 "[b]important bits[/b]. But there is much more code outside of what you see "
@@ -292,18 +296,18 @@ msgid ""
 "to the error message!"
 msgstr ""
 "このコースのレッスンは[b]重要な部分[/b]を編集するだけで済むように構成されてい"
-"ます。 しかしこのシステムを実行させるコードは、表示されているもの以外にもはる"
-"かに多いです。\n"
+"ます。 しかし、表示されているもの以外にも、プロジェクトを実行するためのコード"
+"がさらにたくさんあります。\n"
 "\n"
-"これは行った変更が制御できないコードに影響を与える場合があることを意味しま"
-"す。 ただし心配しないでください。編集[b]できる[/b]コードを使用して、すべての"
-"問題を自分で修正できます。\n"
+"これは行った変更が制御できないコードに影響を与える場合があることを意味します"
+"。 ただし心配しないでください。編集[b]できる[/b]コードを使用して、すべての問"
+"題を自分で修正できます。\n"
 "\n"
-"[i]これはゲームエンジンを動かすようなものです。[/i] プロジェクトをスムーズに"
-"実行するために実行される隠しコードがたくさんあります。 それでもスクリプトにエ"
-"ラーがあると、システムが壊れてしまう可能性があります。 私たちはあなたが直面す"
-"る個々のエラーに対処する方法を説明しようとします。 エラーメッセージの横にある"
-"[b]説明を見る[/b]ボタンをクリックしてください！"
+"[i]これはゲームエンジンの動作にも似ています。[/i] プロジェクトをスムーズに実"
+"行するために実行される隠しコードがたくさんあります。 "
+"それでもスクリプトにエラーがあると、システムが壊れてしまう可能性があります。 "
+"私たちはあなたが直面する個々のエラーに対処する方法を説明していきます。 "
+"エラーメッセージの横にある[b]説明を見る[/b]ボタンをクリックしてください！"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
@@ -471,7 +475,7 @@ msgstr "フレームレート制限"
 
 #: ui/components/popups/SettingsPopup.tscn:212
 msgid "Lower contrast"
-msgstr ""
+msgstr "コントラストが低い"
 
 #: ui/components/popups/SettingsPopup.tscn:259
 msgid "Apply"
@@ -541,43 +545,45 @@ msgstr "進捗リセットの確認"
 #: ui/screens/end_screen/EndScreen.tscn:300
 #: ui/screens/end_screen/EndScreen.tscn:313
 msgid "YOU MADE IT!"
-msgstr ""
+msgstr "作成完了！"
 
 #: ui/screens/end_screen/EndScreen.tscn:343
 msgid ""
 "Not only did you learn the foundations of coding, you’re a big step closer "
 "to making your own games."
-msgstr ""
+msgstr "コーディングの基礎を学んだだけでなく、独自のゲームの作成に大きく一歩近づきま"
+"した。"
 
 #: ui/screens/end_screen/EndScreen.tscn:363
 msgid "Don't stop here..."
-msgstr ""
+msgstr "ここで止まらないでください..."
 
 #: ui/screens/end_screen/EndScreen.tscn:373
 msgid "The fun stuff starts now!"
-msgstr ""
+msgstr "楽しいことが今始まります！"
 
 #: ui/screens/end_screen/EndScreen.tscn:388
 msgid "There are 2 pathways learners traditionally take from here:"
-msgstr ""
+msgstr "ここから学習者が伝統的にたどる経路は 2 つあります。"
 
 #: ui/screens/end_screen/EndScreen.tscn:402
 msgid "Following video tutorials"
-msgstr ""
+msgstr "ビデオチュートリアルに従ってください"
 
 #: ui/screens/end_screen/EndScreen.tscn:417
 msgid ""
 "They’re a great way to pick up specific game mechanics but they’re not as "
 "effective when you’re trying to learn new skills from the ground up."
-msgstr ""
+msgstr "これらは特定のゲームの仕組みを理解するのに最適な方法ですが、新しいスキルを一"
+"から学ぼうとする場合にはそれほど効果的ではありません。"
 
 #: ui/screens/end_screen/EndScreen.tscn:449
 msgid "• There’s no clear learning path."
-msgstr ""
+msgstr "• 明確な学習経路はありません。"
 
 #: ui/screens/end_screen/EndScreen.tscn:464
 msgid "• Retention and skill acquisition is slow and limited."
-msgstr ""
+msgstr "• スキルの保持と習得は遅く、限られています。"
 
 #: ui/screens/end_screen/EndScreen.tscn:480
 msgid ""
@@ -588,10 +594,16 @@ msgid ""
 "[color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]courses[/"
 "url][/color][/b]."
 msgstr ""
+"[b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/"
+"videos]無料チュートリアル[/url][/color][/b]を公平に提供しています。 "
+"自分でゲームを作り始めると非常に便利になります。 "
+"ただし、始めるには、[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4"
+"-early-access]コースを使用してゲーム開発者のように考える方法を学ぶことを強く"
+"お勧めします。 [/url][/color][/b]。"
 
 #: ui/screens/end_screen/EndScreen.tscn:495
 msgid "Learning with courses"
-msgstr ""
+msgstr "コースで学ぶ"
 
 #: ui/screens/end_screen/EndScreen.tscn:511
 msgid ""
@@ -599,6 +611,10 @@ msgid ""
 "tutorials. The problem of retaining information and acquiring real skills "
 "unfortunately still applies to them."
 msgstr ""
+"オンラインで利用できるほとんどのコースは、実際にはビデオ "
+"チュートリアルのプレミアム シリーズであることに注意してください。 情報を保持"
+"し、実際のスキルを習得するという問題は、残念なことに依然として彼らに当てはま"
+"ります。"
 
 #: ui/screens/end_screen/EndScreen.tscn:527
 msgid ""
@@ -611,37 +627,44 @@ msgid ""
 "bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
 "[/b]."
 msgstr ""
+"GDQuest では、私たちは本質的に教育者です。 "
+"私たちは応用学習を信じており、それが退屈である必要はないと信じています。 "
+"正しく教えれば、ほとんどの人はレベルアップする感覚を非常に楽しみます。\n"
+"\n"
+"それが私たちがこのアプリを作った理由です。 実際、これは初心者コース "
+"[b][color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]Godot "
+"でゼロからゲーム開発を学ぶ[/url][/color][/b]。"
 
 #: ui/screens/end_screen/EndScreen.tscn:565
 msgid "LEARN GAMEDEV WITH GODOT"
-msgstr ""
+msgstr "GODOT で ゲーム開発を学ぶ"
 
 #: ui/screens/end_screen/EndScreen.tscn:710
 msgid "Now available"
-msgstr ""
+msgstr "現在利用可能です"
 
 #: ui/screens/end_screen/EndScreen.tscn:720
 msgid "for preorders"
-msgstr ""
+msgstr "予約注文用"
 
 #: ui/screens/end_screen/EndScreen.tscn:737
 msgid "Godot 4 courses!!"
-msgstr ""
+msgstr "Godot 4コース!!"
 
 #: ui/screens/end_screen/EndScreen.tscn:783
 msgid "Teaching gamedev in the classroom?"
-msgstr ""
+msgstr "教室でゲーム開発者を教えていますか?"
 
 #: ui/screens/end_screen/EndScreen.tscn:796
 msgid "Get in touch"
-msgstr ""
+msgstr "連絡する"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:196
 msgid "Congratulations!"
 msgstr "おめでとうございます！"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:203
-#, fuzzy
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to "
 "make games with the Godot game engine.\n"
@@ -653,13 +676,13 @@ msgstr ""
 "ゼロから学ぶGDScriptを修了しました。あなたはいま、Godotゲームエンジンを使った"
 "ゲーム制作に飛び込むために必要な基礎知識を持っています。\n"
 "\n"
-"もし、私たちと一緒にもっとGodotを学びたいと思ったら、[url=https://www."
-"gdquest.com/tutorial/godot/learning-paths/getting-started-in-2021/]Godot入門"
-"[/url]へと進んでください。"
+"もし、私たちと一緒にもっとGodotを学びたいと思ったら、[url=https://docs."
+"godotengine.org/en/stable/getting_started/step_by_step/index."
+"html]Godot入門[/url]へと進んでください。"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:216
 msgid "This is an Open-Source project!"
-msgstr ""
+msgstr "これはオープンソース プロジェクトです！"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:223
 msgid ""
@@ -669,10 +692,15 @@ msgid ""
 "[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
+"Godot と同様、このアプリとコースは無料でオープンソースです。\n"
+"\n"
+"アプリのソース コードを見つけて、翻訳を投稿するには、[url=\"https://github."
+"com/GDQuest/learn-gdscript\"]ゼロから GDScript を学ぶ (Github "
+"リポジトリ)[/url] をご覧ください。"
 
 #: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:42
 msgid "Early Access release: 2024/01/30"
-msgstr ""
+msgstr "早期アクセスリリース: 2024/01/30"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
