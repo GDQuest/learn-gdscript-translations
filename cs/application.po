@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2024-12-12 14:39+0100\n"
-"PO-Revision-Date: 2023-12-19 19:09+0000\n"
+"PO-Revision-Date: 2024-09-10 09:35+0000\n"
 "Last-Translator: ebor <ebor@post.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/application/cs/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.7.2\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: resources/QuizInputField.gd:17
@@ -51,11 +51,11 @@ msgstr "(žádná předchozí historie)"
 
 #: ui/UINavigator.tscn:104
 msgid "CHRISTMAS SALE - 50% OFF"
-msgstr ""
+msgstr "VÁNOČNÍ PRODEJ - 50% SLEVA"
 
 #: ui/UINavigator.tscn:164
 msgid "CHRISTMAS SALE"
-msgstr ""
+msgstr "VÁNOČNÍ PRODEJ"
 
 #: ui/UIPractice.gd:154 ui/UIPractice.gd:220
 #, python-format
@@ -215,18 +215,20 @@ msgid ""
 "[center]Get [b]50% off[/b] on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b][/center]"
 msgstr ""
+"[center]Získejte [b]50% off[/b] na všech našich kurzech Godot. \n"
+"kuponem [b]SLEVA50[/b][/center]"
 
 #: ui/components/SalePopup.tscn:132
 msgid "Only until "
-msgstr ""
+msgstr "Pouze dokud "
 
 #: ui/components/SalePopup.tscn:155
 msgid "CHECK OUT OUR COURSES"
-msgstr ""
+msgstr "PODÍVEJTE SE NA NAŠE KURZY"
 
 #: ui/components/SalePopup.tscn:180
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
@@ -281,7 +283,6 @@ msgid "Where do external errors come from?"
 msgstr "Odkud se berou externí chyby?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
-#, fuzzy
 msgid ""
 "Lessons in this course are designed so you only need to edit the "
 "[b]important bits[/b]. But there is much more code outside of what you see "
@@ -297,8 +298,8 @@ msgid ""
 "individual error that you face. Quick, click the [b]Explain[/b] button next "
 "to the error message!"
 msgstr ""
-"Lekce v tomto kurzu jsou sestaveny tak, abyste museli upravovat pouze "
-"[b]důležité části[/b]. Mimo to, co vidíte, však existuje mnohem více kódu, "
+"Lekce v tomto kurzu jsou sestaveny tak, abyste museli upravovat pouze [b]"
+"důležité části[/b]. Mimo to, co vidíte, však existuje mnohem více kódu, "
 "který zajišťuje běh projektu.\n"
 "\n"
 "To znamená, že změny, které provedete, mohou někdy ovlivnit kód nad kterým "
@@ -477,7 +478,7 @@ msgstr "Omezení snímkové frekvence"
 
 #: ui/components/popups/SettingsPopup.tscn:212
 msgid "Lower contrast"
-msgstr ""
+msgstr "Nižší kontrast"
 
 #: ui/components/popups/SettingsPopup.tscn:259
 msgid "Apply"
@@ -547,7 +548,7 @@ msgstr "Potvrďte Resetování Průběhu"
 #: ui/screens/end_screen/EndScreen.tscn:310
 #: ui/screens/end_screen/EndScreen.tscn:323
 msgid "YOU MADE IT!"
-msgstr ""
+msgstr "DOKÁZALI JSTE TO!"
 
 #: ui/screens/end_screen/EndScreen.tscn:353
 msgid ""
@@ -559,19 +560,19 @@ msgstr ""
 
 #: ui/screens/end_screen/EndScreen.tscn:373
 msgid "Don't stop here..."
-msgstr ""
+msgstr "Nezastavujte se zde..."
 
 #: ui/screens/end_screen/EndScreen.tscn:383
 msgid "The fun stuff starts now!"
-msgstr ""
+msgstr "Zábava začíná právě teď!"
 
 #: ui/screens/end_screen/EndScreen.tscn:398
 msgid "There are 2 pathways learners traditionally take from here:"
-msgstr ""
+msgstr "Odtud se studenti tradičně vydávají dvěma cestami:"
 
 #: ui/screens/end_screen/EndScreen.tscn:412
 msgid "Following video tutorials"
-msgstr ""
+msgstr "Sledování videonávodů"
 
 #: ui/screens/end_screen/EndScreen.tscn:427
 msgid ""
@@ -583,11 +584,11 @@ msgstr ""
 
 #: ui/screens/end_screen/EndScreen.tscn:459
 msgid "• There’s no clear learning path."
-msgstr ""
+msgstr "• Neexistuje žádný jasný způsob učení."
 
 #: ui/screens/end_screen/EndScreen.tscn:474
 msgid "• Retention and skill acquisition is slow and limited."
-msgstr ""
+msgstr "• Udržování a získávání dovedností je pomalé a omezené."
 
 #: ui/screens/end_screen/EndScreen.tscn:490
 msgid ""
@@ -598,10 +599,16 @@ msgid ""
 "[color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]courses[/"
 "url][/color][/b]."
 msgstr ""
+"Na [b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]"
+"bezplatných výukových programů[/url][/color][/b]. Budou se vám velmi hodit, "
+"až začnete hry vytvářet sami. Pro začátek vám ale opravdu doporučujeme "
+"naučit se myslet jako herní vývojář pomocí "
+"[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
+"access]kurzů[/url][/color][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:505
 msgid "Learning with courses"
-msgstr ""
+msgstr "Učení se pomocí kurzů"
 
 #: ui/screens/end_screen/EndScreen.tscn:521
 msgid ""
@@ -609,6 +616,9 @@ msgid ""
 "tutorials. The problem of retaining information and acquiring real skills "
 "unfortunately still applies to them."
 msgstr ""
+"Všimněte si, že většina dostupných online kurzů jsou ve skutečnosti prémiové "
+"série videokurzů. Problém s udržením informací a získáním skutečných "
+"dovedností se jich bohužel stále týká."
 
 #: ui/screens/end_screen/EndScreen.tscn:537
 msgid ""
@@ -621,37 +631,44 @@ msgid ""
 "bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
 "[/b]."
 msgstr ""
+"Ve společnosti GDQuest jsme srdcem pedagogové. Věříme v aplikované studium a "
+"věříme, že nemusí být nudné. Když je výuka prováděna správně, většina lidí "
+"si pocit zvyšování úrovně velmi užívá!\n"
+"\n"
+"To je důvod, proč jsme vytvořili tuto aplikaci. Ve skutečnosti je součástí "
+"našeho kurzu pro začátečníky [b][color=#ebc3ff][url=https://school.gdquest."
+"com/products/bundle_learn_gamedev_godot_4]Naučte se Gamedev od nuly s "
+"Godotem[/url][/color][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:575
 msgid "LEARN GAMEDEV WITH GODOT"
-msgstr ""
+msgstr "NAUČTE SE GAMEDEV S GODOTEM"
 
 #: ui/screens/end_screen/EndScreen.tscn:722
 msgid "Now available"
-msgstr ""
+msgstr "Nyní k dispozici"
 
 #: ui/screens/end_screen/EndScreen.tscn:732
 msgid "for preorders"
-msgstr ""
+msgstr "pro předobjednávky"
 
 #: ui/screens/end_screen/EndScreen.tscn:749
 msgid "Godot 4 courses!!"
-msgstr ""
+msgstr "Godot 4 kurzy!!"
 
 #: ui/screens/end_screen/EndScreen.tscn:795
 msgid "Teaching gamedev in the classroom?"
-msgstr ""
+msgstr "Výuka vývoje her ve třídě?"
 
 #: ui/screens/end_screen/EndScreen.tscn:808
 msgid "Get in touch"
-msgstr ""
+msgstr "Spojte se s námi"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:204
 msgid "Congratulations!"
 msgstr "Gratulujeme!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:211
-#, fuzzy
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to "
 "make games with the Godot game engine.\n"
@@ -660,16 +677,16 @@ msgid ""
 "en/stable/getting_started/step_by_step/index.html]Getting Started with "
 "Godot[/url]."
 msgstr ""
-"Dokončili jste Naučte se GDScript od nuly. Nyní máte základy, které "
-"potřebujete, abyste se mohli ponořit do tvorby her s herním enginem Godot.\n"
+"Dokončili jste kurz GDScript od nuly. Nyní máte základy, které potřebujete k "
+"vytváření her s herním enginem Godot.\n"
 "\n"
-"Pokud hledáte bezplatnou sérii, abyste se s námi mohli učit základy, můžete "
-"přejít na [url=https://www.gdquest.com/tutorial/godot/learning-paths/getting-"
-"started-in-2021/]Začínáme s Godotem[/url]."
+"Ve výuce můžete pokračovat pomocí bezplatného seriálu [url=https://docs."
+"godotengine.org/en/stable/getting_started/step_by_step/index.html]Začínáme s "
+"Godotem[/url]."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:224
 msgid "This is an Open-Source project!"
-msgstr ""
+msgstr "Jedná se o Open-Source projekt!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:231
 msgid ""
@@ -679,10 +696,15 @@ msgid ""
 "[url=https://github.com/GDQuest/learn-gdscript]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
+"Stejně jako Godot je i tato aplikace a kurz zdarma a s otevřeným zdrojovým "
+"kódem. \n"
+"\n"
+"Zdrojový kód aplikace a překlady můžete najít zde: [url=\"https://github.com/"
+"GDQuest/learn-gdscript\"]Learn GDScript From Zero (Github repository)[/url]."
 
 #: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:41
 msgid "Early Access release: 2024/01/30"
-msgstr ""
+msgstr "Vydání v režimu předběžného přístupu: 2024/01/30"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
@@ -796,11 +818,11 @@ msgstr "VYBERTE LEKCI"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:661
 msgid "OPTIONS"
-msgstr "VOLBY"
+msgstr "NASTAVENÍ"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:695
 msgid "QUIT"
-msgstr "PŘESTAT"
+msgstr "KONEC"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:801
 msgid ""

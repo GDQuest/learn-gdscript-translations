@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2023-12-19 19:09+0000\n"
-"Last-Translator: ebor <ebor@post.cz>\n"
+"PO-Revision-Date: 2024-09-10 09:35+0000\n"
+"Last-Translator: Prem\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-19-creating-arrays/cs/>\n"
 "Language: cs\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.7.2\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-19-creating-arrays/lesson.tres:13
@@ -32,7 +32,6 @@ msgstr ""
 "seznam čísel [code][0, 1, 2][/code]."
 
 #: course/lesson-19-creating-arrays/lesson.tres:33
-#, fuzzy
 msgid ""
 "A list of values, numbers or otherwise, has a precise name in code: we call "
 "it an [i]array[/i]. So we can say calling the [code]range()[/code] function "
@@ -43,11 +42,12 @@ msgid ""
 "step-by-step to see how it works."
 msgstr ""
 "Seznam hodnot, ať už číselných nebo jiných, má v kódu přesný název: říkáme "
-"jim [i]arrays (pole)[/i]. Můžeme tedy říci, že voláním funkce [code]range()[/"
-"code] vznikne [i]pole[/i] čísel.\n"
+"jim [i]arrays (pole)[/i]. Můžeme tedy říci, že voláním funkce "
+"[code]range()[/code] vznikne [i]pole[/i] čísel.\n"
 "\n"
-"Toto pole bychom mohli přímo zapsat a použít uvnitř našeho cyklu [code]for[/"
-"code] místo funkce [code]range()[/code]."
+"Toto pole bychom mohli přímo zapsat a použít uvnitř našeho cyklu "
+"[code]for[/code] místo funkce [code]range()[/code]. Následující funkci si "
+"můžete spustit krok za krokem, abyste viděli, jak funguje."
 
 #: course/lesson-19-creating-arrays/lesson.tres:55
 msgid ""
@@ -63,13 +63,15 @@ msgstr ""
 "jednu hodnotu na iteraci. Výše jsme ji pojmenovali [code]number[/code], "
 "protože pole, které překračujeme, obsahuje tři čísla (0, 1 a 2).\n"
 "\n"
-"Ale můžeme ji pojmenovat jak chceme!"
+"Můžeme ji však pojmenovat jakkoli!"
 
 #: course/lesson-19-creating-arrays/lesson.tres:77
 msgid ""
 "If we \"unwrap\" the [code]for[/code] loop above, we'd get the following "
 "code with the exact same behaviour:"
 msgstr ""
+"Pokud bychom výše uvedenou smyčku [code]for[/code] \"rozbalili\", dostali "
+"bychom následující kód s naprosto stejným chováním:"
 
 #: course/lesson-19-creating-arrays/lesson.tres:95
 msgid "The syntax of arrays"
@@ -151,10 +153,9 @@ msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.tres:190
 msgid "Using arrays to follow a path"
-msgstr "Použití polí ke sledování cesty"
+msgstr "Použití pole ke sledování trasy"
 
 #: course/lesson-19-creating-arrays/lesson.tres:192
-#, fuzzy
 msgid ""
 "Let's look at a widespread use of arrays in games: finding and following a "
 "path.\n"
