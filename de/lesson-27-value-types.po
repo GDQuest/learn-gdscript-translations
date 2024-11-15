@@ -9,19 +9,19 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2022-03-04 15:25+0100\n"
-"Last-Translator: Marco Kalf <marco.kalf@gmx.net>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2024-11-15 16:18+0000\n"
+"Last-Translator: Noah Stürtz <noah@coru.sh>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-27-value-types/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: course/lesson-27-value-types/lesson.tres:13
-#, fuzzy
 msgid ""
 "In your code, values have a particular [i]type[/i]. You have already learned "
 "about several: whole numbers, decimal numbers, strings, 2D vectors, arrays, "
@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "In Ihrem Code haben Werte einen bestimmten [i]type[/i]. Sie haben bereits "
 "mehrere kennengelernt: ganze Zahlen, Dezimalzahlen, Zeichenfolgen, 2D-"
-"Vektoren, Arrays und Wörterbücher.\n"
+"Vektoren, Arrays und Dictionaries.\n"
 "\n"
 "Der Computer verwendet den Typ eines Werts, um zu wissen, welche Operationen "
 "und Funktionen Sie mit ihnen verwenden können.\n"
@@ -44,49 +44,42 @@ msgstr ""
 "miteinander kompatibel, und ihr Missbrauch führt zu Fehlern."
 
 #: course/lesson-27-value-types/lesson.tres:25
-#, fuzzy
 msgid "A prime example"
 msgstr "Ein Paradebeispiel"
 
 #: course/lesson-27-value-types/lesson.tres:27
-#, fuzzy
 msgid ""
 "You want to display the player's health in the interface. Your code tracks "
 "health as a whole number, a value of type [code]int[/code] (short for "
 "integer)."
 msgstr ""
 "Sie möchten den Zustand des Spielers in der Benutzeroberfläche anzeigen. Ihr "
-"Code verfolgt die Integrität als ganze Zahl, einen Wert vom Typ [code]int[/"
-"code] (kurz für Integer)."
+"Code verfolgt das Leben als ganze Zahl, einen Wert vom Typ [code]int[/code] ("
+"kurz für Integer)."
 
 #: course/lesson-27-value-types/lesson.tres:47
-#, fuzzy
 msgid ""
 "However, to display it on the player's screen, the computer wants text: it "
 "needs a value of type [code]String[/code].\n"
 "\n"
 "You can concatenate two strings with the [code]+[/code] operator."
 msgstr ""
-"Um es jedoch auf dem Bildschirm des Players anzuzeigen, benötigt der "
+"Um es jedoch auf dem Bildschirm des Spielers anzuzeigen, benötigt der "
 "Computer Text: Er benötigt einen Wert vom Typ [code]String[/code].\n"
 "\n"
 "Sie können zwei Zeichenfolgen mit dem Operator [code]+[/code] verketten."
 
 #: course/lesson-27-value-types/lesson.tres:69
-#, fuzzy
 msgid "So the following code looks like it could work at first glance."
 msgstr ""
-"Der folgende Code sieht also auf den ersten Blick so aus, als könnte er "
+"Der folgende Code sieht auf den ersten Blick so aus, als könnte er "
 "funktionieren."
 
 #: course/lesson-27-value-types/lesson.tres:89
-#, fuzzy
 msgid "But when running the code, we get this strange error."
-msgstr ""
-"Aber wenn wir den Code ausführen, erhalten wir diesen seltsamen Fehler."
+msgstr "Aber wenn wir den Code ausführen, erhalten wir diesen seltsamen Fehler."
 
 #: course/lesson-27-value-types/lesson.tres:109
-#, fuzzy
 msgid ""
 "It tells you you can't add values of type [code]String[/code] and [code]int[/"
 "code]: they're incompatible.\n"
@@ -95,18 +88,16 @@ msgid ""
 "[code]String[/code]."
 msgstr ""
 "Es sagt Ihnen, dass Sie keine Werte vom Typ [code]String[/code] und "
-"[code]int[/code] hinzufügen können: Sie sind inkompatibel.\n"
+"[code]int[/code] addieren können: Sie sind inkompatibel.\n"
 "\n"
 "In diesem Fall müssen Sie die [code]health[/code]-Nummer in eine "
 "[code]String[/code]-Nummer konvertieren."
 
 #: course/lesson-27-value-types/lesson.tres:119
-#, fuzzy
 msgid "Converting values into strings"
-msgstr "Konvertieren von Werten in Zeichenfolgen"
+msgstr "Werte in Zeichenfolgen umwandeln"
 
 #: course/lesson-27-value-types/lesson.tres:121
-#, fuzzy
 msgid ""
 "You can get the text representation of a value by calling the [code]str()[/"
 "code] function (short for \"string\"). The function returns its argument as "
@@ -123,21 +114,18 @@ msgstr ""
 "einen Vektor in Text umwandeln möchten."
 
 #: course/lesson-27-value-types/lesson.tres:143
-#, fuzzy
 msgid ""
 "In this case, it turns the number [code]100[/code] into the string "
 "[code]\"100\"[/code]. Or whatever number [code]health[/code] is currently."
 msgstr ""
-"In diesem Fall wandelt die Zahl [code]100[/code] in die Zeichenfolge "
+"In diesem Fall wandelt es die Zahl [code]100[/code] in die Zeichenfolge "
 "[code]\"100\"[/code] um. Oder welche Zahl [code]health[/code] gerade ist."
 
 #: course/lesson-27-value-types/lesson.tres:151
-#, fuzzy
 msgid "Converting strings into numbers"
-msgstr "Konvertieren von Zeichenfolgen in Zahlen"
+msgstr "Zeichenfolgen in Zahlen umwandeln"
 
 #: course/lesson-27-value-types/lesson.tres:153
-#, fuzzy
 msgid ""
 "You can also convert strings into whole numbers or decimal numbers using "
 "respectively the [code]int()[/code] and [code]float()[/code] functions.\n"
@@ -153,12 +141,10 @@ msgstr ""
 "einem Geschäft verkauft werden sollen."
 
 #: course/lesson-27-value-types/lesson.tres:173
-#, fuzzy
 msgid "Some types are partially compatible"
 msgstr "Einige Typen sind teilweise kompatibel"
 
 #: course/lesson-27-value-types/lesson.tres:175
-#, fuzzy
 msgid ""
 "Most types are incompatible. For example, you can't directly add or multiply "
 "an array with a number.\n"
@@ -173,7 +159,6 @@ msgstr ""
 "Sie einen Vektor mit einer Zahl multiplizieren oder dividieren. "
 
 #: course/lesson-27-value-types/lesson.tres:197
-#, fuzzy
 msgid ""
 "It is possible because other developers defined that operation for you under "
 "the hood.\n"
@@ -191,21 +176,18 @@ msgstr ""
 "zugreifen, um ihnen Zahlen hinzuzufügen."
 
 #: course/lesson-27-value-types/lesson.tres:207
-#, fuzzy
 msgid "A surprising result"
 msgstr "Ein überraschendes Ergebnis"
 
 #: course/lesson-27-value-types/lesson.tres:209
-#, fuzzy
 msgid ""
 "Take the following division: [code]3/2[/code]. What result would you expect "
 "to get? [code]1.5[/code]?"
 msgstr ""
 "Nehmen wir die folgende Abteilung: [code]3/2[/code]. Welches Ergebnis würden "
-"Sie erwarten? [Code]1.5[/Code]?"
+"Sie erwarten? [code]1.5[/code]?"
 
 #: course/lesson-27-value-types/lesson.tres:229
-#, fuzzy
 msgid ""
 "Well, for the computer, the result of [code]3/2[/code] is [code]1[/code].\n"
 "\n"
@@ -217,7 +199,8 @@ msgid ""
 "When you divide decimal numbers instead, you will get a decimal number as a "
 "result."
 msgstr ""
-"Nun, für den Computer ist das Ergebnis von [code]3/2[/code] [code]1[/code].\n"
+"Nun, für den Computer ist das Ergebnis von [code]3/2[/code], [code]1[/code]."
+"\n"
 "\n"
 "Moment, was?!\n"
 "\n"
@@ -228,7 +211,6 @@ msgstr ""
 "Dezimalzahl."
 
 #: course/lesson-27-value-types/lesson.tres:255
-#, fuzzy
 msgid ""
 "Even if it's just a [code]0[/code], adding a decimal place tells the "
 "computer we want decimal numbers.\n"
@@ -248,14 +230,12 @@ msgstr ""
 "beabsichtigt funktionieren oder den Spielern den falschen Preis berechnen. "
 
 #: course/lesson-27-value-types/lesson.tres:265
-#, fuzzy
 msgid "Understanding and mastering types is a key skill for developers"
 msgstr ""
 "Das Verstehen und Beherrschen von Typen ist eine Schlüsselkompetenz für "
 "Entwickler"
 
 #: course/lesson-27-value-types/lesson.tres:267
-#, fuzzy
 msgid ""
 "Programming beginners often struggle due to the lack of understanding of "
 "types.\n"
@@ -282,12 +262,10 @@ msgstr ""
 "Lassen Sie uns jedoch einige Typkonvertierungen üben."
 
 #: course/lesson-27-value-types/lesson.tres:281
-#, fuzzy
 msgid "Displaying the player's health and energy"
-msgstr "Anzeige der Gesundheit und Energie des Spielers"
+msgstr "Anzeige des Lebens und der Energie des Spielers"
 
 #: course/lesson-27-value-types/lesson.tres:282
-#, fuzzy
 msgid ""
 "We want to display the player's energy in the user interface.\n"
 "\n"
@@ -316,22 +294,19 @@ msgstr ""
 "[code]display_energy()[/code] aufrufen."
 
 #: course/lesson-27-value-types/lesson.tres:300
-#, fuzzy
 msgid ""
 "We want to display the player's energy in the interface but face a type "
 "error. Use your new knowledge to fix it."
 msgstr ""
 "Wir möchten die Energie des Spielers in der Benutzeroberfläche anzeigen, "
-"aber mit einem Tippfehler konfrontiert werden. Verwenden Sie Ihr neues "
-"Wissen, um es zu beheben."
+"aber wir werden mit einem Typfehler konfrontiert. Verwenden Sie Ihr neues "
+"Wissen, um ihn zu beheben."
 
 #: course/lesson-27-value-types/lesson.tres:305
-#, fuzzy
 msgid "Letting the player type numbers"
-msgstr "Lassen Sie den Spieler Zahlen eingeben"
+msgstr "Dem Spieler ermöglichen Zahlen einzugeben"
 
 #: course/lesson-27-value-types/lesson.tres:306
-#, fuzzy
 msgid ""
 "In our game's shops, we want to let the player type numbers to select the "
 "number of items they want to buy or sell.\n"
@@ -360,16 +335,14 @@ msgstr ""
 "[code]item_count[/code]."
 
 #: course/lesson-27-value-types/lesson.tres:326
-#, fuzzy
 msgid ""
 "We want the player to choose the number of items they buy or sell in our "
 "game's shops. But right now, all we get are type errors."
 msgstr ""
 "Wir möchten, dass der Spieler die Anzahl der Gegenstände auswählt, die er in "
 "den Geschäften unseres Spiels kauft oder verkauft. Aber im Moment bekommen "
-"wir nur Tippfehler."
+"wir nur Typefehler."
 
 #: course/lesson-27-value-types/lesson.tres:330
-#, fuzzy
 msgid "Value types"
-msgstr "Werttypen"
+msgstr "Typen der Werte"
