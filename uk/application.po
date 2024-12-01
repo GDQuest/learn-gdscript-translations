@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-01 18:08+0000\n"
+"PO-Revision-Date: 2024-12-02 02:16+0000\n"
 "Last-Translator: Олександр Пилипчук <lxlalexlxl@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/application/uk/>\n"
@@ -105,7 +105,6 @@ msgid "Leave unfinished practice?"
 msgstr "Залишити незакінчену вправу?"
 
 #: ui/components/BigGreenButton.tscn:24
-#, fuzzy
 msgid "Button"
 msgstr "Кнопка"
 
@@ -165,43 +164,43 @@ msgstr "Текст-заповнювач"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
-msgstr ""
+msgstr "в"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
 msgid "FileName"
-msgstr ""
+msgstr "Назва файлу"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
 msgid "at"
-msgstr ""
+msgstr "в"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:82
 msgid "0:0"
-msgstr ""
+msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
 msgid "Sometimes errors are reported outside of your code. Why does that happen?"
-msgstr ""
+msgstr "Іноді помилки виникають за межами вашого коду. Чому так буває?"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
 msgid "Explain"
-msgstr ""
+msgstr "Пояснення"
 
 #: ui/components/Revealer.tscn:74
 msgid "Expand"
-msgstr ""
+msgstr "Розгорнути"
 
 #: ui/components/RunnableCodeExample.tscn:105
 msgid "run()"
-msgstr ""
+msgstr "run()"
 
 #: ui/components/RunnableCodeExample.tscn:123
 msgid "step"
-msgstr ""
+msgstr "крок"
 
 #: ui/components/RunnableCodeExampleDebugger.tscn:44
 msgid "Debugger"
-msgstr ""
+msgstr "Зневаджувач"
 
 #: ui/components/SalePopup.tscn:121
 #, python-format
@@ -209,44 +208,46 @@ msgid ""
 "[center]Get [b]50% off[/b] on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b][/center]"
 msgstr ""
+"[center]Отримайте [b]50% знижку[/b] на всі наші курси Godot за \n"
+"купоном із кодом [b]DISCOUNT50[/b][/center]"
 
 #: ui/components/SalePopup.tscn:132
 msgid "Only until "
-msgstr ""
+msgstr "Пропозиція діє до "
 
 #: ui/components/SalePopup.tscn:155
 msgid "CHECK OUT OUR COURSES"
-msgstr ""
+msgstr "ПЕРЕГЛЯНУТИ НАШІ КУРСИ"
 
 #: ui/components/SalePopup.tscn:180
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
 msgid "Confirm"
-msgstr ""
+msgstr "Підтвердити"
 
 #: ui/components/popups/ConfirmPopup.tscn:127
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:46
 msgid "Original error message"
-msgstr ""
+msgstr "Початкове повідомлення про помилку"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:65
 msgid "Why this happens"
-msgstr ""
+msgstr "Чому це відбувається"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
 msgid "How to fix this"
-msgstr ""
+msgstr "Як це виправити"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:91
 msgid "Our suggestion on how to fix it."
-msgstr ""
+msgstr "Наш варіант виправлення."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:102
 msgid ""
@@ -258,14 +259,21 @@ msgid ""
 "\n"
 "[center]Thank you![/center]"
 msgstr ""
+"Вибачте, ми ще не написали пояснення щодо цієї помилки!\n"
+"\n"
+"Скористайтеся кнопкою [b]Повідомити про проблему[/b] в правому верхньому "
+"куті, щоб розповісти нам більше про те, як ви на неї натрапили, і до "
+"наступної версії програми ми постараємося покращити нашу базу знань.\n"
+"\n"
+"[center]Дякуємо![/center]"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:128
 msgid "Hide"
-msgstr ""
+msgstr "Приховати"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
 msgid "Where do external errors come from?"
-msgstr ""
+msgstr "Звідки беруться зовнішні помилки?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
 msgid ""
@@ -283,58 +291,77 @@ msgid ""
 " each individual error that you face. Quick, click the [b]Explain[/b] "
 "button next to the error message!"
 msgstr ""
+"Уроки цього курсу побудовано так, що вам потрібно редагувати лише [b]важливі "
+"фрагменти коду[/b]. Але крім того коду, який ви бачите, є ще дуже багато "
+"коду, який змушує цей проєкт працювати.\n"
+"\n"
+"Це означає, що зміни, які робите ви, можуть вплинути на код, який вам "
+"недоступний. Але не хвилюйтеся, ви все ще можете розв'язати всі проблеми, що "
+"виникають, самостійно, за допомогою коду, який ви [b]можете[/b] редагувати!\n"
+"\n"
+"[i]Це нагадує те, як працюють ігрові рушії.[/i] Існує багато прихованого "
+"коду, який вони виконують, щоб забезпечити безперебійну роботу вашого "
+"проєкту. І все ж помилка у ваших скриптах може їх зламати. Ми намагатимемося "
+"пояснити, як усунути кожну окрему помилку, з якою ви зіткнетеся. Просто "
+"натисніть кнопку [b]Пояснення[/b] поруч із повідомленням про помилку!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
-msgstr ""
+msgstr "Зрозуміло!"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
-msgstr ""
+msgstr "Урок пройдено!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
+"Але є ще вправи\n"
+"які ви пропустили."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center]Ви можете [b]залишитись[/b] і повторити навчальний матеріал\n"
+"або [b]продовжити[/b] курс.[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 #: ui/components/popups/PracticeDonePopup.tscn:144
 msgid "Stay"
-msgstr ""
+msgstr "Залишитися"
 
 #: ui/components/popups/PracticeDonePopup.tscn:89
 msgid "Well done!"
-msgstr ""
+msgstr "Молодець!"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
-msgstr ""
+msgstr "Ви виконали вправу."
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center]Ви можете [b]залишитись[/b] і поекспериментувати\n"
+"або [b]продовжити[/b] курс.[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:67
 msgid "Practice List"
-msgstr ""
+msgstr "Список вправ"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:244
 msgid "Close"
-msgstr ""
+msgstr "Закрити"
 
 #: ui/components/popups/ReportFormPopup.tscn:66
 msgid "Report an issue"
-msgstr ""
+msgstr "Повідомити про проблему"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
@@ -377,144 +404,189 @@ msgid ""
 "\n"
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
+"Якщо ви зіткнулися з проблемою в застосунку, натисніть посилання нижче, щоб "
+"повідомити про неї на GitHub:\n"
+"\n"
+"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
+"> GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
+"\n"
+"На цій сторінці ви можете повідомити про будь-які проблеми, якщо щось не "
+"працює, або є помилка в уроці.\n"
+"\n"
+"Ви можете згенерувати звіт (log-файл), щоб допомогти нам визначити проблему. "
+"Для цього натисніть тут: [b][url=download]Створити звіт про "
+"помилку[/url][/b].\n"
+"\n"
+"Перетягніть згенерований звіт у свою проблему (issue) на GitHub, щоб "
+"прикріпити його.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]Що таке GitHub[/font]\n"
+"\n"
+"GitHub — це онлайнова платформа для розміщення й керування проєктами з "
+"відкритим сирцевим кодом, таким як застосунок GDScript Learn. Вона дає змогу "
+"розробникам організовувати свою роботу та співпрацювати онлайн.\n"
+"\n"
+"Вы можете використовувати GitHub для вивчення сирцевого коду багатьох "
+"відкритих проєктів, повідомляти про проблеми або навіть самостійно вносити "
+"виправлення до коду.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]Як повідомити про проблему[/font]"
+"\n"
+"\n"
+"1. Натисніть посилання вище, щоб перейти на сторінку [i]GitHub Issues[/i].\n"
+"2. Натисніть кнопку [i]New Issue[/i].\n"
+"3. Заповніть форму, щоб розповісти нам більше про свою проблему.\n"
+"\n"
+"Для цього вам знадобиться обліковий запис GitHub.\n"
+"\n"
+"Будь ласка, додайте до опису проблеми якомога більше корисної інформації, "
+"наприклад, зазначте тип пристрою, який ви використовуєте для доступу до "
+"програми, і, якщо можливо, прикріпіть знімок екрану або відеокліп, що "
+"демонструє проблему.\n"
+"\n"
+"[center]Дякуємо за участь у покращенні проєкту![/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:158
 msgid "OK"
-msgstr ""
+msgstr "Гаразд"
 
 #: ui/components/popups/SettingsPopup.tscn:76
 msgid "Configure the App"
-msgstr ""
+msgstr "Налаштувати застосунок"
 
 #: ui/components/popups/SettingsPopup.tscn:103
 msgid "Language"
-msgstr ""
+msgstr "Мова"
 
 #: ui/components/popups/SettingsPopup.tscn:123
 msgid "Text Size"
-msgstr ""
+msgstr "Розмір тексту"
 
 #: ui/components/popups/SettingsPopup.tscn:151
 msgid "Sample text"
-msgstr ""
+msgstr "Приклад тексту"
 
 #: ui/components/popups/SettingsPopup.tscn:164
 msgid "Scroll sensitivity"
-msgstr ""
+msgstr "Чутливість прокручування"
 
 #: ui/components/popups/SettingsPopup.tscn:190
 msgid "Framerate cap"
-msgstr ""
+msgstr "Обмеження частоти кадрів"
 
 #: ui/components/popups/SettingsPopup.tscn:212
 msgid "Lower contrast"
-msgstr ""
+msgstr "Знизити контрастність"
 
 #: ui/components/popups/SettingsPopup.tscn:259
 msgid "Apply"
-msgstr ""
+msgstr "Застосувати"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:93
 msgid "Open Lesson"
-msgstr ""
+msgstr "Відкрити урок"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:95
 msgid "Continue Lesson"
-msgstr ""
+msgstr "Продовжити урок"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:97
 msgid "Start Lesson"
-msgstr ""
+msgstr "Почати урок"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
 msgid "Lesson Title Goes Here"
-msgstr ""
+msgstr "Тут зазначено назву уроку"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
 msgid "Lesson read"
-msgstr ""
+msgstr "Поступ читання"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:56
 msgid "0%"
-msgstr ""
+msgstr "0%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:79
 msgid "Quizzes completed"
-msgstr ""
+msgstr "Пройдено тестів"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:108
 msgid "0 / 0"
-msgstr ""
+msgstr "0 / 0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:100
 msgid "Practices completed"
-msgstr ""
+msgstr "Виконано вправ"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:36
 msgid "Lesson 0"
-msgstr ""
+msgstr "Урок 0"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
 msgid "Lesson Title"
-msgstr ""
+msgstr "Тема уроку"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
 msgid "Course Index - "
-msgstr ""
+msgstr "Зміст курсу - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
-msgstr ""
+msgstr "Тут зазначено назву курсу"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
-msgstr ""
+msgstr "Скинути поступ"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
 msgid "Confirm Resetting Progress"
-msgstr ""
+msgstr "Підтвердьте скидання поступу"
 
 #: ui/screens/end_screen/EndScreen.tscn:300
 #: ui/screens/end_screen/EndScreen.tscn:313
 msgid "YOU MADE IT!"
-msgstr ""
+msgstr "ВИ ЦЕ ЗРОБИЛИ!"
 
 #: ui/screens/end_screen/EndScreen.tscn:343
 msgid ""
 "Not only did you learn the foundations of coding, you’re a big step "
 "closer to making your own games."
 msgstr ""
+"Ви не лише вивчили основи програмування, але й наблизилися на крок до "
+"створення власних ігор."
 
 #: ui/screens/end_screen/EndScreen.tscn:363
 msgid "Don't stop here..."
-msgstr ""
+msgstr "Не зупиняйтеся тут..."
 
 #: ui/screens/end_screen/EndScreen.tscn:373
 msgid "The fun stuff starts now!"
-msgstr ""
+msgstr "Все найцікавіше лише починається!"
 
 #: ui/screens/end_screen/EndScreen.tscn:388
 msgid "There are 2 pathways learners traditionally take from here:"
-msgstr ""
+msgstr "Найчастіше тут учні обирають один із двох шляхів:"
 
 #: ui/screens/end_screen/EndScreen.tscn:402
 msgid "Following video tutorials"
-msgstr ""
+msgstr "Дотримуватися відеоуроків"
 
 #: ui/screens/end_screen/EndScreen.tscn:417
 msgid ""
 "They’re a great way to pick up specific game mechanics but they’re not as"
 " effective when you’re trying to learn new skills from the ground up."
 msgstr ""
+"Вони - це чудовий спосіб зрозуміти конкретні ігрові механіки, але не такі "
+"ефективні, коли намагаєшся вивчити нові навички з нуля."
 
 #: ui/screens/end_screen/EndScreen.tscn:449
 msgid "• There’s no clear learning path."
-msgstr ""
+msgstr "• Немає чіткого шляху вивчення."
 
 #: ui/screens/end_screen/EndScreen.tscn:464
 msgid "• Retention and skill acquisition is slow and limited."
-msgstr ""
+msgstr "• Запам'ятовування та набуття навичок повільне та обмежене."
 
 #: ui/screens/end_screen/EndScreen.tscn:480
 msgid ""
@@ -526,10 +598,16 @@ msgid ""
 "[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
 "access]courses[/url][/color][/b]."
 msgstr ""
+"Ми самі робимо багато [b][color=#ebc3ff][url=https://www.youtube.com/@"
+"Gdquest/videos]безплатних відеоуроків[/url][/color][/b]. Вони вам дуже "
+"згодяться, коли ви почнете робити власні ігри. Але для початку, ми дуже "
+"радимо вам навчитися думати як розробник ігор, пройшовши "
+"[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
+"access]курси[/url][/color][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:495
 msgid "Learning with courses"
-msgstr ""
+msgstr "Навчання за курсами"
 
 #: ui/screens/end_screen/EndScreen.tscn:511
 msgid ""
@@ -537,6 +615,9 @@ msgid ""
 "video tutorials. The problem of retaining information and acquiring real "
 "skills unfortunately still applies to them."
 msgstr ""
+"Зверніть увагу, що більшість доступних онлайнових курсів насправді є просто "
+"преміум-серіями відеоуроків. Проблема запам'ятовування інформації та "
+"отримання реальних умінь, на жаль, залишається."
 
 #: ui/screens/end_screen/EndScreen.tscn:527
 msgid ""
@@ -549,34 +630,42 @@ msgid ""
 "[b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn"
 " Gamedev From Zero with Godot[/url][/color][/b]."
 msgstr ""
+"В GDQuest ми любимо навчати. Ми віримо в прикладне навчання і в те, що воно "
+"не має бути нудним. Коли правильно чомусь навчаєш, більшості людей починає "
+"подобається відчуття вдосконалення!\n"
+"\n"
+"Тому ми зробили цей застосунок. До речі, цей курс є частиною нашого курсу "
+"для початківців [b][color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with "
+"Godot[/url][/color][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:565
 msgid "LEARN GAMEDEV WITH GODOT"
-msgstr ""
+msgstr "НАВЧИТЬСЯ СТВОРЮВАТИ ІГРИ З GODOT"
 
 #: ui/screens/end_screen/EndScreen.tscn:710
 msgid "Now available"
-msgstr ""
+msgstr "Тепер доступно"
 
 #: ui/screens/end_screen/EndScreen.tscn:720
 msgid "for preorders"
-msgstr ""
+msgstr "для передзамовлень"
 
 #: ui/screens/end_screen/EndScreen.tscn:737
 msgid "Godot 4 courses!!"
-msgstr ""
+msgstr "Курси з Godot 4!!"
 
 #: ui/screens/end_screen/EndScreen.tscn:783
 msgid "Teaching gamedev in the classroom?"
-msgstr ""
+msgstr "Викладаєте геймдев у школі?"
 
 #: ui/screens/end_screen/EndScreen.tscn:796
 msgid "Get in touch"
-msgstr ""
+msgstr "Зв'язатися"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:196
 msgid "Congratulations!"
-msgstr ""
+msgstr "Вітаємо!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:203
 msgid ""
@@ -587,10 +676,17 @@ msgid ""
 "[url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Getting"
 " Started with Godot[/url]."
 msgstr ""
+"Ви завершили курс Learn GDScript From Zero. Тепер ви маєте необхідні базові "
+"знання, щоб із головою поринути в розробку ігор за допомогою ігрового рушія "
+"Godot.\n"
+"\n"
+"Якщо ви шукаєте безплатні уроки щоб продовжити здобувати знання, ви можете "
+"перейти на [url=https://docs.godotengine.org/uk/stable/getting_started/"
+"step_by_step/index.html]Вступ до Godot[/url]."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:216
 msgid "This is an Open-Source project!"
-msgstr ""
+msgstr "Це проєкт із відкритим сирцевим кодом!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:223
 msgid ""
@@ -600,125 +696,130 @@ msgid ""
 "[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From "
 "Zero (Github repository)[/url]."
 msgstr ""
+"Як і Godot, цей застосунок і курс безплатні і мають відкритий сирцевий код.\n"
+"\n"
+"Ви можете знайти сирцевий код програми та покращити переклад тут: [url="
+"\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero ("
+"репозиторій Github)[/url]."
 
 #: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:42
 msgid "Early Access release: 2024/01/30"
-msgstr ""
+msgstr "Випуск раннього доступу: 30.01.2024"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
-msgstr ""
+msgstr "[b]Питання[/b]"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
 msgid "Explanation"
-msgstr ""
+msgstr "Пояснення"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:107
 msgid "Skip"
-msgstr ""
+msgstr "Пропустити"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
-msgstr ""
+msgstr "Надіслати"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr ""
+msgstr "Все правильно!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
-msgstr ""
+msgstr "Відповіді тут"
 
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
-msgstr ""
+msgstr "Дізнатись більше"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr ""
+msgstr "Заповнювач заголовка"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
-msgstr ""
+msgstr "Назва вправи"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
-msgstr ""
+msgstr "далі"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
-msgstr ""
+msgstr "Вправа"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
-msgstr ""
+msgstr "Ви тут"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
-msgstr ""
+msgstr "Поле відповіді"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
 msgid "(select all that apply)"
-msgstr ""
+msgstr "(виберіть усі правильні відповіді)"
 
 #: ui/screens/practice/PracticeHint.tscn:8
 msgid "Show Hint"
-msgstr ""
+msgstr "Показати підказку"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:144
 msgid "Method descriptions"
-msgstr ""
+msgstr "Описи методів"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:160
 msgid "Property descriptions"
-msgstr ""
+msgstr "Описи властивостей"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
 msgid "Summary - Lesson Name"
-msgstr ""
+msgstr "Огляд - Назва уроку"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
-msgstr ""
+msgstr "Цілі"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:119
 msgid "Hints"
-msgstr ""
+msgstr "Підказки"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
 msgid "Checks"
-msgstr ""
+msgstr "Перевірки"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:134
 msgid "Documentation"
-msgstr ""
+msgstr "Документація"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:175
 msgid "Open Practice List"
-msgstr ""
+msgstr "Відкрити список вправ"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:40
 msgid "Test text"
-msgstr ""
+msgstr "Тестовий текст"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:42
 msgid "CONTINUE"
-msgstr ""
+msgstr "ПРОДОВЖИТИ"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:44
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:625
 msgid "START"
-msgstr ""
+msgstr "ПОЧАТИ"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:643
 msgid "SELECT LESSON"
-msgstr ""
+msgstr "ВИБРАТИ УРОК"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:657
 msgid "OPTIONS"
-msgstr ""
+msgstr "ОПЦІЇ"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:691
 msgid "QUIT"
-msgstr ""
+msgstr "ВИХІД"
