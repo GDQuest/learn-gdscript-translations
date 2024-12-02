@@ -9,46 +9,50 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-12-03 03:00+0000\n"
+"Last-Translator: Atur <aturaseman9@gmail.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/classref_database/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #. Reference: show
 #: ./course/documentation.csv:2
 msgid "shows the current scene"
-msgstr ""
+msgstr "پرده‌ی کنونی را نمایش می‌دهد"
 
 #. Reference: hide
 #: ./course/documentation.csv:3
 msgid "hides the current scene"
-msgstr ""
+msgstr "پرده‌ی کنونی را می‌پنهاند"
 
 #. Reference: rotate
 #: ./course/documentation.csv:4
 msgid ""
 "Applies a rotation to the node, in radians, starting from its current "
 "rotation."
-msgstr ""
+msgstr "چرخشی به گره، به رادیان، که از چرخش کنونی‌ آن می‌آغازد به‌کار می‌بندد."
 
 #. Reference: move_forward
 #: ./course/documentation.csv:5
 msgid "Moves the turtle in the direction it's facing by some pixels."
 msgstr ""
+"لاک‌پشت را در سویی که رو به آن است به اندازه‌ی چند پیکسل جابه‌جا می‌کند."
 
 #. Reference: turn_right
 #: ./course/documentation.csv:6
 msgid "Rotates the turtle to the right by some degrees."
-msgstr ""
+msgstr "لاک‌پشت را چند درجه به راست می‌چرخاند."
 
 #. Reference: turn_left
 #: ./course/documentation.csv:7
 msgid "Rotates the turtle to the left by some degrees."
-msgstr ""
+msgstr "لاک‌پشت را چند درجه به چپ می‌چرخاند."
 
 #. Reference: jump
 #: ./course/documentation.csv:8
@@ -59,16 +63,17 @@ msgstr ""
 #: ./course/documentation.csv:9
 msgid "Makes the turtle draw a rectangle starting at its current position."
 msgstr ""
+"لاک‌پشت را به کشیدن یک مستطیل که از نهشت کنونی آن می‌آغازد، وادار می‌کند."
 
 #. Reference: position.x
 #: ./course/documentation.csv:10
 msgid "The position of the entity on the horizontal axis."
-msgstr ""
+msgstr "نهشت پدیده روی محور افقی."
 
 #. Reference: position.y
 #: ./course/documentation.csv:11
 msgid "The position of the entity on the vertical axis."
-msgstr ""
+msgstr "نهشت پدیده روی محور عمودی."
 
 #. Reference: move_local_x
 #: ./course/documentation.csv:12
@@ -84,6 +89,8 @@ msgid ""
 "Stores how many cells make up the width ([code]board_size.x[/code]) and "
 "height ([code]board_size.y[/code]) of the board."
 msgstr ""
+"شمار یاخته‌هایی که پهنا ([code]board_size.x[/code]) و بلندای ([code]board_size"
+".y[/code]) تخته را می‌سازد را انبار می‌کند."
 
 #. Reference: cell
 #: ./course/documentation.csv:14
@@ -91,16 +98,18 @@ msgid ""
 "The cell position of the robot on the board. [code]Vector2(0, 0)[/code] "
 "is the square cell in the top left of the board."
 msgstr ""
+"نهشت یاخته‌ی ربات روی تخته. [code]Vector2(0, 0)[/code] یاخته‌ی مربعی‌ چپِ بالای "
+"تخته است."
 
 #. Reference: range
 #: ./course/documentation.csv:15
 msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
-msgstr ""
+msgstr "فهرستی از شماره‌های [code]0[/code] تا [code]length - 1[/code] می‌سازد."
 
 #. Reference: play_animation
 #: ./course/documentation.csv:16
 msgid "Orders the robot to play an animation."
-msgstr ""
+msgstr "به ربات فرمان پخش یک پویانمایی را می‌دهد."
 
 #. Reference: select_units
 #: ./course/documentation.csv:17
@@ -110,22 +119,22 @@ msgstr ""
 #. Reference: robot.move_to
 #: ./course/documentation.csv:18
 msgid "Queues a move animation towards the target cell."
-msgstr ""
+msgstr "یک پویانمایی جابه‌جایی را به سوی یاخته‌ی هدف در صف می‌گذارد."
 
 #. Reference: array.append
 #: ./course/documentation.csv:19
 msgid "Adds the value passed as an argument at the back of the array."
-msgstr ""
+msgstr "ارزشی که بعنوان آرگومان به پشت آرایه گذشته است را میفزاید."
 
 #. Reference: array.pop_front
 #: ./course/documentation.csv:20
 msgid "Removes the first value from the array and returns it."
-msgstr ""
+msgstr "یکمین ارزش آرایه را می‌زداید و آن را برمی‌گرداند."
 
 #. Reference: array.pop_back
 #: ./course/documentation.csv:21
 msgid "Removes the last value from the array and returns it."
-msgstr ""
+msgstr "آخرین ارزش آرایه را می‌زداید و آن را برمی‌گرداند."
 
 #. Reference: str
 #: ./course/documentation.csv:22
@@ -133,6 +142,8 @@ msgid ""
 "Returns the argument converted into a [code]String[/code]. Works with the"
 " majority of value types."
 msgstr ""
+"آرگومانی که به یک [code] String[/code] تبدیل شده است را برمی‌گرداند. با بیشتر "
+"گونه‌های ارزش کار می‌کند."
 
 #. Reference: int
 #: ./course/documentation.csv:23
@@ -141,6 +152,9 @@ msgid ""
 "[i]if possible[/i]. Supports converting decimal numbers, strings, and "
 "booleans. Useful to convert player text input into numbers."
 msgstr ""
+"[i]اگر شدنی باشد[/i]، آرگومان تبدیل شده به یک [code]int[/code] (شماره‌ی صحیح) "
+"را برمی‌گرداند. از تبدیل شماره‌های اعشاری، رشته‌ها و بولی‌ها پشتیبانی می‌کند. "
+"کاربردی برای تبدیل درونداد نوشتاری بازیکن به شماره."
 
 #. Reference: place_unit
 #: ./course/documentation.csv:24
