@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-03 03:00+0000\n"
+"PO-Revision-Date: 2024-12-04 14:04+0000\n"
 "Last-Translator: Atur <aturaseman9@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/classref_database/fa/>\n"
@@ -57,7 +57,7 @@ msgstr "لاک‌پشت را چند درجه به چپ می‌چرخاند."
 #. Reference: jump
 #: ./course/documentation.csv:8
 msgid "Offsets the turtle's position by the given x and y amounts of pixels."
-msgstr ""
+msgstr "نهشت لاک‌پشت را به اندازه‌ی x و y داده شده به پیکسل از مبدا دور می‌کند."
 
 #. Reference: draw_rectangle
 #: ./course/documentation.csv:9
@@ -82,6 +82,9 @@ msgid ""
 "[code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] "
 "is false, normalizes the movement."
 msgstr ""
+"یک جنبش انتقالی بومی روی محور X گره بر پایه‌ی [code]delta[/code] (دلتای) "
+"[code]Node._process[/code] به‌کار می‌بندد. اگر [code]scaled[/code] نادرست "
+"(False) باشد، جنبش را بهنجار می‌کند."
 
 #. Reference: board_size
 #: ./course/documentation.csv:13
@@ -115,6 +118,7 @@ msgstr "به ربات فرمان پخش یک پویانمایی را می‌ده
 #: ./course/documentation.csv:17
 msgid "Selects units in the cell coordinates passed as the function's argument."
 msgstr ""
+"واحدهایی از مختصات‌های یاخته که بعنوان آرگومان تابع گذشته است را برمی‌گزیند."
 
 #. Reference: robot.move_to
 #: ./course/documentation.csv:18
@@ -162,13 +166,15 @@ msgid ""
 "Creates a new unit matching the type parameter and places it at the "
 "desired cell position on the game grid."
 msgstr ""
+"یک واحد نو که با گونه‌ی پارامتر یکی است ساخته و در نهشت یاخته‌ی خواسته‌شده روی "
+"توری بازی می‌گذارد."
 
 #. Reference: display_item
 #: ./course/documentation.csv:25
 msgid "Creates a new item and displays it in the inventory."
-msgstr ""
+msgstr "یک مورد نو ساخته و آن را در انبارک (inventory) نشان می‌دهد."
 
 #. Reference: add_item
 #: ./course/documentation.csv:26
 msgid "Increases the item count by amount."
-msgstr ""
+msgstr "شمار مورد‌ها را بر پایه‌ی میزان افزایش می‌دهد."
