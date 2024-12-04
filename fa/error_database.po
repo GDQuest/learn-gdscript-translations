@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-04 14:04+0000\n"
+"PO-Revision-Date: 2024-12-05 06:15+0000\n"
 "Last-Translator: Atur <aturaseman9@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/fa/>\n"
@@ -242,6 +242,12 @@ msgid ""
 "parentheses: [code]yield()[/code], [code]preload()[/code], and "
 "[code]assert()[/code]."
 msgstr ""
+"این خطا به شما می‌گوید که یک کمانک (یا گاهی یک ویرگول (,) یا مسیر) را از جا "
+"انداخته‌اید.\n"
+"\n"
+"سه کلیدواژه در جی.دی.اسکریپت مانند فراخوان‌های تابع کار کرده و به کمانک "
+"نیازمندند: [code]yield()[/code]، [code]preload()[/code] و "
+"[code]assert()[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./script_checking/error_database.csv:76
@@ -249,6 +255,8 @@ msgid ""
 "To address the error, you want to add the missing opening parenthesis, "
 "the closing parenthesis, or the comma."
 msgstr ""
+"برای رسیدگی به این خطا، باید ویرگول (,) یا کمانک‌هایی که از جا انداختید را "
+"بیفزایید."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./script_checking/error_database.csv:77
