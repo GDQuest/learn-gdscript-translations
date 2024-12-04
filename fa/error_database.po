@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-12-04 14:04+0000\n"
+"Last-Translator: Atur <aturaseman9@gmail.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/error-explanations/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -30,6 +33,12 @@ msgid ""
 "The loop creates a new variable with the desired name and assigns each "
 "element of the array to it."
 msgstr ""
+"زمانی این خطا را می‌گیرید که نام میان [code]for[/code] و [code]in[/code] یک "
+"نام متغیر معتبر نباشد، یا که کلیدواژه‌ی [code]in[/code] را از جا می‌اندازید.\n"
+"\n"
+"در یک چرخه‌ی [code]for[/code]، کلیدواژه‌ی [code]in[/code] تنها یک نام متغیر "
+"گذرای *معتبر* را برای واگذاشتن ارزش در هر تکرار از چرخه می‌پذیرد. چرخه یک "
+"متغیر نو با نام خواسته‌شده ساخته و هر درایه از آرایه را به آن می‌واگذارد."
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
 #: ./script_checking/error_database.csv:40
@@ -48,6 +57,18 @@ msgid ""
 "[code]for cell_position in cell_positions_array:\n"
 "    cell_position.x += 1.0[/code]"
 msgstr ""
+"برای درست کردن این خطا، نیاز دارید از معتبر بودن نام متغیر و نبود فاصله یا "
+"نقطه‌گذاری میان کلیدواژه‌های [code]for[/code] و [code]in[/code] مطمئن شوید.\n"
+"\n"
+"برای نمونه، این کد نامعتبر است: [code]for cell_position.x in "
+"cell_positions_array:[/code] چرا که [code]cell_position.x[/code] یک نام "
+"متغیر معتبر نیست.\n"
+"\n"
+"برای دسترسی به زیرمولفه‌ی متغیر [code]x[/code]، نیاز دارید تا آن را درون بدن "
+"چرخه بینجامید:\n"
+"\n"
+"[code]for cell_position in cell_positions_array:\n"
+"· · · ·cell_position.x += 1.0[/code]"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: ./script_checking/error_database.csv:47
@@ -59,6 +80,11 @@ msgid ""
 "Another possibility is that you want to check for equality in a condition"
 " but wrote a single = instead of ==."
 msgstr ""
+"اگر این خطا را گرفتید، به احتمال بالایی کوشیدید تا ارزشی را به چیزی جز متغیر "
+"واگذارید، که نشدنی است. تنها می‌توانید ارزش در متغیرها واگذارید.\n"
+"\n"
+"امکان دیگر این است که می‌خواهید برابری یک شرط را بررسی کنید ولی بجای == تنها "
+"یک = نوشتید."
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: ./script_checking/error_database.csv:47
@@ -72,6 +98,14 @@ msgid ""
 "In the case of a condition, ensure that you are using two equal signs to "
 "check for equality (==)."
 msgstr ""
+"اگر می‌خواهید ارزشی را به یک متغیر واگذارید، از تابع نبودن و متغیر بودن چیزی "
+"که در چپ نشانه‌ی = هست مطمئن شوید.\n"
+"\n"
+"همچنین از درست بودن سینتَکس (نحو) مطمئن شوید. برای نمونه، در پهلوی چپ نشانه‌ی "
+"برابری نباید کمانکی باشد.\n"
+"\n"
+"در زمینه‌ی شرطی‌ها،‌ مطمئن شوید که دارید از دو نشانه‌ی برابری (==) برای بررسی "
+"برابری شرط بکار می‌برید."
 
 #. Reference: CYCLIC_REFERENCE
 #: ./script_checking/error_database.csv:57
@@ -89,6 +123,18 @@ msgid ""
 "cannot do this. Godot 4 should solve this problem, but you need to work "
 "around it in the meantime."
 msgstr ""
+"بازبرد چرخه‌ای به زمانی گفته می‌شود که یک کلاس خودش را مستقیم یا نامستقیم "
+"بازبرد کند.\n"
+"\n"
+"می‌تواند دو دلیل داشته باشد:\n"
+"\n"
+"۱. شما نام کلاس را در خود آن به‌کار بردید.\n"
+"۲. کد شما کلاسی را بازبرد می‌کند که این کلاس به دست آن بازبرد شده است، که "
+"باعث رخ دادن یک بازبرد چرخه‌ای می‌شود.\n"
+"\n"
+"در هر گونه، بخاطر گونه‌ای که جی.دی.اسکریپت در گودوت ۳ کار می‌کند، شوربختانه، "
+"نمی‌توانید چنین کنید. گودوت ۴ احتمالا این مشکل را حل می‌کند، ولی نیاز دارید تا "
+"آن زمان این را دور بزنید."
 
 #. Reference: CYCLIC_REFERENCE
 #: ./script_checking/error_database.csv:57
@@ -100,6 +146,10 @@ msgid ""
 "causing cyclic references. It solves the problem in the vast majority of "
 "cases."
 msgstr ""
+"راهنمایی گونه را در خط خطا پاک کنید، تا احتمالا مشکل از میان برود.\n"
+"\n"
+"در جی.دی.کوئِست، زمانی که این خطا رخ می‌دهد، راهنمایی‌های گونه‌ای که باعث بازبرد "
+"چرخه‌ای می‌شوند را می‌زداییم. بیشتر زمان‌ها مشکل را حل می‌کند."
 
 #. Reference: INVALID_INDENTATION
 #: ./script_checking/error_database.csv:64
@@ -112,6 +162,12 @@ msgid ""
 "The computer uses those leading tab characters on code lines to know "
 "which lines of code are part of a code block, like a function."
 msgstr ""
+"تورفتگی کد شما (شمار نویسه‌های تَب (tab) در آغاز خط) نادرست است.\n"
+"\n"
+"یک یا چند تَب را از جا انداختید، یا بیش از اندازه جایگذاشتید.\n"
+"\n"
+"رایانه آن نویسه‌های تَب روی خط‌های کد را برای دانستن اینکه کدام خط‌ها بخشی از یک "
+"گروه کدی‌اند به‌کار می‌برد، مانند یک تابع."
 
 #. Reference: INVALID_INDENTATION
 #: ./script_checking/error_database.csv:64
@@ -123,6 +179,10 @@ msgid ""
 "In other words, your line should have one more leading tab character than"
 " the function definition."
 msgstr ""
+"اگر خط کد دارای خطا دقیقا پس از یک خط پایانیده با دونقطه (:)، مانند یک تعریف "
+"تابع باشد، شما به یک پله تورفتگی بیشتر از خط پیشین نیازمندید.\n"
+"\n"
+"به زبانی دیگر، خط شما باید یک نویسه‌ی تَب بیشتر از تعریف تابع داشته باشد."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./script_checking/error_database.csv:73
@@ -138,6 +198,14 @@ msgid ""
 "Note that this error can appear [b]after[/b] the line causing it due to "
 "how the computer reads and analyzes your code."
 msgstr ""
+"زمانی این خطا را می‌گیرید که نوشته‌ی شما از نگاه نحو و سینتَکس نامعتبر باشد، یا "
+"چیزی را برای کامل کردن این خط یا خط‌های پیشین کد از جا انداخته‌اید.\n"
+"\n"
+"هنگام کدنویسی برای رایانه باید بسیار دقیق باشید. گرفتن اینگونه خطا‌ها آسان "
+"است، چرا که تنها نیازش برای رخ دادن یک نویسه‌ی نادرست است.\n"
+"\n"
+"به یاد داشته باشید که این خطا بخاطر شیوه‌ای که رایانه کد شما را می‌خواند و می‌"
+"واکاود می‌تواند [b]پس از[/b] خطی که باعث آن شده است نمایان شود."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./script_checking/error_database.csv:73
@@ -153,6 +221,16 @@ msgid ""
 " an expression, like a closing bracket. In this case, it most likely "
 "comes from the line with the error."
 msgstr ""
+"شیوه‌ی چاره‌گشایی اینگونه خطا‌ها بسیار وابسته به بافتار است. پیام خطا باید به "
+"شما بگوید که کدام نویسه یا درایه از جا افتاده است.\n"
+"\n"
+"اگر خطا می‌گوید «,expected» (مورد انتظار) به این معنا است که شما چیزی از خط‌"
+"های کد [b]پیشین[/b] را از جا انداخته‌اید. می‌تواند یک نشانه‌ی نقطه‌گذاری، کمانک "
+"یا چیز دیگری باشد.\n"
+"\n"
+"اگر می‌گوید «,unterminated» (نافرجام) به این معنا است که شما نویسه‌ای مانند "
+"کمانک را در پایان یک گزاره از جا انداخته‌اید. در این حالت به احتمال بسیار از "
+"خط دارای خطا می‌آید."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./script_checking/error_database.csv:76
@@ -178,6 +256,8 @@ msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
 msgstr ""
+"این خطا به شما می‌گوید که شما چند کمانک، ویرگول یا ارزش را در راهنمایی برون‌"
+"برد خود از جا انداختید."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./script_checking/error_database.csv:77
@@ -185,6 +265,8 @@ msgid ""
 "You need to read the error message and add the missing character or value"
 " it requests."
 msgstr ""
+"باید پیام خطا را بخوانید و ارزش یا نویسه‌ی ازجاافتاده‌ای که درخواست می‌کند را "
+"بیفزایید."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./script_checking/error_database.csv:86
@@ -199,6 +281,13 @@ msgid ""
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
+"این خطا در چند حالت رخ می‌دهد:\n"
+"\n"
+"۱. شما یک شناسه (نام متغیر یا تابع) را در جای نادرست نوشتید.\n"
+"۲. شما یک کلیدواژه مانند [code]var[/code]، [code]func[/code]، "
+"[code]for[/code] یا [code]signal[/code] نوشتید و روبه‌روی آن نامی ننوشتید.\n"
+"۳.شما یک تعریف تابع نوشتید ولی فراموش کردید که پیش از ویرگول (,) کمانک "
+"بگذارید."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./script_checking/error_database.csv:86
@@ -504,11 +593,12 @@ msgstr ""
 #: ./script_checking/error_database.csv:154
 msgid "Please click on the \"report\" button at the top and please let us know."
 msgstr ""
+"خواهشمندیم روی دکمه‌‌ی «گزارش» در بالا کلیک کرده و ما را در جریان بگذارید."
 
 #. Reference: RECURSIVE_FUNCTION
 #: ./script_checking/error_database.csv:155
 msgid "You called a function inside itself. This will loop forever."
-msgstr ""
+msgstr "شما یک تابع را درون خودش فراخواندید. این چرخه‌ای بی‌پایان خواهد بود."
 
 #. Reference: RECURSIVE_FUNCTION
 #: ./script_checking/error_database.csv:155
