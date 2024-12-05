@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-03 03:00+0000\n"
+"PO-Revision-Date: 2024-12-06 09:00+0000\n"
 "Last-Translator: Олександр Пилипчук <lxlalexlxl@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/uk/>\n"
@@ -206,6 +206,14 @@ msgid ""
 "Note that this error can appear [b]after[/b] the line causing it due to "
 "how the computer reads and analyzes your code."
 msgstr ""
+"Ви отримуєте цю помилку, коли написали щось синтаксично неприпустиме або вам "
+"чогось бракує для завершення цього рядка чи попередніх рядків коду.\n"
+"\n"
+"Слід бути гранично точним, коли ви пишете код для комп'ютера. Таку помилку "
+"легко отримати, оскільки до неї приводить навіть один неправильний символ.\n"
+"\n"
+"Зверніть увагу, що ця помилка може виникнути [b]після[/b] рядка, що викликає "
+"її, через особливості того, як комп'ютер читає та аналізує ваш код."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: ./script_checking/error_database.csv:73
@@ -221,6 +229,17 @@ msgid ""
 " an expression, like a closing bracket. In this case, it most likely "
 "comes from the line with the error."
 msgstr ""
+"Спосіб усунення таких помилок значною мірою залежить від контексту. У "
+"повідомленні про помилку має бути зазначено, який символ або елемент "
+"відсутній.\n"
+"\n"
+"Якщо у повідомленні про помилку написано «очікується» (\"expected\"), "
+"найпевніше, ви щось пропустили в одному з [b]попередніх[/b] рядків коду. Це "
+"може бути розділовий знак, дужка або щось ще.\n"
+"\n"
+"Якщо в повідомленні написано «незавершений» (\"unterminated\"), значить "
+"бракує якогось символу в кінці виразу, наприклад, закривної дужки. В такому "
+"разі проблему, найпевніше, спричинив рядок із помилкою."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./script_checking/error_database.csv:76
@@ -232,6 +251,11 @@ msgid ""
 "parentheses: [code]yield()[/code], [code]preload()[/code], and "
 "[code]assert()[/code]."
 msgstr ""
+"Ця помилка повідомляє про те, що у вас відсутня дужка (іноді - кома або "
+"шлях).\n"
+"\n"
+"Три ключові слова в GDScript працюють як виклики функцій і вимагають круглих "
+"дужок: [code]yield()[/code], [code]preload()[/code] і [code]assert()[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: ./script_checking/error_database.csv:76
@@ -239,6 +263,8 @@ msgid ""
 "To address the error, you want to add the missing opening parenthesis, "
 "the closing parenthesis, or the comma."
 msgstr ""
+"Щоб усунути помилку, вам слід додати відсутню відкривну чи закривну круглу "
+"дужку або кому."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./script_checking/error_database.csv:77
@@ -246,6 +272,8 @@ msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
 msgstr ""
+"Ця помилка повідомляє про те, що у вашому описі параметрів експорту змінної "
+"відсутні якісь круглі дужки, кома або якесь значення."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: ./script_checking/error_database.csv:77
@@ -253,6 +281,8 @@ msgid ""
 "You need to read the error message and add the missing character or value"
 " it requests."
 msgstr ""
+"Вам потрібно прочитати повідомлення про помилку та додати відсутній символ "
+"або значення, про яке йдеться."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./script_checking/error_database.csv:86
@@ -267,6 +297,15 @@ msgid ""
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
+"Ця помилка виникає у кількох випадках:\n"
+"\n"
+"1. Ви написали ідентифікатор (назву змінної або функції) в неправильному "
+"місці.\n"
+"2. Ви написали ключове слово на зразок [code]var[/code], [code]func[/code], "
+"[code]for[/code] або [code]signal[/code], але не написали після нього назву."
+"\n"
+"3. Ви написали визначення функції, але забули поставити перед двокрапкою "
+"круглі дужки."
 
 #. Reference: MISPLACED_IDENTIFIER
 #: ./script_checking/error_database.csv:86
@@ -285,6 +324,19 @@ msgid ""
 "function definition, [code]for[/code] loop, or a line starting with "
 "[code]if[/code], [code]elif[/code], or [code]else[/code]."
 msgstr ""
+"Якщо в описі помилки сказано, що щось очікувалося (expected), то ви, "
+"найпевніше, забули написати назву після ключового слова, такого як "
+"[code]var[/code], [code]func[/code], [code]for[/code] або [code]signal[/code]"
+", що робить ваш код неробочим, або забули круглі дужки у визначенні функції. "
+"Ви можете усунути помилку, додавши відсутню назву або круглі дужки.\n"
+"\n"
+"Якщо в описі помилки сказано, що код має щось несподіване (unexpected), "
+"ймовірно, десь бракує ключового слова, такого як [code]var[/code], "
+"[code]func[/code], [code]for[/code] тощо.\n"
+"\n"
+"Інша причина може бути в тому, що потрібно написати двокрапку в кінці "
+"визначення функції, циклу [code]for[/code] або рядка, який починається з "
+"[code]if[/code], [code]elif[/code] чи [code]else[/code]."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: ./script_checking/error_database.csv:91
@@ -301,6 +353,16 @@ msgid ""
 "parentheses of a function definition but do not follow it with a type "
 "name."
 msgstr ""
+"Ця помилка означає, що ви десь пропустили визначення типу. Тип може бути "
+"позначений [code]int[/code], [code]float[/code], [code]String[/code], "
+"[code]Array[/code], [code]Vector2[/code] та іншими ідентифікаторами, які "
+"представляють структуру даних.\n"
+"\n"
+"Здебільшого ця помилка виникає, коли ви написали двокрапку після назви "
+"змінної, але не вказали після неї назву типу.\n"
+"\n"
+"Також, таке трапляється, якщо написати стрілку ([code]->[/code]) після "
+"круглих дужок визначення функції, але не вказати після неї назву типу."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: ./script_checking/error_database.csv:91
@@ -309,6 +371,9 @@ msgid ""
 "arrow (in the case of function return types), inside parentheses (for "
 "export types), or after the [code]as[/code] keyword."
 msgstr ""
+"Щоб розв'язати цю проблему, потрібно написати назву типу після двокрапки, "
+"стрілки (в разі типів, які повертає функція), усередині круглих дужок (для "
+"типів експорту) або після ключового слова [code]as[/code]."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: ./script_checking/error_database.csv:100
@@ -322,6 +387,14 @@ msgid ""
 "The other cause for this error is that you didn't define the variable, "
 "function, or class you're trying to access."
 msgstr ""
+"Змінна, назва функції або назва класу, яку ви намагаєтеся використати, не "
+"існує.\n"
+"\n"
+"Найчастіше ця помилка свідчить про хибодрук. Можливо, ви поміняли місцями "
+"дві літери, пропустили літеру... іноді це складно помітити.\n"
+"\n"
+"Інша причина цієї помилки в тому, що ви не визначили змінну, функцію або "
+"клас, до яких намагаєтеся отримати доступ."
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: ./script_checking/error_database.csv:100
@@ -334,6 +407,13 @@ msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
+"Щоб усунути цю помилку, уважно перевірте, чи немає в рядку хибодруку.\n"
+"\n"
+"Якщо можете, спробуйте перейти до визначення змінної або функції, двічі "
+"клацніть на назві, скопіюйте її і вставте туди, де ви бачите помилку.\n"
+"\n"
+"Якщо ви не бачите жодних хибодруків, слід переконатися, що ви визначили "
+"змінну, функцію або клас, на який посилаєтеся."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./script_checking/error_database.csv:105
@@ -345,6 +425,12 @@ msgid ""
 "the loop.\" And the [code]break[/code] keyword means \"end the loop right"
 " now and jump to the first line of code after the loop block."
 msgstr ""
+"Такі ключові слова як [code]break[/code] або [code]continue[/code] можна "
+"використовувати лише в циклі. Поза циклом вони неприпустимі.\n"
+"\n"
+"Ключове слово [code]continue[/code] означає «перейти до наступної ітерації "
+"циклу». А ключове слово [code]break[/code] означає «закінчити цикл прямо "
+"зараз і перейти до першого рядка коду після блоку циклу»."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./script_checking/error_database.csv:105
@@ -356,6 +442,12 @@ msgid ""
 "likely at fault. You may need to insert one or more leading tab "
 "characters to the keyword."
 msgstr ""
+"Якщо ви написали одне з цих ключових слів поза циклом, потрібно видалити це "
+"слово.\n"
+"\n"
+"Якщо ви намагаєтеся використати ключове слово всередині циклу, найпевніше, "
+"рядок має неправильний відступ. Можливо, перед ключовим словом потрібно "
+"вставити один або кілька символів табуляції."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./script_checking/error_database.csv:110
@@ -367,6 +459,12 @@ msgid ""
 " computer will reject function calls and variables where it needs a "
 "constant expression."
 msgstr ""
+"Коли комп'ютер повідомляє про сталий вираз (constant expression), він очікує "
+"незмінне значення, незмінне обчислення чи назву константи, яка існує.\n"
+"\n"
+"Іншими словами, він хоче щось таке, що ніколи не зміниться. Ось чому "
+"комп'ютер відхилятиме виклики функцій і змінних там, де йому потрібен сталий "
+"вираз."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./script_checking/error_database.csv:110
@@ -378,6 +476,11 @@ msgid ""
 "You can also use arithmetic operators like multiplications (*), additions"
 " (+), and so on."
 msgstr ""
+"Треба замінити виклики функцій або змінні сталим значенням, наприклад, цілим "
+"числом, десятковим дробом, рядком, вектором, передвизначеним масивом тощо.\n"
+"\n"
+"Також можете використовувати арифметичні оператори, такі як множення (*), "
+"додавання (+) тощо."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./script_checking/error_database.csv:115
@@ -388,6 +491,11 @@ msgid ""
 "We typically write class names in PascalCase: with a capital letter at "
 "the start of every word that composes the class name."
 msgstr ""
+"Визначаючи новий клас вам слід дотримуватися певного шаблону. Назву слід "
+"писати звичайним текстом, починаючи з літери.\n"
+"\n"
+"Зазвичай ми пишемо назви класів у стилі PascalCase: з великої букви на "
+"початку кожного слова, з яких складено назву класу."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./script_checking/error_database.csv:115
@@ -398,6 +506,11 @@ msgid ""
 "\n"
 "You can optionally use numbers in the name, but not in the first position."
 msgstr ""
+"Щоб виправити цю помилку, замініть все, що ви помістили після ключових слів "
+"«extends» або «class_name» назвою без пропусків, що починається з великої "
+"літери.\n"
+"\n"
+"За бажанням ви можете використовувати в назві цифри, але не як перший символ."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./script_checking/error_database.csv:120
@@ -408,6 +521,11 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file,"
 " but it may also be in a parent class that this GDScript code extends."
 msgstr ""
+"Ви намагаєтесь визначити функцію або змінну, яка вже існує. Цього робити не "
+"можна.\n"
+"\n"
+"Можливо, функція або змінна вже існує в поточному файлі коду, або в "
+"батьківському класі, від якого успадковано поточний файл."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./script_checking/error_database.csv:120
@@ -419,6 +537,11 @@ msgid ""
 " one that will not collide with an existing one or remove this line of "
 "code."
 msgstr ""
+"У застосунку ваш код успадковує деякий вбудований код Godot, якого вам не "
+"видно.\n"
+"\n"
+"Для виправлення помилки вам потрібно або перейменувати свою функцію чи "
+"змінну так, щоб вона не конфліктувала з наявною, або видалити цей рядок коду."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./script_checking/error_database.csv:125
@@ -429,6 +552,10 @@ msgid ""
 "Perhaps the signal already exists in the current code file, but it may "
 "also be in a parent class that this GDScript code extends."
 msgstr ""
+"Ви намагаєтесь визначити сигнал, який вже існує. Цього робити не можна.\n"
+"\n"
+"Можливо, сигнал вже існує в поточному файлі коду, або у батьківському класі, "
+"від якого успадковано поточний файл."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./script_checking/error_database.csv:125
@@ -439,6 +566,11 @@ msgid ""
 "When that happens, you need to either rename your signal to one that will"
 " not collide with an existing one or remove this line of code."
 msgstr ""
+"У застосунку ваш код розширює деякий вбудований код Godot, якого вам не "
+"видно.\n"
+"\n"
+"Для виправлення помилки потрібно або перейменувати свій сигнал так, щоб він "
+"не конфліктував з наявним, або видалити цей рядок коду."
 
 #. Reference: SIGNATURE_MISMATCH
 #: ./script_checking/error_database.csv:130
@@ -454,6 +586,17 @@ msgid ""
 "also to have two arguments. If you use type hints in your function "
 "definitions, the argument types must match the parent class."
 msgstr ""
+"Функція, яку ви намагаєтеся визначити, існує у батьківському класі, тому "
+"ваше визначення перевизначає функцію батьківського класу.\n"
+"\n"
+"Коли ви перевизначаєте функцію батьківського класу, сигнатура нової функції "
+"повинна відповідати батьківській сигнатурі. Це означає, що кількість і типи "
+"параметрів у ній повинні бути такими ж, як і у функції батьківського класу.\n"
+"\n"
+"Наприклад, якщо батьківський елемент має два аргументи, вам потрібно, щоб "
+"ваша нова функція також мала два аргументи. Якщо ви використовуєте "
+"позначення типів змінних у визначеннях функцій, типи аргументів повинні "
+"відповідати типу в батьківському класі."
 
 #. Reference: SIGNATURE_MISMATCH
 #: ./script_checking/error_database.csv:130
@@ -462,6 +605,9 @@ msgid ""
 "code reference. Then, you need to edit your function definition to have "
 "the same number and type of parameters as the parent class."
 msgstr ""
+"Вам слід ознайомитися з функцією батьківського класу та її визначенням у "
+"довіднику. Потім потрібно відредагувати визначення вашої функції, щоб "
+"кількість та типи параметрів були такими ж як у батьківському класі."
 
 #. Reference: INVALID_ARGUMENTS
 #: ./script_checking/error_database.csv:131
@@ -470,6 +616,9 @@ msgid ""
 "the wrong number of arguments or the wrong kind of argument. You will "
 "need to use the error message to see what is going wrong."
 msgstr ""
+"Помилки цього класу виникають під час виклику функцій з неправильною "
+"кількістю аргументів або з аргументами неправильних типів. Вам потрібно буде "
+"скористатися повідомленням про помилку, щоб зрозуміти, що саме не так."
 
 #. Reference: INVALID_ARGUMENTS
 #: ./script_checking/error_database.csv:131
@@ -479,6 +628,10 @@ msgid ""
 "arguments you need, you need to check the code reference. It will show "
 "you the function definition and the mandatory arguments."
 msgstr ""
+"Щоб вирішити цю проблему, потрібно видалити, додати, або змінити значення, "
+"які ви намагаєтеся передати функції. Інформацію про те, які аргументи "
+"приймає функція, можна знайти у довіднику. У ньому ви побачите визначення "
+"функції та обов'язкові аргументи."
 
 #. Reference: TYPE_MISMATCH
 #: ./script_checking/error_database.csv:142
@@ -497,6 +650,19 @@ msgid ""
 "You'll need to read the error message to see what is not matching because"
 " there are many possible cases."
 msgstr ""
+"Кожне значення у вашому коді має певний тип. Цей тип може бути цілим числом "
+"(int), десятковим дробом (float), текстом (String) тощо. Існує безліч "
+"можливих типів, і ви можете навіть визначати свої власні!\n"
+"\n"
+"Коли ви виконуєте якусь операцію, комп'ютер порівнює типи, які "
+"використовуєте ви.\n"
+"\n"
+"Деякі типи сумісні, а деякі ні. Наприклад, ви не можете безпосередньо додати "
+"ціле число до текстового рядка. Спочатку потрібно перетворити число на текст."
+"\n"
+"\n"
+"Щоб зрозуміти, які саме типи не відповідають один одному, слід прочитати "
+"повідомлення про помилку, оскільки є багато варіантів."
 
 #. Reference: TYPE_MISMATCH
 #: ./script_checking/error_database.csv:142
@@ -512,6 +678,17 @@ msgid ""
 "example, while you can add two 2D vectors, you can't add a whole number "
 "or text to a 2D vector."
 msgstr ""
+"Якщо в описі йдеться про те, що тип значення, яке присвоюється, не "
+"відповідає типу змінної, проблема міститься праворуч від знака рівності (=)."
+"\n"
+"\n"
+"Якщо сказано, що тип значення, яке повертається, не відповідає типу, який "
+"функція повертає, — проблема у значенні після ключового слова return.\n"
+"\n"
+"Якщо повідомлено про неприпустимий операнд — проблема в тому, що операція "
+"незастосовна до типу, який ви намагаєтеся використати. Наприклад, хоча ви "
+"можете додати два 2D-вектори, ви не можете додати до 2D-вектора ціле число "
+"або текст."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: ./script_checking/error_database.csv:147
@@ -523,6 +700,12 @@ msgid ""
 "When that happens, you need to specify the type yourself or remove type "
 "inference altogether for this variable."
 msgstr ""
+"GDScript підтримує автоматичне визначення типу. Комп'ютер автоматично "
+"розпізнає тип значення, з яким ви працюєте, однак у деяких випадках він не "
+"може цього зробити.\n"
+"\n"
+"У таких ситуаціях потрібно вказати тип самостійно або взагалі прибрати "
+"автовизначення типу для цієї змінної."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: ./script_checking/error_database.csv:147
@@ -534,6 +717,12 @@ msgid ""
 "We recommend specifying the type whenever possible to reap the typing "
 "system's benefits."
 msgstr ""
+"Найпростіший спосіб усунути цю помилку – видалити типи для цієї змінної чи "
+"аргументів цієї функції. Також можна вручну вказати тип значення після "
+"двокрапки.\n"
+"\n"
+"Ми радимо вказувати тип щоразу, коли це можливо, щоб скористатися перевагами "
+"системи типізації."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: ./script_checking/error_database.csv:153
@@ -548,6 +737,15 @@ msgid ""
 "returning a value in all possible branches (if, elif, and else blocks) or"
 " at the end."
 msgstr ""
+"Виникла проблема зі значенням, яке повертає ваша функція. Можливі два "
+"випадки:\n"
+"\n"
+"1. Ваша функція повертає значення типу void, тому вона не може повертати "
+"значення. Сюди входять функції зі синтаксисом. «-> void» і конструктори "
+"класів («_init()»).\n"
+"2. Ви вказали тип значення, яке повертає ваша функція, але повертаєте "
+"значення не у всіх можливих гілках (блоки if, elif та else, або кінець "
+"функції)."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: ./script_checking/error_database.csv:153
@@ -560,6 +758,12 @@ msgid ""
 "of the function or in every branch (if, elif, and else block) of the "
 "function."
 msgstr ""
+"Якщо ваша функція повертає значення типу «void», ви не маєте повертати "
+"значення. Ви можете використати ключове слово «return», для дострокового "
+"завершення функції, але писати щось після цього ключового слова не слід.\n"
+"\n"
+"Коли ви зазначаєте тип, що повертається, ви завжди повинні повертати щось в "
+"кінці функції або в кожній гілці (блоки if, elif та else) функції."
 
 #. Reference: INVALID_NO_CATCH
 #: ./script_checking/error_database.csv:154
@@ -567,16 +771,22 @@ msgid ""
 "Godot was unable to load your script, yet the language checker found "
 "nothing wrong."
 msgstr ""
+"Godot не вдалося завантажити ваш скрипт, проте інструмент перевірки коду "
+"проблем не виявив."
 
 #. Reference: INVALID_NO_CATCH
 #: ./script_checking/error_database.csv:154
 msgid "Please click on the \"report\" button at the top and please let us know."
 msgstr ""
+"Будь ласка, натисніть кнопку «Повідомити про помилку» вгорі, щоб сповістити "
+"нас про наявність проблеми."
 
 #. Reference: RECURSIVE_FUNCTION
 #: ./script_checking/error_database.csv:155
 msgid "You called a function inside itself. This will loop forever."
 msgstr ""
+"Ви викликали функцію всередині себе. Виклик зациклиться і повторюватиметься "
+"вічно."
 
 #. Reference: RECURSIVE_FUNCTION
 #: ./script_checking/error_database.csv:155
@@ -584,6 +794,9 @@ msgid ""
 "There are valid reasons for using recursive functions, but none of them "
 "are part of this course, so this cannot be a valid solution."
 msgstr ""
+"Існують вагомі причини використання рекурсивних функцій, але жодна з них не "
+"є частиною цього курсу, тому використання рекурсії не може бути правильним "
+"рішенням."
 
 #. Reference: UNEXPECTED_EOL
 #: ./script_checking/error_database.csv:157
@@ -593,6 +806,10 @@ msgid ""
 "The most common case is when you forget to close a string: you have "
 "opening quotes, but you forget to add a matching closing quote."
 msgstr ""
+"Комп'ютер досяг кінця рядка коду, але в цьому рядку була синтаксична помилка."
+"\n"
+"Найпоширеніший випадок — коли ви забули закрити рядок: у вас є відкривні "
+"лапки, але ви забули додати відповідні закривні лапки."
 
 #. Reference: UNEXPECTED_EOL
 #: ./script_checking/error_database.csv:157
@@ -601,11 +818,13 @@ msgid ""
 " character you used to start the string is the same as the one you used "
 "to close the string."
 msgstr ""
+"Двічі перевірте, чи не пропущено символ лапок або що символ лапок, "
+"використаний на початку рядка, збігається з використаним для закриття рядка."
 
 #. Reference: CANT_GET_INDEX
 #: ./script_checking/error_database.csv:160
 msgid "The sub-variable you are trying to access does not exist."
-msgstr ""
+msgstr "Підзмінна, до якої ви намагаєтеся отримати доступ, не існує."
 
 #. Reference: CANT_GET_INDEX
 #: ./script_checking/error_database.csv:160
@@ -616,3 +835,7 @@ msgid ""
 "Ensure that you don't have a capital letter where you should have a "
 "lowercase letter and vice versa."
 msgstr ""
+"Ймовірно, у вас хибодрук у назві підзмінної, до якої ви намагаєтеся отримати "
+"доступ.\n"
+"\n"
+"Переконайтесь, що у вас немає великої букви там, де має бути мала, і навпаки."
