@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-04 14:04+0000\n"
+"PO-Revision-Date: 2024-12-06 23:30+0000\n"
 "Last-Translator: Олександр Пилипчук <lxlalexlxl@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-2-your-first-error/uk/>\n"
@@ -53,10 +53,12 @@ msgid ""
 "A code error looks like this. It's a message that tells you some bit of "
 "your code doesn't work."
 msgstr ""
+"Помилка в коді виглядає так. Це повідомлення, в якому вам кажуть, що якийсь "
+"фрагмент коду не працює."
 
 #: course/lesson-2-your-first-error/lesson.tres:48
 msgid "Making errors friendlier"
-msgstr ""
+msgstr "Дружимо вас із помилками"
 
 #: course/lesson-2-your-first-error/lesson.tres:50
 msgid ""
@@ -68,6 +70,14 @@ msgid ""
 "It shows you why an error happens and what the message means. It also "
 "gives you some tips on how to fix it."
 msgstr ""
+"Повідомлення про помилки можуть виглядати трохи загадково. Це тому, що їх "
+"розробили програмісти для підготовлених програмістів.\n"
+"\n"
+"Ми додали до цієї програми перекладач помилок, який допоможе вам почати "
+"роботу.\n"
+"\n"
+"Він показує, чому виникає помилка і що означає повідомлення. Перекладач "
+"також дає поради про те, як виправити помилку."
 
 #: course/lesson-2-your-first-error/lesson.tres:74
 msgid ""
@@ -83,10 +93,20 @@ msgid ""
 " what is causing the errors, with the help of error messages, is key to "
 "fixing them."
 msgstr ""
+"Помилки — це повідомлення, які створили інші програмісти, що працювали до "
+"вас. Вони припускали, що у вас можуть виникнути певні проблеми.\n"
+"\n"
+"Ви не повинні думати про помилки як про невдачі. Вони подібні до "
+"наставників, які допомагають вам з минулого. Важливо, що помилки не зламають "
+"ваш комп'ютер. Принаймні не помилки в GDScript, тому що ця мова досить "
+"безпечна.\n"
+"\n"
+"Зрештою, ви хочете виправити всі помилки у вашій програмі. Розуміння причин "
+"помилок за допомогою повідомлень про помилки є ключем до їх виправлення."
 
 #: course/lesson-2-your-first-error/lesson.tres:86
 msgid "Are error messages a good or a bad thing in code?"
-msgstr ""
+msgstr "Помилки в коді – це добре чи погано?"
 
 #: course/lesson-2-your-first-error/lesson.tres:89
 msgid ""
@@ -96,25 +116,32 @@ msgid ""
 " experience, you'll learn to make your code work more reliably thanks to "
 "error messages."
 msgstr ""
+"Так, помилки тут, щоб допомогти вам!\n"
+"\n"
+"Звертайте на них увагу та робіть усе можливе, щоб прочитати та зрозуміти їх. "
+"З досвідом ви навчитеся робити так, щоб ваш код, завдяки повідомленням про "
+"помилки, працював надійніше."
 
 #: course/lesson-2-your-first-error/lesson.tres:92
 msgid "They're bad: error messages are always bad."
-msgstr ""
+msgstr "Вони погані: помилки це завжди погано."
 
 #: course/lesson-2-your-first-error/lesson.tres:92
 #: course/lesson-2-your-first-error/lesson.tres:93
 msgid "They're good: they're here to help."
-msgstr ""
+msgstr "Вони хороші: вони тут, щоб допомогти."
 
 #: course/lesson-2-your-first-error/lesson.tres:102
 msgid ""
 "Okay, let's see an error in action. Once again, click the [i]Practice[/i]"
 " button below to face your first real error."
 msgstr ""
+"Отже, погляньмо на помилку в дії. Ще раз натисніть нижче кнопку "
+"[i]Практика[/i], щоб побачити свою першу справжню помилку."
 
 #: course/lesson-2-your-first-error/lesson.tres:110
 msgid "Fix Your First Error"
-msgstr ""
+msgstr "Виправте свою першу помилку"
 
 #: course/lesson-2-your-first-error/lesson.tres:111
 msgid ""
@@ -134,11 +161,26 @@ msgid ""
 "Otherwise, that'll cause another error. You may try that too, if you feel"
 " like it."
 msgstr ""
+"Цей код хибний і викличе помилку, коли ви спробуєте його виконати.\n"
+"\n"
+"Код визначає порожню функцію з назвою [code]this_code_is_wrong[/code].\n"
+"\n"
+"Для правильної роботи ця функція має містити ключове слово "
+"[code]return[/code]. Але воно зараз перебуває всередині коментаря, який "
+"комп'ютер нехтує.\n"
+"\n"
+"Випробуйте поточний код, натиснувши кнопку [i]Запустити[/i].\n"
+"\n"
+"Потім видаліть знак коментаря (#), щоб зробити код правильним.\n"
+"\n"
+"Будьте обережні, щоб не видалити пропуск перед [code]return[/code]! В іншому "
+"випадку це викликає ще одну помилку. Ви можете спробувати викликати її, якщо "
+"вам цього хочеться."
 
 #: course/lesson-2-your-first-error/lesson.tres:131
 msgid "There's an error in this code. We need you to fix it!"
-msgstr ""
+msgstr "У цьому коді є помилка. Нам потрібно, щоби ви її виправили!"
 
 #: course/lesson-2-your-first-error/lesson.tres:135
 msgid "Your First Error"
-msgstr ""
+msgstr "Ваша перша помилка"
