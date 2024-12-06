@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-06 09:00+0000\n"
+"PO-Revision-Date: 2024-12-06 23:30+0000\n"
 "Last-Translator: Олександр Пилипчук <lxlalexlxl@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/glossary_database/uk/>\n"
@@ -211,16 +211,25 @@ msgid ""
 "Vectors can seem daunting at first because they are pretty abstract, but "
 "as you will see, they'll simplify code tremendously."
 msgstr ""
+"У математиці вектор – це набір чисел. В іграх ми часто використовуємо 2D та "
+"3D вектори: відповідно, набори з двох та трьох чисел.\n"
+"\n"
+"Ми використовуємо вектори для подання напрямку та величини чи інтенсивності "
+"у просторі. Наприклад, ви можете використовувати вектор для подання напрямку "
+"та швидкості, з якою рухається персонаж або транспортний засіб.\n"
+"\n"
+"Спочатку вектори можуть видатися складними, тому що вони є досить "
+"абстрактними, але надалі ви побачите, що вони значно спрощують код."
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "argument"
-msgstr ""
+msgstr "аргумент"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "arguments"
-msgstr ""
+msgstr "аргументи"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
@@ -242,16 +251,32 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and"
 " [code]y[/code] are [i]parameters[/i]."
 msgstr ""
+"Аргумент — це значення, яке ви передаєте у функцію під час її виклику. "
+"Наприклад, у виклику [code]rotate(0.5)[/code] значення [code]0.5[/code] у "
+"круглих дужках є аргументом.\n"
+"\n"
+"Функція може не приймати жодних аргументів, приймати один або кілька "
+"аргументів. Аргументи можуть бути обов'язковими чи необов'язковими.\n"
+"\n"
+"Коли функція приймає кілька аргументів, відокремлюйте їхні значення комами, "
+"як у цьому прикладі: [code]jump(50, 100)[/code]\n"
+"\n"
+"Під час [i]виклику[/i] функції ми називаємо значення, що передаються в "
+"круглих дужках, [i]аргументами[/i].\n"
+"\n"
+"Однак під час написання визначення функції ми говоримо про [i]параметри[/i] "
+"функції. В такому прикладі назви [code]x[/code] і [code]y[/code] є "
+"[i]параметрами[/i]."
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "array"
-msgstr ""
+msgstr "масив"
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "arrays"
-msgstr ""
+msgstr "масиви"
 
 #. Reference: array
 #: ./course/glossary.csv:44
@@ -269,11 +294,23 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
+"Масив — це набір значень. У GDScript масиви можуть містити значення "
+"[i]будь-яких[/i] типів.\n"
+"\n"
+"Щоб створити масив, потрібно записати значення через кому в квадратних "
+"дужках: [code]var three_numbers = [1, 2, 3][/code]\n"
+"\n"
+"В іграх ми постійно використовуємо масиви для зберігання списків персонажів "
+"у групі, списків предметів у інвентарі, списків заклинань, розблокованих "
+"гравцем тощо. Вони всюди.\n"
+"\n"
+"Масиви — це фундаментальний тип значень у комп'ютерному програмуванні. Ви "
+"зустрінете масиви практично в будь-якій мові програмування."
 
 #. Reference: assign
 #: ./course/glossary.csv:45
 msgid "assign"
-msgstr ""
+msgstr "присвоювання"
 
 #. Reference: assign
 #: ./course/glossary.csv:45
@@ -281,16 +318,19 @@ msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
+"Присвоєння значення змінній означає, що ви зберігаєте значення всередині "
+"змінної. Щоб виконати цю операцію, слід використати знак рівності "
+"([code]=[/code])."
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionary"
-msgstr ""
+msgstr "словник"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionaries"
-msgstr ""
+msgstr "словники"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
@@ -311,16 +351,32 @@ msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
+"Словник — це структура даних, яка зіставляє значення за допомогою пар ключ-"
+"значення. Коли ви даєте словнику ключ, він знаходить та повертає вам "
+"відповідне значення.\n"
+"\n"
+"В GDScript ключі можуть бути різними. Ми часто використовуємо текстові рядки "
+"або числа, але ви не обмежені лише рядками та числами. Наприклад, якщо в "
+"якщо грі використовується сітка, то ключем може бути [code]Vector2[/code], "
+"який зручний для зіставлення комірки сітки з юнітом або іншим елементом гри."
+"\n"
+"\n"
+"Ви часто будете використовувати словники для зіставлення фрагментів даних у "
+"своїх іграх. Наприклад, ви можете використати словник, щоб зв'язати назву "
+"спорядження з його характеристиками в базі даних.\n"
+"\n"
+"Як і масиви, словники є фундаментальним типом даних, який ви зустрінете в "
+"багатьох мовах програмування і часто будете використовувати."
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loop"
-msgstr ""
+msgstr "цикл for"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loops"
-msgstr ""
+msgstr "цикли for"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
@@ -338,16 +394,28 @@ msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to"
 " use than while loops."
 msgstr ""
+"Цикл for вказує комп'ютеру повторити набір інструкцій один раз для кожного "
+"значення масиву.\n"
+"\n"
+"На кожній ітерації циклу компілятор отримує одне значення з масиву і надає "
+"вам доступ до нього в тілі циклу..\n"
+"\n"
+"Цикли for запускають код обмежену кількість разів: по одному на кожне "
+"значення масиву. Цим цикли for відрізняються від циклів while, які "
+"продовжують повторювати код доти, доки не буде виконано умову.\n"
+"\n"
+"Ми радимо надавати перевагу циклам for завжди, коли це можливо. Цикли for "
+"безпечніші та простіші у використанні, ніж цикли while."
 
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "function"
-msgstr ""
+msgstr "функція"
 
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "functions"
-msgstr ""
+msgstr "функції"
 
 #. Reference: function
 #: ./course/glossary.csv:64
@@ -363,31 +431,40 @@ msgid ""
 "\n"
 "Also, functions can optionally return a value to the code calling it."
 msgstr ""
+"Функція – це група інструкцій коду, якій ви даєте назву. Коли ви визначили "
+"функцію, ви можете викликати її в будь-який час, щоб виконати всі "
+"інструкції, які вона містить.\n"
+"\n"
+"Ви можете змінювати поведінку функції за допомогою параметрів. Параметри - "
+"це назви змінних, які ви пишете у визначенні функції. Ви можете "
+"використовувати їх у тілі функції, щоб адаптувати код до різних випадків.\n"
+"\n"
+"Крім того, функції можуть повертати значення в код, який їх викликав."
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "increment"
-msgstr ""
+msgstr "інкремент"
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "increments"
-msgstr ""
+msgstr "інкременти"
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "An increment is the amount by which a value changes in your code."
-msgstr ""
+msgstr "Інкремент — це величина, на яку змінюється значення у вашому коді."
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instruction"
-msgstr ""
+msgstr "інструкція"
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instructions"
-msgstr ""
+msgstr "інструкції"
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
@@ -398,16 +475,20 @@ msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
 msgstr ""
+"У комп'ютерному програмуванні інструкція - це одна дія, яку комп'ютер "
+"розпізнає і може виконати.\n"
+"\n"
+"Наприклад, виклик функції, додавання або надання значення змінній."
 
 #. Reference: variable
 #: ./course/glossary.csv:77
 msgid "variable"
-msgstr ""
+msgstr "змінна"
 
 #. Reference: variable
 #: ./course/glossary.csv:77
 msgid "variables"
-msgstr ""
+msgstr "змінні"
 
 #. Reference: variable
 #: ./course/glossary.csv:77
@@ -428,16 +509,32 @@ msgid ""
 " that you attach to some value. Any time, you can take the label and "
 "stick it onto a new product or, in that case, a new value."
 msgstr ""
+"Змінні — це засіб для надання назв значенням, які ви хочете мати у своєму "
+"коді та змінювати з часом.\n"
+"\n"
+"Наприклад, здоров'я персонажа: коли персонаж отримує удар, ви хочете, щоб "
+"здоров'я знизилося. Коли він лікується, ви хочете, щоб здоров'я відновилося."
+"\n"
+"\n"
+"Ви можете створити змінну з назвою [code]health[/code] для подання стану "
+"здоров'я.\n"
+"\n"
+"Потім щоразу, коли ви пишете ключове слово [code]health[/code] у своєму "
+"коді, комп'ютер діставатиме вам відповідне значення із пам'яті.\n"
+"\n"
+"Змінні працюють подібно до етикеток товарів у супермаркеті. Це назви, якими "
+"ви позначаєте якесь значення. У будь-який момент ви можете взяти етикетку та "
+"наклеїти її на новий товар або, в цьому випадку, на нове значення в коді."
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
 msgid "while loop"
-msgstr ""
+msgstr "цикл while"
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
 msgid "while loops"
-msgstr ""
+msgstr "цикли while"
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
@@ -454,11 +551,24 @@ msgid ""
 "like processing files, processing computer code, or for powerful "
 "algorithms."
 msgstr ""
+"Цикл while спонукає комп'ютер продовжувати виконання коду, виходячи з умови. "
+"Поки умова істинна, цикл продовжує виконуватись.\n"
+"\n"
+"При написанні циклів while будьте уважні: якщо ви неправильно виберете "
+"умову, вони можуть виконуватися нескінченно і призведуть до нескінченного "
+"зависання.\n"
+"\n"
+"Ось чому ми радимо завжди, коли це можливо, використовувати безпечніший цикл "
+"for.\n"
+"\n"
+"Однак все ще існують особливі випадки, коли ми використовуємо цикли while, "
+"наприклад, для опрацювання файлів, опрацювання комп'ютерного коду або для "
+"потужних алгоритмів."
 
 #. Reference: body
 #: ./course/glossary.csv:85
 msgid "body"
-msgstr ""
+msgstr "тіло"
 
 #. Reference: body
 #: ./course/glossary.csv:85
@@ -466,11 +576,13 @@ msgid ""
 "We talk about a loop or a function's body to refer to the lines of code "
 "that are part of the loop or function."
 msgstr ""
+"Тілом циклу або функції ми називаємо рядки коду, які є частиною циклу або "
+"функції."
 
 #. Reference: return
 #: ./course/glossary.csv:88
 msgid "return"
-msgstr ""
+msgstr "повернення"
 
 #. Reference: return
 #: ./course/glossary.csv:88
@@ -481,16 +593,22 @@ msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed "
 "by a value, for example: [code]return -1[/code]."
 msgstr ""
+"Повернення значення — це процес надсилання значення в місце, звідки ви "
+"викликали функцію.\n"
+"\n"
+"Повернення відбувається, коли у функції використано ключове слово "
+"[code]return[/code] із зазначеним після нього значенням, наприклад: [code]"
+"return -1[/code]."
 
 #. Reference: library
 #: ./course/glossary.csv:89
 msgid "library"
-msgstr ""
+msgstr "бібліотека"
 
 #. Reference: library
 #: ./course/glossary.csv:89
 msgid "libraries"
-msgstr ""
+msgstr "бібліотеки"
 
 #. Reference: library
 #: ./course/glossary.csv:89
@@ -498,16 +616,19 @@ msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
+"Бібліотека — це колекція цінного та придатного для повторного використання "
+"коду, який склали разом інші програмісти, щоб заощадити ваш час. Усі "
+"програмісти використовують бібліотеки коду."
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
 msgid "sprite"
-msgstr ""
+msgstr "спрайт"
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
 msgid "sprites"
-msgstr ""
+msgstr "спрайти"
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
@@ -516,3 +637,6 @@ msgid ""
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
 msgstr ""
+"У комп'ютерній графіці спрайт – це зображення, яке показується на екрані. "
+"Зазвичай ми використовуємо слово спрайт, коли йдеться про рухливі "
+"зображення, такі як персонаж, монстр або предмет, що падає на землю."
