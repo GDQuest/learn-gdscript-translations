@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-06 09:00+0000\n"
+"PO-Revision-Date: 2024-12-08 16:00+0000\n"
 "Last-Translator: Atur <aturaseman9@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/fa/>\n"
@@ -397,6 +397,13 @@ msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
+"برای حل کردن این خطا، دوباره از نبود اشتباه نوشتاری در خط مطمئن شوید.\n"
+"\n"
+"اگر می‌توانید،‌ برای رفتن به تعریف تابع یا متغیر بکوشید، نام را دوباره بررسی "
+"کرده، روگرفت کنید، و آن را در جایی که خطا را می‌بینید، بچسبانید.\n"
+"\n"
+"اگر هیچ اشتباه نوشتاری نمی‌بینید، باید مطمئن شوید که متغیر، تابع یا کلاسی که "
+"بازبرد می‌کنید را تعریف کرده‌اید."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./script_checking/error_database.csv:105
@@ -408,6 +415,12 @@ msgid ""
 "the loop.\" And the [code]break[/code] keyword means \"end the loop right"
 " now and jump to the first line of code after the loop block."
 msgstr ""
+"درون یک چرخه تنها می‌توانید کلیدواژه‌هایی مانند [code]break[/code] یا "
+"[code]continue[/code] را به‌کار ببرید. بیرون از چرخه، نامعتبرند.\n"
+"\n"
+"کلیدواژه‌ی [code]continue[/code] به معنای «پرش به تکرار بعدی چرخه» و کلیدواژه‌"
+"ی [code]break[/code] به معنای «در لحظه پایان دادن چرخه و پرش به نخستین خط کد "
+"پس از گروه کدی چرخه» می‌باشد."
 
 #. Reference: MISPLACED_KEYWORD
 #: ./script_checking/error_database.csv:105
@@ -419,6 +432,11 @@ msgid ""
 "likely at fault. You may need to insert one or more leading tab "
 "characters to the keyword."
 msgstr ""
+"اگر یکی از این کلیدواژه‌ها را بیرون از یک چرخه نوشتید، باید آن را بزدایید.\n"
+"\n"
+"اگر دارید می‌کوشید آن را در یک چرخه به‌کار بگیرید، پس به احتمال فراوان تورفتگی‌"
+"های شما دارای مشکل‌اند. شاید نیاز به جایگذاری یک یا چند نویسه‌ی تَب (tab) در "
+"کلیدواژه داشته باشید."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./script_checking/error_database.csv:110
@@ -430,6 +448,12 @@ msgid ""
 " computer will reject function calls and variables where it needs a "
 "constant expression."
 msgstr ""
+"هنگامی که رایانه درباره‌ی یک گزاره‌ی ثابت سخن می‌گوید، انتظار یک ارزش ایستا، یک "
+"برآورد ایستا یا نام یک ثابت موجود را دارد.\n"
+"\n"
+"به زبانی دیگر، چیزی می‌خواهد که هرگز نتوانید دگرگون کنید. دلیل نپذیرفتن "
+"فراخوان‌های تابع و متغیرهایی که نیاز به یک گزاره‌ی ثابت دارند به دست رایانه "
+"همین است."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: ./script_checking/error_database.csv:110
@@ -441,6 +465,10 @@ msgid ""
 "You can also use arithmetic operators like multiplications (*), additions"
 " (+), and so on."
 msgstr ""
+"شما نیاز دارید تا فراخوان تابع‌ها یا متغیرها را با یک ارزش ثابت مانند یک عدد "
+"صحیح، عدد اعشاری، رشته، بُردار، آرایه‌ی از پیش تعریف‌شده و... جایگزین کنید.\n"
+"\n"
+"همچنین می‌توانید عملگرهای حسابی مانند ضرب (*)، جمع (+) و... را به‌کار بگیرید."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./script_checking/error_database.csv:115
@@ -451,6 +479,11 @@ msgid ""
 "We typically write class names in PascalCase: with a capital letter at "
 "the start of every word that composes the class name."
 msgstr ""
+"هنگام تعریف یک کلاس نو، باید یک الگوی مشخص را دنبال کنید. باید نام را در متن "
+"اصلی آغازشده با یک وات (حرف) بنویسید.\n"
+"\n"
+"ما بیشتر زمان‌ها نام کلاس‌ها را با پاسکال‌کِیس می‌نویسیم: با یک وات بزرگ در آغاز "
+"هر واژه‌ای که نام کلاس را می‌سازد."
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: ./script_checking/error_database.csv:115
@@ -461,6 +494,10 @@ msgid ""
 "\n"
 "You can optionally use numbers in the name, but not in the first position."
 msgstr ""
+"برای درست کردن این خطا، هر چیزی که پس از کلید‌واژه‌ی «extends» یا «class_name» "
+"گذاشتید را با یک نام بی‌فاصله و آغازشده با یک وات (حرف) بزرگ جایگزین کنید.\n"
+"\n"
+"اگر بخواهید می‌توانید در نام شماره هم بگذارید، ولی نه بعنوان نخستین نویسه."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./script_checking/error_database.csv:120
@@ -471,6 +508,10 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file,"
 " but it may also be in a parent class that this GDScript code extends."
 msgstr ""
+"اگر در کوشش تعریف یک تابع یا متغیر از پیش موجودید؛ نمی‌توانید بینجامید.\n"
+"\n"
+"شاید تابع یا متغیر هم‌اکنون در پرونده‌ی کد کنونی هست، شاید هم در کلاس سرپرستی "
+"که این کد جی.دی.اسکریپت از آن ارث می‌برد، حاضر باشد."
 
 #. Reference: DUPLICATE_DECLARATION
 #: ./script_checking/error_database.csv:120
@@ -482,6 +523,11 @@ msgid ""
 " one that will not collide with an existing one or remove this line of "
 "code."
 msgstr ""
+"درون برنامه، کد شما از چند کد درون‌ساخته‌ی گودوت ارث می‌برد که شما آنها را "
+"نمی‌بینید.\n"
+"\n"
+"هنگام رخ دادن آن، باید تابع یا متغیر خود را به نامی که با دیگر نام‌های موجود "
+"برخورد نداشته باشد بازنامگذارید، یا این خط را از کد بزدایید."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./script_checking/error_database.csv:125
@@ -492,6 +538,10 @@ msgid ""
 "Perhaps the signal already exists in the current code file, but it may "
 "also be in a parent class that this GDScript code extends."
 msgstr ""
+"اگر در کوشش تعریف یک سیگنال از پیش موجودید: نمی‌توانید بینجامید.\n"
+"\n"
+"شاید سیگنال هم‌اکنون در پرونده‌ی کد کنونی هست، شاید هم در کلاس سرپرستی که این "
+"کد جی.دی.اسکریپت از آن ارث می‌برد، حاضر باشد."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: ./script_checking/error_database.csv:125
@@ -502,6 +552,11 @@ msgid ""
 "When that happens, you need to either rename your signal to one that will"
 " not collide with an existing one or remove this line of code."
 msgstr ""
+"درون برنامه، کد شما از چند کد درون‌ساخته‌ی گودوت ارث می‌برد که شما آنها را "
+"نمی‌بینید.\n"
+"\n"
+"هنگام رخ دادن آن، باید سیگنال خود را به نامی که با دیگر نام‌های موجود برخورد "
+"نداشته باشد بازنامگذارید، یا این خط را از کد بزدایید."
 
 #. Reference: SIGNATURE_MISMATCH
 #: ./script_checking/error_database.csv:130
@@ -517,6 +572,16 @@ msgid ""
 "also to have two arguments. If you use type hints in your function "
 "definitions, the argument types must match the parent class."
 msgstr ""
+"تابعی که در کوشش تعریف آن‌اید در یک کلاس سرپرست هست، پس تعریف شما تابع کلاس "
+"سرپرست را بازنویسی می‌کند.\n"
+"\n"
+"هنگامی که تابع کلاس سرپرستی را بازمی‌نویسید، تابع نو باید با سرپرست مطابقت "
+"داشته باشد. تابع نو باید گونه‌ی یکسان و شمار یکسانی از پارامترهای کلاس سرپرست "
+"را دارا باشد.\n"
+"\n"
+"برای نمونه، اگر سرپرست دو آرگومان دارد، تابع نو شما نیز باید دو آرگومان "
+"داشته باشد. اگر راهنمایی گونه در تعریف تابع‌هایتان به‌کار می‌برید، گونه‌های "
+"آرگومان‌ها باید با کلاس سرپرست مطابقت داشته باشند."
 
 #. Reference: SIGNATURE_MISMATCH
 #: ./script_checking/error_database.csv:130
