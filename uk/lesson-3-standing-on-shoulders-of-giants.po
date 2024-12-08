@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-08 19:42+0000\n"
+"PO-Revision-Date: 2024-12-09 20:00+0000\n"
 "Last-Translator: Олександр Пилипчук <lxlalexlxl@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-3-standing-on-shoulders-of-giants/uk/>\n"
@@ -91,8 +91,8 @@ msgstr ""
 "[i]викликаєте[/i] функцію.\n"
 "\n"
 "Щоб викликати функцію, потрібно написати її [i]точну[/i] назву, а після неї "
-"поставити відкривну та закривну дужки. Щоб викликати функцію з назвою «show»"
-", слід написати [code]show()[/code]."
+"поставити відкриту і закриту дужки. Щоб викликати функцію з назвою «show», "
+"слід написати [code]show()[/code]."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:58
 msgid ""
@@ -126,10 +126,13 @@ msgid ""
 " in a new function named [code]run()[/code] to execute the code. Creating"
 " a new function is necessary to execute instructions in GDScript."
 msgstr ""
+"У наведеному вище лістингу, для того, щоб код було виконано, ми записали "
+"виклик функції [code]hide()[/code] у нову функцію з назвою [code]run()[/code]"
+". Створення нової функції необхідне для виконання інструкцій у GDScript."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:92
 msgid "Can you tell me more about that \"run()\" function?"
-msgstr ""
+msgstr "Чи можете мені розповісти більше про функцію «run()»?"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:94
 msgid ""
@@ -158,10 +161,34 @@ msgid ""
 "\n"
 "Those are functions we created to give you interactive examples."
 msgstr ""
+"В GDScript, на відміну від деяких інших мов, ми зобов'язані поміщати весь "
+"наш код усередину функцій.\n"
+"\n"
+"У ході курсу ви докладно дізнаєтеся, що таке функції і як вони працюють, але "
+"ось їх короткий огляд, якщо вам цікаво.\n"
+"\n"
+"Функція — це шматочок коду, який ви можете викликати в будь-який час. Це "
+"іменований перелік інструкцій.\n"
+"\n"
+"Щоб визначити функцію, потрібно написати ключове слово [code]func[/code], "
+"назву функції, круглі дужки і двокрапку: [code]func run():[/code] визначає "
+"функцію з назвою [code]run()[/code].\n"
+"\n"
+"Потім ви маєте перейти до наступного рядка, щоб написати тіло функції, тобто "
+"список інструкцій з яких вона складається.\n"
+"\n"
+"Зверніть увагу, що перед кожною інструкцією ставиться символу "
+"[code]Tab[/code] (табуляції). Комп'ютер використовує символи табуляції, щоб "
+"дізнатися, які рядки є частиною функції.\n"
+"\n"
+"Протягом усього курсу ви побачите багато функцій, названих "
+"[code]run()[/code].\n"
+"\n"
+"Це функції, які ми створили, щоб надати вам інтерактивні приклади."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:116
 msgid "Function arguments"
-msgstr ""
+msgstr "Аргументи функції"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:118
 msgid ""
@@ -172,6 +199,11 @@ msgid ""
 "[code]rotate(0.3)[/code] function, the character [i]sprite[/i] turns by "
 "0.3 radians."
 msgstr ""
+"Для виклику функцій ми використовуємо круглі дужки, тому що в них можна "
+"помістити [i]аргументи[/i] функції під час її виклику.\n"
+"\n"
+"Ось [i]спрайт[/i], розташований прямо. Якщо ми викличемо функцію "
+"[code]rotate(0.3)[/code], [i]спрайт[/i] персонажа повернеться на 0.3 радіана."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:140
 msgid ""
@@ -197,10 +229,30 @@ msgid ""
 "you need to use a dot like this to represent decimal numbers. You can't "
 "use commas as they have a different purpose in code."
 msgstr ""
+"[code]0.3[/code], записане в круглих дужках — це [i]аргумент[/i] функції.\n"
+"\n"
+"Аргументи - це значення (числа, фрагменти тексту та багато іншого), які "
+"змінюють поведінку функції.\n"
+"\n"
+"Аргументи дають змогу точно налаштувати дію функції під час виклику. Іноді "
+"аргументи можуть бути необов'язковими, але часто функції вимагають їх для "
+"роботи.\n"
+"\n"
+"Наприклад, виклик [code]rotate()[/code] без будь-якого аргументу призведе до "
+"помилки. Без аргументів Godot не знає [i]як сильно[/i] ви збираєтеся "
+"повернути [i]спрайт[/i].\n"
+"\n"
+"Не турбуйтеся про те, що вам потрібно запам'ятати, які аргументи вимагає чи "
+"приймає кожна функція! Документація завжди буде під рукою, щоб ви могли "
+"звернутися до неї, як програміст.\n"
+"\n"
+"Зрештою, зверніть увагу, як ми використовуємо крапку в числі [code]0.3[/code]"
+" вище: таку крапку слід використовувати для запису десяткових дробів. Не "
+"можна використовувати коми, оскільки вони в коді мають інше призначення."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:158
 msgid "What are radians?"
-msgstr ""
+msgstr "Що таке радіани?"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:160
 msgid ""
@@ -230,30 +282,57 @@ msgid ""
 " the radius of a circle [code]2 * PI[/code] times around the circle to "
 "make a full circle."
 msgstr ""
+"Значення [code]0.3[/code] - це величина кута в [i]радіанах[/i]. У "
+"повсякденному житті ми звикли вимірювати кути в градусах. Радіан — це ще "
+"одна одиниця вимірювання, яку зазвичай використовують у відеоіграх та "
+"математиці.\n"
+"\n"
+"Ви можете перетворити радіани на градуси, помноживши їх на 180 і поділивши "
+"результат на число Пі:\n"
+"\n"
+"[code]degrees = radians * 180 / PI[/code]\n"
+"\n"
+"Кут [code]PI[/code] радіан відповідає [code]180[/code] градусам. А [code]2 * "
+"PI[/code] — це повний оберт: [code]360[/code] градусів.\n"
+"\n"
+"[b]Як саме працюють радіани?[/b]\n"
+"\n"
+"Радіани — це спосіб вимірювання кутів на основі радіуса кола.\n"
+"\n"
+"Щоб отримати кут у радіанах, візьміть довжину радіуса кола і відміряйте на "
+"колі дугу, рівну цій довжині. Кут цієї дуги становитиме [code]1[/code] "
+"радіан, оскільки довжину радіуса на колі відкладено [code]1[/code] раз.\n"
+"\n"
+"Оскільки довжина кола дорівнює [code]2 * PI * radius[/code], повний оберт "
+"(360°) відповідає [code]2 * PI[/code] радіанам: щоб отримати повне коло, вам "
+"доведеться відкласти радіус уздовж нього [code]2 * PI[/code] разів."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:182
 msgid "What does the code below do?"
-msgstr ""
+msgstr "Що робить код, наведений нижче?"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:183
 msgid "[code]show()[/code]"
-msgstr ""
+msgstr "[code]show()[/code]"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:185
 msgid ""
 "Both answers were right! Technically, the code calls the "
 "[code]show()[/code] function. And doing so makes the game entity visible."
 msgstr ""
+"Обидві відповіді були правильними! Технічно код викликає функцію "
+"[code]show()[/code], а ця функція, своєю чергою, робить ігровий об'єкт "
+"видимим."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:186
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:187
 msgid "It calls the function named \"show\"."
-msgstr ""
+msgstr "Він викликає функцію з назвою «show»."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:186
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:187
 msgid "It makes the entity (like a game character or a sprite) visible."
-msgstr ""
+msgstr "Він робить ігровий об'єкт (наприклад, персонажа або спрайт) видимим."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:196
 msgid ""
@@ -267,10 +346,19 @@ msgid ""
 "This is one way to move a character in a game, although we'll see more "
 "powerful ways to do this later."
 msgstr ""
+"Інший приклад: за допомогою функції [code]move_local_x()[/code] можна "
+"переміщувати персонажа вліво і вправо. Функція приймає один аргумент: "
+"кількість пікселів для зміщення об'єкта.\n"
+"\n"
+"Схожа функція [code]move_local_y()[/code] змушує персонажа переміщуватися "
+"вгору та вниз.\n"
+"\n"
+"Це один зі способів переміщення персонажа у грі, хоча пізніше ми розглянемо "
+"ефективніші способи."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:218
 msgid "Why move_local_y(20) moves the character down"
-msgstr ""
+msgstr "Чому move_local_y(20) переміщує персонажа вниз"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:220
 msgid ""
@@ -285,14 +373,24 @@ msgid ""
 "points down instead. So whenever you move something on the Y-axis with a "
 "positive value, it'll move [i]down[/i]."
 msgstr ""
+"За додатних значень ([code]20[/code]) наведений вище код переміщує робота "
+"вправо і вниз.\n"
+"\n"
+"Ймовірно, це відрізняється від того, що ви вивчали у школі: на уроках "
+"математики горизонтальна вісь спрямована вправо, як і тут, але вертикальна "
+"вісь спрямована вгору.\n"
+"\n"
+"У відеоіграх і, як правило, у комп'ютерній 2D-графіці вертикальна вісь "
+"спрямована вниз. Тому щоразу, коли ви переміщуєте щось по осі Y з додатним "
+"значенням, воно переміщується [i]вниз[/i]."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:232
 msgid "How do you call a function?"
-msgstr ""
+msgstr "Як викликати функцію?"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:233
 msgid "What is the syntax you use to call a function in general?"
-msgstr ""
+msgstr "Який синтаксис можна використовувати для дзвінка?"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:235
 msgid ""
@@ -303,25 +401,34 @@ msgid ""
 "inside the parentheses. Whether you need to do that or not depends on the"
 " function."
 msgstr ""
+"Щоб викликати функцію, потрібно написати її точну назву, а потім поставити "
+"відкриту і закриту круглі дужки.\n"
+"\n"
+"Якщо функція приймає один чи кілька [i]аргументів[/i], можна додати їх у "
+"круглі дужки. Потрібно додавати аргументи чи ні, залежить від конкретної "
+"функції."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:238
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:239
 msgid "You write its name followed by an opening and a closing parenthesis."
 msgstr ""
+"Написати назву функції, потім поставити відкриту і закриту круглі дужки."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:238
 msgid "You write its name followed by a colon."
-msgstr ""
+msgstr "Написати назву функції, потім двокрапку."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:238
 msgid ""
 "You write a value, like a number, followed by an opening and a closing "
 "parenthesis."
 msgstr ""
+"Написати значення, наприклад число, потім поставити відкриту і закриту "
+"круглі дужки."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:246
 msgid "Make The Character Visible"
-msgstr ""
+msgstr "Зробіть персонажа видимим"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:247
 msgid ""
@@ -332,14 +439,20 @@ msgid ""
 "on line [code]2[/code], and keep the [code]Tab[/code] character at the "
 "start of the line. The computer needs that to understand your code."
 msgstr ""
+"Наш персонаж-робот невидимий! Викличте функцію [code]show()[/code], щоб "
+"змусити його з'явитися.\n"
+"\n"
+"Будь ласка, викличте [code]show()[/code] всередині функції [code]run()[/code]"
+" в рядку [code]2[/code], обов'язково зберігши символ [code]Tab[/code] "
+"(табуляцію) на початку рядка. Комп'ютеру це потрібно, щоб зрозуміти ваш код."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:259
 msgid "The robot's invisible! Call a function to bring it back."
-msgstr ""
+msgstr "Робот невидимий! Викличте функцію, щоб показати його."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:264
 msgid "Make the Robot Upright"
-msgstr ""
+msgstr "Поставте робота у вертикальне положення"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:265
 msgid ""
@@ -350,11 +463,20 @@ msgid ""
 " on line [code]2[/code], and keep the [code]Tab[/code] character at the "
 "start of the line. The computer needs that to understand your code."
 msgstr ""
+"Робот повернутий на [code]-0.5[/code] радіан. Вам потрібно поставити його у "
+"вертикальне положення, викликавши функцію [code]rotate()[/code].\n"
+"\n"
+"Будь ласка, викличте [code]rotate()[/code] всередині функції "
+"[code]run()[/code] в рядку [code]2[/code], обов'язково зберігши символ "
+"[code]Tab[/code] (табуляцію) на початку рядка. Комп'ютеру це потрібно, щоб "
+"зрозуміти ваш код."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:277
 msgid "The robot is turned sideways. Help it straighten up with a function call."
 msgstr ""
+"Робот повернутий боком. Допоможіть йому вирівнятися за допомогою виклику "
+"функції."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.tres:281
 msgid "We Stand on the Shoulders of Giants"
-msgstr ""
+msgstr "Ми стоїмо на плечах гігантів"
