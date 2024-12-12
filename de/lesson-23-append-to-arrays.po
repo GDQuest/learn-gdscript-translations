@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2023-07-19 16:05+0000\n"
-"Last-Translator: Marco <eddex@outlook.com>\n"
+"PO-Revision-Date: 2024-11-15 21:21+0000\n"
+"Last-Translator: Noah Stürtz <noah@coru.sh>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-23-append-to-arrays/de/>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:13
@@ -186,7 +186,6 @@ msgid "Using arrays as stacks"
 msgstr "Verwenden von Arrays als Stapel (Stacks)"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:201
-#, fuzzy
 msgid ""
 "Another common use of arrays is [i]stacks[/i] of data.\n"
 "\n"
@@ -196,12 +195,11 @@ msgid ""
 msgstr ""
 "Eine weitere häufige Verwendung von Arrays sind [i]Stacks[/i] von Daten.\n"
 "\n"
-"Nehmen Sie ein Fabrikverwaltungsspiel, bei dem Sie Materialien aus Stapeln "
-"von Kisten abrufen müssen. Sie kommen vertikal gestapelt in der Fabrik an, "
-"und Sie müssen sie von oben nach unten bringen."
+"Nehmen Sie ein Fabrikverwaltungsspiel, bei dem Du Materialien aus Stapeln "
+"von Kisten abrufen musst. Sie kommen vertikal gestapelt in der Fabrik an, "
+"und Du musst sie von oben nach unten bringen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:223
-#, fuzzy
 msgid ""
 "To take a crate from the back of the array, this time, we use the "
 "[code]pop_back()[/code] array function.\n"
@@ -216,10 +214,12 @@ msgstr ""
 "die Array-Funktion [code]pop_back()[/code].\n"
 "\n"
 "Diese Funktion entfernt (poppt) den letzten Wert aus dem Array und gibt ihn "
-"an Sie zurück."
+"an Dich zurück.\n"
+"\n"
+"Wir entfernen den hier den letzten Wert aus dem Array und drucken was noch "
+"davon übrig ist, so demonstrieren wir wie der Array kleiner wird."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:247
-#, fuzzy
 msgid ""
 "Like [code]pop_front()[/code], the function returns the value removed from "
 "the array. You will often store that value in a variable.\n"
@@ -231,21 +231,19 @@ msgid ""
 "[code]pop_front()[/code], and [code]pop_back()[/code] array functions."
 msgstr ""
 "Wie [code]pop_front()[/code] gibt die Funktion den aus dem Array entfernten "
-"Wert zurück. Sie speichern diesen Wert häufig in einer Variablen.\n"
+"Wert zurück. Du wirst diesen Wert häufig in einer Variablen speichern.\n"
 "\n"
-"Der fragliche Wert könnte der Inhalt der Kiste sein, den Sie dann verwenden "
-"können, um dem Spieler Ressourcen zur Verfügung zu stellen.\n"
+"Der fragliche Wert könnte der Inhalt der Kiste sein, den Du dann verwenden "
+"kannst, um dem Spieler Ressourcen zur Verfügung zu stellen.\n"
 "\n"
-"In den folgenden Verfahren verwenden Sie die Arrayfunktionen [code]append()[/"
-"code], [code]pop_front()[/code] und [code]pop_back()[/code]."
+"In den folgenden Verfahren verwendest Du die Arrayfunktionen "
+"[code]append()[/code], [code]pop_front()[/code] und [code]pop_back()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:259
-#, fuzzy
 msgid "Completing orders"
 msgstr "Abschließen von Bestellungen"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:260
-#, fuzzy
 msgid ""
 "The [code]waiting_orders[/code] array will be filled over time.\n"
 "\n"
@@ -259,16 +257,15 @@ msgid ""
 msgstr ""
 "Das Array [code]waiting_orders[/code] wird im Laufe der Zeit gefüllt.\n"
 "\n"
-"Ihre Aufgabe ist es, Bestellungen mit den Funktionen [code]append()[/code] "
+"Deine Aufgabe ist es, Bestellungen mit den Funktionen [code]append()[/code] "
 "und [code]pop_front()[/code] des Arrays von der Warteliste in die Liste "
 "[code]completed_orders[/code] zu verschieben.\n"
 "\n"
-"Denken Sie daran, dass die Funktion [code]pop_front()[/code] des Arrays den "
-"popupfähigen Wert zurückgibt, mit dem Sie ihn in einer Variablen speichern "
-"und dann an eine andere Funktion übergeben können."
+"Denk daran, dass die Funktion [code]pop_front()[/code] des Arrays den "
+"entfernten Wert zurückgibt, mit dem Du ihn in einer Variablen speichern und "
+"dann an eine andere Funktion übergeben kannst."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:277
-#, fuzzy
 msgid ""
 "Orders are piling up in the kitchen, and we need to clear them fast using "
 "the array's [code]pop_front()[/code] function."
@@ -277,12 +274,10 @@ msgstr ""
 "[code]pop_front()[/code]-Funktion des Arrays löschen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:282
-#, fuzzy
 msgid "Clearing up the crates"
 msgstr "Kisten aufräumen"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:283
-#, fuzzy
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping "
 "them from the [code]crates[/code] array.\n"
@@ -298,28 +293,29 @@ msgid ""
 "You can check if the [code]crates[/code] array still contains values by "
 "writing [code]while crates:[/code]"
 msgstr ""
-"Kisten stapeln sich auf der Plattform. Verschieben Sie sie aus dem Weg, "
-"indem Sie sie aus dem Array [code]crates[/code] entfernen.\n"
+"Kisten stapeln sich auf der Plattform. Verschiebe sie aus dem Weg, indem Du "
+"sie aus dem Array [code]crates[/code] entfernst.\n"
 "\n"
-"Sie müssen sie mit der Funktion [code]pop_back()[/code] des Arrays von oben "
+"Du musst sie mit der Funktion [code]pop_back()[/code] des Arrays von oben "
 "nach unten entfernen.\n"
 "\n"
-"Ihr Code sollte alle Kisten im Array mithilfe einer while-Schleife "
+"Dein Code sollte alle Kisten im Array mithilfe einer while-Schleife "
 "entfernen.\n"
 "\n"
-"[b] Vorsichtig! [/b] Wenn Sie eine While-Schleife unvorsichtig ausführen, "
-"können Sie die Software sperren."
+"[b] Vorsicht! [/b] Wenn Du eine While-Schleife unvorsichtig ausführst, kann "
+"du die Software sperren.\n"
+"\n"
+"Du kannst das [code]crates[/code] Array auf Werte überprüfen indem du [code]"
+"while crates:[/code] nutzt"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:303
-#, fuzzy
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping "
 "them from their array."
 msgstr ""
-"Kisten stapeln sich auf der Plattform. Verschieben Sie sie aus dem Weg, "
-"indem Sie sie aus ihrem Array entfernen."
+"Kisten stapeln sich auf der Plattform. Schiebe sie aus dem Weg, indem Du sie "
+"aus ihrem Array entfernen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:307
-#, fuzzy
 msgid "Appending and popping values from arrays"
 msgstr "Anhängen und Freigeben von Werten aus Arrays"
