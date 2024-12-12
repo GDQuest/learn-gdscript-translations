@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-12-09 20:05+0100\n"
+"POT-Creation-Date: 2024-12-12 14:39+0100\n"
 "PO-Revision-Date: 2024-06-26 23:24+0000\n"
 "Last-Translator: Filip K <fkwilcz2@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/application/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/application/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,11 +49,11 @@ msgstr "Cofnij się w historii nawigacji"
 msgid "(no previous history)"
 msgstr "(brak dalszej historii)"
 
-#: ui/UINavigator.tscn:103
+#: ui/UINavigator.tscn:104
 msgid "CHRISTMAS SALE - 50% OFF"
 msgstr "ŚWIĄTECZNA WYPRZEDAŻ - 50% ZNIŻKI"
 
-#: ui/UINavigator.tscn:163
+#: ui/UINavigator.tscn:164
 msgid "CHRISTMAS SALE"
 msgstr "ŚWIĄTECZNA WYPRZEDAŻ"
 
@@ -75,7 +75,7 @@ msgstr "Funkcja '%s' wywołuje samą siebie, co tworzy nieskończoną pentlę"
 msgid "Running Your Code..."
 msgstr "Uruchamianie kodu…"
 
-#: ui/UIPractice.gd:328
+#: ui/UIPractice.gd:331
 msgid ""
 "There is a division by zero in your code. You cannot divide by zero in code. "
 "Please ensure you have no \"/ 0\" or \"% 0\" in your code."
@@ -83,24 +83,24 @@ msgstr ""
 "W twoim kodzie jest dzielenie przez zero. Nie możesz dzielić przez zero w "
 "kodzie. Spraw aby w twoim kodzie nie było \" / 0\" lub \"% 0\"."
 
-#: ui/UIPractice.gd:343
+#: ui/UIPractice.gd:346
 msgid ""
 "Oh no! The script has an error, but the Script Verifier did not catch it"
 msgstr "O rety kotlety! Skrypt ma błędy których Weryfikator Skryptów znalazł"
 
-#: ui/UIPractice.gd:369
+#: ui/UIPractice.gd:372
 msgid "Running Tests..."
 msgstr "Testowanie rozwiązania…"
 
-#: ui/UIPractice.tscn:138
+#: ui/UIPractice.tscn:144
 msgid "Suggested Solution"
 msgstr "Sugerowane rozwiązanie"
 
-#: ui/UIPractice.tscn:189
+#: ui/UIPractice.tscn:195
 msgid "Use Solution"
 msgstr "Użyj rozwiązania"
 
-#: ui/UIPractice.tscn:207
+#: ui/UIPractice.tscn:213
 msgid "Leave unfinished practice?"
 msgstr "Chcesz opuścić niedokończone ćwiczenie?"
 
@@ -138,6 +138,12 @@ msgstr "Kontynuuj"
 #: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
 msgstr "Wartość"
+
+#: ui/components/GDQuestCreditsLabel.tscn:36
+msgid ""
+"Learn GDScript From Zero is an open source project by [color=#FFD500]"
+"[url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
+msgstr ""
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -543,12 +549,12 @@ msgstr "Zresetuj postępy"
 msgid "Confirm Resetting Progress"
 msgstr "Potwierdź reset postępów"
 
-#: ui/screens/end_screen/EndScreen.tscn:300
-#: ui/screens/end_screen/EndScreen.tscn:313
+#: ui/screens/end_screen/EndScreen.tscn:310
+#: ui/screens/end_screen/EndScreen.tscn:323
 msgid "YOU MADE IT!"
 msgstr "UDAŁO CI SIĘ!"
 
-#: ui/screens/end_screen/EndScreen.tscn:343
+#: ui/screens/end_screen/EndScreen.tscn:353
 msgid ""
 "Not only did you learn the foundations of coding, you’re a big step closer "
 "to making your own games."
@@ -556,25 +562,25 @@ msgstr ""
 "Nie tylko nauczyłeś się podstaw kodowania, ale zrobiłeś ogromny krok do "
 "tworzenia własnych gier."
 
-#: ui/screens/end_screen/EndScreen.tscn:363
+#: ui/screens/end_screen/EndScreen.tscn:373
 msgid "Don't stop here..."
 msgstr "Nie spoczywaj na laurach..."
 
-#: ui/screens/end_screen/EndScreen.tscn:373
+#: ui/screens/end_screen/EndScreen.tscn:383
 msgid "The fun stuff starts now!"
 msgstr "Tutaj zaczynają się dopiero fajne rzeczy!"
 
-#: ui/screens/end_screen/EndScreen.tscn:388
+#: ui/screens/end_screen/EndScreen.tscn:398
 msgid "There are 2 pathways learners traditionally take from here:"
 msgstr ""
 "Od tego momentu są dwie ścieżki którymi osoby uczące się tradycyjnie "
 "wybierają:"
 
-#: ui/screens/end_screen/EndScreen.tscn:402
+#: ui/screens/end_screen/EndScreen.tscn:412
 msgid "Following video tutorials"
 msgstr "Uczenie się z poradników wideo"
 
-#: ui/screens/end_screen/EndScreen.tscn:417
+#: ui/screens/end_screen/EndScreen.tscn:427
 msgid ""
 "They’re a great way to pick up specific game mechanics but they’re not as "
 "effective when you’re trying to learn new skills from the ground up."
@@ -582,17 +588,17 @@ msgstr ""
 "One są świetne aby zrozumieć specyficzne mechaniki gier. Aczkolwiek nie są "
 "aż tak efektywne kiedy uczysz się od podstaw."
 
-#: ui/screens/end_screen/EndScreen.tscn:449
+#: ui/screens/end_screen/EndScreen.tscn:459
 msgid "• There’s no clear learning path."
 msgstr "• Nie ma klarownej drogi uczenia się."
 
-#: ui/screens/end_screen/EndScreen.tscn:464
+#: ui/screens/end_screen/EndScreen.tscn:474
 msgid "• Retention and skill acquisition is slow and limited."
 msgstr ""
 "• Przyswajanie wiedzy i zdobywanie umiejętności to powolny i ograniczony "
 "proces."
 
-#: ui/screens/end_screen/EndScreen.tscn:480
+#: ui/screens/end_screen/EndScreen.tscn:490
 msgid ""
 "We make our fair share of [b][color=#ebc3ff][url=https://www.youtube.com/"
 "@Gdquest/videos]free tutorials[/url][/color][/b]. They will come in very "
@@ -601,17 +607,17 @@ msgid ""
 "[color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]courses[/"
 "url][/color][/b]."
 msgstr ""
-"Mamy sporo [b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]"
-"darmowych poradników[/url][/color][/b]. Będą przydatne kiedy zaczniesz robić "
-"własne gry. Ale zanim zaczniesz, gorąco zalecamy nauczyć się jak zacząć "
-"myśleć jak twórca gier z pomocą [b][color=#ebc3ff][url=https://school.gdquest"
-".com/godot-4-early-access]kursów[/url][/color][/b]."
+"Mamy sporo [b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/"
+"videos]darmowych poradników[/url][/color][/b]. Będą przydatne kiedy "
+"zaczniesz robić własne gry. Ale zanim zaczniesz, gorąco zalecamy nauczyć się "
+"jak zacząć myśleć jak twórca gier z pomocą [b][color=#ebc3ff][url=https://"
+"school.gdquest.com/godot-4-early-access]kursów[/url][/color][/b]."
 
-#: ui/screens/end_screen/EndScreen.tscn:495
+#: ui/screens/end_screen/EndScreen.tscn:505
 msgid "Learning with courses"
 msgstr "Nauka z pomocą kursów"
 
-#: ui/screens/end_screen/EndScreen.tscn:511
+#: ui/screens/end_screen/EndScreen.tscn:521
 msgid ""
 "Note that most available courses online are actually premium series of video "
 "tutorials. The problem of retaining information and acquiring real skills "
@@ -621,7 +627,7 @@ msgstr ""
 "wideo. Więc problem z przyswajaniem wiedzy i zdobywaniem umiejętności też "
 "ich dotyczy."
 
-#: ui/screens/end_screen/EndScreen.tscn:527
+#: ui/screens/end_screen/EndScreen.tscn:537
 msgid ""
 "At GDQuest, we’re educators at heart. We believe in applied study and we "
 "believe it doesn’t have to be boring. When teaching is done correctly, most "
@@ -641,35 +647,35 @@ msgstr ""
 "gdquest.com/products/bundle_learn_gamedev_godot_4]Naucz Się Tworzenia Gier "
 "Od Zera Z Godotem[/url][/color][/b]."
 
-#: ui/screens/end_screen/EndScreen.tscn:565
+#: ui/screens/end_screen/EndScreen.tscn:575
 msgid "LEARN GAMEDEV WITH GODOT"
 msgstr "NAUCZ SIĘ TWORZENIA GIER Z GODOTEM"
 
-#: ui/screens/end_screen/EndScreen.tscn:710
+#: ui/screens/end_screen/EndScreen.tscn:722
 msgid "Now available"
 msgstr "Dostępne teraz"
 
-#: ui/screens/end_screen/EndScreen.tscn:720
+#: ui/screens/end_screen/EndScreen.tscn:732
 msgid "for preorders"
 msgstr "w przedsprzedaży"
 
-#: ui/screens/end_screen/EndScreen.tscn:737
+#: ui/screens/end_screen/EndScreen.tscn:749
 msgid "Godot 4 courses!!"
 msgstr "Kursy godota 4!!"
 
-#: ui/screens/end_screen/EndScreen.tscn:783
+#: ui/screens/end_screen/EndScreen.tscn:795
 msgid "Teaching gamedev in the classroom?"
 msgstr "Uczysz tworzenia gier w klasie?"
 
-#: ui/screens/end_screen/EndScreen.tscn:796
+#: ui/screens/end_screen/EndScreen.tscn:808
 msgid "Get in touch"
 msgstr "Skontaktuj się"
 
-#: ui/screens/end_screen/SponsorlessEndScreen.tscn:196
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:204
 msgid "Congratulations!"
 msgstr "Gratulacje!"
 
-#: ui/screens/end_screen/SponsorlessEndScreen.tscn:203
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:211
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to "
 "make games with the Godot game engine.\n"
@@ -684,25 +690,26 @@ msgstr ""
 "Możesz kontynuować naukę z darmową seriąL [url=https://docs.godotengine.org/"
 "en/stable/getting_started/step_by_step/index.html]Podstawy Godota[/url]."
 
-#: ui/screens/end_screen/SponsorlessEndScreen.tscn:216
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:224
 msgid "This is an Open-Source project!"
 msgstr "To jest projekt Open-Source!"
 
-#: ui/screens/end_screen/SponsorlessEndScreen.tscn:223
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:231
+#, fuzzy
 msgid ""
 "Like Godot, this app and course is free and open-source. \n"
 "\n"
 "You can find the app's source code and contribute translations here: "
-"[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
+"[url=https://github.com/GDQuest/learn-gdscript]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
 "Podobnie jak Godot, ta aplikacja i kurs jest wolna i otwarto źródłowa. \n"
 "\n"
-"Możesz znaleźć kod źródłowy aplikacji i pomóc w tłumaczeniu tutaj: [url="
-"\"https://github.com/GDQuest/learn-gdscript\"]Naucz Się GDScript Od Zera ("
-"Repozytorium github)[/url]."
+"Możesz znaleźć kod źródłowy aplikacji i pomóc w tłumaczeniu tutaj: "
+"[url=\"https://github.com/GDQuest/learn-gdscript\"]Naucz Się GDScript Od "
+"Zera (Repozytorium github)[/url]."
 
-#: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:42
+#: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:41
 msgid "Early Access release: 2024/01/30"
 msgstr "Wydanie Early Access: 2024/01/30"
 
@@ -803,26 +810,31 @@ msgstr "Otwórz listę ćwiczeń"
 msgid "Test text"
 msgstr "Tekst tekst"
 
-#: ui/screens/welcome_screen/WelcomeScreen.gd:42
+#: ui/screens/welcome_screen/WelcomeScreen.gd:44
 msgid "CONTINUE"
 msgstr "KONTYNUUJ"
 
-#: ui/screens/welcome_screen/WelcomeScreen.gd:44
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:625
+#: ui/screens/welcome_screen/WelcomeScreen.gd:46
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:629
 msgid "START"
 msgstr "ZACZNIJ"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:643
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:647
 msgid "SELECT LESSON"
 msgstr "WYBIERZ LEKCJĘ"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:657
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:661
 msgid "OPTIONS"
 msgstr "OPCJE"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:691
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:695
 msgid "QUIT"
 msgstr "WYJDŹ"
+
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:801
+msgid ""
+"An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
+msgstr ""
 
 #~ msgid "Connected to the server."
 #~ msgstr "Połączono z serwerem."
