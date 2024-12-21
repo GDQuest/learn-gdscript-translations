@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-21 20:00+0000\n"
-"Last-Translator: Олександр Пилипчук <lxlalexlxl@ukr.net>\n"
+"PO-Revision-Date: 2024-12-21 23:09+0000\n"
+"Last-Translator: Максим Горпиніч <mgorpinic2005@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-12-using-variables/uk/>\n"
 "Language: uk\n"
@@ -65,6 +65,11 @@ msgid ""
 "We've seen how different functions have their own names. Using these "
 "names communicates to developers what the functions do."
 msgstr ""
+"Ми можемо здогадатися, що означає число, дивлячись на назви функцій, але "
+"важче пригадати, що це число робить, швидко подивившись на код. \n"
+"\n"
+"Ми бачили, як різні функції мають власні назви. Використання цих імен "
+"повідомляє розробникам, що роблять функції."
 
 #: course/lesson-12-using-variables/lesson.tres:70
 msgid ""
@@ -78,41 +83,57 @@ msgid ""
 "\n"
 "Let's recap how to define a variable."
 msgstr ""
+"Як ми дізналися в уроці 8, ми також можемо призначати мітки числам, щоб "
+"допомогти нам запам’ятати, що вони роблять. \n"
+"\n"
+"Ми називаємо ці мітки [i]змінними[/i]. \n"
+"\n"
+"[b]Змінна — це мітка для значення, яке ми можемо зберегти, змінити та "
+"прочитати пізніше.[/b] \n"
+"\n"
+"Давайте повторимо, як визначити змінну."
 
 #: course/lesson-12-using-variables/lesson.tres:96
 msgid ""
 "We improve the first example to make it clear what the number "
 "[code]4[/code] does."
 msgstr ""
+"Ми вдосконалюємо перший приклад, щоб було зрозуміло, що робить число [code]"
+"4[/code]."
 
 #: course/lesson-12-using-variables/lesson.tres:116
 msgid ""
 "Labeling a value makes the code easier for us to read now [i]and[/i] in "
 "the future."
 msgstr ""
+"Позначення значення робить код легшим для читання зараз [i]і[/i] в "
+"майбутньому."
 
 #: course/lesson-12-using-variables/lesson.tres:124
 msgid "In the above example, which line defines the angular speed variable?"
 msgstr ""
+"У наведеному вище прикладі, який рядок визначає змінну кутової швидкості?"
 
 #: course/lesson-12-using-variables/lesson.tres:127
 msgid ""
 "We create the [code]angular_speed[/code] variable, then assign it the "
 "value of [code]4[/code]."
 msgstr ""
+"Ми створюємо змінну [code]angular_speed[/code], а потім призначаємо їй "
+"значення [code]4[/code]."
 
 #: course/lesson-12-using-variables/lesson.tres:128
 #: course/lesson-12-using-variables/lesson.tres:129
 msgid "var angular_speed = 4"
-msgstr ""
+msgstr "var angular_speed = 4"
 
 #: course/lesson-12-using-variables/lesson.tres:128
 msgid "func _process(delta):"
-msgstr ""
+msgstr "func _process(delta):"
 
 #: course/lesson-12-using-variables/lesson.tres:128
 msgid "rotate(angular_speed * delta)"
-msgstr ""
+msgstr "rotate(angular_speed * delta)"
 
 #: course/lesson-12-using-variables/lesson.tres:138
 msgid ""
@@ -126,6 +147,15 @@ msgid ""
 "the [code]_process()[/code] function and the "
 "[code]set_angular_speed()[/code] function."
 msgstr ""
+"Якщо ми визначаємо змінні поза функціями, ми можемо повторно використовувати "
+"їх у різних функціях. \n"
+"\n"
+"Оскільки будь-яка функція може використовувати змінні, які ми визначаємо "
+"поза ними, ми називаємо ці змінні [b]скриптовими[/b]. \n"
+"\n"
+"Тут ми використовуємо змінну сценарію [code]angular_speed[/code] як у "
+"функції [code]_process()[/code], так і у функції [code]set_angular_speed()"
+"[/code]."
 
 #: course/lesson-12-using-variables/lesson.tres:162
 msgid ""
@@ -137,6 +167,13 @@ msgid ""
 "If we define a variable inside of a function, only that function can use "
 "it."
 msgstr ""
+"Ми також можемо визначати змінні всередині функцій. \n"
+"\n"
+"Ми вирівнюємо призначення змінної шляхом відступу, щоб зробити його частиною "
+"тіла функції. Не забудьте створити змінну перед її використанням! \n"
+"\n"
+"Якщо ми визначаємо змінну всередині функції, лише ця функція зможе її "
+"використовувати."
 
 #: course/lesson-12-using-variables/lesson.tres:186
 msgid ""
@@ -148,10 +185,17 @@ msgid ""
 "\n"
 "Here's what this error might look like."
 msgstr ""
+"Змінна [code]angular_speed[/code] існує лише всередині [code]_process()"
+"[/code], оскільки ми її там визначили. Функція [code]set_angular_speed()"
+"[/code] не може його використовувати. \n"
+"\n"
+"Спроба використати його там призведе до помилки. \n"
+"\n"
+"Ось як може виглядати ця помилка."
 
 #: course/lesson-12-using-variables/lesson.tres:208
 msgid "Where can we define variables?"
-msgstr ""
+msgstr "Де ми можемо визначити змінні?"
 
 #: course/lesson-12-using-variables/lesson.tres:211
 msgid ""
@@ -161,16 +205,21 @@ msgid ""
 "If we define a variable inside of a function, only that function can use "
 "it."
 msgstr ""
+"Функції можуть використовувати будь-які змінні, визначені поза функціями. Ці "
+"змінні [b]всього сценарію[/b].\n"
+"\n"
+"Якщо ми визначаємо змінну всередині функції, лише ця функція зможе її "
+"використовувати."
 
 #: course/lesson-12-using-variables/lesson.tres:214
 #: course/lesson-12-using-variables/lesson.tres:215
 msgid "Outside of functions."
-msgstr ""
+msgstr "Поза функціями."
 
 #: course/lesson-12-using-variables/lesson.tres:214
 #: course/lesson-12-using-variables/lesson.tres:215
 msgid "Inside of functions."
-msgstr ""
+msgstr "Всередині функцій."
 
 #: course/lesson-12-using-variables/lesson.tres:224
 msgid ""
@@ -179,16 +228,21 @@ msgid ""
 "\n"
 "Grouping them in this way allows us to easily change them."
 msgstr ""
+"Змінні також чудово групують значення, які контролюють поведінку персонажа.\n"
+"\n"
+"Групуючи їх у такий спосіб, ми можемо легко їх змінювати."
 
 #: course/lesson-12-using-variables/lesson.tres:246
 msgid ""
 "In the following practices, we'll define variables and use them with some"
 " familiar functions to make our code more readable."
 msgstr ""
+"У наступних практиках ми визначимо змінні та використаємо їх із деякими "
+"знайомими функціями, щоб зробити наш код більш читабельним."
 
 #: course/lesson-12-using-variables/lesson.tres:254
 msgid "Clarifying Code Using Variables"
-msgstr ""
+msgstr "Пояснення коду за допомогою змінних"
 
 #: course/lesson-12-using-variables/lesson.tres:255
 msgid ""
@@ -200,16 +254,25 @@ msgid ""
 "\n"
 "Then, replace the [code]4[/code] with [code]angular_speed[/code]."
 msgstr ""
+"Давайте позначимо [code]4[/code] тут, щоб ми знали, що він робить. \n"
+"\n"
+"Створіть змінну під назвою [code]angular_speed[/code] поза функцією [code]"
+"_process()[/code], щоб зробити її загальною для сценарію. Це дозволяє нам "
+"використовувати його в інших функціях. \n"
+"\n"
+"Потім замініть [code]4[/code] на [code]angular_speed[/code]."
 
 #: course/lesson-12-using-variables/lesson.tres:269
 msgid ""
 "Using variables to store number values makes code easier to read. Tidy up"
 " this function by storing a value in a variable."
 msgstr ""
+"Використання змінних для зберігання числових значень полегшує читання коду. "
+"Наведіть порядок у цій функції, зберігаючи значення у змінній."
 
 #: course/lesson-12-using-variables/lesson.tres:274
 msgid "Fixing an Out of Scope Error"
-msgstr ""
+msgstr "Виправлення помилки поза межами області видимості"
 
 #: course/lesson-12-using-variables/lesson.tres:275
 msgid ""
@@ -219,11 +282,16 @@ msgid ""
 "\n"
 "Correct the code so it works as intended."
 msgstr ""
+"Тут щось не так із кодом. Ви бачите, що це?\n"
+"\n"
+"Запустіть код і прочитайте помилку.\n"
+"\n"
+"Виправте код, щоб він працював належним чином."
 
 #: course/lesson-12-using-variables/lesson.tres:293
 msgid "Uh oh! There's something wrong here. Can you fix it?"
-msgstr ""
+msgstr "ой, ой! Тут щось не так. Ви можете це виправити?"
 
 #: course/lesson-12-using-variables/lesson.tres:297
 msgid "Using Variables to Make Code Easier to Read"
-msgstr ""
+msgstr "Використання змінних для полегшення читання коду"
