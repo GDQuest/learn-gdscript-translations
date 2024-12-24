@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-08 16:00+0000\n"
+"PO-Revision-Date: 2024-12-17 21:00+0000\n"
 "Last-Translator: Atur <aturaseman9@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/fa/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.9.2-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -590,6 +590,9 @@ msgid ""
 "code reference. Then, you need to edit your function definition to have "
 "the same number and type of parameters as the parent class."
 msgstr ""
+"باید تابع کلاس سرپرست و تعریف آن در بازبرد کد را بررسی کنید. سپس، باید تعریف "
+"تابع خود را بویرایید تا همان اندازه و گونه‌های پارامتر کلاس سرپرست را داشته "
+"باشد."
 
 #. Reference: INVALID_ARGUMENTS
 #: ./script_checking/error_database.csv:131
@@ -598,6 +601,9 @@ msgid ""
 "the wrong number of arguments or the wrong kind of argument. You will "
 "need to use the error message to see what is going wrong."
 msgstr ""
+"همه‌ی خطاهای این کلاس مربوط به فراخواندن تابع‌ها با شمار نادرستی از آرگومان‌ها "
+"یا گونهٔ نادرستی از آرگومان می‌باشد. باید پیام خطا را برای فهمیدن وضعیت به‌کار "
+"ببرید."
 
 #. Reference: INVALID_ARGUMENTS
 #: ./script_checking/error_database.csv:131
@@ -607,6 +613,10 @@ msgid ""
 "arguments you need, you need to check the code reference. It will show "
 "you the function definition and the mandatory arguments."
 msgstr ""
+"برای حل کردن این مشکل، باید ارزشی که در کوشش دادن آن به تابع‌اید را بزدایید، "
+"دگرگون کنید یا به شمار آن بیفزایید. برای دانستن اینکه چند آرگومان نیاز دارید،"
+" باید بازبرد کد را بررسی کنید. تعریف تابع و آرگومان‌های الزامی را به شما نشان "
+"خواهد داد."
 
 #. Reference: TYPE_MISMATCH
 #: ./script_checking/error_database.csv:142
@@ -625,6 +635,18 @@ msgid ""
 "You'll need to read the error message to see what is not matching because"
 " there are many possible cases."
 msgstr ""
+"همه‌ی ارزش‌های درون کد شما دارای گونه‌ای ویژه‌اند. آن گونه می‌تواند یک شماره‌ی "
+"صحیح (int)، شماره‌ی اعشاری (float)، نوشتار (string) و... باشد. گونه‌های شدنی "
+"بسیاری هستند، حتا می‌توانید گونه‌های خودتان هم تعریف کنید!\n"
+"\n"
+"هنگامی که هرگونه عملیاتی را انجام می‌دهید، رایانه گونه‌هایی که به‌کار می‌برید را "
+"مقایسه می‌کند.\n"
+"\n"
+"برخی گونه‌ها سازگارند و برخی ناسازگار. برای نمونه، نمی‌توانید یک شماره‌ی صحیح "
+"را به یک رشته‌ی نوشتاری بیفزایید. نخست باید شماره را به نوشتار تبدیل کنید.\n"
+"\n"
+"باید برای دیدن چیزی که مطابقت ندارد پیام خطا را بخوانید، چون حالت‌های شدنی "
+"بسیاری هست."
 
 #. Reference: TYPE_MISMATCH
 #: ./script_checking/error_database.csv:142
