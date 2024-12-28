@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-17 21:00+0000\n"
+"PO-Revision-Date: 2024-12-29 00:21+0000\n"
 "Last-Translator: Atur <aturaseman9@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/fa/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.9.2-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -662,6 +662,16 @@ msgid ""
 "example, while you can add two 2D vectors, you can't add a whole number "
 "or text to a 2D vector."
 msgstr ""
+"اگر خطا به یکی نبودن گونهٔ ارزش واگذاشته با متغیر اشاره دارد، اشکال در پهلوی "
+"راست نشانهٔ برابر (=) است.\n"
+"\n"
+"اگر خطا به یکی نبودن گونهٔ برگشت با تابع اشاره دارد، اشکال از ارزشی‌ست که پس "
+"از کلیدواژهٔ برگشت (return) آمده است.\n"
+"\n"
+"اگر رایانه دربارهٔ یک عملوند (operand) می‌گوید، به این معنا است که عملیات برای "
+"گونه‌ای که در کوشش به کار بردن آن‌اید وجود ندارد. برای نمونه، با اینکه می‌"
+"توانید دو بردار دوبعدی را به هم بیفزایید، نمی‌توانید یک شمارهٔ صحیح را به یک "
+"نوشتار یا بردار دوبعدی بیفزایید."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: ./script_checking/error_database.csv:147
@@ -673,6 +683,12 @@ msgid ""
 "When that happens, you need to specify the type yourself or remove type "
 "inference altogether for this variable."
 msgstr ""
+"جی.دی.اسکریپت از استنباط گونه پشتیبانی می‌کند. رایانه به شیوهٔ خودکار گونهٔ "
+"ارزشی که با آن کار می‌کنید را خواهد شناخت. با این همه، گاهی، نمی‌تواند چنین "
+"کند.\n"
+"\n"
+"هنگامی نتواند، نیاز دارید تا گونه را خودتان تعیین کنید یا استنباط گونه را "
+"تماما برای این متغیر بزدایید."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: ./script_checking/error_database.csv:147
@@ -684,6 +700,11 @@ msgid ""
 "We recommend specifying the type whenever possible to reap the typing "
 "system's benefits."
 msgstr ""
+"ساده‌ترین راه برای حل کردن این خطا زدودن گونه‌ها برای آرگومان‌های این متغیر یا "
+"تابع است. وگرنه، می‌توانید به روش دستی گونهٔ ارزش را پس از دونقطه تعیین کنید.\n"
+"\n"
+"ما تعیین کردن گونه را هرجایی که شدنی‌ست، برای بهره‌وری از همهٔ توانایی‌های سامانهٔ"
+" تایپ را پیشنهاد می‌کنیم."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: ./script_checking/error_database.csv:153
@@ -698,6 +719,13 @@ msgid ""
 "returning a value in all possible branches (if, elif, and else blocks) or"
 " at the end."
 msgstr ""
+"خطایی در ارزش برگشتی تابع شما هست. می‌تواند دو دلیل داشته باشد:\n"
+"\n"
+"۱. تابع شما از گونهٔ ووید (void) است، بنابراین نباید ارزشی را برگرداند. تابع‌"
+"هایی که دارای نحو «-> void» و سازنده‌های کلاس ('_init()')اند را در بر می‌گیرد."
+"\n"
+"۲. گونهٔ برگشتی‌ای برای تابع خود تعیین کردید، ولی دارید ارزشی در همهٔ شاخه‌های "
+"ممکن (آجرهای if، else و elif) یا در پایان را برنمی‌گردانید."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: ./script_checking/error_database.csv:153
@@ -710,6 +738,12 @@ msgid ""
 "of the function or in every branch (if, elif, and else block) of the "
 "function."
 msgstr ""
+"هنگامی که تابع‌تان «void» است، هرگز نباید ارزشی را برگردانید. می‌توانید "
+"کلید‌واژهٔ «return» را برای پایان دادن زودهنگام به تابع به کار ببرید. ولی هرگز "
+"نباید چیزی پس از آن بنویسید.\n"
+"\n"
+"هنگامی که گونهٔ برگشتی‌ای را به کار می‌برید، باید همیشه چیزی را در پایان تابع "
+"یا در هر شاخهٔ (آجرهای if، elif و else) تابع برگردانید."
 
 #. Reference: INVALID_NO_CATCH
 #: ./script_checking/error_database.csv:154
@@ -717,6 +751,8 @@ msgid ""
 "Godot was unable to load your script, yet the language checker found "
 "nothing wrong."
 msgstr ""
+"گودوت در بار کردن اسکریپت شما ناتوان بود، با این همه، وارس زبان چیز نادرستی "
+"نیافت."
 
 #. Reference: INVALID_NO_CATCH
 #: ./script_checking/error_database.csv:154
@@ -735,6 +771,8 @@ msgid ""
 "There are valid reasons for using recursive functions, but none of them "
 "are part of this course, so this cannot be a valid solution."
 msgstr ""
+"دلیل‌های معتبری برای به‌کارگیری تابع‌های بازگشتی هست، ولی هیچکدام‌شان پاره‌ای از "
+"این دوره نیستند، پس این نمی‌تواند راه حل معتبری باشد."
 
 #. Reference: UNEXPECTED_EOL
 #: ./script_checking/error_database.csv:157
@@ -744,6 +782,9 @@ msgid ""
 "The most common case is when you forget to close a string: you have "
 "opening quotes, but you forget to add a matching closing quote."
 msgstr ""
+"رایانه به آخرین خط کد رسید،‌ ولی خط دارای یک خطای نحوی بود.\n"
+"به احتمال فراوان فراموش کردید رشته‌ای را ببندید: گفتاورد باز دارید، ولی "
+"یادتان رفت که یک گفتاورد بسته مطابق با آن بیفزایید."
 
 #. Reference: UNEXPECTED_EOL
 #: ./script_checking/error_database.csv:157
@@ -752,11 +793,14 @@ msgid ""
 " character you used to start the string is the same as the one you used "
 "to close the string."
 msgstr ""
+"دوباره بررسی کنید که نویسهٔ گفتاوردی را از جا نینداخته‌اید یا نویسهٔ گفتاوردی "
+"که برای آغازیدن رشته به کار بردید با آنی که برای پایان دادن به کار بردید "
+"یکسان است."
 
 #. Reference: CANT_GET_INDEX
 #: ./script_checking/error_database.csv:160
 msgid "The sub-variable you are trying to access does not exist."
-msgstr ""
+msgstr "زیرمتغیری که در کوشش دسترسی به آن‌اید وجود ندارد."
 
 #. Reference: CANT_GET_INDEX
 #: ./script_checking/error_database.csv:160
@@ -767,3 +811,7 @@ msgid ""
 "Ensure that you don't have a capital letter where you should have a "
 "lowercase letter and vice versa."
 msgstr ""
+"احتمالا در نام زیرمتغیری که در کوشش دسترسی به آن‌اید نادرستی نگارشی‌ای هست.\n"
+"\n"
+"مطمئن شوید جایی که باید وات (حرف) کوچک داشته باشید، وات بزرگ و جایی که وات "
+"بزرگ نیاز دارید وات کوچک ندارید."
