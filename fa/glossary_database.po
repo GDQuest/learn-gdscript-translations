@@ -9,24 +9,27 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-12-29 00:21+0000\n"
+"Last-Translator: Atur <aturaseman9@gmail.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member function"
-msgstr ""
+msgstr "تابع عضو"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
 msgid "member functions"
-msgstr ""
+msgstr "تابع‌های عضو"
 
 #. Reference: member function
 #: ./course/glossary.csv:6
@@ -40,16 +43,23 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
+"تابع‌های عضو تابع‌هایی‌اند که به یک گونهٔ ارزش معین پیوست خورده‌اند، مانند "
+"آرایه‌ها، رشته‌ها یا دیکشنری‌ها. به آنها روش یا مِتُد نیز گفته می‌شود.\n"
+"\n"
+"برای نمونه، آرایه‌ها تابع‌های عضوی مانند [code]array.append()[/code] دارند.\n"
+"\n"
+"تابع را تنها می‌توان روی آرایه‌ها و با به‌کارگیری عملگر دسترسی ([code].[/code]) "
+"برای دسترسی به آن، همانگونه که در بالا می‌بینید فراخواند."
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variable"
-msgstr ""
+msgstr "متغیر عضو"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
 msgid "member variables"
-msgstr ""
+msgstr "متغیرهای عضو"
 
 #. Reference: member variable
 #: ./course/glossary.csv:9
@@ -62,16 +72,22 @@ msgid ""
 "followed by the access operator ([code].[/code]). For example, "
 "[code]position.x[/code]."
 msgstr ""
+"متغیرهای عضو متغیرهایی‌اند که به یک گونهٔ ارزش معین پیوست خورده‌اند، مانند "
+"زیرمتغیرهای [code]x[/code] و [code]y[/code] بردارها. به آنها [i]ویژگی[/i] یا "
+"[i]میدان[/i] بردار نیز گفته می‌شود.\n"
+"\n"
+"برای دسترسی به متغیرهای عضو، باید نخست نام ارزش را نوشته و آن را با عملگر "
+"دسترسی([code].[/code]) دنبال کنید. برای نمونه، [code]position.x[/code]."
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameter"
-msgstr ""
+msgstr "پارامتر"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
 msgid "parameters"
-msgstr ""
+msgstr "پارامترها"
 
 #. Reference: parameter
 #: ./course/glossary.csv:12
@@ -81,16 +97,20 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in "
 "the function's body."
 msgstr ""
+"پارامترها متغیری‌اند که آن را بعنوان پاره‌ای از تعریف تابع‌ها می‌سازید.\n"
+"\n"
+"به شما اجازه می‌دهند تا تابع را بخاطر داشتن ارزش‌هایی که در بدن تابع تفاوت "
+"دارند، چندین بار به کار ببرید."
 
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radian"
-msgstr ""
+msgstr "رادیان"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
 msgid "radians"
-msgstr ""
+msgstr "رادیان‌ها"
 
 #. Reference: radian
 #: ./course/glossary.csv:17
@@ -104,16 +124,23 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And "
 "an angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
+"رادیان یکای سنجش زاویه‌ها بر پایهٔ محیط دایره است.\n"
+"\n"
+"ما در زندگی روزانه بیشتر درجه را به کار می‌بریم، ولی در برنامه‌نویسی رایانه‌ای، "
+"به‌ویژه در بازی‌ها، رادیان‌ها رواج یافته‌اند.\n"
+"\n"
+" [code]2 * PI[/code] رادیان برابر با ۳۶۰ درجه و [code]PI[/code] رادیان برابر "
+"با ۱۸۰ درجه است."
 
 #. Reference: type
 #: ./course/glossary.csv:20
 msgid "type"
-msgstr ""
+msgstr "گونه"
 
 #. Reference: type
 #: ./course/glossary.csv:20
 msgid "types"
-msgstr ""
+msgstr "گونه‌ها"
 
 #. Reference: type
 #: ./course/glossary.csv:20
@@ -126,16 +153,22 @@ msgid ""
 "The computer uses types to determine which operations are valid between "
 "two values and when they're undefined."
 msgstr ""
+"در برنامه‌نویسی رایانه‌ای،‌ گونه‌ها ردهٔ ارزش‌ها اند. برای نمونه،‌ شماره‌های صحیح "
+"مانند [code]3[/code]، [code]11[/code] و [code]255462[/code] همه از گونهٔ "
+"[code]int[/code] (کوتاه‌شدهٔ integer به معنای شمارهٔ صحیح) اند.\n"
+"\n"
+"رایانه گونه‌ها را به کار می‌گیرد تا مشخص کند کدام عملیات‌ها میان دو ارزش معتبر "
+"بوده و کدام‌ها تعریف‌نشده‌اند."
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
 msgid "iteration"
-msgstr ""
+msgstr "تکرار"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
 msgid "iterations"
-msgstr ""
+msgstr "تکرارها"
 
 #. Reference: iteration
 #: ./course/glossary.csv:23
@@ -147,16 +180,21 @@ msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
+"در کدنویسی رایانه‌ای، تکرارها بازانجامش برخی فرایند‌ها یا کداند. بیشتر واژهٔ "
+"چرخه را به کار رفته می‌شود، که هر تکرار یک بار اجرای کد چرخه است.\n"
+"\n"
+"در پهنهٔ الگوریتم‌ها، تکرار می‌تواند معنای یک گذشت کامل الگوریتم روی دادگان را "
+"بدهد."
 
 #. Reference: vector
 #: ./course/glossary.csv:28
 msgid "vector"
-msgstr ""
+msgstr "بُردار"
 
 #. Reference: vector
 #: ./course/glossary.csv:28
 msgid "vectors"
-msgstr ""
+msgstr "بُردارها"
 
 #. Reference: vector
 #: ./course/glossary.csv:28
@@ -171,16 +209,25 @@ msgid ""
 "Vectors can seem daunting at first because they are pretty abstract, but "
 "as you will see, they'll simplify code tremendously."
 msgstr ""
+"در ریاضیات، بردارها فهرستی از شماره‌ها اند. در بازی‌ها، بیشتر زمان‌ها بردارهای "
+"دوبعدی و سه‌بعدی، به ترتیب، برای فهرست‌های دو و سه‌تایی شماره‌ها به کار می‌روند.\n"
+"\n"
+"ما این شماره‌ها را برای نمایاندن یک سو و بزرگی یا شدت در فضا به کار می‌بریم. "
+"برای نمونه، می‌توانید بُرداری را برای نمایاندن تندی و سویی که ترابَر یا شخصیتی "
+"به آن می‌رود به کار ببرید.\n"
+"\n"
+"بردارها بخاطر انتزاعی بودنشان می‌توانند تا اندازه‌ای دلهره‌آور به نظر برسند، "
+"ولی همانگونه که خواهید دید، کد را بسیار ساده خواهند ساخت."
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "argument"
-msgstr ""
+msgstr "آرگومان"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
 msgid "arguments"
-msgstr ""
+msgstr "آرگومان‌ها"
 
 #. Reference: argument
 #: ./course/glossary.csv:37
@@ -202,6 +249,21 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and"
 " [code]y[/code] are [i]parameters[/i]."
 msgstr ""
+"آرگومان‌ها ارزشی‌اند که هنگام فراخواندن تابعی آنها را می‌دهید. برای نمونه،‌ در "
+"فراخوان [code]rotate(0.5)[/code]، ارزش [code]0.5[/code] درون کمانک‌ها یک "
+"آرگومان است.\n"
+"\n"
+"تابع‌ها می‌توانند هیچ آرگومان، یک آرگومان یا چندین آرگومان را دریافت کنند. "
+"آرگومان‌ها می‌توانند دلبخواهی یا اجباری باشند.\n"
+"\n"
+"زمانی که تابعی چندین آرگومان دریافت می‌کند، ارزش‌ها را با کاما (ویرگول انگلیسی)"
+" جدا می‌کنیم، مانند این فراخوان تابع: [code]jump(50, 100)[/code]\n"
+"\n"
+"هنگام [i]فراخواندن[/i] تابعی، ارزشی که درون کمانک‌ها داده می‌شود را [i]آرگومان"
+"[/i] می‌خوانیم.\n"
+"\n"
+"ولی هنگام نوشتن تعریف تابع‌ها،‌ [i]پارامترها[/i] را به کار می‌بریم. در نمونهٔ "
+"زیر، نام‌های [code]x[/code] و [code]y[/code] [i]پارامتر[/i]اند."
 
 #. Reference: array
 #: ./course/glossary.csv:44
