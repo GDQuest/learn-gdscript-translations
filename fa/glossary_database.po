@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-29 00:21+0000\n"
+"PO-Revision-Date: 2025-01-05 05:06+0000\n"
 "Last-Translator: Atur <aturaseman9@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/glossary_database/fa/>\n"
@@ -268,12 +268,12 @@ msgstr ""
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "array"
-msgstr ""
+msgstr "آرایه"
 
 #. Reference: array
 #: ./course/glossary.csv:44
 msgid "arrays"
-msgstr ""
+msgstr "آرایه‌ها"
 
 #. Reference: array
 #: ./course/glossary.csv:44
@@ -291,11 +291,23 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
+"آرایه‌ها فهرستی از ارزش‌ها هستند. در جی.دی.اسکریپت، آرایه‌ها می‌توانند [i]هر[/i] "
+"گونه ارزش را درون خود داشته باشند.\n"
+"\n"
+"برای ساختن آرایه‌ها، ارزش‌های جداشده با کاما (ویرگول انگلیسی) را درون دو قلاب "
+"می‌نویسیم: [code]var three_numbers = [1, 2, 3][/code]\n"
+"\n"
+"در بازی‌ها، آرایه‌ها برای انبار کردن فهرست شخصیت‌های درون گروه، فهرست آیتم‌های "
+"درون اینوِنتوری، فهرست جادوهایی که بازیکن به دست آورده و... بسیار به کار می‌"
+"روند. آنها همه جا هستند.\n"
+"\n"
+"آرایه‌ها گونهٔ ارزشی بنیادی در برنامه‌نویسی رایانه‌ای هستند. آرایه‌ها را در هر "
+"زبان برنامه‌نویسی‌ای خواهید یافت."
 
 #. Reference: assign
 #: ./course/glossary.csv:45
 msgid "assign"
-msgstr ""
+msgstr "واگذاری"
 
 #. Reference: assign
 #: ./course/glossary.csv:45
@@ -303,16 +315,18 @@ msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
+"واگذاری یک ارزش به یک متغیر یعنی ارزشی را درون آن متغیر انبار می‌کنید. این "
+"کار را با نشانهٔ برابر ([code]=[/code]) می‌کنیم."
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionary"
-msgstr ""
+msgstr "دیکشنری"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
 msgid "dictionaries"
-msgstr ""
+msgstr "دیکشنری‌ها"
 
 #. Reference: dictionary
 #: ./course/glossary.csv:52
@@ -333,16 +347,30 @@ msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
+"دیکشنری‌ها ساختار داده‌ای هستند که ارزش‌ها را با کلیدها جفت می‌کنند. هنگامی که "
+"به دیکشنری‌ای کلیدی بدهید، ارزش جفتیده با آن کلید را می‌یابد و می‌دهد.\n"
+"\n"
+"در جی.دی.اسکریپت، کلیدها می‌توانند چیزهای بسیاری باشند. ما بیشتر زمان‌ها رشته‌"
+"های نوشتاری یا شماره‌ها را به کار می‌بریم، ولی به آن محدود نیستید"
+".[code]Vector2[/code]ها هم می‌توانند کلید معتبری باشند، که هنگام نهادن یاخته‌"
+"های توری در یک یگان یا آیتم در بازی‌های توری‌بنیاد پرکاربرد هستند.\n"
+"\n"
+"دیکشنری‌ها را برای پیوند دادن تکه‌های داده درون بازی‌هایتان بسیار به کار خواهید "
+"برد. برای نمونه، می‌توانیم آنها را برای پیوند دادن نام شمشیری به آمارهایش در "
+"یک دادگان به کار ببریم.\n"
+"\n"
+"مانند آرایه‌ها، گونهٔ داده‌ای بنیادی‌اند که آنها را در زبان‌های برنامه‌نویسی "
+"بسیاری خواهید دید و به کار خواهید برد."
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loop"
-msgstr ""
+msgstr "چرخهٔ for"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
 msgid "for loops"
-msgstr ""
+msgstr "چرخه‌های for"
 
 #. Reference: for loop
 #: ./course/glossary.csv:59
@@ -360,16 +388,28 @@ msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to"
 " use than while loops."
 msgstr ""
+"چرخه‌های for به رایانه می‌گویند که دسته‌ای از فرمان‌ها را یک بار برای هر ارزش "
+"درون آرایه‌ای تکرار کند.\n"
+"\n"
+"در هر تکرار چرخه، کامپایلر یک ارزش را از آرایه استخراج کرده و به شما در بدن "
+"چرخه به آن دسترسی می‌دهد.\n"
+"\n"
+"چرخه‌های for بارهای محدودی کد را اجرا می‌کنند: یک بار برای هر ارزش درون آرایه. "
+"با چرخه‌های while، که کد را تا زمانی که شرطی برقرار باشد اجرا می‌کنند، "
+"متفاوت‌اند.\n"
+"\n"
+"تا جایی که برای‌تان شدنی‌ست ما چرخه‌های for را پیشنهاد می‌کنیم. به‌کارگیری آنها "
+"از چرخه‌های while آسان‌تر و امن‌تر است."
 
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "function"
-msgstr ""
+msgstr "تابع"
 
 #. Reference: function
 #: ./course/glossary.csv:64
 msgid "functions"
-msgstr ""
+msgstr "تابع‌ها"
 
 #. Reference: function
 #: ./course/glossary.csv:64
@@ -385,21 +425,31 @@ msgid ""
 "\n"
 "Also, functions can optionally return a value to the code calling it."
 msgstr ""
+"تابع‌ها گروهی از فرمان‌های کدی هستند که به آن نامی می‌دهید. هنگامی که تابعی را "
+"تعریف می‌کنید، می‌توانید هر زمانی که می‌خواهید برای اجرا کردن همهٔ فرمان‌هایی که "
+"در خود دارد آن را فراخوانید.\n"
+"\n"
+"می‌توانید رفتار تابع‌ها را با پارامترها دگرگون کنید. پارامترها نام متغیرهایی‌"
+"اند که آنها را در تعریف تابع‌ها می‌نویسید. می‌توانید آنها را درون بدن تابع به "
+"کار ببرید تا کدتان بسته به موقعیت‌های گوناگون سازوار شود.\n"
+"\n"
+"همچنین، تابع‌ها می‌توانند ارزشی را به کدی که آن را فراخوانده است بهینه‌وار "
+"برگردانند."
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "increment"
-msgstr ""
+msgstr "فزایش"
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "increments"
-msgstr ""
+msgstr "فزایش‌ها"
 
 #. Reference: increment
 #: ./course/glossary.csv:65
 msgid "An increment is the amount by which a value changes in your code."
-msgstr ""
+msgstr "فزایش‌ها مقداری‌اند که بر پایهٔ آنها ارزشی درون کدتان دگرگون می‌شود."
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
