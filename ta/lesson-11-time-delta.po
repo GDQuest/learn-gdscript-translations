@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2024-12-12 14:39+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-01-11 17:53+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-11-time-delta/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
@@ -23,6 +26,8 @@ msgid ""
 "We've seen how we can use our character's [code]_process()[/code] "
 "function to make it move continuously."
 msgstr ""
+"உங்கள் கதாபாத்திரத்தின் [குறியீடு] செயல்முறை () [/குறியீடு] செயல்பாட்டை தொடர்ந்து "
+"நகர்த்துவதற்கு நாங்கள் எவ்வாறு பயன்படுத்தலாம் என்பதை நாங்கள் பார்த்துள்ளோம்."
 
 #: course/lesson-11-time-delta/lesson.tres:34
 msgid ""
@@ -41,10 +46,24 @@ msgid ""
 "As this happens dozens of times per second, you get the illusion of "
 "movement. This is similar to how traditional animation works."
 msgstr ""
+"ஆனால் இது எங்கள் பாத்திரம் மட்டுமல்ல, [குறியீடு] _ செயல்முறை () [/குறியீடு] செயல்பாட்டைக் "
+"கொண்டுள்ளது; விளையாட்டில் கிட்டத்தட்ட எல்லாவற்றிலும் [குறியீடு] _ செயல்முறை () [/குறியீடு]"
+" செயல்பாடு உள்ளது!\n"
+"\n"
+" நொடிக்கு டசன் கணக்கான முறை, கோடோட் விளையாட்டு உலகத்தைப் புதுப்பிக்க விளையாட்டில் ஒவ்வொரு"
+" [குறியீடு] _ செயல்முறை () [/குறியீடு] செயல்பாட்டை இயக்குகிறது.\n"
+"\n"
+" அதன் பிறகு, இது திரையில் விளையாட்டு உலகின் ஒரு படத்தைக் காட்டுகிறது. அந்த படத்தை ஒரு "
+"[b] சட்டகம் [/b] என்று அழைக்கிறோம்.\n"
+"\n"
+" கோடோட் பின்னர் அடுத்த சட்டகத்தைக் கணக்கிட நகர்கிறார்.\n"
+"\n"
+" இது நொடிக்கு டசன் கணக்கான முறை நிகழும்போது, இயக்கத்தின் மாயையை நீங்கள் பெறுவீர்கள். இது "
+"பாரம்பரிய அனிமேசன் எவ்வாறு செயல்படுகிறது என்பதைப் போன்றது."
 
 #: course/lesson-11-time-delta/lesson.tres:50
 msgid "This sounds like Frames Per Second..."
-msgstr ""
+msgstr "இது நொடிக்கு பிரேம்கள் போல் தெரிகிறது ..."
 
 #: course/lesson-11-time-delta/lesson.tres:52
 msgid ""
@@ -59,14 +78,24 @@ msgid ""
 "On powerful computers, you may get frame rates in the hundreds or "
 "thousands of frames per second."
 msgstr ""
+"நீங்கள் நொடிக்கு பிரேம்கள் அல்லது சுருக்கமாக FPS பற்றி கேள்விப்பட்டிருக்கலாம். விளையாட்டுகள் "
+"பெரும்பாலும் நொடிக்கு 60 பிரேம்களில் இயங்கும்.\n"
+"\n"
+" விளையாட்டில் உள்ள அனைத்தும் ஒவ்வொரு நொடியும் 60 முறை புதுப்பிக்கும் என்று அர்த்தம்.\n"
+"\n"
+" விளையாட்டு மற்றும் அது இயங்கும் சாதனத்தைப் பொறுத்து விளையாடும்போது எண் மாறுபடும்.\n"
+"\n"
+" சக்திவாய்ந்த கணினிகளில், நீங்கள் ஒரு நொடிக்கு நூற்றுக்கணக்கான அல்லது ஆயிரக்கணக்கான "
+"பிரேம்களில் பிரேம் விகிதங்களைப் பெறலாம்."
 
 #: course/lesson-11-time-delta/lesson.tres:68
 msgid "Let's look at the [code]_process()[/code] function in more detail."
 msgstr ""
+"[குறியீடு] _PROCESS () [/குறியீடு] செயல்பாட்டை இன்னும் விரிவாகப் பார்ப்போம்."
 
 #: course/lesson-11-time-delta/lesson.tres:76
 msgid "What parameter does the _process() function take?"
-msgstr ""
+msgstr "_PROCESS () செயல்பாடு எந்த அளவுருவை எடுக்கும்?"
 
 #: course/lesson-11-time-delta/lesson.tres:77
 msgid ""
@@ -75,29 +104,34 @@ msgid ""
 "\trotate(0.05)\n"
 "[/code]"
 msgstr ""
+"[குறியீடு]\n"
+" FUNC _PROCESS (டெல்டா):\n"
+" சுழலும் (0.05)\n"
+" [/குறியீடு]"
 
 #: course/lesson-11-time-delta/lesson.tres:82
 msgid ""
 "The [code]_process()[/code] function has one parameter named "
 "[code]delta[/code]."
 msgstr ""
+"The [code]_process()[/code] சார்பு has one கூறளவு named [code]delta[/code]."
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "rotate"
-msgstr ""
+msgstr "சுழற்றுங்கள்"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "0.05"
-msgstr ""
+msgstr "0.05"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 #: course/lesson-11-time-delta/lesson.tres:84
 msgid "delta"
-msgstr ""
+msgstr "டெல்டா"
 
 #: course/lesson-11-time-delta/lesson.tres:91
 msgid "Frames take varying amounts of time to calculate"
-msgstr ""
+msgstr "பிரேம்கள் கணக்கிட மாறுபட்ட நேரத்தை எடுத்துக்கொள்கின்றன"
 
 #: course/lesson-11-time-delta/lesson.tres:93
 msgid ""
@@ -122,10 +156,29 @@ msgid ""
 " on the computer. Delta helps to make the game experience consistent for "
 "everyone."
 msgstr ""
+"விளையாட்டு, கணினி மற்றும் விளையாட்டு இயந்திரம் கணக்கிட வேண்டியதைப் பொறுத்து, பிரேம்கள் "
+"காண்பிக்க அதிகமாகவோ அல்லது குறைவாகவோ நேரம் எடுக்கும்.\n"
+"\n"
+" பிரேம் முதல் சட்டகம் வரை எப்போதும் மில்லி விநாடிகளின் மாறுபாடுகள் இருக்கும்.\n"
+"\n"
+" அதனால்தான் [குறியீடு] _PROCESS () [/குறியீடு] செயல்பாடு [குறியீடு] டெல்டா "
+"[/குறியீடு] அளவுருவைப் பெறுகிறது.\n"
+"\n"
+" டெல்டா ஒரு நேர வேறுபாட்டைக் குறிக்கிறது. முந்தைய சட்டகத்திலிருந்து, நொடிகளில் கடந்த "
+"நேரம் இது.\n"
+"\n"
+" பிரேம்களுக்கு இடையிலான மாற்றங்கள் விளையாட்டின் நடத்தையை நம்பமுடியாததாக மாற்றாது என்பதை "
+"உறுதிப்படுத்த இதைப் பயன்படுத்தலாம்.\n"
+"\n"
+" ஏனென்றால், வெவ்வேறு கணினிகள் வித்தியாசமாக இயங்குகின்றன, எனவே வேகமான கணினியை விட "
+"வேகமான கணினி நொடிக்கு அதிக பிரேம்களைக் கொண்டிருக்கும்.\n"
+"\n"
+" [குறியீடு] டெல்டா [/குறியீடு] ஐ நாம் புறக்கணித்தால், கணினியைப் பொறுத்து விளையாட்டு "
+"பட்டறிவு மாறுபடும். விளையாட்டு அனுபவத்தை அனைவருக்கும் சீரானதாக மாற்ற டெல்டா உதவுகிறது."
 
 #: course/lesson-11-time-delta/lesson.tres:113
 msgid "What do we know about delta?"
-msgstr ""
+msgstr "டெல்டா பற்றி நமக்கு என்ன தெரியும்?"
 
 #: course/lesson-11-time-delta/lesson.tres:116
 msgid ""
@@ -137,25 +190,31 @@ msgid ""
 "It varies each frame because Godot needs to process more or less each "
 "frame."
 msgstr ""
+"[குறியீடு] டெல்டா [/குறியீடு] முந்தைய சட்டகத்தை நொடிகளில் முடிக்க கோடோட் எடுத்த நேரம்.\n"
+"\n"
+" இது மிகவும் சிறியது, ஏனெனில் பிரேம்கள் ஒரு நொடிக்கு பல முறை நடக்கும்.\n"
+"\n"
+" இது ஒவ்வொரு சட்டகத்தையும் மாறுபடும், ஏனெனில் கோடோட் ஒவ்வொரு சட்டகத்தையும் அதிகமாகவோ "
+"அல்லது குறைவாகவோ செயலாக்க வேண்டும்."
 
 #: course/lesson-11-time-delta/lesson.tres:121
 #: course/lesson-11-time-delta/lesson.tres:122
 msgid "It's a value in seconds."
-msgstr ""
+msgstr "இது நொடிகளில் ஒரு மதிப்பு."
 
 #: course/lesson-11-time-delta/lesson.tres:121
 #: course/lesson-11-time-delta/lesson.tres:122
 msgid "It varies each frame."
-msgstr ""
+msgstr "இது ஒவ்வொரு சட்டகத்தையும் மாறுபடும்."
 
 #: course/lesson-11-time-delta/lesson.tres:121
 #: course/lesson-11-time-delta/lesson.tres:122
 msgid "It's the time it took Godot to complete the previous frame."
-msgstr ""
+msgstr "முந்தைய சட்டகத்தை முடிக்க கோடோட் எடுத்த நேரம் இது."
 
 #: course/lesson-11-time-delta/lesson.tres:129
 msgid "Multiplying by delta"
-msgstr ""
+msgstr "டெல்டாவால் பெருக்கப்படுகிறது"
 
 #: course/lesson-11-time-delta/lesson.tres:131
 msgid ""
@@ -165,6 +224,11 @@ msgid ""
 "To apply [code]delta[/code], you need to [i]multiply[/i] your speed "
 "values by it."
 msgstr ""
+"[குறியீடு] டெல்டா [/குறியீடு] நீங்கள் [குறியீடு] _ நடைமுறையில் () [/குறியீடு] பெறும் "
+"நொடிகளில் நேர வேறுபாடு. இது பொதுவாக ஒரு சிறிய தசம எண்ணாக இருக்கும்.\n"
+"\n"
+" [குறியீடு] டெல்டா [/குறியீடு] ஐப் பயன்படுத்த, உங்கள் வேக மதிப்புகளை நீங்கள் பெருக்க "
+"வேண்டும் [/i]."
 
 #: course/lesson-11-time-delta/lesson.tres:153
 msgid ""
@@ -173,10 +237,14 @@ msgid ""
 "\n"
 "That's essential to make your game consistent and fair."
 msgstr ""
+"[குறியீடு] டெல்டா [/குறியீடு] ஆல் பெருக்கும்போது, நீங்கள் [i] பிரேம் சார்ந்த [/i] ஐ விட "
+"இயக்கத்தை [i] நேரத்தைச் சார்ந்த [/i] செய்கிறீர்கள்.\n"
+"\n"
+" உங்கள் விளையாட்டை சீரானதாகவும் நியாயமாகவும் மாற்ற இது தேவை."
 
 #: course/lesson-11-time-delta/lesson.tres:163
 msgid "Why do we use the number 3.0 in this example?"
-msgstr ""
+msgstr "இந்த எடுத்துக்காட்டில் 3.0 என்ற எண்ணை ஏன் பயன்படுத்துகிறோம்?"
 
 #: course/lesson-11-time-delta/lesson.tres:165
 msgid ""
@@ -203,10 +271,32 @@ msgid ""
 "Don't worry if it's a little confusing for now. It'll eventually click as"
 " you deal with speed, acceleration, and motion in your game projects."
 msgstr ""
+"பாடத்தின் மேற்புறத்தில், ரோபோ ஒவ்வொரு சட்டகத்தையும் ஒரு நிலையான தொகையை சுழற்றினோம்: "
+"[குறியீடு] 0.05 [/குறியீடு] ரேடியன்கள்.\n"
+"\n"
+" மேலே உள்ள எடுத்துக்காட்டில், நாங்கள் இப்போது [i] மிகச் சிறிய [குறியீடு] டெல்டா "
+"[/குறியீடு] மதிப்பால் வாதத்தை பெருக்குகிறோம், [குறியீடு] 1.0 [/குறியீடு] கீழே உள்ள "
+"மதிப்பு வழி. இது ரோபோவை காலப்போக்கில் நிலையான வேகத்தில் மாற்ற வைக்கிறது.\n"
+"\n"
+" இருப்பினும், [குறியீடு] டெல்டா [/குறியீடு] போன்ற [குறியீடு] 1.0 [/குறியீடு] கீழே உள்ள "
+"எண்ணால் பெருக்கி முடிவை சிறியதாக ஆக்குகிறது.\n"
+"\n"
+" அதற்கு ஈடுசெய்யவும், ரோபோவை போதுமான அளவு விரைவாக மாற்றவும், [குறியீடு] 0.05 "
+"[/குறியீடு] க்கு பதிலாக [குறியீடு] 3.0 [/குறியீடு] முன்பை விட பெரிய எண்ணைப் "
+"பயன்படுத்துகிறோம்.\n"
+"\n"
+" அந்த எண்கள் இரண்டு வெவ்வேறு [i] அலகுகளைக் கொண்டுள்ளன [/i]: [குறியீடு] 0.05 [/குறியீடு]"
+" என்பது ரேடியன்களில் ஒரு [i] கோணம் [/i], அதே நேரத்தில் [குறியீடு] 3.0 [/குறியீடு] ஒரு"
+" [i] கோணமாகும் விரைவு [/i] நொடிக்கு ரேடியன்களில்.\n"
+"\n"
+" நீங்கள் ஒரு வேகத்தை டெல்டாவால் பெருக்கும்போது, அது உங்களுக்கு ஒரு கோணத்தை அளிக்கிறது.\n"
+"\n"
+" இப்போது கொஞ்சம் குழப்பமாக இருந்தால் கவலைப்பட வேண்டாம். உங்கள் விளையாட்டு திட்டங்களில் "
+"விரைவு, முடுக்கம் மற்றும் இயக்கத்தை நீங்கள் சமாளிக்கும்போது இது இறுதியில் சொடுக்கு செய்யும்."
 
 #: course/lesson-11-time-delta/lesson.tres:185
 msgid "Why the time between frames matters"
-msgstr ""
+msgstr "பிரேம்களுக்கு இடையிலான நேரம் ஏன் முக்கியமானது"
 
 #: course/lesson-11-time-delta/lesson.tres:187
 msgid ""
@@ -226,6 +316,21 @@ msgid ""
 "\n"
 "The bottom robot will move [i]differently for everyone[/i]!"
 msgstr ""
+"புதிய சட்டகத்தைக் காண்பிக்க எடுக்கும் நேரம் மாறுபடும்.\n"
+"\n"
+" உங்கள் குறியீட்டில் அந்த நேரத்தை நீங்கள் கணக்கில் எடுத்துக் கொள்ளாவிட்டால், உங்கள் விளையாட்டில் "
+"விளையாட்டு சிக்கல்கள் மற்றும் பிழைகள் இருக்கும். கோடோட் [குறியீடு] _PROCESS () "
+"[/குறியீடு] செயல்பாட்டிற்கு [குறியீடு] டெல்டா [/குறியீடு] அளவுருவின் மூலம் அந்த நேரத்தை "
+"வழங்குகிறது.\n"
+"\n"
+" கீழேயுள்ள எடுத்துக்காட்டில், [குறியீடு] டெல்டா [/குறியீடு] ஐப் பயன்படுத்தி மேல் ரோபோ "
+"நகர்கிறது. இதன் விளைவாக, இது ஒரு நிலையான வேகத்தில் நகர்கிறது.\n"
+"\n"
+" [/I] [குறியீடு] டெல்டா [/குறியீடு] ஐ கணக்கில் எடுத்துக் கொள்ளாமல், [i] ஒவ்வொரு "
+"சட்டகத்தையும் ஒரு நிலையான தூரத்திற்கு மேல் கீழே நகர்த்துகிறது. இது [i] உங்கள் [/i] "
+"கணினியில் சிறந்த ரோபோவை விட வேகமாக அல்லது மெதுவாக நகரும்.\n"
+"\n"
+" கீழே உள்ள ரோபோ அனைவருக்கும் வித்தியாசமாக நகரும் [/i]!"
 
 #: course/lesson-11-time-delta/lesson.tres:215
 msgid ""
@@ -238,45 +343,56 @@ msgid ""
 "and during gameplay. Because of that, the movement will differ for every "
 "player, making the game inconsistent and messy."
 msgstr ""
+"[குறியீடு] டெல்டா [/குறியீடு] மூலம் நேர-உணர்திறன் மதிப்புகளைப் பெருக்குவது [B] பிரேம் "
+"சார்ந்த [/b] ஐ விட அவற்றை [b] நேரத்தைச் சார்ந்தது [/b] ஆக்குகிறது.\n"
+"\n"
+" அதற்கு நன்றி, காலப்போக்கில் நம்பகமான இயக்கத்தைப் பெறுகிறோம்.\n"
+"\n"
+" [குறியீடு] டெல்டா [/குறியீடு] இல்லாமல், பிரேம் நேரங்கள் கணினியிலிருந்து கணினிக்கு "
+"மற்றும் விளையாட்டின் போது வேறுபடுகின்றன. இதன் காரணமாக, இயக்கம் ஒவ்வொரு வீரருக்கும் "
+"வேறுபடுகிறது, இது விளையாட்டை முரண்பாடாகவும் குழப்பமாகவும் மாற்றும்."
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
-msgstr ""
+msgstr "இதன் பொருள் என்ன?"
 
 #: course/lesson-11-time-delta/lesson.tres:228
 msgid "[code]rotation_speed * delta[/code]"
-msgstr ""
+msgstr "[குறியீடு] சுழற்சி_ச்பீட் * டெல்டா [/குறியீடு]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
 msgid ""
 "The [code]*[/code] symbol means we're multiplying "
 "[code]rotation_speed[/code] by [code]delta[/code] time."
 msgstr ""
+"The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/code]"
+" by [code]delta[/code] time."
 
 #: course/lesson-11-time-delta/lesson.tres:231
 #: course/lesson-11-time-delta/lesson.tres:232
 msgid "We're multiplying rotation_speed by delta."
-msgstr ""
+msgstr "நாங்கள் டெல்டாவால் சுழற்சி_ச்பீட்டை பெருக்கி வருகிறோம்."
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're dividing delta by rotation_speed."
-msgstr ""
+msgstr "நாங்கள் டெல்டாவை சுழற்சி_ச்பீட் மூலம் பிரிக்கிறோம்."
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're adding rotation_speed to delta."
-msgstr ""
+msgstr "நாங்கள் டெல்டாவில் சுழற்சி_ச்பீட்டைச் சேர்க்கிறோம்."
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're subtracting delta from rotation_speed."
-msgstr ""
+msgstr "நாங்கள் சுழற்சி_ச்பீட்டிலிருந்து டெல்டாவைக் கழிக்கிறோம்."
 
 #: course/lesson-11-time-delta/lesson.tres:241
 msgid "In the next practice, we'll use delta to make rotating time-dependent."
 msgstr ""
+"அடுத்த நடைமுறையில், சுழலும் நேரத்தைச் சார்ந்ததாக மாற்ற டெல்டாவைப் பயன்படுத்துவோம்."
 
 #: course/lesson-11-time-delta/lesson.tres:249
 msgid "Rotating Using Delta"
-msgstr ""
+msgstr "டெல்டாவைப் பயன்படுத்தி சுழலும்"
 
 #: course/lesson-11-time-delta/lesson.tres:250
 msgid ""
@@ -286,10 +402,15 @@ msgid ""
 "\n"
 "The robot should rotate [code]2[/code] radians per second."
 msgstr ""
+"இந்த நேரத்தில், ரோபோவின் சுழற்சி பிரேம் சார்ந்தது.\n"
+"\n"
+" சுழற்சி வேக நேரத்தைச் சார்ந்ததாக மாற்ற [குறியீடு] டெல்டா [/குறியீடு] ஐச் சேர்க்கவும்.\n"
+"\n"
+" ரோபோ ஒரு நொடிக்கு [குறியீடு] 2 [/குறியீடு] ரேடியன்களை சுழற்ற வேண்டும்."
 
 #: course/lesson-11-time-delta/lesson.tres:269
 msgid "Moving in a Circle Using Delta"
-msgstr ""
+msgstr "டெல்டாவைப் பயன்படுத்தி வட்டத்தில் நகரும்"
 
 #: course/lesson-11-time-delta/lesson.tres:270
 msgid ""
@@ -302,7 +423,14 @@ msgid ""
 "functions. If you define extra variables, we will not be able to check "
 "your practice."
 msgstr ""
+"இந்த நடைமுறையில், டெல்டாவைப் பயன்படுத்தி மென்மையான வட்டத்தில் ரோபோவை நகர்த்தவும்.\n"
+"\n"
+" இந்த இயக்கத்தைப் பெற, ரோபோ நொடிக்கு [குறியீடு] 2 [/குறியீடு] ரேடியன்களை சுழற்றி "
+"[குறியீடு] 100 [/குறியீடு] பிக்சல்களை நொடிக்கு கடிகார திசையில் நகர்த்த வேண்டும்.\n"
+"\n"
+" [b] குறிப்பு: [/b] செயல்பாடுகளை அழைக்கும்போது அடைப்புக்குறிக்குள் மதிப்புகளை எழுதுங்கள்"
+". கூடுதல் மாறிகள் நீங்கள் வரையறுத்தால், உங்கள் நடைமுறையை எங்களால் சரிபார்க்க முடியாது."
 
 #: course/lesson-11-time-delta/lesson.tres:288
 msgid "Time Delta"
-msgstr ""
+msgstr "நேரம் டெல்டா"
