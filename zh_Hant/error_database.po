@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2024-12-12 14:39+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-03-30 16:01+0000\n"
+"Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/error-explanations/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -30,6 +33,12 @@ msgid ""
 "creates a new variable with the desired name and assigns each element of the "
 "array to it."
 msgstr ""
+"當 [code]for[/code] 和 [code]in[/code] 之間的名稱不是有效的變數名稱，"
+"或是你遺漏了 [code]in[/code] 關鍵字時，會出現這個錯誤。\n"
+"\n"
+"在 [code]for[/code] 迴圈中， [code]in[/code] "
+"關鍵字只接受一個有效的臨時變數名稱，並將每次迴圈的值指定給該變數。這個迴圈會"
+"創建一個新的變數並將陣列中的每個元素依照順序指定給它。"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
 #: script_checking/error_database.csv:40
@@ -48,6 +57,17 @@ msgid ""
 "[code]for cell_position in cell_positions_array:\n"
 "    cell_position.x += 1.0[/code]"
 msgstr ""
+"要修正這個錯誤，你需要確保 [code]for[/code] 和 [code]in[/code] "
+"之間的名稱是有效的變數名稱，且不包含標點符號或空格。\n"
+"\n"
+"例如，這段程式碼是無效的：[code]for cell_position.x in cell_positions_array:"
+"[/code]，因為 [code]cell_position.x[/code] 不是有效的變數名稱。\n"
+"\n"
+"若要訪問變數的 [code]x[/code] 子組件，你需要將這個操作放在迴圈的內容區塊內："
+"\n"
+"\n"
+"[code]for cell_position in cell_positions_array:\n"
+"    cell_position.x += 1.0[/code]"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:47
@@ -59,6 +79,11 @@ msgid ""
 "Another possibility is that you want to check for equality in a condition "
 "but wrote a single = instead of ==."
 msgstr ""
+"如果你遇到這個錯誤，很可能是你正在嘗試將值指定給不是變數的東西，這是無法實現"
+"的。你只能將值指定給變數。\n"
+"\n"
+"另一個可能性是，你想要在條件判斷中檢查相等性，但錯誤地寫成單個 [code]=[/code]"
+" 而不是 [code]==[/code]。"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:47
@@ -72,6 +97,11 @@ msgid ""
 "In the case of a condition, ensure that you are using two equal signs to "
 "check for equality (==)."
 msgstr ""
+"如果你想將值指定給變數，請再次確認＝符號左邊的是變數，而不是函數。\n"
+"\n"
+"你還需要確保語法正確。例如，等號左邊不應該有括號。\n"
+"\n"
+"在條件判斷中，確保你使用的是兩個等號來檢查是否相等 (==)。"
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:57
@@ -89,6 +119,15 @@ msgid ""
 "do this. Godot 4 should solve this problem, but you need to work around it "
 "in the meantime."
 msgstr ""
+"循環引用是指一個類別直接或間接地引用自身。\n"
+"\n"
+"這可能有兩個原因：\n"
+"\n"
+"1. 你在類別內部使用了類別自己。\n"
+"2. 你的程式碼引用了另一個類別，而該類別又引用了這個類別，造成無限循環引用。\n"
+"\n"
+"無論哪種情況，由於 GDScript 在 Godot 3 的運作方式，不幸的是，這是無法實現的。"
+"Godot 4 應該能解決這個問題，但目前你需要找到替代方法。"
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:57
@@ -99,6 +138,11 @@ msgid ""
 "causing cyclic references. It solves the problem in the vast majority of "
 "cases."
 msgstr ""
+"刪除錯誤行中的類型提示，問題應該就會消失。 \n"
+"\n"
+"在 "
+"GDQuest，當我們遇到這個錯誤時，我們會刪除導致循環引用的行上的類型提示。這樣做"
+"在大多數情況下能解決問題。"
 
 #. Reference: INVALID_INDENTATION
 #: script_checking/error_database.csv:64
@@ -111,6 +155,11 @@ msgid ""
 "The computer uses those leading tab characters on code lines to know which "
 "lines of code are part of a code block, like a function."
 msgstr ""
+"你的程式碼縮排（行首的 tab 字符數量）不正確。\n"
+"\n"
+"你可能遺漏了一個或多個 tab，或者插入了太多。\n"
+"\n"
+"電腦利用這些行首的 tab 字符來識別程式碼行是否屬於某個程式區塊，例如一個函式。"
 
 #. Reference: INVALID_INDENTATION
 #: script_checking/error_database.csv:64
@@ -122,6 +171,10 @@ msgid ""
 "In other words, your line should have one more leading tab character than "
 "the function definition."
 msgstr ""
+"如果出錯的程式碼行緊接在以冒號結尾的行之後，例如函式定義，你需要比上一行多一"
+"級縮排。\n"
+"\n"
+"換句話說，這行程式碼的縮排應該比函式定義多一個 tab 字符。"
 
 #. Reference: UNEXPECTED_CHARACTER
 #: script_checking/error_database.csv:73
@@ -136,6 +189,14 @@ msgid ""
 "Note that this error can appear [b]after[/b] the line causing it due to how "
 "the computer reads and analyzes your code."
 msgstr ""
+"當你寫了語法不正確的程式碼，或者你遺漏了某些內容來完成這行或前面的程式碼時，"
+"會出現這個錯誤。\n"
+"\n"
+"當你為電腦編寫程式碼時，需要極為精確。這類錯誤很容易出現，因為只要有一個錯誤"
+"的字符，就會發生。\n"
+"\n"
+"請注意，由於電腦讀取和分析程式碼的方式，這個錯誤可能會出現在 [b]"
+"造成錯誤的行之後[/b]。"
 
 #. Reference: UNEXPECTED_CHARACTER
 #: script_checking/error_database.csv:73
@@ -151,6 +212,14 @@ msgid ""
 "expression, like a closing bracket. In this case, it most likely comes from "
 "the line with the error."
 msgstr ""
+"解決這類錯誤的方法非常具有上下文依賴性。錯誤訊息應該會告訴你缺少的是哪個字符"
+"或元素。\n"
+"\n"
+"如果錯誤訊息說「expected」（預期），那麼你很可能在 [b]前面的[/b] "
+"程式碼行中遺漏了某些東西。可能是標點符號、括號或其他東西。\n"
+"\n"
+"如果錯誤訊息說「unterminated」（未結束），那麼你缺少的是表達式結尾處的某個字"
+"符，例如閉合括號。在這種情況下，錯誤通常來自於有錯誤的那一行。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:76
@@ -161,27 +230,31 @@ msgid ""
 "Three keywords in GDScript work like function calls and require parentheses: "
 "[code]yield()[/code], [code]preload()[/code], and [code]assert()[/code]."
 msgstr ""
+"這個錯誤告訴你缺少了一個括號（有時是逗號或路徑）。\n"
+"\n"
+"在 GDScript 中，有三個關鍵字像函式呼叫一樣，並需要括號： [code]yield()[/code]"
+", [code]preload()[/code] 和 [code]assert()[/code]。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:76
 msgid ""
 "To address the error, you want to add the missing opening parenthesis, the "
 "closing parenthesis, or the comma."
-msgstr ""
+msgstr "要解決這個錯誤，你需要添加缺失的開括號、閉括號或逗號。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: script_checking/error_database.csv:77
 msgid ""
 "This error tells you you are missing some parenthesis, a comma, or some "
 "value in your export hint."
-msgstr ""
+msgstr "這個錯誤告訴你在導出提示中缺少了某個括號、逗號或某個值。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
 #: script_checking/error_database.csv:77
 msgid ""
 "You need to read the error message and add the missing character or value it "
 "requests."
-msgstr ""
+msgstr "你需要閱讀錯誤訊息，並根據它的要求添加缺少的字符或值。"
 
 #. Reference: MISPLACED_IDENTIFIER
 #: script_checking/error_database.csv:86
@@ -194,6 +267,12 @@ msgid ""
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
+"這個錯誤發生在幾種情況下：\n"
+"\n"
+"1. 你把識別符（變數或函式名稱）寫錯位置。\n"
+"2. 你寫了像 [code]var[/code], [code]func[/code], [code]for[/code] 或 [code]"
+"signal[/code] 這樣的關鍵字，但後面沒有接名稱。\n"
+"3. 你寫了函式定義，但忘記在冒號之前加上括號。"
 
 #. Reference: MISPLACED_IDENTIFIER
 #: script_checking/error_database.csv:86
@@ -211,6 +290,16 @@ msgid ""
 "function definition, [code]for[/code] loop, or a line starting with "
 "[code]if[/code], [code]elif[/code], or [code]else[/code]."
 msgstr ""
+"如果錯誤告訴你預期某個東西，你很可能在 [code]var[/code], [code]func[/code], "
+"[code]for[/code] 或 [code]signal[/code] "
+"等關鍵字後面忘了寫名稱，導致程式碼無效。或者你忘記了函式定義中的括號。你可以"
+"通過添加缺少的名稱或括號來解決這個錯誤。\n"
+"\n"
+"如果錯誤告訴你有意外情況，那麼你很可能漏寫了像 [code]var[/code]、[code]func[/"
+"code]、[code]for[/code] 等關鍵字。\n"
+"\n"
+"另一種可能是，你需要在函式定義、[code]for[/code] 迴圈，或以 [code]if[/code]、"
+"[code]elif[/code] 或 [code]else[/code] 開頭的條件語句後加上冒號。"
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: script_checking/error_database.csv:91
@@ -226,6 +315,14 @@ msgid ""
 "It also occurs when you write an arrow ([code]->[/code]) after the "
 "parentheses of a function definition but do not follow it with a type name."
 msgstr ""
+"這個錯誤告訴你缺少某個類型。類型可以是 [code]int[/code]、[code]float[/code]、"
+"[code]String[/code]、[code]Array[/code]、[code]Vector2[/"
+"code]，以及許多代表資料結構的識別符。\n"
+"\n"
+"大多數情況下，這個錯誤發生在你在變數名稱後寫了冒號，但沒有加上類型名稱時。\n"
+"\n"
+"它也會發生在你在函式定義的括號後寫了箭頭（[code]->[/code]"
+"），但沒有加上類型名稱時。"
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
 #: script_checking/error_database.csv:91
@@ -234,6 +331,8 @@ msgid ""
 "(in the case of function return types), inside parentheses (for export "
 "types), or after the [code]as[/code] keyword."
 msgstr ""
+"為了解決這個問題，你需要在冒號、箭頭（對於函式回傳類型的情況下）、括號內（對"
+"於導出類型）或 [code]as[/code] 關鍵字後編寫類型名稱。"
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: script_checking/error_database.csv:100
@@ -247,6 +346,12 @@ msgid ""
 "The other cause for this error is that you didn't define the variable, "
 "function, or class you're trying to access."
 msgstr ""
+"你嘗試使用的變數、函式名稱或類別名稱不存在。\n"
+"\n"
+"當你打錯字時，通常會出現這個錯誤。也許你交換了兩個字母、忘了寫一個字母……有時"
+"候很難發現。\n"
+"\n"
+"這個錯誤的另一個原因是你沒有定義你正在嘗試存取的變數、函式或類別。"
 
 #. Reference: NONEXISTENT_IDENTIFIER
 #: script_checking/error_database.csv:100
@@ -259,6 +364,11 @@ msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
+"要解決這個錯誤，請三次檢查該行，確保沒有打錯字。\n"
+"\n"
+"如果可以，嘗試跳轉到變數或函式的定義，雙擊名稱，複製並將其貼到出錯的地方。\n"
+"\n"
+"如果你確認沒有打錯字，那麼你需要確保已經定義了你所引用的變數、函式或類別。"
 
 #. Reference: MISPLACED_KEYWORD
 #: script_checking/error_database.csv:105
@@ -270,6 +380,12 @@ msgid ""
 "loop.\" And the [code]break[/code] keyword means \"end the loop right now "
 "and jump to the first line of code after the loop block."
 msgstr ""
+"你只能在迴圈中使用像是 [code]break[/code] 或 [code]continue[/code] "
+"這樣的關鍵字。若在迴圈外使用，會是無效的。\n"
+"\n"
+"[code]continue[/code] 關鍵字的意思是「跳到下一次的迴圈執行」。而 [code]"
+"break[/code] "
+"關鍵字則表示「立即結束這個迴圈，並跳到迴圈區塊之後的第一行程式碼」。"
 
 #. Reference: MISPLACED_KEYWORD
 #: script_checking/error_database.csv:105
@@ -280,9 +396,14 @@ msgid ""
 "at fault. You may need to insert one or more leading tab characters to the "
 "keyword."
 msgstr ""
+"如果你在迴圈外寫了其中一個關鍵字，則需要將其刪除。\n"
+"\n"
+"如果你是想在迴圈內使用該關鍵字，最有可能的問題是縮排錯誤。你可能需要在該關鍵"
+"字前插入一個或多個縮排的制表符（tab）。"
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: script_checking/error_database.csv:110
+#, fuzzy
 msgid ""
 "When the computer talks about a constant expression, it expects a fixed "
 "value, a fixed calculation, or the name of an existing constant.\n"
@@ -291,6 +412,11 @@ msgid ""
 "computer will reject function calls and variables where it needs a constant "
 "expression."
 msgstr ""
+"當電腦提到常數表達式時，它期望的是一個固定的值、一個固定的計算結果，或是已存"
+"在常數的名稱。\n"
+"\n"
+"換句話說，它需要的是一個永遠不會改變的東西。這就是為什麼當需要常數表達式的地"
+"方，電腦會拒絕函式調用和變數。"
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: script_checking/error_database.csv:110
@@ -301,6 +427,10 @@ msgid ""
 "You can also use arithmetic operators like multiplications (*), additions "
 "(+), and so on."
 msgstr ""
+"您需要將函式呼叫或變數替換為常數值，例如整數、浮點數、字串、向量、預先定義的"
+"陣列等等。\n"
+"\n"
+"您也可以使用算術運算子，例如乘法（*）、加法（+）等等。"
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: script_checking/error_database.csv:115
@@ -311,6 +441,10 @@ msgid ""
 "We typically write class names in PascalCase: with a capital letter at the "
 "start of every word that composes the class name."
 msgstr ""
+"當定義一個新類別時，您需要遵循特定的模式。類別名稱必須以字母開頭，並且使用純"
+"文字編寫。\n"
+"\n"
+"我們通常使用 PascalCase 來書寫類別名稱：每個單字的首字母皆大寫。"
 
 #. Reference: INVALID_CLASS_DECLARATION
 #: script_checking/error_database.csv:115
@@ -321,6 +455,10 @@ msgid ""
 "\n"
 "You can optionally use numbers in the name, but not in the first position."
 msgstr ""
+"要修正這個錯誤，請將 'extends' 或 'class_name' "
+"關鍵字後面所寫的名稱，替換為不包含空格並且以大寫字母開頭的名稱。\n"
+"\n"
+"您可以選擇在名稱中使用數字，但不能將數字放在名稱的第一個位置。"
 
 #. Reference: DUPLICATE_DECLARATION
 #: script_checking/error_database.csv:120
@@ -331,6 +469,10 @@ msgid ""
 "Perhaps the function or variable already exists in the current code file, "
 "but it may also be in a parent class that this GDScript code extends."
 msgstr ""
+"您正嘗試定義一個已經存在的函式或變數；這樣是不可行的。\n"
+"\n"
+"這個函式或變數可能已經存在於當前的程式碼檔案中，也有可能是存在於此 GDScript "
+"程式碼所繼承的父類別中。"
 
 #. Reference: DUPLICATE_DECLARATION
 #: script_checking/error_database.csv:120
@@ -341,6 +483,11 @@ msgid ""
 "When that happens, you need to either rename your function or variable to "
 "one that will not collide with an existing one or remove this line of code."
 msgstr ""
+"在應用程式中，您的程式碼擴展了某些內建的 Godot "
+"程式碼，而這些程式碼對您是不可見的。\n"
+"\n"
+"當發生這種情況時，您需要將您的函式或變數重新命名為不會與現有名稱衝突的名稱，"
+"或者移除這行程式碼。"
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: script_checking/error_database.csv:125
@@ -350,6 +497,10 @@ msgid ""
 "Perhaps the signal already exists in the current code file, but it may also "
 "be in a parent class that this GDScript code extends."
 msgstr ""
+"您正嘗試定義一個已經存在的訊號；這樣是不可行的。\n"
+"\n"
+"這個訊號可能已經存在於當前的程式碼檔案中，也有可能是存在於此 GDScript "
+"程式碼所繼承的父類別中。"
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
 #: script_checking/error_database.csv:125
