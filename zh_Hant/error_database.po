@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2024-12-12 14:39+0100\n"
-"PO-Revision-Date: 2025-03-30 16:01+0000\n"
+"PO-Revision-Date: 2025-03-31 09:57+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/error-explanations/zh_Hant/>\n"
@@ -403,7 +403,6 @@ msgstr ""
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: script_checking/error_database.csv:110
-#, fuzzy
 msgid ""
 "When the computer talks about a constant expression, it expects a fixed "
 "value, a fixed calculation, or the name of an existing constant.\n"
@@ -412,11 +411,11 @@ msgid ""
 "computer will reject function calls and variables where it needs a constant "
 "expression."
 msgstr ""
-"當電腦提到常數表達式時，它期望的是一個固定的值、一個固定的計算結果，或是已存"
-"在常數的名稱。\n"
+"當電腦提到「常數運算式」（constant "
+"expression）時，它指的是固定的數值、固定的計算結果，或是已定義的常數名稱。\n"
 "\n"
-"換句話說，它需要的是一個永遠不會改變的東西。這就是為什麼當需要常數表達式的地"
-"方，電腦會拒絕函式調用和變數。"
+"換句話說，電腦需要的是一個不會改變的內容。因此，在需要常數運算式的地方，如果"
+"您使用了函式呼叫或變數，電腦就會拒絕，因為這些值可能會變動。"
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
 #: script_checking/error_database.csv:110
@@ -511,6 +510,11 @@ msgid ""
 "When that happens, you need to either rename your signal to one that will "
 "not collide with an existing one or remove this line of code."
 msgstr ""
+"在應用程式中，您的程式碼擴展了某些內建的 Godot "
+"程式碼，而這些程式碼對您來說是不可見的。\n"
+"\n"
+"當發生這種情況時，您需要將訊號重新命名為不會與現有名稱衝突的名稱，或是移除這"
+"行程式碼。"
 
 #. Reference: SIGNATURE_MISMATCH
 #: script_checking/error_database.csv:130
@@ -526,6 +530,13 @@ msgid ""
 "also to have two arguments. If you use type hints in your function "
 "definitions, the argument types must match the parent class."
 msgstr ""
+"您嘗試定義的函式已經存在於父類別中，因此您的定義會覆蓋父類別的函式。\n"
+"\n"
+"當您覆寫（override）父類別的函式時，新函式必須與父類別的函式匹配。新函式的參"
+"數數量與類型都必須與父類別相同。\n"
+"\n"
+"舉例來說，如果父類別的函式有兩個參數，您的新函式也必須有兩個參數。若您的函式"
+"定義使用了型別註記（type hints），則參數的型別必須與父類別一致。"
 
 #. Reference: SIGNATURE_MISMATCH
 #: script_checking/error_database.csv:130
@@ -533,7 +544,8 @@ msgid ""
 "You need to check the parent class's function and its definition in the code "
 "reference. Then, you need to edit your function definition to have the same "
 "number and type of parameters as the parent class."
-msgstr ""
+msgstr "您需要查閱父類別的函式及其定義，參考程式碼文件中的說明。接著，請修改您的函式"
+"定義，使其參數數量與型別與父類別的函式保持一致。"
 
 #. Reference: INVALID_ARGUMENTS
 #: script_checking/error_database.csv:131
@@ -542,6 +554,8 @@ msgid ""
 "wrong number of arguments or the wrong kind of argument. You will need to "
 "use the error message to see what is going wrong."
 msgstr ""
+"這類錯誤通常與函式呼叫時，傳入的參數數量不正確或參數類型不匹配有關。您需要根"
+"據錯誤訊息來確認問題所在，並調整函式的參數數量或類型，以符合函式的定義。"
 
 #. Reference: INVALID_ARGUMENTS
 #: script_checking/error_database.csv:131
@@ -550,7 +564,8 @@ msgid ""
 "to the function to solve this issue. To know exactly how many arguments you "
 "need, you need to check the code reference. It will show you the function "
 "definition and the mandatory arguments."
-msgstr ""
+msgstr "您需要刪除、添加或修改傳遞給函式的參數值，才能解決這個問題。要確定正確的參數"
+"數量，請查閱程式碼文件中的函式定義，它會顯示該函式所需的必要參數。"
 
 #. Reference: TYPE_MISMATCH
 #: script_checking/error_database.csv:142
@@ -568,6 +583,16 @@ msgid ""
 "You'll need to read the error message to see what is not matching because "
 "there are many possible cases."
 msgstr ""
+"程式碼中的所有數值都有特定的型別，例如整數（int）、小數（float）、文字（Strin"
+"g）等。此外，還有許多其他型別，甚至可以自訂型別！\n"
+"\n"
+"當您執行某些運算時，電腦會檢查所使用的型別是否相容。\n"
+"\n"
+"某些型別可以互相運算，但有些則不行。例如，您無法直接將整數與文字字串相加，必"
+"須先將數字轉換為文字格式。\n"
+"\n"
+"由於可能出現多種型別錯誤，您需要仔細閱讀錯誤訊息，以確認哪個型別不匹配，然後"
+"進行適當的轉換或調整。"
 
 #. Reference: TYPE_MISMATCH
 #: script_checking/error_database.csv:142
@@ -583,6 +608,12 @@ msgid ""
 "while you can add two 2D vectors, you can't add a whole number or text to a "
 "2D vector."
 msgstr ""
+"如果錯誤提到指派的值類型與變數不匹配，問題通常出現在等號（=）右側的值。\n"
+"\n"
+"如果錯誤與函式的回傳類型不匹配，那麼問題出在 return 關鍵字後面的值。\n"
+"\n"
+"如果系統提示無效的運算元，代表你嘗試執行的運算不適用於該類型。例如，"
+"雖然可以相加兩個 2D 向量，但無法將整數或文字加到 2D 向量上。"
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: script_checking/error_database.csv:147
@@ -594,6 +625,11 @@ msgid ""
 "When that happens, you need to specify the type yourself or remove type "
 "inference altogether for this variable."
 msgstr ""
+"GDScript "
+"支援類型推斷。系統會自動辨識你正在使用的值的類型。不過，在某些情況下，它無法"
+"推斷出來。\n"
+"\n"
+"當這種情況發生時，你需要自己指定該變數的類型，或者移除該變數的類型推斷。"
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
 #: script_checking/error_database.csv:147
@@ -605,6 +641,10 @@ msgid ""
 "We recommend specifying the type whenever possible to reap the typing "
 "system's benefits."
 msgstr ""
+"解決這個錯誤最簡單的方法是移除這個變數或函式參數的類型。否則，你可以在冒號後"
+"手動指定值的類型。\n"
+"\n"
+"我們建議盡可能指定類型，以充分利用類型系統的好處。"
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:153
@@ -618,6 +658,12 @@ msgid ""
 "2. You specified a return type for your function, but you are not returning "
 "a value in all possible branches (if, elif, and else blocks) or at the end."
 msgstr ""
+"你的函式回傳值有問題，這裡有兩個主要情況：\n"
+"\n"
+"1. 你的函式是無回傳值函式，因此不應該回傳任何值。這包括使用 '-> void' "
+"語法的函式和類別建構子（'_init()'）。\n"
+"2. 你為函式指定了回傳類型，但在所有可能的分支（if、elif 和 else "
+"區塊）或最後並沒有回傳值。"
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:153
@@ -629,31 +675,37 @@ msgid ""
 "When you use a return type, you must always return something at the end of "
 "the function or in every branch (if, elif, and else block) of the function."
 msgstr ""
+"當你的函式是「無回傳（void））」時，絕對不應該回傳任何值。你可以使用 return "
+"關鍵字提前結束函式，但在 return 之後不應該再寫任何東西。\n"
+"\n"
+"當你使用回傳類型時，必須在函式的結尾或每個分支（if、elif 和 else "
+"區塊）中都回傳某個值。"
 
 #. Reference: INVALID_NO_CATCH
 #: script_checking/error_database.csv:154
 msgid ""
 "Godot was unable to load your script, yet the language checker found nothing "
 "wrong."
-msgstr ""
+msgstr "Godot 無法載入你的腳本，但語言檢查器並未發現任何問題。"
 
 #. Reference: INVALID_NO_CATCH
 #: script_checking/error_database.csv:154
 msgid ""
 "Please click on the \"report\" button at the top and please let us know."
-msgstr ""
+msgstr "請點擊上方的「回報」按鈕並告訴我們。"
 
 #. Reference: RECURSIVE_FUNCTION
 #: script_checking/error_database.csv:155
 msgid "You called a function inside itself. This will loop forever."
-msgstr ""
+msgstr "你在函式內部呼叫了自己，這會導致無限迴圈。"
 
 #. Reference: RECURSIVE_FUNCTION
 #: script_checking/error_database.csv:155
 msgid ""
 "There are valid reasons for using recursive functions, but none of them are "
 "part of this course, so this cannot be a valid solution."
-msgstr ""
+msgstr "使用遞迴函式是有正當理由的，但這些理由並不包含在本課程中，因此這不是一個有效"
+"的解決方案。"
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:157
@@ -663,6 +715,8 @@ msgid ""
 "The most common case is when you forget to close a string: you have opening "
 "quotes, but you forget to add a matching closing quote."
 msgstr ""
+"系統已經到達程式碼的結尾，但該行存在語法錯誤。\n"
+"最常見的情況是你忘記閉合字串：你有開啟的引號，但忘記加上匹配的閉合引號。"
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:157
@@ -670,12 +724,13 @@ msgid ""
 "Double-check that you are not missing a quote character or that the quote "
 "character you used to start the string is the same as the one you used to "
 "close the string."
-msgstr ""
+msgstr "仔細檢查是否漏掉了引號字元，或是你用來開啟字串的引號與用來閉合字串的引號是否"
+"相同。"
 
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
 msgid "The sub-variable you are trying to access does not exist."
-msgstr ""
+msgstr "你嘗試存取的子變數並不存在。"
 
 #. Reference: CANT_GET_INDEX
 #: script_checking/error_database.csv:160
@@ -686,3 +741,6 @@ msgid ""
 "Ensure that you don't have a capital letter where you should have a "
 "lowercase letter and vice versa."
 msgstr ""
+"你可能在嘗試存取的子變數名稱上有拼字錯誤。\n"
+"\n"
+"請確保大小寫正確，避免該出現大寫字母的地方用到了小寫字母，或是反之。"
