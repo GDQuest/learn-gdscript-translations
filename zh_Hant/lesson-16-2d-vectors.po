@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2025-04-01 02:27+0000\n"
+"PO-Revision-Date: 2025-04-01 06:59+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/lesson-16-2d-vectors/zh_Hant/>\n"
@@ -65,7 +65,7 @@ msgstr ""
 "在物理學中，向量是一種具有大小和方向的量。例如，施加在物體上的力、角色的速度"
 "（速度與方向）等。\n"
 "\n"
-"我們通常用箭頭來表示這種量。  \n"
+"我們通常用箭頭來表示這種量。\n"
 "\n"
 "在 Godot 中，2D 向量是一種常見的數值類型，稱為 [code]Vector2[/code]。\n"
 "\n"
@@ -202,21 +202,21 @@ msgstr ""
 #: course/lesson-16-2d-vectors/lesson.tres:172
 #: course/lesson-16-2d-vectors/lesson.tres:173
 msgid "position -= Vector2(50, 0)"
-msgstr ""
+msgstr "position -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
 msgid "position.x -= Vector2(50, 0)"
-msgstr ""
+msgstr "position.x -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:182
 msgid ""
 "In the next few practices, you'll use vectors to change scale and position "
 "values."
-msgstr ""
+msgstr "在接下來的幾個練習中，你將使用向量來修改縮放與位置數值。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:190
 msgid "Increasing scale using vectors"
-msgstr ""
+msgstr "使用向量增加縮放(scale)大小"
 
 #: course/lesson-16-2d-vectors/lesson.tres:191
 msgid ""
@@ -224,16 +224,18 @@ msgid ""
 "[code]scale[/code] of the robot by [code]Vector2(0.2, 0.2)[/code] every time "
 "it levels up."
 msgstr ""
+"在 [code]level_up()[/code] 函式內新增一行程式碼，使機器人每次升級時，將其 "
+"[code]scale[/code] 增加 [code]Vector2(0.2, 0.2)[/code]。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:202
 msgid ""
 "To visually show our robot has gained in strength, let's increase its size "
 "every time it levels up. Nothing could go wrong!"
-msgstr ""
+msgstr "為了直觀地展現機器人的成長，每次升級時我們都讓它變大。絕對不會出問題！"
 
 #: course/lesson-16-2d-vectors/lesson.tres:207
 msgid "Resetting size and position using vectors"
-msgstr ""
+msgstr "使用向量重設大小與位置"
 
 #: course/lesson-16-2d-vectors/lesson.tres:208
 msgid ""
@@ -253,13 +255,27 @@ msgid ""
 "As in the previous practice, make sure to use vectors when dealing with "
 "scale and position."
 msgstr ""
+"機器人的等級大幅提升，體型也跟著變大了！\n"
+"\n"
+"讓我們透過重設機器人的 [code]scale[/code] 和 [code]position[/code] "
+"來修正這個問題。\n"
+"\n"
+"請建立一個名為 [code]reset_robot()[/code] 的函式，用於設定機器人的 [code]"
+"scale[/code] 和 [code]position[/code] 。\n"
+"\n"
+"機器人 [code]scale[/code] 的 [code]x[/code] 和 [code]y[/code] 子變數應設為 "
+"[code]1.0[/code]。\n"
+"\n"
+"機器人 [code]position[/code] 應設為 [code]Vector2(0, 0)[/code]。\n"
+"\n"
+"與前一個練習一樣，請確保在處理縮放與位置時使用向量。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:227
 msgid ""
 "Perhaps increasing the scale every level was a bad idea! Let's restore the "
 "robot to the correct size."
-msgstr ""
+msgstr "也許每次升級都增加縮放比例並不是個好主意！讓我們把機器人恢復到正確的大小。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:231
 msgid "2D Vectors"
-msgstr ""
+msgstr "二維向量(2D Vectors)"
