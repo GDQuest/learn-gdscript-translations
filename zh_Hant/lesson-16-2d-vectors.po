@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2025-03-31 14:53+0000\n"
+"PO-Revision-Date: 2025-04-01 02:27+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/lesson-16-2d-vectors/zh_Hant/>\n"
@@ -62,12 +62,21 @@ msgid ""
 "Unlike plain numbers, they store [i]two[/i] decimal numbers: one for the X "
 "coordinate and one for the Y coordinate."
 msgstr ""
+"在物理學中，向量是一種具有大小和方向的量。例如，施加在物體上的力、角色的速度"
+"（速度與方向）等。\n"
+"\n"
+"我們通常用箭頭來表示這種量。  \n"
+"\n"
+"在 Godot 中，2D 向量是一種常見的數值類型，稱為 [code]Vector2[/code]。\n"
+"\n"
+"與單純的數字不同，[code]Vector2[/code] 儲存 [i]兩個[/i] 小數值：一個代表 X "
+"座標，另一個代表 Y 座標。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:72
 msgid ""
 "So far, you've come across two variables in the course which are vectors. "
 "Which are they?"
-msgstr ""
+msgstr "到目前為止，你在這門課程中遇過兩個向量變數。是哪些呢？"
 
 #: course/lesson-16-2d-vectors/lesson.tres:75
 msgid ""
@@ -75,28 +84,30 @@ msgid ""
 "[code]y[/code] sub-variables, so Godot uses a [code]Vector2[/code] to store "
 "their values."
 msgstr ""
+"[code]scale[/code] 和 [code]position[/code] 都包含 [code]x[/code] 和 [code]"
+"y[/code] 子變數，因此 Godot 使用 [code]Vector2[/code] 來儲存它們的數值。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 #: course/lesson-16-2d-vectors/lesson.tres:77
 msgid "scale"
-msgstr ""
+msgstr "縮放（scale）"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 #: course/lesson-16-2d-vectors/lesson.tres:77
 msgid "position"
-msgstr ""
+msgstr "位置（position）"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 msgid "health"
-msgstr ""
+msgstr "血量（health）"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 msgid "speed"
-msgstr ""
+msgstr "速率（speed）"
 
 #: course/lesson-16-2d-vectors/lesson.tres:84
 msgid "Vectors are great for games"
-msgstr ""
+msgstr "向量很適合用在遊戲"
 
 #: course/lesson-16-2d-vectors/lesson.tres:86
 msgid ""
@@ -114,13 +125,24 @@ msgid ""
 "this turtle gives you a glimpse of what 2D vectors can do for you and your "
 "game projects."
 msgstr ""
+"向量在電子遊戲中是 [i]不可或缺[/i]的。\n"
+"\n"
+"它們讓你能夠用簡單的程式碼表示角色的移動速度與方向、計算與目標的距離等等。\n"
+"\n"
+"看看下面這隻烏龜的 AI。你可能在遊戲中見過敵人以類似方式移動。\n"
+"\n"
+"這種移動方式只需要七行純向量運算的程式碼即可實現。\n"
+"\n"
+"這段程式碼現在可能還有點難，所以我們先不細講，不過這隻烏龜可以讓你初步了解 "
+"2D 向量在遊戲開發中的應用。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:114
 msgid ""
 "We scale the robot again, this time by adding to it directly using a "
 "[code]Vector2[/code]. The following code has the same effect as the previous "
 "example."
-msgstr ""
+msgstr "我們再次調整機器人的縮放比例，這次直接使用 [code]Vector2[/code] "
+"進行加法運算。以下程式碼的效果與前一個範例相同。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:134
 msgid ""
@@ -134,10 +156,18 @@ msgid ""
 "code] value with its [code]x[/code] set to [code]0.2[/code] and its [code]y[/"
 "code] set to [code]0.2[/code], respectively."
 msgstr ""
+"請注意，我們使用括號，並在括號內提供兩個參數，就像其他函式呼叫一樣。\n"
+"\n"
+"我們稱這種方式為 [i]建構(constructor)函式呼叫[/i]"
+"。你可以把它想像成一種特殊的函式，用來建立特定類型的數值。\n"
+"\n"
+"程式碼 [code]Vector2(0.2, 0.2)[/code] 會建立一個新的 [code]Vector2[/code] "
+"值，並將其 [code]x[/code] 設為 [code]0.2[/code]，[code]y[/code] 也設為 [code]"
+"0.2[/code]。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:146
 msgid "Using vectors to change the position"
-msgstr ""
+msgstr "使用向量改變位置"
 
 #: course/lesson-16-2d-vectors/lesson.tres:148
 msgid ""
@@ -145,10 +175,13 @@ msgid ""
 "vector. If we wanted to move our robot to a new relative position, we would "
 "add a [code]Vector2[/code] to its [code]position[/code]."
 msgstr ""
+"我們可以對 [code]position[/code] "
+"進行向量加法或減法，因為它本身就是一個向量。如果我們想將機器人移動到新的相對"
+"位置，只需將一個 [code]Vector2[/code] 加到它的 [code]position[/code] 上。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:166
 msgid "How would you move the robot 50 pixels to the left?"
-msgstr ""
+msgstr "如何將機器人向左移動 50 像素？"
 
 #: course/lesson-16-2d-vectors/lesson.tres:169
 msgid ""
@@ -159,6 +192,12 @@ msgid ""
 "the sub-variable [code]x[/code], which is a decimal number. The value types "
 "are incompatible. If you try to do this, you will get an error."
 msgstr ""
+"[code]position -= Vector2(50, 0)[/code] 會讓子變數 [code]x[/code] 減去 [code]"
+"50[/code]，而 [code]y[/code] 則減去 [code]0[/code]。\n"
+"\n"
+"[code]position.x -= Vector2(50, 0)[/code] 會嘗試將子變數 [code]x[/code] "
+"減掉一個二維向量，而 [code]x[/code] "
+"是一個小數數值。由於數值類型不相容，如果這樣寫，會導致錯誤。"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
 #: course/lesson-16-2d-vectors/lesson.tres:173
