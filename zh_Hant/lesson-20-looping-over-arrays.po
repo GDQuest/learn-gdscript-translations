@@ -9,20 +9,23 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-04-02 01:42+0000\n"
+"Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/lesson-20-looping-over-arrays/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:14
 msgid ""
 "We used the [code]range()[/code] function in combination with [code]for[/"
 "code] loops."
-msgstr ""
+msgstr "我們將 [code]range()[/code] 函式與 [code]for[/code] 迴圈結合使用。"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:34
 msgid ""
@@ -35,6 +38,14 @@ msgid ""
 "Instead of using the [code]range()[/code] function, we could manually write "
 "the numbers and get the same result."
 msgstr ""
+"[code]range()[/code] 函式會產生一個陣列，讓 [code]for[/code] "
+"關鍵字可以對其進行迴圈。\n"
+"\n"
+"我們可以將 [code]for[/code] 迴圈應用於 [i]任何[/i] "
+"陣列，它們都會以相同的方式進行迴圈。\n"
+"\n"
+"而且不使用 [code]range()[/code] "
+"函式，我們也可以手動寫入數字，並獲得相同的結果。"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:58
 msgid ""
@@ -48,10 +59,18 @@ msgid ""
 "The code works regardless of the array or where you store it. Often, you "
 "will store arrays in variables for easy access."
 msgstr ""
+"對於陣列中的每個元素，[code]for[/code] 迴圈會提取該元素，將其存入名為 [code]"
+"number[/code] 的暫存變數，然後執行一次迴圈內的程式碼。\n"
+"\n"
+"在迴圈內，你可以存取 [code]number[/code] 變數，且它會在每次 [i]迭代[/i] "
+"時改變數值。\n"
+"\n"
+"無論陣列的內容為何或儲存在哪裡，這段程式碼都能正常運作。通常會將陣列存入變數"
+"中，以便日後存取。"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:80
 msgid "What will this code print?"
-msgstr ""
+msgstr "這段程式碼會印出什麼？"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:81
 msgid ""
@@ -60,6 +79,10 @@ msgid ""
 "    print(number)\n"
 "[/code]"
 msgstr ""
+"[code]var numbers = [0, 1, 2]\n"
+"for number in numbers:\n"
+"    print(number)\n"
+"[/code]"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:86
 msgid ""
@@ -75,19 +98,28 @@ msgid ""
 "the output will print [code]0[/code], then [code]1[/code], then [code]2[/"
 "code], each on a separate line."
 msgstr ""
+"與先前的範例相比，我們將陣列存入 [code]numbers[/code] 變數中。在 [code]for[/"
+"code] 迴圈中使用 [code]numbers[/code] "
+"變數，使電腦能夠像之前一樣存取這組數字陣列。\n"
+"\n"
+"這個陣列內包含三個數字：[code]0[/code]、[code]1[/code] 和 [code]2[/code]。\n"
+"\n"
+"迴圈會依序提取這些數字，並將它們指派給暫存變數 [code]number[/"
+"code]。當迴圈處理每個數字時，輸出結果將會逐行印出 [code]0[/code]，接著是 "
+"[code]1[/code]，最後是 [code]2[/code]。"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:91
 #: course/lesson-20-looping-over-arrays/lesson.tres:92
 msgid "0, 1, and 2"
-msgstr ""
+msgstr "0, 1, 和 2"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:91
 msgid "1, 2, and 3"
-msgstr ""
+msgstr "1, 2, 和 3"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:91
 msgid "0, 0, and 0"
-msgstr ""
+msgstr "0, 0, 和 0"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:99
 msgid "Making the turtle walk, with a loop"
