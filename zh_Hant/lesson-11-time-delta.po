@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2025-04-03 15:39+0000\n"
+"PO-Revision-Date: 2025-04-04 01:42+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/lesson-11-time-delta/zh_Hant/>\n"
@@ -49,12 +49,11 @@ msgstr ""
 "每秒多次，Godot 會執行遊戲中每個 [code]_process()[/code] 函式來更新遊戲世界。"
 "\n"
 "\n"
-"接著它會在螢幕上顯示遊戲世界的圖像。我們稱這個圖像為一 [b]幀[/b]。\n"
+"接著它會在螢幕上顯示遊戲世界的圖像。我們稱這個圖像為一[b]幀[/b]。\n"
 "\n"
-"然後Godot 會繼續計算下一幀。\n"
+"然後 Godot 會繼續計算下一幀。\n"
 "\n"
-"由於這個過程每秒發生數十次，你會感覺到動作在進行。這與傳統動畫的運作方式相似"
-"。"
+"由於這個過程每秒發生數十次，會感覺到動作在進行。這與傳統動畫的運作方式相似。"
 
 #: course/lesson-11-time-delta/lesson.tres:50
 msgid "This sounds like Frames Per Second..."
@@ -319,7 +318,7 @@ msgid ""
 "during gameplay. Because of that, the movement will differ for every player, "
 "making the game inconsistent and messy."
 msgstr ""
-"將時間相關的數值乘以 [code]delta[/code] 使它們變成 [b]基於時間[/b] 而非 [b]"
+"將時間相關的數值乘以 [code]delta[/code] 使它們變成[b]基於時間[/b]而非[b]"
 "基於幀[/b]。\n"
 "\n"
 "藉由這樣，我們能夠實現隨著時間可靠的移動。\n"
@@ -347,19 +346,19 @@ msgstr ""
 #: course/lesson-11-time-delta/lesson.tres:231
 #: course/lesson-11-time-delta/lesson.tres:232
 msgid "We're multiplying rotation_speed by delta."
-msgstr "我們將 [code]rotation_speed[/code] 乘以 [code]delta[/code]。"
+msgstr "我們將 rotation_speed 乘以 delta。"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're dividing delta by rotation_speed."
-msgstr "我們將 [code]delta[/code] 除以 [code]rotation_speed[/code]。"
+msgstr "我們將 delta 除以 rotation_speed。"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're adding rotation_speed to delta."
-msgstr "我們將 [code]rotation_speed[/code] 加到 [code]delta[/code]。"
+msgstr "我們將 rotation_speed 加到 delta。"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're subtracting delta from rotation_speed."
-msgstr "我們將 [code]delta[/code] 從 [code]rotation_speed[/code] 中減去。"
+msgstr "我們將 delta 從 rotation_speed 中減去。"
 
 #: course/lesson-11-time-delta/lesson.tres:241
 msgid "In the next practice, we'll use delta to make rotating time-dependent."
