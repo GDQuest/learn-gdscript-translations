@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-04-03 07:24+0000\n"
+"Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/lesson-28-specifying-types/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-28-specifying-types/lesson.tres:13
@@ -26,15 +29,20 @@ msgid ""
 "\n"
 "Unlike in some other languages, in GDScript, the following code is valid."
 msgstr ""
+"預設情況下，GDScript "
+"是一種動態型別語言。這表示你可以直接宣告變數，先賦予它一個數值，然後再賦予它"
+"另一個不同型別的值也可以。\n"
+"\n"
+"與其他一些語言不同，在 GDScript 中以下程式碼是合法的。"
 
 #: course/lesson-28-specifying-types/lesson.tres:35
 msgid ""
 "But this feature often causes problems down the line. Let's take one example."
-msgstr ""
+msgstr "但這個特性經常會在後續開發中引發問題。讓我們來看一個例子。"
 
 #: course/lesson-28-specifying-types/lesson.tres:43
 msgid "Cell size: decimal number, or 2D vector?"
-msgstr ""
+msgstr "格子的大小：小數或是二維向量？"
 
 #: course/lesson-28-specifying-types/lesson.tres:45
 msgid ""
@@ -51,12 +59,23 @@ msgid ""
 "\n"
 "Either of those two values would be fine:"
 msgstr ""
+"遊戲經常使用網格，無論是用於基於網格的遊戲玩法，還是為了讓演算法運行得更快。"
+"\n"
+"\n"
+"在處理網格時，你需要經常將網格座標轉換為遊戲世界中的位置。為了達到這個目標，"
+"你需要為每個網格指定一個以像素為單位的大小。\n"
+"\n"
+"你通常會選擇以下兩種類型之一來表示這個大小：[code]float[/code] 或 [code]"
+"Vector2[/code]，因為螢幕上的像素座標使用 [code]Vector2[/code] 來表示。\n"
+"\n"
+"這兩種數值類型都是可行的選擇："
 
 #: course/lesson-28-specifying-types/lesson.tres:71
 msgid ""
 "Using a [code]Vector2[/code] could simplify some calculations. For example, "
 "when converting grid coordinates to game world coordinates."
-msgstr ""
+msgstr "使用 [code]Vector2[/code] "
+"可以簡化某些計算，例如在將網格座標轉換為遊戲世界座標時。"
 
 #: course/lesson-28-specifying-types/lesson.tres:91
 msgid ""
@@ -66,6 +85,10 @@ msgid ""
 "However, if [code]cell_size[/code] is a [code]float[/code], we will get a "
 "type error."
 msgstr ""
+"在這個例子中，因為 [code]cell[/code] 和 [code]cell_size[/code] 都是 [code]"
+"Vector2[/code] 值，所以我們可以將它們相加。\n"
+"\n"
+"然而如果 [code]cell_size[/code] 是 [code]float[/code]，則會產生型別錯誤。"
 
 #: course/lesson-28-specifying-types/lesson.tres:123
 msgid ""
@@ -75,6 +98,10 @@ msgid ""
 "\n"
 "And that's a big problem."
 msgstr ""
+"更糟糕的是：由於動態型別的關係，我們不會 [i]立即[/i] 收到錯誤訊息。"
+"只有在呼叫 [code]grid_to_world(Vector2(1, 1))[/code] 時才會出錯。\n"
+"\n"
+"這是一個大問題。"
 
 #: course/lesson-28-specifying-types/lesson.tres:135
 msgid ""
@@ -85,10 +112,15 @@ msgid ""
 "And with a lot of code, it could take [i]hours[/i] of play before players "
 "trigger a type error in your code."
 msgstr ""
+"因為我們還在學習，所以本課程中的範例程式碼都很簡短。但在製作遊戲時，程式碼會"
+"變得很長，並拆分成多個檔案。在開發過程中，你常常會忘記幾週前寫過的程式碼。\n"
+"\n"
+"而當程式碼變多時，可能需要 [i]數小時[/i] "
+"的遊玩時間，玩家才會觸發程式碼中的型別錯誤。"
 
 #: course/lesson-28-specifying-types/lesson.tres:145
 msgid "Using type hints"
-msgstr ""
+msgstr "使用類型提示(type hints)"
 
 #: course/lesson-28-specifying-types/lesson.tres:147
 msgid ""
@@ -100,22 +132,29 @@ msgid ""
 "To specify the type a variable can accept, you can write a colon and a type "
 "after the name when defining a new variable."
 msgstr ""
+"幸運的是 GDScript 提供了可選的 [i]型別提醒(type hints)[/i]。\n"
+"\n"
+"型別提醒可讓電腦知道變數應該接受的值類型，並在執行程式碼之前回報錯誤。\n"
+"\n"
+"要指定變數可以接受的型別，可以在在定義新變數時，變數名稱後加上冒號和型別。"
 
 #: course/lesson-28-specifying-types/lesson.tres:171
 msgid ""
 "You could tell the computer you want [code]cell_size[/code] only to accept "
 "[code]Vector2[/code] values like so."
-msgstr ""
+msgstr "你可以這樣告訴電腦，[code]cell_size[/code] 只能接受 [code]Vector2[/code] "
+"值，像下面這樣。"
 
 #: course/lesson-28-specifying-types/lesson.tres:191
 msgid ""
 "If you try to replace the [code]cell_size[/code] with a value of another "
 "type later, the computer will not let you."
-msgstr ""
+msgstr "如果你之後嘗試用其他類型的值替換 [code]cell_size[/"
+"code]，電腦將不允許你這麼做。"
 
 #: course/lesson-28-specifying-types/lesson.tres:219
 msgid "Letting the computer figure it out"
-msgstr ""
+msgstr "讓電腦自動判斷"
 
 #: course/lesson-28-specifying-types/lesson.tres:221
 msgid ""
@@ -126,16 +165,23 @@ msgid ""
 "the type using the value after the equal sign. We could make "
 "[code]cell_size[/code] a variable of type [code]Vector2[/code] like so:"
 msgstr ""
+"GDScript 有一個叫做 [i]型別推斷(type inference)[/i] "
+"的功能。在許多情況下，但不是所有情況，電腦可以幫你推斷出變數的型別。\n"
+"\n"
+"為了讓電腦推斷型別，你只需要寫 [code]:=[/code]"
+"，並且不用寫型別。電腦會根據等號後的值來設定型別。我們可以這樣讓 [code]"
+"cell_size[/code] 變數的型別是 [code]Vector2[/code]，像下面這樣："
 
 #: course/lesson-28-specifying-types/lesson.tres:243
 msgid ""
 "This takes little typing, yet you get the benefits of using type hints, like "
 "the computer reporting errors better and faster."
-msgstr ""
+msgstr "這樣只要打一點字，卻能獲得使用型別提示的好處，像是電腦能更快、更準確地報告錯"
+"誤。"
 
 #: course/lesson-28-specifying-types/lesson.tres:251
 msgid "Why bother to add hints?"
-msgstr ""
+msgstr "為什麼要加上型別提示？"
 
 #: course/lesson-28-specifying-types/lesson.tres:253
 msgid ""
