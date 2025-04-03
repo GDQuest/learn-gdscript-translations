@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2024-12-12 14:39+0100\n"
-"PO-Revision-Date: 2025-04-03 11:21+0000\n"
+"PO-Revision-Date: 2025-04-03 15:39+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/glossary_database/zh_Hant/>\n"
@@ -72,7 +72,7 @@ msgid ""
 "code]."
 msgstr ""
 "成員變數是附加在特定值類型上的變數，例如向量的 [code]x[/code] 和 [code]y[/"
-"code] 子變數。我們也稱它們為向量的 [i]屬性[/i] 或 [i]欄位[/i]。\n"
+"code] 子變數。我們也稱它們為向量的[b]屬性[/b]或[b]欄位[/b]。\n"
 "\n"
 "要存取成員變數，必須先寫出值的名稱，接著使用存取運算子（[code].[/"
 "code]）。例如，[code]position.x[/code]。"
@@ -102,12 +102,12 @@ msgstr ""
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radian"
-msgstr "弳度"
+msgstr "弧度"
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radians"
-msgstr "弳度"
+msgstr "弧度"
 
 #. Reference: radian
 #: course/glossary.csv:17
@@ -121,12 +121,12 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And an "
 "angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
-"弳度是根據圓周長來測量角度的單位。\n"
+"弧度是根據圓周長來測量角度的單位。\n"
 "\n"
-"我們在日常生活中比較常使用度數，但在程式設計，尤其是遊戲開發中，弳度更為常見"
+"我們在日常生活中比較常使用度數，但在程式設計，尤其是遊戲開發中，弧度更為常見"
 "。\n"
 "\n"
-"[code]2 * PI[/code] 弳度等於 360 度，而 [code]PI[/code] 弳度等於 180 度。"
+"[code]2 * PI[/code] 弧度等於 360 度，而 [code]PI[/code] 弧度等於 180 度。"
 
 #. Reference: type
 #: course/glossary.csv:20
@@ -248,10 +248,10 @@ msgstr ""
 "當一個函式接受多個引數時，你可以用逗號將值分開，就像這個函式呼叫：[code]jump("
 "50, 100)[/code]。\n"
 "\n"
-"當 [i]呼叫[/i] 函式時，我們稱傳遞進括號中的值為 [ i]引數[/i]。\n"
+"當[b]呼叫[/b]函式時，我們稱傳遞進括號中的值為 [ i]引數[/b]。\n"
 "\n"
-"然而，在寫函式定義時，我們討論的是函式 [i]參數（parameters）[/i]"
-"。在以下範例中，[code]x[/code] 和 [code]y[/code] 是 [i]參數[/i]。"
+"然而，在寫函式定義時，我們討論的是函式[b]參數（parameters）[/b]"
+"。在以下範例中，[code]x[/code] 和 [code]y[/code] 是[b]參數[/b]。"
 
 #. Reference: array
 #: course/glossary.csv:44
@@ -279,7 +279,7 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
-"陣列是值的列表。在 GDScript 中，陣列可以包含 [i]任何[/i] 類型的值。\n"
+"陣列是值的列表。在 GDScript 中，陣列可以包含[b]任何[/b]類型的值。\n"
 "\n"
 "要創建陣列，你可以在方括號中寫下用逗號分隔的值：[code]var three_numbers = "
 "[1, 2, 3][/code]\n"
