@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2025-04-03 07:24+0000\n"
+"PO-Revision-Date: 2025-04-03 15:39+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/lesson-24-access-array-indices/zh_Hant/>\n"
@@ -44,7 +44,7 @@ msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:58
 msgid "Index zero is the [i]first[/i] element in the array."
-msgstr "索引 0 是陣列中的 [i]第一個[/i] 元素。"
+msgstr "索引 0 是陣列中的[b]第一個[/b]元素。"
 
 #: course/lesson-24-access-array-indices/lesson.tres:78
 msgid ""
@@ -53,22 +53,22 @@ msgid ""
 "You would access the [i]fourth[/i] element in the [code]inventory[/code] "
 "array like so."
 msgstr ""
-"索引 1 是陣列中的 [i]第二個[/i] 元素，以此類推。\n"
+"索引 1 是陣列中的[b]第二個[/b]元素，以此類推。\n"
 "\n"
-"你可以這樣存取 [code]inventory[/code] 陣列中的 [i]第四個[/i] 元素。"
+"你可以這樣存取 [code]inventory[/code] 陣列中的[b]第四個[/b]元素。"
 
 #: course/lesson-24-access-array-indices/lesson.tres:98
 msgid ""
 "How would you access the [i]third[/i] item in the [code]inventory[/code] "
 "array?"
-msgstr "怎麼存取在 [code]inventory[/code] 陣列中的 [i]第三個[/i] 項目？"
+msgstr "怎麼存取在 [code]inventory[/code] 陣列中的[b]第三個[/b]項目？"
 
 #: course/lesson-24-access-array-indices/lesson.tres:101
 msgid ""
 "Indices start at zero, so the index of the [i]third[/i] item is [code]2[/"
 "code]. That's why you need to write [code]inventory[2][/code]."
 msgstr ""
-"索引從零開始，所以 [i]第三個[/i] 項目的索引是 [code]2[/code]。"
+"索引從零開始，所以[b]第三個[/b]項目的索引是 [code]2[/code]。"
 "這就是為什麼你需要寫 [code]inventory[2][/code]。"
 
 #: course/lesson-24-access-array-indices/lesson.tres:102
@@ -120,7 +120,7 @@ msgid ""
 "indices. However, it's because there's no difference between index [code]0[/"
 "code] and [code]-0[/code]: they both point to the first item in the array."
 msgstr ""
-"當使用負數索引時，[code]-1[/code] 代表陣列中的 [i]最後一個[/i] 元素。索引 "
+"當使用負數索引時，[code]-1[/code] 代表陣列中的[b]最後一個[/b]元素。索引 "
 "[code]-2[/code] 則是倒數第二個，依此類推，[code]-3[/code] 代表倒數第三個。\n"
 "\n"
 "這可能會有點令人混亂，因為它似乎和正數索引的運作方式不同。不過這是因為索引 "
@@ -163,8 +163,8 @@ msgid ""
 msgstr ""
 "[b]檢查陣列的大小[/b]\n"
 "\n"
-"陣列有一個名為 [code]size()[/code] 的成員函式。你可以隨時在陣列上呼叫它，"
-"以獲取陣列的 [i]目前[/i] 大小。"
+"陣列有一個名為 [code]size()[/code] "
+"的成員函式。你可以隨時在陣列上呼叫它，以獲取陣列的[b]目前[/b]大小。"
 
 #: course/lesson-24-access-array-indices/lesson.tres:192
 msgid ""
@@ -238,7 +238,7 @@ msgstr ""
 "\n"
 "為了做到這一點，你需要通過索引來訪問陣列。\n"
 "\n"
-"不過這次你需要使用 [i]負數索引[/i] 來訪問它們。"
+"不過這次你需要使用[b]負數索引[/b]來訪問它們。"
 
 #: course/lesson-24-access-array-indices/lesson.tres:263
 msgid ""
