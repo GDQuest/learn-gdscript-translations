@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2024-12-11 07:05+0000\n"
+"PO-Revision-Date: 2024-12-13 20:00+0000\n"
 "Last-Translator: Олександр Пилипчук <lxlalexlxl@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-5-your-first-function/uk/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.9-rc\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: course/lesson-5-your-first-function/lesson.tres:14
@@ -47,10 +47,16 @@ msgid ""
 "instructions inside the function as many times as we need. This is what a"
 " [i]function call[/i] does."
 msgstr ""
+"Функція — це [i]послідовність інструкцій[/i], якій ми дали назву. Цю назву "
+"називають [i]ідентифікатором[/i].\n"
+"\n"
+"Використовуючи цей ідентифікатор, ми можемо наказати комп'ютеру виконати всі "
+"вказівки функції стільки разів, скільки нам потрібно. Ось що робить [i]"
+"виклик функції[/i]."
 
 #: course/lesson-5-your-first-function/lesson.tres:36
 msgid "Learn more about identifiers"
-msgstr ""
+msgstr "Докладніше про ідентифікатори"
 
 #: course/lesson-5-your-first-function/lesson.tres:38
 msgid ""
@@ -66,6 +72,16 @@ msgid ""
 "If you try to name two functions the same, the computer will raise an "
 "error."
 msgstr ""
+"У програмуванні, ми називаємо «назви» [i]ідентифікаторами[/i].\n"
+"\n"
+"Так заведено, оскільки за назвою комп'ютер однозначно [i]ідентифікує[/i] "
+"функції або інші елементи коду.\n"
+"\n"
+"Ідентифікатори унікальні: ви не можете використовувати одну й ту саму назву "
+"для різних елементів у одній [i]ділянці[/i] вашого коду.\n"
+"\n"
+"Якщо ви спробуєте назвати дві функції однаково, комп'ютер повідомить про "
+"помилку."
 
 #: course/lesson-5-your-first-function/lesson.tres:54
 msgid ""
@@ -78,6 +94,14 @@ msgid ""
 "Here's the example of a [code]move_and_rotate()[/code] function that "
 "moves the turtle forward and then turns it 90°."
 msgstr ""
+"Якщо вам потрібно якийсь код виконати кілька разів, ви можете помістити його "
+"у функцію та дати їй назву.\n"
+"\n"
+"Функція може містити будь-які вказівки у вигляді коду, всі вони будуть "
+"виконані при кожному виклику функції.\n"
+"\n"
+"Наприклад, функція [code]move_and_rotate()[/code] під час виклику "
+"перемістить черепашку вперед і поверне її на 90°."
 
 #: course/lesson-5-your-first-function/lesson.tres:78
 msgid ""
@@ -89,6 +113,12 @@ msgid ""
 "[code]move_and_rotate()[/code] four times to draw a square of length 200 "
 "pixels."
 msgstr ""
+"Функція [code]move_and_rotate()[/code] складається з двох інструкцій, кожна "
+"з яких розташована в окремому рядку. Обидві інструкції викликають інші "
+"знайомі вам функції.\n"
+"\n"
+"Ви можете написати іншу функцію, яка викликає [code]move_and_rotate()[/code] "
+"чотири рази, щоб намалювати квадрат з довжиною сторони 200 пікселів."
 
 #: course/lesson-5-your-first-function/lesson.tres:100
 msgid ""
@@ -104,10 +134,21 @@ msgid ""
 "\n"
 "[i]Drag the slider to change the square's size.[/i]"
 msgstr ""
+"Кожного разу, коли ми викликаємо [code]move_and_rotate()[/code], послідовно "
+"викликаються дві функції [code]move_forward(200)[/code] і "
+"[code]turn_right(90)[/code].\n"
+"\n"
+"З цього простого прикладу може здатися, що це не дуже корисно. Ось "
+"корисніший і реалістичніший приклад: функція, яка малює будь-який квадрат.\n"
+"\n"
+"Ця функція використовує [i]параметри[/i], які ми вивчимо в наступному уроці."
+"\n"
+"\n"
+"[i]Використовуйте повзунок, щоб змінити розмір квадрата.[/i]"
 
 #: course/lesson-5-your-first-function/lesson.tres:124
 msgid "How to define your own functions"
-msgstr ""
+msgstr "Як оголошувати власні функції"
 
 #: course/lesson-5-your-first-function/lesson.tres:126
 msgid ""
@@ -116,6 +157,10 @@ msgid ""
 "A function definition starts with the [code]func[/code] keyword followed "
 "by a space, the function's name, parentheses, and a colon."
 msgstr ""
+"Розберімо, як оголосити функцію.\n"
+"\n"
+"Оголошення функції починається з ключового слова [code]func[/code], пропуску "
+"після нього, назви функції, круглих дужок і двокрапки."
 
 #: course/lesson-5-your-first-function/lesson.tres:148
 msgid ""
@@ -127,10 +172,17 @@ msgid ""
 "computer uses them to know which instructions are part of the same code "
 "block."
 msgstr ""
+"Всі інструкції всередині функції [b]мусять[/b] починатися з символу "
+"табуляції. Його можна вставити за допомогою кнопки [b]Tab[/b] на клавіатурі."
+"\n"
+"\n"
+"Символи табуляції на початку рядка ще називають [i]відступами[/i]. Відступи "
+"важливі: комп'ютер використовує їх, щоб дізнатися, які інструкції є частиною "
+"одного і того ж блоку коду."
 
 #: course/lesson-5-your-first-function/lesson.tres:158
 msgid "Why do we use functions?"
-msgstr ""
+msgstr "Чому ми використовуємо функції?"
 
 #: course/lesson-5-your-first-function/lesson.tres:161
 msgid ""
@@ -140,25 +192,30 @@ msgid ""
 "Because we give functions a name, they also allow us to name a set of "
 "instructions, which is handy!"
 msgstr ""
+"Функції – це групи інструкцій, які ми використовуємо повторно щоразу, коли "
+"викликаємо функцію.\n"
+"\n"
+"Оскільки ми даємо функціям назви, вони дають нам змогу об'єднати багато "
+"інструкцій, що дуже зручно!"
 
 #: course/lesson-5-your-first-function/lesson.tres:164
 #: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To reuse code multiple times. "
-msgstr ""
+msgstr "Щоб повторно використати код багато разів. "
 
 #: course/lesson-5-your-first-function/lesson.tres:164
 #: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To run multiple instructions in one go."
-msgstr ""
+msgstr "Щоб виконати кілька інструкцій за один раз."
 
 #: course/lesson-5-your-first-function/lesson.tres:164
 #: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To put a name on multiple lines of code."
-msgstr ""
+msgstr "Щоб дати назву кільком рядкам коду."
 
 #: course/lesson-5-your-first-function/lesson.tres:172
 msgid "Names in code have rules"
-msgstr ""
+msgstr "Щодо назв у коді є правила"
 
 #: course/lesson-5-your-first-function/lesson.tres:174
 msgid ""
@@ -184,14 +241,35 @@ msgid ""
 " [i]can't[/i] begin with a number, but you can use numbers after the "
 "first character."
 msgstr ""
+"Ідентифікатори функцій не можуть містити пропусків. Загалом, назви в мовах "
+"програмування не можуть містити пропусків.\n"
+"\n"
+"Комп'ютер використовує пропуски для розпізнавання проміжків між різними "
+"ключовими словами та ідентифікаторами.\n"
+"\n"
+"Замість пропусків у GDScript ми використовуємо нижнє підкреслення («_»). Ви "
+"вже бачили його в назвах функцій [code]move_forward()[/code] і "
+"[code]move_local_x()[/code]. Цієї угоди ми дотримуємося в GDScript.\n"
+"\n"
+"Існують й інші угоди, яких дотримуються програмісти в інших мовах "
+"програмування.\n"
+"\n"
+"Замість використання нижнього підкреслення в них усі слова в "
+"ідентифікаторах, крім першого, починаються з великих букв. Якби ми "
+"дотримувалися цієї угоди, то назви функцій виглядали б так: "
+"[code]moveForward()[/code] або [code]moveLocalX()[/code]\n"
+"\n"
+"Ідентифікатори також [i]мають[/i] починатися з букви або нижнього "
+"підкреслення; [i]не можна[/i] починати ідентифікатор цифрою, але цифри можна "
+"використовувати після першого символу."
 
 #: course/lesson-5-your-first-function/lesson.tres:192
 msgid "Which of the following names are valid function names?"
-msgstr ""
+msgstr "Які з наведених назв є правильними ідентифікаторами функцій?"
 
 #: course/lesson-5-your-first-function/lesson.tres:193
 msgid "Note that it's fine to use capital letters."
-msgstr ""
+msgstr "Зауважте, що великі букви використовувати можна."
 
 #: course/lesson-5-your-first-function/lesson.tres:195
 msgid ""
@@ -204,20 +282,28 @@ msgid ""
 "However, having numbers elsewhere in a function name is fine. That's why "
 "[code]make3NewCharacters[/code] works."
 msgstr ""
+"Ви не можете назвати функцію [code]move forward[/code], тому що в цій назві "
+"є пропуск. Назви в коді не можуть містити пропусків.\n"
+"\n"
+"Також вони не можуть починатися цифрою, тому назва "
+"[code]45_degree_turn[/code] – неправильна.\n"
+"\n"
+"Однак, в іншому місці назви функції цифри використати можна. Тому "
+"[code]make3NewCharacters[/code] – це допустима назва."
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 msgid "move forward"
-msgstr ""
+msgstr "move forward"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 #: course/lesson-5-your-first-function/lesson.tres:201
 msgid "jump"
-msgstr ""
+msgstr "jump"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 #: course/lesson-5-your-first-function/lesson.tres:201
 msgid "make3NewCharacters"
-msgstr ""
+msgstr "make3NewCharacters"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 #: course/lesson-5-your-first-function/lesson.tres:201
@@ -226,11 +312,11 @@ msgstr ""
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 msgid "45_degree_turn"
-msgstr ""
+msgstr "45_degree_turn"
 
 #: course/lesson-5-your-first-function/lesson.tres:208
 msgid "Instantly moving the turtle to a different position"
-msgstr ""
+msgstr "Миттєво переміщуємо черепашку в інше положення"
 
 #: course/lesson-5-your-first-function/lesson.tres:210
 msgid ""
@@ -243,10 +329,18 @@ msgid ""
 "So calling [code]jump(-100, 50)[/code] moves the turtle by 100 pixels to "
 "the [b]left[/b] and 50 pixels [b]down[/b] without drawing any lines."
 msgstr ""
+"Для того, щоб намалювати кілька квадратів у різних місцях, створимо нову "
+"функцію для керування нашою черепашкою.\n"
+"\n"
+"Функція [code]jump()[/code] піднімає черепашку і ставить її кудись відносно "
+"місця, де вона перебуває зараз.\n"
+"\n"
+"Виклик [code]jump(-100, 50)[/code] переміщує черепашку на 100 пікселів "
+"[b]ліворуч[/b] і 50 пікселів [b]униз[/b] без малювання нових ліній."
 
 #: course/lesson-5-your-first-function/lesson.tres:232
 msgid "A function to draw squares"
-msgstr ""
+msgstr "Функція для малювання квадратів"
 
 #: course/lesson-5-your-first-function/lesson.tres:233
 msgid ""
@@ -259,16 +353,27 @@ msgid ""
 "In the following practice, you'll use the [code]draw_square()[/code] "
 "function to draw multiple squares by calling your own function."
 msgstr ""
+"Напишіть функцію з назвою [code]draw_square()[/code] щоб намалювати один "
+"квадрат зі стороною 200 пікселів. Функція не повинна приймати параметрів.\n"
+"\n"
+"Для керування черепашкою скористайтеся функціями [code]move_forward()[/code] "
+"і [code]turn_right()[/code].\n"
+"\n"
+"У наступній практичній вправі, ви використаєте власну функцію "
+"[code]draw_square()[/code] для створення кількох квадратів."
 
 #: course/lesson-5-your-first-function/lesson.tres:246
 msgid ""
 "Until now, you've had to write code by hand, and it's boring. It's time "
 "to code a reusable function. You'll use it to draw multiple squares."
 msgstr ""
+"Досі вам доводилося писати код від руки, і це нудно. Настав час створити "
+"функцію, яку можна використовувати багато разів. За її допомогою ви "
+"намалюєте кілька квадратів."
 
 #: course/lesson-5-your-first-function/lesson.tres:251
 msgid "Drawing multiple squares"
-msgstr ""
+msgstr "Малюємо кілька квадратів"
 
 #: course/lesson-5-your-first-function/lesson.tres:252
 msgid ""
@@ -286,13 +391,28 @@ msgid ""
 "Calling [code]jump(300, 300)[/code] makes the turtle jump by 300 pixels "
 "to the right and 300 pixels down without drawing any lines."
 msgstr ""
+"Ви маєте функцію для того, щоб намалювати один квадрат: "
+"[code]draw_square()[/code]. Скористайтеся нею, щоб намалювати три квадрати.\n"
+"\n"
+"Ми вже створили для вас [code]draw_square()[/code]. Створіть функцію з "
+"назвою [code]draw_three_squares[/code], котра тричі викликає "
+"[code]draw_square()[/code].\n"
+"\n"
+"Якщо ви просто викличете функцію, всі три квадрати будуть намальовані один "
+"поверх одного. Щоб розмістити їх по діагоналі, між викликами "
+"[code]draw_square()[/code] викличте [code]jump(300, 300)[/code].\n"
+"\n"
+"Виклик [code]jump(300,300)[/code] змушує черепашку стрибнути на 300 пікселів "
+"праворуч та 300 пікселів униз, без малювання нових ліній."
 
 #: course/lesson-5-your-first-function/lesson.tres:275
 msgid ""
 "Now you created a function to draw squares, you can reuse it by calling "
 "it multiple times."
 msgstr ""
+"Тепер, коли ви створили функцію, що малює квадрати, її можна використовувати "
+"повторно, тобто викликати кілька разів."
 
 #: course/lesson-5-your-first-function/lesson.tres:279
 msgid "Coding Your First Function"
-msgstr ""
+msgstr "Створення першої функції"

@@ -9,13 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-04-04 07:24+0000\n"
+"Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/lesson-19-creating-arrays/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-19-creating-arrays/lesson.tres:13
@@ -24,6 +27,8 @@ msgid ""
 "list of numbers. For example, calling [code]range(3)[/code] produces the "
 "list of numbers [code][0, 1, 2][/code]."
 msgstr ""
+"[code]range()[/code] 函式在前面課程中介紹過，它會輸出一個數字列表。例如呼叫 "
+"[code]range(3)[/code] 會產生數字列表 [code][0, 1, 2][/code]。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:33
 msgid ""
@@ -35,6 +40,12 @@ msgid ""
 "instead of the [code]range()[/code] function. You can run the next function "
 "step-by-step to see how it works."
 msgstr ""
+"在程式中，數值（無論是數字或其他類型）的列表有一個特定的名稱：我們稱為[b]陣列"
+"[/b]。因此我們可以說呼叫 [code]range()[/code] 函式會產生一個數字[b]陣列[/b]。"
+"\n"
+"\n"
+"我們也可以直接在 [code]for[/code] 迴圈中手動寫入並使用這個陣列，而不使用 "
+"[code]range()[/code] 函式。你可以逐步執行接下來的函式來看看它是如何運作的。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:55
 msgid ""
@@ -45,20 +56,28 @@ msgid ""
 "\n"
 "But we could name it anything we'd like!"
 msgstr ""
+"正如你所見，這段程式碼的運作結果仍然相同。請注意當我們建立一個 [code]for[/"
+"code] "
+"迴圈時，也會建立一個區域(local)變數，在每次迴圈迭代時指定一個值給它。在上方的"
+"範例中，我們將其命名為 [code]number[/"
+"code]，因為我們迴圈處理的陣列包含三個數字（0、1、和 2）。\n"
+"\n"
+"但這個變數的名稱可以是任何我們想要的名稱！"
 
 #: course/lesson-19-creating-arrays/lesson.tres:77
 msgid ""
 "If we \"unwrap\" the [code]for[/code] loop above, we'd get the following "
 "code with the exact same behaviour:"
-msgstr ""
+msgstr "如果我們將上方的 [code]for[/code] "
+"迴圈「展開」，就會得到以下具有相同行為的程式碼："
 
 #: course/lesson-19-creating-arrays/lesson.tres:95
 msgid "The syntax of arrays"
-msgstr ""
+msgstr "陣列的語法"
 
 #: course/lesson-19-creating-arrays/lesson.tres:97
 msgid "We write arrays this way in GDScript."
-msgstr ""
+msgstr "我們在 GDScript 中用這種方式編寫陣列。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:117
 msgid ""
@@ -69,6 +88,10 @@ msgid ""
 "Here are a couple of valid arrays. Notice how you can mix values, and how "
 "they don't need to follow one another."
 msgstr ""
+"你需要以左方括號開頭，然後寫上以逗號分隔的值來組成陣列。最後必須使用右方括號"
+"來完成陣列。\n"
+"\n"
+"以下是幾個有效的陣列範例。請注意，你可以混合不同的值，且它們不需要是連續的。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:139
 msgid ""
@@ -79,14 +102,18 @@ msgid ""
 "That'll come in handy in the next lesson, where we'll use those variables in "
 "loops."
 msgstr ""
+"由於陣列本身也是一種類型的值，就像數字或 [code]Vector2[/code] "
+"一樣，我們可以將陣列指派給變數，以便稍後重新存取它們。\n"
+"\n"
+"這在下堂課會派上用場，屆時我們將在迴圈中使用這些變數。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:161
 msgid "But first, let's see [i]when[/i] you'd use an array."
-msgstr ""
+msgstr "在此之前，讓我們先看看你[b]何時[/b]要使用陣列。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:169
 msgid "When you use arrays"
-msgstr ""
+msgstr "使用陣列的場合"
 
 #: course/lesson-19-creating-arrays/lesson.tres:171
 msgid ""
@@ -104,10 +131,22 @@ msgid ""
 "\n"
 "All of those and many more rely on arrays."
 msgstr ""
+"在電腦程式設計中，我們[b]經常[/b]使用陣列。\n"
+"\n"
+"具體來說，每當你需要存儲[b]一組東西[/b]時就會用到陣列。\n"
+"\n"
+"在遊戲中，總是需要處理各種東西的列表，例如：\n"
+"\n"
+"- RPG 中玩家的隊伍。\n"
+"- 玩家背包中的物品。\n"
+"- 街機遊戲中的最高分紀錄。\n"
+"- 遊戲世界中的物件。\n"
+"\n"
+"這些例子以及更多其他情況都依賴於陣列。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:190
 msgid "Using arrays to follow a path"
-msgstr ""
+msgstr "使用陣列跟隨路徑"
 
 #: course/lesson-19-creating-arrays/lesson.tres:192
 msgid ""
@@ -121,6 +160,12 @@ msgid ""
 "those algorithms find the path between two points and allow AIs to traverse "
 "the game."
 msgstr ""
+"讓我們來看看陣列在遊戲中最常見的一種應用：尋找並跟隨路徑。\n"
+"\n"
+"在遊戲中，盟友或怪物需要找到通往目標的路徑，可能是玩家或是某個感興趣的點。\n"
+"\n"
+"為了實現它，我們會使用[b]路徑尋找演算法(pathfinding algorithms)[/b]"
+"。顧名思義，這些演算法能夠找到兩點之間的最佳路徑，並讓 AI 在遊戲中順利移動。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:216
 msgid ""
@@ -132,6 +177,11 @@ msgid ""
 "\n"
 "How can we tell it where to walk to reach the robot? With an array!"
 msgstr ""
+"許多演算法會使用 [code]Vector2[/code] 座標的陣列來表示路徑。\n"
+"\n"
+"看看這隻寵物烏龜，它想要跟隨機器人，但路上有岩石擋住了它的路。\n"
+"\n"
+"我們該如何告訴它該走哪條路徑才能到達機器人呢？答案是使用陣列！"
 
 #: course/lesson-19-creating-arrays/lesson.tres:250
 msgid ""
@@ -140,6 +190,9 @@ msgid ""
 "\n"
 "Together, all the values in the array represent a path we can draw."
 msgstr ""
+"陣列中的每個值都是一個 [code]Vector2[/code]，代表烏龜需要走過的每個格子。\n"
+"\n"
+"所有陣列中的值一起構成了一條我們可以描繪的路徑。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:272
 msgid ""
@@ -148,10 +201,14 @@ msgid ""
 "\n"
 "For now, let's practice creating arrays."
 msgstr ""
+"在接下來的課程中，你將會學到我們如何使用陣列來儲存玩家的背包或設計攻擊組合。"
+"\n"
+"\n"
+"現在，讓我們練習創建陣列。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:282
 msgid "Walking to the robot"
-msgstr ""
+msgstr "走向機器人"
 
 #: course/lesson-19-creating-arrays/lesson.tres:283
 msgid ""
@@ -166,16 +223,24 @@ msgid ""
 "We recommend copying and pasting to fill the array with comma-separated "
 "[code]Vector2[/code] values quickly."
 msgstr ""
+"海龜想要和機器人見面！但無法自己找到路線。\n"
+"\n"
+"請將 [code]turtle_path[/code] 陣列填入 [code]Vector2[/code] "
+"座標，指示海龜應該如何移動，來避開障礙物並且安全到達機器人的所在處。\n"
+"\n"
+"海龜可以上下左右移動，但無法斜向移動。\n"
+"\n"
+"我們建議你複製並貼上來快速填入以逗號分隔的 [code]Vector2[/code] 值。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:298
 msgid ""
 "Help the turtle find its way to the robot! Give it a path to follow to reach "
 "the robot."
-msgstr ""
+msgstr "幫助海龜找到通往機器人的路！為它提供一條路徑，讓它能順利到達機器人的位置。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:303
 msgid "Selecting units"
-msgstr ""
+msgstr "選擇單位"
 
 #: course/lesson-19-creating-arrays/lesson.tres:304
 msgid ""
@@ -192,11 +257,22 @@ msgid ""
 "Select all units on the board by passing the correct array to the "
 "[code]select_units()[/code] function."
 msgstr ""
+"在這個策略遊戲中，玩家和電腦可以一次選擇多個單位。你需要呼叫 [code]"
+"select_units()[/code] 函式並傳遞一個 [code]Vector2[/code] "
+"座標陣列，來指定要選擇哪些單位。\n"
+"\n"
+"每個 [code]Vector2[/code] 代表一個有單位的格子。\n"
+"\n"
+"你可以將陣列當作引數傳遞給函式。由於陣列是電腦識別的值類型，你可以將整個陣列"
+"當作單一函式引數傳遞。\n"
+"\n"
+"通過將正確的陣列傳遞給 [code]select_units()[/code] "
+"函式，來選擇所有棋盤上的單位。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:320
 msgid "Write an array to select all units on the board in this strategy game."
-msgstr ""
+msgstr "在策略遊戲裡寫一個陣列來選擇所有棋盤上的單位。"
 
 #: course/lesson-19-creating-arrays/lesson.tres:324
 msgid "Creating arrays"
-msgstr ""
+msgstr "創建陣列"

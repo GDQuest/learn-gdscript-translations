@@ -9,24 +9,27 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2024-12-12 14:39+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-04-03 15:39+0000\n"
+"Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/glossary_database/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: member function
 #: course/glossary.csv:6
 msgid "member function"
-msgstr ""
+msgstr "成員函式"
 
 #. Reference: member function
 #: course/glossary.csv:6
 msgid "member functions"
-msgstr ""
+msgstr "成員函式"
 
 #. Reference: member function
 #: course/glossary.csv:6
@@ -39,16 +42,23 @@ msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
+"成員函式是附加在特定值類型上的函式，例如陣列、字串或字典。我們也稱它們為方（m"
+"ethod））。\n"
+"\n"
+"例如，陣列有像是 [code]array.append()[/code] 這樣的成員函式。\n"
+"\n"
+"你只能在陣列上呼叫這些函式，並使用存取運算子（[code].[/"
+"code]）來存取它，如上所示。"
 
 #. Reference: member variable
 #: course/glossary.csv:9
 msgid "member variable"
-msgstr ""
+msgstr "成員變數"
 
 #. Reference: member variable
 #: course/glossary.csv:9
 msgid "member variables"
-msgstr ""
+msgstr "成員變數"
 
 #. Reference: member variable
 #: course/glossary.csv:9
@@ -61,16 +71,21 @@ msgid ""
 "by the access operator ([code].[/code]). For example, [code]position.x[/"
 "code]."
 msgstr ""
+"成員變數是附加在特定值類型上的變數，例如向量的 [code]x[/code] 和 [code]y[/"
+"code] 子變數。我們也稱它們為向量的[b]屬性[/b]或[b]欄位[/b]。\n"
+"\n"
+"要存取成員變數，必須先寫出值的名稱，接著使用存取運算子（[code].[/"
+"code]）。例如，[code]position.x[/code]。"
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameter"
-msgstr ""
+msgstr "參數"
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameters"
-msgstr ""
+msgstr "參數"
 
 #. Reference: parameter
 #: course/glossary.csv:12
@@ -80,16 +95,19 @@ msgid ""
 "It allows you to reuse the function more by having values that vary in the "
 "function's body."
 msgstr ""
+"參數是你在函式定義中創建的變數。\n"
+"\n"
+"它讓你可以透過在函式內部使用不同的值來重複使用該函式。"
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radian"
-msgstr ""
+msgstr "弧度"
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radians"
-msgstr ""
+msgstr "弧度"
 
 #. Reference: radian
 #: course/glossary.csv:17
@@ -103,16 +121,22 @@ msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And an "
 "angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
+"弧度是根據圓周長來測量角度的單位。\n"
+"\n"
+"我們在日常生活中比較常使用度數，但在程式設計，尤其是遊戲開發中，弧度更為常見"
+"。\n"
+"\n"
+"[code]2 * PI[/code] 弧度等於 360 度，而 [code]PI[/code] 弧度等於 180 度。"
 
 #. Reference: type
 #: course/glossary.csv:20
 msgid "type"
-msgstr ""
+msgstr "類型"
 
 #. Reference: type
 #: course/glossary.csv:20
 msgid "types"
-msgstr ""
+msgstr "類型"
 
 #. Reference: type
 #: course/glossary.csv:20
@@ -124,16 +148,20 @@ msgid ""
 "The computer uses types to determine which operations are valid between two "
 "values and when they're undefined."
 msgstr ""
+"在程式設計中，類型是值的類別。例如，像 [code]3[/code]、[code]11[/code] 和 "
+"[code]255462[/code] 這些整數都是 [code]int[/code]（整數 integer 縮寫）。\n"
+"\n"
+"電腦透過類型來判斷兩個值之間哪些運算是有效的，哪些是未定義的。"
 
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iteration"
-msgstr ""
+msgstr "迭代"
 
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iterations"
-msgstr ""
+msgstr "迭代"
 
 #. Reference: iteration
 #: course/glossary.csv:23
@@ -145,16 +173,20 @@ msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
+"在程式碼中，迭代是某個過程或程式碼的一次重複。我們通常在迴圈中使用這個術語，"
+"其中一次迭代就是迴圈程式碼的一次執行。\n"
+"\n"
+"在討論算法時，迭代可以指算法對資料集的完整處理一次。"
 
 #. Reference: vector
 #: course/glossary.csv:28
 msgid "vector"
-msgstr ""
+msgstr "向量"
 
 #. Reference: vector
 #: course/glossary.csv:28
 msgid "vectors"
-msgstr ""
+msgstr "向量"
 
 #. Reference: vector
 #: course/glossary.csv:28
@@ -169,16 +201,24 @@ msgid ""
 "Vectors can seem daunting at first because they are pretty abstract, but as "
 "you will see, they'll simplify code tremendously."
 msgstr ""
+"在數學中，向量是數字的列表。在遊戲中，我們常使用 2D 和 3D "
+"向量，分別是兩個和三個數字的列表。\n"
+"\n"
+"我們用向量來表示空間中的方向和大小或強度。例如，你可以使用向量來表示角色或交"
+"通工具移動的方向和速度。\n"
+"\n"
+"向量一開始看起來可能有些令人生畏，因為它們相當抽象，但如你所見，它們會大大簡"
+"化程式碼。"
 
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "argument"
-msgstr ""
+msgstr "引數（argument）"
 
 #. Reference: argument
 #: course/glossary.csv:37
 msgid "arguments"
-msgstr ""
+msgstr "引數（argument）"
 
 #. Reference: argument
 #: course/glossary.csv:37
@@ -200,16 +240,28 @@ msgid ""
 "[i]parameters[/i]. In the following example, the names [code]x[/code] and "
 "[code]y[/code] are [i]parameters[/i]."
 msgstr ""
+"引數是你在呼叫函式時傳遞給函式的值。例如，在呼叫 [code]rotate(0.5)[/code] "
+"時，括號中的值 [code]0.5[/code] 就是引數。\n"
+"\n"
+"函式可以接收零個、一个或多個引數。引數可以是必要的，也可以是選擇性的。\n"
+"\n"
+"當一個函式接受多個引數時，你可以用逗號將值分開，就像這個函式呼叫：[code]jump("
+"50, 100)[/code]。\n"
+"\n"
+"當[b]呼叫[/b]函式時，我們稱傳遞進括號中的值為 [ i]引數[/b]。\n"
+"\n"
+"然而，在寫函式定義時，我們討論的是函式[b]參數（parameters）[/b]"
+"。在以下範例中，[code]x[/code] 和 [code]y[/code] 是[b]參數[/b]。"
 
 #. Reference: array
 #: course/glossary.csv:44
 msgid "array"
-msgstr ""
+msgstr "陣列"
 
 #. Reference: array
 #: course/glossary.csv:44
 msgid "arrays"
-msgstr ""
+msgstr "陣列"
 
 #. Reference: array
 #: course/glossary.csv:44
@@ -227,28 +279,38 @@ msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
+"陣列是值的列表。在 GDScript 中，陣列可以包含[b]任何[/b]類型的值。\n"
+"\n"
+"要創建陣列，你可以在方括號中寫下用逗號分隔的值：[code]var three_numbers = "
+"[1, 2, 3][/code]\n"
+"\n"
+"在遊戲中，我們經常使用陣列來儲存角色隊伍的列表、背包中的物品列表、玩家解鎖的"
+"魔法列表等等。它們無處不在。\n"
+"\n"
+"陣列是程式設計中一個基本的值類型。你幾乎會在任何程式語言中找到陣列。"
 
 #. Reference: assign
 #: course/glossary.csv:45
 msgid "assign"
-msgstr ""
+msgstr "指派"
 
 #. Reference: assign
 #: course/glossary.csv:45
 msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
-msgstr ""
+msgstr "將值指派給變數意味著將一個值儲存在該變數中。你可以使用等號（[code]=[/code]"
+"）來進行指派。"
 
 #. Reference: dictionary
 #: course/glossary.csv:52
 msgid "dictionary"
-msgstr ""
+msgstr "字典"
 
 #. Reference: dictionary
 #: course/glossary.csv:52
 msgid "dictionaries"
-msgstr ""
+msgstr "字典"
 
 #. Reference: dictionary
 #: course/glossary.csv:52
@@ -269,16 +331,30 @@ msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
+"字典是一種資料結構，透過鍵值對來映射值。當你提供字典一個鍵時，它會找到並回傳"
+"對應的值。\n"
+"\n"
+"在 GDScript "
+"中，鍵可以是許多不同的東西。我們常使用文字字串或數字，但不僅限於這些。像是 "
+"[code]Vector2[/code] "
+"也可以作為有效的鍵，這在將格子座標映射到單位或在基於格子的遊戲中映射物品時非"
+"常有用。\n"
+"\n"
+"你會經常在遊戲中使用字典來關聯資料。例如，我們可以用它來將裝備的名稱與其武器"
+"數值在資料庫中對應起來。\n"
+"\n"
+"像陣列一樣，字典是程式語言中一個基本的資料型別，你會在許多程式語言中看到並大"
+"量使用它。"
 
 #. Reference: for loop
 #: course/glossary.csv:59
 msgid "for loop"
-msgstr ""
+msgstr "for 迴圈"
 
 #. Reference: for loop
 #: course/glossary.csv:59
 msgid "for loops"
-msgstr ""
+msgstr "for 迴圈"
 
 #. Reference: for loop
 #: course/glossary.csv:59
@@ -296,16 +372,24 @@ msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to "
 "use than while loops."
 msgstr ""
+"for 迴圈指示電腦對陣列中的每個值重複執行一組指令一次。\n"
+"\n"
+"在每次迴圈迭代中，編譯器會從陣列中提取一個值並讓你在迴圈的主體中使用它。\n"
+"\n"
+"for 迴圈執行程式碼的次數是有限的：每個陣列中的值執行一次。這與 while "
+"迴圈不同，後者會一直重複程式碼直到符合條件為止。\n"
+"\n"
+"我們建議在可能的情況下使用 for 迴圈。它比 while 迴圈更安全且更容易使用。"
 
 #. Reference: function
 #: course/glossary.csv:64
 msgid "function"
-msgstr ""
+msgstr "函式"
 
 #. Reference: function
 #: course/glossary.csv:64
 msgid "functions"
-msgstr ""
+msgstr "函式"
 
 #. Reference: function
 #: course/glossary.csv:64
@@ -320,31 +404,38 @@ msgid ""
 "\n"
 "Also, functions can optionally return a value to the code calling it."
 msgstr ""
+"函式是你為一組程式碼指令指定的名稱。當你定義一個函式後，你可以隨時呼叫它來執"
+"行其中所有的指令。\n"
+"\n"
+"你可以透過參數來修改函式的行為。參數是你在函式定義中寫的變數名稱，然後你可以"
+"在函式的主體中使用它們，使程式碼能夠適應不同的情況。\n"
+"\n"
+"此外，函式也可以選擇性地將一個值回傳給呼叫它的程式碼。"
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "increment"
-msgstr ""
+msgstr "遞增"
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "increments"
-msgstr ""
+msgstr "遞增"
 
 #. Reference: increment
 #: course/glossary.csv:65
 msgid "An increment is the amount by which a value changes in your code."
-msgstr ""
+msgstr "遞增是指程式碼中一個值變動的量。"
 
 #. Reference: instruction
 #: course/glossary.csv:68
 msgid "instruction"
-msgstr ""
+msgstr "指令"
 
 #. Reference: instruction
 #: course/glossary.csv:68
 msgid "instructions"
-msgstr ""
+msgstr "指令"
 
 #. Reference: instruction
 #: course/glossary.csv:68
@@ -355,16 +446,19 @@ msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
 msgstr ""
+"在程式設計中，指令是電腦可以識別並執行的單一操作。\n"
+"\n"
+"例如函式呼叫、加法運算、或是將值指派給變數。"
 
 #. Reference: variable
 #: course/glossary.csv:77
 msgid "variable"
-msgstr ""
+msgstr "變數"
 
 #. Reference: variable
 #: course/glossary.csv:77
 msgid "variables"
-msgstr ""
+msgstr "變數"
 
 #. Reference: variable
 #: course/glossary.csv:77
@@ -385,16 +479,28 @@ msgid ""
 "that you attach to some value. Any time, you can take the label and stick it "
 "onto a new product or, in that case, a new value."
 msgstr ""
+"變數是一種工具，用來為你想要在程式中儲存並隨時間變動的值取的名字。\n"
+"\n"
+"例如，角色的生命值：當角色受到攻擊時，你希望它下降；當治療時，你希望生命值回"
+"升。\n"
+"\n"
+"你可以創建一個名為 [code]health[/code] 的變數來表示生命值。\n"
+"\n"
+"然後，每當你在程式碼中寫下關鍵字 [code]health[/code] "
+"時，電腦就會從記憶體中抓取對應的值。\n"
+"\n"
+"變數有點像超市中的產品標籤。它們是你附加在某個值上的名稱。任何時候，你都可以"
+"將標籤取下並貼到新的產品上，或者在這個情況就是貼到新的值上。"
 
 #. Reference: while loop
 #: course/glossary.csv:84
 msgid "while loop"
-msgstr ""
+msgstr "while 迴圈"
 
 #. Reference: while loop
 #: course/glossary.csv:84
 msgid "while loops"
-msgstr ""
+msgstr "while 迴圈"
 
 #. Reference: while loop
 #: course/glossary.csv:84
@@ -410,23 +516,32 @@ msgid ""
 "However, there are still essential cases in which we use while loops, like "
 "processing files, processing computer code, or for powerful algorithms."
 msgstr ""
+"while 迴圈指示電腦根據條件繼續執行程式碼。當條件為真時，迴圈會繼續執行。\n"
+"\n"
+"在編寫 while 迴圈時，你必須小心：如果條件設定錯誤，迴圈會無限執行並凍結遊戲。"
+"\n"
+"\n"
+"因此，我們建議在可能的情況下使用更安全的 for 迴圈。\n"
+"\n"
+"然而，仍然有一些必要的情況需要使用 while "
+"迴圈，例如處理檔案、處理電腦程式碼或用於強大的算法。"
 
 #. Reference: body
 #: course/glossary.csv:85
 msgid "body"
-msgstr ""
+msgstr "主體（body）"
 
 #. Reference: body
 #: course/glossary.csv:85
 msgid ""
 "We talk about a loop or a function's body to refer to the lines of code that "
 "are part of the loop or function."
-msgstr ""
+msgstr "我們提到迴圈或函式的主體（body）是指那些屬於該迴圈或函式的程式碼行。"
 
 #. Reference: return
 #: course/glossary.csv:88
 msgid "return"
-msgstr ""
+msgstr "回傳（return）"
 
 #. Reference: return
 #: course/glossary.csv:88
@@ -437,33 +552,38 @@ msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed by "
 "a value, for example: [code]return -1[/code]."
 msgstr ""
+"回傳值是將一個值傳送到呼叫函式的地方的過程。\n"
+"\n"
+"當函式使用 [code]return[/code] 關鍵字後面加上一個值時，就會發生回傳，例如："
+"[code]return -1[/code]。"
 
 #. Reference: library
 #: course/glossary.csv:89
 msgid "library"
-msgstr ""
+msgstr "函式庫（library）"
 
 #. Reference: library
 #: course/glossary.csv:89
 msgid "libraries"
-msgstr ""
+msgstr "函式庫（libraries）"
 
 #. Reference: library
 #: course/glossary.csv:89
 msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
-msgstr ""
+msgstr "函式庫是由其他程式設計師整理並打包的一組有價值且可重複使用的程式碼，目的是為"
+"了節省你的時間。所有程式設計師都會使用程式碼函式庫。"
 
 #. Reference: sprite
 #: course/glossary.csv:90
 msgid "sprite"
-msgstr ""
+msgstr "精靈（sprite）"
 
 #. Reference: sprite
 #: course/glossary.csv:90
 msgid "sprites"
-msgstr ""
+msgstr "精靈（sprites）"
 
 #. Reference: sprite
 #: course/glossary.csv:90
@@ -471,4 +591,5 @@ msgid ""
 "In computer graphics, a sprite is an image you display on the screen. We "
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
-msgstr ""
+msgstr "在電腦圖形中，精靈是你顯示在螢幕上的影像。我們通常用這個詞來指代移動的影像，"
+"例如角色、怪物或掉落在地上的物品。"
