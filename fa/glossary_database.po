@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
-"PO-Revision-Date: 2025-01-05 05:06+0000\n"
+"PO-Revision-Date: 2025-05-17 21:01+0000\n"
 "Last-Translator: Atur <aturaseman9@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/glossary_database/fa/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #. Reference: member function
@@ -388,18 +388,18 @@ msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to"
 " use than while loops."
 msgstr ""
-"چرخه‌های for به رایانه می‌گویند که دسته‌ای از فرمان‌ها را یک بار برای هر ارزش "
-"درون آرایه‌ای تکرار کند.\n"
+"چرخه‌های for یا «چرخه‌های برایِ» به رایانه می‌گویند که دسته‌ای از فرمان‌ها را یک "
+"بار برای هر ارزش درون یک آرایه تکرار کند.\n"
 "\n"
 "در هر تکرار چرخه، کامپایلر یک ارزش را از آرایه استخراج کرده و به شما در بدن "
 "چرخه به آن دسترسی می‌دهد.\n"
 "\n"
-"چرخه‌های for بارهای محدودی کد را اجرا می‌کنند: یک بار برای هر ارزش درون آرایه. "
-"با چرخه‌های while، که کد را تا زمانی که شرطی برقرار باشد اجرا می‌کنند، "
-"متفاوت‌اند.\n"
+"چرخه‌های برایِ بارهای محدودی کد را اجرا می‌کنند: یک بار برای هر ارزش درون "
+"آرایه. با چرخه‌های while یا هنگامی‌که، که کد را تا زمانی که شرطی برقرار باشد "
+"اجرا می‌کنند، متفاوت‌اند.\n"
 "\n"
-"تا جایی که برای‌تان شدنی‌ست ما چرخه‌های for را پیشنهاد می‌کنیم. به‌کارگیری آنها "
-"از چرخه‌های while آسان‌تر و امن‌تر است."
+"تا جایی که برای‌تان شدنی‌ست ما چرخه‌های برایِ را پیشنهاد می‌کنیم. به‌کارگیری آنها "
+"از چرخه‌های هنگامی‌که آسان‌تر و امن‌تر است."
 
 #. Reference: function
 #: ./course/glossary.csv:64
@@ -454,12 +454,12 @@ msgstr "فزایش‌ها مقداری‌اند که بر پایهٔ آنها ا
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instruction"
-msgstr ""
+msgstr "دستورالعمل"
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
 msgid "instructions"
-msgstr ""
+msgstr "دستورالعمل‌ها"
 
 #. Reference: instruction
 #: ./course/glossary.csv:68
@@ -470,16 +470,21 @@ msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
 msgstr ""
+"در برنامه‌نویسی رایانه‌ای، دستورالعمل‌ها یک عملیات هستند که رایانه آنها را "
+"تشخیص داده و می‌تواند اجرا کند.\n"
+"\n"
+"برای نمونه، فراخوانی تابع، جمع یا واگذاری ارزشی در متغیر گونه‌ای دستورالعمل "
+"است."
 
 #. Reference: variable
 #: ./course/glossary.csv:77
 msgid "variable"
-msgstr ""
+msgstr "متغیر"
 
 #. Reference: variable
 #: ./course/glossary.csv:77
 msgid "variables"
-msgstr ""
+msgstr "متغیرها"
 
 #. Reference: variable
 #: ./course/glossary.csv:77
@@ -500,16 +505,31 @@ msgid ""
 " that you attach to some value. Any time, you can take the label and "
 "stick it onto a new product or, in that case, a new value."
 msgstr ""
+"متغیرها ابزاری هستند که می‌گذارند به ارزش‌ها و مقدارهایی که می‌خواهید در کُدتان "
+"ذخیره کرده و در طول زمان تغییر دهید نام بدهید.\n"
+"\n"
+"برای نمونه، جان شخصیت: هنگامی که شخصیت ضربه می‌خورد می‌خواهید که به ارزش کمتری "
+"تبدیل شود. هنگام درمان شدن، می‌خواهید که جان به ارزش پیشین خود برگردد.\n"
+"\n"
+"می‌توانید متغیری با نام [code]health[/code] بسازید تا جان شخصیت را نمایش دهد."
+"\n"
+"\n"
+"سپس، هربار که کلیدواژهٔ [code]health[/code] را در کدتان بنویسید، رایانه ارزش "
+"مربوط در حافظهٔ خود را برایتان خواهد آورد.\n"
+"\n"
+"متغیرها کمی مانند برچسب کالاها در سوپرمارکت‌ها کار می‌کنند. نام‌هایی هستند که "
+"به آنها ارزشی پیوست می‌دهید. هر زمانی که بخواهید می‌توانید برچسب را کنده و به "
+"کالای دیگری بچسبانید، یا در این زمینه، ارزش و مقداری نو به آن دهید."
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
 msgid "while loop"
-msgstr ""
+msgstr "چرخهٔ while"
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
 msgid "while loops"
-msgstr ""
+msgstr "چرخه‌های while"
 
 #. Reference: while loop
 #: ./course/glossary.csv:84
@@ -526,11 +546,23 @@ msgid ""
 "like processing files, processing computer code, or for powerful "
 "algorithms."
 msgstr ""
+"چرخهٔ while یا چرخهٔ هنگامی‌که به رایانه دستور می‌دهد تا کد را بر پایهٔ یک شرط، "
+"ادامه‌وار اجرا کند. هنگامی که شرط درست (true) باشد چرخه به اجرای خود ادامه "
+"خواهد داد.\n"
+"\n"
+"هنگام کدنویسی چرخه‌های هنگامی‌که باید مواظب باشید: اگر شرط را به‌نادرستی دریافت "
+"کنید بی‌محدودیت اجرا شده و باعث یخ‌زدگی بازی‌تان خواهند شد.\n"
+"\n"
+"از این روی، پیشنهاد می‌کنیم هر زمان که می‌توانید از چرخهٔ امن‌تر for یا همان "
+"«چرخهٔ برایِ» بهره ببرید.\n"
+"\n"
+"با این همه، هنوز موردهای ضروری و بایسته‌ای هستند که چرخه‌های هنگامی‌که را به "
+"کار می‌بریم. مانند پردازش پرونده‌ها، پردازش کد رایانه یا الگوریتم‌های توانمند."
 
 #. Reference: body
 #: ./course/glossary.csv:85
 msgid "body"
-msgstr ""
+msgstr "بدنه"
 
 #. Reference: body
 #: ./course/glossary.csv:85
@@ -538,11 +570,13 @@ msgid ""
 "We talk about a loop or a function's body to refer to the lines of code "
 "that are part of the loop or function."
 msgstr ""
+"چنانچه دربارهٔ بدنهٔ چرخه یا تابعی بگوییم، منظور خط‌های کدی‌ست که بخشی از چرخه "
+"یا تابع هستند."
 
 #. Reference: return
 #: ./course/glossary.csv:88
 msgid "return"
-msgstr ""
+msgstr "برگشت"
 
 #. Reference: return
 #: ./course/glossary.csv:88
@@ -553,16 +587,21 @@ msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed "
 "by a value, for example: [code]return -1[/code]."
 msgstr ""
+"برگرداندن ارزش فرایندی‌ست که در آن ارزش به جایی که در آن تابعی را فرامی‌خوانید "
+"فرستاده می‌شود.\n"
+"\n"
+"هنگامی رخ می‌دهد که تابعی کلیدواژهٔ [code]return[/code] را به کار ببرد و در "
+"ادامه‌اش یک ارزش یا مقدار بگذارد. برای نمونه: [code]return -1[/code]."
 
 #. Reference: library
 #: ./course/glossary.csv:89
 msgid "library"
-msgstr ""
+msgstr "کتابخانه"
 
 #. Reference: library
 #: ./course/glossary.csv:89
 msgid "libraries"
-msgstr ""
+msgstr "کتابخانه‌ها"
 
 #. Reference: library
 #: ./course/glossary.csv:89
@@ -570,16 +609,19 @@ msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
+"مجموعه‌ای از کدهای ارزشمند و چندبارمصرف که در کنار هم به دست دیگر برنامه‌"
+"نویسان جمع شده تا در زمان شما صرفه‌جویی شود. همهٔ برنامه‌نویسان از کتابخانه‌ها "
+"بهره می‌برند."
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
 msgid "sprite"
-msgstr ""
+msgstr "اسپرایت"
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
 msgid "sprites"
-msgstr ""
+msgstr "اسپرایت‌ها"
 
 #. Reference: sprite
 #: ./course/glossary.csv:90
@@ -588,3 +630,6 @@ msgid ""
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
 msgstr ""
+"در گرافیک رایانه‌ای، اسپرایت تصویری‌ست که روی صفحه نمایش داده می‌شود. ما بیشتر "
+"از این واژه برای حرف زدن دربارهٔ تصویرهای در حال جنبش بهره می‌بریم. مانند "
+"شخصیت‌ها، هیولاه یا آیتمی که دارد روی زمین می‌افتد."
