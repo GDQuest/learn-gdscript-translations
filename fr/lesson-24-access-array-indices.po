@@ -117,7 +117,7 @@ msgstr ""
 "C'est très pratique lorsque vous avez besoin d'accéder rapidement aux "
 "éléments de la fin de la liste."
 
-# antépénultième element 
+# antépénultième element
 #: course/lesson-24-access-array-indices/lesson.tres:142
 msgid "How would you access the third-to-last item in the inventory array?"
 msgstr ""
@@ -208,7 +208,6 @@ msgid "Using the right items"
 msgstr "Utiliser les bons objets"
 
 #: course/lesson-24-access-array-indices/lesson.tres:221
-#, fuzzy
 msgid ""
 "In our game, the player has an inventory that works as an array under the "
 "hood.\n"
@@ -229,21 +228,23 @@ msgstr ""
 "Dans notre jeu, le joueur a un inventaire qui fonctionne comme un tableau "
 "sous le capot.\n"
 "\n"
-"Il veut équiper une épée et un bouclier pour améliorer leurs personnages. "
-"Comme avant, nous avons besoin de vous pour les trouver dans le tableau.\n"
+"Le joueur sait qu'il a une épée et un bouclier quelque part dans son "
+"inventaire, mais il ne se souvient pas exactement où.\n"
 "\n"
-"Pour ce faire, vous devez accéder aux éléments du tableau [code]inventory[/"
-"code] par indice.\n"
+"Vous pouvez voir l'inventaire dessiné à droite, avec l'indice de chaque "
+"objet dans l'inventaire.\n"
 "\n"
-"Appelez la fonction [code]use_item()[/code] avec l'objet comme argument pour "
-"utiliser un objet. Par exemple, vous pouvez utiliser le premier élément en "
-"appelant [code]use_item(inventory[0])[/code]."
+"Votre tâche est de trouver une épée et un bouclier dans le tableau en "
+"utilisant leur indice, puis d'appeler [code]use_item()[/code] sur chacun "
+"d'eux pour que le joueur puisse équiper ces objets.\n"
+"\n"
+"Par exemple, si le premier objet du tableau est ce dont vous avez besoin, "
+"vous pouvez appeler [code]use_item(inventory[0])[/code]."
 
 #: course/lesson-24-access-array-indices/lesson.tres:241
-#, fuzzy
 msgid ""
 "Find the right items to use in the player's inventory, using their index."
-msgstr "Trouvez les bons objets à utiliser dans l'inventaire du joueur."
+msgstr "Trouvez les bons objets à utiliser dans l'inventaire du joueur, en utilisant leur index."
 
 #: course/lesson-24-access-array-indices/lesson.tres:246
 msgid "Realigning the train tracks"

@@ -204,7 +204,6 @@ msgid "Using the right items"
 msgstr "Utilizar los objetos adecuados"
 
 #: course/lesson-24-access-array-indices/lesson.tres:221
-#, fuzzy
 msgid ""
 "In our game, the player has an inventory that works as an array under the "
 "hood.\n"
@@ -225,22 +224,24 @@ msgstr ""
 "En nuestro juego, el jugador tiene un inventario que, bajo el capó, funciona "
 "como un array.\n"
 "\n"
-"El jugador quiere equipar una espada y un escudo para potenciar a sus "
-"personajes. Como antes, necesitamos que los encuentres en el array.\n"
+"El jugador sabe que tiene una espada y un escudo en algún lugar de su "
+"inventario, pero no recuerda exactamente dónde.\n"
 "\n"
-"Para hacerlo, tienes que acceder a los elementos del array [code]inventory[/"
-"code] con sus respectivos índices.\n"
+"Puedes ver el inventario dibujado a la derecha, junto con el índice de cada "
+"objeto en el inventario.\n"
 "\n"
-"Llama a la función [code]use_item()[/code] con el objeto como argumento para "
-"utilizar dicho objeto. Por ejemplo, puedes utilizar el primer objeto "
-"llamando a [code]use_item(inventory[0])[/code]."
+"Tu tarea es encontrar una espada y un escudo en el array usando su "
+"índice, luego llamar [code]use_item()[/code] en cada uno de ellos para que "
+"el jugador pueda equipar esos objetos.\n"
+"\n"
+"Por ejemplo, si el primer objeto en el array es lo que necesitas, llamarías "
+"[code]use_item(inventory[0])[/code]."
 
 #: course/lesson-24-access-array-indices/lesson.tres:241
-#, fuzzy
 msgid ""
 "Find the right items to use in the player's inventory, using their index."
 msgstr ""
-"Encuentra los objetos adecuados para usar en el inventario del jugador."
+"Encuentra los objetos adecuados para usar en el inventario del jugador, usando su índice."
 
 #: course/lesson-24-access-array-indices/lesson.tres:246
 msgid "Realigning the train tracks"
