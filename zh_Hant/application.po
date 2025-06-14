@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2024-12-12 14:39+0100\n"
+"POT-Creation-Date: 2025-06-14 15:02+0200\n"
 "PO-Revision-Date: 2025-04-03 15:39+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
@@ -77,7 +77,8 @@ msgstr "正在執行你的程式碼……"
 msgid ""
 "There is a division by zero in your code. You cannot divide by zero in code. "
 "Please ensure you have no \"/ 0\" or \"% 0\" in your code."
-msgstr "你的程式碼中存在除以 0 的情況。你不能在程式碼中除以0。請確保你的程式碼中沒有 "
+msgstr ""
+"你的程式碼中存在除以 0 的情況。你不能在程式碼中除以0。請確保你的程式碼中沒有 "
 "\"/ 0\" 或 \"% 0\" 。"
 
 #: ui/UIPractice.gd:346
@@ -141,8 +142,8 @@ msgid ""
 "Learn GDScript From Zero is an open source project by [color=#FFD500]"
 "[url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
 msgstr ""
-"《從零開始學 GDScript》是一個由[color=#FFD500][url=https://www.gdquest.com/]"
-"GDQUEST.COM[/url][/color]推出的開源專案"
+"《從零開始學 GDScript》是一個由[color=#FFD500][url=https://www.gdquest."
+"com/]GDQUEST.COM[/url][/color]推出的開源專案"
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -267,9 +268,8 @@ msgid ""
 msgstr ""
 "對不起，我們還沒有涉及到這種特殊的錯誤訊息！\n"
 "\n"
-"請使用右上角的[b]回報[/b]"
-"按鈕告訴我們你是如何遇到它的，我們將會努力在下一個版本的應用程式改進我們的知"
-"識庫。\n"
+"請使用右上角的[b]回報[/b]按鈕告訴我們你是如何遇到它的，我們將會努力在下一個版"
+"本的應用程式改進我們的知識庫。\n"
 "\n"
 "[center]謝謝你！[/center]"
 
@@ -297,16 +297,16 @@ msgid ""
 "individual error that you face. Quick, click the [b]Explain[/b] button next "
 "to the error message!"
 msgstr ""
-"本教學的課程中，你都只需要編輯[b]重要的部分[/b]"
-"。但在你看到的程式碼之外，其實還有非常多的程式碼，才使得專案能夠運行起來。\n"
+"本教學的課程中，你都只需要編輯[b]重要的部分[/b]。但在你看到的程式碼之外，其實"
+"還有非常多的程式碼，才使得專案能夠運行起來。\n"
 "\n"
 "也就是說，有時候你所作出的修改可能會影響到你無法控制的程式碼。不過不用擔心，"
 "你還是可以通過修改你[b]能夠[/b]編輯的程式碼來修復所有這些問題。\n"
 "\n"
-"[b]這也正類似於遊戲引擎的工作原理。[/b]"
-"很多的程式碼是被隱藏的，有了這些程式碼，你的專案才能夠順利運行。但同時你腳本"
-"中的錯誤就可能會讓它們無法正常工作。我們會嘗試解釋如何解決你所遇到的每一個問"
-"題。很簡單，點擊錯誤消息旁邊的[b]解釋[/b]按鈕就行了！"
+"[b]這也正類似於遊戲引擎的工作原理。[/b]很多的程式碼是被隱藏的，有了這些程式"
+"碼，你的專案才能夠順利運行。但同時你腳本中的錯誤就可能會讓它們無法正常工作。"
+"我們會嘗試解釋如何解決你所遇到的每一個問題。很簡單，點擊錯誤消息旁邊的[b]解釋"
+"[/b]按鈕就行了！"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
@@ -358,7 +358,7 @@ msgid "Practice List"
 msgstr "練習列表"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
-#: ui/components/popups/SettingsPopup.tscn:244
+#: ui/components/popups/SettingsPopup.tscn:283
 msgid "Close"
 msgstr "關閉"
 
@@ -413,18 +413,18 @@ msgstr ""
 "\n"
 "在該頁面上，你可以報告任何問題，無論是套用無法正常工作，還是課程中的錯誤。\n"
 "\n"
-"你可以生成日誌，説明我們排查問題。請點擊此處：[b][url=download]生成錯誤日誌"
-"[/url][/b]。\n"
+"你可以生成日誌，説明我們排查問題。請點擊此處：[b][url=download]生成錯誤日誌[/"
+"url][/b]。\n"
 "\n"
 "請將生成的檔拖放附加到你在 GitHub 上的 Issue 中。\n"
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]GitHub 是什麼[/font]\n"
 "\n"
-"GitHub 是一個線上平臺，用於託管和管理像 GDScript Learn "
-"套用這樣的開源專案，可以説明開發者組織他們的工作並進行線上協作。\n"
+"GitHub 是一個線上平臺，用於託管和管理像 GDScript Learn 套用這樣的開源專案，可"
+"以説明開發者組織他們的工作並進行線上協作。\n"
 "\n"
-"你可以使用 GitHub "
-"來研究許多開放專案的原始程式碼，報告問題，甚至自己貢獻程式碼。\n"
+"你可以使用 GitHub 來研究許多開放專案的原始程式碼，報告問題，甚至自己貢獻程式"
+"碼。\n"
 "\n"
 "[font=res://ui/theme/fonts/font_title.tres]如何報告問題[/font]\n"
 "\n"
@@ -443,35 +443,39 @@ msgstr ""
 msgid "OK"
 msgstr "確定"
 
-#: ui/components/popups/SettingsPopup.tscn:76
+#: ui/components/popups/SettingsPopup.tscn:85
 msgid "Configure the App"
 msgstr "應用程式設定"
 
-#: ui/components/popups/SettingsPopup.tscn:103
+#: ui/components/popups/SettingsPopup.tscn:119
 msgid "Language"
 msgstr "語言"
 
-#: ui/components/popups/SettingsPopup.tscn:123
+#: ui/components/popups/SettingsPopup.tscn:139
 msgid "Text Size"
 msgstr "文字大小"
 
-#: ui/components/popups/SettingsPopup.tscn:151
+#: ui/components/popups/SettingsPopup.tscn:167
 msgid "Sample text"
 msgstr "範例文字"
 
-#: ui/components/popups/SettingsPopup.tscn:164
+#: ui/components/popups/SettingsPopup.tscn:180
 msgid "Scroll sensitivity"
 msgstr "滾輪靈敏度"
 
-#: ui/components/popups/SettingsPopup.tscn:190
+#: ui/components/popups/SettingsPopup.tscn:206
 msgid "Framerate cap"
 msgstr "影格率上限"
 
-#: ui/components/popups/SettingsPopup.tscn:212
+#: ui/components/popups/SettingsPopup.tscn:229
 msgid "Lower contrast"
 msgstr "降低對比"
 
-#: ui/components/popups/SettingsPopup.tscn:259
+#: ui/components/popups/SettingsPopup.tscn:250
+msgid "Dyslexia Font"
+msgstr ""
+
+#: ui/components/popups/SettingsPopup.tscn:299
 msgid "Apply"
 msgstr "套用"
 
@@ -567,7 +571,8 @@ msgstr "跟著影片教學學習"
 msgid ""
 "They’re a great way to pick up specific game mechanics but they’re not as "
 "effective when you’re trying to learn new skills from the ground up."
-msgstr "它們是學習如何製作特定遊戲機制的好方法，但當你想要從零開始學習新技能時，效果"
+msgstr ""
+"它們是學習如何製作特定遊戲機制的好方法，但當你想要從零開始學習新技能時，效果"
 "就沒那麼理想。"
 
 #: ui/screens/end_screen/EndScreen.tscn:459
@@ -588,10 +593,9 @@ msgid ""
 "url][/color][/b]."
 msgstr ""
 "我們製作了不少[b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]"
-"免費教學[/url][/color][/b]"
-"。當你開始獨立製作遊戲時，它們會非常實用。但要入門的話，我們強烈推薦你透過[b]"
-"[color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]課程"
-"[/url][/color][/b] 來學習如何像遊戲開發者一樣思考。"
+"免費教學[/url][/color][/b]。當你開始獨立製作遊戲時，它們會非常實用。但要入門"
+"的話，我們強烈推薦你透過[b][color=#ebc3ff][url=https://school.gdquest.com/"
+"godot-4-early-access]課程[/url][/color][/b] 來學習如何像遊戲開發者一樣思考。"
 
 #: ui/screens/end_screen/EndScreen.tscn:505
 msgid "Learning with courses"
@@ -602,7 +606,8 @@ msgid ""
 "Note that most available courses online are actually premium series of video "
 "tutorials. The problem of retaining information and acquiring real skills "
 "unfortunately still applies to them."
-msgstr "請注意，大多數線上課程實際上是付費的影片教學系列。不幸的是，關於記憶與技能習"
+msgstr ""
+"請注意，大多數線上課程實際上是付費的影片教學系列。不幸的是，關於記憶與技能習"
 "得的問題，它們依然存在。"
 
 #: ui/screens/end_screen/EndScreen.tscn:537
@@ -616,14 +621,13 @@ msgid ""
 "bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
 "[/b]."
 msgstr ""
-"在 "
-"GDQuest，我們本質上是教育者。我們相信實踐學習，並且相信學習不必枯燥無味。當教"
-"學做得正確時，大多數人會非常享受升級的感覺！\n"
+"在 GDQuest，我們本質上是教育者。我們相信實踐學習，並且相信學習不必枯燥無味。"
+"當教學做得正確時，大多數人會非常享受升級的感覺！\n"
 "\n"
 "這就是我們製作這個應用程式的原因。事實上，它是我們初學者課程的一部分：[b]"
-"[color=#ebc3ff]"
-"[url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn "
-"Gamedev From Zero with Godot[/url][/color][/b]。"
+"[color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
+"[/b]。"
 
 #: ui/screens/end_screen/EndScreen.tscn:575
 msgid "LEARN GAMEDEV WITH GODOT"
@@ -662,8 +666,8 @@ msgid ""
 "en/stable/getting_started/step_by_step/index.html]Getting Started with "
 "Godot[/url]."
 msgstr ""
-"你已經完成《Learn GDScript From Zero》！現在你已具備使用 Godot "
-"遊戲引擎製作遊戲的基本知識。\n"
+"你已經完成《Learn GDScript From Zero》！現在你已具備使用 Godot 遊戲引擎製作遊"
+"戲的基本知識。\n"
 "\n"
 "你可以透過免費系列 [url=https://docs.godotengine.org/en/stable/"
 "getting_started/step_by_step/index.html]Godot 入門指南[/url] 繼續學習。"
@@ -682,9 +686,8 @@ msgid ""
 msgstr ""
 "像 Godot 一樣，這個應用程式和課程是免費且開源的。\n"
 "\n"
-"你可以在這裡找到應用程式的源代碼並貢獻翻譯："
-"[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero ("
-"Github repository)[/url]."
+"你可以在這裡找到應用程式的源代碼並貢獻翻譯：[url=\"https://github.com/"
+"GDQuest/learn-gdscript\"]Learn GDScript From Zero (Github repository)[/url]."
 
 #: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:41
 msgid "Early Access release: 2024/01/30"

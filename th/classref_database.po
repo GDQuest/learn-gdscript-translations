@@ -8,86 +8,84 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-06-12 11:07+0200\n"
+"POT-Creation-Date: 2025-06-14 15:02+0200\n"
 "PO-Revision-Date: 2022-10-05 23:12+0000\n"
 "Last-Translator: watchakorn-18k <porton2559@gmail.com>\n"
-"Language-Team: Thai <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/classref_database/th/>\n"
+"Language-Team: Thai <https://hosted.weblate.org/projects/learn-gdscript-from-"
+"zero/classref_database/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.10.1\n"
 
 #. Reference: show
-#: ./course/documentation.csv:2
+#: course/documentation.csv:2
 msgid "shows the current scene"
 msgstr "แสดง scene ปัจจุบัน"
 
 #. Reference: hide
-#: ./course/documentation.csv:3
+#: course/documentation.csv:3
 msgid "hides the current scene"
 msgstr "ซ่อน scene ปัจจุบัน"
 
 #. Reference: rotate
-#: ./course/documentation.csv:4
+#: course/documentation.csv:4
 msgid ""
 "Applies a rotation to the node, in radians, starting from its current "
 "rotation."
 msgstr "ปรับค่าหมุนให้ node ในหน่วย เรเดียน เริ่มจากมุมหมุน ณ ปัจจุบัน"
 
 #. Reference: move_forward
-#: ./course/documentation.csv:5
+#: course/documentation.csv:5
 msgid "Moves the turtle in the direction it's facing by some pixels."
-msgstr ""
-"ให้พา (move) เต่าไปยังทิศที่มันมุ่งหน้าไป เติมระยะทาง (pixel) ตามต้องการ"
+msgstr "ให้พา (move) เต่าไปยังทิศที่มันมุ่งหน้าไป เติมระยะทาง (pixel) ตามต้องการ"
 
 #. Reference: turn_right
-#: ./course/documentation.csv:6
+#: course/documentation.csv:6
 msgid "Rotates the turtle to the right by some degrees."
 msgstr "หมุนเต่า (rotate) ไปทางขวา เติมองศาตามต้องการ"
 
 #. Reference: turn_left
-#: ./course/documentation.csv:7
+#: course/documentation.csv:7
 msgid "Rotates the turtle to the left by some degrees."
 msgstr "หมุนเต่า (rotate) ไปทางซ้าย เติมองศาตามต้องการ"
 
 #. Reference: jump
-#: ./course/documentation.csv:8
+#: course/documentation.csv:8
 msgid "Offsets the turtle's position by the given x and y amounts of pixels."
-msgstr ""
-"กระเถิบ (offset) ตำแหน่งเต่า ตามจำนวน pixels ที่กำหนดให้ ในแนวแกน x และ y"
+msgstr "กระเถิบ (offset) ตำแหน่งเต่า ตามจำนวน pixels ที่กำหนดให้ ในแนวแกน x และ y"
 
 #. Reference: draw_rectangle
-#: ./course/documentation.csv:9
+#: course/documentation.csv:9
 msgid "Makes the turtle draw a rectangle starting at its current position."
 msgstr "ทำให้เต่าวาดรูปสี่เหลี่ยม เริ่มต้นจากตำแหน่งที่มันอยู่ปัจจุบัน"
 
 #. Reference: position.x
-#: ./course/documentation.csv:10
+#: course/documentation.csv:10
 msgid "The position of the entity on the horizontal axis."
 msgstr "ตำแหน่งของสิ่งนั้นเมื่อวัดในแกนแนวนอน"
 
 #. Reference: position.y
-#: ./course/documentation.csv:11
+#: course/documentation.csv:11
 msgid "The position of the entity on the vertical axis."
 msgstr "ตำแหน่งของสิ่งนั้นเมื่อวัดในแกนแนวตั้ง"
 
 #. Reference: move_local_x
-#: ./course/documentation.csv:12
+#: course/documentation.csv:12
 msgid ""
-"Applies a local translation on the node's X axis based on the "
-"[code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] "
-"is false, normalizes the movement."
+"Applies a local translation on the node's X axis based on the [code]Node."
+"_process[/code]'s [code]delta[/code]. If [code]scaled[/code] is false, "
+"normalizes the movement."
 msgstr ""
-"จะกำหนดการเคลื่อนตำแหน่งของ node ในแกน x ของตัวเอง (ไม่ใช่ x ของ scene, "
-"world) โดยยึดจากความต่าง ([code]delta[/code]) ของ [code]Node._process[/code] "
-"ถ้า [code]scaled[/code] เป็น false ก็จะ normalize การเคลื่อนที่"
+"จะกำหนดการเคลื่อนตำแหน่งของ node ในแกน x ของตัวเอง (ไม่ใช่ x ของ scene, world) "
+"โดยยึดจากความต่าง ([code]delta[/code]) ของ [code]Node._process[/code] ถ้า "
+"[code]scaled[/code] เป็น false ก็จะ normalize การเคลื่อนที่"
 
 #. Reference: board_size
-#: ./course/documentation.csv:13
+#: course/documentation.csv:13
 msgid ""
 "Stores how many cells make up the width ([code]board_size.x[/code]) and "
 "height ([code]board_size.y[/code]) of the board."
@@ -96,84 +94,90 @@ msgstr ""
 "([code]board_size.y[/code]) ของกระดาน"
 
 #. Reference: cell
-#: ./course/documentation.csv:14
+#: course/documentation.csv:14
 msgid ""
-"The cell position of the robot on the board. [code]Vector2(0, 0)[/code] "
-"is the square cell in the top left of the board."
+"The cell position of the robot on the board. [code]Vector2(0, 0)[/code] is "
+"the square cell in the top left of the board."
 msgstr ""
 "ตำแหน่งเซลล์ของหุ่นยนต์บนกระดานและ [code]Vector2(0, 0)[/code] "
 "คือเซลล์สี่เหลี่ยมที่ด้านบนซ้ายของกระดาน"
 
 #. Reference: range
-#: ./course/documentation.csv:15
-msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
+#: course/documentation.csv:15
+msgid ""
+"Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
 msgstr "สร้าง list ตัวเลขจาก [code]0[/code] ถึง [code]length - 1[/code]"
 
 #. Reference: play_animation
-#: ./course/documentation.csv:16
+#: course/documentation.csv:16
 msgid "Orders the robot to play an animation."
 msgstr "สั่งให้หุ่นยนต์เล่นแอนิเมชั่น"
 
 #. Reference: select_units
-#: ./course/documentation.csv:17
-msgid "Selects units in the cell coordinates passed as the function's argument."
+#: course/documentation.csv:17
+msgid ""
+"Selects units in the cell coordinates passed as the function's argument."
 msgstr "เลือกหน่วยในพิกัดเซลล์ที่ส่งผ่านเป็นอาร์กิวเมนต์ของฟังก์ชัน"
 
 #. Reference: robot.move_to
-#: ./course/documentation.csv:18
+#: course/documentation.csv:18
 msgid "Queues a move animation towards the target cell."
 msgstr "จัดคิวของแอนิเมชั่นเคลื่อนไหวไปยังเซลล์เป้าหมาย"
 
 #. Reference: array.append
-#: ./course/documentation.csv:19
+#: course/documentation.csv:19
 msgid "Adds the value passed as an argument at the back of the array."
 msgstr "เพิ่มค่าที่ส่งผ่านเป็นอาร์กิวเมนต์ไปยังด้านหลังของอาร์เรย์"
 
 #. Reference: array.pop_front
-#: ./course/documentation.csv:20
+#: course/documentation.csv:20
 msgid "Removes the first value from the array and returns it."
 msgstr "ลบค่าแรกออกจากอาร์เรย์และส่งค่าคืนกลับไป"
 
 #. Reference: array.pop_back
-#: ./course/documentation.csv:21
+#: course/documentation.csv:21
 msgid "Removes the last value from the array and returns it."
 msgstr "ลบค่าสุดท้ายออกจากอาร์เรย์และส่งค่าคืนกลับไป"
 
 #. Reference: str
-#: ./course/documentation.csv:22
+#: course/documentation.csv:22
 msgid ""
-"Returns the argument converted into a [code]String[/code]. Works with the"
-" majority of value types."
+"Returns the argument converted into a [code]String[/code]. Works with the "
+"majority of value types."
 msgstr ""
-"ส่งค่าคืนกลับไปที่อาร์กิวเมนต์ที่แปลงเป็น [code]String[/code] "
-"ใช้งานได้กับประเภทข้อมูลค่าส่วนใหญ่"
+"ส่งค่าคืนกลับไปที่อาร์กิวเมนต์ที่แปลงเป็น [code]String[/code] ใช้งานได้กับประเภทข้อมูลค่าส่วนใหญ่"
 
 #. Reference: int
-#: ./course/documentation.csv:23
+#: course/documentation.csv:23
 msgid ""
-"Returns the argument converted into an [code]int[/code] (whole number) "
-"[i]if possible[/i]. Supports converting decimal numbers, strings, and "
-"booleans. Useful to convert player text input into numbers."
+"Returns the argument converted into an [code]int[/code] (whole number) [i]if "
+"possible[/i]. Supports converting decimal numbers, strings, and booleans. "
+"Useful to convert player text input into numbers."
 msgstr ""
-"ส่งค่ากลับไปเป็นอาร์กิวเมนต์ที่แปลงเป็น [code]int[/code] (จำนวนทั้งหมด) "
-"[i]ถ้าเป็นไปได้[/i] รองรับการแปลงค่าเป็น เลขทศนิยม, สตริง, และบูลีน "
+"ส่งค่ากลับไปเป็นอาร์กิวเมนต์ที่แปลงเป็น [code]int[/code] (จำนวนทั้งหมด) [i]ถ้าเป็นไปได้[/i] "
+"รองรับการแปลงค่าเป็น เลขทศนิยม, สตริง, และบูลีน "
 "มีประโยชน์ในการแปลงข้อความที่ป้อนมาจากผู้เล่นเป็นให้เป็นตัวเลข"
 
 #. Reference: place_unit
-#: ./course/documentation.csv:24
+#: course/documentation.csv:24
 msgid ""
-"Creates a new unit matching the type parameter and places it at the "
-"desired cell position on the game grid."
-msgstr ""
-"สร้างยูนิตใหม่ที่ตรงกับประเภทของพารามิเตอร์และวางไว้ที่ตำแหน่งช่องที่ต้องการใ"
-"นตารางเกม"
+"Creates a new unit matching the type parameter and places it at the desired "
+"cell position on the game grid."
+msgstr "สร้างยูนิตใหม่ที่ตรงกับประเภทของพารามิเตอร์และวางไว้ที่ตำแหน่งช่องที่ต้องการในตารางเกม"
 
 #. Reference: display_item
-#: ./course/documentation.csv:25
+#: course/documentation.csv:25
 msgid "Creates a new item and displays it in the inventory."
 msgstr "สร้างไอเท็มใหม่และแสดงใน inventory"
 
 #. Reference: add_item
-#: ./course/documentation.csv:26
+#: course/documentation.csv:26
 msgid "Increases the item count by amount."
 msgstr "เพิ่มจำนวนไอเท็มตามจำนวน"
+
+#. Reference: align
+#: course/documentation.csv:27
+msgid ""
+"Realigns the train track with the path. Select a train track in the tracks "
+"array by index to pass it as an argument."
+msgstr ""
