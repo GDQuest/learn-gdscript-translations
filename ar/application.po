@@ -9,13 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-06-29 09:01+0000\n"
+"Last-Translator: معاذ الجعيدي <kingmoazking@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/application/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 5.13-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: resources/QuizInputField.gd:17
@@ -30,27 +34,28 @@ msgstr ""
 
 #: ui/UILesson.tscn:90
 msgid "Title"
-msgstr ""
+msgstr "العنوان"
 
 #: ui/UILesson.tscn:125
 msgid "Practices"
-msgstr ""
+msgstr "الممارسات"
 
 #: ui/UINavigator.gd:365
+#, fuzzy
 msgid "Go back in your navigation history"
-msgstr ""
+msgstr "العودة إلى الصفحة السابقة"
 
 #: ui/UINavigator.gd:368
 msgid "(no previous history)"
-msgstr ""
+msgstr "(لا يوجد تاريخ سابق)"
 
 #: ui/UINavigator.tscn:104
 msgid "CHRISTMAS SALE - 50% OFF"
-msgstr ""
+msgstr "تخفيضات عيد الميلاد - خصم 50%"
 
 #: ui/UINavigator.tscn:164
 msgid "CHRISTMAS SALE"
-msgstr ""
+msgstr "تخفيضات عيد الميلاد"
 
 #: ui/UIPractice.gd:154 ui/UIPractice.gd:220
 #, python-format
@@ -59,27 +64,29 @@ msgstr ""
 
 #: ui/UIPractice.gd:248
 msgid "Validating Your Code..."
-msgstr ""
+msgstr "جاري التحقق من صحة الكود الخاص بك..."
 
 #: ui/UIPractice.gd:268
 #, python-format
 msgid "The function `%s` calls itself, this creates an infinite loop"
-msgstr ""
+msgstr "%s تستدعي نفسها مرارًا، وهذا يسبب حلقة لا نهائية"
 
 #: ui/UIPractice.gd:301
 msgid "Running Your Code..."
-msgstr ""
+msgstr "يتم تشغيل الكود الخاص بك..."
 
 #: ui/UIPractice.gd:331
 msgid ""
 "There is a division by zero in your code. You cannot divide by zero in code. "
 "Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr ""
+"يوجد قسمة على صفر في الكود الخاص بك. لا يمكنك القسمة على صفر في الكود. تأكد "
+"من عدم وجود \"/ 0\" أو \"% 0\" في الكود."
 
 #: ui/UIPractice.gd:346
 msgid ""
 "Oh no! The script has an error, but the Script Verifier did not catch it"
-msgstr ""
+msgstr "يوجد خطأ في السكربت، ولكن أداة التحقق من السكربت لم تكتشفه."
 
 #: ui/UIPractice.gd:372
 msgid "Running Tests..."
