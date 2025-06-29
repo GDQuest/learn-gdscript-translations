@@ -9,18 +9,22 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-06-29 09:01+0000\n"
+"Last-Translator: معاذ الجعيدي <kingmoazking@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/application/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 5.13-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: resources/QuizInputField.gd:17
 msgid "You need to type a whole number for this answer. Example: 42"
-msgstr ""
+msgstr "يجب إدخال عدد صحيح فقط في الإجابة. مثال: 42"
 
 #: resources/QuizInputField.gd:22
 msgid ""
@@ -30,27 +34,28 @@ msgstr ""
 
 #: ui/UILesson.tscn:90
 msgid "Title"
-msgstr ""
+msgstr "العنوان"
 
 #: ui/UILesson.tscn:125
 msgid "Practices"
-msgstr ""
+msgstr "الممارسات"
 
 #: ui/UINavigator.gd:365
+#, fuzzy
 msgid "Go back in your navigation history"
-msgstr ""
+msgstr "العودة إلى الصفحة السابقة"
 
 #: ui/UINavigator.gd:368
 msgid "(no previous history)"
-msgstr ""
+msgstr "(لا يوجد تاريخ سابق)"
 
 #: ui/UINavigator.tscn:104
 msgid "CHRISTMAS SALE - 50% OFF"
-msgstr ""
+msgstr "تخفيضات عيد الميلاد - خصم 50%"
 
 #: ui/UINavigator.tscn:164
 msgid "CHRISTMAS SALE"
-msgstr ""
+msgstr "تخفيضات عيد الميلاد"
 
 #: ui/UIPractice.gd:154 ui/UIPractice.gd:220
 #, python-format
@@ -59,84 +64,89 @@ msgstr ""
 
 #: ui/UIPractice.gd:248
 msgid "Validating Your Code..."
-msgstr ""
+msgstr "جاري التحقق من صحة الكود الخاص بك..."
 
 #: ui/UIPractice.gd:268
 #, python-format
 msgid "The function `%s` calls itself, this creates an infinite loop"
-msgstr ""
+msgstr "%s تستدعي نفسها مرارًا، وهذا يسبب حلقة لا نهائية"
 
 #: ui/UIPractice.gd:301
 msgid "Running Your Code..."
-msgstr ""
+msgstr "يتم تشغيل الكود الخاص بك..."
 
 #: ui/UIPractice.gd:331
 msgid ""
 "There is a division by zero in your code. You cannot divide by zero in code. "
 "Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr ""
+"يوجد قسمة على صفر في الكود الخاص بك. لا يمكنك القسمة على صفر في الكود. تأكد "
+"من عدم وجود \"/ 0\" أو \"% 0\" في الكود."
 
 #: ui/UIPractice.gd:346
 msgid ""
 "Oh no! The script has an error, but the Script Verifier did not catch it"
-msgstr ""
+msgstr "أوه لا! يوجد خطأ في السكربت، ولكن أداة التحقق من السكربت لم تكتشفه"
 
 #: ui/UIPractice.gd:372
 msgid "Running Tests..."
-msgstr ""
+msgstr "الاختبارات قيد التشغيل الآن..."
 
 #: ui/UIPractice.tscn:144
 msgid "Suggested Solution"
-msgstr ""
+msgstr "الحل المقترح"
 
 #: ui/UIPractice.tscn:195
 msgid "Use Solution"
-msgstr ""
+msgstr "استخدم الحل"
 
 #: ui/UIPractice.tscn:213
 msgid "Leave unfinished practice?"
-msgstr ""
+msgstr "هل ترغب في الخروج من التمرين قبل الانتهاء؟"
 
 #: ui/components/BigGreenButton.tscn:24
 msgid "Button"
-msgstr ""
+msgstr "زر"
 
 #: ui/components/CodeEditor.tscn:144
 msgid "Run"
-msgstr ""
+msgstr "تشغيل"
 
 #: ui/components/CodeEditor.tscn:158
 msgid "Pause"
-msgstr ""
+msgstr "إيقاف"
 
 #: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:87
 msgid "Reset"
-msgstr ""
+msgstr "إعادة التعيين"
 
 #: ui/components/CodeEditor.tscn:195
 msgid "Solution"
-msgstr ""
+msgstr "الحل"
 
 #: ui/components/CodeEditor.tscn:209 ui/components/OutputConsole.tscn:43
+#, fuzzy
 msgid "Output"
-msgstr ""
+msgstr "النتيجة"
 
 #: ui/components/CodeEditor.tscn:224
 #: ui/components/popups/LessonDonePopup.tscn:198
 #: ui/components/popups/PracticeDonePopup.tscn:165
 msgid "Continue"
-msgstr ""
+msgstr "تابع"
 
 #: ui/components/DebuggerConsoleMonitoredVariable.tscn:20
 #: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
-msgstr ""
+msgstr "القيمة"
 
 #: ui/components/GDQuestCreditsLabel.tscn:36
 msgid ""
 "Learn GDScript From Zero is an open source project by [color=#FFD500]"
 "[url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
 msgstr ""
+"دورة \"تعلم GDScript من الصفر\" هي مشروع مفتوح المصدر من [color=#FFD500]"
+"[url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -727,4 +737,4 @@ msgstr ""
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:801
 msgid ""
 "An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
-msgstr ""
+msgstr "المشروع مفتوح المصدر من [url=https://www.gdquest.com/]GDQuest.com[/url]"
