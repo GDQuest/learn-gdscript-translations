@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2025-09-02 12:01+0000\n"
+"PO-Revision-Date: 2025-09-03 13:02+0000\n"
 "Last-Translator: Tomasz Sosnowski <Ezmert@protonmail.ch>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-20-looping-over-arrays/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13.1-dev\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:14
@@ -74,7 +74,7 @@ msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:80
 msgid "What will this code print?"
-msgstr ""
+msgstr "Co wypisze ten kod?"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:81
 msgid ""
@@ -83,6 +83,10 @@ msgid ""
 "    print(number)\n"
 "[/code]"
 msgstr ""
+"[code]var numbers = [0, 1, 2]\n"
+"for number in numbers:\n"
+"\tprint(number)\n"
+"[/code]"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:86
 msgid ""
@@ -98,29 +102,44 @@ msgid ""
 "the output will print [code]0[/code], then [code]1[/code], then [code]2[/"
 "code], each on a separate line."
 msgstr ""
+"W porównaniu do poprzednich przykładów, przechowujemy tablicę w zmiennej "
+"[code]numbers[/code]. Używanie zmiennej [code]numbers[/code] w naszej pętli "
+"[code]for[/code] pozwala komputerowi na dostęp do tablicy liczb jak "
+"wcześniej.\n"
+"\n"
+"Mamy trzy liczby w tablicy: [code]0[/code], [code]1[/code] i [code]2[/code]."
+"\n"
+"\n"
+"Pętla wyodrębnia każdą z nich sekwencyjnie i przypisuje ją do tymczasowej "
+"zmiennej [code]number[/code]. Gdy pętla przetwarza każdą liczbę, wynik "
+"wydrukuje [code]0[/code], potem [code]1[/code], potem [code]2[/code], każdą "
+"w osobnej linii."
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:91
 #: course/lesson-20-looping-over-arrays/lesson.tres:92
 msgid "0, 1, and 2"
-msgstr ""
+msgstr "0, 1 i 2"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:91
 msgid "1, 2, and 3"
-msgstr ""
+msgstr "1, 2, i 3"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:91
 msgid "0, 0, and 0"
-msgstr ""
+msgstr "0, 0 i 0"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:99
+#, fuzzy
 msgid "Making the turtle walk, with a loop"
-msgstr ""
+msgstr "Sprawienie, by żółw (turtle) poruszał się, używając pętli."
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:101
 msgid ""
 "In the previous lesson, you made a turtle walk along a path by writing "
 "[code]Vector2[/code] coordinates in an array."
 msgstr ""
+"W poprzedniej lekcji sprawiłeś, że żółw poruszał się po ścieżce, zapisując "
+"współrzędne [code]Vector2[/code] w tablicy."
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:121
 msgid ""
