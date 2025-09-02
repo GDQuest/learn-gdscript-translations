@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2025-09-02 12:01+0000\n"
+"PO-Revision-Date: 2025-09-03 13:02+0000\n"
 "Last-Translator: Tomasz Sosnowski <Ezmert@protonmail.ch>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-21-strings/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13.1-dev\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-21-strings/lesson.tres:14
@@ -69,10 +69,13 @@ msgid ""
 "[code]for[/code] loop to loop through the characters of a [code]String[/"
 "code] as we would with any other array."
 msgstr ""
+"Pod spodem łańcuchy znaków są tablicami znaków. W rzeczywistości możemy użyć "
+"pętli \\[code]for\\[/code], aby iterować po znakach w \\[code]String\\[/code]"
+", tak samo jak w przypadku każdej innej tablicy."
 
 #: course/lesson-21-strings/lesson.tres:80
 msgid "Which of these are strings?"
-msgstr ""
+msgstr "Które z tych wartości są łańcuchami znaków (*strings*)?"
 
 #: course/lesson-21-strings/lesson.tres:83
 msgid ""
@@ -83,6 +86,12 @@ msgid ""
 "\n"
 "[code]\"name\"[/code] is made up of four different characters."
 msgstr ""
+"[code]\"1\"[/code] i [code]\"name\"[/code] to łańcuchy znaków.\n"
+"\n"
+"[code]\"1\"[/code] zawiera tylko jeden znak i [i]nie[/i] reprezentuje liczby "
+"[code]1[/code].\n"
+"\n"
+"[code]\"name\"[/code] składa się z czterech różnych znaków."
 
 #: course/lesson-21-strings/lesson.tres:88
 msgid "1"
@@ -96,11 +105,11 @@ msgstr "\"1\""
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"name\""
-msgstr ""
+msgstr "\"name\""
 
 #: course/lesson-21-strings/lesson.tres:96
 msgid "Why we use strings"
-msgstr ""
+msgstr "Dlaczego używamy łańcuchów znaków (strings)"
 
 #: course/lesson-21-strings/lesson.tres:118
 msgid ""
@@ -115,12 +124,24 @@ msgid ""
 "animations. In this example, the [code]play_animation()[/code] plays a "
 "specific animation."
 msgstr ""
+"Każdy fragment tekstu, który widzisz w tej aplikacji, to ciąg znaków, który "
+"Godot wyświetla dla nas.\n"
+"\n"
+"Podobnie jak zmienne [code]Vector2[/code] ułatwiają wykonywanie obliczeń, "
+"zmienne [code]string[/code] mają wiele funkcji pomocniczych i trików, "
+"których możemy używać.\n"
+"\n"
+"Możemy też używać tablic do przechowywania ciągów znaków. Jest to przydatne "
+"przy łączeniu animacji. W tym przykładzie [code]play_animation()[/code] "
+"odtwarza konkretną animację."
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
 "In the next few practices, we'll use strings in combination with different "
 "concepts from earlier lessons."
 msgstr ""
+"W następnych kilku ćwiczeniach będziemy używać ciągów znaków w połączeniu z "
+"różnymi koncepcjami z wcześniejszych lekcji."
 
 #: course/lesson-21-strings/lesson.tres:150
 msgid "Creating string variables"
