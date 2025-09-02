@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: 2025-09-02 12:01+0000\n"
+"PO-Revision-Date: 2025-09-03 13:02+0000\n"
 "Last-Translator: Tomasz Sosnowski <Ezmert@protonmail.ch>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13.1-dev\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 "Generated-By: Babel 2.9.1\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -84,6 +84,12 @@ msgid ""
 "Another possibility is that you want to check for equality in a condition "
 "but wrote a single = instead of ==."
 msgstr ""
+"Jeśli pojawi się ten błąd, najprawdopodobniej próbujesz przypisać wartość do "
+"czegoś innego niż zmienna, co jest niemożliwe. Wartości można przypisywać "
+"tylko do zmiennych.\n"
+"\n"
+"Inna możliwość to sytuacja, w której chcesz sprawdzić równość w warunku, ale "
+"zamiast \\[code]==\\[/code] wpisałeś pojedynczy znak \\[code]=\\[/code]."
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:47
@@ -97,6 +103,14 @@ msgid ""
 "In the case of a condition, ensure that you are using two equal signs to "
 "check for equality (==)."
 msgstr ""
+"Jeśli chcesz przypisać wartość do zmiennej, upewnij się dwa razy, że po "
+"lewej stronie znaku \\[code]=\\[/code] znajduje się zmienna, a nie funkcja.\n"
+"\n"
+"Musisz też zadbać o poprawną składnię. Na przykład, po lewej stronie znaku "
+"równości nie powinno być nawiasów.\n"
+"\n"
+"W przypadku warunku upewnij się, że używasz podwójnego znaku równości \\"
+"[code]==\\[/code], aby sprawdzić równość."
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:57
@@ -136,6 +150,11 @@ msgid ""
 "causing cyclic references. It solves the problem in the vast majority of "
 "cases."
 msgstr ""
+"Usuń podpowiedź typu w linii z błędem, a problem powinien zniknąć.\n"
+"\n"
+"W GDQuest, gdy napotykamy ten błąd, usuwamy podpowiedzi typów w liniach "
+"powodujących cykliczne odwołania. Rozwiązuje to problem w zdecydowanej "
+"większości przypadków."
 
 #. Reference: INVALID_INDENTATION
 #: script_checking/error_database.csv:64
@@ -167,6 +186,12 @@ msgid ""
 "In other words, your line should have one more leading tab character than "
 "the function definition."
 msgstr ""
+"Jeśli linia kodu z błędem znajduje się zaraz po linii kończącej się "
+"dwukropkiem, na przykład po definicji funkcji, potrzebujesz dodatkowego "
+"poziomu wcięcia w porównaniu z poprzednią linią.\n"
+"\n"
+"Innymi słowy, twoja linia powinna mieć jeden dodatkowy znak tabulacji na "
+"początku w stosunku do definicji funkcji."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: script_checking/error_database.csv:73
@@ -181,6 +206,14 @@ msgid ""
 "Note that this error can appear [b]after[/b] the line causing it due to how "
 "the computer reads and analyzes your code."
 msgstr ""
+"Otrzymujesz ten błąd, gdy napisałeś coś, co jest składniowo niepoprawne, lub "
+"gdy czegoś brakuje, aby ukończyć tę linię lub poprzednie linie kodu.\n"
+"\n"
+"Musisz być niezwykle precyzyjny, pisząc kod dla komputera. Tego rodzaju błąd "
+"łatwo popełnić, bo wystarczy jeden niewłaściwy znak.\n"
+"\n"
+"Zauważ, że ten błąd może pojawić się po linii, która go faktycznie powoduje, "
+"ze względu na sposób, w jaki komputer czyta i analizuje twój kod."
 
 #. Reference: UNEXPECTED_CHARACTER
 #: script_checking/error_database.csv:73
@@ -196,6 +229,16 @@ msgid ""
 "expression, like a closing bracket. In this case, it most likely comes from "
 "the line with the error."
 msgstr ""
+"Sposób rozwiązania tego rodzaju błędu zależy mocno od kontekstu. Komunikat "
+"błędu powinien powiedzieć, którego znaku lub elementu brakuje.\n"
+"\n"
+"Jeśli błąd mówi „expected” (oczekiwano), to najprawdopodobniej czegoś "
+"brakuje w jednej z [b]poprzednich[/b] linii kodu. Może to być znak "
+"interpunkcyjny, nawias lub coś innego.\n"
+"\n"
+"Jeśli mówi „unterminated” (niezamknięty), brakuje jakiegoś znaku na końcu "
+"wyrażenia, np. zamykającego nawiasu. W takim przypadku najczęściej problem "
+"pochodzi z linii wskazanej w błędzie."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:76
