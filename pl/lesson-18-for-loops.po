@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2025-09-02 12:01+0000\n"
+"PO-Revision-Date: 2025-09-03 13:02+0000\n"
 "Last-Translator: Tomasz Sosnowski <Ezmert@protonmail.ch>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-18-for-loops/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13.1-dev\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
@@ -73,7 +73,7 @@ msgstr "Wyjaśnijmy, co się tutaj dzieje."
 
 #: course/lesson-18-for-loops/lesson.tres:74
 msgid "The range() function"
-msgstr ""
+msgstr "Funkcja range()"
 
 #: course/lesson-18-for-loops/lesson.tres:76
 msgid ""
@@ -83,14 +83,21 @@ msgid ""
 "So calling [code]range(3)[/code] outputs the list of numbers [code][0, 1, 2]"
 "[/code], and [code]range(5)[/code] outputs [code][0, 1, 2, 3, 4][/code]."
 msgstr ""
+"Godot ma pomocniczą funkcję \\[code]range()\\[/code]. Wywołanie \\[code]"
+"range(n)\\[/code] tworzy listę liczb od \\[code]0\\[/code] do \\[code]n - 1\\"
+"[/code].\n"
+"\n"
+"Na przykład wywołanie \\[code]range(3)\\[/code] zwróci listę liczb \\[code]\\"
+"[0, 1, 2]\\[/code], a \\[code]range(5)\\[/code] zwróci \\[code]\\"
+"[0, 1, 2, 3, 4]\\[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:86
 msgid "What list of numbers would range(6) create?"
-msgstr ""
+msgstr "Jaka lista liczb zostałaby utworzona przez [code]range(6)[/code]?"
 
 #: course/lesson-18-for-loops/lesson.tres:87
 msgid "What would [code]print(range(6))[/code] print to the console?"
-msgstr ""
+msgstr "Co wydrukuje [code]print(range(6))[/code] w konsoli?"
 
 #: course/lesson-18-for-loops/lesson.tres:89
 msgid ""
@@ -101,23 +108,29 @@ msgid ""
 "So calling [code]range(6)[/code] will output a list of six numbers which are "
 "[code][0, 1, 2, 3, 4, 5][/code].\n"
 msgstr ""
+"Funkcja [code]range(n)[/code] tworzy listę liczb od [code]0[/code] do [code]"
+"n - 1[/code]. Lista wynikowa zacznie się od [code]0[/code], a skończy na "
+"[code]5[/code].\n"
+"\n"
+"Tak więc wywołanie [code]range(6)[/code] zwróci listę sześciu liczb: [code]"
+"[0, 1, 2, 3, 4, 5][/code].\n"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 #: course/lesson-18-for-loops/lesson.tres:94
 msgid "[0, 1, 2, 3, 4, 5]"
-msgstr ""
+msgstr "[0, 1, 2, 3, 4, 5]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 msgid "[1, 2, 3, 4, 5, 6]"
-msgstr ""
+msgstr "[1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:93
 msgid "[0, 1, 2, 3, 4, 5, 6]"
-msgstr ""
+msgstr "[0, 1, 2, 3, 4, 5, 6]"
 
 #: course/lesson-18-for-loops/lesson.tres:101
 msgid "How for loops work"
-msgstr ""
+msgstr "Jak działają pętle **for**"
 
 #: course/lesson-18-for-loops/lesson.tres:103
 msgid ""
