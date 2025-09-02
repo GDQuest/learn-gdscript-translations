@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-06-12 11:07+0200\n"
-"PO-Revision-Date: 2025-09-02 12:01+0000\n"
+"PO-Revision-Date: 2025-09-03 13:02+0000\n"
 "Last-Translator: Tomasz Sosnowski <Ezmert@protonmail.ch>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-27-value-types/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13.1-dev\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-27-value-types/lesson.tres:13
@@ -65,14 +65,18 @@ msgid ""
 "\n"
 "You can concatenate two strings with the [code]+[/code] operator."
 msgstr ""
+"Jednak aby wyświetlić to na ekranie gracza, komputer potrzebuje tekstu — "
+"czyli wartości typu \\[code]String\\[/code].\n"
+"\n"
+"Możesz łączyć dwa łańcuchy znaków za pomocą operatora \\[code]+\\[/code]."
 
 #: course/lesson-27-value-types/lesson.tres:69
 msgid "So the following code looks like it could work at first glance."
-msgstr ""
+msgstr "Na pierwszy rzut oka poniższy kod wygląda tak, jakby mógł działać."
 
 #: course/lesson-27-value-types/lesson.tres:89
 msgid "But when running the code, we get this strange error."
-msgstr ""
+msgstr "Ale podczas uruchamiania kodu otrzymujemy ten dziwny błąd."
 
 #: course/lesson-27-value-types/lesson.tres:109
 msgid ""
@@ -82,10 +86,15 @@ msgid ""
 "In that case, you need to convert the [code]health[/code] number into a "
 "[code]String[/code]."
 msgstr ""
+"Komunikat mówi, że nie możesz dodać wartości typu [code]String[/code] i "
+"[code]int[/code]: są one niekompatybilne.\n"
+"\n"
+"W takim przypadku musisz przekonwertować liczbę [code]health[/code] na [code]"
+"String[/code]."
 
 #: course/lesson-27-value-types/lesson.tres:119
 msgid "Converting values into strings"
-msgstr ""
+msgstr "Konwertowanie wartości na łańcuchy znaków"
 
 #: course/lesson-27-value-types/lesson.tres:121
 msgid ""
@@ -96,16 +105,25 @@ msgid ""
 "You can use this function whenever you want to turn some number or vector "
 "into text."
 msgstr ""
+"Możesz uzyskać reprezentację tekstową wartości, wywołując funkcję \\[code]"
+"str()\\[/code] (skrót od „string”). Funkcja zwraca swój argument jako nowy \\"
+"[code]String\\[/code].\n"
+"\n"
+"Funkcję tę możesz użyć zawsze, gdy chcesz zamienić jakąś liczbę lub wektor "
+"na tekst."
 
 #: course/lesson-27-value-types/lesson.tres:143
 msgid ""
 "In this case, it turns the number [code]100[/code] into the string "
 "[code]\"100\"[/code]. Or whatever number [code]health[/code] is currently."
 msgstr ""
+"W tym przypadku zamienia liczbę [code]100[/code] na łańcuch znaków [code]"
+"\"100\"[/code]. Albo na dowolną inną liczbę, którą aktualnie ma zmienna "
+"[code]health[/code]."
 
 #: course/lesson-27-value-types/lesson.tres:151
 msgid "Converting strings into numbers"
-msgstr ""
+msgstr "Konwertowanie ciągów znaków na liczby"
 
 #: course/lesson-27-value-types/lesson.tres:153
 msgid ""
@@ -115,6 +133,13 @@ msgid ""
 "Those functions can convert what the player writes in a text field into a "
 "number. For example, the number of potions to sell at once in a shop."
 msgstr ""
+"Możesz też zamieniać ciągi znaków na liczby całkowite lub "
+"zmiennoprzecinkowe, używając odpowiednio funkcji [code]int()[/code] i [code]"
+"float()[/code].\n"
+"\n"
+"Te funkcje mogą przekształcać to, co gracz wpisuje w polu tekstowym, na "
+"liczbę. Na przykład liczbę mikstur, które chce sprzedać jednocześnie w "
+"sklepie."
 
 #: course/lesson-27-value-types/lesson.tres:173
 msgid "Some types are partially compatible"
