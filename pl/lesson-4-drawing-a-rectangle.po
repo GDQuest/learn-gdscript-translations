@@ -9,17 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-10-06 07:34+0200\n"
-"PO-Revision-Date: 2022-03-09 18:55+0000\n"
-"Last-Translator: Katarzyna Twardowska <katarina.twardowska@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/lesson-4-drawing-a-rectangle/pl/>\n"
+"PO-Revision-Date: 2025-09-03 13:01+0000\n"
+"Last-Translator: Tomasz Sosnowski <Ezmert@protonmail.ch>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-4-drawing-a-rectangle/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:14
@@ -44,7 +44,6 @@ msgstr ""
 "nauczył cię wywoływać funkcje."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:44
-#, fuzzy
 msgid ""
 "The turtle is a little machine that moves forward, turns, and draws lines "
 "along its path.\n"
@@ -82,9 +81,9 @@ msgstr ""
 "do przodu o określoną odległość w [i]pikselach[/i].\n"
 "- [code]turn_right(liczba_stopni)[/code] powoduje, że żółwik skręca w prawo "
 "o dokładną wartość podaną w [i]stopniach[/i].\n"
-"- [code]turn_left(liczba_stopni)[/code] działa tak samo jak "
-"[code]turn_right(liczba_stopni)[/code] , z tym wyjątkiem, że żółwik skręca w "
-"lewo.\n"
+"- [code]turn_left(liczba_stopni)[/code] działa tak samo jak [code]"
+"turn_right(liczba_stopni)[/code] , z tym wyjątkiem, że żółwik skręca w lewo."
+"\n"
 "\n"
 "Będziesz używać podanych funkcji w taki sam sposób, jak wcześniej używałeś "
 "funkcji [code]rotate()[/code].\n"
@@ -92,12 +91,12 @@ msgstr ""
 "Żółwik poruszając się, pozostawia za sobą białą linię. Użyjemy jej do "
 "rysowania kształtów.\n"
 "\n"
-"Dla przykładu, chcąc przesunąć żółwika o 200 pikseli, napiszesz "
-"[code]move_forward(200)[/code]."
+"Dla przykładu, chcąc przesunąć żółwika o 200 pikseli, napiszesz [code]"
+"move_forward(200)[/code]."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:76
 msgid "Turning left and right"
-msgstr ""
+msgstr "Skręcanie w lewo i w prawo"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:78
 msgid ""
@@ -137,15 +136,13 @@ msgstr ""
 "przykładach, aby najpierw narysować róg, a następnie prostokąt taki jak ten."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:124
-#, fuzzy
 msgid "In the function call below, which part is the argument?"
-msgstr ""
-"W funkcji zdefiniowanej poniżej, która część odpowiada za jej parametry?"
+msgstr "W poniższym wywołaniu funkcji, która część jest argumentem?"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:125
 #, fuzzy
 msgid "[code]move_forward(30)[/code]"
-msgstr "[code]func move_forward(liczba_pikseli)[/code]"
+msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:127
 msgid ""
@@ -158,6 +155,15 @@ msgid ""
 "This function call will make the turtle move forward by [code]30[/code] "
 "pixels."
 msgstr ""
+"Argumenty funkcji to wszystkie wartości znajdujące się w nawiasach. W tym "
+"przypadku jest tylko jeden, ale może ich być kilka, oddzielonych przecinkami."
+"\n"
+"\n"
+"Tutaj [code]move_forward[/code] to nazwa funkcji, a [code]30[/code] to "
+"argument.\n"
+"\n"
+"Wywołanie tej funkcji spowoduje, że żółw przesunie się do przodu o [code]30[/"
+"code] pikseli."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.tres:132
 msgid "move_forward"
