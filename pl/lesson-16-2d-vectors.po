@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
-"PO-Revision-Date: 2025-09-02 12:01+0000\n"
+"PO-Revision-Date: 2025-09-03 13:01+0000\n"
 "Last-Translator: Tomasz Sosnowski <Ezmert@protonmail.ch>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-16-2d-vectors/pl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13.1-dev\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-16-2d-vectors/lesson.tres:14
@@ -64,12 +64,24 @@ msgid ""
 "Unlike plain numbers, they store [i]two[/i] decimal numbers: one for the X "
 "coordinate and one for the Y coordinate."
 msgstr ""
+"W fizyce wektor to wielkość mająca zarówno wartość (moduł), jak i kierunek. "
+"Na przykład siła działająca na obiekt, prędkość (szybkość i kierunek) "
+"postaci i tak dalej.\n"
+"\n"
+"Często przedstawiamy tę wielkość za pomocą strzałki.\n"
+"\n"
+"W Godot wektory 2D to popularny typ wartości o nazwie \\[code]Vector2\\"
+"[/code].\n"
+"\n"
+"W odróżnieniu od zwykłych liczb przechowują \\[i]dwie\\[/i] liczby "
+"dziesiętne: jedną dla współrzędnej X i jedną dla współrzędnej Y."
 
 #: course/lesson-16-2d-vectors/lesson.tres:72
 msgid ""
 "So far, you've come across two variables in the course which are vectors. "
 "Which are they?"
 msgstr ""
+"Do tej pory w kursie spotkałeś dwie zmienne, które są wektorami. Które to?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:75
 msgid ""
@@ -77,6 +89,9 @@ msgid ""
 "[code]y[/code] sub-variables, so Godot uses a [code]Vector2[/code] to store "
 "their values."
 msgstr ""
+"Zarówno \\[code]scale\\[/code], jak i \\[code]position\\[/code] mają "
+"podzmienne \\[code]x\\[/code] i \\[code]y\\[/code], dlatego Godot używa \\"
+"[code]Vector2\\[/code] do przechowywania ich wartości."
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 #: course/lesson-16-2d-vectors/lesson.tres:77
@@ -98,7 +113,7 @@ msgstr "szybkość"
 
 #: course/lesson-16-2d-vectors/lesson.tres:84
 msgid "Vectors are great for games"
-msgstr ""
+msgstr "Wektory są świetne do gier"
 
 #: course/lesson-16-2d-vectors/lesson.tres:86
 msgid ""
