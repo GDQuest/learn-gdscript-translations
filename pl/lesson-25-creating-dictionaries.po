@@ -9,17 +9,17 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
-"PO-Revision-Date: 2022-03-10 19:55+0000\n"
-"Last-Translator: Katarzyna Twardowska <katarina.twardowska@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/learn-gdscript-"
-"from-zero/lesson-25-creating-dictionaries/pl/>\n"
+"PO-Revision-Date: 2025-09-03 13:02+0000\n"
+"Last-Translator: Tomasz Sosnowski <Ezmert@protonmail.ch>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-25-creating-dictionaries/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:14
@@ -42,10 +42,27 @@ msgid ""
 "To define a dictionary, we use curly brackets. A colon separates each key "
 "and its value. A comma separates each key and value pair."
 msgstr ""
+"Na ostatniej lekcji użyliśmy tablicy do reprezentowania ekwipunku gracza.\n"
+"\n"
+"Jednak mając tylko tablicę z nazwami przedmiotów, nie możemy łatwo śledzić "
+"ilości każdego z nich.\n"
+"\n"
+"Zamiast tego możemy połączyć nazwy przedmiotów i ich ilości w jedną "
+"strukturę — \\[i]słownik\\[/i].\n"
+"\n"
+"Słownik to struktura danych, która pozwala mapować pary wartości. W takiej "
+"parze pierwszą wartość nazywamy \\[i]kluczem\\[/i], ponieważ służy nam do "
+"uzyskania dostępu do drugiej.\n"
+"\n"
+"Innymi słowy, słownik ma listę \\[i]kluczy\\[/i], a każdy klucz wskazuje na "
+"jakąś \\[i]wartość\\[/i].\n"
+"\n"
+"Do zdefiniowania słownika używamy nawiasów klamrowych. Dwukropek oddziela "
+"klucz od wartości, a przecinek rozdziela kolejne pary klucz–wartość."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:42
 msgid "Dictionaries can hold any values"
-msgstr ""
+msgstr "Słowniki mogą przechowywać dowolne wartości"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:44
 msgid ""
@@ -55,6 +72,11 @@ msgid ""
 "corresponding value. This makes dictionaries excellent for keeping track of "
 "a player's inventory."
 msgstr ""
+"Słowniki mogą mapować praktycznie dowolną wartość na inną wartość.\n"
+"\n"
+"Na przykład możemy użyć nazwy przedmiotu jako klucza, a jego ilości jako "
+"odpowiadającej mu wartości. Dzięki temu słowniki świetnie nadają się do "
+"śledzenia ekwipunku gracza."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:66
 msgid ""
@@ -65,14 +87,20 @@ msgid ""
 "key has to be [i]unique[/i]. That means we [i]couldn't[/i] have a dictionary "
 "like the following."
 msgstr ""
+"Tutaj dopasowaliśmy nazwę (łańcuch znaków) do ilości (liczby). Jednak "
+"kluczem może być łańcuch, liczba, a nawet wektor!\n"
+"\n"
+"Choć możemy mieć tak różne typy kluczy, pamiętaj, że każdy klucz musi być \\"
+"[i]unikalny\\[/i]. To oznacza, że \\[i]nie moglibyśmy\\[/i] mieć słownika "
+"takiego jak poniżej."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:88
 msgid "We would get the following error."
-msgstr ""
+msgstr "Otrzymalibyśmy następujący błąd."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:106
 msgid "In the above example, which key would cause an error?"
-msgstr ""
+msgstr "W powyższym przykładzie, który klucz spowodowałby błąd?"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:109
 msgid ""
@@ -83,23 +111,29 @@ msgid ""
 "or [code]8[/code] when using [code]inventory[\"healing heart\"][/code]. This "
 "is why keys need to be unique."
 msgstr ""
+"Klucz [code]\"healing heart\"[/code] pojawia się w słowniku [b]dwa razy[/b]."
+"\n"
+"\n"
+"W powyższym przykładzie Godot nie wiedziałby, czy zwrócić [code]3[/code], "
+"czy [code]8[/code], gdy używamy [code]inventory[\"healing heart\"][/code]. "
+"Dlatego klucze muszą być unikalne."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 #: course/lesson-25-creating-dictionaries/lesson.tres:113
 msgid "\"healing heart\""
-msgstr ""
+msgstr "\"healing heart\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 msgid "\"shield\""
-msgstr ""
+msgstr "\"tarcza\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 msgid "\"sword\""
-msgstr ""
+msgstr "\"miecz\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:120
 msgid "How dictionaries work under the hood"
-msgstr ""
+msgstr "Jak działają słowniki „od środka” (pod maską)"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:122
 msgid ""
