@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: 2025-11-23 12:51+0000\n"
+"PO-Revision-Date: 2025-11-24 15:51+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/application/da/>\n"
@@ -266,14 +266,21 @@ msgid ""
 "\n"
 "[center]Thank you![/center]"
 msgstr ""
+"Beklager, vi har ikke dækket denne specifikke fejlmeddelelse endnu!\n"
+"\n"
+"Brug [b]Rapport[/b] knappen i øverste højre hjørne for at fortælle os mere "
+"om hvordan du fik den, og vi vil forsøge at forbedre vores vidensbase til "
+"den næste version af aplikationen.\n"
+"\n"
+"[center]Tak![/center]"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:128
 msgid "Hide"
-msgstr ""
+msgstr "Skjul"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
 msgid "Where do external errors come from?"
-msgstr ""
+msgstr "Hvor kommer eksterne fejl fra?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
 msgid ""
@@ -291,58 +298,77 @@ msgid ""
 " each individual error that you face. Quick, click the [b]Explain[/b] "
 "button next to the error message!"
 msgstr ""
+"Lektioner i dette kursus er designet, så du kun skal redigere de [b]"
+"væsentlige dele[/b]. Men der er meget mere kode uden for, hvad du ser, der "
+"gør at projektet kan køre.\n"
+"\n"
+"Det betyder, at ændringer, du foretager, nogle gange kan påvirke kode, du "
+"ikke har kontrol over. Men bare rolig, du kan stadig selv løse alle "
+"problemerne med den kode, du [b]kan[/b] redigere!\n"
+"\n"
+"[i]Dette er også ligesom, hvordan spilmotorer fungerer.[/i] Der er en masse "
+"skjult kode, som de udfører for at sikre, at dit projekt kører glat. Og dog, "
+"kan en fejl i dine scripts ødelægge dem. Vi vil forsøge at forklare, hvordan "
+"du adresserer hver enkelt fejl, du står over for. Hurtigt, klik på knappen "
+"[b]Forklar[/b] ved siden af fejlmeddelelsen!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
-msgstr ""
+msgstr "Jeg forstår!"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
-msgstr ""
+msgstr "Lektion fuldført!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
+"Men der er stadig nogle øvelser\n"
+"det du har sprunget over."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center[b]Bliv[/b] og genbesøg studiematerialet,\n"
+"eller [b]fortsæt[/b] kurset.[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 #: ui/components/popups/PracticeDonePopup.tscn:144
 msgid "Stay"
-msgstr ""
+msgstr "Bliv"
 
 #: ui/components/popups/PracticeDonePopup.tscn:89
 msgid "Well done!"
-msgstr ""
+msgstr "Flot klaret!"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
-msgstr ""
+msgstr "Du gennemførte øvelsen."
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]Bliv[/b] og leg rundt,\n"
+"eller [b]fortsæt[/b] kurset.[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:67
 msgid "Practice List"
-msgstr ""
+msgstr "Øvelsesliste"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 #: ui/components/popups/SettingsPopup.tscn:283
 msgid "Close"
-msgstr ""
+msgstr "Luk"
 
 #: ui/components/popups/ReportFormPopup.tscn:66
 msgid "Report an issue"
-msgstr ""
+msgstr "Rapporter et problem"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
@@ -385,148 +411,190 @@ msgid ""
 "\n"
 "[center]Thank you for contributing to open source![/center]"
 msgstr ""
+"Hvis du oplever et problem i appen, skal du klikke på linket nedenfor for at "
+"rapportere det på GitHub:\n"
+"\n"
+"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
+"> GDQuest > learn-gdscript > Issues[/url][/b][/center]\n"
+"\n"
+"På denne side kan du rapportere eventuelle problemer, uanset om noget ikke "
+"fungerer, eller der er en fejl i en lektion.\n"
+"\n"
+"Du kan generere en log, der hjælper os med at identificere problemet. For at "
+"gøre det skal du klikke her: [b][url=download]generer fejllog[/url][/b].\n"
+"\n"
+"Træk og slip den genererede fil til dit problem på GitHub for at vedhæfte "
+"den.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]Hvad er GitHub[/font]\n"
+"\n"
+"GitHub er en online platform til at hoste og administrere open source-"
+"projekter som GDScript Learn-appen. Den hjælper udviklere med at organisere "
+"deres arbejde og samarbejde online.\n"
+"\n"
+"Du kan bruge GitHub til at studere kildekoden til mange åbne projekter, "
+"rapportere problemer eller endda selv bidrage med kode.\n"
+"\n"
+"[font=res://ui/theme/fonts/font_title.tres]Sådan rapporterer du et problem[/"
+"font]\n"
+"\n"
+"1. Klik på linket ovenfor for at komme til siden [i]GitHub-problemer[/i].\n"
+"2. Klik på knappen [i]New Issue[/i].\n"
+"3. Udfyld formularen for at fortælle os mere om dit problem.\n"
+"\n"
+"Du skal bruge en GitHub-konto for at gøre det.\n"
+"\n"
+"Tilføj venligst så mange relevante oplysninger som muligt, f.eks. hvilken "
+"type enhed du bruger til at få adgang til appen, og vedhæft eventuelt et "
+"skærmbillede eller videoklip, der viser problemet.\n"
+"\n"
+"[center]Tak for dit bidrag til open source![/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:158
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ui/components/popups/SettingsPopup.tscn:85
 msgid "Configure the App"
-msgstr ""
+msgstr "Konfigurer App'en"
 
 #: ui/components/popups/SettingsPopup.tscn:119
 msgid "Language"
-msgstr ""
+msgstr "Sprog"
 
 #: ui/components/popups/SettingsPopup.tscn:139
 msgid "Text Size"
-msgstr ""
+msgstr "Tekststørrelse"
 
 #: ui/components/popups/SettingsPopup.tscn:167
 msgid "Sample text"
-msgstr ""
+msgstr "Eksempeltekst"
 
 #: ui/components/popups/SettingsPopup.tscn:180
 msgid "Scroll sensitivity"
-msgstr ""
+msgstr "Rulle følsomhed"
 
 #: ui/components/popups/SettingsPopup.tscn:206
 msgid "Framerate cap"
-msgstr ""
+msgstr "Billedopdateringsgrænse"
 
 #: ui/components/popups/SettingsPopup.tscn:229
 msgid "Lower contrast"
-msgstr ""
+msgstr "Sænk kontrast"
 
 #: ui/components/popups/SettingsPopup.tscn:250
 msgid "Dyslexia Font"
-msgstr ""
+msgstr "Ordblinde Skrifttype"
 
 #: ui/components/popups/SettingsPopup.tscn:299
 msgid "Apply"
-msgstr ""
+msgstr "Accepter"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:93
 msgid "Open Lesson"
-msgstr ""
+msgstr "Åben Lektion"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:95
 msgid "Continue Lesson"
-msgstr ""
+msgstr "Fortsæt Lektion"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:97
 msgid "Start Lesson"
-msgstr ""
+msgstr "Begynd Lektion"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
 msgid "Lesson Title Goes Here"
-msgstr ""
+msgstr "Lektionstitel kommer her"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
 msgid "Lesson read"
-msgstr ""
+msgstr "Lektion læst"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:56
 msgid "0%"
-msgstr ""
+msgstr "0%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:79
 msgid "Quizzes completed"
-msgstr ""
+msgstr "Quizzer afsluttet"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:108
 msgid "0 / 0"
-msgstr ""
+msgstr "0 / 0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:100
 msgid "Practices completed"
-msgstr ""
+msgstr "Øvelser afsluttet"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:36
 msgid "Lesson 0"
-msgstr ""
+msgstr "Lektion 0"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
 msgid "Lesson Title"
-msgstr ""
+msgstr "Lektionstitel"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
 msgid "Course Index - "
-msgstr ""
+msgstr "Kursusindeks - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
-msgstr ""
+msgstr "Kursustitel Kommer Her"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
-msgstr ""
+msgstr "Nulstil Fremskridt"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
 msgid "Confirm Resetting Progress"
-msgstr ""
+msgstr "Bekræft Nulstilling af fremskridt"
 
 #: ui/screens/end_screen/EndScreen.tscn:310
 #: ui/screens/end_screen/EndScreen.tscn:323
 msgid "YOU MADE IT!"
-msgstr ""
+msgstr "DU GJORDE DET!"
 
 #: ui/screens/end_screen/EndScreen.tscn:353
 msgid ""
 "Not only did you learn the foundations of coding, you’re a big step "
 "closer to making your own games."
 msgstr ""
+"Ikke alene lærte du det grundlæggende i kodning, du er også et stort skridt "
+"tættere på at lave dine egne spil."
 
 #: ui/screens/end_screen/EndScreen.tscn:373
 msgid "Don't stop here..."
-msgstr ""
+msgstr "Stop ikke her..."
 
 #: ui/screens/end_screen/EndScreen.tscn:383
 msgid "The fun stuff starts now!"
-msgstr ""
+msgstr "De sjove ting starter nu!"
 
 #: ui/screens/end_screen/EndScreen.tscn:398
 msgid "There are 2 pathways learners traditionally take from here:"
-msgstr ""
+msgstr "Der er 2 veje, som elever traditionelt tager herfra:"
 
 #: ui/screens/end_screen/EndScreen.tscn:412
 msgid "Following video tutorials"
-msgstr ""
+msgstr "Følgende videovejledninger"
 
 #: ui/screens/end_screen/EndScreen.tscn:427
 msgid ""
 "They’re a great way to pick up specific game mechanics but they’re not as"
 " effective when you’re trying to learn new skills from the ground up."
 msgstr ""
+"De er en fantastisk måde at lære specifikke spilmekanikker på, men de er "
+"ikke lige så effektive, når du prøver at lære nye færdigheder fra bunden."
 
 #: ui/screens/end_screen/EndScreen.tscn:459
 msgid "• There’s no clear learning path."
-msgstr ""
+msgstr "• Der er ingen klar læringsvej."
 
 #: ui/screens/end_screen/EndScreen.tscn:474
 msgid "• Retention and skill acquisition is slow and limited."
-msgstr ""
+msgstr "• Fastholdelse og tilegnelse af færdigheder er langsom og begrænset."
 
 #: ui/screens/end_screen/EndScreen.tscn:490
 msgid ""
@@ -538,10 +606,17 @@ msgid ""
 "[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
 "access]courses[/url][/color][/b]."
 msgstr ""
+"Vi sørger for vores andel af [b][color=#ebc3ff]"
+"[url=https://www.youtube.com/@Gdquest/videos]gratis vejledninger[/url][/"
+"color][/b]. De vil være meget nyttige, når du begynder at lave spil på egen "
+"hånd. Men for at komme i gang anbefaler vi virkelig, at du lærer at tænke "
+"som en spiludvikler ved hjælp af [b][color=#ebc3ff]"
+"[url=https://school.gdquest.com/godot-4-early-access]kurser[/url][/color][/"
+"b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:505
 msgid "Learning with courses"
-msgstr ""
+msgstr "Læring ved kurser"
 
 #: ui/screens/end_screen/EndScreen.tscn:521
 msgid ""
@@ -549,6 +624,9 @@ msgid ""
 "video tutorials. The problem of retaining information and acquiring real "
 "skills unfortunately still applies to them."
 msgstr ""
+"Bemærk, at de fleste tilgængelige kurser online faktisk er førsteklasses "
+"video serie vejledninger. Problemet med at huske information og tilegne sig "
+"reelle færdigheder gælder desværre stadig for dem."
 
 #: ui/screens/end_screen/EndScreen.tscn:537
 msgid ""
@@ -561,34 +639,42 @@ msgid ""
 "[b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn"
 " Gamedev From Zero with Godot[/url][/color][/b]."
 msgstr ""
+"Hos GDQuest er vi undervisere i hjertet. Vi tror på anvendt studie, og vi "
+"mener, at det ikke behøver at være kedeligt. Når undervisningen udføres "
+"korrekt, nyder de fleste mennesker følelsen af at stige i niveau!\n"
+"\n"
+"Det er grunden til, at vi lavede denne app. Det er faktisk en del af vores "
+"begynderkursus [b][farve=#ebc3ff]"
+"[url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Lær "
+"Gamedev From Zero med Godot[/url][/farve][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:575
 msgid "LEARN GAMEDEV WITH GODOT"
-msgstr ""
+msgstr "LÆR GAMEDEV MED GODOT"
 
 #: ui/screens/end_screen/EndScreen.tscn:722
 msgid "Now available"
-msgstr ""
+msgstr "Tilgængelig nu"
 
 #: ui/screens/end_screen/EndScreen.tscn:732
 msgid "for preorders"
-msgstr ""
+msgstr "for forudbestillinger"
 
 #: ui/screens/end_screen/EndScreen.tscn:749
 msgid "Godot 4 courses!!"
-msgstr ""
+msgstr "Godot 4 kurser!!"
 
 #: ui/screens/end_screen/EndScreen.tscn:795
 msgid "Teaching gamedev in the classroom?"
-msgstr ""
+msgstr "Undervisning i spiludvikling i klasseværelset?"
 
 #: ui/screens/end_screen/EndScreen.tscn:808
 msgid "Get in touch"
-msgstr ""
+msgstr "Kom i kontakt"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:204
 msgid "Congratulations!"
-msgstr ""
+msgstr "Tillykke!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:211
 msgid ""
@@ -599,10 +685,16 @@ msgid ""
 "[url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Getting"
 " Started with Godot[/url]."
 msgstr ""
+"Du har gennemført Learn GDScript From Zero. Du har nu det grundlæggende, du "
+"skal bruge for at lave spil med Godot-spilmotoren.\n"
+"\n"
+"Du kan fortsætte med at lære med den gratis serie [url=https://"
+"docs.godotengine.org/en/table/getting_started/step_by_step/index.html] Kom i "
+"gang med Godot[/url]."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:224
 msgid "This is an Open-Source project!"
-msgstr ""
+msgstr "Dette er et Open-Source projekt!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:231
 msgid ""
@@ -612,129 +704,135 @@ msgid ""
 "[url=https://github.com/GDQuest/learn-gdscript]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
+"Ligesom Godot er denne app og dette kursus gratis og open source.\n"
+"\n"
+"Du kan finde appens kildekode og bidrage til oversættelser her: "
+"[url=https://github.com/GDQuest/learn-gdscript]Lær GDScript From Zero "
+"(Github-lager)[/url]."
 
 #: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:41
 msgid "Early Access release: 2024/01/30"
-msgstr ""
+msgstr "Tidlig adgangsudgivelse: 2024/01/30"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
-msgstr ""
+msgstr "[b]Spørgsmål[/b]"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
 msgid "Explanation"
-msgstr ""
+msgstr "Forklaring"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:107
 msgid "Skip"
-msgstr ""
+msgstr "Spring"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
-msgstr ""
+msgstr "Indsend"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr ""
+msgstr "Du har ret!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
-msgstr ""
+msgstr "Svar her"
 
 #: ui/screens/lesson/UIContentBlock.gd:70
 #: ui/screens/lesson/UIContentBlock.gd:134
 msgid "Learn More"
-msgstr ""
+msgstr "Lær mere"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr ""
+msgstr "Midlertidig overskrift"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
-msgstr ""
+msgstr "Øvelsestitel"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
-msgstr ""
+msgstr "næste"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
-msgstr ""
+msgstr "Øvelse"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
-msgstr ""
+msgstr "Du er her"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
-msgstr ""
+msgstr "Svaretiket"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
 msgid "(select all that apply)"
-msgstr ""
+msgstr "(vælg alle relevante)"
 
 #: ui/screens/practice/PracticeHint.tscn:8
 msgid "Show Hint"
-msgstr ""
+msgstr "Vis Hint"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:144
 msgid "Method descriptions"
-msgstr ""
+msgstr "Metodebeskrivelse"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:160
 msgid "Property descriptions"
-msgstr ""
+msgstr "Egenskabsbeskrivelse"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
 msgid "Summary - Lesson Name"
-msgstr ""
+msgstr "Resumé - Lektions Navn"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
-msgstr ""
+msgstr "Mål"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:119
 msgid "Hints"
-msgstr ""
+msgstr "Hints"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:126
 msgid "Checks"
-msgstr ""
+msgstr "Checks"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:134
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:175
 msgid "Open Practice List"
-msgstr ""
+msgstr "Åben Øvelsesliste"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:40
 msgid "Test text"
-msgstr ""
+msgstr "Test tekst"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:44
 msgid "CONTINUE"
-msgstr ""
+msgstr "FORTSÆT"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:46
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:629
 msgid "START"
-msgstr ""
+msgstr "START"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:647
 msgid "SELECT LESSON"
-msgstr ""
+msgstr "VÆLG LEKTION"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:661
 msgid "OPTIONS"
-msgstr ""
+msgstr "INDSTILLINGER"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:695
 msgid "QUIT"
-msgstr ""
+msgstr "AFSLUT"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:801
 msgid "An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
 msgstr ""
+"Et open source projekt af [url=https://www.gdquest.com/]GDQuest.com[/url]"
