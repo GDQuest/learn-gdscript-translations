@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-11-23 12:51+0000\n"
+"Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-16-2d-vectors/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: course/lesson-16-2d-vectors/lesson.tres:14
@@ -25,6 +27,9 @@ msgid ""
 "\n"
 "As you may recall, we do this by using the following code."
 msgstr ""
+"Antag, vi ønsker at øge størrelsen af robotten, når det stiger i level.\n"
+"\n"
+"Som du måske husker, gør vi dette ved at bruge følgende kode."
 
 #: course/lesson-16-2d-vectors/lesson.tres:36
 msgid ""
@@ -37,8 +42,9 @@ msgid ""
 msgstr ""
 
 #: course/lesson-16-2d-vectors/lesson.tres:46
+#, fuzzy
 msgid "What are vectors?"
-msgstr ""
+msgstr "Hvad er vektorer?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:48
 msgid ""
@@ -53,6 +59,16 @@ msgid ""
 "Unlike plain numbers, they store [i]two[/i] decimal numbers: one for the "
 "X coordinate and one for the Y coordinate."
 msgstr ""
+"En vektor, i fysik, er en mængde med en størrelse og en retning. For "
+"eksempel, en kraft der påvirker et objekt, hastigheden (hastighed og retning)"
+" af en figur, og så videre.\n"
+"\n"
+"Vi repræsenterer ofte denne mængde med en pil.\n"
+"\n"
+"I Godot, 2D vektorer er en normal værdi type kaldet [code]Vector2[/code],\n"
+"\n"
+"I modsætning til almindeligt tal gemmer de [i]to[/i] decimaltal: et til X-"
+"koordinatet og et til Y-koordinatet."
 
 #: course/lesson-16-2d-vectors/lesson.tres:72
 msgid ""
