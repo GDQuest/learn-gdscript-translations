@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: 2025-11-23 12:51+0000\n"
+"PO-Revision-Date: 2025-11-28 08:00+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-10-the-game-loop/da/>\n"
@@ -70,7 +70,6 @@ msgstr ""
 "gange i sekundet[/b]."
 
 #: course/lesson-10-the-game-loop/lesson.tres:60
-#, fuzzy
 msgid "How many parameters does this function take?"
 msgstr "Hvor mange parametre tager denne funktion?"
 
@@ -80,6 +79,9 @@ msgid ""
 "func _process(delta):\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"func _process(delta):\n"
+"[/code]"
 
 #: course/lesson-10-the-game-loop/lesson.tres:65
 msgid ""
@@ -89,15 +91,19 @@ msgid ""
 "We'll look at what [code]delta[/code] is in the next lesson, as well as "
 "show how to use it."
 msgstr ""
+"Funktionen [code]_process()[/code] tager én parameter: [code]delta[/code].\n"
+"\n"
+"Vi vil se på, hvad [code]delta[/code] er i den næste lektion, samt vise, "
+"hvordan man bruger den."
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
 #: course/lesson-10-the-game-loop/lesson.tres:69
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: course/lesson-10-the-game-loop/lesson.tres:78
 msgid ""
@@ -114,18 +120,31 @@ msgid ""
 "\n"
 "When Godot draws on the screen, we call that a frame."
 msgstr ""
+"Funktionen [code]_process()[/code] gør ikke noget, før vi tilføjer noget til "
+"den.\n"
+"\n"
+"Du bemærker måske understregningen [code]_[/code] foran funktionsnavnet. "
+"Dette er en konvention, som programmører bruger til at koordinere arbejde, "
+"og den giver kun mening, når du har erfaring med kodning i Godot.\n"
+"\n"
+"For nu er alt, hvad du behøver at vide, at hvis funktionen findes i din "
+"kode, og den kaldes præcis [code]_process[/code], så vil Godot automatisk "
+"køre den hver [i]frame[/i].\n"
+"\n"
+"Når Godot tegner på skærmen, kalder vi det en frame."
 
 #: course/lesson-10-the-game-loop/lesson.tres:92
 msgid "Is this the same for other engines?"
-msgstr ""
+msgstr "Er dette det samme for andre motorer?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:94
 msgid "Other game engines might use different names like [code]_update()[/code]."
 msgstr ""
+"Andre spilmotorer bruger muligvis andre navne som [code]_update()[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.tres:102
 msgid "Why is the _process() function useful?"
-msgstr ""
+msgstr "Hvorfor er _process()-funktionen nyttig?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:104
 msgid ""
@@ -134,6 +153,9 @@ msgid ""
 "\n"
 "Take the following example."
 msgstr ""
+"Det er måske bedre at se funktionen [code]_process()[/code] i aktion.\n"
+"\n"
+"Tag følgende eksempel."
 
 #: course/lesson-10-the-game-loop/lesson.tres:126
 msgid ""
@@ -146,10 +168,17 @@ msgid ""
 "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the"
 " character by [code]0.05[/code] radians [b]many[/b] times a second."
 msgstr ""
+"Når du klikker på knappen [code]set_process(true)[/code], aktiverer du "
+"bearbejdningen på robotten.\n"
+"\n"
+"Derfra kører Godot funktionen [code]_process()[/code] i hver frame.\n"
+"\n"
+"Da vi skrev en [code]rotate()[/code] instruktion, roterer Godot tegnet med "
+"[code]0,05[/code] radianer [b]mange[/b] gange i sekundet."
 
 #: course/lesson-10-the-game-loop/lesson.tres:138
 msgid "How often does the _process() function run?"
-msgstr ""
+msgstr "Hvor ofte kører _process()-funktionen?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:141
 msgid ""
@@ -159,25 +188,32 @@ msgid ""
 "Godot will try and run [code]_process()[/code] as quickly as it can. This"
 " makes sure any movement or animations look smooth and fluid."
 msgstr ""
+"Jo hurtigere din computer er, desto flere gange vil [code]_process()[/code] "
+"køre.\n"
+"\n"
+"Godot vil forsøge at køre [code]_process()[/code] så hurtigt som muligt. "
+"Dette sikrer, at enhver bevægelse eller animation ser jævn og flydende ud."
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
 msgid "Once a second."
-msgstr ""
+msgstr "En gang i sekundet."
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
 #: course/lesson-10-the-game-loop/lesson.tres:145
 msgid "Multiple times a second."
-msgstr ""
+msgstr "Flere gange i sekundet."
 
 #: course/lesson-10-the-game-loop/lesson.tres:154
 msgid ""
 "In the practice, you'll learn how to use the process function to rotate "
 "and move a character yourself."
 msgstr ""
+"I øvelsen lærer du, hvordan du bruger procesfunktionen til selv at rotere og "
+"flytte en karakter."
 
 #: course/lesson-10-the-game-loop/lesson.tres:162
 msgid "Rotating a Character Continuously"
-msgstr ""
+msgstr "Kontinuerlig Rotation af en Karakter"
 
 #: course/lesson-10-the-game-loop/lesson.tres:163
 msgid ""
@@ -186,10 +222,15 @@ msgid ""
 "\n"
 "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr ""
+"Få robotten til at rotere langsomt ved at tilføje det til funktionen [code]"
+"_process()[/code].\n"
+"\n"
+"En rotationshastighed på omkring [code]0,05[/code] pr. frame burde være "
+"tilstrækkelig."
 
 #: course/lesson-10-the-game-loop/lesson.tres:180
 msgid "Creating Circular Movement"
-msgstr ""
+msgstr "Oprettelse af Cirkulær Bevægelse"
 
 #: course/lesson-10-the-game-loop/lesson.tres:181
 msgid ""
@@ -202,7 +243,15 @@ msgid ""
 "Use a rotation speed of [code]0.05[/code] radians per frame, and move the"
 " robot [code]5[/code] pixels per frame."
 msgstr ""
+"Få robotten til at bevæge sig langsomt i en stor cirkel ved at rotere den og "
+"samtidig bevæge den langs dens x-retning.\n"
+"\n"
+"For at gøre dette skal du tilføje funktionerne [code]rotate()[/code] og "
+"[code]move_local_x()[/code] til [code]_process()[/code].\n"
+"\n"
+"Brug en rotationshastighed på [code]0,05[/code] radianer pr. frame, og bevæg "
+"robotten [code]5[/code] pixels pr. frame."
 
 #: course/lesson-10-the-game-loop/lesson.tres:199
 msgid "The Game Loop"
-msgstr ""
+msgstr "Spilleløkken"
