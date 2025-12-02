@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: 2025-11-27 07:00+0000\n"
+"PO-Revision-Date: 2025-12-01 14:00+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-14-multiplying/da/>\n"
@@ -69,12 +69,20 @@ msgid ""
 "[code]health[/code] can be. We change our [code]heal()[/code] function to"
 " use this variable."
 msgstr ""
+"I denne lektion fokuserer vi kun på at øge robottens [code]max_health[/code]."
+"\n"
+"\n"
+"Variablen [code]max_health[/code] er det maksimale beløb, robottens [code]"
+"health[/code] kan være. Vi ændrer vores [code]heal()[/code]-funktion til at "
+"bruge denne variabel."
 
 #: course/lesson-14-multiplying/lesson.tres:92
 msgid ""
 "We could add [code]5[/code] to the [code]max_health[/code] every time the"
 " robot levels up."
 msgstr ""
+"Vi kunne tilføje [code]5[/code] til [code]max_health[/code] hver gang "
+"robotten stiger i level."
 
 #: course/lesson-14-multiplying/lesson.tres:112
 msgid ""
@@ -82,6 +90,10 @@ msgid ""
 "\n"
 "If we graphed [code]max_health[/code], it'd look something like this."
 msgstr ""
+"Dette ville øge [code]max_health[/code] med samme beløb hver gang.\n"
+"\n"
+"Hvis vi tegnede [code]max_health[/code] grafisk, ville det se nogenlunde "
+"sådan ud."
 
 #: course/lesson-14-multiplying/lesson.tres:134
 msgid ""
@@ -92,6 +104,12 @@ msgid ""
 "\n"
 "We want a graph like this."
 msgstr ""
+"Denne vækst er [b]lineær[/b].\n"
+"\n"
+"I vores tilfælde ønsker vi en følelse af mere og mere kraft, efterhånden som "
+"robotten stiger i level.\n"
+"\n"
+"Vi ønsker en graf som denne."
 
 #: course/lesson-14-multiplying/lesson.tres:158
 msgid ""
@@ -105,10 +123,19 @@ msgid ""
 "\n"
 "To multiply values together, we use [code]*[/code]."
 msgstr ""
+"Denne vækst er [b]eksponentiel[/b].\n"
+"\n"
+"Med hvert level tilføjes mere [code]max_health[/code] end det foregående "
+"level.\n"
+"\n"
+"For at få den eksponentielle vækst ganger vi [code]max_health[/code] med et "
+"beløb, der er større end [code]1[/code], hver gang robotten stiger i level.\n"
+"\n"
+"For at gange værdier sammen bruger vi [code]*[/code]."
 
 #: course/lesson-14-multiplying/lesson.tres:172
 msgid "What is the value of damage?"
-msgstr ""
+msgstr "Hvad er værdien af skaden?"
 
 #: course/lesson-14-multiplying/lesson.tres:173
 msgid ""
@@ -120,35 +147,46 @@ msgid ""
 "\tvar damage = power * level\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"var level = 5\n"
+"var power = 3\n"
+"\n"
+"func calculate_damage():\n"
+"\tvar damage = power * level\n"
+"[/code]"
 
 #: course/lesson-14-multiplying/lesson.tres:181
 msgid ""
 "We multiply [code]power[/code] by [code]level[/code] using [code]*[/code]"
 " to get the result of [code]15[/code]."
 msgstr ""
+"Vi ganger [code]power[/code] med [code]level[/code] ved at bruge [code]*"
+"[/code] for at få resultatet [code]15[/code]."
 
 #: course/lesson-14-multiplying/lesson.tres:182
 #: course/lesson-14-multiplying/lesson.tres:183
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: course/lesson-14-multiplying/lesson.tres:182
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: course/lesson-14-multiplying/lesson.tres:182
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: course/lesson-14-multiplying/lesson.tres:192
 msgid ""
 "We can use [code]*=[/code] in the same way as [code]-=[/code] and "
 "[code]+=[/code]."
 msgstr ""
+"Vi kan bruge [code]*=[/code] på samme måde som [code]-=[/code] og [code]+="
+"[/code]."
 
 #: course/lesson-14-multiplying/lesson.tres:200
 msgid "What is the value of damage now?"
-msgstr ""
+msgstr "Hvad er værdien af skaden nu?"
 
 #: course/lesson-14-multiplying/lesson.tres:201
 msgid ""
@@ -161,6 +199,14 @@ msgid ""
 "\tdamage *= 2\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"var level = 5\n"
+"var power = 3\n"
+"\n"
+"func calculate_damage():\n"
+"\tvar damage = power * level\n"
+"\tdamage *= 2\n"
+"[/code]"
 
 #: course/lesson-14-multiplying/lesson.tres:210
 msgid ""
@@ -169,6 +215,10 @@ msgid ""
 "Then, [code]damage *= 2[/code] multiplies it by [code]2[/code] to get "
 "[code]30[/code]."
 msgstr ""
+"Værdien af [code]damage[/code] starter som [code]15[/code].\n"
+"\n"
+"Derefter, [code]damage *= 2[/code] ganger det med [code]2[/code] for at få "
+"[code]30[/code]."
 
 #: course/lesson-14-multiplying/lesson.tres:213
 #: course/lesson-14-multiplying/lesson.tres:214
@@ -177,17 +227,19 @@ msgstr "30"
 
 #: course/lesson-14-multiplying/lesson.tres:213
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: course/lesson-14-multiplying/lesson.tres:213
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: course/lesson-14-multiplying/lesson.tres:223
 msgid ""
 "Let's level up our robot and add exponential growth to "
 "[code]max_health[/code]."
 msgstr ""
+"Lad vores robot stige i level og tilføje eksponentiel vækst til [code]"
+"max_health[/code]."
 
 #: course/lesson-14-multiplying/lesson.tres:243
 msgid ""
@@ -195,10 +247,12 @@ msgid ""
 " add a special ability to our robot to make it extra tough at high "
 "levels."
 msgstr ""
+"I øvelserne øger du robottens [code]max_health[/code] og tilføjer en særlig "
+"evne til vores robot for at gøre den ekstra stærk på høje levels."
 
 #: course/lesson-14-multiplying/lesson.tres:251
 msgid "Increasing maximum health exponentially"
-msgstr ""
+msgstr "Eksponentiel stigning i maksimal liv"
 
 #: course/lesson-14-multiplying/lesson.tres:252
 msgid ""
@@ -209,16 +263,24 @@ msgid ""
 "- Increases [code]level[/code] by one.\n"
 "- Increases [code]max_health[/code] by 10%."
 msgstr ""
+"Lad os gøre robotten stærkere, når den stiger i level.\n"
+"\n"
+"Tilføj det til [code]level_up()[/code]-funktionen, så den gør følgende:\n"
+"\n"
+"- Øger [code]level[/code] med én.\n"
+"- Øger [code]max_health[/code] med 10%."
 
 #: course/lesson-14-multiplying/lesson.tres:270
 msgid ""
 "We want our robot to increase in strength as it levels up. Let's increase"
 " its health exponentially!"
 msgstr ""
+"Vi ønsker, at vores robot skal øges i styrke, efterhånden som den stiger i "
+"level. Lad os øge dens liv eksponentielt!"
 
 #: course/lesson-14-multiplying/lesson.tres:275
 msgid "Reducing damage at higher levels"
-msgstr ""
+msgstr "Reducerer skade på højere level"
 
 #: course/lesson-14-multiplying/lesson.tres:276
 msgid ""
@@ -233,13 +295,25 @@ msgid ""
 "The robot is level 3. An enemy is going to attack for 10 damage. This "
 "damage should reduce to 5."
 msgstr ""
+"Når vores robots [code]level[/code] er [code]3[/code] eller mere, ønsker vi, "
+"at den tager meget mindre skade.\n"
+"\n"
+"Læg følgende til funktionen [code]take_damage()[/code] så følgende sker:\n"
+"\n"
+"- [code]if[/code] robottens [code]level[/code] er større end [code]2[/code], "
+"reducer skademængden [code]amount[/code] med 50%\n"
+"\n"
+"Robotten er level 3. En fjende vil angribe for 10 skade. Denne skade bør "
+"reduceres til 5."
 
 #: course/lesson-14-multiplying/lesson.tres:299
 msgid ""
 "At higher levels, we want our robot to be super tough and take even less "
 "damage!"
 msgstr ""
+"På højere niveauer ønsker vi, at vores robot skal være super sej og tage "
+"endnu mindre skade!"
 
 #: course/lesson-14-multiplying/lesson.tres:303
 msgid "Multiplying"
-msgstr ""
+msgstr "Multiplikation"

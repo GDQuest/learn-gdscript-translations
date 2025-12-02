@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: 2025-11-28 08:00+0000\n"
+"PO-Revision-Date: 2025-12-01 14:00+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-12-using-variables/da/>\n"
@@ -42,17 +42,16 @@ msgstr "Koden her over roterer karakteren [code]4[/code] radianer per sekund."
 
 #: course/lesson-12-using-variables/lesson.tres:38
 #: course/lesson-12-using-variables/lesson.tres:39
-#, fuzzy
 msgid "It's how fast the character rotates."
 msgstr "Det er, hvor hurtigt figuren roterer."
 
 #: course/lesson-12-using-variables/lesson.tres:38
 msgid "It's how far the character moves in pixels."
-msgstr ""
+msgstr "Det er hvor langt figuren bevæger sig i pixels."
 
 #: course/lesson-12-using-variables/lesson.tres:38
 msgid "It's how long the rotation takes."
-msgstr ""
+msgstr "Det er hvor lang tid rotationen tager."
 
 #: course/lesson-12-using-variables/lesson.tres:48
 msgid ""
@@ -63,6 +62,11 @@ msgid ""
 "We've seen how different functions have their own names. Using these "
 "names communicates to developers what the functions do."
 msgstr ""
+"Vi kan gætte, hvad et tal repræsenterer, ved at se på funktionsnavnene, men "
+"det er sværere at huske, hvad dette tal gør, ved hurtigt at se på koden.\n"
+"\n"
+"Vi har set, hvordan forskellige funktioner har deres egne navne. Brug af "
+"disse navne kommunikerer til udviklere, hvad funktionerne gør."
 
 #: course/lesson-12-using-variables/lesson.tres:70
 msgid ""
@@ -76,41 +80,57 @@ msgid ""
 "\n"
 "Let's recap how to define a variable."
 msgstr ""
+"Som vi lærte i lektion 8, kan vi også tildele tal etiketter for at hjælpe os "
+"med at huske, hvad de gør.\n"
+"\n"
+"Vi kalder disse etiketter [i]variabler[/i].\n"
+"\n"
+"[b]En variabel er en etiket for en værdi, vi kan gemme, ændre og læse "
+"senere.[/b]\n"
+"\n"
+"Lad os opsummere, hvordan man definerer en variabel."
 
 #: course/lesson-12-using-variables/lesson.tres:96
 msgid ""
 "We improve the first example to make it clear what the number "
 "[code]4[/code] does."
 msgstr ""
+"Vi forbedrer det første eksempel for at gøre det tydeligt, hvad tallet [code]"
+"4[/code] gør."
 
 #: course/lesson-12-using-variables/lesson.tres:116
 msgid ""
 "Labeling a value makes the code easier for us to read now [i]and[/i] in "
 "the future."
 msgstr ""
+"At putte en etikette på en værdi gør det nemmere for os at læse koden nu [i]"
+"og[/i] i fremtiden."
 
 #: course/lesson-12-using-variables/lesson.tres:124
 msgid "In the above example, which line defines the angular speed variable?"
 msgstr ""
+"Hvilken linje definerer vinkelhastighedsvariablen i ovenstående eksempel?"
 
 #: course/lesson-12-using-variables/lesson.tres:127
 msgid ""
 "We create the [code]angular_speed[/code] variable, then assign it the "
 "value of [code]4[/code]."
 msgstr ""
+"Vi opretter variablen [code]angular_speed[/code] og tildeler den derefter "
+"værdien [code]4[/code]."
 
 #: course/lesson-12-using-variables/lesson.tres:128
 #: course/lesson-12-using-variables/lesson.tres:129
 msgid "var angular_speed = 4"
-msgstr ""
+msgstr "var angular_speed = 4"
 
 #: course/lesson-12-using-variables/lesson.tres:128
 msgid "func _process(delta):"
-msgstr ""
+msgstr "func _process(delta):"
 
 #: course/lesson-12-using-variables/lesson.tres:128
 msgid "rotate(angular_speed * delta)"
-msgstr ""
+msgstr "rotate(angular_speed * delta)"
 
 #: course/lesson-12-using-variables/lesson.tres:138
 msgid ""
@@ -124,6 +144,15 @@ msgid ""
 "the [code]_process()[/code] function and the "
 "[code]set_angular_speed()[/code] function."
 msgstr ""
+"Hvis vi definerer variabler uden for funktioner, kan vi genbruge dem i "
+"forskellige funktioner.\n"
+"\n"
+"Fordi enhver funktion kan bruge variabler, vi definerer uden for dem, kalder "
+"vi disse variabler [b]script-dækkende[/b].\n"
+"\n"
+"Her bruger vi den script-dækkende variable [code]angular_speed[/code] i både "
+"[code]_process()[/code]-funktionen og [code]set_angular_speed()[/code]"
+"-funktionen."
 
 #: course/lesson-12-using-variables/lesson.tres:162
 msgid ""
