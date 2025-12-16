@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: 2025-11-28 08:00+0000\n"
+"PO-Revision-Date: 2025-12-17 18:00+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
-"Language-Team: Danish <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-21-strings/da/>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-21-strings/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: course/lesson-21-strings/lesson.tres:14
@@ -41,7 +41,6 @@ msgstr ""
 "oplysninger såsom beskrivelsen af en magi eller navnet på en figur."
 
 #: course/lesson-21-strings/lesson.tres:36
-#, fuzzy
 msgid "What are strings"
 msgstr "Hvad er strenge"
 
@@ -71,10 +70,13 @@ msgid ""
 "[code]for[/code] loop to loop through the characters of a "
 "[code]String[/code] as we would with any other array."
 msgstr ""
+"Under hjelmen er strenge arrays af tegn. Faktisk kan vi bruge en [code]for[/"
+"code]-løkke til loope at igennem tegnene i en [code]String[/code], ligesom "
+"vi ville gøre med ethvert andet array."
 
 #: course/lesson-21-strings/lesson.tres:80
 msgid "Which of these are strings?"
-msgstr ""
+msgstr "Hvilke af disse er strenge?"
 
 #: course/lesson-21-strings/lesson.tres:83
 msgid ""
@@ -85,6 +87,12 @@ msgid ""
 "\n"
 "[code]\"name\"[/code] is made up of four different characters."
 msgstr ""
+"[code]\"1\"[/code] og [code]\"name\"[/code] er strenge.\n"
+"\n"
+"[code]\"1\"[/code] indeholder kun et tegn, og [i]repræsenterer ikke[/i] "
+"tallet [code]1[/code].\n"
+"\n"
+"[code]\"navn\"[/code] består af fire forskellige tegn."
 
 #: course/lesson-21-strings/lesson.tres:88
 msgid "1"
@@ -93,16 +101,16 @@ msgstr "1"
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"1\""
-msgstr ""
+msgstr "\"1\""
 
 #: course/lesson-21-strings/lesson.tres:88
 #: course/lesson-21-strings/lesson.tres:89
 msgid "\"name\""
-msgstr ""
+msgstr "\"name\""
 
 #: course/lesson-21-strings/lesson.tres:96
 msgid "Why we use strings"
-msgstr ""
+msgstr "Hvorfor bruger vi strenge"
 
 #: course/lesson-21-strings/lesson.tres:118
 msgid ""
@@ -117,16 +125,28 @@ msgid ""
 "animations. In this example, the [code]play_animation()[/code] plays a "
 "specific animation."
 msgstr ""
+"Hvert stykke tekst, du ser i denne app, er en streng, som Godot viser for "
+"os.\n"
+"\n"
+"Ligesom [code]Vector2[/code]-variabler gør beregninger nemmere, kommer "
+"[code]string[/code]-variabler med mange hjælpefunktioner og tricks, vi kan "
+"bruge.\n"
+"\n"
+"Vi kan også bruge arrays til at gemme strenge. Dette er nyttigt til at kæde "
+"animationer sammen. I dette eksempel afspiller [code]play_animation()[/code] "
+"en specifik animation."
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
 "In the next few practices, we'll use strings in combination with "
 "different concepts from earlier lessons."
 msgstr ""
+"I de næste par øvelser vil vi bruge strenge i kombination med forskellige "
+"koncepter fra tidligere lektioner."
 
 #: course/lesson-21-strings/lesson.tres:150
 msgid "Creating string variables"
-msgstr ""
+msgstr "Oprettelse af streng variabler"
 
 #: course/lesson-21-strings/lesson.tres:151
 msgid ""
@@ -136,14 +156,19 @@ msgid ""
 "Change the [code]robot_name[/code] variable so that it's a string "
 "instead. You can give it any name you'd like."
 msgstr ""
+"I øjeblikket har robotten et nummer gemt i variablen [code]robot_name[/"
+"code].\n"
+"\n"
+"Skift variablen [code]robot_name[/code], så den i stedet er en streng. Du "
+"kan give den et hvilket som helst navn, du ønsker."
 
 #: course/lesson-21-strings/lesson.tres:163
 msgid "Give the robot a readable name using a string stored in a variable."
-msgstr ""
+msgstr "Giv robotten et læsbart navn ved hjælp af en streng gemt i en variabel."
 
 #: course/lesson-21-strings/lesson.tres:168
 msgid "Using an array of strings to play a combo"
-msgstr ""
+msgstr "Brug af en række strenge til at spille en combo"
 
 #: course/lesson-21-strings/lesson.tres:169
 msgid ""
@@ -163,11 +188,26 @@ msgid ""
 "The array should contain three values, so the robot makes these three "
 "attacks: two jabs followed by one uppercut."
 msgstr ""
+"I denne øvelse vil vi kæde animationer sammen ved hjælp af en række strenge. "
+"Du kan finde sådanne kombinationer i kampspil.\n"
+"\n"
+"Robotten har følgende animationsnavne:\n"
+"\n"
+"- [code]jab[/code] (får robotten til at udføre et hurtigt slag)\n"
+"- [code]uppercut[/code] (robotten bruger et kraftigt hoppende slag)\n"
+"\n"
+"Udfyld kombinationsarrayet med animationsnavne som strenge.\n"
+"\n"
+"For hver handling i arrayet skal du derefter kalde funktionen "
+"[code]play_animation()[/code] for at afspille dem.\n"
+"\n"
+"Arrayet skal indeholde tre værdier, så robotten udfører disse tre angreb: to "
+"jabs efterfulgt af en uppercut."
 
 #: course/lesson-21-strings/lesson.tres:190
 msgid "Define an array of strings to unleash a powerful combo."
-msgstr ""
+msgstr "Definer et array af strenge for at udløse en kraftfuld kombination."
 
 #: course/lesson-21-strings/lesson.tres:194
 msgid "Strings"
-msgstr ""
+msgstr "Strenge"
