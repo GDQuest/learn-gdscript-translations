@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: 2025-11-23 12:51+0000\n"
+"PO-Revision-Date: 2025-12-19 16:00+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
-"Language-Team: Danish <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-24-access-array-indices/da/>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-24-access-array-indices/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: course/lesson-24-access-array-indices/lesson.tres:14
@@ -58,31 +58,39 @@ msgid ""
 "You would access the [i]fourth[/i] element in the [code]inventory[/code] "
 "array like so."
 msgstr ""
+"Indeks èt er det [i]andet[/i] element i arrayet, og så videre.\n"
+"\n"
+"Du ville tilgå det [i]fjerde[/i] element i [code]inventory[/code] arrayet på "
+"denne måde."
 
 #: course/lesson-24-access-array-indices/lesson.tres:98
 msgid ""
 "How would you access the [i]third[/i] item in the [code]inventory[/code] "
 "array?"
 msgstr ""
+"Hvordan ville du få adgang til det [i]tredje[/i] element i [code]inventory[/"
+"code] arrayet?"
 
 #: course/lesson-24-access-array-indices/lesson.tres:101
 msgid ""
 "Indices start at zero, so the index of the [i]third[/i] item is "
 "[code]2[/code]. That's why you need to write [code]inventory[2][/code]."
 msgstr ""
+"Indekser starter ved nul, så indekset for det [i]tredje[/i] element er "
+"[code]2[/code]. Derfor skal du skrive [code]inventory[2][/code]."
 
 #: course/lesson-24-access-array-indices/lesson.tres:102
 #: course/lesson-24-access-array-indices/lesson.tres:103
 msgid "inventory[2]"
-msgstr ""
+msgstr "inventory[2]"
 
 #: course/lesson-24-access-array-indices/lesson.tres:102
 msgid "inventory[3]"
-msgstr ""
+msgstr "inventory[3]"
 
 #: course/lesson-24-access-array-indices/lesson.tres:110
 msgid "Accessing the last values with negative indices"
-msgstr ""
+msgstr "Få adgang til de sidste værdier med negative indekser"
 
 #: course/lesson-24-access-array-indices/lesson.tres:112
 msgid ""
@@ -93,16 +101,25 @@ msgid ""
 "in the brackets, you will get the last item in the array. You will get "
 "the second-to-last item if you write [code]-2[/code]."
 msgstr ""
+"Hvad hvis du vil have adgang til det sidste eller næstførsidste element i "
+"[code]inventory[/code]?\n"
+"\n"
+"I det tilfælde, kan du bruge negative indekser. Hvis du skriver [code]-1[/"
+"code] i parenteserne, får du det sidste element i arrayet. Du får det "
+"næstsidste element, hvis du skriver [code]-2[/code]."
 
 #: course/lesson-24-access-array-indices/lesson.tres:134
 msgid ""
 "That's very convenient when you need to quickly access elements from the "
 "end of the list."
 msgstr ""
+"Det er meget praktisk, når du hurtigt har brug for at få adgang til "
+"elementer fra slutningen af listen."
 
 #: course/lesson-24-access-array-indices/lesson.tres:142
 msgid "How would you access the third-to-last item in the inventory array?"
 msgstr ""
+"Hvordan ville du få adgang til den tredjesidste ting i inventory arrayet?"
 
 #: course/lesson-24-access-array-indices/lesson.tres:145
 msgid ""
@@ -115,19 +132,27 @@ msgid ""
 "[code]0[/code] and [code]-0[/code]: they both point to the first item in "
 "the array."
 msgstr ""
+"Når man bruger negative indekses, betyder [code]-1[/code] det [i]sidste[/i] "
+"element i arrayet. Indeks [code]-2[/code] vil være det næstsidste, og dermed "
+"vil [code]-3[/code] være det tredjesidste.\n"
+"\n"
+"Det kan være lidt forvirrende, da det ser ud til at fungere anderledes end "
+"positive indeks. Det er dog fordi, der ikke er nogen forskel mellem indeks "
+"[code]0[/code] og [code]-0[/code]: de peger begge på det første element i "
+"arrayet."
 
 #: course/lesson-24-access-array-indices/lesson.tres:148
 #: course/lesson-24-access-array-indices/lesson.tres:149
 msgid "inventory[-3]"
-msgstr ""
+msgstr "inventory[-3]"
 
 #: course/lesson-24-access-array-indices/lesson.tres:148
 msgid "inventory[-2]"
-msgstr ""
+msgstr "inventory[-2]"
 
 #: course/lesson-24-access-array-indices/lesson.tres:156
 msgid "You can't access non-existent indices"
-msgstr ""
+msgstr "Du kan ikke få adgang til ikke-eksisterende indekser"
 
 #: course/lesson-24-access-array-indices/lesson.tres:158
 msgid ""
@@ -138,6 +163,12 @@ msgid ""
 "There are a couple of ways you can check for valid indices. One of them "
 "is checking the array's size."
 msgstr ""
+"Der er en hage ved denne syntaks: hvis du forsøger at tilgå et indeks, der "
+"ikke findes, får du en fejl. Du skal være forsigtig med altid at tilgå "
+"eksisterende elementer i arrayet.\n"
+"\n"
+"Der er et par måder, du kan kontrollere for gyldige indekser. En af dem er "
+"at kontrollere arrayets størrelse."
 
 #: course/lesson-24-access-array-indices/lesson.tres:170
 msgid ""
@@ -146,22 +177,30 @@ msgid ""
 "Arrays come with a member function named [code]size()[/code]. You can "
 "call it on the array anytime to know its [i]current[/i] size."
 msgstr ""
+"[b]Kontrol af størrelsen på arrayet[/b]\n"
+"\n"
+"Arrays leveres med en medlemsfunktion kaldet [code]size()[/code]. Du kan til "
+"enhver tid kalde den på arrayet for at finde dets [i]aktuelle[/i] størrelse."
 
 #: course/lesson-24-access-array-indices/lesson.tres:192
 msgid ""
 "The maximum index you can access in an array is [code]array.size() - "
 "1[/code]: it's the last item in the array."
 msgstr ""
+"Det maksimale indeks, du kan tilgå i et array, er [code]array.size() - 1[/"
+"code]: det er det sidste element i arrayet."
 
 #: course/lesson-24-access-array-indices/lesson.tres:212
 msgid ""
 "In the following practices, you will use array indices to realign train "
 "tracks and grab the correct item in an inventory."
 msgstr ""
+"I de følgende øvelser vil du bruge array-indekser til at justere togskinner "
+"og finde den korrekte genstand i et inventar."
 
 #: course/lesson-24-access-array-indices/lesson.tres:220
 msgid "Using the right items"
-msgstr ""
+msgstr "Brug af de rigtige ting"
 
 #: course/lesson-24-access-array-indices/lesson.tres:221
 msgid ""
@@ -181,14 +220,31 @@ msgid ""
 "For example, if the first item in the array is what you need, you would "
 "call [code]use_item(inventory[0])[/code]."
 msgstr ""
+"I vores spil har spilleren et inventar, der fungerer som et array under "
+"motorhjelmen.\n"
+"\n"
+"Spilleren ved, at de har et sværd og et skjold et sted i deres inventar, men "
+"de kan ikke huske præcis hvor.\n"
+"\n"
+"Du kan se inventaret tegnet til højre sammen med indekset for hver genstand "
+"i inventaret.\n"
+"\n"
+"Din opgave er at finde et sværd og et skjold i arrayet ved hjælp af deres "
+"indeks og derefter kalde [code]use_item()[/code] på hver af dem, så "
+"spilleren kan udstyre disse genstande.\n"
+"\n"
+"For eksempel, hvis den første genstand i arrayet er det, du har brug for, "
+"ville du kalde [code]use_item(inventory[0])[/code]."
 
 #: course/lesson-24-access-array-indices/lesson.tres:241
 msgid "Find the right items to use in the player's inventory, using their index."
 msgstr ""
+"Find de rigtige genstande at bruge i spillerens inventar ved hjælp af deres "
+"indeks."
 
 #: course/lesson-24-access-array-indices/lesson.tres:246
 msgid "Realigning the train tracks"
-msgstr ""
+msgstr "Omlægning af togskinnerne"
 
 #: course/lesson-24-access-array-indices/lesson.tres:247
 msgid ""
@@ -203,13 +259,25 @@ msgid ""
 "\n"
 "This time, though, you need to access them with [i]negative indices[/i]."
 msgstr ""
+"I vores spil har vi opdelt togskinner i små bidder. Vi bruger dem til at "
+"lave modulære spor og tegne baner i alle former og størrelser.\n"
+"\n"
+"Der er dog flere bidder, der er forkert justeret. Du skal finde dem i "
+"[code]tracks[/code]-arrayet og sende dem til [code]align()[/code]-"
+"funktionen.\n"
+"\n"
+"For at gøre det skal du tilgå arrayet via indeks.\n"
+"\n"
+"Denne gang skal du dog tilgå dem med [i]negative indekser[/i]."
 
 #: course/lesson-24-access-array-indices/lesson.tres:265
 msgid ""
 "Some chunks of our train tracks are misaligned, and the train can't pass."
 " Find the faulty pieces and realign them."
 msgstr ""
+"Nogle dele af vores togskinnerne er forkert justeret, og toget kan ikke "
+"passere. Find de defekte dele, og juster dem."
 
 #: course/lesson-24-access-array-indices/lesson.tres:269
 msgid "Accessing values in arrays"
-msgstr ""
+msgstr "Adgang til værdier i arrays"
