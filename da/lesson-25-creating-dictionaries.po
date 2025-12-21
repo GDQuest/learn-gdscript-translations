@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
-"PO-Revision-Date: 2025-11-23 12:51+0000\n"
+"PO-Revision-Date: 2025-12-20 19:00+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
-"Language-Team: Danish <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-25-creating-dictionaries/da/>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-25-creating-dictionaries/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:14
@@ -45,7 +45,7 @@ msgstr ""
 "lager.\n"
 "\n"
 "Med bare en række navne på ting, kan vi ikke nemt kan holde styr på mængden "
-"af hvert produkt.\n"
+"af hver genstand.\n"
 "\n"
 "I stedet kan vi pakke navne og mængde ind i en enkelt [i]ordbog[/i].\n"
 "\n"
@@ -73,7 +73,7 @@ msgid ""
 msgstr ""
 "Ordbøger kan knytte enhver værdi til enhver anden værdi.\n"
 "\n"
-"For eksempel kan vi bruge navnet på et element som en nøgle og beløbet som "
+"For eksempel kan vi bruge navnet på en genstand som en nøgle og mængden som "
 "den tilsvarende værdi. Dette gør ordbøger fremragende til at holde styr på "
 "en spillers lager."
 
@@ -86,14 +86,20 @@ msgid ""
 " key has to be [i]unique[/i]. That means we [i]couldn't[/i] have a "
 "dictionary like the following."
 msgstr ""
+"Her matchede vi navnet (en streng) med mængden (et tal). Men en nøgle kunne "
+"være en streng, et tal eller endda en vektor!\n"
+"\n"
+"Selvom vi kan have alle disse forskellige nøgler, skal man huske på, at hver "
+"nøgle skal være [i]unik[/i]. Det betyder, at vi [i]ikke kunne[/i] have en "
+"ordbog som den følgende."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:88
 msgid "We would get the following error."
-msgstr ""
+msgstr "Vi vil få følgende fejl."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:106
 msgid "In the above example, which key would cause an error?"
-msgstr ""
+msgstr "Hvilken nøgle ville forårsage en fejl i ovenstående eksempel?"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:109
 msgid ""
@@ -104,23 +110,28 @@ msgid ""
 "[code]3[/code] or [code]8[/code] when using [code]inventory[\"healing "
 "heart\"][/code]. This is why keys need to be unique."
 msgstr ""
+"Nøglen [code]\"healing heart\"[/code] optræder [b]to gange[/b] i ordbogen.\n"
+"\n"
+"I ovenstående eksempel ville Godot ikke vide, om den skulle returnere "
+"[code]3[/code] eller [code]8[/code], når [code]inventory[\"healing heart\"][/"
+"code] bliver brugt. Derfor skal nøgler være unikke."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 #: course/lesson-25-creating-dictionaries/lesson.tres:113
 msgid "\"healing heart\""
-msgstr ""
+msgstr "\"healing heart\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 msgid "\"shield\""
-msgstr ""
+msgstr "\"shield\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 msgid "\"sword\""
-msgstr ""
+msgstr "\"sword\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:120
 msgid "How dictionaries work under the hood"
-msgstr ""
+msgstr "Hvordan ordbøger fungerer under kølerhjelmen"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:122
 msgid ""
@@ -141,20 +152,39 @@ msgid ""
 "That's also why you can't have the same key twice: it would map to the "
 "same array index, causing you to overwrite an existing value."
 msgstr ""
+"Ordbøger kaldes også mappings eller [i]associative arrays[/i]. Under "
+"motorhjelmen bruger de arrays og adskillige funktioner til effektivt at "
+"gemme og hente værdier på tværs af arrays.\n"
+"\n"
+"Præcist bruger ordbøger en [i]hashing-algoritme[/i]. Hashing-algoritmer "
+"konverterer én værdi til en anden.\n"
+"\n"
+"I dette tilfælde består hashing af at konvertere en given nøgle til et unikt "
+"heltal. Ordbogen bruger derefter dette tal som et arrays indeks!\n"
+"\n"
+"Sådan fungerer en ordbog: Når du giver den en nøgle, konverterer den den til "
+"et unikt indeks og bruger dette indeks til at hente den tilsvarende værdi i "
+"computerens hukommelse.\n"
+"\n"
+"Det er også derfor, du ikke kan have den samme nøgle to gange: den ville "
+"mappes til det samme array-indeks, hvilket får dig til at overskrive en "
+"eksisterende værdi."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:138
 msgid "Accessing values"
-msgstr ""
+msgstr "Adgang til værdier"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:140
 msgid ""
 "We access the value of keys by writing the dictionary name, with the key "
 "in between square brackets."
 msgstr ""
+"Vi tilgår værdien af nøgler ved at skrive ordbogens navn, med nøglen mellem "
+"firkantede parenteser."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:168
 msgid "How would you access how many gems the player has?"
-msgstr ""
+msgstr "Hvordan får man adgang til, hvor mange ædelsten spilleren har?"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:171
 msgid ""
@@ -163,39 +193,47 @@ msgid ""
 "\n"
 "In our case, [code]var item_count = inventory[\"gems\"][/code] is correct."
 msgstr ""
+"Vi skal sørge for, at nøglen er den samme, som vi definerede i ordbogen.\n"
+"\n"
+"I vores tilfælde er [code]var item_count = inventory[\"gems\"][/code] "
+"korrekt."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 msgid "var item_count = inventory[\"gem\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"gem\"]"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 #: course/lesson-25-creating-dictionaries/lesson.tres:175
 msgid "var item_count = inventory[\"gems\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"gems\"]"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 msgid "var item_count = inventory[\"sword\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"sword\"]"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:182
 msgid "Changing values"
-msgstr ""
+msgstr "Ændring af værdier"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:184
 msgid ""
 "We can also change values directly, which is useful in our case for "
 "adding or removing items from the player's inventory."
 msgstr ""
+"Vi kan også ændre værdier direkte, hvilket er nyttigt i vores tilfælde til "
+"at tilføje eller fjerne genstande fra spillerens lager."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:214
 msgid ""
 "In the following practices, we'll use a dictionary to create a player "
 "inventory and create a function to change the value of items."
 msgstr ""
+"I de følgende øvelser bruger vi en ordbog til at oprette et spillerlager og "
+"oprette en funktion til at ændre værdien af genstande."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:222
 msgid "Creating an inventory using a dictionary"
-msgstr ""
+msgstr "Oprettelse af en inventarliste ved hjælp af en ordbog"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:223
 msgid ""
@@ -213,16 +251,31 @@ msgid ""
 "\n"
 "The keys should be text strings, and the values whole numbers."
 msgstr ""
+"Lad os give spilleren nogle genstande.\n"
+"\n"
+"Vi bruger en ordbog til spillerens lager. Vi har defineret variablen "
+"[code]inventory[/code] for dig, men den indeholder endnu ingen genstande.\n"
+"\n"
+"Giv spilleren følgende genstande ved at tilføje de korrekte nøgler og "
+"værdier til ordbogen:\n"
+"\n"
+"- Tre \"healing heart\".\n"
+"- Ni \"gems\".\n"
+"- Et \"sword\".\n"
+"\n"
+"Nøglerne skal være tekststrenge, og værdierne skal være hele tal."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:244
 msgid ""
 "Collecting items is fun, but we need a good way to store them. Write a "
 "dictionary to display the player's items."
 msgstr ""
+"Det er sjovt at samle genstande, men vi har brug for en god måde at opbevare "
+"dem på. Skriv en ordbog for at vise spillerens genstande."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:249
 msgid "Increasing item counts"
-msgstr ""
+msgstr "Øge genstands mængden"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:250
 msgid ""
@@ -238,13 +291,26 @@ msgid ""
 "To test this practice, we'll use your [code]add_item()[/code] function to"
 " increase the item count of Healing Heart, Gems, and Sword."
 msgstr ""
+"Vi ønsker at ændre antallet af genstande i spillerens lager, hver gang "
+"spilleren samler eller bruger en genstand.\n"
+"\n"
+"Vi har startet funktionen [code]add_item()[/code] for dig.\n"
+"\n"
+"Ordbogen [code]inventory[/code] skal bruge parameteren [code]item_name[/"
+"code] som nøgle til at få adgang til dens værdier, og vi skal øge værdien "
+"med [code]amount[/code].\n"
+"\n"
+"For at teste denne praksis bruger vi din [code]add_item()[/code]-funktion "
+"til at øge antallet af genstande i Healing Heart, Gems og Sword."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:266
 msgid ""
 "The player might walk over a pick-up or find something in a chest, so we "
 "need a way to change the item counts in our inventory."
 msgstr ""
+"Spilleren går måske hen over et pickup eller finder noget i en kiste, så vi "
+"har brug for en måde at ændre antallet af genstande i vores lager."
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:270
 msgid "Creating Dictionaries"
-msgstr ""
+msgstr "Oprettelse af ordbøger"
