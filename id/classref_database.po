@@ -1,7 +1,7 @@
-# Translations template for Learn GDScript From Zero.
-# Copyright (C) 2022 GDQuest
+# Indonesian translations for Learn GDScript From.
+# Copyright (C) 2022 ORGANIZATION
 # This file is distributed under the same license as the Learn GDScript From
-# Zero project.
+# project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
@@ -11,15 +11,14 @@ msgstr ""
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
 "PO-Revision-Date: 2022-11-29 17:48+0000\n"
 "Last-Translator: Harryanto Winsen <hwinsen.gamedev@gmail.com>\n"
+"Language: id\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/learn-"
 "gdscript-from-zero/classref_database/id/>\n"
-"Language: id\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #. Reference: show
 #: course/documentation.csv:2
@@ -62,8 +61,8 @@ msgstr "Buat kura-kura meloncat dengan jumlah piksel x dan y yang diberikan."
 #: course/documentation.csv:9
 msgid "Makes the turtle draw a rectangle starting at its current position."
 msgstr ""
-"Buat kura-kura menggambar sebuah persegi panjang, mulai dari posisinya saat "
-"ini."
+"Buat kura-kura menggambar sebuah persegi panjang, mulai dari posisinya "
+"saat ini."
 
 #. Reference: position.x
 #: course/documentation.csv:10
@@ -78,13 +77,13 @@ msgstr "Posisi entitas pada sumbu vertikal."
 #. Reference: move_local_x
 #: course/documentation.csv:12
 msgid ""
-"Applies a local translation on the node's X axis based on the [code]Node."
-"_process[/code]'s [code]delta[/code]. If [code]scaled[/code] is false, "
-"normalizes the movement."
+"Applies a local translation on the node's X axis based on the "
+"[code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] "
+"is false, normalizes the movement."
 msgstr ""
 "Menerapkan translasi lokal pada sumbu X node berdasarkan parameter "
-"[code]delta[/code] pada [code]Node._process[/code]. Jika [code]scaled[/code] "
-"memiliki nilai salah, maka normalisasi gerakannya."
+"[code]delta[/code] pada [code]Node._process[/code]. Jika "
+"[code]scaled[/code] memiliki nilai salah, maka normalisasi gerakannya."
 
 #. Reference: board_size
 #: course/documentation.csv:13
@@ -92,25 +91,24 @@ msgid ""
 "Stores how many cells make up the width ([code]board_size.x[/code]) and "
 "height ([code]board_size.y[/code]) of the board."
 msgstr ""
-"Menyimpan berapa banyak sel yang membentuk lebar ([code]board_size.x[/code]) "
-"dan tinggi ([code]board_size.y[/code]) papan."
+"Menyimpan berapa banyak sel yang membentuk lebar "
+"([code]board_size.x[/code]) dan tinggi ([code]board_size.y[/code]) papan."
 
 #. Reference: cell
 #: course/documentation.csv:14
 msgid ""
-"The cell position of the robot on the board. [code]Vector2(0, 0)[/code] is "
-"the square cell in the top left of the board."
+"The cell position of the robot on the board. [code]Vector2(0, 0)[/code] "
+"is the square cell in the top left of the board."
 msgstr ""
-"Posisi sel dari si robot di atas papan. [code]Vector2(0, 0)[/code] adalah "
-"sel persegi di paling kiri atas papan."
+"Posisi sel dari si robot di atas papan. [code]Vector2(0, 0)[/code] adalah"
+" sel persegi di paling kiri atas papan."
 
 #. Reference: range
 #: course/documentation.csv:15
-msgid ""
-"Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
+msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
 msgstr ""
-"Buat sebuah daftar berisi nomor dari [code]0[/code] sampai [code]length - 1[/"
-"code]."
+"Buat sebuah daftar berisi nomor dari [code]0[/code] sampai [code]length -"
+" 1[/code]."
 
 #. Reference: play_animation
 #: course/documentation.csv:16
@@ -119,10 +117,8 @@ msgstr "Perintahkan robot untuk memainkan sebuah animasi."
 
 #. Reference: select_units
 #: course/documentation.csv:17
-msgid ""
-"Selects units in the cell coordinates passed as the function's argument."
-msgstr ""
-"Memilih unit dalam koordinat sel yang diteruskan sebagai argumen fungsi."
+msgid "Selects units in the cell coordinates passed as the function's argument."
+msgstr "Memilih unit dalam koordinat sel yang diteruskan sebagai argumen fungsi."
 
 #. Reference: robot.move_to
 #: course/documentation.csv:18
@@ -147,31 +143,32 @@ msgstr "Menghapus nilai terakhir dari array dan mengembalikan nilai tersebut."
 #. Reference: str
 #: course/documentation.csv:22
 msgid ""
-"Returns the argument converted into a [code]String[/code]. Works with the "
-"majority of value types."
+"Returns the argument converted into a [code]String[/code]. Works with the"
+" majority of value types."
 msgstr ""
-"Mengembalikan argumen yang telah diubah menjadi sebuah [code]String[/code]. "
-"Berlaku untuk sebagian besar tipe data."
+"Mengembalikan argumen yang telah diubah menjadi sebuah "
+"[code]String[/code]. Berlaku untuk sebagian besar tipe data."
 
 #. Reference: int
 #: course/documentation.csv:23
 msgid ""
-"Returns the argument converted into an [code]int[/code] (whole number) [i]if "
-"possible[/i]. Supports converting decimal numbers, strings, and booleans. "
-"Useful to convert player text input into numbers."
+"Returns the argument converted into an [code]int[/code] (whole number) "
+"[i]if possible[/i]. Supports converting decimal numbers, strings, and "
+"booleans. Useful to convert player text input into numbers."
 msgstr ""
-"Mengembalikan argumen yang diubah menjadi [code]int[/code] (bilangan bulat) "
-"[i]jika memungkinkan[/i]. Mendukung konversi angka desimal, string, dan "
-"boolean. Berguna untuk mengubah input teks pemain menjadi angka."
+"Mengembalikan argumen yang diubah menjadi [code]int[/code] (bilangan "
+"bulat) [i]jika memungkinkan[/i]. Mendukung konversi angka desimal, "
+"string, dan boolean. Berguna untuk mengubah input teks pemain menjadi "
+"angka."
 
 #. Reference: place_unit
 #: course/documentation.csv:24
 msgid ""
-"Creates a new unit matching the type parameter and places it at the desired "
-"cell position on the game grid."
+"Creates a new unit matching the type parameter and places it at the "
+"desired cell position on the game grid."
 msgstr ""
-"Membuat unit baru yang cocok dengan parameter tipe dan menempatkannya pada "
-"posisi sel yang diinginkan pada kisi permainan."
+"Membuat unit baru yang cocok dengan parameter tipe dan menempatkannya "
+"pada posisi sel yang diinginkan pada kisi permainan."
 
 #. Reference: display_item
 #: course/documentation.csv:25
@@ -186,6 +183,7 @@ msgstr "Meningkatkan jumlah item berdasarkan amount."
 #. Reference: align
 #: course/documentation.csv:27
 msgid ""
-"Realigns the train track with the path. Select a train track in the tracks "
-"array by index to pass it as an argument."
+"Realigns the train track with the path. Select a train track in the "
+"tracks array by index to pass it as an argument."
 msgstr ""
+

@@ -9,21 +9,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2025-06-14 15:02+0200\n"
+"POT-Creation-Date: 2025-12-21 20:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-12-using-variables/lesson.tres:14
 msgid ""
 "In this lesson, we'll make our code easier to follow and understand at a "
-"glance.\n"
-"\n"
-"Take a look at this example."
+"glance."
+msgstr ""
+
+msgid "Take a look at this example."
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:34
@@ -35,7 +36,6 @@ msgid "The code above rotates the character [code]4[/code] radians per second."
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:38
-#: course/lesson-12-using-variables/lesson.tres:39
 msgid "It's how fast the character rotates."
 msgstr ""
 
@@ -51,8 +51,10 @@ msgstr ""
 msgid ""
 "We can guess what a number represents by looking at the function names, "
 "but it's harder to recall what this number does by quickly looking at the"
-" code.\n"
-"\n"
+" code."
+msgstr ""
+
+msgid ""
 "We've seen how different functions have their own names. Using these "
 "names communicates to developers what the functions do."
 msgstr ""
@@ -60,14 +62,18 @@ msgstr ""
 #: course/lesson-12-using-variables/lesson.tres:70
 msgid ""
 "As we learned in lesson 8, we can also assign labels to numbers to help "
-"us remember what they do.\n"
-"\n"
-"We call these labels [i]variables[/i].\n"
-"\n"
+"us remember what they do."
+msgstr ""
+
+msgid "We call these labels [i]variables[/i]."
+msgstr ""
+
+msgid ""
 "[b]A variable is a label for a value we can save, change, and read "
-"later.[/b]\n"
-"\n"
-"Let's recap how to define a variable."
+"later.[/b]"
+msgstr ""
+
+msgid "Let's recap how to define a variable."
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:96
@@ -93,7 +99,6 @@ msgid ""
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:128
-#: course/lesson-12-using-variables/lesson.tres:129
 msgid "var angular_speed = 4"
 msgstr ""
 
@@ -108,23 +113,30 @@ msgstr ""
 #: course/lesson-12-using-variables/lesson.tres:138
 msgid ""
 "If we define variables outside of functions, we can re-use them in "
-"different functions.\n"
-"\n"
+"different functions."
+msgstr ""
+
+msgid ""
 "Because any function can use variables we define outside of them, we call"
-" these variables [b]script-wide[/b].\n"
-"\n"
+" these variables [b]script-wide[/b]."
+msgstr ""
+
+msgid ""
 "Here we use the [code]angular_speed[/code] script-wide variable in both "
 "the [code]_process()[/code] function and the "
 "[code]set_angular_speed()[/code] function."
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:162
+msgid "We can also define variables inside of functions."
+msgstr ""
+
 msgid ""
-"We can also define variables inside of functions.\n"
-"\n"
 "We align the variable assignment by indenting to make it part of the "
-"function body. Make sure to create the variable before using it!\n"
-"\n"
+"function body. Make sure to create the variable before using it!"
+msgstr ""
+
+msgid ""
 "If we define a variable inside of a function, only that function can use "
 "it."
 msgstr ""
@@ -133,11 +145,13 @@ msgstr ""
 msgid ""
 "The [code]angular_speed[/code] variable only exists inside "
 "[code]_process()[/code], because we defined it there. The "
-"[code]set_angular_speed()[/code] function can't use it.\n"
-"\n"
-"Trying to use it there will result in an error.\n"
-"\n"
-"Here's what this error might look like."
+"[code]set_angular_speed()[/code] function can't use it."
+msgstr ""
+
+msgid "Trying to use it there will result in an error."
+msgstr ""
+
+msgid "Here's what this error might look like."
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:208
@@ -147,28 +161,24 @@ msgstr ""
 #: course/lesson-12-using-variables/lesson.tres:211
 msgid ""
 "Functions can use any variables defined outside of functions. These "
-"variables are [b]script-wide[/b].\n"
-"\n"
-"If we define a variable inside of a function, only that function can use "
-"it."
+"variables are [b]script-wide[/b]."
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:214
-#: course/lesson-12-using-variables/lesson.tres:215
 msgid "Outside of functions."
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:214
-#: course/lesson-12-using-variables/lesson.tres:215
 msgid "Inside of functions."
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:224
 msgid ""
 "Variables are also great at grouping values that control how a character "
-"behaves.\n"
-"\n"
-"Grouping them in this way allows us to easily change them."
+"behaves."
+msgstr ""
+
+msgid "Grouping them in this way allows us to easily change them."
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:246
@@ -182,40 +192,43 @@ msgid "Clarifying Code Using Variables"
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:255
-msgid ""
-"Let's give the [code]4[/code] here a label so we know what it does.\n"
-"\n"
-"Create a variable called [code]angular_speed[/code] outside of the "
-"[code]_process()[/code] function to make it script-wide. This allows us "
-"to use it in other functions too.\n"
-"\n"
-"Then, replace the [code]4[/code] with [code]angular_speed[/code]."
+msgid "Let's give the [code]4[/code] here a label so we know what it does."
 msgstr ""
 
-#: course/lesson-12-using-variables/lesson.tres:269
+msgid ""
+"Create a variable called [code]angular_speed[/code] outside of the "
+"[code]_process()[/code] function to make it script-wide. This allows us "
+"to use it in other functions too."
+msgstr ""
+
+msgid "Then, replace the [code]4[/code] with [code]angular_speed[/code]."
+msgstr ""
+
+#: course/lesson-12-using-variables/lesson.tres:270
 msgid ""
 "Using variables to store number values makes code easier to read. Tidy up"
 " this function by storing a value in a variable."
 msgstr ""
 
-#: course/lesson-12-using-variables/lesson.tres:274
+#: course/lesson-12-using-variables/lesson.tres:275
 msgid "Fixing an Out of Scope Error"
 msgstr ""
 
-#: course/lesson-12-using-variables/lesson.tres:275
-msgid ""
-"There's something wrong with the code here. Can you see what it is?\n"
-"\n"
-"Run the code and read the error.\n"
-"\n"
-"Correct the code so it works as intended."
+#: course/lesson-12-using-variables/lesson.tres:276
+msgid "There's something wrong with the code here. Can you see what it is?"
 msgstr ""
 
-#: course/lesson-12-using-variables/lesson.tres:293
+msgid "Run the code and read the error."
+msgstr ""
+
+msgid "Correct the code so it works as intended."
+msgstr ""
+
+#: course/lesson-12-using-variables/lesson.tres:295
 msgid "Uh oh! There's something wrong here. Can you fix it?"
 msgstr ""
 
-#: course/lesson-12-using-variables/lesson.tres:297
+#: course/lesson-12-using-variables/lesson.tres:299
 msgid "Using Variables to Make Code Easier to Read"
 msgstr ""
 

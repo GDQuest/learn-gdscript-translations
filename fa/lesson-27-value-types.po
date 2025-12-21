@@ -1,8 +1,8 @@
-# Translations template for Learn GDScript From Zero.
-# Copyright (C) 2023 GDQuest
+# Persian translations for Learn GDScript From.
+# Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the Learn GDScript From
-# Zero project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
@@ -11,22 +11,27 @@ msgstr ""
 "POT-Creation-Date: 2023-12-09 20:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
 "Language: fa\n"
+"Language-Team: none\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-27-value-types/lesson.tres:13
 msgid ""
 "In your code, values have a particular [i]type[/i]. You have already "
 "learned about several: whole numbers, decimal numbers, strings, 2D "
-"vectors, arrays, and dictionaries.\n"
-"\n"
+"vectors, arrays, and dictionaries."
+msgstr ""
+
+msgid ""
 "The computer uses the type of a value to know which operations and "
-"functions you can use with them.\n"
-"\n"
+"functions you can use with them."
+msgstr ""
+
+msgid ""
 "As a result, it's essential to understand types: they are not fully "
 "compatible with one another, and misusing them will cause errors."
 msgstr ""
@@ -45,9 +50,10 @@ msgstr ""
 #: course/lesson-27-value-types/lesson.tres:47
 msgid ""
 "However, to display it on the player's screen, the computer wants text: "
-"it needs a value of type [code]String[/code].\n"
-"\n"
-"You can concatenate two strings with the [code]+[/code] operator."
+"it needs a value of type [code]String[/code]."
+msgstr ""
+
+msgid "You can concatenate two strings with the [code]+[/code] operator."
 msgstr ""
 
 #: course/lesson-27-value-types/lesson.tres:69
@@ -61,8 +67,10 @@ msgstr ""
 #: course/lesson-27-value-types/lesson.tres:109
 msgid ""
 "It tells you can't add values of type [code]String[/code] and "
-"[code]int[/code]: they're incompatible.\n"
-"\n"
+"[code]int[/code]: they're incompatible."
+msgstr ""
+
+msgid ""
 "In that case, you need to convert the [code]health[/code] number into a "
 "[code]String[/code]."
 msgstr ""
@@ -75,8 +83,10 @@ msgstr ""
 msgid ""
 "You can get the text representation of a value by calling the "
 "[code]str()[/code] function (short for \"string\"). The function returns "
-"its argument as a new [code]String[/code].\n"
-"\n"
+"its argument as a new [code]String[/code]."
+msgstr ""
+
+msgid ""
 "You can use this function whenever you want to turn some number or vector"
 " into text."
 msgstr ""
@@ -95,8 +105,10 @@ msgstr ""
 #: course/lesson-27-value-types/lesson.tres:153
 msgid ""
 "You can also convert strings into whole numbers or decimal numbers using "
-"respectively the [code]int()[/code] and [code]float()[/code] functions.\n"
-"\n"
+"respectively the [code]int()[/code] and [code]float()[/code] functions."
+msgstr ""
+
+msgid ""
 "Those functions can convert what the player writes in a text field into a"
 " number. For example, the number of potions to sell at once in a shop."
 msgstr ""
@@ -108,17 +120,21 @@ msgstr ""
 #: course/lesson-27-value-types/lesson.tres:175
 msgid ""
 "Most types are incompatible. For example, you can't directly add or "
-"multiply an array with a number.\n"
-"\n"
+"multiply an array with a number."
+msgstr ""
+
+msgid ""
 "However, some types are [i]partially[/i] compatible. For example, you can"
-" multiply or divide a vector by a number. "
+" multiply or divide a vector by a number."
 msgstr ""
 
 #: course/lesson-27-value-types/lesson.tres:197
 msgid ""
 "It is possible because other developers defined that operation for you "
-"under the hood.\n"
-"\n"
+"under the hood."
+msgstr ""
+
+msgid ""
 "However, you cannot directly add or subtract a number to a vector. You'll"
 " get an error. That's why, in earlier lessons, you had to access the sub-"
 "variables of [code]position[/code] to add numbers to them."
@@ -135,15 +151,18 @@ msgid ""
 msgstr ""
 
 #: course/lesson-27-value-types/lesson.tres:229
+msgid "Well, for the computer, the result of [code]3/2[/code] is [code]1[/code]."
+msgstr ""
+
+msgid "Wait, what?!"
+msgstr ""
+
 msgid ""
-"Well, for the computer, the result of [code]3/2[/code] is [code]1[/code]."
-"\n"
-"\n"
-"Wait, what?!\n"
-"\n"
 "That's because, for the computer, the division of two whole numbers "
-"should always result in a whole number.\n"
-"\n"
+"should always result in a whole number."
+msgstr ""
+
+msgid ""
 "When you divide decimal numbers instead, you will get a decimal number as"
 " a result."
 msgstr ""
@@ -151,12 +170,14 @@ msgstr ""
 #: course/lesson-27-value-types/lesson.tres:255
 msgid ""
 "Even if it's just a [code]0[/code], adding a decimal place tells the "
-"computer we want decimal numbers.\n"
-"\n"
+"computer we want decimal numbers."
+msgstr ""
+
+msgid ""
 "This shows you how mindful you need to be with types. Otherwise, you will"
 " get unexpected results. It can get pretty serious: number errors can "
 "lead to bugs like controls not working as intended or charging the wrong "
-"price to players. "
+"price to players."
 msgstr ""
 
 #: course/lesson-27-value-types/lesson.tres:265
@@ -166,16 +187,21 @@ msgstr ""
 #: course/lesson-27-value-types/lesson.tres:267
 msgid ""
 "Programming beginners often struggle due to the lack of understanding of "
-"types.\n"
-"\n"
+"types."
+msgstr ""
+
+msgid ""
 "Languages like GDScript hide the types from you by default. As a result, "
 "if you don't understand that some are incompatible, you can get stuck "
-"when facing type-related errors.\n"
-"\n"
+"when facing type-related errors."
+msgstr ""
+
+msgid ""
 "You'll want to keep that in mind in your learning journey. When writing "
-"code, you will need to understand everything that's happening.\n"
-"\n"
-"That said, let's practice some type conversions."
+"code, you will need to understand everything that's happening."
+msgstr ""
+
+msgid "That said, let's practice some type conversions."
 msgstr ""
 
 #: course/lesson-27-value-types/lesson.tres:281
@@ -183,16 +209,20 @@ msgid "Displaying the player's health and energy"
 msgstr ""
 
 #: course/lesson-27-value-types/lesson.tres:282
+msgid "We want to display the player's energy in the user interface."
+msgstr ""
+
 msgid ""
-"We want to display the player's energy in the user interface.\n"
-"\n"
 "Currently, our code has a type error. We're trying to display a whole "
 "number while the [code]display_energy()[/code] function expects a string."
-"\n"
-"\n"
+msgstr ""
+
+msgid ""
 "Using the [code]str()[/code] function, clear the type error and make the "
-"energy amount display on the interface.\n"
-"\n"
+"energy amount display on the interface."
+msgstr ""
+
+msgid ""
 "You can't change the [code]energy[/code] variable definition: setting it "
 "to [code]\"80\"[/code] would break the rest of the game's code. You must "
 "convert the value when calling [code]display_energy()[/code]."
@@ -211,14 +241,20 @@ msgstr ""
 #: course/lesson-27-value-types/lesson.tres:306
 msgid ""
 "In our game's shops, we want to let the player type numbers to select the"
-" number of items they want to buy or sell.\n"
-"\n"
+" number of items they want to buy or sell."
+msgstr ""
+
+msgid ""
 "We need to know the number of items as an [code]int[/code], but the "
-"computer reads the player's input as a [code]String[/code].\n"
-"\n"
+"computer reads the player's input as a [code]String[/code]."
+msgstr ""
+
+msgid ""
 "Your task is to convert the player's input into numbers for the shop's "
-"code to work.\n"
-"\n"
+"code to work."
+msgstr ""
+
+msgid ""
 "Using the [code]int()[/code] function, convert the player's input into a "
 "whole number and store the result in the [code]item_count[/code] "
 "variable."
@@ -233,3 +269,4 @@ msgstr ""
 #: course/lesson-27-value-types/lesson.tres:330
 msgid "Value types"
 msgstr ""
+

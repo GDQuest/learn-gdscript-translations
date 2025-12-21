@@ -1,7 +1,7 @@
-# Translations template for Learn GDScript From Zero.
-# Copyright (C) 2022 GDQuest
+# Thai translations for Learn GDScript From.
+# Copyright (C) 2022 ORGANIZATION
 # This file is distributed under the same license as the Learn GDScript From
-# Zero project.
+# project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
@@ -11,45 +11,48 @@ msgstr ""
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2022-10-05 23:12+0000\n"
 "Last-Translator: watchakorn-18k <porton2559@gmail.com>\n"
-"Language-Team: Thai <https://hosted.weblate.org/projects/learn-gdscript-from-"
-"zero/lesson-2-your-first-error/th/>\n"
 "Language: th\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Thai <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-2-your-first-error/th/>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
-"Generated-By: Babel 2.10.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-2-your-first-error/lesson.tres:14
 #, fuzzy
-msgid ""
-"When you program, you are bound to run into errors. Tons of them.\n"
-"\n"
-"But you shouldn't worry! On the computer, [b]errors are a good thing[/b].\n"
-"\n"
-"You will encounter errors, and [i]that's okay[/i]: every programmer does. "
-"Especially professionals.\n"
-"\n"
-"At school, maybe you learned that mistakes are a bad thing. When you code "
-"something, it's not the case: [b]errors help you write correct programs[/b] "
-"because they show you what is wrong in your programs."
+msgid "When you program, you are bound to run into errors. Tons of them."
+msgstr "เมื่อคุณเขียนโปรแกรมแล้ว คุณจะต้องพบกับข้อผิดพลาดเป็นจำนวนมาก"
+
+msgid "But you shouldn't worry! On the computer, [b]errors are a good thing[/b]."
 msgstr ""
-"เมื่อคุณเขียนโปรแกรมแล้ว คุณจะต้องพบกับข้อผิดพลาดเป็นจำนวนมาก\n"
-"\n"
-"แต่คุณไม่ต้องห่วงไปนะ! บนคอมพิวเตอร์ [b]การพบข้อผิดพลาดนี่เป็นสิ่งที่ดี[/b]\n"
-"\n"
+"แต่คุณไม่ต้องห่วงไปนะ! บนคอมพิวเตอร์ "
+"[b]การพบข้อผิดพลาดนี่เป็นสิ่งที่ดี[/b]"
+
+msgid ""
+"You will encounter errors, and [i]that's okay[/i]: every programmer does."
+" Especially professionals."
+msgstr ""
 "การที่คุณพบข้อผิดพลาดมัน [i]ไม่เป็นอะไรหรอก[/i]: "
-"โปรแกรมเมอร์ทุกคนต้องเจอโดยเฉพาะเหล่ามืออาชีพ\n"
-"\n"
-"ที่โรงเรียน คุณอาจจะได้เรียนรู้ว่าความผิดพลาดเป็นสิ่งไม่ดี แต่เมื่อคุณเขียนโค้ดบางอย่าง "
-"มันก็ไม่เป็นเช่นนั้น: [b]ข้อผิดพลาดจะช่วยให้คุณเขียนโปรแกรมที่ถูกต้องขึ้น[/b]"
+"โปรแกรมเมอร์ทุกคนต้องเจอโดยเฉพาะเหล่ามืออาชีพ"
+
+msgid ""
+"At school, maybe you learned that mistakes are a bad thing. When you code"
+" something, it's not the case: [b]errors help you write correct "
+"programs[/b] because they show you what is wrong in your programs."
+msgstr ""
+"ที่โรงเรียน คุณอาจจะได้เรียนรู้ว่าความผิดพลาดเป็นสิ่งไม่ดี "
+"แต่เมื่อคุณเขียนโค้ดบางอย่าง มันก็ไม่เป็นเช่นนั้น: "
+"[b]ข้อผิดพลาดจะช่วยให้คุณเขียนโปรแกรมที่ถูกต้องขึ้น[/b]"
 
 #: course/lesson-2-your-first-error/lesson.tres:30
 msgid ""
-"A code error looks like this. It's a message that tells you some bit of your "
-"code doesn't work."
-msgstr "โค้ดที่ผิดพลาดมีลักษณะเป็นแบบนี้ มันเป็นข้อความที่จะบอกคุณว่าโค้ดบางส่วนของคุณใช้งานไม่ได้นะ"
+"A code error looks like this. It's a message that tells you some bit of "
+"your code doesn't work."
+msgstr ""
+"โค้ดที่ผิดพลาดมีลักษณะเป็นแบบนี้ "
+"มันเป็นข้อความที่จะบอกคุณว่าโค้ดบางส่วนของคุณใช้งานไม่ได้นะ"
 
 #: course/lesson-2-your-first-error/lesson.tres:48
 msgid "Making errors friendlier"
@@ -57,44 +60,42 @@ msgstr "ทำให้ข้อผิดพลาดนี้เป็นมิ
 
 #: course/lesson-2-your-first-error/lesson.tres:50
 msgid ""
-"Error messages can look a bit cryptic. This is because they're designed by "
-"programmers, for trained programmers.\n"
-"\n"
-"We added an error translator in this app that will help you get started.\n"
-"\n"
-"It shows you why an error happens and what the message means. It also gives "
-"you some tips on how to fix it."
+"Error messages can look a bit cryptic. This is because they're designed "
+"by programmers, for trained programmers."
 msgstr ""
 "ข้อความที่แสดงข้อผิดพลาดอาจดูคลุมเครือนิดหน่อย "
 "เนื่องจากมันได้รับการออกแบบโดยเหล่าโปรแกรมเมอร์ "
-"สำหรับเหล่าโปรแกรมเมอร์ที่ผ่านการฝึกฝนอบรมมาแล้ว\n"
-"\n"
-"เราได้เพิ่มตัวแปลข้อผิดพลาดในแอปนี้ซึ่งจะช่วยสำหรับการเริ่มต้นของคุณได้\n"
-"\n"
-"มันจะแสดงให้คุณเห็นว่าเพราะอะไรถึงเกิดข้อผิดพลาดและข้อความนั้นๆหมายถึงอะไร "
-"นอกจากนี้ยังให้คำแนะนำเกี่ยวกับวิธีการแก้ไขอีกด้วย"
+"สำหรับเหล่าโปรแกรมเมอร์ที่ผ่านการฝึกฝนอบรมมาแล้ว"
+
+msgid "We added an error translator in this app that will help you get started."
+msgstr "เราได้เพิ่มตัวแปลข้อผิดพลาดในแอปนี้ซึ่งจะช่วยสำหรับการเริ่มต้นของคุณได้"
+
+msgid ""
+"It shows you why an error happens and what the message means. It also "
+"gives you some tips on how to fix it."
+msgstr ""
+"มันจะแสดงให้คุณเห็นว่าเพราะอะไรถึงเกิดข้อผิดพลาดและข้อความนั้นๆหมายถึงอะไร"
+" นอกจากนี้ยังให้คำแนะนำเกี่ยวกับวิธีการแก้ไขอีกด้วย"
 
 #: course/lesson-2-your-first-error/lesson.tres:74
 #, fuzzy
 msgid ""
-"Error messages are designed on purpose by fellow programmers who came before "
-"you. They anticipated you might have specific issues and wanted to help you "
-"fix them.\n"
-"\n"
-"You shouldn't think of errors as failures. They are like mentors helping you "
-"from the past. Importantly, errors won't break your computer. At least not "
-"with GDScript because it's a pretty safe language.\n"
-"\n"
-"Ultimately, you want to fix all the errors in your program. Understanding "
-"what is causing the errors, with the help of error messages, is key to "
+"Error messages are designed on purpose by fellow programmers who came "
+"before you. They anticipated you might have specific issues and wanted to"
+" help you fix them."
+msgstr ""
+
+msgid ""
+"You shouldn't think of errors as failures. They are like mentors helping "
+"you from the past. Importantly, errors won't break your computer. At "
+"least not with GDScript because it's a pretty safe language."
+msgstr ""
+
+msgid ""
+"Ultimately, you want to fix all the errors in your program. Understanding"
+" what is causing the errors, with the help of error messages, is key to "
 "fixing them."
 msgstr ""
-"ข้อผิดพลาดคือข้อความที่ออกแบบมาโดยเจตนาจากเหล่าโปรแกรมเมอร์คนอื่นๆ ที่มาก่อนคุณ "
-"พวกเขาคาดเอาไว้ว่าคุณอาจมีปัญหาได้\n"
-"\n"
-"คุณไม่ควรคิดว่าข้อผิดพลาดพวกนี้เป็นความล้มเหลว "
-"พวกเขาเหมือนกับพี่เลี้ยงที่ช่วยเหลือคุณจากอดีตและที่สำคัญข้อผิดพลาดจะไม่ทำให้คอมพิวเตอร์ของคุณเสียหายแน่นอนอย่างน้อยก็ไม่ใช่กับ "
-"GDScript แหละนะ เพราะมันเป็นภาษาที่ค่อนข้างปลอดภัย"
 
 #: course/lesson-2-your-first-error/lesson.tres:86
 #, fuzzy
@@ -103,16 +104,16 @@ msgstr "ข้อผิดพลาดเป็นสิ่งที่ดีห
 
 #: course/lesson-2-your-first-error/lesson.tres:89
 #, fuzzy
+msgid "Yes, error messages are here to help you!"
+msgstr "ดี ข้อผิดพลาดอยู่เพื่อช่วยเหลือคุณ!"
+
 msgid ""
-"Yes, error messages are here to help you!\n"
-"\n"
-"Pay attention to them, and do your best to read and understand them. With "
-"experience, you'll learn to make your code work more reliably thanks to "
+"Pay attention to them, and do your best to read and understand them. With"
+" experience, you'll learn to make your code work more reliably thanks to "
 "error messages."
 msgstr ""
-"ดี ข้อผิดพลาดอยู่เพื่อช่วยเหลือคุณ!\n"
-"\n"
-"ให้ความสนใจกับพวกมันและพยายามอย่างเต็มที่ในการอ่านและทำความเข้าใจมันด้วยประสบการณ์ "
+"ให้ความสนใจกับพวกมันและพยายามอย่างเต็มที่ในการอ่านและทำความเข้าใจมันด้วยประสบการณ์"
+" "
 "คุณจะได้เรียนรู้วิธีที่จะทำให้โค้ดของคุณทำงานได้อย่างน่าเชื่อถือมากขึ้นจากข้อความที่แสดงข้อผิดพลาด"
 
 #: course/lesson-2-your-first-error/lesson.tres:92
@@ -127,8 +128,8 @@ msgstr "พวกมันดี พวกมันพร้อมให้ค�
 
 #: course/lesson-2-your-first-error/lesson.tres:102
 msgid ""
-"Okay, let's see an error in action. Once again, click the [i]Practice[/i] "
-"button below to face your first real error."
+"Okay, let's see an error in action. Once again, click the [i]Practice[/i]"
+" button below to face your first real error."
 msgstr ""
 "เอาหล่ะ งั้นมาดูข้อผิดพลาดกันอีกครั้งเถอะ คลิกที่ปุ่ม [i]แบบฝึกหัด[/i] "
 "ด้านล่างเพื่อเผชิญกับข้อผิดพลาดของจริงครั้งแรกของคุณ"
@@ -138,32 +139,30 @@ msgid "Fix Your First Error"
 msgstr "แก้ไขข้อผิดพลาดแรกของคุณ"
 
 #: course/lesson-2-your-first-error/lesson.tres:111
+msgid "This code is incorrect and will cause an error when you try to run it."
+msgstr "โค้ดนี้ไม่ถูกต้องและมันจะทำให้เกิดข้อผิดพลาดเมื่อคุณพยายามเรียกใช้"
+
+msgid "The code defines an empty function named [code]this_code_is_wrong[/code]."
+msgstr "โค้ดกำหนดฟังก์ชันว่างที่มีชื่อว่า [code]this_code_is_wrong[/code]."
+
 msgid ""
-"This code is incorrect and will cause an error when you try to run it.\n"
-"\n"
-"The code defines an empty function named [code]this_code_is_wrong[/code].\n"
-"\n"
-"To work, the function should use the [code]return[/code] keyword. But this "
-"keyword is currently inside a comment, which the computer ignores.\n"
-"\n"
-"Test the current code by pressing the [i]Run[/i] button.\n"
-"\n"
-"Then, remove the comment sign (#) to make the code valid.\n"
-"\n"
-"Be careful not to remove the spacing before [code]return[/code]! Otherwise, "
-"that'll cause another error. You may try that too, if you feel like it."
+"To work, the function should use the [code]return[/code] keyword. But "
+"this keyword is currently inside a comment, which the computer ignores."
 msgstr ""
-"โค้ดนี้ไม่ถูกต้องและมันจะทำให้เกิดข้อผิดพลาดเมื่อคุณพยายามเรียกใช้\n"
-"\n"
-"โค้ดกำหนดฟังก์ชันว่างที่มีชื่อว่า [code]this_code_is_wrong[/code].\n"
-"\n"
 "ในการทำงาน ฟังก์ชันควรใช้คำสงวน [code]return[/code] "
-"แต่ขณะนี้คำสงวนนี้อยู่ในคำอธิบายซึ่งคอมพิวเตอร์จะไม่สนใจ\n"
-"\n"
-"ทดสอบโค้ดปัจจุบันโดยกดปุ่ม [i]เรียกใช้[/i]\n"
-"\n"
-"จากนั้นลบเครื่องหมายคำอธิบายออก (#) เพื่อให้โค้ดทำงานได้ถูกต้อง\n"
-"\n"
+"แต่ขณะนี้คำสงวนนี้อยู่ในคำอธิบายซึ่งคอมพิวเตอร์จะไม่สนใจ"
+
+msgid "Test the current code by pressing the [i]Run[/i] button."
+msgstr "ทดสอบโค้ดปัจจุบันโดยกดปุ่ม [i]เรียกใช้[/i]"
+
+msgid "Then, remove the comment sign (#) to make the code valid."
+msgstr "จากนั้นลบเครื่องหมายคำอธิบายออก (#) เพื่อให้โค้ดทำงานได้ถูกต้อง"
+
+msgid ""
+"Be careful not to remove the spacing before [code]return[/code]! "
+"Otherwise, that'll cause another error. You may try that too, if you feel"
+" like it."
+msgstr ""
 "ระวังอย่าลบระยะห่างก่อน [code]return[/code] ออกไป! ไม่อย่างนั้น "
 "จะทำให้เกิดข้อผิดพลาดอื่นๆได้หรือคุณอาจลองดูถ้าหากว่าคุณรู้สึกชอบ"
 
@@ -174,3 +173,4 @@ msgstr "มีข้อผิดพลาดในโค้ดนี้ เร�
 #: course/lesson-2-your-first-error/lesson.tres:135
 msgid "Your First Error"
 msgstr "ข้อผิดพลาดครั้งแรกของคุณ"
+

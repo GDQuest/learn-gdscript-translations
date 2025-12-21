@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2025-06-14 15:02+0200\n"
+"POT-Creation-Date: 2025-12-21 20:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: resources/QuizInputField.gd:17
 msgid "You need to type a whole number for this answer. Example: 42"
@@ -52,35 +52,41 @@ msgstr ""
 msgid "CHRISTMAS SALE"
 msgstr ""
 
-#: ui/UIPractice.gd:154 ui/UIPractice.gd:220
+#: ui/UIPractice.gd:153
 #, python-format
 msgid "Hint %s"
 msgstr ""
 
-#: ui/UIPractice.gd:248
+#: ui/UIPractice.gd:257
 msgid "Validating Your Code..."
 msgstr ""
 
-#: ui/UIPractice.gd:268
+#: ui/UIPractice.gd:280
 #, python-format
 msgid "The function `%s` calls itself, this creates an infinite loop"
 msgstr ""
 
-#: ui/UIPractice.gd:301
+#: ui/UIPractice.gd:292
+msgid ""
+"You have a while loop that runs forever (while true) without a break "
+"statement. This will freeze the app."
+msgstr ""
+
+#: ui/UIPractice.gd:323
 msgid "Running Your Code..."
 msgstr ""
 
-#: ui/UIPractice.gd:331
+#: ui/UIPractice.gd:354
 msgid ""
 "There is a division by zero in your code. You cannot divide by zero in "
 "code. Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr ""
 
-#: ui/UIPractice.gd:346
+#: ui/UIPractice.gd:369
 msgid "Oh no! The script has an error, but the Script Verifier did not catch it"
 msgstr ""
 
-#: ui/UIPractice.gd:372
+#: ui/UIPractice.gd:398
 msgid "Running Tests..."
 msgstr ""
 
@@ -100,34 +106,31 @@ msgstr ""
 msgid "Button"
 msgstr ""
 
-#: ui/components/CodeEditor.tscn:144
+#: ui/components/CodeEditor.tscn:143
 msgid "Run"
 msgstr ""
 
-#: ui/components/CodeEditor.tscn:158
+#: ui/components/CodeEditor.tscn:157
 msgid "Pause"
 msgstr ""
 
-#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:87
+#: ui/components/CodeEditor.tscn:172
 msgid "Reset"
 msgstr ""
 
-#: ui/components/CodeEditor.tscn:195
+#: ui/components/CodeEditor.tscn:194
 msgid "Solution"
 msgstr ""
 
-#: ui/components/CodeEditor.tscn:209 ui/components/OutputConsole.tscn:43
+#: ui/components/CodeEditor.tscn:208
 msgid "Output"
 msgstr ""
 
-#: ui/components/CodeEditor.tscn:224
-#: ui/components/popups/LessonDonePopup.tscn:198
-#: ui/components/popups/PracticeDonePopup.tscn:165
+#: ui/components/CodeEditor.tscn:223
 msgid "Continue"
 msgstr ""
 
 #: ui/components/DebuggerConsoleMonitoredVariable.tscn:20
-#: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
 msgstr ""
 
@@ -146,7 +149,6 @@ msgid "Term"
 msgstr ""
 
 #: ui/components/GlossaryPopup.tscn:53
-#: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
 msgstr ""
 
@@ -155,8 +157,6 @@ msgid "ERROR:"
 msgstr ""
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
-#: ui/components/ScrollableTextBox.tscn:43
-#: ui/screens/lesson/UIContentBlock.tscn:68
 msgid "Placeholder text"
 msgstr ""
 
@@ -208,7 +208,7 @@ msgid ""
 msgstr ""
 
 #: ui/components/SalePopup.tscn:132
-msgid "Only until "
+msgid "Only until"
 msgstr ""
 
 #: ui/components/SalePopup.tscn:155
@@ -220,12 +220,10 @@ msgid "X"
 msgstr ""
 
 #: ui/components/popups/ConfirmPopup.tscn:115
-#: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
 msgid "Confirm"
 msgstr ""
 
 #: ui/components/popups/ConfirmPopup.tscn:127
-#: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
 msgid "Cancel"
 msgstr ""
 
@@ -246,14 +244,16 @@ msgid "Our suggestion on how to fix it."
 msgstr ""
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:102
+msgid "Sorry, we don't have this particular error message covered yet!"
+msgstr ""
+
 msgid ""
-"Sorry, we don't have this particular error message covered yet!\n"
-"\n"
 "Please, use the [b]Report[/b] button in the top-right corner to tell us "
 "more about how you've got it, and we will try to improve our knowledge "
-"base for the next version of the application.\n"
-"\n"
-"[center]Thank you![/center]"
+"base for the next version of the application."
+msgstr ""
+
+msgid "[center]Thank you![/center]"
 msgstr ""
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:128
@@ -268,12 +268,16 @@ msgstr ""
 msgid ""
 "Lessons in this course are designed so you only need to edit the "
 "[b]important bits[/b]. But there is much more code outside of what you "
-"see that makes the project run.\n"
-"\n"
+"see that makes the project run."
+msgstr ""
+
+msgid ""
 "This means that sometimes changes you make can affect code you have no "
 "control over. But don't worry, you can still fix all the issues yourself "
-"with the code you [b]can[/b] edit!\n"
-"\n"
+"with the code you [b]can[/b] edit!"
+msgstr ""
+
+msgid ""
 "[i]This is like how game engines work too.[/i] There is a lot of hidden "
 "code that they execute to ensure your project runs smoothly. And yet, an "
 "error in your scripts can break them. We'll try to explain how to address"
@@ -302,7 +306,6 @@ msgid ""
 msgstr ""
 
 #: ui/components/popups/LessonDonePopup.tscn:183
-#: ui/components/popups/PracticeDonePopup.tscn:144
 msgid "Stay"
 msgstr ""
 
@@ -325,7 +328,6 @@ msgid "Practice List"
 msgstr ""
 
 #: ui/components/popups/PracticeListPopup.tscn:115
-#: ui/components/popups/SettingsPopup.tscn:283
 msgid "Close"
 msgstr ""
 
@@ -336,43 +338,63 @@ msgstr ""
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
 "If you face an issue in the app, please click the link below to report it"
-" on GitHub:\n"
-"\n"
+" on GitHub:"
+msgstr ""
+
+msgid ""
 "[center][b][url=https://github.com/GDQuest/learn-"
 "gdscript/issues]GitHub.com > GDQuest > learn-gdscript > "
-"Issues[/url][/b][/center]\n"
-"\n"
+"Issues[/url][/b][/center]"
+msgstr ""
+
+msgid ""
 "On that page, you can report any issues, whether something's not working "
-"or there's an error in a lesson.\n"
-"\n"
+"or there's an error in a lesson."
+msgstr ""
+
+msgid ""
 "You can generate a log to help us identify the problem. To do so, click "
-"here: [b][url=download]generate error log[/url][/b].\n"
-"\n"
+"here: [b][url=download]generate error log[/url][/b]."
+msgstr ""
+
+msgid ""
 "Please drag and drop the generated file onto your issue on GitHub to "
-"attach it.\n"
-"\n"
-"[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]\n"
-"\n"
+"attach it."
+msgstr ""
+
+msgid "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]"
+msgstr ""
+
+msgid ""
 "GitHub is an online platform to host and manage open-source projects like"
 " the GDScript Learn app. It helps developers organize their work and "
-"collaborate online.\n"
-"\n"
+"collaborate online."
+msgstr ""
+
+msgid ""
 "You can use GitHub to study the source code of many open projects, report"
-" issues, or even contribute code yourself.\n"
-"\n"
-"[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]\n"
-"\n"
+" issues, or even contribute code yourself."
+msgstr ""
+
+msgid "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]"
+msgstr ""
+
+msgid ""
 "1. Click the link above to get to the [i]GitHub Issues[/i] page.\n"
 "2. Click on the [i]New Issue[/i] button.\n"
-"3. Fill out the form to tell us more about your problem.\n"
-"\n"
-"You will need a GitHub account to do so.\n"
-"\n"
+"3. Fill out the form to tell us more about your problem."
+msgstr ""
+
+msgid "You will need a GitHub account to do so."
+msgstr ""
+
+msgid ""
 "Please add as much relevant information as possible, such as the kind of "
 "device you're using to access the app, and maybe attach a screenshot or "
-"video clip showcasing the issue.\n"
-"\n"
-"[center]Thank you for contributing to open source![/center]"
+"video clip showcasing the issue."
+msgstr ""
+
+msgid "[center]Thank you for contributing to open source![/center]"
 msgstr ""
 
 #: ui/components/popups/ReportFormPopup.tscn:158
@@ -444,7 +466,6 @@ msgid "Quizzes completed"
 msgstr ""
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
-#: ui/screens/course_outliner/CourseLessonDetails.tscn:108
 msgid "0 / 0"
 msgstr ""
 
@@ -461,7 +482,7 @@ msgid "Lesson Title"
 msgstr ""
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
-msgid "Course Index - "
+msgid "Course Index -"
 msgstr ""
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
@@ -477,7 +498,6 @@ msgid "Confirm Resetting Progress"
 msgstr ""
 
 #: ui/screens/end_screen/EndScreen.tscn:310
-#: ui/screens/end_screen/EndScreen.tscn:323
 msgid "YOU MADE IT!"
 msgstr ""
 
@@ -543,8 +563,10 @@ msgstr ""
 msgid ""
 "At GDQuest, we’re educators at heart. We believe in applied study and we "
 "believe it doesn’t have to be boring. When teaching is done correctly, "
-"most people highly enjoy the sensation of leveling up!\n"
-"\n"
+"most people highly enjoy the sensation of leveling up!"
+msgstr ""
+
+msgid ""
 "That’s the reason we made this app. It is in fact part of our beginner "
 "course "
 "[b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn"
@@ -582,8 +604,10 @@ msgstr ""
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:211
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need "
-"to make games with the Godot game engine.\n"
-"\n"
+"to make games with the Godot game engine."
+msgstr ""
+
+msgid ""
 "You can keep learning with the free series "
 "[url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Getting"
 " Started with Godot[/url]."
@@ -594,9 +618,10 @@ msgid "This is an Open-Source project!"
 msgstr ""
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:231
+msgid "Like Godot, this app and course is free and open-source."
+msgstr ""
+
 msgid ""
-"Like Godot, this app and course is free and open-source. \n"
-"\n"
 "You can find the app's source code and contribute translations here: "
 "[url=https://github.com/GDQuest/learn-gdscript]Learn GDScript From Zero "
 "(Github repository)[/url]."
@@ -610,7 +635,7 @@ msgstr ""
 msgid "[b]Question[/b]"
 msgstr ""
 
-#: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
+#: ui/screens/lesson/UIBaseQuiz.tscn:80
 msgid "Explanation"
 msgstr ""
 
@@ -630,8 +655,7 @@ msgstr ""
 msgid "Answers here"
 msgstr ""
 
-#: ui/screens/lesson/UIContentBlock.gd:70
-#: ui/screens/lesson/UIContentBlock.gd:134
+#: ui/screens/lesson/UIContentBlock.gd:69
 msgid "Learn More"
 msgstr ""
 
@@ -708,23 +732,22 @@ msgid "CONTINUE"
 msgstr ""
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:46
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:629
 msgid "START"
 msgstr ""
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:647
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:651
 msgid "SELECT LESSON"
 msgstr ""
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:661
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:665
 msgid "OPTIONS"
 msgstr ""
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:695
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:699
 msgid "QUIT"
 msgstr ""
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:801
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:805
 msgid "An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
 msgstr ""
 

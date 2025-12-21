@@ -1,8 +1,8 @@
-# Translations template for Learn GDScript From Zero.
-# Copyright (C) 2022 GDQuest
+# Indonesian translations for Learn GDScript From.
+# Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the Learn GDScript From
-# Zero project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
@@ -10,51 +10,52 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
 "PO-Revision-Date: 2025-06-22 18:01+0000\n"
-"Last-Translator: Ahmad_Rofi_SI_UIN_2030803109 <ahmadrofikhosyi@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-24-access-array-indices/id/>\n"
+"Last-Translator: Ahmad_Rofi_SI_UIN_2030803109 <ahmadrofikhosyi@gmail.com>"
+"\n"
 "Language: id\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-24-access-array-indices/id/>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-24-access-array-indices/lesson.tres:14
 msgid ""
-"You learned to loop over all the values in an array using the [code]for[/"
-"code] keyword."
+"You learned to loop over all the values in an array using the "
+"[code]for[/code] keyword."
 msgstr ""
-"Anda telah belajar untuk melakukan perulangan pada semua nilai dalam sebuah "
-"aray menggunakan kata kunci [code]for[/code]."
+"Anda telah belajar untuk melakukan perulangan pada semua nilai dalam "
+"sebuah aray menggunakan kata kunci [code]for[/code]."
 
 #: course/lesson-24-access-array-indices/lesson.tres:34
 msgid ""
-"But what if you need to access the third item in the player's inventory? The "
-"tenth item?\n"
-"\n"
-"There's a dedicated notation to access one element in an array by index.\n"
-"\n"
-"To do so, you use square brackets with a number inside the brackets."
+"But what if you need to access the third item in the player's inventory? "
+"The tenth item?"
 msgstr ""
-"Tetapi bagaimana jika Anda perlu mengakses item ketiga di inventaris pemain? "
-"Item kesepuluh?\n"
-"\n"
+"Tetapi bagaimana jika Anda perlu mengakses item ketiga di inventaris "
+"pemain? Item kesepuluh?"
+
+msgid "There's a dedicated notation to access one element in an array by index."
+msgstr ""
 "Ada notasi khusus untuk mengakses satu elemen dalam array berdasarkan "
-"indeks.\n"
-"\n"
-"Untuk melakukannya, Anda menggunakan tanda kurung siku dengan nomor di dalam "
-"tanda kurung."
+"indeks."
+
+msgid "To do so, you use square brackets with a number inside the brackets."
+msgstr ""
+"Untuk melakukannya, Anda menggunakan tanda kurung siku dengan nomor di "
+"dalam tanda kurung."
 
 #: course/lesson-24-access-array-indices/lesson.tres:58
 msgid "Index zero is the [i]first[/i] element in the array."
 msgstr "Indeks nol adalah elemen [i]pertama[/i] dalam array."
 
 #: course/lesson-24-access-array-indices/lesson.tres:78
+msgid "Index one is the [i]second[/i] element in the array, and so on."
+msgstr ""
+
 msgid ""
-"Index one is the [i]second[/i] element in the array, and so on.\n"
-"\n"
 "You would access the [i]fourth[/i] element in the [code]inventory[/code] "
 "array like so."
 msgstr ""
@@ -67,8 +68,8 @@ msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:101
 msgid ""
-"Indices start at zero, so the index of the [i]third[/i] item is [code]2[/"
-"code]. That's why you need to write [code]inventory[2][/code]."
+"Indices start at zero, so the index of the [i]third[/i] item is "
+"[code]2[/code]. That's why you need to write [code]inventory[2][/code]."
 msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:102
@@ -87,17 +88,19 @@ msgstr ""
 #: course/lesson-24-access-array-indices/lesson.tres:112
 msgid ""
 "What if you want to access the last or second-before-last item in the "
-"[code]inventory[/code]?\n"
-"\n"
-"In that case, you can use negative indices. If you write [code]-1[/code] in "
-"the brackets, you will get the last item in the array. You will get the "
-"second-to-last item if you write [code]-2[/code]."
+"[code]inventory[/code]?"
+msgstr ""
+
+msgid ""
+"In that case, you can use negative indices. If you write [code]-1[/code] "
+"in the brackets, you will get the last item in the array. You will get "
+"the second-to-last item if you write [code]-2[/code]."
 msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:134
 msgid ""
-"That's very convenient when you need to quickly access elements from the end "
-"of the list."
+"That's very convenient when you need to quickly access elements from the "
+"end of the list."
 msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:142
@@ -106,13 +109,16 @@ msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:145
 msgid ""
-"When using negative indices, [code]-1[/code] means the [i]last[/i] element "
-"in the array. Index [code]-2[/code] will be the second-to-last, thus "
-"[code]-3[/code] will be the third-to-last.\n"
-"\n"
+"When using negative indices, [code]-1[/code] means the [i]last[/i] "
+"element in the array. Index [code]-2[/code] will be the second-to-last, "
+"thus [code]-3[/code] will be the third-to-last."
+msgstr ""
+
+msgid ""
 "It can be little confusing as it seems to work differently from positive "
-"indices. However, it's because there's no difference between index [code]0[/"
-"code] and [code]-0[/code]: they both point to the first item in the array."
+"indices. However, it's because there's no difference between index "
+"[code]0[/code] and [code]-0[/code]: they both point to the first item in "
+"the array."
 msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:148
@@ -130,32 +136,34 @@ msgstr "Anda tidak dapat mengakses indeks yang tidak ada"
 
 #: course/lesson-24-access-array-indices/lesson.tres:158
 msgid ""
-"There's a catch with this syntax: if you try to access an index that does "
-"not exist, you will get an error. You have to be careful always to access "
-"existing elements in the array.\n"
-"\n"
-"There are a couple of ways you can check for valid indices. One of them is "
-"checking the array's size."
+"There's a catch with this syntax: if you try to access an index that does"
+" not exist, you will get an error. You have to be careful always to "
+"access existing elements in the array."
 msgstr ""
 "Ada kendala dengan sintaks ini: jika Anda mencoba mengakses indeks yang "
-"tidak ada, Anda akan mendapatkan kesalahan. Anda harus selalu berhati-hati "
-"dalam mengakses elemen yang ada di array.\n"
-"\n"
-"Ada beberapa cara untuk memeriksa indeks yang valid. Salah satunya adalah "
-"memeriksa ukuran array."
+"tidak ada, Anda akan mendapatkan kesalahan. Anda harus selalu berhati-"
+"hati dalam mengakses elemen yang ada di array."
+
+msgid ""
+"There are a couple of ways you can check for valid indices. One of them "
+"is checking the array's size."
+msgstr ""
+"Ada beberapa cara untuk memeriksa indeks yang valid. Salah satunya adalah"
+" memeriksa ukuran array."
 
 #: course/lesson-24-access-array-indices/lesson.tres:170
+msgid "[b]Checking the size of the array[/b]"
+msgstr ""
+
 msgid ""
-"[b]Checking the size of the array[/b]\n"
-"\n"
-"Arrays come with a member function named [code]size()[/code]. You can call "
-"it on the array anytime to know its [i]current[/i] size."
+"Arrays come with a member function named [code]size()[/code]. You can "
+"call it on the array anytime to know its [i]current[/i] size."
 msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:192
 msgid ""
-"The maximum index you can access in an array is [code]array.size() - 1[/"
-"code]: it's the last item in the array."
+"The maximum index you can access in an array is [code]array.size() - "
+"1[/code]: it's the last item in the array."
 msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:212
@@ -170,26 +178,33 @@ msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:221
 msgid ""
-"In our game, the player has an inventory that works as an array under the "
-"hood.\n"
-"\n"
+"In our game, the player has an inventory that works as an array under the"
+" hood."
+msgstr ""
+
+msgid ""
 "The player knows they have a sword and a shield somewhere in their "
-"inventory, but they don't remember exactly where.\n"
-"\n"
-"You can see the inventory drawn on the right, along with the index of each "
-"item in the inventory.\n"
-"\n"
+"inventory, but they don't remember exactly where."
+msgstr ""
+
+msgid ""
+"You can see the inventory drawn on the right, along with the index of "
+"each item in the inventory."
+msgstr ""
+
+msgid ""
 "Your task is to find one sword and one shield in the array using their "
-"index, then call [code]use_item()[/code] on each of them so the player can "
-"equip those items.\n"
-"\n"
-"For example, if the first item in the array is what you need, you would call "
-"[code]use_item(inventory[0])[/code]."
+"index, then call [code]use_item()[/code] on each of them so the player "
+"can equip those items."
+msgstr ""
+
+msgid ""
+"For example, if the first item in the array is what you need, you would "
+"call [code]use_item(inventory[0])[/code]."
 msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:241
-msgid ""
-"Find the right items to use in the player's inventory, using their index."
+msgid "Find the right items to use in the player's inventory, using their index."
 msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:246
@@ -198,24 +213,29 @@ msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:247
 msgid ""
-"We have train tracks broken down into little chunks in our game. We use them "
-"to make modular tracks and draw circuits of all shapes and sizes.\n"
-"\n"
+"We have train tracks broken down into little chunks in our game. We use "
+"them to make modular tracks and draw circuits of all shapes and sizes."
+msgstr ""
+
+msgid ""
 "However, several chunks are misaligned. You need to find them in the "
 "[code]tracks[/code] array and pass them to the [code]align()[/code] "
-"function.\n"
-"\n"
-"To do so, you need to access the array by index.\n"
-"\n"
-"This time, though, you need to access them with [i]negative indices[/i]."
+"function."
+msgstr ""
+
+msgid "To do so, you need to access the array by index."
+msgstr ""
+
+msgid "This time, though, you need to access them with [i]negative indices[/i]."
 msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:265
 msgid ""
-"Some chunks of our train tracks are misaligned, and the train can't pass. "
-"Find the faulty pieces and realign them."
+"Some chunks of our train tracks are misaligned, and the train can't pass."
+" Find the faulty pieces and realign them."
 msgstr ""
 
 #: course/lesson-24-access-array-indices/lesson.tres:269
 msgid "Accessing values in arrays"
 msgstr ""
+

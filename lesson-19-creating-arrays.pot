@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2025-06-14 15:02+0200\n"
+"POT-Creation-Date: 2025-12-21 20:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-19-creating-arrays/lesson.tres:13
 msgid ""
@@ -29,8 +29,10 @@ msgstr ""
 msgid ""
 "A list of values, numbers or otherwise, has a precise name in code: we "
 "call it an [i]array[/i]. So we can say calling the [code]range()[/code] "
-"function produces an [i]array[/i] of numbers.\n"
-"\n"
+"function produces an [i]array[/i] of numbers."
+msgstr ""
+
+msgid ""
 "We could directly write and use that array inside our [code]for[/code] "
 "loop instead of the [code]range()[/code] function. You can run the next "
 "function step-by-step to see how it works."
@@ -42,9 +44,10 @@ msgid ""
 " a [code]for[/code] loop, we also create a local variable to which the "
 "loop assigns one value per iteration. Above, we named it "
 "[code]number[/code] because the array we loop over contains three numbers"
-" (0, 1, and 2).\n"
-"\n"
-"But we could name it anything we'd like!"
+" (0, 1, and 2)."
+msgstr ""
+
+msgid "But we could name it anything we'd like!"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.tres:77
@@ -65,8 +68,10 @@ msgstr ""
 msgid ""
 "You start with an opening square bracket. Then, you write comma-separated"
 " values that compose the array. Finally, you need a closing square "
-"bracket to complete the array.\n"
-"\n"
+"bracket to complete the array."
+msgstr ""
+
+msgid ""
 "Here are a couple of valid arrays. Notice how you can mix values, and how"
 " they don't need to follow one another."
 msgstr ""
@@ -75,8 +80,10 @@ msgstr ""
 msgid ""
 "Because arrays themselves are a value type, just like numbers or "
 "[code]Vector2[/code], we can assign arrays to variables to reaccess them "
-"later.\n"
-"\n"
+"later."
+msgstr ""
+
+msgid ""
 "That'll come in handy in the next lesson, where we'll use those variables"
 " in loops."
 msgstr ""
@@ -90,20 +97,25 @@ msgid "When you use arrays"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.tres:171
+msgid "In computer programming, we use arrays [i]all the time[/i]."
+msgstr ""
+
 msgid ""
-"In computer programming, we use arrays [i]all the time[/i].\n"
-"\n"
 "Precisely, you'll use them whenever you need to store a [i]list of "
-"things[/i].\n"
-"\n"
-"You always need lists of things in games:\n"
-"\n"
+"things[/i]."
+msgstr ""
+
+msgid "You always need lists of things in games:"
+msgstr ""
+
+msgid ""
 "- The player's party in an RPG.\n"
 "- The items in the player's inventory.\n"
 "- The high scores in an arcade game.\n"
-"- The objects in the game world.\n"
-"\n"
-"All of those and many more rely on arrays."
+"- The objects in the game world."
+msgstr ""
+
+msgid "All of those and many more rely on arrays."
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.tres:190
@@ -113,11 +125,15 @@ msgstr ""
 #: course/lesson-19-creating-arrays/lesson.tres:192
 msgid ""
 "Let's look at a widespread use of arrays in games: finding and following "
-"a path.\n"
-"\n"
+"a path."
+msgstr ""
+
+msgid ""
 "In games, you need allies or monsters to find their way to their target, "
-"whether it's the player or some point of interest.\n"
-"\n"
+"whether it's the player or some point of interest."
+msgstr ""
+
+msgid ""
 "To achieve that, we use [i]pathfinding algorithms[/i]. As the name "
 "suggests, those algorithms find the path between two points and allow AIs"
 " to traverse the game."
@@ -126,28 +142,33 @@ msgstr ""
 #: course/lesson-19-creating-arrays/lesson.tres:216
 msgid ""
 "Many of those algorithms use arrays of [code]Vector2[/code] coordinates "
-"to represent the path.\n"
-"\n"
+"to represent the path."
+msgstr ""
+
+msgid ""
 "Take this turtle pet. It wants to follow the robot, but there are rocks "
-"in the way.\n"
-"\n"
-"How can we tell it where to walk to reach the robot? With an array!"
+"in the way."
+msgstr ""
+
+msgid "How can we tell it where to walk to reach the robot? With an array!"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.tres:250
 msgid ""
 "Every value in the array is a [code]Vector2[/code] and represents a cell "
-"the turtle needs to walk through.\n"
-"\n"
-"Together, all the values in the array represent a path we can draw."
+"the turtle needs to walk through."
+msgstr ""
+
+msgid "Together, all the values in the array represent a path we can draw."
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.tres:272
 msgid ""
 "In upcoming lessons, you will see how we can use arrays to store player "
-"inventories or design attack combos.\n"
-"\n"
-"For now, let's practice creating arrays."
+"inventories or design attack combos."
+msgstr ""
+
+msgid "For now, let's practice creating arrays."
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.tres:282
@@ -155,51 +176,60 @@ msgid "Walking to the robot"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.tres:283
+msgid "The turtle wants to meet the robot! But it cannot find it on its own."
+msgstr ""
+
 msgid ""
-"The turtle wants to meet the robot! But it cannot find it on its own.\n"
-"\n"
 "Fill the [code]turtle_path[/code] array with [code]Vector2[/code] "
 "coordinates indicating where the turtle should move to avoid the "
-"obstacles and arrive safely to the robot.\n"
-"\n"
-"The turtle can move up, down, left, or right. It cannot move diagonally.\n"
-"\n"
+"obstacles and arrive safely to the robot."
+msgstr ""
+
+msgid "The turtle can move up, down, left, or right. It cannot move diagonally."
+msgstr ""
+
+msgid ""
 "We recommend copying and pasting to fill the array with comma-separated "
 "[code]Vector2[/code] values quickly."
 msgstr ""
 
-#: course/lesson-19-creating-arrays/lesson.tres:298
+#: course/lesson-19-creating-arrays/lesson.tres:299
 msgid ""
 "Help the turtle find its way to the robot! Give it a path to follow to "
 "reach the robot."
 msgstr ""
 
-#: course/lesson-19-creating-arrays/lesson.tres:303
+#: course/lesson-19-creating-arrays/lesson.tres:304
 msgid "Selecting units"
 msgstr ""
 
-#: course/lesson-19-creating-arrays/lesson.tres:304
+#: course/lesson-19-creating-arrays/lesson.tres:305
 msgid ""
 "In this tactical game, the player and computer can select multiple units "
 "at once. You need to call the [code]select_units()[/code] function and "
 "pass it an array of [code]Vector2[/code] coordinates to know which units "
-"to select.\n"
-"\n"
-"Each [code]Vector2[/code] in the array represents a cell with a unit.\n"
-"\n"
+"to select."
+msgstr ""
+
+msgid "Each [code]Vector2[/code] in the array represents a cell with a unit."
+msgstr ""
+
+msgid ""
 "You can pass arrays in function calls as arguments. As an array is a "
 "value type the computer recognizes, you can pass the whole array as a "
-"single function argument.\n"
-"\n"
+"single function argument."
+msgstr ""
+
+msgid ""
 "Select all units on the board by passing the correct array to the "
 "[code]select_units()[/code] function."
 msgstr ""
 
-#: course/lesson-19-creating-arrays/lesson.tres:320
+#: course/lesson-19-creating-arrays/lesson.tres:322
 msgid "Write an array to select all units on the board in this strategy game."
 msgstr ""
 
-#: course/lesson-19-creating-arrays/lesson.tres:324
+#: course/lesson-19-creating-arrays/lesson.tres:326
 msgid "Creating arrays"
 msgstr ""
 

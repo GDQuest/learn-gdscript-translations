@@ -1,8 +1,8 @@
-# Translations template for Learn GDScript From Zero.
-# Copyright (C) 2022 GDQuest
+# Indonesian translations for Learn GDScript From.
+# Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the Learn GDScript From
-# Zero project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
@@ -10,16 +10,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2025-06-14 15:02+0200\n"
 "PO-Revision-Date: 2025-06-22 18:01+0000\n"
-"Last-Translator: Ahmad_Rofi_SI_UIN_2030803109 <ahmadrofikhosyi@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/glossary_database/id/>\n"
+"Last-Translator: Ahmad_Rofi_SI_UIN_2030803109 <ahmadrofikhosyi@gmail.com>"
+"\n"
 "Language: id\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/glossary_database/id/>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #. Reference: member function
 #: course/glossary.csv:6
@@ -35,22 +35,25 @@ msgstr "fungsi anggota"
 #: course/glossary.csv:6
 msgid ""
 "Member functions are functions attached to a specific value type, like "
-"arrays, strings, or dictionaries. We also call them methods.\n"
-"\n"
-"For example, arrays have member functions like [code]array.append()[/code].\n"
-"\n"
+"arrays, strings, or dictionaries. We also call them methods."
+msgstr ""
+"Fungsi anggota (member functions) adalah fungsi yang melekat pada tipe "
+"nilai tertentu, seperti array, string, atau dictionaries. Fungsi-fungsi "
+"ini juga disebut metode."
+
+msgid ""
+"For example, arrays have member functions like "
+"[code]array.append()[/code]."
+msgstr ""
+"Sebagai contoh, array memiliki fungsi anggota seperti "
+"[code]array.append()[/code]."
+
+msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
-"Fungsi anggota (member functions) adalah fungsi yang melekat pada tipe nilai "
-"tertentu, seperti array, string, atau dictionaries. Fungsi-fungsi ini juga "
-"disebut metode.\n"
-"\n"
-"Sebagai contoh, array memiliki fungsi anggota seperti [code]array.append()"
-"[/code].\n"
-"\n"
-"Kamu hanya bisa memanggil fungsi tersebut pada array, menggunakan operator "
-"akses ([code].[/code]) seperti yang ditunjukkan di atas."
+"Kamu hanya bisa memanggil fungsi tersebut pada array, menggunakan "
+"operator akses ([code].[/code]) seperti yang ditunjukkan di atas."
 
 #. Reference: member variable
 #: course/glossary.csv:9
@@ -66,12 +69,14 @@ msgstr ""
 #: course/glossary.csv:9
 msgid ""
 "Member variables are variables attached to a specific value type, like a "
-"vector's [code]x[/code] and [code]y[/code] sub-variables. We also call them "
-"[i]properties[/i] or [i]fields[/i] of the vector.\n"
-"\n"
-"To access a member variable, you must first write the value's name followed "
-"by the access operator ([code].[/code]). For example, [code]position.x[/"
-"code]."
+"vector's [code]x[/code] and [code]y[/code] sub-variables. We also call "
+"them [i]properties[/i] or [i]fields[/i] of the vector."
+msgstr ""
+
+msgid ""
+"To access a member variable, you must first write the value's name "
+"followed by the access operator ([code].[/code]). For example, "
+"[code]position.x[/code]."
 msgstr ""
 
 #. Reference: parameter
@@ -86,11 +91,12 @@ msgstr ""
 
 #. Reference: parameter
 #: course/glossary.csv:12
+msgid "A parameter is a variable you create as part of a function definition."
+msgstr ""
+
 msgid ""
-"A parameter is a variable you create as part of a function definition.\n"
-"\n"
-"It allows you to reuse the function more by having values that vary in the "
-"function's body."
+"It allows you to reuse the function more by having values that vary in "
+"the function's body."
 msgstr ""
 
 #. Reference: radian
@@ -107,13 +113,17 @@ msgstr ""
 #: course/glossary.csv:17
 msgid ""
 "A radian is a unit of measurement of angles based on the circle's "
-"circumference.\n"
-"\n"
-"We tend to use degrees more in our daily lives, but in computer programming, "
-"and especially in games, radians are common.\n"
-"\n"
-"An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And an "
-"angle of [code]PI[/code] radians corresponds to 180 degrees."
+"circumference."
+msgstr ""
+
+msgid ""
+"We tend to use degrees more in our daily lives, but in computer "
+"programming, and especially in games, radians are common."
+msgstr ""
+
+msgid ""
+"An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And "
+"an angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
 
 #. Reference: type
@@ -129,12 +139,14 @@ msgstr ""
 #. Reference: type
 #: course/glossary.csv:20
 msgid ""
-"In computer programming, a type is the class of a value. For example, whole "
-"numbers like [code]3[/code], [code]11[/code], and [code]255462[/code] are "
-"all of type [code]int[/code] (short for integer).\n"
-"\n"
-"The computer uses types to determine which operations are valid between two "
-"values and when they're undefined."
+"In computer programming, a type is the class of a value. For example, "
+"whole numbers like [code]3[/code], [code]11[/code], and "
+"[code]255462[/code] are all of type [code]int[/code] (short for integer)."
+msgstr ""
+
+msgid ""
+"The computer uses types to determine which operations are valid between "
+"two values and when they're undefined."
 msgstr ""
 
 #. Reference: iteration
@@ -150,10 +162,12 @@ msgstr ""
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid ""
-"In computer code, an iteration is one repetition of some process or code. We "
-"typically use the term with loops, where one iteration is one run of the "
-"loop's code.\n"
-"\n"
+"In computer code, an iteration is one repetition of some process or code."
+" We typically use the term with loops, where one iteration is one run of "
+"the loop's code."
+msgstr ""
+
+msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
@@ -172,14 +186,18 @@ msgstr ""
 #: course/glossary.csv:28
 msgid ""
 "In math, a vector is a list of numbers. In games, we often use 2D and 3D "
-"vectors: respectively, lists of two and three numbers.\n"
-"\n"
-"We use that to represent a direction and magnitude or intensity in space. "
-"For example, you can use a vector to represent the direction and speed at "
-"which a character or a vehicle moves.\n"
-"\n"
-"Vectors can seem daunting at first because they are pretty abstract, but as "
-"you will see, they'll simplify code tremendously."
+"vectors: respectively, lists of two and three numbers."
+msgstr ""
+
+msgid ""
+"We use that to represent a direction and magnitude or intensity in space."
+" For example, you can use a vector to represent the direction and speed "
+"at which a character or a vehicle moves."
+msgstr ""
+
+msgid ""
+"Vectors can seem daunting at first because they are pretty abstract, but "
+"as you will see, they'll simplify code tremendously."
 msgstr ""
 
 #. Reference: argument
@@ -197,20 +215,28 @@ msgstr ""
 msgid ""
 "An argument is a value that you pass to a function when calling the "
 "function. For example, in the call [code]rotate(0.5)[/code], the value "
-"[code]0.5[/code] in the parentheses is an argument.\n"
-"\n"
-"A function can receive no arguments, one argument, or multiple arguments. "
-"Arguments can be mandatory or optional.\n"
-"\n"
+"[code]0.5[/code] in the parentheses is an argument."
+msgstr ""
+
+msgid ""
+"A function can receive no arguments, one argument, or multiple arguments."
+" Arguments can be mandatory or optional."
+msgstr ""
+
+msgid ""
 "When a function takes multiple arguments, you separate the values with "
-"commas, like in this function call: [code]jump(50, 100)[/code]\n"
-"\n"
+"commas, like in this function call: [code]jump(50, 100)[/code]"
+msgstr ""
+
+msgid ""
 "When [i]calling[/i] a function, we name the values passed in parentheses "
-"[i]arguments[/i].\n"
-"\n"
+"[i]arguments[/i]."
+msgstr ""
+
+msgid ""
 "When writing a function definition, however, we talk about function "
-"[i]parameters[/i]. In the following example, the names [code]x[/code] and "
-"[code]y[/code] are [i]parameters[/i]."
+"[i]parameters[/i]. In the following example, the names [code]x[/code] and"
+" [code]y[/code] are [i]parameters[/i]."
 msgstr ""
 
 #. Reference: array
@@ -227,15 +253,21 @@ msgstr ""
 #: course/glossary.csv:44
 msgid ""
 "An array is a list of values. In GDScript, arrays can contain [i]any[/i] "
-"types of value.\n"
-"\n"
+"types of value."
+msgstr ""
+
+msgid ""
 "To create an array, you write comma-separated values in square brackets: "
-"[code]var three_numbers = [1, 2, 3][/code]\n"
-"\n"
+"[code]var three_numbers = [1, 2, 3][/code]"
+msgstr ""
+
+msgid ""
 "In games, we use arrays all the time to store lists of characters in a "
-"party, lists of items in inventory, lists of spells the player unlocked, and "
-"so on. They're everywhere.\n"
-"\n"
+"party, lists of items in inventory, lists of spells the player unlocked, "
+"and so on. They're everywhere."
+msgstr ""
+
+msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
@@ -265,19 +297,25 @@ msgstr ""
 #. Reference: dictionary
 #: course/glossary.csv:52
 msgid ""
-"A dictionary is a data structure that maps values with key-value pairs. When "
-"you give the dictionary a key, it finds and gives you back the corresponding "
-"value.\n"
-"\n"
-"In GDScript, keys can be many things. We often use text strings or numbers, "
-"but you're not limited to that. A [code]Vector2[/code] can also be a valid "
-"key, which is handy to map a grid cell to a unit or an item in a grid-based "
-"game.\n"
-"\n"
-"You will often use dictionaries to associate bits of data in your games. For "
-"example, we could use them to associate an equipment's name with its weapon "
-"stats in a database.\n"
-"\n"
+"A dictionary is a data structure that maps values with key-value pairs. "
+"When you give the dictionary a key, it finds and gives you back the "
+"corresponding value."
+msgstr ""
+
+msgid ""
+"In GDScript, keys can be many things. We often use text strings or "
+"numbers, but you're not limited to that. A [code]Vector2[/code] can also "
+"be a valid key, which is handy to map a grid cell to a unit or an item in"
+" a grid-based game."
+msgstr ""
+
+msgid ""
+"You will often use dictionaries to associate bits of data in your games. "
+"For example, we could use them to associate an equipment's name with its "
+"weapon stats in a database."
+msgstr ""
+
+msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
@@ -295,18 +333,24 @@ msgstr ""
 #. Reference: for loop
 #: course/glossary.csv:59
 msgid ""
-"A for loop instructs the computer to repeat a set of instructions once for "
-"each value in an array.\n"
-"\n"
-"In each loop iteration, the compiler extracts one value from the array and "
-"gives you access to it in the loop's body.\n"
-"\n"
-"For loops run code a limited amount of times: one per value in the array. It "
-"is different from while loops that keep repeating code until a condition is "
-"met.\n"
-"\n"
-"We recommend favoring for loops when you can. They're safer and easier to "
-"use than while loops."
+"A for loop instructs the computer to repeat a set of instructions once "
+"for each value in an array."
+msgstr ""
+
+msgid ""
+"In each loop iteration, the compiler extracts one value from the array "
+"and gives you access to it in the loop's body."
+msgstr ""
+
+msgid ""
+"For loops run code a limited amount of times: one per value in the array."
+" It is different from while loops that keep repeating code until a "
+"condition is met."
+msgstr ""
+
+msgid ""
+"We recommend favoring for loops when you can. They're safer and easier to"
+" use than while loops."
 msgstr ""
 
 #. Reference: function
@@ -322,15 +366,19 @@ msgstr ""
 #. Reference: function
 #: course/glossary.csv:64
 msgid ""
-"A function is a group of code instructions you give a name. When you define "
-"a function, you can call it any time to run all the instructions it "
-"contains.\n"
-"\n"
+"A function is a group of code instructions you give a name. When you "
+"define a function, you can call it any time to run all the instructions "
+"it contains."
+msgstr ""
+
+msgid ""
 "You can modify a function's behavior with parameters. Parameters are "
-"variable names that you write in the function definition. You can then use "
-"them in the function's body to make your code adapt to different cases.\n"
-"\n"
-"Also, functions can optionally return a value to the code calling it."
+"variable names that you write in the function definition. You can then "
+"use them in the function's body to make your code adapt to different "
+"cases."
+msgstr ""
+
+msgid "Also, functions can optionally return a value to the code calling it."
 msgstr ""
 
 #. Reference: increment
@@ -361,9 +409,11 @@ msgstr "instruksi-instruksi"
 #. Reference: instruction
 #: course/glossary.csv:68
 msgid ""
-"In computer programming, instructions are a single operation the computer "
-"recognizes and can execute.\n"
-"\n"
+"In computer programming, instructions are a single operation the computer"
+" recognizes and can execute."
+msgstr ""
+
+msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
 msgstr ""
@@ -381,21 +431,29 @@ msgstr ""
 #. Reference: variable
 #: course/glossary.csv:77
 msgid ""
-"Variables are a tool to give a name to values you want to store in your code "
-"and change over time.\n"
-"\n"
-"For example, a character's health: when the character takes a hit, you want "
-"it to go down. When healing, you want the health to go back up.\n"
-"\n"
+"Variables are a tool to give a name to values you want to store in your "
+"code and change over time."
+msgstr ""
+
+msgid ""
+"For example, a character's health: when the character takes a hit, you "
+"want it to go down. When healing, you want the health to go back up."
+msgstr ""
+
+msgid ""
 "You can create a variable named [code]health[/code] to represent the "
-"health.\n"
-"\n"
-"Then, every time you write the keyword [code]health[/code] in your code, the "
-"computer will fetch the corresponding value in its memory for you.\n"
-"\n"
-"Variables work a bit like product labels in a supermarket. They are names "
-"that you attach to some value. Any time, you can take the label and stick it "
-"onto a new product or, in that case, a new value."
+"health."
+msgstr ""
+
+msgid ""
+"Then, every time you write the keyword [code]health[/code] in your code, "
+"the computer will fetch the corresponding value in its memory for you."
+msgstr ""
+
+msgid ""
+"Variables work a bit like product labels in a supermarket. They are names"
+" that you attach to some value. Any time, you can take the label and "
+"stick it onto a new product or, in that case, a new value."
 msgstr ""
 
 #. Reference: while loop
@@ -412,15 +470,21 @@ msgstr ""
 #: course/glossary.csv:84
 msgid ""
 "A while loop instructs the computer to keep running code based on a "
-"condition. While the condition is true, the loop keeps running.\n"
-"\n"
+"condition. While the condition is true, the loop keeps running."
+msgstr ""
+
+msgid ""
 "When coding while loops, you must be careful: they will keep running "
-"infinitely and freeze your game if you get the condition wrong.\n"
-"\n"
-"That's why we recommend using the safer for loop whenever you can.\n"
-"\n"
-"However, there are still essential cases in which we use while loops, like "
-"processing files, processing computer code, or for powerful algorithms."
+"infinitely and freeze your game if you get the condition wrong."
+msgstr ""
+
+msgid "That's why we recommend using the safer for loop whenever you can."
+msgstr ""
+
+msgid ""
+"However, there are still essential cases in which we use while loops, "
+"like processing files, processing computer code, or for powerful "
+"algorithms."
 msgstr ""
 
 #. Reference: body
@@ -431,8 +495,8 @@ msgstr ""
 #. Reference: body
 #: course/glossary.csv:85
 msgid ""
-"We talk about a loop or a function's body to refer to the lines of code that "
-"are part of the loop or function."
+"We talk about a loop or a function's body to refer to the lines of code "
+"that are part of the loop or function."
 msgstr ""
 
 #. Reference: return
@@ -443,11 +507,13 @@ msgstr ""
 #. Reference: return
 #: course/glossary.csv:88
 msgid ""
-"Returning a value is the process of sending a value to the place where you "
-"call a function.\n"
-"\n"
-"It happens when a function uses the [code]return[/code] keyword followed by "
-"a value, for example: [code]return -1[/code]."
+"Returning a value is the process of sending a value to the place where "
+"you call a function."
+msgstr ""
+
+msgid ""
+"It happens when a function uses the [code]return[/code] keyword followed "
+"by a value, for example: [code]return -1[/code]."
 msgstr ""
 
 #. Reference: library
@@ -484,3 +550,4 @@ msgid ""
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
 msgstr ""
+

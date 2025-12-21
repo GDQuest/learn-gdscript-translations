@@ -1,8 +1,8 @@
-# Translations template for Learn GDScript From Zero.
-# Copyright (C) 2022 GDQuest
+# Hungarian translations for Learn GDScript From.
+# Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the Learn GDScript From
-# Zero project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
@@ -11,12 +11,13 @@ msgstr ""
 "POT-Creation-Date: 2022-03-26 17:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
 "Language: hu\n"
+"Language-Team: none\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:14
 msgid ""
@@ -27,11 +28,15 @@ msgstr ""
 #: course/lesson-20-looping-over-arrays/lesson.tres:34
 msgid ""
 "The [code]range()[/code] function produced an array that the "
-"[code]for[/code] keyword could loop over.\n"
-"\n"
+"[code]for[/code] keyword could loop over."
+msgstr ""
+
+msgid ""
 "We can give [code]for[/code] loops [i]any[/i] array, and they will loop "
-"over them just the same.\n"
-"\n"
+"over them just the same."
+msgstr ""
+
+msgid ""
 "Instead of using the [code]range()[/code] function, we could manually "
 "write the numbers and get the same result."
 msgstr ""
@@ -40,11 +45,15 @@ msgstr ""
 msgid ""
 "For each element inside the array, the [code]for[/code] loop extracts it,"
 " stores it in the temporary variable named [code]number[/code], and "
-"executes the loop's code once.\n"
-"\n"
+"executes the loop's code once."
+msgstr ""
+
+msgid ""
 "Inside the loop, you can access the [code]number[/code] variable, which "
-"changes on each [i]iteration[/i].\n"
-"\n"
+"changes on each [i]iteration[/i]."
+msgstr ""
+
+msgid ""
 "The code works regardless of the array or where you store it. Often, you "
 "will store arrays in variables for easy access."
 msgstr ""
@@ -66,11 +75,15 @@ msgid ""
 "Compared to previous examples, we store the array in the "
 "[code]numbers[/code] variable. Using the [code]numbers[/code] variable in"
 " our [code]for[/code] loop allows the computer to access the array of "
-"numbers like before.\n"
-"\n"
+"numbers like before."
+msgstr ""
+
+msgid ""
 "We have three numbers in the array: [code]0[/code], [code]1[/code], and "
-"[code]2[/code].\n"
-"\n"
+"[code]2[/code]."
+msgstr ""
+
+msgid ""
 "The loop extracts each of them sequentially and assigns it to the "
 "[code]number[/code] temporary variable. As the loop processes each "
 "number, the output will print [code]0[/code], then [code]1[/code], then "
@@ -101,9 +114,10 @@ msgid ""
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:121
+msgid "It's a [code]for[/code] loop that makes the turtle walk along the path."
+msgstr ""
+
 msgid ""
-"It's a [code]for[/code] loop that makes the turtle walk along the path.\n"
-"\n"
 "The loop works like this: for each coordinate in the array, it moves the "
 "turtle once to that cell."
 msgstr ""
@@ -115,40 +129,52 @@ msgstr ""
 #: course/lesson-20-looping-over-arrays/lesson.tres:163
 msgid ""
 "For each coordinate in an array named [code]selected_units[/code], we "
-"check if there is a unit in that cell. If so, we select it. \n"
-"\n"
-"In that case, we use an array, a loop, and a condition together."
+"check if there is a unit in that cell. If so, we select it."
+msgstr ""
+
+msgid "In that case, we use an array, a loop, and a condition together."
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:185
+msgid "The code above uses several features you haven't learned yet:"
+msgstr ""
+
 msgid ""
-"The code above uses several features you haven't learned yet:\n"
-"\n"
 "- In a condition, the [code]in[/code] keyword allows you to check if a "
 "value exists [i]in[/i] an array.\n"
 "- The array's [code]append()[/code] function appends a new value at the "
-"end of the array.\n"
-"\n"
+"end of the array."
+msgstr ""
+
+msgid ""
 "Notice the use of a period after the [code]selected_units[/code] "
 "variable, to call the [code]append()[/code] function. It's because this "
-"function exists only on arrays.\n"
-"\n"
+"function exists only on arrays."
+msgstr ""
+
+msgid ""
 "When functions exist only on a specific value type, you write a dot after"
-" the value to call the function on it.\n"
-"\n"
-"We'll revisit those two features again in the following lessons."
+" the value to call the function on it."
+msgstr ""
+
+msgid "We'll revisit those two features again in the following lessons."
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:204
 msgid ""
 "The beauty of loops is that they work regardless of the size of your "
-"arrays. \n"
-"\n"
+"arrays."
+msgstr ""
+
+msgid ""
 "The code just works whether you have one or ten thousand units to select."
-" It is all accomplished with only a couple lines of code.\n"
-"\n"
-"That's the power of computer programming.\n"
-"\n"
+" It is all accomplished with only a couple lines of code."
+msgstr ""
+
+msgid "That's the power of computer programming."
+msgstr ""
+
+msgid ""
 "In the following practices, you will use arrays combined with "
 "[code]for[/code] loops to achieve similar results."
 msgstr ""
@@ -161,11 +187,15 @@ msgstr ""
 msgid ""
 "Our AI pathfinding algorithm provided a path for the robot to move to the"
 " right edge of the grid. Your task is to use a [code]for[/code] loop to "
-"make the robot move.\n"
-"\n"
+"make the robot move."
+msgstr ""
+
+msgid ""
 "To move the robot, call [i]its[/i] [code]move_to()[/code] function, like "
-"so: [code]robot.move_to()[/code].\n"
-"\n"
+"so: [code]robot.move_to()[/code]."
+msgstr ""
+
+msgid ""
 "The [code]move_to()[/code] function only exists on the robot, which is "
 "why you need to access it this way."
 msgstr ""
@@ -181,19 +211,25 @@ msgid "Back to the drawing board"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.tres:241
+msgid "We want to draw many rectangles, something surprisingly common in games."
+msgstr ""
+
 msgid ""
-"We want to draw many rectangles, something surprisingly common in games.\n"
-"\n"
 "However, writing this code by hand can get tedious. Instead, you could "
 "store the size of your shapes in arrays and use a loop to draw them all "
-"in batches.\n"
-"\n"
-"That's what you'll do in this practice.\n"
-"\n"
+"in batches."
+msgstr ""
+
+msgid "That's what you'll do in this practice."
+msgstr ""
+
+msgid ""
 "Use a [code]for[/code] loop to draw every rectangle in the "
 "[code]rectangle_sizes[/code] array with the [code]draw_rectangle()[/code]"
-" function.\n"
-"\n"
+" function."
+msgstr ""
+
+msgid ""
 "The rectangles shouldn't overlap or cross each other. To avoid that, "
 "you'll need to call the [code]jump()[/code] function."
 msgstr ""
@@ -207,3 +243,4 @@ msgstr ""
 #: course/lesson-20-looping-over-arrays/lesson.tres:265
 msgid "Looping over arrays"
 msgstr ""
+

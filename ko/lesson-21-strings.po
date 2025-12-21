@@ -1,8 +1,8 @@
-# Translations template for Learn GDScript From Zero.
-# Copyright (C) 2022 GDQuest
+# Korean translations for Learn GDScript From.
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the Learn GDScript From
-# Zero project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
@@ -11,33 +11,29 @@ msgstr ""
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2024-07-07 09:09+0000\n"
 "Last-Translator: Godoto <ineovide@gmail.com>\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-21-strings/ko/>\n"
 "Language: ko\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-21-strings/ko/>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-21-strings/lesson.tres:14
 msgid ""
-"Throughout this course, we've mostly stored numbers in variables. But what "
-"if we wanted to store a player's name?\n"
-"\n"
-"This is where strings help us.\n"
-"\n"
-"Strings are instrumental in games and applications. We use them to display "
-"information such as the description of a spell or the name of a character."
-msgstr ""
-"이 과정에서는 대부분 숫자를 변수에 저장했습니다. 하지만 플레이어의 이름을 "
-"저장하고 싶다면 어떻게 해야 할까요?\n"
-"\n"
-"이때 문자열이 도움이 됩니다.\n"
-"\n"
-"문자열은 게임과 애플리케이션에서 중요한 역할을 합니다. 주문 설명이나 캐릭터 "
-"이름과 같은 정보를 표시할 때 문자열을 사용합니다."
+"Throughout this course, we've mostly stored numbers in variables. But "
+"what if we wanted to store a player's name?"
+msgstr "이 과정에서는 대부분 숫자를 변수에 저장했습니다. 하지만 플레이어의 이름을 저장하고 싶다면 어떻게 해야 할까요?"
+
+msgid "This is where strings help us."
+msgstr "이때 문자열이 도움이 됩니다."
+
+msgid ""
+"Strings are instrumental in games and applications. We use them to "
+"display information such as the description of a spell or the name of a "
+"character."
+msgstr "문자열은 게임과 애플리케이션에서 중요한 역할을 합니다. 주문 설명이나 캐릭터 이름과 같은 정보를 표시할 때 문자열을 사용합니다."
 
 #: course/lesson-21-strings/lesson.tres:36
 msgid "What are strings"
@@ -46,20 +42,23 @@ msgstr "문자열이란 무엇인가요"
 #: course/lesson-21-strings/lesson.tres:38
 msgid ""
 "A [code]String[/code] is a value type which holds text. To create a "
-"[code]String[/code], you write text wrapped in quotation marks ([code]\"\"[/"
-"code]). For example: [code]\"This is a text string.\"[/code]\n"
-"\n"
+"[code]String[/code], you write text wrapped in quotation marks "
+"([code]\"\"[/code]). For example: [code]\"This is a text string.\"[/code]"
+msgstr ""
+
+msgid ""
 "The quotation marks differentiate strings from other value types and "
-"function names.\n"
-"\n"
-"You may remember we've used strings before in previous lessons."
+"function names."
+msgstr ""
+
+msgid "You may remember we've used strings before in previous lessons."
 msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:62
 msgid ""
 "Under the hood, strings are arrays of characters. In fact, we can use a "
-"[code]for[/code] loop to loop through the characters of a [code]String[/"
-"code] as we would with any other array."
+"[code]for[/code] loop to loop through the characters of a "
+"[code]String[/code] as we would with any other array."
 msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:80
@@ -67,13 +66,15 @@ msgid "Which of these are strings?"
 msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:83
+msgid "[code]\"1\"[/code] and [code]\"name\"[/code] are strings."
+msgstr ""
+
 msgid ""
-"[code]\"1\"[/code] and [code]\"name\"[/code] are strings.\n"
-"\n"
-"[code]\"1\"[/code] only contains a character and [i]doesn't[/i] represent "
-"the number [code]1[/code].\n"
-"\n"
-"[code]\"name\"[/code] is made up of four different characters."
+"[code]\"1\"[/code] only contains a character and [i]doesn't[/i] represent"
+" the number [code]1[/code]."
+msgstr ""
+
+msgid "[code]\"name\"[/code] is made up of four different characters."
 msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:88
@@ -96,13 +97,17 @@ msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:118
 msgid ""
-"Every piece of text you see in this app is a string that Godot is displaying "
-"for us.\n"
-"\n"
+"Every piece of text you see in this app is a string that Godot is "
+"displaying for us."
+msgstr ""
+
+msgid ""
 "Much like how [code]Vector2[/code] variables make calculations easier, "
-"[code]string[/code] variables come with many helper functions and tricks we "
-"can use.\n"
-"\n"
+"[code]string[/code] variables come with many helper functions and tricks "
+"we can use."
+msgstr ""
+
+msgid ""
 "We can use arrays to store strings too. This is useful for chaining "
 "animations. In this example, the [code]play_animation()[/code] plays a "
 "specific animation."
@@ -110,8 +115,8 @@ msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
-"In the next few practices, we'll use strings in combination with different "
-"concepts from earlier lessons."
+"In the next few practices, we'll use strings in combination with "
+"different concepts from earlier lessons."
 msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:150
@@ -121,10 +126,12 @@ msgstr ""
 #: course/lesson-21-strings/lesson.tres:151
 msgid ""
 "Currently, the robot has a number stored in the [code]robot_name[/code] "
-"variable. \n"
-"\n"
-"Change the [code]robot_name[/code] variable so that it's a string instead. "
-"You can give it any name you'd like."
+"variable."
+msgstr ""
+
+msgid ""
+"Change the [code]robot_name[/code] variable so that it's a string "
+"instead. You can give it any name you'd like."
 msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:163
@@ -137,19 +144,27 @@ msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:169
 msgid ""
-"In this practice, we'll chain together animations using an array of strings. "
-"You might find such combinations in fighting games.\n"
-"\n"
-"The robot has the following animation names:\n"
-"\n"
+"In this practice, we'll chain together animations using an array of "
+"strings. You might find such combinations in fighting games."
+msgstr ""
+
+msgid "The robot has the following animation names:"
+msgstr ""
+
+msgid ""
 "- [code]jab[/code] (makes the robot perform a quick punch)\n"
-"- [code]uppercut[/code] (the robot uses a powerful jumping punch)\n"
-"\n"
-"Populate the combo array with animation names as strings.\n"
-"\n"
-"Then, for each action in the array, call the [code]play_animation()[/code] "
-"function to play them.\n"
-"\n"
+"- [code]uppercut[/code] (the robot uses a powerful jumping punch)"
+msgstr ""
+
+msgid "Populate the combo array with animation names as strings."
+msgstr ""
+
+msgid ""
+"Then, for each action in the array, call the "
+"[code]play_animation()[/code] function to play them."
+msgstr ""
+
+msgid ""
 "The array should contain three values, so the robot makes these three "
 "attacks: two jabs followed by one uppercut."
 msgstr ""
@@ -161,3 +176,4 @@ msgstr ""
 #: course/lesson-21-strings/lesson.tres:194
 msgid "Strings"
 msgstr ""
+

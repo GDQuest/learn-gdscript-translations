@@ -1,8 +1,8 @@
-# Translations template for Learn GDScript From Zero.
-# Copyright (C) 2022 GDQuest
+# Indonesian translations for Learn GDScript From.
+# Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the Learn GDScript From
-# Zero project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
@@ -10,33 +10,34 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2023-05-16 09:25+0200\n"
 "PO-Revision-Date: 2025-06-22 18:01+0000\n"
-"Last-Translator: Ahmad_Rofi_SI_UIN_2030803109 <ahmadrofikhosyi@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/lesson-22-functions-return-values/id/>\n"
+"Last-Translator: Ahmad_Rofi_SI_UIN_2030803109 <ahmadrofikhosyi@gmail.com>"
+"\n"
 "Language: id\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-22-functions-return-values/id/>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-22-functions-return-values/lesson.tres:13
 msgid ""
-"Until now, you learned that functions are sequences of instructions you give "
-"a name and you can call any time.\n"
-"\n"
-"On top of that, functions can make calculations and [i]return[/i] new "
-"values.\n"
-"\n"
-"Let's look at some examples to see why it's useful."
+"Until now, you learned that functions are sequences of instructions you "
+"give a name and you can call any time."
 msgstr ""
-"Sampai sini, Anda telah mempelajari bahwa fungsi adalah rangkaian instruksi "
-"yang Anda beri nama dan dapat dipanggil kapan saja.\n"
-"\n"
-"Selain itu, fungsi dapat membuat penghitungan dan [i]return[/i] nilai baru.\n"
-"\n"
-"Mari kita lihat beberapa contoh untuk mengetahui mengapa ini berguna."
+"Sampai sini, Anda telah mempelajari bahwa fungsi adalah rangkaian "
+"instruksi yang Anda beri nama dan dapat dipanggil kapan saja."
+
+msgid ""
+"On top of that, functions can make calculations and [i]return[/i] new "
+"values."
+msgstr ""
+"Selain itu, fungsi dapat membuat penghitungan dan [i]return[/i] nilai "
+"baru."
+
+msgid "Let's look at some examples to see why it's useful."
+msgstr "Mari kita lihat beberapa contoh untuk mengetahui mengapa ini berguna."
 
 #: course/lesson-22-functions-return-values/lesson.tres:25
 msgid "Built-in functions that return a value"
@@ -45,40 +46,46 @@ msgstr "Fungsi bawaan yang mengembalikan nilai"
 #: course/lesson-22-functions-return-values/lesson.tres:27
 msgid ""
 "Many functions built into GDScript make calculations and return a new "
-"value.\n"
-"\n"
-"For example, the [code]round()[/code] function takes a decimal number as an "
-"argument and gives you back a new number rounded to the nearest digit."
+"value."
 msgstr ""
 "Banyak fungsi yang sudah tersedia di GDScript digunakan untuk melakukan "
-"perhitungan dan mengembalikan nilai baru.\n"
-"\n"
-"Sebagai contoh, fungsi [code]round()[/code] menerima angka desimal sebagai "
-"argumen dan mengembalikan angka baru yang dibulatkan ke angka terdekat."
+"perhitungan dan mengembalikan nilai baru."
+
+msgid ""
+"For example, the [code]round()[/code] function takes a decimal number as "
+"an argument and gives you back a new number rounded to the nearest digit."
+msgstr ""
+"Sebagai contoh, fungsi [code]round()[/code] menerima angka desimal "
+"sebagai argumen dan mengembalikan angka baru yang dibulatkan ke angka "
+"terdekat."
 
 #: course/lesson-22-functions-return-values/lesson.tres:49
 msgid ""
-"Imagine you have a game where you track the player's health as a percentage, "
-"a decimal number going from [code]0.0[/code] to [code]100.0[/code].\n"
-"\n"
+"Imagine you have a game where you track the player's health as a "
+"percentage, a decimal number going from [code]0.0[/code] to "
+"[code]100.0[/code]."
+msgstr ""
+
+msgid ""
 "When displaying the health on the interface, you don't want to show the "
-"decimal part. In that case, you may use the [code]round()[/code] function, "
-"like so."
+"decimal part. In that case, you may use the [code]round()[/code] "
+"function, like so."
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:71
 msgid ""
-"Notice how we assign the result of the function call to a variable. Because "
-"the [code]round()[/code] function returns a [i]new[/i] value, we need to "
-"either store the result or use the value immediately.\n"
-"\n"
-"Above, we assigned it to a variable, but you could also do the following."
+"Notice how we assign the result of the function call to a variable. "
+"Because the [code]round()[/code] function returns a [i]new[/i] value, we "
+"need to either store the result or use the value immediately."
+msgstr ""
+
+msgid "Above, we assigned it to a variable, but you could also do the following."
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:93
 msgid ""
-"You can assign the return value of a function call if you plan on using it "
-"more than once."
+"You can assign the return value of a function call if you plan on using "
+"it more than once."
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:101
@@ -88,23 +95,29 @@ msgstr ""
 #: course/lesson-22-functions-return-values/lesson.tres:103
 msgid ""
 "The [code]lerp()[/code] function, short for [i]linear interpolate[/i], "
-"calculates and returns a weighted average between two values.\n"
-"\n"
+"calculates and returns a weighted average between two values."
+msgstr ""
+
+msgid ""
 "It takes three arguments: the two values to average and a value between "
-"[code]0.0[/code] and [code]1.0[/code] to skew the result.\n"
-"\n"
+"[code]0.0[/code] and [code]1.0[/code] to skew the result."
+msgstr ""
+
+msgid ""
 "In game programming, it's used to animate things moving towards a target "
 "with a single line of code."
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:137
 msgid ""
-"Every frame, the code calculates a position somewhere between the turtle and "
-"the mouse cursor. The [code]lerp()[/code] function takes care of "
-"everything.\n"
-"\n"
-"It's not the most robust approach for smooth movement, as you'll learn in "
-"the future, but it's a helpful function nonetheless."
+"Every frame, the code calculates a position somewhere between the turtle "
+"and the mouse cursor. The [code]lerp()[/code] function takes care of "
+"everything."
+msgstr ""
+
+msgid ""
+"It's not the most robust approach for smooth movement, as you'll learn in"
+" the future, but it's a helpful function nonetheless."
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:147
@@ -112,50 +125,62 @@ msgid "Writing a function that returns a value"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:149
+msgid "You can make [i]your[/i] functions return values."
+msgstr ""
+
 msgid ""
-"You can make [i]your[/i] functions return values.\n"
-"\n"
-"To make a function return a value, you use the [code]return[/code] keyword "
-"followed by the value in question.\n"
-"\n"
-"In previous lessons, we had characters walking on grids.\n"
-"\n"
-"And for those practices, you were working directly with cell coordinates.\n"
-"\n"
-"Well, cell coordinates don't correspond to positions on the screen. To find "
-"the center of any cell on the screen, we need to convert the cell's "
+"To make a function return a value, you use the [code]return[/code] "
+"keyword followed by the value in question."
+msgstr ""
+
+msgid "In previous lessons, we had characters walking on grids."
+msgstr ""
+
+msgid "And for those practices, you were working directly with cell coordinates."
+msgstr ""
+
+msgid ""
+"Well, cell coordinates don't correspond to positions on the screen. To "
+"find the center of any cell on the screen, we need to convert the cell's "
 "coordinates to a position on the screen, in pixels."
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:177
+msgid "To do so, we use a function. The function does two things:"
+msgstr ""
+
 msgid ""
-"To do so, we use a function. The function does two things:\n"
-"\n"
-"1. First, it multiplies the cell coordinates by the cell size, which gives "
-"us the position of the cell's top-left corner on the screen, in pixels.\n"
-"2. Then, we add half of the cell size to get the center of the cell.\n"
-"\n"
-"The function returns the result, allowing us to store it in a variable."
+"1. First, it multiplies the cell coordinates by the cell size, which "
+"gives us the position of the cell's top-left corner on the screen, in "
+"pixels.\n"
+"2. Then, we add half of the cell size to get the center of the cell."
+msgstr ""
+
+msgid "The function returns the result, allowing us to store it in a variable."
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:202
 msgid ""
-"The [code]return[/code] keyword returns the value to the code calling the "
-"function. You'll receive the result where you call the function."
+"The [code]return[/code] keyword returns the value to the code calling the"
+" function. You'll receive the result where you call the function."
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:222
 msgid ""
 "Some functions return values, and some do not. During practices, you can "
-"learn which functions return a value using the documentation panel. It will "
-"display if the practice requires using specific functions or variables.\n"
-"\n"
-"There, functions that start with the term [code]void[/code] do not return a "
-"value. Any other term means the function does return a value. You'll learn "
-"more about what other terms mean in a couple of lessons when we explore "
-"value [i]types[/i].\n"
-"\n"
-"For now, let's practice returning values from functions!"
+"learn which functions return a value using the documentation panel. It "
+"will display if the practice requires using specific functions or "
+"variables."
+msgstr ""
+
+msgid ""
+"There, functions that start with the term [code]void[/code] do not return"
+" a value. Any other term means the function does return a value. You'll "
+"learn more about what other terms mean in a couple of lessons when we "
+"explore value [i]types[/i]."
+msgstr ""
+
+msgid "For now, let's practice returning values from functions!"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:234
@@ -163,20 +188,22 @@ msgid "Converting coordinates from the grid to the screen"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:235
+msgid "Define a function that converts a position on a grid to the screen."
+msgstr ""
+
 msgid ""
-"Define a function that converts a position on a grid to the screen.\n"
-"\n"
-"The function takes a [code]Vector2[/code] cell coordinate as an argument. It "
-"should return the corresponding [code]Vector2[/code] screen coordinates at "
-"the center of the cell."
+"The function takes a [code]Vector2[/code] cell coordinate as an argument."
+" It should return the corresponding [code]Vector2[/code] screen "
+"coordinates at the center of the cell."
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:249
 msgid ""
-"We lost the function to convert grid coordinates, but we desperately need it "
-"for our game! Make the turtle move again by coding it."
+"We lost the function to convert grid coordinates, but we desperately need"
+" it for our game! Make the turtle move again by coding it."
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.tres:253
 msgid "Functions that return a value"
 msgstr ""
+
