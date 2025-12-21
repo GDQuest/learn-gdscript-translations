@@ -103,7 +103,7 @@ msgstr "Utiliser la solution"
 
 #: ui/UIPractice.tscn:213
 msgid "Leave unfinished practice?"
-msgstr "Quitter l'exercice pratique non terminé ?"
+msgstr "Quitter l'exercice non terminé ?"
 
 #: ui/components/BigGreenButton.tscn:24
 msgid "Button"
@@ -113,9 +113,10 @@ msgstr "Bouton"
 msgid "Run"
 msgstr "Exécuter"
 
+#. Keep it short as it will cause interface overflow otherwise.
 #: ui/components/CodeEditor.tscn:158
 msgid "Pause"
-msgstr "Mettre en pause"
+msgstr "Pause"
 
 #: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:87
 msgid "Reset"
@@ -354,7 +355,7 @@ msgstr "Bien joué !"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
-msgstr "Vous avez complété l'exercice pratique."
+msgstr "Vous avez complété l'exercice."
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
 msgid ""
@@ -771,7 +772,7 @@ msgstr "Titre temporaire"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
-msgstr "Titre de l'exercice pratique"
+msgstr "Titre de l'exercice"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
@@ -779,7 +780,7 @@ msgstr "suivant"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
-msgstr "Exercice pratique"
+msgstr "Exercice"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
@@ -842,9 +843,10 @@ msgstr "CONTINUER"
 msgid "START"
 msgstr "COMMENCER"
 
+#. Keep text short as buttons cannot wrap text and will overflow the user interface.
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:647
 msgid "SELECT LESSON"
-msgstr "SÉLECTIONNER LA LEÇON"
+msgstr "CHOISIR LEÇON"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:661
 msgid "OPTIONS"
@@ -857,4 +859,3 @@ msgstr "QUITTER"
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:801
 msgid "An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
 msgstr "Un projet open source par [url=https://www.gdquest.com/]GDQuest.com[/url]"
-
