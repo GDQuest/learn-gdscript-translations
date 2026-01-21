@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2023-06-07 21:52+0000\n"
+"PO-Revision-Date: 2026-01-21 12:17+0100\n"
 "Last-Translator: EGuillemot <Elouen.Guillemot@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/error-explanations/fr/>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.8\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
 #: script_checking/error_database.csv:40
@@ -78,24 +79,26 @@ msgstr ""
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
-#, fuzzy
 msgid ""
 "You get this error when you try to assign a value to something that is not a "
 "variable."
 msgstr ""
-"Si vous obtenez cette erreur, vous essayez probablement d'attribuer une "
-"valeur à quelque chose d'autre qu'une variable, ce qui est impossible. Vous "
-"ne pouvez assigner des valeurs qu'à des variables."
+"Vous obtenez cette erreur lorsque vous essayez d'assigner une valeur à "
+"quelque chose qui n'est pas une variable."
 
 msgid ""
 "You can only assign values to variables. You cannot assign values to "
 "function calls or calculations."
 msgstr ""
+"Vous pouvez uniquement assigner des valeurs aux variables. Vous ne pouvez "
+"pas assigner de valeurs aux appels de fonction ni aux calculs."
 
 msgid ""
 "For example, you cannot write [code]randi() = 5[/code] because [code]randi()"
 "[/code] is a function call, not a variable."
 msgstr ""
+"Par exemple, vous ne pouvez pas écrire [code]randi() = 5[/code] car "
+"[code]randi()[/code] est un appel de fonction, pas une variable."
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
@@ -103,40 +106,56 @@ msgid ""
 "Check what you wrote on the left side of the equal sign (=). Make sure it is "
 "a variable name."
 msgstr ""
+"Vérifiez ce que vous avez écrit à gauche du signe égal (=). Assurez-vous que "
+"c'est le nom d'une variable."
 
 msgid ""
 "If you see parentheses () on the left side, you might be trying to assign to "
 "a function call. Remove the parentheses and the function call."
 msgstr ""
+"Si vous voyez des parenthèses () à gauche, vous essayez peut-être d'assigner "
+"une valeur à un appel de fonction. Enlevez les parenthèses et l'appel de "
+"fonction."
 
-#, fuzzy
 msgid ""
 "If you are trying to check if two values are equal in a condition, use two "
 "equal signs (==) instead of one (=)."
 msgstr ""
-"Il est également possible que vous souhaitiez vérifier l'égalité dans une "
-"condition, mais que vous ayez écrit un seul = au lieu de ==."
+"Si vous essayez de vérifier si deux valeurs sont égales dans une condition, "
+"utilisez deux signes égaux (==) au lieu d'un seul (=)."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
 msgid "You get this error when you try to change the value of a constant."
 msgstr ""
+"Vous obtenez cette erreur lorsque vous essayez de changer la valeur d'une "
+"constante."
 
 msgid ""
 "A constant is a name that holds a value that cannot change. It's like a "
 "variable, but once you set its value, you cannot replace it."
 msgstr ""
+"Une constante est un nom qui contient une valeur qui ne peut pas changer. "
+"Elle est similaire à une variable, mais lorsque vous définissez sa valeur, "
+"vous ne pouvez plus la remplacer."
 
 msgid ""
 "For example, if you write [code]const MAX_SPEED = 100[/code], you cannot "
 "later write [code]MAX_SPEED = 200[/code] or [code]MAX_SPEED += 50[/code]."
 msgstr ""
+"Par exemple, si vous écrivez [code]const MAX_SPEED = 100[/code], vous ne "
+"pouvez pas écrire plus tard [code]MAX_SPEED = 200[/code] ou [code]MAX_SPEED "
+"+= 50[/code]."
 
 msgid ""
 "Many constants are built into Godot and GDScript, and you cannot change them "
 "either. For instance, you cannot write [code]Vector2 = 5[/code] or [code]PI "
 "= 3[/code]. Constant names usually use capital letters."
 msgstr ""
+"De nombreuses constantes sont intégrées à Godot et GDScript, et vous ne "
+"pouvez pas les modifier non plus. Par exemple, vous ne pouvez pas écrire "
+"[code]Vector2 = 5[/code] ou [code]PI = 3[/code]. Les noms de constantes sont "
+"généralement en majuscules."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
@@ -144,6 +163,9 @@ msgid ""
 "Look at what you are trying to change. If it is a constant (defined with the "
 "[code]const[/code] keyword or built into Godot), you have two options:"
 msgstr ""
+"Regardez ce que vous essayez de modifier. S'il s'agit d'une constante "
+"(définie avec le mot-clé [code]const[/code] ou intégrée à Godot), vous avez "
+"deux options :"
 
 msgid ""
 "1. If the value should never change, or it comes from Godot, remove the line "
@@ -151,6 +173,10 @@ msgid ""
 "2. If the value needs to change, use [code]var[/code] instead of "
 "[code]const[/code] when you first create it."
 msgstr ""
+"1. Si la valeur ne doit jamais changer, ou si elle provient de Godot, "
+"supprimez la ligne qui tente de la modifier.\n"
+"2. Si la valeur doit changer, utilisez [code]var[/code] au lieu de "
+"[code]const[/code] lors de sa création."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
