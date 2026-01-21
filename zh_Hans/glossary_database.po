@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2025-06-14 15:02+0200\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2022-06-12 09:33+0000\n"
 "Last-Translator: Haoyu Qiu <timothyqiu32@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/glossary_database/zh_Hans/>\n"
 "Language: zh_Hans\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects"
-"/learn-gdscript-from-zero/glossary_database/zh_Hans/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: member function
@@ -35,17 +35,20 @@ msgstr "成员函数"
 msgid ""
 "Member functions are functions attached to a specific value type, like "
 "arrays, strings, or dictionaries. We also call them methods."
-msgstr "成员函数是附加在数组、字符串、字典等特定的值类型上的函数。我们也管它们叫方法。"
+msgstr ""
+"成员函数是附加在数组、字符串、字典等特定的值类型上的函数。我们也管它们叫方"
+"法。"
 
 msgid ""
-"For example, arrays have member functions like "
-"[code]array.append()[/code]."
+"For example, arrays have member functions like [code]array.append()[/code]."
 msgstr "例如，数组有 [code]array.append()[/code] 等成员函数。"
 
 msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
-msgstr "你只能在数组上调用该函数，和上面一样使用访问操作符（[code].[/code]）进行访问。"
+msgstr ""
+"你只能在数组上调用该函数，和上面一样使用访问操作符（[code].[/code]）进行访"
+"问。"
 
 #. Reference: member variable
 #: course/glossary.csv:9
@@ -61,17 +64,19 @@ msgstr "成员变量"
 #: course/glossary.csv:9
 msgid ""
 "Member variables are variables attached to a specific value type, like a "
-"vector's [code]x[/code] and [code]y[/code] sub-variables. We also call "
-"them [i]properties[/i] or [i]fields[/i] of the vector."
+"vector's [code]x[/code] and [code]y[/code] sub-variables. We also call them "
+"[i]properties[/i] or [i]fields[/i] of the vector."
 msgstr ""
-"成员变量是附加在特定值类型上的变量，类似向量的 [code]x[/code] 和 [code]y[/code] "
-"子变量。我们也管它们叫[i]属性[/i]，或者向量的[i]字段[/i]。"
+"成员变量是附加在特定值类型上的变量，类似向量的 [code]x[/code] 和 [code]y[/"
+"code] 子变量。我们也管它们叫[i]属性[/i]，或者向量的[i]字段[/i]。"
 
 msgid ""
-"To access a member variable, you must first write the value's name "
-"followed by the access operator ([code].[/code]). For example, "
-"[code]position.x[/code]."
-msgstr "要访问成员变量，你必须先写出这个值的名称，然后跟上访问操作符（[code].[/code]）。例如，[code]position.x[/code]。"
+"To access a member variable, you must first write the value's name followed "
+"by the access operator ([code].[/code]). For example, [code]position.x[/"
+"code]."
+msgstr ""
+"要访问成员变量，你必须先写出这个值的名称，然后跟上访问操作符（[code].[/"
+"code]）。例如，[code]position.x[/code]。"
 
 #. Reference: parameter
 #: course/glossary.csv:12
@@ -89,8 +94,8 @@ msgid "A parameter is a variable you create as part of a function definition."
 msgstr "形式参数（形参）是你创建的一个变量，是函数定义的一部分。"
 
 msgid ""
-"It allows you to reuse the function more by having values that vary in "
-"the function's body."
+"It allows you to reuse the function more by having values that vary in the "
+"function's body."
 msgstr "可以用来提高函数的可复用性，让函数体中的值能够变化。"
 
 #. Reference: radian
@@ -111,14 +116,18 @@ msgid ""
 msgstr "弧度是角的度量单位，基于圆的周长。"
 
 msgid ""
-"We tend to use degrees more in our daily lives, but in computer "
-"programming, and especially in games, radians are common."
-msgstr "我们在日常生活中更倾向于使用“度”，但在计算机编程中，尤其是游戏中，更加常见的是弧度。"
+"We tend to use degrees more in our daily lives, but in computer programming, "
+"and especially in games, radians are common."
+msgstr ""
+"我们在日常生活中更倾向于使用“度”，但在计算机编程中，尤其是游戏中，更加常见的"
+"是弧度。"
 
 msgid ""
-"An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And "
-"an angle of [code]PI[/code] radians corresponds to 180 degrees."
-msgstr "弧度为 [code]2 * PI[/code] 的角对应 360 度。弧度为 [code]PI[/code] 的角对应 180 度。"
+"An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And an "
+"angle of [code]PI[/code] radians corresponds to 180 degrees."
+msgstr ""
+"弧度为 [code]2 * PI[/code] 的角对应 360 度。弧度为 [code]PI[/code] 的角对应 "
+"180 度。"
 
 #. Reference: type
 #: course/glossary.csv:20
@@ -133,16 +142,17 @@ msgstr "类型"
 #. Reference: type
 #: course/glossary.csv:20
 msgid ""
-"In computer programming, a type is the class of a value. For example, "
-"whole numbers like [code]3[/code], [code]11[/code], and "
-"[code]255462[/code] are all of type [code]int[/code] (short for integer)."
+"In computer programming, a type is the class of a value. For example, whole "
+"numbers like [code]3[/code], [code]11[/code], and [code]255462[/code] are "
+"all of type [code]int[/code] (short for integer)."
 msgstr ""
-"在计算机编程中，类型是值的分类。例如，[code]3[/code]、[code]11[/code]、[code]255462[/code] "
-"等整数都是 [code]int[/code] 类型的（int 是 integer 的缩写，即整数）。"
+"在计算机编程中，类型是值的分类。例如，[code]3[/code]、[code]11[/code]、"
+"[code]255462[/code] 等整数都是 [code]int[/code] 类型的（int 是 integer 的缩"
+"写，即整数）。"
 
 msgid ""
-"The computer uses types to determine which operations are valid between "
-"two values and when they're undefined."
+"The computer uses types to determine which operations are valid between two "
+"values and when they're undefined."
 msgstr "计算机使用类型来确定两个值之间的有效操作，以及确定值是否未定义。"
 
 #. Reference: iteration
@@ -158,10 +168,12 @@ msgstr "迭代"
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid ""
-"In computer code, an iteration is one repetition of some process or code."
-" We typically use the term with loops, where one iteration is one run of "
-"the loop's code."
-msgstr "在计算机代码中，迭代指的是某些过程及代码的一次重复。我们一般会在循环中使用这个术语，一次迭代表示执行一次循环中的代码。"
+"In computer code, an iteration is one repetition of some process or code. We "
+"typically use the term with loops, where one iteration is one run of the "
+"loop's code."
+msgstr ""
+"在计算机代码中，迭代指的是某些过程及代码的一次重复。我们一般会在循环中使用这"
+"个术语，一次迭代表示执行一次循环中的代码。"
 
 msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
@@ -183,74 +195,96 @@ msgstr "向量"
 msgid ""
 "In math, a vector is a list of numbers. In games, we often use 2D and 3D "
 "vectors: respectively, lists of two and three numbers."
-msgstr "在数学中，向量是一组数字。在游戏中，我们经常使用 2D 和 3D 向量：分别对应两个数字以及三个数字。"
+msgstr ""
+"在数学中，向量是一组数字。在游戏中，我们经常使用 2D 和 3D 向量：分别对应两个"
+"数字以及三个数字。"
 
 msgid ""
-"We use that to represent a direction and magnitude or intensity in space."
-" For example, you can use a vector to represent the direction and speed "
-"at which a character or a vehicle moves."
-msgstr "我们会用它来表示方向以及空间中的长度或强度。例如，你可以使用向量来表示角色或载具移动的方向和速度。"
+"We use that to represent a direction and magnitude or intensity in space. "
+"For example, you can use a vector to represent the direction and speed at "
+"which a character or a vehicle moves."
+msgstr ""
+"我们会用它来表示方向以及空间中的长度或强度。例如，你可以使用向量来表示角色或"
+"载具移动的方向和速度。"
 
 msgid ""
-"Vectors can seem daunting at first because they are pretty abstract, but "
-"as you will see, they'll simplify code tremendously."
-msgstr "向量一开始可能看上去很吓人，因为非常抽象，不过你会发现，它们能够极大地简化代码。"
+"Vectors can seem daunting at first because they are pretty abstract, but as "
+"you will see, they'll simplify code tremendously."
+msgstr ""
+"向量一开始可能看上去很吓人，因为非常抽象，不过你会发现，它们能够极大地简化代"
+"码。"
 
 #. Reference: argument
-#: course/glossary.csv:37
+#: course/glossary.csv:41
 msgid "argument"
 msgstr "实际参数"
 
 #. Reference: argument
-#: course/glossary.csv:37
+#: course/glossary.csv:41
 msgid "arguments"
 msgstr "实际参数"
 
 #. Reference: argument
-#: course/glossary.csv:37
+#: course/glossary.csv:41
+#, fuzzy
 msgid ""
-"An argument is a value that you pass to a function when calling the "
-"function. For example, in the call [code]rotate(0.5)[/code], the value "
-"[code]0.5[/code] in the parentheses is an argument."
+"An argument is a value you pass to a function when you call it. For example, "
+"in the function call [code]rotate(0.5)[/code], the value [code]0.5[/code] "
+"inside the parentheses is an argument."
 msgstr ""
-"实际参数（实参）是调用函数时你传入函数的值。例如调用 [code]rotate(0.5)[/code] 时，括号中的 "
-"[code]0.5[/code] 就是一个实参。"
+"实际参数（实参）是调用函数时你传入函数的值。例如调用 [code]rotate(0.5)[/"
+"code] 时，括号中的 [code]0.5[/code] 就是一个实参。"
 
+#, fuzzy
 msgid ""
-"A function can receive no arguments, one argument, or multiple arguments."
-" Arguments can be mandatory or optional."
-msgstr "函数可以不接受参数、接受一个参数、也可以接受多个参数。实参可能是必须的，也可能是可选的。"
+"A function can take no arguments, one argument, or multiple arguments. "
+"Arguments can be required or optional."
+msgstr ""
+"函数可以不接受参数、接受一个参数、也可以接受多个参数。实参可能是必须的，也可"
+"能是可选的。"
 
+#, fuzzy
 msgid ""
-"When a function takes multiple arguments, you separate the values with "
-"commas, like in this function call: [code]jump(50, 100)[/code]"
-msgstr "函数接受多个参数时，值与值之间用逗号分隔，例如这个函数调用：[code]jump(50, 100)[/code]"
+"When a function requires multiple arguments, you separate them with commas. "
+"Here's an example: [code]jump(50, 100)[/code]"
+msgstr ""
+"函数接受多个参数时，值与值之间用逗号分隔，例如这个函数调用：[code]jump(50, "
+"100)[/code]"
 
+#, fuzzy
 msgid ""
-"When [i]calling[/i] a function, we name the values passed in parentheses "
+"When you [i]call[/i] a function, we call the values in parentheses "
 "[i]arguments[/i]."
 msgstr "[i]调用[/i]函数时，我们把括号中传入的值叫做[i]实际参数[/i]。"
 
 msgid ""
-"When writing a function definition, however, we talk about function "
-"[i]parameters[/i]. In the following example, the names [code]x[/code] and"
-" [code]y[/code] are [i]parameters[/i]."
+"But when you [i]write[/i] a function definition, we call them [i]parameters[/"
+"i] instead. Here's an example:"
 msgstr ""
-"编写函数定义时，我们把它们叫作[i]形式参数[/i]。在下面的例子中，[code]x[/code] 和 [code]y[/code] "
-"都是[i]形式参数[/i]。"
+
+msgid "[code]func move_to_position(x, y):[/code]"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"In this function definition, [code]x[/code] and [code]y[/code] are "
+"[i]parameters[/i]."
+msgstr ""
+"编写函数定义时，我们把它们叫作[i]形式参数[/i]。在下面的例子中，[code]x[/"
+"code] 和 [code]y[/code] 都是[i]形式参数[/i]。"
 
 #. Reference: array
-#: course/glossary.csv:44
+#: course/glossary.csv:48
 msgid "array"
 msgstr "数组"
 
 #. Reference: array
-#: course/glossary.csv:44
+#: course/glossary.csv:48
 msgid "arrays"
 msgstr "数组"
 
 #. Reference: array
-#: course/glossary.csv:44
+#: course/glossary.csv:48
 msgid ""
 "An array is a list of values. In GDScript, arrays can contain [i]any[/i] "
 "types of value."
@@ -259,13 +293,17 @@ msgstr "数组是一组值。在 GDScript 中，数组可以包含[i]任意[/i]�
 msgid ""
 "To create an array, you write comma-separated values in square brackets: "
 "[code]var three_numbers = [1, 2, 3][/code]"
-msgstr "创建数组的方法是将值写在方括号中，值与值之间用逗号分隔：[code]var three_numbers = [1, 2, 3][/code]"
+msgstr ""
+"创建数组的方法是将值写在方括号中，值与值之间用逗号分隔：[code]var "
+"three_numbers = [1, 2, 3][/code]"
 
 msgid ""
 "In games, we use arrays all the time to store lists of characters in a "
-"party, lists of items in inventory, lists of spells the player unlocked, "
-"and so on. They're everywhere."
-msgstr "在游戏中，我们会一直用到数组：保存组队的角色、背包中的道具、解锁的法术等等。哪里都有数组的身影。"
+"party, lists of items in inventory, lists of spells the player unlocked, and "
+"so on. They're everywhere."
+msgstr ""
+"在游戏中，我们会一直用到数组：保存组队的角色、背包中的道具、解锁的法术等等。"
+"哪里都有数组的身影。"
 
 msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
@@ -273,50 +311,54 @@ msgid ""
 msgstr "数组是计算机编程中的一种基础值类型。几乎在任何编程语言中都能找到数组。"
 
 #. Reference: assign
-#: course/glossary.csv:45
+#: course/glossary.csv:49
 msgid "assign"
 msgstr "赋值"
 
 #. Reference: assign
-#: course/glossary.csv:45
+#: course/glossary.csv:49
 msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr "为变量赋值指的是将值存入变量。使用等号进行赋值（[code]=[/code]）。"
 
 #. Reference: dictionary
-#: course/glossary.csv:52
+#: course/glossary.csv:56
 msgid "dictionary"
 msgstr "字典"
 
 #. Reference: dictionary
-#: course/glossary.csv:52
+#: course/glossary.csv:56
 msgid "dictionaries"
 msgstr "字典"
 
 #. Reference: dictionary
-#: course/glossary.csv:52
+#: course/glossary.csv:56
 msgid ""
-"A dictionary is a data structure that maps values with key-value pairs. "
-"When you give the dictionary a key, it finds and gives you back the "
-"corresponding value."
-msgstr "数组是一种使用键值对映射值的数据结构。你把键提供给字典，字典会进行查找并将其对应的值返回给你。"
-
-msgid ""
-"In GDScript, keys can be many things. We often use text strings or "
-"numbers, but you're not limited to that. A [code]Vector2[/code] can also "
-"be a valid key, which is handy to map a grid cell to a unit or an item in"
-" a grid-based game."
+"A dictionary is a data structure that maps values with key-value pairs. When "
+"you give the dictionary a key, it finds and gives you back the corresponding "
+"value."
 msgstr ""
-"在 GDScript "
-"中，很多东西都可以作为键使用。我们经常使用的是文本字符串或者数字，不过实际并不仅限于此。[code]Vector2[/code] "
-"也可以作为有效的键，可以在基于网格的游戏中很方便地将格子映射到某个单位或者道具。"
+"数组是一种使用键值对映射值的数据结构。你把键提供给字典，字典会进行查找并将其"
+"对应的值返回给你。"
 
 msgid ""
-"You will often use dictionaries to associate bits of data in your games. "
-"For example, we could use them to associate an equipment's name with its "
-"weapon stats in a database."
-msgstr "在游戏中你会经常使用字典来关联各种数据。例如，我们可以使用字典在数据库中将装备的名称与对应的武器数值关联起来。"
+"In GDScript, keys can be many things. We often use text strings or numbers, "
+"but you're not limited to that. A [code]Vector2[/code] can also be a valid "
+"key, which is handy to map a grid cell to a unit or an item in a grid-based "
+"game."
+msgstr ""
+"在 GDScript 中，很多东西都可以作为键使用。我们经常使用的是文本字符串或者数"
+"字，不过实际并不仅限于此。[code]Vector2[/code] 也可以作为有效的键，可以在基于"
+"网格的游戏中很方便地将格子映射到某个单位或者道具。"
+
+msgid ""
+"You will often use dictionaries to associate bits of data in your games. For "
+"example, we could use them to associate an equipment's name with its weapon "
+"stats in a database."
+msgstr ""
+"在游戏中你会经常使用字典来关联各种数据。例如，我们可以使用字典在数据库中将装"
+"备的名称与对应的武器数值关联起来。"
 
 msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
@@ -324,96 +366,102 @@ msgid ""
 msgstr "与数组类似，它们都是在很多编程语言里都会见到的基础数据类型，很常用。"
 
 #. Reference: for loop
-#: course/glossary.csv:59
+#: course/glossary.csv:63
 msgid "for loop"
 msgstr "for 循环"
 
 #. Reference: for loop
-#: course/glossary.csv:59
+#: course/glossary.csv:63
 msgid "for loops"
 msgstr "for 循环"
 
 #. Reference: for loop
-#: course/glossary.csv:59
+#: course/glossary.csv:63
 msgid ""
-"A for loop instructs the computer to repeat a set of instructions once "
-"for each value in an array."
+"A for loop instructs the computer to repeat a set of instructions once for "
+"each value in an array."
 msgstr "for 循环会让计算机针对数组中的每一个值重复一组指令。"
 
 msgid ""
-"In each loop iteration, the compiler extracts one value from the array "
-"and gives you access to it in the loop's body."
-msgstr "在每一次循环迭代中，编译器都会提取数组中的一个值，让你能够在循环体中进行访问。"
+"In each loop iteration, the compiler extracts one value from the array and "
+"gives you access to it in the loop's body."
+msgstr ""
+"在每一次循环迭代中，编译器都会提取数组中的一个值，让你能够在循环体中进行访"
+"问。"
 
 msgid ""
-"For loops run code a limited amount of times: one per value in the array."
-" It is different from while loops that keep repeating code until a "
-"condition is met."
-msgstr "for 循环会把代码执行若干次：数组中的每个值都对应执行一次。while 循环则不同，只要条件没有达成，会一直重复执行代码。"
+"For loops run code a limited amount of times: one per value in the array. It "
+"is different from while loops that keep repeating code until a condition is "
+"met."
+msgstr ""
+"for 循环会把代码执行若干次：数组中的每个值都对应执行一次。while 循环则不同，"
+"只要条件没有达成，会一直重复执行代码。"
 
 msgid ""
-"We recommend favoring for loops when you can. They're safer and easier to"
-" use than while loops."
+"We recommend favoring for loops when you can. They're safer and easier to "
+"use than while loops."
 msgstr "我们推荐尽可能使用 for 循环，比 while 循环更安全，也更容易使用。"
 
 #. Reference: function
-#: course/glossary.csv:64
+#: course/glossary.csv:68
 msgid "function"
 msgstr "函数"
 
 #. Reference: function
-#: course/glossary.csv:64
+#: course/glossary.csv:68
 msgid "functions"
 msgstr "函数"
 
 #. Reference: function
-#: course/glossary.csv:64
+#: course/glossary.csv:68
 msgid ""
-"A function is a group of code instructions you give a name. When you "
-"define a function, you can call it any time to run all the instructions "
-"it contains."
-msgstr "函数一组代码指令，你为其指定了名称。定义函数之后，任何时候都可以对其进行调用，执行它所包含的所有指令。"
+"A function is a group of code instructions you give a name. When you define "
+"a function, you can call it any time to run all the instructions it contains."
+msgstr ""
+"函数一组代码指令，你为其指定了名称。定义函数之后，任何时候都可以对其进行调"
+"用，执行它所包含的所有指令。"
 
 msgid ""
 "You can modify a function's behavior with parameters. Parameters are "
-"variable names that you write in the function definition. You can then "
-"use them in the function's body to make your code adapt to different "
-"cases."
-msgstr "你可以通过参数来修改函数的行为。参数是你写在函数定义中的变量名，可以在函数体内使用，让你的代码适应不同的情况。"
+"variable names that you write in the function definition. You can then use "
+"them in the function's body to make your code adapt to different cases."
+msgstr ""
+"你可以通过参数来修改函数的行为。参数是你写在函数定义中的变量名，可以在函数体"
+"内使用，让你的代码适应不同的情况。"
 
 msgid "Also, functions can optionally return a value to the code calling it."
 msgstr "另外，函数还可以向调用它的代码返回一个值。"
 
 #. Reference: increment
-#: course/glossary.csv:65
+#: course/glossary.csv:69
 msgid "increment"
 msgstr "增量"
 
 #. Reference: increment
-#: course/glossary.csv:65
+#: course/glossary.csv:69
 msgid "increments"
 msgstr "增量"
 
 #. Reference: increment
-#: course/glossary.csv:65
+#: course/glossary.csv:69
 msgid "An increment is the amount by which a value changes in your code."
 msgstr "增量是代码中值的变化量。"
 
 #. Reference: instruction
-#: course/glossary.csv:68
+#: course/glossary.csv:72
 msgid "instruction"
 msgstr "指令"
 
 #. Reference: instruction
-#: course/glossary.csv:68
+#: course/glossary.csv:72
 msgid "instructions"
 msgstr "指令"
 
 #. Reference: instruction
-#: course/glossary.csv:68
+#: course/glossary.csv:72
 msgid ""
-"In computer programming, instructions are a single operation the computer"
-" recognizes and can execute."
+"In computer programming, instructions are a single operation the computer "
+"recognizes and can execute."
 msgstr "在计算机编程中，指令是计算机所能够识别并执行的单个操作。"
 
 msgid ""
@@ -422,135 +470,150 @@ msgid ""
 msgstr "例如函数调用、加法、为变量赋值。"
 
 #. Reference: variable
-#: course/glossary.csv:77
+#: course/glossary.csv:81
 msgid "variable"
 msgstr "变量"
 
 #. Reference: variable
-#: course/glossary.csv:77
+#: course/glossary.csv:81
 msgid "variables"
 msgstr "变量"
 
 #. Reference: variable
-#: course/glossary.csv:77
+#: course/glossary.csv:81
 msgid ""
-"Variables are a tool to give a name to values you want to store in your "
-"code and change over time."
+"Variables are a tool to give a name to values you want to store in your code "
+"and change over time."
 msgstr "变量是一种工具，可以为你想要在代码中存储并修改的值起一个名字。"
 
 msgid ""
-"For example, a character's health: when the character takes a hit, you "
-"want it to go down. When healing, you want the health to go back up."
-msgstr "例如，角色的血量：角色受到攻击时，你希望血量减少。受到治疗时，你希望血量增加。"
+"For example, a character's health: when the character takes a hit, you want "
+"it to go down. When healing, you want the health to go back up."
+msgstr ""
+"例如，角色的血量：角色受到攻击时，你希望血量减少。受到治疗时，你希望血量增"
+"加。"
 
 msgid ""
-"You can create a variable named [code]health[/code] to represent the "
-"health."
+"You can create a variable named [code]health[/code] to represent the health."
 msgstr "你可以创建一个名叫 [code]health[/code] 的变量来代表血量。"
 
 msgid ""
-"Then, every time you write the keyword [code]health[/code] in your code, "
-"the computer will fetch the corresponding value in its memory for you."
-msgstr "此后，你每次在代码中写下 [code]health[/code] 关键字，计算机都会为你从内存中获取对应的值。"
+"Then, every time you write the keyword [code]health[/code] in your code, the "
+"computer will fetch the corresponding value in its memory for you."
+msgstr ""
+"此后，你每次在代码中写下 [code]health[/code] 关键字，计算机都会为你从内存中获"
+"取对应的值。"
 
 msgid ""
-"Variables work a bit like product labels in a supermarket. They are names"
-" that you attach to some value. Any time, you can take the label and "
-"stick it onto a new product or, in that case, a new value."
-msgstr "变量的原理类似于超市里的货品标签。他们是你为某些值附加的名称。你随时都可以把这个标签撕下来贴到其他新的货品，也就是新的值上。"
+"Variables work a bit like product labels in a supermarket. They are names "
+"that you attach to some value. Any time, you can take the label and stick it "
+"onto a new product or, in that case, a new value."
+msgstr ""
+"变量的原理类似于超市里的货品标签。他们是你为某些值附加的名称。你随时都可以把"
+"这个标签撕下来贴到其他新的货品，也就是新的值上。"
 
 #. Reference: while loop
-#: course/glossary.csv:84
+#: course/glossary.csv:88
 msgid "while loop"
 msgstr "while 循环"
 
 #. Reference: while loop
-#: course/glossary.csv:84
+#: course/glossary.csv:88
 msgid "while loops"
 msgstr "while 循环"
 
 #. Reference: while loop
-#: course/glossary.csv:84
+#: course/glossary.csv:88
 msgid ""
 "A while loop instructs the computer to keep running code based on a "
 "condition. While the condition is true, the loop keeps running."
-msgstr "while 循环会让计算机根据某个条件来持续运行代码。只要条件成立，循环就保持运行。"
+msgstr ""
+"while 循环会让计算机根据某个条件来持续运行代码。只要条件成立，循环就保持运"
+"行。"
 
 msgid ""
 "When coding while loops, you must be careful: they will keep running "
 "infinitely and freeze your game if you get the condition wrong."
-msgstr "编写 while 循环时，你必须小心：如果条件设得有问题，那么就会无限运行下去，让游戏死机。"
+msgstr ""
+"编写 while 循环时，你必须小心：如果条件设得有问题，那么就会无限运行下去，让游"
+"戏死机。"
 
 msgid "That's why we recommend using the safer for loop whenever you can."
 msgstr "这就是我们推荐尽可能使用更安全的 for 循环的原因。"
 
 msgid ""
-"However, there are still essential cases in which we use while loops, "
-"like processing files, processing computer code, or for powerful "
-"algorithms."
-msgstr "然而，我们还是会在一些重要的情况下使用 while 循环，例如处理文件、处理计算机代码、或者强大的算法。"
+"However, there are still essential cases in which we use while loops, like "
+"processing files, processing computer code, or for powerful algorithms."
+msgstr ""
+"然而，我们还是会在一些重要的情况下使用 while 循环，例如处理文件、处理计算机代"
+"码、或者强大的算法。"
 
 #. Reference: body
-#: course/glossary.csv:85
+#: course/glossary.csv:89
 msgid "body"
 msgstr "体"
 
 #. Reference: body
-#: course/glossary.csv:85
+#: course/glossary.csv:89
 msgid ""
-"We talk about a loop or a function's body to refer to the lines of code "
-"that are part of the loop or function."
+"We talk about a loop or a function's body to refer to the lines of code that "
+"are part of the loop or function."
 msgstr "我们使用“循环体”或者“函数体”来指代在循环或者函数内所执行的那些代码。"
 
 #. Reference: return
-#: course/glossary.csv:88
+#: course/glossary.csv:92
 msgid "return"
 msgstr "返回"
 
 #. Reference: return
-#: course/glossary.csv:88
+#: course/glossary.csv:92
 msgid ""
-"Returning a value is the process of sending a value to the place where "
-"you call a function."
+"Returning a value is the process of sending a value to the place where you "
+"call a function."
 msgstr "返回一个值指的是向调用函数的地方发送一个值的过程。"
 
 msgid ""
-"It happens when a function uses the [code]return[/code] keyword followed "
-"by a value, for example: [code]return -1[/code]."
-msgstr "在函数中使用 [code]return[/code] 关键字，后面加上一个值，就会触发返回，例如：[code]return -1[/code]。"
+"It happens when a function uses the [code]return[/code] keyword followed by "
+"a value, for example: [code]return -1[/code]."
+msgstr ""
+"在函数中使用 [code]return[/code] 关键字，后面加上一个值，就会触发返回，例如："
+"[code]return -1[/code]。"
 
 #. Reference: library
-#: course/glossary.csv:89
+#: course/glossary.csv:93
 msgid "library"
 msgstr "库"
 
 #. Reference: library
-#: course/glossary.csv:89
+#: course/glossary.csv:93
 msgid "libraries"
 msgstr "库"
 
 #. Reference: library
-#: course/glossary.csv:89
+#: course/glossary.csv:93
 msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
-msgstr "重要且可复用的代码合集，由其他程序员打包，可以为你节省时间。所有程序员都会用到代码库。"
+msgstr ""
+"重要且可复用的代码合集，由其他程序员打包，可以为你节省时间。所有程序员都会用"
+"到代码库。"
 
 #. Reference: sprite
-#: course/glossary.csv:90
+#: course/glossary.csv:94
 msgid "sprite"
 msgstr "精灵"
 
 #. Reference: sprite
-#: course/glossary.csv:90
+#: course/glossary.csv:94
 msgid "sprites"
 msgstr "精灵"
 
 #. Reference: sprite
-#: course/glossary.csv:90
+#: course/glossary.csv:94
 msgid ""
 "In computer graphics, a sprite is an image you display on the screen. We "
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
-msgstr "在计算机图形学中，精灵指的是你屏幕上所显示的一张图像。我们通常会使用这个词来形容移动的图像，例如角色、怪物、掉到地上的道具。"
-
+msgstr ""
+"在计算机图形学中，精灵指的是你屏幕上所显示的一张图像。我们通常会使用这个词来"
+"形容移动的图像，例如角色、怪物、掉到地上的道具。"

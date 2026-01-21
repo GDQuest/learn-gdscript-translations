@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-07 21:03+0100\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2025-04-04 01:42+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/lesson-12-using-variables/zh_Hant/>\n"
 "Language: zh_Hant\n"
-"Language-Team: Chinese (Traditional Han script) "
-"<https://hosted.weblate.org/projects/learn-gdscript-from-zero/lesson-12"
-"-using-variables/zh_Hant/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-12-using-variables/lesson.tres:14
@@ -36,10 +35,11 @@ msgstr "在上面的例子中，數字 4 是什麼意思？"
 
 #: course/lesson-12-using-variables/lesson.tres:37
 msgid "The code above rotates the character [code]4[/code] radians per second."
-msgstr "在上述程式碼中，數字 [code]4[/code] 代表角色每秒旋轉的角度，單位是弧度(radians)。"
+msgstr ""
+"在上述程式碼中，數字 [code]4[/code] 代表角色每秒旋轉的角度，單位是弧度"
+"(radians)。"
 
 #: course/lesson-12-using-variables/lesson.tres:38
-#: course/lesson-12-using-variables/lesson.tres:39
 msgid "It's how fast the character rotates."
 msgstr "它代表腳色旋轉的速度。"
 
@@ -53,28 +53,30 @@ msgstr "它代表旋轉耗費的時間。"
 
 #: course/lesson-12-using-variables/lesson.tres:48
 msgid ""
-"We can guess what a number represents by looking at the function names, "
-"but it's harder to recall what this number does by quickly looking at the"
-" code."
-msgstr "我們可以透過函式名稱猜測數字代表的意思，但當快速查看程式碼時，很難立刻記住這個數字的作用。"
+"We can guess what a number represents by looking at the function names, but "
+"it's harder to recall what this number does by quickly looking at the code."
+msgstr ""
+"我們可以透過函式名稱猜測數字代表的意思，但當快速查看程式碼時，很難立刻記住這"
+"個數字的作用。"
 
 msgid ""
-"We've seen how different functions have their own names. Using these "
-"names communicates to developers what the functions do."
-msgstr "我們已經看過不同的函式有各自的名稱，使用這些名稱能讓開發者了解函式的功能。"
+"We've seen how different functions have their own names. Using these names "
+"communicates to developers what the functions do."
+msgstr ""
+"我們已經看過不同的函式有各自的名稱，使用這些名稱能讓開發者了解函式的功能。"
 
 #: course/lesson-12-using-variables/lesson.tres:70
 msgid ""
-"As we learned in lesson 8, we can also assign labels to numbers to help "
-"us remember what they do."
-msgstr "如我們在第 8 課學到的，我們也可以將標籤指派給數字，幫助我們記住它們的作用。"
+"As we learned in lesson 8, we can also assign labels to numbers to help us "
+"remember what they do."
+msgstr ""
+"如我們在第 8 課學到的，我們也可以將標籤指派給數字，幫助我們記住它們的作用。"
 
 msgid "We call these labels [i]variables[/i]."
 msgstr "我們稱這些標籤為[b]變數[/b]。"
 
 msgid ""
-"[b]A variable is a label for a value we can save, change, and read "
-"later.[/b]"
+"[b]A variable is a label for a value we can save, change, and read later.[/b]"
 msgstr "[b]變數是我們可以儲存、改變並在之後讀取的值標籤。[/b]"
 
 msgid "Let's recap how to define a variable."
@@ -82,14 +84,14 @@ msgstr "讓我們回顧一下如何定義變數。"
 
 #: course/lesson-12-using-variables/lesson.tres:96
 msgid ""
-"We improve the first example to make it clear what the number "
-"[code]4[/code] does."
+"We improve the first example to make it clear what the number [code]4[/code] "
+"does."
 msgstr "我們改善了第一個範例，使數字 [code]4[/code] 的作用變得更清楚。"
 
 #: course/lesson-12-using-variables/lesson.tres:116
 msgid ""
-"Labeling a value makes the code easier for us to read now [i]and[/i] in "
-"the future."
+"Labeling a value makes the code easier for us to read now [i]and[/i] in the "
+"future."
 msgstr "給一個值貼上標籤使得程式碼在現在[b]和[/b]未來更容易閱讀。"
 
 #: course/lesson-12-using-variables/lesson.tres:124
@@ -98,12 +100,12 @@ msgstr "在上面的例子中，哪一行定義了角速度變數？"
 
 #: course/lesson-12-using-variables/lesson.tres:127
 msgid ""
-"We create the [code]angular_speed[/code] variable, then assign it the "
-"value of [code]4[/code]."
-msgstr "我們創建了 [code]angular_speed[/code] 變數，並將它的值設為 [code]4[/code]。"
+"We create the [code]angular_speed[/code] variable, then assign it the value "
+"of [code]4[/code]."
+msgstr ""
+"我們創建了 [code]angular_speed[/code] 變數，並將它的值設為 [code]4[/code]。"
 
 #: course/lesson-12-using-variables/lesson.tres:128
-#: course/lesson-12-using-variables/lesson.tres:129
 msgid "var angular_speed = 4"
 msgstr "var angular_speed = 4"
 
@@ -117,22 +119,24 @@ msgstr "rotate(angular_speed * delta)"
 
 #: course/lesson-12-using-variables/lesson.tres:138
 msgid ""
-"If we define variables outside of functions, we can re-use them in "
-"different functions."
+"If we define variables outside of functions, we can re-use them in different "
+"functions."
 msgstr "如果我們在函式外定義變數，就可以在不同的函式中重複使用它們。"
 
 msgid ""
-"Because any function can use variables we define outside of them, we call"
-" these variables [b]script-wide[/b]."
-msgstr "由於任何函式都可以使用我們在它們外部定義的變數，我們稱這些變數為[b]腳本範圍內的變數[/b]。"
+"Because any function can use variables we define outside of them, we call "
+"these variables [b]script-wide[/b]."
+msgstr ""
+"由於任何函式都可以使用我們在它們外部定義的變數，我們稱這些變數為[b]腳本範圍內"
+"的變數[/b]。"
 
 msgid ""
-"Here we use the [code]angular_speed[/code] script-wide variable in both "
-"the [code]_process()[/code] function and the "
-"[code]set_angular_speed()[/code] function."
+"Here we use the [code]angular_speed[/code] script-wide variable in both the "
+"[code]_process()[/code] function and the [code]set_angular_speed()[/code] "
+"function."
 msgstr ""
-"在這裡，我們在 [code]_process()[/code] 函式和 [code]set_angular_speed()[/code] "
-"函式中都使用了 [code]angular_speed[/code] 這個腳本範圍內的變數。"
+"在這裡，我們在 [code]_process()[/code] 函式和 [code]set_angular_speed()[/"
+"code] 函式中都使用了 [code]angular_speed[/code] 這個腳本範圍內的變數。"
 
 #: course/lesson-12-using-variables/lesson.tres:162
 msgid "We can also define variables inside of functions."
@@ -141,21 +145,22 @@ msgstr "我們也可以在函式內定義變數。"
 msgid ""
 "We align the variable assignment by indenting to make it part of the "
 "function body. Make sure to create the variable before using it!"
-msgstr "我們透過縮排來對齊變數的指派，讓它成為函式的一部分。記得在使用變數之前先定義它！"
+msgstr ""
+"我們透過縮排來對齊變數的指派，讓它成為函式的一部分。記得在使用變數之前先定義"
+"它！"
 
 msgid ""
-"If we define a variable inside of a function, only that function can use "
-"it."
+"If we define a variable inside of a function, only that function can use it."
 msgstr "如果我們在函式內定義變數，那麼只有該函式能夠使用它。"
 
 #: course/lesson-12-using-variables/lesson.tres:186
 msgid ""
-"The [code]angular_speed[/code] variable only exists inside "
-"[code]_process()[/code], because we defined it there. The "
-"[code]set_angular_speed()[/code] function can't use it."
+"The [code]angular_speed[/code] variable only exists inside [code]_process()[/"
+"code], because we defined it there. The [code]set_angular_speed()[/code] "
+"function can't use it."
 msgstr ""
-"[code]angular_speed[/code] 變數只存在於 [code]_process()[/code] "
-"內，因為我們在那裡定義了它。[code]set_angular_speed()[/code] 函式無法使用它。"
+"[code]angular_speed[/code] 變數只存在於 [code]_process()[/code] 內，因為我們"
+"在那裡定義了它。[code]set_angular_speed()[/code] 函式無法使用它。"
 
 msgid "Trying to use it there will result in an error."
 msgstr "嘗試在其他地方使用這個變數會導致錯誤。"
@@ -174,12 +179,10 @@ msgid ""
 msgstr "函式可以使用任何在函式外定義的變數。這些變數是 [b]腳本範圍內[/b] 的。"
 
 #: course/lesson-12-using-variables/lesson.tres:214
-#: course/lesson-12-using-variables/lesson.tres:215
 msgid "Outside of functions."
 msgstr "函式外部。"
 
 #: course/lesson-12-using-variables/lesson.tres:214
-#: course/lesson-12-using-variables/lesson.tres:215
 msgid "Inside of functions."
 msgstr "函式內部。"
 
@@ -194,9 +197,11 @@ msgstr "以這種方式將它們分組，可以讓我們輕鬆地進行修改。
 
 #: course/lesson-12-using-variables/lesson.tres:246
 msgid ""
-"In the following practices, we'll define variables and use them with some"
-" familiar functions to make our code more readable."
-msgstr "在接下來的練習中，我們將定義變數並將它們與一些熟悉的函式一起使用，以使我們的程式碼更加易讀。"
+"In the following practices, we'll define variables and use them with some "
+"familiar functions to make our code more readable."
+msgstr ""
+"在接下來的練習中，我們將定義變數並將它們與一些熟悉的函式一起使用，以使我們的"
+"程式碼更加易讀。"
 
 #: course/lesson-12-using-variables/lesson.tres:254
 msgid "Clarifying Code Using Variables"
@@ -208,26 +213,28 @@ msgstr "讓我們為這裡的 [code]4[/code] 給一個標籤，這樣我們就�
 
 msgid ""
 "Create a variable called [code]angular_speed[/code] outside of the "
-"[code]_process()[/code] function to make it script-wide. This allows us "
-"to use it in other functions too."
+"[code]_process()[/code] function to make it script-wide. This allows us to "
+"use it in other functions too."
 msgstr ""
-"在 [code]_process()[/code] 函數外部創建一個名為 [code]angular_speed[/code] "
-"的變數，這樣它就成為了全腳本範圍的變數。這樣我們也可以在其他函式中使用它。"
+"在 [code]_process()[/code] 函數外部創建一個名為 [code]angular_speed[/code] 的"
+"變數，這樣它就成為了全腳本範圍的變數。這樣我們也可以在其他函式中使用它。"
 
 msgid "Then, replace the [code]4[/code] with [code]angular_speed[/code]."
 msgstr "接著將 [code]4[/code] 替換為 [code]angular_speed[/code]。"
 
-#: course/lesson-12-using-variables/lesson.tres:269
+#: course/lesson-12-using-variables/lesson.tres:270
 msgid ""
-"Using variables to store number values makes code easier to read. Tidy up"
-" this function by storing a value in a variable."
-msgstr "使用變數來儲存數值會讓程式碼更容易閱讀。透過將數值儲存在變數中來整理這個函式。"
+"Using variables to store number values makes code easier to read. Tidy up "
+"this function by storing a value in a variable."
+msgstr ""
+"使用變數來儲存數值會讓程式碼更容易閱讀。透過將數值儲存在變數中來整理這個函"
+"式。"
 
-#: course/lesson-12-using-variables/lesson.tres:274
+#: course/lesson-12-using-variables/lesson.tres:275
 msgid "Fixing an Out of Scope Error"
 msgstr "修正超出範圍錯誤"
 
-#: course/lesson-12-using-variables/lesson.tres:275
+#: course/lesson-12-using-variables/lesson.tres:276
 msgid "There's something wrong with the code here. Can you see what it is?"
 msgstr "這裡的程式碼有點問題。你能看出是什麼問題嗎？"
 
@@ -237,11 +244,10 @@ msgstr "執行程式碼並閱讀錯誤訊息。"
 msgid "Correct the code so it works as intended."
 msgstr "修正程式碼，使其按照預期運作。"
 
-#: course/lesson-12-using-variables/lesson.tres:293
+#: course/lesson-12-using-variables/lesson.tres:295
 msgid "Uh oh! There's something wrong here. Can you fix it?"
 msgstr "哦不！這裡有些問題。你能修正它嗎？"
 
-#: course/lesson-12-using-variables/lesson.tres:297
+#: course/lesson-12-using-variables/lesson.tres:299
 msgid "Using Variables to Make Code Easier to Read"
 msgstr "用變數讓程式碼更容易閱讀"
-

@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2025-06-14 15:02+0200\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2025-01-05 05:00+0000\n"
 "Last-Translator: Atur <aturaseman9@gmail.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/application/fa/>\n"
 "Language: fa\n"
-"Language-Team: Persian <https://hosted.weblate.org/projects/learn-"
-"gdscript-from-zero/application/fa/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: resources/QuizInputField.gd:17
@@ -56,37 +56,44 @@ msgstr "تخفیف کریسمس - ۵۰٪ تخفیف"
 msgid "CHRISTMAS SALE"
 msgstr "تخفیف کریسمس"
 
-#: ui/UIPractice.gd:154 ui/UIPractice.gd:220
+#: ui/UIPractice.gd:153
 #, python-format
 msgid "Hint %s"
 msgstr "راهنمایی %s"
 
-#: ui/UIPractice.gd:248
+#: ui/UIPractice.gd:257
 msgid "Validating Your Code..."
 msgstr "اعتبارسنجی کد شما..."
 
-#: ui/UIPractice.gd:268
+#: ui/UIPractice.gd:294
 #, python-format
 msgid "The function `%s` calls itself, this creates an infinite loop"
 msgstr "تابع `%s` خود را فرامی‌خواند، این کار یک چرخه‌ی بی‌پایان می‌سازد"
 
-#: ui/UIPractice.gd:301
+#: ui/UIPractice.gd:306
+msgid ""
+"You have a while loop that runs forever (while true) without a break "
+"statement. This will freeze the app."
+msgstr ""
+
+#: ui/UIPractice.gd:337
 msgid "Running Your Code..."
 msgstr "اجرای کد شما..."
 
-#: ui/UIPractice.gd:331
+#: ui/UIPractice.gd:368
 msgid ""
-"There is a division by zero in your code. You cannot divide by zero in "
-"code. Please ensure you have no \"/ 0\" or \"% 0\" in your code."
+"There is a division by zero in your code. You cannot divide by zero in code. "
+"Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr ""
 "در کد شما تقسیمی بر صفر هست. نمی‌توانید درون کد چیزی را بر صفر بخش کنید. "
 "خواهشمندیم از نبود «0 /» یا «0%» در کد خود مطمئن شوید."
 
-#: ui/UIPractice.gd:346
-msgid "Oh no! The script has an error, but the Script Verifier did not catch it"
+#: ui/UIPractice.gd:383
+msgid ""
+"Oh no! The script has an error, but the Script Verifier did not catch it"
 msgstr "وای نه! اسکریپت خطایی دارد، ولی تاییدگر اسکریپت آن را نگرفت"
 
-#: ui/UIPractice.gd:372
+#: ui/UIPractice.gd:412
 msgid "Running Tests..."
 msgstr "اجرای آزمایش..."
 
@@ -106,45 +113,41 @@ msgstr "تمرین نیمه‌کاره رها شود؟"
 msgid "Button"
 msgstr "دکمه"
 
-#: ui/components/CodeEditor.tscn:144
+#: ui/components/CodeEditor.tscn:143
 msgid "Run"
 msgstr "اجرا"
 
-#: ui/components/CodeEditor.tscn:158
+#: ui/components/CodeEditor.tscn:157
 msgid "Pause"
 msgstr "درنگ"
 
-#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:87
+#: ui/components/CodeEditor.tscn:172
 msgid "Reset"
 msgstr "بازگردانی"
 
-#: ui/components/CodeEditor.tscn:195
+#: ui/components/CodeEditor.tscn:194
 msgid "Solution"
 msgstr "چاره"
 
-#: ui/components/CodeEditor.tscn:209 ui/components/OutputConsole.tscn:43
+#: ui/components/CodeEditor.tscn:208
 msgid "Output"
 msgstr "برونداد"
 
-#: ui/components/CodeEditor.tscn:224
-#: ui/components/popups/LessonDonePopup.tscn:198
-#: ui/components/popups/PracticeDonePopup.tscn:165
+#: ui/components/CodeEditor.tscn:223
 msgid "Continue"
 msgstr "ادامه"
 
 #: ui/components/DebuggerConsoleMonitoredVariable.tscn:20
-#: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
 msgstr "ارزش"
 
 #: ui/components/GDQuestCreditsLabel.tscn:36
 msgid ""
-"Learn GDScript From Zero is an open source project by "
-"[color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
+"Learn GDScript From Zero is an open source project by [color=#FFD500]"
+"[url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
 msgstr ""
-"«جی.دی.اسکریپت را از صفر یاد بگیرید» پروژه‌ای متن‌باز از "
-"[color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color] "
-"است"
+"«جی.دی.اسکریپت را از صفر یاد بگیرید» پروژه‌ای متن‌باز از [color=#FFD500]"
+"[url=https://www.gdquest.com/]GDQUEST.COM[/url][/color] است"
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -155,7 +158,6 @@ msgid "Term"
 msgstr "گزاره"
 
 #: ui/components/GlossaryPopup.tscn:53
-#: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
 msgstr "روشن‌سازی خطای ما."
 
@@ -164,8 +166,6 @@ msgid "ERROR:"
 msgstr "خطا:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
-#: ui/components/ScrollableTextBox.tscn:43
-#: ui/screens/lesson/UIContentBlock.tscn:68
 msgid "Placeholder text"
 msgstr "نوشتار جانگهدار"
 
@@ -186,7 +186,8 @@ msgid "0:0"
 msgstr "۰:۰"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
-msgid "Sometimes errors are reported outside of your code. Why does that happen?"
+msgid ""
+"Sometimes errors are reported outside of your code. Why does that happen?"
 msgstr "گاهی خطا‌ها بیرون از کدتان گزارش می‌شوند. چرا رخ می‌دهد؟"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
@@ -217,7 +218,8 @@ msgid ""
 msgstr ""
 
 #: ui/components/SalePopup.tscn:132
-msgid "Only until "
+#, fuzzy
+msgid "Only until"
 msgstr "تنها تا . "
 
 #: ui/components/SalePopup.tscn:155
@@ -229,12 +231,10 @@ msgid "X"
 msgstr "X"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
-#: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
 msgid "Confirm"
 msgstr "تایید"
 
 #: ui/components/popups/ConfirmPopup.tscn:127
-#: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
 msgid "Cancel"
 msgstr "برهم‌زدن"
 
@@ -259,13 +259,13 @@ msgid "Sorry, we don't have this particular error message covered yet!"
 msgstr "ببخشید، ما هنوز این پیام خطای مشخص را پوشش ندادیم!"
 
 msgid ""
-"Please, use the [b]Report[/b] button in the top-right corner to tell us "
-"more about how you've got it, and we will try to improve our knowledge "
-"base for the next version of the application."
+"Please, use the [b]Report[/b] button in the top-right corner to tell us more "
+"about how you've got it, and we will try to improve our knowledge base for "
+"the next version of the application."
 msgstr ""
-"خواهشمندیم دکمه‌ی [b]گزارش[/b] در گوشه‌ی راست بالا را برای روشن‌سازی "
-"درباره‌ی چگونگی رخ دادن این خطا برای ما به‌کار بگیرید، و ما نیز می‌کوشیم "
-"تا دانش خود را برای نسخه‌ی پسین این برنامه بیشتر کنیم."
+"خواهشمندیم دکمه‌ی [b]گزارش[/b] در گوشه‌ی راست بالا را برای روشن‌سازی درباره‌ی "
+"چگونگی رخ دادن این خطا برای ما به‌کار بگیرید، و ما نیز می‌کوشیم تا دانش خود را "
+"برای نسخه‌ی پسین این برنامه بیشتر کنیم."
 
 msgid "[center]Thank you![/center]"
 msgstr "[center]سپاسگزاریم![/center]"
@@ -281,34 +281,34 @@ msgstr "خطاهای بیرونی از کجا می‌آیند؟"
 #: ui/components/popups/ExternalErrorPopup.tscn:83
 msgid ""
 "Lessons in this course are designed so you only need to edit the "
-"[b]important bits[/b]. But there is much more code outside of what you "
-"see that makes the project run."
+"[b]important bits[/b]. But there is much more code outside of what you see "
+"that makes the project run."
 msgstr ""
 "آموزه‌های این دوره به گونه‌ای طراحی شده‌اند که شما تنها نیاز به ویرایش "
-"[b]تکه‌های مهم[/b] داشته باشید. ولی کد فراوانی بیرون از چیزی که می‌بینید "
-"برای اجرای این پروژه به‌کار رفته است."
+"[b]تکه‌های مهم[/b] داشته باشید. ولی کد فراوانی بیرون از چیزی که می‌بینید برای "
+"اجرای این پروژه به‌کار رفته است."
 
 msgid ""
 "This means that sometimes changes you make can affect code you have no "
 "control over. But don't worry, you can still fix all the issues yourself "
 "with the code you [b]can[/b] edit!"
 msgstr ""
-"این یعنی گاهی دگرگونی‌هایی که می‌انجامید بر کدی که بیرون از واپایش(کنترل)"
-" شما است نیز اثر می‌گذارند. ولی نگران نباشید، همچنان می‌توانید همه‌ی این "
-"مشکل‌ها را با کدی که [b]می‌توانید[/b] بویرایید، درست کنید."
+"این یعنی گاهی دگرگونی‌هایی که می‌انجامید بر کدی که بیرون از واپایش(کنترل) شما "
+"است نیز اثر می‌گذارند. ولی نگران نباشید، همچنان می‌توانید همه‌ی این مشکل‌ها را "
+"با کدی که [b]می‌توانید[/b] بویرایید، درست کنید."
 
 msgid ""
-"[i]This is like how game engines work too.[/i] There is a lot of hidden "
-"code that they execute to ensure your project runs smoothly. And yet, an "
-"error in your scripts can break them. We'll try to explain how to address"
-" each individual error that you face. Quick, click the [b]Explain[/b] "
-"button next to the error message!"
+"[i]This is like how game engines work too.[/i] There is a lot of hidden code "
+"that they execute to ensure your project runs smoothly. And yet, an error in "
+"your scripts can break them. We'll try to explain how to address each "
+"individual error that you face. Quick, click the [b]Explain[/b] button next "
+"to the error message!"
 msgstr ""
-"[i]موتورهای بازی‌سازی نیز اینگونه کار می‌کنند.[/i] اندازه‌ی فراوانی کد "
-"پنهان وجود دارد که برای اجرای آسان پروژه‌ی شما اجرا می‌شود. با این همه، "
-"یک خطا در اسکریپت شما می‌تواند آنها را بشکند. خواهیم کوشید تا شیوه‌ی "
-"رسیدگی به هر خطای مشخصی که شاید برایتان رخ دهد را روشن‌سازیم. تند! روی "
-"دکمه‌ی [b]روشن‌سازی[/b] کنار پیام خطا کلیک کنید!"
+"[i]موتورهای بازی‌سازی نیز اینگونه کار می‌کنند.[/i] اندازه‌ی فراوانی کد پنهان "
+"وجود دارد که برای اجرای آسان پروژه‌ی شما اجرا می‌شود. با این همه، یک خطا در "
+"اسکریپت شما می‌تواند آنها را بشکند. خواهیم کوشید تا شیوه‌ی رسیدگی به هر خطای "
+"مشخصی که شاید برایتان رخ دهد را روشن‌سازیم. تند! روی دکمه‌ی [b]روشن‌سازی[/b] "
+"کنار پیام خطا کلیک کنید!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
@@ -335,7 +335,6 @@ msgstr ""
 "یا دوره‌ را [b]ادامه[/b] دهید.[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
-#: ui/components/popups/PracticeDonePopup.tscn:144
 msgid "Stay"
 msgstr "بمانید"
 
@@ -360,7 +359,6 @@ msgid "Practice List"
 msgstr "فهرست تمرین‌ها"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
-#: ui/components/popups/SettingsPopup.tscn:283
 msgid "Close"
 msgstr "بستن"
 
@@ -370,62 +368,61 @@ msgstr "گزارش یک مشکل"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
-"If you face an issue in the app, please click the link below to report it"
-" on GitHub:"
+"If you face an issue in the app, please click the link below to report it on "
+"GitHub:"
 msgstr ""
-"اگر درون برنامه مشکلی برایتان رخ داد، خواهشمندیم برای گزارش در گیت‌هاب "
-"روی پیوند زیر کلیک کنید."
+"اگر درون برنامه مشکلی برایتان رخ داد، خواهشمندیم برای گزارش در گیت‌هاب روی "
+"پیوند زیر کلیک کنید."
 
 msgid ""
-"[center][b][url=https://github.com/GDQuest/learn-"
-"gdscript/issues]GitHub.com > GDQuest > learn-gdscript > "
-"Issues[/url][/b][/center]"
+"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
+"> GDQuest > learn-gdscript > Issues[/url][/b][/center]"
 msgstr ""
-"[center][b][url=https://github.com/GDQuest/learn-"
-"gdscript/issues]GitHub.com > GDQuest > learn-gdscript > "
-"Issues[/url][/b][/center]"
+"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
+"> GDQuest > learn-gdscript > Issues[/url][/b][/center]"
 
 msgid ""
-"On that page, you can report any issues, whether something's not working "
-"or there's an error in a lesson."
+"On that page, you can report any issues, whether something's not working or "
+"there's an error in a lesson."
 msgstr ""
-"در آن برگه می‌توانید هرگونه مشکلی را گزارش دهید، خواه چیزی که کار نمی‌کند"
-" خواه خطایی که در آموزه است."
+"در آن برگه می‌توانید هرگونه مشکلی را گزارش دهید، خواه چیزی که کار نمی‌کند خواه "
+"خطایی که در آموزه است."
 
 msgid ""
 "You can generate a log to help us identify the problem. To do so, click "
 "here: [b][url=download]generate error log[/url][/b]."
 msgstr ""
-"می‌توانید با ساختن یک لاگ به ما در شناسایی مشکل کمک کنید، برای این کار، "
-"روی [b][url=download]generate error log[/url][/b] کلیک کنید."
+"می‌توانید با ساختن یک لاگ به ما در شناسایی مشکل کمک کنید، برای این کار، روی "
+"[b][url=download]generate error log[/url][/b] کلیک کنید."
 
 msgid ""
-"Please drag and drop the generated file onto your issue on GitHub to "
-"attach it."
+"Please drag and drop the generated file onto your issue on GitHub to attach "
+"it."
 msgstr ""
-"پرونده‌ی لاگ ساخته‌شده را برای پیوست دادن به «issue» خود در گیت‌هاب "
-"بکشانید و روی آن بیندازید."
+"پرونده‌ی لاگ ساخته‌شده را برای پیوست دادن به «issue» خود در گیت‌هاب بکشانید و "
+"روی آن بیندازید."
 
 msgid "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]"
 msgstr "[font=res://ui/theme/fonts/font_title.tres]گیت‌هاب چیست[/font]"
 
 msgid ""
-"GitHub is an online platform to host and manage open-source projects like"
-" the GDScript Learn app. It helps developers organize their work and "
+"GitHub is an online platform to host and manage open-source projects like "
+"the GDScript Learn app. It helps developers organize their work and "
 "collaborate online."
 msgstr ""
-"گیت‌هاب یک سکوی برخط برای نگهداری و مدیریت پروژه‌های متن‌باز مانند "
-"برنامه‌ی یادگیری جی.دی.اسکریپت است. در سامان‌بندی کارها و همکاری برخط نیز"
-" به توسعه‌گران کمک می‌کند."
+"گیت‌هاب یک سکوی برخط برای نگهداری و مدیریت پروژه‌های متن‌باز مانند برنامه‌ی "
+"یادگیری جی.دی.اسکریپت است. در سامان‌بندی کارها و همکاری برخط نیز به توسعه‌گران "
+"کمک می‌کند."
 
 msgid ""
-"You can use GitHub to study the source code of many open projects, report"
-" issues, or even contribute code yourself."
+"You can use GitHub to study the source code of many open projects, report "
+"issues, or even contribute code yourself."
 msgstr ""
-"می‌توانید گیت‌هاب را برای خواندن کد منبع چندین پروژه‌ی آزاد و گزارش دادن "
-"مشکل‌ها به‌کار ببرید، یا حتا خودتان به دیگران کمک کنید."
+"می‌توانید گیت‌هاب را برای خواندن کد منبع چندین پروژه‌ی آزاد و گزارش دادن مشکل‌ها "
+"به‌کار ببرید، یا حتا خودتان به دیگران کمک کنید."
 
-msgid "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]"
+msgid ""
+"[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]"
 msgstr "[font=res://ui/theme/fonts/font_title.tres]شیوه‌ی گزارش دادن[/font]"
 
 msgid ""
@@ -446,8 +443,8 @@ msgid ""
 "video clip showcasing the issue."
 msgstr ""
 "خواهشمندیم تا جایی که می‌توانیید اطلاعات مربوط را بیفزایید، مانند گونه‌ی "
-"دستگاهی که برای برنامه به‌کار می‌برید، و شاید ویدیو یا "
-"نماگرفتی(اسکرین‌شات) از مشکل به آن پیوست دهید."
+"دستگاهی که برای برنامه به‌کار می‌برید، و شاید ویدیو یا نماگرفتی(اسکرین‌شات) از "
+"مشکل به آن پیوست دهید."
 
 msgid "[center]Thank you for contributing to open source![/center]"
 msgstr "[center]از کمکتان به متن‌باز سپاسگزاریم![/center]"
@@ -521,7 +518,6 @@ msgid "Quizzes completed"
 msgstr "آزمونک انجامید"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
-#: ui/screens/course_outliner/CourseLessonDetails.tscn:108
 msgid "0 / 0"
 msgstr "۰ / ۰"
 
@@ -538,7 +534,8 @@ msgid "Lesson Title"
 msgstr "عنوان آموزه"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
-msgid "Course Index - "
+#, fuzzy
+msgid "Course Index -"
 msgstr "اندیس دوره- . "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
@@ -554,17 +551,16 @@ msgid "Confirm Resetting Progress"
 msgstr "بازگردانی پیشرفت را تایید کنید"
 
 #: ui/screens/end_screen/EndScreen.tscn:310
-#: ui/screens/end_screen/EndScreen.tscn:323
 msgid "YOU MADE IT!"
 msgstr "!توانستید!"
 
 #: ui/screens/end_screen/EndScreen.tscn:353
 msgid ""
-"Not only did you learn the foundations of coding, you’re a big step "
-"closer to making your own games."
+"Not only did you learn the foundations of coding, you’re a big step closer "
+"to making your own games."
 msgstr ""
-"نه تنها بنیاد‌های کدنویسی را آموختید، بلکه یک گام بزرگ به ساخت "
-"بازی‌هایتان نزدیکتر شدید."
+"نه تنها بنیاد‌های کدنویسی را آموختید، بلکه یک گام بزرگ به ساخت بازی‌هایتان "
+"نزدیکتر شدید."
 
 #: ui/screens/end_screen/EndScreen.tscn:373
 msgid "Don't stop here..."
@@ -584,11 +580,11 @@ msgstr "دنبال کردن آموزش‌های ویدیویی"
 
 #: ui/screens/end_screen/EndScreen.tscn:427
 msgid ""
-"They’re a great way to pick up specific game mechanics but they’re not as"
-" effective when you’re trying to learn new skills from the ground up."
+"They’re a great way to pick up specific game mechanics but they’re not as "
+"effective when you’re trying to learn new skills from the ground up."
 msgstr ""
-"راه‌های خوبی برای یادگیری سازوکارهای مشخص بازی‌هااند ولی زمانی که دارید "
-"مهارتی را از صفر یاد می‌گیرید کارامدی کمتری دارند."
+"راه‌های خوبی برای یادگیری سازوکارهای مشخص بازی‌هااند ولی زمانی که دارید مهارتی "
+"را از صفر یاد می‌گیرید کارامدی کمتری دارند."
 
 #: ui/screens/end_screen/EndScreen.tscn:459
 msgid "• There’s no clear learning path."
@@ -600,21 +596,18 @@ msgstr "• نگهداری و به دست آوردن مهارت کند و کرا
 
 #: ui/screens/end_screen/EndScreen.tscn:490
 msgid ""
-"We make our fair share of "
-"[b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]free "
-"tutorials[/url][/color][/b]. They will come in very handy once you start "
-"making games on your own. But to get started, we really recommend you "
-"learn how to think like a game developer using "
-"[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
-"access]courses[/url][/color][/b]."
+"We make our fair share of [b][color=#ebc3ff][url=https://www.youtube.com/"
+"@Gdquest/videos]free tutorials[/url][/color][/b]. They will come in very "
+"handy once you start making games on your own. But to get started, we really "
+"recommend you learn how to think like a game developer using [b]"
+"[color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]courses[/"
+"url][/color][/b]."
 msgstr ""
-"ما به اندازه‌ی خود "
-"[b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]آموزش‌های "
-"رایگان[/url][/color][/b] می‌سازیم. هنگامی که بازی‌های خودتان را بسازید "
-"بسیار به‌دردبخور خواهند بود. ولی برای آغازیدن، ما پیشنهاد می‌کنیم که "
-"اندیشیدن مانند یک بازی‌ساز را با گذراندن "
-"[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
-"access]دوره‌ها[/url][/color][/b] یاد بگیرید."
+"ما به اندازه‌ی خود [b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/"
+"videos]آموزش‌های رایگان[/url][/color][/b] می‌سازیم. هنگامی که بازی‌های خودتان "
+"را بسازید بسیار به‌دردبخور خواهند بود. ولی برای آغازیدن، ما پیشنهاد می‌کنیم که "
+"اندیشیدن مانند یک بازی‌ساز را با گذراندن [b][color=#ebc3ff][url=https://"
+"school.gdquest.com/godot-4-early-access]دوره‌ها[/url][/color][/b] یاد بگیرید."
 
 #: ui/screens/end_screen/EndScreen.tscn:505
 msgid "Learning with courses"
@@ -622,34 +615,34 @@ msgstr "یادگیری با دوره‌ها"
 
 #: ui/screens/end_screen/EndScreen.tscn:521
 msgid ""
-"Note that most available courses online are actually premium series of "
-"video tutorials. The problem of retaining information and acquiring real "
-"skills unfortunately still applies to them."
+"Note that most available courses online are actually premium series of video "
+"tutorials. The problem of retaining information and acquiring real skills "
+"unfortunately still applies to them."
 msgstr ""
-"به یاد داشته باشید که بیشتر دوره‌های دردسترس برخط یا آنلاین، زنجیره‌ای از"
-" آموزش‌های ویدیویی پولی‌اند. شوربختانه دشواری نگهداری و به دست آوردن "
-"مهارت واقعی همچنان با آنها همراه است."
+"به یاد داشته باشید که بیشتر دوره‌های دردسترس برخط یا آنلاین، زنجیره‌ای از "
+"آموزش‌های ویدیویی پولی‌اند. شوربختانه دشواری نگهداری و به دست آوردن مهارت "
+"واقعی همچنان با آنها همراه است."
 
 #: ui/screens/end_screen/EndScreen.tscn:537
 msgid ""
 "At GDQuest, we’re educators at heart. We believe in applied study and we "
-"believe it doesn’t have to be boring. When teaching is done correctly, "
-"most people highly enjoy the sensation of leveling up!"
+"believe it doesn’t have to be boring. When teaching is done correctly, most "
+"people highly enjoy the sensation of leveling up!"
 msgstr ""
-"در GDQuest، آموزش در قلب ما جای دارد. ما به آموزش عملی باور داریم و بر "
-"این باوریم که نیازی به حوصله‌سربر بودن آن نیست. اگر آموزاندن درست "
-"بیانجامد، بیشتر مردم از احساس پیشرفت لذت می‌برند!"
+"در GDQuest، آموزش در قلب ما جای دارد. ما به آموزش عملی باور داریم و بر این "
+"باوریم که نیازی به حوصله‌سربر بودن آن نیست. اگر آموزاندن درست بیانجامد، بیشتر "
+"مردم از احساس پیشرفت لذت می‌برند!"
 
 msgid ""
 "That’s the reason we made this app. It is in fact part of our beginner "
-"course "
-"[b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn"
-" Gamedev From Zero with Godot[/url][/color][/b]."
+"course [b][color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
+"[/b]."
 msgstr ""
-"این یکی از دلیل‌های ساخت این برنامه است. در واقع بخشی از دوره‌ی "
-"نوآموزگرای "
-"[b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]بازی‌سازی"
-" با گودوت را از صفر یاد بگیر[/url][/color][/b] ما می‌باشد."
+"این یکی از دلیل‌های ساخت این برنامه است. در واقع بخشی از دوره‌ی نوآموزگرای [b]"
+"[color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]بازی‌سازی با گودوت را از صفر یاد بگیر[/url][/"
+"color][/b] ما می‌باشد."
 
 #: ui/screens/end_screen/EndScreen.tscn:575
 msgid "LEARN GAMEDEV WITH GODOT"
@@ -681,20 +674,20 @@ msgstr "شادباش!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:211
 msgid ""
-"You completed Learn GDScript From Zero. You now have the basics you need "
-"to make games with the Godot game engine."
+"You completed Learn GDScript From Zero. You now have the basics you need to "
+"make games with the Godot game engine."
 msgstr ""
-"شما «جی.دی.اسکریپت را از صفر یاد بگیرید» را انجامیدید. اکنون پایه‌های "
-"ساخت بازی با موتور بازی‌سازی گودوت را می‌دانید."
+"شما «جی.دی.اسکریپت را از صفر یاد بگیرید» را انجامیدید. اکنون پایه‌های ساخت "
+"بازی با موتور بازی‌سازی گودوت را می‌دانید."
 
 msgid ""
-"You can keep learning with the free series "
-"[url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Getting"
-" Started with Godot[/url]."
+"You can keep learning with the free series [url=https://docs.godotengine.org/"
+"en/stable/getting_started/step_by_step/index.html]Getting Started with "
+"Godot[/url]."
 msgstr ""
-"می‌توانید با خواندن زنجیره‌ی رایگان "
-"[url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]آغاز"
-" کردن با گودوت[/url] به یادگیری ادامه دهید."
+"می‌توانید با خواندن زنجیره‌ی رایگان [url=https://docs.godotengine.org/en/"
+"stable/getting_started/step_by_step/index.html]آغاز کردن با گودوت[/url] به "
+"یادگیری ادامه دهید."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:224
 msgid "This is an Open-Source project!"
@@ -721,7 +714,7 @@ msgstr "رهش دسترسی زود: ۲۰۲۴/۰۱/۳۰ (۱۴۰۲/۱۱/۱۰ هج�
 msgid "[b]Question[/b]"
 msgstr "[b]پرسش[/b]"
 
-#: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
+#: ui/screens/lesson/UIBaseQuiz.tscn:80
 msgid "Explanation"
 msgstr "روشن‌سازی"
 
@@ -741,8 +734,7 @@ msgstr "درست گفتید!"
 msgid "Answers here"
 msgstr "پاسخ‌ها در اینجا"
 
-#: ui/screens/lesson/UIContentBlock.gd:70
-#: ui/screens/lesson/UIContentBlock.gd:134
+#: ui/screens/lesson/UIContentBlock.gd:69
 msgid "Learn More"
 msgstr "بیشتر یاد بگیرید"
 
@@ -774,7 +766,7 @@ msgstr "برچسب پاسخ"
 msgid "(select all that apply)"
 msgstr "(همه‌ی گزینه‌های درست را برگزینید)"
 
-#: ui/screens/practice/PracticeHint.tscn:8
+#: ui/screens/practice/PracticeHint.tscn:9
 msgid "Show Hint"
 msgstr "نمایش راهنمایی"
 
@@ -794,19 +786,19 @@ msgstr "چکیده - نام آموزه"
 msgid "Goals"
 msgstr "هدف‌ها"
 
-#: ui/screens/practice/PracticeInfoPanel.tscn:119
+#: ui/screens/practice/PracticeInfoPanel.tscn:120
 msgid "Hints"
 msgstr "راهنمایی‌ها"
 
-#: ui/screens/practice/PracticeInfoPanel.tscn:126
+#: ui/screens/practice/PracticeInfoPanel.tscn:128
 msgid "Checks"
 msgstr "بررسی‌ها"
 
-#: ui/screens/practice/PracticeInfoPanel.tscn:134
+#: ui/screens/practice/PracticeInfoPanel.tscn:137
 msgid "Documentation"
 msgstr "مستندات"
 
-#: ui/screens/practice/PracticeInfoPanel.tscn:175
+#: ui/screens/practice/PracticeInfoPanel.tscn:178
 msgid "Open Practice List"
 msgstr "گشودن فهرست تمرین‌ها"
 
@@ -819,23 +811,22 @@ msgid "CONTINUE"
 msgstr "ادامه"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:46
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:629
 msgid "START"
 msgstr "آغاز"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:647
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:651
 msgid "SELECT LESSON"
 msgstr "گزینش آموزه"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:661
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:665
 msgid "OPTIONS"
 msgstr "گزینه‌ها"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:695
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:699
 msgid "QUIT"
 msgstr "برون‌رفت"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:801
-msgid "An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:805
+msgid ""
+"An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
 msgstr "پروژه‌ای متن‌باز از [url=https://www.gdquest.com/]GDQuest.com[/url]"
-

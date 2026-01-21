@@ -8,82 +8,83 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-12-09 20:05+0100\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2025-07-18 19:02+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim5@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-14-multiplying/uk/>\n"
 "Language: uk\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/learn-"
-"gdscript-from-zero/lesson-14-multiplying/uk/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-14-multiplying/lesson.tres:14
-msgid "Our robot's health is always between [code]0[/code] and [code]100[/code]."
+msgid ""
+"Our robot's health is always between [code]0[/code] and [code]100[/code]."
 msgstr "Здоров’я нашого робота завжди між [code]0[/code] і [code]100[/code]."
 
-msgid "But as our robot fights, we want to increase its strength and toughness."
+msgid ""
+"But as our robot fights, we want to increase its strength and toughness."
 msgstr ""
-"Але поки наш робот бореться, ми хочемо збільшити його силу та "
-"витривалість."
+"Але поки наш робот бореться, ми хочемо збільшити його силу та витривалість."
 
 msgid ""
-"When a character levels up, it might deal more damage to enemies, gain "
-"new abilities or, in our case, gain more health."
+"When a character levels up, it might deal more damage to enemies, gain new "
+"abilities or, in our case, gain more health."
 msgstr ""
 "Коли персонаж підвищує рівень, він може завдати більше шкоди ворогам, "
 "отримати нові здібності або, у нашому випадку, отримати більше здоров’я."
 
 #: course/lesson-14-multiplying/lesson.tres:28
 msgid ""
-"We define a [code]level[/code] variable to keep track of the level of the"
-" robot. It starts at level one."
+"We define a [code]level[/code] variable to keep track of the level of the "
+"robot. It starts at level one."
 msgstr ""
 "Ми визначаємо змінну [code]level[/code], щоб відстежувати рівень робота. "
 "Починається з першого рівня."
 
 msgid ""
-"When the robot has defeated enough enemies, we call the "
-"[code]level_up()[/code] function to increment the robot's level."
+"When the robot has defeated enough enemies, we call the [code]level_up()[/"
+"code] function to increment the robot's level."
 msgstr ""
-"Коли робот переміг достатньо ворогів, ми викликаємо функцію "
-"[code]level_up()[/code], щоб збільшити рівень робота."
+"Коли робот переміг достатньо ворогів, ми викликаємо функцію [code]level_up()"
+"[/code], щоб збільшити рівень робота."
 
 #: course/lesson-14-multiplying/lesson.tres:50
 msgid ""
 "As we briefly saw in the last lesson, our robot could have a range of "
 "variables that could increase when it levels up."
 msgstr ""
-"Як ми коротко бачили в минулому уроці, наш робот може мати ряд змінних, "
-"які можуть збільшуватися, коли він підвищується."
+"Як ми коротко бачили в минулому уроці, наш робот може мати ряд змінних, які "
+"можуть збільшуватися, коли він підвищується."
 
 #: course/lesson-14-multiplying/lesson.tres:70
 msgid ""
-"In this lesson, we'll just focus on increasing the robot's "
-"[code]max_health[/code]."
+"In this lesson, we'll just focus on increasing the robot's [code]max_health[/"
+"code]."
 msgstr ""
 "У цьому уроці ми зосередимося лише на збільшенні [code]max_health[/code] "
 "робота."
 
 msgid ""
 "The variable [code]max_health[/code] is the maximum amount the robot's "
-"[code]health[/code] can be. We change our [code]heal()[/code] function to"
-" use this variable."
+"[code]health[/code] can be. We change our [code]heal()[/code] function to "
+"use this variable."
 msgstr ""
-"Змінна [code]max_health[/code] — це максимальна кількість "
-"[code]здоров’я[/code] робота. Ми змінюємо нашу функцію "
-"[code]heal()[/code], щоб використовувати цю змінну."
+"Змінна [code]max_health[/code] — це максимальна кількість [code]здоров’я[/"
+"code] робота. Ми змінюємо нашу функцію [code]heal()[/code], щоб "
+"використовувати цю змінну."
 
 #: course/lesson-14-multiplying/lesson.tres:92
 msgid ""
-"We could add [code]5[/code] to the [code]max_health[/code] every time the"
-" robot levels up."
+"We could add [code]5[/code] to the [code]max_health[/code] every time the "
+"robot levels up."
 msgstr ""
-"Ми могли б додати [code]5[/code] до [code]max_health[/code] кожного разу,"
-" коли робот підвищує рівень."
+"Ми могли б додати [code]5[/code] до [code]max_health[/code] кожного разу, "
+"коли робот підвищує рівень."
 
 #: course/lesson-14-multiplying/lesson.tres:112
 msgid "This would increase [code]max_health[/code] the same amount every time."
@@ -91,19 +92,18 @@ msgstr "Це збільшуватиме [code]max_health[/code] щоразу о�
 
 msgid "If we graphed [code]max_health[/code], it'd look something like this."
 msgstr ""
-"Якби ми побудували графік [code]max_health[/code], це виглядало б "
-"приблизно так."
+"Якби ми побудували графік [code]max_health[/code], це виглядало б приблизно "
+"так."
 
 #: course/lesson-14-multiplying/lesson.tres:134
 msgid "This growth is [b]linear[/b]."
 msgstr "Це зростання є [b]лінійним[/b]."
 
 msgid ""
-"In our case, we want a feeling of more and more power as the robot levels"
-" up."
+"In our case, we want a feeling of more and more power as the robot levels up."
 msgstr ""
-"У нашому випадку ми хочемо відчувати все більше і більше потужності, коли"
-" робот підвищується."
+"У нашому випадку ми хочемо відчувати все більше і більше потужності, коли "
+"робот підвищується."
 
 msgid "We want a graph like this."
 msgstr "Ми хочемо отримати такий графік."
@@ -120,12 +120,11 @@ msgstr ""
 "попередньому рівні."
 
 msgid ""
-"To get the exponential growth, we multiply the [code]max_health[/code] by"
-" an amount greater than [code]1[/code] each time the robot levels up."
+"To get the exponential growth, we multiply the [code]max_health[/code] by an "
+"amount greater than [code]1[/code] each time the robot levels up."
 msgstr ""
-"Щоб отримати експоненціальне зростання, ми множимо "
-"[code]max_health[/code] на суму, більшу за [code]1[/code] кожного разу, "
-"коли робот підвищує рівень."
+"Щоб отримати експоненціальне зростання, ми множимо [code]max_health[/code] "
+"на суму, більшу за [code]1[/code] кожного разу, коли робот підвищує рівень."
 
 msgid "To multiply values together, we use [code]*[/code]."
 msgstr "Щоб помножити значення разом, ми використовуємо [code]*[/code]."
@@ -155,14 +154,13 @@ msgstr ""
 
 #: course/lesson-14-multiplying/lesson.tres:181
 msgid ""
-"We multiply [code]power[/code] by [code]level[/code] using [code]*[/code]"
-" to get the result of [code]15[/code]."
+"We multiply [code]power[/code] by [code]level[/code] using [code]*[/code] to "
+"get the result of [code]15[/code]."
 msgstr ""
 "Ми множимо [code]потужність[/code] на [code]рівень[/code] за допомогою "
 "[code]*[/code], щоб отримати результат [code]15[/code]."
 
 #: course/lesson-14-multiplying/lesson.tres:182
-#: course/lesson-14-multiplying/lesson.tres:183
 msgid "15"
 msgstr "15"
 
@@ -176,8 +174,8 @@ msgstr "10"
 
 #: course/lesson-14-multiplying/lesson.tres:192
 msgid ""
-"We can use [code]*=[/code] in the same way as [code]-=[/code] and "
-"[code]+=[/code]."
+"We can use [code]*=[/code] in the same way as [code]-=[/code] and [code]+=[/"
+"code]."
 msgstr ""
 "Ми можемо використовувати [code]*=[/code] так само, як [code]-=[/code] і "
 "[code]+=[/code]."
@@ -205,11 +203,10 @@ msgid ""
 "Then, [code]damage *= 2[/code] multiplies it by [code]2[/code] to get "
 "[code]30[/code]."
 msgstr ""
-"Потім [code]damage *= 2[/code] множить його на [code]2[/code], щоб "
-"отримати [code]30[/code]."
+"Потім [code]damage *= 2[/code] множить його на [code]2[/code], щоб отримати "
+"[code]30[/code]."
 
 #: course/lesson-14-multiplying/lesson.tres:213
-#: course/lesson-14-multiplying/lesson.tres:214
 msgid "30"
 msgstr "30"
 
@@ -223,20 +220,19 @@ msgstr "25"
 
 #: course/lesson-14-multiplying/lesson.tres:223
 msgid ""
-"Let's level up our robot and add exponential growth to "
-"[code]max_health[/code]."
+"Let's level up our robot and add exponential growth to [code]max_health[/"
+"code]."
 msgstr ""
-"Давайте підвищимо рівень нашого робота та додамо експоненціальний ріст до"
-" [code]max_health[/code]."
+"Давайте підвищимо рівень нашого робота та додамо експоненціальний ріст до "
+"[code]max_health[/code]."
 
 #: course/lesson-14-multiplying/lesson.tres:243
 msgid ""
-"In the practices, you'll increase the robot's [code]max_health[/code] and"
-" add a special ability to our robot to make it extra tough at high "
-"levels."
+"In the practices, you'll increase the robot's [code]max_health[/code] and "
+"add a special ability to our robot to make it extra tough at high levels."
 msgstr ""
-"Під час тренувань ви збільшите [code]max_health [/code] робота та додасте"
-" йому спеціальну здатність, щоб зробити його ще більш міцним на високих "
+"Під час тренувань ви збільшите [code]max_health [/code] робота та додасте "
+"йому спеціальну здатність, щоб зробити його ще більш міцним на високих "
 "рівнях."
 
 #: course/lesson-14-multiplying/lesson.tres:251
@@ -248,7 +244,8 @@ msgid "Let's make the robot stronger when it levels up."
 msgstr "Давайте зробимо робота сильнішим, коли він підвищиться."
 
 msgid "Add to the [code]level_up()[/code] function so it does the following:"
-msgstr "Додайте до функції [code]level_up()[/code], щоб вона виконувала такі дії:"
+msgstr ""
+"Додайте до функції [code]level_up()[/code], щоб вона виконувала такі дії:"
 
 msgid ""
 "- Increases [code]level[/code] by one.\n"
@@ -257,52 +254,52 @@ msgstr ""
 "- Підвищує [code]рівень[/code] на одиницю. \n"
 "- Збільшує [code]max_health[/code] на 10%."
 
-#: course/lesson-14-multiplying/lesson.tres:270
+#: course/lesson-14-multiplying/lesson.tres:271
 msgid ""
-"We want our robot to increase in strength as it levels up. Let's increase"
-" its health exponentially!"
+"We want our robot to increase in strength as it levels up. Let's increase "
+"its health exponentially!"
 msgstr ""
-"Ми хочемо, щоб наш робот ставав сильнішим у міру підвищення рівня. "
-"Давайте збільшимо його здоров'я в геометричній прогресії!"
+"Ми хочемо, щоб наш робот ставав сильнішим у міру підвищення рівня. Давайте "
+"збільшимо його здоров'я в геометричній прогресії!"
 
-#: course/lesson-14-multiplying/lesson.tres:275
+#: course/lesson-14-multiplying/lesson.tres:276
 msgid "Reducing damage at higher levels"
 msgstr "Зменшення шкоди на вищих рівнях"
 
-#: course/lesson-14-multiplying/lesson.tres:276
+#: course/lesson-14-multiplying/lesson.tres:277
 msgid ""
-"When our robot's [code]level[/code] is [code]3[/code] or more, we want it"
-" to take a lot less damage."
+"When our robot's [code]level[/code] is [code]3[/code] or more, we want it to "
+"take a lot less damage."
 msgstr ""
-"Коли [code]рівень [/code] нашого робота становить [code]3[/code] або "
-"більше, ми хочемо, щоб він отримував набагато менше шкоди."
+"Коли [code]рівень [/code] нашого робота становить [code]3[/code] або більше, "
+"ми хочемо, щоб він отримував набагато менше шкоди."
 
-msgid "Add to the [code]take_damage()[/code] function so the following happens:"
+msgid ""
+"Add to the [code]take_damage()[/code] function so the following happens:"
 msgstr "Додайте до функції [code]take_damage()[/code], щоб відбулося наступне:"
 
 msgid ""
-"- [code]if[/code] the robot's [code]level[/code] is greater than "
-"[code]2[/code], reduce the damage [code]amount[/code] by 50%"
+"- [code]if[/code] the robot's [code]level[/code] is greater than [code]2[/"
+"code], reduce the damage [code]amount[/code] by 50%"
 msgstr ""
-"- [code]якщо [/code] I [code]рівень [/code] робота перевищує "
-"[code]2[/code], зменшити [code]кількість [/code] шкоди на 50%"
+"- [code]якщо [/code] I [code]рівень [/code] робота перевищує [code]2[/code], "
+"зменшити [code]кількість [/code] шкоди на 50%"
 
 msgid ""
-"The robot is level 3. An enemy is going to attack for 10 damage. This "
-"damage should reduce to 5."
+"The robot is level 3. An enemy is going to attack for 10 damage. This damage "
+"should reduce to 5."
 msgstr ""
-"Робот має 3 рівень. Ворог збирається атакувати, завдаючи 10 ушкоджень. Ця"
-" шкода має зменшитися до 5."
+"Робот має 3 рівень. Ворог збирається атакувати, завдаючи 10 ушкоджень. Ця "
+"шкода має зменшитися до 5."
 
-#: course/lesson-14-multiplying/lesson.tres:299
+#: course/lesson-14-multiplying/lesson.tres:301
 msgid ""
 "At higher levels, we want our robot to be super tough and take even less "
 "damage!"
 msgstr ""
-"На вищих рівнях ми хочемо, щоб наш робот був надміцним і отримував ще "
-"менше пошкоджень!"
+"На вищих рівнях ми хочемо, щоб наш робот був надміцним і отримував ще менше "
+"пошкоджень!"
 
-#: course/lesson-14-multiplying/lesson.tres:303
+#: course/lesson-14-multiplying/lesson.tres:305
 msgid "Multiplying"
 msgstr "множення"
-

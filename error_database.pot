@@ -1,15 +1,15 @@
 # Translations template for Learn GDScript From Zero.
-# Copyright (C) 2025 GDQuest
+# Copyright (C) 2026 GDQuest
 # This file is distributed under the same license as the Learn GDScript From
 # Zero project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero  \n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2025-12-21 20:37+0100\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,34 +130,38 @@ msgstr ""
 #. Reference: SPACES_BEFORE_TABS
 #: ./script_checking/error_database.csv:68
 msgid ""
-"You get this error when you have a space character before a tab character"
-" at the start of a line."
+"You get this error when you mix spaces and tabs in your indentation. This"
+" happens when you have a space before a tab, or a tab before a space at "
+"the start of a line."
 msgstr ""
 
 msgid ""
-"In GDScript, you must use tabs (not spaces) to indent your code. When you"
-" press the Tab key on your keyboard, it creates a tab character."
+"In GDScript, you must use only tabs (not spaces) to indent your code. "
+"When you press the Tab key on your keyboard, it creates a tab character."
 msgstr ""
 
 msgid ""
-"If you accidentally type a space before a tab, the computer gets confused"
-" about your code's indentation."
+"If you accidentally type a space before a tab, or a tab before a space, "
+"the computer gets confused about your code's indentation."
 msgstr ""
 
 #. Reference: SPACES_BEFORE_TABS
 #: ./script_checking/error_database.csv:68
 msgid ""
 "To fix this error, go to the line mentioned in the error message. Delete "
-"any space characters at the very beginning of the line."
-msgstr ""
-
-msgid "Then, make sure the line starts with only tab characters for indentation."
+"any space characters at the very beginning of the line, and remove any "
+"spaces that appear after your tab characters."
 msgstr ""
 
 msgid ""
-"Most code editors will automatically use tabs when you press the Tab key."
-" If your editor is inserting spaces instead, you may need to check your "
-"editor settings."
+"Tab characters look like an arrow pointing at a vertical line in your "
+"code: ⇥. Spaces look like centered dots: ·. Look closely to spot the "
+"difference."
+msgstr ""
+
+msgid ""
+"Then, make sure the line starts with only tab characters for indentation,"
+" with no spaces mixed in."
 msgstr ""
 
 #. Reference: CYCLIC_REFERENCE
@@ -258,8 +262,43 @@ msgid ""
 "comes from the line with the error."
 msgstr ""
 
+#. Reference: UNKNOWN_CHARACTER
+#: ./script_checking/error_database.csv:103
+msgid ""
+"You get this error when you use a special character that GDScript doesn't"
+" recognize."
+msgstr ""
+
+msgid ""
+"This includes accented letters (like é, à, ñ), special symbols, or "
+"characters from non-Latin alphabets in your code instructions (not in "
+"strings)."
+msgstr ""
+
+msgid ""
+"[b]Note:[/b] Godot 4 supports special and non-Latin characters in code "
+"(Unicode characters), but this app is built with Godot 3, which does not."
+msgstr ""
+
+#. Reference: UNKNOWN_CHARACTER
+#: ./script_checking/error_database.csv:103
+msgid ""
+"To fix this error, remove any accented letters or special characters from"
+" your variable names, function names, and other code elements."
+msgstr ""
+
+msgid ""
+"You can use accented characters inside text strings (between quotes), but"
+" not in the code itself."
+msgstr ""
+
+msgid ""
+"You can replace accented letters with their non-accented equivalents. For"
+" example, change [code]café[/code] to [code]cafe[/code]."
+msgstr ""
+
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
-#: ./script_checking/error_database.csv:97
+#: ./script_checking/error_database.csv:106
 msgid ""
 "This error tells you that you are missing a parenthesis (or sometimes a "
 "comma or a path)."
@@ -272,28 +311,28 @@ msgid ""
 msgstr ""
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
-#: ./script_checking/error_database.csv:97
+#: ./script_checking/error_database.csv:106
 msgid ""
 "To address the error, you want to add the missing opening parenthesis, "
 "the closing parenthesis, or the comma."
 msgstr ""
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
-#: ./script_checking/error_database.csv:98
+#: ./script_checking/error_database.csv:107
 msgid ""
 "This error tells you are missing some parenthesis, a comma, or some value"
 " in your export hint."
 msgstr ""
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
-#: ./script_checking/error_database.csv:98
+#: ./script_checking/error_database.csv:107
 msgid ""
 "You need to read the error message and add the missing character or value"
 " it requests."
 msgstr ""
 
 #. Reference: MISPLACED_IDENTIFIER
-#: ./script_checking/error_database.csv:107
+#: ./script_checking/error_database.csv:116
 msgid "This error happens in several cases:"
 msgstr ""
 
@@ -308,7 +347,7 @@ msgid ""
 msgstr ""
 
 #. Reference: MISPLACED_IDENTIFIER
-#: ./script_checking/error_database.csv:107
+#: ./script_checking/error_database.csv:116
 msgid ""
 "If the error tells you it expected something, you likely forgot to write "
 "a name after a keyword like [code]var[/code], [code]func[/code], "
@@ -329,7 +368,7 @@ msgid ""
 msgstr ""
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
-#: ./script_checking/error_database.csv:112
+#: ./script_checking/error_database.csv:121
 msgid ""
 "This error tells you that you are missing a type somewhere. A type can be"
 " [code]int[/code], [code]float[/code], [code]String[/code], "
@@ -349,7 +388,7 @@ msgid ""
 msgstr ""
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
-#: ./script_checking/error_database.csv:112
+#: ./script_checking/error_database.csv:121
 msgid ""
 "To solve this, you need to write the name of the type after the colon, "
 "arrow (in the case of function return types), inside parentheses (for "
@@ -357,7 +396,7 @@ msgid ""
 msgstr ""
 
 #. Reference: NONEXISTENT_IDENTIFIER
-#: ./script_checking/error_database.csv:121
+#: ./script_checking/error_database.csv:130
 msgid ""
 "The variable, function name, or class name you are trying to use does not"
 " exist."
@@ -374,7 +413,7 @@ msgid ""
 msgstr ""
 
 #. Reference: NONEXISTENT_IDENTIFIER
-#: ./script_checking/error_database.csv:121
+#: ./script_checking/error_database.csv:130
 msgid "To solve this error, triple-check that there is no typo in the line."
 msgstr ""
 
@@ -389,7 +428,7 @@ msgid ""
 msgstr ""
 
 #. Reference: MISPLACED_KEYWORD
-#: ./script_checking/error_database.csv:126
+#: ./script_checking/error_database.csv:135
 msgid ""
 "You can only use keywords like [code]break[/code] or "
 "[code]continue[/code] in a loop. Outside a loop, they are invalid."
@@ -402,7 +441,7 @@ msgid ""
 msgstr ""
 
 #. Reference: MISPLACED_KEYWORD
-#: ./script_checking/error_database.csv:126
+#: ./script_checking/error_database.csv:135
 msgid "If you wrote one of these keywords outside a loop, you need to remove it."
 msgstr ""
 
@@ -413,7 +452,7 @@ msgid ""
 msgstr ""
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
-#: ./script_checking/error_database.csv:131
+#: ./script_checking/error_database.csv:140
 msgid ""
 "When the computer talks about a constant expression, it expects a fixed "
 "value, a fixed calculation, or the name of an existing constant."
@@ -426,7 +465,7 @@ msgid ""
 msgstr ""
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
-#: ./script_checking/error_database.csv:131
+#: ./script_checking/error_database.csv:140
 msgid ""
 "You need to replace function calls or variables with a constant value "
 "like a whole number, decimal number, string, vector, a predefined array, "
@@ -439,7 +478,7 @@ msgid ""
 msgstr ""
 
 #. Reference: INVALID_CLASS_DECLARATION
-#: ./script_checking/error_database.csv:136
+#: ./script_checking/error_database.csv:145
 msgid ""
 "When defining a new class, you need to follow a specific pattern. You "
 "must write the name in plain text, starting with a letter."
@@ -451,7 +490,7 @@ msgid ""
 msgstr ""
 
 #. Reference: INVALID_CLASS_DECLARATION
-#: ./script_checking/error_database.csv:136
+#: ./script_checking/error_database.csv:145
 msgid ""
 "To fix this error, replace whatever you put after the 'extends' or "
 "'class_name' keyword by a name without spaces and starting with a capital"
@@ -462,7 +501,7 @@ msgid "You can optionally use numbers in the name, but not in the first position
 msgstr ""
 
 #. Reference: DUPLICATE_DECLARATION
-#: ./script_checking/error_database.csv:141
+#: ./script_checking/error_database.csv:150
 msgid ""
 "You are trying to define a function or variable that already exists; You "
 "can't do that."
@@ -474,7 +513,7 @@ msgid ""
 msgstr ""
 
 #. Reference: DUPLICATE_DECLARATION
-#: ./script_checking/error_database.csv:141
+#: ./script_checking/error_database.csv:150
 msgid ""
 "In the app, your code extends some built-in Godot code that's not visible"
 " to you."
@@ -487,7 +526,7 @@ msgid ""
 msgstr ""
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
-#: ./script_checking/error_database.csv:146
+#: ./script_checking/error_database.csv:155
 msgid "You are trying to define a signal that already exists; You can't do that."
 msgstr ""
 
@@ -502,7 +541,7 @@ msgid ""
 msgstr ""
 
 #. Reference: SIGNATURE_MISMATCH
-#: ./script_checking/error_database.csv:151
+#: ./script_checking/error_database.csv:160
 msgid ""
 "The function you're trying to define exists in a parent class, so your "
 "definition overrides the parent class's function."
@@ -521,7 +560,7 @@ msgid ""
 msgstr ""
 
 #. Reference: SIGNATURE_MISMATCH
-#: ./script_checking/error_database.csv:151
+#: ./script_checking/error_database.csv:160
 msgid ""
 "You need to check the parent class's function and its definition in the "
 "code reference. Then, you need to edit your function definition to have "
@@ -529,7 +568,7 @@ msgid ""
 msgstr ""
 
 #. Reference: INVALID_ARGUMENTS
-#: ./script_checking/error_database.csv:152
+#: ./script_checking/error_database.csv:161
 msgid ""
 "This whole class of errors has to do with calling functions with either "
 "the wrong number of arguments or the wrong kind of argument. You will "
@@ -537,7 +576,7 @@ msgid ""
 msgstr ""
 
 #. Reference: INVALID_ARGUMENTS
-#: ./script_checking/error_database.csv:152
+#: ./script_checking/error_database.csv:161
 msgid ""
 "You need to either remove, add, or change the values you're trying to "
 "pass to the function to solve this issue. To know exactly how many "
@@ -546,7 +585,7 @@ msgid ""
 msgstr ""
 
 #. Reference: TYPE_MISMATCH
-#: ./script_checking/error_database.csv:163
+#: ./script_checking/error_database.csv:172
 msgid ""
 "All the values in your code have a specific type. That type can be a "
 "whole number (int), a decimal number (float), text (String), and so on. "
@@ -570,7 +609,7 @@ msgid ""
 msgstr ""
 
 #. Reference: TYPE_MISMATCH
-#: ./script_checking/error_database.csv:163
+#: ./script_checking/error_database.csv:172
 msgid ""
 "If the error mentions the assigned value type not matching the variable, "
 "the problem is on the right side of the equal sign (=)."
@@ -589,7 +628,7 @@ msgid ""
 msgstr ""
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
-#: ./script_checking/error_database.csv:168
+#: ./script_checking/error_database.csv:177
 msgid ""
 "GDScript supports type inference. The computer will automatically "
 "recognize the type of value you are working with. In some cases, though, "
@@ -602,7 +641,7 @@ msgid ""
 msgstr ""
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
-#: ./script_checking/error_database.csv:168
+#: ./script_checking/error_database.csv:177
 msgid ""
 "The simplest way to solve this error is to remove types for this variable"
 " or this function's arguments. Otherwise, you can manually specify the "
@@ -615,7 +654,7 @@ msgid ""
 msgstr ""
 
 #. Reference: RETURN_VALUE_MISMATCH
-#: ./script_checking/error_database.csv:174
+#: ./script_checking/error_database.csv:183
 msgid ""
 "There is an issue with the return value of your function. There are two "
 "main cases here:"
@@ -631,7 +670,7 @@ msgid ""
 msgstr ""
 
 #. Reference: RETURN_VALUE_MISMATCH
-#: ./script_checking/error_database.csv:174
+#: ./script_checking/error_database.csv:183
 msgid ""
 "When your function is 'void', you should never return a value. You can "
 "use the 'return' keyword to end the function early, but you should never "
@@ -645,31 +684,31 @@ msgid ""
 msgstr ""
 
 #. Reference: INVALID_NO_CATCH
-#: ./script_checking/error_database.csv:175
+#: ./script_checking/error_database.csv:184
 msgid ""
 "Godot was unable to load your script, yet the language checker found "
 "nothing wrong."
 msgstr ""
 
 #. Reference: INVALID_NO_CATCH
-#: ./script_checking/error_database.csv:175
+#: ./script_checking/error_database.csv:184
 msgid "Please click on the \"report\" button at the top and please let us know."
 msgstr ""
 
 #. Reference: RECURSIVE_FUNCTION
-#: ./script_checking/error_database.csv:176
+#: ./script_checking/error_database.csv:185
 msgid "You called a function inside itself. This will loop forever."
 msgstr ""
 
 #. Reference: RECURSIVE_FUNCTION
-#: ./script_checking/error_database.csv:176
+#: ./script_checking/error_database.csv:185
 msgid ""
 "There are valid reasons for using recursive functions, but none of them "
 "are part of this course, so this cannot be a valid solution."
 msgstr ""
 
 #. Reference: INFINITE_WHILE_LOOP
-#: ./script_checking/error_database.csv:177
+#: ./script_checking/error_database.csv:186
 msgid ""
 "You wrote a while loop with a condition that is always true (like "
 "[code]while true:[/code] or [code]while(true):[/code]) without a "
@@ -678,7 +717,7 @@ msgid ""
 msgstr ""
 
 #. Reference: INFINITE_WHILE_LOOP
-#: ./script_checking/error_database.csv:177
+#: ./script_checking/error_database.csv:186
 msgid ""
 "To fix this, you need to either add a [code]break[/code] statement inside"
 " the loop so it can exit when a certain condition is met, or change the "
@@ -687,7 +726,7 @@ msgid ""
 msgstr ""
 
 #. Reference: UNEXPECTED_EOL
-#: ./script_checking/error_database.csv:179
+#: ./script_checking/error_database.csv:188
 msgid ""
 "The computer reached the end of the line of code, but the line had a "
 "syntax error.\n"
@@ -696,7 +735,7 @@ msgid ""
 msgstr ""
 
 #. Reference: UNEXPECTED_EOL
-#: ./script_checking/error_database.csv:179
+#: ./script_checking/error_database.csv:188
 msgid ""
 "Double-check that you are not missing a quote character or that the quote"
 " character you used to start the string is the same as the one you used "
@@ -704,12 +743,12 @@ msgid ""
 msgstr ""
 
 #. Reference: CANT_GET_INDEX
-#: ./script_checking/error_database.csv:182
+#: ./script_checking/error_database.csv:191
 msgid "The sub-variable you are trying to access does not exist."
 msgstr ""
 
 #. Reference: CANT_GET_INDEX
-#: ./script_checking/error_database.csv:182
+#: ./script_checking/error_database.csv:191
 msgid ""
 "You probably have a typo in the name of the sub-variable that you are "
 "trying to access."

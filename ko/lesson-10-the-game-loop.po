@@ -8,31 +8,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-05-16 09:25+0200\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2024-07-07 09:09+0000\n"
 "Last-Translator: Godoto <ineovide@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-10-the-game-loop/ko/>\n"
 "Language: ko\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/learn-"
-"gdscript-from-zero/lesson-10-the-game-loop/ko/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-10-the-game-loop/lesson.tres:14
 msgid ""
-"As we've seen, Godot has functions that do certain actions. For example, "
-"the [code]show()[/code] and [code]hide()[/code] functions change the "
-"visibility of things."
+"As we've seen, Godot has functions that do certain actions. For example, the "
+"[code]show()[/code] and [code]hide()[/code] functions change the visibility "
+"of things."
 msgstr ""
-"지금까지 살펴본 것처럼 고닷에는 특정 작업을 수행하는 함수가 있습니다. 예를 들어, [code]show()[/code] 및 "
-"[code]hide()[/code] 함수는 사물의 가시성을 변경합니다."
+"지금까지 살펴본 것처럼 고닷에는 특정 작업을 수행하는 함수가 있습니다. 예를 들"
+"어, [code]show()[/code] 및 [code]hide()[/code] 함수는 사물의 가시성을 변경합"
+"니다."
 
 msgid ""
-"We can also create our own functions to make custom effects like adding "
-"or removing health to a character."
-msgstr "또한 자체 함수를 만들어 캐릭터의 생명력을 추가하거나 제거하는 등의 커스텀 효과를 만들 수도 있습니다."
+"We can also create our own functions to make custom effects like adding or "
+"removing health to a character."
+msgstr ""
+"또한 자체 함수를 만들어 캐릭터의 생명력을 추가하거나 제거하는 등의 커스텀 효"
+"과를 만들 수도 있습니다."
 
 msgid "Godot also has special functions we can customize or add to."
 msgstr "고닷에는 사용자 정의하거나 추가할 수 있는 특별한 함수도 있습니다."
@@ -44,15 +47,18 @@ msgstr "[code]_process()[/code] 함수를 예로 들어보겠습니다."
 msgid ""
 "The [code]_process()[/code] function gets its name because it does "
 "calculations or continuous actions."
-msgstr "[code]_process()[/code] 함수는 계산이나 지속적인 작업을 수행하기 때문에 이러한 이름이 붙었습니다."
+msgstr ""
+"[code]_process()[/code] 함수는 계산이나 지속적인 작업을 수행하기 때문에 이러"
+"한 이름이 붙었습니다."
 
 msgid ""
-"It's like a juice factory that [b]processes[/b] juice bottles: the "
-"bottles are always moving along a conveyor belt, while different machines"
-" operate on them."
+"It's like a juice factory that [b]processes[/b] juice bottles: the bottles "
+"are always moving along a conveyor belt, while different machines operate on "
+"them."
 msgstr ""
-"이것은 마치 주스 공장이 주스 병을 [b]처리[/b]하는 것과 같습니다: 병들이 항상 컨베이어 벨트를 따라 움직이면서, 다양한 "
-"기계들이 병에 작업을 수행하는 것과 같습니다."
+"이것은 마치 주스 공장이 주스 병을 [b]처리[/b]하는 것과 같습니다: 병들이 항상 "
+"컨베이어 벨트를 따라 움직이면서, 다양한 기계들이 병에 작업을 수행하는 것과 같"
+"습니다."
 
 #: course/lesson-10-the-game-loop/lesson.tres:52
 msgid ""
@@ -73,17 +79,15 @@ msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:65
 msgid ""
-"The [code]_process()[/code] function takes one parameter: "
-"[code]delta[/code]."
+"The [code]_process()[/code] function takes one parameter: [code]delta[/code]."
 msgstr ""
 
 msgid ""
-"We'll look at what [code]delta[/code] is in the next lesson, as well as "
-"show how to use it."
+"We'll look at what [code]delta[/code] is in the next lesson, as well as show "
+"how to use it."
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
-#: course/lesson-10-the-game-loop/lesson.tres:69
 msgid "1"
 msgstr ""
 
@@ -104,8 +108,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"For now, all you need to know is that if the function exists in your "
-"code, and it is called precisely [code]_process[/code], then Godot will "
+"For now, all you need to know is that if the function exists in your code, "
+"and it is called precisely [code]_process[/code], then Godot will "
 "automatically run it every [i]frame[/i]."
 msgstr ""
 
@@ -117,7 +121,8 @@ msgid "Is this the same for other engines?"
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:94
-msgid "Other game engines might use different names like [code]_update()[/code]."
+msgid ""
+"Other game engines might use different names like [code]_update()[/code]."
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:102
@@ -125,7 +130,8 @@ msgid "Why is the _process() function useful?"
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:104
-msgid "It's perhaps better to see the [code]_process()[/code] function in action."
+msgid ""
+"It's perhaps better to see the [code]_process()[/code] function in action."
 msgstr ""
 
 msgid "Take the following example."
@@ -137,12 +143,13 @@ msgid ""
 "processing on the robot."
 msgstr ""
 
-msgid "From there, every frame, Godot runs the [code]_process()[/code] function."
+msgid ""
+"From there, every frame, Godot runs the [code]_process()[/code] function."
 msgstr ""
 
 msgid ""
-"Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the"
-" character by [code]0.05[/code] radians [b]many[/b] times a second."
+"Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the "
+"character by [code]0.05[/code] radians [b]many[/b] times a second."
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:138
@@ -150,12 +157,13 @@ msgid "How often does the _process() function run?"
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:141
-msgid "The faster your computer, the more times [code]_process()[/code] will run."
+msgid ""
+"The faster your computer, the more times [code]_process()[/code] will run."
 msgstr ""
 
 msgid ""
-"Godot will try and run [code]_process()[/code] as quickly as it can. This"
-" makes sure any movement or animations look smooth and fluid."
+"Godot will try and run [code]_process()[/code] as quickly as it can. This "
+"makes sure any movement or animations look smooth and fluid."
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
@@ -163,14 +171,13 @@ msgid "Once a second."
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
-#: course/lesson-10-the-game-loop/lesson.tres:145
 msgid "Multiple times a second."
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:154
 msgid ""
-"In the practice, you'll learn how to use the process function to rotate "
-"and move a character yourself."
+"In the practice, you'll learn how to use the process function to rotate and "
+"move a character yourself."
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:162
@@ -186,27 +193,26 @@ msgstr ""
 msgid "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr ""
 
-#: course/lesson-10-the-game-loop/lesson.tres:180
+#: course/lesson-10-the-game-loop/lesson.tres:181
 msgid "Creating Circular Movement"
 msgstr ""
 
-#: course/lesson-10-the-game-loop/lesson.tres:181
+#: course/lesson-10-the-game-loop/lesson.tres:182
 msgid ""
 "Make the robot move in a large circle slowly by rotating it and "
 "simultaneously moving it along its x direction."
 msgstr ""
 
 msgid ""
-"To do this, add the [code]rotate()[/code] and [code]move_local_x()[/code]"
-" functions to [code]_process()[/code]."
+"To do this, add the [code]rotate()[/code] and [code]move_local_x()[/code] "
+"functions to [code]_process()[/code]."
 msgstr ""
 
 msgid ""
-"Use a rotation speed of [code]0.05[/code] radians per frame, and move the"
-" robot [code]5[/code] pixels per frame."
+"Use a rotation speed of [code]0.05[/code] radians per frame, and move the "
+"robot [code]5[/code] pixels per frame."
 msgstr ""
 
-#: course/lesson-10-the-game-loop/lesson.tres:199
+#: course/lesson-10-the-game-loop/lesson.tres:201
 msgid "The Game Loop"
 msgstr ""
-

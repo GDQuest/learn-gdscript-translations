@@ -8,66 +8,63 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-12-09 20:05+0100\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2024-12-29 00:21+0000\n"
 "Last-Translator: Atur <aturaseman9@gmail.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/error-explanations/fa/>\n"
 "Language: fa\n"
-"Language-Team: Persian <https://hosted.weblate.org/projects/learn-"
-"gdscript-from-zero/error-explanations/fa/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
-#: ./script_checking/error_database.csv:40
+#: script_checking/error_database.csv:40
 msgid ""
-"You get this error when the name between the [code]for[/code] and "
-"[code]in[/code] is not a valid variable name, or you are missing the "
-"[code]in[/code] keyword."
+"You get this error when the name between the [code]for[/code] and [code]in[/"
+"code] is not a valid variable name, or you are missing the [code]in[/code] "
+"keyword."
 msgstr ""
-"زمانی این خطا را می‌گیرید که نام میان [code]for[/code] و [code]in[/code] "
-"یک نام متغیر معتبر نباشد، یا که کلیدواژه‌ی [code]in[/code] را از جا "
-"می‌اندازید."
+"زمانی این خطا را می‌گیرید که نام میان [code]for[/code] و [code]in[/code] یک "
+"نام متغیر معتبر نباشد، یا که کلیدواژه‌ی [code]in[/code] را از جا می‌اندازید."
 
 msgid ""
-"In a [code]for[/code] loop, the [code]in[/code] keyword only accepts a "
-"valid temporary variable name to assign values in each loop iteration. "
-"The loop creates a new variable with the desired name and assigns each "
-"element of the array to it."
+"In a [code]for[/code] loop, the [code]in[/code] keyword only accepts a valid "
+"temporary variable name to assign values in each loop iteration. The loop "
+"creates a new variable with the desired name and assigns each element of the "
+"array to it."
 msgstr ""
-"در یک چرخه‌ی [code]for[/code]، کلیدواژه‌ی [code]in[/code] تنها یک نام "
-"متغیر گذرای *معتبر* را برای واگذاشتن ارزش در هر تکرار از چرخه می‌پذیرد. "
-"چرخه یک متغیر نو با نام خواسته‌شده ساخته و هر درایه از آرایه را به آن "
-"می‌واگذارد."
+"در یک چرخه‌ی [code]for[/code]، کلیدواژه‌ی [code]in[/code] تنها یک نام متغیر "
+"گذرای *معتبر* را برای واگذاشتن ارزش در هر تکرار از چرخه می‌پذیرد. چرخه یک "
+"متغیر نو با نام خواسته‌شده ساخته و هر درایه از آرایه را به آن می‌واگذارد."
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
-#: ./script_checking/error_database.csv:40
+#: script_checking/error_database.csv:40
 msgid ""
-"To fix this error, you need to ensure that the name between the "
-"[code]for[/code] and [code]in[/code] keywords is a valid variable name "
-"with no punctuation or spaces."
+"To fix this error, you need to ensure that the name between the [code]for[/"
+"code] and [code]in[/code] keywords is a valid variable name with no "
+"punctuation or spaces."
 msgstr ""
-"برای درست کردن این خطا، نیاز دارید از معتبر بودن نام متغیر و نبود فاصله "
-"یا نقطه‌گذاری میان کلیدواژه‌های [code]for[/code] و [code]in[/code] مطمئن "
-"شوید."
+"برای درست کردن این خطا، نیاز دارید از معتبر بودن نام متغیر و نبود فاصله یا "
+"نقطه‌گذاری میان کلیدواژه‌های [code]for[/code] و [code]in[/code] مطمئن شوید."
 
 msgid ""
 "For example, this code is invalid: [code]for cell_position.x in "
-"cell_positions_array:[/code] because [code]cell_position.x[/code] isn't a"
-" valid variable name."
+"cell_positions_array:[/code] because [code]cell_position.x[/code] isn't a "
+"valid variable name."
 msgstr ""
 "برای نمونه، این کد نامعتبر است: [code]for cell_position.x in "
 "cell_positions_array:[/code] چرا که [code]cell_position.x[/code] یک نام "
 "متغیر معتبر نیست."
 
 msgid ""
-"To access the [code]x[/code] sub-component of the variable, you need to "
-"do that inside of the loop's body:"
+"To access the [code]x[/code] sub-component of the variable, you need to do "
+"that inside of the loop's body:"
 msgstr ""
-"برای دسترسی به زیرمولفه‌ی متغیر [code]x[/code]، نیاز دارید تا آن را درون "
-"بدن چرخه بینجامید:"
+"برای دسترسی به زیرمولفه‌ی متغیر [code]x[/code]، نیاز دارید تا آن را درون بدن "
+"چرخه بینجامید:"
 
 msgid ""
 "[code]for cell_position in cell_positions_array:\n"
@@ -77,78 +74,149 @@ msgstr ""
 "· · · ·cell_position.x += 1.0[/code]"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
-#: ./script_checking/error_database.csv:47
+#: script_checking/error_database.csv:49
+#, fuzzy
 msgid ""
-"If you get this error, you are most likely trying to assign a value to "
-"something other than a variable, which is impossible. You can only assign"
-" values to variables."
+"You get this error when you try to assign a value to something that is not a "
+"variable."
 msgstr ""
-"اگر این خطا را گرفتید، به احتمال بالایی کوشیدید تا ارزشی را به چیزی جز "
-"متغیر واگذارید، که نشدنی است. تنها می‌توانید ارزش در متغیرها واگذارید."
+"اگر این خطا را گرفتید، به احتمال بالایی کوشیدید تا ارزشی را به چیزی جز متغیر "
+"واگذارید، که نشدنی است. تنها می‌توانید ارزش در متغیرها واگذارید."
 
 msgid ""
-"Another possibility is that you want to check for equality in a condition"
-" but wrote a single = instead of ==."
+"You can only assign values to variables. You cannot assign values to "
+"function calls or calculations."
 msgstr ""
-"امکان دیگر این است که می‌خواهید برابری یک شرط را بررسی کنید ولی بجای == "
-"تنها یک = نوشتید."
+
+msgid ""
+"For example, you cannot write [code]randi() = 5[/code] because [code]randi()"
+"[/code] is a function call, not a variable."
+msgstr ""
 
 #. Reference: ASSIGNING_TO_EXPRESSION
-#: ./script_checking/error_database.csv:47
+#: script_checking/error_database.csv:49
 msgid ""
-"If you want to assign a value to a variable, double-check that what you "
-"have on the left side of the = sign is a variable and not a function."
+"Check what you wrote on the left side of the equal sign (=). Make sure it is "
+"a variable name."
 msgstr ""
-"اگر می‌خواهید ارزشی را به یک متغیر واگذارید، از تابع نبودن و متغیر بودن "
-"چیزی که در چپ نشانه‌ی = هست مطمئن شوید."
 
 msgid ""
-"You also need to ensure the syntax is correct. For example, there "
-"shouldn't be parentheses on the left side of the equal sign."
+"If you see parentheses () on the left side, you might be trying to assign to "
+"a function call. Remove the parentheses and the function call."
 msgstr ""
-"همچنین از درست بودن سینتَکس (نحو) مطمئن شوید. برای نمونه، در پهلوی چپ "
-"نشانه‌ی برابری نباید کمانکی باشد."
+
+#, fuzzy
+msgid ""
+"If you are trying to check if two values are equal in a condition, use two "
+"equal signs (==) instead of one (=)."
+msgstr ""
+"امکان دیگر این است که می‌خواهید برابری یک شرط را بررسی کنید ولی بجای == تنها "
+"یک = نوشتید."
+
+#. Reference: CANT_ASSIGN_TO_CONSTANT
+#: script_checking/error_database.csv:59
+msgid "You get this error when you try to change the value of a constant."
+msgstr ""
 
 msgid ""
-"In the case of a condition, ensure that you are using two equal signs to "
-"check for equality (==)."
+"A constant is a name that holds a value that cannot change. It's like a "
+"variable, but once you set its value, you cannot replace it."
 msgstr ""
-"در زمینه‌ی شرطی‌ها،‌ مطمئن شوید که دارید از دو نشانه‌ی برابری (==) برای "
-"بررسی برابری شرط بکار می‌برید."
+
+msgid ""
+"For example, if you write [code]const MAX_SPEED = 100[/code], you cannot "
+"later write [code]MAX_SPEED = 200[/code] or [code]MAX_SPEED += 50[/code]."
+msgstr ""
+
+msgid ""
+"Many constants are built into Godot and GDScript, and you cannot change them "
+"either. For instance, you cannot write [code]Vector2 = 5[/code] or [code]PI "
+"= 3[/code]. Constant names usually use capital letters."
+msgstr ""
+
+#. Reference: CANT_ASSIGN_TO_CONSTANT
+#: script_checking/error_database.csv:59
+msgid ""
+"Look at what you are trying to change. If it is a constant (defined with the "
+"[code]const[/code] keyword or built into Godot), you have two options:"
+msgstr ""
+
+msgid ""
+"1. If the value should never change, or it comes from Godot, remove the line "
+"that tries to change it.\n"
+"2. If the value needs to change, use [code]var[/code] instead of "
+"[code]const[/code] when you first create it."
+msgstr ""
+
+#. Reference: SPACES_BEFORE_TABS
+#: script_checking/error_database.csv:68
+msgid ""
+"You get this error when you mix spaces and tabs in your indentation. This "
+"happens when you have a space before a tab, or a tab before a space at the "
+"start of a line."
+msgstr ""
+
+msgid ""
+"In GDScript, you must use only tabs (not spaces) to indent your code. When "
+"you press the Tab key on your keyboard, it creates a tab character."
+msgstr ""
+
+msgid ""
+"If you accidentally type a space before a tab, or a tab before a space, the "
+"computer gets confused about your code's indentation."
+msgstr ""
+
+#. Reference: SPACES_BEFORE_TABS
+#: script_checking/error_database.csv:68
+msgid ""
+"To fix this error, go to the line mentioned in the error message. Delete any "
+"space characters at the very beginning of the line, and remove any spaces "
+"that appear after your tab characters."
+msgstr ""
+
+msgid ""
+"Tab characters look like an arrow pointing at a vertical line in your code: "
+"⇥. Spaces look like centered dots: ·. Look closely to spot the difference."
+msgstr ""
+
+msgid ""
+"Then, make sure the line starts with only tab characters for indentation, "
+"with no spaces mixed in."
+msgstr ""
 
 #. Reference: CYCLIC_REFERENCE
-#: ./script_checking/error_database.csv:57
+#: script_checking/error_database.csv:78
 msgid ""
-"A cyclic reference is when a class references itself, directly or "
-"indirectly."
+"A cyclic reference is when a class references itself, directly or indirectly."
 msgstr ""
-"بازبرد چرخه‌ای به زمانی گفته می‌شود که یک کلاس خودش را مستقیم یا نامستقیم"
-" بازبرد کند."
+"بازبرد چرخه‌ای به زمانی گفته می‌شود که یک کلاس خودش را مستقیم یا نامستقیم "
+"بازبرد کند."
 
 msgid "It has two possible causes:"
 msgstr "می‌تواند دو دلیل داشته باشد:"
 
 msgid ""
 "1. You used the class name in the class itself.\n"
-"2. Your code refers to another class that refers to this class, causing "
-"an endless reference cycle."
+"2. Your code refers to another class that refers to this class, causing an "
+"endless reference cycle."
 msgstr ""
 "۱. شما نام کلاس را در خود آن به‌کار بردید.\n"
-"۲. کد شما کلاسی را بازبرد می‌کند که این کلاس به دست آن بازبرد شده است، که"
-" باعث رخ دادن یک بازبرد چرخه‌ای می‌شود."
+"۲. کد شما کلاسی را بازبرد می‌کند که این کلاس به دست آن بازبرد شده است، که "
+"باعث رخ دادن یک بازبرد چرخه‌ای می‌شود."
 
 msgid ""
-"Either way, due to how GDScript works in Godot 3, unfortunately,you "
-"cannot do this. Godot 4 should solve this problem, but you need to work "
-"around it in the meantime."
+"Either way, due to how GDScript works in Godot 3, unfortunately,you cannot "
+"do this. Godot 4 should solve this problem, but you need to work around it "
+"in the meantime."
 msgstr ""
-"در هر گونه، بخاطر گونه‌ای که جی.دی.اسکریپت در گودوت ۳ کار می‌کند، "
-"شوربختانه، نمی‌توانید چنین کنید. گودوت ۴ احتمالا این مشکل را حل می‌کند، "
-"ولی نیاز دارید تا آن زمان این را دور بزنید."
+"در هر گونه، بخاطر گونه‌ای که جی.دی.اسکریپت در گودوت ۳ کار می‌کند، شوربختانه، "
+"نمی‌توانید چنین کنید. گودوت ۴ احتمالا این مشکل را حل می‌کند، ولی نیاز دارید تا "
+"آن زمان این را دور بزنید."
 
 #. Reference: CYCLIC_REFERENCE
-#: ./script_checking/error_database.csv:57
-msgid "Erase the type hint in the error line, and the problem should disappear."
+#: script_checking/error_database.csv:78
+msgid ""
+"Erase the type hint in the error line, and the problem should disappear."
 msgstr "راهنمایی گونه را در خط خطا پاک کنید، تا احتمالا مشکل از میان برود."
 
 msgid ""
@@ -156,181 +224,211 @@ msgid ""
 "causing cyclic references. It solves the problem in the vast majority of "
 "cases."
 msgstr ""
-"در جی.دی.کوئِست، زمانی که این خطا رخ می‌دهد، راهنمایی‌های گونه‌ای که باعث"
-" بازبرد چرخه‌ای می‌شوند را می‌زداییم. بیشتر زمان‌ها مشکل را حل می‌کند."
+"در جی.دی.کوئِست، زمانی که این خطا رخ می‌دهد، راهنمایی‌های گونه‌ای که باعث بازبرد "
+"چرخه‌ای می‌شوند را می‌زداییم. بیشتر زمان‌ها مشکل را حل می‌کند."
 
 #. Reference: INVALID_INDENTATION
-#: ./script_checking/error_database.csv:64
+#: script_checking/error_database.csv:85
 msgid ""
-"The indentation of your code (the number of tab characters at the start "
-"of the line) is incorrect."
+"The indentation of your code (the number of tab characters at the start of "
+"the line) is incorrect."
 msgstr "تورفتگی کد شما (شمار نویسه‌های تَب (tab) در آغاز خط) نادرست است."
 
 msgid "You are missing one or more tabs, or you inserted too many."
 msgstr "یک یا چند تَب را از جا انداختید، یا بیش از اندازه جایگذاشتید."
 
 msgid ""
-"The computer uses those leading tab characters on code lines to know "
-"which lines of code are part of a code block, like a function."
+"The computer uses those leading tab characters on code lines to know which "
+"lines of code are part of a code block, like a function."
 msgstr ""
-"رایانه آن نویسه‌های تَب روی خط‌های کد را برای دانستن اینکه کدام خط‌ها "
-"بخشی از یک گروه کدی‌اند به‌کار می‌برد، مانند یک تابع."
+"رایانه آن نویسه‌های تَب روی خط‌های کد را برای دانستن اینکه کدام خط‌ها بخشی از یک "
+"گروه کدی‌اند به‌کار می‌برد، مانند یک تابع."
 
 #. Reference: INVALID_INDENTATION
-#: ./script_checking/error_database.csv:64
+#: script_checking/error_database.csv:85
 msgid ""
 "If the line of code with the error is right after a line ending with a "
-"colon, like a function definition, you need one extra indent level "
-"compared to the previous line."
+"colon, like a function definition, you need one extra indent level compared "
+"to the previous line."
 msgstr ""
-"اگر خط کد دارای خطا دقیقا پس از یک خط پایانیده با دونقطه (:)، مانند یک "
-"تعریف تابع باشد، شما به یک پله تورفتگی بیشتر از خط پیشین نیازمندید."
+"اگر خط کد دارای خطا دقیقا پس از یک خط پایانیده با دونقطه (:)، مانند یک تعریف "
+"تابع باشد، شما به یک پله تورفتگی بیشتر از خط پیشین نیازمندید."
 
 msgid ""
-"In other words, your line should have one more leading tab character than"
-" the function definition."
-msgstr "به زبانی دیگر، خط شما باید یک نویسه‌ی تَب بیشتر از تعریف تابع داشته باشد."
+"In other words, your line should have one more leading tab character than "
+"the function definition."
+msgstr ""
+"به زبانی دیگر، خط شما باید یک نویسه‌ی تَب بیشتر از تعریف تابع داشته باشد."
 
 #. Reference: UNEXPECTED_CHARACTER
-#: ./script_checking/error_database.csv:73
+#: script_checking/error_database.csv:94
 msgid ""
-"You get this error when you wrote something that is syntactically "
-"invalid, or you are missing something to complete this line or previous "
-"lines of code."
+"You get this error when you wrote something that is syntactically invalid, "
+"or you are missing something to complete this line or previous lines of code."
 msgstr ""
-"زمانی این خطا را می‌گیرید که نوشته‌ی شما از نگاه نحو و سینتَکس نامعتبر "
-"باشد، یا چیزی را برای کامل کردن این خط یا خط‌های پیشین کد از جا "
-"انداخته‌اید."
+"زمانی این خطا را می‌گیرید که نوشته‌ی شما از نگاه نحو و سینتَکس نامعتبر باشد، یا "
+"چیزی را برای کامل کردن این خط یا خط‌های پیشین کد از جا انداخته‌اید."
 
 msgid ""
-"You need to be extremely precise when you write code for the computer. "
-"This kind of error is easy to get as all it takes is one wrong character."
+"You need to be extremely precise when you write code for the computer. This "
+"kind of error is easy to get as all it takes is one wrong character."
 msgstr ""
-"هنگام کدنویسی برای رایانه باید بسیار دقیق باشید. گرفتن اینگونه خطا‌ها "
-"آسان است، چرا که تنها نیازش برای رخ دادن یک نویسه‌ی نادرست است."
+"هنگام کدنویسی برای رایانه باید بسیار دقیق باشید. گرفتن اینگونه خطا‌ها آسان "
+"است، چرا که تنها نیازش برای رخ دادن یک نویسه‌ی نادرست است."
 
 msgid ""
-"Note that this error can appear [b]after[/b] the line causing it due to "
-"how the computer reads and analyzes your code."
+"Note that this error can appear [b]after[/b] the line causing it due to how "
+"the computer reads and analyzes your code."
 msgstr ""
-"به یاد داشته باشید که این خطا بخاطر شیوه‌ای که رایانه کد شما را می‌خواند "
-"و می‌واکاود می‌تواند [b]پس از[/b] خطی که باعث آن شده است نمایان شود."
+"به یاد داشته باشید که این خطا بخاطر شیوه‌ای که رایانه کد شما را می‌خواند و "
+"می‌واکاود می‌تواند [b]پس از[/b] خطی که باعث آن شده است نمایان شود."
 
 #. Reference: UNEXPECTED_CHARACTER
-#: ./script_checking/error_database.csv:73
+#: script_checking/error_database.csv:94
 msgid ""
-"The way to solve this kind of error is highly contextual. The error "
-"message should tell you which character or element it's missing."
+"The way to solve this kind of error is highly contextual. The error message "
+"should tell you which character or element it's missing."
 msgstr ""
-"شیوه‌ی چاره‌گشایی اینگونه خطا‌ها بسیار وابسته به بافتار است. پیام خطا "
-"باید به شما بگوید که کدام نویسه یا درایه از جا افتاده است."
+"شیوه‌ی چاره‌گشایی اینگونه خطا‌ها بسیار وابسته به بافتار است. پیام خطا باید به "
+"شما بگوید که کدام نویسه یا درایه از جا افتاده است."
 
 msgid ""
-"If the error says \"expected,\" then you're likely missing something in "
-"one of the [b]previous[/b] code lines. It could be a punctuation mark, a "
+"If the error says \"expected,\" then you're likely missing something in one "
+"of the [b]previous[/b] code lines. It could be a punctuation mark, a "
 "parenthesis, or something else."
 msgstr ""
 "اگر خطا می‌گوید «,expected» (مورد انتظار) به این معنا است که شما چیزی از "
-"خط‌های کد [b]پیشین[/b] را از جا انداخته‌اید. می‌تواند یک نشانه‌ی "
-"نقطه‌گذاری، کمانک یا چیز دیگری باشد."
+"خط‌های کد [b]پیشین[/b] را از جا انداخته‌اید. می‌تواند یک نشانه‌ی نقطه‌گذاری، "
+"کمانک یا چیز دیگری باشد."
 
 msgid ""
-"If it says \"unterminated,\" you are missing some character at the end of"
-" an expression, like a closing bracket. In this case, it most likely "
-"comes from the line with the error."
+"If it says \"unterminated,\" you are missing some character at the end of an "
+"expression, like a closing bracket. In this case, it most likely comes from "
+"the line with the error."
 msgstr ""
-"اگر می‌گوید «,unterminated» (نافرجام) به این معنا است که شما نویسه‌ای "
-"مانند کمانک را در پایان یک گزاره از جا انداخته‌اید. در این حالت به احتمال"
-" بسیار از خط دارای خطا می‌آید."
+"اگر می‌گوید «,unterminated» (نافرجام) به این معنا است که شما نویسه‌ای مانند "
+"کمانک را در پایان یک گزاره از جا انداخته‌اید. در این حالت به احتمال بسیار از "
+"خط دارای خطا می‌آید."
+
+#. Reference: UNKNOWN_CHARACTER
+#: script_checking/error_database.csv:103
+msgid ""
+"You get this error when you use a special character that GDScript doesn't "
+"recognize."
+msgstr ""
+
+msgid ""
+"This includes accented letters (like é, à, ñ), special symbols, or "
+"characters from non-Latin alphabets in your code instructions (not in "
+"strings)."
+msgstr ""
+
+msgid ""
+"[b]Note:[/b] Godot 4 supports special and non-Latin characters in code "
+"(Unicode characters), but this app is built with Godot 3, which does not."
+msgstr ""
+
+#. Reference: UNKNOWN_CHARACTER
+#: script_checking/error_database.csv:103
+msgid ""
+"To fix this error, remove any accented letters or special characters from "
+"your variable names, function names, and other code elements."
+msgstr ""
+
+msgid ""
+"You can use accented characters inside text strings (between quotes), but "
+"not in the code itself."
+msgstr ""
+
+msgid ""
+"You can replace accented letters with their non-accented equivalents. For "
+"example, change [code]café[/code] to [code]cafe[/code]."
+msgstr ""
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
-#: ./script_checking/error_database.csv:76
+#: script_checking/error_database.csv:106
 msgid ""
 "This error tells you that you are missing a parenthesis (or sometimes a "
 "comma or a path)."
 msgstr ""
-"این خطا به شما می‌گوید که یک کمانک (یا گاهی یک ویرگول (,) یا مسیر) را از "
-"جا انداخته‌اید."
+"این خطا به شما می‌گوید که یک کمانک (یا گاهی یک ویرگول (,) یا مسیر) را از جا "
+"انداخته‌اید."
 
 msgid ""
-"Three keywords in GDScript work like function calls and require "
-"parentheses: [code]yield()[/code], [code]preload()[/code], and "
-"[code]assert()[/code]."
+"Three keywords in GDScript work like function calls and require parentheses: "
+"[code]yield()[/code], [code]preload()[/code], and [code]assert()[/code]."
 msgstr ""
 "سه کلیدواژه در جی.دی.اسکریپت مانند فراخوان‌های تابع کار کرده و به کمانک "
-"نیازمندند: [code]yield()[/code]، [code]preload()[/code] و "
-"[code]assert()[/code]."
+"نیازمندند: [code]yield()[/code]، [code]preload()[/code] و [code]assert()[/"
+"code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
-#: ./script_checking/error_database.csv:76
+#: script_checking/error_database.csv:106
 msgid ""
-"To address the error, you want to add the missing opening parenthesis, "
-"the closing parenthesis, or the comma."
+"To address the error, you want to add the missing opening parenthesis, the "
+"closing parenthesis, or the comma."
 msgstr ""
-"برای رسیدگی به این خطا، باید ویرگول (,) یا کمانک‌هایی که از جا انداختید "
-"را بیفزایید."
+"برای رسیدگی به این خطا، باید ویرگول (,) یا کمانک‌هایی که از جا انداختید را "
+"بیفزایید."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
-#: ./script_checking/error_database.csv:77
+#: script_checking/error_database.csv:107
 msgid ""
-"This error tells you are missing some parenthesis, a comma, or some value"
-" in your export hint."
+"This error tells you are missing some parenthesis, a comma, or some value in "
+"your export hint."
 msgstr ""
 "این خطا به شما می‌گوید که شما چند کمانک، ویرگول یا ارزش را در راهنمایی "
 "برون‌برد خود از جا انداختید."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_EXPORT_HINT
-#: ./script_checking/error_database.csv:77
+#: script_checking/error_database.csv:107
 msgid ""
-"You need to read the error message and add the missing character or value"
-" it requests."
+"You need to read the error message and add the missing character or value it "
+"requests."
 msgstr ""
-"باید پیام خطا را بخوانید و ارزش یا نویسه‌ی ازجاافتاده‌ای که درخواست "
-"می‌کند را بیفزایید."
+"باید پیام خطا را بخوانید و ارزش یا نویسه‌ی ازجاافتاده‌ای که درخواست می‌کند را "
+"بیفزایید."
 
 #. Reference: MISPLACED_IDENTIFIER
-#: ./script_checking/error_database.csv:86
+#: script_checking/error_database.csv:116
 msgid "This error happens in several cases:"
 msgstr "این خطا در چند حالت رخ می‌دهد:"
 
 msgid ""
-"1. You wrote an identifier (variable or function name) in the wrong "
-"place.\n"
-"2. You wrote a keyword like [code]var[/code], [code]func[/code], "
-"[code]for[/code], or [code]signal[/code], and you did not follow it by a "
-"name.\n"
+"1. You wrote an identifier (variable or function name) in the wrong place.\n"
+"2. You wrote a keyword like [code]var[/code], [code]func[/code], [code]for[/"
+"code], or [code]signal[/code], and you did not follow it by a name.\n"
 "3. You wrote a function definition but forgot the parentheses before the "
 "colon."
 msgstr ""
 "۱. شما یک شناسه (نام متغیر یا تابع) را در جای نادرست نوشتید.\n"
-"۲. شما یک کلیدواژه مانند [code]var[/code]، [code]func[/code]، "
-"[code]for[/code] یا [code]signal[/code] نوشتید و روبه‌روی آن نامی "
-"ننوشتید.\n"
+"۲. شما یک کلیدواژه مانند [code]var[/code]، [code]func[/code]، [code]for[/"
+"code] یا [code]signal[/code] نوشتید و روبه‌روی آن نامی ننوشتید.\n"
 "۳.شما یک تعریف تابع نوشتید ولی فراموش کردید که پیش از ویرگول (,) کمانک "
 "بگذارید."
 
 #. Reference: MISPLACED_IDENTIFIER
-#: ./script_checking/error_database.csv:86
+#: script_checking/error_database.csv:116
 msgid ""
-"If the error tells you it expected something, you likely forgot to write "
-"a name after a keyword like [code]var[/code], [code]func[/code], "
-"[code]for[/code], or [code]signal[/code], making your code invalid. Or "
-"you forgot parentheses in a function definition. You can address the "
-"error by adding the missing name or parentheses."
+"If the error tells you it expected something, you likely forgot to write a "
+"name after a keyword like [code]var[/code], [code]func[/code], [code]for[/"
+"code], or [code]signal[/code], making your code invalid. Or you forgot "
+"parentheses in a function definition. You can address the error by adding "
+"the missing name or parentheses."
 msgstr ""
-"اگر خطا به شما می‌گوید که انتظار چیزی را داشت، احتمالا فراموش کردید پس از"
-" کلیدواژه‌هایی همچون [code]var[/code]، [code]func[/code]، "
-"[code]for[/code] یا [code]signal[/code] یک نام بنویسید، که کدتان را "
-"نامعتبر می‌کند. یا فراموش کردید پس از تعریف تابعی کمانک بگذارید. "
-"می‌توانید با افزودن نام یا کمانک‌های ازجاانداخته به این خطا رسیدگی کنید."
+"اگر خطا به شما می‌گوید که انتظار چیزی را داشت، احتمالا فراموش کردید پس از "
+"کلیدواژه‌هایی همچون [code]var[/code]، [code]func[/code]، [code]for[/code] یا "
+"[code]signal[/code] یک نام بنویسید، که کدتان را نامعتبر می‌کند. یا فراموش "
+"کردید پس از تعریف تابعی کمانک بگذارید. می‌توانید با افزودن نام یا کمانک‌های "
+"ازجاانداخته به این خطا رسیدگی کنید."
 
 msgid ""
-"If the error says you have something unexpected, you are likely missing a"
-" keyword like [code]var[/code], [code]func[/code], [code]for[/code], etc."
+"If the error says you have something unexpected, you are likely missing a "
+"keyword like [code]var[/code], [code]func[/code], [code]for[/code], etc."
 msgstr ""
-"اگر خطا به شما می‌گوید که چیز بیرون از انتظاری دارید، احتمالا کلیدواژه‌ای"
-" همچون [code]var[/code]، [code]func[/code]، [code]for[/code] و... را از "
-"جا انداخته‌اید."
+"اگر خطا به شما می‌گوید که چیز بیرون از انتظاری دارید، احتمالا کلیدواژه‌ای "
+"همچون [code]var[/code]، [code]func[/code]، [code]for[/code] و... را از جا "
+"انداخته‌اید."
 
 msgid ""
 "Another possibility is that you need to write a colon at the end of a "
@@ -338,254 +436,252 @@ msgid ""
 "[code]if[/code], [code]elif[/code], or [code]else[/code]."
 msgstr ""
 "یا اینکه نیاز دارید پس از تعریف یک تابع، چرخه‌ی [code]for[/code] یا خطی "
-"آغازشده با [code]if[/code]، [code]elif[/code] یا [code]else[/code] یک "
-"دونقطه (:) بنویسید."
+"آغازشده با [code]if[/code]، [code]elif[/code] یا [code]else[/code] یک دونقطه "
+"(:) بنویسید."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
-#: ./script_checking/error_database.csv:91
+#: script_checking/error_database.csv:121
 msgid ""
-"This error tells you that you are missing a type somewhere. A type can be"
-" [code]int[/code], [code]float[/code], [code]String[/code], "
-"[code]Array[/code], [code]Vector2[/code], and many identifiers "
-"representing a data structure."
+"This error tells you that you are missing a type somewhere. A type can be "
+"[code]int[/code], [code]float[/code], [code]String[/code], [code]Array[/"
+"code], [code]Vector2[/code], and many identifiers representing a data "
+"structure."
 msgstr ""
 "این خطا به شما می‌گوید که یک گونه را از جا انداخته‌اید. یک گونه می‌تواند "
-"[code]int[/code]، [code]float[/code]، [code]String[/code]، "
-"[code]Array[/code]، [code]Vector2[/code] و شناسه‌های بسیاری که یک ساختار "
-"داده را نمایش می‌دهند باشد."
+"[code]int[/code]، [code]float[/code]، [code]String[/code]، [code]Array[/"
+"code]، [code]Vector2[/code] و شناسه‌های بسیاری که یک ساختار داده را نمایش "
+"می‌دهند باشد."
 
 msgid ""
-"Most of the time, this error occurs when you wrote a colon after a "
-"variable name but did not follow it with a type name."
+"Most of the time, this error occurs when you wrote a colon after a variable "
+"name but did not follow it with a type name."
 msgstr ""
 "بیشتر زمان‌ها، این خطا هنگامی رخ می‌دهد که شما یک دونقطه پس از نام متغیر "
 "نوشته‌اید ولی آن را با یک نام گونه دنبال نکردید."
 
 msgid ""
 "It also occurs when you write an arrow ([code]->[/code]) after the "
-"parentheses of a function definition but do not follow it with a type "
-"name."
+"parentheses of a function definition but do not follow it with a type name."
 msgstr ""
 "همچنین زمانی که پس از کمانک‌های تعریف تابعی، یک پیکان ([code]->[/code]) "
 "می‌نویسید ولی آن را با یک نام گونه دنبال نمی‌کنید نیز رخ می‌دهد."
 
 #. Reference: MISPLACED_TYPE_IDENTIFIER
-#: ./script_checking/error_database.csv:91
+#: script_checking/error_database.csv:121
 msgid ""
-"To solve this, you need to write the name of the type after the colon, "
-"arrow (in the case of function return types), inside parentheses (for "
-"export types), or after the [code]as[/code] keyword."
+"To solve this, you need to write the name of the type after the colon, arrow "
+"(in the case of function return types), inside parentheses (for export "
+"types), or after the [code]as[/code] keyword."
 msgstr ""
-"برای حل کردن این، باید نام گونه را پس از دونقطه، پیکان (برای گونه‌های "
-"برگشتی تابع)، درون کمانک‌ها (برای گونه‌های برون‌برد) یا پس از کلید‌واژه‌ی"
-" [code]as[/code] بنویسید."
+"برای حل کردن این، باید نام گونه را پس از دونقطه، پیکان (برای گونه‌های برگشتی "
+"تابع)، درون کمانک‌ها (برای گونه‌های برون‌برد) یا پس از کلید‌واژه‌ی [code]as[/"
+"code] بنویسید."
 
 #. Reference: NONEXISTENT_IDENTIFIER
-#: ./script_checking/error_database.csv:100
+#: script_checking/error_database.csv:130
 msgid ""
-"The variable, function name, or class name you are trying to use does not"
-" exist."
+"The variable, function name, or class name you are trying to use does not "
+"exist."
 msgstr "نام متغیر، تابع یا کلاسی که شما در کوشش بکارگیری آن‌اید وجود ندارد."
 
 msgid ""
 "You most often get this error when you make typos. Maybe you swapped two "
 "letters, forgot a letter... sometimes, it's hard to spot."
 msgstr ""
-"بیشتر زمان‌ها این خطا را بخاطر اشتباه‌های نوشتاری خواهید گرفت. شاید دو "
-"وات (حرف) را جای یکدیگر نوشتید یا یکی را فراموش کردید... گاهی، یافتن آن "
-"سخت است."
+"بیشتر زمان‌ها این خطا را بخاطر اشتباه‌های نوشتاری خواهید گرفت. شاید دو وات "
+"(حرف) را جای یکدیگر نوشتید یا یکی را فراموش کردید... گاهی، یافتن آن سخت است."
 
 msgid ""
 "The other cause for this error is that you didn't define the variable, "
 "function, or class you're trying to access."
 msgstr ""
-"دلیل دیگر این خطا این است که متغیر، تابع یا کلاسی که در کوشش دسترسی به "
-"آن‌اید را تعریف نکرده‌اید."
+"دلیل دیگر این خطا این است که متغیر، تابع یا کلاسی که در کوشش دسترسی به آن‌اید "
+"را تعریف نکرده‌اید."
 
 #. Reference: NONEXISTENT_IDENTIFIER
-#: ./script_checking/error_database.csv:100
+#: script_checking/error_database.csv:130
 msgid "To solve this error, triple-check that there is no typo in the line."
 msgstr "برای حل کردن این خطا، دوباره از نبود اشتباه نوشتاری در خط مطمئن شوید."
 
 msgid ""
-"If you can, try to go to the variable or function definition, double-"
-"click the name, copy it, and paste it where you see the error."
+"If you can, try to go to the variable or function definition, double-click "
+"the name, copy it, and paste it where you see the error."
 msgstr ""
-"اگر می‌توانید،‌ برای رفتن به تعریف تابع یا متغیر بکوشید، نام را دوباره "
-"بررسی کرده، روگرفت کنید، و آن را در جایی که خطا را می‌بینید، بچسبانید."
+"اگر می‌توانید،‌ برای رفتن به تعریف تابع یا متغیر بکوشید، نام را دوباره بررسی "
+"کرده، روگرفت کنید، و آن را در جایی که خطا را می‌بینید، بچسبانید."
 
 msgid ""
 "If you don't see any typo, then you need to ensure that you defined the "
 "variable, function, or class you are referring to."
 msgstr ""
-"اگر هیچ اشتباه نوشتاری نمی‌بینید، باید مطمئن شوید که متغیر، تابع یا کلاسی"
-" که بازبرد می‌کنید را تعریف کرده‌اید."
+"اگر هیچ اشتباه نوشتاری نمی‌بینید، باید مطمئن شوید که متغیر، تابع یا کلاسی که "
+"بازبرد می‌کنید را تعریف کرده‌اید."
 
 #. Reference: MISPLACED_KEYWORD
-#: ./script_checking/error_database.csv:105
+#: script_checking/error_database.csv:135
 msgid ""
-"You can only use keywords like [code]break[/code] or "
-"[code]continue[/code] in a loop. Outside a loop, they are invalid."
+"You can only use keywords like [code]break[/code] or [code]continue[/code] "
+"in a loop. Outside a loop, they are invalid."
 msgstr ""
 "درون یک چرخه تنها می‌توانید کلیدواژه‌هایی مانند [code]break[/code] یا "
 "[code]continue[/code] را به‌کار ببرید. بیرون از چرخه، نامعتبرند."
 
 msgid ""
-"The [code]continue[/code] keyword means \"jump to the next iteration of "
-"the loop.\" And the [code]break[/code] keyword means \"end the loop right"
-" now and jump to the first line of code after the loop block."
+"The [code]continue[/code] keyword means \"jump to the next iteration of the "
+"loop.\" And the [code]break[/code] keyword means \"end the loop right now "
+"and jump to the first line of code after the loop block."
 msgstr ""
 "کلیدواژه‌ی [code]continue[/code] به معنای «پرش به تکرار بعدی چرخه» و "
 "کلیدواژه‌ی [code]break[/code] به معنای «در لحظه پایان دادن چرخه و پرش به "
 "نخستین خط کد پس از گروه کدی چرخه» می‌باشد."
 
 #. Reference: MISPLACED_KEYWORD
-#: ./script_checking/error_database.csv:105
-msgid "If you wrote one of these keywords outside a loop, you need to remove it."
-msgstr "اگر یکی از این کلیدواژه‌ها را بیرون از یک چرخه نوشتید، باید آن را بزدایید."
+#: script_checking/error_database.csv:135
+msgid ""
+"If you wrote one of these keywords outside a loop, you need to remove it."
+msgstr ""
+"اگر یکی از این کلیدواژه‌ها را بیرون از یک چرخه نوشتید، باید آن را بزدایید."
 
 msgid ""
-"If you are trying to use it inside a loop, your indentation is most "
-"likely at fault. You may need to insert one or more leading tab "
-"characters to the keyword."
+"If you are trying to use it inside a loop, your indentation is most likely "
+"at fault. You may need to insert one or more leading tab characters to the "
+"keyword."
 msgstr ""
 "اگر دارید می‌کوشید آن را در یک چرخه به‌کار بگیرید، پس به احتمال فراوان "
-"تورفتگی‌های شما دارای مشکل‌اند. شاید نیاز به جایگذاری یک یا چند نویسه‌ی "
-"تَب (tab) در کلیدواژه داشته باشید."
+"تورفتگی‌های شما دارای مشکل‌اند. شاید نیاز به جایگذاری یک یا چند نویسه‌ی تَب "
+"(tab) در کلیدواژه داشته باشید."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
-#: ./script_checking/error_database.csv:110
+#: script_checking/error_database.csv:140
 msgid ""
 "When the computer talks about a constant expression, it expects a fixed "
 "value, a fixed calculation, or the name of an existing constant."
 msgstr ""
-"هنگامی که رایانه درباره‌ی یک گزاره‌ی ثابت سخن می‌گوید، انتظار یک ارزش "
-"ایستا، یک برآورد ایستا یا نام یک ثابت موجود را دارد."
+"هنگامی که رایانه درباره‌ی یک گزاره‌ی ثابت سخن می‌گوید، انتظار یک ارزش ایستا، یک "
+"برآورد ایستا یا نام یک ثابت موجود را دارد."
 
 msgid ""
-"In other words, it wants something that can never change. This is why the"
-" computer will reject function calls and variables where it needs a "
-"constant expression."
+"In other words, it wants something that can never change. This is why the "
+"computer will reject function calls and variables where it needs a constant "
+"expression."
 msgstr ""
 "به زبانی دیگر، چیزی می‌خواهد که هرگز نتوانید دگرگون کنید. دلیل نپذیرفتن "
-"فراخوان‌های تابع و متغیرهایی که نیاز به یک گزاره‌ی ثابت دارند به دست "
-"رایانه همین است."
+"فراخوان‌های تابع و متغیرهایی که نیاز به یک گزاره‌ی ثابت دارند به دست رایانه "
+"همین است."
 
 #. Reference: EXPECTED_CONSTANT_EXPRESSION
-#: ./script_checking/error_database.csv:110
+#: script_checking/error_database.csv:140
 msgid ""
-"You need to replace function calls or variables with a constant value "
-"like a whole number, decimal number, string, vector, a predefined array, "
-"etc."
+"You need to replace function calls or variables with a constant value like a "
+"whole number, decimal number, string, vector, a predefined array, etc."
 msgstr ""
-"شما نیاز دارید تا فراخوان تابع‌ها یا متغیرها را با یک ارزش ثابت مانند یک "
-"عدد صحیح، عدد اعشاری، رشته، بُردار، آرایه‌ی از پیش تعریف‌شده و... جایگزین"
-" کنید."
+"شما نیاز دارید تا فراخوان تابع‌ها یا متغیرها را با یک ارزش ثابت مانند یک عدد "
+"صحیح، عدد اعشاری، رشته، بُردار، آرایه‌ی از پیش تعریف‌شده و... جایگزین کنید."
 
 msgid ""
-"You can also use arithmetic operators like multiplications (*), additions"
-" (+), and so on."
+"You can also use arithmetic operators like multiplications (*), additions "
+"(+), and so on."
 msgstr ""
-"همچنین می‌توانید عملگرهای حسابی مانند ضرب (*)، جمع (+) و... را به‌کار "
-"بگیرید."
+"همچنین می‌توانید عملگرهای حسابی مانند ضرب (*)، جمع (+) و... را به‌کار بگیرید."
 
 #. Reference: INVALID_CLASS_DECLARATION
-#: ./script_checking/error_database.csv:115
+#: script_checking/error_database.csv:145
 msgid ""
-"When defining a new class, you need to follow a specific pattern. You "
-"must write the name in plain text, starting with a letter."
+"When defining a new class, you need to follow a specific pattern. You must "
+"write the name in plain text, starting with a letter."
 msgstr ""
-"هنگام تعریف یک کلاس نو، باید یک الگوی مشخص را دنبال کنید. باید نام را در "
-"متن اصلی آغازشده با یک وات (حرف) بنویسید."
+"هنگام تعریف یک کلاس نو، باید یک الگوی مشخص را دنبال کنید. باید نام را در متن "
+"اصلی آغازشده با یک وات (حرف) بنویسید."
 
 msgid ""
-"We typically write class names in PascalCase: with a capital letter at "
-"the start of every word that composes the class name."
+"We typically write class names in PascalCase: with a capital letter at the "
+"start of every word that composes the class name."
 msgstr ""
-"ما بیشتر زمان‌ها نام کلاس‌ها را با پاسکال‌کِیس می‌نویسیم: با یک وات بزرگ "
-"در آغاز هر واژه‌ای که نام کلاس را می‌سازد."
+"ما بیشتر زمان‌ها نام کلاس‌ها را با پاسکال‌کِیس می‌نویسیم: با یک وات بزرگ در آغاز "
+"هر واژه‌ای که نام کلاس را می‌سازد."
 
 #. Reference: INVALID_CLASS_DECLARATION
-#: ./script_checking/error_database.csv:115
+#: script_checking/error_database.csv:145
 msgid ""
 "To fix this error, replace whatever you put after the 'extends' or "
-"'class_name' keyword by a name without spaces and starting with a capital"
-" letter."
+"'class_name' keyword by a name without spaces and starting with a capital "
+"letter."
 msgstr ""
-"برای درست کردن این خطا، هر چیزی که پس از کلید‌واژه‌ی «extends» یا "
-"«class_name» گذاشتید را با یک نام بی‌فاصله و آغازشده با یک وات (حرف) بزرگ"
-" جایگزین کنید."
+"برای درست کردن این خطا، هر چیزی که پس از کلید‌واژه‌ی «extends» یا «class_name» "
+"گذاشتید را با یک نام بی‌فاصله و آغازشده با یک وات (حرف) بزرگ جایگزین کنید."
 
-msgid "You can optionally use numbers in the name, but not in the first position."
-msgstr "اگر بخواهید می‌توانید در نام شماره هم بگذارید، ولی نه بعنوان نخستین نویسه."
+msgid ""
+"You can optionally use numbers in the name, but not in the first position."
+msgstr ""
+"اگر بخواهید می‌توانید در نام شماره هم بگذارید، ولی نه بعنوان نخستین نویسه."
 
 #. Reference: DUPLICATE_DECLARATION
-#: ./script_checking/error_database.csv:120
+#: script_checking/error_database.csv:150
 msgid ""
 "You are trying to define a function or variable that already exists; You "
 "can't do that."
 msgstr "اگر در کوشش تعریف یک تابع یا متغیر از پیش موجودید؛ نمی‌توانید بینجامید."
 
 msgid ""
-"Perhaps the function or variable already exists in the current code file,"
-" but it may also be in a parent class that this GDScript code extends."
+"Perhaps the function or variable already exists in the current code file, "
+"but it may also be in a parent class that this GDScript code extends."
 msgstr ""
-"شاید تابع یا متغیر هم‌اکنون در پرونده‌ی کد کنونی هست، شاید هم در کلاس "
-"سرپرستی که این کد جی.دی.اسکریپت از آن ارث می‌برد، حاضر باشد."
+"شاید تابع یا متغیر هم‌اکنون در پرونده‌ی کد کنونی هست، شاید هم در کلاس سرپرستی "
+"که این کد جی.دی.اسکریپت از آن ارث می‌برد، حاضر باشد."
 
 #. Reference: DUPLICATE_DECLARATION
-#: ./script_checking/error_database.csv:120
+#: script_checking/error_database.csv:150
 msgid ""
-"In the app, your code extends some built-in Godot code that's not visible"
-" to you."
+"In the app, your code extends some built-in Godot code that's not visible to "
+"you."
 msgstr ""
-"درون برنامه، کد شما از چند کد درون‌ساخته‌ی گودوت ارث می‌برد که شما آنها "
-"را نمی‌بینید."
+"درون برنامه، کد شما از چند کد درون‌ساخته‌ی گودوت ارث می‌برد که شما آنها را "
+"نمی‌بینید."
 
 msgid ""
-"When that happens, you need to either rename your function or variable to"
-" one that will not collide with an existing one or remove this line of "
-"code."
+"When that happens, you need to either rename your function or variable to "
+"one that will not collide with an existing one or remove this line of code."
 msgstr ""
-"هنگام رخ دادن آن، باید تابع یا متغیر خود را به نامی که با دیگر نام‌های "
-"موجود برخورد نداشته باشد بازنامگذارید، یا این خط را از کد بزدایید."
+"هنگام رخ دادن آن، باید تابع یا متغیر خود را به نامی که با دیگر نام‌های موجود "
+"برخورد نداشته باشد بازنامگذارید، یا این خط را از کد بزدایید."
 
 #. Reference: DUPLICATE_SIGNAL_DECLARATION
-#: ./script_checking/error_database.csv:125
-msgid "You are trying to define a signal that already exists; You can't do that."
+#: script_checking/error_database.csv:155
+msgid ""
+"You are trying to define a signal that already exists; You can't do that."
 msgstr "اگر در کوشش تعریف یک سیگنال از پیش موجودید: نمی‌توانید بینجامید."
 
 msgid ""
-"Perhaps the signal already exists in the current code file, but it may "
-"also be in a parent class that this GDScript code extends."
+"Perhaps the signal already exists in the current code file, but it may also "
+"be in a parent class that this GDScript code extends."
 msgstr ""
-"شاید سیگنال هم‌اکنون در پرونده‌ی کد کنونی هست، شاید هم در کلاس سرپرستی که"
-" این کد جی.دی.اسکریپت از آن ارث می‌برد، حاضر باشد."
+"شاید سیگنال هم‌اکنون در پرونده‌ی کد کنونی هست، شاید هم در کلاس سرپرستی که این "
+"کد جی.دی.اسکریپت از آن ارث می‌برد، حاضر باشد."
 
 msgid ""
-"When that happens, you need to either rename your signal to one that will"
-" not collide with an existing one or remove this line of code."
+"When that happens, you need to either rename your signal to one that will "
+"not collide with an existing one or remove this line of code."
 msgstr ""
-"هنگام رخ دادن آن، باید سیگنال خود را به نامی که با دیگر نام‌های موجود "
-"برخورد نداشته باشد بازنامگذارید، یا این خط را از کد بزدایید."
+"هنگام رخ دادن آن، باید سیگنال خود را به نامی که با دیگر نام‌های موجود برخورد "
+"نداشته باشد بازنامگذارید، یا این خط را از کد بزدایید."
 
 #. Reference: SIGNATURE_MISMATCH
-#: ./script_checking/error_database.csv:130
+#: script_checking/error_database.csv:160
 msgid ""
 "The function you're trying to define exists in a parent class, so your "
 "definition overrides the parent class's function."
 msgstr ""
-"تابعی که در کوشش تعریف آن‌اید در یک کلاس سرپرست هست، پس تعریف شما تابع "
-"کلاس سرپرست را بازنویسی می‌کند."
+"تابعی که در کوشش تعریف آن‌اید در یک کلاس سرپرست هست، پس تعریف شما تابع کلاس "
+"سرپرست را بازنویسی می‌کند."
 
 msgid ""
-"When you override a parent class's function, the new function must match "
-"the parent. The new function should have the same number and type of "
-"parameters as the parent class."
+"When you override a parent class's function, the new function must match the "
+"parent. The new function should have the same number and type of parameters "
+"as the parent class."
 msgstr ""
-"هنگامی که تابع کلاس سرپرستی را بازمی‌نویسید، تابع نو باید با سرپرست "
-"مطابقت داشته باشد. تابع نو باید گونه‌ی یکسان و شمار یکسانی از پارامترهای "
-"کلاس سرپرست را دارا باشد."
+"هنگامی که تابع کلاس سرپرستی را بازمی‌نویسید، تابع نو باید با سرپرست مطابقت "
+"داشته باشد. تابع نو باید گونه‌ی یکسان و شمار یکسانی از پارامترهای کلاس سرپرست "
+"را دارا باشد."
 
 msgid ""
 "For example, if the parent has two arguments, you need your new function "
@@ -593,250 +689,284 @@ msgid ""
 "definitions, the argument types must match the parent class."
 msgstr ""
 "برای نمونه، اگر سرپرست دو آرگومان دارد، تابع نو شما نیز باید دو آرگومان "
-"داشته باشد. اگر راهنمایی گونه در تعریف تابع‌هایتان به‌کار می‌برید، "
-"گونه‌های آرگومان‌ها باید با کلاس سرپرست مطابقت داشته باشند."
+"داشته باشد. اگر راهنمایی گونه در تعریف تابع‌هایتان به‌کار می‌برید، گونه‌های "
+"آرگومان‌ها باید با کلاس سرپرست مطابقت داشته باشند."
 
 #. Reference: SIGNATURE_MISMATCH
-#: ./script_checking/error_database.csv:130
+#: script_checking/error_database.csv:160
 msgid ""
-"You need to check the parent class's function and its definition in the "
-"code reference. Then, you need to edit your function definition to have "
-"the same number and type of parameters as the parent class."
+"You need to check the parent class's function and its definition in the code "
+"reference. Then, you need to edit your function definition to have the same "
+"number and type of parameters as the parent class."
 msgstr ""
-"باید تابع کلاس سرپرست و تعریف آن در بازبرد کد را بررسی کنید. سپس، باید "
-"تعریف تابع خود را بویرایید تا همان اندازه و گونه‌های پارامتر کلاس سرپرست "
-"را داشته باشد."
+"باید تابع کلاس سرپرست و تعریف آن در بازبرد کد را بررسی کنید. سپس، باید تعریف "
+"تابع خود را بویرایید تا همان اندازه و گونه‌های پارامتر کلاس سرپرست را داشته "
+"باشد."
 
 #. Reference: INVALID_ARGUMENTS
-#: ./script_checking/error_database.csv:131
+#: script_checking/error_database.csv:161
 msgid ""
-"This whole class of errors has to do with calling functions with either "
-"the wrong number of arguments or the wrong kind of argument. You will "
-"need to use the error message to see what is going wrong."
+"This whole class of errors has to do with calling functions with either the "
+"wrong number of arguments or the wrong kind of argument. You will need to "
+"use the error message to see what is going wrong."
 msgstr ""
-"همه‌ی خطاهای این کلاس مربوط به فراخواندن تابع‌ها با شمار نادرستی از "
-"آرگومان‌ها یا گونهٔ نادرستی از آرگومان می‌باشد. باید پیام خطا را برای "
-"فهمیدن وضعیت به‌کار ببرید."
+"همه‌ی خطاهای این کلاس مربوط به فراخواندن تابع‌ها با شمار نادرستی از آرگومان‌ها "
+"یا گونهٔ نادرستی از آرگومان می‌باشد. باید پیام خطا را برای فهمیدن وضعیت به‌کار "
+"ببرید."
 
 #. Reference: INVALID_ARGUMENTS
-#: ./script_checking/error_database.csv:131
+#: script_checking/error_database.csv:161
 msgid ""
-"You need to either remove, add, or change the values you're trying to "
-"pass to the function to solve this issue. To know exactly how many "
-"arguments you need, you need to check the code reference. It will show "
-"you the function definition and the mandatory arguments."
+"You need to either remove, add, or change the values you're trying to pass "
+"to the function to solve this issue. To know exactly how many arguments you "
+"need, you need to check the code reference. It will show you the function "
+"definition and the mandatory arguments."
 msgstr ""
-"برای حل کردن این مشکل، باید ارزشی که در کوشش دادن آن به تابع‌اید را "
-"بزدایید، دگرگون کنید یا به شمار آن بیفزایید. برای دانستن اینکه چند "
-"آرگومان نیاز دارید، باید بازبرد کد را بررسی کنید. تعریف تابع و "
-"آرگومان‌های الزامی را به شما نشان خواهد داد."
+"برای حل کردن این مشکل، باید ارزشی که در کوشش دادن آن به تابع‌اید را بزدایید، "
+"دگرگون کنید یا به شمار آن بیفزایید. برای دانستن اینکه چند آرگومان نیاز "
+"دارید، باید بازبرد کد را بررسی کنید. تعریف تابع و آرگومان‌های الزامی را به "
+"شما نشان خواهد داد."
 
 #. Reference: TYPE_MISMATCH
-#: ./script_checking/error_database.csv:142
+#: script_checking/error_database.csv:172
 msgid ""
-"All the values in your code have a specific type. That type can be a "
-"whole number (int), a decimal number (float), text (String), and so on. "
-"There are tons of possible types, and you can even define your own!"
+"All the values in your code have a specific type. That type can be a whole "
+"number (int), a decimal number (float), text (String), and so on. There are "
+"tons of possible types, and you can even define your own!"
 msgstr ""
-"همه‌ی ارزش‌های درون کد شما دارای گونه‌ای ویژه‌اند. آن گونه می‌تواند یک "
-"شماره‌ی صحیح (int)، شماره‌ی اعشاری (float)، نوشتار (string) و... باشد. "
-"گونه‌های شدنی بسیاری هستند، حتا می‌توانید گونه‌های خودتان هم تعریف کنید!"
+"همه‌ی ارزش‌های درون کد شما دارای گونه‌ای ویژه‌اند. آن گونه می‌تواند یک شماره‌ی "
+"صحیح (int)، شماره‌ی اعشاری (float)، نوشتار (string) و... باشد. گونه‌های شدنی "
+"بسیاری هستند، حتا می‌توانید گونه‌های خودتان هم تعریف کنید!"
 
 msgid ""
-"When you make any operation, the computer compares the types you are "
-"using."
+"When you make any operation, the computer compares the types you are using."
 msgstr ""
-"هنگامی که هرگونه عملیاتی را انجام می‌دهید، رایانه گونه‌هایی که به‌کار "
-"می‌برید را مقایسه می‌کند."
+"هنگامی که هرگونه عملیاتی را انجام می‌دهید، رایانه گونه‌هایی که به‌کار می‌برید را "
+"مقایسه می‌کند."
 
 msgid ""
 "Some types are compatible, and some are not. For example, you cannot "
-"directly add a whole number to a text string. You first need to convert "
-"the number into text."
+"directly add a whole number to a text string. You first need to convert the "
+"number into text."
 msgstr ""
-"برخی گونه‌ها سازگارند و برخی ناسازگار. برای نمونه، نمی‌توانید یک شماره‌ی "
-"صحیح را به یک رشته‌ی نوشتاری بیفزایید. نخست باید شماره را به نوشتار تبدیل"
-" کنید."
+"برخی گونه‌ها سازگارند و برخی ناسازگار. برای نمونه، نمی‌توانید یک شماره‌ی صحیح "
+"را به یک رشته‌ی نوشتاری بیفزایید. نخست باید شماره را به نوشتار تبدیل کنید."
 
 msgid ""
-"You'll need to read the error message to see what is not matching because"
-" there are many possible cases."
+"You'll need to read the error message to see what is not matching because "
+"there are many possible cases."
 msgstr ""
-"باید برای دیدن چیزی که مطابقت ندارد پیام خطا را بخوانید، چون حالت‌های "
-"شدنی بسیاری هست."
+"باید برای دیدن چیزی که مطابقت ندارد پیام خطا را بخوانید، چون حالت‌های شدنی "
+"بسیاری هست."
 
 #. Reference: TYPE_MISMATCH
-#: ./script_checking/error_database.csv:142
+#: script_checking/error_database.csv:172
 msgid ""
-"If the error mentions the assigned value type not matching the variable, "
-"the problem is on the right side of the equal sign (=)."
+"If the error mentions the assigned value type not matching the variable, the "
+"problem is on the right side of the equal sign (=)."
 msgstr ""
-"اگر خطا به یکی نبودن گونهٔ ارزش واگذاشته با متغیر اشاره دارد، اشکال در "
-"پهلوی راست نشانهٔ برابر (=) است."
+"اگر خطا به یکی نبودن گونهٔ ارزش واگذاشته با متغیر اشاره دارد، اشکال در پهلوی "
+"راست نشانهٔ برابر (=) است."
 
 msgid ""
-"If the error talks about the return type not matching the function, then "
-"it is the value after the return keyword that is problematic."
+"If the error talks about the return type not matching the function, then it "
+"is the value after the return keyword that is problematic."
 msgstr ""
-"اگر خطا به یکی نبودن گونهٔ برگشت با تابع اشاره دارد، اشکال از ارزشی‌ست که"
-" پس از کلیدواژهٔ برگشت (return) آمده است."
+"اگر خطا به یکی نبودن گونهٔ برگشت با تابع اشاره دارد، اشکال از ارزشی‌ست که پس "
+"از کلیدواژهٔ برگشت (return) آمده است."
 
 msgid ""
-"If the computer talks about an invalid operand, then the issue is that "
-"the operation does not exist for the type you're trying to use. For "
-"example, while you can add two 2D vectors, you can't add a whole number "
-"or text to a 2D vector."
+"If the computer talks about an invalid operand, then the issue is that the "
+"operation does not exist for the type you're trying to use. For example, "
+"while you can add two 2D vectors, you can't add a whole number or text to a "
+"2D vector."
 msgstr ""
-"اگر رایانه دربارهٔ یک عملوند (operand) می‌گوید، به این معنا است که عملیات"
-" برای گونه‌ای که در کوشش به کار بردن آن‌اید وجود ندارد. برای نمونه، با "
-"اینکه می‌توانید دو بردار دوبعدی را به هم بیفزایید، نمی‌توانید یک شمارهٔ "
-"صحیح را به یک نوشتار یا بردار دوبعدی بیفزایید."
+"اگر رایانه دربارهٔ یک عملوند (operand) می‌گوید، به این معنا است که عملیات برای "
+"گونه‌ای که در کوشش به کار بردن آن‌اید وجود ندارد. برای نمونه، با اینکه "
+"می‌توانید دو بردار دوبعدی را به هم بیفزایید، نمی‌توانید یک شمارهٔ صحیح را به یک "
+"نوشتار یا بردار دوبعدی بیفزایید."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
-#: ./script_checking/error_database.csv:147
+#: script_checking/error_database.csv:177
 msgid ""
-"GDScript supports type inference. The computer will automatically "
-"recognize the type of value you are working with. In some cases, though, "
-"it can't figure it out."
+"GDScript supports type inference. The computer will automatically recognize "
+"the type of value you are working with. In some cases, though, it can't "
+"figure it out."
 msgstr ""
-"جی.دی.اسکریپت از استنباط گونه پشتیبانی می‌کند. رایانه به شیوهٔ خودکار "
-"گونهٔ ارزشی که با آن کار می‌کنید را خواهد شناخت. با این همه، گاهی، "
-"نمی‌تواند چنین کند."
+"جی.دی.اسکریپت از استنباط گونه پشتیبانی می‌کند. رایانه به شیوهٔ خودکار گونهٔ "
+"ارزشی که با آن کار می‌کنید را خواهد شناخت. با این همه، گاهی، نمی‌تواند چنین "
+"کند."
 
 msgid ""
 "When that happens, you need to specify the type yourself or remove type "
 "inference altogether for this variable."
 msgstr ""
-"هنگامی نتواند، نیاز دارید تا گونه را خودتان تعیین کنید یا استنباط گونه را"
-" تماما برای این متغیر بزدایید."
+"هنگامی نتواند، نیاز دارید تا گونه را خودتان تعیین کنید یا استنباط گونه را "
+"تماما برای این متغیر بزدایید."
 
 #. Reference: TYPE_CANNOT_BE_INFERRED
-#: ./script_checking/error_database.csv:147
+#: script_checking/error_database.csv:177
 msgid ""
-"The simplest way to solve this error is to remove types for this variable"
-" or this function's arguments. Otherwise, you can manually specify the "
-"value type after the colon."
+"The simplest way to solve this error is to remove types for this variable or "
+"this function's arguments. Otherwise, you can manually specify the value "
+"type after the colon."
 msgstr ""
-"ساده‌ترین راه برای حل کردن این خطا زدودن گونه‌ها برای آرگومان‌های این "
-"متغیر یا تابع است. وگرنه، می‌توانید به روش دستی گونهٔ ارزش را پس از "
-"دونقطه تعیین کنید."
+"ساده‌ترین راه برای حل کردن این خطا زدودن گونه‌ها برای آرگومان‌های این متغیر یا "
+"تابع است. وگرنه، می‌توانید به روش دستی گونهٔ ارزش را پس از دونقطه تعیین کنید."
 
 msgid ""
 "We recommend specifying the type whenever possible to reap the typing "
 "system's benefits."
 msgstr ""
-"ما تعیین کردن گونه را هرجایی که شدنی‌ست، برای بهره‌وری از همهٔ "
-"توانایی‌های سامانهٔ تایپ را پیشنهاد می‌کنیم."
+"ما تعیین کردن گونه را هرجایی که شدنی‌ست، برای بهره‌وری از همهٔ توانایی‌های "
+"سامانهٔ تایپ را پیشنهاد می‌کنیم."
 
 #. Reference: RETURN_VALUE_MISMATCH
-#: ./script_checking/error_database.csv:153
+#: script_checking/error_database.csv:183
 msgid ""
-"There is an issue with the return value of your function. There are two "
-"main cases here:"
+"There is an issue with the return value of your function. There are two main "
+"cases here:"
 msgstr "خطایی در ارزش برگشتی تابع شما هست. می‌تواند دو دلیل داشته باشد:"
 
 msgid ""
-"1. Your function is a void function, thus it should not return a value. "
-"This includes functions with the '-> void' syntax and class constructors "
+"1. Your function is a void function, thus it should not return a value. This "
+"includes functions with the '-> void' syntax and class constructors "
 "('_init()').\n"
-"2. You specified a return type for your function, but you are not "
-"returning a value in all possible branches (if, elif, and else blocks) or"
-" at the end."
+"2. You specified a return type for your function, but you are not returning "
+"a value in all possible branches (if, elif, and else blocks) or at the end."
 msgstr ""
 "۱. تابع شما از گونهٔ ووید (void) است، بنابراین نباید ارزشی را برگرداند. "
-"تابع‌هایی که دارای نحو «-> void» و سازنده‌های کلاس ('_init()')اند را در "
-"بر می‌گیرد.\n"
-"۲. گونهٔ برگشتی‌ای برای تابع خود تعیین کردید، ولی دارید ارزشی در همهٔ "
-"شاخه‌های ممکن (آجرهای if، else و elif) یا در پایان را برنمی‌گردانید."
+"تابع‌هایی که دارای نحو «-> void» و سازنده‌های کلاس ('_init()')اند را در بر "
+"می‌گیرد.\n"
+"۲. گونهٔ برگشتی‌ای برای تابع خود تعیین کردید، ولی دارید ارزشی در همهٔ شاخه‌های "
+"ممکن (آجرهای if، else و elif) یا در پایان را برنمی‌گردانید."
 
 #. Reference: RETURN_VALUE_MISMATCH
-#: ./script_checking/error_database.csv:153
+#: script_checking/error_database.csv:183
 msgid ""
-"When your function is 'void', you should never return a value. You can "
-"use the 'return' keyword to end the function early, but you should never "
-"write anything after that."
+"When your function is 'void', you should never return a value. You can use "
+"the 'return' keyword to end the function early, but you should never write "
+"anything after that."
 msgstr ""
 "هنگامی که تابع‌تان «void» است، هرگز نباید ارزشی را برگردانید. می‌توانید "
-"کلید‌واژهٔ «return» را برای پایان دادن زودهنگام به تابع به کار ببرید. ولی"
-" هرگز نباید چیزی پس از آن بنویسید."
+"کلید‌واژهٔ «return» را برای پایان دادن زودهنگام به تابع به کار ببرید. ولی هرگز "
+"نباید چیزی پس از آن بنویسید."
 
 msgid ""
-"When you use a return type, you must always return something at the end "
-"of the function or in every branch (if, elif, and else block) of the "
-"function."
+"When you use a return type, you must always return something at the end of "
+"the function or in every branch (if, elif, and else block) of the function."
 msgstr ""
-"هنگامی که گونهٔ برگشتی‌ای را به کار می‌برید، باید همیشه چیزی را در پایان "
-"تابع یا در هر شاخهٔ (آجرهای if، elif و else) تابع برگردانید."
+"هنگامی که گونهٔ برگشتی‌ای را به کار می‌برید، باید همیشه چیزی را در پایان تابع "
+"یا در هر شاخهٔ (آجرهای if، elif و else) تابع برگردانید."
 
 #. Reference: INVALID_NO_CATCH
-#: ./script_checking/error_database.csv:154
+#: script_checking/error_database.csv:184
 msgid ""
-"Godot was unable to load your script, yet the language checker found "
-"nothing wrong."
+"Godot was unable to load your script, yet the language checker found nothing "
+"wrong."
 msgstr ""
-"گودوت در بار کردن اسکریپت شما ناتوان بود، با این همه، وارس زبان چیز "
-"نادرستی نیافت."
+"گودوت در بار کردن اسکریپت شما ناتوان بود، با این همه، وارس زبان چیز نادرستی "
+"نیافت."
 
 #. Reference: INVALID_NO_CATCH
-#: ./script_checking/error_database.csv:154
-msgid "Please click on the \"report\" button at the top and please let us know."
-msgstr "خواهشمندیم روی دکمه‌‌ی «گزارش» در بالا کلیک کرده و ما را در جریان بگذارید."
+#: script_checking/error_database.csv:184
+msgid ""
+"Please click on the \"report\" button at the top and please let us know."
+msgstr ""
+"خواهشمندیم روی دکمه‌‌ی «گزارش» در بالا کلیک کرده و ما را در جریان بگذارید."
 
 #. Reference: RECURSIVE_FUNCTION
-#: ./script_checking/error_database.csv:155
+#: script_checking/error_database.csv:185
 msgid "You called a function inside itself. This will loop forever."
 msgstr "شما یک تابع را درون خودش فراخواندید. این چرخه‌ای بی‌پایان خواهد بود."
 
 #. Reference: RECURSIVE_FUNCTION
-#: ./script_checking/error_database.csv:155
+#: script_checking/error_database.csv:185
 msgid ""
-"There are valid reasons for using recursive functions, but none of them "
-"are part of this course, so this cannot be a valid solution."
+"There are valid reasons for using recursive functions, but none of them are "
+"part of this course, so this cannot be a valid solution."
 msgstr ""
-"دلیل‌های معتبری برای به‌کارگیری تابع‌های بازگشتی هست، ولی هیچکدام‌شان "
-"پاره‌ای از این دوره نیستند، پس این نمی‌تواند راه حل معتبری باشد."
+"دلیل‌های معتبری برای به‌کارگیری تابع‌های بازگشتی هست، ولی هیچکدام‌شان پاره‌ای از "
+"این دوره نیستند، پس این نمی‌تواند راه حل معتبری باشد."
+
+#. Reference: INFINITE_WHILE_LOOP
+#: script_checking/error_database.csv:186
+msgid ""
+"You wrote a while loop with a condition that is always true (like "
+"[code]while true:[/code] or [code]while(true):[/code]) without a "
+"[code]break[/code] statement inside it. This creates an infinite loop that "
+"will freeze your game."
+msgstr ""
+
+#. Reference: INFINITE_WHILE_LOOP
+#: script_checking/error_database.csv:186
+msgid ""
+"To fix this, you need to either add a [code]break[/code] statement inside "
+"the loop so it can exit when a certain condition is met, or change the while "
+"loop condition to something that will become false. For example: [code]while "
+"position.x < 100: position.x -= 10[/code]."
+msgstr ""
 
 #. Reference: UNEXPECTED_EOL
-#: ./script_checking/error_database.csv:157
+#: script_checking/error_database.csv:188
 msgid ""
-"The computer reached the end of the line of code, but the line had a "
-"syntax error.\n"
-"The most common case is when you forget to close a string: you have "
-"opening quotes, but you forget to add a matching closing quote."
+"The computer reached the end of the line of code, but the line had a syntax "
+"error.\n"
+"The most common case is when you forget to close a string: you have opening "
+"quotes, but you forget to add a matching closing quote."
 msgstr ""
 "رایانه به آخرین خط کد رسید،‌ ولی خط دارای یک خطای نحوی بود.\n"
 "به احتمال فراوان فراموش کردید رشته‌ای را ببندید: گفتاورد باز دارید، ولی "
 "یادتان رفت که یک گفتاورد بسته مطابق با آن بیفزایید."
 
 #. Reference: UNEXPECTED_EOL
-#: ./script_checking/error_database.csv:157
+#: script_checking/error_database.csv:188
 msgid ""
-"Double-check that you are not missing a quote character or that the quote"
-" character you used to start the string is the same as the one you used "
-"to close the string."
+"Double-check that you are not missing a quote character or that the quote "
+"character you used to start the string is the same as the one you used to "
+"close the string."
 msgstr ""
-"دوباره بررسی کنید که نویسهٔ گفتاوردی را از جا نینداخته‌اید یا نویسهٔ "
-"گفتاوردی که برای آغازیدن رشته به کار بردید با آنی که برای پایان دادن به "
-"کار بردید یکسان است."
+"دوباره بررسی کنید که نویسهٔ گفتاوردی را از جا نینداخته‌اید یا نویسهٔ گفتاوردی "
+"که برای آغازیدن رشته به کار بردید با آنی که برای پایان دادن به کار بردید "
+"یکسان است."
 
 #. Reference: CANT_GET_INDEX
-#: ./script_checking/error_database.csv:160
+#: script_checking/error_database.csv:191
 msgid "The sub-variable you are trying to access does not exist."
 msgstr "زیرمتغیری که در کوشش دسترسی به آن‌اید وجود ندارد."
 
 #. Reference: CANT_GET_INDEX
-#: ./script_checking/error_database.csv:160
+#: script_checking/error_database.csv:191
 msgid ""
-"You probably have a typo in the name of the sub-variable that you are "
-"trying to access."
+"You probably have a typo in the name of the sub-variable that you are trying "
+"to access."
 msgstr ""
-"احتمالا در نام زیرمتغیری که در کوشش دسترسی به آن‌اید نادرستی نگارشی‌ای "
-"هست."
+"احتمالا در نام زیرمتغیری که در کوشش دسترسی به آن‌اید نادرستی نگارشی‌ای هست."
 
 msgid ""
 "Ensure that you don't have a capital letter where you should have a "
 "lowercase letter and vice versa."
 msgstr ""
-"مطمئن شوید جایی که باید وات (حرف) کوچک داشته باشید، وات بزرگ و جایی که "
-"وات بزرگ نیاز دارید وات کوچک ندارید."
+"مطمئن شوید جایی که باید وات (حرف) کوچک داشته باشید، وات بزرگ و جایی که وات "
+"بزرگ نیاز دارید وات کوچک ندارید."
 
+#~ msgid ""
+#~ "If you want to assign a value to a variable, double-check that what you "
+#~ "have on the left side of the = sign is a variable and not a function."
+#~ msgstr ""
+#~ "اگر می‌خواهید ارزشی را به یک متغیر واگذارید، از تابع نبودن و متغیر بودن "
+#~ "چیزی که در چپ نشانه‌ی = هست مطمئن شوید."
+
+#~ msgid ""
+#~ "You also need to ensure the syntax is correct. For example, there "
+#~ "shouldn't be parentheses on the left side of the equal sign."
+#~ msgstr ""
+#~ "همچنین از درست بودن سینتَکس (نحو) مطمئن شوید. برای نمونه، در پهلوی چپ "
+#~ "نشانه‌ی برابری نباید کمانکی باشد."
+
+#~ msgid ""
+#~ "In the case of a condition, ensure that you are using two equal signs to "
+#~ "check for equality (==)."
+#~ msgstr ""
+#~ "در زمینه‌ی شرطی‌ها،‌ مطمئن شوید که دارید از دو نشانه‌ی برابری (==) برای بررسی "
+#~ "برابری شرط بکار می‌برید."

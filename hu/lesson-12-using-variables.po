@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2022-03-26 17:50+0100\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2022-07-29 21:18+0000\n"
 "Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-12-using-variables/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/learn-"
-"gdscript-from-zero/lesson-12-using-variables/hu/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-12-using-variables/lesson.tres:14
@@ -37,10 +37,10 @@ msgstr "A fenti példában mit jelent a 4-es szám?"
 
 #: course/lesson-12-using-variables/lesson.tres:37
 msgid "The code above rotates the character [code]4[/code] radians per second."
-msgstr "A fenti kód másodpercenként [code]4[/code] radiánnal forgatja a karaktert."
+msgstr ""
+"A fenti kód másodpercenként [code]4[/code] radiánnal forgatja a karaktert."
 
 #: course/lesson-12-using-variables/lesson.tres:38
-#: course/lesson-12-using-variables/lesson.tres:39
 msgid "It's how fast the character rotates."
 msgstr "Ilyen gyorsan forog a karakter."
 
@@ -54,54 +54,52 @@ msgstr "Ennyi ideig tart a forgás."
 
 #: course/lesson-12-using-variables/lesson.tres:48
 msgid ""
-"We can guess what a number represents by looking at the function names, "
-"but it's harder to recall what this number does by quickly looking at the"
-" code."
+"We can guess what a number represents by looking at the function names, but "
+"it's harder to recall what this number does by quickly looking at the code."
 msgstr ""
 "Tippelhetünk, hogy mit jelent egy szám, ha megnézzüka függvény nevét, de "
-"nehezebb emlékezni rá, hogy mit csinál ez a szám, ha csak gyorsan "
-"ránézünk a kódra."
+"nehezebb emlékezni rá, hogy mit csinál ez a szám, ha csak gyorsan ránézünk a "
+"kódra."
 
 msgid ""
-"We've seen how different functions have their own names. Using these "
-"names communicates to developers what the functions do."
+"We've seen how different functions have their own names. Using these names "
+"communicates to developers what the functions do."
 msgstr ""
-"Láttuk már, hogy a különböző függvényekenk saját neve van. Ezek a neveket"
-" használva a fejlesztők tudják, hogy mit csinálnak."
+"Láttuk már, hogy a különböző függvényekenk saját neve van. Ezek a neveket "
+"használva a fejlesztők tudják, hogy mit csinálnak."
 
 #: course/lesson-12-using-variables/lesson.tres:70
 msgid ""
-"As we learned in lesson 8, we can also assign labels to numbers to help "
-"us remember what they do."
+"As we learned in lesson 8, we can also assign labels to numbers to help us "
+"remember what they do."
 msgstr ""
-"Ahogy a 8-as leckében már láthattuk, a számokhoz is rendelhetünk "
-"címkéket, hogy segítsenek emlékezeni, mire jók."
+"Ahogy a 8-as leckében már láthattuk, a számokhoz is rendelhetünk címkéket, "
+"hogy segítsenek emlékezeni, mire jók."
 
 msgid "We call these labels [i]variables[/i]."
 msgstr "Ezeket a címkéket [i]változónak[/i] nevezzük."
 
 msgid ""
-"[b]A variable is a label for a value we can save, change, and read "
-"later.[/b]"
+"[b]A variable is a label for a value we can save, change, and read later.[/b]"
 msgstr ""
-"[b]A változó egy címke az értéken, amit menthetünk, módosíthatunk, és "
-"később felhasználhatunk.[/b]"
+"[b]A változó egy címke az értéken, amit menthetünk, módosíthatunk, és később "
+"felhasználhatunk.[/b]"
 
 msgid "Let's recap how to define a variable."
 msgstr "Nézzük át újra, hogyan hozhatunk létre egy változót."
 
 #: course/lesson-12-using-variables/lesson.tres:96
 msgid ""
-"We improve the first example to make it clear what the number "
-"[code]4[/code] does."
+"We improve the first example to make it clear what the number [code]4[/code] "
+"does."
 msgstr ""
 "Javítani fogunk az előző példán, hogy pontosan látszódjon, mit csinál a "
 "[code]4[/code]-es szám."
 
 #: course/lesson-12-using-variables/lesson.tres:116
 msgid ""
-"Labeling a value makes the code easier for us to read now [i]and[/i] in "
-"the future."
+"Labeling a value makes the code easier for us to read now [i]and[/i] in the "
+"future."
 msgstr ""
 "Az értékek felcímkézése egyszerűbbé teszi a kód olvasását most [i]és[/i] "
 "majd a jövőben is."
@@ -114,14 +112,13 @@ msgstr ""
 
 #: course/lesson-12-using-variables/lesson.tres:127
 msgid ""
-"We create the [code]angular_speed[/code] variable, then assign it the "
-"value of [code]4[/code]."
+"We create the [code]angular_speed[/code] variable, then assign it the value "
+"of [code]4[/code]."
 msgstr ""
 "Létrehozzuk az [code]angular_speed[/code] változót, és megadjuk neki "
 "értékként a [code]4[/code]-et."
 
 #: course/lesson-12-using-variables/lesson.tres:128
-#: course/lesson-12-using-variables/lesson.tres:129
 msgid "var angular_speed = 4"
 msgstr "var angular_speed = 4"
 
@@ -135,27 +132,27 @@ msgstr "rotate(angular_speed * delta)"
 
 #: course/lesson-12-using-variables/lesson.tres:138
 msgid ""
-"If we define variables outside of functions, we can re-use them in "
-"different functions."
+"If we define variables outside of functions, we can re-use them in different "
+"functions."
 msgstr ""
-"Ha a függvényen kívül hozunk létre változókat, azokat felhasználhatjuk "
-"más függvényekben is."
+"Ha a függvényen kívül hozunk létre változókat, azokat felhasználhatjuk más "
+"függvényekben is."
 
 msgid ""
-"Because any function can use variables we define outside of them, we call"
-" these variables [b]script-wide[/b]."
+"Because any function can use variables we define outside of them, we call "
+"these variables [b]script-wide[/b]."
 msgstr ""
 "Mivel minden függvény használhat olyan változót, ami rajta kívül lett "
 "létrehozva, ezért ezeket [b]szkript-szintű[/b] változónak hívjuk."
 
 msgid ""
-"Here we use the [code]angular_speed[/code] script-wide variable in both "
-"the [code]_process()[/code] function and the "
-"[code]set_angular_speed()[/code] function."
+"Here we use the [code]angular_speed[/code] script-wide variable in both the "
+"[code]_process()[/code] function and the [code]set_angular_speed()[/code] "
+"function."
 msgstr ""
 "Itt az [code]angular_speed[/code] nevű szkript-szintű változót a "
-"[code]_process()[/code] függvényben és a [code]set_angular_speed()[/code]"
-" függvényben is felhasználjuk."
+"[code]_process()[/code] függvényben és a [code]set_angular_speed()[/code] "
+"függvényben is felhasználjuk."
 
 #: course/lesson-12-using-variables/lesson.tres:162
 msgid "We can also define variables inside of functions."
@@ -169,21 +166,20 @@ msgstr ""
 "Győzödj meg róla, hogy létrehozod a változót, mielőtt használnád!"
 
 msgid ""
-"If we define a variable inside of a function, only that function can use "
-"it."
+"If we define a variable inside of a function, only that function can use it."
 msgstr ""
 "Ha a függvényen belül hozunk létre egy változót, akkor azt csak abban "
 "használhatjuk."
 
 #: course/lesson-12-using-variables/lesson.tres:186
 msgid ""
-"The [code]angular_speed[/code] variable only exists inside "
-"[code]_process()[/code], because we defined it there. The "
-"[code]set_angular_speed()[/code] function can't use it."
+"The [code]angular_speed[/code] variable only exists inside [code]_process()[/"
+"code], because we defined it there. The [code]set_angular_speed()[/code] "
+"function can't use it."
 msgstr ""
 "Az [code]angular_speed[/code] változó, csak a [code]_process()[/code] "
-"függvényben létezik, mert itt hoztuk létre. A "
-"[code]set_angular_speed()[/code] függvény nem használhatja."
+"függvényben létezik, mert itt hoztuk létre. A [code]set_angular_speed()[/"
+"code] függvény nem használhatja."
 
 msgid "Trying to use it there will result in an error."
 msgstr "Ha megpróbáljuk ott használni, hibaüzenetet kapunk."
@@ -204,12 +200,10 @@ msgstr ""
 "létre. Ezek a [b]szkript-szintű[/b] változók."
 
 #: course/lesson-12-using-variables/lesson.tres:214
-#: course/lesson-12-using-variables/lesson.tres:215
 msgid "Outside of functions."
 msgstr "Függvényeken kívül."
 
 #: course/lesson-12-using-variables/lesson.tres:214
-#: course/lesson-12-using-variables/lesson.tres:215
 msgid "Inside of functions."
 msgstr "Függvényeken belül."
 
@@ -218,16 +212,16 @@ msgid ""
 "Variables are also great at grouping values that control how a character "
 "behaves."
 msgstr ""
-"A változók arra is jók, hogy csoportosítsuk az értékeket, amelyek a "
-"karakter viselkedését befolyásolják."
+"A változók arra is jók, hogy csoportosítsuk az értékeket, amelyek a karakter "
+"viselkedését befolyásolják."
 
 msgid "Grouping them in this way allows us to easily change them."
 msgstr "Ha így csoportosítjuk őket, akkor könnyen módosíthatjuk őket."
 
 #: course/lesson-12-using-variables/lesson.tres:246
 msgid ""
-"In the following practices, we'll define variables and use them with some"
-" familiar functions to make our code more readable."
+"In the following practices, we'll define variables and use them with some "
+"familiar functions to make our code more readable."
 msgstr ""
 "A következő gyakorlatokban, változókat fogunk létrehozni és néhány már "
 "ismerős függvényben fogjuk őket használni, hogy átláthatóbbá tegyük a "
@@ -243,30 +237,30 @@ msgstr "Adjunk a [code]4[/code]-nek egy címkét, hogy tudjuk, mit csinál."
 
 msgid ""
 "Create a variable called [code]angular_speed[/code] outside of the "
-"[code]_process()[/code] function to make it script-wide. This allows us "
-"to use it in other functions too."
+"[code]_process()[/code] function to make it script-wide. This allows us to "
+"use it in other functions too."
 msgstr ""
-"Hozz létre egy [code]angular_speed[/code] nevű változót a "
-"[code]_process()[/code] függvényen kívül, hogy szkript-szintű legyen. Így"
-" más függvényekben is felhasználhatjuk."
+"Hozz létre egy [code]angular_speed[/code] nevű változót a [code]_process()[/"
+"code] függvényen kívül, hogy szkript-szintű legyen. Így más függvényekben is "
+"felhasználhatjuk."
 
 msgid "Then, replace the [code]4[/code] with [code]angular_speed[/code]."
 msgstr "Ezután cseréld le a [code]4[/code]-et [code]angular_speed[/code]-re."
 
-#: course/lesson-12-using-variables/lesson.tres:269
+#: course/lesson-12-using-variables/lesson.tres:270
 msgid ""
-"Using variables to store number values makes code easier to read. Tidy up"
-" this function by storing a value in a variable."
+"Using variables to store number values makes code easier to read. Tidy up "
+"this function by storing a value in a variable."
 msgstr ""
 "A változók használata értékek tárolására, könyebben átláthatóvá teszi a "
-"kódot. Szedd rendbe ezt a függvényt azzal, hogy egy változóban tárolod az"
-" értéket."
+"kódot. Szedd rendbe ezt a függvényt azzal, hogy egy változóban tárolod az "
+"értéket."
 
-#: course/lesson-12-using-variables/lesson.tres:274
+#: course/lesson-12-using-variables/lesson.tres:275
 msgid "Fixing an Out of Scope Error"
 msgstr "Out of Scope Error javítása"
 
-#: course/lesson-12-using-variables/lesson.tres:275
+#: course/lesson-12-using-variables/lesson.tres:276
 msgid "There's something wrong with the code here. Can you see what it is?"
 msgstr "Valami baj vana kóddal. Látod, mi az?"
 
@@ -276,11 +270,10 @@ msgstr "Futtasd a kódot, és olvasd el a hibaüzenetet."
 msgid "Correct the code so it works as intended."
 msgstr "Javítsd a kódot, hogy megfelelően működjön.."
 
-#: course/lesson-12-using-variables/lesson.tres:293
+#: course/lesson-12-using-variables/lesson.tres:295
 msgid "Uh oh! There's something wrong here. Can you fix it?"
 msgstr "Ajaj! Valami baj van. Ki tudod javítani?"
 
-#: course/lesson-12-using-variables/lesson.tres:297
+#: course/lesson-12-using-variables/lesson.tres:299
 msgid "Using Variables to Make Code Easier to Read"
 msgstr "Változók használata a kód könyebben olvashatóvá tételére"
-

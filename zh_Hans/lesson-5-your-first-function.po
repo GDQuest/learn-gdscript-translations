@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-05-16 09:25+0200\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2024-02-29 13:51+0000\n"
 "Last-Translator: 二中 <worigoule@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"learn-gdscript-from-zero/lesson-5-your-first-function/zh_Hans/>\n"
 "Language: zh_Hans\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects"
-"/learn-gdscript-from-zero/lesson-5-your-first-function/zh_Hans/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-5-your-first-function/lesson.tres:14
@@ -27,7 +27,9 @@ msgstr "到目前为止，我们已经调用了其他开发人员编写的现有
 msgid ""
 "In this lesson, we'll talk more about what functions are and see some "
 "examples. Then, you will learn how to define your own functions."
-msgstr "在本课中，我们将更多地讨论什么是函数并查看一些示例。 然后，你将学习如何定义自己的函数。"
+msgstr ""
+"在本课中，我们将更多地讨论什么是函数并查看一些示例。 然后，你将学习如何定义自"
+"己的函数。"
 
 #: course/lesson-5-your-first-function/lesson.tres:24
 msgid "Functions are named sequences of instructions"
@@ -35,15 +37,18 @@ msgstr "函数是指令序列"
 
 #: course/lesson-5-your-first-function/lesson.tres:26
 msgid ""
-"Functions are [i]sequences of instructions[/i] we give a name. We call "
-"that name an [i]identifier[/i]."
-msgstr "对一些[i]指令序列[/i]起个名字就是一个函数。 我们称这个名字为[i]标识符[/i]。"
+"Functions are [i]sequences of instructions[/i] we give a name. We call that "
+"name an [i]identifier[/i]."
+msgstr ""
+"对一些[i]指令序列[/i]起个名字就是一个函数。 我们称这个名字为[i]标识符[/i]。"
 
 msgid ""
 "Using the identifier, we can get the computer to execute all the "
-"instructions inside the function as many times as we need. This is what a"
-" [i]function call[/i] does."
-msgstr "使用标识符，我们可以让计算机根据需要多次执行函数内的所有指令。 这就是 [i] 函数调用 [/i] 的作用。"
+"instructions inside the function as many times as we need. This is what a "
+"[i]function call[/i] does."
+msgstr ""
+"使用标识符，我们可以让计算机根据需要多次执行函数内的所有指令。 这就是 [i] 函"
+"数调用 [/i] 的作用。"
 
 #: course/lesson-5-your-first-function/lesson.tres:36
 msgid "Learn more about identifiers"
@@ -58,16 +63,16 @@ msgstr "在计算机编程中，我们谈论 [i] 标识符 [/i] 而不是“名�
 msgid ""
 "It is because a function name is a label the computer uses to precisely "
 "[i]identify[/i] and refer to a function or other code elements."
-msgstr "这是因为函数名称是计算机用来精确[i]识别[/i]并引用函数或其他代码元素的标签。"
+msgstr ""
+"这是因为函数名称是计算机用来精确[i]识别[/i]并引用函数或其他代码元素的标签。"
 
 msgid ""
-"Identifiers are unique: you cannot reuse the same name in a given "
-"[i]space[/i] in your code."
+"Identifiers are unique: you cannot reuse the same name in a given [i]space[/"
+"i] in your code."
 msgstr "标识符是唯一的：你不能在代码的给定 [i]space[/i] 中重复使用相同的名称。"
 
 msgid ""
-"If you try to name two functions the same, the computer will raise an "
-"error."
+"If you try to name two functions the same, the computer will raise an error."
 msgstr "如果你尝试将给两个不同的函数起一样的名字，计算机将会报错。"
 
 #: course/lesson-5-your-first-function/lesson.tres:54
@@ -77,43 +82,52 @@ msgid ""
 msgstr "如果有任何代码需要多次运行，可以将其放在函数中并给函数命名。"
 
 msgid ""
-"The instructions inside a function can be any code you want, and they "
-"will all run every time you call the function."
+"The instructions inside a function can be any code you want, and they will "
+"all run every time you call the function."
 msgstr "函数内的指令可以是你想要的任何代码，每次调用函数时它们都会运行。"
 
 msgid ""
-"Here's the example of a [code]move_and_rotate()[/code] function that "
-"moves the turtle forward and then turns it 90°."
-msgstr "下面是一个 [code]move_and_rotate()[/code] 函数的示例，该函数将海龟向前移动，然后将其旋转 90°。"
+"Here's the example of a [code]move_and_rotate()[/code] function that moves "
+"the turtle forward and then turns it 90°."
+msgstr ""
+"下面是一个 [code]move_and_rotate()[/code] 函数的示例，该函数将海龟向前移动，"
+"然后将其旋转 90°。"
 
 #: course/lesson-5-your-first-function/lesson.tres:78
 msgid ""
-"The [code]move_and_rotate()[/code] function consists of two instructions,"
-" each on a separate line. Both of those instructions call another "
-"familiar function."
-msgstr "[code]move_and_rotate()[/code] 函数由两条指令组成，每条指令位于单独的一行。 这两条指令都调用了另一个熟悉的函数。"
+"The [code]move_and_rotate()[/code] function consists of two instructions, "
+"each on a separate line. Both of those instructions call another familiar "
+"function."
+msgstr ""
+"[code]move_and_rotate()[/code] 函数由两条指令组成，每条指令位于单独的一行。 "
+"这两条指令都调用了另一个熟悉的函数。"
 
 msgid ""
-"You could write another function that calls "
-"[code]move_and_rotate()[/code] four times to draw a square of length 200 "
-"pixels."
-msgstr "你可以编写另一个函数，调用 [code]move_and_rotate()[/code] 四次来绘制一个长度为 200 像素的正方形。"
+"You could write another function that calls [code]move_and_rotate()[/code] "
+"four times to draw a square of length 200 pixels."
+msgstr ""
+"你可以编写另一个函数，调用 [code]move_and_rotate()[/code] 四次来绘制一个长度"
+"为 200 像素的正方形。"
 
 #: course/lesson-5-your-first-function/lesson.tres:100
 msgid ""
 "Every time we call [code]move_and_rotate()[/code], the two functions "
-"[code]move_forward(200)[/code] and [code]turn_right(90)[/code] are called"
-" in sequence."
-msgstr "每次调用[code]move_and_rotate()[/code]时，[code]move_forward(200)[/code]和[code]turn_right(90)[/code]这两个函数会被依次调用。"
+"[code]move_forward(200)[/code] and [code]turn_right(90)[/code] are called in "
+"sequence."
+msgstr ""
+"每次调用[code]move_and_rotate()[/code]时，[code]move_forward(200)[/code]和"
+"[code]turn_right(90)[/code]这两个函数会被依次调用。"
 
 msgid ""
-"In this simple example, it may not feel super useful. Here's a more "
-"useful and realistic one: a function to draw any square."
-msgstr "在这个简单的例子中，可能感觉这样做不是很有用。 这有一个更有用更现实的例子：一个可以绘制任何正方形的函数。"
+"In this simple example, it may not feel super useful. Here's a more useful "
+"and realistic one: a function to draw any square."
+msgstr ""
+"在这个简单的例子中，可能感觉这样做不是很有用。 这有一个更有用更现实的例子：一"
+"个可以绘制任何正方形的函数。"
 
 msgid ""
-"The following function uses [i]parameters[/i], which we will explore in "
-"the next lesson."
+"The following function uses [i]parameters[/i], which we will explore in the "
+"next lesson."
 msgstr "以下函数使用 [i]parameters[/i]，我们将在下一课中探讨。"
 
 msgid "[i]Drag the slider to change the square's size.[/i]"
@@ -128,22 +142,26 @@ msgid "Let's break down how you define a function."
 msgstr "让我们分解一下如何定义函数。"
 
 msgid ""
-"A function definition starts with the [code]func[/code] keyword followed "
-"by a space, the function's name, parentheses, and a colon."
-msgstr "函数定义以 [code]func[/code] 关键字开头，后跟空格、函数名称、括号和冒号。"
+"A function definition starts with the [code]func[/code] keyword followed by "
+"a space, the function's name, parentheses, and a colon."
+msgstr ""
+"函数定义以 [code]func[/code] 关键字开头，后跟空格、函数名称、括号和冒号。"
 
 #: course/lesson-5-your-first-function/lesson.tres:148
 msgid ""
-"The instructions inside the function [b]must[/b] all start with a leading"
-" tab character. You can insert that tab character by pressing the "
-"[b]Tab[/b] key."
-msgstr "函数中的指令 [b] 必须[/b] 都以“前导制表符”开头。 你可以通过按 [b]Tab[/b] 键插入该制表符。"
+"The instructions inside the function [b]must[/b] all start with a leading "
+"tab character. You can insert that tab character by pressing the [b]Tab[/b] "
+"key."
+msgstr ""
+"函数中的指令 [b] 必须[/b] 都以“前导制表符”开头。 你可以通过按 [b]Tab[/b] 键插"
+"入该制表符。"
 
 msgid ""
-"We call those leading tabs [i]indents[/i]. They're important: the "
-"computer uses them to know which instructions are part of the same code "
-"block."
-msgstr "我们将这些“前导制表符”称为 [i] 缩进 [/i]。 它们很重要：计算机使用它们来分清楚哪些指令是属于同一个代码块。"
+"We call those leading tabs [i]indents[/i]. They're important: the computer "
+"uses them to know which instructions are part of the same code block."
+msgstr ""
+"我们将这些“前导制表符”称为 [i] 缩进 [/i]。 它们很重要：计算机使用它们来分清楚"
+"哪些指令是属于同一个代码块。"
 
 #: course/lesson-5-your-first-function/lesson.tres:158
 msgid "Why do we use functions?"
@@ -161,17 +179,15 @@ msgid ""
 msgstr "因为当我们给函数命名时，相当于我们命名了一组指令，这很方便！"
 
 #: course/lesson-5-your-first-function/lesson.tres:164
-#: course/lesson-5-your-first-function/lesson.tres:165
-msgid "To reuse code multiple times. "
+#, fuzzy
+msgid "To reuse code multiple times."
 msgstr "多次重用代码。 "
 
 #: course/lesson-5-your-first-function/lesson.tres:164
-#: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To run multiple instructions in one go."
 msgstr "一次运行多条指令。"
 
 #: course/lesson-5-your-first-function/lesson.tres:164
-#: course/lesson-5-your-first-function/lesson.tres:165
 msgid "To put a name on multiple lines of code."
 msgstr "给多行代码起一个名称。"
 
@@ -181,23 +197,23 @@ msgstr "代码中的名字有规则"
 
 #: course/lesson-5-your-first-function/lesson.tres:174
 msgid ""
-"Function identifiers cannot contain spaces. In general, names in "
-"programming languages cannot contain spaces."
+"Function identifiers cannot contain spaces. In general, names in programming "
+"languages cannot contain spaces."
 msgstr "函数标识符不能包含空格。 通常，编程语言中的名称不能包含空格。"
 
 msgid ""
-"The computer uses spaces to detect the separation between different "
-"keywords and identifiers."
+"The computer uses spaces to detect the separation between different keywords "
+"and identifiers."
 msgstr "计算机使用空格来检测不同关键字和标识符之间的分隔。"
 
 msgid ""
 "Instead of spaces, in GDScript, we use underscores (\"_\"). You saw this "
 "already with functions like [code]move_forward()[/code] or "
-"[code]move_local_x()[/code]. This is the convention we follow in "
-"GDScript."
+"[code]move_local_x()[/code]. This is the convention we follow in GDScript."
 msgstr ""
-"在 GDScript 中，我们使用下划线（“_”）代替空格。 你已经通过 [code]move_forward()[/code] 或 "
-"[code]move_local_x()[/code] 等函数看到了这一点。 这是我们在 GDScript 中遵循的约定。"
+"在 GDScript 中，我们使用下划线（“_”）代替空格。 你已经通过 "
+"[code]move_forward()[/code] 或 [code]move_local_x()[/code] 等函数看到了这一"
+"点。 这是我们在 GDScript 中遵循的约定。"
 
 msgid ""
 "There's another convention programmers use in some other programming "
@@ -205,18 +221,20 @@ msgid ""
 msgstr "程序员在其他一些编程语言中使用了另一种约定。"
 
 msgid ""
-"Instead of using underscores, they start words with capital letters "
-"except for the first one. With that convention, you'd write function "
-"names like [code]moveForward()[/code] or [code]moveLocalX()[/code]"
+"Instead of using underscores, they start words with capital letters except "
+"for the first one. With that convention, you'd write function names like "
+"[code]moveForward()[/code] or [code]moveLocalX()[/code]"
 msgstr ""
-"它们不使用下划线，而是以大写字母开头，第一个除外。 使用该约定，你将编写函数名称，如 [code]moveForward()[/code] 或 "
-"[code]moveLocalX()[/code]"
+"它们不使用下划线，而是以大写字母开头，第一个除外。 使用该约定，你将编写函数名"
+"称，如 [code]moveForward()[/code] 或 [code]moveLocalX()[/code]"
 
 msgid ""
-"Identifiers also [i]have[/i] to start with a letter or an underscore; You"
-" [i]can't[/i] begin with a number, but you can use numbers after the "
-"first character."
-msgstr "标识符也[i]必须[/i]以字母或下划线开头； 你[i]不能[/i]以数字开头，但你可以在第一个字符之后使用数字。"
+"Identifiers also [i]have[/i] to start with a letter or an underscore; You "
+"[i]can't[/i] begin with a number, but you can use numbers after the first "
+"character."
+msgstr ""
+"标识符也[i]必须[/i]以字母或下划线开头； 你[i]不能[/i]以数字开头，但你可以在第"
+"一个字符之后使用数字。"
 
 #: course/lesson-5-your-first-function/lesson.tres:192
 msgid "Which of the following names are valid function names?"
@@ -228,36 +246,38 @@ msgstr "请注意，可以使用大写字母。"
 
 #: course/lesson-5-your-first-function/lesson.tres:195
 msgid ""
-"You can't name a function [code]move forward[/code] because it contains a"
-" space. Names in code cannot contain spaces."
-msgstr "你不能命名一个函数为 [code]move forward[/code] 因为它包含一个空格。 代码中的名称不能包含空格。"
+"You can't name a function [code]move forward[/code] because it contains a "
+"space. Names in code cannot contain spaces."
+msgstr ""
+"你不能命名一个函数为 [code]move forward[/code] 因为它包含一个空格。 代码中的"
+"名称不能包含空格。"
 
 msgid ""
-"They can't start with numbers either, which is why "
-"[code]45_degree_turn[/code] is also invalid."
-msgstr "函数也不能以数字开头，这就是为什么 [code]45_degree_turn[/code] 也是无效的。"
+"They can't start with numbers either, which is why [code]45_degree_turn[/"
+"code] is also invalid."
+msgstr ""
+"函数也不能以数字开头，这就是为什么 [code]45_degree_turn[/code] 也是无效的。"
 
 msgid ""
 "However, having numbers elsewhere in a function name is fine. That's why "
 "[code]make3NewCharacters[/code] works."
-msgstr "但是，在函数名的其他地方有数字是可以的。 这就是 [code]make3NewCharacters[/code] 合规的原因。"
+msgstr ""
+"但是，在函数名的其他地方有数字是可以的。 这就是 [code]make3NewCharacters[/"
+"code] 合规的原因。"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
 msgid "move forward"
 msgstr "move forward"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
-#: course/lesson-5-your-first-function/lesson.tres:201
 msgid "jump"
 msgstr "jump"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
-#: course/lesson-5-your-first-function/lesson.tres:201
 msgid "make3NewCharacters"
 msgstr "make3NewCharacters"
 
 #: course/lesson-5-your-first-function/lesson.tres:200
-#: course/lesson-5-your-first-function/lesson.tres:201
 msgid "move_forward"
 msgstr "move_forward"
 
@@ -271,21 +291,21 @@ msgstr "立即将海龟移动到不同的位置"
 
 #: course/lesson-5-your-first-function/lesson.tres:210
 msgid ""
-"In order to draw multiple squares in different positions, we introduce a "
-"new function for our turtle to use."
+"In order to draw multiple squares in different positions, we introduce a new "
+"function for our turtle to use."
 msgstr "为了在不同位置绘制多个正方形，我们引入了一个新函数供我们的海龟使用。"
 
 msgid ""
-"The [code]jump()[/code] function picks up the turtle and places it "
-"relative to where it is."
+"The [code]jump()[/code] function picks up the turtle and places it relative "
+"to where it is."
 msgstr "[code]jump()[/code] 函数捡起海龟并将其放置在相对位置上。"
 
 msgid ""
-"So calling [code]jump(-100, 50)[/code] moves the turtle by 100 pixels to "
-"the [b]left[/b] and 50 pixels [b]down[/b] without drawing any lines."
+"So calling [code]jump(-100, 50)[/code] moves the turtle by 100 pixels to the "
+"[b]left[/b] and 50 pixels [b]down[/b] without drawing any lines."
 msgstr ""
-"因此，调用 [code]jump(-100, 50)[/code] 会将海龟 [b]向左[/b] 移动 100 像素，以及[b]向下[/b] 移动"
-" 50 像素，而不绘制任何线条。"
+"因此，调用 [code]jump(-100, 50)[/code] 会将海龟 [b]向左[/b] 移动 100 像素，以"
+"及[b]向下[/b] 移动 50 像素，而不绘制任何线条。"
 
 #: course/lesson-5-your-first-function/lesson.tres:232
 msgid "A function to draw squares"
@@ -295,62 +315,74 @@ msgstr "绘制正方形的函数"
 msgid ""
 "Code a function named [code]draw_square()[/code] to draw one square of "
 "length 200 pixels. The function should take no parameters."
-msgstr "编写一个名为 [code]draw_square()[/code] 的函数来绘制一个长度为 200 像素的正方形。 该函数不需要带任何参数。"
+msgstr ""
+"编写一个名为 [code]draw_square()[/code] 的函数来绘制一个长度为 200 像素的正方"
+"形。 该函数不需要带任何参数。"
 
 msgid ""
-"Use the [code]move_forward()[/code] and [code]turn_right()[/code] "
-"functions to instruct the turtle."
-msgstr "使用 [code]move_forward()[/code] 和 [code]turn_right()[/code] 函数来指示海龟。"
+"Use the [code]move_forward()[/code] and [code]turn_right()[/code] functions "
+"to instruct the turtle."
+msgstr ""
+"使用 [code]move_forward()[/code] 和 [code]turn_right()[/code] 函数来指示海"
+"龟。"
 
 msgid ""
 "In the following practice, you'll use the [code]draw_square()[/code] "
 "function to draw multiple squares by calling your own function."
-msgstr "在下面的练习中，你将使用 [code]draw_square()[/code] 函数通过调用你自己写的函数来绘制多个正方形。"
+msgstr ""
+"在下面的练习中，你将使用 [code]draw_square()[/code] 函数通过调用你自己写的函"
+"数来绘制多个正方形。"
 
-#: course/lesson-5-your-first-function/lesson.tres:246
+#: course/lesson-5-your-first-function/lesson.tres:247
 msgid ""
-"Until now, you've had to write code by hand, and it's boring. It's time "
-"to code a reusable function. You'll use it to draw multiple squares."
-msgstr "迄今为止，你都不得不手写代码，这很无聊。 是时候编写一个可以重复调用的函数了。 你将使用它来绘制多个正方形。"
+"Until now, you've had to write code by hand, and it's boring. It's time to "
+"code a reusable function. You'll use it to draw multiple squares."
+msgstr ""
+"迄今为止，你都不得不手写代码，这很无聊。 是时候编写一个可以重复调用的函数"
+"了。 你将使用它来绘制多个正方形。"
 
-#: course/lesson-5-your-first-function/lesson.tres:251
+#: course/lesson-5-your-first-function/lesson.tres:252
 msgid "Drawing multiple squares"
 msgstr "绘制多个正方形"
 
-#: course/lesson-5-your-first-function/lesson.tres:252
+#: course/lesson-5-your-first-function/lesson.tres:253
 msgid ""
-"You have a function to draw one square: [code]draw_square()[/code]. Use "
-"it to draw three squares."
-msgstr "你有这个绘制一个正方形的函数：[code]draw_square()[/code]。 用它来画三个正方形。"
+"You have a function to draw one square: [code]draw_square()[/code]. Use it "
+"to draw three squares."
+msgstr ""
+"你有这个绘制一个正方形的函数：[code]draw_square()[/code]。 用它来画三个正方"
+"形。"
 
 msgid ""
 "We already created [code]draw_square()[/code] for you. Create a function "
-"named [code]draw_three_squares[/code] that calls "
-"[code]draw_square()[/code] three times."
+"named [code]draw_three_squares[/code] that calls [code]draw_square()[/code] "
+"three times."
 msgstr ""
 "我们已经为你创建了 [code]draw_square()[/code]。 创建一个名为 "
-"[code]draw_three_squares[/code] 的函数，该函数会调用三次 [code]draw_square()[/code]。"
+"[code]draw_three_squares[/code] 的函数，该函数会调用三次 [code]draw_square()"
+"[/code]。"
 
 msgid ""
-"If you just call the function, all three squares will overlap. To stack "
-"them diagonally, call [code]jump(300, 300)[/code] between two calls to "
+"If you just call the function, all three squares will overlap. To stack them "
+"diagonally, call [code]jump(300, 300)[/code] between two calls to "
 "[code]draw_square()[/code]."
 msgstr ""
-"如果你只是调用该函数，这三个正方形会重叠。 要想沿对角线依次放置它们，请在两次调用 [code]draw_square()[/code] 之间调用"
-" [code]jump(300, 300)[/code]。"
+"如果你只是调用该函数，这三个正方形会重叠。 要想沿对角线依次放置它们，请在两次"
+"调用 [code]draw_square()[/code] 之间调用 [code]jump(300, 300)[/code]。"
 
 msgid ""
-"Calling [code]jump(300, 300)[/code] makes the turtle jump by 300 pixels "
-"to the right and 300 pixels down without drawing any lines."
-msgstr "调用 [code]jump(300, 300)[/code] 会使海龟向右跳跃 300 像素，向下跳跃 300 像素，而不绘制任何线条。"
+"Calling [code]jump(300, 300)[/code] makes the turtle jump by 300 pixels to "
+"the right and 300 pixels down without drawing any lines."
+msgstr ""
+"调用 [code]jump(300, 300)[/code] 会使海龟向右跳跃 300 像素，向下跳跃 300 像"
+"素，而不绘制任何线条。"
 
-#: course/lesson-5-your-first-function/lesson.tres:275
+#: course/lesson-5-your-first-function/lesson.tres:277
 msgid ""
-"Now you created a function to draw squares, you can reuse it by calling "
-"it multiple times."
+"Now you created a function to draw squares, you can reuse it by calling it "
+"multiple times."
 msgstr "现在你创建了一个绘制正方形的函数，你可以通过多次调用它来重用它。"
 
-#: course/lesson-5-your-first-function/lesson.tres:279
+#: course/lesson-5-your-first-function/lesson.tres:281
 msgid "Coding Your First Function"
 msgstr "编写你的第一个函数"
-

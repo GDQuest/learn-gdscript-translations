@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2025-06-14 15:02+0200\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2022-06-13 17:18+0000\n"
 "Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/glossary_database/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/learn-"
-"gdscript-from-zero/glossary_database/hu/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: member function
@@ -36,12 +36,11 @@ msgid ""
 "Member functions are functions attached to a specific value type, like "
 "arrays, strings, or dictionaries. We also call them methods."
 msgstr ""
-"A tagfüggvény olyan függvény, ami egy specifikus változó típushoz van "
-"kötve, például tömb, string, vagy könyvtár. Metódusnak is hívják."
+"A tagfüggvény olyan függvény, ami egy specifikus változó típushoz van kötve, "
+"például tömb, string, vagy könyvtár. Metódusnak is hívják."
 
 msgid ""
-"For example, arrays have member functions like "
-"[code]array.append()[/code]."
+"For example, arrays have member functions like [code]array.append()[/code]."
 msgstr "Példa egy tömb tagfüggvényre: [code]array.append()[/code]."
 
 msgid ""
@@ -65,20 +64,20 @@ msgstr "tagváltozók"
 #: course/glossary.csv:9
 msgid ""
 "Member variables are variables attached to a specific value type, like a "
-"vector's [code]x[/code] and [code]y[/code] sub-variables. We also call "
-"them [i]properties[/i] or [i]fields[/i] of the vector."
+"vector's [code]x[/code] and [code]y[/code] sub-variables. We also call them "
+"[i]properties[/i] or [i]fields[/i] of the vector."
 msgstr ""
-"A tagváltozó olyan változó, ami egy adott változó típushoz van kötve, "
-"mint például a vektor [code]x[/code] és [code]y[/code] részváltozói. A "
-"vektor [i]tulajdonságainak[/i] vagy [i]mezőinek[/i] is hívjuk őket."
+"A tagváltozó olyan változó, ami egy adott változó típushoz van kötve, mint "
+"például a vektor [code]x[/code] és [code]y[/code] részváltozói. A vektor "
+"[i]tulajdonságainak[/i] vagy [i]mezőinek[/i] is hívjuk őket."
 
 msgid ""
-"To access a member variable, you must first write the value's name "
-"followed by the access operator ([code].[/code]). For example, "
-"[code]position.x[/code]."
+"To access a member variable, you must first write the value's name followed "
+"by the access operator ([code].[/code]). For example, [code]position.x[/"
+"code]."
 msgstr ""
-"Ahhoz, hogy elérd a tagváltozókat, először ki kell írni a változót nevét,"
-" majd egy [code].[/code]-ot. Például: [code]position.x[/code]."
+"Ahhoz, hogy elérd a tagváltozókat, először ki kell írni a változót nevét, "
+"majd egy [code].[/code]-ot. Például: [code]position.x[/code]."
 
 #. Reference: parameter
 #: course/glossary.csv:12
@@ -93,15 +92,15 @@ msgstr "paraméterek"
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "A parameter is a variable you create as part of a function definition."
-msgstr "A paraméter egy olyan változó, amit függvény deklarálásakor hozol létre."
+msgstr ""
+"A paraméter egy olyan változó, amit függvény deklarálásakor hozol létre."
 
 msgid ""
-"It allows you to reuse the function more by having values that vary in "
-"the function's body."
+"It allows you to reuse the function more by having values that vary in the "
+"function's body."
 msgstr ""
 "Ez lehetővé teszi, hogy többször is felhasználd a függvényt, azoknak "
-"változóknak köszönhetően, melyeknek az értéke változhat a "
-"függvénytörzsben."
+"változóknak köszönhetően, melyeknek az értéke változhat a függvénytörzsben."
 
 #. Reference: radian
 #: course/glossary.csv:17
@@ -123,18 +122,18 @@ msgstr ""
 "alapul."
 
 msgid ""
-"We tend to use degrees more in our daily lives, but in computer "
-"programming, and especially in games, radians are common."
+"We tend to use degrees more in our daily lives, but in computer programming, "
+"and especially in games, radians are common."
 msgstr ""
 "A hétköznapi életben általában fokot használunk, de a programozásban, és "
 "különösen a játék programozásban, a radián elég gyakori."
 
 msgid ""
-"An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And "
-"an angle of [code]PI[/code] radians corresponds to 180 degrees."
+"An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And an "
+"angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
-"A radián [code]2 * PI[/code] az 360 fok. A [code]PI[/code] pedig 180 "
-"foknak felel meg."
+"A radián [code]2 * PI[/code] az 360 fok. A [code]PI[/code] pedig 180 foknak "
+"felel meg."
 
 #. Reference: type
 #: course/glossary.csv:20
@@ -149,20 +148,20 @@ msgstr "típusok"
 #. Reference: type
 #: course/glossary.csv:20
 msgid ""
-"In computer programming, a type is the class of a value. For example, "
-"whole numbers like [code]3[/code], [code]11[/code], and "
-"[code]255462[/code] are all of type [code]int[/code] (short for integer)."
+"In computer programming, a type is the class of a value. For example, whole "
+"numbers like [code]3[/code], [code]11[/code], and [code]255462[/code] are "
+"all of type [code]int[/code] (short for integer)."
 msgstr ""
 "A programozásban a típus az egy változónak a fajtája. például, az egész "
-"számok, mint a [code]3[/code], [code]11[/code], és [code]255462[/code] "
-"mind [code]int[/code] (vagy integer) típusúak."
+"számok, mint a [code]3[/code], [code]11[/code], és [code]255462[/code] mind "
+"[code]int[/code] (vagy integer) típusúak."
 
 msgid ""
-"The computer uses types to determine which operations are valid between "
-"two values and when they're undefined."
+"The computer uses types to determine which operations are valid between two "
+"values and when they're undefined."
 msgstr ""
-"A számítógép a típusokat használja, hogy eldöntse milyen műveleteket "
-"hajthat végre két változó közt és azok mikor értelmezhetetlenek."
+"A számítógép a típusokat használja, hogy eldöntse milyen műveleteket hajthat "
+"végre két változó közt és azok mikor értelmezhetetlenek."
 
 #. Reference: iteration
 #: course/glossary.csv:23
@@ -177,13 +176,13 @@ msgstr "iteráció"
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid ""
-"In computer code, an iteration is one repetition of some process or code."
-" We typically use the term with loops, where one iteration is one run of "
-"the loop's code."
+"In computer code, an iteration is one repetition of some process or code. We "
+"typically use the term with loops, where one iteration is one run of the "
+"loop's code."
 msgstr ""
-"A programozásban az iteráció, egy adott folyamatnak vagy kódnak az "
-"egyszeri végrehajtása. Általában ciklusoknál használjuk, ahol egy "
-"iteráció, a ciklus kódjának egyszeri lefutását jelenti."
+"A programozásban az iteráció, egy adott folyamatnak vagy kódnak az egyszeri "
+"végrehajtása. Általában ciklusoknál használjuk, ahol egy iteráció, a ciklus "
+"kódjának egyszeri lefutását jelenti."
 
 msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
@@ -213,84 +212,96 @@ msgstr ""
 "jelentenek"
 
 msgid ""
-"We use that to represent a direction and magnitude or intensity in space."
-" For example, you can use a vector to represent the direction and speed "
-"at which a character or a vehicle moves."
+"We use that to represent a direction and magnitude or intensity in space. "
+"For example, you can use a vector to represent the direction and speed at "
+"which a character or a vehicle moves."
 msgstr ""
 "Arra használjuk, hogy irányt és méretet adjunk meg, vagy intenzitást a "
 "térben. Például használhatod a vektorokat arra, hogy megadd egy karakter "
 "vagy jármű irányát és sebességét."
 
 msgid ""
-"Vectors can seem daunting at first because they are pretty abstract, but "
-"as you will see, they'll simplify code tremendously."
+"Vectors can seem daunting at first because they are pretty abstract, but as "
+"you will see, they'll simplify code tremendously."
 msgstr ""
-"A vektorok talán bonyolultnak tűnnek elsőre, mert elég absztraktak, de "
-"amint látni fogod, jelentősen leegyszerűsítik a kódot."
+"A vektorok talán bonyolultnak tűnnek elsőre, mert elég absztraktak, de amint "
+"látni fogod, jelentősen leegyszerűsítik a kódot."
 
 #. Reference: argument
-#: course/glossary.csv:37
+#: course/glossary.csv:41
 msgid "argument"
 msgstr "argumentum"
 
 #. Reference: argument
-#: course/glossary.csv:37
+#: course/glossary.csv:41
 msgid "arguments"
 msgstr "argumentumok"
 
 #. Reference: argument
-#: course/glossary.csv:37
+#: course/glossary.csv:41
+#, fuzzy
 msgid ""
-"An argument is a value that you pass to a function when calling the "
-"function. For example, in the call [code]rotate(0.5)[/code], the value "
-"[code]0.5[/code] in the parentheses is an argument."
+"An argument is a value you pass to a function when you call it. For example, "
+"in the function call [code]rotate(0.5)[/code], the value [code]0.5[/code] "
+"inside the parentheses is an argument."
 msgstr ""
-"Az argumentum egy olyan változó, amit a függvénynek adsz át, amikor hívod"
-" azt. Például, a [code]rotate(0.5)[/code] függvényben, a [code]0.5[/code]"
-" az argumentum."
+"Az argumentum egy olyan változó, amit a függvénynek adsz át, amikor hívod "
+"azt. Például, a [code]rotate(0.5)[/code] függvényben, a [code]0.5[/code] az "
+"argumentum."
 
+#, fuzzy
 msgid ""
-"A function can receive no arguments, one argument, or multiple arguments."
-" Arguments can be mandatory or optional."
+"A function can take no arguments, one argument, or multiple arguments. "
+"Arguments can be required or optional."
 msgstr ""
 "Egy függvénynek lehet 0, 1 vagy több argumentuma is. Az argumentum lehet "
 "kötelező, vagy opcionális."
 
+#, fuzzy
 msgid ""
-"When a function takes multiple arguments, you separate the values with "
-"commas, like in this function call: [code]jump(50, 100)[/code]"
+"When a function requires multiple arguments, you separate them with commas. "
+"Here's an example: [code]jump(50, 100)[/code]"
 msgstr ""
 "Ha egy függvény több argumentumot is fogad, akkor az értékeket \",\"-vel "
 "választjuk el, ahogy itt is látható: [code]jump(50, 100)[/code]"
 
+#, fuzzy
 msgid ""
-"When [i]calling[/i] a function, we name the values passed in parentheses "
+"When you [i]call[/i] a function, we call the values in parentheses "
 "[i]arguments[/i]."
 msgstr ""
 "Amikor [i]hívjuk[/i] a függvényt, a zárójelben lévő értékeket "
 "[i]argumentumnak[/i] nevezzük."
 
 msgid ""
-"When writing a function definition, however, we talk about function "
-"[i]parameters[/i]. In the following example, the names [code]x[/code] and"
-" [code]y[/code] are [i]parameters[/i]."
+"But when you [i]write[/i] a function definition, we call them [i]parameters[/"
+"i] instead. Here's an example:"
+msgstr ""
+
+msgid "[code]func move_to_position(x, y):[/code]"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"In this function definition, [code]x[/code] and [code]y[/code] are "
+"[i]parameters[/i]."
 msgstr ""
 "Azonban amikor definiáljuk azt, akkor függvény [i]paraméterekről[/i] "
-"beszélünk. A következő példában az [code]x[/code] és [code]y[/code] egy-"
-"egy [i]paraméter[/i]."
+"beszélünk. A következő példában az [code]x[/code] és [code]y[/code] egy-egy "
+"[i]paraméter[/i]."
 
 #. Reference: array
-#: course/glossary.csv:44
+#: course/glossary.csv:48
 msgid "array"
 msgstr "tömb"
 
 #. Reference: array
-#: course/glossary.csv:44
+#: course/glossary.csv:48
 msgid "arrays"
 msgstr "tömbök"
 
 #. Reference: array
-#: course/glossary.csv:44
+#: course/glossary.csv:48
 msgid ""
 "An array is a list of values. In GDScript, arrays can contain [i]any[/i] "
 "types of value."
@@ -307,12 +318,11 @@ msgstr ""
 
 msgid ""
 "In games, we use arrays all the time to store lists of characters in a "
-"party, lists of items in inventory, lists of spells the player unlocked, "
-"and so on. They're everywhere."
+"party, lists of items in inventory, lists of spells the player unlocked, and "
+"so on. They're everywhere."
 msgstr ""
 "A játékokban állandóan használjuk a tömböket: karakterek egy csapatban, "
-"tárgyak az eszköztáradban, feloldott varázslatok, stb. Mindenhol ott "
-"vannak."
+"tárgyak az eszköztáradban, feloldott varázslatok, stb. Mindenhol ott vannak."
 
 msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
@@ -322,127 +332,124 @@ msgstr ""
 "programnyelvben találkozhatsz velük."
 
 #. Reference: assign
-#: course/glossary.csv:45
+#: course/glossary.csv:49
 msgid "assign"
 msgstr "hozzárendelés"
 
 #. Reference: assign
-#: course/glossary.csv:45
+#: course/glossary.csv:49
 msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
-"Az érték hozzárendelése egy változóhoz azt jelent, hogy abban a "
-"változóban tárolod az értéket. Ezt az [code]=[/code] jellel lehet "
-"megtenni."
+"Az érték hozzárendelése egy változóhoz azt jelent, hogy abban a változóban "
+"tárolod az értéket. Ezt az [code]=[/code] jellel lehet megtenni."
 
 #. Reference: dictionary
-#: course/glossary.csv:52
+#: course/glossary.csv:56
 msgid "dictionary"
 msgstr "könyvtár"
 
 #. Reference: dictionary
-#: course/glossary.csv:52
+#: course/glossary.csv:56
 msgid "dictionaries"
 msgstr "könyvtárak"
 
 #. Reference: dictionary
-#: course/glossary.csv:52
+#: course/glossary.csv:56
 msgid ""
-"A dictionary is a data structure that maps values with key-value pairs. "
-"When you give the dictionary a key, it finds and gives you back the "
-"corresponding value."
+"A dictionary is a data structure that maps values with key-value pairs. When "
+"you give the dictionary a key, it finds and gives you back the corresponding "
+"value."
 msgstr ""
-"A könyvtár egy olyan adatstruktúra, ami az értékeket, kulcs-érték párokká"
-" alakítja. Ha megadsz aegy kulcsot a könyvtárban, az a hozzá tartozó "
-"értéket fogja visszaadni."
+"A könyvtár egy olyan adatstruktúra, ami az értékeket, kulcs-érték párokká "
+"alakítja. Ha megadsz aegy kulcsot a könyvtárban, az a hozzá tartozó értéket "
+"fogja visszaadni."
 
 msgid ""
-"In GDScript, keys can be many things. We often use text strings or "
-"numbers, but you're not limited to that. A [code]Vector2[/code] can also "
-"be a valid key, which is handy to map a grid cell to a unit or an item in"
-" a grid-based game."
+"In GDScript, keys can be many things. We often use text strings or numbers, "
+"but you're not limited to that. A [code]Vector2[/code] can also be a valid "
+"key, which is handy to map a grid cell to a unit or an item in a grid-based "
+"game."
 msgstr ""
 "A GDScriptben sokféle kulcs lehet. Leggyajrabban szavakat vagy számokat "
-"használunk, de nem kell ehhez ragaszkodni. Egy [code]Vector2[/code] is "
-"lehet érvényes kulcs, ami jól jön, ha egy mezőt kell egy egységhez vagy "
-"egy tárgyhoz rendelni, egy mezőkre osztott játékban."
+"használunk, de nem kell ehhez ragaszkodni. Egy [code]Vector2[/code] is lehet "
+"érvényes kulcs, ami jól jön, ha egy mezőt kell egy egységhez vagy egy "
+"tárgyhoz rendelni, egy mezőkre osztott játékban."
 
 msgid ""
-"You will often use dictionaries to associate bits of data in your games. "
-"For example, we could use them to associate an equipment's name with its "
-"weapon stats in a database."
+"You will often use dictionaries to associate bits of data in your games. For "
+"example, we could use them to associate an equipment's name with its weapon "
+"stats in a database."
 msgstr ""
-"Gyakran használhatsz könyvtárakat, hogy összekapcsolj adatokat a "
-"játékodban. Például, használhatjuk arra, hogy összekapcsoljuk egy fegyver"
-" nevét, a hozzá tartozó értékekkel."
+"Gyakran használhatsz könyvtárakat, hogy összekapcsolj adatokat a játékodban. "
+"Például, használhatjuk arra, hogy összekapcsoljuk egy fegyver nevét, a hozzá "
+"tartozó értékekkel."
 
 msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
-"A tömbökhöz hasonlóan, ezek is alapvető adat típusok, amelyekkel a "
-"legtöbb programnyelvben találkozhatsz, és gyakran fogsz használni."
+"A tömbökhöz hasonlóan, ezek is alapvető adat típusok, amelyekkel a legtöbb "
+"programnyelvben találkozhatsz, és gyakran fogsz használni."
 
 #. Reference: for loop
-#: course/glossary.csv:59
+#: course/glossary.csv:63
 msgid "for loop"
 msgstr "for ciklus"
 
 #. Reference: for loop
-#: course/glossary.csv:59
+#: course/glossary.csv:63
 msgid "for loops"
 msgstr "for ciklusok"
 
 #. Reference: for loop
-#: course/glossary.csv:59
+#: course/glossary.csv:63
 msgid ""
-"A for loop instructs the computer to repeat a set of instructions once "
-"for each value in an array."
+"A for loop instructs the computer to repeat a set of instructions once for "
+"each value in an array."
 msgstr ""
-"A for ciklus utasítja a számítógépet, hogy ismételjen egy "
-"utasításkészletet, annyiszor, ahány elem van a tömbben."
+"A for ciklus utasítja a számítógépet, hogy ismételjen egy utasításkészletet, "
+"annyiszor, ahány elem van a tömbben."
 
 msgid ""
-"In each loop iteration, the compiler extracts one value from the array "
-"and gives you access to it in the loop's body."
+"In each loop iteration, the compiler extracts one value from the array and "
+"gives you access to it in the loop's body."
 msgstr ""
 "A ciklus minden egyes iterációjában, a compiler \"kivesz\" egy elemet a "
 "tömbből és elérhetővé teszi számodra a ciklus törzsében."
 
 msgid ""
-"For loops run code a limited amount of times: one per value in the array."
-" It is different from while loops that keep repeating code until a "
-"condition is met."
+"For loops run code a limited amount of times: one per value in the array. It "
+"is different from while loops that keep repeating code until a condition is "
+"met."
 msgstr ""
 "A for ciklus csak meghatározott alkalommal hajtódik végre: ahány elemű a "
-"tömb. Nem úgy, mint a while ciklus, ami addig ismétlődik, amíg nem "
-"teljesül egy feltétel."
+"tömb. Nem úgy, mint a while ciklus, ami addig ismétlődik, amíg nem teljesül "
+"egy feltétel."
 
 msgid ""
-"We recommend favoring for loops when you can. They're safer and easier to"
-" use than while loops."
+"We recommend favoring for loops when you can. They're safer and easier to "
+"use than while loops."
 msgstr ""
-"Azt ajánljuk, hogy, ha teheted, akkor a for ciklusokat részesítsd "
-"előnyben. Biztonságosabbak, és egyszerűbb a használatuk, mint a while "
-"ciklusoké.."
+"Azt ajánljuk, hogy, ha teheted, akkor a for ciklusokat részesítsd előnyben. "
+"Biztonságosabbak, és egyszerűbb a használatuk, mint a while ciklusoké.."
 
 #. Reference: function
-#: course/glossary.csv:64
+#: course/glossary.csv:68
 msgid "function"
 msgstr "függvény"
 
 #. Reference: function
-#: course/glossary.csv:64
+#: course/glossary.csv:68
 msgid "functions"
 msgstr "függvények"
 
 #. Reference: function
-#: course/glossary.csv:64
+#: course/glossary.csv:68
 msgid ""
-"A function is a group of code instructions you give a name. When you "
-"define a function, you can call it any time to run all the instructions "
-"it contains."
+"A function is a group of code instructions you give a name. When you define "
+"a function, you can call it any time to run all the instructions it contains."
 msgstr ""
 "A függvény az utasítások egy névvel ellátott csoportját jelenti. Ha "
 "létrhozol egy függvényt, azt akármikor hívhatod, hogy a benne lévő "
@@ -450,14 +457,13 @@ msgstr ""
 
 msgid ""
 "You can modify a function's behavior with parameters. Parameters are "
-"variable names that you write in the function definition. You can then "
-"use them in the function's body to make your code adapt to different "
-"cases."
+"variable names that you write in the function definition. You can then use "
+"them in the function's body to make your code adapt to different cases."
 msgstr ""
 "Paraméterekkel módosíthatod a függvény működését. A paraméterek olyan "
-"változók, amelyek a függvény létrehozásánál adhatsz meg. Ezután "
-"használhatod őket a függvény törzsében, hogy a kódod alkalmazkodjon a "
-"különböző helyzetekhez."
+"változók, amelyek a függvény létrehozásánál adhatsz meg. Ezután használhatod "
+"őket a függvény törzsében, hogy a kódod alkalmazkodjon a különböző "
+"helyzetekhez."
 
 msgid "Also, functions can optionally return a value to the code calling it."
 msgstr ""
@@ -465,35 +471,35 @@ msgstr ""
 "hívva lettek."
 
 #. Reference: increment
-#: course/glossary.csv:65
+#: course/glossary.csv:69
 msgid "increment"
 msgstr "növekedés"
 
 #. Reference: increment
-#: course/glossary.csv:65
+#: course/glossary.csv:69
 msgid "increments"
 msgstr "növekedések"
 
 #. Reference: increment
-#: course/glossary.csv:65
+#: course/glossary.csv:69
 msgid "An increment is the amount by which a value changes in your code."
 msgstr "A növekedés az az érték, amellyel változik az érték a kódban."
 
 #. Reference: instruction
-#: course/glossary.csv:68
+#: course/glossary.csv:72
 msgid "instruction"
 msgstr "művelet"
 
 #. Reference: instruction
-#: course/glossary.csv:68
+#: course/glossary.csv:72
 msgid "instructions"
 msgstr "utasítások"
 
 #. Reference: instruction
-#: course/glossary.csv:68
+#: course/glossary.csv:72
 msgid ""
-"In computer programming, instructions are a single operation the computer"
-" recognizes and can execute."
+"In computer programming, instructions are a single operation the computer "
+"recognizes and can execute."
 msgstr ""
 "A programozásban a művelet a legegyszerűbb kifejezés, amit a számítógép "
 "felismer és végrehajt"
@@ -506,168 +512,163 @@ msgstr ""
 "változóhoz."
 
 #. Reference: variable
-#: course/glossary.csv:77
+#: course/glossary.csv:81
 msgid "variable"
 msgstr "változó"
 
 #. Reference: variable
-#: course/glossary.csv:77
+#: course/glossary.csv:81
 msgid "variables"
 msgstr "változók"
 
 #. Reference: variable
-#: course/glossary.csv:77
+#: course/glossary.csv:81
 msgid ""
-"Variables are a tool to give a name to values you want to store in your "
-"code and change over time."
+"Variables are a tool to give a name to values you want to store in your code "
+"and change over time."
 msgstr ""
-"A változók arra vannak, hogy nevet adhass az értékeknek, amelyeket "
-"használni vagy módosítani szeretnél a kódodban."
+"A változók arra vannak, hogy nevet adhass az értékeknek, amelyeket használni "
+"vagy módosítani szeretnél a kódodban."
 
 msgid ""
-"For example, a character's health: when the character takes a hit, you "
-"want it to go down. When healing, you want the health to go back up."
+"For example, a character's health: when the character takes a hit, you want "
+"it to go down. When healing, you want the health to go back up."
 msgstr ""
-"Például, egy karakter életereje: ha sebzés éri a karaktert, lejjeb akarod"
-" vinni. Ha gyógyul, akkor pedig feljebb."
+"Például, egy karakter életereje: ha sebzés éri a karaktert, lejjeb akarod "
+"vinni. Ha gyógyul, akkor pedig feljebb."
 
 msgid ""
-"You can create a variable named [code]health[/code] to represent the "
-"health."
+"You can create a variable named [code]health[/code] to represent the health."
 msgstr ""
-"Készíthetsz egy [code]health[/code] nevű változót, hogy ez reprezentálja "
-"az életerőt."
+"Készíthetsz egy [code]health[/code] nevű változót, hogy ez reprezentálja az "
+"életerőt."
 
 msgid ""
-"Then, every time you write the keyword [code]health[/code] in your code, "
-"the computer will fetch the corresponding value in its memory for you."
+"Then, every time you write the keyword [code]health[/code] in your code, the "
+"computer will fetch the corresponding value in its memory for you."
 msgstr ""
 "Ezután, mindig amikor a [code]health[/code]-re hivatkozol a kódodban, a "
 "számítógép a hozzá tartozó értéket fogja elővenni."
 
 msgid ""
-"Variables work a bit like product labels in a supermarket. They are names"
-" that you attach to some value. Any time, you can take the label and "
-"stick it onto a new product or, in that case, a new value."
+"Variables work a bit like product labels in a supermarket. They are names "
+"that you attach to some value. Any time, you can take the label and stick it "
+"onto a new product or, in that case, a new value."
 msgstr ""
-"A változók hasonlóak, mint az címkék a szupermarketekben. Nevek, "
-"amelyekhez valamilyen értéket rendelsz. Bármikor megfoghatod a címkét és "
-"átteheted egy másik termékre, vagy, mint a fenti példában, új értéket "
-"adhatsz meg."
+"A változók hasonlóak, mint az címkék a szupermarketekben. Nevek, amelyekhez "
+"valamilyen értéket rendelsz. Bármikor megfoghatod a címkét és átteheted egy "
+"másik termékre, vagy, mint a fenti példában, új értéket adhatsz meg."
 
 #. Reference: while loop
-#: course/glossary.csv:84
+#: course/glossary.csv:88
 msgid "while loop"
 msgstr "while ciklus"
 
 #. Reference: while loop
-#: course/glossary.csv:84
+#: course/glossary.csv:88
 msgid "while loops"
 msgstr "while ciklusok"
 
 #. Reference: while loop
-#: course/glossary.csv:84
+#: course/glossary.csv:88
 msgid ""
 "A while loop instructs the computer to keep running code based on a "
 "condition. While the condition is true, the loop keeps running."
 msgstr ""
 "A while ciklus arra utasítja a számítógépet, hogy feltételtől függően "
-"folymatosan hajtsa végre az utasításokat. Amíg a feltétel igaz, addig fut"
-" a ciklus."
+"folymatosan hajtsa végre az utasításokat. Amíg a feltétel igaz, addig fut a "
+"ciklus."
 
 msgid ""
 "When coding while loops, you must be careful: they will keep running "
 "infinitely and freeze your game if you get the condition wrong."
 msgstr ""
-"While ciklus használatánál oda kell figyelni: ha rossz feltételt adsz "
-"meg, akkor soha nem állnak meg és lefagyaszthatják a játékod."
+"While ciklus használatánál oda kell figyelni: ha rossz feltételt adsz meg, "
+"akkor soha nem állnak meg és lefagyaszthatják a játékod."
 
 msgid "That's why we recommend using the safer for loop whenever you can."
 msgstr ""
-"Ezért ajánljik, hogy , ha csak teheted, használd a biztonságos for "
-"ciklust."
+"Ezért ajánljik, hogy , ha csak teheted, használd a biztonságos for ciklust."
 
 msgid ""
-"However, there are still essential cases in which we use while loops, "
-"like processing files, processing computer code, or for powerful "
-"algorithms."
+"However, there are still essential cases in which we use while loops, like "
+"processing files, processing computer code, or for powerful algorithms."
 msgstr ""
 "Azonban, vannak olyan esetek, amikor mégis a while ciklust használjuk, "
 "például fájlműveletek, kódfeldolgozás, vagy komplexebb algoritmusok."
 
 #. Reference: body
-#: course/glossary.csv:85
+#: course/glossary.csv:89
 msgid "body"
 msgstr "törzs"
 
 #. Reference: body
-#: course/glossary.csv:85
+#: course/glossary.csv:89
 msgid ""
-"We talk about a loop or a function's body to refer to the lines of code "
-"that are part of the loop or function."
+"We talk about a loop or a function's body to refer to the lines of code that "
+"are part of the loop or function."
 msgstr ""
 "Ciklus-, vagy függvénytörzsről akkor beszélünk, ha az azokat alkotó "
 "kódsorokról van szó."
 
 #. Reference: return
-#: course/glossary.csv:88
+#: course/glossary.csv:92
 msgid "return"
 msgstr "visszatérés"
 
 #. Reference: return
-#: course/glossary.csv:88
+#: course/glossary.csv:92
 msgid ""
-"Returning a value is the process of sending a value to the place where "
-"you call a function."
+"Returning a value is the process of sending a value to the place where you "
+"call a function."
 msgstr ""
-"Érték visszatéréséről akkor beszélünk, ha azt arra a helyre küldjük, "
-"ahonnan hívva lett a függvény."
+"Érték visszatéréséről akkor beszélünk, ha azt arra a helyre küldjük, ahonnan "
+"hívva lett a függvény."
 
 msgid ""
-"It happens when a function uses the [code]return[/code] keyword followed "
-"by a value, for example: [code]return -1[/code]."
+"It happens when a function uses the [code]return[/code] keyword followed by "
+"a value, for example: [code]return -1[/code]."
 msgstr ""
-"Ezt a [code]return[/code] kulcsszóval majd az azt követő értékkel "
-"tehetjük meg. Például: [code]return -1[/code]."
+"Ezt a [code]return[/code] kulcsszóval majd az azt követő értékkel tehetjük "
+"meg. Például: [code]return -1[/code]."
 
 #. Reference: library
-#: course/glossary.csv:89
+#: course/glossary.csv:93
 msgid "library"
 msgstr "könyvtár"
 
 #. Reference: library
-#: course/glossary.csv:89
+#: course/glossary.csv:93
 msgid "libraries"
 msgstr "könyvtárak"
 
 #. Reference: library
-#: course/glossary.csv:89
+#: course/glossary.csv:93
 msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
-"Értékes és többször használható kódgyűjtemények, melyeket más programozók"
-" gyúrtak egybe, hogy neked időt takarítsanak meg. Minden programozó "
-"használ könyvtárakat."
+"Értékes és többször használható kódgyűjtemények, melyeket más programozók "
+"gyúrtak egybe, hogy neked időt takarítsanak meg. Minden programozó használ "
+"könyvtárakat."
 
 #. Reference: sprite
-#: course/glossary.csv:90
+#: course/glossary.csv:94
 msgid "sprite"
 msgstr "sprite"
 
 #. Reference: sprite
-#: course/glossary.csv:90
+#: course/glossary.csv:94
 msgid "sprites"
 msgstr "sprite-ok"
 
 #. Reference: sprite
-#: course/glossary.csv:90
+#: course/glossary.csv:94
 msgid ""
 "In computer graphics, a sprite is an image you display on the screen. We "
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
 msgstr ""
-"A számítógépes grafikában a sprite egy kép, amit megjelenítesz a "
-"képernyőn. Általában olyan képekre használjuk, amik mozognak, például egy"
-" karakter, egy szörny vagy egy tárgy, ami leeseik a földre."
-
+"A számítógépes grafikában a sprite egy kép, amit megjelenítesz a képernyőn. "
+"Általában olyan képekre használjuk, amik mozognak, például egy karakter, egy "
+"szörny vagy egy tárgy, ami leeseik a földre."

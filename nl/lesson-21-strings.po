@@ -8,37 +8,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-05-16 09:25+0200\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2024-04-06 19:01+0000\n"
 "Last-Translator: Matthijs <m4tthijsbl0m@gmail.com>\n"
-"Language: nl\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-21-strings/nl/>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-21-strings/lesson.tres:14
 msgid ""
-"Throughout this course, we've mostly stored numbers in variables. But "
-"what if we wanted to store a player's name?"
+"Throughout this course, we've mostly stored numbers in variables. But what "
+"if we wanted to store a player's name?"
 msgstr ""
-"In deze cursus hebben we meestal getallen opgeslagen in variabelen. Maar "
-"wat als we de naam van een speler willen opslaan?"
+"In deze cursus hebben we meestal getallen opgeslagen in variabelen. Maar wat "
+"als we de naam van een speler willen opslaan?"
 
 msgid "This is where strings help us."
 msgstr "Dit is waar strings ons helpen."
 
 msgid ""
-"Strings are instrumental in games and applications. We use them to "
-"display information such as the description of a spell or the name of a "
-"character."
+"Strings are instrumental in games and applications. We use them to display "
+"information such as the description of a spell or the name of a character."
 msgstr ""
 "Strings zijn belangrijk in spellen en applicaties. We gebruiken ze om "
-"informatie te tonen, zoals de beschrijving van een spreuk of de naam van "
-"een personage."
+"informatie te tonen, zoals de beschrijving van een spreuk of de naam van een "
+"personage."
 
 #: course/lesson-21-strings/lesson.tres:36
 msgid "What are strings"
@@ -47,13 +46,12 @@ msgstr "Wat zijn strings"
 #: course/lesson-21-strings/lesson.tres:38
 msgid ""
 "A [code]String[/code] is a value type which holds text. To create a "
-"[code]String[/code], you write text wrapped in quotation marks "
-"([code]\"\"[/code]). For example: [code]\"This is a text string.\"[/code]"
+"[code]String[/code], you write text wrapped in quotation marks ([code]\"\"[/"
+"code]). For example: [code]\"This is a text string.\"[/code]"
 msgstr ""
 "Een [code]String[/code] is een waardentype dat tekst bevat. Om een "
 "[code]String[/code] te maken, schrijf je tekst tussen aanhalingstekens "
-"([code]\"\"[/code]). Bijvoorbeeld: [code]\"Dit is een stukje "
-"tekst.\"[/code]"
+"([code]\"\"[/code]). Bijvoorbeeld: [code]\"Dit is een stukje tekst.\"[/code]"
 
 msgid ""
 "The quotation marks differentiate strings from other value types and "
@@ -64,19 +62,18 @@ msgstr ""
 
 msgid "You may remember we've used strings before in previous lessons."
 msgstr ""
-"Je herinnert je misschien dat we strings eerder hebben gebruikt in "
-"eerdere lessen."
+"Je herinnert je misschien dat we strings eerder hebben gebruikt in eerdere "
+"lessen."
 
 #: course/lesson-21-strings/lesson.tres:62
 msgid ""
 "Under the hood, strings are arrays of characters. In fact, we can use a "
-"[code]for[/code] loop to loop through the characters of a "
-"[code]String[/code] as we would with any other array."
+"[code]for[/code] loop to loop through the characters of a [code]String[/"
+"code] as we would with any other array."
 msgstr ""
 "Onder de motorkap zijn strings arrays van tekens. We kunnen zelfs een "
-"[code]for[/code]-lus gebruiken om door de tekens van een "
-"[code]String[/code] te stappen, zoals we dat met elke andere array zouden"
-" doen."
+"[code]for[/code]-lus gebruiken om door de tekens van een [code]String[/code] "
+"te stappen, zoals we dat met elke andere array zouden doen."
 
 #: course/lesson-21-strings/lesson.tres:80
 msgid "Which of these are strings?"
@@ -87,8 +84,8 @@ msgid "[code]\"1\"[/code] and [code]\"name\"[/code] are strings."
 msgstr "[code]\"1\"[/code] en [code]\"name\"[/code] zijn strings."
 
 msgid ""
-"[code]\"1\"[/code] only contains a character and [i]doesn't[/i] represent"
-" the number [code]1[/code]."
+"[code]\"1\"[/code] only contains a character and [i]doesn't[/i] represent "
+"the number [code]1[/code]."
 msgstr ""
 "[code]\"1\"[/code] bevat alleen een teken en [i]staat niet[/i] voor het "
 "getal [code]1[/code]."
@@ -101,12 +98,10 @@ msgid "1"
 msgstr "1"
 
 #: course/lesson-21-strings/lesson.tres:88
-#: course/lesson-21-strings/lesson.tres:89
 msgid "\"1\""
 msgstr "\"1\""
 
 #: course/lesson-21-strings/lesson.tres:88
-#: course/lesson-21-strings/lesson.tres:89
 msgid "\"name\""
 msgstr "\"name\""
 
@@ -116,34 +111,34 @@ msgstr "Waarom we strings gebruiken"
 
 #: course/lesson-21-strings/lesson.tres:118
 msgid ""
-"Every piece of text you see in this app is a string that Godot is "
-"displaying for us."
+"Every piece of text you see in this app is a string that Godot is displaying "
+"for us."
 msgstr ""
-"Elk stukje tekst dat je in deze app ziet, is een string die Godot voor "
-"ons weergeeft."
+"Elk stukje tekst dat je in deze app ziet, is een string die Godot voor ons "
+"weergeeft."
 
 msgid ""
 "Much like how [code]Vector2[/code] variables make calculations easier, "
-"[code]string[/code] variables come with many helper functions and tricks "
-"we can use."
+"[code]string[/code] variables come with many helper functions and tricks we "
+"can use."
 msgstr ""
-"Net zoals [code]Vector2[/code]-variabelen berekeningen gemakkelijker "
-"maken, hebben [code]string[/code]-variabelen veel hulpfuncties en trucjes"
-" die we kunnen gebruiken."
+"Net zoals [code]Vector2[/code]-variabelen berekeningen gemakkelijker maken, "
+"hebben [code]string[/code]-variabelen veel hulpfuncties en trucjes die we "
+"kunnen gebruiken."
 
 msgid ""
 "We can use arrays to store strings too. This is useful for chaining "
 "animations. In this example, the [code]play_animation()[/code] plays a "
 "specific animation."
 msgstr ""
-"We kunnen ook arrays gebruiken om strings op te slaan. Dit is handig voor"
-" het aaneenschakelen van animaties. In dit voorbeeld speelt de "
+"We kunnen ook arrays gebruiken om strings op te slaan. Dit is handig voor "
+"het aaneenschakelen van animaties. In dit voorbeeld speelt de "
 "[code]play_animation()[/code] een specifieke animatie."
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
-"In the next few practices, we'll use strings in combination with "
-"different concepts from earlier lessons."
+"In the next few practices, we'll use strings in combination with different "
+"concepts from earlier lessons."
 msgstr ""
 "In de volgende oefeningen zullen we strings gebruiken in combinatie met "
 "verschillende concepten uit eerdere lessen."
@@ -161,29 +156,29 @@ msgstr ""
 "[code]robot_name[/code]."
 
 msgid ""
-"Change the [code]robot_name[/code] variable so that it's a string "
-"instead. You can give it any name you'd like."
+"Change the [code]robot_name[/code] variable so that it's a string instead. "
+"You can give it any name you'd like."
 msgstr ""
 "Verander de variabele [code]robot_name[/code] in een string. Je kunt het "
 "elke naam geven die je wilt."
 
-#: course/lesson-21-strings/lesson.tres:163
+#: course/lesson-21-strings/lesson.tres:165
 msgid "Give the robot a readable name using a string stored in a variable."
 msgstr ""
-"Geef de robot een leesbare naam met behulp van een string die is "
-"opgeslagen in een variabele."
+"Geef de robot een leesbare naam met behulp van een string die is opgeslagen "
+"in een variabele."
 
-#: course/lesson-21-strings/lesson.tres:168
+#: course/lesson-21-strings/lesson.tres:170
 msgid "Using an array of strings to play a combo"
 msgstr "Een array van strings gebruiken om een combinatie af te spelen"
 
-#: course/lesson-21-strings/lesson.tres:169
+#: course/lesson-21-strings/lesson.tres:171
 msgid ""
-"In this practice, we'll chain together animations using an array of "
-"strings. You might find such combinations in fighting games."
+"In this practice, we'll chain together animations using an array of strings. "
+"You might find such combinations in fighting games."
 msgstr ""
-"In deze oefening rijgen we animaties aan elkaar met behulp van een array "
-"van strings. Zulke combinaties vind je misschien in vechtspellen."
+"In deze oefening rijgen we animaties aan elkaar met behulp van een array van "
+"strings. Zulke combinaties vind je misschien in vechtspellen."
 
 msgid "The robot has the following animation names:"
 msgstr "De robot heeft de volgende animatienamen:"
@@ -199,11 +194,11 @@ msgid "Populate the combo array with animation names as strings."
 msgstr "Vul de combinatie-array met animatienamen als strings."
 
 msgid ""
-"Then, for each action in the array, call the "
-"[code]play_animation()[/code] function to play them."
+"Then, for each action in the array, call the [code]play_animation()[/code] "
+"function to play them."
 msgstr ""
-"Roep dan voor elke actie in de array de functie "
-"[code]play_animation()[/code] aan om ze af te spelen."
+"Roep dan voor elke actie in de array de functie [code]play_animation()[/"
+"code] aan om ze af te spelen."
 
 msgid ""
 "The array should contain three values, so the robot makes these three "
@@ -212,11 +207,10 @@ msgstr ""
 "De array moet drie waarden bevatten, zodat de robot deze drie aanvallen "
 "uitvoert: twee snelle stoten gevolgd door een springstoot."
 
-#: course/lesson-21-strings/lesson.tres:190
+#: course/lesson-21-strings/lesson.tres:193
 msgid "Define an array of strings to unleash a powerful combo."
 msgstr "Definieer een array van strings om een krachtige combo te ontketenen."
 
-#: course/lesson-21-strings/lesson.tres:194
+#: course/lesson-21-strings/lesson.tres:197
 msgid "Strings"
 msgstr "Strings"
-

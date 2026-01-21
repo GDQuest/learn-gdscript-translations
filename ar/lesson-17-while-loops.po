@@ -8,41 +8,41 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-12-09 20:05+0100\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2025-06-29 09:01+0000\n"
 "Last-Translator: معاذ الجعيدي <kingmoazking@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-17-while-loops/ar/>\n"
 "Language: ar\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/learn-"
-"gdscript-from-zero/lesson-17-while-loops/ar/>\n"
-"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
-"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-17-while-loops/lesson.tres:14
 msgid ""
-"You've seen that you can use functions to [i]reuse[/i] code. In this "
-"lesson, you'll learn about [b]loops[/b]. Loops help you [i]repeat[/i] "
-"code."
-msgstr ""
-
-msgid "To illustrate how loops work, let's take a game board split into a grid."
+"You've seen that you can use functions to [i]reuse[/i] code. In this lesson, "
+"you'll learn about [b]loops[/b]. Loops help you [i]repeat[/i] code."
 msgstr ""
 
 msgid ""
-"Our robot can move to neighboring cells by changing a "
-"[code]Vector2[/code] variable named [code]cell[/code]. It represents the "
-"current cell the robot is in."
+"To illustrate how loops work, let's take a game board split into a grid."
+msgstr ""
+
+msgid ""
+"Our robot can move to neighboring cells by changing a [code]Vector2[/code] "
+"variable named [code]cell[/code]. It represents the current cell the robot "
+"is in."
 msgstr ""
 
 msgid "When we increase [code]cell.x[/code], the robot moves to the right."
 msgstr ""
 
 msgid ""
-"Note that we delay the robot's movement in the app to help you visualize "
-"how it moves. The following code would normally move the robot instantly."
+"Note that we delay the robot's movement in the app to help you visualize how "
+"it moves. The following code would normally move the robot instantly."
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.tres:42
@@ -51,9 +51,9 @@ msgstr ""
 
 #: course/lesson-17-while-loops/lesson.tres:62
 msgid ""
-"The above code works for a pre-defined board with a size of "
-"[code]Vector2(3, 3)[/code], but the [code]move_to_end()[/code] function "
-"wouldn't work if the size of the board was different."
+"The above code works for a pre-defined board with a size of [code]Vector2(3, "
+"3)[/code], but the [code]move_to_end()[/code] function wouldn't work if the "
+"size of the board was different."
 msgstr ""
 
 msgid "The robot would either stop before the end or go too far."
@@ -73,9 +73,8 @@ msgstr ""
 
 #: course/lesson-17-while-loops/lesson.tres:78
 msgid ""
-"You can use a [code]while[/code] loop to make the computer repeat a block"
-" of code until you meet a specific condition or decide to break from the "
-"loop."
+"You can use a [code]while[/code] loop to make the computer repeat a block of "
+"code until you meet a specific condition or decide to break from the loop."
 msgstr ""
 
 msgid "Here's how we use a [code]while[/code] loop."
@@ -83,22 +82,23 @@ msgstr ""
 
 #: course/lesson-17-while-loops/lesson.tres:100
 msgid ""
-"We use the variable [code]number[/code] to keep track of how many loops "
-"the [code]while[/code] loop completes."
+"We use the variable [code]number[/code] to keep track of how many loops the "
+"[code]while[/code] loop completes."
 msgstr ""
 
 msgid ""
-"Each time we go through the [code]while[/code] loop, we add "
-"[code]1[/code] to [code]number[/code]."
+"Each time we go through the [code]while[/code] loop, we add [code]1[/code] "
+"to [code]number[/code]."
 msgstr ""
 
 msgid ""
-"The [code]while[/code] loop keeps running for as long as the condition is"
-" true. In this case, it keeps running while [code]number[/code] is less "
-"than [code]4[/code]."
+"The [code]while[/code] loop keeps running for as long as the condition is "
+"true. In this case, it keeps running while [code]number[/code] is less than "
+"[code]4[/code]."
 msgstr ""
 
-msgid "You can see that the following code is executed four times in the console."
+msgid ""
+"You can see that the following code is executed four times in the console."
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.tres:126
@@ -111,14 +111,14 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Note that we move the robot until its position is one less than the "
-"board's width because we are counting tiles from [code]0[/code]."
+"Note that we move the robot until its position is one less than the board's "
+"width because we are counting tiles from [code]0[/code]."
 msgstr ""
 
 msgid ""
 "A board of [code]3[/code] by [code]3[/code] cells would have cell "
-"coordinates going from [code]0[/code] to [code]2[/code] on both the X and"
-" Y axes."
+"coordinates going from [code]0[/code] to [code]2[/code] on both the X and Y "
+"axes."
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.tres:160
@@ -127,8 +127,8 @@ msgstr ""
 
 #: course/lesson-17-while-loops/lesson.tres:162
 msgid ""
-"If you're not careful, your [code]while[/code] loop can run infinitely. "
-"In that case, the application will freeze."
+"If you're not careful, your [code]while[/code] loop can run infinitely. In "
+"that case, the application will freeze."
 msgstr ""
 
 msgid "Take a look at this code example."
@@ -140,18 +140,18 @@ msgstr ""
 
 #: course/lesson-17-while-loops/lesson.tres:185
 msgid ""
-"Because we don't increment [code]number[/code] within the "
-"[code]while[/code] loop, it always stays at [code]0[/code]."
+"Because we don't increment [code]number[/code] within the [code]while[/code] "
+"loop, it always stays at [code]0[/code]."
 msgstr ""
 
 msgid ""
-"As a result, the number is always lower than [code]10[/code], so we never"
-" break out of the loop."
+"As a result, the number is always lower than [code]10[/code], so we never "
+"break out of the loop."
 msgstr ""
 
 msgid ""
-"Since there's no way to exit the [code]while[/code] loop, the computer "
-"will attempt to draw squares infinitely, which will freeze the program."
+"Since there's no way to exit the [code]while[/code] loop, the computer will "
+"attempt to draw squares infinitely, which will freeze the program."
 msgstr ""
 
 msgid ""
@@ -160,7 +160,6 @@ msgid ""
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.tres:192
-#: course/lesson-17-while-loops/lesson.tres:193
 msgid "It would draw squares infinitely until the program is terminated"
 msgstr ""
 
@@ -178,28 +177,28 @@ msgstr ""
 
 #: course/lesson-17-while-loops/lesson.tres:202
 msgid ""
-"At first, you will not need [code]while[/code] loops often. Even the code"
-" we show here has more efficient alternatives."
+"At first, you will not need [code]while[/code] loops often. Even the code we "
+"show here has more efficient alternatives."
 msgstr ""
 
 msgid ""
-"Also, there's a safer kind of loop, [code]for[/code] loops, which we'll "
-"look at in the next lesson."
+"Also, there's a safer kind of loop, [code]for[/code] loops, which we'll look "
+"at in the next lesson."
 msgstr ""
 
 msgid ""
-"Yet, [code]while[/code] loops have important intermediate to advanced-"
-"level uses, so you at least need to know they exist and how to use them."
+"Yet, [code]while[/code] loops have important intermediate to advanced-level "
+"uses, so you at least need to know they exist and how to use them."
 msgstr ""
 
 msgid ""
-"We use [code]while[/code] loops every time we need to loop an unknown "
-"number of times."
+"We use [code]while[/code] loops every time we need to loop an unknown number "
+"of times."
 msgstr ""
 
 msgid ""
-"For example, games run in a loop that typically generates sixty images "
-"per second until the user closes the game. This is possible thanks to "
+"For example, games run in a loop that typically generates sixty images per "
+"second until the user closes the game. This is possible thanks to "
 "[code]while[/code] loops."
 msgstr ""
 
@@ -208,8 +207,8 @@ msgstr ""
 
 msgid ""
 "- Reading and processing a file, like a text document, line by line.\n"
-"- Processing a constant stream of data, like someone recording audio with"
-" a microphone.\n"
+"- Processing a constant stream of data, like someone recording audio with a "
+"microphone.\n"
 "- Reading code and converting it into instructions the computer "
 "understands.\n"
 "- Various intermediate to advanced-level algorithms, like finding paths "
@@ -236,16 +235,16 @@ msgid "Our robot has decided to stand at the top of the board."
 msgstr ""
 
 msgid ""
-"Complete the [code]move_to_bottom()[/code] function so the robot moves to"
-" the bottom of the board."
+"Complete the [code]move_to_bottom()[/code] function so the robot moves to "
+"the bottom of the board."
 msgstr ""
 
 msgid ""
-"The board size is determined by the [code]Vector2[/code] "
+"The board size is determined by the [code]Vector2[/code] variable named "
 "[code]board_size[/code]."
 msgstr ""
 
-msgid "The robot's current cell is [code]Vector2(2, 0)[/code]."
+msgid "The robot's starting cell is [code]Vector2(2, 0)[/code]."
 msgstr ""
 
 msgid ""
@@ -253,13 +252,12 @@ msgid ""
 "board size."
 msgstr ""
 
-#: course/lesson-17-while-loops/lesson.tres:256
+#: course/lesson-17-while-loops/lesson.tres:257
 msgid ""
 "Use a while loop to have our robot move from the top of the board to the "
 "bottom."
 msgstr ""
 
-#: course/lesson-17-while-loops/lesson.tres:260
+#: course/lesson-17-while-loops/lesson.tres:261
 msgid "Introduction to While Loops"
 msgstr ""
-

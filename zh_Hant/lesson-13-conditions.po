@@ -8,24 +8,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-05-16 09:25+0200\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2025-04-04 01:42+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/lesson-13-conditions/zh_Hant/>\n"
 "Language: zh_Hant\n"
-"Language-Team: Chinese (Traditional Han script) "
-"<https://hosted.weblate.org/projects/learn-gdscript-from-"
-"zero/lesson-13-conditions/zh_Hant/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-13-conditions/lesson.tres:14
 msgid ""
-"In previous lessons, we decreased and increased a character's health, but"
-" there was no limit to how much health they could have."
-msgstr "在之前的課程中，我們有減少和增加角色的生命值，但並沒有設定生命值的上限。"
+"In previous lessons, we decreased and increased a character's health, but "
+"there was no limit to how much health they could have."
+msgstr ""
+"在之前的課程中，我們有減少和增加角色的生命值，但並沒有設定生命值的上限。"
 
 #: course/lesson-13-conditions/lesson.tres:34
 msgid ""
@@ -42,14 +42,16 @@ msgid "Suppose our character has [code]100[/code] health."
 msgstr "假設我們的角色有 [code]100[/code] 生命值。"
 
 msgid ""
-"What would the value of health be if we called "
-"[code]take_damage(25)[/code] [b]five times[/b]?"
-msgstr "如果我們呼叫 [code]take_damage(25)[/code] [b]五次[/b]，那麼生命值的值會是多少？"
+"What would the value of health be if we called [code]take_damage(25)[/code] "
+"[b]five times[/b]?"
+msgstr ""
+"如果我們呼叫 [code]take_damage(25)[/code] [b]五次[/b]，那麼生命值的值會是多"
+"少？"
 
 #: course/lesson-13-conditions/lesson.tres:57
 msgid ""
-"Calling [code]take_damage(25)[/code] five times would subtract a total of"
-" [code]125[/code] from [code]100[/code]."
+"Calling [code]take_damage(25)[/code] five times would subtract a total of "
+"[code]125[/code] from [code]100[/code]."
 msgstr ""
 "呼叫 [code]take_damage(25)[/code] 五次會從 [code]100[/code] 中扣除總共 "
 "[code]125[/code]。"
@@ -70,7 +72,6 @@ msgstr ""
 "-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
-#: course/lesson-13-conditions/lesson.tres:66
 msgid "-25"
 msgstr "-25"
 
@@ -87,60 +88,67 @@ msgid "We can use conditions to run actions [b]selectively[/b]."
 msgstr "我們可以使用條件來 [b]選擇性地[/b] 執行動作。"
 
 msgid ""
-"Conditions make your code branch into two paths: if the condition is met,"
-" the computer will run the corresponding instructions. Otherwise, those "
+"Conditions make your code branch into two paths: if the condition is met, "
+"the computer will run the corresponding instructions. Otherwise, those "
 "instructions will not run at all."
-msgstr "條件使你的程式碼分成兩條路徑：如果條件成立，電腦將執行對應的指令。否則，這些指令將完全不執行。"
+msgstr ""
+"條件使你的程式碼分成兩條路徑：如果條件成立，電腦將執行對應的指令。否則，這些"
+"指令將完全不執行。"
 
 #: course/lesson-13-conditions/lesson.tres:87
 msgid ""
-"Video games and other computer programs are full of conditions. For "
-"example, game input largely relies on conditions: [i]if[/i] the player "
-"presses the button on a gamepad, the character jumps."
-msgstr "電玩遊戲和其他電腦程式中充滿了條件。例如，遊戲輸入大多依賴於條件：[b]如果[/b]玩家按下遊戲手把的按鈕，角色就會跳躍。"
+"Video games and other computer programs are full of conditions. For example, "
+"game input largely relies on conditions: [i]if[/i] the player presses the "
+"button on a gamepad, the character jumps."
+msgstr ""
+"電玩遊戲和其他電腦程式中充滿了條件。例如，遊戲輸入大多依賴於條件：[b]如果[/b]"
+"玩家按下遊戲手把的按鈕，角色就會跳躍。"
 
 #: course/lesson-13-conditions/lesson.tres:107
 msgid ""
-"When the computer checks a condition, this is called [b]to evaluate[/b] a"
-" condition. All conditions [b]evaluate[/b] to either [code]true[/code] or"
-" [code]false[/code]."
+"When the computer checks a condition, this is called [b]to evaluate[/b] a "
+"condition. All conditions [b]evaluate[/b] to either [code]true[/code] or "
+"[code]false[/code]."
 msgstr ""
-"當電腦檢查條件時，這稱為 [b]評估[/b] 條件。所有條件都會[b]評估[/b]為 [code]true[/code] 或 "
-"[code]false[/code]。"
+"當電腦檢查條件時，這稱為 [b]評估[/b] 條件。所有條件都會[b]評估[/b]為 "
+"[code]true[/code] 或 [code]false[/code]。"
 
 msgid ""
-"Either the player is pressing the button, or not. Either the character is"
-" touching an enemy, or not."
+"Either the player is pressing the button, or not. Either the character is "
+"touching an enemy, or not."
 msgstr "要麼玩家正在按下按鈕，要麼沒有。要麼角色碰到敵人，要麼沒有。"
 
 msgid ""
 "In our case, [i]if[/i] the health goes over a maximum value, we want to "
 "reset it to the maximum."
-msgstr "在我們的情況中，[b]如果[/b]生命值超過最大值，我們希望將其重置為最大值。"
+msgstr ""
+"在我們的情況中，[b]如果[/b]生命值超過最大值，我們希望將其重置為最大值。"
 
 msgid ""
-"To define a condition, we use the [code]if[/code] keyword. We write a "
-"line starting with [code]if[/code], [ignore]type the condition to "
-"evaluate, and end the line with a colon."
-msgstr "要定義條件，我們使用 [code]if[/code] 關鍵字。我們寫一行以 [code]if[/code] 開頭，輸入要評估的條件，並以冒號結尾。"
+"To define a condition, we use the [code]if[/code] keyword. We write a line "
+"starting with [code]if[/code], [ignore]type the condition to evaluate, and "
+"end the line with a colon."
+msgstr ""
+"要定義條件，我們使用 [code]if[/code] 關鍵字。我們寫一行以 [code]if[/code] 開"
+"頭，輸入要評估的條件，並以冒號結尾。"
 
 #: course/lesson-13-conditions/lesson.tres:133
 msgid ""
-"Notice the [code]>[/code] comparison sign. We read this symbol as "
-"\"greater than\"."
+"Notice the [code]>[/code] comparison sign. We read this symbol as \"greater "
+"than\"."
 msgstr "注意到 [code]>[/code] 這個比較符號，我們將此符號讀作「大於」。"
 
 msgid ""
-"We've seen how function definitions use a colon at the end of the first "
-"line and nest content inside."
+"We've seen how function definitions use a colon at the end of the first line "
+"and nest content inside."
 msgstr "我們已經看到函式定義在第一行結尾處使用冒號，並將內容縮排在內部。"
 
 msgid "In GDScript, this syntax is a recurring pattern for all code blocks."
 msgstr "在 GDScript 中，這種語法是所有程式區塊的重複模式。"
 
 msgid ""
-"The computer knows which instructions belong to the condition because "
-"they are indented."
+"The computer knows which instructions belong to the condition because they "
+"are indented."
 msgstr "電腦知道哪些指令屬於條件，因為它們是縮排的。"
 
 #: course/lesson-13-conditions/lesson.tres:157
@@ -149,8 +157,8 @@ msgstr "比較"
 
 #: course/lesson-13-conditions/lesson.tres:159
 msgid ""
-"In the above example, we used the [code]>[/code] syntax to mean \"greater"
-" than\"."
+"In the above example, we used the [code]>[/code] syntax to mean \"greater "
+"than\"."
 msgstr "在上面的範例中，我們使用了 [code]>[/code] 語法來表示「大於」。"
 
 msgid "We can compare numbers in other ways too."
@@ -176,26 +184,27 @@ msgstr "在這段程式碼中，「pass」有什麼作用？"
 
 #: course/lesson-13-conditions/lesson.tres:189
 msgid ""
-"The [code]pass[/code] keyword prevents errors in our code when a line "
-"cannot be empty."
+"The [code]pass[/code] keyword prevents errors in our code when a line cannot "
+"be empty."
 msgstr "[code]pass[/code] 關鍵字可以防止當某一行無法留空時產生錯誤。"
 
 msgid ""
-"For example, we must have a line of code after a function definition or "
-"an [code]if[/code] block. When you don't know what to write yet, you can "
-"use the [code]pass[/code] keyword as a placeholder, and Godot won't give "
-"any errors."
+"For example, we must have a line of code after a function definition or an "
+"[code]if[/code] block. When you don't know what to write yet, you can use "
+"the [code]pass[/code] keyword as a placeholder, and Godot won't give any "
+"errors."
 msgstr ""
-"例如，我們必須在函式定義或 [code]if[/code] 區塊之後寫一行程式碼。當你還不知道要寫什麼時，可以使用 "
-"[code]pass[/code] 關鍵字作為佔位符，這樣 Godot 就不會給出錯誤。"
+"例如，我們必須在函式定義或 [code]if[/code] 區塊之後寫一行程式碼。當你還不知道"
+"要寫什麼時，可以使用 [code]pass[/code] 關鍵字作為佔位符，這樣 Godot 就不會給"
+"出錯誤。"
 
 msgid ""
 "In the previous example, if there was nothing below the [code]if[/code] "
 "lines, Godot would give us an \"Expected an indented block after 'if' \" "
 "error."
 msgstr ""
-"在前面的範例中，如果 [code]if[/code] 區塊下方沒有任何內容，Godot 會顯示「Expected an indented "
-"block after 'if'」錯誤訊息。"
+"在前面的範例中，如果 [code]if[/code] 區塊下方沒有任何內容，Godot 會顯示"
+"「Expected an indented block after 'if'」錯誤訊息。"
 
 #: course/lesson-13-conditions/lesson.tres:201
 msgid "Which of these statements are true?"
@@ -203,28 +212,27 @@ msgstr "這些敘述中哪些是正確的？"
 
 #: course/lesson-13-conditions/lesson.tres:204
 msgid ""
-"The comparison [code]3 > 1[/code] means \"three is greater than one\" "
-"which is [b]true[/b].\n"
-"The comparison [code]2 < 3[/code] means \"two is less than three\" which "
+"The comparison [code]3 > 1[/code] means \"three is greater than one\" which "
 "is [b]true[/b].\n"
-"The comparison [code]1 != 3[/code] means \"one is not equal to three\" "
-"which is [b]true[/b]."
+"The comparison [code]2 < 3[/code] means \"two is less than three\" which is "
+"[b]true[/b].\n"
+"The comparison [code]1 != 3[/code] means \"one is not equal to three\" which "
+"is [b]true[/b]."
 msgstr ""
 "比較 [code]3 > 1[/code] 表示「三大於一」，這是 [b]正確的[/b]。\n"
 "比較 [code]2 < 3[/code] 表示「二小於三」，這是 [b]正確的[/b]。\n"
 "比較 [code]1 != 3[/code] 表示「一不等於三」，這是 [b]正確的[/b]。"
 
 msgid ""
-"The comparison [code]2 == 1[/code] means \"two is equal to one\" which is"
-" [b]false[/b].\n"
-"The comparison [code]3 < 1[/code] means \"three is less than one\" which "
-"is [b]false[/b]."
+"The comparison [code]2 == 1[/code] means \"two is equal to one\" which is "
+"[b]false[/b].\n"
+"The comparison [code]3 < 1[/code] means \"three is less than one\" which is "
+"[b]false[/b]."
 msgstr ""
 "比較 [code]2 == 1[/code] 表示「二等於一」，這是 [b]錯誤的[/b]。\n"
 "比較 [code]3 < 1[/code] 表示「三小於一」，這是 [b]錯誤的[/b]。"
 
 #: course/lesson-13-conditions/lesson.tres:210
-#: course/lesson-13-conditions/lesson.tres:211
 msgid "3 > 1"
 msgstr "3 > 1"
 
@@ -233,12 +241,10 @@ msgid "2 == 1"
 msgstr "2 == 1"
 
 #: course/lesson-13-conditions/lesson.tres:210
-#: course/lesson-13-conditions/lesson.tres:211
 msgid "2 < 3"
 msgstr "2 < 3"
 
 #: course/lesson-13-conditions/lesson.tres:210
-#: course/lesson-13-conditions/lesson.tres:211
 msgid "1 != 3"
 msgstr "1 != 3"
 
@@ -259,19 +265,21 @@ msgstr "[code]if[/code] 關鍵字有一個對應的 [code]else[/code] 關鍵字�
 msgid ""
 "You can write an [code]else[/code] block after an [code]if[/code] block, "
 "like so."
-msgstr "你可以在 [code]if[/code] 區塊後面寫一個 [code]else[/code] 區塊，如下所示。"
+msgstr ""
+"你可以在 [code]if[/code] 區塊後面寫一個 [code]else[/code] 區塊，如下所示。"
 
 #: course/lesson-13-conditions/lesson.tres:242
 msgid ""
-"The [code]else[/code] block will run whenever the condition above it "
-"isn't met."
+"The [code]else[/code] block will run whenever the condition above it isn't "
+"met."
 msgstr "[code]else[/code] 區塊會在上面的條件不成立時執行。"
 
 #: course/lesson-13-conditions/lesson.tres:252
 msgid ""
 "In the following practices, we'll use conditions and improve the way our "
 "character's health changes so it has limits."
-msgstr "在接下來的練習中，我們將使用條件來改進角色的生命值變化，使其生命值有限制。"
+msgstr ""
+"在接下來的練習中，我們將使用條件來改進角色的生命值變化，使其生命值有限制。"
 
 #: course/lesson-13-conditions/lesson.tres:260
 msgid "Using Comparisons"
@@ -281,11 +289,12 @@ msgstr "使用比較語句"
 msgid ""
 "This series of [code]if[/code] statements is all wrong. Change the "
 "comparisons so each comparison matches the instruction below it."
-msgstr "這一系列的 [code]if[/code] 判斷式是錯誤的。請更改比較運算符，使每個比較運算符符合下面的指令。"
+msgstr ""
+"這一系列的 [code]if[/code] 判斷式是錯誤的。請更改比較運算符，使每個比較運算符"
+"符合下面的指令。"
 
 msgid ""
-"Keep the values and statements as they are; only change the comparison "
-"signs."
+"Keep the values and statements as they are; only change the comparison signs."
 msgstr "保留數值和陳述，僅更改比較運算符。"
 
 msgid ""
@@ -306,26 +315,28 @@ msgstr ""
 "[/code]"
 
 msgid "The line [code]health < 5:[/code] means \"health is less than 5\"."
-msgstr "以下是這段程式碼的說明：[code]health < 5:[/code] 意思是「生命值小於 5」。"
-
-msgid ""
-"Because [code]health = 100[/code], this is false so [code]print(\"health "
-"is greater than five.\")[/code] won't run."
 msgstr ""
-"因為 [code]health = 100[/code]，這會是 false，所以 [code]print(\"health is greater"
-" than five.\")[/code] 這行程式碼不會執行。"
+"以下是這段程式碼的說明：[code]health < 5:[/code] 意思是「生命值小於 5」。"
 
-#: course/lesson-13-conditions/lesson.tres:297
 msgid ""
-"Comparing values allows us to make decisions in code. But there's "
-"something wrong with these statements.."
-msgstr "這些比較運算式使我們能夠在程式碼中做出決策。不過，這些語句有些地方是錯誤的。"
+"Because [code]health = 100[/code], this is false so [code]print(\"health is "
+"greater than five.\")[/code] won't run."
+msgstr ""
+"因為 [code]health = 100[/code]，這會是 false，所以 [code]print(\"health is "
+"greater than five.\")[/code] 這行程式碼不會執行。"
 
-#: course/lesson-13-conditions/lesson.tres:302
+#: course/lesson-13-conditions/lesson.tres:298
+msgid ""
+"Comparing values allows us to make decisions in code. But there's something "
+"wrong with these statements.."
+msgstr ""
+"這些比較運算式使我們能夠在程式碼中做出決策。不過，這些語句有些地方是錯誤的。"
+
+#: course/lesson-13-conditions/lesson.tres:303
 msgid "Limiting Healing"
 msgstr "限制回復量"
 
-#: course/lesson-13-conditions/lesson.tres:303
+#: course/lesson-13-conditions/lesson.tres:304
 msgid "We have a heal function that adds an amount to the character's health."
 msgstr "我們有一個治療函式，它會將數值加到角色的生命值上。"
 
@@ -334,45 +345,46 @@ msgid ""
 "[code]80[/code]."
 msgstr "請修改這個函式，讓角色的生命值永遠不會超過 [code]80[/code]。"
 
-#: course/lesson-13-conditions/lesson.tres:315
+#: course/lesson-13-conditions/lesson.tres:317
 msgid ""
-"As much as we might like, we don't want our robot to have too much "
-"health. Limit how much healing the robot can take."
-msgstr "儘管我們希望角色的生命值越多越好，但我們不希望機器人擁有過多的生命值。限制機器人可以接受的治療量。"
+"As much as we might like, we don't want our robot to have too much health. "
+"Limit how much healing the robot can take."
+msgstr ""
+"儘管我們希望角色的生命值越多越好，但我們不希望機器人擁有過多的生命值。限制機"
+"器人可以接受的治療量。"
 
-#: course/lesson-13-conditions/lesson.tres:320
+#: course/lesson-13-conditions/lesson.tres:322
 msgid "Preventing Health from Going Below Zero"
 msgstr "防止生命值低於零"
 
-#: course/lesson-13-conditions/lesson.tres:321
+#: course/lesson-13-conditions/lesson.tres:323
 msgid "When the robot takes damage, its health can be negative."
 msgstr "當機器人受到傷害時，它的生命值可能會變成負數。"
 
 msgid ""
-"We might want to display the health number on screen, like in Japanese "
-"RPGs."
+"We might want to display the health number on screen, like in Japanese RPGs."
 msgstr "我們可能希望在畫面上顯示生命值數字，就像 JRPG 一樣。"
 
 msgid "We don't want negative numbers. We want to stop at zero instead."
 msgstr "我們不希望生命值變成負數。我們希望生命值停在零就好。"
 
 msgid ""
-"Calling the function should reduce [code]health[/code] by "
-"[code]amount[/code]."
+"Calling the function should reduce [code]health[/code] by [code]amount[/"
+"code]."
 msgstr "呼叫這個函式應該會讓 [code]health[/code] 減少 [code]amount[/code]。"
 
 msgid ""
-"If [code]health[/code] goes below [code]0[/code], set it to "
-"[code]0[/code] again."
-msgstr "如果 [code]health[/code] 低於 [code]0[/code]，就將它重設為 [code]0[/code]。"
+"If [code]health[/code] goes below [code]0[/code], set it to [code]0[/code] "
+"again."
+msgstr ""
+"如果 [code]health[/code] 低於 [code]0[/code]，就將它重設為 [code]0[/code]。"
 
-#: course/lesson-13-conditions/lesson.tres:339
+#: course/lesson-13-conditions/lesson.tres:342
 msgid ""
-"Having a negative health value doesn't make a lot of sense. Make sure the"
-" robot's health can't go below zero."
+"Having a negative health value doesn't make a lot of sense. Make sure the "
+"robot's health can't go below zero."
 msgstr "當生命值變成負數時並不合理。請確保機器人的生命值不會低於零。"
 
-#: course/lesson-13-conditions/lesson.tres:343
+#: course/lesson-13-conditions/lesson.tres:346
 msgid "Conditions"
 msgstr "條件語句"
-

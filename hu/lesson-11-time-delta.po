@@ -8,31 +8,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-12-09 20:05+0100\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2022-06-21 23:43+0000\n"
 "Last-Translator: sztrovacsek <sztrovacsek@protonmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-11-time-delta/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/learn-"
-"gdscript-from-zero/lesson-11-time-delta/hu/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
 msgid ""
-"We've seen how we can use our character's [code]_process()[/code] "
-"function to make it move continuously."
+"We've seen how we can use our character's [code]_process()[/code] function "
+"to make it move continuously."
 msgstr ""
 "Már láttuk, hogyan használhatjuk a karakter [code]_process()[/code] "
 "függvényét, hogy folyamatosan mozogjon a karakter."
 
 #: course/lesson-11-time-delta/lesson.tres:34
+#, fuzzy
 msgid ""
-"But it's not just our character that has a [code]_process()[/code] "
-"function; Almost everything in the game has a [code]_process()[/code] "
-"function!"
+"But it's not just our character that has a [code]_process()[/code] function. "
+"Almost everything in the game has a [code]_process()[/code] function!"
 msgstr ""
 "De nem csak a karakterednek van [code]_process()[/code] függvénye; a "
 "játékban szinte mindennek van [code]_process()[/code] függvénye!"
@@ -41,15 +41,15 @@ msgid ""
 "Dozens of times per second, Godot runs every [code]_process()[/code] "
 "function in the game to update the game world."
 msgstr ""
-"Másodpercenként többször is végrehajtja a Godot az összes "
-"[code]_process()[/code] függvényt, hogy a frissítse a játék világát."
+"Másodpercenként többször is végrehajtja a Godot az összes [code]_process()[/"
+"code] függvényt, hogy a frissítse a játék világát."
 
 msgid ""
-"After that, it displays an image of the game world on the screen. We call"
-" that image a [b]frame[/b]."
+"After that, it displays an image of the game world on the screen. We call "
+"that image a [b]frame[/b]."
 msgstr ""
-"Ezután a világnak a képét megjeleníti a képernyőn. Ezt a képet "
-"[b]frame[/b]-nek hívjuk."
+"Ezután a világnak a képét megjeleníti a képernyőn. Ezt a képet [b]frame[/b]-"
+"nek hívjuk."
 
 msgid "Godot then moves on to calculating the next frame."
 msgstr "Ezután a Godot továbblép a következő frame kiszámolására."
@@ -67,14 +67,15 @@ msgstr ""
 
 #: course/lesson-11-time-delta/lesson.tres:52
 msgid ""
-"You may have heard of frames per second, or FPS for short. Games often "
-"run at 60 frames per second."
+"You may have heard of frames per second, or FPS for short. Games often run "
+"at 60 frames per second."
 msgstr ""
 "Talán már hallottad a frame per second, vagy röviden FPS kifejezést. A "
 "játékok általában 60 FPS-sel futnak."
 
 msgid "It means that everything in the game updates 60 times each second."
-msgstr "Ez azt jelenti, hogy a játékban minden hatvanszor frissül másodpercenként."
+msgstr ""
+"Ez azt jelenti, hogy a játékban minden hatvanszor frissül másodpercenként."
 
 msgid ""
 "The number varies while playing, depending on the game and the device it "
@@ -84,8 +85,8 @@ msgstr ""
 "függően, amin fut."
 
 msgid ""
-"On powerful computers, you may get frame rates in the hundreds or "
-"thousands of frames per second."
+"On powerful computers, you may get frame rates in the hundreds or thousands "
+"of frames per second."
 msgstr "Erősebb gépeken akár több száz vagy ezer FPS is lehet."
 
 #: course/lesson-11-time-delta/lesson.tres:68
@@ -110,8 +111,8 @@ msgstr ""
 
 #: course/lesson-11-time-delta/lesson.tres:82
 msgid ""
-"The [code]_process()[/code] function has one parameter named "
-"[code]delta[/code]."
+"The [code]_process()[/code] function has one parameter named [code]delta[/"
+"code]."
 msgstr ""
 "A [code]_process()[/code] függvénynek egyetlen, [code]delta[/code] nevű "
 "paramétere van."
@@ -125,7 +126,6 @@ msgid "0.05"
 msgstr "0.05"
 
 #: course/lesson-11-time-delta/lesson.tres:83
-#: course/lesson-11-time-delta/lesson.tres:84
 msgid "delta"
 msgstr "delta"
 
@@ -134,39 +134,39 @@ msgid "Frames take varying amounts of time to calculate"
 msgstr "A frame-ek különböző ideig számolódnak"
 
 #: course/lesson-11-time-delta/lesson.tres:93
-#, fuzzy
 msgid ""
 "Depending on the game, the computer, and what the game engine needs to "
 "calculate, frames take more or less time to display."
 msgstr ""
 
-msgid "There will always be milliseconds variations from frame to frame."
+msgid "There will always be small variations from frame to frame."
 msgstr ""
 
 msgid ""
-"That is why the [code]_process()[/code] function receives a "
-"[code]delta[/code] parameter."
+"That is why the [code]_process()[/code] function receives a [code]delta[/"
+"code] parameter."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Delta represents a time difference. It's the time it took Godot to complete "
+"the previous frame, in seconds."
+msgstr ""
+"A [code]delta[/code] az a másodpercben megadott idő, ami alatt a Godot "
+"kiszámolta az előző frame-et."
+
+msgid ""
+"We can use it to make sure the game runs at the same speed on all computers."
 msgstr ""
 
 msgid ""
-"Delta represents a time difference. It's the time passed since the "
-"previous frame, in seconds."
+"This is because different computers have different processing power, so a "
+"fast computer will have more frames per second than a slow computer."
 msgstr ""
 
 msgid ""
-"We can use it to ensure that the changes between frames don't make the "
-"game's behavior unreliable."
-msgstr ""
-
-msgid ""
-"This is because different computers run differently, so a fast computer "
-"will have more frames per second than a slow computer."
-msgstr ""
-
-msgid ""
-"If we ignore [code]delta[/code], the game experience will vary, depending"
-" on the computer. Delta helps to make the game experience consistent for "
-"everyone."
+"If we ignore [code]delta[/code], movement speed will vary depending on the "
+"computer. Delta helps to make the game consistent for everyone."
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.tres:113
@@ -176,8 +176,8 @@ msgstr "Mit tudunk a deltáról?"
 #: course/lesson-11-time-delta/lesson.tres:116
 #, fuzzy
 msgid ""
-"[code]delta[/code] is the time it took Godot to complete the previous "
-"frame in seconds."
+"[code]delta[/code] is the time it took Godot to complete the previous frame "
+"in seconds."
 msgstr ""
 "A [code]delta[/code] az a másodpercben megadott idő, ami alatt a Godot "
 "kiszámolta az előző frame-et."
@@ -185,25 +185,22 @@ msgstr ""
 msgid "It's very small because frames happen many times a second."
 msgstr "Nagyon kicsi szám, mert másodpercenként sok frame van."
 
+#, fuzzy
 msgid ""
-"It varies each frame because Godot needs to process more or less each "
-"frame."
+"It varies each frame because Godot has more or less to process each frame."
 msgstr ""
 "Frame-enként változik, mert a Godotnak minden újabb frame-en többet vagy "
 "kevesebbet kell számolnia."
 
 #: course/lesson-11-time-delta/lesson.tres:121
-#: course/lesson-11-time-delta/lesson.tres:122
 msgid "It's a value in seconds."
 msgstr "Ez egy másodpercben megadott érték."
 
 #: course/lesson-11-time-delta/lesson.tres:121
-#: course/lesson-11-time-delta/lesson.tres:122
 msgid "It varies each frame."
 msgstr "Minden frame-en változik."
 
 #: course/lesson-11-time-delta/lesson.tres:121
-#: course/lesson-11-time-delta/lesson.tres:122
 #, fuzzy
 msgid "It's the time it took Godot to complete the previous frame."
 msgstr "Az az idő, ami alatt a Godot kiszámolta az előző frame-et."
@@ -221,19 +218,19 @@ msgstr ""
 "másodpercben megadott időkülönbség. Általában egy apró törtszám."
 
 msgid ""
-"To apply [code]delta[/code], you need to [i]multiply[/i] your speed "
-"values by it."
+"To apply [code]delta[/code], you need to [i]multiply[/i] your speed values "
+"by it."
 msgstr ""
-"A [code]delta[/code] alkalmazásához be kell [i]szoroznod[/i] vele a "
-"sebesség értékeidet."
+"A [code]delta[/code] alkalmazásához be kell [i]szoroznod[/i] vele a sebesség "
+"értékeidet."
 
 #: course/lesson-11-time-delta/lesson.tres:153
 msgid ""
-"When multiplying by [code]delta[/code], you make motion [i]time-"
-"dependent[/i] rather than [i]frame-dependent[/i]."
+"When multiplying by [code]delta[/code], you make motion [i]time-dependent[/"
+"i] rather than [i]frame-dependent[/i]."
 msgstr ""
-"Amikor [code]delta[/code]-val szorzol, akkor a mozgás az [i]időtől[/i] "
-"függ, nem pedig a [i]frame[/i]-től."
+"Amikor [code]delta[/code]-val szorzol, akkor a mozgás az [i]időtől[/i] függ, "
+"nem pedig a [i]frame[/i]-től."
 
 msgid "That's essential to make your game consistent and fair."
 msgstr "Ez elengedhetelen, hogy a játékod következetes és igazságos legyen."
@@ -250,44 +247,47 @@ msgstr ""
 "A lecke elején a robotot minden frame-en egy fix értékkel forgattuk: "
 "[code]0.05[/code] radiánnal."
 
+#, fuzzy
 msgid ""
-"In the example above, we now [i]multiply[/i] the argument by the very "
-"small [code]delta[/code] value, a value way below [code]1.0[/code]. It "
+"In the example above, we now [i]multiply[/i] the argument by the very small "
+"[code]delta[/code] value, a value much smaller than [code]1.0[/code]. It "
 "makes the robot turn at a constant speed over time."
 msgstr ""
 "A fenti példában most [i]beszorozzuk[/i] az argumentumot a nagyon apró "
-"[code]delta[/code] értékkel, ami jóval kisebb, mint [code]1.0[/code]. "
-"Ennek köszönhetően a robot állandó sebességgel fog forogni."
+"[code]delta[/code] értékkel, ami jóval kisebb, mint [code]1.0[/code]. Ennek "
+"köszönhetően a robot állandó sebességgel fog forogni."
 
 msgid ""
-"However, multiplying by a number below [code]1.0[/code] like "
-"[code]delta[/code] makes the result smaller."
+"However, multiplying by a number below [code]1.0[/code] like [code]delta[/"
+"code] makes the result smaller."
 msgstr ""
-"Azonban, egy [code]1.0[/code]-nél kisebb számmal való szorzás, mint "
-"amilyen a [code]delta[/code] is, az eredményt még kisebbé teszi."
+"Azonban, egy [code]1.0[/code]-nél kisebb számmal való szorzás, mint amilyen "
+"a [code]delta[/code] is, az eredményt még kisebbé teszi."
 
 msgid ""
-"To compensate for that and make the robot turn fast enough, we use a "
-"larger number than before, [code]3.0[/code] instead of [code]0.05[/code]."
+"To compensate for that and make the robot turn fast enough, we use a larger "
+"number than before, [code]3.0[/code] instead of [code]0.05[/code]."
 msgstr ""
 "Ennek kompenzálására, hogy elég gyorsan forogjon a robot, a korábbinál "
 "nagyobb számot használunk: [code]0.05[/code] helyett [code]3.0[/code]-at."
 
 msgid ""
 "Those numbers have two different [i]units[/i]: [code]0.05[/code] is an "
-"[i]angle[/i] in radians, while [code]3.0[/code] is an [i]angular "
-"speed[/i] in radians per second."
+"[i]angle[/i] in radians, while [code]3.0[/code] is an [i]angular speed[/i] "
+"in radians per second."
 msgstr ""
-"Ezeknek a számoknak 2 különböző [i]mértékegysége[/i] van: a "
-"[code]0.05[/code] egy radiánban megadott [i]szög[/i], míg a "
-"[code]3.0[/code] a [i]szögsebesség[/i] radián per másodpercben megadva."
+"Ezeknek a számoknak 2 különböző [i]mértékegysége[/i] van: a [code]0.05[/"
+"code] egy radiánban megadott [i]szög[/i], míg a [code]3.0[/code] a "
+"[i]szögsebesség[/i] radián per másodpercben megadva."
 
-msgid "When you multiply a speed by a time delta, it gives you an angle."
+#, fuzzy
+msgid ""
+"When you multiply an angular speed by a time delta, it gives you an angle."
 msgstr "Ha a sebességet delta idővel szorzod, akkor egy szöget fogsz kapni."
 
 msgid ""
-"Don't worry if it's a little confusing for now. It'll eventually click as"
-" you deal with speed, acceleration, and motion in your game projects."
+"Don't worry if it's a little confusing for now. It'll eventually click as "
+"you deal with speed, acceleration, and motion in your game projects."
 msgstr ""
 "Nem baj, ha most még nem látod át. Majd le fog esni, ahogy sebességgel, "
 "gyorsulással és mozgással foglalkozol a játékaidban."
@@ -301,55 +301,55 @@ msgid "The time it takes to display a new frame varies."
 msgstr "Egy új frame kirajzolásához szükséges idő folyamatosan változik."
 
 msgid ""
-"If you don't take that time into account in your code, your game will "
-"have gameplay issues and bugs. Godot provides that time to the "
-"[code]_process()[/code] function through the [code]delta[/code] "
-"parameter."
+"If you don't take that time into account in your code, your game will have "
+"gameplay issues and bugs. Godot provides that time to the [code]_process()[/"
+"code] function through the [code]delta[/code] parameter."
 msgstr ""
 "ha ezt az időt nem veszed figyelembe a kódodban, akkor bugok és egyéb "
-"játékmeneti hibák jöhetnek elő a játékodban. A Godot elérhetővé teszi ezt"
-" az időt a [code]_process()[/code] függvényben a [code]delta[/code] "
-"paraméter segítségével."
+"játékmeneti hibák jöhetnek elő a játékodban. A Godot elérhetővé teszi ezt az "
+"időt a [code]_process()[/code] függvényben a [code]delta[/code] paraméter "
+"segítségével."
 
 msgid ""
 "In the example below, the top robot moves using [code]delta[/code]. As a "
 "result, it moves at a fixed speed."
 msgstr ""
-"A lenti példában a felső robot [code]delta[/code] segítségével mozog. "
-"Ennek eredményeképpen a sebessége állandó."
+"A lenti példában a felső robot [code]delta[/code] segítségével mozog. Ennek "
+"eredményeképpen a sebessége állandó."
 
 msgid ""
-"The bottom robot moves over a constant distance every frame, "
-"[i]without[/i] taking [code]delta[/code] into account. It will move "
-"faster or slower than the top robot on [i]your[/i] computer."
+"The bottom robot moves over a constant distance every frame, [i]without[/i] "
+"taking [code]delta[/code] into account. It will move faster or slower than "
+"the top robot on [i]your[/i] computer."
 msgstr ""
-"Az alsó robot minden frame-en azonos távolságot tesz meg, "
-"[i]anélkül[/i],hogy figyelembe venné a [code]delta[/code] időt. Így a "
-"[i]te[/i] számítógépeden lassabban vagy épp gyorsabban mozog, mint a "
-"fenti robot."
+"Az alsó robot minden frame-en azonos távolságot tesz meg, [i]anélkül[/i],"
+"hogy figyelembe venné a [code]delta[/code] időt. Így a [i]te[/i] "
+"számítógépeden lassabban vagy épp gyorsabban mozog, mint a fenti robot."
 
 msgid "The bottom robot will move [i]differently for everyone[/i]!"
 msgstr "Az alsó robot [i]mindenkinél máshogy fog mozogni[/i]!"
 
 #: course/lesson-11-time-delta/lesson.tres:215
 msgid ""
-"Multiplying time-sensitive values by [code]delta[/code] makes them [b"
-"]time-dependent[/b] rather than [b]frame-dependent[/b]."
+"Multiplying time-sensitive values by [code]delta[/code] makes them [b]time-"
+"dependent[/b] rather than [b]frame-dependent[/b]."
 msgstr ""
-"Ha idő érzékeny értékeket szorzunk [code]delta[/code]-val, akkor ezután "
-"az [b]időtől[/b] fognak függni, nem pedig a [b]frame[/b]-ektől."
+"Ha idő érzékeny értékeket szorzunk [code]delta[/code]-val, akkor ezután az "
+"[b]időtől[/b] fognak függni, nem pedig a [b]frame[/b]-ektől."
 
 msgid "Thanks to that, we get reliable movement over time."
 msgstr "Ennek köszönhetően megbízható mozgást kapunk."
 
+#, fuzzy
 msgid ""
-"Without [code]delta[/code], frame times vary from computer to computer "
-"and during gameplay. Because of that, the movement will differ for every "
-"player, making the game inconsistent and messy."
+"Frame times vary from computer to computer and from frame to frame during "
+"gameplay. Because frame times vary, if [code]delta[/code] is not used, "
+"movement speed will differ for each player, making the game inconsistent and "
+"messy."
 msgstr ""
-"[code]delta[/code] nélkül, a frame-ek miden számítógépen és játék közben "
-"is mások lennének. Ennek hatására a mozgás minden játékos számára más "
-"lenne, ami miatt következetlen lenne a játék és zavaros."
+"[code]delta[/code] nélkül, a frame-ek miden számítógépen és játék közben is "
+"mások lennének. Ennek hatására a mozgás minden játékos számára más lenne, "
+"ami miatt következetlen lenne a játék és zavaros."
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
@@ -360,15 +360,15 @@ msgid "[code]rotation_speed * delta[/code]"
 msgstr "[code]rotation_speed * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
+#, fuzzy
 msgid ""
-"The [code]*[/code] symbol means we're multiplying "
-"[code]rotation_speed[/code] by [code]delta[/code] time."
+"The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/"
+"code] by [code]delta[/code]."
 msgstr ""
-"A [code]*[/code] karakter azt jelenti, hogy a "
-"[code]rotation_speed[/code]-et megszorozzuk a [code]delta[/code] idővel."
+"A [code]*[/code] karakter azt jelenti, hogy a [code]rotation_speed[/code]-et "
+"megszorozzuk a [code]delta[/code] idővel."
 
 #: course/lesson-11-time-delta/lesson.tres:231
-#: course/lesson-11-time-delta/lesson.tres:232
 msgid "We're multiplying rotation_speed by delta."
 msgstr "A rotation_speed-et szorozzuk delta-val."
 
@@ -385,10 +385,12 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "Kivonjuk a delta-t a rotation_speed-ből."
 
 #: course/lesson-11-time-delta/lesson.tres:241
-msgid "In the next practice, we'll use delta to make rotating time-dependent."
+#, fuzzy
+msgid ""
+"In the next practice, we'll use delta to make the rotation time-dependent."
 msgstr ""
-"A következő gyakorlatban arra fogjuk használni a delta-t, hogy a forgatás"
-" az időtől függjön."
+"A következő gyakorlatban arra fogjuk használni a delta-t, hogy a forgatás az "
+"időtől függjön."
 
 #: course/lesson-11-time-delta/lesson.tres:249
 msgid "Rotating Using Delta"
@@ -406,33 +408,34 @@ msgstr ""
 msgid "The robot should rotate [code]2[/code] radians per second."
 msgstr "A robotnak másodpercenként [code]2[/code] radiánnal kell elfordulnia."
 
-#: course/lesson-11-time-delta/lesson.tres:269
+#: course/lesson-11-time-delta/lesson.tres:270
 msgid "Moving in a Circle Using Delta"
 msgstr "Körkörös mozgás a delta segítségével"
 
-#: course/lesson-11-time-delta/lesson.tres:270
+#: course/lesson-11-time-delta/lesson.tres:271
 msgid "In this practice, make the robot move in a smooth circle using delta."
 msgstr ""
 "Ebben a gyakorlatban egyenletesen fogjukkörbe mozgatni a robotot a delta "
 "segítségével."
 
+#, fuzzy
 msgid ""
-"To get this movement, the robot should rotate [code]2[/code] radians per "
-"second and move [code]100[/code] pixels per second towards clockwise."
+"The robot should rotate [code]2[/code] radians per second and move "
+"[code]100[/code] pixels per second forward. This combination makes it travel "
+"in a clockwise circle."
 msgstr ""
 "Ennek eléréséhez a robotnak másodpercenként [code]2[/code] radiánt és "
 "[code]100[/code] pixelt kell mozognia az óramutató járása szerint."
 
 msgid ""
 "[b]Note:[/b] Please write the values in the parentheses when calling the "
-"functions. If you define extra variables, we will not be able to check "
-"your practice."
+"functions. If you define extra variables, we will not be able to check your "
+"practice."
 msgstr ""
 "[b]Megjegyzés:[/b] Kérjük írd az értékeket a zárójelbe, ha hívod a "
 "függvényt. ha extra változókat hozol létre nem fogjuk tudni értékelni a "
 "gyakorlatot."
 
-#: course/lesson-11-time-delta/lesson.tres:288
+#: course/lesson-11-time-delta/lesson.tres:290
 msgid "Time Delta"
 msgstr "Delta idő"
-

@@ -8,31 +8,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-05-16 09:25+0200\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2025-04-04 07:24+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/lesson-10-the-game-loop/zh_Hant/>\n"
 "Language: zh_Hant\n"
-"Language-Team: Chinese (Traditional Han script) "
-"<https://hosted.weblate.org/projects/learn-gdscript-from-zero/lesson-10"
-"-the-game-loop/zh_Hant/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-10-the-game-loop/lesson.tres:14
 msgid ""
-"As we've seen, Godot has functions that do certain actions. For example, "
-"the [code]show()[/code] and [code]hide()[/code] functions change the "
-"visibility of things."
+"As we've seen, Godot has functions that do certain actions. For example, the "
+"[code]show()[/code] and [code]hide()[/code] functions change the visibility "
+"of things."
 msgstr ""
-"正如我們所見，Godot 內建了一些執行特定動作的函式。例如，[code]show()[/code] 和 [code]hide()[/code] "
-"函式可以改變物件的可見性。"
+"正如我們所見，Godot 內建了一些執行特定動作的函式。例如，[code]show()[/code] "
+"和 [code]hide()[/code] 函式可以改變物件的可見性。"
 
 msgid ""
-"We can also create our own functions to make custom effects like adding "
-"or removing health to a character."
+"We can also create our own functions to make custom effects like adding or "
+"removing health to a character."
 msgstr "我們也可以創建自己的函式，以實現自訂效果，例如為角色增加或減少生命值。"
 
 msgid "Godot also has special functions we can customize or add to."
@@ -45,13 +44,17 @@ msgstr "以 [code]_process()[/code] 函式為例。"
 msgid ""
 "The [code]_process()[/code] function gets its name because it does "
 "calculations or continuous actions."
-msgstr "[code]_process()[/code] 函式之所以叫這個名字，是因為它負責執行計算或持續進行的動作。"
+msgstr ""
+"[code]_process()[/code] 函式之所以叫這個名字，是因為它負責執行計算或持續進行"
+"的動作。"
 
 msgid ""
-"It's like a juice factory that [b]processes[/b] juice bottles: the "
-"bottles are always moving along a conveyor belt, while different machines"
-" operate on them."
-msgstr "它就像一座果汁工廠，[b]處理[/b]果汁瓶。瓶子會一直沿著輸送帶移動，而不同的機器會對它們進行加工。"
+"It's like a juice factory that [b]processes[/b] juice bottles: the bottles "
+"are always moving along a conveyor belt, while different machines operate on "
+"them."
+msgstr ""
+"它就像一座果汁工廠，[b]處理[/b]果汁瓶。瓶子會一直沿著輸送帶移動，而不同的機器"
+"會對它們進行加工。"
 
 #: course/lesson-10-the-game-loop/lesson.tres:52
 msgid ""
@@ -75,17 +78,15 @@ msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.tres:65
 msgid ""
-"The [code]_process()[/code] function takes one parameter: "
-"[code]delta[/code]."
+"The [code]_process()[/code] function takes one parameter: [code]delta[/code]."
 msgstr "[code]_process()[/code] 函式接受一個參數：[code]delta[/code]。"
 
 msgid ""
-"We'll look at what [code]delta[/code] is in the next lesson, as well as "
-"show how to use it."
+"We'll look at what [code]delta[/code] is in the next lesson, as well as show "
+"how to use it."
 msgstr "我們將在下堂課中介紹 [code]delta[/code] 是什麼，以及如何使用它。"
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
-#: course/lesson-10-the-game-loop/lesson.tres:69
 msgid "1"
 msgstr "1"
 
@@ -104,16 +105,16 @@ msgid ""
 "name. This is a convention programmers use to coordinate work, and it'll "
 "only make sense once you have experience coding in Godot."
 msgstr ""
-"你可能會注意到函式名稱前面的底線(\"_\")。這是程式設計師用來協調工作的慣例，直到你在 Godot "
-"中有一定的編程經驗後，這個習慣才會變得有意義。"
+"你可能會注意到函式名稱前面的底線(\"_\")。這是程式設計師用來協調工作的慣例，直"
+"到你在 Godot 中有一定的編程經驗後，這個習慣才會變得有意義。"
 
 msgid ""
-"For now, all you need to know is that if the function exists in your "
-"code, and it is called precisely [code]_process[/code], then Godot will "
+"For now, all you need to know is that if the function exists in your code, "
+"and it is called precisely [code]_process[/code], then Godot will "
 "automatically run it every [i]frame[/i]."
 msgstr ""
-"目前，你只需要知道的是，如果函式存在於你的程式碼中，並且它的名稱正好是 [code]_process[/code]，那麼 Godot "
-"就會自動在每個[b]幀[/b]更新時執行它。"
+"目前，你只需要知道的是，如果函式存在於你的程式碼中，並且它的名稱正好是 "
+"[code]_process[/code]，那麼 Godot 就會自動在每個[b]幀[/b]更新時執行它。"
 
 msgid "When Godot draws on the screen, we call that a frame."
 msgstr "當 Godot 在螢幕上繪製畫面時，我們稱之為一個幀。"
@@ -123,7 +124,8 @@ msgid "Is this the same for other engines?"
 msgstr "其他遊戲引擎也是這樣嗎？"
 
 #: course/lesson-10-the-game-loop/lesson.tres:94
-msgid "Other game engines might use different names like [code]_update()[/code]."
+msgid ""
+"Other game engines might use different names like [code]_update()[/code]."
 msgstr "其他遊戲引擎可能會使用不同的名稱，例如 [code]_update()[/code]。"
 
 #: course/lesson-10-the-game-loop/lesson.tres:102
@@ -131,7 +133,8 @@ msgid "Why is the _process() function useful?"
 msgstr "為什麼 _process() 函式很有用？"
 
 #: course/lesson-10-the-game-loop/lesson.tres:104
-msgid "It's perhaps better to see the [code]_process()[/code] function in action."
+msgid ""
+"It's perhaps better to see the [code]_process()[/code] function in action."
 msgstr "或許親自看看 [code]_process()[/code] 函式如何運作更好。"
 
 msgid "Take the following example."
@@ -141,44 +144,48 @@ msgstr "請看以下範例。"
 msgid ""
 "When you click the button [code]set_process(true)[/code], you activate "
 "processing on the robot."
-msgstr "當你點擊按鈕 [code]set_process(true)[/code] 時，你會啟動機器人的處理功能。"
+msgstr ""
+"當你點擊按鈕 [code]set_process(true)[/code] 時，你會啟動機器人的處理功能。"
 
-msgid "From there, every frame, Godot runs the [code]_process()[/code] function."
+msgid ""
+"From there, every frame, Godot runs the [code]_process()[/code] function."
 msgstr "從那時起，每一幀，Godot 都會執行 [code]_process()[/code] 函式。"
 
 msgid ""
-"Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the"
-" character by [code]0.05[/code] radians [b]many[/b] times a second."
+"Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the "
+"character by [code]0.05[/code] radians [b]many[/b] times a second."
 msgstr ""
-"由於我們寫了 [code]rotate()[/code] 指令，Godot 會每秒旋轉角色 [code]0.05[/code] 弳度 "
-"[b]多次[/b]。"
+"由於我們寫了 [code]rotate()[/code] 指令，Godot 會每秒旋轉角色 [code]0.05[/"
+"code] 弳度 [b]多次[/b]。"
 
 #: course/lesson-10-the-game-loop/lesson.tres:138
 msgid "How often does the _process() function run?"
 msgstr "_process() 函式的執行頻率是？"
 
 #: course/lesson-10-the-game-loop/lesson.tres:141
-msgid "The faster your computer, the more times [code]_process()[/code] will run."
+msgid ""
+"The faster your computer, the more times [code]_process()[/code] will run."
 msgstr "你的電腦越快，[code]_process()[/code] 執行的次數就會越多。"
 
 msgid ""
-"Godot will try and run [code]_process()[/code] as quickly as it can. This"
-" makes sure any movement or animations look smooth and fluid."
-msgstr "Godot 會盡可能快地執行 [code]_process()[/code]，這樣可以確保任何的移動或動畫看起來都平滑且流暢。"
+"Godot will try and run [code]_process()[/code] as quickly as it can. This "
+"makes sure any movement or animations look smooth and fluid."
+msgstr ""
+"Godot 會盡可能快地執行 [code]_process()[/code]，這樣可以確保任何的移動或動畫"
+"看起來都平滑且流暢。"
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
 msgid "Once a second."
 msgstr "一秒鐘一次。"
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
-#: course/lesson-10-the-game-loop/lesson.tres:145
 msgid "Multiple times a second."
 msgstr "每秒執行很多次。"
 
 #: course/lesson-10-the-game-loop/lesson.tres:154
 msgid ""
-"In the practice, you'll learn how to use the process function to rotate "
-"and move a character yourself."
+"In the practice, you'll learn how to use the process function to rotate and "
+"move a character yourself."
 msgstr "在這個練習中，你將學會如何使用 process 函式來旋轉和移動角色。"
 
 #: course/lesson-10-the-game-loop/lesson.tres:162
@@ -194,29 +201,30 @@ msgstr "在 [code]_process()[/code] 函式中添加程式碼讓機器人慢慢�
 msgid "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr "每一幀旋轉約 [code]0.05[/code] 應該就可以了。"
 
-#: course/lesson-10-the-game-loop/lesson.tres:180
+#: course/lesson-10-the-game-loop/lesson.tres:181
 msgid "Creating Circular Movement"
 msgstr "實現圓周運動"
 
-#: course/lesson-10-the-game-loop/lesson.tres:181
+#: course/lesson-10-the-game-loop/lesson.tres:182
 msgid ""
 "Make the robot move in a large circle slowly by rotating it and "
 "simultaneously moving it along its x direction."
 msgstr "讓機器人慢慢沿著大圓形移動，透過旋轉它並同時沿著 x 方向移動。"
 
 msgid ""
-"To do this, add the [code]rotate()[/code] and [code]move_local_x()[/code]"
-" functions to [code]_process()[/code]."
+"To do this, add the [code]rotate()[/code] and [code]move_local_x()[/code] "
+"functions to [code]_process()[/code]."
 msgstr ""
 "為此，將 [code]rotate()[/code] 和 [code]move_local_x()[/code] 函式加入 "
 "[code]_process()[/code] 中。"
 
 msgid ""
-"Use a rotation speed of [code]0.05[/code] radians per frame, and move the"
-" robot [code]5[/code] pixels per frame."
-msgstr "每一幀使用 [code]0.05[/code] 弧度的旋轉速度，並讓機器人每一幀移動 [code]5[/code] 像素。"
+"Use a rotation speed of [code]0.05[/code] radians per frame, and move the "
+"robot [code]5[/code] pixels per frame."
+msgstr ""
+"每一幀使用 [code]0.05[/code] 弧度的旋轉速度，並讓機器人每一幀移動 [code]5[/"
+"code] 像素。"
 
-#: course/lesson-10-the-game-loop/lesson.tres:199
+#: course/lesson-10-the-game-loop/lesson.tres:201
 msgid "The Game Loop"
 msgstr "遊戲循環"
-

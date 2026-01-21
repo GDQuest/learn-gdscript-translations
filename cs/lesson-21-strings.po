@@ -8,36 +8,35 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-05-16 09:25+0200\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2024-09-16 13:33+0000\n"
 "Last-Translator: Prem\n"
-"Language: cs\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-21-strings/cs/>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-21-strings/lesson.tres:14
 msgid ""
-"Throughout this course, we've mostly stored numbers in variables. But "
-"what if we wanted to store a player's name?"
+"Throughout this course, we've mostly stored numbers in variables. But what "
+"if we wanted to store a player's name?"
 msgstr ""
-"V tomto kurzu jsme většinou ukládali do proměnných čísla. Ale co "
-"kdybychom chtěli uložit jméno hráče?"
+"V tomto kurzu jsme většinou ukládali do proměnných čísla. Ale co kdybychom "
+"chtěli uložit jméno hráče?"
 
 msgid "This is where strings help us."
 msgstr "Zde nám pomohou řetězce(string)."
 
 msgid ""
-"Strings are instrumental in games and applications. We use them to "
-"display information such as the description of a spell or the name of a "
-"character."
+"Strings are instrumental in games and applications. We use them to display "
+"information such as the description of a spell or the name of a character."
 msgstr ""
-"Řetězce jsou ve hrách a aplikacích velmi důležité. Používáme je k "
-"zobrazení informací, jako je popis kouzla nebo jméno postavy."
+"Řetězce jsou ve hrách a aplikacích velmi důležité. Používáme je k zobrazení "
+"informací, jako je popis kouzla nebo jméno postavy."
 
 #: course/lesson-21-strings/lesson.tres:36
 msgid "What are strings"
@@ -46,12 +45,12 @@ msgstr "Co jsou to řetězce(string)"
 #: course/lesson-21-strings/lesson.tres:38
 msgid ""
 "A [code]String[/code] is a value type which holds text. To create a "
-"[code]String[/code], you write text wrapped in quotation marks "
-"([code]\"\"[/code]). For example: [code]\"This is a text string.\"[/code]"
+"[code]String[/code], you write text wrapped in quotation marks ([code]\"\"[/"
+"code]). For example: [code]\"This is a text string.\"[/code]"
 msgstr ""
-"[code]String[/code] je typ hodnoty, který obsahuje text. Chcete-li "
-"vytvořit [code]String[/code], napíšete text zabalený do uvozovek "
-"([code]\"\"[/code]). Například: [code]\"Toto je textový řetězec.\"[/code]"
+"[code]String[/code] je typ hodnoty, který obsahuje text. Chcete-li vytvořit "
+"[code]String[/code], napíšete text zabalený do uvozovek ([code]\"\"[/code]). "
+"Například: [code]\"Toto je textový řetězec.\"[/code]"
 
 msgid ""
 "The quotation marks differentiate strings from other value types and "
@@ -66,12 +65,12 @@ msgstr ""
 #: course/lesson-21-strings/lesson.tres:62
 msgid ""
 "Under the hood, strings are arrays of characters. In fact, we can use a "
-"[code]for[/code] loop to loop through the characters of a "
-"[code]String[/code] as we would with any other array."
+"[code]for[/code] loop to loop through the characters of a [code]String[/"
+"code] as we would with any other array."
 msgstr ""
 "Pod kapotou jsou řetězce pole znaků. Ve skutečnosti můžeme pomocí cyklu "
-"[code]for[/code] procházet znaky řetězce [code]String[/code] stejně jako "
-"u jakéhokoli jiného pole."
+"[code]for[/code] procházet znaky řetězce [code]String[/code] stejně jako u "
+"jakéhokoli jiného pole."
 
 #: course/lesson-21-strings/lesson.tres:80
 msgid "Which of these are strings?"
@@ -82,11 +81,11 @@ msgid "[code]\"1\"[/code] and [code]\"name\"[/code] are strings."
 msgstr "[code]\"1\"[/code] a [code]\"name\"[/code] jsou řetězce."
 
 msgid ""
-"[code]\"1\"[/code] only contains a character and [i]doesn't[/i] represent"
-" the number [code]1[/code]."
+"[code]\"1\"[/code] only contains a character and [i]doesn't[/i] represent "
+"the number [code]1[/code]."
 msgstr ""
-"[code]\"1\"[/code] obsahuje pouze znak a [i]nepředstavuje[/i] číslo "
-"[code]1[/code]."
+"[code]\"1\"[/code] obsahuje pouze znak a [i]nepředstavuje[/i] číslo [code]1[/"
+"code]."
 
 msgid "[code]\"name\"[/code] is made up of four different characters."
 msgstr "[code]\"jméno\"[/code] se skládá ze čtyř různých znaků."
@@ -96,12 +95,10 @@ msgid "1"
 msgstr "1"
 
 #: course/lesson-21-strings/lesson.tres:88
-#: course/lesson-21-strings/lesson.tres:89
 msgid "\"1\""
 msgstr "\"1\""
 
 #: course/lesson-21-strings/lesson.tres:88
-#: course/lesson-21-strings/lesson.tres:89
 msgid "\"name\""
 msgstr "\"name\""
 
@@ -111,20 +108,20 @@ msgstr "Proč používáme řetězce"
 
 #: course/lesson-21-strings/lesson.tres:118
 msgid ""
-"Every piece of text you see in this app is a string that Godot is "
-"displaying for us."
+"Every piece of text you see in this app is a string that Godot is displaying "
+"for us."
 msgstr ""
-"Každý text, který v této aplikaci vidíte, je řetězec, který pro nás Godot"
-" zobrazuje."
+"Každý text, který v této aplikaci vidíte, je řetězec, který pro nás Godot "
+"zobrazuje."
 
 msgid ""
 "Much like how [code]Vector2[/code] variables make calculations easier, "
-"[code]string[/code] variables come with many helper functions and tricks "
-"we can use."
+"[code]string[/code] variables come with many helper functions and tricks we "
+"can use."
 msgstr ""
 "Podobně jako proměnné typu [code]Vector2[/code] usnadňují výpočty, tak i "
-"proměnné typu [code]string[/code] obsahují mnoho pomocných funkcí a "
-"triků, které můžeme použít."
+"proměnné typu [code]string[/code] obsahují mnoho pomocných funkcí a triků, "
+"které můžeme použít."
 
 msgid ""
 "We can use arrays to store strings too. This is useful for chaining "
@@ -137,8 +134,8 @@ msgstr ""
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
-"In the next few practices, we'll use strings in combination with "
-"different concepts from earlier lessons."
+"In the next few practices, we'll use strings in combination with different "
+"concepts from earlier lessons."
 msgstr ""
 "V několika následujících cvičeních budeme používat řetězce v kombinaci s "
 "různými koncepty z předchozích lekcí."
@@ -151,27 +148,28 @@ msgstr "Vytváření string proměnných"
 msgid ""
 "Currently, the robot has a number stored in the [code]robot_name[/code] "
 "variable."
-msgstr "V současné době má robot číslo uložené v proměnné [code]robot_name[/code]."
+msgstr ""
+"V současné době má robot číslo uložené v proměnné [code]robot_name[/code]."
 
 msgid ""
-"Change the [code]robot_name[/code] variable so that it's a string "
-"instead. You can give it any name you'd like."
+"Change the [code]robot_name[/code] variable so that it's a string instead. "
+"You can give it any name you'd like."
 msgstr ""
 "Změňte proměnnou [code]robot_name[/code](jméno robota) tak, aby se místo "
 "čísla jednalo o řetězec. Můžete mu dát libovolné jméno."
 
-#: course/lesson-21-strings/lesson.tres:163
+#: course/lesson-21-strings/lesson.tres:165
 msgid "Give the robot a readable name using a string stored in a variable."
 msgstr "Dejte robotovi čitelné jméno pomocí řetězce uloženého v proměnné."
 
-#: course/lesson-21-strings/lesson.tres:168
+#: course/lesson-21-strings/lesson.tres:170
 msgid "Using an array of strings to play a combo"
 msgstr "Použití pole řetězců k přehrávání komba"
 
-#: course/lesson-21-strings/lesson.tres:169
+#: course/lesson-21-strings/lesson.tres:171
 msgid ""
-"In this practice, we'll chain together animations using an array of "
-"strings. You might find such combinations in fighting games."
+"In this practice, we'll chain together animations using an array of strings. "
+"You might find such combinations in fighting games."
 msgstr ""
 "V tomto cvičení budeme řetězit animace pomocí pole řetězců. S takovými "
 "kombinacemi se můžete setkat v bojových hrách."
@@ -190,11 +188,11 @@ msgid "Populate the combo array with animation names as strings."
 msgstr "Naplňte pole combo názvy animací jako řetězce."
 
 msgid ""
-"Then, for each action in the array, call the "
-"[code]play_animation()[/code] function to play them."
+"Then, for each action in the array, call the [code]play_animation()[/code] "
+"function to play them."
 msgstr ""
-"Pak pro každou akci v poli zavolejte funkci "
-"[code]play_animation()[/code], aby se přehrála."
+"Pak pro každou akci v poli zavolejte funkci [code]play_animation()[/code], "
+"aby se přehrála."
 
 msgid ""
 "The array should contain three values, so the robot makes these three "
@@ -203,11 +201,10 @@ msgstr ""
 "Pole by mělo obsahovat tři hodnoty, takže robot provede tyto tři útoky: "
 "[code]jab, jab, uppercut[/code]."
 
-#: course/lesson-21-strings/lesson.tres:190
+#: course/lesson-21-strings/lesson.tres:193
 msgid "Define an array of strings to unleash a powerful combo."
 msgstr "Definujte pole řetězců, abyste mohli spustit silné kombo."
 
-#: course/lesson-21-strings/lesson.tres:194
+#: course/lesson-21-strings/lesson.tres:197
 msgid "Strings"
 msgstr "Řetězce"
-

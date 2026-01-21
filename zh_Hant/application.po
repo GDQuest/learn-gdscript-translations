@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2025-06-14 15:02+0200\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2025-04-03 15:39+0000\n"
 "Last-Translator: MuryanBKS <muryanbks+github@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/application/zh_Hant/>\n"
 "Language: zh_Hant\n"
-"Language-Team: Chinese (Traditional Han script) "
-"<https://hosted.weblate.org/projects/learn-gdscript-from-"
-"zero/application/zh_Hant/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: resources/QuizInputField.gd:17
@@ -55,35 +54,44 @@ msgstr "聖誕特惠 - 五折"
 msgid "CHRISTMAS SALE"
 msgstr "聖誕特惠"
 
-#: ui/UIPractice.gd:154 ui/UIPractice.gd:220
+#: ui/UIPractice.gd:153
 #, python-format
 msgid "Hint %s"
 msgstr "提示 %s"
 
-#: ui/UIPractice.gd:248
+#: ui/UIPractice.gd:257
 msgid "Validating Your Code..."
 msgstr "正在驗證你的程式碼…"
 
-#: ui/UIPractice.gd:268
+#: ui/UIPractice.gd:294
 #, python-format
 msgid "The function `%s` calls itself, this creates an infinite loop"
 msgstr "函式 `%s` 呼叫自身，這造成了一個無限迴圈"
 
-#: ui/UIPractice.gd:301
+#: ui/UIPractice.gd:306
+msgid ""
+"You have a while loop that runs forever (while true) without a break "
+"statement. This will freeze the app."
+msgstr ""
+
+#: ui/UIPractice.gd:337
 msgid "Running Your Code..."
 msgstr "正在執行你的程式碼……"
 
-#: ui/UIPractice.gd:331
+#: ui/UIPractice.gd:368
 msgid ""
-"There is a division by zero in your code. You cannot divide by zero in "
-"code. Please ensure you have no \"/ 0\" or \"% 0\" in your code."
-msgstr "你的程式碼中存在除以 0 的情況。你不能在程式碼中除以0。請確保你的程式碼中沒有 \"/ 0\" 或 \"% 0\" 。"
+"There is a division by zero in your code. You cannot divide by zero in code. "
+"Please ensure you have no \"/ 0\" or \"% 0\" in your code."
+msgstr ""
+"你的程式碼中存在除以 0 的情況。你不能在程式碼中除以0。請確保你的程式碼中沒有 "
+"\"/ 0\" 或 \"% 0\" 。"
 
-#: ui/UIPractice.gd:346
-msgid "Oh no! The script has an error, but the Script Verifier did not catch it"
+#: ui/UIPractice.gd:383
+msgid ""
+"Oh no! The script has an error, but the Script Verifier did not catch it"
 msgstr "糟糕！腳本中有一個錯誤，但腳本檢查器沒能抓到它"
 
-#: ui/UIPractice.gd:372
+#: ui/UIPractice.gd:412
 msgid "Running Tests..."
 msgstr "正在執行測試……"
 
@@ -103,44 +111,41 @@ msgstr "離開未完成的練習？"
 msgid "Button"
 msgstr "按鈕"
 
-#: ui/components/CodeEditor.tscn:144
+#: ui/components/CodeEditor.tscn:143
 msgid "Run"
 msgstr "執行"
 
-#: ui/components/CodeEditor.tscn:158
+#: ui/components/CodeEditor.tscn:157
 msgid "Pause"
 msgstr "暫停"
 
-#: ui/components/CodeEditor.tscn:173 ui/components/RunnableCodeExample.tscn:87
+#: ui/components/CodeEditor.tscn:172
 msgid "Reset"
 msgstr "重置"
 
-#: ui/components/CodeEditor.tscn:195
+#: ui/components/CodeEditor.tscn:194
 msgid "Solution"
 msgstr "解決方法"
 
-#: ui/components/CodeEditor.tscn:209 ui/components/OutputConsole.tscn:43
+#: ui/components/CodeEditor.tscn:208
 msgid "Output"
 msgstr "輸出"
 
-#: ui/components/CodeEditor.tscn:224
-#: ui/components/popups/LessonDonePopup.tscn:198
-#: ui/components/popups/PracticeDonePopup.tscn:165
+#: ui/components/CodeEditor.tscn:223
 msgid "Continue"
 msgstr "繼續"
 
 #: ui/components/DebuggerConsoleMonitoredVariable.tscn:20
-#: ui/components/OutputConsolePrintMessage.tscn:23
 msgid "Value"
 msgstr "值"
 
 #: ui/components/GDQuestCreditsLabel.tscn:36
 msgid ""
-"Learn GDScript From Zero is an open source project by "
-"[color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
+"Learn GDScript From Zero is an open source project by [color=#FFD500]"
+"[url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
 msgstr ""
-"《從零開始學 "
-"GDScript》是一個由[color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]推出的開源專案"
+"《從零開始學 GDScript》是一個由[color=#FFD500][url=https://www.gdquest."
+"com/]GDQUEST.COM[/url][/color]推出的開源專案"
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -151,7 +156,6 @@ msgid "Term"
 msgstr "專有名詞"
 
 #: ui/components/GlossaryPopup.tscn:53
-#: ui/components/popups/ErrorOverlayPopup.tscn:74
 msgid "Our error explanation."
 msgstr "我們對錯誤的解釋。"
 
@@ -160,8 +164,6 @@ msgid "ERROR:"
 msgstr "錯誤："
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
-#: ui/components/ScrollableTextBox.tscn:43
-#: ui/screens/lesson/UIContentBlock.tscn:68
 msgid "Placeholder text"
 msgstr "占位字元"
 
@@ -182,7 +184,8 @@ msgid "0:0"
 msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
-msgid "Sometimes errors are reported outside of your code. Why does that happen?"
+msgid ""
+"Sometimes errors are reported outside of your code. Why does that happen?"
 msgstr "有時候錯誤會在你的程式碼之外被回報。為什麼會發生這種情況？"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
@@ -215,7 +218,8 @@ msgstr ""
 "可享受 Godot 課程[b]50% off 折扣[/b][/center]"
 
 #: ui/components/SalePopup.tscn:132
-msgid "Only until "
+#, fuzzy
+msgid "Only until"
 msgstr "除非 "
 
 #: ui/components/SalePopup.tscn:155
@@ -227,12 +231,10 @@ msgid "X"
 msgstr "X"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
-#: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:119
 msgid "Confirm"
 msgstr "確認"
 
 #: ui/components/popups/ConfirmPopup.tscn:127
-#: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn:131
 msgid "Cancel"
 msgstr "取消"
 
@@ -257,10 +259,12 @@ msgid "Sorry, we don't have this particular error message covered yet!"
 msgstr "對不起，我們還沒有涉及到這種特殊的錯誤訊息！"
 
 msgid ""
-"Please, use the [b]Report[/b] button in the top-right corner to tell us "
-"more about how you've got it, and we will try to improve our knowledge "
-"base for the next version of the application."
-msgstr "請使用右上角的[b]回報[/b]按鈕告訴我們你是如何遇到它的，我們將會努力在下一個版本的應用程式改進我們的知識庫。"
+"Please, use the [b]Report[/b] button in the top-right corner to tell us more "
+"about how you've got it, and we will try to improve our knowledge base for "
+"the next version of the application."
+msgstr ""
+"請使用右上角的[b]回報[/b]按鈕告訴我們你是如何遇到它的，我們將會努力在下一個版"
+"本的應用程式改進我們的知識庫。"
 
 msgid "[center]Thank you![/center]"
 msgstr "[center]謝謝你！[/center]"
@@ -276,23 +280,31 @@ msgstr "外部錯誤是從哪裡來的？"
 #: ui/components/popups/ExternalErrorPopup.tscn:83
 msgid ""
 "Lessons in this course are designed so you only need to edit the "
-"[b]important bits[/b]. But there is much more code outside of what you "
-"see that makes the project run."
-msgstr "本教學的課程中，你都只需要編輯[b]重要的部分[/b]。但在你看到的程式碼之外，其實還有非常多的程式碼，才使得專案能夠運行起來。"
+"[b]important bits[/b]. But there is much more code outside of what you see "
+"that makes the project run."
+msgstr ""
+"本教學的課程中，你都只需要編輯[b]重要的部分[/b]。但在你看到的程式碼之外，其實"
+"還有非常多的程式碼，才使得專案能夠運行起來。"
 
 msgid ""
 "This means that sometimes changes you make can affect code you have no "
 "control over. But don't worry, you can still fix all the issues yourself "
 "with the code you [b]can[/b] edit!"
-msgstr "也就是說，有時候你所作出的修改可能會影響到你無法控制的程式碼。不過不用擔心，你還是可以通過修改你[b]能夠[/b]編輯的程式碼來修復所有這些問題。"
+msgstr ""
+"也就是說，有時候你所作出的修改可能會影響到你無法控制的程式碼。不過不用擔心，"
+"你還是可以通過修改你[b]能夠[/b]編輯的程式碼來修復所有這些問題。"
 
 msgid ""
-"[i]This is like how game engines work too.[/i] There is a lot of hidden "
-"code that they execute to ensure your project runs smoothly. And yet, an "
-"error in your scripts can break them. We'll try to explain how to address"
-" each individual error that you face. Quick, click the [b]Explain[/b] "
-"button next to the error message!"
-msgstr "[b]這也正類似於遊戲引擎的工作原理。[/b]很多的程式碼是被隱藏的，有了這些程式碼，你的專案才能夠順利運行。但同時你腳本中的錯誤就可能會讓它們無法正常工作。我們會嘗試解釋如何解決你所遇到的每一個問題。很簡單，點擊錯誤消息旁邊的[b]解釋[/b]按鈕就行了！"
+"[i]This is like how game engines work too.[/i] There is a lot of hidden code "
+"that they execute to ensure your project runs smoothly. And yet, an error in "
+"your scripts can break them. We'll try to explain how to address each "
+"individual error that you face. Quick, click the [b]Explain[/b] button next "
+"to the error message!"
+msgstr ""
+"[b]這也正類似於遊戲引擎的工作原理。[/b]很多的程式碼是被隱藏的，有了這些程式"
+"碼，你的專案才能夠順利運行。但同時你腳本中的錯誤就可能會讓它們無法正常工作。"
+"我們會嘗試解釋如何解決你所遇到的每一個問題。很簡單，點擊錯誤消息旁邊的[b]解釋"
+"[/b]按鈕就行了！"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
@@ -319,7 +331,6 @@ msgstr ""
 "或者[b]繼續[/b]課程。[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
-#: ui/components/popups/PracticeDonePopup.tscn:144
 msgid "Stay"
 msgstr "留下"
 
@@ -344,7 +355,6 @@ msgid "Practice List"
 msgstr "練習列表"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
-#: ui/components/popups/SettingsPopup.tscn:283
 msgid "Close"
 msgstr "關閉"
 
@@ -354,49 +364,55 @@ msgstr "回報問題"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
-"If you face an issue in the app, please click the link below to report it"
-" on GitHub:"
+"If you face an issue in the app, please click the link below to report it on "
+"GitHub:"
 msgstr "如果你在套用中遇到了問題，請點擊下面的連結在 GitHub 上進行報告："
 
 msgid ""
-"[center][b][url=https://github.com/GDQuest/learn-"
-"gdscript/issues]GitHub.com > GDQuest > learn-gdscript > "
-"Issues[/url][/b][/center]"
+"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
+"> GDQuest > learn-gdscript > Issues[/url][/b][/center]"
 msgstr ""
-"[center][b][url=https://github.com/GDQuest/learn-"
-"gdscript/issues]GitHub.com > GDQuest > learn-gdscript > "
-"Issues[/url][/b][/center]"
+"[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
+"> GDQuest > learn-gdscript > Issues[/url][/b][/center]"
 
 msgid ""
-"On that page, you can report any issues, whether something's not working "
-"or there's an error in a lesson."
-msgstr "在該頁面上，你可以報告任何問題，無論是套用無法正常工作，還是課程中的錯誤。"
+"On that page, you can report any issues, whether something's not working or "
+"there's an error in a lesson."
+msgstr ""
+"在該頁面上，你可以報告任何問題，無論是套用無法正常工作，還是課程中的錯誤。"
 
 msgid ""
 "You can generate a log to help us identify the problem. To do so, click "
 "here: [b][url=download]generate error log[/url][/b]."
-msgstr "你可以生成日誌，説明我們排查問題。請點擊此處：[b][url=download]生成錯誤日誌[/url][/b]。"
+msgstr ""
+"你可以生成日誌，説明我們排查問題。請點擊此處：[b][url=download]生成錯誤日誌[/"
+"url][/b]。"
 
 msgid ""
-"Please drag and drop the generated file onto your issue on GitHub to "
-"attach it."
+"Please drag and drop the generated file onto your issue on GitHub to attach "
+"it."
 msgstr "請將生成的檔拖放附加到你在 GitHub 上的 Issue 中。"
 
 msgid "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]"
 msgstr "[font=res://ui/theme/fonts/font_title.tres]GitHub 是什麼[/font]"
 
 msgid ""
-"GitHub is an online platform to host and manage open-source projects like"
-" the GDScript Learn app. It helps developers organize their work and "
+"GitHub is an online platform to host and manage open-source projects like "
+"the GDScript Learn app. It helps developers organize their work and "
 "collaborate online."
-msgstr "GitHub 是一個線上平臺，用於託管和管理像 GDScript Learn 套用這樣的開源專案，可以説明開發者組織他們的工作並進行線上協作。"
+msgstr ""
+"GitHub 是一個線上平臺，用於託管和管理像 GDScript Learn 套用這樣的開源專案，可"
+"以説明開發者組織他們的工作並進行線上協作。"
 
 msgid ""
-"You can use GitHub to study the source code of many open projects, report"
-" issues, or even contribute code yourself."
-msgstr "你可以使用 GitHub 來研究許多開放專案的原始程式碼，報告問題，甚至自己貢獻程式碼。"
+"You can use GitHub to study the source code of many open projects, report "
+"issues, or even contribute code yourself."
+msgstr ""
+"你可以使用 GitHub 來研究許多開放專案的原始程式碼，報告問題，甚至自己貢獻程式"
+"碼。"
 
-msgid "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]"
+msgid ""
+"[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]"
 msgstr "[font=res://ui/theme/fonts/font_title.tres]如何報告問題[/font]"
 
 msgid ""
@@ -415,7 +431,9 @@ msgid ""
 "Please add as much relevant information as possible, such as the kind of "
 "device you're using to access the app, and maybe attach a screenshot or "
 "video clip showcasing the issue."
-msgstr "請盡可能多地新增相關資訊，例如你使用哪種設備來存取該套用，並可能附上展示該問題的螢幕截圖或視訊短片。"
+msgstr ""
+"請盡可能多地新增相關資訊，例如你使用哪種設備來存取該套用，並可能附上展示該問"
+"題的螢幕截圖或視訊短片。"
 
 msgid "[center]Thank you for contributing to open source![/center]"
 msgstr "[center]感謝為開放原始碼作出貢獻！[/center]"
@@ -489,7 +507,6 @@ msgid "Quizzes completed"
 msgstr "已完成問答"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
-#: ui/screens/course_outliner/CourseLessonDetails.tscn:108
 msgid "0 / 0"
 msgstr "0 / 0"
 
@@ -506,7 +523,8 @@ msgid "Lesson Title"
 msgstr "課程標題"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
-msgid "Course Index - "
+#, fuzzy
+msgid "Course Index -"
 msgstr "課程目錄 - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
@@ -522,14 +540,13 @@ msgid "Confirm Resetting Progress"
 msgstr "確認重設進度"
 
 #: ui/screens/end_screen/EndScreen.tscn:310
-#: ui/screens/end_screen/EndScreen.tscn:323
 msgid "YOU MADE IT!"
 msgstr "你做到了！"
 
 #: ui/screens/end_screen/EndScreen.tscn:353
 msgid ""
-"Not only did you learn the foundations of coding, you’re a big step "
-"closer to making your own games."
+"Not only did you learn the foundations of coding, you’re a big step closer "
+"to making your own games."
 msgstr "你不僅學到了程式設計的基礎知識，也向製作自己遊戲的目標拉進了一大步。"
 
 #: ui/screens/end_screen/EndScreen.tscn:373
@@ -550,9 +567,11 @@ msgstr "跟著影片教學學習"
 
 #: ui/screens/end_screen/EndScreen.tscn:427
 msgid ""
-"They’re a great way to pick up specific game mechanics but they’re not as"
-" effective when you’re trying to learn new skills from the ground up."
-msgstr "它們是學習如何製作特定遊戲機制的好方法，但當你想要從零開始學習新技能時，效果就沒那麼理想。"
+"They’re a great way to pick up specific game mechanics but they’re not as "
+"effective when you’re trying to learn new skills from the ground up."
+msgstr ""
+"它們是學習如何製作特定遊戲機制的好方法，但當你想要從零開始學習新技能時，效果"
+"就沒那麼理想。"
 
 #: ui/screens/end_screen/EndScreen.tscn:459
 msgid "• There’s no clear learning path."
@@ -564,16 +583,17 @@ msgstr "• 記憶與技能習得的速度緩慢且效果有限。"
 
 #: ui/screens/end_screen/EndScreen.tscn:490
 msgid ""
-"We make our fair share of "
-"[b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]free "
-"tutorials[/url][/color][/b]. They will come in very handy once you start "
-"making games on your own. But to get started, we really recommend you "
-"learn how to think like a game developer using "
-"[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
-"access]courses[/url][/color][/b]."
+"We make our fair share of [b][color=#ebc3ff][url=https://www.youtube.com/"
+"@Gdquest/videos]free tutorials[/url][/color][/b]. They will come in very "
+"handy once you start making games on your own. But to get started, we really "
+"recommend you learn how to think like a game developer using [b]"
+"[color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]courses[/"
+"url][/color][/b]."
 msgstr ""
-"我們製作了不少[b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]免費教學[/url][/color][/b]。當你開始獨立製作遊戲時，它們會非常實用。但要入門的話，我們強烈推薦你透過[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4"
-"-early-access]課程[/url][/color][/b] 來學習如何像遊戲開發者一樣思考。"
+"我們製作了不少[b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]"
+"免費教學[/url][/color][/b]。當你開始獨立製作遊戲時，它們會非常實用。但要入門"
+"的話，我們強烈推薦你透過[b][color=#ebc3ff][url=https://school.gdquest.com/"
+"godot-4-early-access]課程[/url][/color][/b] 來學習如何像遊戲開發者一樣思考。"
 
 #: ui/screens/end_screen/EndScreen.tscn:505
 msgid "Learning with courses"
@@ -581,26 +601,32 @@ msgstr "利用課程來學習"
 
 #: ui/screens/end_screen/EndScreen.tscn:521
 msgid ""
-"Note that most available courses online are actually premium series of "
-"video tutorials. The problem of retaining information and acquiring real "
-"skills unfortunately still applies to them."
-msgstr "請注意，大多數線上課程實際上是付費的影片教學系列。不幸的是，關於記憶與技能習得的問題，它們依然存在。"
+"Note that most available courses online are actually premium series of video "
+"tutorials. The problem of retaining information and acquiring real skills "
+"unfortunately still applies to them."
+msgstr ""
+"請注意，大多數線上課程實際上是付費的影片教學系列。不幸的是，關於記憶與技能習"
+"得的問題，它們依然存在。"
 
 #: ui/screens/end_screen/EndScreen.tscn:537
 msgid ""
 "At GDQuest, we’re educators at heart. We believe in applied study and we "
-"believe it doesn’t have to be boring. When teaching is done correctly, "
-"most people highly enjoy the sensation of leveling up!"
-msgstr "在 GDQuest，我們本質上是教育者。我們相信實踐學習，並且相信學習不必枯燥無味。當教學做得正確時，大多數人會非常享受升級的感覺！"
+"believe it doesn’t have to be boring. When teaching is done correctly, most "
+"people highly enjoy the sensation of leveling up!"
+msgstr ""
+"在 GDQuest，我們本質上是教育者。我們相信實踐學習，並且相信學習不必枯燥無味。"
+"當教學做得正確時，大多數人會非常享受升級的感覺！"
 
 msgid ""
 "That’s the reason we made this app. It is in fact part of our beginner "
-"course "
-"[b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn"
-" Gamedev From Zero with Godot[/url][/color][/b]."
+"course [b][color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
+"[/b]."
 msgstr ""
-"這就是我們製作這個應用程式的原因。事實上，它是我們初學者課程的一部分：[b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn"
-" Gamedev From Zero with Godot[/url][/color][/b]。"
+"這就是我們製作這個應用程式的原因。事實上，它是我們初學者課程的一部分：[b]"
+"[color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
+"[/b]。"
 
 #: ui/screens/end_screen/EndScreen.tscn:575
 msgid "LEARN GAMEDEV WITH GODOT"
@@ -632,18 +658,19 @@ msgstr "恭喜！"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:211
 msgid ""
-"You completed Learn GDScript From Zero. You now have the basics you need "
-"to make games with the Godot game engine."
-msgstr "你已經完成《Learn GDScript From Zero》！現在你已具備使用 Godot 遊戲引擎製作遊戲的基本知識。"
+"You completed Learn GDScript From Zero. You now have the basics you need to "
+"make games with the Godot game engine."
+msgstr ""
+"你已經完成《Learn GDScript From Zero》！現在你已具備使用 Godot 遊戲引擎製作遊"
+"戲的基本知識。"
 
 msgid ""
-"You can keep learning with the free series "
-"[url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Getting"
-" Started with Godot[/url]."
+"You can keep learning with the free series [url=https://docs.godotengine.org/"
+"en/stable/getting_started/step_by_step/index.html]Getting Started with "
+"Godot[/url]."
 msgstr ""
-"你可以透過免費系列 "
-"[url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Godot"
-" 入門指南[/url] 繼續學習。"
+"你可以透過免費系列 [url=https://docs.godotengine.org/en/stable/"
+"getting_started/step_by_step/index.html]Godot 入門指南[/url] 繼續學習。"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:224
 msgid "This is an Open-Source project!"
@@ -658,8 +685,8 @@ msgid ""
 "[url=https://github.com/GDQuest/learn-gdscript]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
-"你可以在這裡找到應用程式的源代碼並貢獻翻譯：[url=\"https://github.com/GDQuest/learn-"
-"gdscript\"]Learn GDScript From Zero (Github repository)[/url]."
+"你可以在這裡找到應用程式的源代碼並貢獻翻譯：[url=\"https://github.com/"
+"GDQuest/learn-gdscript\"]Learn GDScript From Zero (Github repository)[/url]."
 
 #: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:41
 msgid "Early Access release: 2024/01/30"
@@ -669,7 +696,7 @@ msgstr "搶先體驗發布時間：2024/01/30"
 msgid "[b]Question[/b]"
 msgstr "[b]問題[/b]"
 
-#: ui/screens/lesson/UIBaseQuiz.tscn:80 ui/screens/lesson/UIBaseQuiz.tscn:169
+#: ui/screens/lesson/UIBaseQuiz.tscn:80
 msgid "Explanation"
 msgstr "解釋"
 
@@ -689,8 +716,7 @@ msgstr "您答對了！"
 msgid "Answers here"
 msgstr "答案在這裡"
 
-#: ui/screens/lesson/UIContentBlock.gd:70
-#: ui/screens/lesson/UIContentBlock.gd:134
+#: ui/screens/lesson/UIContentBlock.gd:69
 msgid "Learn More"
 msgstr "瞭解更多"
 
@@ -722,7 +748,7 @@ msgstr "回答標籤"
 msgid "(select all that apply)"
 msgstr "（多選）"
 
-#: ui/screens/practice/PracticeHint.tscn:8
+#: ui/screens/practice/PracticeHint.tscn:9
 msgid "Show Hint"
 msgstr "顯示提示"
 
@@ -742,19 +768,19 @@ msgstr "總結 - 課程名稱"
 msgid "Goals"
 msgstr "目標"
 
-#: ui/screens/practice/PracticeInfoPanel.tscn:119
+#: ui/screens/practice/PracticeInfoPanel.tscn:120
 msgid "Hints"
 msgstr "提示"
 
-#: ui/screens/practice/PracticeInfoPanel.tscn:126
+#: ui/screens/practice/PracticeInfoPanel.tscn:128
 msgid "Checks"
 msgstr "檢查"
 
-#: ui/screens/practice/PracticeInfoPanel.tscn:134
+#: ui/screens/practice/PracticeInfoPanel.tscn:137
 msgid "Documentation"
 msgstr "文件"
 
-#: ui/screens/practice/PracticeInfoPanel.tscn:175
+#: ui/screens/practice/PracticeInfoPanel.tscn:178
 msgid "Open Practice List"
 msgstr "打開練習列表"
 
@@ -767,23 +793,22 @@ msgid "CONTINUE"
 msgstr "繼續"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:46
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:629
 msgid "START"
 msgstr "開始"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:647
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:651
 msgid "SELECT LESSON"
 msgstr "選擇課程"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:661
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:665
 msgid "OPTIONS"
 msgstr "選項"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:695
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:699
 msgid "QUIT"
 msgstr "退出"
 
-#: ui/screens/welcome_screen/WelcomeScreen.tscn:801
-msgid "An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:805
+msgid ""
+"An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
 msgstr "由 [url=https://www.gdquest.com/]GDQuest.com[/url] 發起的開源專案"
-

@@ -8,45 +8,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
-"POT-Creation-Date: 2023-12-09 20:05+0100\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
 "PO-Revision-Date: 2022-06-13 17:18+0000\n"
 "Last-Translator: Roman Rous <roman.rous@atlas.cz>\n"
-"Language: cs\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-11-time-delta/cs/>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
 msgid ""
-"We've seen how we can use our character's [code]_process()[/code] "
-"function to make it move continuously."
+"We've seen how we can use our character's [code]_process()[/code] function "
+"to make it move continuously."
 msgstr ""
-"Viděli jsme, jak můžeme použít funkci [code]_process()[/code] naší "
-"postavy, aby se neustále pohybovala."
+"Viděli jsme, jak můžeme použít funkci [code]_process()[/code] naší postavy, "
+"aby se neustále pohybovala."
 
 #: course/lesson-11-time-delta/lesson.tres:34
+#, fuzzy
 msgid ""
-"But it's not just our character that has a [code]_process()[/code] "
-"function; Almost everything in the game has a [code]_process()[/code] "
-"function!"
+"But it's not just our character that has a [code]_process()[/code] function. "
+"Almost everything in the game has a [code]_process()[/code] function!"
 msgstr ""
-"Ale nejen naše postava má funkci [code]_process()[/code]; téměř vše ve "
-"hře má funkci [code]_process()[/code]!"
+"Ale nejen naše postava má funkci [code]_process()[/code]; téměř vše ve hře "
+"má funkci [code]_process()[/code]!"
 
 msgid ""
 "Dozens of times per second, Godot runs every [code]_process()[/code] "
 "function in the game to update the game world."
 msgstr ""
-"Desítkykrát za sekundu spustí Godot každou [code]_process()[/code] funkci"
-" ve hře, aby aktualizoval herní svět."
+"Desítkykrát za sekundu spustí Godot každou [code]_process()[/code] funkci ve "
+"hře, aby aktualizoval herní svět."
 
 msgid ""
-"After that, it displays an image of the game world on the screen. We call"
-" that image a [b]frame[/b]."
+"After that, it displays an image of the game world on the screen. We call "
+"that image a [b]frame[/b]."
 msgstr ""
 "Poté zobrazí na obrazovce obraz herního světa. Tento obrázek nazýváme "
 "[b]snímek[/b] (frame)."
@@ -67,11 +67,11 @@ msgstr ""
 
 #: course/lesson-11-time-delta/lesson.tres:52
 msgid ""
-"You may have heard of frames per second, or FPS for short. Games often "
-"run at 60 frames per second."
+"You may have heard of frames per second, or FPS for short. Games often run "
+"at 60 frames per second."
 msgstr ""
-"Možná jste už slyšeli o snímcích za sekundu, zkráceně FPS. Hry často běží"
-" rychlostí 60 snímků za sekundu."
+"Možná jste už slyšeli o snímcích za sekundu, zkráceně FPS. Hry často běží "
+"rychlostí 60 snímků za sekundu."
 
 msgid "It means that everything in the game updates 60 times each second."
 msgstr "To znamená, že se vše ve hře aktualizuje 60krát za sekundu."
@@ -84,11 +84,11 @@ msgstr ""
 "běží."
 
 msgid ""
-"On powerful computers, you may get frame rates in the hundreds or "
-"thousands of frames per second."
+"On powerful computers, you may get frame rates in the hundreds or thousands "
+"of frames per second."
 msgstr ""
-"Na výkonných počítačích můžete dosáhnout snímkové frekvence v řádu stovek"
-" nebo tisíců snímků za sekundu."
+"Na výkonných počítačích můžete dosáhnout snímkové frekvence v řádu stovek "
+"nebo tisíců snímků za sekundu."
 
 #: course/lesson-11-time-delta/lesson.tres:68
 msgid "Let's look at the [code]_process()[/code] function in more detail."
@@ -112,11 +112,10 @@ msgstr ""
 
 #: course/lesson-11-time-delta/lesson.tres:82
 msgid ""
-"The [code]_process()[/code] function has one parameter named "
-"[code]delta[/code]."
+"The [code]_process()[/code] function has one parameter named [code]delta[/"
+"code]."
 msgstr ""
-"Funkce [code]_process()[/code] má jeden parametr s názvem "
-"[code]delta[/code]."
+"Funkce [code]_process()[/code] má jeden parametr s názvem [code]delta[/code]."
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "rotate"
@@ -127,7 +126,6 @@ msgid "0.05"
 msgstr "0.05"
 
 #: course/lesson-11-time-delta/lesson.tres:83
-#: course/lesson-11-time-delta/lesson.tres:84
 msgid "delta"
 msgstr "delta"
 
@@ -136,39 +134,39 @@ msgid "Frames take varying amounts of time to calculate"
 msgstr "Výpočet snímků trvá různě dlouho."
 
 #: course/lesson-11-time-delta/lesson.tres:93
-#, fuzzy
 msgid ""
 "Depending on the game, the computer, and what the game engine needs to "
 "calculate, frames take more or less time to display."
 msgstr ""
 
-msgid "There will always be milliseconds variations from frame to frame."
+msgid "There will always be small variations from frame to frame."
 msgstr ""
 
 msgid ""
-"That is why the [code]_process()[/code] function receives a "
-"[code]delta[/code] parameter."
+"That is why the [code]_process()[/code] function receives a [code]delta[/"
+"code] parameter."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Delta represents a time difference. It's the time it took Godot to complete "
+"the previous frame, in seconds."
+msgstr ""
+"[code]delta[/code] je doba, za kterou Godot dokončil předchozí snímek, v "
+"sekundách."
+
+msgid ""
+"We can use it to make sure the game runs at the same speed on all computers."
 msgstr ""
 
 msgid ""
-"Delta represents a time difference. It's the time passed since the "
-"previous frame, in seconds."
+"This is because different computers have different processing power, so a "
+"fast computer will have more frames per second than a slow computer."
 msgstr ""
 
 msgid ""
-"We can use it to ensure that the changes between frames don't make the "
-"game's behavior unreliable."
-msgstr ""
-
-msgid ""
-"This is because different computers run differently, so a fast computer "
-"will have more frames per second than a slow computer."
-msgstr ""
-
-msgid ""
-"If we ignore [code]delta[/code], the game experience will vary, depending"
-" on the computer. Delta helps to make the game experience consistent for "
-"everyone."
+"If we ignore [code]delta[/code], movement speed will vary depending on the "
+"computer. Delta helps to make the game consistent for everyone."
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.tres:113
@@ -178,8 +176,8 @@ msgstr "Co víme o delta?"
 #: course/lesson-11-time-delta/lesson.tres:116
 #, fuzzy
 msgid ""
-"[code]delta[/code] is the time it took Godot to complete the previous "
-"frame in seconds."
+"[code]delta[/code] is the time it took Godot to complete the previous frame "
+"in seconds."
 msgstr ""
 "[code]delta[/code] je doba, za kterou Godot dokončil předchozí snímek, v "
 "sekundách."
@@ -187,25 +185,22 @@ msgstr ""
 msgid "It's very small because frames happen many times a second."
 msgstr "Je velmi malá, protože snímky vznikají mnohokrát za sekundu."
 
+#, fuzzy
 msgid ""
-"It varies each frame because Godot needs to process more or less each "
-"frame."
+"It varies each frame because Godot has more or less to process each frame."
 msgstr ""
-"V každém snímku se liší, protože Godot potřebuje zpracovat více či méně "
-"věcí během jednoho snímku."
+"V každém snímku se liší, protože Godot potřebuje zpracovat více či méně věcí "
+"během jednoho snímku."
 
 #: course/lesson-11-time-delta/lesson.tres:121
-#: course/lesson-11-time-delta/lesson.tres:122
 msgid "It's a value in seconds."
 msgstr "Je to hodnota v sekundách."
 
 #: course/lesson-11-time-delta/lesson.tres:121
-#: course/lesson-11-time-delta/lesson.tres:122
 msgid "It varies each frame."
 msgstr "V každém snímku se mění."
 
 #: course/lesson-11-time-delta/lesson.tres:121
-#: course/lesson-11-time-delta/lesson.tres:122
 #, fuzzy
 msgid "It's the time it took Godot to complete the previous frame."
 msgstr "Je to doba, za kterou Godot dokončil předchozí snímek."
@@ -223,19 +218,19 @@ msgstr ""
 "rozdíl v sekundách. Obecně se bude jednat o malé desetinné číslo."
 
 msgid ""
-"To apply [code]delta[/code], you need to [i]multiply[/i] your speed "
-"values by it."
+"To apply [code]delta[/code], you need to [i]multiply[/i] your speed values "
+"by it."
 msgstr ""
-"Chcete-li použít [code]delta[/code], musíte jím [i]vynásobit[/i] své "
-"hodnoty rychlosti."
+"Chcete-li použít [code]delta[/code], musíte jím [i]vynásobit[/i] své hodnoty "
+"rychlosti."
 
 #: course/lesson-11-time-delta/lesson.tres:153
 msgid ""
-"When multiplying by [code]delta[/code], you make motion [i]time-"
-"dependent[/i] rather than [i]frame-dependent[/i]."
+"When multiplying by [code]delta[/code], you make motion [i]time-dependent[/"
+"i] rather than [i]frame-dependent[/i]."
 msgstr ""
-"Vynásobením [code]delta[/code] zařídíte, že pohyb bude [i]časově "
-"závislý[/i], nikoli [i]rámcově závislý[/i]."
+"Vynásobením [code]delta[/code] zařídíte, že pohyb bude [i]časově závislý[/"
+"i], nikoli [i]rámcově závislý[/i]."
 
 msgid "That's essential to make your game consistent and fair."
 msgstr "To je nezbytné, aby hra působila plynule a hezky."
@@ -249,12 +244,13 @@ msgid ""
 "At the top of the lesson, we made the robot rotate a fixed amount every "
 "frame: [code]0.05[/code] radians."
 msgstr ""
-"Na začátku lekce jsme robota přiměli, aby se každý snímek otočil o pevnou"
-" hodnotu: [code]0,05[/code] radiánů."
+"Na začátku lekce jsme robota přiměli, aby se každý snímek otočil o pevnou "
+"hodnotu: [code]0,05[/code] radiánů."
 
+#, fuzzy
 msgid ""
-"In the example above, we now [i]multiply[/i] the argument by the very "
-"small [code]delta[/code] value, a value way below [code]1.0[/code]. It "
+"In the example above, we now [i]multiply[/i] the argument by the very small "
+"[code]delta[/code] value, a value much smaller than [code]1.0[/code]. It "
 "makes the robot turn at a constant speed over time."
 msgstr ""
 "Ve výše uvedeném příkladu nyní [i]vynásobíme[/i] argument velmi malou "
@@ -262,34 +258,36 @@ msgstr ""
 "Díky tomu se robot v průběhu času otáčí konstantní rychlostí."
 
 msgid ""
-"However, multiplying by a number below [code]1.0[/code] like "
-"[code]delta[/code] makes the result smaller."
+"However, multiplying by a number below [code]1.0[/code] like [code]delta[/"
+"code] makes the result smaller."
 msgstr ""
-"Vynásobení číslem nižším než [code]1,0[/code], například "
-"[code]delta[/code], však způsobí, že výsledek bude menší."
+"Vynásobení číslem nižším než [code]1,0[/code], například [code]delta[/code], "
+"však způsobí, že výsledek bude menší."
 
 msgid ""
-"To compensate for that and make the robot turn fast enough, we use a "
-"larger number than before, [code]3.0[/code] instead of [code]0.05[/code]."
+"To compensate for that and make the robot turn fast enough, we use a larger "
+"number than before, [code]3.0[/code] instead of [code]0.05[/code]."
 msgstr ""
 "Abychom toto kompenzovali a robot se otáčel dostatečně rychle, použijeme "
 "větší číslo než dříve, [code]3,0[/code] místo [code]0,05[/code]."
 
 msgid ""
 "Those numbers have two different [i]units[/i]: [code]0.05[/code] is an "
-"[i]angle[/i] in radians, while [code]3.0[/code] is an [i]angular "
-"speed[/i] in radians per second."
+"[i]angle[/i] in radians, while [code]3.0[/code] is an [i]angular speed[/i] "
+"in radians per second."
 msgstr ""
-"Tato čísla mají dvě různé [i]jednotky[/i]: [code]0,05[/code] je "
-"[i]úhel[/i] v radiánech, zatímco [code]3,0[/code] je [i]úhlová "
-"rychlost[/i] v radiánech za sekundu."
+"Tato čísla mají dvě různé [i]jednotky[/i]: [code]0,05[/code] je [i]úhel[/i] "
+"v radiánech, zatímco [code]3,0[/code] je [i]úhlová rychlost[/i] v radiánech "
+"za sekundu."
 
-msgid "When you multiply a speed by a time delta, it gives you an angle."
+#, fuzzy
+msgid ""
+"When you multiply an angular speed by a time delta, it gives you an angle."
 msgstr "Když vynásobíte rychlost deltou času, získáte úhel."
 
 msgid ""
-"Don't worry if it's a little confusing for now. It'll eventually click as"
-" you deal with speed, acceleration, and motion in your game projects."
+"Don't worry if it's a little confusing for now. It'll eventually click as "
+"you deal with speed, acceleration, and motion in your game projects."
 msgstr ""
 "Asi je to zatím trochu matoucí. Ale časem to rozlousknete, až se budete "
 "zabývat rychlostí, zrychlením a pohybem ve svých herních projektech."
@@ -303,38 +301,37 @@ msgid "The time it takes to display a new frame varies."
 msgstr "Doba zobrazení nového snímku se liší."
 
 msgid ""
-"If you don't take that time into account in your code, your game will "
-"have gameplay issues and bugs. Godot provides that time to the "
-"[code]_process()[/code] function through the [code]delta[/code] "
-"parameter."
+"If you don't take that time into account in your code, your game will have "
+"gameplay issues and bugs. Godot provides that time to the [code]_process()[/"
+"code] function through the [code]delta[/code] parameter."
 msgstr ""
-"Pokud tuto dobu v kódu nezohledníte, bude mít hra problémy s hratelností "
-"a chyby. Godot tento čas poskytuje funkci [code]_process()[/code] "
+"Pokud tuto dobu v kódu nezohledníte, bude mít hra problémy s hratelností a "
+"chyby. Godot tento čas poskytuje funkci [code]_process()[/code] "
 "prostřednictvím parametru [code]delta[/code]."
 
 msgid ""
 "In the example below, the top robot moves using [code]delta[/code]. As a "
 "result, it moves at a fixed speed."
 msgstr ""
-"V následujícím příkladu se horní robot pohybuje pomocí "
-"[code]delta[/code]. Výsledkem je, že se pohybuje pevnou rychlostí."
+"V následujícím příkladu se horní robot pohybuje pomocí [code]delta[/code]. "
+"Výsledkem je, že se pohybuje pevnou rychlostí."
 
 msgid ""
-"The bottom robot moves over a constant distance every frame, "
-"[i]without[/i] taking [code]delta[/code] into account. It will move "
-"faster or slower than the top robot on [i]your[/i] computer."
+"The bottom robot moves over a constant distance every frame, [i]without[/i] "
+"taking [code]delta[/code] into account. It will move faster or slower than "
+"the top robot on [i]your[/i] computer."
 msgstr ""
-"Spodní robot se pohybuje každý snímek po konstantní vzdálenosti, "
-"[i]bez[/i] zohlednění [code]delta[/code]. Bude se pohybovat rychleji nebo"
-" pomaleji než horní robot na [i]vašem[/i] počítači."
+"Spodní robot se pohybuje každý snímek po konstantní vzdálenosti, [i]bez[/i] "
+"zohlednění [code]delta[/code]. Bude se pohybovat rychleji nebo pomaleji než "
+"horní robot na [i]vašem[/i] počítači."
 
 msgid "The bottom robot will move [i]differently for everyone[/i]!"
 msgstr "Spodní robot se bude pohybovat [i]pro každého jinak[/i]!"
 
 #: course/lesson-11-time-delta/lesson.tres:215
 msgid ""
-"Multiplying time-sensitive values by [code]delta[/code] makes them [b"
-"]time-dependent[/b] rather than [b]frame-dependent[/b]."
+"Multiplying time-sensitive values by [code]delta[/code] makes them [b]time-"
+"dependent[/b] rather than [b]frame-dependent[/b]."
 msgstr ""
 "Vynásobením časově citlivých hodnot [code]delta[/code] se tyto hodnoty "
 "stanou [b]závislými na čase[/b] namísto [b]závislých na snímku[/b]."
@@ -342,14 +339,16 @@ msgstr ""
 msgid "Thanks to that, we get reliable movement over time."
 msgstr "Díky tomu získáváme spolehlivý pohyb v průběhu času."
 
+#, fuzzy
 msgid ""
-"Without [code]delta[/code], frame times vary from computer to computer "
-"and during gameplay. Because of that, the movement will differ for every "
-"player, making the game inconsistent and messy."
+"Frame times vary from computer to computer and from frame to frame during "
+"gameplay. Because frame times vary, if [code]delta[/code] is not used, "
+"movement speed will differ for each player, making the game inconsistent and "
+"messy."
 msgstr ""
-"Bez [code]delta[/code] se časy snímků liší od počítače k počítači a během"
-" hraní. Z tohoto důvodu se pohyb bude u každého hráče lišit, takže hra "
-"bude nekonzistentní a chaotická."
+"Bez [code]delta[/code] se časy snímků liší od počítače k počítači a během "
+"hraní. Z tohoto důvodu se pohyb bude u každého hráče lišit, takže hra bude "
+"nekonzistentní a chaotická."
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
@@ -360,15 +359,15 @@ msgid "[code]rotation_speed * delta[/code]"
 msgstr "[code]rotation_speed * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
+#, fuzzy
 msgid ""
-"The [code]*[/code] symbol means we're multiplying "
-"[code]rotation_speed[/code] by [code]delta[/code] time."
+"The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/"
+"code] by [code]delta[/code]."
 msgstr ""
 "Symbol [code]*[/code] znamená, že násobíme [code]rychlost rotace[/code] "
 "[code]delta[/code]časem."
 
 #: course/lesson-11-time-delta/lesson.tres:231
-#: course/lesson-11-time-delta/lesson.tres:232
 msgid "We're multiplying rotation_speed by delta."
 msgstr "Násobíme rotation_speed deltou."
 
@@ -385,7 +384,9 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "Odečteme delta od rotation_speed."
 
 #: course/lesson-11-time-delta/lesson.tres:241
-msgid "In the next practice, we'll use delta to make rotating time-dependent."
+#, fuzzy
+msgid ""
+"In the next practice, we'll use delta to make the rotation time-dependent."
 msgstr "V dalším cvičení použijeme delta k tomu, aby rotace závisela na čase."
 
 #: course/lesson-11-time-delta/lesson.tres:249
@@ -397,38 +398,39 @@ msgid "At the moment, the rotation of the robot is frame-dependent."
 msgstr "V současné době je otáčení robota závislé na snímku."
 
 msgid "Add [code]delta[/code] to make the rotational speed time-dependent."
-msgstr "Přidejte [code]delta[/code], aby byla rychlost otáčení závislá na čase."
+msgstr ""
+"Přidejte [code]delta[/code], aby byla rychlost otáčení závislá na čase."
 
 msgid "The robot should rotate [code]2[/code] radians per second."
 msgstr "Robot by se měl otáčet [code]2[/code] radiány za sekundu."
 
-#: course/lesson-11-time-delta/lesson.tres:269
+#: course/lesson-11-time-delta/lesson.tres:270
 msgid "Moving in a Circle Using Delta"
 msgstr "Pohyb v kruhu pomocí Delta"
 
-#: course/lesson-11-time-delta/lesson.tres:270
+#: course/lesson-11-time-delta/lesson.tres:271
 msgid "In this practice, make the robot move in a smooth circle using delta."
 msgstr ""
-"V tomto cvičení přimějte robota, aby se pohyboval po plynulé kružnici "
-"pomocí delta."
+"V tomto cvičení přimějte robota, aby se pohyboval po plynulé kružnici pomocí "
+"delta."
 
+#, fuzzy
 msgid ""
-"To get this movement, the robot should rotate [code]2[/code] radians per "
-"second and move [code]100[/code] pixels per second towards clockwise."
+"The robot should rotate [code]2[/code] radians per second and move "
+"[code]100[/code] pixels per second forward. This combination makes it travel "
+"in a clockwise circle."
 msgstr ""
-"Abyste dosáhli tohoto pohybu, měl by se robot otáčet [code]2[/code] "
-"radiány za sekundu a pohybovat se [code]100[/code] pixelů za sekundu "
-"směrem doprava."
+"Abyste dosáhli tohoto pohybu, měl by se robot otáčet [code]2[/code] radiány "
+"za sekundu a pohybovat se [code]100[/code] pixelů za sekundu směrem doprava."
 
 msgid ""
 "[b]Note:[/b] Please write the values in the parentheses when calling the "
-"functions. If you define extra variables, we will not be able to check "
-"your practice."
+"functions. If you define extra variables, we will not be able to check your "
+"practice."
 msgstr ""
 "[b]Poznámka:[/b] Při volání funkcí pište hodnoty do závorek. Pokud "
 "definujete další proměnné, nebudeme moci váš postup zkontrolovat."
 
-#: course/lesson-11-time-delta/lesson.tres:288
+#: course/lesson-11-time-delta/lesson.tres:290
 msgid "Time Delta"
 msgstr "Delta času"
-
