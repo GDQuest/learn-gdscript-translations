@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-10-11 01:19+0000\n"
+"PO-Revision-Date: 2026-01-30 10:01+0000\n"
 "Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-11-time-delta/tr/>\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
@@ -29,13 +30,12 @@ msgstr ""
 "hareket ettirebileceğimizi gördük."
 
 #: course/lesson-11-time-delta/lesson.tres:34
-#, fuzzy
 msgid ""
 "But it's not just our character that has a [code]_process()[/code] function. "
 "Almost everything in the game has a [code]_process()[/code] function!"
 msgstr ""
 "Ancak [code]_process()[/code] fonksiyonuna sahip olan sadece bizim "
-"karakterimiz değil; oyundaki neredeyse her şeyin içinde bir [code]_process()"
+"karakterimiz değil. Oyundaki neredeyse her şeyin içinde bir [code]_process()"
 "[/code] fonksiyonu var!"
 
 msgid ""
@@ -148,9 +148,8 @@ msgstr ""
 "Oyuna, bilgisayara ve oyun motorunun neyi hesaplaması gerektiğine bağlı "
 "olarak, karelerin görüntülenmesi daha fazla veya daha az zaman alır."
 
-#, fuzzy
 msgid "There will always be small variations from frame to frame."
-msgstr "Kareden kareye, her zaman milisaniyelik farklılıklar olacaktır."
+msgstr "Kareden kareye, her zaman küçük farklılıklar olacaktır."
 
 msgid ""
 "That is why the [code]_process()[/code] function receives a [code]delta[/"
@@ -159,35 +158,34 @@ msgstr ""
 "Bu nedenle [code]_process()[/code] fonksiyonunun bir [code]delta[/code] "
 "(küçük değişim) alınan değişkeni vardır."
 
-#, fuzzy
 msgid ""
 "Delta represents a time difference. It's the time it took Godot to complete "
 "the previous frame, in seconds."
 msgstr ""
-"Delta bir zaman farkını temsil eder. Önceki kareden bu yana, saniye "
-"cinsinden geçen süredir."
+"Delta bir zaman farkını temsil eder. Godot'nun önceki kareyi tamamlaması "
+"için geçen, saniye cinsinden süredir."
 
 msgid ""
 "We can use it to make sure the game runs at the same speed on all computers."
 msgstr ""
+"Bunu, oyunun tüm bilgisayarlarda aynı hızda çalıştığından emin olmak için "
+"kullanabiliriz."
 
-#, fuzzy
 msgid ""
 "This is because different computers have different processing power, so a "
 "fast computer will have more frames per second than a slow computer."
 msgstr ""
-"Bunun nedeni farklı bilgisayarların farklı çalışmasıdır, yani hızlı bir "
-"bilgisayar, yavaş bir bilgisayara göre saniyede daha fazla kareye sahip "
-"olacaktır."
+"Bunun nedeni farklı bilgisayarların farklı işlem gücünün olmasıdır, yani "
+"hızlı bir bilgisayar yavaş bir bilgisayara göre saniyede daha fazla kareye "
+"sahip olacaktır."
 
-#, fuzzy
 msgid ""
 "If we ignore [code]delta[/code], movement speed will vary depending on the "
 "computer. Delta helps to make the game consistent for everyone."
 msgstr ""
-"Eğer [code]delta[/code] 'yı görmezden gelirsek, oyun deneyimi, bilgisayara "
-"bağlı olarak değişecektir. Delta, oyun deneyimini herkes için tutarlı hale "
-"getirmeye yardımcı olur."
+"Eğer [code]delta[/code] 'yı görmezden gelirsek, hareket hızı bilgisayara "
+"bağlı olarak değişecektir. Delta, oyunu herkes için tutarlı hale getirmeye "
+"yardımcı olur."
 
 #: course/lesson-11-time-delta/lesson.tres:113
 msgid "What do we know about delta?"
@@ -204,12 +202,11 @@ msgstr ""
 msgid "It's very small because frames happen many times a second."
 msgstr "Çok küçüktür, çünkü kareler saniyede birçok kez gerçekleşir."
 
-#, fuzzy
 msgid ""
 "It varies each frame because Godot has more or less to process each frame."
 msgstr ""
-"Her karede değişir, çünkü Godot'nun her karede, daha az ya da daha çok işlem "
-"yapması gerekir."
+"Her karede değişir, çünkü Godot'nun bir kareyi işlemesi daha kısa ya da daha "
+"uzun sürebilir."
 
 #: course/lesson-11-time-delta/lesson.tres:121
 msgid "It's a value in seconds."
@@ -265,15 +262,14 @@ msgstr ""
 "Dersin başında, robotun her karede sabit bir miktarda dönmesini sağladık: "
 "[code]0.05[/code] radyan."
 
-#, fuzzy
 msgid ""
 "In the example above, we now [i]multiply[/i] the argument by the very small "
 "[code]delta[/code] value, a value much smaller than [code]1.0[/code]. It "
 "makes the robot turn at a constant speed over time."
 msgstr ""
-"Yukarıdaki örnekte şimdi, girilen değişkeni, [code]1.0[/code] değerinin çok "
-"altında bir değer olan, çok küçük [code]delta[/code] değeriyle "
-"[i]çarpıyoruz[/i]. Bu, robotun zaman içinde sabit bir hızda dönmesini sağlar."
+"Yukarıdaki örnekte girilen değişkeni bu kez, değeri [code]1.0[/code] 'in çok "
+"altında olan, çok küçük [code]delta[/code] değeriyle [i]çarpıyoruz[/i]. Bu, "
+"robotun zaman içinde sabit bir hızda dönmesini sağlar."
 
 msgid ""
 "However, multiplying by a number below [code]1.0[/code] like [code]delta[/"
@@ -299,10 +295,10 @@ msgstr ""
 "cinsinden bir [i]açı[/i] iken, [code]3.0[/code] ise saniyede radyan "
 "cinsinden bir [i]açısal hız[/i] 'dır."
 
-#, fuzzy
 msgid ""
 "When you multiply an angular speed by a time delta, it gives you an angle."
-msgstr "Bir hızı, bir zaman deltası ile çarptığınızda, size bir açı verir."
+msgstr ""
+"Bir açısal hızı bir zaman deltası ile çarptığınızda, size bir açı verir."
 
 msgid ""
 "Don't worry if it's a little confusing for now. It'll eventually click as "
@@ -358,16 +354,16 @@ msgstr ""
 msgid "Thanks to that, we get reliable movement over time."
 msgstr "Bu sayede, güvenilir bir zamansal hareket elde ediyoruz."
 
-#, fuzzy
 msgid ""
 "Frame times vary from computer to computer and from frame to frame during "
 "gameplay. Because frame times vary, if [code]delta[/code] is not used, "
 "movement speed will differ for each player, making the game inconsistent and "
 "messy."
 msgstr ""
-"[code]delta[/code] olmadan, kare süreleri bilgisayardan bilgisayara ve oyun "
-"sırasında değişir. Bu olursa, hareket, her oyuncu için farklılık gösterecek, "
-"oyunu tutarsız ve can sıkıcı hale getirecektir."
+"Kare süreleri bilgisayardan bilgisayara ve oyun sırasında kareden kareye "
+"değişir. Kare süreleri değiştiği için de, eğer [code]delta[/code] "
+"kullanılmazsa, hareket hızı her oyuncu için farklılık gösterecek, oyunu "
+"tutarsız ve can sıkıcı hale getirecektir."
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
@@ -378,7 +374,6 @@ msgid "[code]rotation_speed * delta[/code]"
 msgstr "[code]rotation_speed * delta[/code] (dönme_hızı * delta)"
 
 #: course/lesson-11-time-delta/lesson.tres:230
-#, fuzzy
 msgid ""
 "The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/"
 "code] by [code]delta[/code]."
@@ -403,7 +398,6 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "rotation_speed (dönme hızı) ndan delta'yı çıkartıyoruz."
 
 #: course/lesson-11-time-delta/lesson.tres:241
-#, fuzzy
 msgid ""
 "In the next practice, we'll use delta to make the rotation time-dependent."
 msgstr ""
@@ -434,15 +428,14 @@ msgid "In this practice, make the robot move in a smooth circle using delta."
 msgstr ""
 "Bu uygulamada, delta kullanarak, robotun düzgün bir daire çizmesini sağlayın."
 
-#, fuzzy
 msgid ""
 "The robot should rotate [code]2[/code] radians per second and move "
 "[code]100[/code] pixels per second forward. This combination makes it travel "
 "in a clockwise circle."
 msgstr ""
-"Bu hareketi elde etmek için, robotun, saat yönünde, saniyede [code]2[/code] "
-"radyan dönmesi (rotate) ve saniyede [code]100[/code] piksel hareket etmesi "
-"(move_local_x) gerekir."
+"Robotun, saniyede [code]2[/code] radyan dönmesi ve saniyede [code]100[/code] "
+"piksel ileri hareket etmesi gerekir. Bu iki hareketin birleşmesi robotun "
+"saat yönünde dairesel hareket etmesini sağlar."
 
 msgid ""
 "[b]Note:[/b] Please write the values in the parentheses when calling the "
