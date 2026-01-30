@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-10-11 01:19+0000\n"
+"PO-Revision-Date: 2026-01-31 17:01+0000\n"
 "Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/error-explanations/tr/>\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -79,24 +80,25 @@ msgstr ""
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
-#, fuzzy
 msgid ""
 "You get this error when you try to assign a value to something that is not a "
 "variable."
 msgstr ""
-"Bu hatayı alırsanız, büyük ihtimalle değişken olmayan bir şeylere bir değer "
-"atamaya çalışıyorsunuz demektir ve bu mümkün değildir. Sadece değişkenlere "
-"değere atayabilirsiniz."
+"Bu hatayı, değişken olmayan bir şeye değer atamaya çalıştığınızda alırsınız."
 
 msgid ""
 "You can only assign values to variables. You cannot assign values to "
 "function calls or calculations."
 msgstr ""
+"Yalnızca değişkenlere değer atayabilirsiniz. Fonksiyon çağrılarına veya "
+"hesaplamalara değer atayamazsınız."
 
 msgid ""
 "For example, you cannot write [code]randi() = 5[/code] because [code]randi()"
 "[/code] is a function call, not a variable."
 msgstr ""
+"Örneğin, [code]randi() = 5[/code] yazamazsınız çünkü [code]randi()[/code] "
+"bir değişken değil, bir fonksiyon çağrısıdır."
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
@@ -104,40 +106,52 @@ msgid ""
 "Check what you wrote on the left side of the equal sign (=). Make sure it is "
 "a variable name."
 msgstr ""
+"Eşittir işaretinin (=) sol tarafına yazdıklarınızı kontrol edin. Bunun bir "
+"değişken adı olduğundan emin olun."
 
 msgid ""
 "If you see parentheses () on the left side, you might be trying to assign to "
 "a function call. Remove the parentheses and the function call."
 msgstr ""
+"Sol tarafta parantez () görüyorsanız, bir fonksiyon çağrısına atama yapmaya "
+"çalışıyor olabilirsiniz. Parantezleri ve fonksiyon çağrısını kaldırın."
 
-#, fuzzy
 msgid ""
 "If you are trying to check if two values are equal in a condition, use two "
 "equal signs (==) instead of one (=)."
 msgstr ""
-"Bir diğer olasılık ise, bir koşul işleminde eşitliği test etmek istemiş, ama "
-"\"==\" yerine \"=\" yazmışsınızdır."
+"Bir koşulda iki değerin eşit olup olmadığını kontrol etmek istiyorsanız, bir "
+"tane eşittir (=) yerine iki tane eşittir işareti (==) kullanın."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
 msgid "You get this error when you try to change the value of a constant."
 msgstr ""
+"Bu hata ile, bir sabitin değerini değiştirmeye çalıştığınızda "
+"karşılaşırsınız."
 
 msgid ""
 "A constant is a name that holds a value that cannot change. It's like a "
 "variable, but once you set its value, you cannot replace it."
 msgstr ""
+"Bir sabit, değişmeyecek bir değeri tutan bir isimdir. Değişken gibidir, "
+"ancak değerini belirledikten sonra değiştiremezsiniz."
 
 msgid ""
 "For example, if you write [code]const MAX_SPEED = 100[/code], you cannot "
 "later write [code]MAX_SPEED = 200[/code] or [code]MAX_SPEED += 50[/code]."
 msgstr ""
+"Örneğin, [code]const MAX_SPEED = 100[/code] yazarsanız, daha sonra "
+"[code]MAX_SPEED = 200[/code] veya [code]MAX_SPEED += 50[/code] yazamazsınız."
 
 msgid ""
 "Many constants are built into Godot and GDScript, and you cannot change them "
 "either. For instance, you cannot write [code]Vector2 = 5[/code] or [code]PI "
 "= 3[/code]. Constant names usually use capital letters."
 msgstr ""
+"Godot ve GDScript'te yerleşik olarak birçok sabit değer bulunur ve bunları "
+"da değiştiremezsiniz. Örneğin, [code]Vector2 = 5[/code] veya [code]PI = 3[/"
+"code] yazamazsınız. Sabitlerin isimleri genellikle büyük harflerle yazılır."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
