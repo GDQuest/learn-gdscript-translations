@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-10-11 01:19+0000\n"
+"PO-Revision-Date: 2026-01-30 10:01+0000\n"
 "Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-18-for-loops/tr/>\n"
@@ -18,52 +18,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
-#, fuzzy
 msgid ""
 "In the last lesson, we looked at [code]while[/code] loops. We found they "
 "were useful if we don't know how many times we should repeat code. But "
 "[code]while[/code] loops can result in infinite loops if we're not careful."
 msgstr ""
 "Son derste, [code]while[/code] döngülerine bakmıştık. Kodu kaç kez "
-"tekrarlamamız gerektiğini bilmediğimiz durumlarda yararlı olduklarını gördük."
+"tekrarlamamız gerektiğini bilmediğimiz durumlarda yararlı olduklarını "
+"gördük. Ancak [code]while[/code] döngüleri, dikkatli olmazsak sonsuz "
+"döngülere neden olabilir."
 
-#, fuzzy
 msgid ""
 "For example, the loop below never ends because we never increment "
 "[code]number[/code]."
 msgstr ""
-"Aşağıdaki döngü asla sona ermez çünkü [code]number[/code] değişkenini "
+"Aşağıdaki döngü asla sona ermez, çünkü [code]number[/code] değişkenini hiç "
 "arttırmıyoruz."
 
 #: course/lesson-18-for-loops/lesson.tres:36
-#, fuzzy
 msgid ""
 "There's a safer and easier kind of loop: the [code]for[/code] loop. We'll "
 "look at it in this lesson."
 msgstr ""
-"Daha güvenli ve genellikle daha kolay bir döngü türü vardır: [code]for[/"
-"code] (... için) döngüsü."
+"Daha güvenli ve daha kolay bir döngü türü vardır: [code]for[/code] (... "
+"için) döngüsü. Bu derste buna bakacağız."
 
-#, fuzzy
 msgid ""
 "Unlike [code]while[/code] loops, [code]for[/code] loops don't run forever, "
 "so you're much less likely to get infinite loop bugs in your game. [b]We "
 "recommend using for loops instead of while loops because of this[/b]."
 msgstr ""
 "[code]while[/code] döngülerinin aksine, [code]for[/code] döngüleri sonsuza "
-"kadar çalışmaz, bu nedenle oyununda hata oluşma olasılığı çok daha düşüktür. "
-"[b]Bu nedenle while döngüleri yerine for döngülerini tercih etmenizi "
-"öneririz[/b]."
+"kadar çalışmaz, bu nedenle oyununuzda sonsuz döngü hataları oluşma olasılığı "
+"çok daha düşüktür. [b]Bu nedenle, while döngüleri yerine for döngülerini "
+"tercih etmenizi öneririz[/b]."
 
-#, fuzzy
 msgid ""
 "In this example, I changed the code above to use a [code]for[/code] loop "
 "instead. The loop below will change the [code]cell[/code] three times."
 msgstr ""
-"Yukarıdaki kodu, [code]for[/code] döngüsünü kullanacak şekilde değiştirelim."
+"Bu örnekte, yukarıdaki kodu [code]for[/code] döngüsü kullanacak şekilde "
+"değiştirdim. Aşağıdaki döngü, [code]cell[/code] öğesini üç kez "
+"değiştirecektir."
 
 #: course/lesson-18-for-loops/lesson.tres:60
 msgid "Let's explain what's going on here."
@@ -225,11 +225,12 @@ msgid ""
 "move the robot that many times. This is simpler than checking if the robot "
 "reached the end of the board over and over."
 msgstr ""
+"[code]for[/code] döngüsü ile önce tahtanın genişliğini kontrol ediyoruz. "
+"Ardından robotu bu kadar kere hareket ettiriyoruz. Bu, robotun tahtanın "
+"sonuna ulaşıp ulaşmadığını tekrar tekrar kontrol etmekten daha basittir."
 
-#, fuzzy
 msgid "The function still works the same way. You can run it below."
-msgstr ""
-"Fonksiyon hala aynı şekilde çalışmaktadır. Aşağıda çalıştırabilirsiniz."
+msgstr "Fonksiyon hala aynı şekilde çalışmaktadır. Aşağıda çalıştırabilirsiniz."
 
 #: course/lesson-18-for-loops/lesson.tres:237
 msgid ""
@@ -254,18 +255,15 @@ msgstr ""
 "Bu kez, tahtanın altına hareket etmesini sağlamak için [code]move_to_bottom()"
 "[/code] fonksiyonunda bir [code]for[/code] döngüsü kullanın."
 
-#, fuzzy
 msgid ""
 "The board size is determined by the [code]Vector2[/code] variable named "
 "[code]board_size[/code]."
 msgstr ""
-"Tahtanın boyutu, [code]Vector2[/code] tipindeki [code]board_size[/code] "
-"değişkeni tarafından belirleniyor."
+"Tahtanın boyutu [code]Vector2[/code] tipindeki [code]board_size[/code] "
+"(tahta_boyu) tarafından belirlenir."
 
 msgid "The robot's starting cell is [code]Vector2(2, 0)[/code]."
-msgstr ""
-"Robotun konumu olan\"cell\" değişkenin, başlangıç değeri olarak "
-"[code]Vector2(2, 0)[/code]."
+msgstr "Robotun başlangıç hücresi, cell, değeri [code]Vector2(2, 0)[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:263
 msgid ""

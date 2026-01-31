@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2023-10-08 04:14+0000\n"
+"PO-Revision-Date: 2026-01-30 10:01+0000\n"
 "Last-Translator: Yılmaz Durmaz <yilmaz_durmaz@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/glossary_database/tr/>\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: member function
@@ -245,7 +246,6 @@ msgstr "girilen değişkenler, girdi değişkenleri, argümanlar"
 
 #. Reference: argument
 #: course/glossary.csv:41
-#, fuzzy
 msgid ""
 "An argument is a value you pass to a function when you call it. For example, "
 "in the function call [code]rotate(0.5)[/code], the value [code]0.5[/code] "
@@ -255,7 +255,6 @@ msgstr ""
 "girdiğiniz değerlerdir. Örneğin, [code]rotate(0.5)[/code] çağırmasında, "
 "parantez içindeki [code]0.5[/code] değeri bir girilen değişkendir."
 
-#, fuzzy
 msgid ""
 "A function can take no arguments, one argument, or multiple arguments. "
 "Arguments can be required or optional."
@@ -264,15 +263,13 @@ msgstr ""
 "değerler de alabilir. Girilen değişkenler zorunlu ya da isteğe bağlı "
 "olabilirler."
 
-#, fuzzy
 msgid ""
 "When a function requires multiple arguments, you separate them with commas. "
 "Here's an example: [code]jump(50, 100)[/code]"
 msgstr ""
-"Bir fonksiyon çoklu değerler bekliyorsa, değerleri virgül ile ayırmalısınız; "
-"mesela bu çağrıda olduğu gibi [code]jump(50, 100)[/code]"
+"Bir fonksiyon çoklu değerler bekliyorsa, değerleri virgül ile ayırmalısınız. "
+"İşte bir örnek: [code]jump(50, 100)[/code]"
 
-#, fuzzy
 msgid ""
 "When you [i]call[/i] a function, we call the values in parentheses "
 "[i]arguments[/i]."
@@ -284,18 +281,18 @@ msgid ""
 "But when you [i]write[/i] a function definition, we call them [i]parameters[/"
 "i] instead. Here's an example:"
 msgstr ""
+"Ancak bir fonksiyon tanımı [i]yazarken[/i], bunlara [i]alınan değişkenler "
+"(parametre)[/i] diyoruz. İşte bir örnek:"
 
 msgid "[code]func move_to_position(x, y):[/code]"
-msgstr ""
+msgstr "[code]func move_to_position(x, y):[/code]"
 
-#, fuzzy
 msgid ""
 "In this function definition, [code]x[/code] and [code]y[/code] are "
 "[i]parameters[/i]."
 msgstr ""
-"Buna karşılık, bir fonksiyon tanımını yazarken, fonksiyonun [i]alınan "
-"değişkenleri (parameterler)[/i]'nden bahsederiz. Sıradaki örnekte, [code]x[/"
-"code] ve [code]y[/code] [i]alınan değişken (parametre)[/i]'lerdir."
+"Bu fonksiyon tanımında, [code]x[/code] ve [code]y[/code] [i]alınan değişken "
+"(parametre)[/i]'lerdir."
 
 #. Reference: array
 #: course/glossary.csv:48
