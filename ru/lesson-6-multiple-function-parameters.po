@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2025-07-21 08:02+0000\n"
-"Last-Translator: Deniil <bug@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-02-03 15:01+0000\n"
+"Last-Translator: Marazmatik <vovavalenkov15@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-6-multiple-function-parameters/ru/>\n"
 "Language: ru\n"
@@ -19,15 +19,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:14
-#, fuzzy
 msgid ""
 "In the previous lesson, you created a function to draw a square of a fixed "
 "size."
 msgstr ""
-"В предыдущей части вы создали функцию для рисования квадрата фиксированного "
+"В предыдущем уроке вы создали функцию для рисования квадрата фиксированного "
 "размера."
 
 msgid ""
@@ -39,67 +39,77 @@ msgstr ""
 "рисования квадрата [i]любого[/i] размера. Или лучше: любого вида "
 "прямоугольника (квадрат - это частный случай прямоугольника)."
 
-#, fuzzy
 msgid ""
 "In previous lessons, you used the [code]rotate()[/code] function and gave it "
 "an [b]argument[/b]."
 msgstr ""
-"В предыдущих уроках при вызове функции [code]rotate()[/code] вы передавали "
-"ей [i]аргумент[/i]."
+"В предыдущих уроках при вызове функции [code]rotate()[/code], вы передавали "
+"ей [b]аргумент[/b]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:38
-#, fuzzy
 msgid ""
 "Just like [code]rotate()[/code], we can also give our functions "
 "[b]parameters[/b]."
 msgstr ""
-"Мы можем передать [i]параметры[/i] и нашей функции, подобно тому, как делали "
-"это в [code]rotate()[/code]. Параметры — это метки, которые вы даете "
-"значениям, передаваемым в функцию."
+"Так же, как и у функции [code]rotate()[/code], у наших функций тоже могут "
+"быть [b]параметры[/b]."
 
 msgid ""
 "Parameters act as [i]placeholders[/i] in the function's code. They work like "
 "blank spaces that get filled in each time someone calls your function."
 msgstr ""
+"Параметры выступают в коде функции в качестве [i]заполнителей[/i]. Они "
+"работают как пустые места, которые заполняются каждый раз, когда кто-то "
+"вызывает вашу функцию."
 
 msgid ""
 "When you write a function with parameters, you create a flexible template "
 "that can work with different values each time you use it. Let's see how the "
 "rotate() function is defined and uses a parameter:"
 msgstr ""
+"Когда вы пишете функцию с параметрами, вы создаёте гибкий шаблон, который "
+"может работать с разными значениями при каждом её использовании. Давайте "
+"посмотрим, как определена функция rotate() и как она использует параметр:"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:62
-#, fuzzy
 msgid ""
 "For now, focus on the first line, the function [i]definition[/i]: [code]func "
 "rotate(radians)[/code]."
 msgstr ""
-"А сейчас сосредоточьтесь на этой строке: [code]func rotate(radians)[/code]."
+"Пока что сосредоточьтесь на первой строке — [i]определении функции[/i]: "
+"[code]func rotate(radians)[/code]."
 
 msgid ""
 "The word [code]radians[/code] is the function's parameter. It's the "
 "placeholder that gets \"replaced\" with the actual value when you call the "
 "function."
 msgstr ""
+"Слово [code]radians[/code] — это параметр функции. Он служит заполнителем, "
+"который \"заменяется\" фактическим значением при вызове функции."
 
-#, fuzzy
 msgid ""
 "When you [i]call[/i] this function with [code]rotate(0.5)[/code], the "
 "computer replaces the name \"radians\" in the function with [code]0.5[/code]."
 msgstr ""
-"Когда вы вызываете [code]rotate(0.5)[/code], компьютер привязывает значение "
-"[code]0.5[/code] к метке [code]radians[/code]."
+"Когда вы вызываете эту функцию как [code]rotate(0.5)[/code], компьютер "
+"заменяет имя \"radians\" внутри функции на значение [code]0.5[/code]."
 
 msgid ""
 "Each time you call the function, the replacement happens again: If you call "
 "[code]rotate(1.2)[/code], [code]radians[/code] becomes [code]1.2[/code]."
 msgstr ""
+"Каждый раз при вызове функции эта замена происходит заново: если вы вызовете "
+"[code]rotate(1.2)[/code], параметр [code]radians[/code] примет значение "
+"[code]1.2[/code]."
 
 msgid ""
 "The parameter can be filled with a number, text, or anything else. In this "
 "lesson, we'll only use numbers as we have yet to learn about other value "
 "types."
 msgstr ""
+"Параметр может принимать число, текст или любой другой тип данных. В этом "
+"уроке мы будем использовать только числа, так как другие типы значений мы "
+"ещё не изучали."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:78
 msgid "What is a function parameter?"
@@ -110,6 +120,8 @@ msgid ""
 "A parameter is a placeholder that gets replaced with the actual value you "
 "pass when calling the function."
 msgstr ""
+"Параметр — это заполнитель, который заменяется фактическим значением, "
+"передаваемым при вызове функции."
 
 #, fuzzy
 msgid ""
@@ -136,22 +148,23 @@ msgid "How to create functions with parameters"
 msgstr "Как создавать функции с параметрами"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:94
-#, fuzzy
 msgid ""
 "When you write a function [i]definition[/i] (the line starting with the "
 "[code]func[/code] keyword), you can add parameters."
 msgstr ""
-"Вы можете задать параметры вашей функции при написании её [i]определения[/i] "
-"(строки, начинающейся с ключевого слова [code]func[/code])."
+"Когда вы пишете [i]определение[/i] функции (строку, начинающуюся с ключевого "
+"слова [code]func[/code]), вы можете добавить параметры."
 
 msgid ""
 "To add a parameter, write a placeholder name inside the parentheses. When "
 "someone calls your function with a value, every copy of the parameter in the "
 "function gets replaced with that value."
 msgstr ""
+"Чтобы добавить параметр, укажите имя-заполнитель внутри круглых скобок. "
+"Когда кто-то вызывает вашу функцию с каким-либо значением, все вхождения "
+"этого параметра внутри функции заменяются на переданное значение."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:116
-#, fuzzy
 msgid ""
 "You can give parameters any name! How you name functions and parameters is "
 "up to you."
@@ -159,14 +172,13 @@ msgstr ""
 "Вы можете дать параметрам любое имя. Как назвать функции и параметры — "
 "решаете вы."
 
-#, fuzzy
 msgid ""
 "Just remember that names cannot contain spaces. To write parameter names "
 "with multiple words, in GDScript, we use underscores by convention."
 msgstr ""
-"Просто помните, что имена не могут содержать пробелов. Для записи имен "
-"параметров, состоящих из нескольких слов, необходимо использовать символы "
-"подчёркивания."
+"Просто помните, что имена не могут содержать пробелов. Чтобы писать имена "
+"параметров, состоящие из нескольких слов, в GDScript по соглашению "
+"используются символы нижнего подчёркивания."
 
 msgid ""
 "The following function definition is exactly equivalent to the previous one."
@@ -177,8 +189,10 @@ msgid ""
 "Parameters make your code easier to reuse. You write the function once as a "
 "template, then you can call it many times with different values."
 msgstr ""
+"Параметры делают ваш код более удобным для повторного использования. Вы один "
+"раз пишете функцию как шаблон, а затем можете вызывать её многократно с "
+"разными значениями."
 
-#, fuzzy
 msgid ""
 "Here's an example with a function to draw any square. The parameter "
 "[code]length[/code] is a placeholder. Use the slider to change the value. "
@@ -186,8 +200,10 @@ msgid ""
 "placeholder gets replaced with your value, drawing squares of different "
 "sizes."
 msgstr ""
-"Вот пример с функцией для рисования любого квадрата. Используйте ползунок, "
-"чтобы изменить значение параметра, передаваемого в функцию, и нарисовать "
+"Вот пример функции для рисования квадрата любого размера. Параметр "
+"[code]length[/code] — это заполнитель. Используйте ползунок, чтобы изменить "
+"значение. Когда вы нажмёте кнопку, приложение вызовет [code]draw_square()[/"
+"code], и заполнитель будет заменён на выбранное вами значение, рисуя "
 "квадраты разных размеров."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:160
@@ -234,24 +250,27 @@ msgid "Functions can have multiple parameters"
 msgstr "Функции могут иметь несколько параметров"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:176
-#, fuzzy
 msgid ""
 "A function can have multiple parameters. You can use as many placeholders as "
 "you [i]need[/i]."
 msgstr ""
-"В функции можно использовать несколько параметров. По сути, вы можете "
-"использовать столько параметров, сколько вам [i]нужно[/i]."
+"Функция может иметь несколько параметров. Вы можете использовать столько "
+"заполнителей, сколько вам [i]нужно[/i]."
 
-#, fuzzy
 msgid ""
 "To add multiple parameters, write a comma between each placeholder name."
-msgstr "Чтобы разделить параметры функции, между ними нужно поставить запятую."
+msgstr ""
+"Чтобы добавить несколько параметров, перечислите имена-заполнители через "
+"запятую."
 
 msgid ""
 "For example, [code]func move(x, y)[/code] has two placeholders: [code]x[/"
 "code] and [code]y[/code]. Each one gets replaced with its own value when you "
 "call the function."
 msgstr ""
+"Например, функция [code]func move(x, y)[/code] содержит два заполнителя: "
+"[code]x[/code] и [code]y[/code]. Каждый из них заменяется своим собственным "
+"значением при вызове функции."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:198
 msgid "Must I write spaces between function parameters?"
@@ -278,19 +297,21 @@ msgid "We often use spaces after the comma for readability."
 msgstr "Мы часто используем пробелы после запятой для удобства чтения."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:214
-#, fuzzy
 msgid ""
 "The following example shows a function with two parameters. The function "
 "moves an entity on both the X and Y axes."
 msgstr ""
-"В следующем примере определена функция, которая использует два параметра для "
-"перемещения объекта по осям X и Y."
+"В следующем примере показана функция с двумя параметрами. Эта функция "
+"перемещает объект одновременно по осям X и Y."
 
 msgid ""
 "When you call [code]move(50, 100)[/code], every [code]x[/code] in the "
 "function gets replaced with [code]50[/code], and every [code]y[/code] gets "
 "replaced with [code]100[/code]."
 msgstr ""
+"Когда вы вызываете [code]move(50, 100)[/code], все вхождения [code]x[/code] "
+"в функции заменяются на [code]50[/code], а все вхождения [code]y[/code] — на "
+"[code]100[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:234
 msgid "How should I name my functions and parameters?"
@@ -412,60 +433,65 @@ msgid "func function_name(): parameter_1, parameter_2, ..."
 msgstr "func function_name(): parameter_1, parameter_2, ..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:290
-#, fuzzy
 msgid "Now it's your turn to create a function with multiple parameters."
-msgstr ""
-"Теперь ваша очередь создать функцию с несколькими параметрами: функцию для "
-"рисования прямоугольников любого размера."
+msgstr "Теперь ваша очередь создать функцию с несколькими параметрами."
 
 msgid ""
 "In the following practices, you'll write functions that I will call with "
 "different values. Your functions need to work correctly no matter what "
 "values the app passes to them."
 msgstr ""
+"В следующих упражнениях вы будете писать функции, которые я буду вызывать с "
+"разными значениями. Ваши функции должны корректно работать независимо от "
+"того, какие значения передаёт приложение."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:300
 msgid "Drawing corners of different sizes"
 msgstr "Рисование углов с линиями разных размеров"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:301
-#, fuzzy
 msgid ""
 "Before we create a rectangle of any size, let's first practice with a "
 "simpler shape."
 msgstr ""
-"Прежде чем мы создадим прямоугольник произвольного размера, давайте "
-"посмотрим, как можно использовать параметры для рисования более простых "
-"фигур."
+"Прежде чем создавать прямоугольник любого размера, давайте сначала "
+"потренируемся на более простой фигуре."
 
 msgid "I will call your function twice with different values:"
-msgstr ""
+msgstr "Я вызову твою функцию дважды с разными значениями:"
 
 msgid ""
 "[code]draw_corner(240)[/code]\n"
 "[code]draw_corner(120)[/code]"
 msgstr ""
+"[code]draw_corner(240)[/code] \n"
+"[code]draw_corner(120)[/code]"
 
 msgid ""
 "Your task is to add a parameter named [code]length[/code] to your function "
 "definition. This creates a placeholder. When the app calls your function, "
 "the placeholder will get replaced with the value in parentheses."
 msgstr ""
+"Твоя задача — добавить параметр с именем [code]length[/code] в определение "
+"вашей функции. Это создаст заполнитель. Когда приложение вызовет твою "
+"функцию, этот заполнитель будет заменён на значение, указанное в скобках."
 
-#, fuzzy
 msgid ""
 "Your function should move the turtle forward by an amount defined by the "
 "[code]length[/code] parameter, turn right [code]90[/code] degrees, then move "
 "forward by [code]length[/code] again."
 msgstr ""
-"Эта функция должна заставить черепашку переместиться вперед на величину, "
-"определяемую параметром [code]length[/code], повернуть на [code]90[/code] "
-"градусов, затем переместиться вперед на [code]length[/code] пикселей."
+"Функция должна переместить черепаху вперёд на расстояние, заданное "
+"параметром [code]length[/code], повернуть направо на [code]90[/code] "
+"градусов, а затем снова переместить вперёд на [code]length[/code]."
 
 msgid ""
 "Each time the app calls your function, [code]length[/code] will be replaced "
 "with a different value: first [code]240[/code], then [code]120[/code]."
 msgstr ""
+"Каждый раз, когда приложение вызывает вашу функцию, параметр [code]length[/"
+"code] будет заменяться на разные значения: сначала на [code]240[/code], "
+"затем на [code]120[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:325
 msgid ""
@@ -480,37 +506,39 @@ msgid "Using multiple parameters"
 msgstr "Использование нескольких параметров"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:331
-#, fuzzy
 msgid ""
 "Now let's make the [code]draw_corner()[/code] function even more flexible. "
 "We'll add a second placeholder so the angle can also vary."
 msgstr ""
-"В этом упражнении мы усовершенствуем нашу функцию [code]draw_corner()[/"
-"code], чтобы угол пересечения линий также мог меняться."
+"Теперь сделаем функцию [code]draw_corner()[/code] ещё более гибкой. Мы "
+"добавим второй заполнитель, чтобы угол также мог изменяться."
 
 msgid "I will call your function with different length and angle values:"
-msgstr ""
+msgstr "Я буду вызывать твою функцию с разными значениями длины и угла:"
 
 msgid ""
 "[code]draw_corner(240, 45)[/code]\n"
 "[code]draw_corner(120, 90)[/code]"
 msgstr ""
+"[code]draw_corner(240, 45)[/code]\n"
+"[code]draw_corner(120, 90)[/code]"
 
-#, fuzzy
 msgid ""
 "Your task is to add the [code]angle[/code] parameter after [code]length[/"
 "code] in the function definition. Remember to separate the two placeholders "
 "with a comma."
 msgstr ""
-"Добавьте параметр [code]angle[/code] после параметра [code]length[/code] в "
-"функцию [code]draw_corner()[/code] и используйте ее для рисования углов "
-"разного размера."
+"Ваша задача — добавить параметр [code]angle[/code] после [code]length[/code] "
+"в определении функции. Не забудьте разделить два заполнителя запятой."
 
 msgid ""
 "Remember: When the app calls [code]draw_corner(240, 45)[/code], the "
 "parameter [code]length[/code] will get replaced with [code]240[/code] and "
 "[code]angle[/code] will get replaced with [code]45[/code]."
 msgstr ""
+"Помни: когда приложение вызывает [code]draw_corner(240, 45)[/code], параметр "
+"[code]length[/code] заменяется на [code]240[/code], а параметр [code]angle[/"
+"code] — на [code]45[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:353
 msgid "With two parameters, code a function to draw corners with any angle."
@@ -523,40 +551,44 @@ msgid "Drawing squares of any size"
 msgstr "Рисование квадратов любого размера"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:359
-#, fuzzy
 msgid ""
 "Time to write a complete function from scratch! You'll make a function that "
 "draws squares of any size."
 msgstr ""
-"Теперь ваша очередь создать функцию с несколькими параметрами: функцию для "
-"рисования прямоугольников любого размера."
+"Пришло время написать полноценную функцию с нуля! Вы создадите функцию, "
+"которая рисует квадраты любого размера."
 
 msgid "I will call your function with different sizes:"
-msgstr ""
+msgstr "Я вызову твою функцию с разными размерами:"
 
 msgid ""
 "[code]draw_square(200)[/code]\n"
 "[code]draw_square(100)[/code]"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Write a function named [code]draw_square()[/code] with one parameter called "
 "[code]length[/code]. Remember, this parameter is a placeholder that gets "
 "filled with the actual value when the function is called."
 msgstr ""
-"Создай функцию [code]draw_square()[/code], принимающую один параметр: "
-"[code]length[/code] — длину стороны квадрата."
+"Напиши функцию с именем [code]draw_square()[/code], имеющую один параметр — "
+"[code]length[/code]. Помните, что этот параметр является заполнителем, "
+"который заменяется фактическим значением при вызове функции."
 
 msgid ""
 "Your function needs to move forward by [code]length[/code], turn right 90 "
 "degrees, and do this four times to complete all four sides of the square."
 msgstr ""
+"Ваша функция должна переместиться вперёд на [code]length[/code], повернуть "
+"направо на 90 градусов и повторить это четыре раза, чтобы нарисовать все "
+"четыре стороны квадрата."
 
 msgid ""
 "[b]Important:[/b] When the turtle finishes drawing, it should face right. So "
 "you need to turn right a total of four times."
 msgstr ""
+"[b]Важно:[/b] Когда черепаха завершит рисование, она должна смотреть "
+"направо. Поэтому вам нужно повернуть направо ровно четыре раза."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:380
 msgid ""
@@ -571,41 +603,53 @@ msgid "Drawing rectangles of any size"
 msgstr "Рисование прямоугольников любого размера"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:386
-#, fuzzy
 msgid "Let's create a function to draw rectangles with any length and height."
 msgstr ""
-"Напишите функцию для рисования углов любого размера при помощи двух "
-"параметров."
+"Давай создадим функцию для рисования прямоугольников с любой длиной и "
+"высотой."
 
 msgid "I will call your function twice with different sizes:"
-msgstr ""
+msgstr "Я вызову твою функцию дважды с разными размерами:"
 
 msgid ""
 "[code]draw_rectangle(260, 180)[/code]\n"
 "[code]draw_rectangle(160, 210)[/code]"
 msgstr ""
+"[code]draw_rectangle(260, 180)[/code]\n"
+"[code]draw_rectangle(160, 210)[/code]"
 
 msgid ""
 "Your function needs two parameters: [code]length[/code] and [code]height[/"
 "code]. When the app calls your function, the first number replaces "
 "[code]length[/code], and the second number replaces [code]height[/code]."
 msgstr ""
+"Твоя функция должна иметь два параметра: [code]length[/code] и [code]height[/"
+"code]. Когда приложение вызывает вашу функцию, первое число подставляется "
+"вместо [code]length[/code], а второе — вместо [code]height[/code]."
 
 msgid ""
 "Use [code]length[/code] when you move horizontally and [code]height[/code] "
 "when you move vertically."
 msgstr ""
+"Используйте [code]length[/code] при перемещении по горизонтали и "
+"[code]height[/code] при перемещении по вертикали."
 
 msgid ""
 "This is the pattern you need to follow: move forward by [code]length[/code], "
 "turn right, move forward by [code]height[/code], turn right, then repeat "
 "this sequence once more."
 msgstr ""
+"Вам нужно следовать такому шаблону: переместиться вперёд на [code]length[/"
+"code], повернуть направо, переместиться вперёд на [code]height[/code], "
+"повернуть направо, а затем повторить эту последовательность ещё один раз."
 
 msgid ""
 "[b]Important:[/b] When the turtle finishes drawing, it should face right. "
 "Make sure you turn right four times in total."
 msgstr ""
+"[b]Важно:[/b] Когда черепаха завершит рисование, она должна смотреть "
+"направо. Убедитесь, что вы поворачиваете направо ровно четыре раза в общей "
+"сложности."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:417
 msgid ""
