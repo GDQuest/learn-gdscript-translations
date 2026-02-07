@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-01-20 08:01+0000\n"
-"Last-Translator: Dark King <damir@t1c.ru>\n"
+"PO-Revision-Date: 2026-02-03 15:01+0000\n"
+"Last-Translator: Marazmatik <vovavalenkov15@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-11-time-delta/ru/>\n"
 "Language: ru\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
@@ -30,12 +31,11 @@ msgstr ""
 "персонажа, чтобы заставить его двигаться непрерывно."
 
 #: course/lesson-11-time-delta/lesson.tres:34
-#, fuzzy
 msgid ""
 "But it's not just our character that has a [code]_process()[/code] function. "
 "Almost everything in the game has a [code]_process()[/code] function!"
 msgstr ""
-"Но не только наш персонаж имеет функцию [code]_process()[/code]; почти всё в "
+"Но не только наш персонаж имеет функцию [code]_process()[/code]. Почти всё в "
 "игре имеет функцию [code]_process()[/code]!"
 
 msgid ""
@@ -144,11 +144,8 @@ msgstr ""
 "сделать игровой движок, приготовление кадра к отображению может занять "
 "больше или меньше времени."
 
-#, fuzzy
 msgid "There will always be small variations from frame to frame."
-msgstr ""
-"Эта процедура всегда будет выполняться с разницей в несколько миллисекунд от "
-"кадра к кадру."
+msgstr "Между кадрами всегда будут небольшие различия."
 
 msgid ""
 "That is why the [code]_process()[/code] function receives a [code]delta[/"
@@ -157,35 +154,34 @@ msgstr ""
 "Именно поэтому функция [code]_process()[/code] принимает параметр "
 "[code]delta[/code]."
 
-#, fuzzy
 msgid ""
 "Delta represents a time difference. It's the time it took Godot to complete "
 "the previous frame, in seconds."
 msgstr ""
-"Словом «дельта» (delta) обозначается разница, в нашем случае — разница во "
-"времени. Это количество времени, прошедшее с момента начала обработки "
-"предыдущего кадра, в секундах."
+"Delta представляет собой разницу во времени. Это время, которое Godot "
+"затратил на отрисовку предыдущего кадра, в секундах."
 
 msgid ""
 "We can use it to make sure the game runs at the same speed on all computers."
 msgstr ""
+"Мы можем использовать дельту, чтобы обеспечить одинаковую скорость игры на "
+"всех компьютерах."
 
-#, fuzzy
 msgid ""
 "This is because different computers have different processing power, so a "
 "fast computer will have more frames per second than a slow computer."
 msgstr ""
-"Это связано с тем, что разные компьютеры работают по-разному, поэтому на "
-"быстром компьютере будет больше кадров в секунду, чем на медленном."
+"Это связано с тем, что разные компьютеры обладают разной вычислительной "
+"мощностью, поэтому быстрый компьютер будет выдавать больше кадров в секунду, "
+"чем медленный."
 
-#, fuzzy
 msgid ""
 "If we ignore [code]delta[/code], movement speed will vary depending on the "
 "computer. Delta helps to make the game consistent for everyone."
 msgstr ""
-"Если мы проигнорируем [code]delta[/code], впечатления от игры будут "
-"различаться в зависимости от компьютера. Delta помогает сделать игровой "
-"процесс одинаковым для всех."
+"Если игнорировать [code]delta[/code], скорость перемещения будет зависеть от "
+"компьютера. Использование дельты помогает сделать игру одинаково плавной и "
+"предсказуемой для всех игроков."
 
 #: course/lesson-11-time-delta/lesson.tres:113
 msgid "What do we know about delta?"
@@ -204,12 +200,11 @@ msgstr ""
 "Это значение очень мало, так как за одну секунду обрабатывается множество "
 "кадров."
 
-#, fuzzy
 msgid ""
 "It varies each frame because Godot has more or less to process each frame."
 msgstr ""
-"Значение delta отличается от кадра к кадру, так как обработку каждого из них "
-"Godot выполняет за различное количество времени."
+"Оно меняется от кадра к кадру, потому что Godot в каждый момент времени "
+"обрабатывает разный объём работы."
 
 #: course/lesson-11-time-delta/lesson.tres:121
 msgid "It's a value in seconds."
@@ -269,15 +264,14 @@ msgstr ""
 "Перед этим уроком мы сделали так, чтобы робот вращался на фиксированное "
 "значение ([code]0.05[/code] радиан) каждый кадр."
 
-#, fuzzy
 msgid ""
 "In the example above, we now [i]multiply[/i] the argument by the very small "
 "[code]delta[/code] value, a value much smaller than [code]1.0[/code]. It "
 "makes the robot turn at a constant speed over time."
 msgstr ""
-"В примере выше мы [i]умножили[/i] аргумент на очень маленькое значение "
-"[code]delta[/code], значение, существенно меньшее чем [code]1.0[/code]. "
-"Благодаря этому робот поворачивается со скоростью, фиксированной во времени."
+"В приведённом выше примере мы теперь [i]умножаем[/i] аргумент на очень "
+"маленькое значение [code]delta[/code] — гораздо меньшее, чем [code]1.0[/"
+"code]. Это позволяет роботу поворачиваться с постоянной скоростью во времени."
 
 msgid ""
 "However, multiplying by a number below [code]1.0[/code] like [code]delta[/"
@@ -303,12 +297,10 @@ msgstr ""
 "[i]угол[/i] в радианах, а [code]3.0[/code] — это [i]угловая скорость[/i] в "
 "радианах в секунду."
 
-#, fuzzy
 msgid ""
 "When you multiply an angular speed by a time delta, it gives you an angle."
 msgstr ""
-"Когда вы умножаете скорость на дельту времени, в результате вы получаете "
-"угол."
+"Когда вы умножаете угловую скорость на дельту времени, вы получаете угол."
 
 msgid ""
 "Don't worry if it's a little confusing for now. It'll eventually click as "
@@ -368,17 +360,16 @@ msgid "Thanks to that, we get reliable movement over time."
 msgstr ""
 "Это позволит нам получить достоверное движение на протяжении всего времени."
 
-#, fuzzy
 msgid ""
 "Frame times vary from computer to computer and from frame to frame during "
 "gameplay. Because frame times vary, if [code]delta[/code] is not used, "
 "movement speed will differ for each player, making the game inconsistent and "
 "messy."
 msgstr ""
-"Без [code]delta[/code], время которое игрок проводит в кадре отличалось бы "
-"от компьютера к компьютеру и на протяжении игры. По этой причине скорость "
-"передвижения была бы разной для каждого из игроков, что сделало бы игру "
-"непредсказуемой и беспорядочной."
+"Время отрисовки кадров различается от компьютера к компьютеру и даже от "
+"кадра к кадру во время игры. Из-за этой неравномерности, если не "
+"использовать [code]delta[/code], скорость перемещения будет разной у каждого "
+"игрока, что сделает игру несогласованной и непредсказуемой."
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
@@ -414,11 +405,10 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "Мы вычитаем delta из rotation_speed."
 
 #: course/lesson-11-time-delta/lesson.tres:241
-#, fuzzy
 msgid ""
 "In the next practice, we'll use delta to make the rotation time-dependent."
 msgstr ""
-"В следующем упражнении мы будем использовать delta чтобы сделать вращение "
+"В следующем упражнении мы будем использовать delta, чтобы сделать вращение "
 "зависимым от времени."
 
 #: course/lesson-11-time-delta/lesson.tres:249
@@ -448,14 +438,14 @@ msgstr ""
 "В этом упражнении вам нужно заставить робота двигаться плавно по окружности, "
 "при помощи delta."
 
-#, fuzzy
 msgid ""
 "The robot should rotate [code]2[/code] radians per second and move "
 "[code]100[/code] pixels per second forward. This combination makes it travel "
 "in a clockwise circle."
 msgstr ""
-"Робот должен вращаться на [code]2[/code] радиана в секунду и двигаться на "
-"[code]100[/code] пикселей в секунду по часовой стрелке."
+"Робот должен поворачиваться со скоростью [code]2[/code] радиана в секунду и "
+"двигаться вперёд со скоростью [code]100[/code] пикселей в секунду. Такая "
+"комбинация заставляет его двигаться по часовой стрелке по кругу."
 
 msgid ""
 "[b]Note:[/b] Please write the values in the parentheses when calling the "
