@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-12-06 23:30+0000\n"
-"Last-Translator: Олександр Пилипчук <lxlalexlxl@ukr.net>\n"
+"PO-Revision-Date: 2026-02-11 20:10+0000\n"
+"Last-Translator: Dima Sukharchuk <suharchuk.dima@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/glossary_database/uk/>\n"
 "Language: uk\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: member function
@@ -236,7 +237,6 @@ msgstr "аргументи"
 
 #. Reference: argument
 #: course/glossary.csv:41
-#, fuzzy
 msgid ""
 "An argument is a value you pass to a function when you call it. For example, "
 "in the function call [code]rotate(0.5)[/code], the value [code]0.5[/code] "
@@ -246,7 +246,6 @@ msgstr ""
 "Наприклад, у виклику [code]rotate(0.5)[/code] значення [code]0.5[/code] у "
 "круглих дужках є аргументом."
 
-#, fuzzy
 msgid ""
 "A function can take no arguments, one argument, or multiple arguments. "
 "Arguments can be required or optional."
@@ -254,7 +253,6 @@ msgstr ""
 "Функція може не приймати жодних аргументів, приймати один або кілька "
 "аргументів. Аргументи можуть бути обов'язковими чи необов'язковими."
 
-#, fuzzy
 msgid ""
 "When a function requires multiple arguments, you separate them with commas. "
 "Here's an example: [code]jump(50, 100)[/code]"
@@ -262,29 +260,28 @@ msgstr ""
 "Коли функція приймає кілька аргументів, відокремлюйте їхні значення комами, "
 "як у цьому прикладі: [code]jump(50, 100)[/code]"
 
-#, fuzzy
 msgid ""
 "When you [i]call[/i] a function, we call the values in parentheses "
 "[i]arguments[/i]."
 msgstr ""
-"Під час [i]виклику[/i] функції ми називаємо значення, що передаються в "
-"круглих дужках, [i]аргументами[/i]."
+"Коли ви [i]викликаєте[/i] функцію, значення в дужках ми називаємо "
+"[i]аргументами[/i]."
 
 msgid ""
 "But when you [i]write[/i] a function definition, we call them [i]parameters[/"
 "i] instead. Here's an example:"
 msgstr ""
+"Але коли ви [i]пишете[/i] визначення функції, ми називаємо їх "
+"[i]параметрами[/i]. Ось приклад:"
 
 msgid "[code]func move_to_position(x, y):[/code]"
-msgstr ""
+msgstr "[code]func move_to_position(x, y):[/code]"
 
-#, fuzzy
 msgid ""
 "In this function definition, [code]x[/code] and [code]y[/code] are "
 "[i]parameters[/i]."
 msgstr ""
-"Однак під час написання визначення функції ми говоримо про [i]параметри[/i] "
-"функції. В такому прикладі назви [code]x[/code] і [code]y[/code] є "
+"У цьому визначенні функції [code]x[/code] та [code]y[/code] є "
 "[i]параметрами[/i]."
 
 #. Reference: array
@@ -534,8 +531,8 @@ msgstr ""
 msgid ""
 "You can create a variable named [code]health[/code] to represent the health."
 msgstr ""
-"Ви можете створити змінну з назвою [code]health[/code] для подання стану "
-"здоров'я."
+"Ви можете створити змінну з назвою [code]health[/code], яка буде позначати "
+"стан здоров'я."
 
 msgid ""
 "Then, every time you write the keyword [code]health[/code] in your code, the "

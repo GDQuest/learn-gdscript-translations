@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-12-22 22:27+0000\n"
-"Last-Translator: Максим Горпиніч <mgorpinic2005@gmail.com>\n"
+"PO-Revision-Date: 2026-02-11 20:10+0000\n"
+"Last-Translator: Dima Sukharchuk <suharchuk.dima@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-18-for-loops/uk/>\n"
 "Language: uk\n"
@@ -19,34 +19,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
-#, fuzzy
 msgid ""
 "In the last lesson, we looked at [code]while[/code] loops. We found they "
 "were useful if we don't know how many times we should repeat code. But "
 "[code]while[/code] loops can result in infinite loops if we're not careful."
 msgstr ""
-"У минулому уроці ми розглянули цикли [code]while[/code]. Ми виявили, що вони "
-"корисні, якщо ми не знаємо, скільки разів слід повторювати код."
+"У минулому уроці ми розглянули цикл [code]while[/code]. Ми виявили, що вони "
+"корисні, якщо ми не знаємо, скільки разів слід повторювати код. Але цикл "
+"[code]while[/code] в результаті може бути нескінченним, якщо ми не будемо "
+"обачними."
 
-#, fuzzy
 msgid ""
 "For example, the loop below never ends because we never increment "
 "[code]number[/code]."
 msgstr ""
-"Наведений нижче цикл ніколи не закінчується, тому що ми ніколи не збільшуємо "
-"[code]число[/code]."
+"Наприклад, цикл нижче ніколи не закінчується, оскільки ми ніколи не "
+"збільшуємо [code]number[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:36
-#, fuzzy
 msgid ""
 "There's a safer and easier kind of loop: the [code]for[/code] loop. We'll "
 "look at it in this lesson."
 msgstr "Існує безпечніший і часто простіший вид циклу: цикл [code]for[/code]."
 
-#, fuzzy
 msgid ""
 "Unlike [code]while[/code] loops, [code]for[/code] loops don't run forever, "
 "so you're much less likely to get infinite loop bugs in your game. [b]We "
@@ -57,13 +56,13 @@ msgstr ""
 "помилки. [b]Ми рекомендуємо віддавати перевагу циклам for замість циклів "
 "while через це[/b]."
 
-#, fuzzy
 msgid ""
 "In this example, I changed the code above to use a [code]for[/code] loop "
 "instead. The loop below will change the [code]cell[/code] three times."
 msgstr ""
-"Давайте змінимо наведений вище код, щоб замість нього використовувати цикл "
-"[code]for[/code]."
+"У цьому прикладі я змінив вищевказаний код, щоб замість цього "
+"використовувати цикл [code]for[/code]. Нижче наведений цикл тричі змінить "
+"[code]cell[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:60
 msgid "Let's explain what's going on here."
@@ -94,7 +93,7 @@ msgstr "Який список чисел створить діапазон (6)?"
 
 #: course/lesson-18-for-loops/lesson.tres:81
 msgid "What would [code]print(range(6))[/code] print to the console?"
-msgstr "Що [code]print(range(6))[/code] буде друкувати на консолі?"
+msgstr "Що [code]print(range(6))[/code] буде друкувати у консолі?"
 
 #: course/lesson-18-for-loops/lesson.tres:83
 msgid ""
@@ -145,9 +144,9 @@ msgid ""
 "Godot sets [code]number[/code] to the item, then executes the code in the "
 "[code]for[/code] loop."
 msgstr ""
-"У наведеному вище прикладі для кожного елемента в списку [code][0, 1, 2][/"
-"code] Годо встановлює [code]номер[/code] для елемента, а потім виконує код у "
-"[code]для [/code] цикл."
+"У наведеному вище прикладі для кожного елемента списку [code][0, 1, 2][/"
+"code] Godot встановлює [code]number[/code] для елемента, а потім виконує код "
+"у циклі [code]for[/code]."
 
 msgid ""
 "We'll explain arrays more thoroughly in the next lesson, but notice that "
@@ -156,7 +155,7 @@ msgid ""
 "can name this variable anything you want."
 msgstr ""
 "Ми докладніше пояснимо масиви в наступному уроці, але зауважте, що "
-"[code]число[/code] — це лише тимчасова змінна. Ви створюєте його під час "
+"[code]number[/code] — це лише тимчасова змінна. Ви створюєте його під час "
 "визначення циклу, а цикл піклується про зміну свого значення. Крім того, ви "
 "можете назвати цю змінну як завгодно."
 
@@ -177,7 +176,7 @@ msgid ""
 "variable. First, it sets the variable to [code]0[/code], then to [code]1[/"
 "code], and finally, to [code]2[/code]."
 msgstr ""
-"Під час проходження циклу Годо присвоює кожне значення масиву цій змінній. "
+"Під час проходження циклу Godot присвоює цій змінній кожне значення масиву. "
 "Спочатку він встановлює змінну на [code]0[/code], потім на [code]1[/code] і, "
 "нарешті, на [code]2[/code]."
 
@@ -221,8 +220,10 @@ msgid ""
 "move the robot that many times. This is simpler than checking if the robot "
 "reached the end of the board over and over."
 msgstr ""
+"За допомогою циклу [code]for[/code] ми спочатку перевіряємо ширину дошки. "
+"Потім ми переміщаємо робота стільки разів, скільки потрібно. Це простіше, "
+"ніж перевіряти, чи робот досяг кінця дошки, знову і знову."
 
-#, fuzzy
 msgid "The function still works the same way. You can run it below."
 msgstr "Функція все ще працює так само. Ви можете виконати його нижче."
 
@@ -249,16 +250,15 @@ msgstr ""
 "Цього разу скористайтеся циклом [code]for[/code] у функції "
 "[code]move_to_bottom()[/code], щоб перемістити його вниз дошки."
 
-#, fuzzy
 msgid ""
 "The board size is determined by the [code]Vector2[/code] variable named "
 "[code]board_size[/code]."
 msgstr ""
-"Розмір дошки визначається змінною [code]Vector2[/code] I [code]board_size[/"
-"code]."
+"Розмір дошки визначається змінною [code]Vector2[/code] з іменем "
+"[code]board_size[/code]."
 
 msgid "The robot's starting cell is [code]Vector2(2, 0)[/code]."
-msgstr "Початкова клітинка робота — [code]Вектор2(2, 0)[/code]."
+msgstr "Початкова комірка робота — [code]Vector2(2, 0)[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:263
 msgid ""
