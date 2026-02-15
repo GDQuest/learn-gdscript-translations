@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2025-11-25 18:51+0000\n"
+"PO-Revision-Date: 2026-02-16 11:09+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/error-explanations/da/>\n"
@@ -17,7 +17,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -77,24 +78,26 @@ msgstr ""
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
-#, fuzzy
 msgid ""
 "You get this error when you try to assign a value to something that is not a "
 "variable."
 msgstr ""
-"Hvis du får denne fejl, forsøger du sandsynligvis at tildele en værdi til "
-"noget andet end en variabel, hvilket er umuligt. Du kan kun tildele værdier "
-"til variabler."
+"Du får denne fejl, når du forsøger at tildele en værdi til noget, der ikke "
+"er en variabel."
 
 msgid ""
 "You can only assign values to variables. You cannot assign values to "
 "function calls or calculations."
 msgstr ""
+"Du kan kun tildele værdier til variabler. Du kan ikke tildele værdier til "
+"funktionskald eller beregninger."
 
 msgid ""
 "For example, you cannot write [code]randi() = 5[/code] because [code]randi()"
 "[/code] is a function call, not a variable."
 msgstr ""
+"For eksempel kan du ikke skrive [code]randi() = 5[/code] fordi [code]randi()"
+"[/code] er et funktionskald, ikke en variabel."
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
@@ -102,40 +105,52 @@ msgid ""
 "Check what you wrote on the left side of the equal sign (=). Make sure it is "
 "a variable name."
 msgstr ""
+"Tjek hvad du skrev på venstre side af lighedstegnet (=). Sørg for at det er "
+"et variabelnavn."
 
 msgid ""
 "If you see parentheses () on the left side, you might be trying to assign to "
 "a function call. Remove the parentheses and the function call."
 msgstr ""
+"Hvis du ser parenteser () i venstre side, forsøger du muligvis at tildele "
+"til et funktionskald. Fjern parenteserne og funktionskaldet."
 
-#, fuzzy
 msgid ""
 "If you are trying to check if two values are equal in a condition, use two "
 "equal signs (==) instead of one (=)."
 msgstr ""
-"En anden mulighed er, at du ønsker at kontrollere for lighed i en tilstand, "
-"men skrev en enkelt = i stedet for ==."
+"Hvis du prøver at kontrollere, om to værdier er ens i en betingelse, skal du "
+"bruge to lighedstegn (==) i stedet for ét (=)."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
 msgid "You get this error when you try to change the value of a constant."
-msgstr ""
+msgstr "Du får denne fejl, når du forsøger at ændre værdien af en konstant."
 
 msgid ""
 "A constant is a name that holds a value that cannot change. It's like a "
 "variable, but once you set its value, you cannot replace it."
 msgstr ""
+"En konstant er et navn, der indeholder en værdi, som ikke kan ændres. Det er "
+"ligesom en variabel, men når du først har angivet dens værdi, kan du ikke "
+"erstatte den."
 
 msgid ""
 "For example, if you write [code]const MAX_SPEED = 100[/code], you cannot "
 "later write [code]MAX_SPEED = 200[/code] or [code]MAX_SPEED += 50[/code]."
 msgstr ""
+"Hvis du for eksempel skriver [code]const MAX_SPEED = 100[/code], kan du ikke "
+"senere skrive [code]MAX_SPEED = 200[/code] eller [code]MAX_SPEED += 50[/"
+"code]."
 
 msgid ""
 "Many constants are built into Godot and GDScript, and you cannot change them "
 "either. For instance, you cannot write [code]Vector2 = 5[/code] or [code]PI "
 "= 3[/code]. Constant names usually use capital letters."
 msgstr ""
+"Mange konstanter er indbygget i Godot og GDScript, og du kan heller ikke "
+"ændre dem. For eksempel kan du ikke skrive [code]Vector2 = 5[/code] eller "
+"[code]PI = 3[/code]. Konstantnavne bruger normalt store bogstaver."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
@@ -143,6 +158,8 @@ msgid ""
 "Look at what you are trying to change. If it is a constant (defined with the "
 "[code]const[/code] keyword or built into Godot), you have two options:"
 msgstr ""
+"Se på, hvad du prøver at ændre. Hvis det er en konstant (defineret med "
+"nøgleordet [code]const[/code] eller indbygget i Godot), har du to muligheder:"
 
 msgid ""
 "1. If the value should never change, or it comes from Godot, remove the line "
@@ -150,6 +167,10 @@ msgid ""
 "2. If the value needs to change, use [code]var[/code] instead of "
 "[code]const[/code] when you first create it."
 msgstr ""
+"1. Hvis værdien aldrig skal ændres, eller hvis den kommer fra Godot, skal du "
+"fjerne den linje, der forsøger at ændre den.\n"
+"2. Hvis værdien skal ændres, skal du bruge [code]var[/code] i stedet for "
+"[code]const[/code], når du opretter den første gang."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -158,16 +179,25 @@ msgid ""
 "happens when you have a space before a tab, or a tab before a space at the "
 "start of a line."
 msgstr ""
+"Du får denne fejl, når du blander mellemrum og tabulatorer i din indrykning. "
+"Dette sker, når du har et mellemrum før en tabulator eller en tabulator før "
+"et mellemrum i starten af en linje."
 
 msgid ""
 "In GDScript, you must use only tabs (not spaces) to indent your code. When "
 "you press the Tab key on your keyboard, it creates a tab character."
 msgstr ""
+"I GDScript må du kun bruge tabulatorer (ikke mellemrum) til at indrykke din "
+"kode. Når du trykker på Tab-tasten på tastaturet, oprettes der et "
+"tabulatortegn."
 
 msgid ""
 "If you accidentally type a space before a tab, or a tab before a space, the "
 "computer gets confused about your code's indentation."
 msgstr ""
+"Hvis du ved et uheld skriver et mellemrum før en tabulator, eller en "
+"tabulator før et mellemrum, bliver computeren forvirret over din kodes "
+"indrykning."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -176,16 +206,23 @@ msgid ""
 "space characters at the very beginning of the line, and remove any spaces "
 "that appear after your tab characters."
 msgstr ""
+"For at rette denne fejl skal du gå til den linje, der er nævnt i "
+"fejlmeddelelsen. Slet alle mellemrumstegn i starten af linjen, og fjern alle "
+"mellemrum, der vises efter dine tabulatortegn."
 
 msgid ""
 "Tab characters look like an arrow pointing at a vertical line in your code: "
 "⇥. Spaces look like centered dots: ·. Look closely to spot the difference."
 msgstr ""
+"Tabulatortegn ligner en pil, der peger på en lodret linje i din kode: ⇥. "
+"Mellemrum ligner centrerede prikker: ·. Se nøje for at finde forskellen."
 
 msgid ""
 "Then, make sure the line starts with only tab characters for indentation, "
 "with no spaces mixed in."
 msgstr ""
+"Sørg derefter for, at linjen kun starter med tabulatortegn til indrykning, "
+"uden mellemrum."
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:78
@@ -325,17 +362,22 @@ msgid ""
 "You get this error when you use a special character that GDScript doesn't "
 "recognize."
 msgstr ""
+"Du får denne fejl, når du bruger et specialtegn, som GDScript ikke genkender."
 
 msgid ""
 "This includes accented letters (like é, à, ñ), special symbols, or "
 "characters from non-Latin alphabets in your code instructions (not in "
 "strings)."
 msgstr ""
+"Dette inkluderer bogstaver med accent (som é, à, ñ), specialsymboler eller "
+"tegn fra ikke-latinske alfabeter i dine kodeinstruktioner (ikke i strenge)."
 
 msgid ""
 "[b]Note:[/b] Godot 4 supports special and non-Latin characters in code "
 "(Unicode characters), but this app is built with Godot 3, which does not."
 msgstr ""
+"[b]Bemærk:[/b] Godot 4 understøtter specialtegn og ikke-latinske tegn i kode "
+"(Unicode-tegn), men denne app er bygget med Godot 3, som ikke gør det."
 
 #. Reference: UNKNOWN_CHARACTER
 #: script_checking/error_database.csv:103
@@ -343,16 +385,22 @@ msgid ""
 "To fix this error, remove any accented letters or special characters from "
 "your variable names, function names, and other code elements."
 msgstr ""
+"For at rette denne fejl skal du fjerne alle accenttegn eller specialtegn fra "
+"dine variabelnavne, funktionsnavne og andre kodeelementer."
 
 msgid ""
 "You can use accented characters inside text strings (between quotes), but "
 "not in the code itself."
 msgstr ""
+"Du kan bruge accenttegn i tekststrenge (mellem anførselstegn), men ikke i "
+"selve koden."
 
 msgid ""
 "You can replace accented letters with their non-accented equivalents. For "
 "example, change [code]café[/code] to [code]cafe[/code]."
 msgstr ""
+"Du kan erstatte bogstaver med accent med deres tilsvarende bogstaver uden "
+"accent. For eksempel, ændr [code]café[/code] til [code]cafe[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:106
@@ -911,6 +959,10 @@ msgid ""
 "[code]break[/code] statement inside it. This creates an infinite loop that "
 "will freeze your game."
 msgstr ""
+"Du skrev en while-løkke med en betingelse, der altid er sand (som "
+"[code]while true:[/code] eller [code]while(true):[/code]) uden en "
+"[code]break[/code]-sætning i den. Dette skaber en uendelig løkke, der vil "
+"fryse dit spil."
 
 #. Reference: INFINITE_WHILE_LOOP
 #: script_checking/error_database.csv:186
@@ -920,6 +972,10 @@ msgid ""
 "loop condition to something that will become false. For example: [code]while "
 "position.x < 100: position.x -= 10[/code]."
 msgstr ""
+"For at løse dette skal du enten tilføje en [code]break[/code]-sætning i "
+"løkken, så den kan afsluttes, når en bestemt betingelse er opfyldt, eller "
+"ændre while-løkkebetingelsen til noget, der bliver falsk. For eksempel: "
+"[code]while position.x < 100: position.x -= 10[/code]."
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:188
