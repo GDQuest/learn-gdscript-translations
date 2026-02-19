@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-16 11:09+0000\n"
+"PO-Revision-Date: 2026-02-20 16:09+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-18-for-loops/da/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
@@ -221,10 +221,12 @@ msgid ""
 "move the robot that many times. This is simpler than checking if the robot "
 "reached the end of the board over and over."
 msgstr ""
+"Med [code]for[/code]-løkken tjekker vi først brættets bredde. Derefter "
+"bevæger vi robotten det samme antal gange. Dette er enklere end at "
+"kontrollere, om robotten nåede enden af brættet igen og igen."
 
-#, fuzzy
 msgid "The function still works the same way. You can run it below."
-msgstr "Funktionen fungerer stadig på samme måde. Du kan udføre den nedenfor."
+msgstr "Funktionen fungerer stadig på samme måde. Du kan køre den nedenfor."
 
 #: course/lesson-18-for-loops/lesson.tres:237
 msgid ""
@@ -250,12 +252,11 @@ msgstr ""
 "[code]move_to_bottom()[/code] for at få den til at flytte sig til bunden af "
 "brættet."
 
-#, fuzzy
 msgid ""
 "The board size is determined by the [code]Vector2[/code] variable named "
 "[code]board_size[/code]."
 msgstr ""
-"Brættets størrelse bestemmes af [code]Vector2[/code] variablen "
+"Brætstørrelsen bestemmes af [code]Vector2[/code]-variablen med navnet "
 "[code]board_size[/code]."
 
 msgid "The robot's starting cell is [code]Vector2(2, 0)[/code]."
