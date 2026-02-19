@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-16 11:09+0000\n"
+"PO-Revision-Date: 2026-02-20 16:09+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-23-append-to-arrays/da/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:13
@@ -70,7 +70,6 @@ msgstr ""
 msgid "How do you keep track of pending and completed orders? With an array!"
 msgstr "Hvordan holder du styr på ventende og afsluttede ordrer? Med et array!"
 
-#, fuzzy
 msgid ""
 "When a customer purchases a meal, you want to [i]append[/i] (add) it to the "
 "array. Then, as you complete a meal in the kitchen and serve it, you want to "
@@ -86,6 +85,10 @@ msgid ""
 "[/code] function. We call it \"pop\" because the value jumps out of the "
 "array."
 msgstr ""
+"Du kan bruge funktionen [code]append()[/code] til at tilføje værdier i "
+"slutningen af et array. For at fjerne værdier fra starten kan du bruge "
+"funktionen [code]pop_front()[/code]. Vi kalder det \"pop\", fordi værdien "
+"springer ud af arrayet."
 
 msgid ""
 "Try to read the code below before moving on. Don't worry if not everything "
@@ -95,35 +98,33 @@ msgstr ""
 "giver mening, da vi vil gennemgå det hele."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:83
-#, fuzzy
 msgid ""
 "Notice how we call some functions by writing a dot after a variable name. "
 "Just like some values have variables you can access with a dot (like the "
 "[code]x[/code] variable in [code]position.x[/code]), they can also have "
 "their own functions."
 msgstr ""
-"Bemærk, hvordan vi kalder nogle funktioner ved at skrive et punktum efter et "
-"variabelnavn. Ligesom en given værditype kan have undervariabler, kan den "
-"også have sine egne funktioner."
+"Bemærk hvordan vi kalder nogle funktioner ved at skrive et punktum efter et "
+"variabelnavn. Ligesom nogle værdier har variabler du kan tilgå med et "
+"punktum (som variablen [code]x[/code] i [code]position.x[/code]), kan de "
+"også have deres egne funktioner."
 
-#, fuzzy
 msgid ""
 "Functions like [code]append()[/code] and [code]pop_front()[/code] only exist "
 "on arrays. To call them, we need to write the array name, then a dot, then "
 "the function: [code]array_name.append()[/code]."
 msgstr ""
 "Funktioner som [code]append()[/code] og [code]pop_front()[/code] findes kun "
-"på arrays. Derfor skal vi tilgå dem på arrayet ved hjælp af et punktum for "
-"at kalde dem: [code]array.append()[/code]."
+"på arrays. For at kalde dem skal vi skrive arraynavnet, derefter et punktum "
+"og derefter funktionen: [code]array_name.append()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:95
-#, fuzzy
 msgid ""
 "Let's break down the code. We add orders to the [code]waiting_orders[/code] "
 "array by appending them."
 msgstr ""
-"Vi sætter ordrer i kø i arrayet [code]waiting_orders[/code] ved at tilføje "
-"dem til arrayet."
+"Lad os gennemgå koden. Vi tilføjer ordrer til [code]waiting_orders[/code] "
+"arrayet ved at \"appende\" dem."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:115
 msgid ""
@@ -151,37 +152,36 @@ msgstr ""
 "Vi kan derefter tilføje ordren til vores [code]completed_orders[/code] array."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:175
-#, fuzzy
 msgid ""
 "When we use an array this way, we call it a [i]queue[/i]: the first element "
 "we add to the array is the first one we remove. It's like a waiting line at "
 "a store."
 msgstr ""
-"Vi kalder arrays som [code]waiting_orders[/code] for en [i]kø[/i]: det "
-"første element, vi tilføjer til arrayet, er det første, vi fjerner."
+"Når vi bruger et array på denne måde, kalder vi det en [i]kø[/i]: det første "
+"element, vi tilføjer til arrayet, er det første, vi fjerner. Det er ligesom "
+"en ventekø i en butik."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:183
 msgid "What does #... mean?"
 msgstr "Hvad betyder #... ?"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:185
-#, fuzzy
 msgid ""
 "We write [code]#...[/code] to show that there is more code here. The three "
 "dots mean \"we are not showing all the code.\" We use this to break down "
 "code examples and make them easier to learn from."
 msgstr ""
-"Vi skriver [code]#...[/code] for at repræsentere ellipser i koden. Det "
-"betyder \"vi færdiggør funktionens kode.\" Vi bruger det til at opdele "
-"kodeeksempler og gøre dem lettere at lære af."
+"Vi skriver [kode]#...[/kode] for at vise, at der er mere kode her. De tre "
+"prikker betyder \"vi viser ikke al koden.\" Vi bruger dette til at opdele "
+"kodeeksempler og gøre dem nemmere at lære af."
 
-#, fuzzy
 msgid ""
 "The hash sign ([code]#[/code]) marks the start of a code comment. It's a "
 "line the computer will ignore, which is why it typically appears in grey."
 msgstr ""
-"Selve hashtegnet markerer starten på en kodekommentar. Det er en linje, som "
-"computeren vil ignorere, hvilket er grunden til, at den typisk vises i gråt."
+"Hash-tegnet ([code]#[/code]) markerer starten på en kodekommentar. Det er en "
+"linje, som computeren ignorerer, hvilket er grunden til, at den typisk vises "
+"med gråt."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:195
 msgid "Using arrays as stacks"
@@ -223,7 +223,6 @@ msgstr ""
 "arrayet, for at demonstrere, hvordan arrayet bliver mindre."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:243
-#, fuzzy
 msgid ""
 "Like [code]pop_front()[/code], the function returns the value removed from "
 "the array. You will often store that value in a variable. This value could "
@@ -231,13 +230,18 @@ msgid ""
 "player."
 msgstr ""
 "Ligesom [code]pop_front()[/code] returnerer funktionen den værdi, der er "
-"fjernet fra arrayet. Du gemmer ofte denne værdi i en variabel."
+"fjernet fra arrayet. Du gemmer ofte denne værdi i en variabel. Denne værdi "
+"kan være kassens indhold, som du derefter kan bruge til at give ressourcer "
+"til spilleren."
 
 msgid ""
 "When we use an array this way, we call it a [i]stack[/i]: the last element "
 "we add is the first one we remove. It's like a pile of plates where you take "
 "from the top."
 msgstr ""
+"Når vi bruger et array på denne måde, kalder vi det en [i]stak[/i]: det "
+"sidste element, vi tilføjer, er det første, vi fjerner. Det er som en bunke "
+"plader, hvor man tager fra toppen."
 
 msgid ""
 "In the following practices, you will use the [code]append()[/code], "
@@ -303,22 +307,21 @@ msgid "Your code should remove all the crates in the array using a while loop."
 msgstr ""
 "Din kode bør fjerne alle kasserne i arrayet ved hjælp af en while-løkke."
 
-#, fuzzy
 msgid ""
 "[b]Careful![/b] If you write the while loop incorrectly, you can freeze the "
 "program."
 msgstr ""
-"[b]Pas på![/b] Hvis du kører en while-løkke uforsigtigt, kan du låse "
-"softwaren."
+"[b]Pas på![/b] Hvis du skriver while-løkken forkert, kan du fryse programmet."
 
-#, fuzzy
 msgid ""
 "You can check if the [code]crates[/code] array still has values by writing "
 "[code]while crates:[/code]. This works because an empty array counts as "
 "[code]false[/code], and an array with items counts as [code]true[/code]."
 msgstr ""
-"Du kan kontrollere, om [code]crates[/code]-arrayet stadig indeholder værdier "
-"ved at skrive [code]while crates:[/code]"
+"Du kan tjekke om [code]crates[/code]-arrayet stadig har værdier ved at "
+"skrive [code]while crates:[/code]. Dette fungerer, fordi et tomt array "
+"tæller som [code]false[/code], og et array med elementer tæller som "
+"[code]true[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:301
 msgid ""
