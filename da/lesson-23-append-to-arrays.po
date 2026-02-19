@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2025-12-19 16:00+0000\n"
+"PO-Revision-Date: 2026-02-16 11:09+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-23-append-to-arrays/da/>\n"
@@ -17,54 +17,54 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:13
-#, fuzzy
 msgid ""
 "In previous lessons, you learned how to create arrays to store lists of "
 "values and how to loop over them. That's useful, but arrays can do much more."
 msgstr ""
 "I tidligere lektioner lærte du, hvordan man opretter arrays til at gemme "
-"lister over værdier, og hvordan man laver en løkke over dem. Det er fint, "
-"men du kommer ikke langt med kun det."
+"lister over værdier, og hvordan man looper over dem. Det er nyttigt, men "
+"arrays kan gøre meget mere."
 
-#, fuzzy
 msgid ""
 "The real strength of GDScript arrays is that you can add and remove values "
 "from them at any time. This lets you build waiting lines of data or piles of "
 "data. We call these [i]queues[/i] and [i]stacks[/i], respectively. We'll see "
 "what that means in this lesson."
 msgstr ""
-"Arrays' virkelige styrke er, at du kan tilføje og fjerne værdier fra dem når "
-"som helst. Det giver dig mulighed for at [i]kø[/i] eller [i]stable[/i] data."
+"Den virkelige styrke ved GDScript-arrays er, at du kan tilføje og fjerne "
+"værdier fra dem når som helst. Dette giver dig mulighed for at opbygge "
+"ventelinjer med data eller stakke af data. Vi kalder disse henholdsvis "
+"[i]køer[/i] og [i]stakke[/i]. Vi vil se på, hvad det betyder i denne lektion."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:25
 msgid "Let's look at a concrete example."
-msgstr ""
+msgstr "Lad os se på et konkret eksempel."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:33
 msgid "Tracking orders in a restaurant management game"
 msgstr "Holde styr på ordrer i et restaurantstyrings spil"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:35
-#, fuzzy
 msgid ""
 "You're making a restaurant management game where customers place orders, and "
 "you need to handle them one by one."
 msgstr ""
 "Du laver et restaurantstyringsspil, hvor kunderne afgiver ordrer, og du skal "
-"håndtere dem, efterhånden som de kommer."
+"håndtere dem én efter én."
 
-#, fuzzy
 msgid ""
 "In the example below, customers order meals that end up in a waiting line (a "
 "queue). You need to prepare them in the kitchen. We simulate orders arriving "
 "and getting completed over time."
 msgstr ""
-"I dette spil bestiller kunderne måltider, der ender i kø. Du skal tilberede "
-"dem i køkkenet."
+"I eksemplet nedenfor bestiller kunder måltider, der ender i kø. Du skal "
+"tilberede dem i køkkenet. Vi simulerer, at ordrer ankommer og bliver "
+"færdiggjort over tid."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:57
 msgid "How do you keep track of pending and completed orders? With an array!"

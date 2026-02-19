@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2025-12-20 19:00+0000\n"
+"PO-Revision-Date: 2026-02-16 11:09+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-26-looping-over-dictionaries/da/>\n"
@@ -17,7 +17,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:13
@@ -26,44 +27,45 @@ msgid ""
 "When you loop over a dictionary, you get its keys one by one. You can then "
 "use each key to get its value."
 msgstr ""
+"Du kan loope hen over ordbøger, ligesom du lærte at loope hen over arrays. "
+"Når du looper hen over en ordbog, får du dens nøgler én efter én. Du kan "
+"derefter bruge hver nøgle til at få dens værdi."
 
-#, fuzzy
 msgid "Let's see how this works with two examples."
-msgstr "Lad os se, hvordan det virker med to eksempler."
+msgstr "Lad os se, hvordan dette fungerer med to eksempler."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:23
 msgid "Displaying an inventory's content"
 msgstr "Viser et lagers indhold"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:25
-#, fuzzy
 msgid ""
 "To display the player's inventory, you need to know what it contains: the "
 "name and amount of each item."
 msgstr ""
-"For at vise spillerens lager, skal du vide, hvad det indeholder. Du har brug "
-"for navnet og mængden af hvert objekt."
+"For at vise spillerens lager skal du vide, hvad det indeholder: navnet og "
+"mængden af hver genstand."
 
-#, fuzzy
 msgid ""
 "To do this, you loop over the dictionary and process each key-value pair one "
 "at a time."
 msgstr ""
-"Og via kode, kan du kun opnå dette ved at loope over hele ordbogen og "
-"behandle nøgleværdipar en efter en."
+"For at gøre dette skal du loope gennem ordbogen og behandle hvert nøgle-"
+"værdi-par ét ad gangen."
 
-#, fuzzy
 msgid ""
 "You can get the list of all the keys in a dictionary by calling its "
 "[code]keys()[/code] function."
 msgstr ""
-"For at få listen over nøgler i ordbogen, kan du kalde dens [code]keys()[/"
-"code] medlemsfunktion."
+"Du kan få en liste over alle nøglerne i en ordbog ved at kalde dens "
+"[code]keys()[/code] funktion."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:49
 msgid ""
 "Looping over dictionary keys is so common that GDScript gives you a shortcut."
 msgstr ""
+"Det er så almindeligt at loope over nøgler i en ordbog, at GDScript giver "
+"dig en genvej."
 
 #, fuzzy
 msgid ""
