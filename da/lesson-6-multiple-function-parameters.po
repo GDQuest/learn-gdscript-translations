@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-16 11:09+0000\n"
+"PO-Revision-Date: 2026-02-21 12:53+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-6-multiple-function-parameters/da/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:14
@@ -86,24 +86,28 @@ msgstr ""
 "Ordet [code]radians[/code] er funktionens parameter. Det er den pladsholder, "
 "der \"erstattes\" med den faktiske værdi, når du kalder funktionen."
 
-#, fuzzy
 msgid ""
 "When you [i]call[/i] this function with [code]rotate(0.5)[/code], the "
 "computer replaces the name \"radians\" in the function with [code]0.5[/code]."
 msgstr ""
-"Når du kalder [code]rotate(0.5)[/code], binder computeren værdien [code]0.5[/"
-"code] til etiketten [code]radians[/code]."
+"Når du [i]kalder[/i] denne funktion med [code]rotate(0.5)[/code], erstatter "
+"computeren navnet \"radians\" i funktionen med [code]0.5[/code]."
 
 msgid ""
 "Each time you call the function, the replacement happens again: If you call "
 "[code]rotate(1.2)[/code], [code]radians[/code] becomes [code]1.2[/code]."
 msgstr ""
+"Hver gang du kalder funktionen, sker erstatningen igen: Hvis du kalder "
+"[code]rotate(1.2)[/code], bliver [code]radians[/code] til [code]1.2[/code]."
 
 msgid ""
 "The parameter can be filled with a number, text, or anything else. In this "
 "lesson, we'll only use numbers as we have yet to learn about other value "
 "types."
 msgstr ""
+"Parameteren kan udfyldes med et tal, tekst eller hvad som helst andet. I "
+"denne lektion bruger vi kun tal, da vi endnu ikke har lært om andre "
+"værdityper."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:78
 msgid "What is a function parameter?"
@@ -114,14 +118,15 @@ msgid ""
 "A parameter is a placeholder that gets replaced with the actual value you "
 "pass when calling the function."
 msgstr ""
+"En parameter er en pladsholder, der erstattes med den faktiske værdi, du "
+"angiver, når du kalder funktionen."
 
-#, fuzzy
 msgid ""
 "The value can be different each time you call the function: it depends on "
 "what you put in parentheses."
 msgstr ""
-"Den pågældende værdi kan ændre sig: det afhænger af, hvad du sætter i "
-"parentes, når du kalder en funktion."
+"Værdien kan være forskellig hver gang du kalder funktionen: det afhænger af, "
+"hvad du sætter i parentes."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:84
 msgid "A label you give to a value the function receives."
@@ -140,36 +145,37 @@ msgid "How to create functions with parameters"
 msgstr "Sådan oprettes funktioner med parametre"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:94
-#, fuzzy
 msgid ""
 "When you write a function [i]definition[/i] (the line starting with the "
 "[code]func[/code] keyword), you can add parameters."
 msgstr ""
-"Du kan angive dine funktionsparametre, når du skriver dens [i]definition[/i] "
-"(linjen, der starter med nøgleordet [code]func[/code])."
+"Når du skriver en funktions [i]definition[/i] (linjen der starter med "
+"nøgleordet [code]func[/code]), kan du tilføje parametre."
 
 msgid ""
 "To add a parameter, write a placeholder name inside the parentheses. When "
 "someone calls your function with a value, every copy of the parameter in the "
 "function gets replaced with that value."
 msgstr ""
+"For at tilføje en parameter skal du skrive et pladsholdernavn i "
+"parenteserne. Når nogen kalder din funktion med en værdi, erstattes alle "
+"kopier af parameteren i funktionen med den pågældende værdi."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:116
-#, fuzzy
 msgid ""
 "You can give parameters any name! How you name functions and parameters is "
 "up to you."
 msgstr ""
-"Du kan give parametre et hvilket som helst navn. Hvordan du navngiver "
+"Du kan give parametre et hvilket som helst navn! Hvordan du navngiver "
 "funktioner og parametre er op til dig."
 
-#, fuzzy
 msgid ""
 "Just remember that names cannot contain spaces. To write parameter names "
 "with multiple words, in GDScript, we use underscores by convention."
 msgstr ""
 "Husk blot, at navne ikke må indeholde mellemrum. For at skrive "
-"parameternavne med flere ord skal du bruge understregninger."
+"parameternavne med flere ord bruger vi i GDScript understregninger ifølge "
+"konventionen."
 
 msgid ""
 "The following function definition is exactly equivalent to the previous one."
@@ -181,6 +187,9 @@ msgid ""
 "Parameters make your code easier to reuse. You write the function once as a "
 "template, then you can call it many times with different values."
 msgstr ""
+"Parametre gør din kode nemmere at genbruge. Du skriver funktionen én gang "
+"som en skabelon, og derefter kan du kalde den mange gange med forskellige "
+"værdier."
 
 #, fuzzy
 msgid ""
