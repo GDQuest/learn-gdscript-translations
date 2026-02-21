@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-16 11:09+0000\n"
+"PO-Revision-Date: 2026-02-20 16:09+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-11-time-delta/da/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
@@ -142,10 +142,8 @@ msgstr ""
 "Afhængigt af spillet, computeren og hvad spilmotoren skal beregne, tager det "
 "mere eller mindre tid at vise billeder."
 
-#, fuzzy
 msgid "There will always be small variations from frame to frame."
-msgstr ""
-"Der vil altid være variationer i millisekunder fra billede til billede."
+msgstr "Der vil altid være små variationer fra billede til billede."
 
 msgid ""
 "That is why the [code]_process()[/code] function receives a [code]delta[/"
@@ -154,33 +152,33 @@ msgstr ""
 "Derfor modtager funktionen [code]_process()[/code] en [code]delta[/code] "
 "parameter."
 
-#, fuzzy
 msgid ""
 "Delta represents a time difference. It's the time it took Godot to complete "
 "the previous frame, in seconds."
 msgstr ""
-"Delta repræsenterer en tidsforskel. Det er den tid, i sekunder, der er gået "
-"siden det forrige billede."
+"Delta repræsenterer en tidsforskel. Det er den tid, det tog Godot at "
+"fuldføre den forrige billede, i sekunder."
 
 msgid ""
 "We can use it to make sure the game runs at the same speed on all computers."
 msgstr ""
+"Vi kan bruge det til at sikre, at spillet kører med samme hastighed på alle "
+"computere."
 
-#, fuzzy
 msgid ""
 "This is because different computers have different processing power, so a "
 "fast computer will have more frames per second than a slow computer."
 msgstr ""
-"Dette skyldes, at forskellige computere kører forskelligt, så en hurtig "
-"computer vil have flere billeder pr. sekund end en langsom computer."
+"Dette skyldes, at forskellige computere har forskellig processorkraft, så en "
+"hurtig computer vil have flere billeder pr. sekund end en langsom computer."
 
-#, fuzzy
 msgid ""
 "If we ignore [code]delta[/code], movement speed will vary depending on the "
 "computer. Delta helps to make the game consistent for everyone."
 msgstr ""
-"Hvis vi ignorerer [code]delta[/code], vil spiloplevelsen variere afhængigt "
-"af computeren. Delta hjælper med at gøre spiloplevelsen ensartet for alle."
+"Hvis vi ignorerer [code]delta[/code], vil bevægelseshastighed variere "
+"afhængigt af computeren. Delta hjælper med at gøre spiloplevelsen ensartet "
+"for alle."
 
 #: course/lesson-11-time-delta/lesson.tres:113
 msgid "What do we know about delta?"
@@ -197,12 +195,11 @@ msgstr ""
 msgid "It's very small because frames happen many times a second."
 msgstr "Den er meget lille, fordi der genereres mange billeder i sekundet."
 
-#, fuzzy
 msgid ""
 "It varies each frame because Godot has more or less to process each frame."
 msgstr ""
-"Den varierer mellem hvert billede, fordi Godot skal behandle mere eller "
-"mindre hver billede."
+"Den varierer mellem hvert billede, fordi Godot har mere eller mindre at "
+"behandle hver billede."
 
 #: course/lesson-11-time-delta/lesson.tres:121
 msgid "It's a value in seconds."
@@ -258,15 +255,14 @@ msgstr ""
 "I starten af lektionen fik vi robotten til at rotere en fast mængde hver "
 "billede: [code]0.05[/code] radianer."
 
-#, fuzzy
 msgid ""
 "In the example above, we now [i]multiply[/i] the argument by the very small "
 "[code]delta[/code] value, a value much smaller than [code]1.0[/code]. It "
 "makes the robot turn at a constant speed over time."
 msgstr ""
 "I eksemplet ovenfor [i]multiplicerer[/i] vi nu argumentet med den meget "
-"lille [code]delta[/code] værdi, en værdi langt under [code]1.0[/code]. Det "
-"får robotten til at dreje med en konstant hastighed over tid."
+"lille [code]delta[/code]-værdi, en værdi der er meget mindre end [code]1.0[/"
+"code]. Det får robotten til at dreje med en konstant hastighed over tid."
 
 msgid ""
 "However, multiplying by a number below [code]1.0[/code] like [code]delta[/"
@@ -291,10 +287,9 @@ msgstr ""
 "[i]vinkel[/i] i radianer, mens [code]3.0[/code] er en [i]vinkelhastighed[/i] "
 "i radianer pr. sekund."
 
-#, fuzzy
 msgid ""
 "When you multiply an angular speed by a time delta, it gives you an angle."
-msgstr "Når du ganger en hastighed med et tidsdelta, får du en vinkel."
+msgstr "Når du ganger en vinkelhastighed med et tidsdelta, får du en vinkel."
 
 msgid ""
 "Don't worry if it's a little confusing for now. It'll eventually click as "
@@ -351,16 +346,16 @@ msgstr ""
 msgid "Thanks to that, we get reliable movement over time."
 msgstr "Takket være dette får vi pålidelig bevægelse over tid."
 
-#, fuzzy
 msgid ""
 "Frame times vary from computer to computer and from frame to frame during "
 "gameplay. Because frame times vary, if [code]delta[/code] is not used, "
 "movement speed will differ for each player, making the game inconsistent and "
 "messy."
 msgstr ""
-"Uden [code]delta[/code] varierer billede-tider fra computer til computer og "
-"under spillet. På grund af dette vil bevægelsen variere for hver spiller, "
-"hvilket gør spillet inkonsekvent og rodet."
+"Billedtider varierer fra computer til computer og fra billede til billede "
+"under spillet. Da billedtiderne varierer, vil bevægelseshastigheden variere "
+"for hver spiller, hvis [code]delta[/code] ikke bruges, hvilket gør spillet "
+"inkonsekvent og rodet."
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
@@ -371,13 +366,12 @@ msgid "[code]rotation_speed * delta[/code]"
 msgstr "[code]rotation_speed * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
-#, fuzzy
 msgid ""
 "The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/"
 "code] by [code]delta[/code]."
 msgstr ""
-"[code]*[/code] symbol betyder, at vi ganger [code]rotation_speed[/code] med "
-"[code]delta[/code] tid."
+"Symbolet [code]*[/code] betyder, at vi ganger [code]rotation_speed[/code] "
+"med [code]delta[/code]."
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're multiplying rotation_speed by delta."
@@ -396,10 +390,9 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "Vi trækker delta fra rotation_speed."
 
 #: course/lesson-11-time-delta/lesson.tres:241
-#, fuzzy
 msgid ""
 "In the next practice, we'll use delta to make the rotation time-dependent."
-msgstr "I den næste øvelse bruger vi delta til at gøre rotation tidsafhængig."
+msgstr "I den næste øvelse bruger vi delta til at gøre rotationen tidsafhængig."
 
 #: course/lesson-11-time-delta/lesson.tres:249
 msgid "Rotating Using Delta"
@@ -425,14 +418,14 @@ msgid "In this practice, make the robot move in a smooth circle using delta."
 msgstr ""
 "I denne øvelse skal robotten bevæge sig i en jævn cirkel ved hjælp af delta."
 
-#, fuzzy
 msgid ""
 "The robot should rotate [code]2[/code] radians per second and move "
 "[code]100[/code] pixels per second forward. This combination makes it travel "
 "in a clockwise circle."
 msgstr ""
-"For at opnå denne bevægelse skal robotten rotere [code]2[/code] radianer pr. "
-"sekund og bevæge sig [code]100[/code] pixels pr. sekund med uret."
+"Robotten skal rotere [code]2[/code] radianer pr. sekund og bevæge sig "
+"[code]100[/code] pixels fremad pr. sekund. Denne kombination får den til at "
+"bevæge sig i en cirkel med uret."
 
 msgid ""
 "[b]Note:[/b] Please write the values in the parentheses when calling the "

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2025-12-20 19:00+0000\n"
+"PO-Revision-Date: 2026-02-20 16:09+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/glossary_database/da/>\n"
@@ -17,7 +17,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: member function
@@ -239,56 +240,52 @@ msgstr "argumenter"
 
 #. Reference: argument
 #: course/glossary.csv:41
-#, fuzzy
 msgid ""
 "An argument is a value you pass to a function when you call it. For example, "
 "in the function call [code]rotate(0.5)[/code], the value [code]0.5[/code] "
 "inside the parentheses is an argument."
 msgstr ""
-"Et argument er en værdi, som du sender til en funktion, når du kalder "
-"funktionen. For eksempel, i kaldet [code]rotate(0.5)[/code], er værdien "
-"[code]0.5[/code] i parentesen et argument."
+"Et argument er en værdi, du sender til en funktion, når du kalder den. For "
+"eksempel, i funktionskaldet [code]rotate(0.5)[/code], er værdien [code]0.5[/"
+"code] i parentesen et argument."
 
-#, fuzzy
 msgid ""
 "A function can take no arguments, one argument, or multiple arguments. "
 "Arguments can be required or optional."
 msgstr ""
-"En funktion kan modtage ingen argumenter, ét argument eller flere "
-"argumenter. Argumenter kan være obligatoriske eller valgfrie."
+"En funktion kan tage ingen argumenter, ét argument eller flere argumenter. "
+"Argumenter kan være obligatoriske eller valgfrie."
 
-#, fuzzy
 msgid ""
 "When a function requires multiple arguments, you separate them with commas. "
 "Here's an example: [code]jump(50, 100)[/code]"
 msgstr ""
-"Når en funktion modtager flere argumenter, adskiller du værdierne med "
-"kommaer, som i dette funktionskald: [code]jump(50, 100)[/code]"
+"Når en funktion kræver flere argumenter, adskiller du dem med kommaer. Her "
+"er et eksempel: [code]jump(50, 100)[/code]"
 
-#, fuzzy
 msgid ""
 "When you [i]call[/i] a function, we call the values in parentheses "
 "[i]arguments[/i]."
 msgstr ""
-"Når vi [i]kalder[/i] en funktion, kalder vi de værdier, der sendes i "
-"parentes for [i]argumenter[/i]."
+"Når du [i]kalder[/i] en funktion, kalder vi værdierne i parentes for "
+"[i]argumenter[/i]."
 
 msgid ""
 "But when you [i]write[/i] a function definition, we call them [i]parameters[/"
 "i] instead. Here's an example:"
 msgstr ""
+"Men når du [i]skriver[/i] en funktionsdefinition, kalder vi dem i stedet for "
+"[i]parametre[/i]. Her er et eksempel:"
 
 msgid "[code]func move_to_position(x, y):[/code]"
-msgstr ""
+msgstr "[code]func move_to_position(x, y):[/code]"
 
-#, fuzzy
 msgid ""
 "In this function definition, [code]x[/code] and [code]y[/code] are "
 "[i]parameters[/i]."
 msgstr ""
-"Når vi skriver en funktionsdefinition, taler vi dog om "
-"funktions[i]parametre[/i]. I det følgende eksempel er navnene [code]x[/code] "
-"og [code]y[/code] [i]parametre[/i]."
+"I denne funktionsdefinition er [code]x[/code] og [code]y[/code] "
+"[i]parametre[/i]."
 
 #. Reference: array
 #: course/glossary.csv:48
