@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-21 12:53+0000\n"
+"PO-Revision-Date: 2026-02-22 19:09+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-6-multiple-function-parameters/da/>\n"
@@ -191,7 +191,6 @@ msgstr ""
 "som en skabelon, og derefter kan du kalde den mange gange med forskellige "
 "værdier."
 
-#, fuzzy
 msgid ""
 "Here's an example with a function to draw any square. The parameter "
 "[code]length[/code] is a placeholder. Use the slider to change the value. "
@@ -199,9 +198,11 @@ msgid ""
 "placeholder gets replaced with your value, drawing squares of different "
 "sizes."
 msgstr ""
-"Her er et eksempel med en funktion til at tegne et hvilket som helst "
-"kvadrat. Brug skyderen til at ændre den værdi, der sendes til funktionen, og "
-"tegn kvadrater i forskellige størrelser."
+"Her er et eksempel med en funktion, til at tegne et hvilket som helst "
+"kvadrat. Parameteren [code]length[/code] er en pladsholder. Brug skyderen "
+"til at ændre værdien. Når du klikker på knappen, kalder appen "
+"[code]draw_square()[/code], og pladsholderen erstattes med din værdi, "
+"hvilket tegner kvadrater i forskellige størrelser."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:160
 msgid "Which is the correct syntax for a function definition?"
@@ -247,25 +248,27 @@ msgid "Functions can have multiple parameters"
 msgstr "Funktioner kan have flere parametre"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:176
-#, fuzzy
 msgid ""
 "A function can have multiple parameters. You can use as many placeholders as "
 "you [i]need[/i]."
 msgstr ""
-"Du kan bruge flere parametre i en funktion. Faktisk kan du bruge så mange, "
+"En funktion kan have flere parametre. Du kan bruge så mange pladsholdere, "
 "som du har brug for."
 
-#, fuzzy
 msgid ""
 "To add multiple parameters, write a comma between each placeholder name."
 msgstr ""
-"For at adskille funktionsparametrene skal du skrive et komma mellem dem."
+"For at tilføje flere parametre skal du skrive et komma mellem hvert "
+"pladsholdernavn."
 
 msgid ""
 "For example, [code]func move(x, y)[/code] has two placeholders: [code]x[/"
 "code] and [code]y[/code]. Each one gets replaced with its own value when you "
 "call the function."
 msgstr ""
+"For eksempel har [code]func move(x, y)[/code] to pladsholdere: [code]x[/"
+"code] og [code]y[/code]. Hver af dem erstattes med sin egen værdi, når du "
+"kalder funktionen."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:198
 msgid "Must I write spaces between function parameters?"
@@ -293,19 +296,21 @@ msgstr ""
 "Vi bruger ofte mellemrum efter kommaet for at gøre det nemmere at læse."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:214
-#, fuzzy
 msgid ""
 "The following example shows a function with two parameters. The function "
 "moves an entity on both the X and Y axes."
 msgstr ""
-"Følgende eksempel definerer en funktion, der bruger to parametre til at "
-"flytte en enhed på både X- og Y-aksen."
+"Følgende eksempel viser en funktion med to parametre. Funktionen flytter en "
+"enhed på både X- og Y-aksen."
 
 msgid ""
 "When you call [code]move(50, 100)[/code], every [code]x[/code] in the "
 "function gets replaced with [code]50[/code], and every [code]y[/code] gets "
 "replaced with [code]100[/code]."
 msgstr ""
+"Når du kalder [code]move(50, 100)[/code], erstattes hver [code]x[/code] i "
+"funktionen med [code]50[/code], og hver [code]y[/code] erstattes med "
+"[code]100[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:234
 msgid "How should I name my functions and parameters?"
@@ -425,59 +430,64 @@ msgid "func function_name(): parameter_1, parameter_2, ..."
 msgstr "func funktion_navn(): parameter_1, parameter_2, ..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:290
-#, fuzzy
 msgid "Now it's your turn to create a function with multiple parameters."
-msgstr ""
-"Nu er det din tur til at oprette en funktion med flere parametre: en "
-"funktion til at tegne rektangler af enhver størrelse."
+msgstr "Nu er det din tur til at oprette en funktion med flere parametre."
 
 msgid ""
 "In the following practices, you'll write functions that I will call with "
 "different values. Your functions need to work correctly no matter what "
 "values the app passes to them."
 msgstr ""
+"I de følgende øvelser skal du skrive funktioner, som jeg vil kalde med "
+"forskellige værdier. Dine funktioner skal fungere korrekt, uanset hvilke "
+"værdier appen sender til dem."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:300
 msgid "Drawing corners of different sizes"
 msgstr "Tegning af hjørner af forskellige størrelser"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:301
-#, fuzzy
 msgid ""
 "Before we create a rectangle of any size, let's first practice with a "
 "simpler shape."
 msgstr ""
-"Før vi opretter et rektangel af en hvilken som helst størrelse, lad os først "
-"se, hvordan vi kan bruge parametre til at tegne enklere former."
+"Før vi laver et rektangel af en hvilken som helst størrelse, lad os først "
+"øve os med en mere enkel form."
 
 msgid "I will call your function twice with different values:"
-msgstr ""
+msgstr "Jeg vil kalde din funktion to gange med forskellige værdier:"
 
 msgid ""
 "[code]draw_corner(240)[/code]\n"
 "[code]draw_corner(120)[/code]"
 msgstr ""
+"[code]draw_corner(240)[/code]\n"
+"[code]draw_corner(120)[/code]"
 
 msgid ""
 "Your task is to add a parameter named [code]length[/code] to your function "
 "definition. This creates a placeholder. When the app calls your function, "
 "the placeholder will get replaced with the value in parentheses."
 msgstr ""
+"Din opgave er at tilføje en parameter med navnet [code]length[/code] til din "
+"funktionsdefinition. Dette opretter en pladsholder. Når appen kalder din "
+"funktion, erstattes pladsholderen med værdien i parentes."
 
-#, fuzzy
 msgid ""
 "Your function should move the turtle forward by an amount defined by the "
 "[code]length[/code] parameter, turn right [code]90[/code] degrees, then move "
 "forward by [code]length[/code] again."
 msgstr ""
-"Funktionen vil flytte skildpadden fremad et stykke, defineret af parameteren "
-"[code]length[/code], dreje [code]90[/code] grader og derefter flytte "
-"[code]length[/code] pixels fremad."
+"Din funktion skal flytte skildpadden fremad med en mængde defineret af "
+"parameteren [code]length[/code], dreje til højre [code]90[/code] grader, og "
+"derefter bevæge sig fremad med [code]length[/code] igen."
 
 msgid ""
 "Each time the app calls your function, [code]length[/code] will be replaced "
 "with a different value: first [code]240[/code], then [code]120[/code]."
 msgstr ""
+"Hver gang appen kalder din funktion, vil [code]length[/code] blive erstattet "
+"med en anden værdi: først [code]240[/code], derefter [code]120[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:325
 msgid ""
@@ -492,37 +502,40 @@ msgid "Using multiple parameters"
 msgstr "Brug af flere parametre"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:331
-#, fuzzy
 msgid ""
 "Now let's make the [code]draw_corner()[/code] function even more flexible. "
 "We'll add a second placeholder so the angle can also vary."
 msgstr ""
-"I denne øvelse vil vi forbedre vores [code]draw_corner()[/code]-funktion, så "
-"vinklen også kan variere."
+"Lad os nu gøre funktionen [code]draw_corner()[/code] endnu mere fleksibel. "
+"Vi tilføjer en anden pladsholder, så vinklen også kan variere."
 
 msgid "I will call your function with different length and angle values:"
-msgstr ""
+msgstr "Jeg vil kalde din funktion med forskellige længde- og vinkelværdier:"
 
 msgid ""
 "[code]draw_corner(240, 45)[/code]\n"
 "[code]draw_corner(120, 90)[/code]"
 msgstr ""
+"[code]draw_corner(240, 45)[/code]\n"
+"[code]draw_corner(120, 90)[/code]"
 
-#, fuzzy
 msgid ""
 "Your task is to add the [code]angle[/code] parameter after [code]length[/"
 "code] in the function definition. Remember to separate the two placeholders "
 "with a comma."
 msgstr ""
-"Tilføj parameteren [code]angle[/code] efter parameteren [code]length[/code] "
-"i funktionen [code]draw_corner()[/code] og brug den til at tegne hjørner med "
-"varierende vinkler."
+"Din opgave er at tilføje parameteren [code]angle[/code] efter [code]length[/"
+"code] i funktionsdefinitionen. Husk at adskille de to pladsholdere med et "
+"komma."
 
 msgid ""
 "Remember: When the app calls [code]draw_corner(240, 45)[/code], the "
 "parameter [code]length[/code] will get replaced with [code]240[/code] and "
 "[code]angle[/code] will get replaced with [code]45[/code]."
 msgstr ""
+"Husk: Når appen kalder [code]draw_corner(240, 45)[/code], vil parameteren "
+"[code]length[/code] blive erstattet med [code]240[/code] og [code]angle[/"
+"code] vil blive erstattet med [code]45[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:353
 msgid "With two parameters, code a function to draw corners with any angle."
@@ -535,40 +548,46 @@ msgid "Drawing squares of any size"
 msgstr "Tegne firkanter af enhver størrelse"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:359
-#, fuzzy
 msgid ""
 "Time to write a complete function from scratch! You'll make a function that "
 "draws squares of any size."
 msgstr ""
-"Nu er det din tur til at oprette en funktion med flere parametre: en "
-"funktion til at tegne rektangler af enhver størrelse."
+"Tid til at skrive en komplet funktion fra bunden! Du skal lave en funktion, "
+"der tegner firkanter i enhver størrelse."
 
 msgid "I will call your function with different sizes:"
-msgstr ""
+msgstr "Jeg vil kalde din funktion med forskellige størrelser:"
 
 msgid ""
 "[code]draw_square(200)[/code]\n"
 "[code]draw_square(100)[/code]"
 msgstr ""
+"[code]draw_square(200)[/code]\n"
+"[code]draw_square(100)[/code]"
 
-#, fuzzy
 msgid ""
 "Write a function named [code]draw_square()[/code] with one parameter called "
 "[code]length[/code]. Remember, this parameter is a placeholder that gets "
 "filled with the actual value when the function is called."
 msgstr ""
-"Opret en funktion med navnet [code]draw_square()[/code], der tager én "
-"parameter: [code]length[/code] længden af firkantens sider."
+"Skriv en funktion med navnet [code]draw_square()[/code] med én parameter "
+"kaldet [code]length[/code]. Husk, at denne parameter er en pladsholder, der "
+"udfyldes med den faktiske værdi, når funktionen kaldes."
 
 msgid ""
 "Your function needs to move forward by [code]length[/code], turn right 90 "
 "degrees, and do this four times to complete all four sides of the square."
 msgstr ""
+"Din funktion skal bevæge sig fremad med [code]length[/code], dreje 90 grader "
+"til højre og gøre dette fire gange for at fuldføre alle fire sider af "
+"firkanten."
 
 msgid ""
 "[b]Important:[/b] When the turtle finishes drawing, it should face right. So "
 "you need to turn right a total of four times."
 msgstr ""
+"[b]Vigtigt:[/b] Når skildpadden er færdig med at tegne, skal den vende mod "
+"højre. Så du skal dreje til højre i alt fire gange."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:380
 msgid ""
@@ -584,41 +603,52 @@ msgid "Drawing rectangles of any size"
 msgstr "Tegning af rektangler i enhver størrelse"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:386
-#, fuzzy
 msgid "Let's create a function to draw rectangles with any length and height."
 msgstr ""
-"Med to parametre skal du kode en funktion til at tegne hjørner med en "
-"hvilken som helst vinkel."
+"Lad os oprette en funktion til at tegne rektangler med en hvilken som helst "
+"længde og højde."
 
 msgid "I will call your function twice with different sizes:"
-msgstr ""
+msgstr "Jeg vil kalde din funktion to gange med forskellige størrelser:"
 
 msgid ""
 "[code]draw_rectangle(260, 180)[/code]\n"
 "[code]draw_rectangle(160, 210)[/code]"
 msgstr ""
+"[code]draw_rectangle(260, 180)[/code]\n"
+"[code]draw_rectangle(160, 210)[/code]"
 
 msgid ""
 "Your function needs two parameters: [code]length[/code] and [code]height[/"
 "code]. When the app calls your function, the first number replaces "
 "[code]length[/code], and the second number replaces [code]height[/code]."
 msgstr ""
+"Din funktion skal bruge to parametre: [code]length[/code] og [code]height[/"
+"code]. Når appen kalder din funktion, erstatter det første tal [code]length[/"
+"code], og det andet tal erstatter [code]height[/code]."
 
 msgid ""
 "Use [code]length[/code] when you move horizontally and [code]height[/code] "
 "when you move vertically."
 msgstr ""
+"Brug [code]length[/code] når du bevæger dig vandret og [code]height[/code] "
+"når du bevæger dig lodret."
 
 msgid ""
 "This is the pattern you need to follow: move forward by [code]length[/code], "
 "turn right, move forward by [code]height[/code], turn right, then repeat "
 "this sequence once more."
 msgstr ""
+"Dette er mønsteret, du skal følge: bevæg dig fremad med [code]length[/code], "
+"drej til højre, bevæg dig fremad med [code]height[/code], drej til højre, og "
+"gentag derefter denne sekvens én gang til."
 
 msgid ""
 "[b]Important:[/b] When the turtle finishes drawing, it should face right. "
 "Make sure you turn right four times in total."
 msgstr ""
+"[b]Vigtigt:[/b] Når skildpadden er færdig med at tegne, skal den vende mod "
+"højre. Sørg for at dreje til højre fire gange i alt."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:417
 msgid ""
