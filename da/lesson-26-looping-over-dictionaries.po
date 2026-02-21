@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-16 11:09+0000\n"
+"PO-Revision-Date: 2026-02-21 12:53+0000\n"
 "Last-Translator: Jeppe Nellemann <jepnel@proton.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-26-looping-over-dictionaries/da/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:13
@@ -67,15 +67,14 @@ msgstr ""
 "Det er så almindeligt at loope over nøgler i en ordbog, at GDScript giver "
 "dig en genvej."
 
-#, fuzzy
 msgid ""
 "You can write the dictionary variable name directly after the [code]in[/"
 "code] keyword in a [code]for[/code] loop. GDScript automatically loops over "
 "the dictionary's keys."
 msgstr ""
-"I stedet kan du direkte skrive variabelnavnet i en [code]for[/code]-løkke "
-"efter nøgleordet [code]in[/code]. Sproget forstår, at du implicit vil løbe "
-"hen over ordbogens nøgler."
+"Du kan skrive ordbogsvariabelnavnet direkte efter nøgleordet [code]in[/code] "
+"i en [code]for[/code]-løkke. GDScript looper automatisk hen over ordbogens "
+"nøgler."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:71
 msgid ""
@@ -84,76 +83,71 @@ msgid ""
 "code], [code]key[/code], or anything else. This variable holds one key at a "
 "time as the loop runs."
 msgstr ""
+"Husk: navnet efter nøgleordet [code]for[/code] er et variabelnavn, du selv "
+"vælger. Du kan kalde det [code]item_name[/code], [code]item[/code], "
+"[code]key[/code] eller hvad som helst andet. Denne variabel indeholder én "
+"nøgle ad gangen, mens løkken kører."
 
-#, fuzzy
 msgid ""
 "You can get each value with the syntax [code]dictionary[key][/code], as you "
 "learned in the previous lesson."
 msgstr ""
-"Du kan få værdierne med syntaksen [code]dictionary[key][/code], som du lærte "
-"i den forrige lektion."
+"Du kan få hver værdi med syntaksen [code]dictionary[key][/code], som du "
+"lærte i den forrige lektion."
 
-#, fuzzy
 msgid ""
 "So we can loop over the inventory keys, get their values, and display that "
 "information on screen."
 msgstr ""
-"Vi kan løbe over lager-nøglerne, få de tilsvarende værdier og vise alle "
-"disse oplysninger i brugergrænsefladen."
+"Så vi kan loope gennem lager-nøglerne, få deres værdier og vise disse "
+"oplysninger på skærmen."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:105
-#, fuzzy
 msgid ""
 "Instead of printing the key-value pairs to the output console, we can write "
 "and call a function that displays items on the screen."
 msgstr ""
 "I stedet for at udskrive nøgle-værdi-parrene til outputkonsollen, kan vi "
-"kode og kalde en dedikeret funktion, der viser elementer i "
-"brugergrænsefladen."
+"skrive og kalde en funktion, der viser elementer på skærmen."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:133
 msgid "Mapping grid cells to units"
 msgstr "Kortlægning af gitterceller til enheder"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:135
-#, fuzzy
 msgid ""
 "You can also use a dictionary to store which units are at which positions on "
 "a game board."
 msgstr ""
-"Vi kan også bruge en ordbog til at knytte enheder til deres position på et "
-"spillebræt."
+"Du kan også bruge en ordbog til at gemme hvilke enheder, der er på hvilke "
+"positioner på et spillebræt."
 
-#, fuzzy
 msgid ""
 "This is how you'd typically code a board game, a grid-based RPG, or a "
 "tactical RPG."
 msgstr ""
-"Det er sådan, man typisk ville kode et brætspil, et gitterbaseret RPG eller "
-"et taktisk RPG."
+"Sådan ville du typisk kode et brætspil, et grid-baseret RPG eller et taktisk "
+"RPG."
 
-#, fuzzy
 msgid ""
 "So far, we used [code]String[/code] keys. But GDScript dictionaries can use "
 "any type as a key. In this example, we use [code]Vector2[/code] values as "
 "keys to represent grid positions."
 msgstr ""
-"Selvom vi indtil videre har fokuseret på [code]String[/code]-nøgler, "
-"accepterer GDScript-ordbøger enhver værditype som en nøgle, hvilket giver "
-"dig mulighed for at knytte hvad som helst til hvad som helst."
+"Indtil videre har vi brugt [code]String[/code]-nøgler. Men GDScript-ordbøger "
+"kan bruge enhver type som nøgle. I dette eksempel bruger vi [code]Vector2[/"
+"code]-værdier som nøgler til at repræsentere gitterpositioner."
 
-#, fuzzy
 msgid "The only rule is that every key in a dictionary must be unique."
-msgstr "Den eneste begrænsning er, at hver nøgle skal være unik."
+msgstr "Den eneste regel er, at hver nøgle i en ordbog skal være unik."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:161
-#, fuzzy
 msgid ""
 "With a [code]for[/code] loop, you can place all the units on the board when "
 "a game starts."
 msgstr ""
-"Ved at bruge en [code]for[/code]-løkke kan du bruge nøgle-værdi-parrene til "
-"at placere enheder på spillebrættet i starten af et spil."
+"Med en [code]for[/code]-løkke kan du placere alle enhederne på spillepladen, "
+"når et spil starter."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:191
 msgid ""
@@ -167,68 +161,59 @@ msgid "Displaying the inventory"
 msgstr "Visning af lagerbeholdningen"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:200
-#, fuzzy
 msgid ""
 "We use a dictionary to store the player's inventory. The keys are item "
 "names, and the values are how many of each item the player has."
 msgstr ""
-"Vi bruger en ordbog til at repræsentere spillerens inventar i dette spil. "
-"Ordbogsnøglerne er navnene på genstande, og de relaterer sig til antallet af "
-"genstande, som spilleren ejer."
+"Vi bruger en ordbog til at gemme spillerens lager. Nøglerne er "
+"genstandsnavne, og værdierne er, hvor mange af hver genstand spilleren har."
 
-#, fuzzy
 msgid "Loop over the dictionary and display every item in the inventory."
-msgstr ""
-"Du skal løbe hen over ordbogen og vise navnet og mængden af hver genstand i "
-"inventaret."
+msgstr "Loop over ordbogen og vis alle genstande i lageret."
 
-#, fuzzy
 msgid ""
 "Call the [code]display_item()[/code] function for each item. It takes two "
 "arguments: the item name and the amount."
 msgstr ""
-"For at gøre dette skal du kalde funktionen [code]display_item()[/code]. Den "
-"kræver to argumenter: genstandsnavnet og mængden."
+"Kald funktionen [code]display_item()[/code] for hver vare. Den tager to "
+"argumenter: varenavnet og mængden."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:221
-#, fuzzy
 msgid ""
 "The player's inventory needs to appear on screen. Use a loop to display "
 "every item."
 msgstr ""
-"Vi skal vise spillerens lager på skærmen, men mangler koden til at gøre det. "
-"Brug et loop til at vise alle genstande."
+"Spillerens lager skal vises på skærmen. Brug et loop til at vise alle "
+"genstande."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:226
 msgid "Placing units on the board"
 msgstr "Placering af enheder på spillepladen"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:227
-#, fuzzy
 msgid ""
 "We have a dictionary named [code]units[/code]. It maps cell positions on the "
 "grid to the type of unit at that position."
 msgstr ""
-"Vi har en ordbog med navnet [code]units[/code], der knytter en celleposition "
-"på gitteret til en enhed, der skal placeres der."
+"Vi har en ordbog med navnet [code]units[/code]. Den knytter cellepositioner "
+"på gitteret til typen af enhed på den pågældende position."
 
-#, fuzzy
 msgid ""
 "Use a for loop to place every unit on the game board. Call the "
 "[code]place_unit()[/code] function for each unit. It takes two arguments: "
 "first the cell position, then the unit type."
 msgstr ""
-"Brug en for-løkke og funktionen [code]place_unit()[/code] til at placere "
-"hver enhed i enhedsordbogen på den ønskede position på spillebrættet."
+"Brug en for-løkke til at placere hver enhed på spillebrættet. Kald "
+"funktionen [code]place_unit()[/code] for hver enhed. Den tager to "
+"argumenter: først cellens position, derefter enhedstypen."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:246
-#, fuzzy
 msgid ""
 "At the start of each battle, units need to appear on the game board. Loop "
 "over the dictionary to place them."
 msgstr ""
-"Vi ønsker at fylde vores spillebræt med enheder i starten af hver kamp. Loop "
-"over ordbogen for at placere enheder på brættet."
+"I starten af hver kamp skal enhederne dukke op på spillebrættet. Loop over "
+"ordbogen for at placere dem."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:250
 msgid "Looping over dictionaries"
