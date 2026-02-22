@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-02-29 13:51+0000\n"
-"Last-Translator: 二中 <worigoule@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/error-explanations/zh_Hans/>\n"
+"PO-Revision-Date: 2026-02-22 19:09+0000\n"
+"Last-Translator: xtxt-mas <3283445231@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/error-explanations/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -83,24 +84,28 @@ msgstr ""
 msgid ""
 "You can only assign values to variables. You cannot assign values to "
 "function calls or calculations."
-msgstr ""
+msgstr "你只能给变量赋值。不能为函数调用或计算赋值。"
 
 msgid ""
 "For example, you cannot write [code]randi() = 5[/code] because [code]randi()"
 "[/code] is a function call, not a variable."
 msgstr ""
+"例如，你不能写[code]randi() = 5[/code]，因为[code]randi()[/code]是一个函数调"
+"用，而不是一个变量。"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
 msgid ""
 "Check what you wrote on the left side of the equal sign (=). Make sure it is "
 "a variable name."
-msgstr ""
+msgstr "检查你在等号（=）左边写的东西。确保它是一个变量名。"
 
 msgid ""
 "If you see parentheses () on the left side, you might be trying to assign to "
 "a function call. Remove the parentheses and the function call."
 msgstr ""
+"如果你在左侧看到了括号 ()，说明你可能正试图为一个函数调用赋值。请移除括号以及"
+"其中的函数调用。"
 
 #, fuzzy
 msgid ""
@@ -111,7 +116,7 @@ msgstr "另一种可能是，你想在条件中检查相等性，但却写了一
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
 msgid "You get this error when you try to change the value of a constant."
-msgstr ""
+msgstr "当你试图修改常量的值时，就会触发此错误。"
 
 msgid ""
 "A constant is a name that holds a value that cannot change. It's like a "
