@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-22 19:09+0000\n"
+"PO-Revision-Date: 2026-02-28 07:09+0000\n"
 "Last-Translator: xtxt-mas <3283445231@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/lesson-22-functions-return-values/zh_Hans/>"
@@ -23,12 +23,10 @@ msgstr ""
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-22-functions-return-values/lesson.tres:13
-#, fuzzy
 msgid ""
 "Until now, you learned that functions are a way to group instructions, give "
 "them a name, and reuse them."
-msgstr ""
-"·学到现在，你已经知道了到函数是一个由你命名的指令序列，可以被随时调用。"
+msgstr "·学到现在，你已经知道了到函数是一个由你命名的指令序列，可以被随时调用。"
 
 #, fuzzy
 msgid "Functions can also make calculations and [i]return[/i] new values."
@@ -111,11 +109,14 @@ msgid ""
 "value of [code]0.0[/code] gives you the start value, [code]1.0[/code] gives "
 "you the end value, and [code]0.5[/code] gives you halfway between them."
 msgstr ""
+"它有三个参数：一个开始值，一个结束值，以及一个介于[code]0.0[/"
+"code]和[code]1.0[/code]之间的混合量，用于控制混合。[code]0.0[/code]是起始值"
+"，[code]1.0[/code]是结束值，[code]0.5[/code]是中间值。"
 
 msgid ""
 "In games, [code]lerp()[/code] is often used to make things move smoothly "
 "towards a target."
-msgstr ""
+msgstr "在游戏开发中，[code]lerp()[/code] 函数常被用来让物体平滑地向目标位置移动。"
 
 msgid ""
 "[b]Note:[/b] In the code example below, I wrote the [code]lerp()[/code] "
