@@ -9,9 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-13 03:09+0000\n"
-"Last-Translator: Juan Manuel Fernandes dos Santos "
-"<juan.fernandes@10pines.com>\n"
+"PO-Revision-Date: 2026-03-04 13:10+0000\n"
+"Last-Translator: Aodham <aodhamm@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/error-explanations/es/>\n"
 "Language: es\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -80,14 +79,12 @@ msgstr ""
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
-#, fuzzy
 msgid ""
 "You get this error when you try to assign a value to something that is not a "
 "variable."
 msgstr ""
-"Si obtienes este error, lo más probable es que estés intentando asignar un "
-"valor a algo que no sea una variable, lo cual es imposible. Sólo se pueden "
-"asignar valores a variables."
+"Obtienes este error cuando intentas asignar un valor a algo que no es una "
+"variable."
 
 msgid ""
 "You can only assign values to variables. You cannot assign values to "
@@ -109,40 +106,53 @@ msgid ""
 "Check what you wrote on the left side of the equal sign (=). Make sure it is "
 "a variable name."
 msgstr ""
+"Revisa lo que escribiste en el lado izquierdo del signo igual (=). Asegúrate "
+"de que sea el nombre de una variable."
 
 msgid ""
 "If you see parentheses () on the left side, you might be trying to assign to "
 "a function call. Remove the parentheses and the function call."
 msgstr ""
+"Si ves paréntesis () en el lado izquierdo, puede que estés intentando "
+"asignar a una llamada a función. Elimina los paréntesis y la llamada a la "
+"función."
 
-#, fuzzy
 msgid ""
 "If you are trying to check if two values are equal in a condition, use two "
 "equal signs (==) instead of one (=)."
 msgstr ""
-"Otra posibilidad es que quieras comprobar la igualdad en una condición pero "
-"hayas escrito un solo = en lugar de ==."
+"Si intentas comprobar si dos valores son iguales en una condición, usa dos "
+"signos iguales (==) en lugar de uno (=)."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
 msgid "You get this error when you try to change the value of a constant."
-msgstr ""
+msgstr "Obtienes este error cuando intentas cambiar el valor de una constante."
 
 msgid ""
 "A constant is a name that holds a value that cannot change. It's like a "
 "variable, but once you set its value, you cannot replace it."
 msgstr ""
+"Una constante es un nombre que guarda un valor que no puede cambiar. Es como "
+"una variable, pero una vez que defines su valor, no puedes reemplazarlo."
 
 msgid ""
 "For example, if you write [code]const MAX_SPEED = 100[/code], you cannot "
 "later write [code]MAX_SPEED = 200[/code] or [code]MAX_SPEED += 50[/code]."
 msgstr ""
+"Por ejemplo, si escribes [code]const MAX_SPEED = 100[/code], no puedes "
+"después escribir [code]MAX_SPEED = 200[/code] ni [code]MAX_SPEED += 50[/"
+"code]."
 
 msgid ""
 "Many constants are built into Godot and GDScript, and you cannot change them "
 "either. For instance, you cannot write [code]Vector2 = 5[/code] or [code]PI "
 "= 3[/code]. Constant names usually use capital letters."
 msgstr ""
+"Muchas constantes ya están integradas en Godot y en GDScript, y tampoco "
+"puedes cambiarlas. Por ejemplo, no puedes escribir [code]Vector2 = 5[/code] "
+"ni [code]PI = 3[/code]. Los nombres de constantes suelen escribirse en "
+"mayúsculas."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
@@ -150,6 +160,8 @@ msgid ""
 "Look at what you are trying to change. If it is a constant (defined with the "
 "[code]const[/code] keyword or built into Godot), you have two options:"
 msgstr ""
+"Revisa lo que estás intentando cambiar. Si es una constante (definida con la "
+"palabra clave [code]const[/code] o integrada en Godot), tienes dos opciones:"
 
 msgid ""
 "1. If the value should never change, or it comes from Godot, remove the line "
@@ -157,6 +169,10 @@ msgid ""
 "2. If the value needs to change, use [code]var[/code] instead of "
 "[code]const[/code] when you first create it."
 msgstr ""
+"1. Si el valor nunca debería cambiar, o viene de Godot, elimina la línea que "
+"intenta modificarlo.\n"
+"2. Si el valor necesita cambiar, usa [code]var[/code] en lugar de "
+"[code]const[/code] cuando lo crees por primera vez."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -165,16 +181,25 @@ msgid ""
 "happens when you have a space before a tab, or a tab before a space at the "
 "start of a line."
 msgstr ""
+"Obtienes este error cuando mezclas espacios y tabulaciones en la "
+"indentación. Esto ocurre cuando hay un espacio antes de una tabulación, o "
+"una tabulación antes de un espacio al inicio de una línea."
 
 msgid ""
 "In GDScript, you must use only tabs (not spaces) to indent your code. When "
 "you press the Tab key on your keyboard, it creates a tab character."
 msgstr ""
+"En GDScript, debes usar solo tabulaciones (no espacios) para indentar tu "
+"código. Cuando presionas la tecla Tab en tu teclado, se crea un carácter de "
+"tabulación."
 
 msgid ""
 "If you accidentally type a space before a tab, or a tab before a space, the "
 "computer gets confused about your code's indentation."
 msgstr ""
+"Si por accidente escribes un espacio antes de una tabulación, o una "
+"tabulación antes de un espacio, el ordenador se confunde con la indentación "
+"de tu código."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -183,16 +208,24 @@ msgid ""
 "space characters at the very beginning of the line, and remove any spaces "
 "that appear after your tab characters."
 msgstr ""
+"Para corregir este error, ve a la línea que se menciona en el mensaje de "
+"error. Elimina cualquier espacio al principio de la línea y borra también "
+"los espacios que aparezcan después de los caracteres de tabulación."
 
 msgid ""
 "Tab characters look like an arrow pointing at a vertical line in your code: "
 "⇥. Spaces look like centered dots: ·. Look closely to spot the difference."
 msgstr ""
+"Los caracteres de tabulación se ven como una flecha apuntando a una línea "
+"vertical en tu código: ⇥. Los espacios se ven como puntos centrados: ·. Mira "
+"con atención para notar la diferencia."
 
 msgid ""
 "Then, make sure the line starts with only tab characters for indentation, "
 "with no spaces mixed in."
 msgstr ""
+"Después, asegúrate de que la línea empiece solo con caracteres de tabulación "
+"para la indentación, sin mezclar espacios."
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:78
@@ -337,17 +370,25 @@ msgid ""
 "You get this error when you use a special character that GDScript doesn't "
 "recognize."
 msgstr ""
+"Obtienes este error cuando usas un carácter especial que GDScript no "
+"reconoce."
 
 msgid ""
 "This includes accented letters (like é, à, ñ), special symbols, or "
 "characters from non-Latin alphabets in your code instructions (not in "
 "strings)."
 msgstr ""
+"Esto incluye letras con tilde (como é, à, ñ), símbolos especiales o "
+"caracteres de alfabetos no latinos en tus instrucciones de código (no dentro "
+"de strings)."
 
 msgid ""
 "[b]Note:[/b] Godot 4 supports special and non-Latin characters in code "
 "(Unicode characters), but this app is built with Godot 3, which does not."
 msgstr ""
+"[b]Nota:[/b] Godot 4 admite caracteres especiales y no latinos en el código "
+"(caracteres Unicode), pero esta app está hecha con Godot 3, que no los "
+"admite."
 
 #. Reference: UNKNOWN_CHARACTER
 #: script_checking/error_database.csv:103
@@ -355,16 +396,23 @@ msgid ""
 "To fix this error, remove any accented letters or special characters from "
 "your variable names, function names, and other code elements."
 msgstr ""
+"Para corregir este error, elimina cualquier letra con tilde o carácter "
+"especial de los nombres de variables, nombres de funciones y otros elementos "
+"del código."
 
 msgid ""
 "You can use accented characters inside text strings (between quotes), but "
 "not in the code itself."
 msgstr ""
+"Puedes usar caracteres con tilde dentro de cadenas de texto (entre comillas)"
+", pero no en el código en sí."
 
 msgid ""
 "You can replace accented letters with their non-accented equivalents. For "
 "example, change [code]café[/code] to [code]cafe[/code]."
 msgstr ""
+"Puedes reemplazar las letras con tilde por sus equivalentes sin tilde. Por "
+"ejemplo, cambia [code]café[/code] por [code]cafe[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:106
@@ -950,6 +998,10 @@ msgid ""
 "[code]break[/code] statement inside it. This creates an infinite loop that "
 "will freeze your game."
 msgstr ""
+"Has escrito un bucle while con una condición que siempre es verdadera (como "
+"[code]while true:[/code] o [code]while(true):[/code]) sin una instrucción "
+"[code]break[/code] dentro. Esto crea un bucle infinito que congelará tu "
+"juego."
 
 #. Reference: INFINITE_WHILE_LOOP
 #: script_checking/error_database.csv:186
@@ -959,6 +1011,10 @@ msgid ""
 "loop condition to something that will become false. For example: [code]while "
 "position.x < 100: position.x -= 10[/code]."
 msgstr ""
+"Para corregir esto, debes añadir una instrucción [code]break[/code] dentro "
+"del bucle para que pueda salir cuando se cumpla cierta condición, o cambiar "
+"la condición del while por otra que llegue a ser falsa. Por ejemplo: "
+"[code]while position.x < 100: position.x -= 10[/code]."
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:188
