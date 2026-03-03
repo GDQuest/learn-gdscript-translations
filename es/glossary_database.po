@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2022-06-12 11:11+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: es <LL@li.org>\n"
+"PO-Revision-Date: 2026-03-04 13:10+0000\n"
+"Last-Translator: Aodham <aodhamm@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/glossary_database/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: member function
@@ -242,57 +244,52 @@ msgstr "argumentos"
 
 #. Reference: argument
 #: course/glossary.csv:41
-#, fuzzy
 msgid ""
 "An argument is a value you pass to a function when you call it. For example, "
 "in the function call [code]rotate(0.5)[/code], the value [code]0.5[/code] "
 "inside the parentheses is an argument."
 msgstr ""
-"Un argumento es un valor que le pasas a una función cuando llamas a la "
-"función. Por ejemplo, en la llamada [code]rotate(0.5)[/code], el valor "
-"[code]0.5[/code] entre los paréntesis es un argumento."
+"Un argumento es un valor que pasas a una función cuando la llamas. Por "
+"ejemplo, en la llamada [code]rotate(0.5)[/code], el valor [code]0.5[/code] "
+"dentro de los paréntesis es un argumento."
 
-#, fuzzy
 msgid ""
 "A function can take no arguments, one argument, or multiple arguments. "
 "Arguments can be required or optional."
 msgstr ""
-"Una función puede no recibir ningún argumento, recibir un argumento o "
-"recibir varios argumentos. Los argumentos pueden ser obligatorios u "
-"opcionales."
+"Una función puede no recibir argumentos, recibir uno o varios. Los "
+"argumentos pueden ser obligatorios u opcionales."
 
-#, fuzzy
 msgid ""
 "When a function requires multiple arguments, you separate them with commas. "
 "Here's an example: [code]jump(50, 100)[/code]"
 msgstr ""
-"Cuando una función recibe varios argumentos, se separan los valores con "
-"comas, como en esta llamada de función: jump(50, 100)."
+"Cuando una función necesita varios argumentos, los separas con comas. Aquí "
+"tienes un ejemplo: [code]jump(50, 100)[/code]"
 
-#, fuzzy
 msgid ""
 "When you [i]call[/i] a function, we call the values in parentheses "
 "[i]arguments[/i]."
 msgstr ""
-"Al [i]llamar[/i] a una función, llamamos a los valores que se pasan entre "
-"paréntesis [i]argumentos[/i]."
+"Cuando [i]llamas[/i] a una función, llamamos [i]argumentos[/i] a los valores "
+"que van entre paréntesis."
 
 msgid ""
 "But when you [i]write[/i] a function definition, we call them [i]parameters[/"
 "i] instead. Here's an example:"
 msgstr ""
+"Pero cuando [i]escribes[/i] la definición de una función, los llamamos "
+"[i]parámetros[/i]. Aquí tienes un ejemplo:"
 
 msgid "[code]func move_to_position(x, y):[/code]"
-msgstr ""
+msgstr "[code]func move_to_position(x, y):[/code]"
 
-#, fuzzy
 msgid ""
 "In this function definition, [code]x[/code] and [code]y[/code] are "
 "[i]parameters[/i]."
 msgstr ""
-"Sin embargo, al escribir una definición de función, hablamos de los "
-"[i]parámetros[/i] de la función. En el siguiente ejemplo, los nombres "
-"[code]x[/code] y [code]y[/code] son [i]parámetros[/i]."
+"En esta definición de función, [code]x[/code] y [code]y[/code] son "
+"[i]parámetros[/i]."
 
 #. Reference: array
 #: course/glossary.csv:48
@@ -318,7 +315,7 @@ msgid ""
 "[code]var three_numbers = [1, 2, 3][/code]"
 msgstr ""
 "Para crear una matriz, escribes valores separados por comas entre corchetes: "
-"[code]var three_numbers = [1, 2, 3][/code]."
+"[code]var three_numbers = [1, 2, 3][/code]"
 
 msgid ""
 "In games, we use arrays all the time to store lists of characters in a "
