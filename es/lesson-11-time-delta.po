@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2023-12-09 20:09+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-03-04 13:09+0000\n"
+"Last-Translator: Nathan Lovato <nathan.lovato.art@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-11-time-delta/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
@@ -28,13 +30,12 @@ msgstr ""
 "nuestro personaje para hacer que se mueva continuamente."
 
 #: course/lesson-11-time-delta/lesson.tres:34
-#, fuzzy
 msgid ""
 "But it's not just our character that has a [code]_process()[/code] function. "
 "Almost everything in the game has a [code]_process()[/code] function!"
 msgstr ""
 "Pero no es sólo nuestro personaje el que tiene una función [code]_process()[/"
-"code]; ¡casi todo en el juego tiene una función [code]_process()[/code]!"
+"code]. ¡Casi todo en el juego tiene una función [code]_process()[/code]!"
 
 msgid ""
 "Dozens of times per second, Godot runs every [code]_process()[/code] "
@@ -141,9 +142,8 @@ msgstr ""
 "Dependiendo del juego, de la computadora y de lo que el motor del juego "
 "tenga que calcular, los fotogramas tardan más o menos tiempo en mostrarse."
 
-#, fuzzy
 msgid "There will always be small variations from frame to frame."
-msgstr "Siempre habrá variaciones de milisegundos de un fotograma a otro."
+msgstr "Siempre habrá pequeñas variaciones de un frame a otro."
 
 msgid ""
 "That is why the [code]_process()[/code] function receives a [code]delta[/"
@@ -152,34 +152,33 @@ msgstr ""
 "Es por eso que la función [code]_process()[/code] recibe un parámetro "
 "[code]delta[/code]."
 
-#, fuzzy
 msgid ""
 "Delta represents a time difference. It's the time it took Godot to complete "
 "the previous frame, in seconds."
 msgstr ""
-"La palabra \"delta\" representa una diferencia de tiempo. Es el tiempo "
-"transcurrido desde el fotograma anterior, en segundos."
+"Delta representa una diferencia de tiempo. Es el tiempo que tardó Godot en "
+"completar el frame anterior, en segundos."
 
 msgid ""
 "We can use it to make sure the game runs at the same speed on all computers."
 msgstr ""
+"Podemos usarla para asegurarnos de que el juego se ejecute a la misma "
+"velocidad en todos los ordenadores."
 
-#, fuzzy
 msgid ""
 "This is because different computers have different processing power, so a "
 "fast computer will have more frames per second than a slow computer."
 msgstr ""
-"Esto es porque los distintos ordenadores funcionan de forma diferente, por "
-"lo que un ordenador rápido tendrá más fotogramas por segundo que uno lento."
+"Esto ocurre porque distintos ordenadores tienen diferente potencia de "
+"procesamiento, así que uno rápido mostrará más frames por segundo que uno "
+"lento."
 
-#, fuzzy
 msgid ""
 "If we ignore [code]delta[/code], movement speed will vary depending on the "
 "computer. Delta helps to make the game consistent for everyone."
 msgstr ""
-"Si ignoramos [code]delta[/code], la experiencia de juego variará en función "
-"del ordenador. Delta ayuda a que la experiencia de juego sea uniforme para "
-"todos."
+"Si ignoramos [code]delta[/code], la velocidad de movimiento variará según el "
+"ordenador. Delta ayuda a que el juego sea consistente para todos."
 
 #: course/lesson-11-time-delta/lesson.tres:113
 msgid "What do we know about delta?"
@@ -196,12 +195,11 @@ msgstr ""
 msgid "It's very small because frames happen many times a second."
 msgstr "Es muy pequeño porque los fotogramas ocurren muchas veces por segundo."
 
-#, fuzzy
 msgid ""
 "It varies each frame because Godot has more or less to process each frame."
 msgstr ""
-"Varía en cada fotograma porque Godot necesita procesar más o menos cada "
-"fotograma."
+"Varía en cada frame porque Godot tiene más o menos cosas que procesar en "
+"cada uno."
 
 #: course/lesson-11-time-delta/lesson.tres:121
 msgid "It's a value in seconds."
@@ -258,15 +256,14 @@ msgstr ""
 "Al principio de la lección, hicimos que el robot girara por una cantidad "
 "fija en cada fotograma: [code]0.05[/code] radianes."
 
-#, fuzzy
 msgid ""
 "In the example above, we now [i]multiply[/i] the argument by the very small "
 "[code]delta[/code] value, a value much smaller than [code]1.0[/code]. It "
 "makes the robot turn at a constant speed over time."
 msgstr ""
-"En el ejemplo anterior, ahora [i]multiplicamos[/i] el argumento por el muy "
-"pequeño valor de [code]delta[/code], un valor muy inferior a [code]1.0[/"
-"code]. Esto hace que el robot gire a una velocidad constante en el tiempo."
+"En el ejemplo de arriba, ahora [i]multiplicamos[/i] el argumento por el "
+"valor muy pequeño [code]delta[/code], un valor mucho menor que [code]1.0[/"
+"code]. Esto hace que el robot gire a velocidad constante con el tiempo."
 
 msgid ""
 "However, multiplying by a number below [code]1.0[/code] like [code]delta[/"
@@ -292,11 +289,11 @@ msgstr ""
 "[i]ángulo[/i] en radianes, mientras que [code]3.0[/code] es una [i]velocidad "
 "angular[/i] en radianes por segundo."
 
-#, fuzzy
 msgid ""
 "When you multiply an angular speed by a time delta, it gives you an angle."
 msgstr ""
-"Cuando multiplicas una velocidad por un delta de tiempo, te da un ángulo."
+"Cuando multiplicas una velocidad angular por un delta de tiempo, obtienes un "
+"ángulo."
 
 msgid ""
 "Don't worry if it's a little confusing for now. It'll eventually click as "
@@ -354,16 +351,16 @@ msgstr ""
 msgid "Thanks to that, we get reliable movement over time."
 msgstr "Gracias a esto, obtenemos un movimiento fiable a lo largo del tiempo."
 
-#, fuzzy
 msgid ""
 "Frame times vary from computer to computer and from frame to frame during "
 "gameplay. Because frame times vary, if [code]delta[/code] is not used, "
 "movement speed will differ for each player, making the game inconsistent and "
 "messy."
 msgstr ""
-"Sin [code]delta[/code], los tiempos de los fotogramas varían de una "
-"computadora a otra y durante el juego. Por eso, el movimiento será diferente "
-"para cada jugador, haciendo que el juego sea inconsistente y desordenado."
+"Los tiempos de frame varían entre ordenadores y de un frame a otro durante "
+"la partida. Como los tiempos de frame cambian, si no se usa [code]delta[/"
+"code], la velocidad de movimiento será diferente para cada jugador, haciendo "
+"que el juego sea inconsistente y desordenado."
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
@@ -374,13 +371,12 @@ msgid "[code]rotation_speed * delta[/code]"
 msgstr "[code]rotation_speed * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
-#, fuzzy
 msgid ""
 "The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/"
 "code] by [code]delta[/code]."
 msgstr ""
 "El símbolo [code]*[/code] significa que estamos multiplicando "
-"[code]rotation_speed[/code] por el tiempo [code]delta[/code]."
+"[code]rotation_speed[/code] por [code]delta[/code]."
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're multiplying rotation_speed by delta."
@@ -399,12 +395,11 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "Que le restamos delta a la rotation_speed."
 
 #: course/lesson-11-time-delta/lesson.tres:241
-#, fuzzy
 msgid ""
 "In the next practice, we'll use delta to make the rotation time-dependent."
 msgstr ""
-"En la siguiente práctica, usaremos el delta para hacer que la rotación "
-"dependa del tiempo."
+"En la siguiente práctica, usaremos delta para que la rotación dependa del "
+"tiempo."
 
 #: course/lesson-11-time-delta/lesson.tres:249
 msgid "Rotating Using Delta"
@@ -432,15 +427,14 @@ msgstr ""
 "En esta práctica, haz que el robot se mueva en un círculo de forma suave y "
 "fluida utilizando delta."
 
-#, fuzzy
 msgid ""
 "The robot should rotate [code]2[/code] radians per second and move "
 "[code]100[/code] pixels per second forward. This combination makes it travel "
 "in a clockwise circle."
 msgstr ""
-"Para conseguir este movimiento, el robot debe girar [code]2[/code] radianes "
-"por segundo y moverse [code]100[/code] pixeles por segundo en el sentido de "
-"las agujas del reloj."
+"El robot debe girar [code]2[/code] radianes por segundo y avanzar [code]100[/"
+"code] píxeles por segundo. Esta combinación hace que se desplace en sentido "
+"de las agujas del reloj."
 
 msgid ""
 "[b]Note:[/b] Please write the values in the parentheses when calling the "

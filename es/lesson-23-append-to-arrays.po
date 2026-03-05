@@ -9,27 +9,27 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2022-06-12 11:31+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: es <LL@li.org>\n"
+"PO-Revision-Date: 2026-03-04 13:09+0000\n"
+"Last-Translator: Nathan Lovato <nathan.lovato.art@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/learn-gdscript-"
+"from-zero/lesson-23-append-to-arrays/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:13
-#, fuzzy
 msgid ""
 "In previous lessons, you learned how to create arrays to store lists of "
 "values and how to loop over them. That's useful, but arrays can do much more."
 msgstr ""
-"En lecciones anteriores, aprendiste cómo crear matrices para almacenar "
-"listas de valores y cómo hacer bucles sobre ellas. Está muy bien, pero no "
-"llegarás muy lejos sólo con eso."
+"En lecciones anteriores, aprendiste a crear matrices para almacenar listas "
+"de valores y cómo hacer bucles sobre ellas. Eso es útil, pero las matrices "
+"pueden hacer mucho más."
 
-#, fuzzy
 msgid ""
 "The real strength of GDScript arrays is that you can add and remove values "
 "from them at any time. This lets you build waiting lines of data or piles of "
@@ -38,33 +38,33 @@ msgid ""
 msgstr ""
 "La verdadera fuerza de las matrices es que puedes agregar y quitar valores "
 "de ellas en cualquier momento. Te permite [i]poner en cola[/i] o [i]apilar[/"
-"i] datos."
+"i] datos. Las llamamos [i]colas[/i] y [i]pilas[/i], respectivamente. Veremos "
+"qué significa esto en esta lección."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:25
 msgid "Let's look at a concrete example."
-msgstr ""
+msgstr "Veamos un ejemplo concreto."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:33
 msgid "Tracking orders in a restaurant management game"
 msgstr "Seguir pedidos en un juego de gestión de restaurantes"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:35
-#, fuzzy
 msgid ""
 "You're making a restaurant management game where customers place orders, and "
 "you need to handle them one by one."
 msgstr ""
-"Estás haciendo un juego de gestión de restaurantes en el que los clientes "
-"hacen pedidos y tienes que manejarlos a medida que van llegando."
+"Estás creando un juego de gestión de restaurante en el que los clientes "
+"hacen pedidos y debes atenderlos uno por uno."
 
-#, fuzzy
 msgid ""
 "In the example below, customers order meals that end up in a waiting line (a "
 "queue). You need to prepare them in the kitchen. We simulate orders arriving "
 "and getting completed over time."
 msgstr ""
-"En este juego, los clientes hacen pedidos de comida que acaban en una cola. "
-"Tienes que prepararlos en la cocina."
+"En el ejemplo de abajo, los clientes piden comidas que terminan en una fila "
+"de espera (una queue). Debes prepararlas en la cocina. Simulamos cómo los "
+"pedidos llegan y se completan con el tiempo."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:57
 msgid "How do you keep track of pending and completed orders? With an array!"
@@ -72,15 +72,14 @@ msgstr ""
 "¿Cómo llevas la cuenta de los pedidos pendientes y completados? ¡Con una "
 "matriz!"
 
-#, fuzzy
 msgid ""
 "When a customer purchases a meal, you want to [i]append[/i] (add) it to the "
 "array. Then, as you complete a meal in the kitchen and serve it, you want to "
 "remove it from the array."
 msgstr ""
-"Cuando un cliente compre una comida, querrás [i]añadirla[/i] a la matriz. "
-"Luego, cuando completes una comida en la cocina y la sirvas, querrás "
-"eliminarla de la matriz."
+"Cuando un cliente compra una comida, quieres [i]append[/i] (añadirla) al "
+"array. Luego, cuando completes una comida en la cocina y la sirvas, quieres "
+"eliminarla del array."
 
 msgid ""
 "You can use the [code]append()[/code] function to add values at the end of "
@@ -88,6 +87,10 @@ msgid ""
 "[/code] function. We call it \"pop\" because the value jumps out of the "
 "array."
 msgstr ""
+"Puedes usar la función [code]append()[/code] para añadir valores al final de "
+"un array. Para eliminar valores del inicio, puedes usar la función "
+"[code]pop_front()[/code]. La llamamos \"pop\" porque el valor salta fuera "
+"del array."
 
 msgid ""
 "Try to read the code below before moving on. Don't worry if not everything "
@@ -97,7 +100,6 @@ msgstr ""
 "preocupes si no todo tiene sentido, ya que lo desglosaremos."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:83
-#, fuzzy
 msgid ""
 "Notice how we call some functions by writing a dot after a variable name. "
 "Just like some values have variables you can access with a dot (like the "
@@ -105,27 +107,26 @@ msgid ""
 "their own functions."
 msgstr ""
 "Observa que llamamos a algunas funciones escribiendo un punto después del "
-"nombre de una variable. Al igual que un tipo de valor determinado puede "
-"tener subvariables, también puede tener sus propias funciones."
+"nombre de una variable. Igual que algunos valores tienen variables a las que "
+"accedes con un punto (como la variable [code]x[/code] en [code]position.x[/"
+"code]), también pueden tener sus propias funciones."
 
-#, fuzzy
 msgid ""
 "Functions like [code]append()[/code] and [code]pop_front()[/code] only exist "
 "on arrays. To call them, we need to write the array name, then a dot, then "
 "the function: [code]array_name.append()[/code]."
 msgstr ""
-"Funciones como [code]append()[/code] y [code]pop_front()[/code] sólo existen "
-"en las matrices. Por eso, para llamarlas, tenemos que acceder desde la "
-"matriz utilizando el punto: [code]array.append()[/code]."
+"Las funciones como [code]append()[/code] y [code]pop_front()[/code] solo "
+"existen en los arrays. Para llamarlas, debes escribir el nombre del array, "
+"luego un punto y después la función: [code]array_name.append()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:95
-#, fuzzy
 msgid ""
 "Let's break down the code. We add orders to the [code]waiting_orders[/code] "
 "array by appending them."
 msgstr ""
-"Ponemos en cola los pedidos en la matriz denominada [code]waiting_orders[/"
-"code] añadiéndolos a la matriz."
+"Desglosemos el código. Añadimos pedidos al array [code]waiting_orders[/code] "
+"añadiéndolos al final."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:115
 msgid ""
@@ -153,39 +154,35 @@ msgstr ""
 "code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:175
-#, fuzzy
 msgid ""
 "When we use an array this way, we call it a [i]queue[/i]: the first element "
 "we add to the array is the first one we remove. It's like a waiting line at "
 "a store."
 msgstr ""
-"Llamamos a matrices como [code]waiting_orders[/code] una [i]cola[/i](o "
-"[i]queue[/i]): el primer elemento que añadimos a la matriz es el primero que "
-"eliminamos."
+"Cuando usamos un array de esta forma, lo llamamos una [i]queue[/i]: el "
+"primer elemento que añadimos al array es el primero que eliminamos. Es como "
+"una fila en una tienda."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:183
 msgid "What does #... mean?"
 msgstr "¿Qué significa #...?"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:185
-#, fuzzy
 msgid ""
 "We write [code]#...[/code] to show that there is more code here. The three "
 "dots mean \"we are not showing all the code.\" We use this to break down "
 "code examples and make them easier to learn from."
 msgstr ""
-"Escribimos [code]#...[/code] para representar los puntos suspensivos en el "
-"código. Significa \"estamos completando el código de la función\". Lo "
-"utilizamos para desglosar los ejemplos de código y hacerlos más fáciles de "
-"aprender."
+"Escribimos [code]#...[/code] para indicar que hay más código aquí. Los tres "
+"puntos significan \"no estamos mostrando todo el código\". Lo usamos para "
+"desglosar ejemplos y que sean más fáciles de aprender."
 
-#, fuzzy
 msgid ""
 "The hash sign ([code]#[/code]) marks the start of a code comment. It's a "
 "line the computer will ignore, which is why it typically appears in grey."
 msgstr ""
-"El signo de numeral en sí mismo marca el inicio de un comentario de código. "
-"Es una línea que la computadora ignorará, por lo que suele aparecer en gris."
+"El signo numeral ([code]#[/code]) marca el inicio de un comentario en el "
+"código. Es una línea que el ordenador ignora, por eso suele aparecer en gris."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:195
 msgid "Using arrays as stacks"
@@ -225,7 +222,6 @@ msgstr ""
 "matriz para demostrar cómo esta se vuelve más pequeña."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:243
-#, fuzzy
 msgid ""
 "Like [code]pop_front()[/code], the function returns the value removed from "
 "the array. You will often store that value in a variable. This value could "
@@ -233,13 +229,18 @@ msgid ""
 "player."
 msgstr ""
 "Al igual que [code]pop_front()[/code], la función devuelve el valor "
-"eliminado de la matriz. A menudo almacenarás ese valor en una variable."
+"eliminado del array. A menudo guardarás ese valor en una variable. Ese valor "
+"podría ser el contenido de la caja, que luego puedes usar para dar recursos "
+"al jugador."
 
 msgid ""
 "When we use an array this way, we call it a [i]stack[/i]: the last element "
 "we add is the first one we remove. It's like a pile of plates where you take "
 "from the top."
 msgstr ""
+"Cuando usamos un array de esta forma, lo llamamos [i]stack[/i]: el último "
+"elemento que añadimos es el primero que quitamos. Es como una pila de platos "
+"de la que tomas siempre el de arriba."
 
 msgid ""
 "In the following practices, you will use the [code]append()[/code], "
@@ -306,22 +307,22 @@ msgstr ""
 "Tu código debe eliminar todas las cajas de la matriz utilizando un bucle "
 "while."
 
-#, fuzzy
 msgid ""
 "[b]Careful![/b] If you write the while loop incorrectly, you can freeze the "
 "program."
 msgstr ""
-"[b]¡Cuidado![/b], si ejecutas un bucle while sin cuidado, puedes bloquear el "
-"software."
+"[b]¡Cuidado![/b] Si escribes el bucle while de forma incorrecta, puedes "
+"bloquear el programa."
 
-#, fuzzy
 msgid ""
 "You can check if the [code]crates[/code] array still has values by writing "
 "[code]while crates:[/code]. This works because an empty array counts as "
 "[code]false[/code], and an array with items counts as [code]true[/code]."
 msgstr ""
-"Puedes verificar si la matriz [code]crates[/code] aún contiene valores "
-"escribiendo [code]while crates:[/code]"
+"Puedes comprobar si el array [code]crates[/code] aún tiene valores "
+"escribiendo [code]while crates:[/code]. Esto funciona porque un array vacío "
+"se considera [code]false[/code] y un array con elementos se considera "
+"[code]true[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:301
 msgid ""
