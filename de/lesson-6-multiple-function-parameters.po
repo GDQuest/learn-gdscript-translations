@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-11-15 21:21+0000\n"
-"Last-Translator: Noah Stürtz <noah@coru.sh>\n"
+"PO-Revision-Date: 2026-03-16 16:09+0000\n"
+"Last-Translator: Bastian Senst <bastian@senst.family>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-6-multiple-function-parameters/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:14
@@ -61,27 +62,35 @@ msgid ""
 "Parameters act as [i]placeholders[/i] in the function's code. They work like "
 "blank spaces that get filled in each time someone calls your function."
 msgstr ""
+"Parameter fungieren im der Funktion als [i]Platzhalter[/i]. Sie "
+"funktionieren wie Lücken, die gefüllt werden, wenn jemand deine Funktion "
+"aufruft."
 
 msgid ""
 "When you write a function with parameters, you create a flexible template "
 "that can work with different values each time you use it. Let's see how the "
 "rotate() function is defined and uses a parameter:"
 msgstr ""
+"Wenn du eine Funktion mit Paramatern schreibst, erstellst du eine flexibles "
+"Vorlage, die bei jeder Verwendung mit verschiedenen Werten arbeiten kann. "
+"Schauen wir uns an, wie die Funktion rotate() definiert ist und einen "
+"Parameter verwendet:"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:62
-#, fuzzy
 msgid ""
 "For now, focus on the first line, the function [i]definition[/i]: [code]func "
 "rotate(radians)[/code]."
 msgstr ""
-"Bitte konzentriere dich vorerst auf die erste Zeile: [code]func "
-"rotate(radians)[/code]."
+"Bitte konzentriere dich vorerst auf die erste Zeile, die "
+"[i]Funktionsdefinition[/i]: [code]func rotate(radians)[/code]."
 
 msgid ""
 "The word [code]radians[/code] is the function's parameter. It's the "
 "placeholder that gets \"replaced\" with the actual value when you call the "
 "function."
 msgstr ""
+"Das Wort [code]radians[/code] ist der Funktionsparameter. Dieser Platzhalter "
+"wird mit dem wirklichen Wert \"ersetzt\", wenn die Funktion aufgerufen wird."
 
 #, fuzzy
 msgid ""
@@ -95,12 +104,18 @@ msgid ""
 "Each time you call the function, the replacement happens again: If you call "
 "[code]rotate(1.2)[/code], [code]radians[/code] becomes [code]1.2[/code]."
 msgstr ""
+"Jedes Mal, wenn du die Funktion aufrufst, findet die Ersetzung erneut statt: "
+"Wenn du [code]rotate(1.2)[/code] aufrufst, wird [code]radians[/code] zu "
+"[code]1.2[/code]."
 
 msgid ""
 "The parameter can be filled with a number, text, or anything else. In this "
 "lesson, we'll only use numbers as we have yet to learn about other value "
 "types."
 msgstr ""
+"Der Parameter kann durch eine Zahl, einen Text oder irgendwas anderes "
+"ersetzt werden. In dieser Lektion werden wir nur Zahlen benutzt haben, weil "
+"wir die anderen Datentypen erst kennenlernen müssen."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:78
 msgid "What is a function parameter?"
@@ -111,6 +126,8 @@ msgid ""
 "A parameter is a placeholder that gets replaced with the actual value you "
 "pass when calling the function."
 msgstr ""
+"Ein Parameter ist ein Platzhalter, der mit dem echten Wert ersetzt wird, "
+"wenn du die Funktion aufrufst."
 
 #, fuzzy
 msgid ""
@@ -151,6 +168,9 @@ msgid ""
 "someone calls your function with a value, every copy of the parameter in the "
 "function gets replaced with that value."
 msgstr ""
+"Um einen Parameter hinzuzufügen, schreibe einen Platzhalternamen in die "
+"Klammer. Wenn jemand deine Funktion mit einem Wert aufruft wird jede Kopie "
+"des Parameters in der Funktion mit diesem Wert ersetzt."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:116
 #, fuzzy
@@ -179,6 +199,9 @@ msgid ""
 "Parameters make your code easier to reuse. You write the function once as a "
 "template, then you can call it many times with different values."
 msgstr ""
+"Parameter machen deinen Code leichter wiederzuverwenden. Du kannst du "
+"Funktion einmal als Vorlage schreiben und kannst sie dann mehrere Mal mit "
+"verschiedenen Werten aufrufen."
 
 #, fuzzy
 msgid ""
@@ -256,6 +279,9 @@ msgid ""
 "code] and [code]y[/code]. Each one gets replaced with its own value when you "
 "call the function."
 msgstr ""
+"Zum Beispiel, [code]func move(x, y)[/code] hat zwei Platzhalter: [code]x[/"
+"code] und [code]y[/code]. Jeder wir mit seinem eigenen Wert ersetzt, wenn du "
+"die Funktion aufrufst."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:198
 #, fuzzy
@@ -299,6 +325,9 @@ msgid ""
 "function gets replaced with [code]50[/code], and every [code]y[/code] gets "
 "replaced with [code]100[/code]."
 msgstr ""
+"Wenn du [code]move(50, 100)[/code] aufrufs, wird jedes [code]x[/code] in der "
+"Funktion mit [code]50[/code] ersetzt und jedes [code]y[/code] wird mit "
+"[code]100[/code] ersetzt."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:234
 msgid "How should I name my functions and parameters?"
@@ -433,6 +462,9 @@ msgid ""
 "different values. Your functions need to work correctly no matter what "
 "values the app passes to them."
 msgstr ""
+"In der folgenden Übung, wirst du Funktionen schreiben, die ich mit "
+"verschiedenen Werten aufrufe. Deine Funktionen müssen korrekt funktionieren, "
+"unabhängig davon, welche Werte die App übergibt."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:300
 msgid "Drawing corners of different sizes"
@@ -448,18 +480,23 @@ msgstr ""
 "an, wie wir Parameter verwenden können, um einfachere Formen zu zeichnen."
 
 msgid "I will call your function twice with different values:"
-msgstr ""
+msgstr "Ich werde deine Funktion zweimal aufrufen mit verschiedenen Werten:"
 
 msgid ""
 "[code]draw_corner(240)[/code]\n"
 "[code]draw_corner(120)[/code]"
 msgstr ""
+"[code]draw_corner(240)[/code]\n"
+"[code]draw_corner(120)[/code]"
 
 msgid ""
 "Your task is to add a parameter named [code]length[/code] to your function "
 "definition. This creates a placeholder. When the app calls your function, "
 "the placeholder will get replaced with the value in parentheses."
 msgstr ""
+"Deine Aufgabe ist es, einen Parameter [code]langth[/code] (Länge) "
+"hinzuzufügen. Das erstellt einen Platzhalter. Wenn die App deine Funktion "
+"aufruft, wird der Platzhalter mit dem Wert in Klammern ersetzt."
 
 #, fuzzy
 msgid ""
@@ -476,6 +513,9 @@ msgid ""
 "Each time the app calls your function, [code]length[/code] will be replaced "
 "with a different value: first [code]240[/code], then [code]120[/code]."
 msgstr ""
+"Jedes Mal, wenn die App deine Funktion aufruft, wird [code]length[/code] "
+"(Länge] mit einem unterschiedlichen Wert ersetzt: Erst [code]240[/code], "
+"dann [code]120[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:325
 msgid ""
@@ -501,11 +541,15 @@ msgstr ""
 
 msgid "I will call your function with different length and angle values:"
 msgstr ""
+"Ich werde deine Funktion mit verschiedenen length und angle Werten aufrufen:"
 
+#, fuzzy
 msgid ""
 "[code]draw_corner(240, 45)[/code]\n"
 "[code]draw_corner(120, 90)[/code]"
 msgstr ""
+"[code]draw_corner(240, 45)[/code]\n"
+"[code]draw_corner(120, 90)[/code]"
 
 #, fuzzy
 msgid ""
@@ -522,6 +566,9 @@ msgid ""
 "parameter [code]length[/code] will get replaced with [code]240[/code] and "
 "[code]angle[/code] will get replaced with [code]45[/code]."
 msgstr ""
+"Beachte: Wenn die App [code]draw_corner(240, 45)[/code] aufruft, wird der "
+"Parameter [code]length[/code] durch [code]240[/code] und [code]angle[/code] "
+"mit [code]45[/code] ersetzt."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:353
 msgid "With two parameters, code a function to draw corners with any angle."
@@ -543,12 +590,15 @@ msgstr ""
 "erstellen: Eine Funktion zum Zeichnen von Rechtecken beliebiger Größe."
 
 msgid "I will call your function with different sizes:"
-msgstr ""
+msgstr "Ich werde deine Funktion mit verschiedenen Größen aufrufen:"
 
+#, fuzzy
 msgid ""
 "[code]draw_square(200)[/code]\n"
 "[code]draw_square(100)[/code]"
 msgstr ""
+"[code]draw_square(200)[/code]\n"
+"[code]draw_square(100)[/code]"
 
 #, fuzzy
 msgid ""
@@ -563,11 +613,16 @@ msgid ""
 "Your function needs to move forward by [code]length[/code], turn right 90 "
 "degrees, and do this four times to complete all four sides of the square."
 msgstr ""
+"Deine Funktion muss die Schildkröte um [code]length[/code] nach vorne "
+"bewegen, um 90° drehen. Dies muss sie vier Mal machen um alle vier Seiten "
+"des Quadrats zu zeichnen."
 
 msgid ""
 "[b]Important:[/b] When the turtle finishes drawing, it should face right. So "
 "you need to turn right a total of four times."
 msgstr ""
+"[b]Wichtig:[/b] Wenn die Schildkröte fertig mit zeichnen ist, soll sie nach "
+"rechts schauen. Deshalb musst du sie insgesamt vier mal drehen."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:380
 msgid ""
@@ -590,34 +645,47 @@ msgstr ""
 "Winkel zu zeichnen."
 
 msgid "I will call your function twice with different sizes:"
-msgstr ""
+msgstr "Ich werde deine Funktion zweimal mit verschiedenen Größen aufrufen:"
 
+#, fuzzy
 msgid ""
 "[code]draw_rectangle(260, 180)[/code]\n"
 "[code]draw_rectangle(160, 210)[/code]"
 msgstr ""
+"[code]draw_rectangle(260, 180)[/code]\n"
+"[code]draw_rectangle(160, 210)[/code]"
 
 msgid ""
 "Your function needs two parameters: [code]length[/code] and [code]height[/"
 "code]. When the app calls your function, the first number replaces "
 "[code]length[/code], and the second number replaces [code]height[/code]."
 msgstr ""
+"Deine Funktion braucht zwei Parameter: [code]length[/code] und [code]heigth[/"
+"code]. Wenn die App deine Funktion aufruft, ersetzt die erste Zahl "
+"[code]length[/code] und die zweite Zahl ersetzt [code]height[/code]."
 
 msgid ""
 "Use [code]length[/code] when you move horizontally and [code]height[/code] "
 "when you move vertically."
 msgstr ""
+"Benutz [code]length[/code] wenn du dich horizontal bewegst und [code]height[/"
+"code] wenn du dich vertikal bewegst."
 
 msgid ""
 "This is the pattern you need to follow: move forward by [code]length[/code], "
 "turn right, move forward by [code]height[/code], turn right, then repeat "
 "this sequence once more."
 msgstr ""
+"Das ist das Muster dem zu folgen musst: Bewege die vorwärts um [code]length[/"
+"code], drehe rechts, bewege dich vorwärts um [code]height[/code], drehe "
+"rechts, dann wiederhole das noch einmal."
 
 msgid ""
 "[b]Important:[/b] When the turtle finishes drawing, it should face right. "
 "Make sure you turn right four times in total."
 msgstr ""
+"[b]Wichtig:[/b] Wenn die Schildkröte mit zeichnen fertig ist, soll sie nach "
+"rechts schauen. Stelle sicher, dass du insgesamt vier Mal drehst."
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:417
 msgid ""
