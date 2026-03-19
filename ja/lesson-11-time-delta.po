@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-03-31 12:09+0000\n"
-"Last-Translator: cyochot <k97un9ri@gmail.com>\n"
+"PO-Revision-Date: 2026-03-19 08:09+0000\n"
+"Last-Translator: c3974 <148695293+c3974@users.noreply.github.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-11-time-delta/ja/>\n"
 "Language: ja\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
@@ -29,14 +30,13 @@ msgstr ""
 "動かす方法を見てきました。"
 
 #: course/lesson-11-time-delta/lesson.tres:34
-#, fuzzy
 msgid ""
 "But it's not just our character that has a [code]_process()[/code] function. "
 "Almost everything in the game has a [code]_process()[/code] function!"
 msgstr ""
-"しかし、[code]_process()[/code]関数を持っているのは私たちのキャラクターだけで"
-"はありません。ゲーム内のほとんどすべてに[code]_process()[/code]機能がありま"
-"す!"
+"しかし、[code]_process()[/code] 関数を持っているのはキャラクターだけではあり"
+"ません。ゲーム内のほぼすべてのものが [code]_process()[/code] 関数を持っていま"
+"す！"
 
 msgid ""
 "Dozens of times per second, Godot runs every [code]_process()[/code] "
@@ -139,12 +139,11 @@ msgid ""
 "Depending on the game, the computer, and what the game engine needs to "
 "calculate, frames take more or less time to display."
 msgstr ""
-"ゲーム、コンピューター、およびゲームエンジンが計算する必要がある内容に応じ"
-"て、フレームの表示にかかる時間は多かれ少なかれ異なります。"
+"ゲーム、コンピューター、そしてゲームエンジンが計算する必要があるものに応じて"
+"、フレームの表示にかかる時間は長くなったり短くなったりします。"
 
-#, fuzzy
 msgid "There will always be small variations from frame to frame."
-msgstr "フレームごとに常にミリ秒の変動があります。"
+msgstr "フレームごとに常に小さなばらつきが生じます。"
 
 msgid ""
 "That is why the [code]_process()[/code] function receives a [code]delta[/"
@@ -153,34 +152,32 @@ msgstr ""
 "そのため、[code]_process()[/code] 関数は [code]delta[/code] パラメーターを受"
 "け取ります。"
 
-#, fuzzy
 msgid ""
 "Delta represents a time difference. It's the time it took Godot to complete "
 "the previous frame, in seconds."
 msgstr ""
-"デルタは時間差を表します。これは、前のフレームから経過した時間 (秒単位) で"
-"す。"
+"デルタは時間の差を表します。Godotが前のフレームを完了するのにかかった時間を秒"
+"単位で表したものです。"
 
 msgid ""
 "We can use it to make sure the game runs at the same speed on all computers."
 msgstr ""
+"これを使用することで、すべてのコンピューターでゲームが同じ速度で動作するよう"
+"にすることができます。"
 
-#, fuzzy
 msgid ""
 "This is because different computers have different processing power, so a "
 "fast computer will have more frames per second than a slow computer."
 msgstr ""
-"これは、コンピューターが異なれば動作が異なるため、高速のコンピューターは低速"
-"のコンピューターよりも毎秒のフレーム数が多いためです。"
+"これは、コンピューターによって処理能力が異なるため、高速なコンピューターは低"
+"速なコンピューターよりも1秒あたりのフレーム数が多くなるためです。"
 
-#, fuzzy
 msgid ""
 "If we ignore [code]delta[/code], movement speed will vary depending on the "
 "computer. Delta helps to make the game consistent for everyone."
 msgstr ""
-"[code]delta[/code] を無視すると、ゲーム体験はコンピューターによって異なりま"
-"す。デルタは、すべての人にとって一貫したゲーム体験を提供するお手伝いをしま"
-"す。"
+"[code]delta[/code] を無視すると、移動速度はコンピューターによって異なります。"
+"デルタはすべての人にとってゲームを一定に保つのに役立ちます。"
 
 #: course/lesson-11-time-delta/lesson.tres:113
 msgid "What do we know about delta?"
@@ -195,14 +192,13 @@ msgstr ""
 "す。"
 
 msgid "It's very small because frames happen many times a second."
-msgstr "フレームは1秒間に何回も発生するため、非常に小さいです。"
+msgstr "フレームは1秒間に何度も発生するため、デルタの値は非常に小さくなります。"
 
-#, fuzzy
 msgid ""
 "It varies each frame because Godot has more or less to process each frame."
 msgstr ""
-"Godotは多かれ少なかれ各フレームを処理する必要があるため、フレームごとに異なり"
-"ます。"
+"Godotがフレームごとに処理する量が多かったり少なかったりするため、デルタは"
+"フレームごとに変化します。"
 
 #: course/lesson-11-time-delta/lesson.tres:121
 msgid "It's a value in seconds."
@@ -257,15 +253,14 @@ msgstr ""
 "レッスンの冒頭で、ロボットをフレームごとに一定量回転させました:[code]0.05[/"
 "code]ラジアン。"
 
-#, fuzzy
 msgid ""
 "In the example above, we now [i]multiply[/i] the argument by the very small "
 "[code]delta[/code] value, a value much smaller than [code]1.0[/code]. It "
 "makes the robot turn at a constant speed over time."
 msgstr ""
-"上の例では、[code]1.0[/code] よりはるかに小さい値である非常に小さな "
-"[code]delta[/code] 値を [i]乗算[/i]します。 これにより、ロボットは時間の経過"
-"とともに一定の速度で回転します。"
+"上の例では、引数に非常に小さい [code]delta[/code] の値（[code]1.0[/code] より"
+"もはるかに小さい値）を[i]掛け[/i]ています。これにより、ロボットは時間の経過と"
+"ともに一定の速度で回転します。"
 
 msgid ""
 "However, multiplying by a number below [code]1.0[/code] like [code]delta[/"
@@ -290,10 +285,9 @@ msgstr ""
 "ジアン単位の[i]角度[/i]で、[code]3.0[/code] はラジアン/秒単位の[i]角速度[/i]"
 "です。"
 
-#, fuzzy
 msgid ""
 "When you multiply an angular speed by a time delta, it gives you an angle."
-msgstr "速度に時間デルタを掛けると、角度が得られます。"
+msgstr "角速度に時間のデルタを掛けると、角度が得られます。"
 
 msgid ""
 "Don't worry if it's a little confusing for now. It'll eventually click as "
@@ -349,16 +343,16 @@ msgstr ""
 msgid "Thanks to that, we get reliable movement over time."
 msgstr "おかげで、時間の経過とともに信頼性の高い動きが得られます。"
 
-#, fuzzy
 msgid ""
 "Frame times vary from computer to computer and from frame to frame during "
 "gameplay. Because frame times vary, if [code]delta[/code] is not used, "
 "movement speed will differ for each player, making the game inconsistent and "
 "messy."
 msgstr ""
-"[code]delta[/code] を使用しない場合、フレーム時間はコンピューターごと、ゲーム"
-"プレイ中に異なります。そのため、プレイヤーごとに動きが異なり、ゲームに一貫性"
-"がなく、乱雑になります。"
+"フレームの時間は、コンピューターごと、またはゲームプレイ中のフレームごとに異"
+"なります。フレームの時間が異なるため、[code]delta[/code] を使用しないと、"
+"プレイヤーごとに移動速度が異なり、ゲームの一貫性が失われ、めちゃくちゃになっ"
+"てしまいます。"
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
@@ -369,13 +363,12 @@ msgid "[code]rotation_speed * delta[/code]"
 msgstr "[code]rotation_speed * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
-#, fuzzy
 msgid ""
 "The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/"
 "code] by [code]delta[/code]."
 msgstr ""
-"[code]*[/code] 記号は、[code]rotation_speed[/code] に [code]delta[/code] 時間"
-"を掛けていることを意味します。"
+"[code]*[/code] 記号は、[code]rotation_speed[/code] に [code]delta[/code] を掛"
+"けていることを意味します。"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're multiplying rotation_speed by delta."
@@ -394,7 +387,6 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "rotation_speedからデルタを差し引いています。"
 
 #: course/lesson-11-time-delta/lesson.tres:241
-#, fuzzy
 msgid ""
 "In the next practice, we'll use delta to make the rotation time-dependent."
 msgstr "次の演習では、デルタを使用して回転を時間依存にします。"
@@ -421,14 +413,14 @@ msgstr "デルタを使用して円を描くように移動する"
 msgid "In this practice, make the robot move in a smooth circle using delta."
 msgstr "この演習では、デルタを使用してロボットを滑らかな円で動かします。"
 
-#, fuzzy
 msgid ""
 "The robot should rotate [code]2[/code] radians per second and move "
 "[code]100[/code] pixels per second forward. This combination makes it travel "
 "in a clockwise circle."
 msgstr ""
-"この動きを得るには、ロボットは毎秒 [code]2[/code] ラジアンを回転させ、"
-"[code]100[/code] ピクセル/秒を時計回りに動かす必要があります。"
+"ロボットは1秒あたり [code]2[/code] ラジアン回転し、1秒あたり [code]100[/"
+"code] ピクセル前進する必要があります。この組み合わせにより、時計回りの円を描"
+"いて移動します。"
 
 msgid ""
 "[b]Note:[/b] Please write the values in the parentheses when calling the "
