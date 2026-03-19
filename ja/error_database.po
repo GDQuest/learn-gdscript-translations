@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-03-19 08:09+0000\n"
+"PO-Revision-Date: 2026-03-20 09:09+0000\n"
 "Last-Translator: c3974 <148695293+c3974@users.noreply.github.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/error-explanations/ja/>\n"
@@ -57,9 +57,8 @@ msgid ""
 "cell_positions_array:[/code] because [code]cell_position.x[/code] isn't a "
 "valid variable name."
 msgstr ""
-"たとえば、次のコードは無効です: [code]for cell_position.x in "
-"cell_positions_array:[/code]。[code]cell_position.x[/code] は有効な変数名では"
-"ないためです。"
+"たとえば、[code]cell_position.x[/code] は有効な変数名ではないため、[code]for "
+"cell_position.x in cell_positions_array:[/code] は無効なコードです。"
 
 msgid ""
 "To access the [code]x[/code] sub-component of the variable, you need to do "
@@ -77,13 +76,10 @@ msgstr ""
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
-#, fuzzy
 msgid ""
 "You get this error when you try to assign a value to something that is not a "
 "variable."
-msgstr ""
-"このエラーが発生した場合は、変数以外のものに値を代入しようとしている可能性が"
-"高く、これは不可能です。 変数には値のみを代入できます。"
+msgstr "変数ではないものに値を代入しようとするとこのエラーが発生します。"
 
 msgid ""
 "You can only assign values to variables. You cannot assign values to "
@@ -96,6 +92,8 @@ msgid ""
 "For example, you cannot write [code]randi() = 5[/code] because [code]randi()"
 "[/code] is a function call, not a variable."
 msgstr ""
+"たとえば、[code]randi()[/code] は関数呼び出しであり変数ではないため"
+"、[code]randi() = 5[/code] と書くことはできません。"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
@@ -103,40 +101,51 @@ msgid ""
 "Check what you wrote on the left side of the equal sign (=). Make sure it is "
 "a variable name."
 msgstr ""
+"等号（=）の左側に書いたものを確認してください。それが変数名であることを確認し"
+"てください。"
 
 msgid ""
 "If you see parentheses () on the left side, you might be trying to assign to "
 "a function call. Remove the parentheses and the function call."
 msgstr ""
+"左側に括弧（）がある場合、関数呼び出しに代入しようとしている可能性があります"
+"。括弧と関数呼び出しを削除してください。"
 
-#, fuzzy
 msgid ""
 "If you are trying to check if two values are equal in a condition, use two "
 "equal signs (==) instead of one (=)."
 msgstr ""
-"もう 1 つの可能性としては、条件内の等しいかどうかをチェックしたいが、== の代"
-"わりに単一の = を記述したということです。"
+"条件式で2つの値が等しいかどうかを確認する場合は、等号（=）を1つではなく2つ"
+"（==）使用してください。"
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
 msgid "You get this error when you try to change the value of a constant."
-msgstr ""
+msgstr "定数の値を変更しようとするとこのエラーが発生します。"
 
 msgid ""
 "A constant is a name that holds a value that cannot change. It's like a "
 "variable, but once you set its value, you cannot replace it."
 msgstr ""
+"定数とは、変更できない値を保持する名前です。変数に似ていますが、一度値を設定"
+"するとそれを置き換えることはできません。"
 
 msgid ""
 "For example, if you write [code]const MAX_SPEED = 100[/code], you cannot "
 "later write [code]MAX_SPEED = 200[/code] or [code]MAX_SPEED += 50[/code]."
 msgstr ""
+"たとえば、[code]const MAX_SPEED = 100[/code] と書いた場合、後から "
+"[code]MAX_SPEED = 200[/code] や [code]MAX_SPEED += 50[/code] と書くことはでき"
+"ません。"
 
 msgid ""
 "Many constants are built into Godot and GDScript, and you cannot change them "
 "either. For instance, you cannot write [code]Vector2 = 5[/code] or [code]PI "
 "= 3[/code]. Constant names usually use capital letters."
 msgstr ""
+"多くの定数はGodotとGDScriptに組み込まれており、それらも変更できません。たとえ"
+"ば、[code]Vector2 = 5[/code] や [code]PI = 3[/code] と書くことはできません。"
+"定数名は通常、大文字で表記されます。"
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
@@ -144,6 +153,9 @@ msgid ""
 "Look at what you are trying to change. If it is a constant (defined with the "
 "[code]const[/code] keyword or built into Godot), you have two options:"
 msgstr ""
+"変更しようとしているものを確認してください。それが定数（[code]const[/code] "
+"キーワードで定義されているか、Godotに組み込まれているもの）である場合、2つの"
+"選択肢があります："
 
 msgid ""
 "1. If the value should never change, or it comes from Godot, remove the line "
@@ -151,6 +163,10 @@ msgid ""
 "2. If the value needs to change, use [code]var[/code] instead of "
 "[code]const[/code] when you first create it."
 msgstr ""
+"1. 値が変わるべきでない場合、またはGodotによって提供されている値である場合は"
+"、それを変更しようとしている行を削除してください。\n"
+"2. 値を変更する必要がある場合は、最初に作成するときに [code]const[/code] の代"
+"わりに [code]var[/code] を使用してください。"
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -159,16 +175,23 @@ msgid ""
 "happens when you have a space before a tab, or a tab before a space at the "
 "start of a line."
 msgstr ""
+"インデントにスペースとタブを混在させるとこのエラーが発生します。これは、行の"
+"先頭でスペースの後にタブが来る場合、またはタブの後にスペースが来る場合に発生"
+"します。"
 
 msgid ""
 "In GDScript, you must use only tabs (not spaces) to indent your code. When "
 "you press the Tab key on your keyboard, it creates a tab character."
 msgstr ""
+"GDScriptでは、コードのインデントにタブのみを使用する必要があります（スペース"
+"は使用できません）。キーボードのTabキーを押すと、タブ文字が作成されます。"
 
 msgid ""
 "If you accidentally type a space before a tab, or a tab before a space, the "
 "computer gets confused about your code's indentation."
 msgstr ""
+"誤ってタブの前にスペースを入力したり、スペースの前にタブを入力したりすると、"
+"コンピューターがコードのインデントを正しく認識できなくなります。"
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -177,16 +200,23 @@ msgid ""
 "space characters at the very beginning of the line, and remove any spaces "
 "that appear after your tab characters."
 msgstr ""
+"このエラーを修正するには、エラーメッセージに記載されている行に移動してくださ"
+"い。行の先頭にあるスペース文字を削除し、タブ文字の後に続くスペースも削除して"
+"ください。"
 
 msgid ""
 "Tab characters look like an arrow pointing at a vertical line in your code: "
 "⇥. Spaces look like centered dots: ·. Look closely to spot the difference."
 msgstr ""
+"タブ文字はコード内で縦線に向かう矢印のように表示されます：⇥。スペースは中央に"
+"点として表示されます：·。違いをよく見て確認してください。"
 
 msgid ""
 "Then, make sure the line starts with only tab characters for indentation, "
 "with no spaces mixed in."
 msgstr ""
+"その後、インデントにタブ文字のみが使用されており、スペースが混在していないこ"
+"とを確認してください。"
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:78
