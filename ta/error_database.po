@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2025-11-22 11:59+0000\n"
+"PO-Revision-Date: 2026-03-21 15:09+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/error-explanations/ta/>\n"
@@ -17,7 +17,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -74,24 +75,25 @@ msgstr ""
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
-#, fuzzy
 msgid ""
 "You get this error when you try to assign a value to something that is not a "
 "variable."
 msgstr ""
-"இந்த பிழையைப் பெற்றால், நீங்கள் ஒரு மாறியைத் தவிர வேறு எதையாவது மதிப்பை ஒதுக்க "
-"முயற்சிக்கிறீர்கள், இது சாத்தியமற்றது. நீங்கள் மாறிகளுக்கு மட்டுமே மதிப்புகளை ஒதுக்க "
-"முடியும்."
+"மாறி இல்லாத ஒன்றிற்கு மதிப்பை ஒதுக்க முயலும்போது இந்தப் பிழையைப் பெறுவீர்கள்."
 
 msgid ""
 "You can only assign values to variables. You cannot assign values to "
 "function calls or calculations."
 msgstr ""
+"நீங்கள் மாறிகளுக்கு மட்டுமே மதிப்புகளை ஒதுக்க முடியும். செயல்பாட்டு அழைப்புகள் அல்லது "
+"கணக்கீடுகளுக்கு நீங்கள் மதிப்புகளை ஒதுக்க முடியாது."
 
 msgid ""
 "For example, you cannot write [code]randi() = 5[/code] because [code]randi()"
 "[/code] is a function call, not a variable."
 msgstr ""
+"எடுத்துக்காட்டாக, நீங்கள் [code]randi() = 5[/code] என்று எழுத முடியாது, ஏனெனில் "
+"[code]randi()[/code] என்பது ஒரு செயல்பாட்டு அழைப்பு, மாறி அல்ல."
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
@@ -99,40 +101,50 @@ msgid ""
 "Check what you wrote on the left side of the equal sign (=). Make sure it is "
 "a variable name."
 msgstr ""
+"சம அடையாளத்தின் (=) இடது பக்கத்தில் நீங்கள் எழுதியதைச் சரிபார்க்கவும். இது ஒரு மாறி பெயர் "
+"என்பதை உறுதிப்படுத்தவும்."
 
 msgid ""
 "If you see parentheses () on the left side, you might be trying to assign to "
 "a function call. Remove the parentheses and the function call."
 msgstr ""
+"இடதுபுறத்தில் அடைப்புக்குறிகளை () கண்டால், நீங்கள் ஒரு செயல்பாட்டு அழைப்பிற்கு ஒதுக்க "
+"முயற்சிக்கலாம். அடைப்புக்குறிகள் மற்றும் செயல்பாட்டு அழைப்பை அகற்றவும்."
 
-#, fuzzy
 msgid ""
 "If you are trying to check if two values are equal in a condition, use two "
 "equal signs (==) instead of one (=)."
 msgstr ""
-"மற்றொரு சாத்தியம் என்னவென்றால், நீங்கள் ஒரு நிபந்தனையில் சமத்துவத்தை சரிபார்க்க "
-"விரும்புகிறீர்கள், ஆனால் == க்கு பதிலாக ஒற்றை = எழுதினார்."
+"ஒரு நிலையில் இரண்டு மதிப்புகள் சமமாக உள்ளதா என்பதைச் சரிபார்க்க முயற்சித்தால், ஒன்றுக்கு (=) "
+"பதிலாக இரண்டு சமமான அடையாளங்களைப் (==) பயன்படுத்தவும்."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
 msgid "You get this error when you try to change the value of a constant."
-msgstr ""
+msgstr "மாறிலியின் மதிப்பை மாற்ற முயலும்போது இந்தப் பிழையைப் பெறுவீர்கள்."
 
 msgid ""
 "A constant is a name that holds a value that cannot change. It's like a "
 "variable, but once you set its value, you cannot replace it."
 msgstr ""
+"மாறிலி என்பது மாற்ற முடியாத மதிப்பைக் கொண்ட ஒரு பெயர். இது ஒரு மாறி போன்றது, ஆனால் நீங்கள் "
+"அதன் மதிப்பை அமைத்தவுடன், அதை மாற்ற முடியாது."
 
 msgid ""
 "For example, if you write [code]const MAX_SPEED = 100[/code], you cannot "
 "later write [code]MAX_SPEED = 200[/code] or [code]MAX_SPEED += 50[/code]."
 msgstr ""
+"எடுத்துக்காட்டாக, நீங்கள் [code]const MAX_SPEED = 100[/code] என்று எழுதினால், பின்னர் "
+"[code]MAX_SPEED = 200[/code] அல்லது [code]MAX_SPEED += 50[/code] எழுத முடியாது."
 
 msgid ""
 "Many constants are built into Godot and GDScript, and you cannot change them "
 "either. For instance, you cannot write [code]Vector2 = 5[/code] or [code]PI "
 "= 3[/code]. Constant names usually use capital letters."
 msgstr ""
+"பல மாறிலிகள் Godot மற்றும் GDScript ஆகியவற்றில் கட்டமைக்கப்பட்டுள்ளன, மேலும் அவற்றை உங்களால் "
+"மாற்ற முடியாது. உதாரணமாக, நீங்கள் [code]Vector2 = 5[/code] அல்லது [code]PI = 3[/code] "
+"என்று எழுத முடியாது. நிலையான பெயர்கள் பொதுவாக பெரிய எழுத்துக்களைப் பயன்படுத்துகின்றன."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
@@ -140,6 +152,9 @@ msgid ""
 "Look at what you are trying to change. If it is a constant (defined with the "
 "[code]const[/code] keyword or built into Godot), you have two options:"
 msgstr ""
+"நீங்கள் எதை மாற்ற முயற்சிக்கிறீர்கள் என்று பாருங்கள். இது ஒரு மாறிலியாக இருந்தால் ([code]const[/"
+"code] முக்கிய சொல்லுடன் வரையறுக்கப்பட்டால் அல்லது கோடாட்டில் கட்டமைக்கப்பட்டிருந்தால், உங்களுக்கு "
+"இரண்டு விருப்பங்கள் உள்ளன:"
 
 msgid ""
 "1. If the value should never change, or it comes from Godot, remove the line "
@@ -147,6 +162,10 @@ msgid ""
 "2. If the value needs to change, use [code]var[/code] instead of "
 "[code]const[/code] when you first create it."
 msgstr ""
+"1. மதிப்பு ஒருபோதும் மாறக்கூடாது, அல்லது அது Godot இலிருந்து வந்தால், அதை மாற்ற "
+"முயற்சிக்கும் வரியை அகற்றவும். \n"
+"2. மதிப்பை மாற்ற வேண்டும் என்றால், முதலில் உருவாக்கும்போது [code]const[/code] என்பதற்குப் "
+"பதிலாக [code]var[/code] ஐப் பயன்படுத்தவும்."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -155,16 +174,24 @@ msgid ""
 "happens when you have a space before a tab, or a tab before a space at the "
 "start of a line."
 msgstr ""
+"உங்கள் உள்தள்ளலில் இடைவெளிகள் மற்றும் தாவல்களைக் கலக்கும்போது இந்தப் பிழையைப் பெறுவீர்கள். ஒரு "
+"தாவலுக்கு முன் ஒரு ச்பேச் அல்லது வரியின் தொடக்கத்தில் ஒரு ச்பேசுக்கு முன் ஒரு டேப் இருக்கும் "
+"போது இது நடக்கும்."
 
 msgid ""
 "In GDScript, you must use only tabs (not spaces) to indent your code. When "
 "you press the Tab key on your keyboard, it creates a tab character."
 msgstr ""
+"GDScript இல், உங்கள் குறியீட்டை உள்தள்ள தாவல்களை மட்டுமே (இடைவெளிகள் அல்ல) பயன்படுத்த "
+"வேண்டும். உங்கள் விசைப்பலகையில் தாவல் விசையை அழுத்தினால், அது ஒரு டேப் எழுத்தை "
+"உருவாக்குகிறது."
 
 msgid ""
 "If you accidentally type a space before a tab, or a tab before a space, the "
 "computer gets confused about your code's indentation."
 msgstr ""
+"நீங்கள் தற்செயலாக ஒரு தாவலுக்கு முன் ச்பேச் அல்லது ச்பேசுக்கு முன் டேப் என தட்டச்சு செய்தால், "
+"உங்கள் குறியீட்டின் உள்தள்ளலைப் பற்றி கணினி குழப்பமடையும்."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -173,16 +200,24 @@ msgid ""
 "space characters at the very beginning of the line, and remove any spaces "
 "that appear after your tab characters."
 msgstr ""
+"இந்த பிழையை சரிசெய்ய, பிழை செய்தியில் குறிப்பிடப்பட்டுள்ள வரிக்குச் செல்லவும். வரியின் "
+"தொடக்கத்தில் உள்ள எந்த ச்பேச் எழுத்துக்களையும் நீக்கவும், மேலும் உங்கள் தாவல் எழுத்துக்களுக்குப் "
+"பிறகு தோன்றும் இடைவெளிகளை அகற்றவும்."
 
 msgid ""
 "Tab characters look like an arrow pointing at a vertical line in your code: "
 "⇥. Spaces look like centered dots: ·. Look closely to spot the difference."
 msgstr ""
+"தாவல் எழுத்துக்கள் உங்கள் குறியீட்டில் உள்ள செங்குத்து கோட்டில் அம்புக்குறியாக இருக்கும்: ⇥. "
+"இடைவெளிகள் மையப்படுத்தப்பட்ட புள்ளிகள் போல் இருக்கும்: ·. வித்தியாசத்தைக் கண்டறிய கூர்ந்து "
+"பாருங்கள்."
 
 msgid ""
 "Then, make sure the line starts with only tab characters for indentation, "
 "with no spaces mixed in."
 msgstr ""
+"பின்னர், இடைவெளிகள் இல்லாமல், உள்தள்ளலுக்கான தாவல் எழுத்துக்களுடன் மட்டுமே வரி தொடங்குகிறது "
+"என்பதை உறுதிப்படுத்தவும்."
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:78
@@ -320,17 +355,23 @@ msgid ""
 "You get this error when you use a special character that GDScript doesn't "
 "recognize."
 msgstr ""
+"GDScript அடையாளம் காணாத ஒரு சிறப்பு எழுத்தைப் பயன்படுத்தும் போது இந்தப் பிழையைப் பெறுவீர்கள்."
 
 msgid ""
 "This includes accented letters (like é, à, ñ), special symbols, or "
 "characters from non-Latin alphabets in your code instructions (not in "
 "strings)."
 msgstr ""
+"இதில் உச்சரிக்கப்பட்ட எழுத்துக்கள் (é, à, ñ போன்றவை), சிறப்பு குறியீடுகள் அல்லது உங்கள் "
+"குறியீட்டு வழிமுறைகளில் (சரங்களில் இல்லை) லத்தீன் அல்லாத எழுத்துக்களின் எழுத்துக்கள் அடங்கும்."
 
 msgid ""
 "[b]Note:[/b] Godot 4 supports special and non-Latin characters in code "
 "(Unicode characters), but this app is built with Godot 3, which does not."
 msgstr ""
+"[b]குறிப்பு:[/b] கோடோட் 4 குறியீட்டில் சிறப்பு மற்றும் லத்தீன் அல்லாத எழுத்துக்களை "
+"ஆதரிக்கிறது (யூனிகோட் எழுத்துக்கள்), ஆனால் இந்தப் பயன்பாடு Godot 3 உடன் உருவாக்கப்பட்டுள்ளது, "
+"இது அவ்வாறு செய்யவில்லை."
 
 #. Reference: UNKNOWN_CHARACTER
 #: script_checking/error_database.csv:103
@@ -338,16 +379,22 @@ msgid ""
 "To fix this error, remove any accented letters or special characters from "
 "your variable names, function names, and other code elements."
 msgstr ""
+"இந்தப் பிழையைச் சரிசெய்ய, உங்கள் மாறிப் பெயர்கள், செயல்பாட்டுப் பெயர்கள் மற்றும் பிற குறியீடு "
+"கூறுகளிலிருந்து ஏதேனும் உச்சரிப்பு எழுத்துக்கள் அல்லது சிறப்பு எழுத்துகளை அகற்றவும்."
 
 msgid ""
 "You can use accented characters inside text strings (between quotes), but "
 "not in the code itself."
 msgstr ""
+"உரைச் சரங்களுக்குள் (மேற்கோள்களுக்கு இடையில்) உச்சரிப்பு எழுத்துக்களைப் பயன்படுத்தலாம், ஆனால் "
+"குறியீட்டிலேயே பயன்படுத்த முடியாது."
 
 msgid ""
 "You can replace accented letters with their non-accented equivalents. For "
 "example, change [code]café[/code] to [code]cafe[/code]."
 msgstr ""
+"நீங்கள் உச்சரிக்கப்பட்ட எழுத்துக்களை அவற்றின் உச்சரிப்பு அல்லாத சமமான எழுத்துக்களுடன் மாற்றலாம். "
+"எடுத்துக்காட்டாக, [code]cafe[/code] என்பதை [code]cafe[/code] ஆக மாற்றவும்."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:106
@@ -842,12 +889,11 @@ msgid ""
 "2. You specified a return type for your function, but you are not returning "
 "a value in all possible branches (if, elif, and else blocks) or at the end."
 msgstr ""
-"1. உங்கள் செயல்பாடு ஒரு வெற்றிட செயல்பாடு, இதனால் அது ஒரு மதிப்பைத் தரக்கூடாது. இதில் "
-"'-> வெற்றிட' தொடரியல் மற்றும் வகுப்பு கட்டமைப்பாளர்கள் ('_init ()') உடன் செயல்பாடுகள் "
-"அடங்கும்.\n"
-" 2. உங்கள் செயல்பாட்டிற்கான வருவாய் வகையை நீங்கள் குறிப்பிட்டுள்ளீர்கள், ஆனால் சாத்தியமான "
-"அனைத்து கிளைகளிலும் (IF, ELIF, மற்றும் வேறு தொகுதிகள்) அல்லது இறுதியில் ஒரு மதிப்பை "
-"நீங்கள் திருப்பித் தரவில்லை."
+"1. உங்கள் செயல்பாடு ஒரு வெற்றிட செயல்பாடு, இதனால் அது ஒரு மதிப்பைத் தரக் கூடாது. இதில் '-> "
+"வெற்றிட' தொடரியல் மற்றும் வகுப்பு கட்டமைப்பாளர்கள் ('_init ()') உடன் செயல்பாடுகள் அடங்கும்.\n"
+" 2. உங்கள் செயல்பாட்டிற்கான வருவாய் வகையை நீங்கள் குறிப்பிட்டுள்ளீர்கள், ஆனால் சாத்தியமான அனைத்து "
+"கிளைகளிலும் (if, elif, மற்றும் வேறு தொகுதிகள்) அல்லது இறுதியில் ஒரு மதிப்பை நீங்கள் "
+"திருப்பித் தரவில்லை."
 
 #. Reference: RETURN_VALUE_MISMATCH
 #: script_checking/error_database.csv:183
@@ -865,8 +911,8 @@ msgid ""
 "the function or in every branch (if, elif, and else block) of the function."
 msgstr ""
 "நீங்கள் திரும்பும் வகையைப் பயன்படுத்தும்போது, செயல்பாட்டின் முடிவில் அல்லது செயல்பாட்டின் "
-"ஒவ்வொரு கிளையிலும் (IF, ELIF, மற்றும் BLOCK) நீங்கள் எப்போதும் எதையாவது திருப்பித் தர "
-"வேண்டும்."
+"ஒவ்வொரு கிளையிலும் (if, elif, மற்றும் else தொகுதி) நீங்கள் எப்போதும் எதையாவது திருப்பித் "
+"தர வேண்டும்."
 
 #. Reference: INVALID_NO_CATCH
 #: script_checking/error_database.csv:184
@@ -905,6 +951,9 @@ msgid ""
 "[code]break[/code] statement inside it. This creates an infinite loop that "
 "will freeze your game."
 msgstr ""
+"எப்பொழுதும் உண்மையாக இருக்கும் ([குறியீடு]உண்மையாக இருக்கும் போது:[/code] அல்லது "
+"[code]while(true):[/code]) [code]break[/code] அறிக்கை இல்லாமல், ஒரு வேளை லூப்பை "
+"எழுதினீர்கள். இது உங்கள் விளையாட்டை முடக்கும் எல்லையற்ற வளையத்தை உருவாக்குகிறது."
 
 #. Reference: INFINITE_WHILE_LOOP
 #: script_checking/error_database.csv:186
@@ -914,6 +963,10 @@ msgid ""
 "loop condition to something that will become false. For example: [code]while "
 "position.x < 100: position.x -= 10[/code]."
 msgstr ""
+"இதைச் சரிசெய்ய, லூப்பிற்குள் ஒரு [குறியீடு]பிரேக்[/குறியீடு] அறிக்கையைச் சேர்க்க வேண்டும், "
+"அதனால் அது ஒரு குறிப்பிட்ட நிபந்தனையை நிறைவு செய்யும் போது வெளியேறலாம் அல்லது போது லூப் "
+"நிலையை தவறானதாக மாற்றலாம். உதாரணமாக: [code]while position.x <100: position.x -= 10[/"
+"code]."
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:188
