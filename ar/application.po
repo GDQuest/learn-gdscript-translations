@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2025-06-29 09:01+0000\n"
-"Last-Translator: معاذ الجعيدي <kingmoazking@gmail.com>\n"
+"PO-Revision-Date: 2026-04-05 10:09+0000\n"
+"Last-Translator: REDA KING <yyayrrla@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/application/ar/>\n"
 "Language: ar\n"
@@ -19,17 +19,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: resources/QuizInputField.gd:17
 msgid "You need to type a whole number for this answer. Example: 42"
-msgstr "يجب إدخال عدد صحيح فقط في الإجابة. مثال: 42"
+msgstr "يجب عليك كتابة عدد صحيح للإجابة. مثال: 42"
 
 #: resources/QuizInputField.gd:22
 msgid ""
 "You need to type a decimal for this answer. Use a \".\" to separate the "
 "decimal part. Example: 3.14"
 msgstr ""
+"يجب كتابة عدد عشري لهذه الإجابة. استخدم علامة \".\" لفصل الجزء العشري. مثال: "
+"3.14"
 
 #: ui/UILesson.tscn:90
 msgid "Title"
@@ -40,7 +43,6 @@ msgid "Practices"
 msgstr "الممارسات"
 
 #: ui/UINavigator.gd:365
-#, fuzzy
 msgid "Go back in your navigation history"
 msgstr "العودة إلى الصفحة السابقة"
 
@@ -59,7 +61,7 @@ msgstr "تخفيضات عيد الميلاد"
 #: ui/UIPractice.gd:153
 #, python-format
 msgid "Hint %s"
-msgstr ""
+msgstr "تلميح %s"
 
 #: ui/UIPractice.gd:257
 msgid "Validating Your Code..."
@@ -75,6 +77,8 @@ msgid ""
 "You have a while loop that runs forever (while true) without a break "
 "statement. This will freeze the app."
 msgstr ""
+"لديك حلقة while تكرارية تعمل إلى الأبد (while true) دون جملة كسر break. وهذا "
+"سيؤدي إلى تجميد التطبيق."
 
 #: ui/UIPractice.gd:337
 msgid "Running Your Code..."
@@ -130,9 +134,8 @@ msgid "Solution"
 msgstr "الحل"
 
 #: ui/components/CodeEditor.tscn:208
-#, fuzzy
 msgid "Output"
-msgstr "النتيجة"
+msgstr "Output"
 
 #: ui/components/CodeEditor.tscn:223
 msgid "Continue"
@@ -152,64 +155,64 @@ msgstr ""
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
-msgstr ""
+msgstr "توقف مؤقتًا"
 
 #: ui/components/GlossaryPopup.tscn:37
 msgid "Term"
-msgstr ""
+msgstr "المصطلحات"
 
 #: ui/components/GlossaryPopup.tscn:53
 msgid "Our error explanation."
-msgstr ""
+msgstr "تفسير خطأنا."
 
 #: ui/components/OutputConsoleErrorMessage.tscn:39
 msgid "ERROR:"
-msgstr ""
+msgstr "خطأ:"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:47
 msgid "Placeholder text"
-msgstr ""
+msgstr "نص توضيحي"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:62
 msgid "in"
-msgstr ""
+msgstr "في"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:68
 msgid "FileName"
-msgstr ""
+msgstr "اسم الملف"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:75
 msgid "at"
-msgstr ""
+msgstr "في (أو عند)"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:82
 msgid "0:0"
-msgstr ""
+msgstr "0:0"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:92
 msgid ""
 "Sometimes errors are reported outside of your code. Why does that happen?"
-msgstr ""
+msgstr "أحياناً يتم الإبلاغ عن أخطاء خارج الكود الخاص بك. لماذا يحدث ذلك؟"
 
 #: ui/components/OutputConsoleErrorMessage.tscn:101
 msgid "Explain"
-msgstr ""
+msgstr "يشرح"
 
 #: ui/components/Revealer.tscn:74
 msgid "Expand"
-msgstr ""
+msgstr "يوسع"
 
 #: ui/components/RunnableCodeExample.tscn:105
 msgid "run()"
-msgstr ""
+msgstr "بدء()"
 
 #: ui/components/RunnableCodeExample.tscn:123
 msgid "step"
-msgstr ""
+msgstr "توقف"
 
 #: ui/components/RunnableCodeExampleDebugger.tscn:44
 msgid "Debugger"
-msgstr ""
+msgstr "مصحح الأخطاء"
 
 #: ui/components/SalePopup.tscn:121
 #, python-format
@@ -217,63 +220,68 @@ msgid ""
 "[center]Get [b]50% off[/b] on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b][/center]"
 msgstr ""
+"[center]احصل على خصم 50% على جميع دورات جودو (Godot) الخاصة بنا باستخدام\n"
+"كود الخصم DISCOUNT50[/center]"
 
 #: ui/components/SalePopup.tscn:132
 msgid "Only until"
-msgstr ""
+msgstr "حتى"
 
 #: ui/components/SalePopup.tscn:155
 msgid "CHECK OUT OUR COURSES"
-msgstr ""
+msgstr "اطلع على دوراتنا"
 
 #: ui/components/SalePopup.tscn:180
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ui/components/popups/ConfirmPopup.tscn:115
 msgid "Confirm"
-msgstr ""
+msgstr "يتأكد"
 
 #: ui/components/popups/ConfirmPopup.tscn:127
 msgid "Cancel"
-msgstr ""
+msgstr "يلغي"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:46
 msgid "Original error message"
-msgstr ""
+msgstr "رسائل الخطأ الأصلية"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:65
 msgid "Why this happens"
-msgstr ""
+msgstr "لماذا يحدث هذا"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:82
 msgid "How to fix this"
-msgstr ""
+msgstr "كيفية إصلاح هذا"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:91
 msgid "Our suggestion on how to fix it."
-msgstr ""
+msgstr "اقتراحنا حول كيفية إصلاح ذلك."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:102
 msgid "Sorry, we don't have this particular error message covered yet!"
-msgstr ""
+msgstr "عذراً، لم نقم بتغطية رسالة الخطأ هذه بعد!"
 
 msgid ""
 "Please, use the [b]Report[/b] button in the top-right corner to tell us more "
 "about how you've got it, and we will try to improve our knowledge base for "
 "the next version of the application."
 msgstr ""
+"يرجى استخدام زر [b]Report[/b] الموجود في الزاوية العلوية اليمنى لإخبارنا "
+"بالمزيد حول كيفية حصولك على هذه المشكلة، وسنحاول تحسين قاعدة معارفنا للإصدار "
+"التالي من التطبيق."
 
 msgid "[center]Thank you![/center]"
-msgstr ""
+msgstr "[center]شكراً لك![/center]"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn:128
 msgid "Hide"
-msgstr ""
+msgstr "يخفي"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:66
 msgid "Where do external errors come from?"
-msgstr ""
+msgstr "من أين تأتي الأخطاء الخارجية؟"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:83
 msgid ""
@@ -281,12 +289,17 @@ msgid ""
 "[b]important bits[/b]. But there is much more code outside of what you see "
 "that makes the project run."
 msgstr ""
+"صُممت الدروس في هذه الدورة بحيث لا تحتاج إلا إلى تعديل الأجزاء المهمة. ولكن هناك "
+"الكثير من التعليمات البرمجية الأخرى التي تُشغّل المشروع، والتي لا تراها."
 
 msgid ""
 "This means that sometimes changes you make can affect code you have no "
 "control over. But don't worry, you can still fix all the issues yourself "
 "with the code you [b]can[/b] edit!"
 msgstr ""
+"هذا يعني أن التغييرات التي تُجريها قد تؤثر أحيانًا على أجزاء من الكود لا يمكنك "
+"التحكم بها. لكن لا تقلق، لا يزال بإمكانك إصلاح جميع المشاكل بنفسك باستخدام "
+"الكود الذي يمكنك تعديله!"
 
 msgid ""
 "[i]This is like how game engines work too.[/i] There is a lot of hidden code "
@@ -295,258 +308,290 @@ msgid ""
 "individual error that you face. Quick, click the [b]Explain[/b] button next "
 "to the error message!"
 msgstr ""
+"[i]هذا يشبه آلية عمل محركات الألعاب أيضًا.[/i] هناك الكثير من التعليمات "
+"البرمجية المخفية التي تُنفذ لضمان تشغيل مشروعك بسلاسة. ومع ذلك، قد يؤدي خطأ في "
+"البرامج النصية إلى تعطيلها. سنحاول شرح كيفية معالجة كل خطأ على حدة قد "
+"تواجهه. انقر بسرعة على زر [b]شرح[/b] بجوار رسالة الخطأ!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn:119
 msgid "Got it!"
-msgstr ""
+msgstr "فهمتها!"
 
 #: ui/components/popups/LessonDonePopup.tscn:133
 msgid "Lesson complete!"
-msgstr ""
+msgstr "انتهى الدرس!"
 
 #: ui/components/popups/LessonDonePopup.tscn:142
 msgid ""
 "But there are still some practices\n"
 "that you've skipped."
 msgstr ""
+"ولكن لا تزال هناك بعض \n"
+"الممارسات التي تخطيتها."
 
 #: ui/components/popups/LessonDonePopup.tscn:155
 msgid ""
 "[center][b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]ابقَ[/b] وراجع المواد الدراسية،\n"
+"أو [b]أكمل[/b] الدورة.[/center]"
 
 #: ui/components/popups/LessonDonePopup.tscn:183
 msgid "Stay"
-msgstr ""
+msgstr "ابق"
 
 #: ui/components/popups/PracticeDonePopup.tscn:89
 msgid "Well done!"
-msgstr ""
+msgstr "أحسنت!"
 
 #: ui/components/popups/PracticeDonePopup.tscn:98
 msgid "You completed the practice."
-msgstr ""
+msgstr "لقد أكملت التمرين."
 
 #: ui/components/popups/PracticeDonePopup.tscn:110
 msgid ""
 "[center][b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.[/center]"
 msgstr ""
+"[center][b]ابقَ[/b] واستمتع بالتجربة،\n"
+"أو [b]أكمل[/b] الدورة.[/center]"
 
 #: ui/components/popups/PracticeListPopup.tscn:67
 msgid "Practice List"
-msgstr ""
+msgstr "قائمة التدريبات"
 
 #: ui/components/popups/PracticeListPopup.tscn:115
 msgid "Close"
-msgstr ""
+msgstr "إغلاق"
 
 #: ui/components/popups/ReportFormPopup.tscn:66
 msgid "Report an issue"
-msgstr ""
+msgstr "الإبلاغ عن مشكلة"
 
 #: ui/components/popups/ReportFormPopup.tscn:83
 msgid ""
 "If you face an issue in the app, please click the link below to report it on "
 "GitHub:"
 msgstr ""
+"إذا واجهت مشكلة في التطبيق، يرجى النقر على الرابط أدناه للإبلاغ عنها على "
+"GitHub:"
 
 msgid ""
 "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com "
 "> GDQuest > learn-gdscript > Issues[/url][/b][/center]"
 msgstr ""
+"1[center][b][url=https://github.com/GDQuest/learn-gdscript/"
+"issues]GitHub.com > GDQuest > learn-gdscript > Issues[/url][/b][/center]"
 
 msgid ""
 "On that page, you can report any issues, whether something's not working or "
 "there's an error in a lesson."
 msgstr ""
+"في تلك الصفحة، يمكنك الإبلاغ عن أي مشاكل، سواء كان هناك شيء لا يعمل أو خطأ في "
+"الدرس."
 
 msgid ""
 "You can generate a log to help us identify the problem. To do so, click "
 "here: [b][url=download]generate error log[/url][/b]."
 msgstr ""
+"يمكنك إنشاء سجل لمساعدتنا في تحديد المشكلة. للقيام بذلك، انقر هنا: "
+"[b][url=download]إنشاء سجل الأخطاء[/url][/b]."
 
 msgid ""
 "Please drag and drop the generated file onto your issue on GitHub to attach "
 "it."
 msgstr ""
+"يرجى سحب الملف الناتج وإسقاطه في صفحة \"المشكلة\" (Issue) على GitHub لإرفاقه."
 
 msgid "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]"
-msgstr ""
+msgstr "[font=res://ui/theme/fonts/font_title.tres]ما هو GitHub؟[/font]"
 
 msgid ""
 "GitHub is an online platform to host and manage open-source projects like "
 "the GDScript Learn app. It helps developers organize their work and "
 "collaborate online."
 msgstr ""
+"GitHub عبارة عن منصة إلكترونية لاستضافة وإدارة مشاريع مفتوحة المصدر مثل تطبيق "
+"GDScript Learn. وهي تساعد المطورين على تنظيم عملهم والتعاون عبر الإنترنت."
 
 msgid ""
 "You can use GitHub to study the source code of many open projects, report "
 "issues, or even contribute code yourself."
 msgstr ""
+"يمكنك استخدام GitHub لدراسة الشفرة المصدرية للعديد من المشاريع المفتوحة، "
+"والإبلاغ عن المشكلات، أو حتى المساهمة في كتابة الشفرة بنفسك."
 
 msgid ""
 "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]"
 msgstr ""
+"[font=res://ui/theme/fonts/font_title.tres]كيفية الإبلاغ عن مشكلة[/font]"
 
 msgid ""
 "1. Click the link above to get to the [i]GitHub Issues[/i] page.\n"
 "2. Click on the [i]New Issue[/i] button.\n"
 "3. Fill out the form to tell us more about your problem."
 msgstr ""
+"* اضغط على الرابط أعلاه للوصول إلى صفحة [i]GitHub Issues[/i].\n"
+"* اضغط على زر [i]New Issue[/i] (مشكلة جديدة). \n"
+"* املأ النموذج لتزويدنا بمزيد من التفاصيل حول مشكلتك."
 
 msgid "You will need a GitHub account to do so."
-msgstr ""
+msgstr "ستحتاج إلى حساب على GitHub للقيام بذلك."
 
 msgid ""
 "Please add as much relevant information as possible, such as the kind of "
 "device you're using to access the app, and maybe attach a screenshot or "
 "video clip showcasing the issue."
 msgstr ""
+"يرجى إضافة أكبر قدر ممكن من المعلومات ذات الصلة، مثل نوع الجهاز الذي تستخدمه "
+"للوصول إلى التطبيق، وربما إرفاق لقطة شاشة أو مقطع فيديو يوضح المشكلة."
 
 msgid "[center]Thank you for contributing to open source![/center]"
-msgstr ""
+msgstr "[center]شكرًا لمساهمتك في المصادر المفتوحة![/center]"
 
 #: ui/components/popups/ReportFormPopup.tscn:158
 msgid "OK"
-msgstr ""
+msgstr "نعم"
 
 #: ui/components/popups/SettingsPopup.tscn:85
 msgid "Configure the App"
-msgstr ""
+msgstr "قم بتهيئة التطبيق"
 
 #: ui/components/popups/SettingsPopup.tscn:119
 msgid "Language"
-msgstr ""
+msgstr "لغة"
 
 #: ui/components/popups/SettingsPopup.tscn:139
 msgid "Text Size"
-msgstr ""
+msgstr "حجم النص"
 
 #: ui/components/popups/SettingsPopup.tscn:167
 msgid "Sample text"
-msgstr ""
+msgstr "نص نموذجي"
 
 #: ui/components/popups/SettingsPopup.tscn:180
 msgid "Scroll sensitivity"
-msgstr ""
+msgstr "حساسية التمرير"
 
 #: ui/components/popups/SettingsPopup.tscn:206
 msgid "Framerate cap"
-msgstr ""
+msgstr "الحد الأقصى لمعدل الإطارات"
 
 #: ui/components/popups/SettingsPopup.tscn:229
 msgid "Lower contrast"
-msgstr ""
+msgstr "تباين أقل"
 
 #: ui/components/popups/SettingsPopup.tscn:250
 msgid "Dyslexia Font"
-msgstr ""
+msgstr "خط عسر القراءة"
 
 #: ui/components/popups/SettingsPopup.tscn:299
 msgid "Apply"
-msgstr ""
+msgstr "تطبيق (أو اعتماد)"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:93
 msgid "Open Lesson"
-msgstr ""
+msgstr "درس مفتوح"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:95
 msgid "Continue Lesson"
-msgstr ""
+msgstr "تابع الدرس"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:97
 msgid "Start Lesson"
-msgstr ""
+msgstr "ابدأ الدرس"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:35
 msgid "Lesson Title Goes Here"
-msgstr ""
+msgstr "عنوان الدرس هنا"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:48
 msgid "Lesson read"
-msgstr ""
+msgstr "قراءة الدرس"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:56
 msgid "0%"
-msgstr ""
+msgstr "0%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:79
 msgid "Quizzes completed"
-msgstr ""
+msgstr "تم إكمال الاختبارات"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:87
 msgid "0 / 0"
-msgstr ""
+msgstr "0 / 0"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn:100
 msgid "Practices completed"
-msgstr ""
+msgstr "التدريبات المكتملة"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:36
 msgid "Lesson 0"
-msgstr ""
+msgstr "الدرس 0"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn:44
 msgid "Lesson Title"
-msgstr ""
+msgstr "عنوان الدرس"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
 msgid "Course Index -"
-msgstr ""
+msgstr "فهرس الدورة -"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
-msgstr ""
+msgstr "عنوان الدورة التدريبية هنا"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:83
 msgid "Reset Progress"
-msgstr ""
+msgstr "إعادة ضبط التقدم"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:98
 msgid "Confirm Resetting Progress"
-msgstr ""
+msgstr "تأكيد إعادة ضبط التقدم"
 
 #: ui/screens/end_screen/EndScreen.tscn:310
 msgid "YOU MADE IT!"
-msgstr ""
+msgstr "لقد نجحت!"
 
 #: ui/screens/end_screen/EndScreen.tscn:353
 msgid ""
 "Not only did you learn the foundations of coding, you’re a big step closer "
 "to making your own games."
 msgstr ""
+"لم تتعلم فقط أساسيات البرمجة، بل أصبحت أقرب خطوة كبيرة إلى صنع ألعابك الخاصة."
 
 #: ui/screens/end_screen/EndScreen.tscn:373
 msgid "Don't stop here..."
-msgstr ""
+msgstr "لا تتوقف هنا..."
 
 #: ui/screens/end_screen/EndScreen.tscn:383
 msgid "The fun stuff starts now!"
-msgstr ""
+msgstr "تبدأ المتعة الآن!"
 
 #: ui/screens/end_screen/EndScreen.tscn:398
 msgid "There are 2 pathways learners traditionally take from here:"
-msgstr ""
+msgstr "هناك مساران يسلكهما المتعلمون عادةً من هنا:"
 
 #: ui/screens/end_screen/EndScreen.tscn:412
 msgid "Following video tutorials"
-msgstr ""
+msgstr "متابعة الدروس التعليمية المصورة"
 
 #: ui/screens/end_screen/EndScreen.tscn:427
 msgid ""
 "They’re a great way to pick up specific game mechanics but they’re not as "
 "effective when you’re trying to learn new skills from the ground up."
 msgstr ""
+"إنها طريقة رائعة لاكتساب آليات لعب محددة، لكنها ليست فعالة بنفس القدر عندما "
+"تحاول تعلم مهارات جديدة من الصفر."
 
 #: ui/screens/end_screen/EndScreen.tscn:459
 msgid "• There’s no clear learning path."
-msgstr ""
+msgstr "• لا يوجد مسار تعليمي واضح."
 
 #: ui/screens/end_screen/EndScreen.tscn:474
 msgid "• Retention and skill acquisition is slow and limited."
-msgstr ""
+msgstr "• الاحتفاظ بالمهارات واكتسابها بطيء ومحدود."
 
 #: ui/screens/end_screen/EndScreen.tscn:490
 msgid ""
@@ -557,10 +602,15 @@ msgid ""
 "[color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]courses[/"
 "url][/color][/b]."
 msgstr ""
+"نحن نقدم نصيبنا العادل من [b][color=#ebc3ff][url=https://www.youtube.com/"
+"@Gdquest/videos]الدروس المجانية[/url][/color][/b]؛ والتي ستكون مفيدة للغاية "
+"بمجرد أن تبدأ في صنع ألعابك الخاصة. ولكن كبداية، ننصحك حقاً بـ تعلم كيف تفكر "
+"كمطور ألعاب من خلال [b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-"
+"early-access]الدورات التدريبية[/url][/color][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:505
 msgid "Learning with courses"
-msgstr ""
+msgstr "التعلم من خلال الدورات"
 
 #: ui/screens/end_screen/EndScreen.tscn:521
 msgid ""
@@ -568,6 +618,9 @@ msgid ""
 "tutorials. The problem of retaining information and acquiring real skills "
 "unfortunately still applies to them."
 msgstr ""
+"تجدر الإشارة إلى أن معظم الدورات التدريبية المتاحة عبر الإنترنت هي في الواقع "
+"عبارة عن سلاسل دروس فيديو مميزة. وللأسف، لا تزال مشكلة استيعاب المعلومات "
+"واكتساب المهارات الحقيقية قائمة عليها."
 
 #: ui/screens/end_screen/EndScreen.tscn:537
 msgid ""
@@ -575,6 +628,9 @@ msgid ""
 "believe it doesn’t have to be boring. When teaching is done correctly, most "
 "people highly enjoy the sensation of leveling up!"
 msgstr ""
+"في GDQuest، نحن في جوهرنا مُعلّمون. نؤمن بالدراسة التطبيقية، ونؤمن بأنها لا يجب "
+"أن تكون مملة. عندما يتم التدريس بشكل صحيح، يستمتع معظم الناس بشعور التطور "
+"والارتقاء!"
 
 msgid ""
 "That’s the reason we made this app. It is in fact part of our beginner "
@@ -582,180 +638,192 @@ msgid ""
 "bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
 "[/b]."
 msgstr ""
+"لهذا السبب قمنا بإنشاء هذا التطبيق. وهو في الواقع جزء من دورتنا للمبتدئين "
+"[b][color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]تعلم تطوير الألعاب من الصفر باستخدام Godot[/"
+"url][/color][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:575
 msgid "LEARN GAMEDEV WITH GODOT"
-msgstr ""
+msgstr "تعلم تطوير الألعاب باستخدام جودوت"
 
 #: ui/screens/end_screen/EndScreen.tscn:722
 msgid "Now available"
-msgstr ""
+msgstr "متوفر الآن"
 
 #: ui/screens/end_screen/EndScreen.tscn:732
 msgid "for preorders"
-msgstr ""
+msgstr "للطلبات المسبقة"
 
 #: ui/screens/end_screen/EndScreen.tscn:749
 msgid "Godot 4 courses!!"
-msgstr ""
+msgstr "دورات جودو 4!!"
 
 #: ui/screens/end_screen/EndScreen.tscn:795
 msgid "Teaching gamedev in the classroom?"
-msgstr ""
+msgstr "هل يمكن تدريس تطوير الألعاب في الفصل الدراسي؟"
 
 #: ui/screens/end_screen/EndScreen.tscn:808
 msgid "Get in touch"
-msgstr ""
+msgstr "تواصل معنا"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:204
 msgid "Congratulations!"
-msgstr ""
+msgstr "تهانينا!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:211
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to "
 "make games with the Godot game engine."
 msgstr ""
+"لقد أكملت دورة \"تعلم GDScript من الصفر\". لديك الآن الأساسيات التي تحتاجها "
+"لصنع الألعاب باستخدام محرك الألعاب Godot."
 
 msgid ""
 "You can keep learning with the free series [url=https://docs.godotengine.org/"
 "en/stable/getting_started/step_by_step/index.html]Getting Started with "
 "Godot[/url]."
 msgstr ""
+"يمكنك مواصلة التعلم من خلال السلسلة المجانية [url=https://"
+"docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]البدء "
+"باستخدام Godot[/url]."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:224
 msgid "This is an Open-Source project!"
-msgstr ""
+msgstr "هذا مشروع مفتوح المصدر!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:231
 msgid "Like Godot, this app and course is free and open-source."
-msgstr ""
+msgstr "مثل برنامج Godot، هذا التطبيق والدورة التدريبية مجانيان ومفتوحا المصدر."
 
 msgid ""
 "You can find the app's source code and contribute translations here: "
 "[url=https://github.com/GDQuest/learn-gdscript]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
+"يمكنك العثور على شفرة المصدر للتطبيق والمساهمة في الترجمات هنا: [url=https://"
+"github.com/GDQuest/learn-gdscript]تعلم GDScript من الصفر (مستودع Github)[/"
+"url]."
 
 #: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:41
 msgid "Early Access release: 2024/01/30"
-msgstr ""
+msgstr "إصدار الوصول المبكر: 30/01/2024"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:56
 msgid "[b]Question[/b]"
-msgstr ""
+msgstr "[b]سؤال[/b]"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:80
 msgid "Explanation"
-msgstr ""
+msgstr "توضيح"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:107
 msgid "Skip"
-msgstr ""
+msgstr "تخطي"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
-msgstr ""
+msgstr "يُقدِّم"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
-msgstr ""
+msgstr "أنت على حق!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:160
 msgid "Answers here"
-msgstr ""
+msgstr "‍الإجابات هنا"
 
 #: ui/screens/lesson/UIContentBlock.gd:69
 msgid "Learn More"
-msgstr ""
+msgstr "يتعلم أكثر"
 
 #: ui/screens/lesson/UIContentBlock.tscn:47
 msgid "Placeholder heading"
-msgstr ""
+msgstr "عنوان افتراضي"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:52
 msgid "Practice title"
-msgstr ""
+msgstr "عنوان الممارسة"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:77
 msgid "next"
-msgstr ""
+msgstr "التالي"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:100
 msgid "Practice"
-msgstr ""
+msgstr "يمارس"
 
 #: ui/screens/lesson/UIPracticeButton.tscn:110
 msgid "You are here"
-msgstr ""
+msgstr "أنت هنا"
 
 #: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
 msgid "Answer label"
-msgstr ""
+msgstr "دليل الإجابة"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
 msgid "(select all that apply)"
-msgstr ""
+msgstr "(اختر جميع ما ينطبق)"
 
 #: ui/screens/practice/PracticeHint.tscn:9
 msgid "Show Hint"
-msgstr ""
+msgstr "إظهار تلميح"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:144
 msgid "Method descriptions"
-msgstr ""
+msgstr "وصف الطرق"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:160
 msgid "Property descriptions"
-msgstr ""
+msgstr "وصف الخصائص"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:63
 msgid "Summary - Lesson Name"
-msgstr ""
+msgstr "ملخص - اسم الدرس"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:106
 msgid "Goals"
-msgstr ""
+msgstr "الأهداف"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:120
 msgid "Hints"
-msgstr ""
+msgstr "تلميحات"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:128
 msgid "Checks"
-msgstr ""
+msgstr "التحققات"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:137
 msgid "Documentation"
-msgstr ""
+msgstr "الوثائق"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn:178
 msgid "Open Practice List"
-msgstr ""
+msgstr "فتح قائمة التمارين"
 
 #: ui/screens/practice/PracticeTestDisplay.tscn:40
 msgid "Test text"
-msgstr ""
+msgstr "نص الاختبار"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:44
 msgid "CONTINUE"
-msgstr ""
+msgstr "يكمل"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:46
 msgid "START"
-msgstr ""
+msgstr "يبدأ"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:651
 msgid "SELECT LESSON"
-msgstr ""
+msgstr "اختر الدرس"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:665
 msgid "OPTIONS"
-msgstr ""
+msgstr "خيارات"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:699
 msgid "QUIT"
-msgstr ""
+msgstr "خروج"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn:805
 msgid ""
