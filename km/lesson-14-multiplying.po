@@ -9,102 +9,126 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-10 04:09+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-14-multiplying/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-14-multiplying/lesson.tres:14
 msgid "Our robot's health is always between [code]0[/code] and [code]100[/code]."
 msgstr ""
+"ឈាម របស់ robot យើងគឺស្ថិតនៅចន្លោះ [code]0[/code] និង [code]100[/code] ជានិច្ច។"
 
 msgid "But as our robot fights, we want to increase its strength and toughness."
 msgstr ""
+"ប៉ុន្តែនៅពេលដែល robot របស់យើងប្រយុទ្ធ យើងចង់ បង្កើនកម្លាំង និងភាពធន់របស់វា។"
 
 msgid ""
 "When a character levels up, it might deal more damage to enemies, gain "
 "new abilities or, in our case, gain more health."
 msgstr ""
+"នៅពេលដែលតួអង្គ ឡើងកម្រិត (level up) វាអាចនឹងធ្វើឱ្យសត្រូវ រងការខូចខាតកាន់តែច្រើន, ហើយទទួល"
+"បាន​ សមត្ថភាពថ្មី ឬក្នុងករណីរបស់យើង គឺទទួលបាន ឈាមកាន់តែច្រើន។"
 
 #: course/lesson-14-multiplying/lesson.tres:28
 msgid ""
 "We define a [code]level[/code] variable to keep track of the level of the"
 " robot. It starts at level one."
 msgstr ""
+"យើងកំណត់ variable [code]level[/code] មួយដើម្បីតាមដាន កម្រិតរបស់ robot។ វាចាប់ផ្តើមនៅកម្រិ"
+"តទីមួយ។"
 
 msgid ""
 "When the robot has defeated enough enemies, we call the "
 "[code]level_up()[/code] function to increment the robot's level."
 msgstr ""
+"នៅពេលដែល robot កម្ចាត់សត្រូវ បានគ្រប់គ្រាន់ហើយ យើងហៅ function [code]level_up()[/"
+"code] ដើម្បីបង្កើន កម្រិតរបស់ robot។"
 
 #: course/lesson-14-multiplying/lesson.tres:50
 msgid ""
 "As we briefly saw in the last lesson, our robot could have a range of "
 "variables that could increase when it levels up."
 msgstr ""
+"ដូចដែលយើងបានឃើញត្រួសៗ ក្នុងមេរៀនមុន robot របស់យើងអាចមាន variables ជាច្រើនដែលអាចកើន ឡើ"
+"ងនៅពេលវាឡើងកម្រិត។"
 
 #: course/lesson-14-multiplying/lesson.tres:70
 msgid ""
 "In this lesson, we'll just focus on increasing the robot's "
 "[code]max_health[/code]."
 msgstr ""
+"នៅក្នុងមេរៀននេះ យើងនឹងផ្ដោត តែលើការបង្កើន [code]max_health[/code] របស់ robot ប៉ុណ្ណោះ។"
 
 msgid ""
 "The variable [code]max_health[/code] is the maximum amount the robot's "
 "[code]health[/code] can be. We change our [code]heal()[/code] function to"
 " use this variable."
 msgstr ""
+"Variable [code]max_health[/code] គឺជា ចំនួនអតិបរមា​ នៃ [code]health[/code] របស់ "
+"robot។ យើង ផ្លាស់ប្តូរ function [code]heal()[/code] របស់យើង ដើម្បីប្រើប្រាស់ variable "
+"នេះ។"
 
 #: course/lesson-14-multiplying/lesson.tres:92
 msgid ""
 "We could add [code]5[/code] to the [code]max_health[/code] every time the"
 " robot levels up."
 msgstr ""
+"យើងអាចបូក [code]5[/code] ទៅកាន់ [code]max_health[/code] រាល់ពេល ដែល robot ឡើងកម្រិ"
+"ត។"
 
 #: course/lesson-14-multiplying/lesson.tres:112
 msgid "This would increase [code]max_health[/code] the same amount every time."
-msgstr ""
+msgstr "វានឹងបង្កើន [code]max_health[/code] ក្នុងចំនួន​ ដដែលរាល់ពេល។"
 
 msgid "If we graphed [code]max_health[/code], it'd look something like this."
 msgstr ""
+"ប្រសិនបើយើងបង្ហាញ [code]max_health[/code] ជាក្រាហ្វ វានឹងមានសណ្ឋាន បែបនេះ។"
 
 #: course/lesson-14-multiplying/lesson.tres:134
 msgid "This growth is [b]linear[/b]."
-msgstr ""
+msgstr "ការកើនឡើងនេះហៅថា [b]លីនេអ៊ែរ (linear)[/b]។"
 
 msgid ""
 "In our case, we want a feeling of more and more power as the robot levels"
 " up."
 msgstr ""
+"ក្នុងករណីរបស់យើង យើងចង់ឱ្យ មានអារម្មណ៍ថាមានថាមពល កាន់តែខ្លាំងឡើងៗ នៅពេលដែល robot ឡើងកម្រិត"
+"។"
 
 msgid "We want a graph like this."
-msgstr ""
+msgstr "យើងចង់បានក្រាហ្វបែបនេះ។"
 
 #: course/lesson-14-multiplying/lesson.tres:158
 msgid "This growth is [b]exponential[/b]."
-msgstr ""
+msgstr "ការកើនឡើង នេះហៅថា [b]អិចស្ប៉ូណង់ស្យែល (exponential)[/b]។"
 
 msgid ""
 "With each level, more [code]max_health[/code] is added than the previous "
 "level up."
 msgstr ""
+"ក្នុងកម្រិតនីមួយៗ [code]max_health[/code] ត្រូវបានបន្ថែមច្រើនជាង ការឡើងកម្រិតមុន។"
 
 msgid ""
 "To get the exponential growth, we multiply the [code]max_health[/code] by"
 " an amount greater than [code]1[/code] each time the robot levels up."
 msgstr ""
+"ដើម្បីទទួលបាន ការកើនឡើង បែបអិចស្ប៉ូណង់ស្យែល យើងគុណ [code]max_health[/code] ជាមួយនឹងចំនួន ដែ"
+"លធំជាង [code]1[/code] រាល់ពេលដែល robot ឡើងកម្រិត។"
 
 msgid "To multiply values together, we use [code]*[/code]."
-msgstr ""
+msgstr "ដើម្បីគុណតម្លៃ​ បញ្ចូលគ្នា យើងប្រើ [code]*[/code]។"
 
 #: course/lesson-14-multiplying/lesson.tres:172
 msgid "What is the value of damage?"
-msgstr ""
+msgstr "តើតម្លៃនៃការខូចខាត (damage) ស្មើនឹងប៉ុន្មាន?"
 
 #: course/lesson-14-multiplying/lesson.tres:173
 msgid ""
@@ -112,40 +136,50 @@ msgid ""
 "var level = 5\n"
 "var power = 3"
 msgstr ""
+"[code]\n"
+"var level = 5\t#កម្រិត\n"
+"var power = 3\t\t#ថាមពល"
 
 msgid ""
 "func calculate_damage():\n"
 "\tvar damage = power * level\n"
 "[/code]"
 msgstr ""
+"func calculate_damage():\t\t#func\n"
+"\tvar damage = power * level\t\t#var\n"
+"[/code]"
 
 #: course/lesson-14-multiplying/lesson.tres:181
 msgid ""
 "We multiply [code]power[/code] by [code]level[/code] using [code]*[/code]"
 " to get the result of [code]15[/code]."
 msgstr ""
+"យើងគុណ [code]power[/code] ជាមួយនឹង [code]level[/code] ដោយប្រើ [code]*[/code] ដើម្បី"
+"ទទួលបានលទ្ធផល [code]15[/code]។"
 
 #: course/lesson-14-multiplying/lesson.tres:182
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: course/lesson-14-multiplying/lesson.tres:182
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: course/lesson-14-multiplying/lesson.tres:182
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: course/lesson-14-multiplying/lesson.tres:192
 msgid ""
 "We can use [code]*=[/code] in the same way as [code]-=[/code] and "
 "[code]+=[/code]."
 msgstr ""
+"យើងអាចប្រើ [code]*=[/code] ក្នុង របៀបដូចគ្នាទៅនឹង [code]-=[/code] និង [code]+=[/"
+"code] ដែរ។"
 
 #: course/lesson-14-multiplying/lesson.tres:200
 msgid "What is the value of damage now?"
-msgstr ""
+msgstr "តើតម្លៃនៃការខូចខាត (damage) ឥឡូវនេះស្មើនឹងប៉ុន្មាន?"
 
 msgid ""
 "func calculate_damage():\n"
@@ -153,33 +187,41 @@ msgid ""
 "\tdamage *= 2\n"
 "[/code]"
 msgstr ""
+"func calculate_damage():\n"
+"\tvar damage = power * level\t\t #ឈាម = ថាមពល x កម្រិត\n"
+"\tdamage *= 2\t\t\t #ឈាម = ថាមពល x កម្រិត\n"
+"[/code]"
 
 #: course/lesson-14-multiplying/lesson.tres:210
 msgid "The value of [code]damage[/code] starts as [code]15[/code]."
-msgstr ""
+msgstr "តម្លៃនៃ [code]damage[/code] ចាប់ផ្តើមដោយ [code]15[/code]។"
 
 msgid ""
 "Then, [code]damage *= 2[/code] multiplies it by [code]2[/code] to get "
 "[code]30[/code]."
 msgstr ""
+"បន្ទាប់មក [code]damage *= 2[/code] គុណវាជាមួយនឹង [code]2[/code] ដើម្បីទទួលបាន "
+"[code]30[/code]។"
 
 #: course/lesson-14-multiplying/lesson.tres:213
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: course/lesson-14-multiplying/lesson.tres:213
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: course/lesson-14-multiplying/lesson.tres:213
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: course/lesson-14-multiplying/lesson.tres:223
 msgid ""
 "Let's level up our robot and add exponential growth to "
 "[code]max_health[/code]."
 msgstr ""
+"តោះមកឱ្យ robot របស់យើងឡើងកម្រិត និងបន្ថែមការកើនឡើងបែប អិចស្ប៉ូណង់ស្យែលទៅឱ្យ "
+"[code]max_health[/code]។"
 
 #: course/lesson-14-multiplying/lesson.tres:243
 msgid ""
@@ -187,58 +229,72 @@ msgid ""
 " add a special ability to our robot to make it extra tough at high "
 "levels."
 msgstr ""
+"នៅក្នុងការអនុវត្ត អ្នកនឹងបង្កើន [code]max_health[/code] របស់ robot និងបន្ថែមសមត្ថភាពពិសេ"
+"ស ដើម្បីឱ្យវាមានភាពធន់ ខ្លាំងនៅកម្រិតខ្ពស់។"
 
 #: course/lesson-14-multiplying/lesson.tres:251
 msgid "Increasing maximum health exponentially"
-msgstr ""
+msgstr "ការបង្កើន ឈាមអតិបរមា​ បែបអិចស្ប៉ូណង់ស្យែល"
 
 #: course/lesson-14-multiplying/lesson.tres:252
 msgid "Let's make the robot stronger when it levels up."
-msgstr ""
+msgstr "តោះធ្វើឱ្យ robot កាន់តែខ្លាំងនៅពេល វាឡើងកម្រិត។"
 
 msgid "Add to the [code]level_up()[/code] function so it does the following:"
 msgstr ""
+"បន្ថែមទៅក្នុង function [code]level_up()[/code] ដើម្បីឱ្យវា ធ្វើដូចខាងក្រោម៖"
 
 msgid ""
 "- Increases [code]level[/code] by one.\n"
 "- Increases [code]max_health[/code] by 10%."
 msgstr ""
+"- បង្កើន [code]level[/code] មួយកម្រិត។\n"
+"- បង្កើន [code]max_health[/code] ចំនួន 10%។"
 
 #: course/lesson-14-multiplying/lesson.tres:271
 msgid ""
 "We want our robot to increase in strength as it levels up. Let's increase"
 " its health exponentially!"
 msgstr ""
+"យើងចង់ឱ្យ robot របស់យើងកើនកម្លាំងនៅពេលវាឡើងកម្រិត។ តោះបង្កើនឈាមរបស់វា​ បែបអិចស្ប៉ូណង់ស្យែល!"
 
 #: course/lesson-14-multiplying/lesson.tres:276
 msgid "Reducing damage at higher levels"
-msgstr ""
+msgstr "ការកាត់បន្ថយការខូចខាតនៅកម្រិតខ្ពស់"
 
 #: course/lesson-14-multiplying/lesson.tres:277
 msgid ""
 "When our robot's [code]level[/code] is [code]3[/code] or more, we want it"
 " to take a lot less damage."
 msgstr ""
+"នៅពេលដែល [code]level[/code] របស់ robot គឺ [code]3[/code] ឬលើសពីនេះ យើងចង់ឱ្យវាទទួលរ"
+"ងការខូចខាតតិចជាងមុនឆ្ងាយណាស់។"
 
 msgid "Add to the [code]take_damage()[/code] function so the following happens:"
 msgstr ""
+"បន្ថែមទៅក្នុង function [code]take_damage()[/code] ដើម្បីឱ្យរឿង ខាងក្រោមនេះកើតឡើង៖"
 
 msgid ""
 "- [code]if[/code] the robot's [code]level[/code] is greater than "
 "[code]2[/code], reduce the damage [code]amount[/code] by 50%"
 msgstr ""
+"- [code]if[/code] កម្រិតរបស់ robot ធំជាង [code]2[/code] សូមកាត់បន្ថយចំនួន "
+"[code]amount[/code] នៃការខូចខាត 50%"
 
 msgid ""
 "The robot is level 3. An enemy is going to attack for 10 damage. This "
 "damage should reduce to 5."
 msgstr ""
+"Robot ស្ថិតនៅកម្រិតទី 3។ សត្រូវនឹងវាយប្រហារដោយការខូចខាត 10។ ការខូចខាតនេះគួរតែកាត់បន្ថយមកត្រឹ"
+"ម 5។"
 
 #: course/lesson-14-multiplying/lesson.tres:301
 msgid ""
 "At higher levels, we want our robot to be super tough and take even less "
 "damage!"
 msgstr ""
+"នៅកម្រិតខ្ពស់ យើងចង់ឱ្យ robot របស់យើងរឹងមាំខ្លាំង និងទទួលរងការខូចខាតកាន់តែតិច!"
 
 #: course/lesson-14-multiplying/lesson.tres:305
 msgid "Multiplying"
-msgstr ""
+msgstr "ការគុណ"
