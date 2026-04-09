@@ -9,25 +9,27 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-10 04:09+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/classref_database/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #. Reference: show
 #: ./course/documentation.csv:2
 msgid "shows the current scene"
-msgstr ""
+msgstr "បង្ហាញ scene បច្ចុប្បន្ន"
 
 #. Reference: hide
 #: ./course/documentation.csv:3
 msgid "hides the current scene"
-msgstr ""
+msgstr "លាក់ scene បច្ចុប្បន្ន"
 
 #. Reference: rotate
 #: ./course/documentation.csv:4
@@ -35,41 +37,42 @@ msgid ""
 "Applies a rotation to the node, in radians, starting from its current "
 "rotation."
 msgstr ""
+"rotation (បង្វិល) Node នោះ (គិតជារ៉ាដ្យង់) ដោយបន្តពីទីតាំង rotation បច្ចុប្បន្ន។"
 
 #. Reference: move_forward
 #: ./course/documentation.csv:5
 msgid "Moves the turtle in the direction it's facing by some pixels."
-msgstr ""
+msgstr "រំកិល turtle ទៅតាមទិសដៅដែល កំពុងបែរមុខទៅ ចំនួនប៉ុន្មាន ភិចសែល (pixels)។"
 
 #. Reference: turn_right
 #: ./course/documentation.csv:6
 msgid "Rotates the turtle to the right by some degrees."
-msgstr ""
+msgstr "បង្វិល turtle ទៅស្តាំចំនួនប៉ុន្មានដឺក្រេ។"
 
 #. Reference: turn_left
 #: ./course/documentation.csv:7
 msgid "Rotates the turtle to the left by some degrees."
-msgstr ""
+msgstr "បង្វិល turtle ទៅឆ្វេង ចំនួនប៉ុន្មានដឺក្រេ។"
 
 #. Reference: jump
 #: ./course/documentation.csv:8
 msgid "Offsets the turtle's position by the given x and y amounts of pixels."
-msgstr ""
+msgstr "ប្តូរទីតាំង turtle តាមចំនួន ភិចសែល(pixels) x និង y ដែលបានផ្តល់ឱ្យ។"
 
 #. Reference: draw_rectangle
 #: ./course/documentation.csv:9
 msgid "Makes the turtle draw a rectangle starting at its current position."
-msgstr ""
+msgstr "ធ្វើឱ្យ turtle គូររូប ចតុកោណកែង ដោយចាប់ផ្តើមពីទីតាំង បច្ចុប្បន្នរបស់វា។"
 
 #. Reference: position.x
 #: ./course/documentation.csv:10
 msgid "The position of the entity on the horizontal axis."
-msgstr ""
+msgstr "ទីតាំងរបស់ entity នៅលើ អ័ក្សដេក (horizontal axis)។"
 
 #. Reference: position.y
 #: ./course/documentation.csv:11
 msgid "The position of the entity on the vertical axis."
-msgstr ""
+msgstr "ទីតាំងរបស់ entity នៅលើអ័ក្សឈរ (vertical axis)។"
 
 #. Reference: move_local_x
 #: ./course/documentation.csv:12
@@ -78,6 +81,9 @@ msgid ""
 "[code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] "
 "is false, normalizes the movement."
 msgstr ""
+"ធ្វើការផ្លាស់ទីវត្ថុ (Node) នៅតាមអ័ក្ស X ផ្ទាល់របស់វា ដោយផ្អែកលើពេលវេលា [code]delta[/"
+"code] នៃ [code]Node._process[/code]។ ប្រសិនបើ [code]scaled[/code] មានតម្លៃ "
+"false នោះវា នឹងធ្វើឱ្យការផ្លាស់ ទីនោះមានចម្ងាយថេរ ជានិច្ច (Normalize)។"
 
 #. Reference: board_size
 #: ./course/documentation.csv:13
@@ -85,6 +91,8 @@ msgid ""
 "Stores how many cells make up the width ([code]board_size.x[/code]) and "
 "height ([code]board_size.y[/code]) of the board."
 msgstr ""
+"ប្រើសម្រាប់រក្សាទុក ចំនួន ក្រឡា Cells ដែលបង្កើតជាទទឹង​ width ([code]board_size.x[/"
+"code]) និង កម្ពស់ height ​ ([code]board_size.y[/code]) នៃក្តារហ្គេម។"
 
 #. Reference: cell
 #: ./course/documentation.csv:14
@@ -92,41 +100,44 @@ msgid ""
 "The cell position of the robot on the board. [code]Vector2(0, 0)[/code] "
 "is the square cell in the top left of the board."
 msgstr ""
+"ទីតាំង ក្រឡា ( cell ) របស់ robot នៅលើក្តារ។ [code]Vector2(0, 0)[/code] គឺជាក្រឡាកា"
+"រ៉េ ដែលស្ថិតនៅជ្រុង ខាងលើបំផុត ផ្នែកខាងឆ្វេង នៃក្តារ។"
 
 #. Reference: range
 #: ./course/documentation.csv:15
 msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
-msgstr ""
+msgstr "បង្កើតបញ្ជី លេខពី [code]0[/code] ដល់ [code]length - 1[/code]។"
 
 #. Reference: play_animation
 #: ./course/documentation.csv:16
 msgid "Orders the robot to play an animation."
-msgstr ""
+msgstr "បញ្ជាឱ្យ robot បង្ហាញចលនា (animation)។"
 
 #. Reference: select_units
 #: ./course/documentation.csv:17
 msgid "Selects units in the cell coordinates passed as the function's argument."
 msgstr ""
+"ជ្រើសរើស units នៅក្នុង កូអរដោនេក្រឡា ដែលបានបញ្ជូនជា argument របស់អនុគមន៍។"
 
 #. Reference: robot.move_to
 #: ./course/documentation.csv:18
 msgid "Queues a move animation towards the target cell."
-msgstr ""
+msgstr "ដាក់បញ្ចូលក្នុងជួរ (queue) នូវចលនារំកិល ទៅរក ក្រឡាគោលដៅ។"
 
 #. Reference: array.append
 #: ./course/documentation.csv:19
 msgid "Adds the value passed as an argument at the back of the array."
-msgstr ""
+msgstr "បន្ថែមតម្លៃ ដែលបានបញ្ជូនជា argument ទៅផ្នែក ខាងក្រោយនៃ array។"
 
 #. Reference: array.pop_front
 #: ./course/documentation.csv:20
 msgid "Removes the first value from the array and returns it."
-msgstr ""
+msgstr "លុបតម្លៃដំបូង ចេញពី array ហើយ return តម្លៃនោះមកវិញ។"
 
 #. Reference: array.pop_back
 #: ./course/documentation.csv:21
 msgid "Removes the last value from the array and returns it."
-msgstr ""
+msgstr "លុបតម្លៃចុងក្រោយ ចេញពី array ហើយ return តម្លៃនោះមកវិញ។"
 
 #. Reference: str
 #: ./course/documentation.csv:22
@@ -134,6 +145,8 @@ msgid ""
 "Returns the argument converted into a [code]String[/code]. Works with the"
 " majority of value types."
 msgstr ""
+"ត្រឡប់ argument ដែលបានបម្លែងទៅជា [code]String[/code]។ អាចប្រើបានជាមួយប្រភេទតម្លៃភាគច្"
+"រើន។"
 
 #. Reference: int
 #: ./course/documentation.csv:23
@@ -142,6 +155,9 @@ msgid ""
 "[i]if possible[/i]. Supports converting decimal numbers, strings, and "
 "booleans. Useful to convert player text input into numbers."
 msgstr ""
+"ត្រឡប់ អាគុយម៉ង់ ( argument ) ដែលបានបម្លែងទៅជា [code]int[/code] (ចំនួនគត់) [i]ប្រសិនបើអា"
+"ចធ្វើបាន[/i]។ នោះវាដំណើរគ្រប់ ការបម្លែងចំនួន float, string, និង boolean។ មានប្រយោជន៍សម្"
+"រាប់បម្លែង ការវាយបញ្ចូលអត្ថបទ របស់អ្នកលេងទៅជាចំនួន។"
 
 #. Reference: place_unit
 #: ./course/documentation.csv:24
@@ -149,16 +165,18 @@ msgid ""
 "Creates a new unit matching the type parameter and places it at the "
 "desired cell position on the game grid."
 msgstr ""
+"បង្កើត unit ថ្មីដែល ត្រូវនឹង parameter (ប៉ារ៉ាម៉ែត្រ) type ហើយដាក់វានៅទីតាំង cell ដែលចង់បាន"
+"នៅលើ grid ល្បែង។"
 
 #. Reference: display_item
 #: ./course/documentation.csv:25
 msgid "Creates a new item and displays it in the inventory."
-msgstr ""
+msgstr "បង្កើត item ថ្មី និងបង្ហាញវានៅក្នុងបញ្ជីសម្ភារៈ (inventory)។"
 
 #. Reference: add_item
 #: ./course/documentation.csv:26
 msgid "Increases the item count by amount."
-msgstr ""
+msgstr "បង្កើនចំនួន item តាមចំនួន (amount) ដែលបានកំណត់។"
 
 #. Reference: align
 #: ./course/documentation.csv:27
@@ -166,3 +184,5 @@ msgid ""
 "Realigns the train track with the path. Select a train track in the "
 "tracks array by index to pass it as an argument."
 msgstr ""
+"តម្រឹម ផ្លូវរថភ្លើង (train track) ឡើងវិញឱ្យត្រូវ នឹងផ្លូវ (path)។ ជ្រើសរើសផ្លូវ រថភ្លើងក្នុងអា"
+"រេ (tracks array) តាមលេខរៀង (index) ដើម្បីបញ្ជូនវាជា argument ។"
