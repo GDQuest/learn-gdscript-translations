@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-10 04:10+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-19-creating-arrays/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-19-creating-arrays/lesson.tres:13
@@ -25,6 +27,8 @@ msgid ""
 " list of numbers. For example, calling [code]range(3)[/code] produces the"
 " list of numbers [code][0, 1, 2][/code]."
 msgstr ""
+"function [code]range()[/code] ដែលយើងបានឃើញក្នុងមេរៀនមុន បង្កើតនូវ បញ្ជីនៃលេខ។ ឧទាហរ"
+"ណ៍ ការហៅ [code]range(3)[/code] នឹងបង្កើតបញ្ជីលេខ [code][0, 1, 2][/code]។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:33
 msgid ""
@@ -32,12 +36,18 @@ msgid ""
 "call it an [i]array[/i]. So we can say calling the [code]range()[/code] "
 "function produces an [i]array[/i] of numbers."
 msgstr ""
+"បញ្ជីនៃតម្លៃ មិនថាជាលេខ ឬអ្វីផ្សេងទៀតឡើយ គឺមានឈ្មោះច្បាស់លាស់នៅក្នុងកូដ៖ យើងហៅវាថា "
+"[i]array[/i]។ ដូច្នេះយើងអាចនិយាយបានថា ការហៅ function [code]range()[/code] នឹងបង្កើ"
+"ត [i]array[/i] នៃលេខ។"
 
 msgid ""
 "We could directly write and use that array inside our [code]for[/code] "
 "loop instead of the [code]range()[/code] function. You can run the next "
 "function step-by-step to see how it works."
 msgstr ""
+"យើងអាចសរសេរ និងប្រើប្រាស់ array នោះដោយផ្ទាល់នៅខាងក្នុង [code]for[/code] loop ជំនួសឱ្យការ"
+"ប្រើ function [code]range()[/code] ក៏បាន។ អ្នកអាចដំណើរការ function បន្ទាប់តាមជំហាននីមួ"
+"យៗ ដើម្បីមើលពីរបៀប ដែលវាដំណើរការ។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:55
 msgid ""
@@ -47,23 +57,29 @@ msgid ""
 "[code]number[/code] because the array we loop over contains three numbers"
 " (0, 1, and 2)."
 msgstr ""
+"ដូចដែលអ្នកបានឃើញ កូដនៅ តែដំណើរការដូចមុនដដែល។ សូមកត់សម្គាល់ថា នៅពេលយើងបង្កើត [code]for[/"
+"code] loop យើងក៏បង្កើត local variable មួយផងដែរ ដែល loop នឹងផ្តល់តម្លៃមួយឱ្យវាក្នុងរាល់ "
+"iteration នីមួយៗ។ ខាងលើ យើងបាន ដាក់ឈ្មោះវាថា [code]number[/code] ព្រោះ array ដែលយើ"
+"ងកំពុង loop លើនោះមានលេខបី (0, 1, និង 2)។"
 
 msgid "But we could name it anything we'd like!"
-msgstr ""
+msgstr "ប៉ុន្តែយើង អាចដាក់ឈ្មោះវាថាជាអ្វី ក៏បានតាមដែលយើងចង់បាន!"
 
 #: course/lesson-19-creating-arrays/lesson.tres:77
 msgid ""
 "If we \"unwrap\" the [code]for[/code] loop above, we'd get the following "
 "code with the exact same behaviour:"
 msgstr ""
+"ប្រសិនបើយើង \"ពន្លា (unwrap)\" [code]for[/code] loop ខាងលើចេញ យើងនឹងទទួលបានកូដដូចខាង"
+"ក្រោម ដែលមានដំណើរការដូចគ្នាទាំងស្រុង៖"
 
 #: course/lesson-19-creating-arrays/lesson.tres:95
 msgid "The syntax of arrays"
-msgstr ""
+msgstr "ទម្រង់ Syntax របស់ arrays"
 
 #: course/lesson-19-creating-arrays/lesson.tres:97
 msgid "We write arrays this way in GDScript."
-msgstr ""
+msgstr "យើងសរសេរ arrays តាមរបៀបនេះ នៅក្នុង GDScript។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:117
 msgid ""
@@ -71,11 +87,15 @@ msgid ""
 " values that compose the array. Finally, you need a closing square "
 "bracket to complete the array."
 msgstr ""
+"អ្នកចាប់ផ្តើម ដោយវង់ក្រចក ជ្រុងបើក។ បន្ទាប់មក អ្នកសរសេរតម្លៃ​នីមួយៗបំបែកដោយសញ្ញាក្បៀស ដែលបង្កើត"
+"ជា array។ ចុងក្រោយ អ្នកត្រូវ ប្រើវង់ក្រចក ជ្រុងបិទដើម្បីបញ្ចប់ array។"
 
 msgid ""
 "Here are a couple of valid arrays. Notice how you can mix values, and how"
 " they don't need to follow one another."
 msgstr ""
+"នេះគឺជាឧទាហរណ៍មួយចំនួននៃ arrays ដែលនិយម។ សូមកត់សម្គាល់ពី របៀបដែលអ្នកអាច លាយតម្លៃបញ្ចូលគ្នា និង"
+"របៀបដែលពួកវាមិនចាំបាច់តម្រៀបបន្តគ្នា។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:139
 msgid ""
@@ -83,31 +103,36 @@ msgid ""
 "[code]Vector2[/code], we can assign arrays to variables to reaccess them "
 "later."
 msgstr ""
+"ដោយសារ array ខ្លួនឯងក៏ ជាប្រភេទតម្លៃមួយដែរ ដូចជាលេខ ឬ [code]Vector2[/code] អញ្ចឹង យើង"
+"អាចផ្តល់ array ទៅឱ្យ variables ដើម្បីចូលប្រើ ពួកវាម្តងទៀតនៅពេលក្រោយ។"
 
 msgid ""
 "That'll come in handy in the next lesson, where we'll use those variables"
 " in loops."
 msgstr ""
+"វានឹងមាន ប្រយោជន៍នៅក្នុង មេរៀនបន្ទាប់ ដែលយើងនឹងប្រើ variables ទាំងនោះនៅក្នុង loops។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:161
 msgid "But first, let's see [i]when[/i] you'd use an array."
-msgstr ""
+msgstr "ប៉ុន្តែដំបូង តោះមក មើលថា [i]នៅពេលណា[/i] ដែលអ្នកគួរប្រើ array។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:169
 msgid "When you use arrays"
-msgstr ""
+msgstr "នៅពេលណា ដែលត្រូវប្រើ arrays"
 
 #: course/lesson-19-creating-arrays/lesson.tres:171
 msgid "In computer programming, we use arrays [i]all the time[/i]."
 msgstr ""
+"ក្នុងការសរសេរកម្មវិធីកុំព្យូទ័រ Programming យើងប្រើ arrays [i]ស្ទើរតែគ្រប់ពេល[/i]។"
 
 msgid ""
 "Precisely, you'll use them whenever you need to store a [i]list of "
 "things[/i]."
 msgstr ""
+"ឱ្យច្បាស់ជាង នេះទៅទៀត អ្នកនឹងប្រើ ពួកវារាល់ពេលដែល អ្នកត្រូវការរក្សាទុក [i]បញ្ជីនៃអ្វីៗ[/i]។"
 
 msgid "You always need lists of things in games:"
-msgstr ""
+msgstr "អ្នកតែងតែ ត្រូវការបញ្ជីនៃអ្វីៗ នៅក្នុងហ្គេម៖"
 
 msgid ""
 "- The player's party in an RPG.\n"
@@ -115,94 +140,118 @@ msgid ""
 "- The high scores in an arcade game.\n"
 "- The objects in the game world."
 msgstr ""
+"- បែងចែក ក្រុមរបស់អ្នកលេង នៅក្នុងហ្គេម RPG។\n"
+"- វត្ថុនៅក្នុង កាតាប (inventory) របស់ Player\n"
+"- ពិន្ទុខ្ពស់ៗ នៅក្នុងហ្គេម arcade។\n"
+"- វត្ថុផ្សេងៗ នៅក្នុងពិភពហ្គេម។"
 
 msgid "All of those and many more rely on arrays."
-msgstr ""
+msgstr "អ្វីៗ ទាំងអស់នេះ និងអ្វី ជាច្រើនទៀត សុទ្ធតែពឹងផ្អែកលើ arrays។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:190
 msgid "Using arrays to follow a path"
-msgstr ""
+msgstr "ការប្រើ arrays ដើម្បីដើរតាមផ្លូវ"
 
 #: course/lesson-19-creating-arrays/lesson.tres:192
 msgid ""
 "Let's look at a widespread use of arrays in games: finding and following "
 "a path."
 msgstr ""
+"តោះមកមើល ការប្រើប្រាស់ arrays ដ៏ពេញនិយម នៅក្នុងហ្គេម៖ គឺការស្វែងរក និងដើរតាមផ្លូវ។"
 
 msgid ""
 "In games, you need allies or monsters to find their way to their target, "
 "whether it's the player or some point of interest."
 msgstr ""
+"នៅក្នុងហ្គេម អ្នកត្រូវការ ឱ្យមិត្តរួមក្រុម ឬបិសាច ស្វែងរកផ្លូវទៅកាន់គោលដៅ របស់ពួកគេ មិនថាជាអ្នកលេ"
+"ង ឬចំណុចដែលគួរឱ្យចាប់អារម្មណ៍ណាមួយឡើយ។"
 
 msgid ""
 "To achieve that, we use [i]pathfinding algorithms[/i]. As the name "
 "suggests, those algorithms find the path between two points and allow AIs"
 " to traverse the game."
 msgstr ""
+"ដើម្បីធ្វើកិច្ចការនេះ យើងប្រើ [i]pathfinding algorithms[/i]។ ដូចដែល ឈ្មោះបានប្រាប់អញ្ចឹង "
+"algorithms ទាំងនោះស្វែងរកផ្លូវ រវាងចំណុចពីរ និងអនុញ្ញាតឱ្យ AI ធ្វើដំណើរឆ្លងកាត់ហ្គេម។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:216
 msgid ""
 "Many of those algorithms use arrays of [code]Vector2[/code] coordinates "
 "to represent the path."
 msgstr ""
+"Algorithms ទាំងនោះ ភាគច្រើនប្រើ arrays នៃកូអរដោនេ [code]Vector2[/code] ដើម្បីតំណាងឱ្យ"
+"ផ្លូវ។"
 
 msgid ""
 "Take this turtle pet. It wants to follow the robot, but there are rocks "
 "in the way."
 msgstr ""
+"តោះមកមើលសត្វចិញ្ចឹម turtle នេះ។ វាចង់ដើរតាម robot ប៉ុន្តែមានថ្ម រាំងផ្លូវ។"
 
 msgid "How can we tell it where to walk to reach the robot? With an array!"
-msgstr ""
+msgstr "តើយើងអាច ប្រាប់វាឱ្យដើរតាមណា ដើម្បីទៅដល់ robot? គឺតាមរយៈ array!"
 
 #: course/lesson-19-creating-arrays/lesson.tres:250
 msgid ""
 "Every value in the array is a [code]Vector2[/code] and represents a cell "
 "the turtle needs to walk through."
 msgstr ""
+"រាល់តម្លៃនីមួយៗ នៅក្នុង array គឺជា [code]Vector2[/code] ហើយតំណាង ឱ្យក្រឡាដែល turtle ត្រូវ"
+"ដើរកាត់។"
 
 msgid "Together, all the values in the array represent a path we can draw."
 msgstr ""
+"រួមបញ្ចូលគ្នា រាល់តម្លៃ ទាំងអស់នៅក្នុង array តំណាងឱ្យផ្លូវដែលយើងអាចគូរបាន។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:272
 msgid ""
 "In upcoming lessons, you will see how we can use arrays to store player "
 "inventories or design attack combos."
 msgstr ""
+"នៅក្នុងមេរៀនបន្តបន្ទាប់ អ្នកនឹងឃើញ ពីរបៀបដែលយើងអាចប្រើ arrays ដើម្បីរក្សាទុក កាតាបរបស់អ្នកលេ"
+"ង ឬ បង្កើតការវាយប្រហារបែប combos។"
 
 msgid "For now, let's practice creating arrays."
-msgstr ""
+msgstr "សម្រាប់ពេលនេះ តោះមក អនុវត្តការបង្កើត arrays ទាំងអស់គ្នា។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:282
 msgid "Walking to the robot"
-msgstr ""
+msgstr "ការដើរទៅរក robot"
 
 #: course/lesson-19-creating-arrays/lesson.tres:283
 msgid "The turtle wants to meet the robot! But it cannot find it on its own."
 msgstr ""
+"Turtle ចង់ជួបជាមួយ robot! ប៉ុន្តែ វាមិនអាចស្វែងរកផ្លូវ ដោយខ្លួនឯងបានឡើយ។"
 
 msgid ""
 "Fill the [code]turtle_path[/code] array with [code]Vector2[/code] "
 "coordinates indicating where the turtle should move to avoid the "
 "obstacles and arrive safely to the robot."
 msgstr ""
+"បំពេញ [code]turtle_path[/code] array ជាមួយនឹងកូអរដោនេ [code]Vector2[/code] ដែលបង្"
+"ហាញពី កន្លែងដែល turtle គួររំកិលទៅ ដើម្បីចៀសវាង ឧបសគ្គ និងទៅដល់ robot ដោយសុវត្ថិភាព។"
 
 msgid "The turtle can move up, down, left, or right. It cannot move diagonally."
 msgstr ""
+"Turtle អាចរំកិលទៅលើ, ចុះក្រោម, ឆ្វេង, ឬស្តាំ។ វាមិនអាចរំកិលតាមអង្កត់ទ្រូងបានទេ។"
 
 msgid ""
 "We recommend copying and pasting to fill the array with comma-separated "
 "[code]Vector2[/code] values quickly."
 msgstr ""
+"យើងណែនាំឱ្យចម្លង និងបិទភ្ជាប់ (copy and paste) ដើម្បីបំពេញ array ជាមួយនឹងតម្លៃ "
+"[code]Vector2[/code] ដែលបំបែក ដោយសញ្ញាក្បៀសឱ្យបានឆាប់រហ័ស។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:299
 msgid ""
 "Help the turtle find its way to the robot! Give it a path to follow to "
 "reach the robot."
 msgstr ""
+"ជួយ turtle ឱ្យស្វែងរកផ្លូវទៅកាន់ robot! ផ្តល់ផ្លូវ ឱ្យវាដើរតាមដើម្បីទៅដល់ robot។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:304
 msgid "Selecting units"
-msgstr ""
+msgstr "ការជ្រើសរើស units"
 
 #: course/lesson-19-creating-arrays/lesson.tres:305
 msgid ""
@@ -211,25 +260,33 @@ msgid ""
 "pass it an array of [code]Vector2[/code] coordinates to know which units "
 "to select."
 msgstr ""
+"នៅក្នុងហ្គេម យុទ្ធសាស្ត្រ( tactical ) នេះ អ្នកលេង និងកុំព្យូទ័រអាចជ្រើសរើស units ច្រើនក្នុងពេល"
+"តែមួយ។ អ្នកត្រូវហៅ function [code]select_units()[/code] ហើយបញ្ជូន array នៃកូអរដោនេ "
+"[code]Vector2[/code] ឱ្យវា ដើម្បីដឹងថា unit ណាដែលត្រូវជ្រើសរើស។"
 
 msgid "Each [code]Vector2[/code] in the array represents a cell with a unit."
-msgstr ""
+msgstr "[code]Vector2[/code] នីមួយៗនៅក្នុង array តំណាងឱ្យ ក្រឡា ដែលមាន unit។"
 
 msgid ""
 "You can pass arrays in function calls as arguments. As an array is a "
 "value type the computer recognizes, you can pass the whole array as a "
 "single function argument."
 msgstr ""
+"អ្នកអាចបញ្ជូន arrays ទៅក្នុងការហៅ function ជា argument បាន។ ដោយសារ array គឺជាប្រភេទត"
+"ម្លៃដែល កុំព្យូទ័រ​ស្គាល់ អ្នកអាចបញ្ជូន array ទាំងមូលជា argument តែមួយរបស់​ function។"
 
 msgid ""
 "Select all units on the board by passing the correct array to the "
 "[code]select_units()[/code] function."
 msgstr ""
+"ជ្រើសរើស units ទាំងអស់នៅ លើក្តារ ដោយបញ្ជូន array ដែលត្រឹមត្រូវទៅឱ្យ function "
+"[code]select_units()[/code]។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:322
 msgid "Write an array to select all units on the board in this strategy game."
 msgstr ""
+"សរសេរ array មួយដើម្បីជ្រើសរើស units ទាំងអស់នៅលើក្តារនៅក្នុង ហ្គេមយុទ្ធសាស្ត្រនេះ។"
 
 #: course/lesson-19-creating-arrays/lesson.tres:326
 msgid "Creating arrays"
-msgstr ""
+msgstr "ការបង្កើត arrays"
