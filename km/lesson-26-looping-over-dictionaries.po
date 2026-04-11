@@ -1,0 +1,213 @@
+# Translations template for Learn GDScript From Zero.
+# Copyright (C) 2026 GDQuest
+# This file is distributed under the same license as the Learn GDScript From
+# Zero project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Learn GDScript From Zero\n"
+"Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
+"PO-Revision-Date: 2026-04-10 04:09+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-26-looping-over-dictionaries/km/>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:13
+msgid ""
+"You can loop over dictionaries, just like you learned to loop over "
+"arrays. When you loop over a dictionary, you get its keys one by one. You"
+" can then use each key to get its value."
+msgstr ""
+"អ្នកអាច loop លើ dictionaries បាន ដូចគ្នានឹងការដែលអ្នកបានរៀន loop លើ arrays។ នៅពេលអ្"
+"នក loop លើ dictionary អ្នកនឹងទទួលបាន keys របស់វាម្តងមួយៗ។ បន្ទាប់មក អ្នកអាចប្រើ key នីមួយ"
+"ៗដើម្បីយក value របស់វា។"
+
+msgid "Let's see how this works with two examples."
+msgstr "តោះមើលថាតើវាដំណើរការយ៉ាងដូចម្តេចជាមួយឧទាហរណ៍ពីរ។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:23
+msgid "Displaying an inventory's content"
+msgstr "ការបង្ហាញខ្លឹមសារនៃ inventory"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:25
+msgid ""
+"To display the player's inventory, you need to know what it contains: the"
+" name and amount of each item."
+msgstr ""
+"ដើម្បីបង្ហាញ inventory របស់អ្នកលេង អ្នកត្រូវដឹងថាវាមានអ្វីខ្លះ៖ ឈ្មោះ និងចំនួននៃ item នីមួយៗ។"
+
+msgid ""
+"To do this, you loop over the dictionary and process each key-value pair "
+"one at a time."
+msgstr ""
+"ដើម្បីធ្វើបែបនេះ អ្នក loop លើ dictionary ហើយដំណើរការ key-value pair នីមួយៗម្តងមួយៗ។"
+
+msgid ""
+"You can get the list of all the keys in a dictionary by calling its "
+"[code]keys()[/code] function."
+msgstr ""
+"អ្នកអាចទទួលបានបញ្ជីនៃ keys ទាំងអស់ក្នុង dictionary ដោយហៅ [code]keys()[/code] "
+"function របស់វា។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:49
+msgid ""
+"Looping over dictionary keys is so common that GDScript gives you a "
+"shortcut."
+msgstr ""
+"ការ loop លើ dictionary keys គឺជារឿងធម្មតាណាស់ដែល GDScript ផ្តល់ឱ្យអ្នកនូវផ្លូវកាត់មួយ។"
+
+msgid ""
+"You can write the dictionary variable name directly after the "
+"[code]in[/code] keyword in a [code]for[/code] loop. GDScript "
+"automatically loops over the dictionary's keys."
+msgstr ""
+"អ្នកអាចសរសេរឈ្មោះ dictionary variable ដោយផ្ទាល់បន្ទាប់ពី [code]in[/code] keyword ក្នុ"
+"ង [code]for[/code] loop។ GDScript នឹង loop លើ dictionary's keys ដោយស្វ័យប្រវត្តិ។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:71
+msgid ""
+"Remember: the name after the [code]for[/code] keyword is a variable name "
+"you choose yourself. You could call it [code]item_name[/code], "
+"[code]item[/code], [code]key[/code], or anything else. This variable "
+"holds one key at a time as the loop runs."
+msgstr ""
+"ចាំថា៖ ឈ្មោះបន្ទាប់ពី [code]for[/code] keyword គឺជា variable name ដែលអ្នកជ្រើសរើសដោយខ្"
+"លួនឯង។ អ្នកអាចហៅវាថា [code]item_name[/code], [code]item[/code], [code]key[/"
+"code] ឬអ្វីក៏បាន។ Variable នេះផ្ទុក key មួយក្នុងពេលតែមួយនៅពេល loop ដំណើរការ។"
+
+msgid ""
+"You can get each value with the syntax [code]dictionary[key][/code], as "
+"you learned in the previous lesson."
+msgstr ""
+"អ្នកអាចយក value នីមួយៗដោយប្រើ syntax [code]dictionary[key][/code] ដូចដែលអ្នកបានរៀន"
+"នៅមេរៀនមុន។"
+
+msgid ""
+"So we can loop over the inventory keys, get their values, and display "
+"that information on screen."
+msgstr ""
+"ដូច្នេះយើងអាច loop លើ inventory keys, យក values របស់ពួកវា, ហើយបង្ហាញព័ត៌មាននោះនៅ លើ"
+"អេក្រង់។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:105
+msgid ""
+"Instead of printing the key-value pairs to the output console, we can "
+"write and call a function that displays items on the screen."
+msgstr ""
+"ជំនួសឱ្យការ print key-value pairs ទៅកាន់ output console យើងអាចសរសេរ និងហៅ "
+"function មួយដែលបង្ហាញ items នៅលើអេក្រង់។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:133
+msgid "Mapping grid cells to units"
+msgstr "ការភ្ជាប់ grid cells ទៅនឹង units"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:135
+msgid ""
+"You can also use a dictionary to store which units are at which positions"
+" on a game board."
+msgstr ""
+"អ្នកក៏អាចប្រើ dictionary ដើម្បីផ្ទុកថា units ណាខ្លះស្ថិតនៅទីតាំងណាខ្លះនៅលើ game board។"
+
+msgid ""
+"This is how you'd typically code a board game, a grid-based RPG, or a "
+"tactical RPG."
+msgstr ""
+"នេះគឺជាវិធីដែលអ្នកនឹងសរសេរកូដ board game, grid-based RPG, ឬ tactical RPG ជាទូទៅ។"
+
+msgid ""
+"So far, we used [code]String[/code] keys. But GDScript dictionaries can "
+"use any type as a key. In this example, we use [code]Vector2[/code] "
+"values as keys to represent grid positions."
+msgstr ""
+"រហូតមកដល់ពេលនេះ យើងបានប្រើ [code]String[/code] keys។ ប៉ុន្តែ GDScript dictionaries "
+"អាចប្រើប្រភេទណាក៏បានជា key។ នៅក្នុងឧទាហរណ៍នេះ យើងប្រើ [code]Vector2[/code] values "
+"ជា keys ដើម្បីតំណាងឱ្យ grid positions។"
+
+msgid "The only rule is that every key in a dictionary must be unique."
+msgstr "ច្បាប់តែមួយគត់គឺ key នីមួយៗក្នុង dictionary ត្រូវតែមានភាពប្លែកពីគ្នា។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:161
+msgid ""
+"With a [code]for[/code] loop, you can place all the units on the board "
+"when a game starts."
+msgstr ""
+"ដោយប្រើ [code]for[/code] loop អ្នកអាចដាក់ units ទាំងអស់នៅលើ board នៅពេលដែលហ្គេមចាប់ផ្"
+"តើម។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:191
+msgid ""
+"In the following practices, you will loop over dictionaries and process "
+"their content."
+msgstr ""
+"នៅក្នុងការអនុវត្តខាងក្រោម អ្នកនឹង loop លើ dictionaries ហើយដំណើរការខ្លឹមសាររបស់ពួកវា។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:199
+msgid "Displaying the inventory"
+msgstr "ការបង្ហាញ inventory"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:200
+msgid ""
+"We use a dictionary to store the player's inventory. The keys are item "
+"names, and the values are how many of each item the player has."
+msgstr ""
+"យើងប្រើ dictionary ដើម្បីផ្ទុក inventory របស់អ្នកលេង។ Keys គឺជា item names ហើយ "
+"values គឺជាចំនួននៃ item នីមួយៗដែលអ្នកលេងមាន។"
+
+msgid "Loop over the dictionary and display every item in the inventory."
+msgstr "Loop លើ dictionary ហើយបង្ហាញ item នីមួយៗនៅក្នុង inventory។"
+
+msgid ""
+"Call the [code]display_item()[/code] function for each item. It takes two"
+" arguments: the item name and the amount."
+msgstr ""
+"ហៅ [code]display_item()[/code] function សម្រាប់ item នីមួយៗ។ វាទទួលយក arguments ពីរ"
+"៖ ឈ្មោះ item និងចំនួន។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:221
+msgid ""
+"The player's inventory needs to appear on screen. Use a loop to display "
+"every item."
+msgstr ""
+"inventory របស់អ្នកលេងត្រូវតែបង្ហាញនៅលើអេក្រង់។ ប្រើ loop ដើម្បីបង្ហាញ item នីមួយៗ។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:226
+msgid "Placing units on the board"
+msgstr "ការដាក់ units នៅលើ board"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:227
+msgid ""
+"We have a dictionary named [code]units[/code]. It maps cell positions on "
+"the grid to the type of unit at that position."
+msgstr ""
+"យើងមាន dictionary មួយឈ្មោះថា [code]units[/code]។ វាភ្ជាប់ cell positions នៅលើ "
+"grid ទៅនឹងប្រភេទនៃ unit នៅទីតាំងនោះ។"
+
+msgid ""
+"Use a for loop to place every unit on the game board. Call the "
+"[code]place_unit()[/code] function for each unit. It takes two arguments:"
+" first the cell position, then the unit type."
+msgstr ""
+"ប្រើ for loop ដើម្បីដាក់ unit នីមួយៗនៅលើ game board។ ហៅ [code]place_unit()[/code] "
+"function សម្រាប់ unit នីមួយៗ។ វាទទួលយក arguments ពីរ៖ ដំបូង cell position បន្ទាប់មក "
+"unit type។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:246
+msgid ""
+"At the start of each battle, units need to appear on the game board. Loop"
+" over the dictionary to place them."
+msgstr ""
+"នៅដើមនៃការប្រយុទ្ធនីមួយៗ units ត្រូវតែបង្ហាញនៅលើ game board។ Loop លើ dictionary ដើម្បី"
+"ដាក់ពួកវា។"
+
+#: course/lesson-26-looping-over-dictionaries/lesson.tres:250
+msgid "Looping over dictionaries"
+msgstr "ការ loop លើ dictionaries"

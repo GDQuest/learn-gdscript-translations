@@ -1,0 +1,825 @@
+# Translations template for Learn GDScript From Zero.
+# Copyright (C) 2026 GDQuest
+# This file is distributed under the same license as the Learn GDScript From
+# Zero project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Learn GDScript From Zero\n"
+"Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
+"PO-Revision-Date: 2026-04-08 16:36+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/application/km/>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: resources/QuizInputField.gd:17
+msgid "You need to type a whole number for this answer. Example: 42"
+msgstr "វាយបញ្ចូល ចំនួនគត់ សម្រាប់ចម្លើយនេះ។ ឧទាហរណ៍៖ 42"
+
+#: resources/QuizInputField.gd:22
+msgid ""
+"You need to type a decimal for this answer. Use a \".\" to separate the "
+"decimal part. Example: 3.14"
+msgstr ""
+"សូមបញ្ចូល លេខទសភាគ សម្រាប់ចម្លើយនេះ។ ប្រើ \" . \" ដើម្បីបំបែកផ្នែក ទសភាគ។ ឧទាហរណ៍៖ 3.14"
+
+#: ui/UILesson.tscn:90
+msgid "Title"
+msgstr "ចំណងជើង"
+
+#: ui/UILesson.tscn:125
+msgid "Practices"
+msgstr "ការអនុវត្ត"
+
+#: ui/UINavigator.gd:365
+msgid "Go back in your navigation history"
+msgstr "ត្រឡប់ក្រោយចូល ក្នុងប្រវត្តិនៃការរុករក"
+
+#: ui/UINavigator.gd:368
+msgid "(no previous history)"
+msgstr "(គ្មានប្រវត្តិចូលរួម)"
+
+#: ui/UINavigator.tscn:104
+msgid "CHRISTMAS SALE - 50% OFF"
+msgstr "ការបញ្ចុះតម្លៃបុណ្យណូអែល - បញ្ចុះតម្លៃ 50%"
+
+#: ui/UINavigator.tscn:164
+msgid "CHRISTMAS SALE"
+msgstr "ការបញ្ចុះតម្លៃបុណ្យណូអែល"
+
+#: ui/UIPractice.gd:153
+#, python-format
+msgid "Hint %s"
+msgstr "គន្លឺះ %s"
+
+#: ui/UIPractice.gd:257
+msgid "Validating Your Code..."
+msgstr "កំពុងផ្ទៀងផ្ទាត់ Code របស់អ្នក..."
+
+#: ui/UIPractice.gd:294
+#, python-format
+msgid "The function `%s` calls itself, this creates an infinite loop"
+msgstr "function `%s` ហៅខ្លួន វាផ្ទាល់ នេះបង្កើតឱ្យមាន loop មិនចេះចប់"
+
+#: ui/UIPractice.gd:306
+msgid ""
+"You have a while loop that runs forever (while true) without a break "
+"statement. This will freeze the app."
+msgstr ""
+"អ្នកមាន while loop ដែលដំណើរការរហូត (while true) ដោយគ្មាន break statement។ វានឹងធ្វើ"
+"ឱ្យ app គាំង។"
+
+#: ui/UIPractice.gd:337
+msgid "Running Your Code..."
+msgstr "កំពុងដំណើរការ Code របស់អ្នក..."
+
+#: ui/UIPractice.gd:368
+msgid ""
+"There is a division by zero in your code. You cannot divide by zero in "
+"code. Please ensure you have no \"/ 0\" or \"% 0\" in your code."
+msgstr ""
+"កូដរបស់អ្នកមាន កន្លែង ចែកនឹងសូន្យ។ ការចែក ចំនួនណាមួយ នឹងសូន្យ គឺមិនអាចធ្វើទៅបានទេ ក្នុងការសរសេរ"
+"កូដ។ សូមពិនិត្យមើលសញ្ញា​ និង \"/ 0\" ឬ \"% 0\" ចេញពីកូដរបស់អ្នក។"
+
+#: ui/UIPractice.gd:383
+msgid "Oh no! The script has an error, but the Script Verifier did not catch it"
+msgstr ""
+"អូ! មានកំហុសក្នុងស្គ្រីប ទោះជាយ៉ាងណាក៏ដោយ Script Verifier មិនបានរកឃើញកំហុសនេះទេ"
+
+#: ui/UIPractice.gd:412
+msgid "Running Tests..."
+msgstr "កំពុងដំណើរការតេស្ត..."
+
+#: ui/UIPractice.tscn:144
+msgid "Suggested Solution"
+msgstr "ដំណោះស្រាយដែលបានណែនាំ"
+
+#: ui/UIPractice.tscn:195
+msgid "Use Solution"
+msgstr "ប្រើដំណោះស្រាយ"
+
+#: ui/UIPractice.tscn:213
+msgid "Leave unfinished practice?"
+msgstr "ចាកចេញ ពីការអនុវត្ត មិនទាន់ចប់?"
+
+#: ui/components/BigGreenButton.tscn:24
+msgid "Button"
+msgstr "ប៊ូតុង"
+
+#: ui/components/CodeEditor.tscn:143
+msgid "Run"
+msgstr "ដំណើរការ"
+
+#: ui/components/CodeEditor.tscn:157
+msgid "Pause"
+msgstr "ផ្អាក"
+
+#: ui/components/CodeEditor.tscn:172
+msgid "Reset"
+msgstr "កំណត់ឡើងវិញ"
+
+#: ui/components/CodeEditor.tscn:194
+msgid "Solution"
+msgstr "ដំណោះស្រាយ"
+
+#: ui/components/CodeEditor.tscn:208
+msgid "Output"
+msgstr "លទ្ធផល"
+
+#: ui/components/CodeEditor.tscn:223
+msgid "Continue"
+msgstr "បន្ត"
+
+#: ui/components/DebuggerConsoleMonitoredVariable.tscn:20
+msgid "Value"
+msgstr "តម្លៃ"
+
+#: ui/components/GDQuestCreditsLabel.tscn:36
+msgid ""
+"Learn GDScript From Zero is an open source project by "
+"[color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
+msgstr ""
+"Learn GDScript From Zero គឺជាគម្រោង open source ដោយ "
+"[color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
+
+#: ui/components/GameView.tscn:72
+msgid "Paused"
+msgstr "បានផ្អាក"
+
+#: ui/components/GlossaryPopup.tscn:37
+msgid "Term"
+msgstr "ពាក្យគន្លឹះ"
+
+#: ui/components/GlossaryPopup.tscn:53
+msgid "Our error explanation."
+msgstr "ការពន្យល់អំពីកំហុស Error របស់យើង។"
+
+#: ui/components/OutputConsoleErrorMessage.tscn:39
+msgid "ERROR:"
+msgstr "កំហុស Error ៖"
+
+#: ui/components/OutputConsoleErrorMessage.tscn:47
+msgid "Placeholder text"
+msgstr "អត្ថបទបង្ហាញ"
+
+#: ui/components/OutputConsoleErrorMessage.tscn:62
+msgid "in"
+msgstr "ក្នុង"
+
+#: ui/components/OutputConsoleErrorMessage.tscn:68
+msgid "FileName"
+msgstr "ឈ្មោះឯកសារ"
+
+#: ui/components/OutputConsoleErrorMessage.tscn:75
+msgid "at"
+msgstr "នៅ"
+
+#: ui/components/OutputConsoleErrorMessage.tscn:82
+msgid "0:0"
+msgstr "0:0"
+
+#: ui/components/OutputConsoleErrorMessage.tscn:92
+msgid "Sometimes errors are reported outside of your code. Why does that happen?"
+msgstr ""
+"ពេលខ្លះ កំហុសមិនមែនកើតឡើងពីកូដរបស់អ្នកផ្ទាល់ទេ។ ហេតុអ្វីបានជាមានរឿងបែបនេះ?"
+
+#: ui/components/OutputConsoleErrorMessage.tscn:101
+msgid "Explain"
+msgstr "ពន្យល់"
+
+#: ui/components/Revealer.tscn:74
+msgid "Expand"
+msgstr "ពង្រីក"
+
+#: ui/components/RunnableCodeExample.tscn:105
+msgid "run()"
+msgstr "ដំណើរការ()"
+
+#: ui/components/RunnableCodeExample.tscn:123
+msgid "step"
+msgstr "ជំហាន"
+
+#: ui/components/RunnableCodeExampleDebugger.tscn:44
+msgid "Debugger"
+msgstr "ឧបករណ៍ត្រួតពិនិត្យកំហុស"
+
+#: ui/components/SalePopup.tscn:121
+#, python-format
+msgid ""
+"[center]Get [b]50% off[/b] on all our Godot courses with the \n"
+"coupon code [b]DISCOUNT50[/b][/center]"
+msgstr ""
+"[center]ទទួលបានការ [b]បញ្ចុះតម្លៃ 50%[/b] លើគ្រប់វគ្គសិក្សា Godot របស់យើងទាំងអស់ជាមួយនឹង\n"
+"លេខកូដប័ណ្ណ [b]DISCOUNT50[/b][/center]"
+
+#: ui/components/SalePopup.tscn:132
+msgid "Only until"
+msgstr "រហូតដល់ត្រឹម"
+
+#: ui/components/SalePopup.tscn:155
+msgid "CHECK OUT OUR COURSES"
+msgstr "ពិនិត្យមើលវគ្គសិក្សារបស់យើង"
+
+#: ui/components/SalePopup.tscn:180
+msgid "X"
+msgstr "X"
+
+#: ui/components/popups/ConfirmPopup.tscn:115
+msgid "Confirm"
+msgstr "បញ្ជាក់"
+
+#: ui/components/popups/ConfirmPopup.tscn:127
+msgid "Cancel"
+msgstr "បោះបង់"
+
+#: ui/components/popups/ErrorOverlayPopup.tscn:46
+msgid "Original error message"
+msgstr "សារកំហុសពីប្រភពដើម"
+
+#: ui/components/popups/ErrorOverlayPopup.tscn:65
+msgid "Why this happens"
+msgstr "ហេតុអ្វីមានរឿងនេះកើតឡើង"
+
+#: ui/components/popups/ErrorOverlayPopup.tscn:82
+msgid "How to fix this"
+msgstr "របៀបដោះស្រាយវា"
+
+#: ui/components/popups/ErrorOverlayPopup.tscn:91
+msgid "Our suggestion on how to fix it."
+msgstr "ការណែនាំរបស់យើងអំពីរបៀបដោះស្រាយវា។"
+
+#: ui/components/popups/ErrorOverlayPopup.tscn:102
+msgid "Sorry, we don't have this particular error message covered yet!"
+msgstr "សូមទោស យើងមិនទាន់បាន រ៉ាប់រងសារកំហុស ជាក់លាក់នេះនៅឡើយទេ!"
+
+msgid ""
+"Please, use the [b]Report[/b] button in the top-right corner to tell us "
+"more about how you've got it, and we will try to improve our knowledge "
+"base for the next version of the application."
+msgstr ""
+"ជួយយើងផង! ចុច [b]Report[/b] នៅជ្រុងខាងលើ-ស្តាំ ដើម្បីប្រាប់ពីរបៀបដែលអ្នកជួបបញ្ហានេះ។ យើងនឹងយ"
+"កវាទៅកែលម្អក្នុងកំណែកម្មវិធីបន្ទាប់។"
+
+msgid "[center]Thank you![/center]"
+msgstr "[center]សូមអរគុណ![/center]"
+
+#: ui/components/popups/ErrorOverlayPopup.tscn:128
+msgid "Hide"
+msgstr "លាក់"
+
+#: ui/components/popups/ExternalErrorPopup.tscn:66
+msgid "Where do external errors come from?"
+msgstr "តើកំហុស ខាងក្រៅកើតចេញ ពីអ្វី?"
+
+#: ui/components/popups/ExternalErrorPopup.tscn:83
+msgid ""
+"Lessons in this course are designed so you only need to edit the "
+"[b]important bits[/b]. But there is much more code outside of what you "
+"see that makes the project run."
+msgstr ""
+"មេរៀននេះរៀបចំឡើង ដើម្បីឱ្យអ្នកគ្រាន់តែកែ [b]ផ្នែកសំខាន់ៗ[/b]។ ប៉ុន្តែនៅពីក្រោយ មានកូដជាច្រើនទៀ"
+"តដែលលាក់ទុក ហើយវាជាផ្នែកធ្វើឱ្យគម្រោងដំណើរការ។"
+
+msgid ""
+"This means that sometimes changes you make can affect code you have no "
+"control over. But don't worry, you can still fix all the issues yourself "
+"with the code you [b]can[/b] edit!"
+msgstr ""
+"នេះមានន័យថា ពេលខ្លះការផ្លាស់ប្តូរ ដែលអ្នកធ្វើអាចប៉ះពាល់ដល់ code ដែលអ្នកមិនមានការគ្រប់គ្រង។ ប៉ុន្"
+"តែកុំបារម្ភ អ្នកនៅតែអាចដោះស្រាយរាល់បញ្ហាដោយខ្លួនឯងបាន ជាមួយនឹង code ដែលអ្នក [b]អាច[/b] កែ"
+"សម្រួលបាន!"
+
+msgid ""
+"[i]This is like how game engines work too.[/i] There is a lot of hidden "
+"code that they execute to ensure your project runs smoothly. And yet, an "
+"error in your scripts can break them. We'll try to explain how to address"
+" each individual error that you face. Quick, click the [b]Explain[/b] "
+"button next to the error message!"
+msgstr ""
+"[i]នេះក៏ដូចជា វិធីដែល game engines ដំណើរការ ផងដែរ។[/i] មាន code លាក់ទុកជាច្រើន ដែលពួក"
+"វាដំណើរការ ដើម្បីធានា ថាគម្រោងរបស់អ្នក ដំណើរការយ៉ាងរលូន។ ទោះជាយ៉ាងណាក៏ដោយ កំហុសនៅក្នុង "
+"script របស់អ្នកអាច ធ្វើឱ្យពួកវាមានបញ្ហា។ យើងនឹងព្យាយាម ពន្យល់ពីរបៀបដោះស្រាយ កំហុសនីមួយៗដែលអ្នក"
+"ជួបប្រទះ។ លឿនឡើង ចុចប៊ូតុង [b]Explain[/b] នៅជាប់សារកំហុស!"
+
+#: ui/components/popups/ExternalErrorPopup.tscn:119
+msgid "Got it!"
+msgstr "យល់ហើយ!"
+
+#: ui/components/popups/LessonDonePopup.tscn:133
+msgid "Lesson complete!"
+msgstr "មេរៀន ត្រូវបានបញ្ចប់!"
+
+#: ui/components/popups/LessonDonePopup.tscn:142
+msgid ""
+"But there are still some practices\n"
+"that you've skipped."
+msgstr ""
+"ប៉ុន្តែនៅមានការអនុវត្តមួយចំនួន\n"
+"ដែលអ្នកបានរំលង។"
+
+#: ui/components/popups/LessonDonePopup.tscn:155
+msgid ""
+"[center][b]Stay[/b] and revisit the study material,\n"
+"or [b]continue[/b] the course.[/center]"
+msgstr ""
+"[center][b]នៅទីនេះ[/b] ដើម្បីអានមេរៀនវិញ,\n"
+"ឬ [b]បន្ត[/b]វគ្គសិក្សា[/center]"
+
+#: ui/components/popups/LessonDonePopup.tscn:183
+msgid "Stay"
+msgstr "នៅទីនេះ"
+
+#: ui/components/popups/PracticeDonePopup.tscn:89
+msgid "Well done!"
+msgstr "ធ្វើបានល្អណាស់!"
+
+#: ui/components/popups/PracticeDonePopup.tscn:98
+msgid "You completed the practice."
+msgstr "អ្នកបានបញ្ចប់ ការអនុវត្តជាក់ស្ដែង។"
+
+#: ui/components/popups/PracticeDonePopup.tscn:110
+msgid ""
+"[center][b]Stay[/b] and play around,\n"
+"or [b]continue[/b] the course.[/center]"
+msgstr ""
+"[center][b]នៅទីនេះ[/b] ហើយសាកល្បងបន្ថែម\n"
+"ឬ [b]បន្ត[/b] វគ្គសិក្សា។[/center]"
+
+#: ui/components/popups/PracticeListPopup.tscn:67
+msgid "Practice List"
+msgstr "បញ្ជី ការអនុវត្ត"
+
+#: ui/components/popups/PracticeListPopup.tscn:115
+msgid "Close"
+msgstr "បិទ"
+
+#: ui/components/popups/ReportFormPopup.tscn:66
+msgid "Report an issue"
+msgstr "រាយការណ៍ បញ្ហា"
+
+#: ui/components/popups/ReportFormPopup.tscn:83
+msgid ""
+"If you face an issue in the app, please click the link below to report it"
+" on GitHub:"
+msgstr ""
+"ប្រសិនបើអ្នកជួបបញ្ហានៅក្នុង app សូមចុចលើ link ខាងក្រោមដើម្បីរាយការណ៍វានៅលើ GitHub៖"
+
+msgid ""
+"[center][b][url=https://github.com/GDQuest/learn-"
+"gdscript/issues]GitHub.com > GDQuest > learn-gdscript > "
+"Issues[/url][/b][/center]"
+msgstr ""
+"[center][b][url=https://github.com/GDQuest/learn-gdscript/"
+"issues]GitHub.com > ទីតាំង GDQuest > ទីតាំង learn-gdscript > ទីតាំង Issues[/url][/"
+"b][/center]"
+
+msgid ""
+"On that page, you can report any issues, whether something's not working "
+"or there's an error in a lesson."
+msgstr ""
+"នៅលើទំព័រនោះ អ្នកអាចរាយការណ៍ពីបញ្ហាណាមួយ មិនថាមានអ្វីមួយមិនដំណើរការ ឬមានកំហុសក្នុងមេរៀនឡើយ។"
+
+msgid ""
+"You can generate a log to help us identify the problem. To do so, click "
+"here: [b][url=download]generate error log[/url][/b]."
+msgstr ""
+"អ្នកអាចបង្កើត log ដើម្បីជួយយើងកំណត់បញ្ហា។ ដើម្បីធ្វើដូច្នោះ សូមចុចត្រង់នេះ៖ [b][url=download]ប"
+"ង្កើត log កំហុស[/url][/b]។"
+
+msgid ""
+"Please drag and drop the generated file onto your issue on GitHub to "
+"attach it."
+msgstr ""
+"សូមអូស និងទម្លាក់ឯកសារដែលបានបង្កើត ទៅលើបញ្ហារបស់អ្នក​ ចូលក្នុង GitHub ដើម្បីភ្ជាប់វា។"
+
+msgid "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]"
+msgstr "[font=res://ui/theme/fonts/font_title.tres]តើអ្វីទៅជា GitHub[/font]"
+
+msgid ""
+"GitHub is an online platform to host and manage open-source projects like"
+" the GDScript Learn app. It helps developers organize their work and "
+"collaborate online."
+msgstr ""
+"GitHub គឺជា platform អនឡាញសម្រាប់ផ្ទុក និងគ្រប់គ្រងគម្រោង open-source ដូចជា GDScript "
+"Learn app ជាដើម។ វាជួយឱ្យអ្នកអភិវឌ្ឍន៍រៀបចំការងាររបស់ពួកគេ និងសហការគ្នាលើអ៊ីនធឺណិត។"
+
+msgid ""
+"You can use GitHub to study the source code of many open projects, report"
+" issues, or even contribute code yourself."
+msgstr ""
+"អ្នកអាចប្រើ GitHub ដើម្បីសិក្សា source code នៃគម្រោងចំហជាច្រើន រាយការណ៍បញ្ហា ឬថែមទាំងរួមចំ"
+"ណែក code ដោយខ្លួនអ្នកផ្ទាល់ផងដែរ។"
+
+msgid "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]"
+msgstr "[font=res://ui/theme/fonts/font_title.tres]របៀបរាយការណ៍បញ្ហា[/font]"
+
+msgid ""
+"1. Click the link above to get to the [i]GitHub Issues[/i] page.\n"
+"2. Click on the [i]New Issue[/i] button.\n"
+"3. Fill out the form to tell us more about your problem."
+msgstr ""
+"1. ចុច link ខាងលើដើម្បីទៅកាន់ទំព័រ [i]GitHub Issues[/i]។\n"
+"2. ចុចលើប៊ូតុង [i]New Issue[/i]។\n"
+"3. បំពេញទម្រង់បែបបទដើម្បីប្រាប់យើងបន្ថែមអំពីបញ្ហារបស់អ្នក។"
+
+msgid "You will need a GitHub account to do so."
+msgstr "អ្នកនឹងត្រូវការគណនី GitHub ដើម្បីធ្វើដូច្នោះ។"
+
+msgid ""
+"Please add as much relevant information as possible, such as the kind of "
+"device you're using to access the app, and maybe attach a screenshot or "
+"video clip showcasing the issue."
+msgstr ""
+"សូមបន្ថែមព័ត៌មាន ដែលពាក់ព័ន្ធឱ្យបាន ច្រើនតាមដែលអាចធ្វើទៅបាន ដូចជាប្រភេទឧបករណ៍ ដែលអ្នកកំពុងប្រើ"
+"ដើម្បីចូលប្រើ app និងភ្ជាប់រូបថតអេក្រង់ ឬវីដេអូឃ្លីបដែលបង្ហាញពីបញ្ហា។"
+
+msgid "[center]Thank you for contributing to open source![/center]"
+msgstr "[center]សូមអរគុណសម្រាប់ការចូលរួមចំណែកក្នុង open source![/center]"
+
+#: ui/components/popups/ReportFormPopup.tscn:158
+msgid "OK"
+msgstr "យល់ព្រម"
+
+#: ui/components/popups/SettingsPopup.tscn:85
+msgid "Configure the App"
+msgstr "កំណត់រចនាសម្ព័ន្ធ App"
+
+#: ui/components/popups/SettingsPopup.tscn:119
+msgid "Language"
+msgstr "ភាសា"
+
+#: ui/components/popups/SettingsPopup.tscn:139
+msgid "Text Size"
+msgstr "ទំហំអត្ថបទ"
+
+#: ui/components/popups/SettingsPopup.tscn:167
+msgid "Sample text"
+msgstr "អត្ថបទគំរូ"
+
+#: ui/components/popups/SettingsPopup.tscn:180
+msgid "Scroll sensitivity"
+msgstr "ភាពរហ័ស នៃការរំកិល"
+
+#: ui/components/popups/SettingsPopup.tscn:206
+msgid "Framerate cap"
+msgstr "កម្រិត Framerate"
+
+#: ui/components/popups/SettingsPopup.tscn:229
+msgid "Lower contrast"
+msgstr "កម្រិតពន្លឺទាប"
+
+#: ui/components/popups/SettingsPopup.tscn:250
+msgid "Dyslexia Font"
+msgstr "ពុម្ពអក្សរសម្រាប់អ្នកមានបញ្ហាក្នុងការអាន"
+
+#: ui/components/popups/SettingsPopup.tscn:299
+msgid "Apply"
+msgstr "អនុវត្ត"
+
+#: ui/screens/course_outliner/CourseLessonDetails.gd:93
+msgid "Open Lesson"
+msgstr "បើកមេរៀន"
+
+#: ui/screens/course_outliner/CourseLessonDetails.gd:95
+msgid "Continue Lesson"
+msgstr "បន្តមេរៀន"
+
+#: ui/screens/course_outliner/CourseLessonDetails.gd:97
+msgid "Start Lesson"
+msgstr "ចាប់ផ្តើមមេរៀន"
+
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:35
+msgid "Lesson Title Goes Here"
+msgstr "ចំណងជើងមេរៀននៅទីនេះ"
+
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:48
+msgid "Lesson read"
+msgstr "មេរៀនដែលបានអាន"
+
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:56
+msgid "0%"
+msgstr "0%"
+
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:79
+msgid "Quizzes completed"
+msgstr "កម្រងសំណួរដែលបានបញ្ចប់"
+
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:87
+msgid "0 / 0"
+msgstr "0 / 0"
+
+#: ui/screens/course_outliner/CourseLessonDetails.tscn:100
+msgid "Practices completed"
+msgstr "ការអនុវត្ត ដែលបានបញ្ចប់"
+
+#: ui/screens/course_outliner/CourseLessonItem.tscn:36
+msgid "Lesson 0"
+msgstr "មេរៀន 0"
+
+#: ui/screens/course_outliner/CourseLessonItem.tscn:44
+msgid "Lesson Title"
+msgstr "ចំណងជើង មេរៀន"
+
+#: ui/screens/course_outliner/CourseOutliner.tscn:44
+msgid "Course Index -"
+msgstr "បញ្ជីមេរៀន -"
+
+#: ui/screens/course_outliner/CourseOutliner.tscn:51
+msgid "Course Title Goes Here"
+msgstr "ចំណងជើង វគ្គសិក្សានៅទីនេះ"
+
+#: ui/screens/course_outliner/CourseOutliner.tscn:83
+msgid "Reset Progress"
+msgstr "កំណត់ រៀនសារឡើងវិញ"
+
+#: ui/screens/course_outliner/CourseOutliner.tscn:98
+msgid "Confirm Resetting Progress"
+msgstr "បញ្ជាក់ ការកំណត់ រៀនសារឡើងវិញ"
+
+#: ui/screens/end_screen/EndScreen.tscn:310
+msgid "YOU MADE IT!"
+msgstr "អ្នកធ្វើវា បានហើយ!"
+
+#: ui/screens/end_screen/EndScreen.tscn:353
+msgid ""
+"Not only did you learn the foundations of coding, you’re a big step "
+"closer to making your own games."
+msgstr ""
+"មិនត្រឹមតែអ្នកបានរៀនគោលការណ៍គ្រឹះនៃការសរសេរកូដប៉ុណ្ណោះទេ អ្នកក៏បានឈានជិតមួយជំហានធំទៀត ក្នុងការអភិ"
+"វឌ្ឍហ្គេមផ្ទាល់ខ្លួន។"
+
+#: ui/screens/end_screen/EndScreen.tscn:373
+msgid "Don't stop here..."
+msgstr "កុំឈប់ត្រឹមនេះ..."
+
+#: ui/screens/end_screen/EndScreen.tscn:383
+msgid "The fun stuff starts now!"
+msgstr "រឿងសប្បាយៗ ចាប់ផ្តើមឥឡូវនេះ!"
+
+#: ui/screens/end_screen/EndScreen.tscn:398
+msgid "There are 2 pathways learners traditionally take from here:"
+msgstr "មានផ្លូវ 2 ដែលអ្នករៀនជាទូទៅជ្រើសរើសពីចំណុចនេះ៖"
+
+#: ui/screens/end_screen/EndScreen.tscn:412
+msgid "Following video tutorials"
+msgstr "ការអនុវត្តតាមវីដេអូបង្រៀន"
+
+#: ui/screens/end_screen/EndScreen.tscn:427
+msgid ""
+"They’re a great way to pick up specific game mechanics but they’re not as"
+" effective when you’re trying to learn new skills from the ground up."
+msgstr ""
+"វាល្អសម្រាប់រៀនច្បាប់ហ្គេមជាក់លាក់ ប៉ុន្តែមិនសូវមានប្រសិទ្ធភាពទេ បើអ្នកចង់ចាប់ផ្តើមរៀនពីសូន្យ។"
+
+#: ui/screens/end_screen/EndScreen.tscn:459
+msgid "• There’s no clear learning path."
+msgstr "• គ្មានផ្លូវសិក្សា ច្បាស់លាស់។"
+
+#: ui/screens/end_screen/EndScreen.tscn:474
+msgid "• Retention and skill acquisition is slow and limited."
+msgstr "• ការចងចាំ និងការទទួលបាន ជំនាញមានភាពយឺតយ៉ាវ និងមានកម្រិត។"
+
+#: ui/screens/end_screen/EndScreen.tscn:490
+msgid ""
+"We make our fair share of "
+"[b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]free "
+"tutorials[/url][/color][/b]. They will come in very handy once you start "
+"making games on your own. But to get started, we really recommend you "
+"learn how to think like a game developer using "
+"[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
+"access]courses[/url][/color][/b]."
+msgstr ""
+"យើង បង្កើត [b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]វីដេអូ"
+"បង្រៀន ដោយឥតគិតថ្លៃ[/url][/color][/b] ជាច្រើន។ ពួកវានឹងមានប្រយោជន៍ ខ្លាំងណាស់នៅពេលអ្នកចាប់"
+"ផ្តើមបង្កើតហ្គេមដោយខ្លួនឯង។ ប៉ុន្តែដើម្បីចាប់ផ្តើម យើងពិតជាណែនាំឱ្យអ្នករៀនពីរបៀបគិតដូចជាអ្នកបង្កើត"
+"ហ្គេម ដោយប្រើ [b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
+"access]វគ្គសិក្សា[/url][/color][/b]។"
+
+#: ui/screens/end_screen/EndScreen.tscn:505
+msgid "Learning with courses"
+msgstr "ការរៀន ជាមួយ វគ្គសិក្សា"
+
+#: ui/screens/end_screen/EndScreen.tscn:521
+msgid ""
+"Note that most available courses online are actually premium series of "
+"video tutorials. The problem of retaining information and acquiring real "
+"skills unfortunately still applies to them."
+msgstr ""
+"សូមចំណាំថា វគ្គសិក្សាភាគច្រើនដែលមាននៅលើអ៊ីនធឺណិត តាមពិតគឺជាស៊េរីមេរៀនវីដេអូបង់ប្រាក់ (Premium)។ "
+"ជាអកុសល បញ្ហាក្នុងការចងចាំព័ត៌មាន និងការទទួល បានជំនាញពិតប្រាកដ នៅតែជាបញ្ហាដដែលសម្រាប់វគ្គសិក្សា"
+"ទាំងនោះដែរ។"
+
+#: ui/screens/end_screen/EndScreen.tscn:537
+msgid ""
+"At GDQuest, we’re educators at heart. We believe in applied study and we "
+"believe it doesn’t have to be boring. When teaching is done correctly, "
+"most people highly enjoy the sensation of leveling up!"
+msgstr ""
+"នៅ GDQuest យើងគឺជាអ្នកអប់រំចេញពីចិត្ត។ យើងជឿជាក់លើការសិក្សាដែលយកទៅអនុវត្តបាន ហើយយើងជឿថាវា"
+"មិនចាំបាច់ធុញទ្រាន់នោះទេ។ នៅពេលដែលការបង្រៀនត្រូវបានធ្វើឡើងយ៉ាងត្រឹមត្រូវ មនុស្សភាគ ច្រើននឹងរីករាយ"
+"យ៉ាងខ្លាំង ជាមួយនឹងអារម្មណ៍នៃការបង្កើនកម្រិតសមត្ថភាព!"
+
+msgid ""
+"That’s the reason we made this app. It is in fact part of our beginner "
+"course "
+"[b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn"
+" Gamedev From Zero with Godot[/url][/color][/b]."
+msgstr ""
+"នោះហើយ ជាមូលហេតុ ដែលយើងបង្កើត app នេះឡើង។ តាមពិតវា​ គឺជាផ្នែកមួយនៃវគ្គសិក្សា ដំបូងរបស់យើង "
+"[b][color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/"
+"color][/b]។"
+
+#: ui/screens/end_screen/EndScreen.tscn:575
+msgid "LEARN GAMEDEV WITH GODOT"
+msgstr "រៀន បង្កើតហ្គេម ជាមួយ GODOT"
+
+#: ui/screens/end_screen/EndScreen.tscn:722
+msgid "Now available"
+msgstr "មានលក់ហើយ ឥឡូវនេះ"
+
+#: ui/screens/end_screen/EndScreen.tscn:732
+msgid "for preorders"
+msgstr "សម្រាប់ ការកម្ម៉ង់ទុកមុន"
+
+#: ui/screens/end_screen/EndScreen.tscn:749
+msgid "Godot 4 courses!!"
+msgstr "វគ្គសិក្សា Godot 4!!"
+
+#: ui/screens/end_screen/EndScreen.tscn:795
+msgid "Teaching gamedev in the classroom?"
+msgstr "បង្រៀន បង្កើតហ្គេម ក្នុងថ្នាក់រៀន?"
+
+#: ui/screens/end_screen/EndScreen.tscn:808
+msgid "Get in touch"
+msgstr "ទាក់ទង មកយើង"
+
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:204
+msgid "Congratulations!"
+msgstr "អបអរសាទរ!"
+
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:211
+msgid ""
+"You completed Learn GDScript From Zero. You now have the basics you need "
+"to make games with the Godot game engine."
+msgstr ""
+"អ្នកបានបញ្ចប់ Learn GDScript From Zero ហើយ។ ឥឡូវនេះអ្នកមានមូលដ្ឋានគ្រឹះដែលអ្នកត្រូវការ ដើ"
+"ម្បីបង្កើតហ្គេមជាមួយ Godot game engine។"
+
+msgid ""
+"You can keep learning with the free series "
+"[url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Getting"
+" Started with Godot[/url]."
+msgstr ""
+"អ្នកអាច បន្តរៀនជាមួយ ស៊េរីឥតគិតថ្លៃ [url=https://docs.godotengine.org/en/stable/"
+"getting_started/step_by_step/index.html]Getting Started with Godot[/url]។"
+
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:224
+msgid "This is an Open-Source project!"
+msgstr "នេះគឺជាគម្រោង Open-Source!"
+
+#: ui/screens/end_screen/SponsorlessEndScreen.tscn:231
+msgid "Like Godot, this app and course is free and open-source."
+msgstr "ដូចជា Godot ដែរ app និង វគ្គសិក្សានេះ គឺឥតគិតថ្លៃ និង open-source។"
+
+msgid ""
+"You can find the app's source code and contribute translations here: "
+"[url=https://github.com/GDQuest/learn-gdscript]Learn GDScript From Zero "
+"(Github repository)[/url]."
+msgstr ""
+"អ្នកអាច ស្វែងរក source code របស់ app និងចូលរួម បកប្រែនៅទីនេះ៖ [url=https://"
+"github.com/GDQuest/learn-gdscript]Learn GDScript From Zero (Github "
+"repository)[/url]។"
+
+#: ui/screens/end_screen/thumbnails/CourseThumbnail.tscn:41
+msgid "Early Access release: 2024/01/30"
+msgstr "ការចេញផ្សាយដំបូង (Early Access)៖ 2024/01/30"
+
+#: ui/screens/lesson/UIBaseQuiz.tscn:56
+msgid "[b]Question[/b]"
+msgstr "[b]សំណួរ[/b]"
+
+#: ui/screens/lesson/UIBaseQuiz.tscn:80
+msgid "Explanation"
+msgstr "ការពន្យល់"
+
+#: ui/screens/lesson/UIBaseQuiz.tscn:107
+msgid "Skip"
+msgstr "រំលង"
+
+#: ui/screens/lesson/UIBaseQuiz.tscn:119
+msgid "Submit"
+msgstr "បញ្ជូន"
+
+#: ui/screens/lesson/UIBaseQuiz.tscn:150
+msgid "You're right!"
+msgstr "អ្នកឆ្លើយ ត្រូវហើយ!"
+
+#: ui/screens/lesson/UIBaseQuiz.tscn:160
+msgid "Answers here"
+msgstr "ចម្លើយ នៅទីនេះ"
+
+#: ui/screens/lesson/UIContentBlock.gd:69
+msgid "Learn More"
+msgstr "ស្វែងយល់បន្ថែម"
+
+#: ui/screens/lesson/UIContentBlock.tscn:47
+msgid "Placeholder heading"
+msgstr "ចំណងជើងគំរូ"
+
+#: ui/screens/lesson/UIPracticeButton.tscn:52
+msgid "Practice title"
+msgstr "ចំណងជើង ការអនុវត្ត"
+
+#: ui/screens/lesson/UIPracticeButton.tscn:77
+msgid "next"
+msgstr "បន្ទាប់"
+
+#: ui/screens/lesson/UIPracticeButton.tscn:100
+msgid "Practice"
+msgstr "ការអនុវត្ត"
+
+#: ui/screens/lesson/UIPracticeButton.tscn:110
+msgid "You are here"
+msgstr "អ្នកស្ថិត នៅទីនេះ"
+
+#: ui/screens/lesson/quizzes/QuizAnswerButton.tscn:40
+msgid "Answer label"
+msgstr "ស្លាកសញ្ញាចម្លើយ"
+
+#: ui/screens/lesson/quizzes/UIQuizChoice.gd:26
+msgid "(select all that apply)"
+msgstr "(ជ្រើសរើសចម្លើយទាំងអស់)"
+
+#: ui/screens/practice/PracticeHint.tscn:9
+msgid "Show Hint"
+msgstr "បង្ហាញ គន្លឹះ"
+
+#: ui/screens/practice/PracticeInfoPanel.gd:144
+msgid "Method descriptions"
+msgstr "ការពិពណ៌នា Method"
+
+#: ui/screens/practice/PracticeInfoPanel.gd:160
+msgid "Property descriptions"
+msgstr "ការពិពណ៌នា Property"
+
+#: ui/screens/practice/PracticeInfoPanel.tscn:63
+msgid "Summary - Lesson Name"
+msgstr "សេចក្តីសង្ខេប - ឈ្មោះមេរៀន"
+
+#: ui/screens/practice/PracticeInfoPanel.tscn:106
+msgid "Goals"
+msgstr "គោលដៅ"
+
+#: ui/screens/practice/PracticeInfoPanel.tscn:120
+msgid "Hints"
+msgstr "គន្លឹះ"
+
+#: ui/screens/practice/PracticeInfoPanel.tscn:128
+msgid "Checks"
+msgstr "ការត្រួតពិនិត្យ"
+
+#: ui/screens/practice/PracticeInfoPanel.tscn:137
+msgid "Documentation"
+msgstr "ឯកសារយោង"
+
+#: ui/screens/practice/PracticeInfoPanel.tscn:178
+msgid "Open Practice List"
+msgstr "បើកបញ្ជី ការអនុវត្ត"
+
+#: ui/screens/practice/PracticeTestDisplay.tscn:40
+msgid "Test text"
+msgstr "អត្ថបទ សាកល្បង"
+
+#: ui/screens/welcome_screen/WelcomeScreen.gd:44
+msgid "CONTINUE"
+msgstr "បន្ត"
+
+#: ui/screens/welcome_screen/WelcomeScreen.gd:46
+msgid "START"
+msgstr "ចាប់ផ្តើម"
+
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:651
+msgid "SELECT LESSON"
+msgstr "ជ្រើសរើសមេរៀន"
+
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:665
+msgid "OPTIONS"
+msgstr "ជម្រើស"
+
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:699
+msgid "QUIT"
+msgstr "ចាកចេញ"
+
+#: ui/screens/welcome_screen/WelcomeScreen.tscn:805
+msgid "An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
+msgstr "គម្រោង open source ដោយ [url=https://www.gdquest.com/]GDQuest.com[/url]"

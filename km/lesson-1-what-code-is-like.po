@@ -1,0 +1,446 @@
+# Translations template for Learn GDScript From Zero.
+# Copyright (C) 2026 GDQuest
+# This file is distributed under the same license as the Learn GDScript From
+# Zero project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Learn GDScript From Zero\n"
+"Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
+"PO-Revision-Date: 2026-04-10 04:10+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-1-what-code-is-like/km/>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:14
+msgid "Learning to program can be daunting."
+msgstr "ការរៀនសរសេរកម្មវិធី Program អាចជាការងារដែលពិបាកខ្លាំង។"
+
+msgid ""
+"Yet, you want to make video games, so [b]there is no way around learning "
+"to program[/b]. [i]Every[/i] video game is a computer program."
+msgstr ""
+"ទោះជាយ៉ាងណា អ្នកចង់បង្កើតវីដេអូហ្គេម ដូច្នេះ [b]អ្នកមិនអាច ជៀសផុតពីការរៀន សរសេរកម្មវិធី "
+"Program បានឡើយ[/b]។ [i]រាល់[/i] វីដេអូហ្គេមទាំងអស់គឺជា កម្មវិធីកុំព្យូទ័រ Program ។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:24
+msgid "Telling the computer what to do"
+msgstr "ការប្រាប់ កុំព្យូទ័រពីអ្វី ដែលត្រូវធ្វើ"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:26
+msgid ""
+"Programming is the process of writing precise instructions that tell a "
+"computer how to perform a task."
+msgstr ""
+"ការសរសេរកម្មវិធី Program គឺជាដំណើរការ នៃការសរសេរការណែនាំ ច្បាស់លាស់ដែលប្រាប់កុំព្យូទ័ រពីរបៀបអ"
+"នុវត្តភារកិច្ច។"
+
+msgid ""
+"A game's instructions are, for example: moving a character, drawing a "
+"life bar, or playing a sound."
+msgstr ""
+"ឧទាហរណ៍ ការណែនាំរបស់ហ្គេមរួមមាន៖ ការរំកិលតួអង្គ, ការគូររបារឈាម, ឬការបញ្ចាំងសំឡេង។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:38
+msgid ""
+"To do any of that, you need to learn a [b]programming language[/b]: a "
+"specialized language to tell the computer what to do."
+msgstr ""
+"ដើម្បីធ្វើកិច្ចការទាំងនោះបាន អ្នកត្រូវរៀន [b]ភាសាសរសេរកម្មវិធី (programming language)[/"
+"b]៖ ជាភាសាជំនាញសម្រាប់ប្រាប់កុំព្យូទ័រពីអ្វីដែលត្រូវធ្វើ។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:58
+msgid ""
+"Programming languages are different from natural ones like English or "
+"Spanish. The computer does not think. Unlike us, it can't "
+"[i]interpret[/i] what you tell it."
+msgstr ""
+"ភាសាសរសេរកម្មវិធី គឺខុសពីភាសាធម្មតា ដូចជាភាសាអង់គ្លេស ឬភាសាអេស្ប៉ាញ។ កុំព្យូទ័រមិន ចេះគិតនោះទេ។ "
+"វាមិនដូចជាយើងទេ វាមិនអាច [i]បកស្រាយ[/i] អ្វីដែលអ្នកប្រាប់វាបានឡើយ។"
+
+msgid "You can't tell it something vague like \"draw a circle.\""
+msgstr "អ្នកមិនអាច ប្រាប់វាពីអ្វីដែល ស្រពិចស្រពិលដូចជា \"គូររង្វង់មួយ\" បានទេ"
+
+msgid "Which circle? Where? Which color should it be? How big should it be?"
+msgstr ""
+"តើរង្វង់មួយណា? នៅកន្លែងណា? តើគួរតែមានពណ៌អ្វី? ហើយតើវាគួរតែមានទំហំប៉ុនណា?"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:70
+msgid "The computer needs exact instructions"
+msgstr "កុំព្យូទ័រ ត្រូវការការណែនាំ ដែលច្បាស់លាស់បំផុត"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:72
+msgid ""
+"To draw a filled circle, the computer needs to know exact drawing "
+"coordinates, the radius, the thickness, and color you want."
+msgstr ""
+"ដើម្បី គូររង្វង់ ដែលមានពណ៌ផ្ទៃខាងក្នុង កុំព្យូទ័ រត្រូវការដឹងពី កូអរដោនេច្បាស់លាស់, កាំ, កម្រាស់, និងពណ៌"
+"ដែលអ្នកចង់បាន។"
+
+msgid "The code to do so [i]may[/i] look like this."
+msgstr "កូដ ដើម្បីធ្វើកិច្ចការនេះ [i]អាច[/i] មានលក្ខណះ បែបនេះ។"
+
+msgid "[i]Click the button to run the code example and see the result.[/i]"
+msgstr "[i]ចុចប៊ូតុង ដើម្បីដំណើរការឧទាហរណ៍កូដ និងមើលលទ្ធផល។[/i]"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:96
+msgid "In the following lessons, you'll learn how this code works."
+msgstr "នៅក្នុង មេរៀនបន្តបន្ទាប់ អ្នកនឹងរៀនពីរបៀបដែល កូដនេះដំណើរការ។"
+
+msgid ""
+"For now, we want to give you a sense of what computer code looks like. In"
+" this example, everything matters: each parenthesis, capital letter, "
+"period, and comma."
+msgstr ""
+"សម្រាប់ពេលនេះ យើងចង់ឱ្យអ្នកដឹងថា តើកូដកុំព្យូទ័រ មានលក្ខណះ បែបណា។ ក្នុងឧទាហរណ៍នេះ គ្រប់យ៉ាងសុទ្ធតែ"
+"សំខាន់៖ ទាំងវង់ក្រចក, អក្សរធំ, សញ្ញាចុច, និងសញ្ញាក្បៀស។"
+
+msgid ""
+"The computer always does [b]exactly[/b] what you tell it to. No more, no "
+"less. It [i]blindly[/i] follows every instruction."
+msgstr ""
+"កុំព្យូទ័រតែងតែធ្វើ [b]យ៉ាងច្បាស់លាស់[/b] តាមអ្វីដែលអ្នកប្រាប់វា។ មិនលើស និងមិនខ្វះ។ វាដើរតាមរាល់"
+"ការណែនាំទាំងអស់ [i]ដោយមិនរារែក[/i]។"
+
+msgid ""
+"[b]When you program, you're the one in charge, and you're free to do "
+"[i]anything[/i] you want.[/b]"
+msgstr ""
+"[b]នៅពេលអ្នកសរសេរកម្មវិធី Program អ្នកគឺជា អ្នកគ្រប់គ្រង ហើយអ្នកមានសេរីភាព ក្នុងការធ្វើ [i]អ្"
+"វីៗគ្រប់យ៉ាង[/i] ដែលអ្នកចង់បាន។[/b]"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:110
+msgid "How do you give instructions to a computer?"
+msgstr "តើអ្នកផ្តល់ការណែនាំ ទៅកុំព្យូទ័រដោយរបៀបណា?"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:113
+msgid ""
+"Computers don't understand natural languages like English. To make them "
+"do anything, you need to give them precise instructions they understand, "
+"using a programming language."
+msgstr ""
+"កុំព្យូទ័រ មិនយល់ពីភាសាធម្មតា ដូចជាភាសាអង់គ្លេសនោះទេ។ ដើម្បីឱ្យពួកវាធ្វើអ្វីមួយ អ្នកត្រូវផ្តល់ការណែនាំ "
+"ច្បាស់លាស់ ដែលពួកវាអាចយល់បាន ដោយប្រើភាសាសរសេរកម្មវិធី Program។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:114
+msgid "Using a programming language and precise instructions"
+msgstr "ការប្រើភាសាសរសេរកម្មវិធី និងការណែនាំដែល ច្បាស់លាស់"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:114
+msgid "Using prose in plain English"
+msgstr "ការប្រើសំណេរជា ភាសាអង់គ្លេសធម្មតា"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:122
+msgid "You'll learn to code with GDScript"
+msgstr "អ្នកនឹងរៀន សរសេរកូដជាមួយ GDScript"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:124
+msgid ""
+"In this course, you'll learn the GDScript programming language (the name "
+"stands for \"Godot script\")."
+msgstr ""
+"នៅក្នុងវគ្គសិក្សានេះ អ្នកនឹងរៀន ភាសាសរសេរកម្មវិធី GDScript (ឈ្មោះនេះមកពីពាក្យ \"Godot "
+"script\")។"
+
+msgid ""
+"This is a language by game developers for game developers. You can use it"
+" within the Godot game engine to create games and applications."
+msgstr ""
+"នេះគឺជាភាសាដែលបង្កើតឡើង ដោយ developers អ្នកបង្កើតហ្គេម សម្រាប់អ្នកបង្កើតហ្គេម។ អ្នកអាចប្"
+"រើវាបាននៅក្នុង Godot engine ដើម្បីបង្កើតហ្គេម និងកម្មវិធីផ្សេងៗ។"
+
+msgid ""
+"It's the language used by games like "
+"[ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome"
+" Keeper[/url] and "
+"[ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url]."
+msgstr ""
+"វាគឺជា ភាសាដែលប្រើដោយហ្គេមដូចជា [ignore][url=https://store.steampowered.com/app/"
+"1637320/Dome_Keeper/]Dome Keeper[/url] និង [ignore][url=https://"
+"store.steampowered.com/app/1942280/Brotato/]Brotato[/url]។"
+
+msgid "Engineers at Tesla also used it for their cars' dashboards."
+msgstr ""
+"វិស្វករនៅក្រុមហ៊ុន Tesla ក៏បានប្រើវាសម្រាប់ ផ្ទាំងបញ្ជារថយន្ត របស់ពួកគេផងដែរ។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:150
+msgid ""
+"GDScript is an excellent language to get started with programming because"
+" it's specialized. Unlike some other languages, it doesn't have an "
+"[i]overwhelming[/i] amount of features for you to learn."
+msgstr ""
+"GDScript គឺជាភាសាដ៏ល្អបំផុតដើម្បីចាប់ផ្តើមរៀនសរសេរកម្មវិធី ព្រោះវាជាភាសាជំនាញ។ មិនដូចភាសា មួយចំ"
+"នួនផ្សេងទៀតទេ វាមិនមានមុខងារ [i]ច្រើនលើសលប់[/i] សម្រាប់ឱ្យអ្នករៀននោះទេ។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:158
+msgid "Most programming languages are similar"
+msgstr "ភាសាសរសេរ​កម្មវិធី Programming ភាគច្រើនគឺស្រដៀងគ្នា"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:160
+msgid ""
+"Don't be afraid of being locked in. The concepts you learn in your first "
+"programming language will apply to all the others."
+msgstr ""
+"កុំបារម្ភពី ការជាប់គាំងតែ ជាមួយភាសាមួយអី។ គោលការណ៍ ដែលអ្នករៀនក្នុង ភាសាសរសេរកម្មវិធី "
+"Programming ដំបូងរបស់អ្នក នឹងអាចយកទៅប្រើបាន ជាមួយភាសាផ្សេងៗទៀត ទាំងអស់។"
+
+msgid ""
+"Most languages have more similarities than differences. Once you learn "
+"one, it takes much less time to become productive with the next one."
+msgstr ""
+"ភាសាភាគច្រើនមានចំណុចស្រដៀងគ្នា ច្រើនជាងចំណុចខុសគ្នា។ នៅពេលអ្នករៀនចេះភាសាមួយ វានឹងប្រើពេលតិច"
+"ជាងមុ នក្នុងការរៀនភាសាបន្ទាប់។"
+
+msgid ""
+"Here's an example of the same code in three languages: GDScript, "
+"JavaScript, and Python."
+msgstr ""
+"នេះគឺជាឧទាហរណ៍ នៃកូដដូចគ្នា ដែលសរសេរក្នុងភាសាចំនួនបី៖ GDScript, JavaScript, និង Python។"
+
+msgid "Try to spot the similarities and differences."
+msgstr "ព្យាយាមស្វែងរក ចំណុចស្រដៀងគ្នា និងចំណុចខុសគ្នា។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:186
+msgid "It doesn't look [i]that[/i] different, does it?"
+msgstr "វាមើលទៅមិនសូវជា [i]ខុសគ្នា[/i] ប៉ុន្មានទេ មែនទេ?"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:194
+msgid "Are programming languages all completely different?"
+msgstr "តើភាសាសរសេរកម្មវិធី Programming ទាំងអស់សុទ្ធតែខុសគ្នាទាំងស្រុងមែនទេ?"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:195
+msgid ""
+"If you learn one language and then want to learn another, will you have "
+"to start from scratch?"
+msgstr ""
+"ប្រសិនបើអ្នករៀនចេះភាសាមួយ ហើយបន្ទាប់មក ចង់រៀនភាសាផ្សេងទៀត តើអ្នកត្រូវចាប់ផ្តើមពីសូន្យវិញមែនទេ?"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:197
+msgid ""
+"Most programming languages build upon the same ideas of how to program. "
+"As a result, they're mostly similar."
+msgstr ""
+"ភាសាសរសេរកម្មវិធី Programming ភាគច្រើនត្រូវបានបង្កើតឡើង ដោយផ្អែកលើគំនិត នៃការសរសេរកម្មវិធី"
+"ដូចគ្នា។ ជាលទ្ធផល ពួកវាភាគច្រើនគឺស្រដៀងគ្នា។"
+
+msgid ""
+"It's not to say all languages are the same, though. Some offer a really "
+"unique syntax and require a completely different mindset compared to "
+"GDScript."
+msgstr ""
+"ទោះជាយ៉ាងណា វាមិនមែនមានន័យថាភាសាទាំងអស់សុទ្ធតែដូចគ្នានោះទេ។ ភាសាមួយចំនួនផ្តល់នូវទម្រង់សរសេរ "
+"(syntax) ដែលប្លែកខ្លាំង និងតម្រូវឱ្យមានការគិតខុសគ្នាទាំងស្រុងបើធៀបនឹង GDScript។"
+
+msgid ""
+"However, languages like GDScript, Python, JavaScript, C++, C#, and many "
+"others build upon a similar programming philosophy."
+msgstr ""
+"ទោះជាយ៉ាងណាក៏ដោយ ភាសាដូចជា GDScript, Python, JavaScript, C++, C#, និងភាសាជាច្រើនទៀ"
+"ត ត្រូវបានបង្កើតឡើងដោយផ្អែកលើ ទស្សនវិជ្ជានៃការសរសេរកម្មវិធី Programming ស្រដៀងគ្នា។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:202
+msgid "No, they have many similarities"
+msgstr "ទេ ពួកវាមានចំណុចស្រដៀងគ្នាជាច្រើន"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:202
+msgid "Yes, they are completely different"
+msgstr "ត្រូវហើយ ពួកវាគឺខុសគ្នាទាំងស្រុង"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:210
+msgid "This is a course for beginners"
+msgstr "នេះគឺជា វគ្គសិក្សា សម្រាប់អ្នក ចាប់ផ្តើមដំបូង"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:212
+msgid ""
+"If you want to learn to make games or code but don't know where to start,"
+" this course should be perfect."
+msgstr ""
+"ប្រសិនបើ អ្នកចង់រៀនបង្កើតហ្គេម ឬសរសេរកូដ ប៉ុន្តែ មិនដឹងថាត្រូវចាប់ផ្តើមពីកន្លែងណា វគ្គសិក្សានេះគឺស័ក្"
+"តិសមបំផុត។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:232
+msgid ""
+"We designed it for [i]absolute beginners[/i], but if you already know "
+"another language, it can be a fun way to get started with Godot."
+msgstr ""
+"យើងបានប​ង្កើតវាឡើងសម្រាប់ [i]អ្នកដែលមិនទាន់ចេះសោះ[/i] ប៉ុន្តែប្រសិន បើអ្នកបានចេះភាសាផ្សេងរួច"
+"ហើយ វាក៏ជាវិធី ដ៏រីករាយមួយក្នុងការចាប់ផ្តើមជាមួយ Godot ផងដែរ។"
+
+msgid ""
+"We will give you the coding foundations you need to start making games "
+"and applications with Godot."
+msgstr ""
+"យើងនឹងផ្តល់ឱ្យអ្នក នូវមូលដ្ឋានគ្រឹះនៃការសរសេរកូដ ដែលអ្នកត្រូវការ ដើម្បីចាប់ផ្តើមបង្កើតហ្គេម និងកម្ម"
+"វិធីជាមួយ Godot។"
+
+msgid ""
+"Please be patient. It will take time before you can make your first "
+"complete game alone."
+msgstr ""
+"សូមមេត្តា អត់ធ្មត់។ វាត្រូវការពេលវេលា​មុនពេលដែល អ្នកអាចបង្កើតហ្គេមពេញលេញ ដំបូងរបស់អ្នកដោយខ្លួនឯ"
+"ងបាន។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:244
+msgid "Learning to make games takes practice"
+msgstr "ការរៀន បង្កើតហ្គេម ត្រូវមានការអនុវត្ត"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:246
+msgid ""
+"Creating games is more accessible than ever, but it still takes a lot of "
+"work and practice."
+msgstr ""
+"ការបង្កើតហ្គេម គឺងាយស្រួលជាងមុនឆ្ងាយណាស់ ប៉ុន្តែវានៅតែត្រូវការការខិតខំប្រឹងប្រែង និងការអនុវត្ត យ៉ាង"
+"ច្រើន។"
+
+msgid ""
+"Do not expect any single course or book to turn you into a professional. "
+"[b]Programming is something you learn through practice.[/b]"
+msgstr ""
+"កុំរំពឹងថាវគ្គសិក្សា ឬសៀវភៅតែមួយ នឹងអាចធ្វើឱ្យអ្នកក្លាយជា អ្នកអាជីពបានឱ្យសោះ។ [b]ការសរសេរកម្មវិ"
+"ធី Programming គឺជាអ្វីដែលអ្នករៀនបានតាមរយៈការអនុវត្ត។[/b]"
+
+msgid ""
+"If something doesn't make immediate sense, don't stress it too much! Keep"
+" learning and come back to it later."
+msgstr ""
+"ប្រសិនបើមាន អ្វីមួយដែលអ្នកមិនទាន់យល់ភ្លាមៗ កុំបារម្ភខ្លាំងពេក! បន្តរៀនទៅមុខទៀត ហើយត្រឡប់មកមើលវា "
+"វិញនៅពេលក្រោយ។"
+
+msgid ""
+"Enjoy the process and celebrate every little success. You will never stop"
+" learning as a game developer."
+msgstr ""
+"សូមរីករាយជាមួយ ដំណើរការនៃការរៀនសូត្រ និង​ អបអរ រាល់ពេល ទទួលបាន សូម្បីតែភាពជោគជ័យតូចតាច ក៍ដោយ"
+"។ អ្នកនឹងមិនឈប់រៀន​ ឡើយក្នុងនាមជាអ្នកបង្កើតហ្គេម។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:260
+msgid "What and how you'll learn"
+msgstr "តើអ្នកនឹងរៀនអ្វីខ្លះ និងរៀនដោយរបៀបណា"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:262
+msgid ""
+"In this free course, you will learn the foundations you need to start "
+"coding things like these:"
+msgstr ""
+"នៅក្នុងវគ្គសិក្សាឥតគិតថ្លៃនេះ អ្នកនឹងរៀន ពីមូលដ្ឋានគ្រឹះដែលអ្នកត្រូវការ​ ដើម្បីចាប់ផ្តើមសរសេរកូដនូវអ្វី"
+"ៗដូចជា៖"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:292
+msgid "Along the way, we'll teach you:"
+msgstr "ទន្ទឹមនឹងនោះ យើងនឹង បង្រៀនអ្នកពី៖"
+
+msgid ""
+"- Some of the mindset you need as a developer. Too many programming "
+"courses skip that essential part.\n"
+"- How to write GDScript code.\n"
+"- Essential programming foundations to get you started."
+msgstr ""
+"- ផ្នត់គំនិតដែល អ្នកត្រូវការក្នុងនាម ជាអ្នកបង្កើតកម្មវិធី។ វគ្គសិក្សាសរសេរកម្មវិធី Programming ជា"
+"ច្រើនបានរំលងផ្នែកដ៏សំខាន់ទាំងនេះ។\n"
+"- របៀបសរសេរកូដ GDScript។\n"
+"- មូលដ្ឋានគ្រឹះសំខាន់ៗ នៃការសរសេរកម្មវិធី ដើម្បីឱ្យយើងអាចចាប់ផ្តើមបាន។"
+
+msgid ""
+"As you go through the course, you will have many questions. We will "
+"answer them the best we can as we go."
+msgstr ""
+"នៅពេលដែលអ្នកសិក្សាវគ្គនេះ អ្នកនឹងមានសំណួរជាច្រើន។ យើងនឹងព្យាយាមឆ្លើយសំណួរ ទាំងនោះតាមដែលអាចធ្"
+"វើទៅបាន។"
+
+msgid ""
+"But there is so much to cover that we have to take a few shortcuts. We "
+"don't want to [i]overwhelm[/i] you with information. We also want to "
+"respect the pace at which our brains memorize things."
+msgstr ""
+"ប៉ុន្តែ ដោយសារមានអ្វីដែល ត្រូវរៀនច្រើនពេក យើងត្រូវប្រើផ្លូវកាត់ខ្លះៗ។ យើងមិនចង់ឱ្យអ្នក [i]ណែនណាន់"
+"តាន់តាប់ក្ដៀន[/i] ជាមួយព័ត៌មានច្រើនពេកនោះទេ។ យើងក៏ចង់គោរពតាម ល្បឿនដែលខួរក្បាលរបស់យើងចងចាំអ្វី"
+"ៗផងដែរ។"
+
+msgid ""
+"We broke down the course into short lessons and practices. If we put too "
+"much into each part, you'd learn slower."
+msgstr ""
+"យើងបានបែងចែកវគ្គសិក្សានេះទៅជាមេរៀនខ្លីៗ និងការអនុវត្ត។ ប្រសិនបើយើងដាក់ព័ត៌មានច្រើនពេកក្នុងផ្នែ"
+"កនីមួយៗ អ្នកនឹងរៀនបានយឺតជាងមុន។"
+
+msgid ""
+"If at any time you're left with burning questions, you're more than "
+"welcome to join [url=https://discord.gg/87NNb3Z]our Discord "
+"community[/url]."
+msgstr ""
+"ប្រសិនបើអ្នកមានសំណួរដែលចង់ដឹងខ្លាំង អ្នកអាចចូលរួមជាមួយ [url=https://discord.gg/87NNb3Z]សហគ"
+"មន៍ Discord របស់យើង[/url] បានគ្រប់ពេល។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:312
+msgid "Is this for Godot 4?"
+msgstr "តើនេះសម្រាប់ Godot 4 មែនទេ?"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:314
+msgid ""
+"What you'll learn in this free course is fully compatible with Godot 4. "
+"While we initially designed this series for Godot 3, the foundations of "
+"GDScript are still the same in Godot 4."
+msgstr ""
+"អ្វីដែលអ្នកនឹងរៀនក្នុងវគ្គសិក្សាឥតគិតថ្លៃនេះ គឺអាចប្រើបានយ៉ាងពេញលេញជាមួយ Godot 4។ ទោះបីជាដំបូង"
+"ឡើយយើងបានបង្កើត វគ្គសិក្សានេះ​ សម្រាប់ Godot 3 ក៏ដោយ ប៉ុន្តែមូលដ្ឋានគ្រឹះនៃ GDScript គឺនៅតែដ"
+"ដែលនៅក្នុង Godot 4។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:322
+msgid "Programming is a skill"
+msgstr "ការសរសេរកម្មវិធី Programming គឺជាជំនាញ"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:324
+msgid ""
+"Programming is a skill, so to get good at it, you must practice. It is "
+"why we built this app."
+msgstr ""
+"ការសរសេរកម្មវិធីគឺជាជំនាញ ដូច្នេះដើម្បីឱ្យពូកែ អ្នកត្រូវតែអនុវត្ត។ នោះហើយ ជាមូលហេតុដែល យើងបង្កើត"
+"កម្មវិធីនេះឡើង។"
+
+msgid ""
+"Each lesson is followed by an interactive practice to use what you "
+"learned."
+msgstr ""
+"មេរៀននីមួយៗ ត្រូវបានបន្ត ដោយការអនុវត្តជាក់ស្ដែង ដើម្បីឱ្យអ្នកអាចប្រើប្រាស់អ្វីដែលអ្នកបានរៀន។"
+
+msgid "Speaking of which, it's time to look at the practice screen!"
+msgstr "និយាយដល់រឿងនេះ វាដល់ពេលដែលត្រូវទៅមើល កន្លែង​អនុវត្តហើយ!"
+
+msgid ""
+"To continue, click the [i]Practice[/i] button below. It will give you a "
+"short run through how practices work."
+msgstr ""
+"ដើម្បីបន្ត សូមចុចប៊ូតុង [i]ការអនុវត្ត (Practice)[/i] នៅខាងក្រោម។ វានឹងបង្ហាញអ្នកដោយសង្ខេបពីរ"
+"បៀបដែលការអនុវត្តដំណើរការ។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:338
+msgid "Try Your First Code"
+msgstr "សាកល្បង សរសេរកូដដំបូង​ របស់អ្នក"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:339
+msgid ""
+"We prepared a code sample for you. For this practice, you don't need to "
+"change anything."
+msgstr ""
+"យើងបានរៀបចំ ឧទាហរណ៍កូដសម្រាប់អ្នក។ សម្រាប់ការអនុវត្តនេះ អ្នកមិនចាំបាច់​ផ្លាស់ប្តូរអ្វីទាំងអស់។"
+
+msgid "To test the code, click the [i]Run[/i] button below the code editor."
+msgstr ""
+"ដើម្បីសាកល្បងកូដ សូមចុចប៊ូតុង [i]ដំណើរការ (Run)[/i] នៅខាងក្រោម ផ្ទាំងសរសេរកូដ។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:352
+msgid "Run your first bit of code and see the result."
+msgstr "ដំណើរការកូដដំបូងរបស់អ្នក ហើយមើលលទ្ធផល។"
+
+#: course/lesson-1-what-code-is-like/lesson.tres:356
+msgid "What Code is Like"
+msgstr "តើកូដមានលក្ខណះបែបណាទៅ"
