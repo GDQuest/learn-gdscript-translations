@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-04-10 04:09+0000\n"
+"PO-Revision-Date: 2026-04-14 06:09+0000\n"
 "Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
 "gdscript-from-zero/lesson-13-conditions/km/>\n"
@@ -26,31 +26,39 @@ msgid ""
 "In previous lessons, we decreased and increased a character's health, but"
 " there was no limit to how much health they could have."
 msgstr ""
+"ក្នុងមេរៀនមុនៗ យើងបានបន្ថយ និងបន្ថែម health(ឈាម) របស់តួអង្គ ប៉ុន្តែមិនមាន កម្រិតថាតើពួកគេអាច"
+"មាន health(ឈាម) បានច្រើន ប៉ុណ្ណាទេ។"
 
 #: course/lesson-13-conditions/lesson.tres:34
 msgid ""
 "As a result, the player could increase their character's health "
 "indefinitely, which we do not want."
 msgstr ""
+"ដូច្នេះ អ្នកលេងអាចបន្ថែម health(ឈាម) របស់តួអង្គបានរហូត ដែលយើង មិនចង់ ឱ្យកើតឡើងទេ។"
 
 #: course/lesson-13-conditions/lesson.tres:52
 msgid "What happens to health when we damage our character?"
 msgstr ""
+"តើ health(ឈាម) ផ្លាស់ប្តូរ យ៉ាងដូចម្តេច នៅពេលយើងធ្វើឱ្យតួអង្គរបស់យើង រងការខូចខាត?"
 
 #: course/lesson-13-conditions/lesson.tres:53
 msgid "Suppose our character has [code]100[/code] health."
-msgstr ""
+msgstr "ឧបមាថា តួអង្គរបស់យើងមាន health(ឈាម) [code]100[/code]។"
 
 msgid ""
 "What would the value of health be if we called "
 "[code]take_damage(25)[/code] [b]five times[/b]?"
 msgstr ""
+"តើតម្លៃ health(ឈាម) នឹងសល់ប៉ុន្មាន បើយើងហៅ [code]take_damage(25)[/code] [b]ប្រាំដង[/"
+"b]?"
 
 #: course/lesson-13-conditions/lesson.tres:57
 msgid ""
 "Calling [code]take_damage(25)[/code] five times would subtract a total of"
 " [code]125[/code] from [code]100[/code]."
 msgstr ""
+"ការហៅ [code]take_damage(25)[/code] ប្រាំដង នឹងដកសរុប [code]125[/code] ចេញពី "
+"[code]100[/code]។"
 
 msgid ""
 "100\n"
@@ -60,10 +68,16 @@ msgid ""
 "0\n"
 "-25"
 msgstr ""
+"100\n"
+"75\n"
+"50\n"
+"25\n"
+"0\n"
+"-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "-25"
-msgstr ""
+msgstr "-25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "25"
@@ -71,17 +85,20 @@ msgstr "25"
 
 #: course/lesson-13-conditions/lesson.tres:65
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: course/lesson-13-conditions/lesson.tres:75
 msgid "We can use conditions to run actions [b]selectively[/b]."
 msgstr ""
+"យើងអាចប្រើ conditions (លក្ខខណ្ឌ) ដើម្បីដំណើរការ សកម្មភាព [b]តាមការជ្រើសរើស[/b]។"
 
 msgid ""
 "Conditions make your code branch into two paths: if the condition is met,"
 " the computer will run the corresponding instructions. Otherwise, those "
 "instructions will not run at all."
 msgstr ""
+"Conditions (លក្ខខណ្ឌ) ធ្វើឱ្យកូដរបស់អ្នក បែកជាពីរផ្លូវ៖ បើ condition ត្រូវបានបំពេញ កុំព្យូទ័រនឹង"
+"ដំណើរការ ការណែនាំដែលត្រូវគ្នា។ បើមិនដូច្នោះទេ ការណែនាំទាំងនោះនឹងមិនដំណើរការសោះ។"
 
 #: course/lesson-13-conditions/lesson.tres:87
 msgid ""
@@ -89,6 +106,8 @@ msgid ""
 "example, game input largely relies on conditions: [i]if[/i] the player "
 "presses the button on a gamepad, the character jumps."
 msgstr ""
+"Game Video និងកម្មវិធីកុំព្យូទ័រផ្សេងៗ ពោរពេញដោយ conditions (លក្ខខណ្ឌ)។ ឧទាហរណ៍ បញ្ជាក្នុង "
+"game ពឹងផ្អែកខ្លាំងលើ conditions៖ [i]if[/i] (បើ) អ្នកលេងចុចប៊ូតុងលើ gamepad តួអង្គនឹងលោត។"
 
 #: course/lesson-13-conditions/lesson.tres:107
 msgid ""
@@ -96,54 +115,70 @@ msgid ""
 " condition. All conditions [b]evaluate[/b] to either [code]true[/code] or"
 " [code]false[/code]."
 msgstr ""
+"នៅពេល កុំព្យូទ័រពិនិត្យ condition មួយ វាត្រូវបានគេហៅថា [b]to evaluate[/b] (វាយតម្លៃ) "
+"condition។ Conditions ទាំងអស់ [b]evaluate[/b] ទៅជា [code]true[/code] (ពិត) ឬ "
+"[code]false[/code] (មិនពិត)។"
 
 msgid ""
 "Either the player is pressing the button, or not. Either the character is"
 " touching an enemy, or not."
-msgstr ""
+msgstr "ហើយអ្នកលេង កំពុងចុចប៊ូតុង ឬមិនចុច។ ហើយតួអង្គកំពុងប៉ះសត្រូវ ឬមិនប៉ះ។"
 
 msgid ""
 "In our case, [i]if[/i] the health goes over a maximum value, we want to "
 "reset it to the maximum."
 msgstr ""
+"ក្នុងករណីរបស់យើង [i]if[/i] (បើ) health(ឈាម) លើសពីតម្លៃដែលយើងមិនចង់បាន យើងចង់កំណត់វាត្រឡប់"
+"ទៅជា តម្លៃកំណត់វិញ។"
 
 msgid ""
 "To define a condition, we use the [code]if[/code] keyword. We write a "
 "line starting with [code]if[/code], [ignore]type the condition to "
 "evaluate, and end the line with a colon."
 msgstr ""
+"ដើម្បីកំណត់ condition មួយ យើងប្រើពាក្យគន្លឹះ [code]if[/code]។ យើងសរសេរជួរ មួយដែលចាប់ផ្តើម"
+"ដោយ [code]if[/code] [ignore]វាយបញ្ចូល condition ដែលត្រូវវាយតម្លៃ ហើយបញ្ចប់ជួរនោះដោយចំណុ"
+"ចពីរ។"
 
 #: course/lesson-13-conditions/lesson.tres:133
 msgid ""
 "Notice the [code]>[/code] comparison sign. We read this symbol as "
 "\"greater than\"."
 msgstr ""
+"សូមចំណាំសញ្ញាប្រៀបធៀប [code]>[/code]។ យើងអានសញ្ញានេះថា \"greater than\" (ធំជាង)។"
 
 msgid ""
 "We've seen how function definitions use a colon at the end of the first "
 "line and nest content inside."
 msgstr ""
+"យើងបានឃើញថាការកំណត់ func ប្រើចំណុចពីរនៅចុងជួរដំបូង ហើយដាក់មាតិកាខាងក្នុង។"
 
 msgid "In GDScript, this syntax is a recurring pattern for all code blocks."
 msgstr ""
+"ក្នុង GDScript ទម្រង់(syntax) នេះគឺជាលំនាំដែលកើតឡើងម្តងហើយម្តងទៀតសម្រាប់ code blocks ទាំង"
+"អស់។"
 
 msgid ""
 "The computer knows which instructions belong to the condition because "
 "they are indented."
 msgstr ""
+"កុំព្យូទ័រដឹងថាតើការណែនាំណាខ្លះជារបស់ condition ព្រោះពួកវាត្រូវបានដាក់ចន្លោះខាងដើម "
+"(indented)។"
 
 #: course/lesson-13-conditions/lesson.tres:157
 msgid "Comparisons"
-msgstr ""
+msgstr "ការប្រៀបធៀប"
 
 #: course/lesson-13-conditions/lesson.tres:159
 msgid ""
 "In the above example, we used the [code]>[/code] syntax to mean \"greater"
 " than\"."
 msgstr ""
+"ក្នុងឧទាហរណ៍ ខាងលើ យើងបានប្រើសញ្ញាណ [code]>[/code] ដើម្បីមានន័យថា \"greater than\" (ធំ"
+"ជាង)។"
 
 msgid "We can compare numbers in other ways too."
-msgstr ""
+msgstr "យើងក៏អាចប្រៀបធៀបលេខតាមវិធីផ្សេងទៀតដែរ។"
 
 msgid ""
 "[code]>[/code] means \"greater than\"\n"
@@ -151,19 +186,25 @@ msgid ""
 "[code]==[/code] means \"equal to\"\n"
 "[code]!=[/code] means \"not equal to\""
 msgstr ""
+"[code]>[/code] មានន័យថា \"greater than\" (ធំជាង)\n"
+"[code]<[/code] មានន័យថា \"less than\" (តូចជាង)\n"
+"[code]==[/code] មានន័យថា \"equal to\" (ស្មើ)\n"
+"[code]!=[/code] មានន័យថា \"not equal to\" (មិនស្មើ)"
 
 msgid "Here's how we might use these in [code]if[/code] statements."
-msgstr ""
+msgstr "នេះជាវិធី ដែលយើង អាចប្រើពួកវា ប្រកាសលទ្ធផល [code]if[/code]។"
 
 #: course/lesson-13-conditions/lesson.tres:187
 msgid "What does \"pass\" do in the code?"
-msgstr ""
+msgstr "តើ \"pass\" ធ្វើអ្វីក្នុងកូដ?"
 
 #: course/lesson-13-conditions/lesson.tres:189
 msgid ""
 "The [code]pass[/code] keyword prevents errors in our code when a line "
 "cannot be empty."
 msgstr ""
+"ពាក្យគន្លឹះ [code]pass[/code] ការពារកុំឱ្យមានកំហុស Error ក្នុងកូដរបស់យើង នៅពេលដែល line "
+"code មួយមិនអាចទទេបាន។"
 
 msgid ""
 "For example, we must have a line of code after a function definition or "
@@ -171,16 +212,21 @@ msgid ""
 "use the [code]pass[/code] keyword as a placeholder, and Godot won't give "
 "any errors."
 msgstr ""
+"ឧទាហរណ៍ យើងត្រូវតែមាន line កូដមួយបន្ទាប់ពីការកំណត់ func ឬ block [code]if[/code]។ នៅពេល"
+"ដែលអ្នកមិនទាន់ដឹងថាត្រូវសរសេរអ្វីក្នុង line កូដ នោះ អ្នកអាចប្រើពាក្យគន្លឹះ [code]pass[/code] "
+"ជាកន្លែងទុក (placeholder) ហើយ Godot នឹងមិនផ្តល់ Errors កំហុសអ្វីទេ។"
 
 msgid ""
 "In the previous example, if there was nothing below the [code]if[/code] "
 "lines, Godot would give us an \"Expected an indented block after 'if' \" "
 "error."
 msgstr ""
+"ក្នុងឧទាហរណ៍មុន បើគ្មានអ្វីនៅខាងក្រោម line [code]if[/code] ទេ Godot នឹងផ្តល់កំហុស Error "
+"\"Expected an indented block after 'if'\" ដល់យើង។"
 
 #: course/lesson-13-conditions/lesson.tres:201
 msgid "Which of these statements are true?"
-msgstr ""
+msgstr "តើលទ្ធផលមួយណាខ្លះ ក្នុងចំណោមនេះដែល ពិត?"
 
 #: course/lesson-13-conditions/lesson.tres:204
 msgid ""
@@ -191,6 +237,9 @@ msgid ""
 "The comparison [code]1 != 3[/code] means \"one is not equal to three\" "
 "which is [b]true[/b]."
 msgstr ""
+"ការប្រៀបធៀប [code]3 > 1[/code] មានន័យថា \"បីធំជាងមួយ\" ដែល [b]true[/b] (ពិត)។\n"
+"ការប្រៀបធៀប [code]2 < 3[/code] មានន័យថា \"ពីរតូចជាងបី\" ដែល [b]true[/b] (ពិត)។\n"
+"ការប្រៀបធៀប [code]1 != 3[/code] មានន័យថា \"មួយមិនស្មើបី\" ដែល [b]true[/b] (ពិត)។"
 
 msgid ""
 "The comparison [code]2 == 1[/code] means \"two is equal to one\" which is"
@@ -198,68 +247,78 @@ msgid ""
 "The comparison [code]3 < 1[/code] means \"three is less than one\" which "
 "is [b]false[/b]."
 msgstr ""
+"ការប្រៀបធៀប [code]2 == 1[/code] មានន័យថា \"ពីរស្មើមួយ\" ដែល [b]false[/b] (មិនពិត)។\n"
+"ការប្រៀបធៀប [code]3 < 1[/code] មានន័យថា \"បីតូចជាងមួយ\" ដែល [b]false[/b] (មិនពិត)។"
 
 #: course/lesson-13-conditions/lesson.tres:210
 msgid "3 > 1"
-msgstr ""
+msgstr "3 > 1"
 
 #: course/lesson-13-conditions/lesson.tres:210
 msgid "2 == 1"
-msgstr ""
+msgstr "2 == 1"
 
 #: course/lesson-13-conditions/lesson.tres:210
 msgid "2 < 3"
-msgstr ""
+msgstr "2 < 3"
 
 #: course/lesson-13-conditions/lesson.tres:210
 msgid "1 != 3"
-msgstr ""
+msgstr "1 != 3"
 
 #: course/lesson-13-conditions/lesson.tres:210
 msgid "3 < 1"
-msgstr ""
+msgstr "3 < 1"
 
 #: course/lesson-13-conditions/lesson.tres:218
 msgid "Or else..."
-msgstr ""
+msgstr "ឬមិនដូច្នោះ..."
 
 #: course/lesson-13-conditions/lesson.tres:220
 msgid ""
 "The [code]if[/code] keyword comes with a complementary [code]else[/code] "
 "keyword."
 msgstr ""
+"ពាក្យគន្លឹះ [code]if[/code] មានពាក្យគន្លឹះ [code]else[/code] ដែលបំពេញបន្ថែម។"
 
 msgid ""
 "You can write an [code]else[/code] block after an [code]if[/code] block, "
 "like so."
 msgstr ""
+"អ្នកអាចសរសេរ block [code]else[/code] បន្ទាប់ពី block [code]if[/code] ដូចខាងក្រោម។"
 
 #: course/lesson-13-conditions/lesson.tres:242
 msgid ""
 "The [code]else[/code] block will run whenever the condition above it "
 "isn't met."
 msgstr ""
+"Block [code]else[/code] នឹងដំណើរការនៅពេលណាដែល condition ខាងលើវាមិនត្រូវបានបំពេញ។"
 
 #: course/lesson-13-conditions/lesson.tres:252
 msgid ""
 "In the following practices, we'll use conditions and improve the way our "
 "character's health changes so it has limits."
 msgstr ""
+"ក្នុងការអនុវត្តខាងក្រោម យើងនឹងប្រើ conditions (លក្ខខណ្ឌ) និងកែលម្អវិធីដែល health(ឈាម) របស់តួ"
+"អង្គយើង ផ្លាស់ប្តូរ ដើម្បីឱ្យវាមានកម្រិត។"
 
 #: course/lesson-13-conditions/lesson.tres:260
 msgid "Using Comparisons"
-msgstr ""
+msgstr "ការប្រើ ការប្រៀបធៀប"
 
 #: course/lesson-13-conditions/lesson.tres:261
 msgid ""
 "This series of [code]if[/code] statements is all wrong. Change the "
 "comparisons so each comparison matches the instruction below it."
 msgstr ""
+"ស៊េរី នៃ statements [code]if[/code] នេះខុសទាំងអស់។ ផ្លាស់ប្តូរការប្រៀបធៀប ដើម្បីឱ្យការប្រៀប"
+"ធៀបនីមួយៗ ត្រូវគ្នានឹងការណែនាំខាងក្រោមវា។"
 
 msgid ""
 "Keep the values and statements as they are; only change the comparison "
 "signs."
 msgstr ""
+"ទុកតម្លៃនិង សេចក្តីថ្លែងការណ៍(statements) ដូចដើម ផ្លាស់ប្តូរតែសញ្ញាប្រៀបធៀបប៉ុណ្ណោះ។"
 
 msgid ""
 "As a reminder, the comparison signs are:\n"
@@ -270,72 +329,90 @@ msgid ""
 "!= not equal to\n"
 "[/code]"
 msgstr ""
+"ជាការរំលឹក សញ្ញាប្រៀបធៀបគឺ៖\n"
+"[code]\n"
+"> greater than (ធំជាង)\n"
+"< less than (តូចជាង)\n"
+"== equal to (ស្មើ)\n"
+"!= not equal to (មិនស្មើ)\n"
+"[/code]"
 
 msgid "The line [code]health < 5:[/code] means \"health is less than 5\"."
-msgstr ""
+msgstr "line [code]health < 5:[/code] មានន័យថា \"health(ឈាម) តូចជាង 5\"។"
 
 msgid ""
 "Because [code]health = 100[/code], this is false so [code]print(\"health "
 "is greater than five.\")[/code] won't run."
 msgstr ""
+"ព្រោះ [code]health = 100[/code] នេះគឺ false (មិនពិត) ដូច្នេះ [code]print(\"health"
+"(ឈាម) ធំជាង​ប្រាំ.\")[/code] នឹងមិនដំណើរការទេ។"
 
 #: course/lesson-13-conditions/lesson.tres:298
 msgid ""
 "Comparing values allows us to make decisions in code. But there's "
 "something wrong with these statements.."
 msgstr ""
+"ការប្រៀបធៀប តម្លៃអនុញ្ញាតឱ្យយើង ធ្វើការសម្រេចចិត្តក្នុងកូដ។ ប៉ុន្តែមានអ្វីមួយខុស ក្នុងសេចក្តីថ្លែងការ"
+"ណ៍(statements) ទាំងនេះ.."
 
 #: course/lesson-13-conditions/lesson.tres:303
 msgid "Limiting Healing"
-msgstr ""
+msgstr "ការកំណត់កម្រិត ការព្យាបាល"
 
 #: course/lesson-13-conditions/lesson.tres:304
 msgid "We have a heal function that adds an amount to the character's health."
-msgstr ""
+msgstr "យើងមាន func heal ដែលបន្ថែមចំនួនមួយទៅ health(ឈាម) របស់តួអង្គ។"
 
 msgid ""
 "Add to the function so the character's health is never greater than "
 "[code]80[/code]."
 msgstr ""
+"បន្ថែមទៅក្នុង func ដើម្បីឱ្យ health(ឈាម) របស់តួអង្គមិនដែលលើសពី [code]80[/code]។"
 
 #: course/lesson-13-conditions/lesson.tres:317
 msgid ""
 "As much as we might like, we don't want our robot to have too much "
 "health. Limit how much healing the robot can take."
 msgstr ""
+"ទោះបីជាយើងចង់ឱ្យយ៉ាងណាក៏ដោយ យើងមិនចង់ឱ្យ robot របស់យើងមាន health(ឈាម) ច្រើនពេកទេ។ កំណត់ថា"
+"តើ robot អាចទទួលការព្យាបាលបានប៉ុន្មាន។"
 
 #: course/lesson-13-conditions/lesson.tres:322
 msgid "Preventing Health from Going Below Zero"
-msgstr ""
+msgstr "ការការពារកុំឱ្យ health(ឈាម) ធ្លាក់ក្រោមសូន្យ"
 
 #: course/lesson-13-conditions/lesson.tres:323
 msgid "When the robot takes damage, its health can be negative."
-msgstr ""
+msgstr "នៅពេលដែល robot រងការខូចខាត health(ឈាម) របស់វាអាចក្លាយជា អវិជ្ជមាន។"
 
 msgid ""
 "We might want to display the health number on screen, like in Japanese "
 "RPGs."
-msgstr ""
+msgstr "យើងអាចចង់បង្ហាញលេខ health(ឈាម) លើអេក្រង់ ដូចក្នុង​ Game RPG ជប៉ុន។"
 
 msgid "We don't want negative numbers. We want to stop at zero instead."
-msgstr ""
+msgstr "យើងមិនចង់បានលេខ អវិជ្ជមានទេ។ យើងចង់ឈប់ត្រឹមសូន្យ ជំនួសវិញ។"
 
 msgid ""
 "Calling the function should reduce [code]health[/code] by "
 "[code]amount[/code]."
-msgstr ""
+msgstr "ការហៅ func គួរតែបន្ថយ [code]health(ឈាម)[/code] ដោយ [code]amount[/code]។"
 
 msgid ""
 "If [code]health[/code] goes below [code]0[/code], set it to "
 "[code]0[/code] again."
 msgstr ""
+"បើ [code]health(ឈាម)[/code] ធ្លាក់ក្រោម [code]0[/code] កំណត់វាត្រឡប់ទៅ [code]0[/"
+"code] វិញ។"
 
 #: course/lesson-13-conditions/lesson.tres:342
 msgid ""
 "Having a negative health value doesn't make a lot of sense. Make sure the"
 " robot's health can't go below zero."
 msgstr ""
+"ការមានតម្លៃ health(ឈាម) អវិជ្ជមានមិនសមហេតុផលប៉ុន្មានទេ។ ប្រាកដថា health(ឈាម) របស់ "
+"robot មិនអាចធ្លាក់ក្រោមសូន្យបាន។"
 
 #: course/lesson-13-conditions/lesson.tres:346
 msgid "Conditions"
-msgstr ""
+msgstr "Conditions (លក្ខខណ្ឌ)"
