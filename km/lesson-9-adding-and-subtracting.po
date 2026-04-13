@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-14 06:09+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-9-adding-and-subtracting/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:14
@@ -25,67 +27,84 @@ msgid ""
 "[code]health[/code] variable. The higher the character's health, the "
 "further away the player is from losing the game."
 msgstr ""
+"តួអង្គរបស់យើងនៅក្នុងហ្គេមនឹងមាន ឈាម ដោយកំណត់អថេរ [code]health[/code]។ ឈាមរបស់តួអង្គកាន់តែខ្"
+"ពស់ អ្នកលេង កាន់តែនៅឆ្ងាយពី ការចាញ់ហ្គេម។"
 
 msgid ""
 "Health that changes adds tension to the game, especially if the player is"
 " fighting with low health! It's a resource that the player should manage "
 "carefully."
 msgstr ""
+"ឈាម អាចផ្លាស់ប្តូរ​ បានបន្ថែមភាពតានតឹងដល់ហ្គេម ជាពិសេសនៅពេលអ្នកលេងកំពុងប្រយុទ្ធ ដោយមាន ឈាមតិ"
+"ច! វាជាធនធានមួយដែលអ្នកលេងគួរគ្រប់គ្រងដោយប្រុងប្រយ័ត្ន។"
 
 msgid ""
 "The character's health might get low if an enemy attacks them or they "
 "fall into a hole."
 msgstr ""
+"ឈាមរបស់តួអង្គអាចនឹងធ្លាក់ទៅ តិច ប្រសិនបើសត្រូវវាយប្រហារពួកគេ ឬពួកគេធ្លាក់ចូលក្នុងរណ្តៅ។"
 
 msgid "We can create a function to represent damage in these cases."
-msgstr ""
+msgstr "យើងអាចបង្កើត function មួយដើម្បីតំណាងឱ្យការខូចខាតនៅក្នុងករណីទាំងនេះ។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:40
 msgid "We pass the amount of damage the robot should take as a parameter."
-msgstr ""
+msgstr "យើងផ្ញើបរិមាណការខូចខាតដែល robot គួរទទួលយក ជា parameter ប៉ារ៉ាម៉ែត្រ។"
 
 msgid "Line 2 subtracts [code]amount[/code] from [code]health[/code]."
-msgstr ""
+msgstr "បន្ទាត់ទី 2 ដក [code]amount[/code] ចេញពី [code]health[/code]។"
 
 msgid ""
 "Note the [code]-=[/code] syntax which achieves this. It's a shorthand we "
 "often use."
 msgstr ""
+"ចំណាំអំពីវាក្យសម្ព័ន្ធ syntax [code]-=[/code] ដែលធ្វើឱ្យបានដូច្នេះ។ វាជាផ្លូវកាត់ដែលយើងតែងតែ"
+"ប្រើ។"
 
 msgid ""
 "You can also use a longer form. Both of these lines have the same effect."
 " They both subtract the value of [code]amount[/code] from the "
 "[code]health[/code] variable:"
 msgstr ""
+"អ្នកក៏អាចប្រើទម្រង់វែងជាងនេះផងដែរ។ បន្ទាត់ទាំងពីរនេះមានឥទ្ធិពលដូចគ្នា។ ពួកវាទាំងពីរដកតម្លៃនៃ "
+"[code]amount[/code] ចេញពី var អថេរ [code]health[/code]៖"
 
 msgid ""
 "[code]health -= amount[/code]\n"
 "[code]health = health - amount[/code]"
 msgstr ""
+"[code]health -= amount[/code]\n"
+"[code]health = health - amount[/code]"
 
 msgid ""
 "You may notice that the health of the robot can go below [code]0[/code]. "
 "We'll see how to manage this in a future lesson using [i]conditions[/i]."
 msgstr ""
+"អ្នកប្រហែលជាចំណាំថា ឈាមរបស់ robot អាចទាបជាង [code]0[/code]។ យើងនឹងមើលរបៀបគ្រប់គ្រងរឿង"
+"នេះនៅក្នុងមេរៀនខាងមុខ ដោយប្រើ [i]លក្ខខណ្ឌ[/i]។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:61
 msgid ""
 "The robot's health could increase instead if the player picks up an item "
 "that heals them, or if they use a healing item."
 msgstr ""
+"ឈាមរបស់ robot អាចនឹងកើនឡើងវិញ ប្រសិនបើអ្នកលេង ប៉ះរបស់ ដែល ជួយព្យាបាលពួកគេ ឬប្រើវត្ថុព្យាបាល"
+"ឈាម ។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:81
 msgid "Here again, the health can go beyond [code]100[/code]."
-msgstr ""
+msgstr "នៅទីនេះដែរ ឈាមអាចលើសពី [code]100[/code]។"
 
 msgid ""
 "Also, once more, the short line [code]health += amount[/code] is "
 "equivalent to the longer form [code]health = health + amount[/code]."
 msgstr ""
+"ហើយម្តងទៀត បន្ទាត់ខ្លី [code]health += amount[/code] គឺស្មើនឹងទម្រង់វែង [code]health = "
+"health + amount[/code]។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:91
 msgid "Which of these would increase the health of the robot?"
-msgstr ""
+msgstr "តើមួយណាក្នុងចំណោមទាំងនេះនឹងបង្កើនឈាមរបស់ robot?"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:94
 msgid ""
@@ -96,22 +115,27 @@ msgid ""
 "health = health + amount\n"
 "[/code]"
 msgstr ""
+"បន្ទាត់ទាំងពីរនេះបង្កើន [code]health[/code] របស់ robot ដោយ [code]amount[/code]។\n"
+"[code]\n"
+"health += amount\n"
+"health = health + amount\n"
+"[/code]"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:99
 msgid "health -= amount"
-msgstr ""
+msgstr "health -= amount"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:99
 msgid "health += amount"
-msgstr ""
+msgstr "health += amount"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:99
 msgid "health = health + amount"
-msgstr ""
+msgstr "health = health + amount"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:99
 msgid "health = health - amount"
-msgstr ""
+msgstr "health = health - amount"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:109
 msgid ""
@@ -119,10 +143,12 @@ msgid ""
 "and [code]heal()[/code] functions so the robot's health can decrease and "
 "increase."
 msgstr ""
+"នៅក្នុងការអនុវត្តខាងក្រោម អ្នកនឹងសរសេរកូដ function [code]take_damage()[/code] និង "
+"[code]heal()[/code] ដើម្បីឱ្យឈាមរបស់​ robot អាចថយចុះ និងកើនឡើង។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:117
 msgid "Damaging the Robot"
-msgstr ""
+msgstr "ការធ្វើឱ្យ robot ខូចខាត"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:118
 msgid ""
@@ -130,44 +156,53 @@ msgid ""
 "[code]health[/code]. When it gets hit, the health should go down by a "
 "varying [code]amount[/code] of damage."
 msgstr ""
+"នៅក្នុងហ្គេម របស់យើង តួអង្គ សំខាន់មាន បរិមាណ [code]health[/code] ជាក់លាក់ មួយ។ នៅពេល​ វាត្រូ"
+"វបានវាយ គួរតែឱ្យឈាម ថយចុះដោយបរិមាណ [code]amount[/code] នៃការខូចខាតដែលប្រែប្រួល។"
 
 msgid ""
 "Add to the [code]take_damage()[/code] function so it subtracts the "
 "[code]amount[/code] to the predefined [code]health[/code] variable."
 msgstr ""
+"បន្ថែមក្នុង function [code]take_damage()[/code] ដើម្បី​ឱ្យវា ដក [code]amount[/code] "
+"ចេញពី var  អថេរ [code]health[/code] ដែលបាន កំណត់ជាមុន។"
 
 msgid "The robot starts with 100 health and will take 50 damage."
-msgstr ""
+msgstr "robot ចាប់ផ្តើមដោយឈាម 100 ហើយនឹងទទួលការខូចខាត 50។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:135
 msgid "Learn how to deal damage to entities like our robot."
-msgstr ""
+msgstr "រៀន របៀបបង្កការខូចខាត ដល់គោលដៅដូចជា robot របស់យើង។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:140
 msgid "Healing the Robot"
-msgstr ""
+msgstr "ការព្យាបាល robot"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:141
 msgid "It's time to heal the robot up to full health!"
-msgstr ""
+msgstr "ដល់ពេលព្យាបាល robot ឱ្យមានឈាមពេញលេញហើយ!"
 
 msgid ""
 "Write a function called [code]heal()[/code] that takes "
 "[code]amount[/code] as a parameter."
 msgstr ""
+"សរសេរ function មួយឈ្មោះ [code]heal()[/code] ដែលទទួលយក [code]amount[/code] ជា "
+"parameter ប៉ារ៉ាម៉ែត្រ។"
 
 msgid "The function should add [code]amount[/code] to [code]health[/code]."
-msgstr ""
+msgstr "function នេះគួរតែបន្ថែម [code]amount[/code] ទៅ [code]health[/code]។"
 
 msgid "The robot starts with 50 health and will heal 50 to get it up to 100."
 msgstr ""
+"robot ចាប់ផ្តើមដោយឈាម 50 ហើយនឹងទទួលបាន ការព្យាបាល 50 ដើម្បីឱ្យវា កើន ឡើងដល់ 100។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:159
 msgid ""
 "Our robot needs healing after that practice! Create a function to heal it"
 " back to full health."
 msgstr ""
+"robot របស់យើង ត្រូវការការព្យាបាល បន្ទាប់ពីការអនុវត្តនោះ! បង្កើត function​ មួយដើម្បី ព្យាបាល"
+"វា ត្រឡប់​ មកមានឈាម ពេញលេញវិញ។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.tres:163
 msgid "Adding and Subtracting"
-msgstr ""
+msgstr "ការបូក និង​ ការដក"
