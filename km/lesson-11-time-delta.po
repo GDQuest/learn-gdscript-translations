@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-14 06:10+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-11-time-delta/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
@@ -24,6 +26,8 @@ msgid ""
 "We've seen how we can use our character's [code]_process()[/code] "
 "function to make it move continuously."
 msgstr ""
+"យើងបានឃើញថាយើងអាចប្រើ [code]_process()[/code] function របស់តួអង្គ ដើម្បីធ្វើឱ្យវាផ្លាស់"
+"ទីជា បន្តបន្ទាប់។"
 
 #: course/lesson-11-time-delta/lesson.tres:34
 msgid ""
@@ -31,55 +35,67 @@ msgid ""
 "function. Almost everything in the game has a [code]_process()[/code] "
 "function!"
 msgstr ""
+"ប៉ុន្តែមិនមែន មានតែតួអង្គរបស់យើងប៉ុណ្ណោះទេ ដែលមាន [code]_process()[/code] function ។ ស្"
+"ទើរតែគ្រប់យ៉ាងក្នុង ហ្គេមសុទ្ធតែមាន [code]_process()[/code] function!"
 
 msgid ""
 "Dozens of times per second, Godot runs every [code]_process()[/code] "
 "function in the game to update the game world."
 msgstr ""
+"រាប់ដង ក្នុងមួយវិនាទី, Godot ដំណើរការ [code]_process()[/code] function ទាំងអស់ក្នុងហ្គេម"
+"ដើម្បី ធ្វើបច្ចុប្បន្នភាពពិភពហ្គេម។"
 
 msgid ""
 "After that, it displays an image of the game world on the screen. We call"
 " that image a [b]frame[/b]."
 msgstr ""
+"បន្ទាប់មក, វាបង្ហាញរូបភាពនៃពិភពហ្គេមនៅលើអេក្រង់។ យើងហៅរូបភាពនោះថា [b]frame[/b]។"
 
 msgid "Godot then moves on to calculating the next frame."
-msgstr ""
+msgstr "បន្ទាប់មក Godot បន្តទៅ ការគណនា frame បន្ទាប់។"
 
 msgid ""
 "As this happens dozens of times per second, you get the illusion of "
 "movement. This is similar to how traditional animation works."
 msgstr ""
+"ដោយសាររឿង នេះកើតឡើង រាប់ដងក្នុងមួយវិនាទី, អ្នកនឹងឃើញមានចលនា។ វាស្រដៀងនឹងរបៀប ដែលការគូសរូប"
+"ចលនា បែបបុរាណដំណើរការ។"
 
 #: course/lesson-11-time-delta/lesson.tres:50
 msgid "This sounds like Frames Per Second..."
-msgstr ""
+msgstr "វាស្តាប់ទៅដូចជា Frames Per Second (ចំនួនក្របខណ្ឌក្នុងមួយវិនាទី)..."
 
 #: course/lesson-11-time-delta/lesson.tres:52
 msgid ""
 "You may have heard of frames per second, or FPS for short. Games often "
 "run at 60 frames per second."
 msgstr ""
+"អ្នកប្រហែលជាធ្លាប់ឮ ពីពាក្យ frames per second ឬ FPS ខ្លីៗ។ ហ្គេមភាគច្រើនដំណើរការនៅ 60 "
+"frames per second។"
 
 msgid "It means that everything in the game updates 60 times each second."
-msgstr ""
+msgstr "វាមានន័យថាគ្រប់យ៉ាង ក្នុងហ្គេម ធ្វើបច្ចុប្បន្នភាព 60 ដងក្នុងមួយវិនាទី។"
 
 msgid ""
 "The number varies while playing, depending on the game and the device it "
 "runs on."
 msgstr ""
+"លេខនេះ ប្រែប្រួលពេលលេង អាស្រ័យលើហ្គេម និងឧបករណ៍(ទូរសព្ទ,កំព្យូទ័រ, Iphone...) ដែលវាដំណើរការ។"
 
 msgid ""
 "On powerful computers, you may get frame rates in the hundreds or "
 "thousands of frames per second."
 msgstr ""
+"នៅលើកុំព្យូទ័រ ដែលមានថាមពលខ្លាំង, អ្នកអាចទទួលបានអត្រា frame រាប់រយ ឬរាប់ពាន់ frames per "
+"second។"
 
 #: course/lesson-11-time-delta/lesson.tres:68
 msgid "Let's look at the [code]_process()[/code] function in more detail."
-msgstr ""
+msgstr "តោះមើល [code]_process()[/code] function ឱ្យកាន់តែច្បាស់។"
 
 #: course/lesson-11-time-delta/lesson.tres:76
 msgid "What parameter does the _process() function take?"
-msgstr ""
+msgstr "តើ [code]_process()[/code] function យក parameter (តម្លៃបញ្ចូល) អ្វី?"
 
 #: course/lesson-11-time-delta/lesson.tres:77
 msgid ""
@@ -88,162 +104,198 @@ msgid ""
 "\trotate(0.05)\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"func _process(delta):\n"
+"\trotate(0.05)\n"
+"[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:82
 msgid ""
 "The [code]_process()[/code] function has one parameter named "
 "[code]delta[/code]."
 msgstr ""
+"[code]_process()[/code] function មាន parameter (តម្លៃបញ្ចូល) មួយឈ្មោះ "
+"[code]delta[/code]។"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "rotate"
-msgstr ""
+msgstr "rotate"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "0.05"
-msgstr ""
+msgstr "0.05"
 
 #: course/lesson-11-time-delta/lesson.tres:83
 msgid "delta"
-msgstr ""
+msgstr "delta"
 
 #: course/lesson-11-time-delta/lesson.tres:91
 msgid "Frames take varying amounts of time to calculate"
-msgstr ""
+msgstr "Frame ត្រូវការ ពេលវេលាខុសៗគ្នា ដើម្បីគណនា"
 
 #: course/lesson-11-time-delta/lesson.tres:93
 msgid ""
 "Depending on the game, the computer, and what the game engine needs to "
 "calculate, frames take more or less time to display."
 msgstr ""
+"អាស្រ័យលើ ហ្គេម, កុំព្យូទ័រ, និងអ្វីដែល game engine ត្រូវគណនា, frame ត្រូវការពេលវេលាច្រើន ឬតិច"
+"ដើម្បីបង្ហាញ។"
 
 msgid "There will always be small variations from frame to frame."
-msgstr ""
+msgstr "តែងតែ មានភាពខុសគ្នាតិចតួចពី frame មួយទៅ frame មួយ។"
 
 msgid ""
 "That is why the [code]_process()[/code] function receives a "
 "[code]delta[/code] parameter."
 msgstr ""
+"ម្ល៉ោះ ហើយបានជា [code]_process()[/code] function ទទួលបាន parameter (តម្លៃបញ្ចូល) "
+"[code]delta[/code]។"
 
 msgid ""
 "Delta represents a time difference. It's the time it took Godot to "
 "complete the previous frame, in seconds."
 msgstr ""
+"Delta តំណាងឱ្យភាពខុសគ្នា នៃពេលវេលា។ វាជាពេលវេលាដែល Godot ត្រូវការ ដើម្បីបញ្ចប់ frame មុ"
+"ន គិតជាវិនាទី។"
 
 msgid ""
 "We can use it to make sure the game runs at the same speed on all "
 "computers."
 msgstr ""
+"យើងអាច ប្រើវាដើម្បីធានាថាហ្គេមដំណើរការ ក្នុងល្បឿនដូចគ្នានៅលើគ្រប់កុំព្យូទ័រ។"
 
 msgid ""
 "This is because different computers have different processing power, so a"
 " fast computer will have more frames per second than a slow computer."
 msgstr ""
+"ដោយសារ កុំព្យូទ័រផ្សេងៗមាន ថាមពលដំណើរការ ខុសៗគ្នា, ដូច្នេះ កុំព្យូទ័រខ្លាំង ដើរលឿន នឹងមាន "
+"frames per second ច្រើនជាង កុំព្យូទ័រខ្សោយ ដែលដើរយឺត។"
 
 msgid ""
 "If we ignore [code]delta[/code], movement speed will vary depending on "
 "the computer. Delta helps to make the game consistent for everyone."
 msgstr ""
+"បើយើងមិនយក [code]delta[/code] មកគិត, ល្បឿនផ្លាស់ទីនឹងប្រែប្រួលអាស្រ័យលើកុំព្យូទ័រ។ Delta ជួយឱ្យហ្"
+"គេមមានភាពស្ថិតស្ថេ ​រសម្រាប់អ្នកលេងគ្រប់គ្នា។"
 
 #: course/lesson-11-time-delta/lesson.tres:113
 msgid "What do we know about delta?"
-msgstr ""
+msgstr "តើយើងដឹងអ្វីខ្លះអំពី delta?"
 
 #: course/lesson-11-time-delta/lesson.tres:116
 msgid ""
 "[code]delta[/code] is the time it took Godot to complete the previous "
 "frame in seconds."
 msgstr ""
+"[code]delta[/code] គឺជា ពេលវេលា ដែល Godot ត្រូវការដើម្បីបញ្ចប់ frame មុន គិតជាវិនាទី។"
 
 msgid "It's very small because frames happen many times a second."
-msgstr ""
+msgstr "វាតូចណាស់ ព្រោះ frame កើតឡើងច្រើនដង ក្នុងមួយវិនាទី។"
 
 msgid "It varies each frame because Godot has more or less to process each frame."
 msgstr ""
+"វាប្រែប្រួលរាល់ frame ព្រោះ Godot ត្រូវដំណើរការ កិច្ចការច្រើន ឬតិចក្នុងរាល់ frame។"
 
 #: course/lesson-11-time-delta/lesson.tres:121
 msgid "It's a value in seconds."
-msgstr ""
+msgstr "វាជាតម្លៃ គិតជាវិនាទី។"
 
 #: course/lesson-11-time-delta/lesson.tres:121
 msgid "It varies each frame."
-msgstr ""
+msgstr "វាប្រែប្រួលរាល់ frame។"
 
 #: course/lesson-11-time-delta/lesson.tres:121
 msgid "It's the time it took Godot to complete the previous frame."
-msgstr ""
+msgstr "វាជាពេលវេលាដែល Godot ត្រូវការដើម្បីបញ្ចប់ frame មុន។"
 
 #: course/lesson-11-time-delta/lesson.tres:129
 msgid "Multiplying by delta"
-msgstr ""
+msgstr "ការគុណនឹង delta"
 
 #: course/lesson-11-time-delta/lesson.tres:131
 msgid ""
 "The [code]delta[/code] you get in [code]_process()[/code] is a time "
 "difference in seconds. It will generally be a tiny decimal number."
 msgstr ""
+"[code]delta[/code] ដែលអ្នកទទួលបានក្នុង [code]_process()[/code] គឺជាភាពខុសគ្នានៃពេលវេ"
+"លា​ គិតជាវិនាទី។ វាជាធម្មតាជាលេខ ទសភាគតូចៗ។"
 
 msgid ""
 "To apply [code]delta[/code], you need to [i]multiply[/i] your speed "
 "values by it."
 msgstr ""
+"ដើម្បីអនុវត្ត [code]delta[/code], អ្នកត្រូវ [i]គុណ[/i] តម្លៃល្បឿនរបស់អ្នក នឹងវា។"
 
 #: course/lesson-11-time-delta/lesson.tres:153
 msgid ""
 "When multiplying by [code]delta[/code], you make motion [i]time-"
 "dependent[/i] rather than [i]frame-dependent[/i]."
 msgstr ""
+"ពេលគុណនឹង [code]delta[/code], អ្នកធ្វើឱ្យចលនា [i]អាស្រ័យលើពេលវេលា[/i] ជាជាង [i]អាស្រ័យ"
+"លើ frame[/i]។"
 
 msgid "That's essential to make your game consistent and fair."
-msgstr ""
+msgstr "វាចាំបាច់ណាស់ ដើម្បីឱ្យហ្គេមរបស់អ្នកមាន​ ភាពស្ថិតស្ថេរ និងយុត្តិធម៌។"
 
 #: course/lesson-11-time-delta/lesson.tres:163
 msgid "Why do we use the number 3.0 in this example?"
-msgstr ""
+msgstr "ហេតុអ្វីបានជាយើងប្រើលេខ 3.0 ក្នុងឧទាហរណ៍នេះ?"
 
 #: course/lesson-11-time-delta/lesson.tres:165
 msgid ""
 "At the top of the lesson, we made the robot rotate a fixed amount every "
 "frame: [code]0.05[/code] radians."
 msgstr ""
+"នៅដើមមេរៀន, យើងបានធ្វើឱ្យ robot បង្វិលក្នុងចំនួនថេររាល់ frame: [code]0.05[/code] "
+"radians(រ៉ាដ្យង់)។"
 
 msgid ""
 "In the example above, we now [i]multiply[/i] the argument by the very "
 "small [code]delta[/code] value, a value much smaller than "
 "[code]1.0[/code]. It makes the robot turn at a constant speed over time."
 msgstr ""
+"ក្នុងឧទាហរណ៍ខាងលើ, ឥឡូវយើង [i]គុណ[/i] តម្លៃបញ្ចូលនឹងតម្លៃ [code]delta[/code] ដែលតូចណាស់, "
+"ដែលតូចជាង [code]1.0[/code] ច្រើន។ វាធ្វើឱ្យ robot បង្វិលក្នុងល្បឿនថេរតាមពេលវេលា។"
 
 msgid ""
 "However, multiplying by a number below [code]1.0[/code] like "
 "[code]delta[/code] makes the result smaller."
 msgstr ""
+"ទោះយ៉ាងណា, ការគុណនឹងលេខ ដែលតិចជាង [code]1.0[/code] ដូចជា [code]delta[/code] ធ្វើឱ្យល"
+"ទ្ធផល តូចជាងមុន។"
 
 msgid ""
 "To compensate for that and make the robot turn fast enough, we use a "
 "larger number than before, [code]3.0[/code] instead of [code]0.05[/code]."
 msgstr ""
+"ដើម្បីផ្ទុយនឹងរឿងនេះ និងធ្វើឱ្យ robot បង្វិលលឿនគ្រប់គ្រាន់, យើងប្រើលេខធំជាងមុន, [code]3.0[/"
+"code] ជំនួសឱ្យ [code]0.05[/code]។"
 
 msgid ""
 "Those numbers have two different [i]units[/i]: [code]0.05[/code] is an "
 "[i]angle[/i] in radians, while [code]3.0[/code] is an [i]angular "
 "speed[/i] in radians per second."
 msgstr ""
+"លេខទាំង នោះមាន [i]ឯកតា[/i] ខុសគ្នាពីរ: [code]0.05[/code] គឺជា [i]មុំ[/i] គិតជា "
+"radians, ចំណែក [code]3.0[/code] គឺជា [i]ល្បឿនមុំ[/i] គិតជា radians per second។"
 
 msgid "When you multiply an angular speed by a time delta, it gives you an angle."
-msgstr ""
+msgstr "ពេលអ្នកគុណល្បឿន មុំនឹង time delta, វាផ្តល់ឱ្យអ្នកនូវមុំ។"
 
 msgid ""
 "Don't worry if it's a little confusing for now. It'll eventually click as"
 " you deal with speed, acceleration, and motion in your game projects."
 msgstr ""
+"កុំបារម្ភបើវាស្មុគស្មាញ បន្តិចសម្រាប់ពេលនេះ។ វានឹងច្បាស់ នៅពេលអ្នកធ្វើការជាមួយល្បឿន, ការបង្កើនល្"
+"បឿន, និងចលនាក្នុងគម្រោង ហ្គេមរបស់អ្នក។"
 
 #: course/lesson-11-time-delta/lesson.tres:185
 msgid "Why the time between frames matters"
-msgstr ""
+msgstr "ហេតុអ្វីបានជា ពេលវេលារវាង frame មានសារៈសំខាន់"
 
 #: course/lesson-11-time-delta/lesson.tres:187
 msgid "The time it takes to display a new frame varies."
-msgstr ""
+msgstr "ពេលវេលាដែលត្រូវការ ដើម្បីបង្ហាញភាពប្រែប្រួល frame ថ្មី។"
 
 msgid ""
 "If you don't take that time into account in your code, your game will "
@@ -251,29 +303,38 @@ msgid ""
 "[code]_process()[/code] function through the [code]delta[/code] "
 "parameter."
 msgstr ""
+"បើអ្នកមិនយក ពេលវេលានោះមកគិត ក្នុងកូដរបស់អ្នក, ហ្គេមរបស់អ្នកនឹងមាន បញ្ហាក្នុងការលេង និងបង្កើតកំហុ"
+"ស។ Godot ផ្តល់ពេលវេលានោះដល់ [code]_process()[/code] function តាមរយៈ parameter (ត"
+"ម្លៃបញ្ចូល) [code]delta[/code]។"
 
 msgid ""
 "In the example below, the top robot moves using [code]delta[/code]. As a "
 "result, it moves at a fixed speed."
 msgstr ""
+"ក្នុងឧទាហរណ៍ ខាងក្រោម, robot ខាងលើផ្លាស់ទីដោយប្រើ [code]delta[/code]។ ជាលទ្ធផល, វាផ្លាស់"
+"ទីក្នុងល្បឿនថេរ។"
 
 msgid ""
 "The bottom robot moves over a constant distance every frame, "
 "[i]without[/i] taking [code]delta[/code] into account. It will move "
 "faster or slower than the top robot on [i]your[/i] computer."
 msgstr ""
+"robot​ ខាងក្រោមផ្លាស់ទីក្នុងចម្ងាយថេររាល់ frame, [i]ដោយមិន[/i] យក [code]delta[/code] មក"
+"គិត។ វានឹងផ្លាស់ទីលឿនជាង ឬយឺតជាង robot ខាងលើនៅ​លើកុំព្យូទ័រ [i]របស់អ្នក[/i]។"
 
 msgid "The bottom robot will move [i]differently for everyone[/i]!"
-msgstr ""
+msgstr "robot​ ខាងក្រោមនឹងផ្លាស់ទី [i]ខុសគ្នាសម្រាប់ អ្នកលេងម្នាក់ៗ[/i]!"
 
 #: course/lesson-11-time-delta/lesson.tres:215
 msgid ""
 "Multiplying time-sensitive values by [code]delta[/code] makes them [b"
 "]time-dependent[/b] rather than [b]frame-dependent[/b]."
 msgstr ""
+"ការគុណតម្លៃ ដែលអាស្រ័យពេលវេលានឹង [code]delta[/code] ធ្វើឱ្យវា [b]អាស្រ័យលើពេលវេលា[/b] "
+"ជាជាង [b]អាស្រ័យលើ frame[/b]។"
 
 msgid "Thanks to that, we get reliable movement over time."
-msgstr ""
+msgstr "អរគុណ ចំពោះរឿងនេះ, យើងទទួលបាន ចលនាដែលអាចទុកចិត្ត បានតាមពេលវេលា។"
 
 msgid ""
 "Frame times vary from computer to computer and from frame to frame during"
@@ -281,75 +342,87 @@ msgid ""
 "movement speed will differ for each player, making the game inconsistent "
 "and messy."
 msgstr ""
+"ពេលវេលា frame ប្រែប្រួលពី កុំព្យូទ័រមួយទៅមួយ និងពី frame មួយទៅមួយក្នុង អំឡុងពេលលេង។ ដោយសារពេលវេ"
+"លា frame ប្រែប្រួល, បើមិនប្រើ [code]delta[/code], ល្បឿនផ្លាស់ទីនឹងខុសគ្នា សម្រាប់អ្នកលេងម្នាក់"
+"ៗ, ធ្វើឱ្យហ្គេម មិនស្ថិតស្ថេរ និងច្របូកច្របល់ វល់ពេញនឹង អ្នកមានកំព្យូទ័រខ្លាំង រត់លឿនជាង​ អ្នកមាន កំព្យូ"
+"រទ័រ ខ្សោយបែរជា រត់យឺតទៅវិញ។"
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
-msgstr ""
+msgstr "តើវាមានន័យថាម៉េច?"
 
 #: course/lesson-11-time-delta/lesson.tres:228
 msgid "[code]rotation_speed * delta[/code]"
-msgstr ""
+msgstr "[code]rotation_speed * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
 msgid ""
 "The [code]*[/code] symbol means we're multiplying "
 "[code]rotation_speed[/code] by [code]delta[/code]."
 msgstr ""
+"និមិត្តសញ្ញា [code]*[/code] មានន័យថាយើងកំពុង គុណ [code]rotation_speed[/code] នឹង "
+"[code]delta[/code]។"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're multiplying rotation_speed by delta."
-msgstr ""
+msgstr "យើងកំពុង គុណ rotation_speed នឹង delta។"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're dividing delta by rotation_speed."
-msgstr ""
+msgstr "យើងកំពុង​ ចែក delta នឹង rotation_speed។"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're adding rotation_speed to delta."
-msgstr ""
+msgstr "យើងកំពុង បូក rotation_speed ទៅ delta។"
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're subtracting delta from rotation_speed."
-msgstr ""
+msgstr "យើងកំពុង ដក delta ពី rotation_speed។"
 
 #: course/lesson-11-time-delta/lesson.tres:241
 msgid "In the next practice, we'll use delta to make the rotation time-dependent."
 msgstr ""
+"ក្នុងការអនុវត្តបន្ទាប់, យើងនឹងប្រើ delta ដើម្បីធ្វើឱ្យការបង្វិលអាស្រ័យ លើពេលវេលា។"
 
 #: course/lesson-11-time-delta/lesson.tres:249
 msgid "Rotating Using Delta"
-msgstr ""
+msgstr "ការបង្វិលដោយប្រើ Delta"
 
 #: course/lesson-11-time-delta/lesson.tres:250
 msgid "At the moment, the rotation of the robot is frame-dependent."
-msgstr ""
+msgstr "នៅពេលនេះ, ការបង្វិលរបស់ ​robot អាស្រ័យលើ frame។"
 
 msgid "Add [code]delta[/code] to make the rotational speed time-dependent."
-msgstr ""
+msgstr "បន្ថែម [code]delta[/code] ដើម្បីធ្វើឱ្យល្បឿន​ បង្វិលអាស្រ័យលើ ពេលវេលា។"
 
 msgid "The robot should rotate [code]2[/code] radians per second."
-msgstr ""
+msgstr "robot គួរបង្វិល [code]2[/code] radians(រ៉ាដ្យង់) ក្នុង 1 វិនាទី។"
 
 #: course/lesson-11-time-delta/lesson.tres:270
 msgid "Moving in a Circle Using Delta"
-msgstr ""
+msgstr "ការផ្លាស់ទីជា រង្វង់ដោយប្រើ Delta"
 
 #: course/lesson-11-time-delta/lesson.tres:271
 msgid "In this practice, make the robot move in a smooth circle using delta."
 msgstr ""
+"ក្នុងការអនុវត្តនេះ, ធ្វើឱ្យ robot ផ្លាស់ទីជារង្វង់ ស្មើរលូន ដោយប្រើ delta។"
 
 msgid ""
 "The robot should rotate [code]2[/code] radians per second and move "
 "[code]100[/code] pixels per second forward. This combination makes it "
 "travel in a clockwise circle."
 msgstr ""
+"robot គួរបង្វិល [code]2[/code] radians ក្នុង​ 1វិនាទី និងផ្លាស់ទី [code]100[/code] "
+"pixels ក្នុង 1វិនាទី ទៅមុខ។ ការរួមបញ្ចូលគ្នា​នេះធ្វើឱ្យវាធ្វើដំណើរ ជារង្វង់តាម ទ្រនិចនាឡិកា។"
 
 msgid ""
 "[b]Note:[/b] Please write the values in the parentheses when calling the "
 "functions. If you define extra variables, we will not be able to check "
 "your practice."
 msgstr ""
+"[b]ចំណាំ:[/b] សូមសរសេរ​ តម្លៃក្នុងវង់ក្រចក ពេលហៅ functions។ បើអ្នកកំណត់ variables បន្ថែម, "
+"យើងនឹងមិនអាចពិនិត្យការអនុវត្តរបស់អ្នកបានទេ។"
 
 #: course/lesson-11-time-delta/lesson.tres:290
 msgid "Time Delta"
-msgstr ""
+msgstr "ពេលវេលា Delta"
