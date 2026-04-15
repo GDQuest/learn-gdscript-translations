@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-15 15:11+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-10-the-game-loop/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-10-the-game-loop/lesson.tres:14
@@ -25,39 +27,50 @@ msgid ""
 "the [code]show()[/code] and [code]hide()[/code] functions change the "
 "visibility of things."
 msgstr ""
+"ដូចដែលយើងបានឃើញ, Godot មាន func ដែល ធ្វើសកម្មភាពជាក់លាក់។ ឧទាហរណ៍, func [code]show"
+"()[/code] និង [code]hide()[/code] ផ្លាស់ប្តូរ ការមើលឃើញ របស់វត្ថុ។"
 
 msgid ""
 "We can also create our own functions to make custom effects like adding "
 "or removing health to a character."
 msgstr ""
+"យើងក៏អាចបង្កើត func ផ្ទាល់ខ្លួន ដើម្បីបង្កើតឥទ្ធិពល តាមបំណង ដូចជាបន្ថែម ឬ ដកឈាមពីតួអង្គ។"
 
 msgid "Godot also has special functions we can customize or add to."
-msgstr ""
+msgstr "Godot ក៏មាន func ពិសេសៗដែលយើងអាចកែតម្រូវ ឬបន្ថែមបាន។"
 
 msgid "Take the [code]_process()[/code] function."
-msgstr ""
+msgstr "យកឧទាហរណ៍ func [code]_process()[/code]។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:40
 msgid ""
 "The [code]_process()[/code] function gets its name because it does "
 "calculations or continuous actions."
 msgstr ""
+"func [code]_process()[/code] មានឈ្មោះបែបនេះ ព្រោះវាធ្វើការគណនា ឬសកម្មភាពបន្ត។"
 
 msgid ""
 "It's like a juice factory that [b]processes[/b] juice bottles: the "
 "bottles are always moving along a conveyor belt, while different machines"
 " operate on them."
 msgstr ""
+"វាដូចទៅនឹង ដបទឹកក្រឡុកតែងតែផ្លាស់ទីជាបន្តបន្ទាប់តាម [b]ខ្សែក្រវ៉ាត់ដឹកជញ្ជូន[/b] (conveyor "
+"belt) ដោយមិនឈប់។ រីឯ [b]ម៉ាស៊ីននីមួយៗ[/b] ដែលនៅតាមផ្លូវនោះ នឹងធ្វើការងារផ្សេងៗគ្នាលើដបនីមួយៗ "
+"ដូចជា៖ ម៉ាស៊ីនខ្លះសម្រាប់ [b]ចាក់ទឹកក្រឡុក[/b] ចូលដប ម៉ាស៊ីនខ្លះសម្រាប់ [b]បិទគម្រប[/b] ម៉ាស៊ីនខ្លះទៀ"
+"តសម្រាប់ [b]ដាក់ស្លាក[/b] ឬ [b]វេចខ្ចប់[/b] ដបទឹកក្រឡុកនៅតែ [b]បន្តផ្លាស់ទី[/b] ទៅមុខជានិច្ច "
+"ខណៈដែល ម៉ាស៊ីននីមួយៗ [b]អនុវត្តការងារដដែលៗ[/b] របស់វាទៅលើដបនោះ។ វាដូចជាការដំណើរការនៃ "
+"[code]loop[/code] ក្នុងកម្មវិធីកុំព្យូទ័រអញ្ចឹង លុះត្រាតែលក្ខខណ្ឌ ណាមួយត្រូវបានបំពេញ ទើបវាឈប់។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:52
 msgid ""
 "It's similar in Godot, but this function can run [b]hundreds of times a "
 "second[/b]."
 msgstr ""
+"វាស្រដៀងគ្នានៅក្នុង Godot, ប៉ុន្តែ func នេះអាចដំណើរការបាន [b]រាប់រយដងក្នុងមួយវិនាទី[/b]។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:60
 msgid "How many parameters does this function take?"
-msgstr ""
+msgstr "func នេះទទួលយក parameter (តម្លៃបញ្ចូល) ចំនួនប៉ុន្មាន?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:61
 msgid ""
@@ -65,140 +78,165 @@ msgid ""
 "func _process(delta):\n"
 "[/code]"
 msgstr ""
+"[code]\n"
+"func _process(delta):\n"
+"[/code]"
 
 #: course/lesson-10-the-game-loop/lesson.tres:65
 msgid ""
 "The [code]_process()[/code] function takes one parameter: "
 "[code]delta[/code]."
 msgstr ""
+"func [code]_process()[/code] ទទួលយក parameter តែមួយគត់៖ [code]delta[/code]។"
 
 msgid ""
 "We'll look at what [code]delta[/code] is in the next lesson, as well as "
 "show how to use it."
 msgstr ""
+"យើងនឹងមើលថា [code]delta[/code] គឺជាអ្វីនៅមេរៀនបន្ទាប់, ព្រមទាំងបង្ហាញពីរបៀបប្រើវា។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: course/lesson-10-the-game-loop/lesson.tres:68
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: course/lesson-10-the-game-loop/lesson.tres:78
 msgid ""
 "The [code]_process()[/code] function won't do anything until we add "
 "something to it."
 msgstr ""
+"func [code]_process()[/code] នឹងមិនធ្វើអ្វីសោះ រហូតដល់យើងបន្ថែមអ្វីមួយចូលទៅក្នុងវា។"
 
 msgid ""
 "You might notice the underscore [code]_[/code] in front of the function "
 "name. This is a convention programmers use to coordinate work, and it'll "
 "only make sense once you have experience coding in Godot."
 msgstr ""
+"អ្នកប្រហែលជាចំណាំឃើញសញ្ញា underscore [code]_[/code] នៅពីមុខឈ្មោះ func។ នេះគឺជា ការអនុវត្"
+"តដែល អ្នកសរសេរកូដប្រើ ដើម្បីសម្របសម្រួលការងារ, ហើយវានឹងមានន័យ លុះត្រាតែ អ្នកមានបទពិសោធន៍ សរ"
+"សេរកូដក្នុង Godot។"
 
 msgid ""
 "For now, all you need to know is that if the function exists in your "
 "code, and it is called precisely [code]_process[/code], then Godot will "
 "automatically run it every [i]frame[/i]."
 msgstr ""
+"ចំពោះពេលនេះ, អ្វីដែលអ្នកត្រូវដឹងគឺថា បើ func មាននៅក្នុងកូដរបស់អ្នក, ហើយវាមានឈ្មោះថា "
+"[code]_process[/code] យ៉ាងត្រឹមត្រូវ, នោះ Godot នឹងដំណើរការវា ដោយស្វ័យប្រវត្តិរាល់ "
+"[i]frame[/i] (ក្រប)។"
 
 msgid "When Godot draws on the screen, we call that a frame."
-msgstr ""
+msgstr "នៅពេល Godot គូរលើអេក្រង់, យើងហៅវាថា frame។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:92
 msgid "Is this the same for other engines?"
-msgstr ""
+msgstr "តើវាដូចគ្នាសម្រាប់ engine ផ្សេងទៀតដែរឬទេ?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:94
 msgid "Other game engines might use different names like [code]_update()[/code]."
-msgstr ""
+msgstr "engine game ផ្សេងៗអាចប្រើឈ្មោះផ្សេងៗដូចជា [code]_update()[/code]។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:102
 msgid "Why is the _process() function useful?"
-msgstr ""
+msgstr "ហេតុអ្វីបានជា func [code]_process()[/code] មានប្រយោជន៍?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:104
 msgid "It's perhaps better to see the [code]_process()[/code] function in action."
 msgstr ""
+"ប្រហែលជា ល្អជាងមុនក្នុងការមើល func [code]_process()[/code] កំពុងដំណើរការ។"
 
 msgid "Take the following example."
-msgstr ""
+msgstr "យកឧទាហរណ៍ខាងក្រោម។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:126
 msgid ""
 "When you click the button [code]set_process(true)[/code], you activate "
 "processing on the robot."
 msgstr ""
+"នៅពេលអ្នក ចុចប៊ូតុង [code]set_process(true)[/code], អ្នកបើកដំណើរការលើ robot។"
 
 msgid "From there, every frame, Godot runs the [code]_process()[/code] function."
-msgstr ""
+msgstr "ចាប់ពីពេលនោះ, រាល់ frame, Godot ដំណើរការ func [code]_process()[/code]។"
 
 msgid ""
 "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the"
 " character by [code]0.05[/code] radians [b]many[/b] times a second."
 msgstr ""
+"ដោយសារយើង បានសរសេរ instruction [code]rotate()[/code], Godot កំពុងបង្វិលតួអង្គដោយ "
+"[code]0.05[/code] radians [b]ច្រើន[/b] ដងក្នុងមួយវិនាទី។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:138
 msgid "How often does the _process() function run?"
-msgstr ""
+msgstr "func [code]_process()[/code] ដំណើរការញឹកញាប់ប៉ុណ្ណា?"
 
 #: course/lesson-10-the-game-loop/lesson.tres:141
 msgid "The faster your computer, the more times [code]_process()[/code] will run."
 msgstr ""
+"កុំព្យូទ័ររបស់អ្នក លឿនប៉ុន្មាន, func [code]_process()[/code] នឹងដំណើរការច្រើនដងប៉ុណ្ណោះ។"
 
 msgid ""
 "Godot will try and run [code]_process()[/code] as quickly as it can. This"
 " makes sure any movement or animations look smooth and fluid."
 msgstr ""
+"Godot នឹងព្យាយាមដំណើរការ [code]_process()[/code] ឱ្យលឿនតាមដែលអាចធ្វើទៅបាន។ វាធានា"
+"ថាចលនា ឬចលនាគំនូរណាមួយមើលទៅរលូននិងធម្មជាតិ។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
 msgid "Once a second."
-msgstr ""
+msgstr "ម្តងក្នុងមួយវិនាទី។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:144
 msgid "Multiple times a second."
-msgstr ""
+msgstr "ច្រើនដងក្នុងមួយវិនាទី។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:154
 msgid ""
 "In the practice, you'll learn how to use the process function to rotate "
 "and move a character yourself."
 msgstr ""
+"នៅក្នុងការអនុវត្ត, អ្នកនឹងរៀនពីរបៀបប្រើ func process ដើម្បីបង្វិលនិងផ្លាស់ទីតួអង្គដោយខ្លួនឯង។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:162
 msgid "Rotating a Character Continuously"
-msgstr ""
+msgstr "ការបង្វិលតួអង្គ ជាបន្តបន្ទាប់"
 
 #: course/lesson-10-the-game-loop/lesson.tres:163
 msgid ""
 "Make the robot rotate slowly by adding to the [code]_process()[/code] "
 "function."
-msgstr ""
+msgstr "ធ្វើឱ្យ robot បង្វិលយឺតៗ ដោយបន្ថែមទៅក្នុង func [code]_process()[/code]។"
 
 msgid "A rotation speed of about [code]0.05[/code] each frame should do."
-msgstr ""
+msgstr "ល្បឿនបង្វិល ប្រហែល [code]0.05[/code] ក្នុងមួយ frame គឺគ្រប់គ្រាន់។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:181
 msgid "Creating Circular Movement"
-msgstr ""
+msgstr "ការបង្កើតចលនារង្វង់"
 
 #: course/lesson-10-the-game-loop/lesson.tres:182
 msgid ""
 "Make the robot move in a large circle slowly by rotating it and "
 "simultaneously moving it along its x direction."
 msgstr ""
+"ធ្វើឱ្យ robot ផ្លាស់ទីជារង្វង់ធំ យឺតៗ ដោយបង្វិលវា ហើយក្នុងពេលតែមួយផ្លាស់ទីតាមទិស x របស់វា។"
 
 msgid ""
 "To do this, add the [code]rotate()[/code] and [code]move_local_x()[/code]"
 " functions to [code]_process()[/code]."
 msgstr ""
+"ដើម្បីធ្វើបែបនេះ, បន្ថែម func [code]rotate()[/code] និង [code]move_local_x()[/"
+"code] ទៅក្នុង [code]_process()[/code]។"
 
 msgid ""
 "Use a rotation speed of [code]0.05[/code] radians per frame, and move the"
 " robot [code]5[/code] pixels per frame."
 msgstr ""
+"ប្រើល្បឿនបង្វិល [code]0.05[/code] radians ក្នុងមួយ frame, ហើយផ្លាស់ទីrobot [code]5[/"
+"code] pixels ក្នុងមួយ frame។"
 
 #: course/lesson-10-the-game-loop/lesson.tres:201
 msgid "The Game Loop"
-msgstr ""
+msgstr "Game Loop (រង្វិលជុំ Game)"
