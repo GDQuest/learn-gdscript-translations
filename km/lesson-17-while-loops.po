@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-15 15:11+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-17-while-loops/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-17-while-loops/lesson.tres:14
@@ -25,27 +27,35 @@ msgid ""
 "lesson, you'll learn about [b]loops[/b]. Loops help you [i]repeat[/i] "
 "code."
 msgstr ""
+"អ្នកបានឃើញថា អ្នកអាចប្រើ func ដើម្បីយកមក [i]ប្រើម្តងទៀត[/i] ។ ក្នុងមេរៀននេះ អ្នកនឹងរៀនអំ"
+"ពី [b]loops[/b] (រង្វិលជុំកូដ)។ Loops ជួយអ្នក [i]ធ្វើម្តងទៀត[/i] ក្នុងកូដ។"
 
 msgid "To illustrate how loops work, let's take a game board split into a grid."
 msgstr ""
+"ដើម្បីបង្ហាញពីរបៀបដែល loops (រង្វិលជុំកូដ) ដំណើរការ ចូរយើងមើល ក្តារលេងហ្គេមដែល បែងចែកជាបណ្"
+"តាញ។"
 
 msgid ""
 "Our robot can move to neighboring cells by changing a "
 "[code]Vector2[/code] variable named [code]cell[/code]. It represents the "
 "current cell the robot is in."
 msgstr ""
+"robot របស់យើងអាចផ្លាស់ទីទៅកាន់ក្រឡាជិតខាង ដោយផ្លាស់ប្តូរអថេរ [code]Vector2[/code] ឈ្មោះ "
+"[code]cell[/code]។ វាតំណាងឱ្យក្រឡាបច្ចុប្បន្នដែល robot កំពុងនៅ។"
 
 msgid "When we increase [code]cell.x[/code], the robot moves to the right."
-msgstr ""
+msgstr "ពេលយើងបង្កើន [code]cell.x[/code] robot នឹងផ្លាស់ទីទៅខាងស្តាំ។"
 
 msgid ""
 "Note that we delay the robot's movement in the app to help you visualize "
 "how it moves. The following code would normally move the robot instantly."
 msgstr ""
+"ចំណាំ៖ យើងពន្យារពេល​ ការផ្លាស់ទីរបស់ robot ក្នុងកម្មវិធី ដើម្បីជួយឱ្យ អ្នកមើលឃើញពី​ របៀបដែលវាផ្លាស់"
+"ទី។ កូដខាងក្រោម ជាធម្មតានឹងផ្លាស់ទី robot ភ្លាមៗ។"
 
 #: course/lesson-17-while-loops/lesson.tres:42
 msgid "We can move diagonally by adding a [code]Vector2[/code] directly."
-msgstr ""
+msgstr "យើងអាចផ្លាស់ទីជា ទិសទ្រេត ដោយបន្ថែម [code]Vector2[/code] ដោយផ្ទាល់។"
 
 #: course/lesson-17-while-loops/lesson.tres:62
 msgid ""
@@ -53,21 +63,25 @@ msgid ""
 "[code]Vector2(3, 3)[/code], but the [code]move_to_end()[/code] function "
 "wouldn't work if the size of the board was different."
 msgstr ""
+"កូដខាងលើ ដំណើរការសម្រាប់ក្តា​ រដែលកំណត់ជាមុនដែលមានទំហំ [code]Vector2(3, 3)[/code] ប៉ុន្តែ "
+"func [code]move_to_end()[/code] នឹងមិនដំណើរការទេ ប្រសិនបើទំហំក្តារខុសគ្នា។"
 
 msgid "The robot would either stop before the end or go too far."
-msgstr ""
+msgstr "robot នឹងឈប់មុនពេលដល់ចុង ឬផ្លាស់ទីឆ្ងាយពេក។"
 
 msgid ""
 "To implement a general solution for all board sizes, we can repeat the "
 "robot's movement until it gets to the end."
 msgstr ""
+"ដើម្បីអនុវត្តដំណោះស្រាយ ទូទៅសម្រាប់ ទំហំក្តារទាំងអស់ យើងអាចធ្វើឱ្យ ការផ្លាស់ទីរបស់ robot ធ្វើម្តងទៀ"
+"ត រហូតដល់វាដល់ចុង។"
 
 msgid "For code that repeats, we can use [i]loops[/i]."
-msgstr ""
+msgstr "សម្រាប់កូដដែលត្រូវធ្វើម្តងទៀត យើងអាចប្រើ [i]loops[/i] (រង្វិលជុំកូដ)។"
 
 #: course/lesson-17-while-loops/lesson.tres:76
 msgid "Using while loops to repeat code"
-msgstr ""
+msgstr "ការប្រើ while loops (រង្វិលជុំ while) ដើម្បីធ្វើកូដ រត់ម្តងទៀត"
 
 #: course/lesson-17-while-loops/lesson.tres:78
 msgid ""
@@ -75,133 +89,168 @@ msgid ""
 " of code until you meet a specific condition or decide to break from the "
 "loop."
 msgstr ""
+"អ្នកអាចប្រើ [code]while[/code] loop (រង្វិលជុំ while) ដើម្បីឱ្យកុំព្យូទ័រ ធ្វើម្តងទៀតនូវកំណាត់កូដ"
+"មួយ រហូតដល់អ្នកជួប លក្ខខណ្ឌជាក់លាក់ ឬសម្រេចចិត្តចាកចេញពី loop។"
 
 msgid "Here's how we use a [code]while[/code] loop."
 msgstr ""
+"ខាងក្រោម នេះជារបៀប ដែលយើងប្រើ [code]while[/code] loop (រង្វិលជុំ while)។"
 
 #: course/lesson-17-while-loops/lesson.tres:100
 msgid ""
 "We use the variable [code]number[/code] to keep track of how many loops "
 "the [code]while[/code] loop completes."
 msgstr ""
+"យើងប្រើ អថេរ variable [code]number[/code] ដើម្បីតាមដានថា [code]while[/code] "
+"loop (រង្វិលជុំ while) បានធ្វើចំនួនប៉ុន្មានដង។"
 
 msgid ""
 "Each time we go through the [code]while[/code] loop, we add "
 "[code]1[/code] to [code]number[/code]."
 msgstr ""
+"រាល់ពេលដែលយើងឆ្លងកាត់ [code]while[/code] loop (រង្វិលជុំ while) យើងបន្ថែម [code]1[/"
+"code] ទៅ [code]number[/code]។"
 
 msgid ""
 "The [code]while[/code] loop keeps running for as long as the condition is"
 " true. In this case, it keeps running while [code]number[/code] is less "
 "than [code]4[/code]."
 msgstr ""
+"រង្វិល [code]while[/code] នឹងបន្តដំណើរការ ដរាបណាលក្ខខណ្ឌនៅតែពិត (true)។ ក្នុងករណីនេះ វានឹ"
+"ងបន្តដំណើរការ ដរាបណា [code]number[/code] តិចជាង [code]4[/code]។"
 
 msgid "You can see that the following code is executed four times in the console."
-msgstr ""
+msgstr "អ្នកអាចមើលឃើញថា កូដខាងក្រោមត្រូវបានដំណើរកា រចំនួនបួនដងនៅក្នុង console។"
 
 #: course/lesson-17-while-loops/lesson.tres:126
 msgid "Let's apply this to our [code]move_to_end()[/code] function."
-msgstr ""
+msgstr "ចូរយើង អនុវត្តវាទៅលើ func [code]move_to_end()[/code] របស់យើង។"
 
 msgid ""
 "This time, we compare the number of loops to the board's width. We go "
 "through the loop until we reach the width of the board."
 msgstr ""
+"លើកនេះ យើងប្រៀបធៀបចំនួនដងនៃ loop ទៅនឹងទទឹងរបស់ក្តារ។ យើងឆ្លងកាត់ loop រហូតដល់យើងដល់ទទឹងរបស់"
+"ក្តារ។"
 
 msgid ""
 "Note that we move the robot until its position is one less than the "
 "board's width because we are counting tiles from [code]0[/code]."
 msgstr ""
+"ចំណាំ៖ យើងផ្លាស់ទី robot រហូតដល់ទីតាំងរបស់វាតិចជាង ទទឹងក្តារមួយ ព្រោះយើង រាប់ក្រឡាចាប់ពី "
+"[code]0[/code]។"
 
 msgid ""
 "A board of [code]3[/code] by [code]3[/code] cells would have cell "
 "coordinates going from [code]0[/code] to [code]2[/code] on both the X and"
 " Y axes."
 msgstr ""
+"ក្តារដែលមាន [code]3[/code] ដង [code]3[/code] ក្រឡា នឹងមាន កូអរដោនេក្រឡាចាប់ពី "
+"[code]0[/code] ដល់ [code]2[/code] លើអ័ក្សទាំងពីរ X និង Y។"
 
 #: course/lesson-17-while-loops/lesson.tres:160
 msgid "While loops can cause issues"
-msgstr ""
+msgstr "While loops (រង្វិលជុំ while) អាចបង្កបញ្ហា"
 
 #: course/lesson-17-while-loops/lesson.tres:162
 msgid ""
 "If you're not careful, your [code]while[/code] loop can run infinitely. "
 "In that case, the application will freeze."
 msgstr ""
+"ប្រសិន បើអ្នកមិនប្រុងប្រយ័ត្ន [code]while[/code] loop (រង្វិលជុំ while) របស់អ្នកអាច ដំណើរការគ្"
+"មានទីបញ្ចប់។ ក្នុងករណីនោះ កម្មវិធី នឹងជាប់គាំង។"
 
 msgid "Take a look at this code example."
-msgstr ""
+msgstr "ចូរមើល ឧទាហរណ៍កូដនេះ។"
 
 #: course/lesson-17-while-loops/lesson.tres:182
 msgid "What would happen if the computer tried to run the code above?"
-msgstr ""
+msgstr "តើអ្វីនឹងកើតឡើង ប្រសិនបើកុំព្យូទ័រ ព្យាយាមដំណើរការកូដខាងលើ?"
 
 #: course/lesson-17-while-loops/lesson.tres:185
 msgid ""
 "Because we don't increment [code]number[/code] within the "
 "[code]while[/code] loop, it always stays at [code]0[/code]."
 msgstr ""
+"ព្រោះយើងមិនបង្កើន [code]number[/code] ក្នុង [code]while[/code] loop (រង្វិលជុំ while) "
+"វានឹងនៅតែ [code]0[/code] ជានិច្ច។"
 
 msgid ""
 "As a result, the number is always lower than [code]10[/code], so we never"
 " break out of the loop."
 msgstr ""
+"ជាលទ្ធផល លេខនឹងតិចជាង [code]10[/code] ជានិច្ច ដូច្នេះយើង មិនដែលចាកចេញពី loop ទេ។"
 
 msgid ""
 "Since there's no way to exit the [code]while[/code] loop, the computer "
 "will attempt to draw squares infinitely, which will freeze the program."
 msgstr ""
+"ដោយសារគ្មាន វិធីចាកចេញពី [code]while[/code] loop (រង្វិលជុំ while) ទេ កុំព្យូទ័រនឹង ព្យាយាមគូ"
+"រការេគ្មានទីបញ្ចប់ ដែលនឹងធ្វើឱ្យកម្មវិធីជាប់គាំង។"
 
 msgid ""
 "When programs stop responding on your computer, it's often due to an "
 "infinite loop!"
 msgstr ""
+"ពេលដែលកម្មវិធីឈប់ឆ្លើយតប នៅលើកុំព្យូទ័ររបស់អ្នក វាច្រើនតែបណ្តាលមកពី infinite loop (រង្វិលជុំគ្មាន"
+"ទីបញ្ចប់)!"
 
 #: course/lesson-17-while-loops/lesson.tres:192
 msgid "It would draw squares infinitely until the program is terminated"
-msgstr ""
+msgstr "វានឹងគូរការេគ្មានទីបញ្ចប់ រហូតដល់កម្មវិធីត្រូវបានបញ្ឈប់"
 
 #: course/lesson-17-while-loops/lesson.tres:192
 msgid "It would draw 10 squares"
-msgstr ""
+msgstr "វានឹងគូរការេចំនួន 10"
 
 #: course/lesson-17-while-loops/lesson.tres:192
 msgid "It would draw 20 squares"
-msgstr ""
+msgstr "វានឹងគូរការេចំនួន 20"
 
 #: course/lesson-17-while-loops/lesson.tres:200
 msgid "When to use while loops"
-msgstr ""
+msgstr "ពេលណាដែលត្រូវប្រើ while loops (រង្វិលជុំ while)"
 
 #: course/lesson-17-while-loops/lesson.tres:202
 msgid ""
 "At first, you will not need [code]while[/code] loops often. Even the code"
 " we show here has more efficient alternatives."
 msgstr ""
+"ដំបូងឡើយ អ្នកនឹងមិនត្រូវការ [code]while[/code] loops (រង្វិលជុំ while) ញឹកញាប់ទេ។ សូម្បីតែកូដ"
+"ដែលយើង បង្ហាញនៅទីនេះ ក៏មានជម្រើសដែលមានប្រសិទ្ធភាពជាងនេះដែរ។"
 
 msgid ""
 "Also, there's a safer kind of loop, [code]for[/code] loops, which we'll "
 "look at in the next lesson."
 msgstr ""
+"លើសពីនេះ មានប្រភេទ loop (រង្វិលជុំ) ដែលមានសុវត្ថិភាពជាង គឺ [code]for[/code] loops ដែលយើ"
+"ងនឹងមើល នៅមេរៀនបន្ទាប់។"
 
 msgid ""
 "Yet, [code]while[/code] loops have important intermediate to advanced-"
 "level uses, so you at least need to know they exist and how to use them."
 msgstr ""
+"ទោះជាយ៉ាងណា [code]while[/code] loops (រង្វិលជុំ while) មានការប្រើប្រាស់សំខាន់ៗ កម្រិតមធ្យ"
+"ម ដល់ កម្រិតខ្ពស់ ដូច្នេះ អ្នកយ៉ាងហោចណាស់ ត្រូវដឹងថាវាមាន និងរបៀបប្រើវា។"
 
 msgid ""
 "We use [code]while[/code] loops every time we need to loop an unknown "
 "number of times."
 msgstr ""
+"យើងប្រើ [code]while[/code] loops (រង្វិលជុំ while) រាល់ពេលដែល យើងត្រូវធ្វើរង្វិលជុំ ចំនួនដង"
+"ដែលមិនដឹងជាមុន។"
 
 msgid ""
 "For example, games run in a loop that typically generates sixty images "
 "per second until the user closes the game. This is possible thanks to "
 "[code]while[/code] loops."
 msgstr ""
+"ឧទាហរណ៍៖ ហ្គេមដំណើរការ ក្នុងរង្វិលជុំដែល ជាធម្មតា បង្កើតរូបភាពចំនួន 60 ក្នុងមួយវិនាទី រហូតដល់អ្នកប្"
+"រើបិទហ្គេម។ រឿងនេះអាចធ្វើទៅបាន ដោយសារ [code]while[/code] loops (រង្វិលជុំ while)។"
 
 msgid "There are other good uses for [code]while[/code] loops:"
 msgstr ""
+"មានការប្រើប្រាស់ល្អៗ ផ្សេងទៀតសម្រាប់ [code]while[/code] loops (រង្វិលជុំ while)៖"
 
 msgid ""
 "- Reading and processing a file, like a text document, line by line.\n"
@@ -212,50 +261,67 @@ msgid ""
 "- Various intermediate to advanced-level algorithms, like finding paths "
 "around a map for AI."
 msgstr ""
+"- អាននិងដំណើរការ ឯកសារ ដូចជា ឯកសារអត្ថបទ តាមបន្ទាត់ៗ។\n"
+"- ដំណើរការ លំហូរទិន្នន័យថេរ ដូចជាការថតសំឡេងដោយប្រើមីក្រូហ្វូន។\n"
+"- អានកូដ និងបំលែង វាទៅជា ពាក្យដែលកុំព្យូទ័រយល់។\n"
+"- ក្បួនដោះស្រាយ(algorithms) កម្រិតមធ្យម​ ដល់ កម្រិតខ្ពស់ផ្សេងៗ ដូចជាការស្វែងរក​ ផ្លូវជុំវិញផែនទី​ សម្"
+"រាប់ AI (បញ្ញាសិប្បនិម្មិត)។"
 
 #: course/lesson-17-while-loops/lesson.tres:227
 msgid ""
 "Let's practice some [code]while[/code] loops, as they're useful to know. "
 "It's also an excellent opportunity to practice 2D vectors."
 msgstr ""
+"ចូរយើងអនុវត្ត [code]while[/code] loops (រង្វិលជុំ while) បន្តិច ព្រោះវាមានប្រយោជន៍ក្នុងការដឹ"
+"ង។ វាក៏ជាឱកាសដ៏ល្អដើម្បីអនុវត្ត 2D vectors (វ៉ិចទ័រ 2 វិមាត្រ) ផងដែរ។"
 
 msgid ""
 "Then, we'll move on to the safer [code]for[/code] loops in the following "
 "lesson."
 msgstr ""
+"បន្ទាប់មក យើងនឹងឈាន​ ទៅរក [code]for[/code] loops (រង្វិលជុំ for) ដែលមាន​ សុវត្ថិភាពជាងនៅ"
+"មេរៀនបន្ទាប់។"
 
 #: course/lesson-17-while-loops/lesson.tres:237
 msgid "Moving to the end of a board"
-msgstr ""
+msgstr "ផ្លាស់ទី ទៅចុងក្តារ"
 
 #: course/lesson-17-while-loops/lesson.tres:238
 msgid "Our robot has decided to stand at the top of the board."
-msgstr ""
+msgstr "robot របស់យើងបានសម្រេចចិត្តឈរនៅផ្នែកខាងលើនៃក្តារ។"
 
 msgid ""
 "Complete the [code]move_to_bottom()[/code] function so the robot moves to"
 " the bottom of the board."
 msgstr ""
+"បំពេញ func [code]move_to_bottom()[/code] ដើម្បីឱ្យ​ robot ផ្លាស់ទីទៅផ្នែកខាងក្រោមនៃក្តារ"
+"។"
 
 msgid ""
 "The board size is determined by the [code]Vector2[/code] variable named "
 "[code]board_size[/code]."
 msgstr ""
+"ទំហំក្តារ​ ត្រូវបានកំណត់ដោយអថេរ​​ variable [code]Vector2[/code] ឈ្មោះ [code]board_size[/"
+"code]។"
 
 msgid "The robot's starting cell is [code]Vector2(2, 0)[/code]."
-msgstr ""
+msgstr "ក្រឡាចាប់ផ្តើមរបស់ robot គឺ [code]Vector2(2, 0)[/code]។"
 
 msgid ""
 "Make sure to use a [code]while[/code] loop so the function works for any "
 "board size."
 msgstr ""
+"ចាំបាច់ត្រូវប្រើ [code]while[/code] loop (រង្វិលជុំ while) ដើម្បីឱ្យ func ដំណើរការសម្រាប់ទំហំក្"
+"តារណាមួយ។"
 
 #: course/lesson-17-while-loops/lesson.tres:257
 msgid ""
 "Use a while loop to have our robot move from the top of the board to the "
 "bottom."
 msgstr ""
+"ប្រើ while loop (រង្វិលជុំ while) ដើម្បីឱ្យrobot របស់យើងផ្លាស់ទីពីផ្នែកខាងលើនៃក្តារទៅផ្នែកខាង"
+"ក្រោម។"
 
 #: course/lesson-17-while-loops/lesson.tres:261
 msgid "Introduction to While Loops"
-msgstr ""
+msgstr "សេចក្តីផ្តើមអំពី While Loops (រង្វិលជុំ while)"
