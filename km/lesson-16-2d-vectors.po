@@ -9,38 +9,44 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-17 06:09+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-16-2d-vectors/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-16-2d-vectors/lesson.tres:14
 msgid "Suppose we want to increase the size of the robot when it levels up."
-msgstr ""
+msgstr "ឧបមាថាយើងចង់បង្កើនទំហំរបស់ robot នៅពេលវាឡើងកម្រិត​​ levels។"
 
 msgid "As you may recall, we do this by using the following code."
-msgstr ""
+msgstr "ដូចដែលអ្នកប្រហែលជាចាំបាន យើងធ្វើបែបនេះ ដោយប្រើកូដខាងក្រោម។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:36
 msgid ""
 "As we talked about in lesson 7, the [code]scale[/code] variable has two "
 "sub-variables to it: [code]x[/code] and [code]y[/code]."
 msgstr ""
+"ដូចដែលយើងបាន និយាយនៅមេរៀនទី7 Variable(អថេរ) [code]scale(ទំហំ)[/code] មាន sub-"
+"variable(អថេររង) ពីរគឺ៖ [code]x[/code] និង [code]y[/code]។"
 
 msgid ""
 "This is because [code]scale[/code] is a [code]Vector2[/code], which "
 "stands for two-dimensional vector. A [code]Vector2[/code] represents 2D "
 "coordinates."
 msgstr ""
+"ព្រោះថា [code]scale[/code] គឺជា [code]Vector2[/code] (វ៉ិចទ័រពីរវិមាត្រ)។ "
+"[code]Vector2[/code] តំណាងឱ្យកូអរដោនេ 2D។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:46
 msgid "What are vectors?"
-msgstr ""
+msgstr "តើវ៉ិចទ័រ (vectors) គឺជាអ្វី?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:48
 msgid ""
@@ -48,23 +54,30 @@ msgid ""
 " example, a force applied to some object, the velocity (speed and "
 "direction) of a character, and so on."
 msgstr ""
+"វ៉ិចទ័រ (vector) នៅក្នុងរូបវិទ្យា គឺជាបរិមាណដែលវាមានទាំង​ ទំហំ និង ទិសដៅ។ ឧទាហរណ៍៖ កម្លាំងដែលមា"
+"ន អំពើទៅលើវត្ថុណាមួយ, ល្បឿន(មានទាំងល្បឿន និងទិសដៅ) របស់តួអង្គជាដើម។"
 
 msgid "We often represent this quantity with an arrow."
-msgstr ""
+msgstr "យើងច្រើនតែ បង្ហាញបរិមាណនេះដោយ ប្រើព្រួញ។"
 
 msgid "In Godot, 2D vectors are a common value type named [code]Vector2[/code],"
 msgstr ""
+"នៅក្នុង Godot (ម៉ាស៊ីនលេងហ្គេម), វ៉ិចទ័រ 2D ​ ( 2D Vector ) គឺជាប្រភេទ តម្លៃទូទៅមួយដែលមានឈ្"
+"មោះថា [code]Vector2[/code] (សូមចង់ចាំ)"
 
 msgid ""
 "Unlike plain numbers, they store [i]two[/i] decimal numbers: one for the "
 "X coordinate and one for the Y coordinate."
 msgstr ""
+"ផ្ទុយពីលេខធម្មតា វាផ្ទុកលេខ ទសភាគ [i]ពីរ[/i]៖ មួយសម្រាប់ កូអរដោនេ X និងមួយទៀតសម្រាប់ កូអរដោ"
+"នេ Y។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:72
 msgid ""
 "So far, you've come across two variables in the course which are vectors."
 " Which are they?"
 msgstr ""
+"រហូតមកដល់ពេលនេះ អ្នកបានជួប variable (អថេរ) ពីរនៅក្នុងមេរៀនដែល ជាវ៉ិចទ័រ។ តើអ្វីខ្លះ?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:75
 msgid ""
@@ -72,49 +85,59 @@ msgid ""
 " [code]y[/code] sub-variables, so Godot uses a [code]Vector2[/code] to "
 "store their values."
 msgstr ""
+"ទាំង [code]scale(ទំហំ)[/code] និង [code]position(ទីតាំង)[/code] សុទ្ធតែមាន sub-"
+"variable(អថេររង) [code]x[/code] និង [code]y[/code] ដូច្នេះ Godot ប្រើ "
+"[code]Vector2[/code] ដើម្បីផ្ទុកតម្លៃរបស់វា។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 msgid "scale"
-msgstr ""
+msgstr "scale(ទំហំ)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 msgid "position"
-msgstr ""
+msgstr "position(ទីតាំង)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 msgid "health"
-msgstr ""
+msgstr "health(ឈាម)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:76
 msgid "speed"
-msgstr ""
+msgstr "speed(ល្បឿន)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:84
 msgid "Vectors are great for games"
-msgstr ""
+msgstr "វ៉ិចទ័រ (vectors) ល្អឥតខ្ចោះសម្រាប់ហ្គេម"
 
 #: course/lesson-16-2d-vectors/lesson.tres:86
 msgid "Vectors are [i]essential[/i] in video games."
-msgstr ""
+msgstr "វ៉ិចទ័រ (vectors) គឺ [i]ចាំបាច់[/i] នៅក្នុង Video games។"
 
 msgid ""
 "They allow you to represent a character's movement speed and direction, "
 "calculate the distance to a target, and more, with little code."
 msgstr ""
+"វាអនុញ្ញាតឱ្យអ្នកតំណាង ឱ្យល្បឿន និងទិសដៅ នៃចលនារបស់តួអង្គ, គណនាចម្ងាយទៅកាន់គោលដៅ, និងច្រើនទៀ"
+"ត, ដោយប្រើ កូដតិចតួច។"
 
 msgid ""
 "Take this turtle AI below. You've probably seen games where enemies move "
 "like this."
 msgstr ""
+"ចូលមើល AI (ប្រព័ន្ធឆ្លាតវៃសិប្បនិម្មិត) តួអង្គអណ្តើក ខាងក្រោមនេះ។ អ្នកប្រហែលជា ធ្លាប់ឃើញហ្គេម ដែ"
+"លសត្រូវផ្លាស់ទីបែបនេះ។"
 
 msgid "This is done with just seven lines of pure vector calculation code."
 msgstr ""
+"វាត្រូវបាន ធ្វើឡើងដោយប្រើ កូដគណនាវ៉ិចទ័រសុទ្ធសាធ ត្រឹមតែ 7 line ប៉ុណ្ណោះ។"
 
 msgid ""
 "The code is a bit too difficult for now, so we'll spare you the details, "
 "but this turtle gives you a glimpse of what 2D vectors can do for you and"
 " your game projects."
 msgstr ""
+"កូដនេះ ពិបាកបន្តិច សម្រាប់ពេលនេះ ដូច្នេះយើងនឹងមិនលម្អិតទេ ប៉ុន្តែអណ្តើកនេះផ្តល់ឱ្យអ្នកនូវ រូបភាពខ្លីៗ"
+"អំពីអ្វីដែលវ៉ិចទ័រ 2D អាចធ្វើបាន សម្រាប់អ្នក និងគម្រោង ហ្គេមរបស់អ្នក។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:114
 msgid ""
@@ -122,17 +145,23 @@ msgid ""
 "[code]Vector2[/code]. The following code has the same effect as the "
 "previous example."
 msgstr ""
+"យើងប្តូរ ទំហំ (Scale) Robot ម្តងទៀត ដោយលើកនេះ យើង បូក បន្ថែមតម្លៃ ទៅវាផ្ទាល់ដោយប្រើ "
+"[code]Vector2[/code]។ កូដខាងក្រោម នេះផ្តល់លទ្ធផលដូចគ្នាទៅនឹងឧទាហរណ៍មុនដែរ។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:134
 msgid ""
 "Notice how we use parentheses and two arguments inside parentheses, just "
 "like other function calls."
 msgstr ""
+"ចំណាំថា យើងប្រើវង់ក្រចក និង arguments (តម្លៃបញ្ចូល) ពីរនៅក្នុងវង់ក្រចក ដូចជាការហៅ func ផ្សេងៗ"
+"ទៀត។"
 
 msgid ""
 "We call this a [i]constructor function call[/i]. You can think of it as a"
 " special kind of function that creates a particular type of value."
 msgstr ""
+"យើងហៅវាថា [i]constructor function call[/i] (ការហៅ func បង្កើតតម្លៃ)។ អ្នកអាចគិតថា"
+"វាជាប្រភេទ func ពិសេសមួយដែលបង្កើត ប្រភេទតម្លៃជាក់លាក់។"
 
 msgid ""
 "The code [code]Vector2(0.2, 0.2)[/code] constructs a new "
@@ -140,10 +169,13 @@ msgid ""
 "[code]0.2[/code] and its [code]y[/code] set to [code]0.2[/code], "
 "respectively."
 msgstr ""
+"កូដ [code]Vector2(0.2, 0.2)[/code] បង្កើតតម្លៃ [code]Vector2[/code] ថ្មីមួយ ដោយកំណត់ "
+"[code]x[/code] របស់វាទៅ [code]0.2[/code] និង [code]y[/code] របស់វាទៅ [code]0.2[/"
+"code] រៀងៗខ្លួន។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:146
 msgid "Using vectors to change the position"
-msgstr ""
+msgstr "ការប្រើវ៉ិចទ័រ (vectors) ដើម្បីផ្លាស់ប្តូរទីតាំង"
 
 #: course/lesson-16-2d-vectors/lesson.tres:148
 msgid ""
@@ -151,40 +183,50 @@ msgid ""
 "vector. If we wanted to move our robot to a new relative position, we "
 "would add a [code]Vector2[/code] to its [code]position[/code]."
 msgstr ""
+"យើងអាចបូក និងដក វ៉ិចទ័រ (vectors) ជាមួយ [code]position[/code] ព្រោះវាជាវ៉ិចទ័រ។ បើយើងចង់"
+"ផ្លាស់ទីrobotរបស់យើងទៅកាន់ទីតាំងថ្មីដែលទាក់ទង យើងនឹងបន្ថែម [code]Vector2[/code] ទៅ "
+"[code]position[/code] របស់វា។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:166
 msgid "How would you move the robot 50 pixels to the left?"
-msgstr ""
+msgstr "តើអ្នកនឹងផ្លាស់ទី robot 50 ភីកសែល (pixels) ទៅខាងឆ្វេងដោយរបៀបណា?"
 
 #: course/lesson-16-2d-vectors/lesson.tres:169
 msgid ""
 "[code]position -= Vector2(50, 0)[/code] subtracts [code]50[/code] to the "
 "sub-variable [code]x[/code], and [code]0[/code] to [code]y[/code]."
 msgstr ""
+"[code]position -= Vector2(50, 0)[/code] ដក [code]50[/code] ពីអថេររង [code]x[/"
+"code], និង [code]0[/code] ពី [code]y[/code]។"
 
 msgid ""
 "[code]position.x -= Vector2(50, 0)[/code] tries to subtract a 2D vector "
 "to the sub-variable [code]x[/code], which is a decimal number. The value "
 "types are incompatible. If you try to do this, you will get an error."
 msgstr ""
+"[code]position.x -= Vector2(50, 0)[/code] ព្យាយាមដកវ៉ិចទ័រ 2D ពីអថេររង [code]x[/"
+"code] ដែលជាលេខទសភាគ។ ប្រភេទតម្លៃទាំងនេះមិនត្រូវគ្នាទេ។ បើអ្នកព្យាយាមធ្វើបែបនេះ អ្នកនឹងទទួល"
+"បានកំហុស (error)។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
 msgid "position -= Vector2(50, 0)"
-msgstr ""
+msgstr "position -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:172
 msgid "position.x -= Vector2(50, 0)"
-msgstr ""
+msgstr "position.x -= Vector2(50, 0)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:182
 msgid ""
 "In the next few practices, you'll use vectors to change scale and "
 "position values."
 msgstr ""
+"នៅក្នុងការអនុវត្តបន្តិចបន្តួចខាងមុខ អ្នកនឹងប្រើវ៉ិចទ័រ (vectors) ដើម្បីផ្លាស់ប្តូរតម្លៃ scale(ទំហំ) និ"
+"ង position(ទីតាំង)។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:190
 msgid "Increasing scale using vectors"
-msgstr ""
+msgstr "ការបង្កើន scale ដោយប្រើវ៉ិចទ័រ (vectors)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:191
 msgid ""
@@ -192,50 +234,64 @@ msgid ""
 "the [code]scale[/code] of the robot by [code]Vector2(0.2, 0.2)[/code] "
 "every time it levels up."
 msgstr ""
+"បន្ថែមបន្ទាត់កូដមួយទៅក្នុង func [code]level_up()[/code] ដើម្បីបង្កើន [code]scale[/"
+"code] របស់ robot ដោយ [code]Vector2(0.2, 0.2)[/code] រាល់ពេលវាឡើង Level។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:203
 msgid ""
 "To visually show our robot has gained in strength, let's increase its "
 "size every time it levels up. Nothing could go wrong!"
 msgstr ""
+"ដើម្បីបង្ហាញជាទិដ្ឋភាពថា robot របស់យើងបានកើនខ្លាំង ចូរយើងបង្កើនទំហំរបស់វា រាល់ពេលវាឡើង "
+"Level ។ គ្មានអ្វីអាចខុសប្រក្រតីទេ!"
 
 #: course/lesson-16-2d-vectors/lesson.tres:208
 msgid "Resetting size and position using vectors"
-msgstr ""
+msgstr "ការកំណត់ទំហំ និងទីតាំងឡើងវិញដោយប្រើវ៉ិចទ័រ (vectors)"
 
 #: course/lesson-16-2d-vectors/lesson.tres:209
 msgid "The robot's level has increased a lot, and so has its size!"
-msgstr ""
+msgstr "Level របស់ robot បានកើនឡើងច្រើន ហើយទំហំរបស់វាក៏បានកើនឡើងដែរ!"
 
 msgid ""
 "Let's fix this by resetting the robot's [code]scale[/code] and "
 "[code]position[/code] values."
 msgstr ""
+"ចូរយើង ជួសជុលវាដោយកំណត់តម្លៃ [code]scale[/code] និង [code]position[/code] របស់ robot "
+"ឡើងវិញ។"
 
 msgid ""
 "Create a function named [code]reset_robot()[/code] that sets the "
 "[code]scale[/code] and [code]position[/code] of the robot."
 msgstr ""
+"បង្កើត func មួយឈ្មោះថា [code]reset_robot()[/code] ដែលកំណត់ [code]scale[/code] និង "
+"[code]position[/code] របស់ robot។"
 
 msgid ""
 "The [code]x[/code] and [code]y[/code] sub-variables of the robot's "
 "[code]scale[/code] need to be [code]1.0[/code]."
 msgstr ""
+"អថេររង [code]x[/code] និង [code]y[/code] របស់ [code]scale[/code] robot ត្រូវតែជា "
+"[code]1.0[/code]។"
 
 msgid "The robot's [code]position[/code] needs to be [code]Vector2(0, 0)[/code]."
 msgstr ""
+"[code]position(ទីតាំង)[/code] របស់ robot ត្រូវតែជា [code]Vector2(0, 0)[/code]។"
 
 msgid ""
 "As in the previous practice, make sure to use vectors when dealing with "
 "scale and position."
 msgstr ""
+"ដូចក្នុងការអនុវត្តមុន សូមប្រាកដថាប្រើវ៉ិចទ័រ (vectors) នៅពេលដោះស្រាយជាមួយ scale និង position"
+"។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:229
 msgid ""
 "Perhaps increasing the scale every level was a bad idea! Let's restore "
 "the robot to the correct size."
 msgstr ""
+"ប្រហែលជាការបង្កើន scale រាល់ Level គឺជាគំនិតមិនល្អ! ចូរយើងស្តារ robot ទៅកាន់ទំហំត្រឹមត្រូវ។"
 
 #: course/lesson-16-2d-vectors/lesson.tres:233
 msgid "2D Vectors"
-msgstr ""
+msgstr "វ៉ិចទ័រ 2D"
