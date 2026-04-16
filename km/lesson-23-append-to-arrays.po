@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-17 06:10+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-23-append-to-arrays/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:13
@@ -25,6 +27,8 @@ msgid ""
 "values and how to loop over them. That's useful, but arrays can do much "
 "more."
 msgstr ""
+"ក្នុងមេរៀនមុនៗ អ្នកបានរៀនពីការបង្កើត array (ជួរតម្លៃ) ដើម្បីផ្ទុកតម្លៃជាបញ្ជី និងរបៀបធ្វើ "
+"loop (រង្វិលជុំ) លើវា។ វាមានប្រយោជន៍មែន ប៉ុន្តែ array អាចធ្វើការបានច្រើនជាងនេះទៅទៀត។"
 
 msgid ""
 "The real strength of GDScript arrays is that you can add and remove "
@@ -32,36 +36,46 @@ msgid ""
 "or piles of data. We call these [i]queues[/i] and [i]stacks[/i], "
 "respectively. We'll see what that means in this lesson."
 msgstr ""
+"ចំណុចខ្លាំងពិតប្រាកដនៃ array ក្នុង GDScript គឺអ្នកអាចបន្ថែម និងដកតម្លៃចេញពីវាបានគ្រប់ពេលវេលា"
+"។ វាអនុញ្ញាតឱ្យអ្នកបង្កើតជួររង់ចាំ (queue) ឬកំណួតទិន្នន័យ (stack) បានយ៉ាងងាយ។ យើងនឹងពន្យល់ពីន័យ"
+"នៃពាក្យទាំងនេះនៅក្នុងមេរៀននេះ។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:25
 msgid "Let's look at a concrete example."
-msgstr ""
+msgstr "ចូរយើងមើល ឧទាហរណ៍ជាក់ស្តែង។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:33
 msgid "Tracking orders in a restaurant management game"
-msgstr ""
+msgstr "តាមដានការបញ្ជាទិញក្នុងហ្គេម គ្រប់គ្រងភោជនីយដ្ឋាន"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:35
 msgid ""
 "You're making a restaurant management game where customers place orders, "
 "and you need to handle them one by one."
 msgstr ""
+"អ្នកកំពុងបង្កើតហ្គេមគ្រប់គ្រងភោជនីយដ្ឋាន ដែលអតិថិជនដាក់ការបញ្ជាទិញ ហើយអ្នកត្រូវដោះស្រាយម្តងមួយៗ។"
 
 msgid ""
 "In the example below, customers order meals that end up in a waiting line"
 " (a queue). You need to prepare them in the kitchen. We simulate orders "
 "arriving and getting completed over time."
 msgstr ""
+"ក្នុងឧទាហរណ៍ខាងក្រោម អតិថិជនបញ្ជាម្ហូប ហើយការបញ្ជាទាំងនោះនឹងត្រូវដាក់ក្នុងជួររង់ចាំ (ហៅថា Queue)"
+"។ អ្នកត្រូវចូលទៅធ្វើម្ហូបទាំងនេះនៅផ្ទះបាយ។ យើងនឹងបង្កើតការសាកល្បងមួយ ដើម្បីមើលពីការបញ្ជាទិញហូរចូល"
+"មក និងត្រូវបានធ្វើរួចតាមលំដាប់ពេលវេលា។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:57
 msgid "How do you keep track of pending and completed orders? With an array!"
 msgstr ""
+"តើអ្នកតាមដានការបញ្ជាទិញដែលរង់ចាំ និងបានធ្វើរួចរាល់យ៉ាងដូចម្តេច? គឺប្រើ array!"
 
 msgid ""
 "When a customer purchases a meal, you want to [i]append[/i] (add) it to "
 "the array. Then, as you complete a meal in the kitchen and serve it, you "
 "want to remove it from the array."
 msgstr ""
+"ពេលអតិថិជនបញ្ជាអាហារ អ្នកត្រូវ [i]append[/i] (បន្ថែម) វាចូលទៅក្នុង array។ បន្ទាប់មក ពេលអ្ន"
+"កធ្វើអាហារចប់នៅក្នុងផ្ទះបាយ ហើយយកទៅបម្រើអតិថិជន អ្នកត្រូវដកវាចេញពី array។"
 
 msgid ""
 "You can use the [code]append()[/code] function to add values at the end "
@@ -69,11 +83,16 @@ msgid ""
 "[code]pop_front()[/code] function. We call it \"pop\" because the value "
 "jumps out of the array."
 msgstr ""
+"អ្នកអាចប្រើ [code]append()[/code] func ដើម្បី បន្ថែមតម្លៃ នៅចុង array។ ចំណែកឯដើម្បីដកតម្"
+"លៃចេញពីផ្នែកខាងមុខ អ្នកអាចប្រើ [code]pop_front()[/code] func ។ យើងហៅវាថា \"pop\" ព្"
+"រោះតម្លៃនោះហាក់ដូចជារលុង ឬលោតចេញពី array។"
 
 msgid ""
 "Try to read the code below before moving on. Don't worry if not "
 "everything makes sense, as we'll break it all down."
 msgstr ""
+"សាកល្បងអានកូដខាងក្រោមសិនមុនពេលបន្ត។ កុំបារម្ភបើមានផ្នែកខ្លះមិនទាន់យល់ពីវា ពេញលេញ ព្រោះយើងនឹងពន្"
+"យល់បំបែកវាម្តងមួយៗ។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:83
 msgid ""
@@ -82,24 +101,33 @@ msgid ""
 " [code]x[/code] variable in [code]position.x[/code]), they can also have "
 "their own functions."
 msgstr ""
+"ចំណាំពីរបៀបដែលយើងហៅ func មួយចំនួន ដោយសរសេរសញ្ញា ចុច(.) នៅក្រោយឈ្មោះ variable ។ ដូចគ្នាទៅនឹ"
+"ងតម្លៃមួយចំនួនមាន variable ដែលអ្នកអាចចូលទៅមើលបានដោយសរសេរសញ្ញា ចុច (ដូចជា variable "
+"[code]x[/code] ក្នុង [code]position.x[/code]) វាក៏អាចមាន funcផ្ទាល់ខ្លួនដែរ។"
 
 msgid ""
 "Functions like [code]append()[/code] and [code]pop_front()[/code] only "
 "exist on arrays. To call them, we need to write the array name, then a "
 "dot, then the function: [code]array_name.append()[/code]."
 msgstr ""
+"Func ដូចជា [code]append()[/code] និង [code]pop_front()[/code] មានតែលើ array ប៉ុណ្"
+"ណោះ។ ដើម្បីហៅវា អ្នកត្រូវសរសេរឈ្មោះ array តាមដោយសរសេរ សញ្ញាំ ចុច \".\" សិន រួចហៅ func ៖ "
+"[code]array_name.append()[/code]។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:95
 msgid ""
 "Let's break down the code. We add orders to the "
 "[code]waiting_orders[/code] array by appending them."
 msgstr ""
+"ចូរយើងបំបែកកូដនេះមើល។ យើងបន្ថែមការបញ្ជាទិញទៅក្នុង array [code]waiting_orders[/code] "
+"ដោយប្រើ append (ការបន្ថែម)។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:115
 msgid ""
 "We can use a string to represent a meal when calling the "
 "[code]add_order()[/code] function."
 msgstr ""
+"យើងអាចប្រើ string (អក្សរ) ដើម្បីតំណាងឱ្យអាហារ ពេលហៅ func [code]add_order()[/code]។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:135
 msgid ""
@@ -108,10 +136,15 @@ msgid ""
 " function. This function gives us the order back, which allows us to "
 "assign it to a temporary variable."
 msgstr ""
+"ពេលធ្វើចប់ការបញ្ជាទិញមួយ យើងដកវាចេញពី array [code]waiting_orders[/code] ដោយហៅ func "
+"[code]pop_front()[/code]។ Func នេះនឹងប្រគល់ តម្លៃការបញ្ជាទិញនោះមកវិញ ដែលអនុញ្ញាតឱ្យយើងយ"
+"កវាទៅដាក់ក្នុង variable ជាបណ្តោះអាសន្ន។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:155
 msgid "We can then append the order to our [code]completed_orders[/code] array."
 msgstr ""
+"បន្ទាប់មក យើងអាច append (បន្ថែម) ការបញ្ជាទិញនោះទៅក្នុង array "
+"[code]completed_orders[/code] របស់យើង។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:175
 msgid ""
@@ -119,10 +152,12 @@ msgid ""
 "element we add to the array is the first one we remove. It's like a "
 "waiting line at a store."
 msgstr ""
+"ពេលយើងប្រើ array បែបនេះ យើងហៅវាថា [i]queue[/i] (ជួររង់ចាំ)៖ តម្លៃដែលយើងបន្ថែមចូលមុន"
+"គេ គឺជាតម្លៃដែលត្រូវដកចេញមុនគេ។ វាដូចជាការរង់ចាំនៅហាងដែរ។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:183
 msgid "What does #... mean?"
-msgstr ""
+msgstr "តើ #... មានន័យថាអី?"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:185
 msgid ""
@@ -130,41 +165,53 @@ msgid ""
 "three dots mean \"we are not showing all the code.\" We use this to break"
 " down code examples and make them easier to learn from."
 msgstr ""
+"យើងសរសេរ [code]#...[/code] ដើម្បីបង្ហាញថា នៅមានកូដផ្នែកខ្លះទៀតនៅទីនេះ។ ចំណុចបីមានន័យថា "
+"\"យើងមិនបង្ហាញកូដទាំងអស់ទេ\"។ យើងប្រើវាដើម្បីបំបែកឧទាហរណ៍កូដ ឱ្យងាយស្រួលសិក្សា។"
 
 msgid ""
 "The hash sign ([code]#[/code]) marks the start of a code comment. It's a "
 "line the computer will ignore, which is why it typically appears in grey."
 msgstr ""
+"សញ្ញា hash ([code]#[/code]) បង្ហាញពីការចាប់ផ្តើមនៃ code comment (មតិពន្យល់ក្នុងកូដ)។ គឺ"
+"ជា បន្ទាត់ដែលកុំព្យូទ័រ នឹងមិនអានវាទេ​ ហេតុនេះហើយបានជា វាត្រូវបានបង្ហាញជាពណ៌ប្រផេះ។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:195
 msgid "Using arrays as stacks"
 msgstr ""
+"ការប្រើ arrays ដើម្បីធ្វើជា stacks ដែល stacks មានគោលការណ៍ LIFO (Last-In, First-"
+"Out) មានន័យថា ចូលក្រោយ ចេញមុន"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:197
 msgid "Another common use of arrays is [i]stacks[/i] of data."
-msgstr ""
+msgstr "ការប្រើប្រាស់មួយទៀតដែលគេនិយមរបស់ array គឺជា [i]stack[/i] ទិន្នន័យ។"
 
 msgid ""
 "Take a factory management game where you need to retrieve materials from "
 "stacks of crates. They arrive at the factory piled up vertically, and you"
 " need to take them from top to bottom."
 msgstr ""
+"ឧទាហរណ៍ក្នុងហ្គេម គ្រប់គ្រងរោងចក្រ អ្នកត្រូវយកសម្ភារៈចេញពី stack ប្រអប់។ វាត្រូវបានដឹកមកដល់រោងចក្"
+"រដោយត្រួតលើគ្នាពីលើចុះក្រោម ហើយអ្នកត្រូវយកវាចេញពីខាងលើមកខាងក្រោម។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:219
 msgid ""
 "To take a crate from the back of the array, this time, we use the "
 "[code]pop_back()[/code] array function."
 msgstr ""
+"ដើម្បីយកប្រអប់ចេញពីផ្នែកខាងក្រោយនៃ array លើកនេះយើងប្រើ func​​ [code]pop_back()[/code] រ"
+"បស់ array។"
 
 msgid ""
 "This function removes (pops) the last value from the array and returns it"
 " to you."
-msgstr ""
+msgstr "Func នេះនឹងដក (pop) តម្លៃចុងក្រោយចេញពី array ហើយប្រគល់វា មកឱ្យអ្នកវិញ។"
 
 msgid ""
 "Here we pop the last value of the array and print what's left of the "
 "array to demonstrate how the array gets smaller."
 msgstr ""
+"នៅទីនេះ យើង pop (ដកចេញ) តម្លៃចុងក្រោយនៃ array ហើយ print (បង្ហាញ) អ្វីដែលនៅសល់ក្នុង "
+"array ដើម្បីបង្ហាញថា array កាន់តែខ្លីទៅៗ។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:243
 msgid ""
@@ -173,66 +220,88 @@ msgid ""
 " could be the crate's content, which you can then use to give resources "
 "to the player."
 msgstr ""
+"ដូចគ្នានឹង [code]pop_front()[/code] ដែរ func នេះនឹងប្រគល់តម្លៃដែលត្រូវបានដកចេញពី array "
+"មកឱ្យអ្នក។ ជាទូទៅ អ្នកនឹងរក្សាទុកតម្លៃនេះក្នុងអថេរ។ តម្លៃនេះអាចជាសម្ភារៈក្នុងប្រអប់ ដែលអ្នកអាច"
+"យកទៅផ្តល់ជំនួយ ឬធនធានឱ្យក្នុងហ្គេមបាន។"
 
 msgid ""
 "When we use an array this way, we call it a [i]stack[/i]: the last "
 "element we add is the first one we remove. It's like a pile of plates "
 "where you take from the top."
 msgstr ""
+"នៅពេលយើងប្រើ array តាមរបៀបនេះ យើងហៅវាថា [i]stack[/i]៖ ធាតុដែលយើងបន្ថែមចូលចុងក្រោយគឺ"
+"ជាធាតុដែលត្រូវដកចេញមុនគេ។ វាប្រៀបដូចជាការតម្រៀបចានជាន់គ្នាដែលយើងតែងតែយកចានពីខាងលើបង្អស់ចេ"
+"ញមុន ដែលចានបានដាក់ដំបូងគេគឺស្ថិតនៅខាងក្រោម។"
 
 msgid ""
 "In the following practices, you will use the [code]append()[/code], "
 "[code]pop_front()[/code], and [code]pop_back()[/code] array functions."
 msgstr ""
+"ក្នុងលំហាត់ខាងក្រោម អ្នកនឹងប្រើប្រាស់ func របស់ array ដូចជា [code]append()[/code], "
+"[code]pop_front()[/code], និង [code]pop_back()[/code]។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:255
 msgid "Completing orders"
-msgstr ""
+msgstr "ធ្វើការបញ្ជាទិញ"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:256
 msgid "The [code]waiting_orders[/code] array will be filled over time."
 msgstr ""
+"Array [code]waiting_orders[/code] នឹងត្រូវបានបំពេញបន្តិចម្តងៗតាមពេលវេលា។"
 
 msgid ""
 "Your job is to move orders from the waiting list to the "
 "[code]completed_orders[/code] list using the array's "
 "[code]append()[/code] and [code]pop_front()[/code] functions."
 msgstr ""
+"កិច្ចការរបស់អ្នកគឺ យកការបញ្ជាទិញពីបញ្ជីរង់ចាំ មកដាក់ចូលក្នុងបញ្ជី [code]completed_orders[/"
+"code] ដោយប្រើ func [code]append()[/code] និង [code]pop_front()[/code] របស់ array"
+"។"
 
 msgid ""
 "Remember that the array's [code]pop_front()[/code] function returns the "
 "popped value, which allows you to store it in a variable and then pass it"
 " to another function."
 msgstr ""
+"សូមចងចាំថា func [code]pop_front()[/code] នៃ array នឹងប្រគល់តម្លៃដែលត្រូវបានដកចេញមកវិញ "
+"ដែលអនុញ្ញាតឱ្យអ្នករក្សាទុកវាក្នុង variable រួចបញ្ជូនវាទៅ func ផ្សេងទៀត។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:274
 msgid ""
 "Orders are piling up in the kitchen, and we need to clear them fast using"
 " the array's [code]pop_front()[/code] function."
 msgstr ""
+"ការបញ្ជាទិញ កំពុងកើនឡើងច្រើននៅក្នុងផ្ទះបាយ ហើយយើងត្រូវការសម្អាតវាឱ្យបានលឿន ដោយប្រើ func "
+"[code]pop_front()[/code] របស់ array។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:279
 msgid "Clearing up the crates"
-msgstr ""
+msgstr "សម្អាតប្រអប់"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:280
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping"
 " them from the [code]crates[/code] array."
 msgstr ""
+"ប្រអប់កំពុងកើនឡើងច្រើននៅលើវេទិកា។ យកវាចេញពីទីនោះដោយ pop (ដកចេញ) វាពី array "
+"[code]crates[/code]។"
 
 msgid ""
 "You need to remove them from top to bottom using the array's "
 "[code]pop_back()[/code] function."
 msgstr ""
+"អ្នកត្រូវដកវា ចេញពីខាងលើ មកខាងក្រោម ដោយប្រើ func [code]pop_back()[/code] របស់ array។"
 
 msgid "Your code should remove all the crates in the array using a while loop."
 msgstr ""
+"កូដរបស់អ្នក ត្រូវដកប្រអប់ទាំងអស់ចេញពី array ដោយប្រើ while loop (រង្វិលជុំ)។"
 
 msgid ""
 "[b]Careful![/b] If you write the while loop incorrectly, you can freeze "
 "the program."
 msgstr ""
+"[b]ប្រយ័ត្ន![/b] បើអ្នកសរសេរ while loop (រង្វិលជុំ ខុស វាអាចធ្វើឱ្យកម្មវិធីជាប់គាំង(ដើរ រង្វិល"
+"ជុំ រហូតគ្មានទីបញ្ចប់ដល់គាំងកម្មវិធី)។"
 
 msgid ""
 "You can check if the [code]crates[/code] array still has values by "
@@ -240,13 +309,17 @@ msgid ""
 "counts as [code]false[/code], and an array with items counts as "
 "[code]true[/code]."
 msgstr ""
+"អ្នកអាចពិនិត្យមើលថាតើ array [code]crates[/code] នៅមានតម្លៃដែរឬទេ ដោយសរសេរ "
+"[code]while crates:[/code]។ វាដំណើរការដោយសារ array ទទេ (មិនមានអី) ត្រូវបានចាត់ទុកជា "
+"[code]false[/code] ហើយ array ដែលមានតម្លៃត្រូវបានចាត់ទុកជា [code]true[/code]។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:301
 msgid ""
 "Crates are piling up on the platform. Move them out of the way by popping"
 " them from their array."
 msgstr ""
+"ប្រអប់កំពុងកើនឡើង ច្រើននៅលើវេទិកា។ យកវាចេញពី​ ទីនោះដោយ pop (ដកចេញ) វាពី array របស់វា។"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:305
 msgid "Appending and popping values from arrays"
-msgstr ""
+msgstr "ការបន្ថែម និង ការដក តម្លៃចេញពី array"
