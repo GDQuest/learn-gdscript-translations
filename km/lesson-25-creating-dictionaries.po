@@ -9,107 +9,130 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-17 06:09+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-25-creating-dictionaries/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:14
 msgid "In the last lesson, we used an array to represent a player's inventory."
 msgstr ""
+"ក្នុងមេរៀនមុន យើងបានប្រើ array (ជួរតម្រៀប) ដើម្បីតំណាងឱ្យ កាបូបសម្ភារៈ របស់អ្នកលេង។"
 
 msgid ""
 "With just an array of item names, though, we can't easily keep track of "
 "the amount of each item."
 msgstr ""
+"ប៉ុន្តែដោយសារ array មានត្រឹមឈ្មោះសម្ភារៈ វាធ្វើឱ្យយើងពិបាកតាមដានចំនួននៃសម្ភារៈនីមួយៗ។"
 
 msgid ""
 "Instead, we can bundle the item names and amounts into a single "
 "[i]dictionary[/i]."
 msgstr ""
+"ជំនួសវិញ យើងអាចដាក់ឈ្មោះនិងចំនួនសម្ភារៈចូលគ្នាទៅក្នុង [i]dictionary[/i] (ក្បួនតម្រៀបទិន្នន័យ) តែ"
+"មួយ។"
 
 msgid ""
 "A dictionary is a data structure that allows you to map pairs of values. "
 "In the pair, we call the first value a [i]key[/i] as we use it to access "
 "the second."
 msgstr ""
+"dictionary គឺជាទម្រង់ទិន្នន័យមួយប្រភេទ ដែលអនុញ្ញាតឱ្យអ្នកផ្សំភ្ជាប់តម្លៃជាគូ។ ក្នុងគូនេះ យើងហៅតម្លៃ"
+"ទីមួយថា [i]key[/i] (សោ) ព្រោះយើងប្រើវាដើម្បីយកតម្លៃទីពីរ។"
 
 msgid ""
 "In other words, a dictionary has a list of [i]keys[/i], and each key "
 "points to a [i]value[/i]."
 msgstr ""
+"និយាយឱ្យងាយស្រួល dictionary មានបញ្ជី [i]keys[/i] (សោ) ហើយ key នីមួយៗចង្អុលទៅកាន់ "
+"[i]value[/i] (តម្លៃ) មួយ។"
 
 msgid ""
 "To define a dictionary, we use curly brackets. A colon separates each key"
 " and its value. A comma separates each key and value pair."
 msgstr ""
+"ដើម្បីបង្កើត dictionary យើងប្រើ វង់ក្រចកដែលមានព្រួញកណ្ដាល `{}`។ យើងប្រើសញ្ញា `:` ដើម្បីបំបែ"
+"ក key និង value របស់វា។ រីឯសញ្ញាក្បៀស `,` ត្រូវបានប្រើដើម្បីបំបែកគូនីមួយៗ។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:42
 msgid "Dictionaries can hold any values"
-msgstr ""
+msgstr "Dictionary អាចផ្ទុកតម្លៃណាក៏បាន"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:44
 msgid "Dictionaries can map about any value to any other value."
-msgstr ""
+msgstr "Dictionary អាចផ្គូរផ្គងតម្លៃណាមួយទៅនឹងតម្លៃមួយផ្សេងទៀតបាន។"
 
 msgid ""
 "For example, we can use the name of an item as a key and the amount as "
 "the corresponding value. This makes dictionaries excellent for keeping "
 "track of a player's inventory."
 msgstr ""
+"ឧទាហរណ៍ យើងអាចយកឈ្មោះសម្ភារៈមកធ្វើជា key ហើយចំនួនរបស់វាជា value។ វិធីនេះធ្វើឱ្យ "
+"dictionary ក្លាយជាឧបករណ៍ដ៏ល្អសម្រាប់តាមដានសម្ភារៈរបស់អ្នកលេង។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:66
 msgid ""
 "Here we matched the name (a string) to the amount (a number). But a key "
 "could be a string, a number, or even a vector!"
 msgstr ""
+"នៅទីនេះ យើងបានផ្សំឈ្មោះ (string) ជាមួយចំនួន (number)។ ប៉ុន្តែ key អាចជា string, "
+"number, ឬសូម្បីតែ vector ក៏បានដែរ!"
 
 msgid ""
 "Although we can have all of these different keys, keep in mind that every"
 " key has to be [i]unique[/i]. That means we [i]couldn't[/i] have a "
 "dictionary like the following."
 msgstr ""
+"ទោះបីជាយើងអាចប្រើ key បែបនេះបានក៏ដោយ តែត្រូវចងចាំថា key នីមួយៗត្រូវតែមានលក្ខណៈ "
+"[i]unique[/i] (ផ្ទាល់ខ្លួន/មិនដូចគ្នា)។ មានន័យថា យើង [i]មិនអាច[/i] បង្កើត dictionary ដូច"
+"ខាងក្រោមបានទេ។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:88
 msgid "We would get the following error."
-msgstr ""
+msgstr "យើងនឹងទទួលបានកំហុសដូចខាងក្រោម។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:106
 msgid "In the above example, which key would cause an error?"
-msgstr ""
+msgstr "នៅក្នុងឧទាហរណ៍ខាងលើ តើ key មួយណាដែលធ្វើឱ្យមានកំហុស?"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:109
 msgid ""
 "The key [code]\"healing heart\"[/code] appears [b]twice[/b] in the "
 "dictionary."
 msgstr ""
+"Key [code]\"healing heart\"[/code] បានបង្ហាញ [b]2ដង[/b] នៅក្នុង dictionary។"
 
 msgid ""
 "In the above example, Godot wouldn't know whether to return "
 "[code]3[/code] or [code]8[/code] when using [code]inventory[\"healing "
 "heart\"][/code]. This is why keys need to be unique."
 msgstr ""
+"ក្នុងឧទាហរណ៍ខាងលើ បើយើងប្រើ [code]inventory[\"healing heart\"][/code] Godot នឹងមិនដឹ"
+"ងថាត្រូវបង្ហាញតម្លៃ [code]3[/code] ឬ [code]8[/code] ណាមួយឱ្យយើងទេ។ ហេតុនេះហើយបានជា "
+"key ចាំបាច់ត្រូវមានលក្ខណៈ unique(មិនដូចគ្នា)។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 msgid "\"healing heart\""
-msgstr ""
+msgstr "\"healing heart\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 msgid "\"shield\""
-msgstr ""
+msgstr "\"shield\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:112
 msgid "\"sword\""
-msgstr ""
+msgstr "\"sword\""
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:120
 msgid "How dictionaries work under the hood"
-msgstr ""
+msgstr "ដំណើរការរបស់ Dictionary ពីខាងក្នុង"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:122
 msgid ""
@@ -117,140 +140,176 @@ msgid ""
 " the hood, they use arrays and several functions to efficiently store and"
 " retrieve values across arrays."
 msgstr ""
+"Dictionary ត្រូវបានគេហៅថា mappings ឬ [i]associative arrays[/i] (ជួរតម្រៀបភ្ជាប់គ្"
+"នា) ផងដែរ។ ពីខាងក្នុង វាប្រើ arrays និង function មួយចំនួនដើម្បីរក្សាទុកនិងទាញយកតម្លៃបានលឿននិ"
+"ងមានប្រសិទ្ធភាព។"
 
 msgid ""
 "Precisely, dictionaries use a [i]hashing algorithm[/i]. Hashing "
 "algorithms convert one value into another."
 msgstr ""
+"ជាក់ស្តែង dictionary ប្រើ [i]hashing algorithm[/i] (ក្បួនគណិតវិទ្យាបំប្លែងទិន្នន័យ)។ ក្បួន"
+"នេះមាននាទីបំប្លែងតម្លៃមួយទៅជាតម្លៃមួយផ្សេងទៀត។"
 
 msgid ""
 "In this case, hashing consists of converting a given key into a unique "
 "whole number. The dictionary then uses that number as an array's index!"
 msgstr ""
+"ក្នុងករណីនេះ hashing គឺការបំប្លែង key ដែលយើងផ្តល់ឱ្យ ទៅជាលេខគត់មួយដែលមានលក្ខណៈ unique។ បន្"
+"ទាប់មក dictionary នឹងប្រើលេខនោះជា index (ទីតាំង) នៅក្នុង array!"
 
 msgid ""
 "That's how a dictionary works: when you give it a key, it converts it "
 "into a unique index and uses that index to retrieve the corresponding "
 "value in the computer's memory."
 msgstr ""
+"នេះគឺជាដំណើរការរបស់ dictionary៖ ពេលអ្នកផ្តល់ key ឱ្យវា វានឹងបំប្លែង key នោះទៅជា index មួ"
+"យ រួចប្រើ index នោះដើម្បីទាញយក value ដែលត្រូវគ្នាពីកន្លែងផ្ទុកទិន្នន័យរបស់កុំព្យូទ័រ។"
 
 msgid ""
 "That's also why you can't have the same key twice: it would map to the "
 "same array index, causing you to overwrite an existing value."
 msgstr ""
+"ហេតុនេះហើយបានជាអ្នកមិនអាចដាក់ key ដដែល 2 ដងបានទេ៖ ព្រោះវានឹងចង្អុលទៅកាន់ index តែមួយ ដែ"
+"លធ្វើឱ្យតម្លៃដែលមានស្រាប់ត្រូវបានជំនួស (overwrite)។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:138
 msgid "Accessing values"
-msgstr ""
+msgstr "ការទាញយកតម្លៃ"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:140
 msgid ""
 "We access the value of keys by writing the dictionary name, with the key "
 "in between square brackets."
 msgstr ""
+"យើងទាញយកតម្លៃរបស់ key ដោយសរសេរឈ្មោះ dictionary ហើយដាក់ key នោះនៅក្នុង ដង្កៀប `[]`។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:168
 msgid "How would you access how many gems the player has?"
 msgstr ""
+"តើអ្នកនឹងសរសេរកូដយ៉ាងដូចម្តេច ដើម្បីដឹងថាអ្នកលេងមាន gems(ត្បូង) ចំនួនប៉ុន្មាន?"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:171
 msgid "We need to make sure the key is the same as we defined in the dictionary."
 msgstr ""
+"យើងត្រូវប្រាកដថា key ដែលយើងសរសេរ គឺដូចគ្នាបេះបិទនឹងអ្វីដែលយើងបានកំណត់នៅក្នុង dictionary។"
 
 msgid "In our case, [code]var item_count = inventory[\"gems\"][/code] is correct."
 msgstr ""
+"ក្នុងករណីរបស់យើង [code]var item_count = inventory[\"gems\"][/code] គឺជាចម្លើយត្រឹមត្រូវ"
+"។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 msgid "var item_count = inventory[\"gem\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"gem\"]"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 msgid "var item_count = inventory[\"gems\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"gems\"]"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:174
 msgid "var item_count = inventory[\"sword\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"sword\"]"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:182
 msgid "Changing values"
-msgstr ""
+msgstr "ការផ្លាស់ប្តូរតម្លៃ"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:184
 msgid ""
 "We can also change values directly, which is useful in our case for "
 "adding or removing items from the player's inventory."
 msgstr ""
+"យើងក៏អាចផ្លាស់ប្តូរតម្លៃដោយផ្ទាល់បានផងដែរ ដែលវាមានប្រយោជន៍ក្នុងការបន្ថែម ឬដកសម្ភារៈចេញពីកាបូប"
+"របស់អ្នកលេង។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:214
 msgid ""
 "In the following practices, we'll use a dictionary to create a player "
 "inventory and create a function to change the value of items."
 msgstr ""
+"ក្នុងការអនុវត្តខាងក្រោម យើងនឹងប្រើ dictionary ដើម្បីបង្កើតកាបូបសម្ភារៈរបស់អ្នកលេង និងបង្កើត "
+"func មួយដើម្បីផ្លាស់ប្តូរចំនួនសម្ភារៈ។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:222
 msgid "Creating an inventory using a dictionary"
-msgstr ""
+msgstr "បង្កើតកាបូបសម្ភារៈដោយប្រើ Dictionary"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:223
 msgid "Let's give some items to the player."
-msgstr ""
+msgstr "មកផ្តល់សម្ភារៈមួយចំនួនទៅឱ្យអ្នកលេងរបស់យើង។"
 
 msgid ""
 "We use a dictionary for the player's inventory. We defined the "
 "[code]inventory[/code] variable for you, but it contains no items yet."
 msgstr ""
+"យើងនឹងប្រើ dictionary សម្រាប់កាបូបសម្ភារៈរបស់អ្នកលេង។ យើងបានកំណត់ variable (អថេរ) "
+"[code]inventory[/code] រួចហើយ ប៉ុន្តែវានៅទទេ គ្មានសម្ភារៈនៅឡើយទេ។"
 
 msgid ""
 "Give the player the following items by adding the correct keys and values"
 " to the dictionary:"
 msgstr ""
+"ផ្តល់សម្ភារៈខាងក្រោមទៅឱ្យអ្នកលេង ដោយបន្ថែម key និង value ឱ្យបានត្រឹមត្រូវនៅក្នុង dictionary៖"
 
 msgid ""
 "- Three \"healing heart\".\n"
 "- Nine \"gems\".\n"
 "- One \"sword\"."
 msgstr ""
+"- \"healing heart\" ចំនួន 3។\n"
+"- \"gems\" ចំនួន 9។\n"
+"- \"sword\" ចំនួន 1។"
 
 msgid "The keys should be text strings, and the values whole numbers."
-msgstr ""
+msgstr "Key គួរតែជាអក្សរ (text string) រីឯ value គឺជាលេខគត់។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:245
 msgid ""
 "Collecting items is fun, but we need a good way to store them. Write a "
 "dictionary to display the player's items."
 msgstr ""
+"ការប្រមូលសម្ភារៈពិតជាសប្បាយមែន ប៉ុន្តែយើងត្រូវការ វិធីល្អមួយដើម្បីរក្សាទុកវា។ សរសេរ dictionary "
+"ដើម្បីបង្ហាញសម្ភារៈរបស់អ្នកលេង។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:250
 msgid "Increasing item counts"
-msgstr ""
+msgstr "ការបង្កើនចំនួនសម្ភារៈ"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:251
 msgid ""
 "We want to change the item counts in the player's inventory whenever the "
 "player picks up or uses an item."
 msgstr ""
+"យើងចង់កែប្រែចំនួនសម្ភារៈនៅក្នុងកាបូបរបស់អ្នកលេង រាល់ពេលដែលពួកគេទៅប្រមូល ឬប្រើប្រាស់សម្ភារៈណាមួយ។"
 
 msgid "We've started the [code]add_item()[/code] function for you."
-msgstr ""
+msgstr "យើងបានសរសេរកូដដំបូងនៃ func [code]add_item()[/code] ជូនអ្នករួចហើយ។"
 
 msgid ""
 "The [code]inventory[/code] dictionary should use the "
 "[code]item_name[/code] parameter as the key to access its values, and we "
 "should increase the value by [code]amount[/code]."
 msgstr ""
+"Dictionary [code]inventory[/code] គួរតែប្រើ parameter (តម្លៃបញ្ចូល) "
+"[code]item_name[/code] ជា key ដើម្បីចូលទៅកាន់តម្លៃរបស់វា ហើយយើងត្រូវបង្កើនតម្លៃនោះដោយ "
+"[code]amount[/code]។"
 
 msgid ""
 "To test this practice, we'll use your [code]add_item()[/code] function to"
 " increase the item count of Healing Heart, Gems, and Sword."
 msgstr ""
+"ដើម្បីសាកល្បងការអនុវត្តនេះ យើងនឹងប្រើ func​ [code]add_item()[/code] របស់អ្នកដើម្បីបង្កើនចំនួ"
+"ន Healing Heart, Gems, និង Sword។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:268
 msgid ""
 "The player might walk over a pick-up or find something in a chest, so we "
 "need a way to change the item counts in our inventory."
 msgstr ""
+"អ្នកលេងអាចនឹងដើរកាត់សម្ភារៈដែលដាក់នៅលើដី ឬរកឃើញអ្វីមួយនៅក្នុងប្រអប់ ដូច្នេះយើងត្រូវការវិធីសាស្រ្តមួ"
+"យដើម្បីកែប្រែចំនួនសម្ភារៈនៅក្នុង inventory។"
 
 #: course/lesson-25-creating-dictionaries/lesson.tres:272
 msgid "Creating Dictionaries"
-msgstr ""
+msgstr "ការបង្កើត Dictionaries"

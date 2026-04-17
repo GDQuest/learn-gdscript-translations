@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-17 06:09+0000\n"
+"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
+"gdscript-from-zero/lesson-24-access-array-indices/km/>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/lesson-24-access-array-indices/lesson.tres:14
@@ -24,77 +26,95 @@ msgid ""
 "You learned to loop over all the values in an array using the "
 "[code]for[/code] keyword."
 msgstr ""
+"អ្នកបានរៀនរបៀប loop (ដំណើរការម្តងមួយៗរង្វិលជុំ) លើតម្លៃទាំងអស់ក្នុង array (បញ្ជី) ដោយប្រើពាក្យ"
+"គន្លឹះ [code]for[/code]។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:34
 msgid ""
 "But what if you need to access the third item in the player's inventory? "
 "The tenth item?"
 msgstr ""
+"ប៉ុន្តែបើអ្នកចង់ចូលប្រើរបស់នៅចន្លោះទី 3 ក្នុង inventory (កន្លែងផ្ទុករបស់របរ) របស់ Player វិញ? "
+"ឬ របស់ស្ថិតនៅចន្លោះទី 10?"
 
 msgid "There's a dedicated notation to access one element in an array by index."
 msgstr ""
+"មានវិធីសរសេរពិសេសសម្រាប់ចូលប្រើធាតុតែមួយក្នុង array (បញ្ជី) តាម index (លេខរៀង)។"
 
 msgid "To do so, you use square brackets with a number inside the brackets."
-msgstr ""
+msgstr "ដើម្បីធ្វើដូច្នេះ អ្នកត្រូវប្រើ ដង្កៀប [ ] ហើយដាក់លេខនៅខាងក្នុង។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:58
 msgid "Index zero is the [i]first[/i] element in the array."
-msgstr ""
+msgstr "Index (លេខរៀង) 0 គឺជាធាតុ [i]ទី 1[/i] ក្នុង array។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:78
 msgid "Index one is the [i]second[/i] element in the array, and so on."
 msgstr ""
+"Index (លេខរៀង) 1 គឺជាធាតុ [i]ទី 2[/i] ក្នុង array ហើយក៏ដូច្នេះទៀត (ឧទាហរណ៍ ចន្លោះទី១០ ស្ថិ"
+"តនៅធាតុទី៩)។"
 
 msgid ""
 "You would access the [i]fourth[/i] element in the [code]inventory[/code] "
 "array like so."
 msgstr ""
+"អ្នកអាចចូលប្រើធាតុ [i]ទី 4[/i] ក្នុង array [code]inventory[/code] តាមរបៀបនេះ។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:98
 msgid ""
 "How would you access the [i]third[/i] item in the [code]inventory[/code] "
 "array?"
 msgstr ""
+"តើអ្នកនឹងចូលប្រើ របស់ចន្លោះ [i]ទី 3[/i] ក្នុង array [code]inventory[/code] ដោយរបៀបណា?"
 
 #: course/lesson-24-access-array-indices/lesson.tres:101
 msgid ""
 "Indices start at zero, so the index of the [i]third[/i] item is "
 "[code]2[/code]. That's why you need to write [code]inventory[2][/code]."
 msgstr ""
+"ដោយសារ index (លេខរៀង) ចាប់ផ្តើមពីលេខ 0 ដូច្នេះ index សម្រាប់ចន្លោះ [i]ទី 3[/i] គឺ "
+"[code]2[/code]។ ហេតុនេះហើយបានជាអ្នកត្រូវសរសេរ [code]inventory[2][/code]។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:102
 msgid "inventory[2]"
-msgstr ""
+msgstr "inventory[2]"
 
 #: course/lesson-24-access-array-indices/lesson.tres:102
 msgid "inventory[3]"
-msgstr ""
+msgstr "inventory[3]"
 
 #: course/lesson-24-access-array-indices/lesson.tres:110
 msgid "Accessing the last values with negative indices"
-msgstr ""
+msgstr "ចូលប្រើ តម្លៃចុងក្រោយដោយប្រើ negative indices (លេខរៀងអវិជ្ជមាន)"
 
 #: course/lesson-24-access-array-indices/lesson.tres:112
 msgid ""
 "What if you want to access the last or second-before-last item in the "
 "[code]inventory[/code]?"
 msgstr ""
+"តើបើអ្នកចង់ចូលប្រើ ចន្លោះរបស់ចុងក្រោយ ឬ បន្ទាប់ពីចន្លោះចុងក្រោយ ក្នុង [code]inventory[/code] "
+"វិញយ៉ាងណា?"
 
 msgid ""
 "In that case, you can use negative indices. If you write [code]-1[/code] "
 "in the brackets, you will get the last item in the array. You will get "
 "the second-to-last item if you write [code]-2[/code]."
 msgstr ""
+"ក្នុងករណីនេះ អ្នកអាចប្រើ negative indices (លេខរៀងអវិជ្ជមាន)។ បើអ្នកសរសេរ [code]-1[/"
+"code] ក្នុងវង់ក្រចក អ្នកនឹងបានរបស់ចុងក្រោយក្នុង array។ បើសរសេរ [code]-2[/code] អ្នកនឹងបានរ"
+"បស់ បន្ទាប់ពីចន្លោះចុងក្រោយមកវិញ។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:134
 msgid ""
 "That's very convenient when you need to quickly access elements from the "
 "end of the list."
 msgstr ""
+"វាងាយស្រួលខ្លាំងណាស់ ពេលអ្នកត្រូវចូលប្រើធាតុពីផ្នែកចុងនៃបញ្ជីយ៉ាងឆាប់រហ័ស។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:142
 msgid "How would you access the third-to-last item in the inventory array?"
 msgstr ""
+"តើអ្នកនឹងចូលប្រើរបស់នៅ ចន្លោះទី 3 ពីចុងក្រោយក្នុង array inventory ដោយរបៀបណា?"
 
 #: course/lesson-24-access-array-indices/lesson.tres:145
 msgid ""
@@ -102,6 +122,9 @@ msgid ""
 "element in the array. Index [code]-2[/code] will be the second-to-last, "
 "thus [code]-3[/code] will be the third-to-last."
 msgstr ""
+"ពេលប្រើ negative indices (លេខរៀងអវិជ្ជមាន) [code]-1[/code] គឺសំដៅលើធាតុ [i]ចុងក្រោយ[/"
+"i]។ Index (លេខរៀង) [code]-2[/code] នឹង របស់បន្ទាប់ពីចន្លោះចុងក្រោយចន្លោះទី ​2 ដូច្នេះ "
+"[code]-3[/code] នឹងជារបស់ទី 3 ចន្លោះបន្ទាប់ទៀត ដែលរាប់មកពីក្រោយវិញ។"
 
 msgid ""
 "It can be little confusing as it seems to work differently from positive "
@@ -109,18 +132,21 @@ msgid ""
 "[code]0[/code] and [code]-0[/code]: they both point to the first item in "
 "the array."
 msgstr ""
+"វាអាចធ្វើឱ្យច្រឡំបន្តិច ព្រោះមើលទៅហាក់ដូចជាដំណើរការខុសពី positive indices (លេខរៀងវិជ្ជមាន)"
+"។ ប៉ុន្តែមូលហេតុគឺដោយសារមិនមានភាពខុសគ្នារវាង index [code]0[/code] និង [code]-0[/code] "
+"ទេ៖ ទាំងពីរសំដៅទៅរករបស់ទី 1 ក្នុង array។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:148
 msgid "inventory[-3]"
-msgstr ""
+msgstr "inventory[-3]"
 
 #: course/lesson-24-access-array-indices/lesson.tres:148
 msgid "inventory[-2]"
-msgstr ""
+msgstr "inventory[-2]"
 
 #: course/lesson-24-access-array-indices/lesson.tres:156
 msgid "You can't access non-existent indices"
-msgstr ""
+msgstr "យើងមិនអាចចូលប្រើ លេខរៀង (index) ដែលគ្មានពិតប្រាកដនោះទេ"
 
 #: course/lesson-24-access-array-indices/lesson.tres:158
 msgid ""
@@ -128,96 +154,127 @@ msgid ""
 " not exist, you will get an error. You have to be careful always to "
 "access existing elements in the array."
 msgstr ""
+"មានចំណុចមួយដែលត្រូវប្រយ័ត្នជាមួយ syntax (វិធីសរសេរកូដ) នេះ ៖ បើអ្នកព្យាយាមចូលប្រើ index (លេខ"
+"រៀង) ដែលមិនមានពិតប្រាក អ្នកនឹងទទួលបាន error (កំហុស)។ អ្នកត្រូវប្រុងប្រយ័ត្នជានិច្ច ដើម្បីកុំចូលប្រើធា"
+"តុដែលគ្មានក្នុង array។"
 
 msgid ""
 "There are a couple of ways you can check for valid indices. One of them "
 "is checking the array's size."
 msgstr ""
+"មានវិធីជាច្រើនដើម្បីពិនិត្យមើល index (លេខរៀង) ដែលត្រឹមត្រូវ។ វិធីមួយក្នុងនោះគឺពិនិត្យមើល size (ចំនួន"
+"ធាតុ) របស់ array។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:170
 msgid "[b]Checking the size of the array[/b]"
-msgstr ""
+msgstr "[b]ការពិនិត្យមើល size (ចំនួនធាតុ) របស់ array[/b]"
 
 msgid ""
 "Arrays come with a member function named [code]size()[/code]. You can "
 "call it on the array anytime to know its [i]current[/i] size."
 msgstr ""
+"Array តែងមាន member function (​func ភ្ជាប់គ្នា) ឈ្មោះ [code]size()[/code]។ អ្នកអាច "
+"call (ហៅ) វាលើ array គ្រប់ពេលវេលា ដើម្បីដឹងពី size (ចំនួនធាតុ) [i]បច្ចុប្បន្ន[/i] របស់វា។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:192
 msgid ""
 "The maximum index you can access in an array is [code]array.size() - "
 "1[/code]: it's the last item in the array."
 msgstr ""
+"Index (លេខរៀង) ដែនកំណត់​ ដែលអ្នកអាចចូលប្រើក្នុង array គឺ [code]array.size() - 1[/"
+"code]៖ វាគឺជារបស់ចុងក្រោយក្នុង array។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:212
 msgid ""
 "In the following practices, you will use array indices to realign train "
 "tracks and grab the correct item in an inventory."
 msgstr ""
+"នៅក្នុងលំហាត់បន្ទាប់នេះ អ្នកនឹងប្រើ array indices (លេខរៀងនៃបញ្ជី) ដើម្បីកែផ្លូវរថភ្លើងឱ្យត្រង់វិ"
+"ញ និងចាប់យករបស់ត្រឹមត្រូវក្នុង inventory (កន្លែងផ្ទុករបស់)។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:220
 msgid "Using the right items"
-msgstr ""
+msgstr "ការប្រើប្រាស់ របស់របរ​ ត្រឹមត្រូវ"
 
 #: course/lesson-24-access-array-indices/lesson.tres:221
 msgid ""
 "In our game, the player has an inventory that works as an array under the"
 " hood."
 msgstr ""
+"ក្នុងហ្គេមរបស់យើង អ្នកលេងមាន inventory (កន្លែងផ្ទុករបស់) ដែលដំណើរការជា array (បញ្ជី) នៅខា"
+"ងក្នុង។"
 
 msgid ""
 "The player knows they have a sword and a shield somewhere in their "
 "inventory, but they don't remember exactly where."
 msgstr ""
+"អ្នកលេងដឹងថាមាន ដាវ និង ខែល នៅកន្លែងណាមួយក្នុង inventory របស់គាត់ ប៉ុន្តែពួកគាត់មិនចាំច្បាស់ថា"
+"នៅត្រង់ណាទេ។"
 
 msgid ""
 "You can see the inventory drawn on the right, along with the index of "
 "each item in the inventory."
 msgstr ""
+"អ្នកអាចមើលឃើញ inventory ត្រូវបានគូរនៅខាងស្តាំ រួមជាមួយនឹង index (លេខរៀង) នៃរបស់នីមួយៗក្នុង "
+"inventory។"
 
 msgid ""
 "Your task is to find one sword and one shield in the array using their "
 "index, then call [code]use_item()[/code] on each of them so the player "
 "can equip those items."
 msgstr ""
+"ភារកិច្ចរបស់អ្នកគឺរ​ក ដាវមួយ និង ខែលមួយ ក្នុង array ដោយប្រើ index (លេខរៀង) របស់ពួកវា រួច "
+"call (ហៅ) [code]use_item()[/code] លើរបស់នីមួយៗ ដើម្បីឱ្យអ្នកលេងអាច equip (ពាក់/ប្រើប្រា"
+"ស់) របស់ទាំងនោះបាន។"
 
 msgid ""
 "For example, if the first item in the array is what you need, you would "
 "call [code]use_item(inventory[0])[/code]."
 msgstr ""
+"ឧទាហរណ៍ បើរបស់ទី 1 ក្នុង array គឺជាអ្វីដែលអ្នកត្រូវការ អ្នកនឹង call (ហៅ) [code]use_item"
+"(inventory[0])[/code]។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:242
 msgid "Find the right items to use in the player's inventory, using their index."
 msgstr ""
+"ស្វែងរករបស់ត្រឹមត្រូវដើម្បីប្រើប្រាស់ក្នុង inventory របស់អ្នកលេង ដោយប្រើ index (លេខរៀង) របស់ពួក"
+"គេ។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:247
 msgid "Realigning the train tracks"
-msgstr ""
+msgstr "ការកែផ្លូវរថភ្លើងឱ្យត្រង់វិញ"
 
 #: course/lesson-24-access-array-indices/lesson.tres:248
 msgid ""
 "We have train tracks broken down into little chunks in our game. We use "
 "them to make modular tracks and draw circuits of all shapes and sizes."
 msgstr ""
+"យើងបានបំបែកផ្លូវរថភ្លើងទៅជា chunks (ផ្នែកតូចៗ) ក្នុងហ្គេមរបស់យើង។ យើងប្រើពួកវាដើម្បីបង្កើតផ្លូ"
+"វ modular (ផ្លូវដែលអាចតភ្ជាប់បាន) និងគូរជារង្វង់ ឬគន្លងគ្រប់ទ្រង់ទ្រាយ និងទំហំ។"
 
 msgid ""
 "However, several chunks are misaligned. You need to find them in the "
 "[code]tracks[/code] array and pass them to the [code]align()[/code] "
 "function."
 msgstr ""
+"ប៉ុន្តែ chunks (ផ្នែក) មួយចំនួនត្រូវបានដាក់ខុសទីតាំង។ អ្នកត្រូវរកវាក្នុង array [code]tracks[/"
+"code] រួច pass (បញ្ជូន) វាទៅកាន់ function [code]align()[/code]។"
 
 msgid "To do so, you need to access the array by index."
-msgstr ""
+msgstr "ដើម្បីធ្វើដូច្នេះ អ្នកត្រូវចូលប្រើ array តាម index (លេខរៀង)។"
 
 msgid "This time, though, you need to access them with [i]negative indices[/i]."
 msgstr ""
+"ប៉ុន្តែលើកនេះ អ្នកត្រូវចូលប្រើពួកវាដោយប្រើ [i]negative indices[/i] (លេខរៀងអវិជ្ជមាន)។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:267
 msgid ""
 "Some chunks of our train tracks are misaligned, and the train can't pass."
 " Find the faulty pieces and realign them."
 msgstr ""
+"chunks (ផ្នែក) មួយចំនួននៃផ្លូវរថភ្លើងរបស់យើងដាក់ខុសទីតាំង ធ្វើឱ្យរថភ្លើងមិនអាចធ្វើដំណើរបាន។ សូមរ"
+"កផ្នែកដែលខូចទីតាំងនោះ ហើយកែវាឱ្យត្រង់វិញ។"
 
 #: course/lesson-24-access-array-indices/lesson.tres:271
 msgid "Accessing values in arrays"
-msgstr ""
+msgstr "ការចូលប្រើតម្លៃក្នុង arrays (បញ្ជី)"

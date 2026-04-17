@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-04-15 15:11+0000\n"
+"PO-Revision-Date: 2026-04-17 06:09+0000\n"
 "Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-"
 "gdscript-from-zero/lesson-21-strings/km/>\n"
@@ -26,19 +26,23 @@ msgid ""
 "Throughout this course, we've mostly stored numbers in variables. But "
 "what if we wanted to store a player's name?"
 msgstr ""
+"ក្នុងមេរៀនទាំងអស់នេះ យើងភាគច្រើនបានរក្សាលេខ ក្នុង Variable ។ តែបើយើងចង់រក្សា ឈ្មោះអ្នកលេង"
+"វិញយ៉ាងម៉េច?"
 
 msgid "This is where strings help us."
-msgstr ""
+msgstr "ត្រង់នេះហើយដែល strings (អត្ថបទ) ជួយយើង។"
 
 msgid ""
 "Strings are instrumental in games and applications. We use them to "
 "display information such as the description of a spell or the name of a "
 "character."
 msgstr ""
+"Strings (អត្ថបទ) មានសារៈសំខាន់ណាស់ក្នុងហ្គេមនិងកម្មវិធី។ យើងប្រើវាដើម្បីបង្ហាញព័ត៌មាន ដូចជាការពិ"
+"ពណ៌នាអំពីមន្ត ឬឈ្មោះតួអង្គ។"
 
 #: course/lesson-21-strings/lesson.tres:36
 msgid "What are strings"
-msgstr ""
+msgstr "តើ strings(អក្សរ) គឺជាអ្វី"
 
 #: course/lesson-21-strings/lesson.tres:38
 msgid ""
@@ -46,14 +50,18 @@ msgid ""
 "[code]String[/code], you write text wrapped in quotation marks "
 "([code]\"\"[/code]). For example: [code]\"This is a text string.\"[/code]"
 msgstr ""
+"[code]String[/code] គឺជាប្រភេទតម្លៃដែល ផ្ទុកអក្សរ។ ដើម្បីបង្កើត [code]String[/code] អ្ន"
+"កសរសេរអត្ថបទដាក់ក្នុងសញ្ញា ធ្មេញកណ្ដុរ​ សងខាង ([code]\"\"[/code])។ ឧទាហរណ៍៖ "
+"[code]\"This is a text string.\"[/code]"
 
 msgid ""
 "The quotation marks differentiate strings from other value types and "
 "function names."
 msgstr ""
+"សញ្ញា ធ្មេញកណ្ដុរ​សង ខាងជួយឱ្យយើងចែកដាច់ strings ពីប្រភេទតម្លៃផ្សេងៗ និងឈ្មោះ function ។"
 
 msgid "You may remember we've used strings before in previous lessons."
-msgstr ""
+msgstr "អ្នកប្រហែលជាចាំថា យើងធ្លាប់ប្រើ strings ក្នុងមេរៀនមុនៗហើយ។"
 
 #: course/lesson-21-strings/lesson.tres:62
 msgid ""
@@ -61,22 +69,26 @@ msgid ""
 "[code]for[/code] loop to loop through the characters of a "
 "[code]String[/code] as we would with any other array."
 msgstr ""
+"តាមពិតទៅ strings គឺជា array នៃតួអក្សរ។ ជាការពិត យើងអាចប្រើ [code]for[/code] loop ដើ"
+"ម្បីរំកិលតាមតួអក្សរនៃ [code]String[/code] ដូចដែលយើងធ្វើជាមួយ array ផ្សេងទៀត។"
 
 #: course/lesson-21-strings/lesson.tres:80
 msgid "Which of these are strings?"
-msgstr ""
+msgstr "តើមួយណាក្នុងចំណោមនេះជា strings?"
 
 #: course/lesson-21-strings/lesson.tres:83
 msgid "[code]\"1\"[/code] and [code]\"name\"[/code] are strings."
-msgstr ""
+msgstr "[code]\"1\"[/code] និង [code]\"name\"[/code] គឺជា strings។"
 
 msgid ""
 "[code]\"1\"[/code] only contains a character and [i]doesn't[/i] represent"
 " the number [code]1[/code]."
 msgstr ""
+"[code]\"1\"[/code] គ្រាន់តែមានតួអក្សរមួយប៉ុណ្ណោះ ហើយ [i]មិនមែន[/i] តំណាងឱ្យលេខ [code]1[/"
+"code] ទេ។"
 
 msgid "[code]\"name\"[/code] is made up of four different characters."
-msgstr ""
+msgstr "[code]\"name\"[/code] ត្រូវបានបង្កើតឡើងពីតួអក្សរផ្សេងៗគ្នាចំនួនបួន។"
 
 #: course/lesson-21-strings/lesson.tres:88
 msgid "1"
@@ -84,94 +96,113 @@ msgstr "1"
 
 #: course/lesson-21-strings/lesson.tres:88
 msgid "\"1\""
-msgstr ""
+msgstr "\"1\""
 
 #: course/lesson-21-strings/lesson.tres:88
 msgid "\"name\""
-msgstr ""
+msgstr "\"name\""
 
 #: course/lesson-21-strings/lesson.tres:96
 msgid "Why we use strings"
-msgstr ""
+msgstr "ហេតុអ្វីបានជាយើងប្រើ strings"
 
 #: course/lesson-21-strings/lesson.tres:118
 msgid ""
 "Every piece of text you see in this app is a string that Godot is "
 "displaying for us."
 msgstr ""
+"អត្ថបទទាំងអស់ដែលអ្នកឃើញក្នុងកម្មវិធីនេះ គឺជា string ដែល Godot (ម៉ាស៊ីនបង្កើតហ្គេម) កំពុងបង្ហាញឱ្"
+"យយើង។"
 
 msgid ""
 "Much like how [code]Vector2[/code] variables make calculations easier, "
 "[code]string[/code] variables come with many helper functions and tricks "
 "we can use."
 msgstr ""
+"ដូចដែល [code]Vector2[/code] Variable ជួយឱ្យការគណនាកាន់តែងាយស្រួល [code]string[/"
+"code] Variable ក៏មានមុខងារជំនួយ និងល្បិចជាច្រើនដែលយើងអាចប្រើបានដែរ។"
 
 msgid ""
 "We can use arrays to store strings too. This is useful for chaining "
 "animations. In this example, the [code]play_animation()[/code] plays a "
 "specific animation."
 msgstr ""
+"យើងក៏អាចប្រើ array ដើម្បីរក្សាទុក strings ផងដែរ។ វាមានប្រយោជន៍សម្រាប់ការភ្ជាប់ចលនាបន្តបន្ទា"
+"ប់។ ក្នុងឧទាហរណ៍នេះ [code]play_animation()[/code] ចាប់ផ្តើមចលនាជាក់លាក់មួយ។"
 
 #: course/lesson-21-strings/lesson.tres:142
 msgid ""
 "In the next few practices, we'll use strings in combination with "
 "different concepts from earlier lessons."
 msgstr ""
+"ក្នុងការអនុវត្តបន្តបន្ទាប់នេះ យើងនឹងប្រើ strings រួមជាមួយនឹងគំនិតផ្សេងៗពីមេរៀនមុនៗ។"
 
 #: course/lesson-21-strings/lesson.tres:150
 msgid "Creating string variables"
-msgstr ""
+msgstr "ការបង្កើតអថេរ string"
 
 #: course/lesson-21-strings/lesson.tres:151
 msgid ""
 "Currently, the robot has a number stored in the [code]robot_name[/code] "
 "variable."
 msgstr ""
+"បច្ចុប្បន្ន robot មានលេខមួយត្រូវបានរក្សាទុកក្នុង Variable [code]robot_name[/code]។"
 
 msgid ""
 "Change the [code]robot_name[/code] variable so that it's a string "
 "instead. You can give it any name you'd like."
 msgstr ""
+"ផ្លាស់ប្តូរ Variable [code]robot_name[/code] ឱ្យក្លាយជា string ជំនួសវិញ។ អ្នកអាចដាក់ឈ្មោះ"
+"ណាក៏បានតាមចិត្តអ្នក។"
 
 #: course/lesson-21-strings/lesson.tres:165
 msgid "Give the robot a readable name using a string stored in a variable."
 msgstr ""
+"ផ្តល់ឈ្មោះដែលងាយអានដល់ Robot ដោយប្រើ string ដែលត្រូវបានរក្សាទុកក្នុង Variable។"
 
 #: course/lesson-21-strings/lesson.tres:170
 msgid "Using an array of strings to play a combo"
-msgstr ""
+msgstr "ការប្រើ array នៃ strings ដើម្បីចាប់ផ្តើម combo"
 
 #: course/lesson-21-strings/lesson.tres:171
 msgid ""
 "In this practice, we'll chain together animations using an array of "
 "strings. You might find such combinations in fighting games."
 msgstr ""
+"ក្នុងការអនុវត្តនេះ យើងនឹងភ្ជាប់ចលនាជាបន្តបន្ទាប់ដោយប្រើ array នៃ strings។ អ្នកប្រហែលជាធ្លាប់"
+"ឃើញ ការរួមបញ្ចូលគ្នាបែបនេះក្នុងហ្គេមប្រយុទ្ធ។"
 
 msgid "The robot has the following animation names:"
-msgstr ""
+msgstr "Robot មានឈ្មោះចលនាដូចខាងក្រោម៖"
 
 msgid ""
 "- [code]jab[/code] (makes the robot perform a quick punch)\n"
 "- [code]uppercut[/code] (the robot uses a powerful jumping punch)"
 msgstr ""
+"- [code]jab[/code] (ធ្វើឱ្យ Robot វាយមួយដៃលឿន)\n"
+"- [code]uppercut[/code] (Robot ប្រើការវាយមួយដៃដ៏ខ្លាំងក្លាដោយលោត)"
 
 msgid "Populate the combo array with animation names as strings."
-msgstr ""
+msgstr "បំពេញ array combo ជាមួយឈ្មោះចលនាជា strings។"
 
 msgid ""
 "Then, for each action in the array, call the "
 "[code]play_animation()[/code] function to play them."
 msgstr ""
+"បន្ទាប់មក សម្រាប់សកម្មភាពនីមួយៗក្នុង array ត្រូវហៅ func [code]play_animation()[/code] ដើ"
+"ម្បីចាប់ផ្តើមវា។"
 
 msgid ""
 "The array should contain three values, so the robot makes these three "
 "attacks: two jabs followed by one uppercut."
 msgstr ""
+"array គួរមានតម្លៃចំនួនបី ដើម្បីឱ្យ Robot វាយបីដង ៖ វាយពីរដងដោយ jab តាមដោយ uppercut មួយដង"
+"។"
 
 #: course/lesson-21-strings/lesson.tres:193
 msgid "Define an array of strings to unleash a powerful combo."
-msgstr ""
+msgstr "កំណត់ array នៃ strings ដើម្បីបញ្ចេញ combo ដ៏ខ្លាំងក្លា។"
 
 #: course/lesson-21-strings/lesson.tres:197
 msgid "Strings"
-msgstr ""
+msgstr "Strings (អក្សរ)"
