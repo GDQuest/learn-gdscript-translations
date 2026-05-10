@@ -9,45 +9,44 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2023-06-28 10:51+0000\n"
-"Last-Translator: Deolindo <deolindojvn@gmail.com>\n"
+"PO-Revision-Date: 2026-05-10 23:04+0000\n"
+"Last-Translator: Artur Alves Coqueiro <arturalvescoqueiro@proton.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-18-for-loops/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.5-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
-#, fuzzy
 msgid ""
 "In the last lesson, we looked at [code]while[/code] loops. We found they "
 "were useful if we don't know how many times we should repeat code. But "
 "[code]while[/code] loops can result in infinite loops if we're not careful."
 msgstr ""
-"Na última lição, vimos os loops [code]while[/code]. Descobrimos que eles são "
-"úteis se não soubermos quantas vezes devemos repetir o código."
+"Na última lição, vimos as iterações (loops) [code]while[/code]. Descobrimos "
+"que elas são úteis se não soubermos quantas vezes devemos repetir o código. "
+"Mas iterações [code]while[/code] podem resultar em iterações infinitas se "
+"não a gente não for cuidadoso."
 
-#, fuzzy
 msgid ""
 "For example, the loop below never ends because we never increment "
 "[code]number[/code]."
 msgstr ""
 "O loop abaixo nunca termina porque nunca incrementamos a variável "
-"[code]number[/code]."
+"[code]number[/code] (\"number\" significa \"número\" em inglês)."
 
 #: course/lesson-18-for-loops/lesson.tres:36
-#, fuzzy
 msgid ""
 "There's a safer and easier kind of loop: the [code]for[/code] loop. We'll "
 "look at it in this lesson."
 msgstr ""
 "Existe um tipo de loop mais seguro e geralmente mais fácil: o loop "
-"[code]for[/code]."
+"[code]for[/code]. Vamos dar uma olhadinha nele nessa lição."
 
-#, fuzzy
 msgid ""
 "Unlike [code]while[/code] loops, [code]for[/code] loops don't run forever, "
 "so you're much less likely to get infinite loop bugs in your game. [b]We "
@@ -58,11 +57,12 @@ msgstr ""
 "em seu jogo. [b]Recomendamos que você dê preferência ao loop for ao invés do "
 "loop while por causa disso[/b]."
 
-#, fuzzy
 msgid ""
 "In this example, I changed the code above to use a [code]for[/code] loop "
 "instead. The loop below will change the [code]cell[/code] three times."
-msgstr "Vamos alterar o código acima para usar um loop [code]for[/code]."
+msgstr ""
+"Neste exemplo, eu mudei o código acima para um loop [code]for[/code]. O loop "
+"abaixo vai mudar a [code]cell[/code] (célula) 3 vezes."
 
 #: course/lesson-18-for-loops/lesson.tres:60
 msgid "Let's explain what's going on here."
