@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-02-05 07:01+0000\n"
-"Last-Translator: Deolindo <deolindojvn@gmail.com>\n"
+"PO-Revision-Date: 2026-05-10 23:04+0000\n"
+"Last-Translator: Artur Alves Coqueiro <arturalvescoqueiro@proton.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-26-looping-over-dictionaries/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.5-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:13
@@ -26,8 +27,10 @@ msgid ""
 "When you loop over a dictionary, you get its keys one by one. You can then "
 "use each key to get its value."
 msgstr ""
+"Você pode iterar sobre dicionários, assim como aprendeu a iterar sobre "
+"arrays. Quando você itera sobre um dicionário, obtém suas chaves uma por "
+"uma. Depois, você pode usar cada chave para obter seu valor."
 
-#, fuzzy
 msgid "Let's see how this works with two examples."
 msgstr "Vamos ver como funciona com dois exemplos."
 
@@ -36,44 +39,42 @@ msgid "Displaying an inventory's content"
 msgstr "Exibindo o conteúdo de um inventário"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:25
-#, fuzzy
 msgid ""
 "To display the player's inventory, you need to know what it contains: the "
 "name and amount of each item."
 msgstr ""
 "Para exibir o inventário do jogador, você precisa saber o que esse "
-"inventário contém. Você precisa do nome e quantidade de cada objeto."
+"inventário contém : O nome e quantidade de cada item."
 
-#, fuzzy
 msgid ""
 "To do this, you loop over the dictionary and process each key-value pair one "
 "at a time."
 msgstr ""
-"E a partir do código, você só pode conseguir isso fazendo um loop em todo o "
-"dicionário e processando os pares de valores-chave um por um."
+"Para fazer isso, você tem que iterar sobre o dicionário e processar cada par "
+"de valor-chave um por um."
 
-#, fuzzy
 msgid ""
 "You can get the list of all the keys in a dictionary by calling its "
 "[code]keys()[/code] function."
 msgstr ""
-"Para obter a lista de chaves no dicionário, você pode chamar sua função "
-"membro [code]keys()[/code]."
+"Você pode receber a lista de todas as chaves em um dicionário chamando a "
+"função [code]keys()[/code] (\"keys\" significa \"chaves\" em inglês)."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:49
 msgid ""
 "Looping over dictionary keys is so common that GDScript gives you a shortcut."
 msgstr ""
+"Iterar sobre as chaves de um dicionário é muito comum que até mesmo o "
+"GDScript te dá um atalho."
 
-#, fuzzy
 msgid ""
 "You can write the dictionary variable name directly after the [code]in[/"
 "code] keyword in a [code]for[/code] loop. GDScript automatically loops over "
 "the dictionary's keys."
 msgstr ""
-"Ao invés disso, você pode digitar diretamente o nome da variável em um loop "
-"[code]for[/code] após a palavra-chave [code]in[/code]. A linguagem entende "
-"que você deseja fazer um loop sobre as chaves do dicionário implicitamente."
+"Você pode escrever o nome do dicionário diretamente depois da palavra-chave "
+"[code]in[/code] (\"in\" significa \"em\") em um loop. GDScript "
+"automaticamente itera sobre as chaves de um dicionário."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:71
 msgid ""
