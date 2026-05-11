@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-05-10 23:04+0000\n"
+"PO-Revision-Date: 2026-05-11 23:11+0000\n"
 "Last-Translator: Artur Alves Coqueiro <arturalvescoqueiro@proton.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-11-time-delta/pt_BR/>\n"
@@ -142,9 +142,8 @@ msgstr ""
 "Dependendo do jogo, do computador e do que a engine do jogo precisa "
 "calcular, os frames levam mais ou menos tempo para serem exibidos."
 
-#, fuzzy
 msgid "There will always be small variations from frame to frame."
-msgstr "Sempre haverá variações de milissegundos de frame a frame."
+msgstr "Sempre haverá pequenas variações de quadro a quadro."
 
 msgid ""
 "That is why the [code]_process()[/code] function receives a [code]delta[/"
@@ -153,17 +152,18 @@ msgstr ""
 "É por isso que a função [code]_process()[/code] recebe um parâmetro "
 "[code]delta[/code]."
 
-#, fuzzy
 msgid ""
 "Delta represents a time difference. It's the time it took Godot to complete "
 "the previous frame, in seconds."
 msgstr ""
 "A palavra \"delta\" representa uma diferença de tempo. É o tempo decorrido "
-"desde o frame anterior, em segundos."
+"desde o quadro anterior, em segundos."
 
 msgid ""
 "We can use it to make sure the game runs at the same speed on all computers."
 msgstr ""
+"Nós podemos usar isso para ter certeza que jogo roda na mesma velocidade em "
+"todos os computadores."
 
 #, fuzzy
 msgid ""
@@ -373,7 +373,7 @@ msgstr "O que isso significa?"
 
 #: course/lesson-11-time-delta/lesson.tres:228
 msgid "[code]rotation_speed * delta[/code]"
-msgstr "[code]rotation_speed * delta[/code]"
+msgstr "[code]velocidade_de_rotação * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
 #, fuzzy
