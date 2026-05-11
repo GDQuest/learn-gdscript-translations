@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-05-10 23:04+0000\n"
+"PO-Revision-Date: 2026-05-11 23:11+0000\n"
 "Last-Translator: Artur Alves Coqueiro <arturalvescoqueiro@proton.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-26-looping-over-dictionaries/pt_BR/>\n"
@@ -83,16 +83,18 @@ msgid ""
 "code], [code]key[/code], or anything else. This variable holds one key at a "
 "time as the loop runs."
 msgstr ""
+"Lembre-se : O nome depois da palavra-chave [code]for[/code] é o nome da "
+"variável que você escolheu. Você poderia chamá-la de [code]nome_do_item[/"
+"code], [code]item[/code], [code]chave[/code], ou qualquer outra coisa. Esta "
+"variável guarda um item a cada vez que o loop roda."
 
-#, fuzzy
 msgid ""
 "You can get each value with the syntax [code]dictionary[key][/code], as you "
 "learned in the previous lesson."
 msgstr ""
-"Você pode obter os valores com a sintaxe [code]dictionary[key][/code] "
-"conforme aprendeu na lição anterior."
+"Você pode obter cada um dos valores com a sintaxe [code]dictionary[chave][/"
+"code] conforme você aprendeu na lição anterior."
 
-#, fuzzy
 msgid ""
 "So we can loop over the inventory keys, get their values, and display that "
 "information on screen."
@@ -101,27 +103,24 @@ msgstr ""
 "e exibir todas essas informações na interface do usuário."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:105
-#, fuzzy
 msgid ""
 "Instead of printing the key-value pairs to the output console, we can write "
 "and call a function that displays items on the screen."
 msgstr ""
-"Ao invés de imprimir os pares chave-valor no console de saída, podemos "
-"programar e chamar uma função dedicada que exibe itens na interface do "
-"usuário."
+"Ao invés de imprimir os pares de chave-valor no console de saída, podemos "
+"programar e chamar uma função que mostra itens na tela."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:133
 msgid "Mapping grid cells to units"
 msgstr "Mapeando células de grid para unidades"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:135
-#, fuzzy
 msgid ""
 "You can also use a dictionary to store which units are at which positions on "
 "a game board."
 msgstr ""
-"Também podemos usar um dicionário para mapear unidades para sua posição em "
-"um tabuleiro de jogo."
+"Também podemos usar um dicionário para mapear as posições de unidades em um "
+"tabuleiro."
 
 #, fuzzy
 msgid ""
@@ -167,28 +166,26 @@ msgid "Displaying the inventory"
 msgstr "Mostrando o inventário"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:200
-#, fuzzy
 msgid ""
 "We use a dictionary to store the player's inventory. The keys are item "
 "names, and the values are how many of each item the player has."
 msgstr ""
 "Usamos um dicionário para representar o inventário do jogador nesse jogo. As "
-"chaves do dicionário são o nome dos itens e mapeiam o número de itens que o "
-"jogador possui."
+"chaves do dicionário representam o nome dos itens e os valores representam a "
+"quantidade de itens que o jogador possui."
 
-#, fuzzy
 msgid "Loop over the dictionary and display every item in the inventory."
 msgstr ""
 "Você precisa percorrer o dicionário com um loop e exibir o nome e a "
 "quantidade de cada item no inventário."
 
-#, fuzzy
 msgid ""
 "Call the [code]display_item()[/code] function for each item. It takes two "
 "arguments: the item name and the amount."
 msgstr ""
-"Para fazer isso, chame a função [code]display_item()[/code]. São necessários "
-"dois argumentos: o nome do item e a quantidade."
+"Chame a função [code]display_item()[/code] (\"display item\" significa "
+"\"mostrar item\" em inglês) para cada item. São necessários dois argumentos: "
+"o nome do item e a quantidade."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:221
 #, fuzzy
