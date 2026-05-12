@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2023-06-27 07:50+0000\n"
-"Last-Translator: Deolindo <deolindojvn@gmail.com>\n"
+"PO-Revision-Date: 2026-05-11 23:11+0000\n"
+"Last-Translator: Artur Alves Coqueiro <arturalvescoqueiro@proton.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.5-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -78,24 +79,26 @@ msgstr ""
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
-#, fuzzy
 msgid ""
 "You get this error when you try to assign a value to something that is not a "
 "variable."
 msgstr ""
-"Se você recebeu esse erro, você provavelmente está tentando atribuir um "
-"valor a algo que não é uma variável, o que é impossível. Você só pode "
-"atribuir valores em variáveis."
+"Se você recebeu esse erro, você provavelmente está tentando colocar um valor "
+"a algo que não é uma variável, mas isso não é possível."
 
 msgid ""
 "You can only assign values to variables. You cannot assign values to "
 "function calls or calculations."
 msgstr ""
+"Você só pode atribuir valores em variáveis. O que também significa que você "
+"não pode atribuir valores para chamadas de funções ou cálculos."
 
 msgid ""
 "For example, you cannot write [code]randi() = 5[/code] because [code]randi()"
 "[/code] is a function call, not a variable."
 msgstr ""
+"Por exemplo, você não pode escrever [code]randi() = 5[/code] porque "
+"[code]randi()[/code] é uma chamada de função, não uma variável."
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
@@ -103,40 +106,54 @@ msgid ""
 "Check what you wrote on the left side of the equal sign (=). Make sure it is "
 "a variable name."
 msgstr ""
+"Checa o que você escreveu no lado esquerdo do sinal de igual (=). É muito "
+"bom que você tenha certeza que é um nome de uma variável."
 
 msgid ""
 "If you see parentheses () on the left side, you might be trying to assign to "
 "a function call. Remove the parentheses and the function call."
 msgstr ""
+"Se você está vendo parênteses () no lado esquerdo, você pode estar tentando "
+"atribuir para a chamada de função. Remova os parênteses e a chamada de "
+"função."
 
-#, fuzzy
 msgid ""
 "If you are trying to check if two values are equal in a condition, use two "
 "equal signs (==) instead of one (=)."
 msgstr ""
-"Outra possibilidade é que você está tentando fazer uma comparação de "
-"igualdade mas escreveu um único = ao invés de ==."
+"Se você está tentando checar se dois valores são iguais em uma condição, use "
+"dois sinais de igual (==) ao invés de um (=)."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
 msgid "You get this error when you try to change the value of a constant."
 msgstr ""
+"Você recebeu esse erro quando você tentou mudar o valor de uma constante."
 
 msgid ""
 "A constant is a name that holds a value that cannot change. It's like a "
 "variable, but once you set its value, you cannot replace it."
 msgstr ""
+"Uma constante é um nome que guarda um valor que não pode ser mudado. É como "
+"uma variável, mas uma vez que você define seu valor, não pode mudá-lo."
 
 msgid ""
 "For example, if you write [code]const MAX_SPEED = 100[/code], you cannot "
 "later write [code]MAX_SPEED = 200[/code] or [code]MAX_SPEED += 50[/code]."
 msgstr ""
+"Por exemplo, se você escreve [code]const VELOCIDADE_MÁXIMA = 100[/code], "
+"você não pode escrever depois algo como [code]VELOCIDADE_MÁXIMA = 200[/code] "
+"ou [code]VELOCIDADE_MÁXIMA += 50[/code]."
 
 msgid ""
 "Many constants are built into Godot and GDScript, and you cannot change them "
 "either. For instance, you cannot write [code]Vector2 = 5[/code] or [code]PI "
 "= 3[/code]. Constant names usually use capital letters."
 msgstr ""
+"Muitas constantes já vêm embutidas na Godot e no GDScript, e você também não "
+"pode alterá-las. Por exemplo, você não pode escrever [code]Vector2 = 5[/"
+"code] ou [code]PI = 3[/code]. Nomes de constantes normalmente usam letras "
+"maiúsculas."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
@@ -144,6 +161,8 @@ msgid ""
 "Look at what you are trying to change. If it is a constant (defined with the "
 "[code]const[/code] keyword or built into Godot), you have two options:"
 msgstr ""
+"Olhe para o que você está tentando mudar. Se for uma constante (definida com "
+"a palavra-chave [code]const[/code]), você tem duas opções:"
 
 msgid ""
 "1. If the value should never change, or it comes from Godot, remove the line "
@@ -151,6 +170,10 @@ msgid ""
 "2. If the value needs to change, use [code]var[/code] instead of "
 "[code]const[/code] when you first create it."
 msgstr ""
+"1. Se o valor nunca deve mudar, ou se ele vem da Godot, remova a linha que "
+"tenta alterá-lo.\n"
+"2. Se o valor precisa mudar, use [code]var[/code] em vez de [code]const[/"
+"code] quando criá-lo pela primeira vez."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -159,16 +182,24 @@ msgid ""
 "happens when you have a space before a tab, or a tab before a space at the "
 "start of a line."
 msgstr ""
+"Você recebeu esse erro quando você misturou espaços com tabulações. Isso "
+"acontece quando tem um espaço antes de uma tabulação, ou vice-versa."
 
 msgid ""
 "In GDScript, you must use only tabs (not spaces) to indent your code. When "
 "you press the Tab key on your keyboard, it creates a tab character."
 msgstr ""
+"Em GDScript, você deve usar apenas tabulações (não espaços) para indentar o "
+"seu código. Quando você aperta a tecla Tab no seu teclado, ela cria um "
+"caractere de tabulação."
 
 msgid ""
 "If you accidentally type a space before a tab, or a tab before a space, the "
 "computer gets confused about your code's indentation."
 msgstr ""
+"Se você acidentalmente digitar um espaço antes de uma tabulação, ou o "
+"oposto, o computador fica confuso sobre a indentação do seu código. E isso "
+"pode causar erros."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -177,16 +208,24 @@ msgid ""
 "space characters at the very beginning of the line, and remove any spaces "
 "that appear after your tab characters."
 msgstr ""
+"Para corrigir este erro, vá para a linha mencionada na mensagem de erro. "
+"Delete quaisquer espaços no começo da linha, e remova qualquer espaço que "
+"aparecer depois de suas tabulações."
 
 msgid ""
 "Tab characters look like an arrow pointing at a vertical line in your code: "
 "⇥. Spaces look like centered dots: ·. Look closely to spot the difference."
 msgstr ""
+"Caracteres de tabulação se parecem com uma flecha apontando para uma linha "
+"vertical no seu código: ⇥. Espaços se parecem com pontos centralizados: ·. "
+"Observe atentamente para ver a diferença."
 
 msgid ""
 "Then, make sure the line starts with only tab characters for indentation, "
 "with no spaces mixed in."
 msgstr ""
+"E então, tenha certeza que a linha começa com apenas uma tabulação, sem "
+"espaços misturados."
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:78

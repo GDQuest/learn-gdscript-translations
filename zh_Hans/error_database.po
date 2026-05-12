@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-28 07:09+0000\n"
-"Last-Translator: xtxt-mas <3283445231@qq.com>\n"
+"PO-Revision-Date: 2026-05-09 13:19+0000\n"
+"Last-Translator: Obabyfu <461278363@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/error-explanations/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 2026.5-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -28,8 +28,8 @@ msgid ""
 "code] is not a valid variable name, or you are missing the [code]in[/code] "
 "keyword."
 msgstr ""
-"如果 [code]for[/code] 和 [code]in[/code] 之间的名称不是有效的变量名，或者缺"
-"少 [code]in[/code] 关键字，则会出现此错误。"
+"当 [code]for[/code] 和 [code]in[/code] 之间的名称不是有效的变量名，或者缺少 "
+"[code]in[/code] 关键字时，就会出现此错误。"
 
 msgid ""
 "In a [code]for[/code] loop, the [code]in[/code] keyword only accepts a valid "
@@ -68,18 +68,15 @@ msgid ""
 "[code]for cell_position in cell_positions_array:\n"
 "    cell_position.x += 1.0[/code]"
 msgstr ""
-"[code]for cell_position in cell_positions_array：\n"
-"    cell_position.x += 1.0[/code]"
+"[code]for cell_position in cell_positions_array:\n"
+"· · ·  ·cell_position.x += 1.0[/code]"
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
-#, fuzzy
 msgid ""
 "You get this error when you try to assign a value to something that is not a "
 "variable."
-msgstr ""
-"如果出现这个错误，很可能是你试图给变量以外的东西赋值，这是不可能的。你只能给"
-"变量赋值。"
+msgstr "当您尝试将值赋给一个不是变量的对象时，就会出现此错误。"
 
 msgid ""
 "You can only assign values to variables. You cannot assign values to "
@@ -107,11 +104,10 @@ msgstr ""
 "如果你在左侧看到了括号 ()，说明你可能正试图为一个函数调用赋值。请移除括号以及"
 "其中的函数调用。"
 
-#, fuzzy
 msgid ""
 "If you are trying to check if two values are equal in a condition, use two "
 "equal signs (==) instead of one (=)."
-msgstr "另一种可能是，你想在条件中检查相等性，但却写了一个 = 而不是 ==。"
+msgstr "如果要检查两个值是否相等，请使用两个等号 (==) 而不是一个等号 (=)。"
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
@@ -147,6 +143,8 @@ msgid ""
 "Look at what you are trying to change. If it is a constant (defined with the "
 "[code]const[/code] keyword or built into Godot), you have two options:"
 msgstr ""
+"取决你想修改的是什么。如果是常量（用 `const` 关键字定义或 Godot 内置），你有"
+"两种选择："
 
 msgid ""
 "1. If the value should never change, or it comes from Godot, remove the line "
@@ -154,6 +152,8 @@ msgid ""
 "2. If the value needs to change, use [code]var[/code] instead of "
 "[code]const[/code] when you first create it."
 msgstr ""
+"1. 如果该值永远不应该改变，或者它来自 Godot，请删除尝试更改该值的代码行。\n"
+"2. 如果该值需要改变，请在首次创建时使用 `var` 而不是 `const`。"
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -162,16 +162,22 @@ msgid ""
 "happens when you have a space before a tab, or a tab before a space at the "
 "start of a line."
 msgstr ""
+"当缩进中空格和制表符混用时，就会出现此错误。例如，当行首的制表符前有空格，或"
+"者空格前有制表符时，就会发生这种情况。"
 
 msgid ""
 "In GDScript, you must use only tabs (not spaces) to indent your code. When "
 "you press the Tab key on your keyboard, it creates a tab character."
 msgstr ""
+"在 GDScript 中，代码缩进只能使用制表符（不能使用空格）。按下键盘上的 Tab 键，"
+"就会生成一个制表符。"
 
 msgid ""
 "If you accidentally type a space before a tab, or a tab before a space, the "
 "computer gets confused about your code's indentation."
 msgstr ""
+"如果你不小心在制表符前输入空格，或者在空格前输入制表符，计算机就会对你的代码"
+"缩进感到困惑。"
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -180,16 +186,20 @@ msgid ""
 "space characters at the very beginning of the line, and remove any spaces "
 "that appear after your tab characters."
 msgstr ""
+"要解决此错误，请转到错误消息中提到的那一行。删除该行开头的所有空格字符，并删"
+"除制表符后面的所有空格。"
 
 msgid ""
 "Tab characters look like an arrow pointing at a vertical line in your code: "
 "⇥. Spaces look like centered dots: ·. Look closely to spot the difference."
 msgstr ""
+"制表符在代码中看起来像一个指向垂直线的箭头：⇥。空格看起来像两个居中的点：·。"
+"仔细观察，找出它们的区别。"
 
 msgid ""
 "Then, make sure the line starts with only tab characters for indentation, "
 "with no spaces mixed in."
-msgstr ""
+msgstr "然后，确保该行开头只有制表符用于缩进，没有空格。"
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:78
@@ -315,18 +325,22 @@ msgstr ""
 msgid ""
 "You get this error when you use a special character that GDScript doesn't "
 "recognize."
-msgstr ""
+msgstr "当您使用 GDScript 无法识别的特殊字符时，就会出现此错误。"
 
 msgid ""
 "This includes accented letters (like é, à, ñ), special symbols, or "
 "characters from non-Latin alphabets in your code instructions (not in "
 "strings)."
 msgstr ""
+"这包括代码指令（而不是字符串）中的带重音符号的字母（如 é、à、ñ）、特殊符号或"
+"非拉丁字母表中的字符。"
 
 msgid ""
 "[b]Note:[/b] Godot 4 supports special and non-Latin characters in code "
 "(Unicode characters), but this app is built with Godot 3, which does not."
 msgstr ""
+"[b]Note：[/b] Godot 4 支持代码中的特殊字符和非拉丁字符（Unicode 字符），但此"
+"应用程序是用 Godot 3 构建的，而 Godot 3 不支持。"
 
 #. Reference: UNKNOWN_CHARACTER
 #: script_checking/error_database.csv:103
@@ -334,16 +348,22 @@ msgid ""
 "To fix this error, remove any accented letters or special characters from "
 "your variable names, function names, and other code elements."
 msgstr ""
+"要解决此错误，请从变量名、函数名和其他代码元素中删除所有带重音符号的字母或特"
+"殊字符。"
 
 msgid ""
 "You can use accented characters inside text strings (between quotes), but "
 "not in the code itself."
 msgstr ""
+"您可以在文本字符串中使用带重音符号的字符（用引号括起来），但不能在代码本身中"
+"使用。"
 
 msgid ""
 "You can replace accented letters with their non-accented equivalents. For "
 "example, change [code]café[/code] to [code]cafe[/code]."
 msgstr ""
+"您可以将带重音符号的字母替换为不带重音符号的对应字母。例如，将 [code]café[/"
+"code] 替换为 [code]cafe[/code]。"
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:106
@@ -844,6 +864,9 @@ msgid ""
 "[code]break[/code] statement inside it. This creates an infinite loop that "
 "will freeze your game."
 msgstr ""
+"你写了一个 while 循环，其中条件始终为真（例如 [code]while true:[/code] 或 "
+"[code]while(true):[/code]），但循环内部没有 [code]break[/code] 语句。这会创建"
+"一个无限循环，导致游戏崩溃。"
 
 #. Reference: INFINITE_WHILE_LOOP
 #: script_checking/error_database.csv:186
@@ -853,6 +876,9 @@ msgid ""
 "loop condition to something that will become false. For example: [code]while "
 "position.x < 100: position.x -= 10[/code]."
 msgstr ""
+"要解决这个问题，你需要在循环内部添加一个 break 语句，以便在满足特定条件时退出"
+"循环；或者将 while 循环的条件改为一个会变为 false 的条件。例如：while "
+"position.x < 100: position.x -= 10。"
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:188
