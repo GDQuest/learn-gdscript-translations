@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-05-11 23:11+0000\n"
+"PO-Revision-Date: 2026-05-13 20:11+0000\n"
 "Last-Translator: Artur Alves Coqueiro <arturalvescoqueiro@proton.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/error-explanations/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.5-dev\n"
+"X-Generator: Weblate 2026.5.dev0\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -68,7 +68,7 @@ msgid ""
 "that inside of the loop's body:"
 msgstr ""
 "Para acessar o subcomponente [code]x[/code] da variável, você precisa fazer "
-"isso dentro do bloco do loop."
+"isso dentro do bloco do loop:"
 
 msgid ""
 "[code]for cell_position in cell_positions_array:\n"
@@ -368,17 +368,24 @@ msgid ""
 "You get this error when you use a special character that GDScript doesn't "
 "recognize."
 msgstr ""
+"Você recebe este erro quando você usa um caractere que o GDScript não "
+"reconhece."
 
 msgid ""
 "This includes accented letters (like é, à, ñ), special symbols, or "
 "characters from non-Latin alphabets in your code instructions (not in "
 "strings)."
 msgstr ""
+"Isso inclui letras acentuadas (como â, é, õ e etc.), símbolos especiais, ou "
+"caracteres de alfabetos não latinos nas instruções do seu código (não está "
+"entre strings)."
 
 msgid ""
 "[b]Note:[/b] Godot 4 supports special and non-Latin characters in code "
 "(Unicode characters), but this app is built with Godot 3, which does not."
 msgstr ""
+"[b]Nota:[/b] A Godot 4 suporta caracteres especiais no código, mas esse "
+"aplicativo foi feito com a Godot 3, que não teve esse suporte."
 
 #. Reference: UNKNOWN_CHARACTER
 #: script_checking/error_database.csv:103
@@ -386,16 +393,22 @@ msgid ""
 "To fix this error, remove any accented letters or special characters from "
 "your variable names, function names, and other code elements."
 msgstr ""
+"Para corrigir este erro, remova quaisquer letras acentuadas ou caracteres "
+"especiais dos nomes das suas variáveis, funções, ou qualquer outra coisa."
 
 msgid ""
 "You can use accented characters inside text strings (between quotes), but "
 "not in the code itself."
 msgstr ""
+"Você pode usar caracteres acentuados dentro de strings (entre aspas), não no "
+"código em si."
 
 msgid ""
 "You can replace accented letters with their non-accented equivalents. For "
 "example, change [code]café[/code] to [code]cafe[/code]."
 msgstr ""
+"Você pode substituir letras acentuadas para suas letras sem acentos "
+"equivalentes. Por exemplo, mudar [code]café[/code] para [code]cafe[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:106
@@ -977,6 +990,10 @@ msgid ""
 "[code]break[/code] statement inside it. This creates an infinite loop that "
 "will freeze your game."
 msgstr ""
+"Você escreveu um loop while com uma condição que é sempre verdade (como "
+"[code]while true:[/code] ou [code]while(true):[/code]), sem uma instrução de "
+"quebra ([code]break[/code]) dentro do loop. Por isso teve um loop infinito "
+"que congelou seu jogo."
 
 #. Reference: INFINITE_WHILE_LOOP
 #: script_checking/error_database.csv:186
@@ -986,6 +1003,11 @@ msgid ""
 "loop condition to something that will become false. For example: [code]while "
 "position.x < 100: position.x -= 10[/code]."
 msgstr ""
+"Para corrigir isso, você precisa adicionar uma instrução de quebra "
+"([code]break[/code]) dentro do loop para que ele possa sair quando uma "
+"determinada condição for atendida, ou alterar a condição do loop while para "
+"algo que se tornará falso. Por exemplo: [code]while position.x < 100: "
+"position.x -= 10[/code]."
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:188
