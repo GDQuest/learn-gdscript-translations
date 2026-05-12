@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-05-11 23:11+0000\n"
+"PO-Revision-Date: 2026-05-13 20:11+0000\n"
 "Last-Translator: Artur Alves Coqueiro <arturalvescoqueiro@proton.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-26-looping-over-dictionaries/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.5-dev\n"
+"X-Generator: Weblate 2026.5.dev0\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:13
@@ -122,7 +122,6 @@ msgstr ""
 "Também podemos usar um dicionário para mapear as posições de unidades em um "
 "tabuleiro."
 
-#, fuzzy
 msgid ""
 "This is how you'd typically code a board game, a grid-based RPG, or a "
 "tactical RPG."
@@ -140,18 +139,16 @@ msgstr ""
 "dicionários em GDScript aceitam qualquer tipo de valor como chave, "
 "permitindo que você mapeie qualquer coisa para qualquer coisa."
 
-#, fuzzy
 msgid "The only rule is that every key in a dictionary must be unique."
-msgstr "A única limitação é que cada chave deve ser única."
+msgstr "A única regra é que cada chave deve ser única."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:161
-#, fuzzy
 msgid ""
 "With a [code]for[/code] loop, you can place all the units on the board when "
 "a game starts."
 msgstr ""
-"Usando um loop [code]for[/code], você pode usar os pares chave-valor para "
-"colocar unidades no tabuleiro no início de um jogo."
+"Usando um loop [code]for[/code], você pode colocar todas as unidades no "
+"tabuleiro no início de um jogo."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:191
 msgid ""
@@ -219,7 +216,6 @@ msgstr ""
 "unidade no dicionário units na posição desejada no tabuleiro do jogo."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:246
-#, fuzzy
 msgid ""
 "At the start of each battle, units need to appear on the game board. Loop "
 "over the dictionary to place them."
