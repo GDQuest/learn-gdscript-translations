@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-05-11 23:11+0000\n"
+"PO-Revision-Date: 2026-05-13 20:11+0000\n"
 "Last-Translator: Artur Alves Coqueiro <arturalvescoqueiro@proton.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "learn-gdscript-from-zero/lesson-11-time-delta/pt_BR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.5-dev\n"
+"X-Generator: Weblate 2026.5.dev0\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
@@ -293,12 +293,11 @@ msgstr ""
 "[i]ângulo[/i] em radianos, enquanto [code]3,0[/code] é uma [i]velocidade "
 "angular[/i] em radianos por segundo."
 
-#, fuzzy
 msgid ""
 "When you multiply an angular speed by a time delta, it gives you an angle."
 msgstr ""
-"Quando você multiplica uma velocidade por um delta de tempo, você obtém um "
-"ângulo."
+"Quando você multiplica uma velocidade angular por um tempo delta, você "
+"recebe um ângulo."
 
 msgid ""
 "Don't worry if it's a little confusing for now. It'll eventually click as "
@@ -356,16 +355,15 @@ msgstr ""
 msgid "Thanks to that, we get reliable movement over time."
 msgstr "Graças a isso, obtemos um movimento estável ao longo do tempo."
 
-#, fuzzy
 msgid ""
 "Frame times vary from computer to computer and from frame to frame during "
 "gameplay. Because frame times vary, if [code]delta[/code] is not used, "
 "movement speed will differ for each player, making the game inconsistent and "
 "messy."
 msgstr ""
-"Sem o [code]delta[/code], os tempos de frame variam de computador para "
-"computador e durante o jogo. Por causa disso, o movimento vai ser diferente "
-"para cada jogador, tornando o jogo inconsistente e confuso."
+"Sem o [code]delta[/code], os tempos de duração de cada quadro variam de "
+"computador para computador durante o jogo. Por causa disso, o movimento vai "
+"ser diferente para cada jogador, tornando o jogo inconsistente e confuso."
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
@@ -376,13 +374,12 @@ msgid "[code]rotation_speed * delta[/code]"
 msgstr "[code]velocidade_de_rotação * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
-#, fuzzy
 msgid ""
 "The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/"
 "code] by [code]delta[/code]."
 msgstr ""
 "O símbolo [code]*[/code] significa que estamos multiplicando "
-"[code]rotation_speed[/code] por [code]delta[/code]."
+"[code]rotation_speed[/code] (velocidade de rotação) por [code]delta[/code]."
 
 #: course/lesson-11-time-delta/lesson.tres:231
 msgid "We're multiplying rotation_speed by delta."
@@ -401,7 +398,6 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "Estamos subtraindo delta da variável rotation_speed."
 
 #: course/lesson-11-time-delta/lesson.tres:241
-#, fuzzy
 msgid ""
 "In the next practice, we'll use delta to make the rotation time-dependent."
 msgstr ""
@@ -433,14 +429,14 @@ msgid "In this practice, make the robot move in a smooth circle using delta."
 msgstr ""
 "Neste exercício, faça o robô se mover em um círculo suave usando delta."
 
-#, fuzzy
 msgid ""
 "The robot should rotate [code]2[/code] radians per second and move "
 "[code]100[/code] pixels per second forward. This combination makes it travel "
 "in a clockwise circle."
 msgstr ""
 "Para obter esse movimento, o robô deve girar [code]2[/code] radianos por "
-"segundo e mover [code]100[/code] pixels por segundo no sentido horário."
+"segundo e mover [code]100[/code] pixels por segundo para frente. Esta "
+"combinação faz com que ela faça um círculo no sentido horário."
 
 msgid ""
 "[b]Note:[/b] Please write the values in the parentheses when calling the "
