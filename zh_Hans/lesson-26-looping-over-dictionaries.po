@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-22 19:09+0000\n"
-"Last-Translator: xtxt-mas <3283445231@qq.com>\n"
+"PO-Revision-Date: 2026-05-19 06:11+0000\n"
+"Last-Translator: Jared <1194331986@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/lesson-26-looping-over-dictionaries/"
 "zh_Hans/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:13
@@ -40,25 +40,22 @@ msgid "Displaying an inventory's content"
 msgstr "显示背包中的内容"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:25
-#, fuzzy
 msgid ""
 "To display the player's inventory, you need to know what it contains: the "
 "name and amount of each item."
-msgstr "要显示玩家的背包，你得知道里面有什么。也就是每个物品的名称和数量。"
+msgstr "要显示玩家的背包，你得知道里面有什么：每个物品的名称和数量。"
 
-#, fuzzy
 msgid ""
 "To do this, you loop over the dictionary and process each key-value pair one "
 "at a time."
-msgstr ""
-"在代码中，你只能通过遍历整个字典，并一一处理键值对（key-value pair）来实现。"
+msgstr "要做到这一点，你只能遍历整个字典，并逐个处理键值对。"
 
-#, fuzzy
 msgid ""
 "You can get the list of all the keys in a dictionary by calling its "
 "[code]keys()[/code] function."
 msgstr ""
-"要获取字典中的键（key）列表，可以调用字典的 [code]keys()[/code] 成员函数。"
+"你可以通过调用字典的 [code]keys()[/code] 函数来要获取字典中所有键（key）的列"
+"表。"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.tres:49
 msgid ""
