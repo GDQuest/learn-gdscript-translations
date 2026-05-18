@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-28 07:09+0000\n"
-"Last-Translator: xtxt-mas <3283445231@qq.com>\n"
+"PO-Revision-Date: 2026-05-19 06:11+0000\n"
+"Last-Translator: Jared <1194331986@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/lesson-18-for-loops/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
@@ -30,18 +30,18 @@ msgstr ""
 "在上一课中，我们学习了 [code]while[/code] 循环。 如果我们要重复代码，但是不知"
 "道应该重复多少次，它就很有用。"
 
-#, fuzzy
 msgid ""
 "For example, the loop below never ends because we never increment "
 "[code]number[/code]."
-msgstr "下例的循环永远不会结束，因为 [code]number[/code] 永远不会增加。"
+msgstr "例如，下例的循环永远不会结束，因为 [code]number[/code] 永远不会增加。"
 
 #: course/lesson-18-for-loops/lesson.tres:36
-#, fuzzy
 msgid ""
 "There's a safer and easier kind of loop: the [code]for[/code] loop. We'll "
 "look at it in this lesson."
-msgstr "有一种更安全且通常更简便的循环：[code]for[/code] 循环。"
+msgstr ""
+"有一种更安全且通常更简便的循环：[code]for[/code] 循环。我们会在这一节课程中学"
+"习它。"
 
 #, fuzzy
 msgid ""
@@ -53,11 +53,12 @@ msgstr ""
 "中出现错误（bugs）的可能性要小得多。 [b]正因如此，我们建议优先使用 for 循环而"
 "不是 while 循环[/b]。"
 
-#, fuzzy
 msgid ""
 "In this example, I changed the code above to use a [code]for[/code] loop "
 "instead. The loop below will change the [code]cell[/code] three times."
-msgstr "让我们将上面的代码改为使用 [code]for[/code] 循环。"
+msgstr ""
+"在这个示例中，我把上面的代码改为使用 [code]for[/code] 循环。接下来的循环将会"
+"改变 [code]cell[/code] 三次。"
 
 #: course/lesson-18-for-loops/lesson.tres:60
 msgid "Let's explain what's going on here."
@@ -79,8 +80,8 @@ msgid ""
 "So calling [code]range(3)[/code] outputs the list of numbers [code][0, 1, 2]"
 "[/code], and [code]range(5)[/code] outputs [code][0, 1, 2, 3, 4][/code]."
 msgstr ""
-"所以调用[code]range(3)[/code]会输出数字列表[code][0,1,2][/code]，"
-"[code]range(5)[/code]输出[code][ 0、1、2、3、4][/code]。"
+"所以调用 [code]range(3)[/code] 会输出数字列表 [code][0, 1, 2][/"
+"code]，[code]range(5)[/code] 输出 [code][ 0, 1, 2, 3, 4][/code]。"
 
 #: course/lesson-18-for-loops/lesson.tres:80
 msgid "What list of numbers would range(6) create?"
