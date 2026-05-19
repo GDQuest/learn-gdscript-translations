@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-02-28 07:09+0000\n"
-"Last-Translator: xtxt-mas <3283445231@qq.com>\n"
+"PO-Revision-Date: 2026-05-19 06:11+0000\n"
+"Last-Translator: Jared <1194331986@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/learn-gdscript-from-zero/lesson-6-multiple-function-parameters/"
 "zh_Hans/>\n"
@@ -19,14 +19,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:14
 msgid ""
 "In the previous lesson, you created a function to draw a square of a fixed "
 "size."
-msgstr "在上一部分中，你创建了一个函数来绘制一个固定大小的正方形。"
+msgstr "在之前的课程中，你创建了一个函数来绘制一个固定大小的正方形。"
 
 msgid ""
 "This function is a bit limiting. Instead, it would be much better if we had "
@@ -104,7 +104,7 @@ msgid ""
 "types."
 msgstr ""
 "参数可以填入数字、文本或任何其他内容。但在本节课中，由于我们尚未学习其他类型"
-"的值，所以只会使用数字"
+"的值，所以只会使用数字。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:78
 msgid "What is a function parameter?"
@@ -152,13 +152,14 @@ msgid ""
 "someone calls your function with a value, every copy of the parameter in the "
 "function gets replaced with that value."
 msgstr ""
+"要添加参数，请在括号内写入占位符名称。当有人用某个值调用你的函数时，函数中该"
+"参数的每个副本都将被替换为该值。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:116
-#, fuzzy
 msgid ""
 "You can give parameters any name! How you name functions and parameters is "
 "up to you."
-msgstr "你可以为参数指定任何名称。 如何命名函数和参数取决于你。"
+msgstr "你可以为参数指定任何名称！ 如何命名函数和参数取决于你。"
 
 #, fuzzy
 msgid ""
@@ -177,8 +178,9 @@ msgid ""
 "Parameters make your code easier to reuse. You write the function once as a "
 "template, then you can call it many times with different values."
 msgstr ""
+"参数让你的代码更易于重复使用。你只需把函数作为模板编写一次，就可以通过不同的"
+"值多次调用它。"
 
-#, fuzzy
 msgid ""
 "Here's an example with a function to draw any square. The parameter "
 "[code]length[/code] is a placeholder. Use the slider to change the value. "
@@ -186,8 +188,9 @@ msgid ""
 "placeholder gets replaced with your value, drawing squares of different "
 "sizes."
 msgstr ""
-"这是一个绘制任意正方形的函数的示例。 使用滑块更改传递给函数的值并绘制不同大小"
-"的正方形。"
+"这是一个绘制任意正方形的函数的示例。 参数 [code]length[/code] 是一个占位符。"
+"使用滑块来调整数值。点击按钮时，应用会调用 [code]draw_square()[/code] ，占位"
+"符将会被替换为你设定的值，然后绘制不同大小的正方形。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:160
 msgid "Which is the correct syntax for a function definition?"
@@ -247,6 +250,8 @@ msgid ""
 "code] and [code]y[/code]. Each one gets replaced with its own value when you "
 "call the function."
 msgstr ""
+"例如， [code]func move(x, y)[/code] 有两个占位符： [code]x[/code] 和 "
+"[code]y[/code] 。在调用函数时，每个占位符都会被替换为自身的值。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:198
 #, fuzzy
@@ -282,6 +287,8 @@ msgid ""
 "function gets replaced with [code]50[/code], and every [code]y[/code] gets "
 "replaced with [code]100[/code]."
 msgstr ""
+"当你调用 [code]move(50, 100)[/code] 时，函数中的所有 [code]x[/code] 都会被替"
+"换为 [code]50[/code] ，所有 [code]y[/code] 都会被替换为 [code]100[/code] 。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:234
 msgid "How should I name my functions and parameters?"
@@ -396,32 +403,37 @@ msgid ""
 "different values. Your functions need to work correctly no matter what "
 "values the app passes to them."
 msgstr ""
+"在接下来的练习中，你将要编写函数，我会用不同的值调用它。无论应用传入什么数值"
+"，你的函数都需要正确运行。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:300
 msgid "Drawing corners of different sizes"
 msgstr "绘制不同大小的角"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:301
-#, fuzzy
 msgid ""
 "Before we create a rectangle of any size, let's first practice with a "
 "simpler shape."
-msgstr ""
-"在我们创建任意大小的矩形之前，让我们先看看如何使用参数来绘制更简单的形状。"
+msgstr "在创建任意大小的矩形之前，让我们先联系一个更简单的形状。"
 
 msgid "I will call your function twice with different values:"
-msgstr ""
+msgstr "我将使用不同的值调用你的函数两次："
 
+#, fuzzy
 msgid ""
 "[code]draw_corner(240)[/code]\n"
 "[code]draw_corner(120)[/code]"
 msgstr ""
+"[code]draw_corner(240)[/code]\n"
+"[code]draw_corner(120)[/code]"
 
 msgid ""
 "Your task is to add a parameter named [code]length[/code] to your function "
 "definition. This creates a placeholder. When the app calls your function, "
 "the placeholder will get replaced with the value in parentheses."
 msgstr ""
+"你的任务是在函数定义中添加一个名为 [code]length[/code] 的参数。这会创建一个占"
+"位符，当应用调用你的函数时，占位符将被替换为括号中的值。"
 
 #, fuzzy
 msgid ""
@@ -436,6 +448,8 @@ msgid ""
 "Each time the app calls your function, [code]length[/code] will be replaced "
 "with a different value: first [code]240[/code], then [code]120[/code]."
 msgstr ""
+"每次应用调用你的函数时， [code]length[/code] 将会被替换为不同的值：首先是 "
+"[code]240[/code] ，然后是 [code]120[/code] 。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:325
 msgid ""
@@ -457,12 +471,15 @@ msgstr ""
 "以变化。"
 
 msgid "I will call your function with different length and angle values:"
-msgstr ""
+msgstr "我将用不同的长度和角度来调用你的函数："
 
+#, fuzzy
 msgid ""
 "[code]draw_corner(240, 45)[/code]\n"
 "[code]draw_corner(120, 90)[/code]"
 msgstr ""
+"[code]draw_corner(240, 45)[/code]\n"
+"[code]draw_corner(120, 90)[/code]"
 
 #, fuzzy
 msgid ""
@@ -478,6 +495,9 @@ msgid ""
 "parameter [code]length[/code] will get replaced with [code]240[/code] and "
 "[code]angle[/code] will get replaced with [code]45[/code]."
 msgstr ""
+"记住：当应用调用 [code]draw_corner(240, 45)[/code] 时，参数 [code]length[/"
+"code] 将被替换为 [code]240[/code] ，参数 [code]angle[/code] 将被替换为 "
+"[code]45[/code] 。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:353
 msgid "With two parameters, code a function to draw corners with any angle."
@@ -488,19 +508,21 @@ msgid "Drawing squares of any size"
 msgstr "绘制任意大小的正方形"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:359
-#, fuzzy
 msgid ""
 "Time to write a complete function from scratch! You'll make a function that "
 "draws squares of any size."
-msgstr "现在轮到你来创建一个多参数的函数了：一个可以绘制任意大小矩形的函数。"
+msgstr "是时候从头开始编写一个完整的函数了！你将创建一个能绘制任意尺寸正方形的函数。"
 
 msgid "I will call your function with different sizes:"
-msgstr ""
+msgstr "我将用不同的尺寸调用你的函数："
 
+#, fuzzy
 msgid ""
 "[code]draw_square(200)[/code]\n"
 "[code]draw_square(100)[/code]"
 msgstr ""
+"[code]draw_square(200)[/code]\n"
+"[code]draw_square(100)[/code]"
 
 #, fuzzy
 msgid ""
@@ -515,11 +537,15 @@ msgid ""
 "Your function needs to move forward by [code]length[/code], turn right 90 "
 "degrees, and do this four times to complete all four sides of the square."
 msgstr ""
+"你的函数需要向前移动 [code]length[/code] 的距离，右转 90 度，重复四次以完成正"
+"方形的四条边。"
 
 msgid ""
 "[b]Important:[/b] When the turtle finishes drawing, it should face right. So "
 "you need to turn right a total of four times."
 msgstr ""
+"[b] 重要提醒： [/b] 当海龟绘制完毕时，它应该面朝右侧。所以你总共需要向右转动"
+"四次。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:380
 msgid ""
@@ -539,34 +565,44 @@ msgid "Let's create a function to draw rectangles with any length and height."
 msgstr "使用两个参数，编写一个函数来绘制任意角度的角。"
 
 msgid "I will call your function twice with different sizes:"
-msgstr ""
+msgstr "我将使用不同的尺寸调用你的函数两次："
 
+#, fuzzy
 msgid ""
 "[code]draw_rectangle(260, 180)[/code]\n"
 "[code]draw_rectangle(160, 210)[/code]"
 msgstr ""
+"[code]draw_rectangle(260, 180)[/code]\n"
+"[code]draw_rectangle(160, 210)[/code]"
 
 msgid ""
 "Your function needs two parameters: [code]length[/code] and [code]height[/"
 "code]. When the app calls your function, the first number replaces "
 "[code]length[/code], and the second number replaces [code]height[/code]."
 msgstr ""
+"你的函数需要两个参数：[code]length[/code] 和 [code]height[/code] 。当应用调用"
+"你的函数时，第一个数字会替换 [code]length[/code] ，第二个数字会替"
+"换[code]height[/code] 。"
 
 msgid ""
 "Use [code]length[/code] when you move horizontally and [code]height[/code] "
 "when you move vertically."
-msgstr ""
+msgstr "水平移动时使用 [code]length[/code] ，垂直移动时使用 [code]height[/code] 。"
 
 msgid ""
 "This is the pattern you need to follow: move forward by [code]length[/code], "
 "turn right, move forward by [code]height[/code], turn right, then repeat "
 "this sequence once more."
 msgstr ""
+"这是你需要遵循的模式：向前移动 [code]length[/code] ，右转，向前移动 "
+"[code]height[/code] 右转，然后重复一次该序列。"
 
 msgid ""
 "[b]Important:[/b] When the turtle finishes drawing, it should face right. "
 "Make sure you turn right four times in total."
 msgstr ""
+"[b] 重要提醒： [/b] 当海龟绘制完毕时，它应该面朝右侧。确保你总共向右转动了四"
+"次。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.tres:417
 msgid ""
