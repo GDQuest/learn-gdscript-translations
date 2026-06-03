@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2022-06-12 09:33+0000\n"
-"Last-Translator: Haoyu Qiu <timothyqiu32@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"learn-gdscript-from-zero/glossary_database/zh_Hans/>\n"
+"PO-Revision-Date: 2026-06-04 12:03+0000\n"
+"Last-Translator: pasicou <446703839@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/learn-gdscript-from-zero/glossary_database/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: member function
@@ -235,35 +236,34 @@ msgstr ""
 "实际参数（实参）是调用函数时你传入函数的值。例如调用 [code]rotate(0.5)[/"
 "code] 时，括号中的 [code]0.5[/code] 就是一个实参。"
 
-#, fuzzy
 msgid ""
 "A function can take no arguments, one argument, or multiple arguments. "
 "Arguments can be required or optional."
 msgstr ""
-"函数可以不接受参数、接受一个参数、也可以接受多个参数。实参可能是必须的，也可"
+"函数可以不接受实参、接受一个实参、也可以接受多个实参。实参可能是必须的，也可"
 "能是可选的。"
 
-#, fuzzy
 msgid ""
 "When a function requires multiple arguments, you separate them with commas. "
 "Here's an example: [code]jump(50, 100)[/code]"
 msgstr ""
-"函数接受多个参数时，值与值之间用逗号分隔，例如这个函数调用：[code]jump(50, "
+"函数接受多个实参时，值与值之间用逗号分隔，例如这个函数调用：[code]jump(50, "
 "100)[/code]"
 
-#, fuzzy
 msgid ""
 "When you [i]call[/i] a function, we call the values in parentheses "
 "[i]arguments[/i]."
-msgstr "[i]调用[/i]函数时，我们把括号中传入的值叫做[i]实际参数[/i]。"
+msgstr "当你[i]调用[/i]函数时，我们把括号中传入的值叫做[i]实际参数[/i]。"
 
 msgid ""
 "But when you [i]write[/i] a function definition, we call them [i]parameters[/"
 "i] instead. Here's an example:"
 msgstr ""
+"但当你[i]编写[/i]函数的定义时，我们把括号中传入的值叫做[i]形式参数[/i]。在此"
+"举个例子："
 
 msgid "[code]func move_to_position(x, y):[/code]"
-msgstr ""
+msgstr "[code]func move_to_position(x, y):[/code]"
 
 #, fuzzy
 msgid ""
