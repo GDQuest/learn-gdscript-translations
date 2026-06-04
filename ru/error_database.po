@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2023-09-01 23:07+0000\n"
-"Last-Translator: gsomgsom <zhelneen@yandex.ru>\n"
+"PO-Revision-Date: 2026-06-04 12:03+0000\n"
+"Last-Translator: Hosted Weblate user 153466 <gyfugood51@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/error-explanations/ru/>\n"
 "Language: ru\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.6\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: IN_EXPECTED_AFTER_IDENTIFIER
@@ -79,24 +80,26 @@ msgstr ""
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
-#, fuzzy
 msgid ""
 "You get this error when you try to assign a value to something that is not a "
 "variable."
 msgstr ""
-"Если вы получаете эту ошибку, вы, скорее всего, пытаетесь присвоить значение "
-"чему-то другому, кроме переменной, что невозможно. Вы можете присваивать "
-"значения только переменным."
+"Вы получаете эту ошибку, когда пытаетесь присвоить значение тому, что не "
+"является переменной."
 
 msgid ""
 "You can only assign values to variables. You cannot assign values to "
 "function calls or calculations."
 msgstr ""
+"Вы можете присваивать значения только переменным. Вы не можете присваивать "
+"значения вызовам функций или вычислениям."
 
 msgid ""
 "For example, you cannot write [code]randi() = 5[/code] because [code]randi()"
 "[/code] is a function call, not a variable."
 msgstr ""
+"Например, вы не можете написать [code]randi() = 5[/code] потому что "
+"[code]randi()[/code] это вызов функции, а не переменная."
 
 #. Reference: ASSIGNING_TO_EXPRESSION
 #: script_checking/error_database.csv:49
@@ -104,40 +107,51 @@ msgid ""
 "Check what you wrote on the left side of the equal sign (=). Make sure it is "
 "a variable name."
 msgstr ""
+"Проверьте, что вы написали с левой стороны от знака равенства (=). "
+"Убедитесь, что это имя переменной."
 
 msgid ""
 "If you see parentheses () on the left side, you might be trying to assign to "
 "a function call. Remove the parentheses and the function call."
 msgstr ""
+"Если вы видите круглые скобки () с левой стороны, возможно, вы пытаетесь "
+"присвоить значение вызову функции. Удалите круглые скобки и вызов функции."
 
-#, fuzzy
 msgid ""
 "If you are trying to check if two values are equal in a condition, use two "
 "equal signs (==) instead of one (=)."
 msgstr ""
-"Другой случай заключается в том, что вы хотите проверить равенство условия, "
-"но написали один символ = вместо ==."
+"Если вы пытаетесь проверить, равны ли два значения в состоянии, используйте "
+"два равных знака (==) вместо одного (=)."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
 msgid "You get this error when you try to change the value of a constant."
-msgstr ""
+msgstr "Вы получаете эту ошибку, когда пытаетесь изменить значение постоянной."
 
 msgid ""
 "A constant is a name that holds a value that cannot change. It's like a "
 "variable, but once you set its value, you cannot replace it."
 msgstr ""
+"Константа - это имя, которое имеет значение, которое не может измениться. "
+"Это как переменная, но как только вы установите ее значение, вы не можете "
+"заменить ее."
 
 msgid ""
 "For example, if you write [code]const MAX_SPEED = 100[/code], you cannot "
 "later write [code]MAX_SPEED = 200[/code] or [code]MAX_SPEED += 50[/code]."
 msgstr ""
+"Например, если вы пишете [code]const MAX_SPEED = 100[/code], вы не можете "
+"позже написать [code]MAX_SPEED = 200[/code] или [code]MAX_SPEED += 50[/code]."
 
 msgid ""
 "Many constants are built into Godot and GDScript, and you cannot change them "
 "either. For instance, you cannot write [code]Vector2 = 5[/code] or [code]PI "
 "= 3[/code]. Constant names usually use capital letters."
 msgstr ""
+"Многие константы встроены в Godot и GDScript, и вы также не можете их "
+"изменить. Например, вы не можете написать [код]Vector2 = 5[/code] или [код] "
+"PI = 3[/code]. Постоянные имена обычно используют буквы."
 
 #. Reference: CANT_ASSIGN_TO_CONSTANT
 #: script_checking/error_database.csv:59
@@ -145,6 +159,9 @@ msgid ""
 "Look at what you are trying to change. If it is a constant (defined with the "
 "[code]const[/code] keyword or built into Godot), you have two options:"
 msgstr ""
+"Посмотрите на то, что вы пытаетесь изменить. Если это константа "
+"(определенная с помощью ключевого слова [code]const[/code] или встроенная в "
+"Godot), у вас есть два варианта:"
 
 msgid ""
 "1. If the value should never change, or it comes from Godot, remove the line "
@@ -152,6 +169,10 @@ msgid ""
 "2. If the value needs to change, use [code]var[/code] instead of "
 "[code]const[/code] when you first create it."
 msgstr ""
+"1. Если значение никогда не должно меняться, или оно исходит от Godot, "
+"уберите строку, которая пытается его изменить.\n"
+"2. Если значение необходимо изменить, используйте[code]var[/code] вместо "
+"[code]const[/code], когда вы впервые его создаёте."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -160,16 +181,24 @@ msgid ""
 "happens when you have a space before a tab, or a tab before a space at the "
 "start of a line."
 msgstr ""
+"Вы получаете эту ошибку, когда смешиваете пробелы и табуляцию в отступах. "
+"Это происходит, когда у вас стоит пробел перед табуляцией или табуляция "
+"перед пробелом в начале строки."
 
 msgid ""
 "In GDScript, you must use only tabs (not spaces) to indent your code. When "
 "you press the Tab key on your keyboard, it creates a tab character."
 msgstr ""
+"В GDScript вы должны использовать только табуляцию (а не пробелы) для "
+"отступов в коде. Когда вы нажимаете клавишу Tab на клавиатуре, она создает "
+"символ табуляции."
 
 msgid ""
 "If you accidentally type a space before a tab, or a tab before a space, the "
 "computer gets confused about your code's indentation."
 msgstr ""
+"Если вы случайно введёте пробел перед табуляцией или табуляцию перед "
+"пробелом, компьютер запутается в отступах вашего кода."
 
 #. Reference: SPACES_BEFORE_TABS
 #: script_checking/error_database.csv:68
@@ -178,16 +207,24 @@ msgid ""
 "space characters at the very beginning of the line, and remove any spaces "
 "that appear after your tab characters."
 msgstr ""
+"Чтобы исправить эту ошибку, перейдите к строке, указанной в сообщении об "
+"ошибке. Удалите все символы пробела в самом начале строки и уберите любые "
+"пробелы, которые появляются после символов табуляции."
 
 msgid ""
 "Tab characters look like an arrow pointing at a vertical line in your code: "
 "⇥. Spaces look like centered dots: ·. Look closely to spot the difference."
 msgstr ""
+"Символы табуляции выглядят как стрелка, указывающая на вертикальную линию в "
+"вашем коде: ⇥. Пробелы выглядят как точки по центру: ·. Посмотрите "
+"внимательнее, чтобы заметить разницу."
 
 msgid ""
 "Then, make sure the line starts with only tab characters for indentation, "
 "with no spaces mixed in."
 msgstr ""
+"Затем убедитесь, что строка начинается только с символов табуляции для "
+"отступа, без смешанных пробелов."
 
 #. Reference: CYCLIC_REFERENCE
 #: script_checking/error_database.csv:78
@@ -333,17 +370,24 @@ msgid ""
 "You get this error when you use a special character that GDScript doesn't "
 "recognize."
 msgstr ""
+"Вы получаете эту ошибку, когда используете специальный символ, который "
+"GDScript не распознаёт."
 
 msgid ""
 "This includes accented letters (like é, à, ñ), special symbols, or "
 "characters from non-Latin alphabets in your code instructions (not in "
 "strings)."
 msgstr ""
+"Это включает в себя акцентированные буквы (такие как é, à, ñ), специальные "
+"символы или знаки нелатинских алфавитов в инструкциях кода (не в строках)."
 
 msgid ""
 "[b]Note:[/b] Godot 4 supports special and non-Latin characters in code "
 "(Unicode characters), but this app is built with Godot 3, which does not."
 msgstr ""
+"[b]Примечание:[/b] Godot 4 поддерживает специальные и нелатинские символы в "
+"коде (символы Юникода), но это приложение создано на Godot 3, который их не "
+"поддерживает."
 
 #. Reference: UNKNOWN_CHARACTER
 #: script_checking/error_database.csv:103
@@ -351,16 +395,23 @@ msgid ""
 "To fix this error, remove any accented letters or special characters from "
 "your variable names, function names, and other code elements."
 msgstr ""
+"Чтобы исправить эту ошибку, удалите любые акцентированные буквы или "
+"специальные символы из имен ваших переменных, названий функций и других "
+"элементов кода."
 
 msgid ""
 "You can use accented characters inside text strings (between quotes), but "
 "not in the code itself."
 msgstr ""
+"Вы можете использовать акцентированные символы внутри текстовых строк (между "
+"кавычками), но не в самом коде."
 
 msgid ""
 "You can replace accented letters with their non-accented equivalents. For "
 "example, change [code]café[/code] to [code]cafe[/code]."
 msgstr ""
+"Вы можете заменить акцентированные буквы их эквивалентами без акцентов. "
+"Например, измените [code]café[/code] на [code]cafe[/code]."
 
 #. Reference: UNEXPECTED_CHARACTER_IN_KEYWORD
 #: script_checking/error_database.csv:106
@@ -945,6 +996,10 @@ msgid ""
 "[code]break[/code] statement inside it. This creates an infinite loop that "
 "will freeze your game."
 msgstr ""
+"Вы написали цикл while с условием, которое всегда истинно (например, "
+"[code]while true:[/code] или [code]while(true):[/code]), без оператора "
+"[code]break[/code] внутри него. Это создает бесконечный цикл, который "
+"заморозит вашу игру."
 
 #. Reference: INFINITE_WHILE_LOOP
 #: script_checking/error_database.csv:186
@@ -954,6 +1009,10 @@ msgid ""
 "loop condition to something that will become false. For example: [code]while "
 "position.x < 100: position.x -= 10[/code]."
 msgstr ""
+"Чтобы исправить это, вам нужно либо добавить оператор [code]break[/code] "
+"внутри цикла, чтобы он мог завершиться при выполнении определенного условия, "
+"либо изменить условие цикла while на такое, которое станет ложным. Например: "
+"[code]while position.x < 100: position.x -= 10[/code]."
 
 #. Reference: UNEXPECTED_EOL
 #: script_checking/error_database.csv:188
