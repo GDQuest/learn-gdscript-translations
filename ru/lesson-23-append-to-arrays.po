@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2023-09-01 23:07+0000\n"
-"Last-Translator: gsomgsom <zhelneen@yandex.ru>\n"
+"PO-Revision-Date: 2026-06-04 12:03+0000\n"
+"Last-Translator: Hosted Weblate user 153466 <gyfugood51@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-23-append-to-arrays/ru/>\n"
 "Language: ru\n"
@@ -19,67 +19,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.6\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:13
-#, fuzzy
 msgid ""
 "In previous lessons, you learned how to create arrays to store lists of "
 "values and how to loop over them. That's useful, but arrays can do much more."
 msgstr ""
-"В предыдущих уроках вы научились создавать массивы для хранения списка "
-"значений и перебирать их элементы в цикле. Это здорово, но на этих "
-"возможностях вы далеко не уедете."
+"В предыдущих уроках вы узнали, как создавать массивы для хранения списков "
+"значений и как перебирать их в цикле. Это полезно, но массивы могут делать "
+"гораздо больше."
 
-#, fuzzy
 msgid ""
 "The real strength of GDScript arrays is that you can add and remove values "
 "from them at any time. This lets you build waiting lines of data or piles of "
 "data. We call these [i]queues[/i] and [i]stacks[/i], respectively. We'll see "
 "what that means in this lesson."
 msgstr ""
-"Настоящая сила массивов в том, что вы можете добавлять и удалять элементы из "
-"них в любое время. Это позволяет вам [i]ставить в очередь[/i] или "
-"[i]складывать данные в стек[/i]."
+"Настоящая сила массивов в GDScript заключается в том, что вы можете "
+"добавлять и удалять из них значения в любое время. Это позволяет вам "
+"создавать очереди или стопки данных. Мы называем их [i]queues[/i] (очереди) "
+"и [i]stacks[/i] (стеки) соответственно. В этом уроке мы увидим, что это "
+"значит."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:25
 msgid "Let's look at a concrete example."
-msgstr ""
+msgstr "Давайте рассмотрим конкретный пример."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:33
 msgid "Tracking orders in a restaurant management game"
 msgstr "Отслеживание заказов в игре по управлению рестораном"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:35
-#, fuzzy
 msgid ""
 "You're making a restaurant management game where customers place orders, and "
 "you need to handle them one by one."
 msgstr ""
-"Вы создаёте игру про управление рестораном, где клиенты делают заказы, а вам "
-"нужно обрабатывать их по мере поступления."
+"Вы делаете игру про управление рестораном, в которой клиенты делают заказы, "
+"а вам нужно обрабатывать их один за другим."
 
-#, fuzzy
 msgid ""
 "In the example below, customers order meals that end up in a waiting line (a "
 "queue). You need to prepare them in the kitchen. We simulate orders arriving "
 "and getting completed over time."
 msgstr ""
-"В этой игре заказы клиентов попадают в очередь. Вам нужно готовить их на "
-"кухне."
+"В примере ниже клиенты заказывают блюда, которые попадают в очередь "
+"ожидания. Вам нужно приготовить их на кухне. Мы симулируем появление новых "
+"заказов и их выполнение со временем."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:57
 msgid "How do you keep track of pending and completed orders? With an array!"
 msgstr "Как отследить выполненные и невыполненные заказы? С помощью массива!"
 
-#, fuzzy
 msgid ""
 "When a customer purchases a meal, you want to [i]append[/i] (add) it to the "
 "array. Then, as you complete a meal in the kitchen and serve it, you want to "
 "remove it from the array."
 msgstr ""
-"Когда посетитель покупает блюдо, вы [i]добавляете[/i] его в массив. Затем, "
-"когда блюдо готово и подано посетителю, вы удаляете его из массива."
+"Когда клиент покупает блюдо, вам нужно добавить ([i]append[/i]) его в "
+"массив. Затем, когда вы приготовите блюдо на кухне и подадите его, вам нужно "
+"удалить его из массива."
 
 msgid ""
 "You can use the [code]append()[/code] function to add values at the end of "
@@ -87,6 +87,10 @@ msgid ""
 "[/code] function. We call it \"pop\" because the value jumps out of the "
 "array."
 msgstr ""
+"Вы можете использовать функцию [code]append()[/code], чтобы добавлять "
+"значения в конец массива. Чтобы удалять значения из начала, вы можете "
+"использовать функцию [code]pop_front()[/code]. Мы называем это «выталкиванием"
+"» (pop), потому что значение как бы выпрыгивает из массива."
 
 msgid ""
 "Try to read the code below before moving on. Don't worry if not everything "
@@ -96,34 +100,34 @@ msgstr ""
 "Не беспокойтесь, если не всё понятно, дальше мы детально его разберём."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:83
-#, fuzzy
 msgid ""
 "Notice how we call some functions by writing a dot after a variable name. "
 "Just like some values have variables you can access with a dot (like the "
 "[code]x[/code] variable in [code]position.x[/code]), they can also have "
 "their own functions."
 msgstr ""
-"Обратите внимание, что некоторые функции мы вызываем при помощи точки после "
-"имени переменной. Значение некоторого типа может иметь как внутренние "
-"переменные, так и внутренние функции."
+"Обратите внимание, как мы вызываем некоторые функции, записывая точку после "
+"имени переменной. Точно так же, как у некоторых значений есть переменные, к "
+"которым можно получить доступ через точку (например, переменная [code]x[/"
+"code] в [code]position.x[/code]), у них также могут быть свои собственные "
+"функции."
 
-#, fuzzy
 msgid ""
 "Functions like [code]append()[/code] and [code]pop_front()[/code] only exist "
 "on arrays. To call them, we need to write the array name, then a dot, then "
 "the function: [code]array_name.append()[/code]."
 msgstr ""
-"Такие функции, как [code]append()[/code] и [code]pop_front()[/code], "
-"существуют только внутри массивов. Поэтому для их вызова нам необходимо "
-"ставить точку: [code]array.append()[/code]."
+"Функции вроде [code]append()[/code] и [code]pop_front()[/code] существуют "
+"только у массивов. Чтобы вызвать их, нам нужно написать имя массива, затем "
+"точку, а затем саму функцию: [code]array_name.append()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:95
-#, fuzzy
 msgid ""
 "Let's break down the code. We add orders to the [code]waiting_orders[/code] "
 "array by appending them."
 msgstr ""
-"Мы добавляем заказы в порядке очереди в массив [code]waiting_orders[/code]."
+"Давайте разберём код. Мы добавляем заказы в массив [code]waiting_orders[/"
+"code] путём их добавления в конец."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:115
 msgid ""
@@ -150,37 +154,35 @@ msgid ""
 msgstr "Мы можем добавлять заказы в наш массив [code]completed_orders[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:175
-#, fuzzy
 msgid ""
 "When we use an array this way, we call it a [i]queue[/i]: the first element "
 "we add to the array is the first one we remove. It's like a waiting line at "
 "a store."
 msgstr ""
-"Массивы, подобные [code]waiting_orders[/code], называются [i]очередями[/i]: "
-"первый добавленный элемент будет удалён первым."
+"Когда мы используем массив таким образом, мы называем его [i]очередью[/i] "
+"(queue): первый элемент, который мы добавляем в массив, удаляется первым. "
+"Это похоже на очередь в магазине."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:183
 msgid "What does #... mean?"
 msgstr "Что значит #..?"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:185
-#, fuzzy
 msgid ""
 "We write [code]#...[/code] to show that there is more code here. The three "
 "dots mean \"we are not showing all the code.\" We use this to break down "
 "code examples and make them easier to learn from."
 msgstr ""
-"Мы используем [code]#...[/code] для сокращения. Это значит «тут может быть "
-"какой-то код функции». Такой подход помогает нам разбивать примеры кода на "
-"кусочки, удобные для усвоения при обучении."
+"Мы пишем [code]#...[/code], чтобы показать, что здесь есть ещё код. Три "
+"точки означают «мы показываем код не полностью». Мы используем это, чтобы "
+"разбивать примеры кода на части и делать их более понятными для изучения."
 
-#, fuzzy
 msgid ""
 "The hash sign ([code]#[/code]) marks the start of a code comment. It's a "
 "line the computer will ignore, which is why it typically appears in grey."
 msgstr ""
-"Сам по себе значок хеша помечает начало комментария в коде. Эта строка будет "
-"проигнорирована компьютером, именно поэтому обычно она помечается серым "
+"Знак решётки ([code]#[/code]) отмечает начало комментария в коде. Эту строку "
+"компьютер будет игнорировать, вот почему она обычно отображается серым "
 "цветом."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:195
@@ -221,21 +223,25 @@ msgstr ""
 "оставшихся элементов для демонстрации того, как он уменьшается."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:243
-#, fuzzy
 msgid ""
 "Like [code]pop_front()[/code], the function returns the value removed from "
 "the array. You will often store that value in a variable. This value could "
 "be the crate's content, which you can then use to give resources to the "
 "player."
 msgstr ""
-"Подобно [code]pop_front()[/code], функция возвращает значение, удалённое из "
-"массива. Вы часто будете сохранять это значение в переменную."
+"Как и [code]pop_front()[/code], функция возвращает значение, удалённое из "
+"массива. Часто вы будете сохранять это значение в переменной. Этим значением "
+"может быть содержимое ящика, которое вы затем сможете использовать, чтобы "
+"дать ресурсы игроку."
 
 msgid ""
 "When we use an array this way, we call it a [i]stack[/i]: the last element "
 "we add is the first one we remove. It's like a pile of plates where you take "
 "from the top."
 msgstr ""
+"Когда мы используем массив таким образом, мы называем его [i]стеком[/i] "
+"(stack): последний элемент, который мы добавляем, удаляется первым. Это "
+"похоже на стопку тарелок, где вы берёте верхнюю."
 
 msgid ""
 "In the following practices, you will use the [code]append()[/code], "
@@ -299,21 +305,22 @@ msgstr ""
 msgid "Your code should remove all the crates in the array using a while loop."
 msgstr "Для удаления ящиков обязательно используйте цикл while."
 
-#, fuzzy
 msgid ""
 "[b]Careful![/b] If you write the while loop incorrectly, you can freeze the "
 "program."
 msgstr ""
-"[b]Осторожно![/b] Если вы запустите цикл бездумно, программа может зависнуть."
+"[b]Осторожно![/b] Если вы напишете цикл while неправильно, у вас может "
+"зависнуть программа."
 
-#, fuzzy
 msgid ""
 "You can check if the [code]crates[/code] array still has values by writing "
 "[code]while crates:[/code]. This works because an empty array counts as "
 "[code]false[/code], and an array with items counts as [code]true[/code]."
 msgstr ""
-"Проверить, содержит ли массив [code]crates[/code] значения, можно вот так: "
-"[code]while crates:[/code]"
+"Вы можете проверить, есть ли ещё значения в массиве [code]crates[/code], "
+"написав [code]while crates:[/code]. Это работает, потому что пустой массив "
+"считается за [code]false[/code], а массив с элементами — за [code]true[/"
+"code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:301
 msgid ""
