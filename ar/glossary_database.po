@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-06-09 01:01+0000\n"
+"PO-Revision-Date: 2026-06-10 17:01+0000\n"
 "Last-Translator: عبدالحي شقاف <bdalhyshqaf6@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/glossary_database/ar/>\n"
@@ -355,7 +355,7 @@ msgstr ""
 #. Reference: for loop
 #: course/glossary.csv:63
 msgid "for loops"
-msgstr ""
+msgstr "حلقة for"
 
 #. Reference: for loop
 #: course/glossary.csv:63
@@ -363,32 +363,41 @@ msgid ""
 "A for loop instructs the computer to repeat a set of instructions once for "
 "each value in an array."
 msgstr ""
+"حلقة for توجه الكمبيوتر لتكرار مجموعة من التعليمات مرة واحدة لكل قيمة في "
+"المصفوفة."
 
 msgid ""
 "In each loop iteration, the compiler extracts one value from the array and "
 "gives you access to it in the loop's body."
 msgstr ""
+".في كل تكرار للحلقة، يستخرج المُجمّع قيمة واحدة من المصفوفة ويتيح لك الوصول "
+"إليها داخل جسم الحلقة."
 
 msgid ""
 "For loops run code a limited amount of times: one per value in the array. It "
 "is different from while loops that keep repeating code until a condition is "
 "met."
 msgstr ""
+"تقوم حلقات الـ for بتشغيل الكود عددًا محدودًا من المرات: مرة واحدة لكل قيمة في "
+"المصفوفة. وهو يختلف عن حلقات while التي تستمر في تكرار الكود حتى يتم استيفاء "
+"شرط معين."
 
 msgid ""
 "We recommend favoring for loops when you can. They're safer and easier to "
 "use than while loops."
 msgstr ""
+"نوصي بتفضيل حلقات for عندما تستطيع. فهي أكثر أمانًا وأسهل في الاستخدام من "
+"حلقات while."
 
 #. Reference: function
 #: course/glossary.csv:68
 msgid "function"
-msgstr ""
+msgstr "دالة"
 
 #. Reference: function
 #: course/glossary.csv:68
 msgid "functions"
-msgstr ""
+msgstr "دوال"
 
 #. Reference: function
 #: course/glossary.csv:68
@@ -396,35 +405,40 @@ msgid ""
 "A function is a group of code instructions you give a name. When you define "
 "a function, you can call it any time to run all the instructions it contains."
 msgstr ""
+"الدالة هي مجموعة من تعليمات الكود التي تعطيها اسمًا. عند تعريف دالة، يمكنك "
+"استدعاؤها في أي وقت لتشغيل جميع التعليمات التي تحتوي عليها. ..."
 
 msgid ""
 "You can modify a function's behavior with parameters. Parameters are "
 "variable names that you write in the function definition. You can then use "
 "them in the function's body to make your code adapt to different cases."
 msgstr ""
+"يمكنك تعديل سلوك الدالة باستخدام المعلمات. المعلمات هي أسماء متغيرات تقوم "
+"بكتابتها في تعريف الدالة. يمكنك بعد ذلك استخدامها في جسم الدالة لجعل كودك "
+"يتكيف مع الحالات المختلفة."
 
 msgid "Also, functions can optionally return a value to the code calling it."
-msgstr ""
+msgstr "أيضًا، يمكن للدوال اختيارياً أن تعيد قيمة إلى الكود الذي يستدعيها."
 
 #. Reference: increment
 #: course/glossary.csv:69
 msgid "increment"
-msgstr ""
+msgstr "زيادة"
 
 #. Reference: increment
 #: course/glossary.csv:69
 msgid "increments"
-msgstr ""
+msgstr "زيادات"
 
 #. Reference: increment
 #: course/glossary.csv:69
 msgid "An increment is the amount by which a value changes in your code."
-msgstr ""
+msgstr "الزيادة هي الكمية التي يتغير بها قيمة في كودك."
 
 #. Reference: instruction
 #: course/glossary.csv:72
 msgid "instruction"
-msgstr ""
+msgstr "تعليمات"
 
 #. Reference: instruction
 #: course/glossary.csv:72
@@ -437,21 +451,23 @@ msgid ""
 "In computer programming, instructions are a single operation the computer "
 "recognizes and can execute."
 msgstr ""
+"في برمجة الكمبيوتر، التعليمات هي عملية واحدة يتعرف عليها الكمبيوتر ويمكنه "
+"تنفيذها."
 
 msgid ""
 "For example, a function call, an addition, or assigning a value to a "
 "variable."
-msgstr ""
+msgstr "على سبيل المثال، استدعاء دالة، أو جمع، أو تعيين قيمة لمتغير."
 
 #. Reference: variable
 #: course/glossary.csv:81
 msgid "variable"
-msgstr ""
+msgstr "متغير"
 
 #. Reference: variable
 #: course/glossary.csv:81
 msgid "variables"
-msgstr ""
+msgstr "المتغيرات"
 
 #. Reference: variable
 #: course/glossary.csv:81
@@ -459,36 +475,45 @@ msgid ""
 "Variables are a tool to give a name to values you want to store in your code "
 "and change over time."
 msgstr ""
+"المتغيرات هي أداة لإعطاء اسم للقيم التي تريد تخزينها في شيفرتك وتغييرها مع "
+"مرور الوقت."
 
 msgid ""
 "For example, a character's health: when the character takes a hit, you want "
 "it to go down. When healing, you want the health to go back up."
 msgstr ""
+"على سبيل المثال، صحة شخصية: عندما تتلقى الشخصية ضربة، تريد أن تنخفض. عند "
+"الشفاء، تريد أن تعود الصحة للارتفاع مرة أخرى."
 
 msgid ""
 "You can create a variable named [code]health[/code] to represent the health."
-msgstr ""
+msgstr "يمكنك إنشاء متغير باسم [code]health[/code] لتمثيل الصحة."
 
 msgid ""
 "Then, every time you write the keyword [code]health[/code] in your code, the "
 "computer will fetch the corresponding value in its memory for you."
 msgstr ""
+"ثم، في كل مرة تكتب فيها الكلمة المفتاحية [code]health[/code] في الكود الخاص "
+"بك، سيقوم الكمبيوتر بجلب القيمة المقابلة من ذاكرته لك."
 
 msgid ""
 "Variables work a bit like product labels in a supermarket. They are names "
 "that you attach to some value. Any time, you can take the label and stick it "
 "onto a new product or, in that case, a new value."
 msgstr ""
+"تعمل المتغيرات بطريقة مشابهة لتسميات المنتجات في السوبرماركت. إنها أسماء "
+"تقوم بإرفاقها بقيمة معينة. في أي وقت، يمكنك أخذ التسمية ولصقها على منتج جديد "
+"أو، في هذه الحالة، على قيمة جديدة."
 
 #. Reference: while loop
 #: course/glossary.csv:88
 msgid "while loop"
-msgstr ""
+msgstr "حلقة while"
 
 #. Reference: while loop
 #: course/glossary.csv:88
 msgid "while loops"
-msgstr ""
+msgstr "حلقات while"
 
 #. Reference: while loop
 #: course/glossary.csv:88
