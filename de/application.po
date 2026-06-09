@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-11-15 16:18+0000\n"
+"PO-Revision-Date: 2026-06-09 21:30+0200\n"
 "Last-Translator: Noah Stürtz <noah@coru.sh>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/application/de/>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
 
 #: resources/QuizInputField.gd:17
 msgid "You need to type a whole number for this answer. Example: 42"
@@ -76,6 +77,8 @@ msgid ""
 "You have a while loop that runs forever (while true) without a break "
 "statement. This will freeze the app."
 msgstr ""
+"In deinem Code ist eine while-Schleife, die endlos weiterläuft (while true). "
+"Dadurch bleibt das Programm hängen."
 
 #: ui/UIPractice.gd:337
 msgid "Running Your Code..."
@@ -150,6 +153,8 @@ msgid ""
 "Learn GDScript From Zero is an open source project by [color=#FFD500]"
 "[url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
 msgstr ""
+"Learn GDScript From Zero ist ein Open-Source-Projekt von [color=#FFD500]"
+"[url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
 
 #: ui/components/GameView.tscn:72
 msgid "Paused"
@@ -214,18 +219,16 @@ msgid "Debugger"
 msgstr "Debugger"
 
 #: ui/components/SalePopup.tscn:121
-#, python-format
 msgid ""
 "[center]Get [b]50% off[/b] on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b][/center]"
 msgstr ""
 "[center]Erhalte [b]50% Rabatt[/b] auf alle unsere Godot Kurse mit dem \n"
-"Coupon Code [b]DISCOUNT50[/b][/center]"
+"Code [b]DISCOUNT50[/b][/center]"
 
 #: ui/components/SalePopup.tscn:132
-#, fuzzy
 msgid "Only until"
-msgstr "Nur bis "
+msgstr "Nur bis"
 
 #: ui/components/SalePopup.tscn:155
 msgid "CHECK OUT OUR COURSES"
@@ -407,7 +410,7 @@ msgid ""
 "Please drag and drop the generated file onto your issue on GitHub to attach "
 "it."
 msgstr ""
-"Bitte ziehe dazu die generierte Datei per Drag & Drop auf dein Problem auf "
+"Bitte ziehe dazu die generierte Datei per Drag & Drop auf deine Issue auf "
 "GitHub, um sie anzuhängen."
 
 msgid "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]"
@@ -493,7 +496,7 @@ msgstr "Weniger Kontrast"
 
 #: ui/components/popups/SettingsPopup.tscn:250
 msgid "Dyslexia Font"
-msgstr ""
+msgstr "Legasthenie-Font"
 
 #: ui/components/popups/SettingsPopup.tscn:299
 msgid "Apply"
@@ -544,9 +547,8 @@ msgid "Lesson Title"
 msgstr "Lektion Titel"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:44
-#, fuzzy
 msgid "Course Index -"
-msgstr "Kurs-Index - "
+msgstr "Kurs-Index -"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn:51
 msgid "Course Title Goes Here"
@@ -614,6 +616,11 @@ msgid ""
 "[color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]courses[/"
 "url][/color][/b]."
 msgstr ""
+"Wir erstellen eine Menge [b][color=#ebc3ff][url=https://www.youtube.com/"
+"@Gdquest/videos]kostenloser Tutorials[/url][/color][/b]. Nutze sie, wenn du "
+"anfängst, deine eigenen Spiele zu entwickeln. Wenn du Spielentwicklung "
+"richtig lernen willst, empfehlen wir dir allerdings unsere [b][color=#ebc3ff]"
+"[url=https://school.gdquest.com/godot-4-early-access]Kurse[/url][/color][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:505
 msgid "Learning with courses"
@@ -635,6 +642,10 @@ msgid ""
 "believe it doesn’t have to be boring. When teaching is done correctly, most "
 "people highly enjoy the sensation of leveling up!"
 msgstr ""
+"Bei GDQuest sind wir im Herzen Pädagogen. Wir glauben an "
+"anwendungsorientiertes Lernen – und daran, dass es nicht trocken und "
+"langweilig sein muss. Guter Unterricht begeistert durch die Erfahrung, stets "
+"dazuzulernen und besser zu werden!"
 
 msgid ""
 "That’s the reason we made this app. It is in fact part of our beginner "
@@ -642,6 +653,10 @@ msgid ""
 "bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
 "[/b]."
 msgstr ""
+"Das ist Grund für diese App. Um genau zu sein, ist sie Teil unseres "
+"Einsteiger-Kurses [b][color=#ebc3ff][url=https://school.gdquest.com/products/"
+"bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color]"
+"[/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn:575
 msgid "LEARN GAMEDEV WITH GODOT"
@@ -653,7 +668,7 @@ msgstr "Jetzt verfügbar"
 
 #: ui/screens/end_screen/EndScreen.tscn:732
 msgid "for preorders"
-msgstr "zum vorbestellen"
+msgstr "zum Vorbestellen"
 
 #: ui/screens/end_screen/EndScreen.tscn:749
 msgid "Godot 4 courses!!"
@@ -661,7 +676,7 @@ msgstr "Godot 4 Kurse!!"
 
 #: ui/screens/end_screen/EndScreen.tscn:795
 msgid "Teaching gamedev in the classroom?"
-msgstr "Videospielentwicklung im Klassenzimmer beibringen?"
+msgstr "Spielentwicklung im Klassenzimmer beibringen?"
 
 #: ui/screens/end_screen/EndScreen.tscn:808
 msgid "Get in touch"
@@ -694,17 +709,16 @@ msgid "This is an Open-Source project!"
 msgstr "Das ist ein Open-Source Projekt!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn:231
-#, fuzzy
 msgid "Like Godot, this app and course is free and open-source."
 msgstr ""
-"Wie auch Godot ist diese App kostenlos und der Quellcode ist frei verfügbar."
+"Wie Godot selbst ist diese App kostenlos und der Quellcode frei verfügbar."
 
 msgid ""
 "You can find the app's source code and contribute translations here: "
 "[url=https://github.com/GDQuest/learn-gdscript]Learn GDScript From Zero "
 "(Github repository)[/url]."
 msgstr ""
-"Hier findest du den Code und kannst beim übersetzen der App helfen: "
+"Hier findest du den Code und kannst beim Übersetzen der App helfen: "
 "[url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero "
 "(Github repository)[/url]."
 
@@ -832,3 +846,4 @@ msgstr "BEENDEN"
 msgid ""
 "An open source project by [url=https://www.gdquest.com/]GDQuest.com[/url]"
 msgstr ""
+"Ein Open-Source Projekt von [url=https://www.gdquest.com/]GDQuest.com[/url]"
