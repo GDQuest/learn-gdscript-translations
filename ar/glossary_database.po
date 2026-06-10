@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-04-05 10:09+0000\n"
-"Last-Translator: REDA KING <yyayrrla@gmail.com>\n"
+"PO-Revision-Date: 2026-06-09 01:01+0000\n"
+"Last-Translator: عبدالحي شقاف <bdalhyshqaf6@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/glossary_database/ar/>\n"
 "Language: ar\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.6\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: member function
@@ -31,7 +31,7 @@ msgstr "دالة عضوية"
 #. Reference: member function
 #: course/glossary.csv:6
 msgid "member functions"
-msgstr ""
+msgstr "دالة عضوية"
 
 #. Reference: member function
 #: course/glossary.csv:6
@@ -39,25 +39,30 @@ msgid ""
 "Member functions are functions attached to a specific value type, like "
 "arrays, strings, or dictionaries. We also call them methods."
 msgstr ""
+"الدوال العضوية هي دوال مرتبطة بنوع قيمة محدد، مثل المصفوفات أو السلاسل أو "
+"القواميس. ونحن أيضاً نسميها طرقاً."
 
 msgid ""
 "For example, arrays have member functions like [code]array.append()[/code]."
 msgstr ""
+"على سبيل المثال، المصفوفات لديها دوال أعضاء مثل [code]array.append()[/code]."
 
 msgid ""
 "You can only call the function on an array, using the access operator "
 "([code].[/code]) to access it, as shown above."
 msgstr ""
+"يمكنك استدعاء الدالة فقط على مصفوفة، باستخدام عامل الوصول ([code].[/code]) "
+"للوصول إليها، كما هو موضح أعلاه."
 
 #. Reference: member variable
 #: course/glossary.csv:9
 msgid "member variable"
-msgstr ""
+msgstr "متغير عضوي"
 
 #. Reference: member variable
 #: course/glossary.csv:9
 msgid "member variables"
-msgstr ""
+msgstr "متغير عضو"
 
 #. Reference: member variable
 #: course/glossary.csv:9
@@ -66,6 +71,9 @@ msgid ""
 "vector's [code]x[/code] and [code]y[/code] sub-variables. We also call them "
 "[i]properties[/i] or [i]fields[/i] of the vector."
 msgstr ""
+"المتغيرات العضوية هي متغيرات مرتبطة بنوع قيمة محدد، مثل المتغيرين الفرعيين "
+"[code]x[/code] و [code]y[/code] للمتجه. نحن أيضًا نطلق عليها [i]خصائص[/i] أو "
+"[i]حقول[/i] المتجه."
 
 msgid ""
 "To access a member variable, you must first write the value's name followed "
@@ -151,7 +159,7 @@ msgstr ""
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iterations"
-msgstr ""
+msgstr "تكرارات"
 
 #. Reference: iteration
 #: course/glossary.csv:23
@@ -160,21 +168,25 @@ msgid ""
 "typically use the term with loops, where one iteration is one run of the "
 "loop's code."
 msgstr ""
+"في كود الكمبيوتر، التكرار هو إعادة واحدة لبعض العملية أو الكود. نستخدم "
+"المصطلح عادة مع الحلقات، حيث يمثل التكرار الواحد تشغيلًا واحدًا لكود الحلقة."
 
 msgid ""
 "When talking of algorithms, an iteration can mean a full pass of the "
 "algorithm on a data set."
 msgstr ""
+"عند الحديث عن الخوارزميات، يمكن أن تعني التكرار مرورًا كاملاً للخوارزمية على "
+"مجموعة بيانات."
 
 #. Reference: vector
 #: course/glossary.csv:28
 msgid "vector"
-msgstr ""
+msgstr "متجه"
 
 #. Reference: vector
 #: course/glossary.csv:28
 msgid "vectors"
-msgstr ""
+msgstr "متجهات"
 
 #. Reference: vector
 #: course/glossary.csv:28
@@ -182,27 +194,33 @@ msgid ""
 "In math, a vector is a list of numbers. In games, we often use 2D and 3D "
 "vectors: respectively, lists of two and three numbers."
 msgstr ""
+"في الرياضيات، المتجه هو قائمة من الأعداد. في الألعاب، نستخدم غالبًا المتجهات "
+"الثنائية والثلاثية الأبعاد: على التوالي، قوائم من رقمين وثلاثة أرقام."
 
 msgid ""
 "We use that to represent a direction and magnitude or intensity in space. "
 "For example, you can use a vector to represent the direction and speed at "
 "which a character or a vehicle moves."
 msgstr ""
+"نحن نستخدم ذلك لتمثيل الاتجاه والمقدار أو الشدة في الفضاء. على سبيل المثال، "
+"يمكنك استخدام متجه لتمثيل الاتجاه والسرعة التي يتحرك بها شخصية أو مركبة."
 
 msgid ""
 "Vectors can seem daunting at first because they are pretty abstract, but as "
 "you will see, they'll simplify code tremendously."
 msgstr ""
+"قد تبدو المتجهات شديدة الصعوبة في البداية لأنها مجردة إلى حد ما، ولكن كما سترى"
+"، ستُبسّط الكود بشكل كبير."
 
 #. Reference: argument
 #: course/glossary.csv:41
 msgid "argument"
-msgstr ""
+msgstr "حجة"
 
 #. Reference: argument
 #: course/glossary.csv:41
 msgid "arguments"
-msgstr ""
+msgstr "جدالات"
 
 #. Reference: argument
 #: course/glossary.csv:41
@@ -211,29 +229,37 @@ msgid ""
 "in the function call [code]rotate(0.5)[/code], the value [code]0.5[/code] "
 "inside the parentheses is an argument."
 msgstr ""
+"الحجة هي قيمة تمررها إلى دالة عند استدعائها. على سبيل المثال، في استدعاء "
+"الدالة [code]rotate(0.5)[/code]، القيمة [code]0.5[/code] داخل الأقواس هي حجة."
 
 msgid ""
 "A function can take no arguments, one argument, or multiple arguments. "
 "Arguments can be required or optional."
 msgstr ""
+"يمكن للدالة ألا تأخذ أي معاملات، أو أن تأخذ معاملة واحدة، أو عدة معاملات. يمكن "
+"أن تكون المعاملات مطلوبة أو اختيارية."
 
 msgid ""
 "When a function requires multiple arguments, you separate them with commas. "
 "Here's an example: [code]jump(50, 100)[/code]"
 msgstr ""
+"عندما تتطلب الدالة عدة وسائط، تقوم بفصلها باستخدام الفواصل. إليك مثال: "
+"[code]jump(50, 100)[/code]"
 
 msgid ""
 "When you [i]call[/i] a function, we call the values in parentheses "
 "[i]arguments[/i]."
-msgstr ""
+msgstr "عندما تقوم بـ [i]استدعاء[/i] دالة، نسمي القيم بين الأقواس [i]وسائط[/i]."
 
 msgid ""
 "But when you [i]write[/i] a function definition, we call them [i]parameters[/"
 "i] instead. Here's an example:"
 msgstr ""
+"ولكن عندما تقوم [i]بكتابة[/i] تعريف دالة، نسميها [i]معاملات[/i] بدلاً من ذلك. "
+"إليك مثالاً:"
 
 msgid "[code]func move_to_position(x, y):[/code]"
-msgstr ""
+msgstr "[code]وظيفة الانتقال_إلى_الموضع(x, y):[/code]"
 
 msgid ""
 "In this function definition, [code]x[/code] and [code]y[/code] are "
