@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-06-09 21:30+0200\n"
+"PO-Revision-Date: 2026-06-10 21:17+0200\n"
 "Last-Translator: Noah Stürtz <noah@coru.sh>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/application/de/>\n"
@@ -128,9 +128,10 @@ msgstr "Ausführen"
 msgid "Pause"
 msgstr "Pause"
 
+# Reset statt Zurücksetzen, da letzteres in der UI oft unschön über den Button hinausragt
 #: ui/components/CodeEditor.tscn:172
 msgid "Reset"
-msgstr "Zurücksetzen"
+msgstr "Reset"
 
 #: ui/components/CodeEditor.tscn:194
 msgid "Solution"
@@ -738,9 +739,10 @@ msgstr "Erklärung"
 msgid "Skip"
 msgstr "Überspringen"
 
+# "Abschicken" ist im Web geläufiger als "Senden"
 #: ui/screens/lesson/UIBaseQuiz.tscn:119
 msgid "Submit"
-msgstr "Senden"
+msgstr "Abschicken"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn:150
 msgid "You're right!"
