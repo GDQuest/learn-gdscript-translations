@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-06-10 17:01+0000\n"
+"PO-Revision-Date: 2026-06-12 14:01+0000\n"
 "Last-Translator: عبدالحي شقاف <bdalhyshqaf6@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/glossary_database/ar/>\n"
@@ -19,19 +19,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
-"X-Generator: Weblate 2026.6\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 "Generated-By: Babel 2.10.3\n"
 
 #. Reference: member function
 #: course/glossary.csv:6
-#, fuzzy
 msgid "member function"
 msgstr "دالة عضوية"
 
 #. Reference: member function
 #: course/glossary.csv:6
 msgid "member functions"
-msgstr "دالة عضوية"
+msgstr "دالة عضو"
 
 #. Reference: member function
 #: course/glossary.csv:6
@@ -80,63 +79,70 @@ msgid ""
 "by the access operator ([code].[/code]). For example, [code]position.x[/"
 "code]."
 msgstr ""
+"للوصول إلى متغير عضو، يجب أولاً كتابة اسم القيمة متبوعًا بمشغّل الوصول ([code].[/"
+"code]). على سبيل المثال، [code]position.x[/code]."
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameter"
-msgstr ""
+msgstr "معامل"
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "parameters"
-msgstr ""
+msgstr "معاملات"
 
 #. Reference: parameter
 #: course/glossary.csv:12
 msgid "A parameter is a variable you create as part of a function definition."
-msgstr ""
+msgstr "المُعامل هو متغير تقوم بإنشائه كجزء من تعريف الدالة."
 
 msgid ""
 "It allows you to reuse the function more by having values that vary in the "
 "function's body."
 msgstr ""
+"يسمح لك بإعادة استخدام الدالة أكثر من خلال وجود قيم تتغير داخل جسم الدالة."
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radian"
-msgstr ""
+msgstr "راديان"
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid "radians"
-msgstr ""
+msgstr "راديانات"
 
 #. Reference: radian
 #: course/glossary.csv:17
 msgid ""
 "A radian is a unit of measurement of angles based on the circle's "
 "circumference."
-msgstr ""
+msgstr "الراديان هو وحدة قياس الزوايا مبنية على محيط الدائرة."
 
 msgid ""
 "We tend to use degrees more in our daily lives, but in computer programming, "
 "and especially in games, radians are common."
 msgstr ""
+"نميل إلى استخدام الدرجات أكثر في حياتنا اليومية، لكن في برمجة الكمبيوتر، "
+"وخصوصًا في الألعاب، الزوايا بالراديان هي الأكثر شيوعًا."
 
 msgid ""
 "An angle of [code]2 * PI[/code] radians corresponds to 360 degrees. And an "
 "angle of [code]PI[/code] radians corresponds to 180 degrees."
 msgstr ""
+"زاوية بمقدار [code]2 * PI[/code] راديان تعادل 360 درجة. وزاوية بمقدار "
+"[code]PI[/code] راديان تعادل 180 درجة."
 
 #. Reference: type
 #: course/glossary.csv:20
 msgid "type"
-msgstr ""
+msgstr "نوع"
 
 #. Reference: type
 #: course/glossary.csv:20
 msgid "types"
-msgstr ""
+msgstr "أنواع"
 
 #. Reference: type
 #: course/glossary.csv:20
@@ -145,16 +151,21 @@ msgid ""
 "numbers like [code]3[/code], [code]11[/code], and [code]255462[/code] are "
 "all of type [code]int[/code] (short for integer)."
 msgstr ""
+"في برمجة الكمبيوتر، النوع هو فئة القيمة. على سبيل المثال، الأعداد الصحيحة مثل "
+"[code]3[/code]، [code]11[/code]، و [code]255462[/code] كلها من نوع "
+"[code]int[/code] (اختصار لكلمة integer)."
 
 msgid ""
 "The computer uses types to determine which operations are valid between two "
 "values and when they're undefined."
 msgstr ""
+"في برمجة الكمبيوتر، النوع هو فئة القيمة. على سبيل المثال، الأعداد الصحيحة مثل "
+"3 و 11 و 255462 كلها من نوع int (اختصار لكلمة integer)."
 
 #. Reference: iteration
 #: course/glossary.csv:23
 msgid "iteration"
-msgstr ""
+msgstr "تكرار"
 
 #. Reference: iteration
 #: course/glossary.csv:23
@@ -265,16 +276,17 @@ msgid ""
 "In this function definition, [code]x[/code] and [code]y[/code] are "
 "[i]parameters[/i]."
 msgstr ""
+"في تعريف هذه الدالة، [code]x[/code] و [code]y[/code] هما [i]معاملان[/i]."
 
 #. Reference: array
 #: course/glossary.csv:48
 msgid "array"
-msgstr ""
+msgstr "مصفوفة"
 
 #. Reference: array
 #: course/glossary.csv:48
 msgid "arrays"
-msgstr ""
+msgstr "المصفوفات"
 
 #. Reference: array
 #: course/glossary.csv:48
@@ -282,27 +294,36 @@ msgid ""
 "An array is a list of values. In GDScript, arrays can contain [i]any[/i] "
 "types of value."
 msgstr ""
+"المصفوفة هي قائمة من القيم. في GDScript، يمكن أن تحتوي المصفوفات على أي نوع "
+"من القيم."
 
 msgid ""
 "To create an array, you write comma-separated values in square brackets: "
 "[code]var three_numbers = [1, 2, 3][/code]"
 msgstr ""
+"لإنشاء مصفوفة، تكتب القيم مفصولة بفواصل داخل أقواس مربعة: [code]var "
+"three_numbers = [1, 2, 3][/code]"
 
 msgid ""
 "In games, we use arrays all the time to store lists of characters in a "
 "party, lists of items in inventory, lists of spells the player unlocked, and "
 "so on. They're everywhere."
 msgstr ""
+"في الألعاب، نستخدم المصفوفات طوال الوقت لتخزين قوائم الشخصيات في الفريق، "
+"قوائم العناصر في المخزون، قوائم التعويذات التي فتحها اللاعب، وهكذا. إنها "
+"موجودة في كل مكان."
 
 msgid ""
 "Arrays are a fundamental value type in computer programming. You'll find "
 "arrays in pretty much any programming language."
 msgstr ""
+"المصفوفات هي نوع بيانات أساسي في برمجة الحاسوب. ستجد المصفوفات في تقريبًا أي "
+"لغة برمجة."
 
 #. Reference: assign
 #: course/glossary.csv:49
 msgid "assign"
-msgstr ""
+msgstr "يخصص"
 
 #. Reference: assign
 #: course/glossary.csv:49
@@ -310,16 +331,18 @@ msgid ""
 "Assigning a value to a variable means that you store a value inside the "
 "variable. You do this with the equal sign ([code]=[/code])."
 msgstr ""
+"إسناد قيمة لمتغير يعني أنك تخزن قيمة داخل المتغير. تقوم بذلك باستخدام علامة "
+"المساواة ([code]=[/code])."
 
 #. Reference: dictionary
 #: course/glossary.csv:56
 msgid "dictionary"
-msgstr ""
+msgstr "قاموس"
 
 #. Reference: dictionary
 #: course/glossary.csv:56
 msgid "dictionaries"
-msgstr ""
+msgstr "القواميس"
 
 #. Reference: dictionary
 #: course/glossary.csv:56
@@ -328,6 +351,8 @@ msgid ""
 "you give the dictionary a key, it finds and gives you back the corresponding "
 "value."
 msgstr ""
+"القاموس هو هيكل بيانات يربط القيم بأزواج مفتاح-قيمة. عندما تعطي القاموس "
+"مفتاحًا، فإنه يجد لك ويعيد القيمة المقابلة."
 
 msgid ""
 "In GDScript, keys can be many things. We often use text strings or numbers, "
@@ -335,22 +360,29 @@ msgid ""
 "key, which is handy to map a grid cell to a unit or an item in a grid-based "
 "game."
 msgstr ""
+"في GDScript، يمكن أن تكون المفاتيح أشياء كثيرة. غالبًا ما نستخدم النصوص أو "
+"الأرقام، لكنك لست محدودًا بذلك. يمكن أيضًا أن يكون [code]Vector2[/code] مفتاحًا "
+"صالحًا، وهذا مفيد لتوصيل خلية شبكة بوحدة أو عنصر في لعبة تعتمد على الشبكة."
 
 msgid ""
 "You will often use dictionaries to associate bits of data in your games. For "
 "example, we could use them to associate an equipment's name with its weapon "
 "stats in a database."
 msgstr ""
+"ستستخدم القواميس كثيراً لربط أجزاء البيانات في ألعابك. على سبيل المثال، "
+"يمكننا استخدامها لربط اسم المعدات مع إحصائيات سلاحها في قاعدة البيانات."
 
 msgid ""
 "Like arrays, they are a fundamental data type that you will see in many "
 "programming languages and use a lot."
 msgstr ""
+"مثل المصفوفات، هي نوع بيانات أساسي سترى الكثير منه في العديد من لغات البرمجة "
+"وتستخدمه كثيرًا."
 
 #. Reference: for loop
 #: course/glossary.csv:63
 msgid "for loop"
-msgstr ""
+msgstr "حلقة for"
 
 #. Reference: for loop
 #: course/glossary.csv:63
@@ -521,24 +553,30 @@ msgid ""
 "A while loop instructs the computer to keep running code based on a "
 "condition. While the condition is true, the loop keeps running."
 msgstr ""
+"حلقة الـ while توجّه الكمبيوتر لمواصلة تنفيذ الكود بناءً على شرط معين. طالما "
+"الشرط صحيح، الحلقة تستمر في التشغيل."
 
 msgid ""
 "When coding while loops, you must be careful: they will keep running "
 "infinitely and freeze your game if you get the condition wrong."
 msgstr ""
+"عند كتابة حلقات while، لازم تكون حذر: إذا غلطت في الشرط، الحلقة هتستمر للأبد "
+"وهتجمد لعبتك."
 
 msgid "That's why we recommend using the safer for loop whenever you can."
-msgstr ""
+msgstr "لهذا السبب نوصي باستخدام حلقة for الأكثر أمانًا كلما استطعت."
 
 msgid ""
 "However, there are still essential cases in which we use while loops, like "
 "processing files, processing computer code, or for powerful algorithms."
 msgstr ""
+"ومع ذلك، لا تزال هناك حالات أساسية نستخدم فيها حلقات while، مثل معالجة الملفات"
+"، ومعالجة تعليمات الكمبيوتر، أو للخوارزميات القوية."
 
 #. Reference: body
 #: course/glossary.csv:89
 msgid "body"
-msgstr ""
+msgstr "جسم"
 
 #. Reference: body
 #: course/glossary.csv:89
@@ -546,33 +584,37 @@ msgid ""
 "We talk about a loop or a function's body to refer to the lines of code that "
 "are part of the loop or function."
 msgstr ""
+"نتحدث عن حلقة أو جسم دالة للإشارة إلى أسطر الكود التي هي جزء من الحلقة أو "
+"الدالة."
 
 #. Reference: return
 #: course/glossary.csv:92
 msgid "return"
-msgstr ""
+msgstr "عودة"
 
 #. Reference: return
 #: course/glossary.csv:92
 msgid ""
 "Returning a value is the process of sending a value to the place where you "
 "call a function."
-msgstr ""
+msgstr "إرجاع قيمة هو عملية إرسال قيمة إلى المكان الذي تستدعي فيه الدالة."
 
 msgid ""
 "It happens when a function uses the [code]return[/code] keyword followed by "
 "a value, for example: [code]return -1[/code]."
 msgstr ""
+"يحدث ذلك عندما تستخدم الدالة الكلمة المفتاحية [code]return[/code] متبوعة "
+"بقيمة، على سبيل المثال: [code]return -1[/code]."
 
 #. Reference: library
 #: course/glossary.csv:93
 msgid "library"
-msgstr ""
+msgstr "مكتبة"
 
 #. Reference: library
 #: course/glossary.csv:93
 msgid "libraries"
-msgstr ""
+msgstr "المكتبات"
 
 #. Reference: library
 #: course/glossary.csv:93
@@ -580,16 +622,18 @@ msgid ""
 "A collection of valuable and reusable code bundled together by other "
 "programmers to save you time. All programmers use code libraries."
 msgstr ""
+"مجموعة من الأكواد القيمة والقابلة لإعادة الاستخدام مجمعة معًا بواسطة مبرمجين "
+"آخرين لتوفير وقتك. جميع المبرمجين يستخدمون مكتبات الأكواد."
 
 #. Reference: sprite
 #: course/glossary.csv:94
 msgid "sprite"
-msgstr ""
+msgstr "الرسم المتحرك"
 
 #. Reference: sprite
 #: course/glossary.csv:94
 msgid "sprites"
-msgstr ""
+msgstr "الرسوم المتحركة"
 
 #. Reference: sprite
 #: course/glossary.csv:94
@@ -598,3 +642,5 @@ msgid ""
 "generally use this word to talk about moving images, like a character, a "
 "monster, or an item falling on the ground."
 msgstr ""
+"في الرسومات الحاسوبية، الرسم المتحرك هو صورة تعرضها على الشاشة. عادةً نستخدم "
+"هذه الكلمة للحديث عن الصور المتحركة، مثل شخصية، أو وحش، أو غرض يسقط على الأرض."
