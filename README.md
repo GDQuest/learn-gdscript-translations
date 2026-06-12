@@ -44,32 +44,28 @@ If the directory for your language doesn't exist yet, create one using the two-l
 
 ## Structure of translation files
 
-We split translations into many files per language so you can focus on one lesson or one part of the app at a time:
+We split translations into a few set of files per language:
 
-- `application.*` has all text from the app's user interface, including some placeholder text in reusable components.
-- `classref_database.*` has documentation entries that appear in the practice side panel. These explain methods and properties to the student.
-- `error_database.*` has explanations and suggestions for GDScript errors and internal errors.
-- `lesson-*.*` has the content of a specific lesson, including the content blocks, the quizzes, and practices.
+- `application.*` has all text from the app's user interface and practice checks, including some placeholder text in reusable components.
+- `supplementary.*` has documentation entries that appear in the practice side panel to explain methods and properties, glossary entries for detailed explanation of terminology, and explanations and suggestions for GDScript errors and internal errors.
+- `course.*` has the content of all the course lessons, quizzes, and practices.
 
 
 ## Testing your translations in Godot
 
-If you want to see how your translations look in the app, here's how you can test them locally. You'll need to clone the app's repository: [learn-gdscript](https://github.com/GDQuest/learn-gdscript/).
+If you want to see how your translations look in the app, here's how you can test them locally. You'll need to clone the app's repository: [learn-gdscript](https://github.com/GDQuest/learn-gdscript/). Check the repository for requirements - it uses a custom build of Godot.
 
 1. Copy your translated PO files into the app's repository. You need to put them in the `i18n/` directory, following the same structure as this repository. For example, if you translated into Spanish, you would copy your `es/` directory with all its PO files into the `i18n/` directory of the app's repository.
 2. Open the project in Godot.
-3. Run the app by pressing <kbd>F5</kbd>.
-4. Open the settings menu and select your language. The app will remember your choice next time.
+3. Build the lessons by using the `Project/Tools/i18n Tools/Build Translated Lessons`.
+4. Run the app by pressing <kbd>F5</kbd>.
+5. Open the settings menu and select your language. The app will remember your choice next time.
 
 As you add translations, rerun the app every now and then to check that longer or shorter words don't cause the interface to overflow or break. Different languages have very different word lengths, and this can affect the user interface.
 
 If you find a UI bug caused by translations, please [open a new issue](https://github.com/GDQuest/learn-gdscript/issues) on the app's repository and include a screenshot so we can fix it.
 
 **Note:** Currently, the app won't automatically reload translations while it's running. If you update a PO file, close the app with <kbd>F8</kbd> and rerun it with <kbd>F5</kbd>.
-
-### Registering a completely new language
-
-If the language you're translating for is completely new in the app, currently you will need to manually register it in the application source code. For that, open Learn GDScript From Zero in Godot, and open the script `autoload/TranslationManager.gd`. Add the two-letter language code of your language to the `SUPPORTED_LOCALES` array. For example, if you were adding Spanish, you would add `"es"` to the array.
 
 
 ## For maintainers: updating translation templates
@@ -78,10 +74,6 @@ This section is mainly for maintainers or code contributors to Learn GDScript Fr
 
 The gettext format uses two file types: POT files are translation templates, and PO files are translations for a specific language. PO files are derived from POT files, which lets us track which strings changed between releases.
 
-To update POT files, you need `babel` and `babel-godot` installed for Python. See the [official Godot documentation](https://docs.godotengine.org/en/stable/tutorials/i18n/localization_using_gettext.html#creating-the-po-template-pot-using-pybabel) for setup instructions.
+To update POT files, you need to clone the app's repository ([learn-gdscript](https://github.com/GDQuest/learn-gdscript/)). Check the repository for requirements - it uses a custom build of Godot.
 
-Then, run the extraction script from the root of the project:
-
-```
-python ./i18n/extract.py
-```
+Then, once the editor is open, you can run the extraction script by using the `Project/Tools/i18n Tools/Generate All POT files` shortcut.
