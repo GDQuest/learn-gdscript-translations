@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: Weblate 2026.6.dev0\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
 msgstr ""
@@ -334,7 +335,7 @@ msgid ""
 "Use the suggested solution.\n"
 "\n"
 "Warning: Using the suggested solution will leave this practice unfinished.\n"
-"You can come back and try to solve it yourself later."
+"You can come back and try to solve it yourself later.\n"
 msgstr ""
 
 #: ui/UIPractice.tscn
@@ -412,7 +413,7 @@ msgstr "값"
 #: ui/components/FullScreenButton.tscn
 msgid ""
 "Toggle the app full-screen.\n"
-"Shortcut: F11"
+"Shortcut: F11\n"
 msgstr ""
 
 #: ui/components/GDQuestCreditsLabel.tscn
@@ -466,7 +467,7 @@ msgstr "설명"
 #: ui/components/QuitButton.tscn
 msgid ""
 "Quit the app.\n"
-"Shortcut: Alt+F4"
+"Shortcut: Alt+F4\n"
 msgstr ""
 
 #: ui/components/Revealer.tscn
@@ -489,10 +490,10 @@ msgstr "디버거"
 #, fuzzy
 msgid ""
 "Get [b]50%[/b] off on all our Godot courses with the \n"
-"coupon code [b]DISCOUNT50[/b]"
+"coupon code [b]DISCOUNT50[/b]\n"
 msgstr ""
 "[center]쿠폰 코드 [b]DISCOUNT50[/b]을 사용하여 \n"
-"모든 고도(Godot) 강좌를 [b]50% 할인[/b]된 가격에 만나보세요[/center]"
+"모든 고도(Godot) 강좌를 [b]50% 할인[/b]된 가격에 만나보세요[/center]\n"
 
 #: ui/components/SalePopup.tscn
 #, fuzzy
@@ -525,14 +526,16 @@ msgid "Our suggestion on how to fix it."
 msgstr "그것을 해결하는 방법에 대한 우리의 제안입니다."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn
-#, fuzzy
 msgid ""
 "Sorry, we don't have this particular error message covered yet!\n"
 "\n"
 "Please, use the Report button in the top-right corner to tell us more about how you've got it, and we will try to improve our knowledge base for the next version of the application.\n"
 "\n"
-"Thank you!"
-msgstr "오른쪽 상단 모서리에 있는 [b]신고[/b] 버튼을 사용하여 어떻게 알게 되었는지 자세히 알려주세요. 그러면 다음 버전의 애플리케이션을 위해 지식 기반을 개선하도록 노력하겠습니다."
+"Thank you!\n"
+msgstr ""
+"죄송합니다, 이 오류 메시지는 아직 다루지 않았습니다!\n"
+"\n"
+"오른쪽 상단 모서리에 있는 [b]신고[/b] 버튼을 사용하여 어떻게 알게 되었는지 자세히 알려주세요. 그러면 다음 버전의 애플리케이션을 위해 지식 기반을 개선하도록 노력하겠습니다.\n"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn
 msgid "Hide"
@@ -543,14 +546,18 @@ msgid "Where do external errors come from?"
 msgstr "외부 오류는 어디에서 발생하는가?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn
-#, fuzzy
 msgid ""
-"Lessons in this course are designed so you only need to edit the important bits. But there is much more code outside of what you see that makes the project run.\n"
+"Lessons in this course are designed so you only need to edit the [b]important bits[/b]. But there is much more code outside of what you see that makes the project run.\n"
 "\n"
-"This means that sometimes changes you make can affect code you have no control over. But don't worry, you can still fix all the issues yourself with the code you can edit!\n"
+"This means that sometimes changes you make can affect code you have no control over. But don't worry, you can still fix all the issues yourself with the code you [b]can[/b] edit!\n"
 "\n"
-"This is like how game engines work too. There is a lot of hidden code that they execute to ensure your project runs smoothly. And yet, an error in your scripts can break them. We'll try to explain how to address each individual error that you face. Quick, click the Explain button next to the error message!"
-msgstr "[i]이것은 게임 엔진이 작동하는 방식과도 비슷합니다.[/i] 프로젝트가 원활하게 실행되도록 그들이 실행하는 수많은 숨겨진 코드가 있습니다. 하지만 여러분의 스크립트에 있는 오류 하나가 이를 망가뜨릴 수 있습니다. 저희는 여러분이 마주하는 각각의 오류를 어떻게 해결해야 하는지 설명해 드릴 것입니다. 어서 오류 메시지 옆에 있는 [b]설명[/b] 버튼을 클릭하세요!"
+"[i]This is like how game engines work too.[/i] There is a lot of hidden code that they execute to ensure your project runs smoothly. And yet, an error in your scripts can break them. We'll try to explain how to address each individual error that you face. Quick, click the [b]Explain[/b] button next to the error message!\n"
+msgstr ""
+"이 코스의 레슨은 [b]중요한 부분만[/b] 수정하면 되도록 설계되었습니다. 하지만 여러분이 보는 것 외에도 프로젝트를 실행하는 데 필요한 훨씬 더 많은 코드가 존재합니다.\n"
+"\n"
+"이는 때때로 변경 사항이 제어할 수 없는 코드에 영향을 줄 수 있음을 의미합니다. 하지만 걱정하지 마세요. 편집[b]할 수 있는[/b] 코드로 모든 문제를 스스로 해결할 수 있습니다!\n"
+"\n"
+"[i]이것은 게임 엔진이 작동하는 방식과도 비슷합니다.[/i] 프로젝트가 원활하게 실행되도록 그들이 실행하는 수많은 숨겨진 코드가 있습니다. 하지만 여러분의 스크립트에 있는 오류 하나가 이를 망가뜨릴 수 있습니다. 저희는 여러분이 마주하는 각각의 오류를 어떻게 해결해야 하는지 설명해 드릴 것입니다. 어서 오류 메시지 옆에 있는 [b]설명[/b] 버튼을 클릭하세요!\n"
 
 #: ui/components/popups/ExternalErrorPopup.tscn
 msgid "Got it!"
@@ -563,19 +570,19 @@ msgstr "수업 완료!"
 #: ui/components/popups/LessonDonePopup.tscn
 msgid ""
 "But there are still some practices\n"
-"that you've skipped."
+"that you've skipped.\n"
 msgstr ""
 "당신이 건너 뛴 \n"
-"몇 가지의 연습문제가 있습니다."
+"몇 가지의 연습문제가 있습니다.\n"
 
 #: ui/components/popups/LessonDonePopup.tscn
 #, fuzzy
 msgid ""
 "[b]Stay[/b] and revisit the study material,\n"
-"or [b]continue[/b] the course."
+"or [b]continue[/b] the course.\n"
 msgstr ""
 "[center]학습 자료를 [b]저장하고[/b] 추후 방문합니다.\n"
-"또는 [b]계속[/b] 과정을 진행합니다.[/center]"
+"또는 [b]계속[/b] 과정을 진행합니다.[/center]\n"
 
 #: ui/components/popups/LessonDonePopup.tscn
 #: ui/components/popups/PracticeDonePopup.tscn
@@ -594,10 +601,10 @@ msgstr "연습을 완료했습니다."
 #, fuzzy
 msgid ""
 "[b]Stay[/b] and play around,\n"
-"or [b]continue[/b] the course."
+"or [b]continue[/b] the course.\n"
 msgstr ""
 "[center]더 연습[b]하거나[/b],\n"
-"과정을 [b]이어합니다[/b].[/center]"
+"과정을 [b]이어합니다[/b].[/center]\n"
 
 #: ui/components/popups/PracticeListPopup.tscn
 msgid "Practice List"
@@ -635,8 +642,11 @@ msgid ""
 "\n"
 "Please include as much detail as you can, such as what device you are using and what you were doing when the problem happened. A screenshot also helps a lot.\n"
 "\n"
-"[center]Thank you for helping make this app better.[/center]"
+"[center]Thank you for helping make this app better.[/center]\n"
 msgstr ""
+"[font=res://ui/theme/fonts/font_title.tres]문제 신고 방법[/font]\n"
+"\n"
+"\n"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Configure the App"
@@ -731,7 +741,7 @@ msgid ""
 "\n"
 "If you want to help make the translations more complete, you are welcome to contribute. You can find instructions on how to do so here: [b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]How to contribute translations[/url][/b]\n"
 "\n"
-"Thank you to everyone who has contributed translations so far."
+"Thank you to everyone who has contributed translations so far.\n"
 msgstr ""
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
@@ -845,12 +855,14 @@ msgid "Note that most available courses online are actually premium series of vi
 msgstr "온라인에서 이용 가능한 대부분의 강의는 사실 유료 프리미엄 비디오 튜토리얼 시리즈라는 점에 유의하십시오. 안타깝게도 정보를 기억하고 실제 기술을 습득하는 데 따르는 문제는 이러한 강의들에도 여전히 동일하게 적용됩니다."
 
 #: ui/screens/end_screen/EndScreen.tscn
-#, fuzzy
 msgid ""
 "At GDQuest, we’re educators at heart. We believe in applied study and we believe it doesn’t have to be boring. When teaching is done correctly, most people highly enjoy the sensation of leveling up!\n"
 "\n"
-"That’s the reason we made this app. It is in fact part of our beginner course [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color][/b]."
-msgstr "그것이 저희가 이 앱을 만든 이유입니다. 사실 이것은 저희의 초급 과정의 일부입니다. [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color][/b]."
+"That’s the reason we made this app. It is in fact part of our beginner course [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color][/b].\n"
+msgstr ""
+"GDQuest의 구성원들은 본질적으로 교육자입니다. 우리는 실용적인 학습의 가치를 믿으며, 배움이 결코 지루할 필요가 없다고 생각합니다. 교육이 올바르게 이루어질 때, 대부분의 사람들은 자신의 실력이 향상되는 '레벨 업'의 기분을 만끽하게 됩니다!\n"
+"\n"
+"그것이 저희가 이 앱을 만든 이유입니다. 사실 이것은 저희의 초급 과정의 일부입니다. [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color][/b].\n"
 
 #: ui/screens/end_screen/EndScreen.tscn
 msgid "LEARN GAMEDEV WITH GODOT"
@@ -864,7 +876,7 @@ msgstr "지금 이용 가능합니다"
 msgid "for preorders"
 msgstr "선주문용"
 
-#: ui/screens/end_screen/EndScreen.tscn:8
+#: ui/screens/end_screen/EndScreen.tscn
 #, fuzzy
 msgid "To order"
 msgstr "선주문용"
@@ -890,7 +902,7 @@ msgstr "축하합니다!"
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to make games with the Godot game engine.\n"
 "\n"
-"You can keep learning with the free series Getting Started with Godot."
+"You can keep learning with the free series Getting Started with Godot.\n"
 msgstr "당신은 'Learn GDScript From Zero' 과정을 완료했습니다. 이제 고도(Godot) 게임 엔진으로 게임을 만드는 데 필요한 기초 지식을 갖추게 되었습니다."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
@@ -898,12 +910,14 @@ msgid "This is an Open-Source project!"
 msgstr "이것은 오픈 소스 프로젝트입니다!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
-#, fuzzy
 msgid ""
 "Like Godot, this app and course is free and open-source. \n"
 "\n"
-"You can find the app's source code and contribute translations here: Learn GDScript From Zero (Github repository)."
-msgstr "앱의 소스 코드를 확인하거나 번역에 기여하시려면 여기를 방문해 주세요: [url=https://github.com/GDQuest/learn-gdscript]Learn GDScript From Zero (Github 저장소)[/url]."
+"You can find the app's source code and contribute translations here: Learn GDScript From Zero (Github repository).\n"
+msgstr ""
+"고도(Godot)와 마찬가지로, 이 앱과 강좌는 무료이며 오픈 소스입니다.\n"
+"\n"
+"앱의 소스 코드를 확인하거나 번역에 기여하시려면 여기를 방문해 주세요: [url=https://github.com/GDQuest/learn-gdscript]Learn GDScript From Zero (Github 저장소)[/url].\n"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
 #, fuzzy
@@ -913,7 +927,7 @@ msgstr "[b]질문[/b]"
 #: ui/screens/lesson/UIBaseQuiz.tscn
 msgid ""
 "You've already answered this quiz correctly before.\n"
-"Feel free to try it again to refresh your memory!"
+"Feel free to try it again to refresh your memory!\n"
 msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
@@ -947,7 +961,7 @@ msgstr "실습 제목"
 #: ui/screens/lesson/UIPracticeButton.tscn
 msgid ""
 "You've already completed this practice before.\n"
-"You can give it another go if you want to test your skills!"
+"You can give it another go if you want to test your skills!\n"
 msgstr ""
 
 #: ui/screens/lesson/UIPracticeButton.tscn
@@ -1237,7 +1251,7 @@ msgstr ""
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:35
 msgid ""
 "When healing the character twice by 40 points, the health should go up to 60, then 80. Instead, we got %s.\n"
-"Are you using the amount parameter?"
+"Are you using the amount parameter?\n"
 msgstr ""
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:13
@@ -1259,7 +1273,7 @@ msgstr ""
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:32
 msgid ""
 "When damaging the character three times by 10 points, the health should go down to 10, then 0. Instead, we got %s.\n"
-"Are you using the amount parameter?"
+"Are you using the amount parameter?\n"
 msgstr ""
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:5
@@ -2138,6 +2152,7 @@ msgstr "더 알아보기"
 msgid ""
 "\n"
 "[hr]\n"
+"\n"
 msgstr ""
 
 #: ui/UINavigator.gd:375
@@ -2216,7 +2231,7 @@ msgstr "연습을 완료했습니다."
 #: ui/screens/practice/PracticeInfoPanel.gd:192
 msgid ""
 "You've used the provided solution.\n"
-"This practice will not count towards your course progress."
+"This practice will not count towards your course progress.\n"
 msgstr ""
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:53
@@ -2225,90 +2240,3 @@ msgstr "이어하기"
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "Oh no! The script has an error, but the Script Verifier did not catch it"
-#~ msgstr "이런! 스크립트에 오류가 있지만, 스크립트 검증기가 이를 찾아내지 못했습니다"
-
-#~ msgid "ERROR:"
-#~ msgstr "오류:"
-
-#~ msgid "FileName"
-#~ msgstr "파일명"
-
-#~ msgid "0:0"
-#~ msgstr "0:0"
-
-#~ msgid "Original error message"
-#~ msgstr "원본 오류 메시지"
-
-#~ msgid "Sorry, we don't have this particular error message covered yet!"
-#~ msgstr "죄송합니다, 이 오류 메시지는 아직 다루지 않았습니다!"
-
-#~ msgid "[center]Thank you![/center]"
-#~ msgstr "[center]감사합니다![/center]"
-
-#~ msgid "Lessons in this course are designed so you only need to edit the [b]important bits[/b]. But there is much more code outside of what you see that makes the project run."
-#~ msgstr "이 코스의 레슨은 [b]중요한 부분만[/b] 수정하면 되도록 설계되었습니다. 하지만 여러분이 보는 것 외에도 프로젝트를 실행하는 데 필요한 훨씬 더 많은 코드가 존재합니다."
-
-#~ msgid "This means that sometimes changes you make can affect code you have no control over. But don't worry, you can still fix all the issues yourself with the code you [b]can[/b] edit!"
-#~ msgstr "이는 때때로 변경 사항이 제어할 수 없는 코드에 영향을 줄 수 있음을 의미합니다. 하지만 걱정하지 마세요. 편집[b]할 수 있는[/b] 코드로 모든 문제를 스스로 해결할 수 있습니다!"
-
-#~ msgid "If you face an issue in the app, please click the link below to report it on GitHub:"
-#~ msgstr "앱에서 문제가 발생하면 아래 링크를 클릭하여 GitHub에 신고하세요."
-
-#~ msgid "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com > GDQuest > learn-gdscript > Issues[/url][/b][/center]"
-#~ msgstr "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com > GDQuest > learn-gdscript > Issues[/url][/b][/center]"
-
-#~ msgid "On that page, you can report any issues, whether something's not working or there's an error in a lesson."
-#~ msgstr "해당 페이지에서 무언가 작동하지 않거나 학습 내용에 오류가 있는 등 모든 문제를 신고할 수 있습니다."
-
-#~ msgid "You can generate a log to help us identify the problem. To do so, click here: [b][url=download]generate error log[/url][/b]."
-#~ msgstr "문제를 식별하는 데 도움이 되는 로그를 생성할 수 있습니다. 이렇게 하려면 여기를 클릭하십시오: [b][url=download]오류 로그 생성[/url][/b]."
-
-#~ msgid "Please drag and drop the generated file onto your issue on GitHub to attach it."
-#~ msgstr "생성된 파일을 GitHub의 이슈에 끌어다 놓아 첨부하세요."
-
-#~ msgid "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]"
-#~ msgstr "[font=res://ui/theme/fonts/font_title.tres]GitHub란 무엇입니까[/font]"
-
-#~ msgid "GitHub is an online platform to host and manage open-source projects like the GDScript Learn app. It helps developers organize their work and collaborate online."
-#~ msgstr "GitHub는 GDScript Learn 앱과 같은 오픈 소스 프로젝트를 호스팅하고 관리하기 위한 온라인 플랫폼입니다. 개발자가 작업을 정리하고 온라인으로 공동 작업하는 데 도움이 됩니다."
-
-#~ msgid "You can use GitHub to study the source code of many open projects, report issues, or even contribute code yourself."
-#~ msgstr "GitHub를 사용하여 많은 공개 프로젝트의 소스 코드를 연구하고, 문제를 보고하거나, 직접 코드를 제공할 수도 있습니다."
-
-#~ msgid "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]"
-#~ msgstr "[font=res://ui/theme/fonts/font_title.tres]문제 신고 방법[/font]"
-
-#~ msgid ""
-#~ "1. Click the link above to get to the [i]GitHub Issues[/i] page.\n"
-#~ "2. Click on the [i]New Issue[/i] button.\n"
-#~ "3. Fill out the form to tell us more about your problem."
-#~ msgstr ""
-#~ "1. 위의 링크를 클릭하여 [i]GitHub Issues[/i] 페이지로 이동합니다.\n"
-#~ "2. [i]New Issue[/i] 버튼을 클릭합니다.\n"
-#~ "3. 문제에 대해 더 자세히 알려주실 수 있도록 양식을 작성해 주세요."
-
-#~ msgid "You will need a GitHub account to do so."
-#~ msgstr "그렇게 하려면 GitHub 계정이 필요합니다."
-
-#~ msgid "Please add as much relevant information as possible, such as the kind of device you're using to access the app, and maybe attach a screenshot or video clip showcasing the issue."
-#~ msgstr "앱에 액세스하는 데 사용하는 기기의 종류와 같은 관련 정보를 최대한 많이 추가하고 문제를 보여주는 스크린샷이나 비디오 클립을 첨부할 수 있습니다."
-
-#~ msgid "[center]Thank you for contributing to open source![/center]"
-#~ msgstr "[center]오픈 소스에 기여해 주셔서 감사합니다![/center]"
-
-#~ msgid "Lesson 0"
-#~ msgstr "수업 0"
-
-#~ msgid "At GDQuest, we’re educators at heart. We believe in applied study and we believe it doesn’t have to be boring. When teaching is done correctly, most people highly enjoy the sensation of leveling up!"
-#~ msgstr "GDQuest의 구성원들은 본질적으로 교육자입니다. 우리는 실용적인 학습의 가치를 믿으며, 배움이 결코 지루할 필요가 없다고 생각합니다. 교육이 올바르게 이루어질 때, 대부분의 사람들은 자신의 실력이 향상되는 '레벨 업'의 기분을 만끽하게 됩니다!"
-
-#~ msgid "You can keep learning with the free series [url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Getting Started with Godot[/url]."
-#~ msgstr "무료 시리즈인 [url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Getting Started with Godot[/url]를 통해 학습을 계속할 수 있습니다."
-
-#~ msgid "Like Godot, this app and course is free and open-source."
-#~ msgstr "고도(Godot)와 마찬가지로, 이 앱과 강좌는 무료이며 오픈 소스입니다."
-
-#~ msgid "Placeholder heading"
-#~ msgstr "Placeholder 제목"

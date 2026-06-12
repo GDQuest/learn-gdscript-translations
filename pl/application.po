@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
 msgstr ""
@@ -333,7 +334,7 @@ msgid ""
 "Use the suggested solution.\n"
 "\n"
 "Warning: Using the suggested solution will leave this practice unfinished.\n"
-"You can come back and try to solve it yourself later."
+"You can come back and try to solve it yourself later.\n"
 msgstr ""
 
 #: ui/UIPractice.tscn
@@ -411,7 +412,7 @@ msgstr "Wartość"
 #: ui/components/FullScreenButton.tscn
 msgid ""
 "Toggle the app full-screen.\n"
-"Shortcut: F11"
+"Shortcut: F11\n"
 msgstr ""
 
 #: ui/components/GDQuestCreditsLabel.tscn
@@ -465,7 +466,7 @@ msgstr "Wytłumaczenie"
 #: ui/components/QuitButton.tscn
 msgid ""
 "Quit the app.\n"
-"Shortcut: Alt+F4"
+"Shortcut: Alt+F4\n"
 msgstr ""
 
 #: ui/components/Revealer.tscn
@@ -488,10 +489,10 @@ msgstr "Debugger"
 #, fuzzy
 msgid ""
 "Get [b]50%[/b] off on all our Godot courses with the \n"
-"coupon code [b]DISCOUNT50[/b]"
+"coupon code [b]DISCOUNT50[/b]\n"
 msgstr ""
 "[center]Zdobądź [b]50% zniżki[/b] na wszystkie nasze kursy Godot dzięki\n"
-"kuponowi [b]DISCOUNT50[/b][/center]"
+"kuponowi [b]DISCOUNT50[/b][/center]\n"
 
 #: ui/components/SalePopup.tscn
 #, fuzzy
@@ -524,14 +525,16 @@ msgid "Our suggestion on how to fix it."
 msgstr "Nasza sugestia rozwiązania."
 
 #: ui/components/popups/ErrorOverlayPopup.tscn
-#, fuzzy
 msgid ""
 "Sorry, we don't have this particular error message covered yet!\n"
 "\n"
 "Please, use the Report button in the top-right corner to tell us more about how you've got it, and we will try to improve our knowledge base for the next version of the application.\n"
 "\n"
-"Thank you!"
-msgstr "Użyj przycisku [b]Zgłoś[/b] w prawym górnym rogu i opisz napotkany problem, a postaramy się rozszerzyć naszą bazę wiedzy w kolejnych uaktualnieniach aplikacji."
+"Thank you!\n"
+msgstr ""
+"Niestety nie ma jeszcze objaśnienia dla tego komunikatu błędu!\n"
+"\n"
+"Użyj przycisku [b]Zgłoś[/b] w prawym górnym rogu i opisz napotkany problem, a postaramy się rozszerzyć naszą bazę wiedzy w kolejnych uaktualnieniach aplikacji.\n"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn
 msgid "Hide"
@@ -542,14 +545,18 @@ msgid "Where do external errors come from?"
 msgstr "Skąd ten zewnętrzny błąd się wziął?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn
-#, fuzzy
 msgid ""
-"Lessons in this course are designed so you only need to edit the important bits. But there is much more code outside of what you see that makes the project run.\n"
+"Lessons in this course are designed so you only need to edit the [b]important bits[/b]. But there is much more code outside of what you see that makes the project run.\n"
 "\n"
-"This means that sometimes changes you make can affect code you have no control over. But don't worry, you can still fix all the issues yourself with the code you can edit!\n"
+"This means that sometimes changes you make can affect code you have no control over. But don't worry, you can still fix all the issues yourself with the code you [b]can[/b] edit!\n"
 "\n"
-"This is like how game engines work too. There is a lot of hidden code that they execute to ensure your project runs smoothly. And yet, an error in your scripts can break them. We'll try to explain how to address each individual error that you face. Quick, click the Explain button next to the error message!"
-msgstr "[i]W ten sam sposób działają również silniki do tworzenia gier.[/i] Jest w nich znacznie więcej kodu, który zostanie wykonany po to, by zapewnić twojemu programowi płynną pracę, a którego nie widzisz. Błędy w twoim kodzie mogą jednak namieszać w poprawnym działaniu programu. Spróbujemy wyjaśnić, jak rozwiązać każdy z błędów, jaki napotkasz. Szybko, kliknij na przycisk [b]Wytłumaczenie[/b] obok wiadomości o błędzie!"
+"[i]This is like how game engines work too.[/i] There is a lot of hidden code that they execute to ensure your project runs smoothly. And yet, an error in your scripts can break them. We'll try to explain how to address each individual error that you face. Quick, click the [b]Explain[/b] button next to the error message!\n"
+msgstr ""
+"Lekcje w prezentowanym kursie są skonstruowane w taki sposób, byś musiał edytować wyłącznie jego [b]kluczowe części[/b]. Aczkolwiek jest o wiele więcej kodu niewidocznego dla ciebie, który sprawia że ten projekt działa.\n"
+"\n"
+"Oznacza to, że niektóre ze zmian mogą wpłynąć na kod, nad którym nie masz kontroli. Nic się jednak nie martw, wciąż możesz poprawić wszystkie błędy z poziomu kodu, który [b]możesz[/b] edytować!\n"
+"\n"
+"[i]W ten sam sposób działają również silniki do tworzenia gier.[/i] Jest w nich znacznie więcej kodu, który zostanie wykonany po to, by zapewnić twojemu programowi płynną pracę, a którego nie widzisz. Błędy w twoim kodzie mogą jednak namieszać w poprawnym działaniu programu. Spróbujemy wyjaśnić, jak rozwiązać każdy z błędów, jaki napotkasz. Szybko, kliknij na przycisk [b]Wytłumaczenie[/b] obok wiadomości o błędzie!\n"
 
 #: ui/components/popups/ExternalErrorPopup.tscn
 msgid "Got it!"
@@ -562,19 +569,19 @@ msgstr "Lekcja ukończona!"
 #: ui/components/popups/LessonDonePopup.tscn
 msgid ""
 "But there are still some practices\n"
-"that you've skipped."
+"that you've skipped.\n"
 msgstr ""
 "Wciąż są ćwiczenia, które\n"
-"opuściłeś."
+"opuściłeś.\n"
 
 #: ui/components/popups/LessonDonePopup.tscn
 #, fuzzy
 msgid ""
 "[b]Stay[/b] and revisit the study material,\n"
-"or [b]continue[/b] the course."
+"or [b]continue[/b] the course.\n"
 msgstr ""
 "[center][b]Zostań[/b] i przyjrzyj jeszcze raz materiał,\n"
-"lub [b]kontynuuj[/b] kurs.[/center]"
+"lub [b]kontynuuj[/b] kurs.[/center]\n"
 
 #: ui/components/popups/LessonDonePopup.tscn
 #: ui/components/popups/PracticeDonePopup.tscn
@@ -593,10 +600,10 @@ msgstr "Ukończyłeś ćwiczenie."
 #, fuzzy
 msgid ""
 "[b]Stay[/b] and play around,\n"
-"or [b]continue[/b] the course."
+"or [b]continue[/b] the course.\n"
 msgstr ""
 "[center][b]Zostań[/b], by jeszcze się pobawić,\n"
-"lub [b]kontynuuj[/b] kurs.[/center]"
+"lub [b]kontynuuj[/b] kurs.[/center]\n"
 
 #: ui/components/popups/PracticeListPopup.tscn
 msgid "Practice List"
@@ -634,8 +641,11 @@ msgid ""
 "\n"
 "Please include as much detail as you can, such as what device you are using and what you were doing when the problem happened. A screenshot also helps a lot.\n"
 "\n"
-"[center]Thank you for helping make this app better.[/center]"
+"[center]Thank you for helping make this app better.[/center]\n"
 msgstr ""
+"[font=res://ui/theme/fonts/font_title.tres]Jak zgłosić problem[/font]\n"
+"\n"
+"\n"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Configure the App"
@@ -730,7 +740,7 @@ msgid ""
 "\n"
 "If you want to help make the translations more complete, you are welcome to contribute. You can find instructions on how to do so here: [b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]How to contribute translations[/url][/b]\n"
 "\n"
-"Thank you to everyone who has contributed translations so far."
+"Thank you to everyone who has contributed translations so far.\n"
 msgstr ""
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
@@ -844,12 +854,14 @@ msgid "Note that most available courses online are actually premium series of vi
 msgstr "Pamiętaj że większość kursów online to tak właściwie płatne serie poradników wideo. Więc problem z przyswajaniem wiedzy i zdobywaniem umiejętności też ich dotyczy."
 
 #: ui/screens/end_screen/EndScreen.tscn
-#, fuzzy
 msgid ""
 "At GDQuest, we’re educators at heart. We believe in applied study and we believe it doesn’t have to be boring. When teaching is done correctly, most people highly enjoy the sensation of leveling up!\n"
 "\n"
-"That’s the reason we made this app. It is in fact part of our beginner course [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color][/b]."
-msgstr "To jest powód dlaczego zrobiliśmy tą aplikację. Tak właściwie to jest część naszego kursu dla początkujących [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Naucz Się Tworzenia Gier Od Zera Z Godotem[/url][/color][/b]."
+"That’s the reason we made this app. It is in fact part of our beginner course [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color][/b].\n"
+msgstr ""
+"W GDQuest jesteśmy nauczycielami z pasji. Wierzymy w naukę przez praktykę i w to że nauka nie musi być nudna. Kiedy nauka jest prowadzona poprawnie, większość osób doświadcza wspaniałego uczucia rozwoju!\n"
+"\n"
+"To jest powód dlaczego zrobiliśmy tą aplikację. Tak właściwie to jest część naszego kursu dla początkujących [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Naucz Się Tworzenia Gier Od Zera Z Godotem[/url][/color][/b].\n"
 
 #: ui/screens/end_screen/EndScreen.tscn
 msgid "LEARN GAMEDEV WITH GODOT"
@@ -863,7 +875,7 @@ msgstr "Dostępne teraz"
 msgid "for preorders"
 msgstr "w przedsprzedaży"
 
-#: ui/screens/end_screen/EndScreen.tscn:8
+#: ui/screens/end_screen/EndScreen.tscn
 #, fuzzy
 msgid "To order"
 msgstr "w przedsprzedaży"
@@ -889,7 +901,7 @@ msgstr "Gratulacje!"
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to make games with the Godot game engine.\n"
 "\n"
-"You can keep learning with the free series Getting Started with Godot."
+"You can keep learning with the free series Getting Started with Godot.\n"
 msgstr "Skończyłeś kurs Naucz Się GDScript Od Zera. Teraz znasz podstawy potrzebna aby zacząć robić gry w Godocie."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
@@ -897,12 +909,14 @@ msgid "This is an Open-Source project!"
 msgstr "To jest projekt Open-Source!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
-#, fuzzy
 msgid ""
 "Like Godot, this app and course is free and open-source. \n"
 "\n"
-"You can find the app's source code and contribute translations here: Learn GDScript From Zero (Github repository)."
-msgstr "Możesz znaleźć kod źródłowy aplikacji i pomóc w tłumaczeniu tutaj: [url=\"https://github.com/GDQuest/learn-gdscript\"]Naucz Się GDScript Od Zera (Repozytorium github)[/url]."
+"You can find the app's source code and contribute translations here: Learn GDScript From Zero (Github repository).\n"
+msgstr ""
+"Podobnie jak Godot, ta aplikacja i kurs jest wolna i otwarto źródłowa.\n"
+"\n"
+"Możesz znaleźć kod źródłowy aplikacji i pomóc w tłumaczeniu tutaj: [url=\"https://github.com/GDQuest/learn-gdscript\"]Naucz Się GDScript Od Zera (Repozytorium github)[/url].\n"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
 #, fuzzy
@@ -912,7 +926,7 @@ msgstr "[b]Pytanie[/b]"
 #: ui/screens/lesson/UIBaseQuiz.tscn
 msgid ""
 "You've already answered this quiz correctly before.\n"
-"Feel free to try it again to refresh your memory!"
+"Feel free to try it again to refresh your memory!\n"
 msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
@@ -946,7 +960,7 @@ msgstr "Nazwa ćwiczenia"
 #: ui/screens/lesson/UIPracticeButton.tscn
 msgid ""
 "You've already completed this practice before.\n"
-"You can give it another go if you want to test your skills!"
+"You can give it another go if you want to test your skills!\n"
 msgstr ""
 
 #: ui/screens/lesson/UIPracticeButton.tscn
@@ -1236,7 +1250,7 @@ msgstr ""
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:35
 msgid ""
 "When healing the character twice by 40 points, the health should go up to 60, then 80. Instead, we got %s.\n"
-"Are you using the amount parameter?"
+"Are you using the amount parameter?\n"
 msgstr ""
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:13
@@ -1258,7 +1272,7 @@ msgstr ""
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:32
 msgid ""
 "When damaging the character three times by 10 points, the health should go down to 10, then 0. Instead, we got %s.\n"
-"Are you using the amount parameter?"
+"Are you using the amount parameter?\n"
 msgstr ""
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:5
@@ -2137,6 +2151,7 @@ msgstr "Dowiedz się więcej"
 msgid ""
 "\n"
 "[hr]\n"
+"\n"
 msgstr ""
 
 #: ui/UINavigator.gd:375
@@ -2215,7 +2230,7 @@ msgstr "Ukończyłeś ćwiczenie."
 #: ui/screens/practice/PracticeInfoPanel.gd:192
 msgid ""
 "You've used the provided solution.\n"
-"This practice will not count towards your course progress."
+"This practice will not count towards your course progress.\n"
 msgstr ""
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:53
@@ -2224,90 +2239,3 @@ msgstr "KONTYNUUJ"
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "Oh no! The script has an error, but the Script Verifier did not catch it"
-#~ msgstr "O rety kotlety! Skrypt ma błędy których Weryfikator Skryptów znalazł"
-
-#~ msgid "ERROR:"
-#~ msgstr "BŁĄD:"
-
-#~ msgid "FileName"
-#~ msgstr "NazwaPliku"
-
-#~ msgid "0:0"
-#~ msgstr "0:0"
-
-#~ msgid "Original error message"
-#~ msgstr "Pierwotna wiadomość błędu"
-
-#~ msgid "Sorry, we don't have this particular error message covered yet!"
-#~ msgstr "Niestety nie ma jeszcze objaśnienia dla tego komunikatu błędu!"
-
-#~ msgid "[center]Thank you![/center]"
-#~ msgstr "[center]Dziękujemy![/center]"
-
-#~ msgid "Lessons in this course are designed so you only need to edit the [b]important bits[/b]. But there is much more code outside of what you see that makes the project run."
-#~ msgstr "Lekcje w prezentowanym kursie są skonstruowane w taki sposób, byś musiał edytować wyłącznie jego [b]kluczowe części[/b]. Aczkolwiek jest o wiele więcej kodu niewidocznego dla ciebie, który sprawia że ten projekt działa."
-
-#~ msgid "This means that sometimes changes you make can affect code you have no control over. But don't worry, you can still fix all the issues yourself with the code you [b]can[/b] edit!"
-#~ msgstr "Oznacza to, że niektóre ze zmian mogą wpłynąć na kod, nad którym nie masz kontroli. Nic się jednak nie martw, wciąż możesz poprawić wszystkie błędy z poziomu kodu, który [b]możesz[/b] edytować!"
-
-#~ msgid "If you face an issue in the app, please click the link below to report it on GitHub:"
-#~ msgstr "Jeśli napotkasz problem w aplikacji, kliknij w poniższy link, aby zgłosić go na GitHub:"
-
-#~ msgid "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com > GDQuest > learn-gdscript > Issues[/url][/b][/center]"
-#~ msgstr "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com > GDQuest > learn-gdscript > Issues[/url][/b][/center]"
-
-#~ msgid "On that page, you can report any issues, whether something's not working or there's an error in a lesson."
-#~ msgstr "Na tej stronie możesz zgłaszać wszelkie problemy, niezależnie od tego, czy coś kompletnie nie działa, czy wystąpił błąd w lekcji."
-
-#~ msgid "You can generate a log to help us identify the problem. To do so, click here: [b][url=download]generate error log[/url][/b]."
-#~ msgstr "Możesz wygenerować dziennik, który pomoże nam zidentyfikować problem. Aby to zrobić, kliknij tutaj: [b][url=download]wygeneruj dziennik błędów[/url][/b]."
-
-#~ msgid "Please drag and drop the generated file onto your issue on GitHub to attach it."
-#~ msgstr "Przeciągnij i upuść wygenerowany plik na swoje Issue w serwisie GitHub, aby go załączyć."
-
-#~ msgid "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]"
-#~ msgstr "[font=res://ui/theme/fonts/font_title.tres]Co to jest GitHub[/font]"
-
-#~ msgid "GitHub is an online platform to host and manage open-source projects like the GDScript Learn app. It helps developers organize their work and collaborate online."
-#~ msgstr "GitHub to platforma internetowa do hostowania i zarządzania projektami typu open source, takimi jak aplikacja GDScript od zera. Pomaga programistom organizować pracę i współpracować online."
-
-#~ msgid "You can use GitHub to study the source code of many open projects, report issues, or even contribute code yourself."
-#~ msgstr "Możesz użyć GitHuba do przeglądania kodu źródłowego wielu otwartych projektów, zgłaszania problemów, a nawet zamieszczania kodu własnych programów."
-
-#~ msgid "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]"
-#~ msgstr "[font=res://ui/theme/fonts/font_title.tres]Jak zgłosić problem[/font]"
-
-#~ msgid ""
-#~ "1. Click the link above to get to the [i]GitHub Issues[/i] page.\n"
-#~ "2. Click on the [i]New Issue[/i] button.\n"
-#~ "3. Fill out the form to tell us more about your problem."
-#~ msgstr ""
-#~ "1. Kliknij powyższy link, aby przejść do strony [i]GitHub Issues[/i].\n"
-#~ "2. Kliknij przycisk [i]New Issue[/i].\n"
-#~ "3. Wypełnij formularz, w którym możesz opisać nam bardziej szczegółowo napotkany problem."
-
-#~ msgid "You will need a GitHub account to do so."
-#~ msgstr "Oczywiście do zgłoszenia błędu potrzebujesz konta GitHub."
-
-#~ msgid "Please add as much relevant information as possible, such as the kind of device you're using to access the app, and maybe attach a screenshot or video clip showcasing the issue."
-#~ msgstr "Dodaj w swoim zgłoszeniu jak najwięcej istotnych informacji, takich jak rodzaj urządzenia, z którego korzystasz, a także dołącz zrzut ekranu lub klip wideo przedstawiający problem."
-
-#~ msgid "[center]Thank you for contributing to open source![/center]"
-#~ msgstr "[center]Dziękujemy za wkład w rozwój oprogramowania open source![/center]"
-
-#~ msgid "Lesson 0"
-#~ msgstr "Lekcja 0"
-
-#~ msgid "At GDQuest, we’re educators at heart. We believe in applied study and we believe it doesn’t have to be boring. When teaching is done correctly, most people highly enjoy the sensation of leveling up!"
-#~ msgstr "W GDQuest jesteśmy nauczycielami z pasji. Wierzymy w naukę przez praktykę i w to że nauka nie musi być nudna. Kiedy nauka jest prowadzona poprawnie, większość osób doświadcza wspaniałego uczucia rozwoju!"
-
-#~ msgid "You can keep learning with the free series [url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Getting Started with Godot[/url]."
-#~ msgstr "Możesz kontynuować naukę z darmową seriąL [url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Podstawy Godota[/url]."
-
-#~ msgid "Like Godot, this app and course is free and open-source."
-#~ msgstr "Podobnie jak Godot, ta aplikacja i kurs jest wolna i otwarto źródłowa."
-
-#~ msgid "Placeholder heading"
-#~ msgstr "Nagłówek zastępczy"

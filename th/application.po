@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
 msgstr ""
@@ -333,7 +334,7 @@ msgid ""
 "Use the suggested solution.\n"
 "\n"
 "Warning: Using the suggested solution will leave this practice unfinished.\n"
-"You can come back and try to solve it yourself later."
+"You can come back and try to solve it yourself later.\n"
 msgstr ""
 
 #: ui/UIPractice.tscn
@@ -411,7 +412,7 @@ msgstr "ค่า"
 #: ui/components/FullScreenButton.tscn
 msgid ""
 "Toggle the app full-screen.\n"
-"Shortcut: F11"
+"Shortcut: F11\n"
 msgstr ""
 
 #: ui/components/GDQuestCreditsLabel.tscn
@@ -465,7 +466,7 @@ msgstr "คำอธิบาย"
 #: ui/components/QuitButton.tscn
 msgid ""
 "Quit the app.\n"
-"Shortcut: Alt+F4"
+"Shortcut: Alt+F4\n"
 msgstr ""
 
 #: ui/components/Revealer.tscn
@@ -487,7 +488,7 @@ msgstr ""
 #: ui/components/SalePopup.tscn
 msgid ""
 "Get [b]50%[/b] off on all our Godot courses with the \n"
-"coupon code [b]DISCOUNT50[/b]"
+"coupon code [b]DISCOUNT50[/b]\n"
 msgstr ""
 
 #: ui/components/SalePopup.tscn
@@ -525,7 +526,7 @@ msgid ""
 "\n"
 "Please, use the Report button in the top-right corner to tell us more about how you've got it, and we will try to improve our knowledge base for the next version of the application.\n"
 "\n"
-"Thank you!"
+"Thank you!\n"
 msgstr ""
 
 #: ui/components/popups/ErrorOverlayPopup.tscn
@@ -537,14 +538,18 @@ msgid "Where do external errors come from?"
 msgstr "พวก ข้อผิดพลาดภายนอก นี่มาจากไหนกัน?"
 
 #: ui/components/popups/ExternalErrorPopup.tscn
-#, fuzzy
 msgid ""
-"Lessons in this course are designed so you only need to edit the important bits. But there is much more code outside of what you see that makes the project run.\n"
+"Lessons in this course are designed so you only need to edit the [b]important bits[/b]. But there is much more code outside of what you see that makes the project run.\n"
 "\n"
-"This means that sometimes changes you make can affect code you have no control over. But don't worry, you can still fix all the issues yourself with the code you can edit!\n"
+"This means that sometimes changes you make can affect code you have no control over. But don't worry, you can still fix all the issues yourself with the code you [b]can[/b] edit!\n"
 "\n"
-"This is like how game engines work too. There is a lot of hidden code that they execute to ensure your project runs smoothly. And yet, an error in your scripts can break them. We'll try to explain how to address each individual error that you face. Quick, click the Explain button next to the error message!"
-msgstr "[i]นี่ก็เป็นลักษณะการทำงานของสิ่งที่เรียกว่า Game Engine ด้วย[/i] เพราะเกมส์เอนจิ้นนั้นมีโค้ดที่มองไม่เห็นจำนวนมากที่ทำงานไปพร้อม ๆ กันกับโค้ดของเรา และทำให้เกมส์เราทำงานได้ราบรื่น แต่ข้อผิดพลาดในโค้ดของเราก็ทำให้เกมส์เอนจิ้นหยุดทำงานได้ เราจะพยายามอธิบายวิธีแก้ไขแต่ละปัญหาที่เธอจะเจอให้ดีที่สุด ง่ายสุดก็คลิกที่ปุ่ม [b]คำอธิบาย[/b] ที่อยู่ถัดไปจากข้อผิดพลาดที่แสดง!"
+"[i]This is like how game engines work too.[/i] There is a lot of hidden code that they execute to ensure your project runs smoothly. And yet, an error in your scripts can break them. We'll try to explain how to address each individual error that you face. Quick, click the [b]Explain[/b] button next to the error message!\n"
+msgstr ""
+"บทเรียนต่าง ๆ ที่มีในคอร์สนี้ ได้ถูกสร้างขึ้นมาในแนวคิดว่า เธอควรจะแก้ซอสโค้ด[b]ในเฉพาะส่วนที่สำคัญเท่านั้น[/b] แต่อย่างลืมว่ามันมีโค้ดส่วนอื่น ๆ อีกมากมายที่ไม่ได้แสดงให้เห็นตรงนี้ ที่ทำให้โครงการเกมเรารันได้\n"
+"\n"
+"นั่นแสดงว่า เธออาจจะแก้โค้ดแบบฝึกหัดในบางครั้ง มันก็อาจจะส่งผลกับโค้ดส่วนที่มองไม่เห็นในโปรแกรมนี้จนเกิดข้อผิดพลาดขึ้น แต่ไม่ต้องกังวลมากไป เธอยังสามารถแก้ไขปัญหาทุกแบบได้ด้วยตัวเองทั้งหมด โดยการ[b]แก้เฉพาะส่วนที่ออกแบบมาให้เธอแก้ไข[/b]เท่านั้น!\n"
+"\n"
+"[i]นี่ก็เป็นลักษณะการทำงานของสิ่งที่เรียกว่า Game Engine ด้วย[/i] เพราะเกมส์เอนจิ้นนั้นมีโค้ดที่มองไม่เห็นจำนวนมากที่ทำงานไปพร้อม ๆ กันกับโค้ดของเรา และทำให้เกมส์เราทำงานได้ราบรื่น แต่ข้อผิดพลาดในโค้ดของเราก็ทำให้เกมส์เอนจิ้นหยุดทำงานได้ เราจะพยายามอธิบายวิธีแก้ไขแต่ละปัญหาที่เธอจะเจอให้ดีที่สุด ง่ายสุดก็คลิกที่ปุ่ม [b]คำอธิบาย[/b] ที่อยู่ถัดไปจากข้อผิดพลาดที่แสดง!\n"
 
 #: ui/components/popups/ExternalErrorPopup.tscn
 msgid "Got it!"
@@ -557,19 +562,19 @@ msgstr "จบบทเรียนนี้แล้ว!"
 #: ui/components/popups/LessonDonePopup.tscn
 msgid ""
 "But there are still some practices\n"
-"that you've skipped."
+"that you've skipped.\n"
 msgstr ""
 "แต่มันยังมี แบบฝึกหัดต่าง ๆ \n"
-"ที่เธอข้ามไป"
+"ที่เธอข้ามไป\n"
 
 #: ui/components/popups/LessonDonePopup.tscn
 #, fuzzy
 msgid ""
 "[b]Stay[/b] and revisit the study material,\n"
-"or [b]continue[/b] the course."
+"or [b]continue[/b] the course.\n"
 msgstr ""
 "[center][b]อยู่ต่อ[/b] และกลับไปศึกษาเนื้อหาบทเรียน\n"
-"หรือ [b]ไปต่อ[/b] ในส่วนที่เหลือของคอร์สนี้[/center]"
+"หรือ [b]ไปต่อ[/b] ในส่วนที่เหลือของคอร์สนี้[/center]\n"
 
 #: ui/components/popups/LessonDonePopup.tscn
 #: ui/components/popups/PracticeDonePopup.tscn
@@ -588,10 +593,10 @@ msgstr "เธอทำ แบบฝึกหัด จบแล้ว"
 #, fuzzy
 msgid ""
 "[b]Stay[/b] and play around,\n"
-"or [b]continue[/b] the course."
+"or [b]continue[/b] the course.\n"
 msgstr ""
 "[center][b]อยู่ต่อ[/b] และลองนั่นโน่นนี่ไปอีกนิด \n"
-"หรือ [b]ไปต่อ[/b] เนื้อหาอื่นในคอร์สนี้[/center]"
+"หรือ [b]ไปต่อ[/b] เนื้อหาอื่นในคอร์สนี้[/center]\n"
 
 #: ui/components/popups/PracticeListPopup.tscn
 msgid "Practice List"
@@ -629,8 +634,11 @@ msgid ""
 "\n"
 "Please include as much detail as you can, such as what device you are using and what you were doing when the problem happened. A screenshot also helps a lot.\n"
 "\n"
-"[center]Thank you for helping make this app better.[/center]"
+"[center]Thank you for helping make this app better.[/center]\n"
 msgstr ""
+"[font=res://ui/theme/fonts/font_title.tres]วิธีการรายงานปัญหา[/font]\n"
+"\n"
+"\n"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Configure the App"
@@ -725,7 +733,7 @@ msgid ""
 "\n"
 "If you want to help make the translations more complete, you are welcome to contribute. You can find instructions on how to do so here: [b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]How to contribute translations[/url][/b]\n"
 "\n"
-"Thank you to everyone who has contributed translations so far."
+"Thank you to everyone who has contributed translations so far.\n"
 msgstr ""
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
@@ -842,7 +850,7 @@ msgstr ""
 msgid ""
 "At GDQuest, we’re educators at heart. We believe in applied study and we believe it doesn’t have to be boring. When teaching is done correctly, most people highly enjoy the sensation of leveling up!\n"
 "\n"
-"That’s the reason we made this app. It is in fact part of our beginner course [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color][/b]."
+"That’s the reason we made this app. It is in fact part of our beginner course [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color][/b].\n"
 msgstr ""
 
 #: ui/screens/end_screen/EndScreen.tscn
@@ -857,7 +865,7 @@ msgstr ""
 msgid "for preorders"
 msgstr ""
 
-#: ui/screens/end_screen/EndScreen.tscn:8
+#: ui/screens/end_screen/EndScreen.tscn
 msgid "To order"
 msgstr ""
 
@@ -882,7 +890,7 @@ msgstr "ยินดีด้วยน้าาา!"
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to make games with the Godot game engine.\n"
 "\n"
-"You can keep learning with the free series Getting Started with Godot."
+"You can keep learning with the free series Getting Started with Godot.\n"
 msgstr "คุณสำเร็จ Learn GDScript From Zero แล้ว ตอนนี้คุณมีพื้นฐานที่จำเป็นในการดำดิ่งสู่การสร้างเกมด้วยเอ็นจิ้นเกม Godot แล้วหล่ะ"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
@@ -893,7 +901,7 @@ msgstr ""
 msgid ""
 "Like Godot, this app and course is free and open-source. \n"
 "\n"
-"You can find the app's source code and contribute translations here: Learn GDScript From Zero (Github repository)."
+"You can find the app's source code and contribute translations here: Learn GDScript From Zero (Github repository).\n"
 msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
@@ -904,7 +912,7 @@ msgstr "[b]คำถาม[/b]"
 #: ui/screens/lesson/UIBaseQuiz.tscn
 msgid ""
 "You've already answered this quiz correctly before.\n"
-"Feel free to try it again to refresh your memory!"
+"Feel free to try it again to refresh your memory!\n"
 msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
@@ -938,7 +946,7 @@ msgstr "หัวเรื่อง แบบฝึกหัด"
 #: ui/screens/lesson/UIPracticeButton.tscn
 msgid ""
 "You've already completed this practice before.\n"
-"You can give it another go if you want to test your skills!"
+"You can give it another go if you want to test your skills!\n"
 msgstr ""
 
 #: ui/screens/lesson/UIPracticeButton.tscn
@@ -1227,7 +1235,7 @@ msgstr ""
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:35
 msgid ""
 "When healing the character twice by 40 points, the health should go up to 60, then 80. Instead, we got %s.\n"
-"Are you using the amount parameter?"
+"Are you using the amount parameter?\n"
 msgstr ""
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:13
@@ -1249,7 +1257,7 @@ msgstr ""
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:32
 msgid ""
 "When damaging the character three times by 10 points, the health should go down to 10, then 0. Instead, we got %s.\n"
-"Are you using the amount parameter?"
+"Are you using the amount parameter?\n"
 msgstr ""
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:5
@@ -2128,6 +2136,7 @@ msgstr "อ่านเพิ่มเติม"
 msgid ""
 "\n"
 "[hr]\n"
+"\n"
 msgstr ""
 
 #: ui/UINavigator.gd:375
@@ -2206,7 +2215,7 @@ msgstr "เธอทำ แบบฝึกหัด จบแล้ว"
 #: ui/screens/practice/PracticeInfoPanel.gd:192
 msgid ""
 "You've used the provided solution.\n"
-"This practice will not count towards your course progress."
+"This practice will not count towards your course progress.\n"
 msgstr ""
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:53
@@ -2215,76 +2224,3 @@ msgstr "ไปต่อ"
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "ERROR:"
-#~ msgstr "ข้อผิดพลาด:"
-
-#~ msgid "FileName"
-#~ msgstr "ชื่อไฟล์"
-
-#~ msgid "0:0"
-#~ msgstr "0:0"
-
-#~ msgid "Original error message"
-#~ msgstr "ข้อความแจ้งข้อผิดพลาดดั้งเดิม"
-
-#, fuzzy
-#~ msgid "Lessons in this course are designed so you only need to edit the [b]important bits[/b]. But there is much more code outside of what you see that makes the project run."
-#~ msgstr "บทเรียนต่าง ๆ ที่มีในคอร์สนี้ ได้ถูกสร้างขึ้นมาในแนวคิดว่า เธอควรจะแก้ซอสโค้ด[b]ในเฉพาะส่วนที่สำคัญเท่านั้น[/b] แต่อย่างลืมว่ามันมีโค้ดส่วนอื่น ๆ อีกมากมายที่ไม่ได้แสดงให้เห็นตรงนี้ ที่ทำให้โครงการเกมเรารันได้"
-
-#~ msgid "This means that sometimes changes you make can affect code you have no control over. But don't worry, you can still fix all the issues yourself with the code you [b]can[/b] edit!"
-#~ msgstr "นั่นแสดงว่า เธออาจจะแก้โค้ดแบบฝึกหัดในบางครั้ง มันก็อาจจะส่งผลกับโค้ดส่วนที่มองไม่เห็นในโปรแกรมนี้จนเกิดข้อผิดพลาดขึ้น แต่ไม่ต้องกังวลมากไป เธอยังสามารถแก้ไขปัญหาทุกแบบได้ด้วยตัวเองทั้งหมด โดยการ[b]แก้เฉพาะส่วนที่ออกแบบมาให้เธอแก้ไข[/b]เท่านั้น!"
-
-#~ msgid "If you face an issue in the app, please click the link below to report it on GitHub:"
-#~ msgstr "หากคุณประสบปัญหาใดภายในแอป โปรดคลิกลิงก์ด้านล่างเพื่อรายงานบน GitHub:"
-
-#~ msgid "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com > GDQuest > learn-gdscript > Issues[/url][/b][/center]"
-#~ msgstr "[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com > GDQuest > learn-gdscript > Issues[/url][/b][/center]"
-
-#~ msgid "On that page, you can report any issues, whether something's not working or there's an error in a lesson."
-#~ msgstr "ในหน้านั้น คุณสามารถรายงานปัญหาใดๆก็ได้ไม่ว่าจะมีปัญหาหรือมีพบข้อผิดพลาดในบทเรียน"
-
-#~ msgid "You can generate a log to help us identify the problem. To do so, click here: [b][url=download]generate error log[/url][/b]."
-#~ msgstr "คุณสามารถสร้างตัวบันทึกได้เพื่อช่วยเราในการระบุปัญหาได้ คลิกที่นี่: [b][url=download]สร้างบันทึกข้อผิดพลาด[/url][/b]."
-
-#~ msgid "Please drag and drop the generated file onto your issue on GitHub to attach it."
-#~ msgstr "โปรดลากและวางไฟล์ที่สร้างขึ้นไปยัง issue ของคุณบน GitHub เพื่อแนบไฟล์ลงไป"
-
-#~ msgid "[font=res://ui/theme/fonts/font_title.tres]What's GitHub[/font]"
-#~ msgstr "[font=res://ui/theme/fonts/font_title.tres]GitHub คืออะไร[/font]"
-
-#~ msgid "GitHub is an online platform to host and manage open-source projects like the GDScript Learn app. It helps developers organize their work and collaborate online."
-#~ msgstr "GitHub เป็นแพลตฟอร์มออนไลน์สำหรับโฮสต์และจัดการโครงการโอเพนซอร์ส ตัวอย่างเช่น แอป GDScript Learn ช่วยให้นักพัฒนาจัดระเบียบงานและทำงานร่วมกันทางออนไลน์ได้"
-
-#~ msgid "You can use GitHub to study the source code of many open projects, report issues, or even contribute code yourself."
-#~ msgstr "คุณสามารถใช้ GitHub เพื่อศึกษาซอร์สโค้ดของโครงการที่เปิดอยู่จำนวนมาก รายงานปัญหา หรือแม้แต่ร่วมเขียนโค้ดด้วยตัวเอง"
-
-#~ msgid "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]"
-#~ msgstr "[font=res://ui/theme/fonts/font_title.tres]วิธีการรายงานปัญหา[/font]"
-
-#~ msgid ""
-#~ "1. Click the link above to get to the [i]GitHub Issues[/i] page.\n"
-#~ "2. Click on the [i]New Issue[/i] button.\n"
-#~ "3. Fill out the form to tell us more about your problem."
-#~ msgstr ""
-#~ "1. คลิกลิงก์ด้านบนเพื่อไปที่หน้า [i]GitHub Issues[/i]\n"
-#~ "2. คลิกที่ปุ่ม [i]New Issue[/i]\n"
-#~ "3. กรอกแบบฟอร์มเพื่อแจ้งให้เราทราบเพิ่มเติมเกี่ยวกับปัญหาของคุณ"
-
-#~ msgid "You will need a GitHub account to do so."
-#~ msgstr "คุณจะต้องมีบัญชี GitHub ก่อนเพื่อดำเนินการดังกล่าว"
-
-#~ msgid "Please add as much relevant information as possible, such as the kind of device you're using to access the app, and maybe attach a screenshot or video clip showcasing the issue."
-#~ msgstr "โปรดเพิ่มข้อมูลที่เกี่ยวข้องให้มากที่สุด เช่น ประเภทของอุปกรณ์ที่คุณใช้ในการเข้าถึงแอป และอาจแนบภาพหน้าจอหรือคลิปวิดีโอเพื่อแสดงปัญหา"
-
-#~ msgid "[center]Thank you for contributing to open source![/center]"
-#~ msgstr "[center]ขอขอบคุณที่มีส่วนร่วมในโอเพ่นซอร์ส![/center]"
-
-#~ msgid "Lesson 0"
-#~ msgstr "บทที่ 0"
-
-#~ msgid "You can keep learning with the free series [url=https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html]Getting Started with Godot[/url]."
-#~ msgstr "หากคุณกำลังมองหาซีรีส์ฟรีเพื่อเรียนรู้พื้นฐานกับเราต่อไป คุณสามารถไปที่ [url=https://www.gdquest.com/tutorial/godot/learning-paths/getting-started-in-2021/]เริ่มต้นใช้งาน Godot[/url]."
-
-#~ msgid "Placeholder heading"
-#~ msgstr "ตัวอย่างหัวข้อ"
