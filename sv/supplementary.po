@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: Weblate 2026.6\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: script_checking/error_database.csv
 msgid "error_explanation"
 msgstr ""
@@ -145,11 +146,10 @@ msgid "1. You used the class name in the class itself."
 msgstr ""
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "2. Your code refers to another class that refers to this class, causing an endless reference cycle."
 msgstr ""
 "1. Du använde klassnamnet i själva klassen.\n"
-"2. Din kod hänvisar till en annan klass som hänvisar till den här klassen, vilket orsakar en oändlig referenscykel."
+"2. Din kod hänvisar till en annan klass som hänvisar till den här klassen, vilket orsakar en oändlig referenscykel.\n"
 
 #: script_checking/error_database.csv
 msgid "Either way, due to how GDScript works in Godot 3, unfortunately,you cannot do this. Godot 4 should solve this problem, but you need to work around it in the meantime."
@@ -252,12 +252,11 @@ msgid "1. You wrote an identifier (variable or function name) in the wrong place
 msgstr ""
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "2. You wrote a keyword like [code]var[/code], [code]func[/code], [code]for[/code], or [code]signal[/code], and you did not follow it by a name."
 msgstr ""
 "1. Du skrev en identifierare (variabel eller funktionsnamn) på fel ställe.\n"
 "2. Du skrev ett nyckelord som [code]var[/code], [code]func[/code], [code]for[/code], eller [code]signal[/code], och du följde det inte med ett namn.\n"
-"3. Du skrev en funktionsdefinition men glömde parenteserna före kolon."
+"3. Du skrev en funktionsdefinition men glömde parenteserna före kolon.\n"
 
 #: script_checking/error_database.csv
 msgid "3. You wrote a function definition but forgot the parentheses before the colon."
@@ -464,18 +463,16 @@ msgid "There is an issue with the return value of your function. There are two m
 msgstr "Det finns ett problem med returvärdet för din funktion. Det finns två huvudfall här:"
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "1. Your function is a void function, thus it should not return a value. This includes functions with the '-> void' syntax and class constructors ('_init()')."
 msgstr ""
 "1. Din funktion är en void funktion, så den bör inte returnera ett värde. Detta inkluderar funktioner med '-> void'-syntaxen och klasskonstruktörer ('_init()').\n"
-"2. Du angav en returtyp för din funktion, men du returnerar inte ett värde i alla möjliga grenar (if-, elif- och annat-block) eller i slutet."
+"2. Du angav en returtyp för din funktion, men du returnerar inte ett värde i alla möjliga grenar (if-, elif- och annat-block) eller i slutet.\n"
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "2. You specified a return type for your function, but you are not returning a value in all possible branches (if, elif, and else blocks) or at the end."
 msgstr ""
 "1. Din funktion är en void funktion, så den bör inte returnera ett värde. Detta inkluderar funktioner med '-> void'-syntaxen och klasskonstruktörer ('_init()').\n"
-"2. Du angav en returtyp för din funktion, men du returnerar inte ett värde i alla möjliga grenar (if-, elif- och annat-block) eller i slutet."
+"2. Du angav en returtyp för din funktion, men du returnerar inte ett värde i alla möjliga grenar (if-, elif- och annat-block) eller i slutet.\n"
 
 #: script_checking/error_database.csv
 msgid "When your function is 'void', you should never return a value. You can use the 'return' keyword to end the function early, but you should never write anything after that."
@@ -486,12 +483,10 @@ msgid "When you use a return type, you must always return something at the end o
 msgstr "När du använder en returtyp måste du alltid returnera något i slutet av funktionen eller i varje gren (if, elif och annat block) av funktionen."
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "Godot was unable to load your script, yet the language checker found nothing wrong."
 msgstr "Godot kunde inte ladda ditt skript, men språkkontrollservern hittade inget fel. Det är möjligt att du inte är online"
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "Please click on the \"report\" button at the top and please let us know."
 msgstr "Om du är offline förväntas det här felet. Annars, klicka på knappen \"rapportera\" högst upp och meddela oss."
 
@@ -536,7 +531,6 @@ msgid "Ensure that you don't have a capital letter where you should have a lower
 msgstr ""
 
 #: course/glossary.csv course/documentation.csv
-#, fuzzy
 msgid "explanation"
 msgstr "iteration"
 
@@ -609,22 +603,18 @@ msgid "Vectors can seem daunting at first because they are pretty abstract, but 
 msgstr "Vektorer kan verka skrämmande till en början eftersom de är ganska abstrakta, men som du kommer att se kommer de att förenkla koden oerhört."
 
 #: course/glossary.csv
-#, fuzzy
 msgid "An argument is a value you pass to a function when you call it. For example, in the function call [code]rotate(0.5)[/code], the value [code]0.5[/code] inside the parentheses is an argument."
 msgstr "Ett argument är ett värde som du skickar till en funktion när du anropar funktionen. Till exempel, i anropet [code]rotate(0.5)[/code], är värdet [code]0.5[/code] inom parentes ett argument."
 
 #: course/glossary.csv
-#, fuzzy
 msgid "A function can take no arguments, one argument, or multiple arguments. Arguments can be required or optional."
 msgstr "En funktion kan inte ta emot några argument, ett argument eller flera argument. Argument kan vara obligatoriska eller valfria."
 
 #: course/glossary.csv
-#, fuzzy
 msgid "When a function requires multiple arguments, you separate them with commas. Here's an example: [code]jump(50, 100)[/code]"
 msgstr "När en funktion tar flera argument, separerar du värdena med kommatecken, som i detta funktionsanrop: [code]jump(50, 100)[/code]"
 
 #: course/glossary.csv
-#, fuzzy
 msgid "When you [i]call[/i] a function, we call the values in parentheses [i]arguments[/i]."
 msgstr "När vi [i]anropar[/i] en funktion namnger vi värdena som skickas inom parentes [i]argument[/i]."
 
@@ -637,7 +627,6 @@ msgid "[code]func move_to_position(x, y):[/code]"
 msgstr ""
 
 #: course/glossary.csv
-#, fuzzy
 msgid "In this function definition, [code]x[/code] and [code]y[/code] are [i]parameters[/i]."
 msgstr "När man skriver en funktionsdefinition talar vi dock om funktions [i]parametrar[/i]. I följande exempel är namnen [code]x[/code] och [code]y[/code] [i]parametrar[/i]."
 
@@ -814,7 +803,6 @@ msgid "The position of the entity on the vertical axis."
 msgstr "Entitetens position på den vertikala axeln."
 
 #: course/documentation.csv
-#, fuzzy
 msgid " Applies a local translation on the node's X axis based on the [code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] is false, normalizes the movement."
 msgstr "Lägger till en lokal förskjutning på nodens X axel baserat på [code]Node._process[/code]s [code]delta[/code]. Om [code]scaled[/code] är falskt, normaliseras rörelsen."
 
@@ -836,165 +824,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "This error tells you are missing some parenthesis, a comma, or some value in your export hint."
-#~ msgstr "För att åtgärda felet vill du lägga till den saknade öppningsparentesen, den avslutande parentesen eller kommatecken."
-
-#~ msgid "You need to read the error message and add the missing character or value it requests."
-#~ msgstr "Du måste läsa felmeddelandet och lägga till det saknade tecken eller värde som efterfrågas."
-
-#~ msgid "member function"
-#~ msgstr "medlemsfunktion"
-
-#~ msgid "member functions"
-#~ msgstr "medlemsfunktioner"
-
-#~ msgid "member variable"
-#~ msgstr "medlemsvariabel"
-
-#~ msgid "member variables"
-#~ msgstr "medlemsvariabler"
-
-#~ msgid "parameter"
-#~ msgstr "parameter"
-
-#~ msgid "parameters"
-#~ msgstr "parametrar"
-
-#~ msgid "radian"
-#~ msgstr "radian"
-
-#~ msgid "radians"
-#~ msgstr "radianer"
-
-#~ msgid "type"
-#~ msgstr "typ"
-
-#~ msgid "types"
-#~ msgstr "typer"
-
-#~ msgid "iterations"
-#~ msgstr "iterationer"
-
-#~ msgid "vector"
-#~ msgstr "vektor"
-
-#~ msgid "vectors"
-#~ msgstr "vektorer"
-
-#~ msgid "argument"
-#~ msgstr "argument"
-
-#~ msgid "arguments"
-#~ msgstr "argument"
-
-#~ msgid "array"
-#~ msgstr "array"
-
-#~ msgid "arrays"
-#~ msgstr "matriser"
-
-#~ msgid "assign"
-#~ msgstr "tilldela"
-
-#~ msgid "dictionary"
-#~ msgstr "ordbok(dictionary)"
-
-#~ msgid "dictionaries"
-#~ msgstr "ordböcker"
-
-#~ msgid "for loop"
-#~ msgstr "for loop"
-
-#~ msgid "for loops"
-#~ msgstr "for loopar"
-
-#~ msgid "function"
-#~ msgstr "funktion"
-
-#~ msgid "functions"
-#~ msgstr "funktioner"
-
-#~ msgid "increment"
-#~ msgstr "ökning"
-
-#~ msgid "increments"
-#~ msgstr "steg"
-
-#~ msgid "instruction"
-#~ msgstr "instruktion"
-
-#~ msgid "instructions"
-#~ msgstr "instruktioner"
-
-#~ msgid "variable"
-#~ msgstr "variabel"
-
-#~ msgid "variables"
-#~ msgstr "variabler"
-
-#~ msgid "while loop"
-#~ msgstr "while loop"
-
-#~ msgid "while loops"
-#~ msgstr "while loopar"
-
-#~ msgid "body"
-#~ msgstr "kropp"
-
-#~ msgid "return"
-#~ msgstr "returnera"
-
-#~ msgid "library"
-#~ msgstr "bibliotek"
-
-#~ msgid "libraries"
-#~ msgstr "bibliotek"
-
-#~ msgid "sprite"
-#~ msgstr "sprite(bild)"
-
-#~ msgid "sprites"
-#~ msgstr "sprites(bilder)"
-
-#~ msgid "The cell position of the robot on the board. [code]Vector2(0, 0)[/code] is the square cell in the top left of the board."
-#~ msgstr "Robotens cellposition på brädet. [code]Vector2(0, 0)[/code] är den fyrkantiga cellen längst upp till vänster av brädet."
-
-#~ msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
-#~ msgstr "Skapar en lista av nummer från [code]0[/code] till [code]length - 1[/code]."
-
-#~ msgid "Orders the robot to play an animation."
-#~ msgstr "Säger till roboten att spela en animation."
-
-#~ msgid "Selects units in the cell coordinates passed as the function's argument."
-#~ msgstr "Markerar enheter i cellkoordinaterna som passeras in via funktionens argument."
-
-#~ msgid "Queues a move animation towards the target cell."
-#~ msgstr "Köar en rörelseanimation mot målcellen."
-
-#~ msgid "Adds the value passed as an argument at the back of the array."
-#~ msgstr "Lägger till värdet som passerats som argument längst bak i arrayen."
-
-#~ msgid "Removes the first value from the array and returns it."
-#~ msgstr "Tar bort det första värdet från arrayen och returnerar det."
-
-#~ msgid "Removes the last value from the array and returns it."
-#~ msgstr "Tar bort det sista värdet ur arrayen och returnerar det."
-
-#~ msgid "Returns the argument converted into a [code]String[/code]. Works with the majority of value types."
-#~ msgstr "Retrunerar argumentet konverterat till en [code]String[/code]. Fungerar med majoriteten av värdetyper."
-
-#~ msgid "Returns the argument converted into an [code]int[/code] (whole number) [i]if possible[/i]. Supports converting decimal numbers, strings, and booleans. Useful to convert player text input into numbers."
-#~ msgstr "Returnerar argumentet konverterat till en [code]int[/code] (heltal) [i]om möjligt[/i]. Stödjer konvertering till decimaler, strängar och booleska värden. Användbar för att konvertera spelarinmatad text till nummer."
-
-#~ msgid "Creates a new unit matching the type parameter and places it at the desired cell position on the game grid."
-#~ msgstr "Skapar en ny enhet som matchar typ-parametern och placerar den på önskad cellposition i spelets rutnät."
-
-#~ msgid "Creates a new item and displays it in the inventory."
-#~ msgstr "Skapar ett nytt föremål och visar det i spelarens inventarie."
-
-#~ msgid "Increases the item count by amount."
-#~ msgstr "Ökar antalet föremål med en mängd."
-
-#~ msgid "Realigns the train track with the path. Select a train track in the tracks array by index to pass it as an argument."
-#~ msgstr "Rätar ut tågspåren efter stigen. Markera ett tågspår i spår-arrayen med hjälp av index för att passa det som ett argument."

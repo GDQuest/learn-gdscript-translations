@@ -37,7 +37,6 @@ msgstr ""
 #: course/lesson-23-append-to-arrays/visuals/Crate.tscn
 #: course/lesson-24-access-array-indices/visuals/inventory/Item.tscn
 #: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
-#, fuzzy
 msgid "0"
 msgstr "0%"
 
@@ -78,7 +77,6 @@ msgstr ""
 
 #: course/lesson-12-using-variables/visuals/VariableDefinition.tscn
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
-#, fuzzy
 msgid "value"
 msgstr "Nilai"
 
@@ -117,7 +115,6 @@ msgid "["
 msgstr ""
 
 #: course/lesson-19-creating-arrays/visuals/ArrayDefinitionSyntax.tscn
-#, fuzzy
 msgid "value_1"
 msgstr "Nilai"
 
@@ -127,7 +124,6 @@ msgid ","
 msgstr ""
 
 #: course/lesson-19-creating-arrays/visuals/ArrayDefinitionSyntax.tscn
-#, fuzzy
 msgid "value_2"
 msgstr "Nilai"
 
@@ -177,7 +173,6 @@ msgstr ""
 
 #: course/lesson-23-append-to-arrays/clearing-meals/ClearingMeals.tscn
 #: course/lesson-23-append-to-arrays/visuals/OrderMeals.tscn
-#, fuzzy
 msgid "Completed"
 msgstr "Kuis selesai"
 
@@ -317,7 +312,6 @@ msgid "Report an issue"
 msgstr "Laporkan masalah"
 
 #: ui/UINavigator.tscn
-#, fuzzy
 msgid "Configure the app"
 msgstr "Atur Aplikasi"
 
@@ -335,6 +329,7 @@ msgid ""
 "\n"
 "Warning: Using the suggested solution will leave this practice unfinished.\n"
 "You can come back and try to solve it yourself later.\n"
+"\n"
 msgstr ""
 
 #: ui/UIPractice.tscn
@@ -354,7 +349,6 @@ msgid "Toggle the code editor expanded."
 msgstr ""
 
 #: ui/components/CodeEditor.tscn
-#, fuzzy
 msgid "Run your code."
 msgstr "Menjalankan Kode Anda..."
 
@@ -395,7 +389,6 @@ msgid "Output"
 msgstr "Hasil"
 
 #: ui/components/CodeEditor.tscn
-#, fuzzy
 msgid "Continue the course."
 msgstr "Lanjut ke Pelajaran berikutnya"
 
@@ -413,6 +406,7 @@ msgstr "Nilai"
 msgid ""
 "Toggle the app full-screen.\n"
 "Shortcut: F11\n"
+"\n"
 msgstr ""
 
 #: ui/components/GDQuestCreditsLabel.tscn
@@ -467,6 +461,7 @@ msgstr "Menjelaskan"
 msgid ""
 "Quit the app.\n"
 "Shortcut: Alt+F4\n"
+"\n"
 msgstr ""
 
 #: ui/components/Revealer.tscn
@@ -489,6 +484,7 @@ msgstr ""
 msgid ""
 "Get [b]50%[/b] off on all our Godot courses with the \n"
 "coupon code [b]DISCOUNT50[/b]\n"
+"\n"
 msgstr ""
 
 #: ui/components/SalePopup.tscn
@@ -527,10 +523,12 @@ msgid ""
 "Please, use the Report button in the top-right corner to tell us more about how you've got it, and we will try to improve our knowledge base for the next version of the application.\n"
 "\n"
 "Thank you!\n"
+"\n"
 msgstr ""
 "Maaf, pesan kesalahan khusus ini belum kami cakup!\n"
 "\n"
 "Silakan, gunakan tombol [b]Laporkan[/b] di sudut kanan atas untuk memberi tahu kami lebih banyak tentang bagaimana Anda mendapatkannya, dan kami akan mencoba meningkatkan basis pengetahuan kami untuk versi aplikasi berikutnya.\n"
+"\n"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn
 msgid "Hide"
@@ -547,12 +545,14 @@ msgid ""
 "This means that sometimes changes you make can affect code you have no control over. But don't worry, you can still fix all the issues yourself with the code you [b]can[/b] edit!\n"
 "\n"
 "[i]This is like how game engines work too.[/i] There is a lot of hidden code that they execute to ensure your project runs smoothly. And yet, an error in your scripts can break them. We'll try to explain how to address each individual error that you face. Quick, click the [b]Explain[/b] button next to the error message!\n"
+"\n"
 msgstr ""
 "Pelajaran pada kursus ini dibuat sesederhana mungkin sehingga kamu hanya perlu mengubah [b]bagian tertentu saja[/b]. Sebenarnya ada banyak kode lain yang tidak terlihat tapi tetap dibutuhkan agar aplikasinya tetap berjalan dengan baik.\n"
 "\n"
 "Artinya, kode yang kamu buat dapat mempengaruhi kode lain yang kamu tidak ketahui. Namun, jangan khawatir, kamu bisa memperbaiki kendala yang terjadi dengan memperbaiki kode yang kamu [b]bisa[/b] ubah!\n"
 "\n"
 "[i]Cara kerja aplikasi ini mirip seperti game engine.[/i] Ada banyak kode tersembunyi yang dijalankan agar game kamu berjalan dengan lancar. Namun, jika ada error di script yang kamu buat, maka kode tersembunyi tadi akan error juga. Kami akan coba jelaskan bagaimana caranya untuk mengatasi setiap error yang kamu hadapi. Yuk, coba klik tombol [b]Explain[/b] di sebelah error message!\n"
+"\n"
 
 #: ui/components/popups/ExternalErrorPopup.tscn
 msgid "Got it!"
@@ -566,18 +566,22 @@ msgstr "Pelajaran selesai!"
 msgid ""
 "But there are still some practices\n"
 "that you've skipped.\n"
+"\n"
 msgstr ""
 "Tapi masih ada beberapa latihan\n"
 "yang kamu lewati.\n"
+"\n"
 
 #: ui/components/popups/LessonDonePopup.tscn
 #, fuzzy
 msgid ""
 "[b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course.\n"
+"\n"
 msgstr ""
 "[center][b]Menetap[/b] dan pelajari kembali Materi,\n"
 "atau [b]Lanjut[/b] ke Materi berikutnya.[/center]\n"
+"\n"
 
 #: ui/components/popups/LessonDonePopup.tscn
 #: ui/components/popups/PracticeDonePopup.tscn
@@ -597,9 +601,11 @@ msgstr "Kamu telah menyelesaikan latihan."
 msgid ""
 "[b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course.\n"
+"\n"
 msgstr ""
 "[center][b]Menetap[/b] dan coba eksperimen,\n"
 "atau [b]lanjut[/b] ke Materi berikutnya.[/center]\n"
+"\n"
 
 #: ui/components/popups/PracticeListPopup.tscn
 msgid "Practice List"
@@ -638,8 +644,10 @@ msgid ""
 "Please include as much detail as you can, such as what device you are using and what you were doing when the problem happened. A screenshot also helps a lot.\n"
 "\n"
 "[center]Thank you for helping make this app better.[/center]\n"
+"\n"
 msgstr ""
 "[font=res://ui/theme/fonts/font_title.tres]How to report an issue[/font]\n"
+"\n"
 "\n"
 "\n"
 
@@ -724,7 +732,6 @@ msgid "Apply"
 msgstr "Terapkan"
 
 #: ui/components/popups/TranslationInfoPopup.tscn
-#, fuzzy
 msgid "Community Translations"
 msgstr "Selamat!"
 
@@ -737,6 +744,7 @@ msgid ""
 "If you want to help make the translations more complete, you are welcome to contribute. You can find instructions on how to do so here: [b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]How to contribute translations[/url][/b]\n"
 "\n"
 "Thank you to everyone who has contributed translations so far.\n"
+"\n"
 msgstr ""
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
@@ -781,7 +789,6 @@ msgid "Lesson Title"
 msgstr "Judul Pelajaran"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn
-#, fuzzy
 msgid "Course Index - "
 msgstr "Indeks Kursus - "
 
@@ -854,6 +861,7 @@ msgid ""
 "At GDQuest, we’re educators at heart. We believe in applied study and we believe it doesn’t have to be boring. When teaching is done correctly, most people highly enjoy the sensation of leveling up!\n"
 "\n"
 "That’s the reason we made this app. It is in fact part of our beginner course [b][color=#ebc3ff][url=https://school.gdquest.com/products/bundle_learn_gamedev_godot_4]Learn Gamedev From Zero with Godot[/url][/color][/b].\n"
+"\n"
 msgstr ""
 
 #: ui/screens/end_screen/EndScreen.tscn
@@ -889,11 +897,11 @@ msgid "Congratulations!"
 msgstr "Selamat!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
-#, fuzzy
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to make games with the Godot game engine.\n"
 "\n"
 "You can keep learning with the free series Getting Started with Godot.\n"
+"\n"
 msgstr "Kamu telah menyelesaikan Belajar GDScript Dari Nol. Kamu telah memahami dasar serta terjun langsung membuat game dengan Godot game engine."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
@@ -905,13 +913,14 @@ msgid ""
 "Like Godot, this app and course is free and open-source. \n"
 "\n"
 "You can find the app's source code and contribute translations here: Learn GDScript From Zero (Github repository).\n"
+"\n"
 msgstr ""
 "Seperti Godot, aplikasi dan kursus ini gratis dan bersumber terbuka.\n"
 "\n"
 "Anda dapat menemukan kode sumber aplikasi dan berkontribusi menerjemahkannya di sini: [url=\"https://github.com/GDQuest/learn-gdscript\"]Belajar GDScript Dari Nol (repositori Github)[/url].\n"
+"\n"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
-#, fuzzy
 msgid "Question"
 msgstr "[b]Pertanyaan[/b]"
 
@@ -919,6 +928,7 @@ msgstr "[b]Pertanyaan[/b]"
 msgid ""
 "You've already answered this quiz correctly before.\n"
 "Feel free to try it again to refresh your memory!\n"
+"\n"
 msgstr ""
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
@@ -953,6 +963,7 @@ msgstr "Judul Latihan"
 msgid ""
 "You've already completed this practice before.\n"
 "You can give it another go if you want to test your skills!\n"
+"\n"
 msgstr ""
 
 #: ui/screens/lesson/UIPracticeButton.tscn
@@ -960,7 +971,6 @@ msgid "next"
 msgstr "berikutnya"
 
 #: ui/screens/lesson/UIPracticeButton.tscn
-#, fuzzy
 msgid "Open this practice."
 msgstr "Kamu telah menyelesaikan latihan."
 
@@ -1242,6 +1252,7 @@ msgstr ""
 msgid ""
 "When healing the character twice by 40 points, the health should go up to 60, then 80. Instead, we got %s.\n"
 "Are you using the amount parameter?\n"
+"\n"
 msgstr ""
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:13
@@ -1264,6 +1275,7 @@ msgstr ""
 msgid ""
 "When damaging the character three times by 10 points, the health should go down to 10, then 0. Instead, we got %s.\n"
 "Are you using the amount parameter?\n"
+"\n"
 msgstr ""
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:5
@@ -2143,6 +2155,7 @@ msgid ""
 "\n"
 "[hr]\n"
 "\n"
+"\n"
 msgstr ""
 
 #: ui/UINavigator.gd:375
@@ -2214,7 +2227,6 @@ msgid "Property descriptions"
 msgstr "Deskripsi Properti"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:188
-#, fuzzy
 msgid "You've completed this practice before."
 msgstr "Kamu telah menyelesaikan latihan."
 
@@ -2222,6 +2234,7 @@ msgstr "Kamu telah menyelesaikan latihan."
 msgid ""
 "You've used the provided solution.\n"
 "This practice will not count towards your course progress.\n"
+"\n"
 msgstr ""
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:53

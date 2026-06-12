@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: course/lesson-1-what-code-is-like/lesson.bbcode:1
 msgid "What Code is Like"
 msgstr "Hur kod är"
@@ -37,7 +38,6 @@ msgstr "Berätta för datorn vad den ska göra"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
-#, fuzzy
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"] that tell a computer how to perform a task."
 msgstr "Att programmera är att skriva exakta instruktioner som berättar för datorn hur den ska göra en uppgift."
 
@@ -50,7 +50,6 @@ msgid "To do any of that, you need to learn a [b]programming language[/b]: a spe
 msgstr "För att kunna göra något av det, behöver du lära dig ett [b]programmeringsspråk[/b]: ett specialiserat språk för att berätta för datorn vad den ska göra."
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:23
-#, fuzzy
 msgid "Programming languages are different from natural ones like English or Spanish. The computer does not think. Unlike us, it can't [i]interpret[/i] what you tell it."
 msgstr "Programmeringsspråk är annorlunda en naturliga språk som svenska eller engelska. Datorer tänker inte. I motsats till oss kan datorer inte [i]tolka[/i] det du berättar åt den."
 
@@ -227,7 +226,6 @@ msgid "What and how you'll learn"
 msgstr "Vad och hur du lär dig"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:110
-#, fuzzy
 msgid "In this free course, you will learn the foundations you need to start coding things like these:"
 msgstr "I den här gratiskursen kommer du lära dig grunderna för att koda saker som dessa:"
 
@@ -239,11 +237,11 @@ msgstr "Samtidigt lär vi dig:"
 msgid ""
 "- Some of the mindset you need as a developer. Too many programming courses skip that essential part.\n"
 "- How to write GDScript code.\n"
-"- Essential programming foundations to get you started."
+"- Essential programming foundations to get you started.\n"
 msgstr ""
 "- En del av de tankesätt man behöver som en programmerare. Allt för många programmeringskurser hoppar över den här viktiga biten.\n"
 "- Hur man kodar i GDscript.\n"
-"- Viktiga grunder för programmering som behövs för att börjar programmera."
+"- Viktiga grunder för programmering som behövs för att börjar programmera.\n"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:130
 msgid "As you go through the course, you will have many questions. We will answer them the best we can as we go."
@@ -314,7 +312,6 @@ msgid "Your First Error"
 msgstr "Ditt första felmeddelande"
 
 #: course/lesson-2-your-first-error/lesson.bbcode:13
-#, fuzzy
 msgid "When you program, you are bound to run into errors. Tons of them."
 msgstr "När du programmerar kommer du få felmeddelanden. Mängder av dem."
 
@@ -363,12 +360,10 @@ msgid "Ultimately, you want to fix all the errors in your program. Understanding
 msgstr ""
 
 #: course/lesson-2-your-first-error/lesson.bbcode:31
-#, fuzzy
 msgid "Are error messages a good or a bad thing in code?"
 msgstr "Är felmeddelanden bra eller dåliga?"
 
 #: course/lesson-2-your-first-error/lesson.bbcode:31
-#, fuzzy
 msgid "Yes, error messages are here to help you!"
 msgstr "Ja, felmeddelanden är här för att hjälpa dig!"
 
@@ -377,7 +372,6 @@ msgid "Pay attention to them, and do your best to read and understand them. With
 msgstr "Var uppmärksam på dem och gör ditt bästa för att läsa dem och förstå dem. När du blir mer erfaren, lär du dig att koden blir pålitligare tack vare felmeddelanden."
 
 #: course/lesson-2-your-first-error/lesson.bbcode:31
-#, fuzzy
 msgid "They're bad: error messages are always bad."
 msgstr "De är dåliga: fel är alltid dåliga."
 
@@ -399,13 +393,11 @@ msgstr "Den här koden är felaktig och kommer ge ett felmeddelande när du kör
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "The code defines an empty [glossary term=\"function\"] named [code]this_code_is_wrong[/code]."
 msgstr "Koden består av en tom funktion som heter [code]this_code_is_wrong[/code]."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "To work, the function should use the [glossary term=\"return\"] keyword. But this keyword is currently inside a comment, which the computer ignores."
 msgstr "För att fungera borde funktionen använda [code]return[/code] kommandot. Men just nu finns kommandot i en kommentar, som datorn ignorerar."
 
@@ -443,7 +435,6 @@ msgstr "Varje programmeringsspråk kommer med en mängd funktioner skapade av an
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:9
-#, fuzzy
 msgid "We call a bundle of code created by fellow developers a [glossary term=\"library\"]."
 msgstr "Vi kallar ett kodpaket skapat av andra utvecklare för ett [i]bibliotek[/i]."
 
@@ -465,13 +456,11 @@ msgstr "När du kodar använder du alltid mycket kod från utvecklare som kom f�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:18
-#, fuzzy
 msgid "In a moment, you'll write your first code. You'll use [glossary term=\"functions\"] created by the Godot developers."
 msgstr "Om ett ögonblick kommer du att skriva din första kod. Du kommer att använda [i]funktioner[/i] skapade av Godot-utvecklarna."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:19
-#, fuzzy
 msgid "A function is a list of [glossary term=\"instructions\"] with an exact name. We can tell the computer to execute all the instructions in sequence with that name."
 msgstr "En funktion är en lista med instruktioner med ett exakt namn. Med det namnet kan vi instruera datorn att utföra alla instruktioner i listan i tur och ordning."
 
@@ -549,13 +538,11 @@ msgstr "Funktionsargument"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:59
-#, fuzzy
 msgid "We use parentheses to call functions because you can give the function [glossary term=\"arguments\"] inside the parentheses when calling it."
 msgstr "Vi använder parenteser för att anropa funktioner eftersom du kan ge funktionen [i]argument[/i] innanför parentesen när du anropar den."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:60
-#, fuzzy
 msgid "Here's a [glossary term=\"sprite\"] standing straight. If we call the [code]rotate(0.3)[/code] function, the character [i]sprite[/i] turns by 0.3 radians."
 msgstr "Här är en [i]sprite[/i] som står rak. Om vi anropar funktionen [code]rotate(0.3)[/code] vänds karaktären [i]sprite[/i] med 0,3 enheter."
 
@@ -589,7 +576,6 @@ msgstr "Vad är radianer?"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:78
-#, fuzzy
 msgid "The value of [code]0.3[/code] is an angle in [glossary term=\"radians\"]. In daily life, we're used to measuring angles in degrees. The radian is another scale commonly used in video games and math."
 msgstr "Värdet på [code]0.3[/code] är en vinkel i [i]radianer[/i]. I det dagliga livet är vi vana vid att mäta vinklar i grader. Radianen är en annan skala som ofta används i videospel och matematik."
 
@@ -626,7 +612,6 @@ msgid "Both answers were right! Technically, the code calls the [code]show()[/co
 msgstr "Båda svaren var rätt! Tekniskt sett anropar koden funktionen [code]show()[/code]. Och att göra det gör spelet synligt."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
-#, fuzzy
 msgid "It calls the function named \"show\"."
 msgstr "Den anropar funktionen som heter \"show\"."
 
@@ -635,7 +620,6 @@ msgid "It makes the entity (like a game character or a sprite) visible."
 msgstr "Det gör entiteten (till exempel en spelkaraktär eller en sprite) synlig."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:108
-#, fuzzy
 msgid "Another example: With the [code]move_local_x()[/code] function, you can move the character to its left and right. The function takes one argument: a number of pixels to offset the entity."
 msgstr "Ett annat exempel: Med funktionen [code]move_local_x()[/code] kan du flytta karaktären till vänster och höger. Funktionen tar ett argument: ett antal pixlar för att förskjuta entiteten."
 
@@ -728,7 +712,6 @@ msgid "The robot is turned sideways. Help it straighten up with a function call.
 msgstr "Roboten är sned. Hjälp den att räta upp sig med ett funktionsanrop."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
-#, fuzzy
 msgid "You need to use the rotate() function, and give the proper arguments."
 msgstr "I tidigare lektioner använde du funktionen [code]rotate()[/code] och gav den en [i]parameter[/i]."
 
@@ -758,13 +741,11 @@ msgid "We present you: the turtle! We created the turtle to teach you how to cal
 msgstr "Låt oss presentera: sköldpaddan! Vi skapade sköldpaddan för att lära dig hur du anropar funktioner."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:13
-#, fuzzy
 msgid "The turtle is a little machine that moves forward, turns, and draws lines along its path."
 msgstr "Sköldpaddan är en liten maskin som rör sig framåt, vänder och ritar linjer längs sin väg."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:14
-#, fuzzy
 msgid "To make it draw, you give it a list of [glossary term=\"instructions\"]: on each code line, you call one specific function."
 msgstr "För att få den att rita ger du den en lista med instruktioner: på varje kodrad anropar du en specifik funktion."
 
@@ -773,15 +754,14 @@ msgid "We prepared several functions for you:"
 msgstr "Vi har förberett flera funktioner åt dig:"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:16
-#, fuzzy
 msgid ""
 "- [code]move_forward(pixels)[/code] makes the turtle move forward over a given distance in [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] makes the turtle turn clockwise by a precise amount of [i]degrees[/i].\n"
-"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise."
+"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise.\n"
 msgstr ""
 "- [code]move_forward(pixels)[/code] gör att sköldpaddan rör sig framåt avstånd givet i [i]pixlar[/i].\n"
 "- [code]turn_right(grader)[/code] gör att sköldpaddan svänger åt höger givet antal [i]grader[/i].\n"
-"- [code]turn_left(grader)[/code] fungerar på samma sätt som [code]turn_right(grader)[/code], förutom att sköldpaddan svänger till vänster."
+"- [code]turn_left(grader)[/code] fungerar på samma sätt som [code]turn_right(grader)[/code], förutom att sköldpaddan svänger till vänster.\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:17
 msgid "You'll use these functions the same way you used [code]rotate()[/code] before."
@@ -865,7 +845,6 @@ msgid "Drawing a Corner"
 msgstr "Rita ett hörn"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:66
-#, fuzzy
 msgid "In this practice, we'll tell the turtle to draw a corner."
 msgstr "I den här övningen kommer vi att instruera sköldpaddan att rita ett hörn."
 
@@ -894,12 +873,10 @@ msgid "Use the turtle to draw a square's corner. You'll then build upon it to dr
 msgstr "Använd sköldpaddan för att rita ett kvadrats hörn. Du kommer senare att bygga vidare på samma kod för att rita en rektangel."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:66
-#, fuzzy
 msgid "You need to add two arguments to the [code]turn_right()[/code] and [code]move_forward()[/code] functions: [code]90[/code] and [code]200[/code]."
 msgstr "För att göra detta, lägg till funktionerna [code]rotate()[/code] och [code]move_local_x()[/code] till [code]_process()[/code]."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
-#, fuzzy
 msgid "Add the correct arguments to the functions [code]move_forward()[/code] and [code]turn_right()[/code] to draw a rectangle with a width of [code]200[/code] pixels, and a height of [code]120[/code] pixels."
 msgstr "Lägg till rätt parametrar till funktionerna [code]move_forward()[/code] och [code]turn_right()[/code] för att rita en rektangel med en bredd på [code]200[/code] pixlar och en höjd på [code]120[/code] pixlar."
 
@@ -916,7 +893,6 @@ msgid "Based on your rectangle corner, you now need to draw a complete rectangle
 msgstr "Utgående från ditt rektangelhörn ska du nu rita en komplett rektangel."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
-#, fuzzy
 msgid "Both [code]move_forward()[/code] and [code]turn_right()[/code] take a numerical argument between the parenthesis"
 msgstr "Använd funktionerna [code]move_forward()[/code] och [code]turn_right()[/code] för att instruera sköldpaddan."
 
@@ -976,7 +952,6 @@ msgstr "Funktioner är namngivna sekvenser av instruktioner"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-5-your-first-function/lesson.bbcode:9
-#, fuzzy
 msgid "Functions are [i]sequences of [glossary term=\"instructions\"][/i] we give a name. We call that name an [i]identifier[/i]."
 msgstr "Funktioner är [i]sekvenser av instruktioner[/i] som vi ger ett namn. Vi kallar det namnet för en [i]identifierare[/i]."
 
@@ -1065,7 +1040,6 @@ msgid "Because we give functions a name, they also allow us to name a set of ins
 msgstr "Eftersom vi ger funktioner ett namn, tillåter de oss också att namnge en uppsättning instruktioner, vilket är praktiskt!"
 
 #: course/lesson-5-your-first-function/lesson.bbcode:57
-#, fuzzy
 msgid "To reuse code multiple times."
 msgstr "För att återanvända koden flera gånger. "
 
@@ -1218,7 +1192,6 @@ msgid "You need to define a new function below draw_square() named [code]draw_th
 msgstr ""
 
 #: course/lesson-5-your-first-function/lesson.bbcode:123
-#, fuzzy
 msgid "Your new function should call [code]draw_square()[/code] three times, on three different lines."
 msgstr "Du har en funktion för att rita en kvadrat: [code]draw_square()[/code]. Använd den för att rita tre rutor."
 
@@ -1231,7 +1204,6 @@ msgid "Your First Function Parameter"
 msgstr "Din första funktionsparameter"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:7
-#, fuzzy
 msgid "In the previous lesson, you created a function to draw a square of a fixed size."
 msgstr "I föregående del skapade du en funktion för att rita en kvadrat med en fast storlek."
 
@@ -1241,13 +1213,11 @@ msgstr "Denna funktion är lite begränsande. Istället skulle det vara mycket b
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:9
-#, fuzzy
 msgid "In previous lessons, you used the [code]rotate()[/code] function and gave it an [glossary term=\"argument\"]."
 msgstr "I tidigare lektioner använde du funktionen [code]rotate()[/code] och gav den en [i]parameter[/i]."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:11
-#, fuzzy
 msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]."
 msgstr "Precis som [code]rotate()[/code] kan vi också ge vår funktion [i]parametrar[/i]. Parametrar är etiketter du ger till värden som skickas till funktionen."
 
@@ -1260,7 +1230,6 @@ msgid "When you write a function with parameters, you create a flexible template
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
-#, fuzzy
 msgid "For now, focus on the first line, the function [i]definition[/i]: [code]func rotate(radians)[/code]."
 msgstr "För tillfället, vänligen fokusera på den första raden: [code]func rotate(radians)[/code]."
 
@@ -1269,7 +1238,6 @@ msgid "The word [code]radians[/code] is the function's parameter. It's the place
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:31
-#, fuzzy
 msgid "When you [i]call[/i] this function with [code]rotate(0.5)[/code], the computer replaces the name \"radians\" in the function with [code]0.5[/code]."
 msgstr "När du anropar [code]rotate(0.5)[/code] binder datorn värdet [code]0.5[/code] till etiketten [code]radians[/code]."
 
@@ -1290,7 +1258,6 @@ msgid "A parameter is a placeholder that gets replaced with the actual value you
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
-#, fuzzy
 msgid "The value can be different each time you call the function: it depends on what you put in parentheses."
 msgstr "Värdet i fråga kan ändras: det beror på vad du sätter inom parentes när du anropar en funktion."
 
@@ -1311,7 +1278,6 @@ msgid "How to create functions with parameters"
 msgstr "Hur man skapar funktioner med parametrar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:44
-#, fuzzy
 msgid "When you write a function [i]definition[/i] (the line starting with the [code]func[/code] keyword), you can add parameters."
 msgstr "Du kan ge dina funktionsparametrar när du skriver dess [i]definition[/i] (raden som börjar med nyckelordet [code]func[/code])."
 
@@ -1320,12 +1286,10 @@ msgid "To add a parameter, write a placeholder name inside the parentheses. When
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:52
-#, fuzzy
 msgid "You can give parameters any name! How you name functions and parameters is up to you."
 msgstr "Du kan ge parametrar vilket namn som helst. Hur du namnger funktioner och parametrar är upp till dig."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:53
-#, fuzzy
 msgid "Just remember that names cannot contain spaces. To write parameter names with multiple words, in GDScript, we use underscores by convention."
 msgstr "Kom bara ihåg att namn inte kan innehålla mellanslag. För att skriva parameternamn med flera ord måste du använda understreck."
 
@@ -1338,7 +1302,6 @@ msgid "Parameters make your code easier to reuse. You write the function once as
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:59
-#, fuzzy
 msgid "Here's an example with a function to draw any square. The parameter [code]size[/code] is a placeholder. Use the slider to change the value. When you click the button, the app calls [code]draw_square()[/code] and the placeholder gets replaced with your value, drawing squares of different sizes."
 msgstr "Här är ett exempel med en funktion för att rita valfri kvadrat. Använd skjutreglaget för att ändra värdet som skickas till funktionen och rita rutor av olika storlekar."
 
@@ -1375,12 +1338,10 @@ msgid "Functions can have multiple parameters"
 msgstr "Funktioner kan ha flera parametrar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:78
-#, fuzzy
 msgid "A function can have multiple parameters. You can use as many placeholders as you [i]need[/i]."
 msgstr "Du kan använda flera parametrar i en funktion. Faktum är att du kan använda så många du [i]behöver[/i]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:79
-#, fuzzy
 msgid "To add multiple parameters, write a comma between each placeholder name."
 msgstr "För att separera funktionsparametrarna måste du skriva ett kommatecken mellan dem."
 
@@ -1389,7 +1350,6 @@ msgid "For example, [code]func move(x, y)[/code] has two placeholders: [code]x[/
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:80
-#, fuzzy
 msgid "Must I write spaces between function parameters?"
 msgstr "Måste jag skriva mellanslag mellan funktionsparametrar?"
 
@@ -1406,7 +1366,6 @@ msgid "We often use spaces after the comma for readability."
 msgstr "Vi använder ofta mellanslag efter kommatecken för läsbarhet."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:92
-#, fuzzy
 msgid "The following example shows a function with two parameters. The function moves an entity on both the X and Y axes."
 msgstr "Följande exempel definierar en funktion som använder två parametrar för att flytta en entitet på både X- och Y-axeln."
 
@@ -1499,7 +1458,6 @@ msgid "func function_name(): parameter_1, parameter_2, ..."
 msgstr "func funktion_namn(): parameter_1, parameter_2, ..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Now it's your turn to create a function with multiple parameters."
 msgstr "Nu är det din tur att skapa en funktion med flera parametrar: en funktion för att rita rektanglar av valfri storlek."
 
@@ -1512,7 +1470,6 @@ msgid "Drawing corners of different sizes"
 msgstr "Rita hörn av olika storlekar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Before we create a rectangle of any size, let's first practice with a simpler shape."
 msgstr "Innan vi skapar en rektangel av valfri storlek, låt oss först se hur vi kan använda parametrar för att rita enklare former."
 
@@ -1525,7 +1482,6 @@ msgid "Your task is to add a parameter named [code]length[/code] to your functio
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Your function should move the turtle forward by an amount defined by the [code]length[/code] parameter, turn right [code]90[/code] degrees, then move forward by [code]length[/code] again."
 msgstr "Funktionen flyttar sköldpaddan framåt ett belopp som definieras av parametern [code]length[/code], vrider [code]90[/code] grader och flyttar sedan framåt [code]length[/code] pixlar."
 
@@ -1546,7 +1502,6 @@ msgid "Using multiple parameters"
 msgstr "Använder flera parametrar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Now let's make the [code]draw_corner()[/code] function even more flexible. We'll add a second placeholder so the angle can also vary."
 msgstr "I den här övningen kommer vi att förbättra vår [code]draw_corner()[/code]-funktion så att vinkeln också kan variera."
 
@@ -1555,7 +1510,6 @@ msgid "I will call your function with different length and angle values:"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Your task is to add the [code]angle[/code] parameter after [code]length[/code] in the function definition. Remember to separate the two placeholders with a comma."
 msgstr "Lägg till parametern [code]angle[/code] efter parametern [code]length[/code] i funktionen [code]draw_corner()[/code] och använd parametern för att rita hörn med olika stora vinklar."
 
@@ -1576,19 +1530,17 @@ msgid "You need to add the parameter [code]angle[/code] two times in this practi
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Use [code]func draw_corner(length, angle):[/code]"
 msgstr ""
 "[code]\n"
 "func _process(delta):\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Drawing squares of any size"
 msgstr "Rita rutor av alla storlekar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
 msgid "Time to write a complete function from scratch! You'll make a function that draws squares of any size."
 msgstr "Nu är det din tur att skapa en funktion med flera parametrar: en funktion för att rita rektanglar av valfri storlek."
 
@@ -1617,12 +1569,11 @@ msgid "You need to specify one parameter in the function definition"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
 msgid "Use [code]func draw_square(length):[/code]"
 msgstr ""
 "[code]\n"
 "func _process(delta):\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Call [code]move_forward()[/code] four times for each side of the square"
@@ -1637,7 +1588,6 @@ msgid "Drawing rectangles of any size"
 msgstr "Rita rektanglar av alla storlekar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-#, fuzzy
 msgid "Let's create a function to draw rectangles with any length and height."
 msgstr "Med två parametrar, koda en funktion för att rita hörn med valfri vinkel."
 
@@ -1670,12 +1620,11 @@ msgid "You need to specify the two parameters in the function definition"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-#, fuzzy
 msgid "Use [code]func draw_rectangle(length, height):[/code]"
 msgstr ""
 "[code]\n"
 "func _process(delta):\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 msgid "When calling move_forward, you need to alternate between using the length and the height arguments when calling move_forward."
@@ -1697,11 +1646,11 @@ msgstr "I spel måste du hålla reda på många värden som förändras över ti
 msgid ""
 "- The player's score.\n"
 "- Every character or enemy's health.\n"
-"- The last checkpoint."
+"- The last checkpoint.\n"
 msgstr ""
 "- Spelarens poäng.\n"
 "- Varje karaktär eller fiendes hälsa.\n"
-"- Den senaste checkpointen."
+"- Den senaste checkpointen.\n"
 
 #: course/lesson-7-member-variables/lesson.bbcode:16
 msgid "And so much more. You need to store, retrieve, and update those values."
@@ -1709,7 +1658,6 @@ msgstr "Och så mycket mer. Du måste lagra, hämta och uppdatera dessa värden.
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-7-member-variables/lesson.bbcode:17
-#, fuzzy
 msgid "We call those values [i][glossary term=\"variables\"][/i]. Variables are labels you use to keep track of values that vary over time. Here's an example of a variable tracking a character or monster's health."
 msgstr "Vi kallar dessa värden [i]variabler[/i]. Variabler är etiketter du använder för att hålla reda på värden kan ändra med tiden. Här är ett exempel på en variabel som håller reda på en karaktärs eller monsters hälsa."
 
@@ -1723,7 +1671,6 @@ msgstr "Funktionsparametrar, som du såg i föregående lektion, är ett annat e
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-7-member-variables/lesson.bbcode:23
-#, fuzzy
 msgid "In this lesson, we start using variables built into Godot. They're a particular kind called [i][glossary term=\"member variables\"][/i]."
 msgstr "I den här lektionen börjar vi använda variabler som är inbyggda i Godot. De är en speciell typ som kallas [i]medlemsvariabler[/i]."
 
@@ -1784,7 +1731,6 @@ msgid "Accessing sub-variables with the dot"
 msgstr "Få tillgång till undervariabler via punkten"
 
 #: course/lesson-7-member-variables/lesson.bbcode:62
-#, fuzzy
 msgid "In video games, you will see many member variables that have sub-values."
 msgstr "I videospel kommer du att se många medlemsvariabler som har undervärden."
 
@@ -1821,7 +1767,6 @@ msgid "In games, the Y-axis is positive going down"
 msgstr "I spel är Y-axeln positiv när man rör sig nedåt"
 
 #: course/lesson-7-member-variables/lesson.bbcode:78
-#, fuzzy
 msgid "Note that in games, assuming your character's position starts at (0, 0), the code above moves the entity [code]200[/code] pixels to the right and [code]250[/code] pixels down."
 msgstr "Observera att i spel, förutsatt att din karaktärs position börjar från (0, 0), flyttar koden ovan entiteten [code]180[/code] pixlar åt höger och [code]120[/code] pixlar nedåt."
 
@@ -1834,7 +1779,6 @@ msgid "The convention is the [i]opposite[/i] in video games and many computer ap
 msgstr "Konventionen är [i]motsatsen[/i] i videospel och många datorapplikationer: y-axeln är positiv på väg nedåt."
 
 #: course/lesson-7-member-variables/lesson.bbcode:80
-#, fuzzy
 msgid "Why does the Y-axis point downwards?"
 msgstr "I spel är Y-axeln positiv när man rör sig nedåt"
 
@@ -2037,7 +1981,6 @@ msgstr "Som med funktioner, en medlemsvariabels namn måste vara unikt inuti kod
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-8-defining-variables/lesson.bbcode:41
-#, fuzzy
 msgid "To use a variable, you want to [glossary term=\"assign\"] it a starting value. You can do so using the equal sign (=)."
 msgstr "För att använda en variabel, kommer du att behöva tilldela ett startvärde. Du kan göra detta med likhetstecken (=)."
 
@@ -2050,7 +1993,6 @@ msgid "After defining your variable, you can access its value by writing the var
 msgstr "Efter att du definierat din variabel kan du hämta värdet genom att skriva variabelns namn."
 
 #: course/lesson-8-defining-variables/lesson.bbcode:57
-#, fuzzy
 msgid "The code above will display the number [code]100[/code] to some output window."
 msgstr "Koden ovan kommer visa nummert [code]100[/code] till något utmatningsfönster."
 
@@ -2121,7 +2063,7 @@ msgstr ""
 #: course/lesson-8-defining-variables/lesson.bbcode:101
 msgid ""
 "- At line 2, the [code]health[/code] variable holds a number.\n"
-"- From line 3, [code]health[/code] holds text."
+"- From line 3, [code]health[/code] holds text.\n"
 msgstr ""
 
 #: course/lesson-8-defining-variables/lesson.bbcode:102
@@ -2289,7 +2231,6 @@ msgid "Our robot needs healing after that practice! Create a function to heal it
 msgstr ""
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:72
-#, fuzzy
 msgid "Define the [code]heal()[/code] function using [code]func[/code]"
 msgstr "Funktionen [code]_process()[/code] tar en parameter: [code]delta[/code]."
 
@@ -2366,7 +2307,6 @@ msgid "Other game engines might use different names like [code]_update()[/code].
 msgstr "Andra spelmotorer kan använda andra namn som [code]_update()[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:42
-#, fuzzy
 msgid "Why is the _process() function useful?"
 msgstr "Hur ofta körs funktionen _process()?"
 
@@ -2388,7 +2328,6 @@ msgstr "Därifrån, varje bildruta, kör Godot funktionen [code]_process()[/code
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-10-the-game-loop/lesson.bbcode:56
-#, fuzzy
 msgid "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the character by [code]0.05[/code] [glossary term=\"radians\"] [b]many[/b] times a second."
 msgstr "Eftersom vi skrev en [code]rotate()[/code]-instruktion, roterar Godot tecknet med [code]0,05[/code] radianer [b]många[/b] gånger per sekund."
 
@@ -2429,12 +2368,10 @@ msgid "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr "En rotationshastighet på ungefär [code]0,05[/code] varje bildruta borde göra tricket."
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
-#, fuzzy
 msgid "Call the [code]rotate()[/code] function"
 msgstr "Ta funktionen [code]_process()[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
-#, fuzzy
 msgid "The [code]rotate()[/code] function takes one parameter"
 msgstr "Funktionen [code]_process()[/code] tar en parameter: [code]delta[/code]."
 
@@ -2456,7 +2393,6 @@ msgstr "Använd en rotationshastighet på [code]0,05[/code] radianer per bildrut
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:85
 #: course/lesson-11-time-delta/lesson.bbcode:146
-#, fuzzy
 msgid "Call the [code]rotate()[/code] and [code]move_local_x()[/code] functions"
 msgstr "För att göra detta, lägg till funktionerna [code]rotate()[/code] och [code]move_local_x()[/code] till [code]_process()[/code]."
 
@@ -2919,7 +2855,6 @@ msgid "Define the [code]angular_speed[/code] variable at the top of the script t
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.bbcode:85
-#, fuzzy
 msgid "Don't forget to use it in the [code]rotate()[/code] function"
 msgstr "Ta funktionen [code]_process()[/code]."
 
@@ -3168,7 +3103,6 @@ msgid "[code]<[/code]  Less than"
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:107
-#, fuzzy
 msgid "[code]==[/code] Equal to"
 msgstr "[code]show()[/code]"
 
@@ -3217,7 +3151,6 @@ msgid "To check your code, I will call the [code]heal()[/code] function twice, l
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:149
-#, fuzzy
 msgid "After those two calls, [code]health[/code] should be equal to [code]80[/code]."
 msgstr "Definiera en variabel som heter [code]health[/code] med ett startvärde på [code]100[/code]."
 
@@ -3397,7 +3330,7 @@ msgstr ""
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid ""
 "- Increases [code]level[/code] by one.\n"
-"- Increases [code]max_health[/code] by 10%."
+"- Increases [code]max_health[/code] by 10%.\n"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
@@ -3810,7 +3743,7 @@ msgid ""
 "- Reading and processing a file, like a text document, line by line.\n"
 "- Processing a constant stream of data, like someone recording audio with a microphone.\n"
 "- Reading code and converting it into instructions the computer understands.\n"
-"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI."
+"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI.\n"
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
@@ -3834,7 +3767,6 @@ msgid "We store the robot's position in a variable named [code]cell[/code]. The 
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "The board size is stored in a variable named [code]board_size[/code] that contains a [code]Vector2[/code] value."
 msgstr "Definiera en variabel som heter [code]health[/code] med ett startvärde på [code]100[/code]."
 
@@ -4134,7 +4066,7 @@ msgid ""
 "- The player's party in an RPG.\n"
 "- The items in the player's inventory.\n"
 "- The high scores in an arcade game.\n"
-"- The objects in the game world."
+"- The objects in the game world.\n"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:62
@@ -4341,7 +4273,7 @@ msgstr ""
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:74
 msgid ""
 "- In a condition, the [code]in[/code] keyword allows you to check if a value exists [i]in[/i] an array.\n"
-"- The array's [code]append()[/code] function appends a new value at the end of the array."
+"- The array's [code]append()[/code] function appends a new value at the end of the array.\n"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:75
@@ -4559,7 +4491,7 @@ msgstr ""
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid ""
 "- [code]\"jab\"[/code] (makes the robot perform a quick punch)\n"
-"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)"
+"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)\n"
 msgstr ""
 
 #: course/lesson-21-strings/lesson.bbcode:73
@@ -4698,7 +4630,7 @@ msgstr ""
 #: course/lesson-22-functions-return-values/lesson.bbcode:80
 msgid ""
 "- Cell [code]Vector2(1, 0)[/code] is at pixel position [code]Vector2(120, 0)[/code].\n"
-"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels."
+"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels.\n"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:81
@@ -5299,7 +5231,7 @@ msgstr ""
 msgid ""
 "- Three \"healing heart\".\n"
 "- Nine \"gems\".\n"
-"- One \"sword\"."
+"- One \"sword\".\n"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
@@ -5853,61 +5785,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid "30"
-#~ msgstr "30"
-
-#~ msgid "[code]degrees = radians * 180 / PI[/code]"
-#~ msgstr "[code]degrees = radians * 180 / PI[/code]"
-
-#~ msgid "[code]move_forward(30)[/code]"
-#~ msgstr "[code]move_forward(30)[/code]"
-
-#~ msgid "The instructions inside the function [b]must[/b] all start with a leading tab character. You can insert that tab character by pressing the [b]Tab[/b] key."
-#~ msgstr "Instruktionerna i funktionen [b]måste[/b] alla börja med ett inledande tabbtecken. Du kan infoga tabbtecknet genom att trycka på tangenten [b]Tab[/b]."
-
-#~ msgid "We call those leading tabs [i]indents[/i]. They're important: the computer uses them to know which instructions are part of the same code block."
-#~ msgstr "Vi kallar de ledande tabbarna för [i]indrag[/i]. De är viktiga: datorn använder dem för att veta vilka instruktioner som ingår i samma kodblock."
-
-#~ msgid "The [code]radians[/code] can be a positive or negative number, which allows you to rotate both clockwise and counter-clockwise."
-#~ msgstr "[code]radianer[/code] kan vara ett positivt eller negativt tal, vilket gör att du kan rotera både medurs och moturs."
-
-#~ msgid "Wherever the computer sees the identifier [code]radians[/code] inside the function, it replaces it with the [code]0.5[/code] value."
-#~ msgstr "Varhelst datorn ser identifieraren [code]radians[/code] inuti funktionen, ersätter datorn den med värdet [code]0,5[/code]."
-
-#~ msgid "The parameter name is always a label you use to refer to a [i]value[/i]. The value in question can be a number, text, or anything else."
-#~ msgstr "Parameternamnet är alltid en etikett som du använder för att referera till ett [i]värde[/i]. Värdet i fråga kan vara ett nummer, text eller något annat."
-
-#~ msgid "For now, we'll stick to numbers as we have yet to see other value types."
-#~ msgstr "För närvarande kommer vi att hålla oss till siffror eftersom vi ännu inte har sett andra värdetyper."
-
-#~ msgid "A parameter is a label that represents a value."
-#~ msgstr "En parameter är en etikett som representerar ett värde."
-
-#~ msgid "To do so, you add a name inside of the parentheses."
-#~ msgstr "För att göra det lägger du till ett namn inom parentesen."
-
-#~ msgid "Parameters make your code easier to reuse."
-#~ msgstr "Parametrar gör din kod lättare att återanvända."
-
-#~ msgid "Here we have an incomplete function that will draw corners with lines of any length, but it's missing its [code]length[/code] parameter."
-#~ msgstr "Här har vi en ofullständig funktion som kommer att rita hörn med linjer av valfri längd, men den saknar parametern [code]length[/code]."
-
-#, fuzzy
-#~ msgid "Let's make our square drawing function more flexible to include rectangles of varying sizes."
-#~ msgstr "Låt oss göra vår fyrkantiga ritfunktion mer flexibel så att den inkluderar rektanglar av varierande storlek."
-
-#~ msgid "Your job is to code a function named [code]draw_rectangle()[/code] that takes two parameters: the [code]length[/code] and the [code]height[/code] of the rectangle."
-#~ msgstr "Ditt jobb är att koda en funktion som heter [code]draw_rectangle()[/code] som tar två parametrar: [code]length[/code] (längd) och [code]height[/code](höjd) för rektangeln."
-
-#~ msgid "[b]The turtle should face towards the right when starting or completing a rectangle.[/b]"
-#~ msgstr "Sköldpaddan ska vända sig åt höger när man startar eller slutför en rektangel."
-
-#~ msgid "Note that we could still draw a square with [code]draw_rectangle()[/code] by having the [code]length[/code] and [code]height[/code] equal the same value."
-#~ msgstr "Observera att vi fortfarande kan rita en kvadrat med [code]draw_rectangle()[/code] genom att ha [code]length[/code] och [code]height[/code] lika med samma värde."

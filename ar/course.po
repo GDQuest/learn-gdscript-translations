@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: course/lesson-1-what-code-is-like/lesson.bbcode:1
 msgid "What Code is Like"
 msgstr "كيف يبدو الكود"
@@ -38,7 +39,6 @@ msgstr "إخبار الكمبيوتر بما يجب فعله"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
-#, fuzzy
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"] that tell a computer how to perform a task."
 msgstr "البرمجة هي عملية كتابة تعليمات دقيقة تخبر جهاز الكمبيوتر بكيفية أداء مهمة ما."
 
@@ -123,7 +123,6 @@ msgid "This is a language by game developers for game developers. You can use it
 msgstr "هذه لغة برمجة من مطوري الألعاب لمطوري الألعاب. يمكنك استخدامها ضمن محرك الألعاب Godot لإنشاء الألعاب والتطبيقات."
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:57
-#, fuzzy
 msgid "It's the language used by games like [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] and [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url], and Godot also powers hits like [ignore][url=https://store.steampowered.com/app/2835570/Buckshot_Roulette/]Buckshot Roulette[/url] and [ignore][url=https://store.steampowered.com/app/2868840/Slay_the_Spire_2/]Slay the Spire 2[/url]."
 msgstr "إنها اللغة المستخدمة في ألعاب مثل [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] و [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url]."
 
@@ -239,11 +238,11 @@ msgstr "خلال هذه الرحلة، سنعلمك:"
 msgid ""
 "- Some of the mindset you need as a developer. Too many programming courses skip that essential part.\n"
 "- How to write GDScript code.\n"
-"- Essential programming foundations to get you started."
+"- Essential programming foundations to get you started.\n"
 msgstr ""
 "* بعض العقلية التي تحتاجها كمطور؛ فالكثير من دورات البرمجة تتخطى هذا الجزء الجوهري.\n"
 "* كيفية كتابة كود GDScript.\n"
-"* أسس البرمجة الضرورية لتبدأ طريقك."
+"* أسس البرمجة الضرورية لتبدأ طريقك.\n"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:130
 msgid "As you go through the course, you will have many questions. We will answer them the best we can as we go."
@@ -759,7 +758,7 @@ msgstr ""
 msgid ""
 "- [code]move_forward(pixels)[/code] makes the turtle move forward over a given distance in [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] makes the turtle turn clockwise by a precise amount of [i]degrees[/i].\n"
-"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise."
+"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise.\n"
 msgstr ""
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:17
@@ -1636,7 +1635,7 @@ msgstr ""
 msgid ""
 "- The player's score.\n"
 "- Every character or enemy's health.\n"
-"- The last checkpoint."
+"- The last checkpoint.\n"
 msgstr ""
 
 #: course/lesson-7-member-variables/lesson.bbcode:16
@@ -2050,7 +2049,7 @@ msgstr ""
 #: course/lesson-8-defining-variables/lesson.bbcode:101
 msgid ""
 "- At line 2, the [code]health[/code] variable holds a number.\n"
-"- From line 3, [code]health[/code] holds text."
+"- From line 3, [code]health[/code] holds text.\n"
 msgstr ""
 
 #: course/lesson-8-defining-variables/lesson.bbcode:102
@@ -2218,7 +2217,6 @@ msgid "Our robot needs healing after that practice! Create a function to heal it
 msgstr ""
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:72
-#, fuzzy
 msgid "Define the [code]heal()[/code] function using [code]func[/code]"
 msgstr "استخدمنا الدالة [code]range()[/code] مع حلقات [code]for[/code]."
 
@@ -3317,7 +3315,7 @@ msgstr ""
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid ""
 "- Increases [code]level[/code] by one.\n"
-"- Increases [code]max_health[/code] by 10%."
+"- Increases [code]max_health[/code] by 10%.\n"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
@@ -3730,7 +3728,7 @@ msgid ""
 "- Reading and processing a file, like a text document, line by line.\n"
 "- Processing a constant stream of data, like someone recording audio with a microphone.\n"
 "- Reading code and converting it into instructions the computer understands.\n"
-"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI."
+"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI.\n"
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
@@ -3980,7 +3978,6 @@ msgid "Creating arrays"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:5
-#, fuzzy
 msgid "The [code]range()[/code] function we saw in the previous lesson outputs a list of numbers. For example, calling [code]range(3)[/code] produces the list of numbers [code][0, 1, 2][/code]."
 msgstr "الدالة `range()` التي رأيناها في الدرس السابق تُخرج قائمة من الأرقام. على سبيل المثال، استدعاء `range(3)` يُنتج قائمة الأرقام `0, 1, 2`."
 
@@ -4054,7 +4051,7 @@ msgid ""
 "- The player's party in an RPG.\n"
 "- The items in the player's inventory.\n"
 "- The high scores in an arcade game.\n"
-"- The objects in the game world."
+"- The objects in the game world.\n"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:62
@@ -4261,7 +4258,7 @@ msgstr ""
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:74
 msgid ""
 "- In a condition, the [code]in[/code] keyword allows you to check if a value exists [i]in[/i] an array.\n"
-"- The array's [code]append()[/code] function appends a new value at the end of the array."
+"- The array's [code]append()[/code] function appends a new value at the end of the array.\n"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:75
@@ -4479,7 +4476,7 @@ msgstr ""
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid ""
 "- [code]\"jab\"[/code] (makes the robot perform a quick punch)\n"
-"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)"
+"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)\n"
 msgstr ""
 
 #: course/lesson-21-strings/lesson.bbcode:73
@@ -4507,18 +4504,15 @@ msgid "Functions that return a value"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:5
-#, fuzzy
 msgid "Until now, you learned that functions are a way to group instructions, give them a name, and reuse them."
 msgstr "حتى الآن، تعلمت أن الدوال (functions) هي مجموعة من التعليمات نعطيها اسمًا، ويمكنك استخدامها (استدعاؤها) في أي وقت."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-22-functions-return-values/lesson.bbcode:6
-#, fuzzy
 msgid "Functions can also make calculations and [glossary term=\"return\"] new values."
 msgstr "لكن بالإضافة إلى ذلك، يمكن للدوال أن تقوم بحسابات وتُعيد (ترجع) لك قيَمًا جديدة."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:7
-#, fuzzy
 msgid "Let's look at some examples to see why this is useful."
 msgstr "دعنا نلقي نظرة على بعض الأمثلة لنفهم لماذا هذا مفيد."
 
@@ -4621,7 +4615,7 @@ msgstr ""
 #: course/lesson-22-functions-return-values/lesson.bbcode:80
 msgid ""
 "- Cell [code]Vector2(1, 0)[/code] is at pixel position [code]Vector2(120, 0)[/code].\n"
-"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels."
+"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels.\n"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:81
@@ -4693,12 +4687,10 @@ msgid "Appending and popping values from arrays"
 msgstr ""
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:9
-#, fuzzy
 msgid "In previous lessons, you learned how to create arrays to store lists of values and how to loop over them. That's useful, but arrays can do much more."
 msgstr "في الدروس السابقة، تعلمت كيف تنشئ مصفوفات لتخزين مجموعة من القيم، وكيف تكرّر عليها باستخدام الحلقات.هذا رائع، لكنه ليس كافيًا لوحده."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:10
-#, fuzzy
 msgid "The real strength of GDScript arrays is that you can add and remove values from them at any time. This lets you build waiting lines of data or piles of data. We call these [i]queues[/i] and [i]stacks[/i], respectively. We'll see what that means in this lesson."
 msgstr "الشيء القوي في المصفوفات هو أنك تستطيع إضافة قيم جديدة أو إزالة قيم منها في أي وقت. هذا يساعدك على ترتيب البيانات في شكل [i]طابور[/i] أو [i]مكدس[/i]."
 
@@ -5224,7 +5216,7 @@ msgstr ""
 msgid ""
 "- Three \"healing heart\".\n"
 "- Nine \"gems\".\n"
-"- One \"sword\"."
+"- One \"sword\".\n"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
@@ -5778,6 +5770,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "Engineers at Tesla also used it for their cars' dashboards."
-#~ msgstr "كما استخدمها المهندسون في شركة تسلا في لوحات عدادات سياراتهم."

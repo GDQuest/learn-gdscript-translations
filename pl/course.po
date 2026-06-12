@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: course/lesson-1-what-code-is-like/lesson.bbcode:1
 msgid "What Code is Like"
 msgstr "Czym jest kod"
@@ -37,7 +38,6 @@ msgstr "Mówienie komputerowi co ma robić"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
-#, fuzzy
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"] that tell a computer how to perform a task."
 msgstr "Programowanie to proces pisania precyzyjnych instrukcji, które mówią komputerowi, jak wykonać określone zadanie."
 
@@ -206,7 +206,6 @@ msgid "Learning to make games takes practice"
 msgstr "Nauka tworzenia gier wymaga praktyki"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:106
-#, fuzzy
 msgid "Creating games is more accessible than ever, but it still takes a lot of work and practice."
 msgstr "Tworzenie gier jest teraz bardziej przystępne niż kiedykolwiek wcześniej, jednak nadal wymaga dużo pracy i praktyki. Nie oczekuj, że jeden pojedynczy kurs lub książka magicznie zamieni cię w profesjonalistę. Programowanie to coś, czego uczysz się poprzez praktykę."
 
@@ -231,7 +230,6 @@ msgid "In this free course, you will learn the foundations you need to start cod
 msgstr "W tym bezpłatnym kursie nauczysz się podstaw potrzebnych do rozpoczęcia kodowania takich rzeczy:"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:128
-#, fuzzy
 msgid "Along the way, we'll teach you:"
 msgstr "W drodze do tego nauczymy cię:"
 
@@ -239,12 +237,12 @@ msgstr "W drodze do tego nauczymy cię:"
 msgid ""
 "- Some of the mindset you need as a developer. Too many programming courses skip that essential part.\n"
 "- How to write GDScript code.\n"
-"- Essential programming foundations to get you started."
+"- Essential programming foundations to get you started.\n"
 msgstr ""
 "- Niektórych ze sposób myślenia, których potrzebujesz jako programista. Zbyt wiele kursów programowania pomija tę istotną część.\n"
 "- Trochę podstaw programowania gier. Wiedza o tym pomoże ci w każdym silniku gry.\n"
 "- Pisania prawdziwego kodu w GDScript.\n"
-"- Większości składni języka GDScript."
+"- Większości składni języka GDScript.\n"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:130
 msgid "As you go through the course, you will have many questions. We will answer them the best we can as we go."
@@ -275,7 +273,6 @@ msgid "Programming is a skill"
 msgstr "Programowanie to umiejętność"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:142
-#, fuzzy
 msgid "Programming is a skill, so to get good at it, you must practice. It is why we built this app."
 msgstr "Programowanie to umiejętność, więc aby być w niej dobrym, musisz ćwiczyć. Dlatego stworzyliśmy tę aplikację."
 
@@ -397,13 +394,11 @@ msgstr "Ten kod jest nieprawidłowy i spowoduje błąd podczas próby jego uruch
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "The code defines an empty [glossary term=\"function\"] named [code]this_code_is_wrong[/code]."
 msgstr "Kod definiuje pustą funkcję o nazwie [code]this_code_is_wrong[/code]."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "To work, the function should use the [glossary term=\"return\"] keyword. But this keyword is currently inside a comment, which the computer ignores."
 msgstr "Aby funkcja zadziałała, funkcja powinna używać słowa kluczowego [code]return[/code]. Słowo to jednak aktualnie znajduje się w komentarzu, który komputer ignoruje."
 
@@ -441,7 +436,6 @@ msgstr "Każdy język programowania zawiera całe bogactwo funkcji stworzonych p
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:9
-#, fuzzy
 msgid "We call a bundle of code created by fellow developers a [glossary term=\"library\"]."
 msgstr "Pakiet kodu stworzony przez innych programistów nazywamy [i]biblioteką[/i]."
 
@@ -463,13 +457,11 @@ msgstr "Podczas programowania zawsze korzystasz z dużej ilości kodu stworzoneg
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:18
-#, fuzzy
 msgid "In a moment, you'll write your first code. You'll use [glossary term=\"functions\"] created by the Godot developers."
 msgstr "Za chwilę napiszesz swój pierwszy kod. Wykorzystasz w nim \\[i]funkcje\\[/i] stworzone przez programistów Godota."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:19
-#, fuzzy
 msgid "A function is a list of [glossary term=\"instructions\"] with an exact name. We can tell the computer to execute all the instructions in sequence with that name."
 msgstr "Funkcja to lista instrukcji mająca konkretną nazwę. Możemy powiedzieć komputerowi, aby wykonał wszystkie te instrukcje po kolei, wywołując tę nazwę."
 
@@ -547,13 +539,11 @@ msgstr "Argumenty funkcji"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:59
-#, fuzzy
 msgid "We use parentheses to call functions because you can give the function [glossary term=\"arguments\"] inside the parentheses when calling it."
 msgstr "Używamy nawiasów, aby wywołać funkcje, ponieważ w nawiasach można podać argumenty podczas wywoływania funkcji."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:60
-#, fuzzy
 msgid "Here's a [glossary term=\"sprite\"] standing straight. If we call the [code]rotate(0.3)[/code] function, the character [i]sprite[/i] turns by 0.3 radians."
 msgstr "Oto sprite stojący prosto. Jeśli wywołamy funkcję [code]rotate(0.3)[/code], postać sprite obraca się o 0,3 radiana."
 
@@ -587,7 +577,6 @@ msgstr "Czym są radiany?"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:78
-#, fuzzy
 msgid "The value of [code]0.3[/code] is an angle in [glossary term=\"radians\"]. In daily life, we're used to measuring angles in degrees. The radian is another scale commonly used in video games and math."
 msgstr "Wartość [code]0.3[/code] to kąt w [i]radianach[/i]. W życiu codziennym jesteśmy przyzwyczajeni do mierzenia kątów w stopniach. Radian to kolejna skala powszechnie używana w grach wideo i matematyce."
 
@@ -624,7 +613,6 @@ msgid "Both answers were right! Technically, the code calls the [code]show()[/co
 msgstr "Obie odpowiedzi były prawidłowe! Z technicznego punktu widzenia kod wywołuje funkcję [code]show()[/code]. A dzięki jej wywołaniu dana rzecz staje się widoczna."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
-#, fuzzy
 msgid "It calls the function named \"show\"."
 msgstr "Wywołuje funkcję o nazwie „show”"
 
@@ -633,7 +621,6 @@ msgid "It makes the entity (like a game character or a sprite) visible."
 msgstr "Sprawia, że dana rzecz (jak postać w grze lub sprite) staje się widoczna."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:108
-#, fuzzy
 msgid "Another example: With the [code]move_local_x()[/code] function, you can move the character to its left and right. The function takes one argument: a number of pixels to offset the entity."
 msgstr "Inny przykład: za pomocą funkcji [code]move_local_x()[/code] możesz przesuwać postać w lewo i w prawo. Funkcja ta przyjmuje jeden argument: liczbę pikseli do przesunięcia jednostki."
 
@@ -726,7 +713,6 @@ msgid "The robot is turned sideways. Help it straighten up with a function call.
 msgstr "Robot jest obrócony na bok. Pomóż mu się wyprostować wywołując odpowiednią funkcję."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
-#, fuzzy
 msgid "You need to use the rotate() function, and give the proper arguments."
 msgstr "We wcześniejszych lekcjach używałeś funkcji [code]rotate()[/code] i przekazywałeś jej [i]argument[/i]."
 
@@ -761,7 +747,6 @@ msgstr "Żółwik jest niewielką maszyną, która porusza się w przód, obraca
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:14
-#, fuzzy
 msgid "To make it draw, you give it a list of [glossary term=\"instructions\"]: on each code line, you call one specific function."
 msgstr "Aby [i]uczynić go[/i] narzędziem do rysowania, podajesz mu listę instrukcji: w każdej linii kodu wywołujesz jedną konkretną funkcję."
 
@@ -770,15 +755,14 @@ msgid "We prepared several functions for you:"
 msgstr "Przygotowaliśmy ich dla ciebie kilka:"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:16
-#, fuzzy
 msgid ""
 "- [code]move_forward(pixels)[/code] makes the turtle move forward over a given distance in [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] makes the turtle turn clockwise by a precise amount of [i]degrees[/i].\n"
-"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise."
+"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise.\n"
 msgstr ""
 "- [code]move_forward(liczba_pikseli)[/code] sprawia, że żółwik porusza się do przodu o określoną odległość w [i]pikselach[/i].\n"
 "- [code]turn_right(liczba_stopni)[/code] powoduje, że żółwik skręca w prawo o dokładną wartość podaną w [i]stopniach[/i].\n"
-"- [code]turn_left(liczba_stopni)[/code] działa tak samo jak [code]turn_right(liczba_stopni)[/code] , z tym wyjątkiem, że żółwik skręca w lewo."
+"- [code]turn_left(liczba_stopni)[/code] działa tak samo jak [code]turn_right(liczba_stopni)[/code] , z tym wyjątkiem, że żółwik skręca w lewo.\n"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:17
 msgid "You'll use these functions the same way you used [code]rotate()[/code] before."
@@ -862,7 +846,6 @@ msgid "Drawing a Corner"
 msgstr "Narysuj róg"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:66
-#, fuzzy
 msgid "In this practice, we'll tell the turtle to draw a corner."
 msgstr "W tym ćwiczeniu wykorzystamy naszego żółwika, aby narysować róg."
 
@@ -891,12 +874,10 @@ msgid "Use the turtle to draw a square's corner. You'll then build upon it to dr
 msgstr "Użyj żółwika, aby narysować róg kwadratu. Następnie, opierając się na zdobytej umiejętności rysowania rogów, narysujesz złożony z rogów prostokąt."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:66
-#, fuzzy
 msgid "You need to add two arguments to the [code]turn_right()[/code] and [code]move_forward()[/code] functions: [code]90[/code] and [code]200[/code]."
 msgstr "Aby to zrobić, dodaj do kodu funkcji [code]_process()[/code] dwie funkcje: [code]rotate()[/code] i [code]move_local_x()[/code]."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
-#, fuzzy
 msgid "Add the correct arguments to the functions [code]move_forward()[/code] and [code]turn_right()[/code] to draw a rectangle with a width of [code]200[/code] pixels, and a height of [code]120[/code] pixels."
 msgstr "Dodaj prawidłowe parametry do funkcji [code]move_forward()[/code] i [code]turn_right()[/code], aby narysować prostokąt o szerokości [code]200[/code] pikseli i wysokości [code]120[/code] pikseli."
 
@@ -913,7 +894,6 @@ msgid "Based on your rectangle corner, you now need to draw a complete rectangle
 msgstr "Bazując na umiejętności rysowania rogów narysuj cały prostokąt."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
-#, fuzzy
 msgid "Both [code]move_forward()[/code] and [code]turn_right()[/code] take a numerical argument between the parenthesis"
 msgstr "Użyj funkcji [code]move_forward()[/code] i [code]turn_right()[/code], aby poinstruować żółwika, jak powinien to zrobić."
 
@@ -973,7 +953,6 @@ msgstr "Funkcje są nazywanymi sekwencjami instrukcji"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-5-your-first-function/lesson.bbcode:9
-#, fuzzy
 msgid "Functions are [i]sequences of [glossary term=\"instructions\"][/i] we give a name. We call that name an [i]identifier[/i]."
 msgstr "Funkcje to [i]sekwencje instrukcji[/i], którym nadajemy nazwę. Nazwę tę nazywamy [i]identyfikatorem[/i]."
 
@@ -1062,7 +1041,6 @@ msgid "Because we give functions a name, they also allow us to name a set of ins
 msgstr "Ponieważ nadajemy funkcjom nazwy, pozwala nam to nazwać zestawy instrukcji, co jest naprawdę przydatne!"
 
 #: course/lesson-5-your-first-function/lesson.bbcode:57
-#, fuzzy
 msgid "To reuse code multiple times."
 msgstr "Aby wielokrotnie użyć tego samego kodu. "
 
@@ -1215,7 +1193,6 @@ msgid "You need to define a new function below draw_square() named [code]draw_th
 msgstr ""
 
 #: course/lesson-5-your-first-function/lesson.bbcode:123
-#, fuzzy
 msgid "Your new function should call [code]draw_square()[/code] three times, on three different lines."
 msgstr "Mamy już funkcję do rysowania jednego kwadratu: [code]draw_square()[/code]. Użyjmy jej, aby narysować trzy kwadraty."
 
@@ -1228,7 +1205,6 @@ msgid "Your First Function Parameter"
 msgstr "Twój pierwszy parametr funkcji"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:7
-#, fuzzy
 msgid "In the previous lesson, you created a function to draw a square of a fixed size."
 msgstr "W poprzedniej części stworzyłeś funkcję do rysowania kwadratu o stałym rozmiarze."
 
@@ -1238,13 +1214,11 @@ msgstr "Ta funkcja jest jednak trochę ograniczająca. Zamiast tego o wiele lepi
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:9
-#, fuzzy
 msgid "In previous lessons, you used the [code]rotate()[/code] function and gave it an [glossary term=\"argument\"]."
 msgstr "We wcześniejszych lekcjach używałeś funkcji [code]rotate()[/code] i przekazywałeś jej [i]argument[/i]."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:11
-#, fuzzy
 msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]."
 msgstr "Podobnie jak w przypadku [code]rotate()[/code], my również możemy podawać naszej funkcji [i]parametry[/i]. Parametry to etykiety, które nadajemy wartościom przekazywanym do funkcji."
 
@@ -1257,7 +1231,6 @@ msgid "When you write a function with parameters, you create a flexible template
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
-#, fuzzy
 msgid "For now, focus on the first line, the function [i]definition[/i]: [code]func rotate(radians)[/code]."
 msgstr "Na ten moment skupmy się na pierwszym wierszu: [code]func rotate(radians)[/code]."
 
@@ -1266,7 +1239,6 @@ msgid "The word [code]radians[/code] is the function's parameter. It's the place
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:31
-#, fuzzy
 msgid "When you [i]call[/i] this function with [code]rotate(0.5)[/code], the computer replaces the name \"radians\" in the function with [code]0.5[/code]."
 msgstr "Gdy wywołujemy [code]rotate(0.5)[/code], komputer wiąże wartość [code]0.5[/code] z etykietą [code]radians[/code]."
 
@@ -1287,7 +1259,6 @@ msgid "A parameter is a placeholder that gets replaced with the actual value you
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
-#, fuzzy
 msgid "The value can be different each time you call the function: it depends on what you put in parentheses."
 msgstr "Wartość, o której mowa, może się zmieniać: zależy ona od tego, co umieścisz w nawiasach podczas wywoływania funkcji."
 
@@ -1308,7 +1279,6 @@ msgid "How to create functions with parameters"
 msgstr "Jak stworzyć funkcję z parametrami"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:44
-#, fuzzy
 msgid "When you write a function [i]definition[/i] (the line starting with the [code]func[/code] keyword), you can add parameters."
 msgstr "Możesz podać swojej funkcji parametry podczas pisania jej [i]definicji[/i] (linii rozpoczynającej się od słowa kluczowego [code]func[/code])."
 
@@ -1317,12 +1287,10 @@ msgid "To add a parameter, write a placeholder name inside the parentheses. When
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:52
-#, fuzzy
 msgid "You can give parameters any name! How you name functions and parameters is up to you."
 msgstr "Możesz nadać parametrom dowolną nazwę. To, jak nazwiesz funkcje i parametry, zależy tylko od ciebie."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:53
-#, fuzzy
 msgid "Just remember that names cannot contain spaces. To write parameter names with multiple words, in GDScript, we use underscores by convention."
 msgstr "Pamiętaj tylko, że nazwy nie mogą zawierać spacji. Aby stworzyć nazwę parametru wykorzystującej wiele słów, musisz użyć podkreśleń."
 
@@ -1335,7 +1303,6 @@ msgid "Parameters make your code easier to reuse. You write the function once as
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:59
-#, fuzzy
 msgid "Here's an example with a function to draw any square. The parameter [code]size[/code] is a placeholder. Use the slider to change the value. When you click the button, the app calls [code]draw_square()[/code] and the placeholder gets replaced with your value, drawing squares of different sizes."
 msgstr "Spójrz na przykład z funkcją rysowania dowolnego kwadratu. Użyj suwaka, aby zmienić wartość przekazywaną do funkcji i narysuj kwadraty o różnych rozmiarach."
 
@@ -1372,12 +1339,10 @@ msgid "Functions can have multiple parameters"
 msgstr "Funkcje mogą mieć wiele parametrów"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:78
-#, fuzzy
 msgid "A function can have multiple parameters. You can use as many placeholders as you [i]need[/i]."
 msgstr "W funkcji możemy używać wielu parametrów. Tak po prawdziwe możesz użyć tylu parametrów, ilu tylko [i]potrzebujesz[/i]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:79
-#, fuzzy
 msgid "To add multiple parameters, write a comma between each placeholder name."
 msgstr "Aby oddzielić od siebie parametry funkcji, należy wpisać pomiędzy nie wpisać przecinek."
 
@@ -1386,7 +1351,6 @@ msgid "For example, [code]func move(x, y)[/code] has two placeholders: [code]x[/
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:80
-#, fuzzy
 msgid "Must I write spaces between function parameters?"
 msgstr "Czy muszę wpisywać spacje między parametrami funkcji?"
 
@@ -1403,7 +1367,6 @@ msgid "We often use spaces after the comma for readability."
 msgstr "Spacji po przecinku używamy wyłącznie dla czytelności. Wcale nie musi tam być."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:92
-#, fuzzy
 msgid "The following example shows a function with two parameters. The function moves an entity on both the X and Y axes."
 msgstr "W poniższym przykładzie zdefiniowano funkcję, która używa dwóch parametrów do przenoszenia jednostki na obu osiach X i Y."
 
@@ -1416,7 +1379,6 @@ msgid "How should I name my functions and parameters?"
 msgstr "Jak powinienem nazywać swoje funkcje i parametry?"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:95
-#, fuzzy
 msgid "The names of functions, parameters, or other things in your code are entirely up to you."
 msgstr "Nazwy funkcji, parametrów lub innych elementów w kodzie zależą wyłącznie od ciebie. Nie ma znaczenia, czy będziesz nazywał tworzone przez siebie elementy po angielsku, polsku czy w jeszcze innym języku."
 
@@ -1497,7 +1459,6 @@ msgid "func function_name(): parameter_1, parameter_2, ..."
 msgstr "func nazwa_funkcji(): parameter_1, parameter_2, ..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Now it's your turn to create a function with multiple parameters."
 msgstr "Teraz twoja kolej, żeby utworzyć funkcję z wieloma parametrami: funkcję do rysowania prostokątów o dowolnym rozmiarze."
 
@@ -1510,7 +1471,6 @@ msgid "Drawing corners of different sizes"
 msgstr "Rysowanie rogów o różnych rozmiarach"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Before we create a rectangle of any size, let's first practice with a simpler shape."
 msgstr "Nim stworzymy prostokąt o dowolnym rozmiarze, zobaczmy najpierw, jak możemy użyć parametrów do narysowania prostszych kształtów."
 
@@ -1523,7 +1483,6 @@ msgid "Your task is to add a parameter named [code]length[/code] to your functio
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Your function should move the turtle forward by an amount defined by the [code]length[/code] parameter, turn right [code]90[/code] degrees, then move forward by [code]length[/code] again."
 msgstr "Funkcja ma przesunąć żółwika do przodu o wartość określoną przez parametr [code]length[/code], obrócić go o [code]90[/code] stopni, a następnie przesunąć do przodu o [code]length[/code] pikseli."
 
@@ -1544,7 +1503,6 @@ msgid "Using multiple parameters"
 msgstr "Używanie kilku parametrów"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Now let's make the [code]draw_corner()[/code] function even more flexible. We'll add a second placeholder so the angle can also vary."
 msgstr "W ramach tego ćwiczenia ulepszymy naszą funkcję [code]draw_corner()[/code], aby kąt pod którym skręca nasz żółwik również mógł się różnić."
 
@@ -1553,7 +1511,6 @@ msgid "I will call your function with different length and angle values:"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Your task is to add the [code]angle[/code] parameter after [code]length[/code] in the function definition. Remember to separate the two placeholders with a comma."
 msgstr "Dodaj parametr [code]angle[/code] do funkcji [code]draw_corner()[/code] i użyj go do rysowania rogów o różnych kątach."
 
@@ -1574,19 +1531,17 @@ msgid "You need to add the parameter [code]angle[/code] two times in this practi
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Use [code]func draw_corner(length, angle):[/code]"
 msgstr ""
 "[code]\n"
 "func _process(delta):\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Drawing squares of any size"
 msgstr "Rysowanie kwadratów o dowolnym rozmiarze"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
 msgid "Time to write a complete function from scratch! You'll make a function that draws squares of any size."
 msgstr "Teraz twoja kolej, żeby utworzyć funkcję z wieloma parametrami: funkcję do rysowania prostokątów o dowolnym rozmiarze."
 
@@ -1615,12 +1570,11 @@ msgid "You need to specify one parameter in the function definition"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
 msgid "Use [code]func draw_square(length):[/code]"
 msgstr ""
 "[code]\n"
 "func _process(delta):\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Call [code]move_forward()[/code] four times for each side of the square"
@@ -1635,7 +1589,6 @@ msgid "Drawing rectangles of any size"
 msgstr "Rysowanie prostokątów o dowolnych rozmiarach"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-#, fuzzy
 msgid "Let's create a function to draw rectangles with any length and height."
 msgstr "Używając dwóch parametrów zakoduj funkcję do rysowania rogów o dowolnym kącie."
 
@@ -1668,12 +1621,11 @@ msgid "You need to specify the two parameters in the function definition"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-#, fuzzy
 msgid "Use [code]func draw_rectangle(length, height):[/code]"
 msgstr ""
 "[code]\n"
 "func _process(delta):\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 msgid "When calling move_forward, you need to alternate between using the length and the height arguments when calling move_forward."
@@ -1695,11 +1647,11 @@ msgstr "W grach musisz śledzić wiele wartości, które zmieniają się w czasi
 msgid ""
 "- The player's score.\n"
 "- Every character or enemy's health.\n"
-"- The last checkpoint."
+"- The last checkpoint.\n"
 msgstr ""
 "- Wynik gracza.\n"
 "- Zdrowie każdej postaci lub wroga.\n"
-"- Ostatni punkt kontrolny."
+"- Ostatni punkt kontrolny.\n"
 
 #: course/lesson-7-member-variables/lesson.bbcode:16
 msgid "And so much more. You need to store, retrieve, and update those values."
@@ -1707,7 +1659,6 @@ msgstr "A to nie wszystkie z nich. Musisz przechowywać, pobierać i aktualizowa
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-7-member-variables/lesson.bbcode:17
-#, fuzzy
 msgid "We call those values [i][glossary term=\"variables\"][/i]. Variables are labels you use to keep track of values that vary over time. Here's an example of a variable tracking a character or monster's health."
 msgstr "Nazywamy te wartości [i]zmiennymi[/i]. Zmienne to etykiety używane do śledzenia wartości zmieniających się w czasie. Oto przykład zmiennej śledzącej zdrowie postaci lub potwora."
 
@@ -1721,7 +1672,6 @@ msgstr "Parametry funkcji, z którymi zapoznałeś się w poprzedniej lekcji, to
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-7-member-variables/lesson.bbcode:23
-#, fuzzy
 msgid "In this lesson, we start using variables built into Godot. They're a particular kind called [i][glossary term=\"member variables\"][/i]."
 msgstr "W tej lekcji zaczniemy używać zmiennych wbudowanych w Godota. Jest to szczególny rodzaj zmiennych nazywany [i]zmiennymi składowymi[/i]."
 
@@ -1782,7 +1732,6 @@ msgid "Accessing sub-variables with the dot"
 msgstr "Dostęp do podzmiennych z wykorzystaniem kropki"
 
 #: course/lesson-7-member-variables/lesson.bbcode:62
-#, fuzzy
 msgid "In video games, you will see many member variables that have sub-values."
 msgstr "W grach wideo zobaczysz wiele zmiennych składowych mających wartości podrzędne."
 
@@ -1819,7 +1768,6 @@ msgid "In games, the Y-axis is positive going down"
 msgstr "W grach oś Y schodzi dodanio w dół"
 
 #: course/lesson-7-member-variables/lesson.bbcode:78
-#, fuzzy
 msgid "Note that in games, assuming your character's position starts at (0, 0), the code above moves the entity [code]200[/code] pixels to the right and [code]250[/code] pixels down."
 msgstr "Zwróć uwagę, że w grach (zakładając, że pozycja twojej postaci zaczyna się od (0, 0)) powyższy kod przesuwa jednostkę o [code]180[/code] pikseli w prawo i [code]120[/code] pikseli w dół."
 
@@ -1832,7 +1780,6 @@ msgid "The convention is the [i]opposite[/i] in video games and many computer ap
 msgstr "Konwencja ta jest [i]przeciwna[/i] w grach wideo i wielu aplikacjach komputerowych: tutaj oś y jest dodatnia, gdy schodzimy w dół."
 
 #: course/lesson-7-member-variables/lesson.bbcode:80
-#, fuzzy
 msgid "Why does the Y-axis point downwards?"
 msgstr "W grach oś Y schodzi dodanio w dół"
 
@@ -1921,12 +1868,10 @@ msgid "You should set the X position to 120, and the Y position to 100."
 msgstr ""
 
 #: course/lesson-7-member-variables/lesson.bbcode:112
-#, fuzzy
 msgid "You need to pass the numbers 200 and 120 respectively to draw_rectangle()."
 msgstr "Aby narysować poprawny prostokąt, musisz odpowiednio zmienić liczby przypisane w edytorze kodu."
 
 #: course/lesson-7-member-variables/lesson.bbcode:133
-#, fuzzy
 msgid "Draw squares at different positions"
 msgstr "Narysuj prostokąty o różnych pozycjach"
 
@@ -1951,7 +1896,6 @@ msgid "Use the provided [code]draw_rectangle()[/code] function to draw each squa
 msgstr ""
 
 #: course/lesson-7-member-variables/lesson.bbcode:133
-#, fuzzy
 msgid "Now you can place and draw one shape, but how about drawing several? In this practice, you'll place three squares side by side to really get the hang of properties."
 msgstr "Będąc w stanie narysować jeden prostokąt o podanej pozycji, co powiesz na spozycjonowanie kilku? Naprawdę staniesz się z właściwościami za pan brat."
 
@@ -1973,7 +1917,6 @@ msgstr "Definiowanie własnych zmiennych"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-8-defining-variables/lesson.bbcode:3
-#, fuzzy
 msgid "In the previous lesson, you used a predefined member [glossary term=\"variable\"] named [code]position[/code]."
 msgstr "W poprzedniej lekcji używałeś wstępnie zdefiniowanej zmiennej członkowskiej o nazwie [code]position[/code]."
 
@@ -2039,7 +1982,6 @@ msgstr "Podobnie jak w przypadku funkcji, nazwa zmiennej składowej musi być un
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-8-defining-variables/lesson.bbcode:41
-#, fuzzy
 msgid "To use a variable, you want to [glossary term=\"assign\"] it a starting value. You can do so using the equal sign (=)."
 msgstr "Aby używać zmiennej, będziesz chciał przypisać jej wartość początkową. Możesz to zrobić za pomocą znaku równości (=)."
 
@@ -2122,7 +2064,7 @@ msgstr ""
 #: course/lesson-8-defining-variables/lesson.bbcode:101
 msgid ""
 "- At line 2, the [code]health[/code] variable holds a number.\n"
-"- From line 3, [code]health[/code] holds text."
+"- From line 3, [code]health[/code] holds text.\n"
 msgstr ""
 
 #: course/lesson-8-defining-variables/lesson.bbcode:102
@@ -2154,7 +2096,6 @@ msgid "In this practice, you'll define your first variable and give it a specifi
 msgstr "W tym ćwiczeniu zdefiniujesz swoją pierwszą zmienną i nadasz jej konkretną wartość początkową."
 
 #: course/lesson-8-defining-variables/lesson.bbcode:100
-#, fuzzy
 msgid "To define a variable, you write the keyword var, a space, and the variable name"
 msgstr "Aby uzyskać dostęp do podzmiennej, musisz wpisać kropkę między nazwą zmiennej nadrzędnej a nazwą podzmiennej."
 
@@ -2219,14 +2160,13 @@ msgid "Which of these would increase the health of the robot?"
 msgstr "Które z podanych operacji zwiększą zdrowie naszego robota?"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
-#, fuzzy
 msgid "Both of these lines increase the [code]health[/code] of the robot by [code]amount[/code]."
 msgstr ""
 "Oba te wiersze zwiększą zdrowie reprezentowane przez [code]health[/code] o wartość [code]amount[/code].\n"
 "[code]\n"
 "health += amount\n"
 "health = health + amount\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 msgid "health -= amount"
@@ -2269,7 +2209,6 @@ msgid "Learn how to deal damage to entities like our robot."
 msgstr "Dowiedz się, jak zadawać obrażenia jednostkom takim jak nasz robot."
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:50
-#, fuzzy
 msgid "Add an instruction to subtract [code]amount[/code] from [code]health[/code]."
 msgstr "Wiersz 2 odejmuje [code]amount[/code] od naszego zdrowia reprezentowanego przez [code]health[/code]."
 
@@ -2298,7 +2237,6 @@ msgid "Our robot needs healing after that practice! Create a function to heal it
 msgstr "Po poprzednim ćwiczeniu nasz robot potrzebuje leczenia! Utwórz funkcję, która wyleczy go z powrotem do pełnego zdrowia."
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:72
-#, fuzzy
 msgid "Define the [code]heal()[/code] function using [code]func[/code]"
 msgstr "Używaliśmy funkcji \\[code]range()\\[/code] w połączeniu z pętlami \\[code]for\\[/code]."
 
@@ -2375,7 +2313,6 @@ msgid "Other game engines might use different names like [code]_update()[/code].
 msgstr "Inne silniki gier dla tej samej funkcji mogą używać innych nazw, takich jak [code]_update()[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:42
-#, fuzzy
 msgid "Why is the _process() function useful?"
 msgstr "Jak często uruchamiana jest funkcja _process()?"
 
@@ -2397,7 +2334,6 @@ msgstr "Od tego momentu w każdej klatce Godot uruchamiać będzie funkcję [cod
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-10-the-game-loop/lesson.bbcode:56
-#, fuzzy
 msgid "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the character by [code]0.05[/code] [glossary term=\"radians\"] [b]many[/b] times a second."
 msgstr "Ponieważ napisaliśmy instrukcję [code]rotate()[/code], Godot będzie obracał naszą postać o [code]0.05[/code] radiana [b]wiele[/b] razy na sekundę."
 
@@ -2438,12 +2374,10 @@ msgid "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr "Prędkość obrotu powinna wynieść około [code]0.05[/code] radianu na każdą ramkę."
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
-#, fuzzy
 msgid "Call the [code]rotate()[/code] function"
 msgstr "Weźmy na warsztat funkcję [code]_process()[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
-#, fuzzy
 msgid "The [code]rotate()[/code] function takes one parameter"
 msgstr "Funkcja [code]_process()[/code] przyjmuje jeden parametr: [code]delta[/code]."
 
@@ -2465,7 +2399,6 @@ msgstr "Dla obrotu użyj prędkości [code]0.05[/code] radiana na klatkę, przes
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:85
 #: course/lesson-11-time-delta/lesson.bbcode:146
-#, fuzzy
 msgid "Call the [code]rotate()[/code] and [code]move_local_x()[/code] functions"
 msgstr "Aby to zrobić, dodaj do kodu funkcji [code]_process()[/code] dwie funkcje: [code]rotate()[/code] i [code]move_local_x()[/code]."
 
@@ -2478,7 +2411,6 @@ msgid "We've seen how we can use our character's [code]_process()[/code] functio
 msgstr "Nauczyliśmy się już w jaki sposób możemy używać funkcji [code]_process()[/code] do poruszania naszej postaci w sposób ciągły."
 
 #: course/lesson-11-time-delta/lesson.bbcode:17
-#, fuzzy
 msgid "But it's not just our character that has a [code]_process()[/code] function. Almost everything in the game has a [code]_process()[/code] function!"
 msgstr "Jednak nie tylko nasza postać ma funkcję [code]_process()[/code]; prawie wszystko w grze ją ma!"
 
@@ -2555,7 +2487,6 @@ msgid "That is why the [code]_process()[/code] function receives a [code]delta[/
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:59
-#, fuzzy
 msgid "Delta represents a time difference. It's the time it took Godot to complete the previous frame, in seconds."
 msgstr "[code]delta[/code] to czas potrzebny Godotowi na ukończenie poprzedniej klatki wyrażony w sekundach."
 
@@ -2576,7 +2507,6 @@ msgid "What do we know about delta?"
 msgstr "Co wiemy o parametrze delta?"
 
 #: course/lesson-11-time-delta/lesson.bbcode:56
-#, fuzzy
 msgid "[code]delta[/code] is the time it took Godot to complete the previous frame in seconds."
 msgstr "[code]delta[/code] to czas potrzebny Godotowi na ukończenie poprzedniej klatki wyrażony w sekundach."
 
@@ -2585,7 +2515,6 @@ msgid "It's very small because frames happen many times a second."
 msgstr "Jest bardzo mały, ponieważ klatki obliczane są wiele razy na sekundę."
 
 #: course/lesson-11-time-delta/lesson.bbcode:56
-#, fuzzy
 msgid "It varies each frame because Godot has more or less to process each frame."
 msgstr "Czas tych obliczeń różni się przy każdej klatce, ponieważ Godotowi zajmuje mniej lub więcej czasu przetworzenie każdej z nich."
 
@@ -2598,7 +2527,6 @@ msgid "It varies each frame."
 msgstr "Różni się przy każdej klatce."
 
 #: course/lesson-11-time-delta/lesson.bbcode:56
-#, fuzzy
 msgid "It's the time it took Godot to complete the previous frame."
 msgstr "To czas, który zajęło Godotowi ukończenie poprzedniej klatki."
 
@@ -2628,12 +2556,10 @@ msgstr "Dlaczego w tym przykładzie używamy liczby 3.0?"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-11-time-delta/lesson.bbcode:80
-#, fuzzy
 msgid "At the top of the lesson, we made the robot rotate a fixed amount every frame: [code]0.05[/code] [glossary term=\"radians\"]."
 msgstr "W pierwszej części lekcji sprawiliśmy, że robot obracał o stałą wartość [code]0.05[/code] radianów w każdej klatce."
 
 #: course/lesson-11-time-delta/lesson.bbcode:81
-#, fuzzy
 msgid "In the example above, we now [i]multiply[/i] the argument by the very small [code]delta[/code] value, a value much smaller than [code]1.0[/code]. It makes the robot turn at a constant speed over time."
 msgstr "W powyższym przykładzie [i]mnożymy[/i] argument przez bardzo małą wartość [code]delta[/code] wynoszącą znacznie mniej niż [code]1.0[/code]. Dzięki niej robot obraca się ze stałą prędkością w czasie."
 
@@ -2650,7 +2576,6 @@ msgid "Those numbers have two different [i]units[/i]: [code]0.05[/code] is an [i
 msgstr "Liczby w nawiasie mają dwie różne [i]jednostki[/i]: [code]0.05[/code] jest [i]kątem[/i] w radianach, podczas gdy [code]3.0[/code] jest [i]prędkością kątową[/i] w radianach na sekundę."
 
 #: course/lesson-11-time-delta/lesson.bbcode:85
-#, fuzzy
 msgid "When you multiply an angular speed by a time delta, it gives you an angle."
 msgstr "Kiedy pomnożysz prędkość przez deltę czasu, otrzymasz kąt."
 
@@ -2691,7 +2616,6 @@ msgid "Thanks to that, we get reliable movement over time."
 msgstr "Dzięki temu z czasem otrzymujemy niezawodny ruch."
 
 #: course/lesson-11-time-delta/lesson.bbcode:117
-#, fuzzy
 msgid "Frame times vary from computer to computer and from frame to frame during gameplay. Because frame times vary, if [code]delta[/code] is not used, movement speed will differ for each player, making the game inconsistent and messy."
 msgstr "Bez [code]delta[/code] czas wyświetlania klatek różni się w zależności od komputera, a nawet zmienia się podczas gry. Z tego powodu ruch będzie inny dla każdego gracza, przez co gra będzie niespójna i niechlujna."
 
@@ -2700,7 +2624,6 @@ msgid "What does this mean?"
 msgstr "Co to oznacza?"
 
 #: course/lesson-11-time-delta/lesson.bbcode:115
-#, fuzzy
 msgid "The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/code] by [code]delta[/code]."
 msgstr "Symbol [code]*[/code] oznacza, że mnożymy [code]rotation_speed[/code] przez czas [code]delta[/code]."
 
@@ -2721,7 +2644,6 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "Odejmujemy wartość delta od rotation_speed."
 
 #: course/lesson-11-time-delta/lesson.bbcode:126
-#, fuzzy
 msgid "In the next practice, we'll use delta to make the rotation time-dependent."
 msgstr "W następnym ćwiczeniu użyjemy wartości delta do uzależnia obrotu od czasu."
 
@@ -2742,7 +2664,6 @@ msgid "The robot should rotate [code]2[/code] radians per second."
 msgstr "Robot powinien obracać [code]2[/code] radiany na sekundę."
 
 #: course/lesson-11-time-delta/lesson.bbcode:126
-#, fuzzy
 msgid "Multiply the radians by [code]delta[/code]"
 msgstr "Mnożenie przez deltę"
 
@@ -2936,12 +2857,10 @@ msgid "Using variables to store number values makes code easier to read. Tidy up
 msgstr "Używanie zmiennych do przechowywania wartości liczbowych ułatwia czytanie kodu. Uporządkuj tę funkcję przechowując wartość w zmiennej."
 
 #: course/lesson-12-using-variables/lesson.bbcode:85
-#, fuzzy
 msgid "Define the [code]angular_speed[/code] variable at the top of the script to make it script-wide"
 msgstr "Tworzymy zmienną [code]angular_speed[/code], a następnie przypisujemy jej wartość [code]4[/code]."
 
 #: course/lesson-12-using-variables/lesson.bbcode:85
-#, fuzzy
 msgid "Don't forget to use it in the [code]rotate()[/code] function"
 msgstr "Weźmy na warsztat funkcję [code]_process()[/code]."
 
@@ -3034,7 +2953,6 @@ msgid "To define a condition, we use the [code]if[/code] keyword. We write a lin
 msgstr "Aby zdefiniować warunek, używamy słowa kluczowego [code]if[/code]. Piszesz linię zaczynającą się od [code]if[/code], wpisujesz warunek do oceny i kończysz linię dwukropkiem."
 
 #: course/lesson-13-conditions/lesson.bbcode:54
-#, fuzzy
 msgid "Notice the [code]>[/code] comparison sign. We read this symbol as \"greater than\"."
 msgstr "Zwróć uwagę na znak porównania [code]>[/code]. Symbol ten czytamy jako „większy niż”."
 
@@ -3063,12 +2981,10 @@ msgid "We can compare numbers in other ways too."
 msgstr "Liczby możemy porównywać również na inne sposoby."
 
 #: course/lesson-13-conditions/lesson.bbcode:71
-#, fuzzy
 msgid "[code]>[/code] means \"greater than\""
 msgstr "Wiersz [code]health < 5:[/code] oznacza „zdrowie jest mniejsze niż 5”."
 
 #: course/lesson-13-conditions/lesson.bbcode:72
-#, fuzzy
 msgid "[code]<[/code] means \"less than\""
 msgstr "Wiersz [code]health < 5:[/code] oznacza „zdrowie jest mniejsze niż 5”."
 
@@ -3105,14 +3021,12 @@ msgid "Which of these statements are true?"
 msgstr "Które z tych warunków są prawdziwe?"
 
 #: course/lesson-13-conditions/lesson.bbcode:79
-#, fuzzy
 msgid "The comparison [code]3 > 1[/code] means \"three is greater than one\" which is [b]true[/b]."
 msgstr ""
 "Porównanie [code]2 == 1[/code] oznacza, że „dwa są równe jednemu”, co jest [b]fałszem[/b].\n"
-"Porównanie [code]3 < 1[/code] oznacza „trzy to mniej niż jeden”, co jest [b]fałszem[/b]."
+"Porównanie [code]3 < 1[/code] oznacza „trzy to mniej niż jeden”, co jest [b]fałszem[/b].\n"
 
 #: course/lesson-13-conditions/lesson.bbcode:79
-#, fuzzy
 msgid "The comparison [code]2 < 3[/code] means \"two is less than three\" which is [b]true[/b]."
 msgstr "Wiersz [code]health < 5:[/code] oznacza „zdrowie jest mniejsze niż 5”."
 
@@ -3121,18 +3035,16 @@ msgid "The comparison [code]1 != 3[/code] means \"one is not equal to three\" wh
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:79
-#, fuzzy
 msgid "The comparison [code]2 == 1[/code] means \"two is equal to one\" which is [b]false[/b]."
 msgstr ""
 "Porównanie [code]2 == 1[/code] oznacza, że „dwa są równe jednemu”, co jest [b]fałszem[/b].\n"
-"Porównanie [code]3 < 1[/code] oznacza „trzy to mniej niż jeden”, co jest [b]fałszem[/b]."
+"Porównanie [code]3 < 1[/code] oznacza „trzy to mniej niż jeden”, co jest [b]fałszem[/b].\n"
 
 #: course/lesson-13-conditions/lesson.bbcode:79
-#, fuzzy
 msgid "The comparison [code]3 < 1[/code] means \"three is less than one\" which is [b]false[/b]."
 msgstr ""
 "Porównanie [code]2 == 1[/code] oznacza, że „dwa są równe jednemu”, co jest [b]fałszem[/b].\n"
-"Porównanie [code]3 < 1[/code] oznacza „trzy to mniej niż jeden”, co jest [b]fałszem[/b]."
+"Porównanie [code]3 < 1[/code] oznacza „trzy to mniej niż jeden”, co jest [b]fałszem[/b].\n"
 
 #: course/lesson-13-conditions/lesson.bbcode:79
 msgid "3 > 1"
@@ -3203,7 +3115,6 @@ msgid "[code]<[/code]  Less than"
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:107
-#, fuzzy
 msgid "[code]==[/code] Equal to"
 msgstr "[code]show()[/code]"
 
@@ -3220,7 +3131,6 @@ msgid "For example, if [code]health[/code] is equal to [code]100[/code] and the 
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:107
-#, fuzzy
 msgid "Comparing values allows us to make decisions in code. But there's something wrong with these statements..."
 msgstr "Porównywanie wartości pozwala nam podejmować decyzje w kodzie. Ale z tymi warunkami coś jest nie tak…"
 
@@ -3254,7 +3164,6 @@ msgid "To check your code, I will call the [code]heal()[/code] function twice, l
 msgstr "Pętla poniżej zmieni wartość zmiennej \\[code]cell\\[/code] trzy razy."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
-#, fuzzy
 msgid "After those two calls, [code]health[/code] should be equal to [code]80[/code]."
 msgstr "W takim przypadku musisz przekonwertować liczbę [code]health[/code] na [code]String[/code]."
 
@@ -3267,7 +3176,6 @@ msgid "The starting code already adds the amount to the [code]health[/code] vari
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:149
-#, fuzzy
 msgid "Use [code]if health > 80:[/code] to detect when health went too high."
 msgstr "Wiersz [code]health < 5:[/code] oznacza „zdrowie jest mniejsze niż 5”."
 
@@ -3284,27 +3192,22 @@ msgid "We want to display the health number on screen, like in many RPGs. But cu
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "Complete the [code]take_damage()[/code] function so it does two things:"
 msgstr "Dodaj do funkcji [code]take_damage()[/code] odpowiedni kod, aby wydarzyło się co następuje:"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "1. Subtract [code]amount[/code] from [code]health[/code]."
 msgstr "Wiersz 2 odejmuje [code]amount[/code] od naszego zdrowia reprezentowanego przez [code]health[/code]."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "2. If [code]health[/code] is below [code]0[/code] after that, set it back to [code]0[/code]."
 msgstr "Jeśli [code]health[/code] spadnie poniżej wartości [code]0[/code], ponownie ustaw go na [code]0[/code]."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "To check your code, I will call your [code]take_damage()[/code] function three times, like this:"
 msgstr "Dodaj do funkcji [code]take_damage()[/code] odpowiedni kod, aby wydarzyło się co następuje:"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "After those three calls, [code]health[/code] should equal [code]0[/code], and not [code]-10[/code] or another value."
 msgstr "Jeśli [code]health[/code] spadnie poniżej wartości [code]0[/code], ponownie ustaw go na [code]0[/code]."
 
@@ -3439,10 +3342,10 @@ msgstr "Dodaj do funkcji [code]level_up()[/code] odpowiedni kod, aby wykonywała
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid ""
 "- Increases [code]level[/code] by one.\n"
-"- Increases [code]max_health[/code] by 10%."
+"- Increases [code]max_health[/code] by 10%.\n"
 msgstr ""
 "- Zwiększała [code]level[/code] o jeden.\n"
-"- Zwiększała [code]max_health[/code] o 10%."
+"- Zwiększała [code]max_health[/code] o 10%.\n"
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid "We want our robot to increase in strength as it levels up. Let's increase its health exponentially!"
@@ -3481,7 +3384,6 @@ msgid "You need to use an [code]if[/code] statement at the top of the function t
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
-#, fuzzy
 msgid "To reduce the [code]amount[/code], multiply it by a value less than [code]1[/code]"
 msgstr "Następnie [code]damage *= 2[/code] mnoży je przez [code]2[/code], w wyniku czego uzyskujemy wynik [code]30[/code]."
 
@@ -3519,7 +3421,6 @@ msgstr "Czym są wektory?"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-16-2d-vectors/lesson.bbcode:15
-#, fuzzy
 msgid "A [glossary term=\"vector\"], in physics, is a quantity with a magnitude and a direction. For example, a force applied to some object, the velocity (speed and direction) of a character, and so on."
 msgstr "W fizyce wektor to wielkość mająca zarówno wartość (moduł), jak i kierunek. Na przykład siła działająca na obiekt, prędkość (szybkość i kierunek) postaci i tak dalej."
 
@@ -3644,7 +3545,6 @@ msgid "To visually show our robot has gained in strength, let's increase its siz
 msgstr ""
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:73
-#, fuzzy
 msgid "You can add a line to increase the [code]scale[/code] anywhere in the [code]level_up()[/code] function"
 msgstr "Możemy użyć łańcucha znaków do reprezentowania posiłku podczas wywoływania funkcji [code]add_order()[/code]."
 
@@ -3857,7 +3757,7 @@ msgid ""
 "- Reading and processing a file, like a text document, line by line.\n"
 "- Processing a constant stream of data, like someone recording audio with a microphone.\n"
 "- Reading code and converting it into instructions the computer understands.\n"
-"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI."
+"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI.\n"
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
@@ -3881,7 +3781,6 @@ msgid "We store the robot's position in a variable named [code]cell[/code]. The 
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "The board size is stored in a variable named [code]board_size[/code] that contains a [code]Vector2[/code] value."
 msgstr "Zdefiniuj zmienną o nazwie [code]health[/code] i nadaj jej wartość początkową [code]100[/code]."
 
@@ -3915,28 +3814,23 @@ msgid "Introduction to For Loops"
 msgstr "Wprowadzenie do pętli for"
 
 #: course/lesson-18-for-loops/lesson.bbcode:7
-#, fuzzy
 msgid "In the last lesson, we looked at [code]while[/code] loops. We found they were useful if we don't know how many times we should repeat code. But [code]while[/code] loops can result in infinite loops if we're not careful."
 msgstr "Na ostatniej lekcji przyjrzeliśmy się pętlom \\[code]while\\[/code]. Okazało się, że są one przydatne, gdy nie wiemy, ile razy powinniśmy powtórzyć kod."
 
 #: course/lesson-18-for-loops/lesson.bbcode:8
-#, fuzzy
 msgid "For example, the loop below never ends because we never increment [code]number[/code]."
 msgstr "Pętla poniżej nigdy się nie kończy, ponieważ nigdy nie zwiększamy wartości zmiennej \\[code]number\\[/code]."
 
 #: course/lesson-18-for-loops/lesson.bbcode:11
-#, fuzzy
 msgid "There's a safer and easier kind of loop: the [code]for[/code] loop. We'll look at it in this lesson."
 msgstr "Istnieje bezpieczniejszy i często prostszy rodzaj pętli: pętla \\[code]for\\[/code]."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-18-for-loops/lesson.bbcode:12
-#, fuzzy
 msgid "Unlike [code]while[/code] loops, [code]for[/code] loops don't run forever, so you're much less likely to get infinite loop bugs in your game. [b]We recommend using [glossary term=\"for loops\"] instead of while loops because of this[/b]."
 msgstr "W przeciwieństwie do pętli \\[code]while\\[/code], pętle \\[code]for\\[/code] nie działają w nieskończoność, więc ryzyko wystąpienia błędów w grze jest znacznie mniejsze. \\[b]Dlatego zalecamy stosowanie pętli for zamiast while\\[/b]."
 
 #: course/lesson-18-for-loops/lesson.bbcode:13
-#, fuzzy
 msgid "In this example, I changed the code above to use a [code]for[/code] loop instead. The loop below will change the [code]cell[/code] three times."
 msgstr "Zmieńmy więc powyższy kod, aby używał pętli \\[code]for\\[/code]."
 
@@ -4069,12 +3963,10 @@ msgid "Use a for loop to have our robot move from the top of the board to the bo
 msgstr ""
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
-#, fuzzy
 msgid "You'll have to alter the [code]y[/code] sub-variable of [code]cell[/code] to move the robot downwards"
 msgstr "Na przykład, aby uzyskać dostęp do zmiennej podrzędnej [code]x[/code] należącej do zmiennej [code]position[/code], napiszesz [code]position.x[/code]."
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
-#, fuzzy
 msgid "Call [code]range(n)[/code] to get a list of numbers from [code]0[/code] to [code]n - 1[/code]"
 msgstr "Godot ma pomocniczą funkcję \\[code]range()\\[/code]. Wywołanie \\[code]range(n)\\[/code] tworzy listę liczb od \\[code]0\\[/code] do \\[code]n - 1\\[/code]."
 
@@ -4120,7 +4012,6 @@ msgstr "Funkcja \\[code]range()\\[/code], którą poznaliśmy na poprzedniej lek
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-19-creating-arrays/lesson.bbcode:7
-#, fuzzy
 msgid "A list of values, numbers or otherwise, has a precise name in code: we call it an [i][glossary term=\"array\"][/i]. So we can say calling the [code]range()[/code] function produces an [i]array[/i] of numbers."
 msgstr "Lista wartości — liczbowych lub innych — ma w kodzie precyzyjną nazwę: nazywamy ją \\[i]tablicą\\[/i]. Możemy więc powiedzieć, że wywołanie funkcji \\[code]range()\\[/code] zwraca \\[i]tablicę\\[/i] liczb."
 
@@ -4137,7 +4028,6 @@ msgid "But we could name it anything we'd like!"
 msgstr "Ale moglibyśmy nadać jej dowolną nazwę!"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:21
-#, fuzzy
 msgid "If we \"unroll\" the [code]for[/code] loop above, we'd get the following code with the exact same behaviour:"
 msgstr "Gdybyśmy \"rozwinęli\" powyższą pętlę \\[code]for\\[/code], otrzymalibyśmy następujący kod o dokładnie takim samym działaniu:"
 
@@ -4190,12 +4080,12 @@ msgid ""
 "- The player's party in an RPG.\n"
 "- The items in the player's inventory.\n"
 "- The high scores in an arcade game.\n"
-"- The objects in the game world."
+"- The objects in the game world.\n"
 msgstr ""
 "* Drużyna gracza w grze RPG.\n"
 "* Przedmioty w ekwipunku gracza.\n"
 "* Najlepsze wyniki w grze arcade.\n"
-"* Obiekty w świecie gry."
+"* Obiekty w świecie gry.\n"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:62
 msgid "All of those and many more rely on arrays."
@@ -4331,7 +4221,6 @@ msgstr "Dla każdego elementu w tablicy pętla \\[code]for\\[/code] pobiera go, 
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:18
-#, fuzzy
 msgid "Inside the loop, you can access the [code]number[/code] variable, which changes on each [i][glossary term=\"iteration\"][/i]."
 msgstr "Wewnątrz pętli możesz odwoływać się do zmiennej \\[code]number\\[/code], której wartość zmienia się przy każdej \\[i]iteracji\\[/i]."
 
@@ -4368,7 +4257,6 @@ msgid "0, 0, and 0"
 msgstr "0, 0 i 0"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:38
-#, fuzzy
 msgid "Making the turtle walk, with a loop"
 msgstr "Sprawienie, by żółw (turtle) poruszał się, używając pętli."
 
@@ -4403,7 +4291,7 @@ msgstr ""
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:74
 msgid ""
 "- In a condition, the [code]in[/code] keyword allows you to check if a value exists [i]in[/i] an array.\n"
-"- The array's [code]append()[/code] function appends a new value at the end of the array."
+"- The array's [code]append()[/code] function appends a new value at the end of the array.\n"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:75
@@ -4459,7 +4347,6 @@ msgid "You should start with a for loop that iterates over every cell in [code]r
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
-#, fuzzy
 msgid "You need to pass the cell position to the robot's [code]move_to()[/code] function in the loop."
 msgstr "Przyjrzyjmy się bardziej szczegółowo funkcji [code]_process()[/code]."
 
@@ -4622,7 +4509,7 @@ msgstr ""
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid ""
 "- [code]\"jab\"[/code] (makes the robot perform a quick punch)\n"
-"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)"
+"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)\n"
 msgstr ""
 
 #: course/lesson-21-strings/lesson.bbcode:73
@@ -4650,18 +4537,15 @@ msgid "Functions that return a value"
 msgstr "Funkcje zwracające wartość"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:5
-#, fuzzy
 msgid "Until now, you learned that functions are a way to group instructions, give them a name, and reuse them."
 msgstr "Do tej pory nauczyłeś się, że funkcje to sekwencje instrukcji, którym nadajesz nazwę i które możesz wywołać w dowolnym momencie."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-22-functions-return-values/lesson.bbcode:6
-#, fuzzy
 msgid "Functions can also make calculations and [glossary term=\"return\"] new values."
 msgstr "Oprócz tego funkcje mogą wykonywać obliczenia i \\[i]zwracać\\[/i] nowe wartości."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:7
-#, fuzzy
 msgid "Let's look at some examples to see why this is useful."
 msgstr "Przyjrzyjmy się kilku przykładom, aby zobaczyć, dlaczego to jest przydatne."
 
@@ -4674,7 +4558,6 @@ msgid "Many functions built into GDScript make calculations and return a new val
 msgstr "Wiele funkcji wbudowanych w GDScript wykonuje obliczenia i zwraca nową wartość."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:16
-#, fuzzy
 msgid "For example, the [code]round()[/code] function takes a decimal number as an argument and gives you back a new whole number rounded to the nearest digit."
 msgstr "Na przykład funkcja \\[code]round()\\[/code] przyjmuje jako argument liczbę dziesiętną i zwraca nową liczbę zaokrągloną do najbliższej cyfry."
 
@@ -4687,7 +4570,6 @@ msgid "When displaying the health on the interface, you don't want to show the d
 msgstr "Podczas wyświetlania zdrowia w interfejsie nie chcesz pokazywać części dziesiętnej. W takim przypadku możesz użyć funkcji \\[code]round()\\[/code], w ten sposób."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:27
-#, fuzzy
 msgid "Notice how we assign the result of the function call to a variable. Because the [code]round()[/code] function returns a [i]new[/i] value, we need to either store the result in a variable or use the value immediately."
 msgstr "Zauważ, że przypisujemy wynik wywołania funkcji do zmiennej. Ponieważ funkcja \\[code]round()\\[/code] zwraca \\[i]nową\\[/i] wartość, musimy albo zapisać wynik w zmiennej, albo od razu użyć tej wartości."
 
@@ -4704,7 +4586,6 @@ msgid "A cooler example: lerp()"
 msgstr "Ciekawszy przykład: [code]lerp()[/code]"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:41
-#, fuzzy
 msgid "The [code]lerp()[/code] function (short for [i]linear interpolate[/i]), blends between two values."
 msgstr "Funkcja [code]lerp()[/code], skrót od [i]linear interpolate[/i] (interpolacja liniowa), oblicza i zwraca średnią ważoną pomiędzy dwiema wartościami."
 
@@ -4767,7 +4648,7 @@ msgstr ""
 #: course/lesson-22-functions-return-values/lesson.bbcode:80
 msgid ""
 "- Cell [code]Vector2(1, 0)[/code] is at pixel position [code]Vector2(120, 0)[/code].\n"
-"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels."
+"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels.\n"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:81
@@ -4839,12 +4720,10 @@ msgid "Appending and popping values from arrays"
 msgstr "Dołączanie i usuwanie wartości z tablic"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:9
-#, fuzzy
 msgid "In previous lessons, you learned how to create arrays to store lists of values and how to loop over them. That's useful, but arrays can do much more."
 msgstr "Na poprzednich lekcjach nauczyłeś się tworzyć tablice do przechowywania list wartości oraz iterować po nich. To przydatne, ale na tym nie zajdziesz daleko."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:10
-#, fuzzy
 msgid "The real strength of GDScript arrays is that you can add and remove values from them at any time. This lets you build waiting lines of data or piles of data. We call these [i]queues[/i] and [i]stacks[/i], respectively. We'll see what that means in this lesson."
 msgstr "Prawdziwa siła tablic polega na tym, że możesz w dowolnym momencie dodawać i usuwać z nich wartości. Dzięki temu możesz tworzyć kolejki (*queue*) lub stosy (*stack*) danych."
 
@@ -4857,12 +4736,10 @@ msgid "Tracking orders in a restaurant management game"
 msgstr "Śledzenie zamówień w grze o zarządzaniu restauracją"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:15
-#, fuzzy
 msgid "You're making a restaurant management game where customers place orders, and you need to handle them one by one."
 msgstr "Tworzysz grę o zarządzaniu restauracją, w której klienci składają zamówienia, a ty musisz je obsługiwać w miarę ich napływu."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:16
-#, fuzzy
 msgid "In the example below, customers order meals that end up in a waiting line (a queue). You need to prepare them in the kitchen. We simulate orders arriving and getting completed over time."
 msgstr "W tej grze klienci zamawiają posiłki, które trafiają do kolejki. Musisz je przygotować w kuchni."
 
@@ -4871,7 +4748,6 @@ msgid "How do you keep track of pending and completed orders? With an array!"
 msgstr "Jak śledzić zamówienia oczekujące i zrealizowane? Za pomocą tablicy!"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:26
-#, fuzzy
 msgid "When a customer purchases a meal, you want to [i]append[/i] (add) it to the array. Then, as you complete a meal in the kitchen and serve it, you want to remove it from the array."
 msgstr "Kiedy klient kupuje posiłek, chcesz go \\[i]dodać\\[/i] do tablicy. Następnie, gdy przygotujesz posiłek w kuchni i go podasz, chcesz go usunąć z tablicy."
 
@@ -4884,17 +4760,14 @@ msgid "Try to read the code below before moving on. Don't worry if not everythin
 msgstr "Spróbuj przeczytać poniższy kod, zanim przejdziesz dalej. Nie martw się, jeśli nie wszystko od razu będzie jasne — zaraz wszystko omówimy krok po kroku."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:31
-#, fuzzy
 msgid "Notice how we call some functions by writing a dot after a variable name. Just like some values have variables you can access with a dot (like the [code]x[/code] variable in [code]position.x[/code]), they can also have their own functions."
 msgstr "Zauważ, że niektóre funkcje wywołujemy, stawiając kropkę po nazwie zmiennej. Tak jak dany typ wartości może mieć podzmienne, tak samo może mieć własne funkcje."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:32
-#, fuzzy
 msgid "Functions like [code]append()[/code] and [code]pop_front()[/code] only exist on arrays. To call them, we need to write the array name, then a dot, then the function: [code]array_name.append()[/code]."
 msgstr "Funkcje takie jak \\[code]append()\\[/code] i \\[code]pop\\_front()\\[/code] istnieją tylko w tablicach. Dlatego, aby je wywołać, musimy odwołać się do tablicy za pomocą kropki: \\[code]array.append()\\[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:35
-#, fuzzy
 msgid "Let's break down the code. We add orders to the [code]waiting_orders[/code] array by appending them."
 msgstr "Kolejkujemy zamówienia w tablicy [code]waiting_orders[/code] poprzez dołączanie ich do tablicy."
 
@@ -4911,7 +4784,6 @@ msgid "We can then append the order to our [code]completed_orders[/code] array."
 msgstr "Możemy wtedy dodać (append) zamówienie do naszej tablicy [code]completed_orders[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:51
-#, fuzzy
 msgid "When we use an array this way, we call it a [i]queue[/i]: the first element we add to the array is the first one we remove. It's like a waiting line at a store."
 msgstr "Tablice takie jak [code]waiting_orders[/code] nazywamy kolejką: pierwszy element, który dodajemy do tablicy, jest pierwszym, który usuwamy."
 
@@ -5020,7 +4892,6 @@ msgid "Crates are piling up on the platform. Move them out of the way by popping
 msgstr ""
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
-#, fuzzy
 msgid "Think about how [code]while[/code] loops work."
 msgstr "Oto, jak korzystamy z pętli \\[code]while\\[/code]."
 
@@ -5227,7 +5098,6 @@ msgstr "Jednak mając tylko tablicę z nazwami przedmiotów, nie możemy łatwo 
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:9
-#, fuzzy
 msgid "Instead, we can bundle the item names and amounts into a single [glossary term=\"dictionary\"]."
 msgstr "Zamiast tego możemy połączyć nazwy przedmiotów i ich ilości w jedną strukturę — \\[i]słownik\\[/i]."
 
@@ -5379,7 +5249,7 @@ msgstr ""
 msgid ""
 "- Three \"healing heart\".\n"
 "- Nine \"gems\".\n"
-"- One \"sword\"."
+"- One \"sword\".\n"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
@@ -5439,7 +5309,6 @@ msgid "You can loop over dictionaries, just like you learned to loop over arrays
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:8
-#, fuzzy
 msgid "Let's see how this works with two examples."
 msgstr "Zobaczmy, jak to działa na dwóch przykładach."
 
@@ -5448,17 +5317,14 @@ msgid "Displaying an inventory's content"
 msgstr "Wyświetlanie zawartości ekwipunku"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:15
-#, fuzzy
 msgid "To display the player's inventory, you need to know what it contains: the name and amount of each item."
 msgstr "Aby wyświetlić ekwipunek gracza, musisz wiedzieć, co on zawiera. Potrzebujesz nazwy i ilości każdego przedmiotu."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:16
-#, fuzzy
 msgid "To do this, you loop over the dictionary and process each key-value pair one at a time."
 msgstr "W kodzie możesz to osiągnąć tylko poprzez iterację po całym słowniku i przetwarzanie par klucz–wartość jedna po drugiej."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:17
-#, fuzzy
 msgid "You can get the list of all the keys in a dictionary by calling its [code]keys()[/code] function."
 msgstr "Aby uzyskać listę kluczy w słowniku, możesz wywołać jego funkcję składową \\[code]keys()\\[/code]."
 
@@ -5467,7 +5333,6 @@ msgid "Looping over dictionary keys is so common that GDScript gives you a short
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:22
-#, fuzzy
 msgid "You can write the dictionary variable name directly after the [code]in[/code] keyword in a [code]for[/code] loop. GDScript automatically loops over the dictionary's keys."
 msgstr "Zamiast tego możesz bezpośrednio wpisać nazwę zmiennej w pętli \\[code]for\\[/code] po słowie kluczowym \\[code]in\\[/code]. Język rozumie, że domyślnie chcesz iterować po kluczach słownika."
 
@@ -5476,17 +5341,14 @@ msgid "Remember: the name after the [code]for[/code] keyword is a variable name 
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:30
-#, fuzzy
 msgid "You can get each value with the syntax [code]dictionary[key][/code], as you learned in the previous lesson."
 msgstr "Możesz pobierać wartości za pomocą składni \\[code]dictionary\\[key]\\[/code], jak nauczyłeś się na poprzedniej lekcji."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:31
-#, fuzzy
 msgid "So we can loop over the inventory keys, get their values, and display that information on screen."
 msgstr "Możemy iterować po kluczach ekwipunku, pobierać odpowiadające im wartości i wyświetlać wszystkie te informacje w interfejsie użytkownika."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:35
-#, fuzzy
 msgid "Instead of printing the key-value pairs to the output console, we can write and call a function that displays items on the screen."
 msgstr "Zamiast wypisywać pary klucz–wartość w konsoli wyjściowej, możemy napisać i wywołać dedykowaną funkcję, która wyświetli przedmioty w interfejsie użytkownika."
 
@@ -5495,27 +5357,22 @@ msgid "Mapping grid cells to units"
 msgstr "Mapowanie komórek siatki na jednostki"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:49
-#, fuzzy
 msgid "You can also use a dictionary to store which units are at which positions on a game board."
 msgstr "Możemy też użyć słownika do mapowania jednostek na ich pozycje na planszy gry."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:50
-#, fuzzy
 msgid "This is how you'd typically code a board game, a grid-based RPG, or a tactical RPG."
 msgstr "Właśnie w ten sposób zazwyczaj koduje się gry planszowe, RPG oparte na siatce czy taktyczne RPG."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:51
-#, fuzzy
 msgid "So far, we used [code]String[/code] keys. But GDScript dictionaries can use any type as a key. In this example, we use [code]Vector2[/code] values as keys to represent grid positions."
 msgstr "Chociaż do tej pory skupialiśmy się na kluczach typu [code]String[/code], słowniki w GDScript akceptują dowolny typ wartości jako klucz, pozwalając mapować wszystko na wszystko."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:52
-#, fuzzy
 msgid "The only rule is that every key in a dictionary must be unique."
 msgstr "Jedynym ograniczeniem jest to, że każdy klucz musi być unikalny."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:53
-#, fuzzy
 msgid "With a [code]for[/code] loop, you can place all the units on the board when a game starts."
 msgstr "Używając pętli [code]for[/code], możesz wykorzystać pary klucz-wartość, aby umieścić jednostki na planszy na początku gry."
 
@@ -5528,17 +5385,14 @@ msgid "Displaying the inventory"
 msgstr "Wyświetlanie ekwipunku"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
-#, fuzzy
 msgid "We use a dictionary to store the player's inventory. The keys are item names, and the values are how many of each item the player has."
 msgstr "W tej grze używamy słownika, aby przedstawić ekwipunek gracza. Klucze słownika to nazwy przedmiotów, a ich wartości odpowiadają liczbie przedmiotów posiadanych przez gracza."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
-#, fuzzy
 msgid "Loop over the dictionary and display every item in the inventory."
 msgstr "Musisz przejść przez słownik i wyświetlić nazwę oraz ilość każdego przedmiotu w ekwipunku."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
-#, fuzzy
 msgid "Call the [code]display_item()[/code] function for each item. It takes two arguments: the item name and the amount."
 msgstr "Aby to zrobić, wywołaj funkcję \\[code]display\\_item()\\[/code]. Przyjmuje ona dwa argumenty: nazwę przedmiotu i jego ilość."
 
@@ -5547,7 +5401,6 @@ msgid "The player's inventory needs to appear on screen. Use a loop to display e
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
-#, fuzzy
 msgid "The [code]display_item()[/code] function needs the item name and its amount. You need to get the amount using the item name as a key in the [code]inventory[/code] dictionary."
 msgstr "Aby to zrobić, wywołaj funkcję \\[code]display\\_item()\\[/code]. Przyjmuje ona dwa argumenty: nazwę przedmiotu i jego ilość."
 
@@ -5564,7 +5417,6 @@ msgid "We have a dictionary named [code]units[/code]. It maps cell positions on 
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
-#, fuzzy
 msgid "Use a for loop to place every unit on the game board. Call the [code]place_unit()[/code] function for each unit. It takes two arguments: first the cell position, then the unit type."
 msgstr "Aby to zrobić, wywołaj funkcję \\[code]display\\_item()\\[/code]. Przyjmuje ona dwa argumenty: nazwę przedmiotu i jego ilość."
 
@@ -5586,7 +5438,6 @@ msgstr "Typy wartości"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-27-value-types/lesson.bbcode:3
-#, fuzzy
 msgid "In your code, values have a particular [glossary term=\"type\"]. You have already learned about several: whole numbers, decimal numbers, strings, 2D vectors, arrays, and dictionaries."
 msgstr "W twoim kodzie wartości mają określony \\[i]typ\\[/i]. Poznałeś już kilka z nich: liczby całkowite, liczby dziesiętne, łańcuchy znaków, wektory 2D, tablice i słowniki."
 
@@ -5623,7 +5474,6 @@ msgid "But when running the code, we get this strange error."
 msgstr "Ale podczas uruchamiania kodu otrzymujemy ten dziwny błąd."
 
 #: course/lesson-27-value-types/lesson.bbcode:33
-#, fuzzy
 msgid "It tells you that you can't add values of type [code]String[/code] and [code]int[/code]: they're incompatible."
 msgstr "Komunikat mówi, że nie możesz dodać wartości typu [code]String[/code] i [code]int[/code]: są one niekompatybilne."
 
@@ -5953,285 +5803,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid ""
-#~ "[code]\n"
-#~ "func _process(delta):\n"
-#~ "\trotate(0.05)\n"
-#~ "[/code]"
-#~ msgstr ""
-#~ "[code]\n"
-#~ "func _process(delta):\n"
-#~ "\trotate(0.05)\n"
-#~ "[/code]"
-
-#~ msgid "0.05"
-#~ msgstr "0.05"
-
-#~ msgid "[code]rotation_speed * delta[/code]"
-#~ msgstr "[code]rotation_speed * delta[/code]"
-
-#~ msgid ""
-#~ "100\n"
-#~ "75\n"
-#~ "50\n"
-#~ "25\n"
-#~ "0\n"
-#~ "-25"
-#~ msgstr ""
-#~ "100\n"
-#~ "75\n"
-#~ "50\n"
-#~ "25\n"
-#~ "0\n"
-#~ "-25"
-
-#~ msgid "-25"
-#~ msgstr "-25"
-
-#~ msgid "25"
-#~ msgstr "25"
-
-#~ msgid "0"
-#~ msgstr "0"
-
-#~ msgid ""
-#~ "[code]>[/code] means \"greater than\"\n"
-#~ "[code]<[/code] means \"less than\"\n"
-#~ "[code]==[/code] means \"equal to\"\n"
-#~ "[code]!=[/code] means \"not equal to\""
-#~ msgstr ""
-#~ "[code]>[/code] oznacza „większe niż”\n"
-#~ "[code]<[/code] oznacza „mniejsze niż”\n"
-#~ "[code]==[/code] oznacza „równe”\n"
-#~ "[code]!=[/code] oznacza „nierówne”"
-
-#~ msgid ""
-#~ "The comparison [code]3 > 1[/code] means \"three is greater than one\" which is [b]true[/b].\n"
-#~ "The comparison [code]2 < 3[/code] means \"two is less than three\" which is [b]true[/b].\n"
-#~ "The comparison [code]1 != 3[/code] means \"one is not equal to three\" which is [b]true[/b]."
-#~ msgstr ""
-#~ "Porównanie [code]3 > 1[/code] oznacza, że „trzy jest większe niż jeden”, co jest [b]prawdą[/b].\n"
-#~ "Porównanie [code]2 < 3[/code] oznacza „dwa to mniej niż trzy”, co jest [b]prawdą[/b].\n"
-#~ "Porównanie [code]1 != 3[/code] oznacza „jeden nie jest równy trzem”, co jest [b]prawdą[/b]."
-
-#, fuzzy
-#~ msgid "This series of [code]if[/code] statements is all wrong. Change the comparisons so each comparison matches the instruction below it."
-#~ msgstr "Ta seria instrukcji [code]if[/code] jest błędna. Zmień porównania, aby każde porównanie odpowiadało znajdującemu się poniżej komunikatowi."
-
-#~ msgid "Keep the values and statements as they are; only change the comparison signs."
-#~ msgstr "Zachowaj wartości i stwierdzenia takimi, jakimi są; zmień wyłącznie znaki porównania."
-
-#~ msgid ""
-#~ "As a reminder, the comparison signs are:\n"
-#~ "[code]\n"
-#~ "> greater than\n"
-#~ "< less than\n"
-#~ "== equal to\n"
-#~ "!= not equal to\n"
-#~ "[/code]"
-#~ msgstr ""
-#~ "Przypominamy, że znaki porównania to:\n"
-#~ "[code]\n"
-#~ "> większe niż\n"
-#~ "< mniejsze niż\n"
-#~ "== równe\n"
-#~ "!= nierówne\n"
-#~ "[/code]"
-
-#~ msgid "Because [code]health = 100[/code], this is false so [code]print(\"health is greater than five.\")[/code] won't run."
-#~ msgstr "Ponieważ [code]health = 100[/code] jest fałszem, komunikat [code]print(\"health is greater than five.\")[/code] nie zostanie wyświetlony."
-
-#~ msgid "We have a heal function that adds an amount to the character's health."
-#~ msgstr "Mamy tu funkcję leczenia, która zwiększa zdrowie postaci."
-
-#~ msgid "Add to the function so the character's health is never greater than [code]80[/code]."
-#~ msgstr "Dodaj do funkcji odpowiedni warunek, który sprawi, że zdrowie postaci nigdy nie wyniesie więcej niż [code]80[/code]."
-
-#, fuzzy
-#~ msgid "When the robot takes damage, its health can be negative."
-#~ msgstr "Gdy robot otrzyma obrażenia, jego zdrowie może stać sie ujemne."
-
-#~ msgid "We might want to display the health number on screen, like in Japanese RPGs."
-#~ msgstr "Możemy chcieć wyświetlać stan zdrowia na ekranie niczym w japońskich grach RPG."
-
-#~ msgid "We don't want negative numbers. We want to stop at zero instead."
-#~ msgstr "Przez to nie chcemy liczb ujemnych. Zamiast tego chcemy zatrzymać się na zerze."
-
-#~ msgid "Calling the function should reduce [code]health[/code] by [code]amount[/code]."
-#~ msgstr "Zastąp [code]pass[/code] kodem, który zmniejsza [code]health[/code] o [code]amount[/code]."
-
-#~ msgid "Our robot's health is always between [code]0[/code] and [code]100[/code]."
-#~ msgstr "Zdrowie naszego robota jest zawsze wartością pomiędzy [code]0[/code] a [code]100[/code]."
-
-#~ msgid "But as our robot fights, we want to increase its strength and toughness."
-#~ msgstr "Jednak w miarę jak nasz robot będzie walczył, będziemy chcieli zwiększyć jego siłę i wytrzymałość."
-
-#~ msgid "When a character levels up, it might deal more damage to enemies, gain new abilities or, in our case, gain more health."
-#~ msgstr "Gdy postać zdobędzie nowy poziom, może zadawać wrogom większe obrażenia, otrzymać nowe umiejętności lub, w naszym przypadku, zyskać więcej zdrowia."
-
-#~ msgid ""
-#~ "[code]\n"
-#~ "var level = 5\n"
-#~ "var power = 3"
-#~ msgstr ""
-#~ "[code]\n"
-#~ "var level = 5\n"
-#~ "var power = 3"
-
-#~ msgid ""
-#~ "func calculate_damage():\n"
-#~ "\tvar damage = power * level\n"
-#~ "[/code]"
-#~ msgstr ""
-#~ "func calculate_damage():\n"
-#~ "\tvar damage = power * level\n"
-#~ "[/code]"
-
-#~ msgid "15"
-#~ msgstr "15"
-
-#~ msgid "9"
-#~ msgstr "9"
-
-#~ msgid "10"
-#~ msgstr "10"
-
-#~ msgid ""
-#~ "func calculate_damage():\n"
-#~ "\tvar damage = power * level\n"
-#~ "\tdamage *= 2\n"
-#~ "[/code]"
-#~ msgstr ""
-#~ "func calculate_damage():\n"
-#~ "\tvar damage = power * level\n"
-#~ "\tdamage *= 2\n"
-#~ "[/code]"
-
-#~ msgid "30"
-#~ msgstr "30"
-
-#~ msgid "13"
-#~ msgstr "13"
-
-#~ msgid ""
-#~ "[code]var numbers = [0, 1, 2]\n"
-#~ "for number in numbers:\n"
-#~ "    print(number)\n"
-#~ "[/code]"
-#~ msgstr ""
-#~ "[code]var numbers = [0, 1, 2]\n"
-#~ "for number in numbers:\n"
-#~ "\tprint(number)\n"
-#~ "[/code]"
-
-#~ msgid "[code]degrees = radians * 180 / PI[/code]"
-#~ msgstr "[code]degrees = radians * 180 / PI[/code]"
-
-#, fuzzy
-#~ msgid "[code]move_forward(30)[/code]"
-#~ msgstr "[code]move_forward(30)[/code]"
-
-#~ msgid "The instructions inside the function [b]must[/b] all start with a leading tab character. You can insert that tab character by pressing the [b]Tab[/b] key."
-#~ msgstr "Wszystkie instrukcje wewnątrz funkcji [b]muszą[/b] zaczynać się od wiodącego znaku tabulacji. Możesz wstawić znak tabulacji, naciskając klawisz [b]TAB[/b]."
-
-#~ msgid "We call those leading tabs [i]indents[/i]. They're important: the computer uses them to know which instructions are part of the same code block."
-#~ msgstr "Ów wiodące tabulatory nazywamy [i]wcięciami[/i]. Są niezmiernie ważne: komputer używa ich, aby wiedzieć, które instrukcje są częścią tego samego bloku kodu."
-
-#~ msgid ""
-#~ "[code]health -= amount[/code]\n"
-#~ "[code]health = health - amount[/code]"
-#~ msgstr ""
-#~ "[code]health -= amount[/code]\n"
-#~ "[code]health = health - amount[/code]"
-
-#~ msgid "However, they could result in infinite loops if we're not careful."
-#~ msgstr "Jednak mogą prowadzić do nieskończonych pętli, jeśli nie będziemy ostrożni."
-
-#~ msgid "We'll look at it in this lesson."
-#~ msgstr "Przyjrzymy się jej w tej lekcji."
-
-#~ msgid "You can assign the return value of a function call if you plan on using it more than once."
-#~ msgstr "Możesz przypisać wartość zwracaną przez wywołanie funkcji, jeśli planujesz używać jej więcej niż jeden raz."
-
-#~ msgid "It takes three arguments: the two values to average and a value between [code]0.0[/code] and [code]1.0[/code] to skew the result."
-#~ msgstr "Przyjmuje trzy argumenty: dwie wartości do uśrednienia oraz liczbę z zakresu od [code]0.0[/code] do [code]1.0[/code], która wpływa na przesunięcie wyniku."
-
-#~ msgid "In game programming, it's used to animate things moving towards a target with a single line of code."
-#~ msgstr "W programowaniu gier używa się jej do animowania obiektów poruszających się w stronę celu za pomocą jednej linijki kodu."
-
-#~ msgid "In previous lessons, we had characters walking on grids."
-#~ msgstr "W poprzednich lekcjach postacie poruszały się po siatkach."
-
-#~ msgid "And for those practices, you were working directly with cell coordinates."
-#~ msgstr "Podczas tych ćwiczeń pracowałeś bezpośrednio ze współrzędnymi komórek."
-
-#~ msgid "Well, cell coordinates don't correspond to positions on the screen. To find the center of any cell on the screen, we need to convert the cell's coordinates to a position on the screen, in pixels."
-#~ msgstr "Jednak współrzędne komórek nie odpowiadają pozycjom na ekranie. Aby znaleźć środek dowolnej komórki na ekranie, musimy przekształcić współrzędne komórki na pozycję na ekranie, w pikselach."
-
-#~ msgid "For now, let's take another example."
-#~ msgstr "Na razie weźmy inny przykład."
-
-#~ msgid "In this example, we simulate orders arriving and getting completed over time."
-#~ msgstr "W tym przykładzie symulujemy napływanie zamówień i ich realizację w czasie."
-
-#~ msgid "You can do that with the [code]append()[/code] and the [code]pop_front()[/code] functions of the array, respectively."
-#~ msgstr "Możesz to zrobić za pomocą funkcji tablicy \\[code]append()\\[/code] oraz \\[code]pop\\_front()\\[/code]."
-
-#~ msgid "Let's break down the code."
-#~ msgstr "Rozłóżmy kod na czynniki."
-
-#~ msgid "Like with arrays, you can loop over dictionaries. You can loop over both their keys and values."
-#~ msgstr "Podobnie jak w przypadku tablic, możesz iterować po słownikach. Możesz przechodzić zarówno po ich kluczach, jak i wartościach."
-
-#~ msgid "But it's something we do so much that you don't need to call the function."
-#~ msgstr "Ale robimy to tak często, że nie musisz wywoływać tej funkcji."
-
-#~ msgid "Can I rotate in both directions?"
-#~ msgstr "Czy mogę obracać się w obie strony?"
-
-#~ msgid "The [code]radians[/code] can be a positive or negative number, which allows you to rotate both clockwise and counter-clockwise."
-#~ msgstr "Wartość podawana w radianach ([code]radians[/code]) może być zarówno liczbą dodatnią, jak i ujemną, co umożliwia nam obracanie zarówno zgodnie z ruchem wskazówek zegara, jak i przeciwnie do ruchu wskazówek zegara."
-
-#~ msgid "Wherever the computer sees the identifier [code]radians[/code] inside the function, it replaces it with the [code]0.5[/code] value."
-#~ msgstr "Wszędzie tam, gdzie komputer widzi identyfikator [code]radians[/code] wewnątrz funkcji, zastępuje go wartością [code]0.5[/code]."
-
-#~ msgid "The parameter name is always a label you use to refer to a [i]value[/i]. The value in question can be a number, text, or anything else."
-#~ msgstr "Nazwa parametru jest zawsze etykietą, której używasz do odwoływania się do [i]wartości[/i]. Dana wartość może być liczbą, tekstem lub dowolną inną wartością."
-
-#~ msgid "For now, we'll stick to numbers as we have yet to see other value types."
-#~ msgstr "Na razie będziemy trzymać się liczb, ponieważ nie mieliśmy jeszcze do czynienia z innymi typami wartości."
-
-#~ msgid "A parameter is a label that represents a value."
-#~ msgstr "Parametry to etykiety reprezentujące wartość."
-
-#~ msgid "To do so, you add a name inside of the parentheses."
-#~ msgstr "Aby to zrobić, musisz dodać nazwę odpowiadającej parametrowi w nawiasach."
-
-#~ msgid "Parameters make your code easier to reuse."
-#~ msgstr "Parametry ułatwiają ponowne użycie kodu."
-
-#~ msgid "Here we have an incomplete function that will draw corners with lines of any length, but it's missing its [code]length[/code] parameter."
-#~ msgstr "Przed sobą masz niekompletną funkcję, która w założeniu ma rysować rogi liniami o dowolnej długości, jednak brakuje jej parametru [code]length[/code] odpowiadającej za długość linii."
-
-#~ msgid "Complete the [code]draw_corner()[/code] function so it uses the [code]length[/code] parameter to draw corners."
-#~ msgstr "Uzupełnij funkcję [code]draw_corner()[/code] tak, aby używała ona parametru [code]length[/code] do rysowania rogów."
-
-#, fuzzy
-#~ msgid "Let's make our square drawing function more flexible to include rectangles of varying sizes."
-#~ msgstr "Uczyńmy naszą funkcję do rysowania kwadratów bardziej elastyczną: pozwólmy jej rysować prostokąty o różnych rozmiarach."
-
-#~ msgid "Your job is to code a function named [code]draw_rectangle()[/code] that takes two parameters: the [code]length[/code] and the [code]height[/code] of the rectangle."
-#~ msgstr "Twoim zadaniem jest zakodowanie funkcji o nazwie [code]draw_rectangle()[/code], która przyjmie dwa parametry: odpowiadający za długość prostokąta [code]length[/code] oraz [code]height[/code] odpowiadający za jego wysokość."
-
-#~ msgid "[b]The turtle should face towards the right when starting or completing a rectangle.[/b]"
-#~ msgstr "Żółwik powinien być skierowany w prawo podczas rozpoczynania lub kończenia prostokąta."
-
-#~ msgid "Note that we could still draw a square with [code]draw_rectangle()[/code] by having the [code]length[/code] and [code]height[/code] equal the same value."
-#~ msgstr "Zauważ, że nadal będziesz w stanie narysować kwadrat za pomocą funkcji [code]draw_rectangle()[/code], podając jako wartości [code]length[/code] i [code]height[/code] takie same liczby."

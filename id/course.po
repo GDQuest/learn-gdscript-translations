@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: course/lesson-1-what-code-is-like/lesson.bbcode:1
 msgid "What Code is Like"
 msgstr ""
@@ -236,7 +237,7 @@ msgstr ""
 msgid ""
 "- Some of the mindset you need as a developer. Too many programming courses skip that essential part.\n"
 "- How to write GDScript code.\n"
-"- Essential programming foundations to get you started."
+"- Essential programming foundations to get you started.\n"
 msgstr ""
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:130
@@ -431,7 +432,6 @@ msgstr "Setiap bahasa pemrograman hadir dengan banyak fitur yang dibuat oleh pro
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:9
-#, fuzzy
 msgid "We call a bundle of code created by fellow developers a [glossary term=\"library\"]."
 msgstr "Kami menyebut kumpulan kode yang dibuat oleh sesama pengembang sebagai [i]library[/i]."
 
@@ -709,7 +709,6 @@ msgid "The robot is turned sideways. Help it straighten up with a function call.
 msgstr ""
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
-#, fuzzy
 msgid "You need to use the rotate() function, and give the proper arguments."
 msgstr "Dalam pelajaran sebelumnya, Anda menggunakan fungsi [code]rotate()[/code] dan memberinya [i]argumen[/i]."
 
@@ -755,7 +754,7 @@ msgstr ""
 msgid ""
 "- [code]move_forward(pixels)[/code] makes the turtle move forward over a given distance in [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] makes the turtle turn clockwise by a precise amount of [i]degrees[/i].\n"
-"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise."
+"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise.\n"
 msgstr ""
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:17
@@ -947,7 +946,6 @@ msgstr "Fungsi diberi nama urutan instruksi-instruksi"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-5-your-first-function/lesson.bbcode:9
-#, fuzzy
 msgid "Functions are [i]sequences of [glossary term=\"instructions\"][/i] we give a name. We call that name an [i]identifier[/i]."
 msgstr "Fungsi adalah [i]urutan instruksi[/i] yang kita beri nama. Nama tersebut disebut sebagai [i]identifier[/i]."
 
@@ -1200,7 +1198,6 @@ msgid "Your First Function Parameter"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:7
-#, fuzzy
 msgid "In the previous lesson, you created a function to draw a square of a fixed size."
 msgstr "Pada bagian sebelumnya, Anda telah membuat fungsi untuk menggambar persegi dengan ukuran tetap."
 
@@ -1210,13 +1207,11 @@ msgstr "Fungsi ini agak membatasi. Sebaliknya, akan jauh lebih baik jika kita me
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:9
-#, fuzzy
 msgid "In previous lessons, you used the [code]rotate()[/code] function and gave it an [glossary term=\"argument\"]."
 msgstr "Dalam pelajaran sebelumnya, Anda menggunakan fungsi [code]rotate()[/code] dan memberinya [i]argumen[/i]."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:11
-#, fuzzy
 msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]."
 msgstr "Sama seperti [code]rotate()[/code], kita juga dapat memberikan fungsi kita [i]parameter[/i]. Parameter adalah label yang Anda berikan pada nilai yang diteruskan ke fungsi."
 
@@ -1636,11 +1631,11 @@ msgstr "Dalam permainan, Anda perlu melacak beberapa nilai variabel yang berubah
 msgid ""
 "- The player's score.\n"
 "- Every character or enemy's health.\n"
-"- The last checkpoint."
+"- The last checkpoint.\n"
 msgstr ""
 "- Skor pemain.\n"
 "- Nilai kesehatan karakter atau musuh.\n"
-"- Posisi terakhir atau checkpoint."
+"- Posisi terakhir atau checkpoint.\n"
 
 #: course/lesson-7-member-variables/lesson.bbcode:16
 msgid "And so much more. You need to store, retrieve, and update those values."
@@ -1648,7 +1643,6 @@ msgstr "Dan masih banyak lagi. Anda perlu menyimpan, mengambil, dan memperbarui 
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-7-member-variables/lesson.bbcode:17
-#, fuzzy
 msgid "We call those values [i][glossary term=\"variables\"][/i]. Variables are labels you use to keep track of values that vary over time. Here's an example of a variable tracking a character or monster's health."
 msgstr "Kita menyebutnya [i]variables[/i]. Variabel adalah label yang Anda gunakan untuk melacak nilai yang bervariasi dari waktu ke waktu. Berikut ini contoh variabel yang melacak kesehatan karakter atau monster."
 
@@ -1662,7 +1656,6 @@ msgstr "Parameter fungsi, yang Anda lihat pada pelajaran sebelumnya, adalah cont
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-7-member-variables/lesson.bbcode:23
-#, fuzzy
 msgid "In this lesson, we start using variables built into Godot. They're a particular kind called [i][glossary term=\"member variables\"][/i]."
 msgstr "Dalam pelajaran ini, kita mulai menggunakan variabel yang sudah disediakan di dalam Godot. Variabel-variabel ini adalah jenis khusus yang disebut [i]member variabel[/i]."
 
@@ -1908,7 +1901,6 @@ msgstr ""
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-8-defining-variables/lesson.bbcode:3
-#, fuzzy
 msgid "In the previous lesson, you used a predefined member [glossary term=\"variable\"] named [code]position[/code]."
 msgstr "Pada pelajaran sebelumnya, Anda menggunakan variabel anggota yang telah ditentukan sebelumnya bernama [code]position[/code]."
 
@@ -2056,7 +2048,7 @@ msgstr ""
 #: course/lesson-8-defining-variables/lesson.bbcode:101
 msgid ""
 "- At line 2, the [code]health[/code] variable holds a number.\n"
-"- From line 3, [code]health[/code] holds text."
+"- From line 3, [code]health[/code] holds text.\n"
 msgstr ""
 
 #: course/lesson-8-defining-variables/lesson.bbcode:102
@@ -2152,14 +2144,13 @@ msgid "Which of these would increase the health of the robot?"
 msgstr "Manakah dari ini yang akan meningkatkan kesehatan robot?"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
-#, fuzzy
 msgid "Both of these lines increase the [code]health[/code] of the robot by [code]amount[/code]."
 msgstr ""
 "Keduanya akan meningkatkan [code]health[/code] dari robot sebesar [code]amount[/code].\n"
 "[code]\n"
 "health += amount\n"
 "health = health + amount\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 msgid "health -= amount"
@@ -2202,7 +2193,6 @@ msgid "Learn how to deal damage to entities like our robot."
 msgstr "Pelajari cara memberikan damage (kerusakan) pada entitas seperti robot kita."
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:50
-#, fuzzy
 msgid "Add an instruction to subtract [code]amount[/code] from [code]health[/code]."
 msgstr "Pada baris ke-2, nilai [code]amount[/code] dikurangkan dari [code]health[/code]."
 
@@ -2231,7 +2221,6 @@ msgid "Our robot needs healing after that practice! Create a function to heal it
 msgstr "Robot kita butuh penyembuhan setelah latihan tadi! Buatlah sebuah fungsi untuk menyembuhkannya kembali hingga kesehatan penuh."
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:72
-#, fuzzy
 msgid "Define the [code]heal()[/code] function using [code]func[/code]"
 msgstr "Kita menggunakan fungsi [code]range()[/code] yang dikombinasikan dengan perulangan [code]for[/code] ."
 
@@ -2369,12 +2358,10 @@ msgid "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
-#, fuzzy
 msgid "Call the [code]rotate()[/code] function"
 msgstr "Ambil fungsi [code]_process()[/code] ."
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
-#, fuzzy
 msgid "The [code]rotate()[/code] function takes one parameter"
 msgstr "Ambil fungsi [code]_process()[/code] ."
 
@@ -2408,7 +2395,6 @@ msgid "We've seen how we can use our character's [code]_process()[/code] functio
 msgstr "Kita telah melihat bagaimana kita dapat menggunakan fungsi [code]_process()[/code] karakter kita untuk membuatnya bergerak terus-menerus."
 
 #: course/lesson-11-time-delta/lesson.bbcode:17
-#, fuzzy
 msgid "But it's not just our character that has a [code]_process()[/code] function. Almost everything in the game has a [code]_process()[/code] function!"
 msgstr "Namun bukan hanya karakter kita yang memiliki fungsi [code]_process()[/code]; Hampir semua hal di dalam game memiliki fungsi [code]_process()[/code]!"
 
@@ -2859,7 +2845,6 @@ msgid "Define the [code]angular_speed[/code] variable at the top of the script t
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.bbcode:85
-#, fuzzy
 msgid "Don't forget to use it in the [code]rotate()[/code] function"
 msgstr "Ambil fungsi [code]_process()[/code] ."
 
@@ -3189,7 +3174,6 @@ msgid "Complete the [code]take_damage()[/code] function so it does two things:"
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "1. Subtract [code]amount[/code] from [code]health[/code]."
 msgstr "Pada baris ke-2, nilai [code]amount[/code] dikurangkan dari [code]health[/code]."
 
@@ -3336,7 +3320,7 @@ msgstr ""
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid ""
 "- Increases [code]level[/code] by one.\n"
-"- Increases [code]max_health[/code] by 10%."
+"- Increases [code]max_health[/code] by 10%.\n"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
@@ -3749,7 +3733,7 @@ msgid ""
 "- Reading and processing a file, like a text document, line by line.\n"
 "- Processing a constant stream of data, like someone recording audio with a microphone.\n"
 "- Reading code and converting it into instructions the computer understands.\n"
-"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI."
+"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI.\n"
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
@@ -3806,28 +3790,23 @@ msgid "Introduction to For Loops"
 msgstr ""
 
 #: course/lesson-18-for-loops/lesson.bbcode:7
-#, fuzzy
 msgid "In the last lesson, we looked at [code]while[/code] loops. We found they were useful if we don't know how many times we should repeat code. But [code]while[/code] loops can result in infinite loops if we're not careful."
 msgstr "Pada pelajaran terakhir, kita melihat perulangan [code]while[/code]. Kita mengetahui bahwa ini berguna ketika kita tidak tahu berapa kali kita harus melakukan perulangan kode."
 
 #: course/lesson-18-for-loops/lesson.bbcode:8
-#, fuzzy
 msgid "For example, the loop below never ends because we never increment [code]number[/code]."
 msgstr "Perulangan di bawah ini tidak pernah berakhir karena kita tidak pernah menambahkan [code]number[/code]."
 
 #: course/lesson-18-for-loops/lesson.bbcode:11
-#, fuzzy
 msgid "There's a safer and easier kind of loop: the [code]for[/code] loop. We'll look at it in this lesson."
 msgstr "Ada jenis perulangan yang lebih aman dan sering kali lebih mudah: perulangan [code]for[/code] ."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-18-for-loops/lesson.bbcode:12
-#, fuzzy
 msgid "Unlike [code]while[/code] loops, [code]for[/code] loops don't run forever, so you're much less likely to get infinite loop bugs in your game. [b]We recommend using [glossary term=\"for loops\"] instead of while loops because of this[/b]."
 msgstr "Berbeda dengan perulangan [code]while[/code], perulangan [code]for[/code] tidak berjalan terus-menerus, sehingga kecil kemungkinan Anda mendapatkan bug dalam game Anda. [b]Kami merekomendasikan untuk memilih perulangan for daripada perulangan while karena hal ini[/b]."
 
 #: course/lesson-18-for-loops/lesson.bbcode:13
-#, fuzzy
 msgid "In this example, I changed the code above to use a [code]for[/code] loop instead. The loop below will change the [code]cell[/code] three times."
 msgstr "Mari kita ubah kode di atas untuk menggunakan loop [code]for[/code] ."
 
@@ -4009,7 +3988,6 @@ msgstr "Fungsi [code]range()[/code] yang kita lihat di pelajaran sebelumnya meng
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-19-creating-arrays/lesson.bbcode:7
-#, fuzzy
 msgid "A list of values, numbers or otherwise, has a precise name in code: we call it an [i][glossary term=\"array\"][/i]. So we can say calling the [code]range()[/code] function produces an [i]array[/i] of numbers."
 msgstr "Daftar nilai, angka atau lainnya, memiliki nama yang tepat dalam kode: kita menyebutnya [i]array[/i]. Jadi kita dapat mengatakan memanggil fungsi [code]range()[/code] menghasilkan [i]array[/i] angka."
 
@@ -4078,7 +4056,7 @@ msgid ""
 "- The player's party in an RPG.\n"
 "- The items in the player's inventory.\n"
 "- The high scores in an arcade game.\n"
-"- The objects in the game world."
+"- The objects in the game world.\n"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:62
@@ -4285,7 +4263,7 @@ msgstr ""
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:74
 msgid ""
 "- In a condition, the [code]in[/code] keyword allows you to check if a value exists [i]in[/i] an array.\n"
-"- The array's [code]append()[/code] function appends a new value at the end of the array."
+"- The array's [code]append()[/code] function appends a new value at the end of the array.\n"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:75
@@ -4503,7 +4481,7 @@ msgstr ""
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid ""
 "- [code]\"jab\"[/code] (makes the robot perform a quick punch)\n"
-"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)"
+"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)\n"
 msgstr ""
 
 #: course/lesson-21-strings/lesson.bbcode:73
@@ -4531,18 +4509,15 @@ msgid "Functions that return a value"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:5
-#, fuzzy
 msgid "Until now, you learned that functions are a way to group instructions, give them a name, and reuse them."
 msgstr "Sampai sini, Anda telah mempelajari bahwa fungsi adalah rangkaian instruksi yang Anda beri nama dan dapat dipanggil kapan saja."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-22-functions-return-values/lesson.bbcode:6
-#, fuzzy
 msgid "Functions can also make calculations and [glossary term=\"return\"] new values."
 msgstr "Selain itu, fungsi dapat membuat penghitungan dan [i]return[/i] nilai baru."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:7
-#, fuzzy
 msgid "Let's look at some examples to see why this is useful."
 msgstr "Mari kita lihat beberapa contoh untuk mengetahui mengapa ini berguna."
 
@@ -4555,7 +4530,6 @@ msgid "Many functions built into GDScript make calculations and return a new val
 msgstr "Banyak fungsi yang sudah tersedia di GDScript digunakan untuk melakukan perhitungan dan mengembalikan nilai baru."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:16
-#, fuzzy
 msgid "For example, the [code]round()[/code] function takes a decimal number as an argument and gives you back a new whole number rounded to the nearest digit."
 msgstr "Sebagai contoh, fungsi [code]round()[/code] menerima angka desimal sebagai argumen dan mengembalikan angka baru yang dibulatkan ke angka terdekat."
 
@@ -4646,7 +4620,7 @@ msgstr ""
 #: course/lesson-22-functions-return-values/lesson.bbcode:80
 msgid ""
 "- Cell [code]Vector2(1, 0)[/code] is at pixel position [code]Vector2(120, 0)[/code].\n"
-"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels."
+"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels.\n"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:81
@@ -4718,12 +4692,10 @@ msgid "Appending and popping values from arrays"
 msgstr ""
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:9
-#, fuzzy
 msgid "In previous lessons, you learned how to create arrays to store lists of values and how to loop over them. That's useful, but arrays can do much more."
 msgstr "Dalam pelajaran sebelumnya, Anda telah mempelajari cara membuat array untuk menyimpan daftar nilai dan cara mengulangnya. Itu bagus, tetapi Anda tidak akan pergi jauh hanya dengan itu."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:10
-#, fuzzy
 msgid "The real strength of GDScript arrays is that you can add and remove values from them at any time. This lets you build waiting lines of data or piles of data. We call these [i]queues[/i] and [i]stacks[/i], respectively. We'll see what that means in this lesson."
 msgstr "Kelebihan dari array sebenarnya adalah Anda dapat menambah dan menghapus nilai dari array kapan saja. Ini memungkinkan Anda untuk [i]queue[/i] atau [i]stack[/i] data."
 
@@ -5098,7 +5070,6 @@ msgstr "Namun, hanya dengan serangkaian nama item, kami tidak dapat dengan mudah
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:9
-#, fuzzy
 msgid "Instead, we can bundle the item names and amounts into a single [glossary term=\"dictionary\"]."
 msgstr "Sebagai gantinya, kita dapat menggabungkan nama dan jumlah item menjadi satu [i]dictionary[/i],"
 
@@ -5250,7 +5221,7 @@ msgstr ""
 msgid ""
 "- Three \"healing heart\".\n"
 "- Nine \"gems\".\n"
-"- One \"sword\"."
+"- One \"sword\".\n"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
@@ -5310,7 +5281,6 @@ msgid "You can loop over dictionaries, just like you learned to loop over arrays
 msgstr ""
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:8
-#, fuzzy
 msgid "Let's see how this works with two examples."
 msgstr "Mari kita lihat cara kerjanya dengan dua contoh ini."
 
@@ -5319,17 +5289,14 @@ msgid "Displaying an inventory's content"
 msgstr "Menampilkan konten inventaris"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:15
-#, fuzzy
 msgid "To display the player's inventory, you need to know what it contains: the name and amount of each item."
 msgstr "Untuk menampilkan inventaris pemain, kamu perlu mengetahui apa saja isinya. Kamu membutuhkan nama dan jumlah dari setiap objek."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:16
-#, fuzzy
 msgid "To do this, you loop over the dictionary and process each key-value pair one at a time."
 msgstr "Dan dari kode, satu-satunya cara untuk melakukannya adalah dengan melakukan perulangan pada seluruh dictionary dan memproses pasangan key-value satu per satu."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:17
-#, fuzzy
 msgid "You can get the list of all the keys in a dictionary by calling its [code]keys()[/code] function."
 msgstr "Untuk mendapatkan daftar key dalam dictionary, kamu bisa memanggil fungsi anggota [code]keys()[/code]."
 
@@ -5443,7 +5410,6 @@ msgstr ""
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-27-value-types/lesson.bbcode:3
-#, fuzzy
 msgid "In your code, values have a particular [glossary term=\"type\"]. You have already learned about several: whole numbers, decimal numbers, strings, 2D vectors, arrays, and dictionaries."
 msgstr "Dalam kode Anda, nilai memiliki [i]type[/i] tertentu. Anda telah mempelajari beberapa hal: bilangan bulat, bilangan desimal, string, vektor 2D, array, dan kamus."
 
@@ -5809,31 +5775,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "Our robot's health is always between [code]0[/code] and [code]100[/code]."
-#~ msgstr "Kesehatan robot kita selalu berada di antara [code]0[/code] dan [code]100[/code]."
-
-#~ msgid "But as our robot fights, we want to increase its strength and toughness."
-#~ msgstr "Namun saat robot kami bertarung, kami ingin meningkatkan kekuatan dan ketangguhannya."
-
-#~ msgid "When a character levels up, it might deal more damage to enemies, gain new abilities or, in our case, gain more health."
-#~ msgstr "Saat karakter naik level, karakter tersebut mungkin memberikan lebih banyak kerusakan pada musuh, memperoleh kemampuan baru, atau, dalam kasus kami, memperoleh lebih banyak kesehatan."
-
-#~ msgid ""
-#~ "[code]health -= amount[/code]\n"
-#~ "[code]health = health - amount[/code]"
-#~ msgstr ""
-#~ "[code]health -= amount[/code]\n"
-#~ "[code]health = health - amount[/code]"
-
-#~ msgid "However, they could result in infinite loops if we're not careful."
-#~ msgstr "Namun, hal ini dapat mengakibatkan perulangan tak terbatas jika kita tidak hati-hati."
-
-#~ msgid "We'll look at it in this lesson."
-#~ msgstr "Kita akan melihatnya dalam pelajaran ini."
-
-#~ msgid "For now, let's take another example."
-#~ msgstr "Untuk saat ini, mari kita ambil contoh lain."
-
-#~ msgid "Like with arrays, you can loop over dictionaries. You can loop over both their keys and values."
-#~ msgstr "Seperti halnya array, Anda dapat mengulang dictionaries. Anda dapat mengulang kunci dan nilainya."

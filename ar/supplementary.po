@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: Weblate 2026.6\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: script_checking/error_database.csv
 msgid "error_explanation"
 msgstr ""
@@ -49,11 +50,10 @@ msgid "To access the [code]x[/code] sub-component of the variable, you need to d
 msgstr "للوصول إلى المكوّن الفرعي [code]x[/code] من المتغير، تحتاج إلى القيام بذلك داخل جسم الحلقة:"
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "[code]for cell_position in cell_positions_array:"
 msgstr ""
 "[code]لـ cell_position في cell_positions_array:\n"
-"    cell_position.x += 1.0[/code]"
+"    cell_position.x += 1.0[/code]\n"
 
 #: script_checking/error_database.csv
 msgid "    cell_position.x += 1.0[/code]"
@@ -104,18 +104,16 @@ msgid "Look at what you are trying to change. If it is a constant (defined with 
 msgstr "انظر إلى ما تحاول تغييره. إذا كان ثابتًا (معرّفًا باستخدام الكلمة المفتاحية [code]const[/code] أو مدمجًا في Godot)، لديك خياران:"
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "1. If the value should never change, or it comes from Godot, remove the line that tries to change it."
 msgstr ""
 "1. إذا كان يجب ألا تتغير القيمة أبدًا، أو إذا كانت تأتي من Godot، قم بإزالة السطر الذي يحاول تغييرها.\n"
-"2. إذا كانت القيمة بحاجة إلى التغيير، استخدم [code]var[/code] بدل [code]const[/code] عند إنشائها لأول مرة."
+"2. إذا كانت القيمة بحاجة إلى التغيير، استخدم [code]var[/code] بدل [code]const[/code] عند إنشائها لأول مرة.\n"
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "2. If the value needs to change, use [code]var[/code] instead of [code]const[/code] when you first create it."
 msgstr ""
 "1. إذا كان يجب ألا تتغير القيمة أبدًا، أو إذا كانت تأتي من Godot، قم بإزالة السطر الذي يحاول تغييرها.\n"
-"2. إذا كانت القيمة بحاجة إلى التغيير، استخدم [code]var[/code] بدل [code]const[/code] عند إنشائها لأول مرة."
+"2. إذا كانت القيمة بحاجة إلى التغيير، استخدم [code]var[/code] بدل [code]const[/code] عند إنشائها لأول مرة.\n"
 
 #: script_checking/error_database.csv
 msgid "You get this error when you mix spaces and tabs in your indentation. This happens when you have a space before a tab, or a tab before a space at the start of a line."
@@ -154,11 +152,10 @@ msgid "1. You used the class name in the class itself."
 msgstr ""
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "2. Your code refers to another class that refers to this class, causing an endless reference cycle."
 msgstr ""
 "1. لقد استخدمت اسم الفئة داخل الفئة نفسها.\n"
-"2. يشير كودك إلى فئة أخرى تشير إلى هذه الفئة، مما يسبب دورة إشارات لا نهاية لها."
+"2. يشير كودك إلى فئة أخرى تشير إلى هذه الفئة، مما يسبب دورة إشارات لا نهاية لها.\n"
 
 #: script_checking/error_database.csv
 msgid "Either way, due to how GDScript works in Godot 3, unfortunately,you cannot do this. Godot 4 should solve this problem, but you need to work around it in the meantime."
@@ -261,12 +258,11 @@ msgid "1. You wrote an identifier (variable or function name) in the wrong place
 msgstr ""
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "2. You wrote a keyword like [code]var[/code], [code]func[/code], [code]for[/code], or [code]signal[/code], and you did not follow it by a name."
 msgstr ""
 "1. لقد كتبت معرفًا (اسم متغير أو دالة) في المكان الخطأ.\n"
 "2. لقد كتبت كلمة مفتاحية مثل [code]var[/code]، [code]func[/code]، [code]for[/code]، أو [code]signal[/code]، ولم تتبعها باسم.\n"
-"3. لقد كتبت تعريف دالة ولكنك نسيت الأقواس قبل النقطتين."
+"3. لقد كتبت تعريف دالة ولكنك نسيت الأقواس قبل النقطتين.\n"
 
 #: script_checking/error_database.csv
 msgid "3. You wrote a function definition but forgot the parentheses before the colon."
@@ -473,18 +469,16 @@ msgid "There is an issue with the return value of your function. There are two m
 msgstr "هناك مشكلة في قيمة الإرجاع لدالتك. هناك حالتان رئيسيتان هنا:"
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "1. Your function is a void function, thus it should not return a value. This includes functions with the '-> void' syntax and class constructors ('_init()')."
 msgstr ""
 "1. دالتك هي دالة void، لذا يجب ألا تعيد قيمة. ويشمل ذلك الدالات التي تستخدم الصياغة '-> void' وبنيات الفئة ('_init()').\n"
-"2. لقد حددت نوع قيمة الإرجاع لدالتك، ولكنك لا تعيد قيمة في جميع الفرعيات الممكنة (if، elif، وelse) أو في النهاية."
+"2. لقد حددت نوع قيمة الإرجاع لدالتك، ولكنك لا تعيد قيمة في جميع الفرعيات الممكنة (if، elif، وelse) أو في النهاية.\n"
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "2. You specified a return type for your function, but you are not returning a value in all possible branches (if, elif, and else blocks) or at the end."
 msgstr ""
 "1. دالتك هي دالة void، لذا يجب ألا تعيد قيمة. ويشمل ذلك الدالات التي تستخدم الصياغة '-> void' وبنيات الفئة ('_init()').\n"
-"2. لقد حددت نوع قيمة الإرجاع لدالتك، ولكنك لا تعيد قيمة في جميع الفرعيات الممكنة (if، elif، وelse) أو في النهاية."
+"2. لقد حددت نوع قيمة الإرجاع لدالتك، ولكنك لا تعيد قيمة في جميع الفرعيات الممكنة (if، elif، وelse) أو في النهاية.\n"
 
 #: script_checking/error_database.csv
 msgid "When your function is 'void', you should never return a value. You can use the 'return' keyword to end the function early, but you should never write anything after that."
@@ -523,11 +517,10 @@ msgid "The computer reached the end of the line of code, but the line had a synt
 msgstr ""
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "The most common case is when you forget to close a string: you have opening quotes, but you forget to add a matching closing quote."
 msgstr ""
 "وصل الكمبيوتر إلى نهاية سطر الكود، لكن السطر كان يحتوي على خطأ في الصياغة.\n"
-"الحالة الأكثر شيوعًا هي عندما تنسى إغلاق سلسلة نصية: لديك علامات اقتباس مفتوحة، لكنك تنسى إضافة علامة اقتباس مطابقة للإغلاق."
+"الحالة الأكثر شيوعًا هي عندما تنسى إغلاق سلسلة نصية: لديك علامات اقتباس مفتوحة، لكنك تنسى إضافة علامة اقتباس مطابقة للإغلاق.\n"
 
 #: script_checking/error_database.csv
 msgid "Double-check that you are not missing a quote character or that the quote character you used to start the string is the same as the one you used to close the string."
@@ -818,7 +811,6 @@ msgid "The position of the entity on the vertical axis."
 msgstr "موضع الكيان على المحور العمودي."
 
 #: course/documentation.csv
-#, fuzzy
 msgid " Applies a local translation on the node's X axis based on the [code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] is false, normalizes the movement."
 msgstr "يطبق ترجمة محلية على محور X للعقدة بناءً على [code]Node._process[/code] و[code]delta[/code]. إذا كان [code]scaled[/code] خاطئًا، يقوم بتطبيع الحركة."
 
@@ -840,112 +832,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "This error tells you are missing some parenthesis, a comma, or some value in your export hint."
-#~ msgstr "يشير هذا الخطأ إلى أنك تفتقد بعض الأقواس أو فاصلة أو بعض القيم في تلميح التصدير الخاص بك."
-
-#~ msgid "You need to read the error message and add the missing character or value it requests."
-#~ msgstr "تحتاج إلى قراءة رسالة الخطأ وإضافة الحرف أو القيمة المفقودة التي تطلبها."
-
-#, fuzzy
-#~ msgid "member function"
-#~ msgstr "دالة عضوية"
-
-#~ msgid "member functions"
-#~ msgstr "دالة عضوية"
-
-#~ msgid "member variable"
-#~ msgstr "متغير عضوي"
-
-#~ msgid "member variables"
-#~ msgstr "متغير عضو"
-
-#~ msgid "iterations"
-#~ msgstr "تكرارات"
-
-#~ msgid "vector"
-#~ msgstr "متجه"
-
-#~ msgid "vectors"
-#~ msgstr "متجهات"
-
-#~ msgid "argument"
-#~ msgstr "حجة"
-
-#~ msgid "arguments"
-#~ msgstr "جدالات"
-
-#~ msgid "for loops"
-#~ msgstr "حلقة for"
-
-#~ msgid "function"
-#~ msgstr "دالة"
-
-#~ msgid "functions"
-#~ msgstr "دوال"
-
-#~ msgid "increment"
-#~ msgstr "زيادة"
-
-#~ msgid "increments"
-#~ msgstr "زيادات"
-
-#~ msgid "instruction"
-#~ msgstr "تعليمات"
-
-#~ msgid "instructions"
-#~ msgstr "التعليمات"
-
-#~ msgid "variable"
-#~ msgstr "متغير"
-
-#~ msgid "variables"
-#~ msgstr "المتغيرات"
-
-#~ msgid "while loop"
-#~ msgstr "حلقة while"
-
-#~ msgid "while loops"
-#~ msgstr "حلقات while"
-
-#~ msgid "The cell position of the robot on the board. [code]Vector2(0, 0)[/code] is the square cell in the top left of the board."
-#~ msgstr "موقع الخلية للروبوت على اللوحة. [code]Vector2(0, 0)[/code] هو الخلية المربعة في الركن العلوي الأيسر من اللوحة."
-
-#~ msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
-#~ msgstr "ينشئ قائمة من الأرقام من [code]0[/code] إلى [code]length - 1[/code]."
-
-#~ msgid "Orders the robot to play an animation."
-#~ msgstr "يأمر الروبوت بتشغيل رسم متحرك."
-
-#~ msgid "Selects units in the cell coordinates passed as the function's argument."
-#~ msgstr "يختار الوحدات في إحداثيات الخلية الممررة كمعامل للدالة."
-
-#~ msgid "Queues a move animation towards the target cell."
-#~ msgstr "يضع في قائمة الانتظار حركة للانتقال نحو الخلية المستهدفة."
-
-#~ msgid "Adds the value passed as an argument at the back of the array."
-#~ msgstr "يضيف القيمة التي تم تمريرها كوسيط في نهاية المصفوفة."
-
-#~ msgid "Removes the first value from the array and returns it."
-#~ msgstr "يزيل القيمة الأولى من المصفوفة ويعاد."
-
-#~ msgid "Removes the last value from the array and returns it."
-#~ msgstr "يزيل القيمة الأخيرة من المصفوفة ويعاد."
-
-#~ msgid "Returns the argument converted into a [code]String[/code]. Works with the majority of value types."
-#~ msgstr "يعيد الوسيطة محوّلة إلى [code]String[/code]. يعمل مع معظم أنواع القيم."
-
-#~ msgid "Returns the argument converted into an [code]int[/code] (whole number) [i]if possible[/i]. Supports converting decimal numbers, strings, and booleans. Useful to convert player text input into numbers."
-#~ msgstr "يعيد الوسيطة المحوّلة إلى [code]int[/code] (عدد صحيح) [i]إذا كان ذلك ممكنًا[/i]. يدعم تحويل الأعداد العشرية، السلاسل النصية، والقيم البوليانية. مفيد لتحويل إدخال نصي من اللاعب إلى أرقام."
-
-#~ msgid "Creates a new unit matching the type parameter and places it at the desired cell position on the game grid."
-#~ msgstr "ينشئ وحدة جديدة تطابق نوع المعلمة ويضعها في موقع الخلية المطلوب على شبكة اللعبة."
-
-#~ msgid "Creates a new item and displays it in the inventory."
-#~ msgstr "ينشئ عنصراً جديداً ويعرضه في المخزون."
-
-#~ msgid "Increases the item count by amount."
-#~ msgstr "يزيد عدد العناصر بمقدار."
-
-#~ msgid "Realigns the train track with the path. Select a train track in the tracks array by index to pass it as an argument."
-#~ msgstr "يعيد محاذاة سكة القطار مع المسار. اختر سكة قطار في مصفوفة السكك حسب الفهرس لتمريرها كحجة."

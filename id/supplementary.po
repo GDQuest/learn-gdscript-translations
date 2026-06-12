@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: script_checking/error_database.csv
 msgid "error_explanation"
 msgstr ""
@@ -48,11 +49,10 @@ msgid "To access the [code]x[/code] sub-component of the variable, you need to d
 msgstr "Untuk mengakses sub-komponen [code]x[/code] dari variabel, Anda perlu melakukannya di dalam perulangan:"
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "[code]for cell_position in cell_positions_array:"
 msgstr ""
 "[code]for cell_position in cell_positions_array:\n"
-"    cell_position.x += 1.0[/code]"
+"    cell_position.x += 1.0[/code]\n"
 
 #: script_checking/error_database.csv
 msgid "    cell_position.x += 1.0[/code]"
@@ -523,7 +523,6 @@ msgid "Ensure that you don't have a capital letter where you should have a lower
 msgstr ""
 
 #: course/glossary.csv course/documentation.csv
-#, fuzzy
 msgid "explanation"
 msgstr "iterasi"
 
@@ -796,7 +795,6 @@ msgid "The position of the entity on the vertical axis."
 msgstr "Posisi entitas pada sumbu vertikal."
 
 #: course/documentation.csv
-#, fuzzy
 msgid " Applies a local translation on the node's X axis based on the [code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] is false, normalizes the movement."
 msgstr "Menerapkan translasi lokal pada sumbu X node berdasarkan parameter [code]delta[/code] pada [code]Node._process[/code]. Jika [code]scaled[/code] memiliki nilai salah, maka normalisasi gerakannya."
 
@@ -818,72 +816,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "member function"
-#~ msgstr "fungsi anggota"
-
-#~ msgid "member functions"
-#~ msgstr "fungsi anggota"
-
-#~ msgid "parameter"
-#~ msgstr "parameter"
-
-#~ msgid "radian"
-#~ msgstr "radian"
-
-#~ msgid "vector"
-#~ msgstr "vektor"
-
-#~ msgid "argument"
-#~ msgstr "argumen"
-
-#~ msgid "function"
-#~ msgstr "fungsi"
-
-#~ msgid "instructions"
-#~ msgstr "instruksi-instruksi"
-
-#~ msgid "variable"
-#~ msgstr "variabel"
-
-#~ msgid "sprite"
-#~ msgstr "sprite"
-
-#~ msgid "The cell position of the robot on the board. [code]Vector2(0, 0)[/code] is the square cell in the top left of the board."
-#~ msgstr "Posisi sel dari si robot di atas papan. [code]Vector2(0, 0)[/code] adalah sel persegi di paling kiri atas papan."
-
-#~ msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
-#~ msgstr "Buat sebuah daftar berisi nomor dari [code]0[/code] sampai [code]length - 1[/code]."
-
-#~ msgid "Orders the robot to play an animation."
-#~ msgstr "Perintahkan robot untuk memainkan sebuah animasi."
-
-#~ msgid "Selects units in the cell coordinates passed as the function's argument."
-#~ msgstr "Memilih unit dalam koordinat sel yang diteruskan sebagai argumen fungsi."
-
-#~ msgid "Queues a move animation towards the target cell."
-#~ msgstr "Mengantrikan sebuah animasi yang bergerak ke sel target."
-
-#~ msgid "Adds the value passed as an argument at the back of the array."
-#~ msgstr "Menambahkan nilai yang diteruskan sebagai argumen di belakang array."
-
-#~ msgid "Removes the first value from the array and returns it."
-#~ msgstr "Menghapus nilai pertama dari array dan mengembalikan nilai tersebut."
-
-#~ msgid "Removes the last value from the array and returns it."
-#~ msgstr "Menghapus nilai terakhir dari array dan mengembalikan nilai tersebut."
-
-#~ msgid "Returns the argument converted into a [code]String[/code]. Works with the majority of value types."
-#~ msgstr "Mengembalikan argumen yang telah diubah menjadi sebuah [code]String[/code]. Berlaku untuk sebagian besar tipe data."
-
-#~ msgid "Returns the argument converted into an [code]int[/code] (whole number) [i]if possible[/i]. Supports converting decimal numbers, strings, and booleans. Useful to convert player text input into numbers."
-#~ msgstr "Mengembalikan argumen yang diubah menjadi [code]int[/code] (bilangan bulat) [i]jika memungkinkan[/i]. Mendukung konversi angka desimal, string, dan boolean. Berguna untuk mengubah input teks pemain menjadi angka."
-
-#~ msgid "Creates a new unit matching the type parameter and places it at the desired cell position on the game grid."
-#~ msgstr "Membuat unit baru yang cocok dengan parameter tipe dan menempatkannya pada posisi sel yang diinginkan pada kisi permainan."
-
-#~ msgid "Creates a new item and displays it in the inventory."
-#~ msgstr "Membuat item baru dan menampilkannya di inventaris."
-
-#~ msgid "Increases the item count by amount."
-#~ msgstr "Meningkatkan jumlah item berdasarkan amount."

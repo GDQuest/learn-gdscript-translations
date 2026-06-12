@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: course/lesson-1-what-code-is-like/lesson.bbcode:1
 msgid "What Code is Like"
 msgstr "کد چگونه است"
@@ -37,7 +38,6 @@ msgstr "گفتن کارهایی که رایانه باید بکند به آن"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
-#, fuzzy
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"] that tell a computer how to perform a task."
 msgstr "برنامه‌نویسی فرایند دقیق نوشتن دستورالعمل‌هایی است که به رایانه می‌گویند چگونه کاری را بینجامد."
 
@@ -122,7 +122,6 @@ msgid "This is a language by game developers for game developers. You can use it
 msgstr "زبانی‌ست از بازی‌سازان برای بازی‌سازان. می‌توانید آن را درون موتور بازی‌سازی گودوت به کار ببرید و بازی و برنامه بسازید."
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:57
-#, fuzzy
 msgid "It's the language used by games like [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] and [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url], and Godot also powers hits like [ignore][url=https://store.steampowered.com/app/2835570/Buckshot_Roulette/]Buckshot Roulette[/url] and [ignore][url=https://store.steampowered.com/app/2868840/Slay_the_Spire_2/]Slay the Spire 2[/url]."
 msgstr "زبانی‌ست که بازی‌هایی همچون [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] (گنبدبان) و [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url] (بُروتِیتو) از آن بهره می‌برند."
 
@@ -238,11 +237,11 @@ msgstr "در درازای راه، به شما خواهیم آموزاند:"
 msgid ""
 "- Some of the mindset you need as a developer. Too many programming courses skip that essential part.\n"
 "- How to write GDScript code.\n"
-"- Essential programming foundations to get you started."
+"- Essential programming foundations to get you started.\n"
 msgstr ""
 "- برخی از نگرش‌هایی که به‌عنوان توسعه‌دهنده نیاز دارید. دوره‌های برنامه‌نویسی بسیاری این بخش مهم را رد می‌کنند.\n"
 "- چگونه کد جی‌دی‌اسکریپت بنویسید.\n"
-"- پایه‌های مهم برنامه‌نویسی برای راه انداختن‌تان."
+"- پایه‌های مهم برنامه‌نویسی برای راه انداختن‌تان.\n"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:130
 msgid "As you go through the course, you will have many questions. We will answer them the best we can as we go."
@@ -758,7 +757,7 @@ msgstr ""
 msgid ""
 "- [code]move_forward(pixels)[/code] makes the turtle move forward over a given distance in [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] makes the turtle turn clockwise by a precise amount of [i]degrees[/i].\n"
-"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise."
+"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise.\n"
 msgstr ""
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:17
@@ -1635,7 +1634,7 @@ msgstr ""
 msgid ""
 "- The player's score.\n"
 "- Every character or enemy's health.\n"
-"- The last checkpoint."
+"- The last checkpoint.\n"
 msgstr ""
 
 #: course/lesson-7-member-variables/lesson.bbcode:16
@@ -2049,7 +2048,7 @@ msgstr ""
 #: course/lesson-8-defining-variables/lesson.bbcode:101
 msgid ""
 "- At line 2, the [code]health[/code] variable holds a number.\n"
-"- From line 3, [code]health[/code] holds text."
+"- From line 3, [code]health[/code] holds text.\n"
 msgstr ""
 
 #: course/lesson-8-defining-variables/lesson.bbcode:102
@@ -3315,7 +3314,7 @@ msgstr ""
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid ""
 "- Increases [code]level[/code] by one.\n"
-"- Increases [code]max_health[/code] by 10%."
+"- Increases [code]max_health[/code] by 10%.\n"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
@@ -3728,7 +3727,7 @@ msgid ""
 "- Reading and processing a file, like a text document, line by line.\n"
 "- Processing a constant stream of data, like someone recording audio with a microphone.\n"
 "- Reading code and converting it into instructions the computer understands.\n"
-"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI."
+"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI.\n"
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
@@ -4051,7 +4050,7 @@ msgid ""
 "- The player's party in an RPG.\n"
 "- The items in the player's inventory.\n"
 "- The high scores in an arcade game.\n"
-"- The objects in the game world."
+"- The objects in the game world.\n"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:62
@@ -4258,7 +4257,7 @@ msgstr ""
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:74
 msgid ""
 "- In a condition, the [code]in[/code] keyword allows you to check if a value exists [i]in[/i] an array.\n"
-"- The array's [code]append()[/code] function appends a new value at the end of the array."
+"- The array's [code]append()[/code] function appends a new value at the end of the array.\n"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:75
@@ -4476,7 +4475,7 @@ msgstr ""
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid ""
 "- [code]\"jab\"[/code] (makes the robot perform a quick punch)\n"
-"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)"
+"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)\n"
 msgstr ""
 
 #: course/lesson-21-strings/lesson.bbcode:73
@@ -4615,7 +4614,7 @@ msgstr ""
 #: course/lesson-22-functions-return-values/lesson.bbcode:80
 msgid ""
 "- Cell [code]Vector2(1, 0)[/code] is at pixel position [code]Vector2(120, 0)[/code].\n"
-"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels."
+"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels.\n"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:81
@@ -5216,7 +5215,7 @@ msgstr ""
 msgid ""
 "- Three \"healing heart\".\n"
 "- Nine \"gems\".\n"
-"- One \"sword\"."
+"- One \"sword\".\n"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
@@ -5770,6 +5769,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "Engineers at Tesla also used it for their cars' dashboards."
-#~ msgstr "مهندسان شرکت تسلا نیز آن را برای داشبورد خودروهای‌شان به کار می‌گیرند."

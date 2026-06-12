@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: course/lesson-1-what-code-is-like/lesson.bbcode:1
 msgid "What Code is Like"
 msgstr "Ako kód vyzerá"
@@ -37,7 +38,6 @@ msgstr "Ako povedať počítaču, čo má robiť"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
-#, fuzzy
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"] that tell a computer how to perform a task."
 msgstr "Programovanie je proces napísania presných inštrukcií, ktoré počítaču povedia, ako má splniť určitú úlohu."
 
@@ -122,7 +122,6 @@ msgid "This is a language by game developers for game developers. You can use it
 msgstr "Ide o jazyk od vývojárov hier pre vývojárov hier. Jeho použitím v hernom engine Godot vytvoríte hry a aplikácie."
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:57
-#, fuzzy
 msgid "It's the language used by games like [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] and [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url], and Godot also powers hits like [ignore][url=https://store.steampowered.com/app/2835570/Buckshot_Roulette/]Buckshot Roulette[/url] and [ignore][url=https://store.steampowered.com/app/2868840/Slay_the_Spire_2/]Slay the Spire 2[/url]."
 msgstr "Je to jazyk použitý v hrách ako [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] a [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url]."
 
@@ -238,11 +237,11 @@ msgstr "Postupne vás naučíme:"
 msgid ""
 "- Some of the mindset you need as a developer. Too many programming courses skip that essential part.\n"
 "- How to write GDScript code.\n"
-"- Essential programming foundations to get you started."
+"- Essential programming foundations to get you started.\n"
 msgstr ""
 "- Niektoré myšlienkové postupy, ktoré ako vývojár potrebujete. Príliš veľa kurzov programovania túto podstatnú časť vynecháva.\n"
 "- Ako písať kód v GDScripte.\n"
-"- Nevyhnutné základy programovania do vašich začiatkov."
+"- Nevyhnutné základy programovania do vašich začiatkov.\n"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:130
 msgid "As you go through the course, you will have many questions. We will answer them the best we can as we go."
@@ -394,13 +393,11 @@ msgstr "Tento kód je nesprávny a keď ho skúsite spustiť spôsobí chybu."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "The code defines an empty [glossary term=\"function\"] named [code]this_code_is_wrong[/code]."
 msgstr "Kód definuje prázdnu funkciu s názvom [code]this_code_is_wrong[/code]."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "To work, the function should use the [glossary term=\"return\"] keyword. But this keyword is currently inside a comment, which the computer ignores."
 msgstr "Aby fungovala, mala by funkcia použiť kľúčové slovo [code]return[/code]. Lenže toto kľúčové slovo je teraz vnútri komentára, ktorý počítač ignoruje."
 
@@ -438,7 +435,6 @@ msgstr "Každý programovací jazyk je dodávaný s množstvom funkcií vytvoren
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:9
-#, fuzzy
 msgid "We call a bundle of code created by fellow developers a [glossary term=\"library\"]."
 msgstr "Balík kódu vytvorený kolegami programátormi nazývame [i]knižnica[/i]."
 
@@ -460,13 +456,11 @@ msgstr "Pri programovaní budete vždy používať veľa kódu od predošlých v
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:18
-#, fuzzy
 msgid "In a moment, you'll write your first code. You'll use [glossary term=\"functions\"] created by the Godot developers."
 msgstr "Za chvíľu napíšete svoj prvý kód. Budete používať [i]funkcie[/i] vytvorené vývojármi Godotu."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:19
-#, fuzzy
 msgid "A function is a list of [glossary term=\"instructions\"] with an exact name. We can tell the computer to execute all the instructions in sequence with that name."
 msgstr "Funkcia je zoznam inštrukcií s jednoznačným názvom. Počítaču môžeme povedať, aby vykonal všetky inštrukcie v poradí s týmto názvom."
 
@@ -544,13 +538,11 @@ msgstr "Argumenty funkcie"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:59
-#, fuzzy
 msgid "We use parentheses to call functions because you can give the function [glossary term=\"arguments\"] inside the parentheses when calling it."
 msgstr "Keď voláme funkcie používame zátvorky, pretože do nich je možné vložiť [i]argumenty[/i] volanej funkcie."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:60
-#, fuzzy
 msgid "Here's a [glossary term=\"sprite\"] standing straight. If we call the [code]rotate(0.3)[/code] function, the character [i]sprite[/i] turns by 0.3 radians."
 msgstr "Dole je [i]sprite[/i] stojaci rovno. Keď zavoláme funkciu [code]rotate(0.3)[/code], otočí sa [i]sprite[/i] postavičky o 0,3 radiánu."
 
@@ -584,7 +576,6 @@ msgstr "Čo sú radiány?"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:78
-#, fuzzy
 msgid "The value of [code]0.3[/code] is an angle in [glossary term=\"radians\"]. In daily life, we're used to measuring angles in degrees. The radian is another scale commonly used in video games and math."
 msgstr "Hodnota [code]0.3[/code] je uhol v [i]radiánoch[/i]. V bežnom živote sme zvyknutí merať uhly v stupňoch. Radián je len iná uhlová jednotka, ktorá sa bežne používa vo videohrách a v matematike."
 
@@ -766,7 +757,7 @@ msgstr ""
 msgid ""
 "- [code]move_forward(pixels)[/code] makes the turtle move forward over a given distance in [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] makes the turtle turn clockwise by a precise amount of [i]degrees[/i].\n"
-"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise."
+"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise.\n"
 msgstr ""
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:17
@@ -1210,7 +1201,6 @@ msgid "Your First Function Parameter"
 msgstr "Váš prvý parameter funkcie"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:7
-#, fuzzy
 msgid "In the previous lesson, you created a function to draw a square of a fixed size."
 msgstr "V predchádzajúcej lekcii vaša funkcia kreslila štvorce pevnej veľkosti. Pomocou parametra nakódujte funkciu, ktorá bude kresliť štvorce ľubovoľnej veľkosti."
 
@@ -1225,7 +1215,6 @@ msgstr ""
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:11
-#, fuzzy
 msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]."
 msgstr "Rovnako ako [code]rotate()[/code], môžeme našej funkcii zadať [i]parameters[/i]. Parametre sú označenia, ktoré dávate hodnotám odovzdaným funkcii."
 
@@ -1238,7 +1227,6 @@ msgid "When you write a function with parameters, you create a flexible template
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
-#, fuzzy
 msgid "For now, focus on the first line, the function [i]definition[/i]: [code]func rotate(radians)[/code]."
 msgstr "Teraz sa prosím zamerajte na prvý riadok: [code]func rotate(radians)[/code]."
 
@@ -1247,7 +1235,6 @@ msgid "The word [code]radians[/code] is the function's parameter. It's the place
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:31
-#, fuzzy
 msgid "When you [i]call[/i] this function with [code]rotate(0.5)[/code], the computer replaces the name \"radians\" in the function with [code]0.5[/code]."
 msgstr "Keď použijete [code]rotate(0.5)[/code], počítač priradí hodnotu [code]0.5[/code] k označeniu [code]radians[/code]."
 
@@ -1268,7 +1255,6 @@ msgid "A parameter is a placeholder that gets replaced with the actual value you
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
-#, fuzzy
 msgid "The value can be different each time you call the function: it depends on what you put in parentheses."
 msgstr "Daná hodnota sa môže meniť: závisí od toho, čo ste pri použití funkcie vložili do zátvoriek."
 
@@ -1289,7 +1275,6 @@ msgid "How to create functions with parameters"
 msgstr "Ako vytvoriť funkcie s parametrami"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:44
-#, fuzzy
 msgid "When you write a function [i]definition[/i] (the line starting with the [code]func[/code] keyword), you can add parameters."
 msgstr "Parametre funkcie môžete zadať pri písaní jej [i]definície[/i] (riadok začínajúci kľúčovým slovom [code]func[/code])."
 
@@ -1298,12 +1283,10 @@ msgid "To add a parameter, write a placeholder name inside the parentheses. When
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:52
-#, fuzzy
 msgid "You can give parameters any name! How you name functions and parameters is up to you."
 msgstr "Parametrom môžete dať ľubovoľný názov. Je na vás, ako pomenujete funkcie a parametre."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:53
-#, fuzzy
 msgid "Just remember that names cannot contain spaces. To write parameter names with multiple words, in GDScript, we use underscores by convention."
 msgstr "Len nezabudnite, že názvy nesmú obsahovať medzery. Ak chcete napísať názvy parametrov s viacerými slovami, musíte použiť podčiarkovníky."
 
@@ -1316,7 +1299,6 @@ msgid "Parameters make your code easier to reuse. You write the function once as
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:59
-#, fuzzy
 msgid "Here's an example with a function to draw any square. The parameter [code]size[/code] is a placeholder. Use the slider to change the value. When you click the button, the app calls [code]draw_square()[/code] and the placeholder gets replaced with your value, drawing squares of different sizes."
 msgstr "Tu je príklad s funkciou na vykreslenie ľubovoľného štvorca. Pomocou posuvníka môžete meniť hodnotu odovzdanú funkcii a kresliť štvorce rôznych veľkostí."
 
@@ -1353,12 +1335,10 @@ msgid "Functions can have multiple parameters"
 msgstr "Funkcie môžu mať viacero parametrov"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:78
-#, fuzzy
 msgid "A function can have multiple parameters. You can use as many placeholders as you [i]need[/i]."
 msgstr "Vo funkcii môžete použiť viacero parametrov. V skutočnosti ich môžete použiť toľko, koľko [i]potrebujete[/i]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:79
-#, fuzzy
 msgid "To add multiple parameters, write a comma between each placeholder name."
 msgstr "Ak chcete parametre funkcie oddeliť, musíte medzi ne napísať čiarku."
 
@@ -1367,7 +1347,6 @@ msgid "For example, [code]func move(x, y)[/code] has two placeholders: [code]x[/
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:80
-#, fuzzy
 msgid "Must I write spaces between function parameters?"
 msgstr "Musím medzi parametrami funkcie písať medzery?"
 
@@ -1384,7 +1363,6 @@ msgid "We often use spaces after the comma for readability."
 msgstr "Kvôli čitateľnosti často používame medzery za čiarkou."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:92
-#, fuzzy
 msgid "The following example shows a function with two parameters. The function moves an entity on both the X and Y axes."
 msgstr "Nasledujúci príklad definuje funkciu, ktorá používa dva parametre na presun entity na osi X a Y."
 
@@ -1477,7 +1455,6 @@ msgid "func function_name(): parameter_1, parameter_2, ..."
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Now it's your turn to create a function with multiple parameters."
 msgstr "Teraz je rad na vás, aby ste vytvorili funkciu s viacerými parametrami: funkciu na kreslenie obdĺžnikov ľubovoľnej veľkosti."
 
@@ -1490,7 +1467,6 @@ msgid "Drawing corners of different sizes"
 msgstr "Kreslenie rohov rôznych veľkostí"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Before we create a rectangle of any size, let's first practice with a simpler shape."
 msgstr "Skôr ako vytvoríme obdĺžnik ľubovoľnej veľkosti, pozrime sa najprv, ako môžeme použiť parametre na kreslenie jednoduchších tvarov."
 
@@ -1503,7 +1479,6 @@ msgid "Your task is to add a parameter named [code]length[/code] to your functio
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Your function should move the turtle forward by an amount defined by the [code]length[/code] parameter, turn right [code]90[/code] degrees, then move forward by [code]length[/code] again."
 msgstr "Funkcia posunie korytnačku dopredu o hodnotu definovanú parametrom [code]length[/code], otočí sa o [code]90[/code] stupňov a potom sa posunie o [code]length[/code] pixelov dopredu."
 
@@ -1524,7 +1499,6 @@ msgid "Using multiple parameters"
 msgstr "Použitie viacerých parametrov"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Now let's make the [code]draw_corner()[/code] function even more flexible. We'll add a second placeholder so the angle can also vary."
 msgstr "V tomto praktickom príklade zlepšíme našu funkciu [code]draw_corner()[/code] tak, aby sa mohol meniť aj uhol."
 
@@ -1533,7 +1507,6 @@ msgid "I will call your function with different length and angle values:"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Your task is to add the [code]angle[/code] parameter after [code]length[/code] in the function definition. Remember to separate the two placeholders with a comma."
 msgstr "Vo funkcii [code]draw_corner()[/code] pridajte parameter [code]angle[/code] za parameter [code]length[/code] a použite ho na kreslenie rohov s rôznym uhlom."
 
@@ -1562,7 +1535,6 @@ msgid "Drawing squares of any size"
 msgstr "Kreslenie štvorcov ľubovoľnej veľkosti"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
 msgid "Time to write a complete function from scratch! You'll make a function that draws squares of any size."
 msgstr "Teraz je rad na vás, aby ste vytvorili funkciu s viacerými parametrami: funkciu na kreslenie obdĺžnikov ľubovoľnej veľkosti."
 
@@ -1571,7 +1543,6 @@ msgid "I will call your function with different sizes:"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
 msgid "Write a function named [code]draw_square()[/code] with one parameter called [code]length[/code]. Remember, this parameter is a placeholder that gets filled with the actual value when the function is called."
 msgstr "Vytvorte funkciu s názvom [code]draw_square()[/code], ktorá má jeden parameter: [code]length[/code] dĺžku strany štvorca."
 
@@ -1608,7 +1579,6 @@ msgid "Drawing rectangles of any size"
 msgstr "Kreslenie obdĺžnikov ľubovoľnej veľkosti"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-#, fuzzy
 msgid "Let's create a function to draw rectangles with any length and height."
 msgstr "S dvoma parametrami nakódujte funkciu na vykresľovanie rohov s ľubovoľným uhlom."
 
@@ -1664,7 +1634,7 @@ msgstr ""
 msgid ""
 "- The player's score.\n"
 "- Every character or enemy's health.\n"
-"- The last checkpoint."
+"- The last checkpoint.\n"
 msgstr ""
 
 #: course/lesson-7-member-variables/lesson.bbcode:16
@@ -2078,7 +2048,7 @@ msgstr ""
 #: course/lesson-8-defining-variables/lesson.bbcode:101
 msgid ""
 "- At line 2, the [code]health[/code] variable holds a number.\n"
-"- From line 3, [code]health[/code] holds text."
+"- From line 3, [code]health[/code] holds text.\n"
 msgstr ""
 
 #: course/lesson-8-defining-variables/lesson.bbcode:102
@@ -2387,7 +2357,6 @@ msgid "Call the [code]rotate()[/code] function"
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
-#, fuzzy
 msgid "The [code]rotate()[/code] function takes one parameter"
 msgstr "Rovnako ako [code]rotate()[/code], môžeme našej funkcii zadať [i]parameters[/i]. Parametre sú označenia, ktoré dávate hodnotám odovzdaným funkcii."
 
@@ -3119,7 +3088,6 @@ msgid "[code]<[/code]  Less than"
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:107
-#, fuzzy
 msgid "[code]==[/code] Equal to"
 msgstr "[code]show()[/code]"
 
@@ -3347,7 +3315,7 @@ msgstr ""
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid ""
 "- Increases [code]level[/code] by one.\n"
-"- Increases [code]max_health[/code] by 10%."
+"- Increases [code]max_health[/code] by 10%.\n"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
@@ -3760,7 +3728,7 @@ msgid ""
 "- Reading and processing a file, like a text document, line by line.\n"
 "- Processing a constant stream of data, like someone recording audio with a microphone.\n"
 "- Reading code and converting it into instructions the computer understands.\n"
-"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI."
+"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI.\n"
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
@@ -4083,7 +4051,7 @@ msgid ""
 "- The player's party in an RPG.\n"
 "- The items in the player's inventory.\n"
 "- The high scores in an arcade game.\n"
-"- The objects in the game world."
+"- The objects in the game world.\n"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:62
@@ -4290,7 +4258,7 @@ msgstr ""
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:74
 msgid ""
 "- In a condition, the [code]in[/code] keyword allows you to check if a value exists [i]in[/i] an array.\n"
-"- The array's [code]append()[/code] function appends a new value at the end of the array."
+"- The array's [code]append()[/code] function appends a new value at the end of the array.\n"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:75
@@ -4508,7 +4476,7 @@ msgstr ""
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid ""
 "- [code]\"jab\"[/code] (makes the robot perform a quick punch)\n"
-"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)"
+"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)\n"
 msgstr ""
 
 #: course/lesson-21-strings/lesson.bbcode:73
@@ -4647,7 +4615,7 @@ msgstr ""
 #: course/lesson-22-functions-return-values/lesson.bbcode:80
 msgid ""
 "- Cell [code]Vector2(1, 0)[/code] is at pixel position [code]Vector2(120, 0)[/code].\n"
-"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels."
+"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels.\n"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:81
@@ -5248,7 +5216,7 @@ msgstr ""
 msgid ""
 "- Three \"healing heart\".\n"
 "- Nine \"gems\".\n"
-"- One \"sword\"."
+"- One \"sword\".\n"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
@@ -5802,60 +5770,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "Engineers at Tesla also used it for their cars' dashboards."
-#~ msgstr "Aj inžinieri z Tesly ho použili na prístrojové dosky ich áut."
-
-#~ msgid "[code]degrees = radians * 180 / PI[/code]"
-#~ msgstr "[code]degrees = radians * 180 / PI[/code]"
-
-#~ msgid "Can I rotate in both directions?"
-#~ msgstr "Môžem otáčať oboma smermi?"
-
-#~ msgid "The [code]radians[/code] can be a positive or negative number, which allows you to rotate both clockwise and counter-clockwise."
-#~ msgstr "[code]radians[/code] môže byť kladné alebo záporné číslo, čo umožňuje otáčanie v smere aj proti smeru hodinových ručičiek."
-
-#~ msgid "Wherever the computer sees the identifier [code]radians[/code] inside the function, it replaces it with the [code]0.5[/code] value."
-#~ msgstr "Všade, kde počítač vidí vo vnútri funkcie identifikátor [code]radians[/code], nahradí ho hodnotou [code]0,5[/code]."
-
-#~ msgid "The parameter name is always a label you use to refer to a [i]value[/i]. The value in question can be a number, text, or anything else."
-#~ msgstr "Názov parametra je vždy označenie, ktoré používate na odkazovanie na [i]hodnotu[/i]. Daná hodnota môže byť číslo, text alebo čokoľvek iné."
-
-#~ msgid "For now, we'll stick to numbers as we have yet to see other value types."
-#~ msgstr "Zatiaľ zostaneme pri číslach, pretože s inými typmi hodnôt sme sa ešte nestretli."
-
-#~ msgid "A parameter is a label that represents a value."
-#~ msgstr "Parameter je označenie, ktoré predstavuje hodnotu."
-
-#~ msgid "To do so, you add a name inside of the parentheses."
-#~ msgstr "Urobíte to tak, že do zátvoriek pridáte názov."
-
-#~ msgid "Parameters make your code easier to reuse."
-#~ msgstr "Parametre uľahčujú opakované použitie vášho kódu."
-
-#~ msgid "Here we have an incomplete function that will draw corners with lines of any length, but it's missing its [code]length[/code] parameter."
-#~ msgstr "Máme tu neúplnú funkciu, ktorá nakreslí rohy s čiarami ľubovoľnej dĺžky, ale chýba jej parameter [code]length[/code]."
-
-#~ msgid "We want a function to draw squares of any size."
-#~ msgstr "Chceme funkciu na kreslenie štvorcov ľubovoľnej veľkosti."
-
-#~ msgid "We could use these squares as outlines when selecting units in a tactical game, as a frame for items in an inventory, and more."
-#~ msgstr "Tieto štvorce by sme mohli použiť ako obrysy pri výbere jednotiek v taktickej hre, ako rám pre predmety v inventári a podobne."
-
-#~ msgid "[b]The turtle should face towards the right when starting or completing a square.[/b]"
-#~ msgstr "[b] Korytnačka by mala pri začatí alebo dokončení štvorca smerovať doprava[/b]."
-
-#~ msgid "Be sure to call [b]turn_right(90)[/b]  enough times in your function to do so."
-#~ msgstr "Uistite sa, že ste vo svojej funkcii zapísali [b]turn_right(90)[/b] dostatočne veľakrát, aby ste tak urobili."
-
-#~ msgid "Let's make our square drawing function more flexible to include rectangles of varying sizes."
-#~ msgstr "Urobme našu funkciu kreslenia štvorcov flexibilnejšou, aby zahŕňala obdĺžniky rôznych veľkostí."
-
-#~ msgid "Your job is to code a function named [code]draw_rectangle()[/code] that takes two parameters: the [code]length[/code] and the [code]height[/code] of the rectangle."
-#~ msgstr "Vašou úlohou je nakódovať funkciu s názvom [code]draw_rectangle()[/code], ktorá má dva parametre: [code]length[/code] a [code]height[/code] - dĺžku a výšku obdĺžnika."
-
-#~ msgid "[b]The turtle should face towards the right when starting or completing a rectangle.[/b]"
-#~ msgstr "[b]Pri začatí alebo dokončení obdĺžnika by mala korytnačka smerovať doprava[/b]."
-
-#~ msgid "Note that we could still draw a square with [code]draw_rectangle()[/code] by having the [code]length[/code] and [code]height[/code] equal the same value."
-#~ msgstr "Všimnite si, že pomocou [code]draw_rectangle()[/code] by sme mohli nakresliť aj štvorec, ak by sa hodnoty [code]length[/code] a [code]height[/code] rovnali rovnakej hodnote."

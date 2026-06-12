@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: script_checking/error_database.csv
 msgid "error_explanation"
 msgstr ""
@@ -48,18 +49,16 @@ msgid "To access the [code]x[/code] sub-component of the variable, you need to d
 msgstr "Aby uzyskać dostęp do składowej \\[code]x\\[/code] zmiennej, musisz to zrobić wewnątrz ciała pętli:"
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "[code]for cell_position in cell_positions_array:"
 msgstr ""
 "[code]for cell_position in cell_positions_array:\n"
-"\tcell_position.x += 1.0[/code]"
+"\tcell_position.x += 1.0[/code]\n"
 
 #: script_checking/error_database.csv
 msgid "    cell_position.x += 1.0[/code]"
 msgstr ""
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "You get this error when you try to assign a value to something that is not a variable."
 msgstr "Jeśli pojawi się ten błąd, najprawdopodobniej próbujesz przypisać wartość do czegoś innego niż zmienna, co jest niemożliwe. Wartości można przypisywać tylko do zmiennych."
 
@@ -80,7 +79,6 @@ msgid "If you see parentheses () on the left side, you might be trying to assign
 msgstr ""
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "If you are trying to check if two values are equal in a condition, use two equal signs (==) instead of one (=)."
 msgstr "Inna możliwość to sytuacja, w której chcesz sprawdzić równość w warunku, ale zamiast \\[code]==\\[/code] wpisałeś pojedynczy znak \\[code]=\\[/code]."
 
@@ -149,11 +147,10 @@ msgid "1. You used the class name in the class itself."
 msgstr ""
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "2. Your code refers to another class that refers to this class, causing an endless reference cycle."
 msgstr ""
 "1. Użyłeś nazwy klasy w samej klasie.\n"
-"2. Twój kod odnosi się do innej klasy, która odwołuje się do tej klasy, powodując niekończący się cykl referencyjny."
+"2. Twój kod odnosi się do innej klasy, która odwołuje się do tej klasy, powodując niekończący się cykl referencyjny.\n"
 
 #: script_checking/error_database.csv
 msgid "Either way, due to how GDScript works in Godot 3, unfortunately,you cannot do this. Godot 4 should solve this problem, but you need to work around it in the meantime."
@@ -256,12 +253,11 @@ msgid "1. You wrote an identifier (variable or function name) in the wrong place
 msgstr ""
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "2. You wrote a keyword like [code]var[/code], [code]func[/code], [code]for[/code], or [code]signal[/code], and you did not follow it by a name."
 msgstr ""
 "1. Zapisałeś identyfikator (nazwę zmiennej lub funkcji) w niewłaściwym miejscu.\n"
 "2. Użyłeś słowa kluczowego, jak [code]var[/code], [code]func[/code], [code]for[/code] lub [code]signal[/code], jednak nie dodałeś po nim nazwy.\n"
-"3. Utworzyłeś definicję funkcji, jednak zapomniałeś nawiasów przed dwukropkiem."
+"3. Utworzyłeś definicję funkcji, jednak zapomniałeś nawiasów przed dwukropkiem.\n"
 
 #: script_checking/error_database.csv
 msgid "3. You wrote a function definition but forgot the parentheses before the colon."
@@ -532,7 +528,6 @@ msgid "Ensure that you don't have a capital letter where you should have a lower
 msgstr ""
 
 #: course/glossary.csv course/documentation.csv
-#, fuzzy
 msgid "explanation"
 msgstr "iteracja"
 
@@ -605,22 +600,18 @@ msgid "Vectors can seem daunting at first because they are pretty abstract, but 
 msgstr "Wektory mogą początkowo wydawać się dość skomplikowaną jednostką, ponieważ są dość abstrakcyjne, jednak szybko zobaczysz, że znacznie uproszczają kod."
 
 #: course/glossary.csv
-#, fuzzy
 msgid "An argument is a value you pass to a function when you call it. For example, in the function call [code]rotate(0.5)[/code], the value [code]0.5[/code] inside the parentheses is an argument."
 msgstr "Argument to wartość, którą przekazujesz do funkcji podczas jej wywoływania. Na przykład w wywołaniu [code]rotate(0.5)[/code] argumentem jest znajdująca się w nawiasach wartość [code]0.5[/code]."
 
 #: course/glossary.csv
-#, fuzzy
 msgid "A function can take no arguments, one argument, or multiple arguments. Arguments can be required or optional."
 msgstr "Funkcja może nie otrzymać żadnych argumentów, otrzymywać jeden argument lub wiele argumentów. Argumenty mogą być obowiązkowe lub opcjonalne."
 
 #: course/glossary.csv
-#, fuzzy
 msgid "When a function requires multiple arguments, you separate them with commas. Here's an example: [code]jump(50, 100)[/code]"
 msgstr "Gdy funkcja przyjmuje wiele argumentów, oddzielasz wartości przecinkami, tak jak w tym wywołaniu funkcji: [code]jump(50, 100)[/code]"
 
 #: course/glossary.csv
-#, fuzzy
 msgid "When you [i]call[/i] a function, we call the values in parentheses [i]arguments[/i]."
 msgstr "Gdy [i]wywołujemy[/i] funkcję, nazywamy wartości podane w nawiasach [i]argumentami[/i]."
 
@@ -633,7 +624,6 @@ msgid "[code]func move_to_position(x, y):[/code]"
 msgstr ""
 
 #: course/glossary.csv
-#, fuzzy
 msgid "In this function definition, [code]x[/code] and [code]y[/code] are [i]parameters[/i]."
 msgstr "Jednak w wypadku tworzenia definicji funkcji, mówimy już o [i]parametrach[/i] funkcji. W poniższym przykładzie nazwy [code]x[/code] i [code]y[/code] są [i]parametrami[/i]."
 
@@ -810,7 +800,6 @@ msgid "The position of the entity on the vertical axis."
 msgstr "Pozycja jednostki na osi pionowej."
 
 #: course/documentation.csv
-#, fuzzy
 msgid " Applies a local translation on the node's X axis based on the [code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] is false, normalizes the movement."
 msgstr "Stosuje lokalną translację na osi X węzła na podstawie wartości [code]delta[/code]'y [code]Node._process[/code]'u. Jeśli [code]scaled[/code](skalowanie) ma wartość fałsz, normalizuje ruch."
 
@@ -832,165 +821,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "member function"
-#~ msgstr "funkcja składowa"
-
-#~ msgid "member functions"
-#~ msgstr "funkcje składowe"
-
-#~ msgid "member variable"
-#~ msgstr "zmienna składowa"
-
-#~ msgid "member variables"
-#~ msgstr "zmienne składowe"
-
-#~ msgid "parameter"
-#~ msgstr "parametr"
-
-#~ msgid "parameters"
-#~ msgstr "parametry"
-
-#~ msgid "radian"
-#~ msgstr "radian"
-
-#~ msgid "radians"
-#~ msgstr "radiany"
-
-#~ msgid "type"
-#~ msgstr "typ"
-
-#~ msgid "types"
-#~ msgstr "typy"
-
-#~ msgid "iterations"
-#~ msgstr "iteracje"
-
-#~ msgid "vector"
-#~ msgstr "wektor"
-
-#~ msgid "vectors"
-#~ msgstr "wektory"
-
-#~ msgid "argument"
-#~ msgstr "argument"
-
-#~ msgid "arguments"
-#~ msgstr "argumenty"
-
-#~ msgid "array"
-#~ msgstr "tablica"
-
-#~ msgid "arrays"
-#~ msgstr "tablice"
-
-#~ msgid "assign"
-#~ msgstr "przypisanie"
-
-#~ msgid "dictionary"
-#~ msgstr "słownik (dictionary)"
-
-#~ msgid "dictionaries"
-#~ msgstr "słowniki (dictionaries)"
-
-#~ msgid "for loop"
-#~ msgstr "pętla for"
-
-#~ msgid "for loops"
-#~ msgstr "pętle for"
-
-#~ msgid "function"
-#~ msgstr "funkcja"
-
-#~ msgid "functions"
-#~ msgstr "funkcje"
-
-#~ msgid "increment"
-#~ msgstr "inkrementacja"
-
-#~ msgid "increments"
-#~ msgstr "inkrementacje"
-
-#~ msgid "instruction"
-#~ msgstr "instrukcja"
-
-#~ msgid "instructions"
-#~ msgstr "instrukcje"
-
-#~ msgid "variable"
-#~ msgstr "zmienna"
-
-#~ msgid "variables"
-#~ msgstr "zmienne"
-
-#~ msgid "while loop"
-#~ msgstr "pętla while"
-
-#~ msgid "while loops"
-#~ msgstr "pętle while"
-
-#~ msgid "body"
-#~ msgstr "ciało"
-
-#~ msgid "return"
-#~ msgstr "zwróć (return)"
-
-#~ msgid "library"
-#~ msgstr "biblioteka"
-
-#~ msgid "libraries"
-#~ msgstr "biblioteki"
-
-#~ msgid "sprite"
-#~ msgstr "sprite"
-
-#~ msgid "sprites"
-#~ msgstr "sprite'y"
-
-#~ msgid "The cell position of the robot on the board. [code]Vector2(0, 0)[/code] is the square cell in the top left of the board."
-#~ msgstr "Pozycja komórki robota na planszy. [code]Vector2(0, 0)[/code] to kwadratowa komórka w lewym górnym rogu tablicy."
-
-#~ msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
-#~ msgstr "Tworzy listę liczb od [code]0[/code] do [code]length - 1[/code] (długości pomniejszonej o 1)."
-
-#~ msgid "Orders the robot to play an animation."
-#~ msgstr "Mówi robotowi aby odtworzył animację."
-
-#~ msgid "Selects units in the cell coordinates passed as the function's argument."
-#~ msgstr "Wybiera jednostki we współrzędnych komórki przekazanych jako argument funkcji."
-
-#~ msgid "Queues a move animation towards the target cell."
-#~ msgstr "Kolejkuje animację ruchu w kierunku komórki docelowej."
-
-#~ msgid "Adds the value passed as an argument at the back of the array."
-#~ msgstr "Dodaje wartość przekazywaną jako argument pod koniec tablicy."
-
-#~ msgid "Removes the first value from the array and returns it."
-#~ msgstr "Usuwa pierwszy element tablicy i zwraca go."
-
-#~ msgid "Removes the last value from the array and returns it."
-#~ msgstr "Usuwa ostatni element tablicy i zwraca go."
-
-#~ msgid "Returns the argument converted into a [code]String[/code]. Works with the majority of value types."
-#~ msgstr "Zwraca argument przekonwertowany do [code]String[/code]. Działa z większością typów wartości."
-
-#~ msgid "Returns the argument converted into an [code]int[/code] (whole number) [i]if possible[/i]. Supports converting decimal numbers, strings, and booleans. Useful to convert player text input into numbers."
-#~ msgstr "Zwraca argument przekonwertowany do [code]int[/code] (liczba całkowita) [i]jeśli to możliwe[/i]. Wspiera konwertowanie z [code]float[/code], [code]String[/code] i [code]bool[/code]. Przydatne przy konwertowaniu tekstu wejściowego od gracza do liczb."
-
-#~ msgid "Creates a new unit matching the type parameter and places it at the desired cell position on the game grid."
-#~ msgstr "Tworzy nowe jednostki pasujące do typu parametru i ustawia je w żądanej komórce siatki gry."
-
-#~ msgid "Creates a new item and displays it in the inventory."
-#~ msgstr "Tworzy nowy przedmiot i wyświetla go w ekwipunku."
-
-#~ msgid "Increases the item count by amount."
-#~ msgstr "Zwiększa ilość przedmiotów o wartość."
-
-#~ msgid "If you want to assign a value to a variable, double-check that what you have on the left side of the = sign is a variable and not a function."
-#~ msgstr "Jeśli chcesz przypisać wartość do zmiennej, upewnij się dwa razy, że po lewej stronie znaku \\[code]=\\[/code] znajduje się zmienna, a nie funkcja."
-
-#~ msgid "You also need to ensure the syntax is correct. For example, there shouldn't be parentheses on the left side of the equal sign."
-#~ msgstr "Musisz też zadbać o poprawną składnię. Na przykład, po lewej stronie znaku równości nie powinno być nawiasów."
-
-#~ msgid "In the case of a condition, ensure that you are using two equal signs to check for equality (==)."
-#~ msgstr "W przypadku warunku upewnij się, że używasz podwójnego znaku równości \\[code]==\\[/code], aby sprawdzić równość."

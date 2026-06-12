@@ -20,6 +20,7 @@ msgstr ""
 "X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
+
 #: course/lesson-1-what-code-is-like/lesson.bbcode:1
 msgid "What Code is Like"
 msgstr "តើកូដមានលក្ខណះបែបណាទៅ"
@@ -38,7 +39,6 @@ msgstr "ការប្រាប់ កុំព្យូទ័រពីអ្�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
-#, fuzzy
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"] that tell a computer how to perform a task."
 msgstr "ការសរសេរកម្មវិធី Program គឺជាដំណើរការ នៃការសរសេរការណែនាំ ច្បាស់លាស់ដែលប្រាប់កុំព្យូទ័ រពីរបៀបអនុវត្តភារកិច្ច។"
 
@@ -123,7 +123,6 @@ msgid "This is a language by game developers for game developers. You can use it
 msgstr "នេះគឺជាភាសាដែលបង្កើតឡើង ដោយ developers អ្នកបង្កើតហ្គេម សម្រាប់អ្នកបង្កើតហ្គេម។ អ្នកអាចប្រើវាបាននៅក្នុង Godot engine ដើម្បីបង្កើតហ្គេម និងកម្មវិធីផ្សេងៗ។"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:57
-#, fuzzy
 msgid "It's the language used by games like [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] and [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url], and Godot also powers hits like [ignore][url=https://store.steampowered.com/app/2835570/Buckshot_Roulette/]Buckshot Roulette[/url] and [ignore][url=https://store.steampowered.com/app/2868840/Slay_the_Spire_2/]Slay the Spire 2[/url]."
 msgstr "វាគឺជា ភាសាដែលប្រើដោយហ្គេមដូចជា [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] និង [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url]។"
 
@@ -239,11 +238,11 @@ msgstr "ទន្ទឹមនឹងនោះ យើងនឹង បង្រៀ�
 msgid ""
 "- Some of the mindset you need as a developer. Too many programming courses skip that essential part.\n"
 "- How to write GDScript code.\n"
-"- Essential programming foundations to get you started."
+"- Essential programming foundations to get you started.\n"
 msgstr ""
 "- ផ្នត់គំនិតដែល អ្នកត្រូវការក្នុងនាម ជាអ្នកបង្កើតកម្មវិធី។ វគ្គសិក្សាសរសេរកម្មវិធី Programming ជាច្រើនបានរំលងផ្នែកដ៏សំខាន់ទាំងនេះ។\n"
 "- របៀបសរសេរកូដ GDScript។\n"
-"- មូលដ្ឋានគ្រឹះសំខាន់ៗ នៃការសរសេរកម្មវិធី ដើម្បីឱ្យយើងអាចចាប់ផ្តើមបាន។"
+"- មូលដ្ឋានគ្រឹះសំខាន់ៗ នៃការសរសេរកម្មវិធី ដើម្បីឱ្យយើងអាចចាប់ផ្តើមបាន។\n"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:130
 msgid "As you go through the course, you will have many questions. We will answer them the best we can as we go."
@@ -395,13 +394,11 @@ msgstr "កូដនេះមិនត្រឹមត្រូវទេ ហើ�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "The code defines an empty [glossary term=\"function\"] named [code]this_code_is_wrong[/code]."
 msgstr "កូដនេះកំណត់ function ទទេមួយដែលមានឈ្មោះថា [code]this_code_is_wrong[/code]។"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "To work, the function should use the [glossary term=\"return\"] keyword. But this keyword is currently inside a comment, which the computer ignores."
 msgstr "ដើម្បីឱ្យវាដំណើរការ function គួរតែប្រើពាក្យគន្លឹះ [code]return[/code]។ ប៉ុន្តែពាក្យគន្លឹះនេះបច្ចុប្បន្នស្ថិតនៅក្នុង comment ដែលកុំព្យូទ័រមិនអើពើ។"
 
@@ -716,7 +713,6 @@ msgid "The robot is turned sideways. Help it straighten up with a function call.
 msgstr ""
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
-#, fuzzy
 msgid "You need to use the rotate() function, and give the proper arguments."
 msgstr "ក្នុងមេរៀនមុនៗ អ្នកបានប្រើ [code]rotate()[/code] function ហើយបានផ្តល់ [b]argument[/b] (តម្លៃបញ្ចូល) ឱ្យវា។"
 
@@ -762,7 +758,7 @@ msgstr ""
 msgid ""
 "- [code]move_forward(pixels)[/code] makes the turtle move forward over a given distance in [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] makes the turtle turn clockwise by a precise amount of [i]degrees[/i].\n"
-"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise."
+"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise.\n"
 msgstr ""
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:17
@@ -875,7 +871,6 @@ msgid "Use the turtle to draw a square's corner. You'll then build upon it to dr
 msgstr ""
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:66
-#, fuzzy
 msgid "You need to add two arguments to the [code]turn_right()[/code] and [code]move_forward()[/code] functions: [code]90[/code] and [code]200[/code]."
 msgstr "ដើម្បីធ្វើបែបនេះ, បន្ថែម func [code]rotate()[/code] និង [code]move_local_x()[/code] ទៅក្នុង [code]_process()[/code]។"
 
@@ -1216,13 +1211,11 @@ msgstr "function នេះមានកម្រិតបន្តិច។ ជ�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:9
-#, fuzzy
 msgid "In previous lessons, you used the [code]rotate()[/code] function and gave it an [glossary term=\"argument\"]."
 msgstr "ក្នុងមេរៀនមុនៗ អ្នកបានប្រើ [code]rotate()[/code] function ហើយបានផ្តល់ [b]argument[/b] (តម្លៃបញ្ចូល) ឱ្យវា។"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:11
-#, fuzzy
 msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]."
 msgstr "ដូចគ្នានឹង [code]rotate()[/code] ដែរ យើងក៏អាចផ្តល់ [b]parameters[/b] (ប៉ារ៉ាម៉ែត្រ/តម្លៃបញ្ចូល) ឱ្យ functions របស់យើងបានដែរ។"
 
@@ -1307,7 +1300,6 @@ msgid "Parameters make your code easier to reuse. You write the function once as
 msgstr "Parameters ធ្វើឱ្យកូដរបស់អ្នក ងាយស្រួលក្នុងការប្រើប្រាស់ ឡើងវិញ។ អ្នកសរសេរ function ម្តងជាគំរូ បន្ទាប់មក អ្នកអាចហៅប្រើវា ច្រើនដង ដោយផ្តល់តម្លៃផ្សេងៗគ្នា។"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:59
-#, fuzzy
 msgid "Here's an example with a function to draw any square. The parameter [code]size[/code] is a placeholder. Use the slider to change the value. When you click the button, the app calls [code]draw_square()[/code] and the placeholder gets replaced with your value, drawing squares of different sizes."
 msgstr "នេះគឺជាឧទាហរណ៍មួយជាមួយ function សម្រាប់គូសការេ ណាមួយ។ Parameter [code]length[/code] គឺជា placeholder។ ប្រើ slider ដើម្បីផ្លាស់ ប្តូរតម្លៃ។ នៅពេលអ្នកចុចប៊ូតុង កម្មវិធីនឹងហៅ [code]draw_square()[/code] ហើយ placeholder នឹងត្រូវបានជំនួសដោយតម្លៃរបស់អ្នក ដែលនឹងគូសការេ ដែលមានទំហំផ្សេងៗគ្នា។"
 
@@ -1376,7 +1368,6 @@ msgid "The following example shows a function with two parameters. The function 
 msgstr "ឧទាហរណ៍ ខាងក្រោមបង្ហាញពី function មួយដែលមាន parameters ពីរ។ Function នេះផ្លាស់ទី របស់មួយ នៅលើអ័ក្សទាំង X និង Y។"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:93
-#, fuzzy
 msgid "When you call [code]move_local_xy(50, 100)[/code], every [code]offset_x[/code] in the function gets replaced with [code]50[/code], and every [code]offset_y[/code] gets replaced with [code]100[/code]."
 msgstr "នៅពេលអ្នកហៅ [code]move(50, 100)[/code] រាល់ [code]x[/code] ក្នុង function នឹងត្រូវបានជំនួសដោយ [code]50[/code] ហើយរាល់ [code]y[/code] នឹងត្រូវបានជំនួសដោយ [code]100[/code]។"
 
@@ -1537,12 +1528,11 @@ msgid "You need to add the parameter [code]angle[/code] two times in this practi
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Use [code]func draw_corner(length, angle):[/code]"
 msgstr ""
 "[code]\n"
 "func _process(delta):\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Drawing squares of any size"
@@ -1577,12 +1567,11 @@ msgid "You need to specify one parameter in the function definition"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
 msgid "Use [code]func draw_square(length):[/code]"
 msgstr ""
 "[code]\n"
 "func _process(delta):\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Call [code]move_forward()[/code] four times for each side of the square"
@@ -1629,12 +1618,11 @@ msgid "You need to specify the two parameters in the function definition"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-#, fuzzy
 msgid "Use [code]func draw_rectangle(length, height):[/code]"
 msgstr ""
 "[code]\n"
 "func _process(delta):\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 msgid "When calling move_forward, you need to alternate between using the length and the height arguments when calling move_forward."
@@ -1656,7 +1644,7 @@ msgstr ""
 msgid ""
 "- The player's score.\n"
 "- Every character or enemy's health.\n"
-"- The last checkpoint."
+"- The last checkpoint.\n"
 msgstr ""
 
 #: course/lesson-7-member-variables/lesson.bbcode:16
@@ -1923,7 +1911,6 @@ msgstr "ការកំណត់variable (អថេរ) ផ្ទាល់ខ្
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-8-defining-variables/lesson.bbcode:3
-#, fuzzy
 msgid "In the previous lesson, you used a predefined member [glossary term=\"variable\"] named [code]position[/code]."
 msgstr "ក្នុងមេរៀនមុន អ្នកបានប្រើ Variable (អថេរ) សមាជិកដែលបានកំណត់ជាស្រេច ឈ្មោះ [code]position[/code]។"
 
@@ -1989,7 +1976,6 @@ msgstr "ដូចជា function ដែរ ឈ្មោះ variable (អថេ�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-8-defining-variables/lesson.bbcode:41
-#, fuzzy
 msgid "To use a variable, you want to [glossary term=\"assign\"] it a starting value. You can do so using the equal sign (=)."
 msgstr "ដើម្បីប្រើ variable (អថេរ) អ្នកត្រូវកំណត់តម្លៃដំបូងឱ្យវា។ អ្នកអាចធ្វើដូចនេះដោយប្រើសញ្ញាស្មើ (=)។"
 
@@ -2072,10 +2058,10 @@ msgstr "កូដខាងលើ គឺដូចជាការយកស្ល�
 #: course/lesson-8-defining-variables/lesson.bbcode:101
 msgid ""
 "- At line 2, the [code]health[/code] variable holds a number.\n"
-"- From line 3, [code]health[/code] holds text."
+"- From line 3, [code]health[/code] holds text.\n"
 msgstr ""
 "- នៅបន្ទាត់ទី 2 variable (អថេរ) [code]health[/code] ផ្ទុកលេខ។\n"
-"- ចាប់ពីបន្ទាត់ទី 3 [code]health[/code] ផ្ទុកអក្សរ។"
+"- ចាប់ពីបន្ទាត់ទី 3 [code]health[/code] ផ្ទុកអក្សរ។\n"
 
 #: course/lesson-8-defining-variables/lesson.bbcode:102
 msgid "The computer will let you do that! The code's syntax and \"grammar\" are correct, but it's not good."
@@ -2170,14 +2156,13 @@ msgid "Which of these would increase the health of the robot?"
 msgstr "តើមួយណាក្នុងចំណោមទាំងនេះនឹងបង្កើនឈាមរបស់ robot?"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
-#, fuzzy
 msgid "Both of these lines increase the [code]health[/code] of the robot by [code]amount[/code]."
 msgstr ""
 "បន្ទាត់ទាំងពីរនេះបង្កើន [code]health[/code] របស់ robot ដោយ [code]amount[/code]។\n"
 "[code]\n"
 "health += amount\n"
 "health = health + amount\n"
-"[/code]"
+"[/code]\n"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 msgid "health -= amount"
@@ -2220,7 +2205,6 @@ msgid "Learn how to deal damage to entities like our robot."
 msgstr "រៀន របៀបបង្កការខូចខាត ដល់គោលដៅដូចជា robot របស់យើង។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:50
-#, fuzzy
 msgid "Add an instruction to subtract [code]amount[/code] from [code]health[/code]."
 msgstr "បន្ទាត់ទី 2 ដក [code]amount[/code] ចេញពី [code]health[/code]។"
 
@@ -2249,7 +2233,6 @@ msgid "Our robot needs healing after that practice! Create a function to heal it
 msgstr "robot របស់យើង ត្រូវការការព្យាបាល បន្ទាប់ពីការអនុវត្តនោះ! បង្កើត function​ មួយដើម្បី ព្យាបាលវា ត្រឡប់​ មកមានឈាម ពេញលេញវិញ។"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:72
-#, fuzzy
 msgid "Define the [code]heal()[/code] function using [code]func[/code]"
 msgstr "មុននេះ យើងបានរៀនពីរបៀបប្រើ func [code]range()[/code] រួមជាមួយនឹង [code]for[/code] loop។ func [code]range()[/code] គឺជា func មួយដែលជួយបង្កើតតម្លៃលេខជាច្រើនតាមលំដាប់លំដោយ ហើយយើងប្រើវាជាមួយ [code]for[/code] loop ដើម្បីដំណើរការកូដម្តងៗរហូតដល់ចប់លេខទាំងអស់។"
 
@@ -2347,7 +2330,6 @@ msgstr "ចាប់ពីពេលនោះ, រាល់ frame, Godot ដំ�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-10-the-game-loop/lesson.bbcode:56
-#, fuzzy
 msgid "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the character by [code]0.05[/code] [glossary term=\"radians\"] [b]many[/b] times a second."
 msgstr "ដោយសារយើង បានសរសេរ instruction [code]rotate()[/code], Godot កំពុងបង្វិលតួអង្គដោយ [code]0.05[/code] radians [b]ច្រើន[/b] ដងក្នុងមួយវិនាទី។"
 
@@ -2388,12 +2370,10 @@ msgid "A rotation speed of about [code]0.05[/code] each frame should do."
 msgstr "ល្បឿនបង្វិល ប្រហែល [code]0.05[/code] ក្នុងមួយ frame គឺគ្រប់គ្រាន់។"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
-#, fuzzy
 msgid "Call the [code]rotate()[/code] function"
 msgstr "យកឧទាហរណ៍ func [code]_process()[/code]។"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
-#, fuzzy
 msgid "The [code]rotate()[/code] function takes one parameter"
 msgstr "func [code]_process()[/code] ទទួលយក parameter តែមួយគត់៖ [code]delta[/code]។"
 
@@ -2415,7 +2395,6 @@ msgstr "ប្រើល្បឿនបង្វិល [code]0.05[/code] radians 
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:85
 #: course/lesson-11-time-delta/lesson.bbcode:146
-#, fuzzy
 msgid "Call the [code]rotate()[/code] and [code]move_local_x()[/code] functions"
 msgstr "ដើម្បីធ្វើបែបនេះ, បន្ថែម func [code]rotate()[/code] និង [code]move_local_x()[/code] ទៅក្នុង [code]_process()[/code]។"
 
@@ -2573,7 +2552,6 @@ msgstr "ហេតុអ្វីបានជាយើងប្រើលេខ 3.
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-11-time-delta/lesson.bbcode:80
-#, fuzzy
 msgid "At the top of the lesson, we made the robot rotate a fixed amount every frame: [code]0.05[/code] [glossary term=\"radians\"]."
 msgstr "នៅដើមមេរៀន, យើងបានធ្វើឱ្យ robot បង្វិលក្នុងចំនួនថេររាល់ frame: [code]0.05[/code] radians(រ៉ាដ្យង់)។"
 
@@ -2682,7 +2660,6 @@ msgid "The robot should rotate [code]2[/code] radians per second."
 msgstr "robot គួរបង្វិល [code]2[/code] radians(រ៉ាដ្យង់) ក្នុង 1 វិនាទី។"
 
 #: course/lesson-11-time-delta/lesson.bbcode:126
-#, fuzzy
 msgid "Multiply the radians by [code]delta[/code]"
 msgstr "ដើម្បីប្លែង សូមគុណ កូអរដោនេក្រឡាជាមួយ [code]cell_size[/code] (ទំហំក្រឡា)។"
 
@@ -2703,7 +2680,6 @@ msgid "[b]Note:[/b] Please write the values in the parentheses when calling the 
 msgstr "[b]ចំណាំ:[/b] សូមសរសេរ​ តម្លៃក្នុងវង់ក្រចក ពេលហៅ functions។ បើអ្នកកំណត់ variables បន្ថែម, យើងនឹងមិនអាចពិនិត្យការអនុវត្តរបស់អ្នកបានទេ។"
 
 #: course/lesson-11-time-delta/lesson.bbcode:146
-#, fuzzy
 msgid "Make sure to multiply each parameter by [code]delta[/code]"
 msgstr "ដើម្បីប្លែង សូមគុណ កូអរដោនេក្រឡាជាមួយ [code]cell_size[/code] (ទំហំក្រឡា)។"
 
@@ -2881,7 +2857,6 @@ msgid "Define the [code]angular_speed[/code] variable at the top of the script t
 msgstr ""
 
 #: course/lesson-12-using-variables/lesson.bbcode:85
-#, fuzzy
 msgid "Don't forget to use it in the [code]rotate()[/code] function"
 msgstr "យកឧទាហរណ៍ func [code]_process()[/code]។"
 
@@ -3002,12 +2977,10 @@ msgid "We can compare numbers in other ways too."
 msgstr "យើងក៏អាចប្រៀបធៀបលេខតាមវិធីផ្សេងទៀតដែរ។"
 
 #: course/lesson-13-conditions/lesson.bbcode:71
-#, fuzzy
 msgid "[code]>[/code] means \"greater than\""
 msgstr "line [code]health < 5:[/code] មានន័យថា \"health(ឈាម) តូចជាង 5\"។"
 
 #: course/lesson-13-conditions/lesson.bbcode:72
-#, fuzzy
 msgid "[code]<[/code] means \"less than\""
 msgstr "line [code]health < 5:[/code] មានន័យថា \"health(ឈាម) តូចជាង 5\"។"
 
@@ -3044,14 +3017,12 @@ msgid "Which of these statements are true?"
 msgstr "តើលទ្ធផលមួយណាខ្លះ ក្នុងចំណោមនេះដែល ពិត?"
 
 #: course/lesson-13-conditions/lesson.bbcode:79
-#, fuzzy
 msgid "The comparison [code]3 > 1[/code] means \"three is greater than one\" which is [b]true[/b]."
 msgstr ""
 "ការប្រៀបធៀប [code]2 == 1[/code] មានន័យថា \"ពីរស្មើមួយ\" ដែល [b]false[/b] (មិនពិត)។\n"
-"ការប្រៀបធៀប [code]3 < 1[/code] មានន័យថា \"បីតូចជាងមួយ\" ដែល [b]false[/b] (មិនពិត)។"
+"ការប្រៀបធៀប [code]3 < 1[/code] មានន័យថា \"បីតូចជាងមួយ\" ដែល [b]false[/b] (មិនពិត)។\n"
 
 #: course/lesson-13-conditions/lesson.bbcode:79
-#, fuzzy
 msgid "The comparison [code]2 < 3[/code] means \"two is less than three\" which is [b]true[/b]."
 msgstr "line [code]health < 5:[/code] មានន័យថា \"health(ឈាម) តូចជាង 5\"។"
 
@@ -3060,18 +3031,16 @@ msgid "The comparison [code]1 != 3[/code] means \"one is not equal to three\" wh
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:79
-#, fuzzy
 msgid "The comparison [code]2 == 1[/code] means \"two is equal to one\" which is [b]false[/b]."
 msgstr ""
 "ការប្រៀបធៀប [code]2 == 1[/code] មានន័យថា \"ពីរស្មើមួយ\" ដែល [b]false[/b] (មិនពិត)។\n"
-"ការប្រៀបធៀប [code]3 < 1[/code] មានន័យថា \"បីតូចជាងមួយ\" ដែល [b]false[/b] (មិនពិត)។"
+"ការប្រៀបធៀប [code]3 < 1[/code] មានន័យថា \"បីតូចជាងមួយ\" ដែល [b]false[/b] (មិនពិត)។\n"
 
 #: course/lesson-13-conditions/lesson.bbcode:79
-#, fuzzy
 msgid "The comparison [code]3 < 1[/code] means \"three is less than one\" which is [b]false[/b]."
 msgstr ""
 "ការប្រៀបធៀប [code]2 == 1[/code] មានន័យថា \"ពីរស្មើមួយ\" ដែល [b]false[/b] (មិនពិត)។\n"
-"ការប្រៀបធៀប [code]3 < 1[/code] មានន័យថា \"បីតូចជាងមួយ\" ដែល [b]false[/b] (មិនពិត)។"
+"ការប្រៀបធៀប [code]3 < 1[/code] មានន័យថា \"បីតូចជាងមួយ\" ដែល [b]false[/b] (មិនពិត)។\n"
 
 #: course/lesson-13-conditions/lesson.bbcode:79
 msgid "3 > 1"
@@ -3158,7 +3127,6 @@ msgid "For example, if [code]health[/code] is equal to [code]100[/code] and the 
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:107
-#, fuzzy
 msgid "Comparing values allows us to make decisions in code. But there's something wrong with these statements..."
 msgstr "ការប្រៀបធៀប តម្លៃអនុញ្ញាតឱ្យយើង ធ្វើការសម្រេចចិត្តក្នុងកូដ។ ប៉ុន្តែមានអ្វីមួយខុស ក្នុងសេចក្តីថ្លែងការណ៍(statements) ទាំងនេះ.."
 
@@ -3191,7 +3159,6 @@ msgid "To check your code, I will call the [code]heal()[/code] function twice, l
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:149
-#, fuzzy
 msgid "After those two calls, [code]health[/code] should be equal to [code]80[/code]."
 msgstr "កំណត់ variable (អថេរ)ឈ្មោះ [code]health[/code] ដែលមានតម្លៃ ដំបូង [code]100[/code]។"
 
@@ -3204,7 +3171,6 @@ msgid "The starting code already adds the amount to the [code]health[/code] vari
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:149
-#, fuzzy
 msgid "Use [code]if health > 80:[/code] to detect when health went too high."
 msgstr "line [code]health < 5:[/code] មានន័យថា \"health(ឈាម) តូចជាង 5\"។"
 
@@ -3221,27 +3187,22 @@ msgid "We want to display the health number on screen, like in many RPGs. But cu
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "Complete the [code]take_damage()[/code] function so it does two things:"
 msgstr "បន្ថែមទៅក្នុង function [code]take_damage()[/code] ដើម្បីឱ្យរឿង ខាងក្រោមនេះកើតឡើង៖"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "1. Subtract [code]amount[/code] from [code]health[/code]."
 msgstr "បន្ទាត់ទី 2 ដក [code]amount[/code] ចេញពី [code]health[/code]។"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "2. If [code]health[/code] is below [code]0[/code] after that, set it back to [code]0[/code]."
 msgstr "បើ [code]health(ឈាម)[/code] ធ្លាក់ក្រោម [code]0[/code] កំណត់វាត្រឡប់ទៅ [code]0[/code] វិញ។"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "To check your code, I will call your [code]take_damage()[/code] function three times, like this:"
 msgstr "បន្ថែមទៅក្នុង function [code]take_damage()[/code] ដើម្បីឱ្យរឿង ខាងក្រោមនេះកើតឡើង៖"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid "After those three calls, [code]health[/code] should equal [code]0[/code], and not [code]-10[/code] or another value."
 msgstr "បើ [code]health(ឈាម)[/code] ធ្លាក់ក្រោម [code]0[/code] កំណត់វាត្រឡប់ទៅ [code]0[/code] វិញ។"
 
@@ -3376,10 +3337,10 @@ msgstr "បន្ថែមទៅក្នុង function [code]level_up()[/code]
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid ""
 "- Increases [code]level[/code] by one.\n"
-"- Increases [code]max_health[/code] by 10%."
+"- Increases [code]max_health[/code] by 10%.\n"
 msgstr ""
 "- បង្កើន [code]level[/code] មួយកម្រិត។\n"
-"- បង្កើន [code]max_health[/code] ចំនួន 10%។"
+"- បង្កើន [code]max_health[/code] ចំនួន 10%។\n"
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid "We want our robot to increase in strength as it levels up. Let's increase its health exponentially!"
@@ -3418,7 +3379,6 @@ msgid "You need to use an [code]if[/code] statement at the top of the function t
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
-#, fuzzy
 msgid "To reduce the [code]amount[/code], multiply it by a value less than [code]1[/code]"
 msgstr "បន្ទាប់មក [code]damage *= 2[/code] គុណវាជាមួយនឹង [code]2[/code] ដើម្បីទទួលបាន [code]30[/code]។"
 
@@ -3456,7 +3416,6 @@ msgstr "តើវ៉ិចទ័រ (vectors) គឺជាអ្វី?"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-16-2d-vectors/lesson.bbcode:15
-#, fuzzy
 msgid "A [glossary term=\"vector\"], in physics, is a quantity with a magnitude and a direction. For example, a force applied to some object, the velocity (speed and direction) of a character, and so on."
 msgstr "វ៉ិចទ័រ (vector) នៅក្នុងរូបវិទ្យា គឺជាបរិមាណដែលវាមានទាំង​ ទំហំ និង ទិសដៅ។ ឧទាហរណ៍៖ កម្លាំងដែលមាន អំពើទៅលើវត្ថុណាមួយ, ល្បឿន(មានទាំងល្បឿន និងទិសដៅ) របស់តួអង្គជាដើម។"
 
@@ -3581,7 +3540,6 @@ msgid "To visually show our robot has gained in strength, let's increase its siz
 msgstr "ដើម្បីបង្ហាញជាទិដ្ឋភាពថា robot របស់យើងបានកើនខ្លាំង ចូរយើងបង្កើនទំហំរបស់វា រាល់ពេលវាឡើង Level ។ គ្មានអ្វីអាចខុសប្រក្រតីទេ!"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:73
-#, fuzzy
 msgid "You can add a line to increase the [code]scale[/code] anywhere in the [code]level_up()[/code] function"
 msgstr "យើងអាចប្រើ string (អក្សរ) ដើម្បីតំណាងឱ្យអាហារ ពេលហៅ func [code]add_order()[/code]។"
 
@@ -3626,7 +3584,6 @@ msgid "To define the function, we use the [code]func[/code] keyword"
 msgstr ""
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
-#, fuzzy
 msgid "The first line is [code]func reset_robot():[/code]"
 msgstr "ក្រឡាចាប់ផ្តើមរបស់ robot គឺ [code]Vector2(2, 0)[/code]។"
 
@@ -3795,12 +3752,12 @@ msgid ""
 "- Reading and processing a file, like a text document, line by line.\n"
 "- Processing a constant stream of data, like someone recording audio with a microphone.\n"
 "- Reading code and converting it into instructions the computer understands.\n"
-"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI."
+"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI.\n"
 msgstr ""
 "- អាននិងដំណើរការ ឯកសារ ដូចជា ឯកសារអត្ថបទ តាមបន្ទាត់ៗ។\n"
 "- ដំណើរការ លំហូរទិន្នន័យថេរ ដូចជាការថតសំឡេងដោយប្រើមីក្រូហ្វូន។\n"
 "- អានកូដ និងបំលែង វាទៅជា ពាក្យដែលកុំព្យូទ័រយល់។\n"
-"- ក្បួនដោះស្រាយ(algorithms) កម្រិតមធ្យម​ ដល់ កម្រិតខ្ពស់ផ្សេងៗ ដូចជាការស្វែងរក​ ផ្លូវជុំវិញផែនទី​ សម្រាប់ AI (បញ្ញាសិប្បនិម្មិត)។"
+"- ក្បួនដោះស្រាយ(algorithms) កម្រិតមធ្យម​ ដល់ កម្រិតខ្ពស់ផ្សេងៗ ដូចជាការស្វែងរក​ ផ្លូវជុំវិញផែនទី​ សម្រាប់ AI (បញ្ញាសិប្បនិម្មិត)។\n"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 msgid "Let's practice some [code]while[/code] loops, as they're useful to know. It's also an excellent opportunity to practice 2D vectors."
@@ -3823,18 +3780,15 @@ msgid "We store the robot's position in a variable named [code]cell[/code]. The 
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "The board size is stored in a variable named [code]board_size[/code] that contains a [code]Vector2[/code] value."
 msgstr "កំណត់ variable (អថេរ)ឈ្មោះ [code]health[/code] ដែលមានតម្លៃ ដំបូង [code]100[/code]។"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "Use a [code]while[/code] loop to move the robot one step at a time so the function works for any board size."
 msgstr "ចាំបាច់ត្រូវប្រើ [code]while[/code] loop (រង្វិលជុំ while) ដើម្បីឱ្យ func ដំណើរការសម្រាប់ទំហំក្តារណាមួយ។"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "Use a [glossary term=\"while loop\"] to have the robot move from the top of the board to the bottom."
 msgstr "ប្រើ while loop (រង្វិលជុំ while) ដើម្បីឱ្យrobot របស់យើងផ្លាស់ទីពីផ្នែកខាងលើនៃក្តារទៅផ្នែកខាងក្រោម។"
 
@@ -4012,7 +3966,6 @@ msgid "You'll have to alter the [code]y[/code] sub-variable of [code]cell[/code]
 msgstr ""
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
-#, fuzzy
 msgid "Call [code]range(n)[/code] to get a list of numbers from [code]0[/code] to [code]n - 1[/code]"
 msgstr "ការហៅ [code]take_damage(25)[/code] ប្រាំដង នឹងដកសរុប [code]125[/code] ចេញពី [code]100[/code]។"
 
@@ -4058,7 +4011,6 @@ msgstr "function [code]range()[/code] ដែលយើងបានឃើញក្
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-19-creating-arrays/lesson.bbcode:7
-#, fuzzy
 msgid "A list of values, numbers or otherwise, has a precise name in code: we call it an [i][glossary term=\"array\"][/i]. So we can say calling the [code]range()[/code] function produces an [i]array[/i] of numbers."
 msgstr "បញ្ជីនៃតម្លៃ មិនថាជាលេខ ឬអ្វីផ្សេងទៀតឡើយ គឺមានឈ្មោះច្បាស់លាស់នៅក្នុងកូដ៖ យើងហៅវាថា [i]array[/i]។ ដូច្នេះយើងអាចនិយាយបានថា ការហៅ function [code]range()[/code] នឹងបង្កើត [i]array[/i] នៃលេខ។"
 
@@ -4075,7 +4027,6 @@ msgid "But we could name it anything we'd like!"
 msgstr "ប៉ុន្តែយើង អាចដាក់ឈ្មោះវាថាជាអ្វី ក៏បានតាមដែលយើងចង់បាន!"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:21
-#, fuzzy
 msgid "If we \"unroll\" the [code]for[/code] loop above, we'd get the following code with the exact same behaviour:"
 msgstr "ប្រសិនបើយើង \"ពន្លា (unwrap)\" [code]for[/code] loop ខាងលើចេញ យើងនឹងទទួលបានកូដដូចខាងក្រោម ដែលមានដំណើរការដូចគ្នាទាំងស្រុង៖"
 
@@ -4128,12 +4079,12 @@ msgid ""
 "- The player's party in an RPG.\n"
 "- The items in the player's inventory.\n"
 "- The high scores in an arcade game.\n"
-"- The objects in the game world."
+"- The objects in the game world.\n"
 msgstr ""
 "- បែងចែក ក្រុមរបស់អ្នកលេង នៅក្នុងហ្គេម RPG។\n"
 "- វត្ថុនៅក្នុង កាតាប (inventory) របស់ Player\n"
 "- ពិន្ទុខ្ពស់ៗ នៅក្នុងហ្គេម arcade។\n"
-"- វត្ថុផ្សេងៗ នៅក្នុងពិភពហ្គេម។"
+"- វត្ថុផ្សេងៗ នៅក្នុងពិភពហ្គេម។\n"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:62
 msgid "All of those and many more rely on arrays."
@@ -4269,7 +4220,6 @@ msgstr "សម្រាប់ element (ធាតុ/តម្លៃមួយៗ)
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:18
-#, fuzzy
 msgid "Inside the loop, you can access the [code]number[/code] variable, which changes on each [i][glossary term=\"iteration\"][/i]."
 msgstr "នៅពេលកំពុងស្ថិតក្នុង loop អ្នកអាចចូលប្រើ Variable [code]number[/code] បាន។ Variable នេះនឹងផ្លាស់ប្តូរតម្លៃរាល់ពេល [i]iteration[/i] (ការធ្វើរង្វិលម្តង) ថ្មី។ មានន័យថា ពេល loop ដំណើរការលើកទី១ Variable [code]number[/code] មានតម្លៃទី១ ពេលដំណើរការលើកទី២ វាមានតម្លៃទី២ ហើយបន្តបែបនេះរហូតដល់ចប់។"
 
@@ -4326,7 +4276,6 @@ msgid "It's the same principle with unit selection."
 msgstr "គោលការណ៍ដូចគ្នា នេះក៏អាចអនុវត្តបានចំពោះការជ្រើសរើស unit (តួអង្គ/អង្គភាព) ក្នុងហ្គេមផងដែរ។ ឧទាហរណ៍ ក្នុងហ្គេម strategy អ្នកអាចជ្រើសរើស unit ច្រើនក្នុងពេលតែមួយ ដោយប្រើ loop ដើម្បីពិនិត្យ unit នីមួយៗ។"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:60
-#, fuzzy
 msgid "For each coordinate in an array named [code]selected_units[/code], we check if there is a unit in that cell. If so, we select it. "
 msgstr "ចំពោះកូអរដោនេ (ទីតាំង) នីមួយៗដែលមានក្នុង array ឈ្មោះ [code]selected_units[/code] យើងនឹងពិនិត្យមើលថាតើមាន unit (តួអង្គ) នៅក្នុង cell (ក្រឡា/ទីតាំង) នោះឬទេ។ បើមាន unit នៅទីនោះមែន យើងនឹងជ្រើសរើស unit នោះ (ដាក់ស្លាកថាបានជ្រើសរើស)។ បើគ្មានទេ យើងរំលងវាទៅពិនិត្យទីតាំងបន្ទាប់។"
 
@@ -4341,10 +4290,10 @@ msgstr "កូដខាងលើ ប្រើមុខងារ (features) ម�
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:74
 msgid ""
 "- In a condition, the [code]in[/code] keyword allows you to check if a value exists [i]in[/i] an array.\n"
-"- The array's [code]append()[/code] function appends a new value at the end of the array."
+"- The array's [code]append()[/code] function appends a new value at the end of the array.\n"
 msgstr ""
 "- ក្នុង condition (លក្ខខណ្ឌ) keyword [code]in[/code] ជួយអ្នកពិនិត្យមើលថាតើតម្លៃមួយមាន [i]ក្នុង[/i] array ឬទេ។ ឧទាហរណ៍ [code]if x in my_array:[/code] នឹងពិត (true) បើ x មានក្នុង my_array។\n"
-"- func [code]append()[/code] របស់ array គឺជា func ដែលបន្ថែមតម្លៃថ្មីមួយនៅចុងបញ្ចប់នៃ array។ ឧទាហរណ៍ បើ array មាន [1, 2] ហើយអ្នកហៅ [code]my_array.append(3)[/code] array នឹងក្លាយជា [1, 2, 3]។"
+"- func [code]append()[/code] របស់ array គឺជា func ដែលបន្ថែមតម្លៃថ្មីមួយនៅចុងបញ្ចប់នៃ array។ ឧទាហរណ៍ បើ array មាន [1, 2] ហើយអ្នកហៅ [code]my_array.append(3)[/code] array នឹងក្លាយជា [1, 2, 3]។\n"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:75
 msgid "Notice the use of a period after the [code]selected_units[/code] variable, to call the [code]append()[/code] function. It's because this function exists only on arrays."
@@ -4359,7 +4308,6 @@ msgid "We'll revisit those two features again in the following lessons."
 msgstr "យើងនឹងត្រលប់មករៀន ពីរ បី​ មុខងារ នេះម្តងទៀតក្នុងមេរៀនបន្តបន្ទាប់។ បច្ចុប្បន្ន អ្នកគ្រាន់តែដឹងថាវាមាន និងរបៀបប្រើប្រាស់មូលដ្ឋានប៉ុណ្ណោះ។ កុំបារម្ភ អ្នកនឹងយល់កាន់តែច្បាស់នៅពេលអ្នកអនុវត្ត។"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
-#, fuzzy
 msgid "The beauty of loops is that they work regardless of the size of your arrays. "
 msgstr "ភាពអស្ចារ្យនៃ loop គឺថា វាដំណើរការបានទោះ array របស់អ្នកមានទំហំប៉ុណ្ណាក៏ដោយ។ មិនថា array នោះមាន element តែ 1 ឬ 10,000 element ក៏ដោយ កូដ loop របស់អ្នកនៅតែដំណើរការដូចគ្នា ដោយមិនចាំបាច់ផ្លាស់ប្តូរអ្វីឡើយ។"
 
@@ -4400,7 +4348,6 @@ msgid "You should start with a for loop that iterates over every cell in [code]r
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
-#, fuzzy
 msgid "You need to pass the cell position to the robot's [code]move_to()[/code] function in the loop."
 msgstr "អ្នកត្រូវដកវា ចេញពីខាងលើ មកខាងក្រោម ដោយប្រើ func [code]pop_back()[/code] របស់ array។"
 
@@ -4561,13 +4508,12 @@ msgid "The robot has the following animation names:"
 msgstr "Robot មានឈ្មោះចលនាដូចខាងក្រោម៖"
 
 #: course/lesson-21-strings/lesson.bbcode:73
-#, fuzzy
 msgid ""
 "- [code]\"jab\"[/code] (makes the robot perform a quick punch)\n"
-"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)"
+"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)\n"
 msgstr ""
 "- [code]jab[/code] (ធ្វើឱ្យ Robot វាយមួយដៃលឿន)\n"
-"- [code]uppercut[/code] (Robot ប្រើការវាយមួយដៃដ៏ខ្លាំងក្លាដោយលោត)"
+"- [code]uppercut[/code] (Robot ប្រើការវាយមួយដៃដ៏ខ្លាំងក្លាដោយលោត)\n"
 
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid "I defined the [code]combo[/code] variable at the top of the script. Fill its array with three animation names: two jabs followed by one uppercut."
@@ -4586,7 +4532,6 @@ msgid "Make sure to use (\"\") for each animation name when you add them to the 
 msgstr ""
 
 #: course/lesson-21-strings/lesson.bbcode:73
-#, fuzzy
 msgid "Use a for loop and the [code]play_animation()[/code] function for each animation name"
 msgstr "បន្ទាប់មក សម្រាប់សកម្មភាពនីមួយៗក្នុង array ត្រូវហៅ func [code]play_animation()[/code] ដើម្បីចាប់ផ្តើមវា។"
 
@@ -4600,7 +4545,6 @@ msgstr "រហូតមកដល់ពេលនេះ អ្នកបានរ�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-22-functions-return-values/lesson.bbcode:6
-#, fuzzy
 msgid "Functions can also make calculations and [glossary term=\"return\"] new values."
 msgstr "func ក៏អាចធ្វើការគណនា និង [i]return[/i] (បញ្ជូនតម្លៃថ្មី) មកវិញផងដែរ។"
 
@@ -4707,10 +4651,10 @@ msgstr "ឧទាហរណ៍៖ បើក្រឡានីមួយៗមា�
 #: course/lesson-22-functions-return-values/lesson.bbcode:80
 msgid ""
 "- Cell [code]Vector2(1, 0)[/code] is at pixel position [code]Vector2(120, 0)[/code].\n"
-"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels."
+"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels.\n"
 msgstr ""
 "- ក្រឡា [code]Vector2(1, 0)[/code] នៅទីតាំង pixel [code]Vector2(120, 0)[/code]។\n"
-"- ក្រឡា [code]Vector2(2, 1)[/code] នៅទីតាំង pixel [code]Vector2(240, 120)[/code]។"
+"- ក្រឡា [code]Vector2(2, 1)[/code] នៅទីតាំង pixel [code]Vector2(240, 120)[/code]។\n"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:81
 msgid "Use the interactive grid above to visualize the calculations."
@@ -4769,12 +4713,10 @@ msgid "We need a function to convert grid coordinates to pixel positions. Comple
 msgstr "យើងត្រូវការ func មួយដើម្បីប្លែងកូអរដោនេផ្ទៃក្រឡា (grid) ទៅជាទីតាំង pixel លើអេក្រង់។ សូមបំពេញកូដក្នុង func នេះឱ្យត្រឹមត្រូវ ដើម្បីឱ្យតួអង្គ អណ្ដើក អាចផ្លាស់ទីទៅកាន់ក្រឡាដែលអ្នកចង់បាន!"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
-#, fuzzy
 msgid "To convert a cell coordinate to pixels, multiply the [code]cell[/code] by [code]cell_size[/code]."
 msgstr "ដើម្បីប្លែង សូមគុណ កូអរដោនេក្រឡាជាមួយ [code]cell_size[/code] (ទំហំក្រឡា)។"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
-#, fuzzy
 msgid "Use the [code]return[/code] keyword to send the result back. For example: [code]return cell * cell_size[/code]"
 msgstr "ពាក្យគន្លឹះ [code]return[/code] បញ្ជូនតម្លៃដែលគណនាបាន ត្រឡប់ទៅកូដដែលហៅ func នោះវិញ។"
 
@@ -4955,7 +4897,6 @@ msgid "Crates are piling up on the platform. Move them out of the way by popping
 msgstr "ប្រអប់កំពុងកើនឡើង ច្រើននៅលើវេទិកា។ យកវាចេញពី​ ទីនោះដោយ pop (ដកចេញ) វាពី array របស់វា។"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
-#, fuzzy
 msgid "Think about how [code]while[/code] loops work."
 msgstr "មានការប្រើប្រាស់ល្អៗ ផ្សេងទៀតសម្រាប់ [code]while[/code] loops (រង្វិលជុំ while)៖"
 
@@ -5069,7 +5010,6 @@ msgstr "[b]ការពិនិត្យមើល size (ចំនួនធា�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-24-access-array-indices/lesson.bbcode:60
-#, fuzzy
 msgid "Arrays come with a [glossary term=\"member function\"] named [code]size()[/code]. You can call it on the array anytime to know its [i]current[/i] size."
 msgstr "Array តែងមាន member function (​func ភ្ជាប់គ្នា) ឈ្មោះ [code]size()[/code]។ អ្នកអាច call (ហៅ) វាលើ array គ្រប់ពេលវេលា ដើម្បីដឹងពី size (ចំនួនធាតុ) [i]បច្ចុប្បន្ន[/i] របស់វា។"
 
@@ -5163,7 +5103,6 @@ msgstr "ប៉ុន្តែដោយសារ array មានត្រឹម�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:9
-#, fuzzy
 msgid "Instead, we can bundle the item names and amounts into a single [glossary term=\"dictionary\"]."
 msgstr "ជំនួសវិញ យើងអាចដាក់ឈ្មោះនិងចំនួនសម្ភារៈចូលគ្នាទៅក្នុង [i]dictionary[/i] (ក្បួនតម្រៀបទិន្នន័យ) តែមួយ។"
 
@@ -5315,11 +5254,11 @@ msgstr "ផ្តល់សម្ភារៈខាងក្រោមទៅឱ្
 msgid ""
 "- Three \"healing heart\".\n"
 "- Nine \"gems\".\n"
-"- One \"sword\"."
+"- One \"sword\".\n"
 msgstr ""
 "- \"healing heart\" ចំនួន 3។\n"
 "- \"gems\" ចំនួន 9។\n"
-"- \"sword\" ចំនួន 1។"
+"- \"sword\" ចំនួន 1។\n"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 msgid "The keys should be text strings, and the values whole numbers."
@@ -5470,7 +5409,6 @@ msgid "The player's inventory needs to appear on screen. Use a loop to display e
 msgstr "inventory របស់អ្នកលេងត្រូវតែបង្ហាញនៅលើអេក្រង់។ ប្រើ loop ដើម្បីបង្ហាញ item នីមួយៗ។"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
-#, fuzzy
 msgid "The [code]display_item()[/code] function needs the item name and its amount. You need to get the amount using the item name as a key in the [code]inventory[/code] dictionary."
 msgstr "ហៅ [code]display_item()[/code] function សម្រាប់ item នីមួយៗ។ វាទទួលយក arguments ពីរ៖ ឈ្មោះ item និងចំនួន។"
 
@@ -5873,228 +5811,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "Engineers at Tesla also used it for their cars' dashboards."
-#~ msgstr "វិស្វករនៅក្រុមហ៊ុន Tesla ក៏បានប្រើវាសម្រាប់ ផ្ទាំងបញ្ជារថយន្ត របស់ពួកគេផងដែរ។"
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid ""
-#~ "[code]\n"
-#~ "func _process(delta):\n"
-#~ "\trotate(0.05)\n"
-#~ "[/code]"
-#~ msgstr ""
-#~ "[code]\n"
-#~ "func _process(delta):\n"
-#~ "\trotate(0.05)\n"
-#~ "[/code]"
-
-#~ msgid "0.05"
-#~ msgstr "0.05"
-
-#~ msgid "[code]rotation_speed * delta[/code]"
-#~ msgstr "[code]rotation_speed * delta[/code]"
-
-#~ msgid ""
-#~ "100\n"
-#~ "75\n"
-#~ "50\n"
-#~ "25\n"
-#~ "0\n"
-#~ "-25"
-#~ msgstr ""
-#~ "100\n"
-#~ "75\n"
-#~ "50\n"
-#~ "25\n"
-#~ "0\n"
-#~ "-25"
-
-#~ msgid "-25"
-#~ msgstr "-25"
-
-#~ msgid "25"
-#~ msgstr "25"
-
-#~ msgid "0"
-#~ msgstr "0"
-
-#~ msgid ""
-#~ "[code]>[/code] means \"greater than\"\n"
-#~ "[code]<[/code] means \"less than\"\n"
-#~ "[code]==[/code] means \"equal to\"\n"
-#~ "[code]!=[/code] means \"not equal to\""
-#~ msgstr ""
-#~ "[code]>[/code] មានន័យថា \"greater than\" (ធំជាង)\n"
-#~ "[code]<[/code] មានន័យថា \"less than\" (តូចជាង)\n"
-#~ "[code]==[/code] មានន័យថា \"equal to\" (ស្មើ)\n"
-#~ "[code]!=[/code] មានន័យថា \"not equal to\" (មិនស្មើ)"
-
-#~ msgid ""
-#~ "The comparison [code]3 > 1[/code] means \"three is greater than one\" which is [b]true[/b].\n"
-#~ "The comparison [code]2 < 3[/code] means \"two is less than three\" which is [b]true[/b].\n"
-#~ "The comparison [code]1 != 3[/code] means \"one is not equal to three\" which is [b]true[/b]."
-#~ msgstr ""
-#~ "ការប្រៀបធៀប [code]3 > 1[/code] មានន័យថា \"បីធំជាងមួយ\" ដែល [b]true[/b] (ពិត)។\n"
-#~ "ការប្រៀបធៀប [code]2 < 3[/code] មានន័យថា \"ពីរតូចជាងបី\" ដែល [b]true[/b] (ពិត)។\n"
-#~ "ការប្រៀបធៀប [code]1 != 3[/code] មានន័យថា \"មួយមិនស្មើបី\" ដែល [b]true[/b] (ពិត)។"
-
-#~ msgid "This series of [code]if[/code] statements is all wrong. Change the comparisons so each comparison matches the instruction below it."
-#~ msgstr "ស៊េរី នៃ statements [code]if[/code] នេះខុសទាំងអស់។ ផ្លាស់ប្តូរការប្រៀបធៀប ដើម្បីឱ្យការប្រៀបធៀបនីមួយៗ ត្រូវគ្នានឹងការណែនាំខាងក្រោមវា។"
-
-#~ msgid "Keep the values and statements as they are; only change the comparison signs."
-#~ msgstr "ទុកតម្លៃនិង សេចក្តីថ្លែងការណ៍(statements) ដូចដើម ផ្លាស់ប្តូរតែសញ្ញាប្រៀបធៀបប៉ុណ្ណោះ។"
-
-#~ msgid ""
-#~ "As a reminder, the comparison signs are:\n"
-#~ "[code]\n"
-#~ "> greater than\n"
-#~ "< less than\n"
-#~ "== equal to\n"
-#~ "!= not equal to\n"
-#~ "[/code]"
-#~ msgstr ""
-#~ "ជាការរំលឹក សញ្ញាប្រៀបធៀបគឺ៖\n"
-#~ "[code]\n"
-#~ "> greater than (ធំជាង)\n"
-#~ "< less than (តូចជាង)\n"
-#~ "== equal to (ស្មើ)\n"
-#~ "!= not equal to (មិនស្មើ)\n"
-#~ "[/code]"
-
-#~ msgid "Because [code]health = 100[/code], this is false so [code]print(\"health is greater than five.\")[/code] won't run."
-#~ msgstr "ព្រោះ [code]health = 100[/code] នេះគឺ false (មិនពិត) ដូច្នេះ [code]print(\"health(ឈាម) ធំជាង​ប្រាំ.\")[/code] នឹងមិនដំណើរការទេ។"
-
-#~ msgid "We have a heal function that adds an amount to the character's health."
-#~ msgstr "យើងមាន func heal ដែលបន្ថែមចំនួនមួយទៅ health(ឈាម) របស់តួអង្គ។"
-
-#~ msgid "Add to the function so the character's health is never greater than [code]80[/code]."
-#~ msgstr "បន្ថែមទៅក្នុង func ដើម្បីឱ្យ health(ឈាម) របស់តួអង្គមិនដែលលើសពី [code]80[/code]។"
-
-#~ msgid "When the robot takes damage, its health can be negative."
-#~ msgstr "នៅពេលដែល robot រងការខូចខាត health(ឈាម) របស់វាអាចក្លាយជា អវិជ្ជមាន។"
-
-#~ msgid "We might want to display the health number on screen, like in Japanese RPGs."
-#~ msgstr "យើងអាចចង់បង្ហាញលេខ health(ឈាម) លើអេក្រង់ ដូចក្នុង​ Game RPG ជប៉ុន។"
-
-#~ msgid "We don't want negative numbers. We want to stop at zero instead."
-#~ msgstr "យើងមិនចង់បានលេខ អវិជ្ជមានទេ។ យើងចង់ឈប់ត្រឹមសូន្យ ជំនួសវិញ។"
-
-#~ msgid "Calling the function should reduce [code]health[/code] by [code]amount[/code]."
-#~ msgstr "ការហៅ func គួរតែបន្ថយ [code]health(ឈាម)[/code] ដោយ [code]amount[/code]។"
-
-#~ msgid "Our robot's health is always between [code]0[/code] and [code]100[/code]."
-#~ msgstr "ឈាម របស់ robot យើងគឺស្ថិតនៅចន្លោះ [code]0[/code] និង [code]100[/code] ជានិច្ច។"
-
-#~ msgid "But as our robot fights, we want to increase its strength and toughness."
-#~ msgstr "ប៉ុន្តែនៅពេលដែល robot របស់យើងប្រយុទ្ធ យើងចង់ បង្កើនកម្លាំង និងភាពធន់របស់វា។"
-
-#~ msgid "When a character levels up, it might deal more damage to enemies, gain new abilities or, in our case, gain more health."
-#~ msgstr "នៅពេលដែលតួអង្គ ឡើងកម្រិត (level up) វាអាចនឹងធ្វើឱ្យសត្រូវ រងការខូចខាតកាន់តែច្រើន, ហើយទទួលបាន​ សមត្ថភាពថ្មី ឬក្នុងករណីរបស់យើង គឺទទួលបាន ឈាមកាន់តែច្រើន។"
-
-#~ msgid ""
-#~ "[code]\n"
-#~ "var level = 5\n"
-#~ "var power = 3"
-#~ msgstr ""
-#~ "[code]\n"
-#~ "var level = 5\t#កម្រិត\n"
-#~ "var power = 3\t\t#ថាមពល"
-
-#~ msgid ""
-#~ "func calculate_damage():\n"
-#~ "\tvar damage = power * level\n"
-#~ "[/code]"
-#~ msgstr ""
-#~ "func calculate_damage():\t\t#func\n"
-#~ "\tvar damage = power * level\t\t#var\n"
-#~ "[/code]"
-
-#~ msgid "15"
-#~ msgstr "15"
-
-#~ msgid "9"
-#~ msgstr "9"
-
-#~ msgid "10"
-#~ msgstr "10"
-
-#~ msgid ""
-#~ "func calculate_damage():\n"
-#~ "\tvar damage = power * level\n"
-#~ "\tdamage *= 2\n"
-#~ "[/code]"
-#~ msgstr ""
-#~ "func calculate_damage():\n"
-#~ "\tvar damage = power * level\t\t #ឈាម = ថាមពល x កម្រិត\n"
-#~ "\tdamage *= 2\t\t\t #ឈាម = ថាមពល x កម្រិត\n"
-#~ "[/code]"
-
-#~ msgid "30"
-#~ msgstr "30"
-
-#~ msgid "13"
-#~ msgstr "13"
-
-#~ msgid "Our robot has decided to stand at the top of the board."
-#~ msgstr "robot របស់យើងបានសម្រេចចិត្តឈរនៅផ្នែកខាងលើនៃក្តារ។"
-
-#~ msgid "Complete the [code]move_to_bottom()[/code] function so the robot moves to the bottom of the board."
-#~ msgstr "បំពេញ func [code]move_to_bottom()[/code] ដើម្បីឱ្យ​ robot ផ្លាស់ទីទៅផ្នែកខាងក្រោមនៃក្តារ។"
-
-#~ msgid ""
-#~ "[code]var numbers = [0, 1, 2]\n"
-#~ "for number in numbers:\n"
-#~ "    print(number)\n"
-#~ "[/code]"
-#~ msgstr ""
-#~ "[code]var numbers = [0, 1, 2]\n"
-#~ "for number in numbers:\n"
-#~ "    print(number)\n"
-#~ "[/code]"
-
-#~ msgid "Populate the combo array with animation names as strings."
-#~ msgstr "បំពេញ array combo ជាមួយឈ្មោះចលនាជា strings។"
-
-#~ msgid "The array should contain three values, so the robot makes these three attacks: two jabs followed by one uppercut."
-#~ msgstr "array គួរមានតម្លៃចំនួនបី ដើម្បីឱ្យ Robot វាយបីដង ៖ វាយពីរដងដោយ jab តាមដោយ uppercut មួយដង។"
-
-#~ msgid ""
-#~ "[code]draw_corner(240)[/code]\n"
-#~ "[code]draw_corner(120)[/code]"
-#~ msgstr ""
-#~ "[code]draw_corner(240)[/code]\n"
-#~ "[code]draw_corner(120)[/code]"
-
-#~ msgid ""
-#~ "[code]draw_corner(240, 45)[/code]\n"
-#~ "[code]draw_corner(120, 90)[/code]"
-#~ msgstr ""
-#~ "[code]draw_corner(240, 45)[/code]\n"
-#~ "[code]draw_corner(120, 90)[/code]"
-
-#~ msgid ""
-#~ "[code]draw_square(200)[/code]\n"
-#~ "[code]draw_square(100)[/code]"
-#~ msgstr ""
-#~ "[code]draw_square(200)[/code]\n"
-#~ "[code]draw_square(100)[/code]"
-
-#~ msgid ""
-#~ "[code]draw_rectangle(260, 180)[/code]\n"
-#~ "[code]draw_rectangle(160, 210)[/code]"
-#~ msgstr ""
-#~ "[code]draw_rectangle(260, 180)[/code]\n"
-#~ "[code]draw_rectangle(160, 210)[/code]"
-
-#~ msgid ""
-#~ "[code]health -= amount[/code]\n"
-#~ "[code]health = health - amount[/code]"
-#~ msgstr ""
-#~ "[code]health -= amount[/code]\n"
-#~ "[code]health = health - amount[/code]"

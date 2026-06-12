@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: script_checking/error_database.csv
 msgid "error_explanation"
 msgstr ""
@@ -144,11 +145,10 @@ msgid "1. You used the class name in the class itself."
 msgstr ""
 
 #: script_checking/error_database.csv
-#, fuzzy
 msgid "2. Your code refers to another class that refers to this class, causing an endless reference cycle."
 msgstr ""
 "1. คุณใช้ชื่อคลาสในตัวคลาสมันเอง\n"
-"2. โค้ดของคุณอ้างถึงคลาสอื่นที่อ้างถึงคลาสนี้ ทำให้เกิดวงจรอ้างอิงที่ไม่มีที่สิ้นสุด"
+"2. โค้ดของคุณอ้างถึงคลาสอื่นที่อ้างถึงคลาสนี้ ทำให้เกิดวงจรอ้างอิงที่ไม่มีที่สิ้นสุด\n"
 
 #: script_checking/error_database.csv
 msgid "Either way, due to how GDScript works in Godot 3, unfortunately,you cannot do this. Godot 4 should solve this problem, but you need to work around it in the meantime."
@@ -795,7 +795,6 @@ msgid "The position of the entity on the vertical axis."
 msgstr "ตำแหน่งของสิ่งนั้นเมื่อวัดในแกนแนวตั้ง"
 
 #: course/documentation.csv
-#, fuzzy
 msgid " Applies a local translation on the node's X axis based on the [code]Node._process[/code]'s [code]delta[/code]. If [code]scaled[/code] is false, normalizes the movement."
 msgstr "จะกำหนดการเคลื่อนตำแหน่งของ node ในแกน x ของตัวเอง (ไม่ใช่ x ของ scene, world) โดยยึดจากความต่าง ([code]delta[/code]) ของ [code]Node._process[/code] ถ้า [code]scaled[/code] เป็น false ก็จะ normalize การเคลื่อนที่"
 
@@ -817,75 +816,3 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
-
-#~ msgid "member function"
-#~ msgstr "ฟังก์ชั่นสมาชิก"
-
-#~ msgid "member functions"
-#~ msgstr "ฟังก์ชั่นสมาชิก"
-
-#~ msgid "member variable"
-#~ msgstr "ตัวแปรสมาชิก"
-
-#~ msgid "member variables"
-#~ msgstr "ตัวแปรสมาชิก"
-
-#~ msgid "parameter"
-#~ msgstr "พารามิเตอร์"
-
-#~ msgid "parameters"
-#~ msgstr "พารามิเตอร์"
-
-#~ msgid "radian"
-#~ msgstr "เรเดียน"
-
-#~ msgid "radians"
-#~ msgstr "เรเดียน"
-
-#~ msgid "argument"
-#~ msgstr "อาร์กิวเมนต์"
-
-#~ msgid "function"
-#~ msgstr "ฟังก์ชั่น"
-
-#~ msgid "instructions"
-#~ msgstr "ชุดคำสั่ง"
-
-#~ msgid "The cell position of the robot on the board. [code]Vector2(0, 0)[/code] is the square cell in the top left of the board."
-#~ msgstr "ตำแหน่งเซลล์ของหุ่นยนต์บนกระดานและ [code]Vector2(0, 0)[/code] คือเซลล์สี่เหลี่ยมที่ด้านบนซ้ายของกระดาน"
-
-#~ msgid "Creates a list of numbers from [code]0[/code] to [code]length - 1[/code]."
-#~ msgstr "สร้าง list ตัวเลขจาก [code]0[/code] ถึง [code]length - 1[/code]"
-
-#~ msgid "Orders the robot to play an animation."
-#~ msgstr "สั่งให้หุ่นยนต์เล่นแอนิเมชั่น"
-
-#~ msgid "Selects units in the cell coordinates passed as the function's argument."
-#~ msgstr "เลือกหน่วยในพิกัดเซลล์ที่ส่งผ่านเป็นอาร์กิวเมนต์ของฟังก์ชัน"
-
-#~ msgid "Queues a move animation towards the target cell."
-#~ msgstr "จัดคิวของแอนิเมชั่นเคลื่อนไหวไปยังเซลล์เป้าหมาย"
-
-#~ msgid "Adds the value passed as an argument at the back of the array."
-#~ msgstr "เพิ่มค่าที่ส่งผ่านเป็นอาร์กิวเมนต์ไปยังด้านหลังของอาร์เรย์"
-
-#~ msgid "Removes the first value from the array and returns it."
-#~ msgstr "ลบค่าแรกออกจากอาร์เรย์และส่งค่าคืนกลับไป"
-
-#~ msgid "Removes the last value from the array and returns it."
-#~ msgstr "ลบค่าสุดท้ายออกจากอาร์เรย์และส่งค่าคืนกลับไป"
-
-#~ msgid "Returns the argument converted into a [code]String[/code]. Works with the majority of value types."
-#~ msgstr "ส่งค่าคืนกลับไปที่อาร์กิวเมนต์ที่แปลงเป็น [code]String[/code] ใช้งานได้กับประเภทข้อมูลค่าส่วนใหญ่"
-
-#~ msgid "Returns the argument converted into an [code]int[/code] (whole number) [i]if possible[/i]. Supports converting decimal numbers, strings, and booleans. Useful to convert player text input into numbers."
-#~ msgstr "ส่งค่ากลับไปเป็นอาร์กิวเมนต์ที่แปลงเป็น [code]int[/code] (จำนวนทั้งหมด) [i]ถ้าเป็นไปได้[/i] รองรับการแปลงค่าเป็น เลขทศนิยม, สตริง, และบูลีน มีประโยชน์ในการแปลงข้อความที่ป้อนมาจากผู้เล่นเป็นให้เป็นตัวเลข"
-
-#~ msgid "Creates a new unit matching the type parameter and places it at the desired cell position on the game grid."
-#~ msgstr "สร้างยูนิตใหม่ที่ตรงกับประเภทของพารามิเตอร์และวางไว้ที่ตำแหน่งช่องที่ต้องการในตารางเกม"
-
-#~ msgid "Creates a new item and displays it in the inventory."
-#~ msgstr "สร้างไอเท็มใหม่และแสดงใน inventory"
-
-#~ msgid "Increases the item count by amount."
-#~ msgstr "เพิ่มจำนวนไอเท็มตามจำนวน"

@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
+
 #: course/lesson-1-what-code-is-like/lesson.bbcode:1
 msgid "What Code is Like"
 msgstr "โค้ดเหมือนกับอะไร"
@@ -225,7 +226,6 @@ msgid "What and how you'll learn"
 msgstr "คุณจะได้เรียนรู้อะไรอย่างไรบ้าง"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:110
-#, fuzzy
 msgid "In this free course, you will learn the foundations you need to start coding things like these:"
 msgstr "ในหลักสูตรฟรีนี้ คุณจะได้เรียนรู้พื้นฐานที่จำเป็นในการเริ่มต้นเขียนโค้ดพวกนั้น"
 
@@ -237,11 +237,11 @@ msgstr "ระหว่างทางนี้ที่เราจะสอน
 msgid ""
 "- Some of the mindset you need as a developer. Too many programming courses skip that essential part.\n"
 "- How to write GDScript code.\n"
-"- Essential programming foundations to get you started."
+"- Essential programming foundations to get you started.\n"
 msgstr ""
 "- ความคิดบางอย่างที่คุณต้องการในฐานะนักพัฒนา การเขียนโปรแกรมเชิงลึกเกินไปหลักสูตรจะข้ามส่วนนั้นไป\n"
 "- วิธีเขียนโค้ด GDScript\n"
-"- พื้นฐานการเขียนโปรแกรมที่จำเป็นสำหรับการเริ่มต้น"
+"- พื้นฐานการเขียนโปรแกรมที่จำเป็นสำหรับการเริ่มต้น\n"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:130
 msgid "As you go through the course, you will have many questions. We will answer them the best we can as we go."
@@ -312,7 +312,6 @@ msgid "Your First Error"
 msgstr "ข้อผิดพลาดครั้งแรกของคุณ"
 
 #: course/lesson-2-your-first-error/lesson.bbcode:13
-#, fuzzy
 msgid "When you program, you are bound to run into errors. Tons of them."
 msgstr "เมื่อคุณเขียนโปรแกรมแล้ว คุณจะต้องพบกับข้อผิดพลาดเป็นจำนวนมาก"
 
@@ -361,12 +360,10 @@ msgid "Ultimately, you want to fix all the errors in your program. Understanding
 msgstr ""
 
 #: course/lesson-2-your-first-error/lesson.bbcode:31
-#, fuzzy
 msgid "Are error messages a good or a bad thing in code?"
 msgstr "ข้อผิดพลาดเป็นสิ่งที่ดีหรือไม่ดีในโลกของโค้ด?"
 
 #: course/lesson-2-your-first-error/lesson.bbcode:31
-#, fuzzy
 msgid "Yes, error messages are here to help you!"
 msgstr "ดี ข้อผิดพลาดอยู่เพื่อช่วยเหลือคุณ!"
 
@@ -375,7 +372,6 @@ msgid "Pay attention to them, and do your best to read and understand them. With
 msgstr "ให้ความสนใจกับพวกมันและพยายามอย่างเต็มที่ในการอ่านและทำความเข้าใจมันด้วยประสบการณ์ คุณจะได้เรียนรู้วิธีที่จะทำให้โค้ดของคุณทำงานได้อย่างน่าเชื่อถือมากขึ้นจากข้อความที่แสดงข้อผิดพลาด"
 
 #: course/lesson-2-your-first-error/lesson.bbcode:31
-#, fuzzy
 msgid "They're bad: error messages are always bad."
 msgstr "มันไม่ดีเลย: ข้อผิดพลาดนั้นแย่เสมอนั่นแหละ"
 
@@ -397,13 +393,11 @@ msgstr "โค้ดนี้ไม่ถูกต้องและมันจ
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "The code defines an empty [glossary term=\"function\"] named [code]this_code_is_wrong[/code]."
 msgstr "โค้ดกำหนดฟังก์ชันว่างที่มีชื่อว่า [code]this_code_is_wrong[/code]."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "To work, the function should use the [glossary term=\"return\"] keyword. But this keyword is currently inside a comment, which the computer ignores."
 msgstr "ในการทำงาน ฟังก์ชันควรใช้คำสงวน [code]return[/code] แต่ขณะนี้คำสงวนนี้อยู่ในคำอธิบายซึ่งคอมพิวเตอร์จะไม่สนใจ"
 
@@ -763,7 +757,7 @@ msgstr ""
 msgid ""
 "- [code]move_forward(pixels)[/code] makes the turtle move forward over a given distance in [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] makes the turtle turn clockwise by a precise amount of [i]degrees[/i].\n"
-"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise."
+"- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise.\n"
 msgstr ""
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:17
@@ -1640,7 +1634,7 @@ msgstr ""
 msgid ""
 "- The player's score.\n"
 "- Every character or enemy's health.\n"
-"- The last checkpoint."
+"- The last checkpoint.\n"
 msgstr ""
 
 #: course/lesson-7-member-variables/lesson.bbcode:16
@@ -2054,7 +2048,7 @@ msgstr ""
 #: course/lesson-8-defining-variables/lesson.bbcode:101
 msgid ""
 "- At line 2, the [code]health[/code] variable holds a number.\n"
-"- From line 3, [code]health[/code] holds text."
+"- From line 3, [code]health[/code] holds text.\n"
 msgstr ""
 
 #: course/lesson-8-defining-variables/lesson.bbcode:102
@@ -3320,7 +3314,7 @@ msgstr ""
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid ""
 "- Increases [code]level[/code] by one.\n"
-"- Increases [code]max_health[/code] by 10%."
+"- Increases [code]max_health[/code] by 10%.\n"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
@@ -3733,7 +3727,7 @@ msgid ""
 "- Reading and processing a file, like a text document, line by line.\n"
 "- Processing a constant stream of data, like someone recording audio with a microphone.\n"
 "- Reading code and converting it into instructions the computer understands.\n"
-"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI."
+"- Various intermediate to advanced-level algorithms, like finding paths around a map for AI.\n"
 msgstr ""
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
@@ -4056,7 +4050,7 @@ msgid ""
 "- The player's party in an RPG.\n"
 "- The items in the player's inventory.\n"
 "- The high scores in an arcade game.\n"
-"- The objects in the game world."
+"- The objects in the game world.\n"
 msgstr ""
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:62
@@ -4263,7 +4257,7 @@ msgstr ""
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:74
 msgid ""
 "- In a condition, the [code]in[/code] keyword allows you to check if a value exists [i]in[/i] an array.\n"
-"- The array's [code]append()[/code] function appends a new value at the end of the array."
+"- The array's [code]append()[/code] function appends a new value at the end of the array.\n"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:75
@@ -4481,7 +4475,7 @@ msgstr ""
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid ""
 "- [code]\"jab\"[/code] (makes the robot perform a quick punch)\n"
-"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)"
+"- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)\n"
 msgstr ""
 
 #: course/lesson-21-strings/lesson.bbcode:73
@@ -4620,7 +4614,7 @@ msgstr ""
 #: course/lesson-22-functions-return-values/lesson.bbcode:80
 msgid ""
 "- Cell [code]Vector2(1, 0)[/code] is at pixel position [code]Vector2(120, 0)[/code].\n"
-"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels."
+"- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels.\n"
 msgstr ""
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:81
@@ -5221,7 +5215,7 @@ msgstr ""
 msgid ""
 "- Three \"healing heart\".\n"
 "- Nine \"gems\".\n"
-"- One \"sword\"."
+"- One \"sword\".\n"
 msgstr ""
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
