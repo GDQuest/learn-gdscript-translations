@@ -597,10 +597,6 @@ msgstr "Värdet på [code]0.3[/code] är en vinkel i [i]radianer[/i]. I det dagl
 msgid "You can convert radians into degrees by multiplying them by 180 and dividing them by PI:"
 msgstr "Du kan omvandla radianer till grader genom att multiplicera dem med 180 och dividera dem med PI:"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:80
-msgid "[code]degrees = radians * 180 / PI[/code]"
-msgstr "[code]degrees = radians * 180 / PI[/code]"
-
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:81
 msgid "An angle of [code]PI[/code] radians corresponds to [code]180[/code] degrees. And [code]2 * PI[/code] is a full turn: [code]360[/code] degrees."
 msgstr "En vinkel med [code]PI[/code] radianer motsvarar [code]180[/code] grader. Och [code]2 * PI[/code] är ett helt varv: [code]360[/code] grader."
@@ -624,10 +620,6 @@ msgstr "Eftersom omkretsen av en cirkel är [code]2 * PI * radie[/code], motsvar
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
 msgid "What does the code below do?"
 msgstr "Vad gör koden nedan?"
-
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
-msgid "[code]show()[/code]"
-msgstr "[code]show()[/code]"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
 msgid "Both answers were right! Technically, the code calls the [code]show()[/code] function. And doing so makes the game entity visible."
@@ -836,10 +828,6 @@ msgid "In the function call below, which part is the argument?"
 msgstr "Vilken del är argumentet i funktionsanropet nedan?"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:47
-msgid "[code]move_forward(30)[/code]"
-msgstr "[code]move_forward(30)[/code]"
-
-#: course/lesson-4-drawing-a-rectangle/lesson.bbcode:47
 msgid "A function's arguments are all the values inside the parentheses. In this case, there's only one, but there can be multiple separated by commas."
 msgstr "En funktions argument är alla värden som står skrivna i parentesen. I det här fallet finns det bara ett, men det kan finnas flera argument separerade med kommatecken."
 
@@ -855,11 +843,6 @@ msgstr "Detta funktionsanrop kommer att få sköldpaddan att gå framåt [code]3
 #: course/lesson-5-your-first-function/lesson.bbcode:80
 msgid "move_forward"
 msgstr "move_forward"
-
-#: course/lesson-4-drawing-a-rectangle/lesson.bbcode:47
-#: course/lesson-14-multiplying/lesson.bbcode:63
-msgid "30"
-msgstr "30"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:58
 msgid "The turtle uses code made specifically for this app!"
@@ -1538,16 +1521,6 @@ msgid "I will call your function twice with different values:"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
-msgid "[code]draw_corner(240)[/code]"
-msgstr "[code]move_forward(30)[/code]"
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
-msgid "[code]draw_corner(120)[/code]"
-msgstr "[code]move_forward(30)[/code]"
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 msgid "Your task is to add a parameter named [code]length[/code] to your function definition. This creates a placeholder. When the app calls your function, the placeholder will get replaced with the value in parentheses."
 msgstr ""
 
@@ -1580,16 +1553,6 @@ msgstr "I den här övningen kommer vi att förbättra vår [code]draw_corner()[
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 msgid "I will call your function with different length and angle values:"
 msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
-msgid "[code]draw_corner(240, 45)[/code]"
-msgstr "[code]move_forward(30)[/code]"
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
-msgid "[code]draw_corner(120, 90)[/code]"
-msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #, fuzzy
@@ -1632,16 +1595,6 @@ msgstr "Nu är det din tur att skapa en funktion med flera parametrar: en funkti
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "I will call your function with different sizes:"
 msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
-msgid "[code]draw_square(200)[/code]"
-msgstr "[code]move_forward(30)[/code]"
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
-msgid "[code]draw_square(100)[/code]"
-msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Write a function named [code]draw_square()[/code] with one parameter called [code]length[/code]. Remember, this parameter is a placeholder that gets filled with the actual value when the function is called."
@@ -1690,14 +1643,6 @@ msgstr "Med två parametrar, koda en funktion för att rita hörn med valfri vin
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 msgid "I will call your function twice with different sizes:"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-msgid "[code]draw_rectangle(260, 180)[/code]"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-msgid "[code]draw_rectangle(160, 210)[/code]"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
@@ -2251,15 +2196,6 @@ msgstr ""
 msgid "You can also use a longer form. Both of these lines have the same effect. They both subtract the value of [code]amount[/code] from the [code]health[/code] variable:"
 msgstr ""
 
-#: course/lesson-9-adding-and-subtracting/lesson.bbcode:30
-#, fuzzy
-msgid "[code]health -= amount[/code]"
-msgstr "[code]show()[/code]"
-
-#: course/lesson-9-adding-and-subtracting/lesson.bbcode:31
-msgid "[code]health = health - amount[/code]"
-msgstr ""
-
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:32
 msgid "You may notice that the health of the robot can go below [code]0[/code]. We'll see how to manage this in a future lesson using [i]conditions[/i]."
 msgstr ""
@@ -2282,14 +2218,6 @@ msgstr ""
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 msgid "Both of these lines increase the [code]health[/code] of the robot by [code]amount[/code]."
-msgstr ""
-
-#: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
-msgid ""
-"[code]\n"
-"health += amount\n"
-"health = health + amount\n"
-"[/code]"
 msgstr ""
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
@@ -2406,31 +2334,12 @@ msgid "How many parameters does this function take?"
 msgstr "Hur många parametrar tar denna funktion?"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:19
-msgid ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
-
-#: course/lesson-10-the-game-loop/lesson.bbcode:19
 msgid "The [code]_process()[/code] function takes one parameter: [code]delta[/code]."
 msgstr "Funktionen [code]_process()[/code] tar en parameter: [code]delta[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:19
 msgid "We'll look at what [code]delta[/code] is in the next lesson, as well as show how to use it."
 msgstr "Vi ska titta på vad [code]delta[/code] är i nästa lektion, samt visa hur man använder det."
-
-#: course/lesson-10-the-game-loop/lesson.bbcode:19
-#: course/lesson-21-strings/lesson.bbcode:25
-msgid "1"
-msgstr "1"
-
-#: course/lesson-10-the-game-loop/lesson.bbcode:19
-msgid "2"
-msgstr "2"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:38
 msgid "The [code]_process()[/code] function won't do anything until we add something to it."
@@ -2608,23 +2517,11 @@ msgid "What parameter does the _process() function take?"
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:29
-msgid ""
-"[code]\n"
-"func _process(delta):\n"
-"\trotate(0.05)\n"
-"[/code]"
-msgstr ""
-
-#: course/lesson-11-time-delta/lesson.bbcode:29
 msgid "The [code]_process()[/code] function has one parameter named [code]delta[/code]."
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:29
 msgid "rotate"
-msgstr ""
-
-#: course/lesson-11-time-delta/lesson.bbcode:29
-msgid "0.05"
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:29
@@ -2782,10 +2679,6 @@ msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:115
 msgid "What does this mean?"
-msgstr ""
-
-#: course/lesson-11-time-delta/lesson.bbcode:115
-msgid "[code]rotation_speed * delta[/code]"
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:115
@@ -3090,31 +2983,6 @@ msgstr ""
 msgid "Calling [code]take_damage(25)[/code] five times would subtract a total of [code]125[/code] from [code]100[/code]."
 msgstr ""
 
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "100"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "75"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "50"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-#: course/lesson-14-multiplying/lesson.bbcode:63
-msgid "25"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "0"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "-25"
-msgstr ""
-
 #: course/lesson-13-conditions/lesson.bbcode:34
 msgid "We can use conditions to run actions [b]selectively[/b]."
 msgstr ""
@@ -3350,11 +3218,6 @@ msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #, fuzzy
-msgid "[code]heal(40)[/code]"
-msgstr "[code]show()[/code]"
-
-#: course/lesson-13-conditions/lesson.bbcode:149
-#, fuzzy
 msgid "After those two calls, [code]health[/code] should be equal to [code]80[/code]."
 msgstr "Definiera en variabel som heter [code]health[/code] med ett startvärde på [code]100[/code]."
 
@@ -3398,11 +3261,6 @@ msgstr ""
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "To check your code, I will call your [code]take_damage()[/code] function three times, like this:"
 msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
-msgid "[code]take_damage(10)[/code]"
-msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "After those three calls, [code]health[/code] should equal [code]0[/code], and not [code]-10[/code] or another value."
@@ -3497,29 +3355,7 @@ msgid "What is the value of damage?"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:47
-msgid ""
-"[code]\n"
-"var level = 5\n"
-"var power = 3\n"
-"func calculate_damage():\n"
-"\tvar damage = power * level\n"
-"[/code]"
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
 msgid "We multiply [code]power[/code] by [code]level[/code] using [code]*[/code] to get the result of [code]15[/code]."
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
-msgid "15"
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
-msgid "9"
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
-msgid "10"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:63
@@ -3531,26 +3367,11 @@ msgid "What is the value of damage now?"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:63
-msgid ""
-"[code]\n"
-"var level = 5\n"
-"var power = 3\n"
-"func calculate_damage():\n"
-"\tvar damage = power * level\n"
-"\tdamage *= 2\n"
-"[/code]"
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:63
 msgid "The value of [code]damage[/code] starts as [code]15[/code]."
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:63
 msgid "Then, [code]damage *= 2[/code] multiplies it by [code]2[/code] to get [code]30[/code]."
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:63
-msgid "13"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:82
@@ -4459,14 +4280,6 @@ msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "What will this code print?"
-msgstr ""
-
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:23
-msgid ""
-"[code]var numbers = [0, 1, 2]\n"
-"for number in numbers:\n"
-"    print(number)\n"
-"[/code]"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
@@ -6040,6 +5853,21 @@ msgstr ""
 
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "30"
+#~ msgstr "30"
+
+#~ msgid "[code]degrees = radians * 180 / PI[/code]"
+#~ msgstr "[code]degrees = radians * 180 / PI[/code]"
+
+#~ msgid "[code]move_forward(30)[/code]"
+#~ msgstr "[code]move_forward(30)[/code]"
 
 #~ msgid "The instructions inside the function [b]must[/b] all start with a leading tab character. You can insert that tab character by pressing the [b]Tab[/b] key."
 #~ msgstr "Instruktionerna i funktionen [b]måste[/b] alla börja med ett inledande tabbtecken. Du kan infoga tabbtecknet genom att trycka på tangenten [b]Tab[/b]."

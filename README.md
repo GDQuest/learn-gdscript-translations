@@ -67,10 +67,6 @@ If you find a UI bug caused by translations, please [open a new issue](https://g
 
 **Note:** Currently, the app won't automatically reload translations while it's running. If you update a PO file, close the app with <kbd>F8</kbd> and rerun it with <kbd>F5</kbd>.
 
-### Registering a completely new language
-
-If the language you're translating for is completely new in the app, currently you will need to manually register it in the application source code. For that, open Learn GDScript From Zero in Godot, and open the script `autoload/TranslationManager.gd`. Add the two-letter language code of your language to the `SUPPORTED_LOCALES` array. For example, if you were adding Spanish, you would add `"es"` to the array.
-
 
 ## For maintainers: updating translation templates
 

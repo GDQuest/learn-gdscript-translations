@@ -580,10 +580,6 @@ msgstr ""
 msgid "You can convert radians into degrees by multiplying them by 180 and dividing them by PI:"
 msgstr ""
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:80
-msgid "[code]degrees = radians * 180 / PI[/code]"
-msgstr ""
-
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:81
 msgid "An angle of [code]PI[/code] radians corresponds to [code]180[/code] degrees. And [code]2 * PI[/code] is a full turn: [code]360[/code] degrees."
 msgstr ""
@@ -606,10 +602,6 @@ msgstr ""
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
 msgid "What does the code below do?"
-msgstr ""
-
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
-msgid "[code]show()[/code]"
 msgstr ""
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
@@ -811,10 +803,6 @@ msgid "In the function call below, which part is the argument?"
 msgstr ""
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:47
-msgid "[code]move_forward(30)[/code]"
-msgstr ""
-
-#: course/lesson-4-drawing-a-rectangle/lesson.bbcode:47
 msgid "A function's arguments are all the values inside the parentheses. In this case, there's only one, but there can be multiple separated by commas."
 msgstr ""
 
@@ -830,11 +818,6 @@ msgstr ""
 #: course/lesson-5-your-first-function/lesson.bbcode:80
 msgid "move_forward"
 msgstr "bergerak_kedepan"
-
-#: course/lesson-4-drawing-a-rectangle/lesson.bbcode:47
-#: course/lesson-14-multiplying/lesson.bbcode:63
-msgid "30"
-msgstr ""
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:58
 msgid "The turtle uses code made specifically for this app!"
@@ -1494,14 +1477,6 @@ msgid "I will call your function twice with different values:"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-msgid "[code]draw_corner(240)[/code]"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-msgid "[code]draw_corner(120)[/code]"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 msgid "Your task is to add a parameter named [code]length[/code] to your function definition. This creates a placeholder. When the app calls your function, the placeholder will get replaced with the value in parentheses."
 msgstr ""
 
@@ -1531,14 +1506,6 @@ msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 msgid "I will call your function with different length and angle values:"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-msgid "[code]draw_corner(240, 45)[/code]"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-msgid "[code]draw_corner(120, 90)[/code]"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
@@ -1575,14 +1542,6 @@ msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "I will call your function with different sizes:"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-msgid "[code]draw_square(200)[/code]"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-msgid "[code]draw_square(100)[/code]"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
@@ -1627,14 +1586,6 @@ msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 msgid "I will call your function twice with different sizes:"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-msgid "[code]draw_rectangle(260, 180)[/code]"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-msgid "[code]draw_rectangle(160, 210)[/code]"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
@@ -2180,20 +2131,6 @@ msgstr "Perhatikan sintaks [code]-=[/code] yang digunakan untuk melakukan hal in
 msgid "You can also use a longer form. Both of these lines have the same effect. They both subtract the value of [code]amount[/code] from the [code]health[/code] variable:"
 msgstr "Kamu juga bisa menggunakan bentuk yang lebih panjang. Kedua baris di bawah ini memiliki efek yang sama, yaitu mengurangkan nilai [code]amount[/code] dari variabel [code]health[/code]:"
 
-#: course/lesson-9-adding-and-subtracting/lesson.bbcode:30
-#, fuzzy
-msgid "[code]health -= amount[/code]"
-msgstr ""
-"[code]health -= amount[/code]\n"
-"[code]health = health - amount[/code]"
-
-#: course/lesson-9-adding-and-subtracting/lesson.bbcode:31
-#, fuzzy
-msgid "[code]health = health - amount[/code]"
-msgstr ""
-"[code]health -= amount[/code]\n"
-"[code]health = health - amount[/code]"
-
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:32
 msgid "You may notice that the health of the robot can go below [code]0[/code]. We'll see how to manage this in a future lesson using [i]conditions[/i]."
 msgstr "Kamu mungkin menyadari bahwa nilai kesehatan robot bisa turun di bawah [code]0[/code]. Kita akan mempelajari cara menangani hal ini di pelajaran selanjutnya dengan menggunakan [i]kondisi[/i]."
@@ -2223,17 +2160,6 @@ msgstr ""
 "health += amount\n"
 "health = health + amount\n"
 "[/code]"
-
-#: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
-#, fuzzy
-msgid ""
-"[code]\n"
-"health += amount\n"
-"health = health + amount\n"
-"[/code]"
-msgstr ""
-"[code]health -= amount[/code]\n"
-"[code]health = health - amount[/code]"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 msgid "health -= amount"
@@ -2350,27 +2276,11 @@ msgid "How many parameters does this function take?"
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:19
-msgid ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
-msgstr ""
-
-#: course/lesson-10-the-game-loop/lesson.bbcode:19
 msgid "The [code]_process()[/code] function takes one parameter: [code]delta[/code]."
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:19
 msgid "We'll look at what [code]delta[/code] is in the next lesson, as well as show how to use it."
-msgstr ""
-
-#: course/lesson-10-the-game-loop/lesson.bbcode:19
-#: course/lesson-21-strings/lesson.bbcode:25
-msgid "1"
-msgstr ""
-
-#: course/lesson-10-the-game-loop/lesson.bbcode:19
-msgid "2"
 msgstr ""
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:38
@@ -2547,23 +2457,11 @@ msgid "What parameter does the _process() function take?"
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:29
-msgid ""
-"[code]\n"
-"func _process(delta):\n"
-"\trotate(0.05)\n"
-"[/code]"
-msgstr ""
-
-#: course/lesson-11-time-delta/lesson.bbcode:29
 msgid "The [code]_process()[/code] function has one parameter named [code]delta[/code]."
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:29
 msgid "rotate"
-msgstr ""
-
-#: course/lesson-11-time-delta/lesson.bbcode:29
-msgid "0.05"
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:29
@@ -2721,10 +2619,6 @@ msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:115
 msgid "What does this mean?"
-msgstr ""
-
-#: course/lesson-11-time-delta/lesson.bbcode:115
-msgid "[code]rotation_speed * delta[/code]"
 msgstr ""
 
 #: course/lesson-11-time-delta/lesson.bbcode:115
@@ -3029,31 +2923,6 @@ msgstr ""
 msgid "Calling [code]take_damage(25)[/code] five times would subtract a total of [code]125[/code] from [code]100[/code]."
 msgstr ""
 
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "100"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "75"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "50"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-#: course/lesson-14-multiplying/lesson.bbcode:63
-msgid "25"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "0"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "-25"
-msgstr ""
-
 #: course/lesson-13-conditions/lesson.bbcode:34
 msgid "We can use conditions to run actions [b]selectively[/b]."
 msgstr ""
@@ -3288,10 +3157,6 @@ msgid "To check your code, I will call the [code]heal()[/code] function twice, l
 msgstr "Perulangan di bawah ini akan mengubah [code]sel[/code] tiga kali."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
-msgid "[code]heal(40)[/code]"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:149
 msgid "After those two calls, [code]health[/code] should be equal to [code]80[/code]."
 msgstr ""
 
@@ -3334,10 +3199,6 @@ msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "To check your code, I will call your [code]take_damage()[/code] function three times, like this:"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:178
-msgid "[code]take_damage(10)[/code]"
 msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -3433,29 +3294,7 @@ msgid "What is the value of damage?"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:47
-msgid ""
-"[code]\n"
-"var level = 5\n"
-"var power = 3\n"
-"func calculate_damage():\n"
-"\tvar damage = power * level\n"
-"[/code]"
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
 msgid "We multiply [code]power[/code] by [code]level[/code] using [code]*[/code] to get the result of [code]15[/code]."
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
-msgid "15"
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
-msgid "9"
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
-msgid "10"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:63
@@ -3467,26 +3306,11 @@ msgid "What is the value of damage now?"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:63
-msgid ""
-"[code]\n"
-"var level = 5\n"
-"var power = 3\n"
-"func calculate_damage():\n"
-"\tvar damage = power * level\n"
-"\tdamage *= 2\n"
-"[/code]"
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:63
 msgid "The value of [code]damage[/code] starts as [code]15[/code]."
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:63
 msgid "Then, [code]damage *= 2[/code] multiplies it by [code]2[/code] to get [code]30[/code]."
-msgstr ""
-
-#: course/lesson-14-multiplying/lesson.bbcode:63
-msgid "13"
 msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:82
@@ -4400,14 +4224,6 @@ msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "What will this code print?"
-msgstr ""
-
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:23
-msgid ""
-"[code]var numbers = [0, 1, 2]\n"
-"for number in numbers:\n"
-"    print(number)\n"
-"[/code]"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
@@ -6002,6 +5818,13 @@ msgstr ""
 
 #~ msgid "When a character levels up, it might deal more damage to enemies, gain new abilities or, in our case, gain more health."
 #~ msgstr "Saat karakter naik level, karakter tersebut mungkin memberikan lebih banyak kerusakan pada musuh, memperoleh kemampuan baru, atau, dalam kasus kami, memperoleh lebih banyak kesehatan."
+
+#~ msgid ""
+#~ "[code]health -= amount[/code]\n"
+#~ "[code]health = health - amount[/code]"
+#~ msgstr ""
+#~ "[code]health -= amount[/code]\n"
+#~ "[code]health = health - amount[/code]"
 
 #~ msgid "However, they could result in infinite loops if we're not careful."
 #~ msgstr "Namun, hal ini dapat mengakibatkan perulangan tak terbatas jika kita tidak hati-hati."

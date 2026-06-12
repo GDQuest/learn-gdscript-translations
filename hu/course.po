@@ -597,10 +597,6 @@ msgstr "A [code]0.3[/code] egy [i]radiánban[/i] megadott szög. A hétköznapi 
 msgid "You can convert radians into degrees by multiplying them by 180 and dividing them by PI:"
 msgstr "A radiánt át lehet váltani fokba, csak be kell szorozni 180-nal, majd elosztani PI-vel:"
 
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:80
-msgid "[code]degrees = radians * 180 / PI[/code]"
-msgstr "[code]fok = radian * 180 / PI[/code]"
-
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:81
 msgid "An angle of [code]PI[/code] radians corresponds to [code]180[/code] degrees. And [code]2 * PI[/code] is a full turn: [code]360[/code] degrees."
 msgstr "Radiánban a [code]PI[/code] egy [code]180[/code] fokos szögnek felel meg. [code]2 * PI[/code] pedig egy teljes fordulat: [code]360[/code] fok."
@@ -624,10 +620,6 @@ msgstr "Mivel a kör kerülete [code]2 * PI * radius[/code], ezért egy teljes f
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
 msgid "What does the code below do?"
 msgstr "Mit csinál az alábbi kód?"
-
-#: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
-msgid "[code]show()[/code]"
-msgstr "[code]show()[/code]"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
 msgid "Both answers were right! Technically, the code calls the [code]show()[/code] function. And doing so makes the game entity visible."
@@ -836,10 +828,6 @@ msgid "In the function call below, which part is the argument?"
 msgstr "A lenti függvényhívásban, melyik rész az argumentum?"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:47
-msgid "[code]move_forward(30)[/code]"
-msgstr "[code]move_forward(30)[/code]"
-
-#: course/lesson-4-drawing-a-rectangle/lesson.bbcode:47
 msgid "A function's arguments are all the values inside the parentheses. In this case, there's only one, but there can be multiple separated by commas."
 msgstr "A függvény argumentumai a zárójelben lévő összes érték."
 
@@ -855,11 +843,6 @@ msgstr "Ez a függvényhívás előre mozdítja a teknőst [code]30[/code] pixel
 #: course/lesson-5-your-first-function/lesson.bbcode:80
 msgid "move_forward"
 msgstr "move_forward"
-
-#: course/lesson-4-drawing-a-rectangle/lesson.bbcode:47
-#: course/lesson-14-multiplying/lesson.bbcode:63
-msgid "30"
-msgstr "30"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:58
 msgid "The turtle uses code made specifically for this app!"
@@ -1539,16 +1522,6 @@ msgid "I will call your function twice with different values:"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
-msgid "[code]draw_corner(240)[/code]"
-msgstr "[code]move_forward(30)[/code]"
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
-msgid "[code]draw_corner(120)[/code]"
-msgstr "[code]move_forward(30)[/code]"
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 msgid "Your task is to add a parameter named [code]length[/code] to your function definition. This creates a placeholder. When the app calls your function, the placeholder will get replaced with the value in parentheses."
 msgstr ""
 
@@ -1581,16 +1554,6 @@ msgstr "Ebben a gyakorlatban feljavítjuk a [code]draw_corner()[/code] függvén
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 msgid "I will call your function with different length and angle values:"
 msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
-msgid "[code]draw_corner(240, 45)[/code]"
-msgstr "[code]move_forward(30)[/code]"
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
-msgid "[code]draw_corner(120, 90)[/code]"
-msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #, fuzzy
@@ -1633,16 +1596,6 @@ msgstr "Most a te feladatod lesz elkészíteni egy függvényt, ami több param�
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "I will call your function with different sizes:"
 msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
-msgid "[code]draw_square(200)[/code]"
-msgstr "[code]move_forward(30)[/code]"
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
-msgid "[code]draw_square(100)[/code]"
-msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #, fuzzy
@@ -1692,14 +1645,6 @@ msgstr "Készíts egy függvényt két paraméter használatával, ami bármilye
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 msgid "I will call your function twice with different sizes:"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-msgid "[code]draw_rectangle(260, 180)[/code]"
-msgstr ""
-
-#: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-msgid "[code]draw_rectangle(160, 210)[/code]"
 msgstr ""
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
@@ -2256,16 +2201,6 @@ msgstr "Figyeld meg a [code]-=[/code] jelölést, ami ezt lehetővé teszi. Ez e
 msgid "You can also use a longer form. Both of these lines have the same effect. They both subtract the value of [code]amount[/code] from the [code]health[/code] variable:"
 msgstr "Használhatsz egy hosszabb formátumot is. Mindkét sornak ugyanaz a végeredménye. Mindkettő kivonja az [code]amount[/code] értékét a [code]health[/code]-ből:"
 
-#: course/lesson-9-adding-and-subtracting/lesson.bbcode:30
-#, fuzzy
-msgid "[code]health -= amount[/code]"
-msgstr "health -= amount"
-
-#: course/lesson-9-adding-and-subtracting/lesson.bbcode:31
-#, fuzzy
-msgid "[code]health = health - amount[/code]"
-msgstr "health = health - amount"
-
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:32
 msgid "You may notice that the health of the robot can go below [code]0[/code]. We'll see how to manage this in a future lesson using [i]conditions[/i]."
 msgstr "Megfigyelheted, hogy a health értéke [code]0[/code] alá is mehet. Egy későbbi leckében megnézzük, hogyan orvosolhatjuk ezt [i]feltételekkel[/i]."
@@ -2295,17 +2230,6 @@ msgstr ""
 "health += amount\n"
 "health = health + amount\n"
 "[/code]"
-
-#: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
-#, fuzzy
-msgid ""
-"[code]\n"
-"health += amount\n"
-"health = health + amount\n"
-"[/code]"
-msgstr ""
-"[code]health -= amount[/code]\n"
-"[code]health = health - amount[/code]"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 msgid "health -= amount"
@@ -2422,31 +2346,12 @@ msgid "How many parameters does this function take?"
 msgstr "Hány paramétert fogad az alábbi függvény?"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:19
-msgid ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
-
-#: course/lesson-10-the-game-loop/lesson.bbcode:19
 msgid "The [code]_process()[/code] function takes one parameter: [code]delta[/code]."
 msgstr "A [code]_process()[/code] függvény csak egy paramétert fogad: [code]delta[/code]."
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:19
 msgid "We'll look at what [code]delta[/code] is in the next lesson, as well as show how to use it."
 msgstr "A következő leckében megnézzük mi is ez a [code]delta[/code], és megmutatjuk azt is, hogyan használd.."
-
-#: course/lesson-10-the-game-loop/lesson.bbcode:19
-#: course/lesson-21-strings/lesson.bbcode:25
-msgid "1"
-msgstr "1"
-
-#: course/lesson-10-the-game-loop/lesson.bbcode:19
-msgid "2"
-msgstr "2"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:38
 msgid "The [code]_process()[/code] function won't do anything until we add something to it."
@@ -2624,28 +2529,12 @@ msgid "What parameter does the _process() function take?"
 msgstr "Milyen paramétert fogad a _process() függvény?"
 
 #: course/lesson-11-time-delta/lesson.bbcode:29
-msgid ""
-"[code]\n"
-"func _process(delta):\n"
-"\trotate(0.05)\n"
-"[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"\trotate(0.05)\n"
-"[/code]"
-
-#: course/lesson-11-time-delta/lesson.bbcode:29
 msgid "The [code]_process()[/code] function has one parameter named [code]delta[/code]."
 msgstr "A [code]_process()[/code] függvénynek egyetlen, [code]delta[/code] nevű paramétere van."
 
 #: course/lesson-11-time-delta/lesson.bbcode:29
 msgid "rotate"
 msgstr "rotate"
-
-#: course/lesson-11-time-delta/lesson.bbcode:29
-msgid "0.05"
-msgstr "0.05"
 
 #: course/lesson-11-time-delta/lesson.bbcode:29
 msgid "delta"
@@ -2811,10 +2700,6 @@ msgstr "[code]delta[/code] nélkül, a frame-ek miden számítógépen és ját�
 #: course/lesson-11-time-delta/lesson.bbcode:115
 msgid "What does this mean?"
 msgstr "Mit jelent ez?"
-
-#: course/lesson-11-time-delta/lesson.bbcode:115
-msgid "[code]rotation_speed * delta[/code]"
-msgstr "[code]rotation_speed * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.bbcode:115
 #, fuzzy
@@ -3123,33 +3008,6 @@ msgstr "Mennyi élete maradna, ha [b]ötször[/b] hívnánk a [code]take_damage(
 msgid "Calling [code]take_damage(25)[/code] five times would subtract a total of [code]125[/code] from [code]100[/code]."
 msgstr "A [code]take_damage(25)[/code] függvény ötszöri hívása [code]125[/code]-öt vonna ki a [code]100[/code]-ból."
 
-#: course/lesson-13-conditions/lesson.bbcode:11
-#, fuzzy
-msgid "100"
-msgstr "10"
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "75"
-msgstr ""
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-#, fuzzy
-msgid "50"
-msgstr "0"
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-#: course/lesson-14-multiplying/lesson.bbcode:63
-msgid "25"
-msgstr "25"
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "0"
-msgstr "0"
-
-#: course/lesson-13-conditions/lesson.bbcode:11
-msgid "-25"
-msgstr "-25"
-
 #: course/lesson-13-conditions/lesson.bbcode:34
 msgid "We can use conditions to run actions [b]selectively[/b]."
 msgstr "Használhatunk feltételeket, hogy [b]szelektíven[/b] futtassuk a kódot."
@@ -3400,11 +3258,6 @@ msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #, fuzzy
-msgid "[code]heal(40)[/code]"
-msgstr "[code]show()[/code]"
-
-#: course/lesson-13-conditions/lesson.bbcode:149
-#, fuzzy
 msgid "After those two calls, [code]health[/code] should be equal to [code]80[/code]."
 msgstr "Ebben az esetben, át kell konvertálnod a [code]health[/code] értékét [code]String[/code]-gé."
 
@@ -3452,11 +3305,6 @@ msgstr "Ha a [code]health[/code] értéke kisebb, mint [code]0[/code], állítsd
 #, fuzzy
 msgid "To check your code, I will call your [code]take_damage()[/code] function three times, like this:"
 msgstr "Egészítsd ki a [code]take_damage()[/code] függvényt a következőképpen:"
-
-#: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
-msgid "[code]take_damage(10)[/code]"
-msgstr "[code]move_forward(30)[/code]"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #, fuzzy
@@ -3553,34 +3401,8 @@ msgid "What is the value of damage?"
 msgstr "Mennyi a sebzés értéke?"
 
 #: course/lesson-14-multiplying/lesson.bbcode:47
-#, fuzzy
-msgid ""
-"[code]\n"
-"var level = 5\n"
-"var power = 3\n"
-"func calculate_damage():\n"
-"\tvar damage = power * level\n"
-"[/code]"
-msgstr ""
-"func calculate_damage():\n"
-"\tvar damage = power * level\n"
-"[/code]"
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
 msgid "We multiply [code]power[/code] by [code]level[/code] using [code]*[/code] to get the result of [code]15[/code]."
 msgstr "Beszorozzuk a [code]power[/code]-t a [code]level[/code]-lel, a [code]*[/code] segítségével, hogy [code]15[/code]-öt kapjunk."
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
-msgid "15"
-msgstr "15"
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
-msgid "9"
-msgstr "9"
-
-#: course/lesson-14-multiplying/lesson.bbcode:47
-msgid "10"
-msgstr "10"
 
 #: course/lesson-14-multiplying/lesson.bbcode:63
 msgid "We can use [code]*=[/code] in the same way as [code]-=[/code] and [code]+=[/code]."
@@ -3591,32 +3413,12 @@ msgid "What is the value of damage now?"
 msgstr "Most mennyi a sebzés értéke?"
 
 #: course/lesson-14-multiplying/lesson.bbcode:63
-#, fuzzy
-msgid ""
-"[code]\n"
-"var level = 5\n"
-"var power = 3\n"
-"func calculate_damage():\n"
-"\tvar damage = power * level\n"
-"\tdamage *= 2\n"
-"[/code]"
-msgstr ""
-"func calculate_damage():\n"
-"\tvar damage = power * level\n"
-"\tdamage *= 2\n"
-"[/code]"
-
-#: course/lesson-14-multiplying/lesson.bbcode:63
 msgid "The value of [code]damage[/code] starts as [code]15[/code]."
 msgstr "A [code]damage[/code] értéke [code]15[/code]-ről indul."
 
 #: course/lesson-14-multiplying/lesson.bbcode:63
 msgid "Then, [code]damage *= 2[/code] multiplies it by [code]2[/code] to get [code]30[/code]."
 msgstr "Ezután, a [code]damage *= 2[/code] beszoroizza [code]2[/code]-vel, hogy [code]30[/code] legyen."
-
-#: course/lesson-14-multiplying/lesson.bbcode:63
-msgid "13"
-msgstr "13"
 
 #: course/lesson-14-multiplying/lesson.bbcode:82
 msgid "Let's level up our robot and add exponential growth to [code]max_health[/code]."
@@ -4530,14 +4332,6 @@ msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "What will this code print?"
-msgstr ""
-
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:23
-msgid ""
-"[code]var numbers = [0, 1, 2]\n"
-"for number in numbers:\n"
-"    print(number)\n"
-"[/code]"
 msgstr ""
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
@@ -6134,6 +5928,29 @@ msgstr ""
 msgid "Learn to Code From Zero with Godot"
 msgstr ""
 
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid ""
+#~ "[code]\n"
+#~ "func _process(delta):\n"
+#~ "\trotate(0.05)\n"
+#~ "[/code]"
+#~ msgstr ""
+#~ "[code]\n"
+#~ "func _process(delta):\n"
+#~ "\trotate(0.05)\n"
+#~ "[/code]"
+
+#~ msgid "0.05"
+#~ msgstr "0.05"
+
+#~ msgid "[code]rotation_speed * delta[/code]"
+#~ msgstr "[code]rotation_speed * delta[/code]"
+
 #~ msgid ""
 #~ "100\n"
 #~ "75\n"
@@ -6148,6 +5965,15 @@ msgstr ""
 #~ "25\n"
 #~ "0\n"
 #~ "-25"
+
+#~ msgid "-25"
+#~ msgstr "-25"
+
+#~ msgid "25"
+#~ msgstr "25"
+
+#~ msgid "0"
+#~ msgstr "0"
 
 #~ msgid ""
 #~ "[code]>[/code] means \"greater than\"\n"
@@ -6232,11 +6058,59 @@ msgstr ""
 #~ "var level = 5\n"
 #~ "var power = 3"
 
+#~ msgid ""
+#~ "func calculate_damage():\n"
+#~ "\tvar damage = power * level\n"
+#~ "[/code]"
+#~ msgstr ""
+#~ "func calculate_damage():\n"
+#~ "\tvar damage = power * level\n"
+#~ "[/code]"
+
+#~ msgid "15"
+#~ msgstr "15"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid ""
+#~ "func calculate_damage():\n"
+#~ "\tvar damage = power * level\n"
+#~ "\tdamage *= 2\n"
+#~ "[/code]"
+#~ msgstr ""
+#~ "func calculate_damage():\n"
+#~ "\tvar damage = power * level\n"
+#~ "\tdamage *= 2\n"
+#~ "[/code]"
+
+#~ msgid "30"
+#~ msgstr "30"
+
+#~ msgid "13"
+#~ msgstr "13"
+
+#~ msgid "[code]degrees = radians * 180 / PI[/code]"
+#~ msgstr "[code]fok = radian * 180 / PI[/code]"
+
+#~ msgid "[code]move_forward(30)[/code]"
+#~ msgstr "[code]move_forward(30)[/code]"
+
 #~ msgid "The instructions inside the function [b]must[/b] all start with a leading tab character. You can insert that tab character by pressing the [b]Tab[/b] key."
 #~ msgstr "A függvényben lévő utasításoknak egy tab karkterrel [b]kell[/b] kezdődniük. Ezt a karaktert a [b]Tab[/b] billentyű lenyomásával illesztheted be."
 
 #~ msgid "We call those leading tabs [i]indents[/i]. They're important: the computer uses them to know which instructions are part of the same code block."
 #~ msgstr "Ezeket a kezdő tab karaktereket [i]indentációnak[/i] hívjuk. Fontos szerepük van: a számítógép arra használja őket, hogy tudja, mely utasítások tartoznak az adott kódblokkhoz."
+
+#~ msgid ""
+#~ "[code]health -= amount[/code]\n"
+#~ "[code]health = health - amount[/code]"
+#~ msgstr ""
+#~ "[code]health -= amount[/code]\n"
+#~ "[code]health = health - amount[/code]"
 
 #~ msgid "For now, let's take another example."
 #~ msgstr "Egyelőre, nézzünk egy másik példát."
