@@ -9,19 +9,20 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2023-05-17 10:51+0000\n"
-"Last-Translator: Riccardo Santangelo <s.burns@live.it>\n"
+"PO-Revision-Date: 2026-06-12 23:13+0000\n"
+"Last-Translator: \"Pierluigi U.\" <2muchpi@users.noreply.hosted.weblate.org>"
+"\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-18-for-loops/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/lesson-18-for-loops/lesson.tres:14
-#, fuzzy
 msgid ""
 "In the last lesson, we looked at [code]while[/code] loops. We found they "
 "were useful if we don't know how many times we should repeat code. But "
@@ -29,41 +30,41 @@ msgid ""
 msgstr ""
 "Nell'ultima lezione abbiamo analizzato i cicli [code]while[/code]. Abbiamo "
 "scoperto che sono utili se non sappiamo quante volte dobbiamo ripetere il "
-"codice."
+"codice. Ma i cicli [code]while[/code] possono causare cicli infiniti se non "
+"stiamo attenti."
 
-#, fuzzy
 msgid ""
 "For example, the loop below never ends because we never increment "
 "[code]number[/code]."
 msgstr ""
-"Il ciclo sottostante non termina mai perché non incrementiamo mai "
-"[code]number[/code]."
+"Ad esempio, il ciclo sottostante non termina mai perché non incrementiamo "
+"mai [code]number[/code]."
 
 #: course/lesson-18-for-loops/lesson.tres:36
-#, fuzzy
 msgid ""
 "There's a safer and easier kind of loop: the [code]for[/code] loop. We'll "
 "look at it in this lesson."
 msgstr ""
 "C'è una tipologia di ciclo più sicura e spesso più facile da usare: il ciclo "
-"[code]for[/code]."
+"[code]for[/code]. Lo vedremo in questa lezione."
 
-#, fuzzy
 msgid ""
 "Unlike [code]while[/code] loops, [code]for[/code] loops don't run forever, "
 "so you're much less likely to get infinite loop bugs in your game. [b]We "
 "recommend using for loops instead of while loops because of this[/b]."
 msgstr ""
 "Al contrario dei cicli [code]while[/code], i cicli [code]for[/code] non "
-"vengono eseguiti all'infinito, quindi ha molte meno probabilità di causare "
+"vengono eseguiti all'infinito, quindi hai molte meno probabilità di causare "
 "bug nel tuo gioco. [b]Ti consigliamo di preferire i cicli for al posto di "
 "quelli while per questo motivo[/b]."
 
-#, fuzzy
 msgid ""
 "In this example, I changed the code above to use a [code]for[/code] loop "
 "instead. The loop below will change the [code]cell[/code] three times."
-msgstr "Cambiamo il codice qua sopra cosicché usi un ciclo [code]for[/code]."
+msgstr ""
+"In questo esempio ho cambiato il codice sopra cosicché usi un ciclo "
+"[code]for[/code]. Il ciclo presente sotto cambierà valore di [code]cell[/"
+"code] tre volte."
 
 #: course/lesson-18-for-loops/lesson.tres:60
 msgid "Let's explain what's going on here."
@@ -226,11 +227,12 @@ msgid ""
 "move the robot that many times. This is simpler than checking if the robot "
 "reached the end of the board over and over."
 msgstr ""
+"Con il ciclo [code]for[/code] controlliamo prima la lunghezza della tavola. "
+"Poi muoviamo il robot quante volte è necessario. È più semplice di dover "
+"controllare ogni volta se il robot ha raggiunto la fine della tavola."
 
-#, fuzzy
 msgid "The function still works the same way. You can run it below."
-msgstr ""
-"La funzione funziona sempre allo stesso modo. Puoi eseguirlo qui sotto."
+msgstr "La funzione funziona sempre allo stesso modo. Puoi eseguirlo qui sotto."
 
 #: course/lesson-18-for-loops/lesson.tres:237
 msgid ""
@@ -256,13 +258,12 @@ msgstr ""
 "[code]move_to_bottom()[/code] per far sì che il robot arrivi alla fine della "
 "tavola."
 
-#, fuzzy
 msgid ""
 "The board size is determined by the [code]Vector2[/code] variable named "
 "[code]board_size[/code]."
 msgstr ""
 "La grandezza della tavola è determinata dalla variabile [code]Vector2[/code] "
-"[code]board_size[/code]."
+"chiamata [code]board_size[/code]."
 
 msgid "The robot's starting cell is [code]Vector2(2, 0)[/code]."
 msgstr "La cella iniziale del robot è [code]Vector2(2, 0)[/code]."
@@ -272,7 +273,7 @@ msgid ""
 "Use a for loop to have our robot move from the top of the board to the "
 "bottom."
 msgstr ""
-"Una un ciclo for per far muovere il robot dalla cima alla fine della tavola."
+"Usa un ciclo for per far muovere il robot dalla cima alla fine della tavola."
 
 #: course/lesson-18-for-loops/lesson.tres:268
 msgid "Improving code with a for loop"
