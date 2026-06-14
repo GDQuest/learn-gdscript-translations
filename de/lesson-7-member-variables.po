@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-11-15 21:21+0000\n"
+"PO-Revision-Date: 2026-06-13 22:39+0200\n"
 "Last-Translator: Noah Stürtz <noah@coru.sh>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-7-member-variables/de/>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
 
 #: course/lesson-7-member-variables/lesson.tres:14
 msgid "In this lesson, we take a first look at variables."
@@ -378,7 +379,7 @@ msgstr "Lass uns zunächst den Zugriff auf Variablen üben."
 
 #: course/lesson-7-member-variables/lesson.tres:260
 msgid "Draw a rectangle at a precise position"
-msgstr "Zeichnen eines Rechtecks an einer genauen Position"
+msgstr "Zeichnen eines Rechtecks an einer exakten Position"
 
 #: course/lesson-7-member-variables/lesson.tres:261
 msgid ""
@@ -413,26 +414,36 @@ msgid ""
 "horizontal axis. In other words, there should be a 100-pixel gap between two "
 "squares."
 msgstr ""
+"Zeichne drei Quadrate der Größe 100 x 100 die (auf der horizontalen Achse) "
+"je 100 Pixel Abstand voneinander haben."
 
 msgid ""
 "You should draw the squares starting at the position (100, 100). This means "
 "you should position the first square at 100 on the X axis and 100 on the Y "
 "axis."
 msgstr ""
+"Zeichne Dein erstes Quadrat an Position (100, 100). Das bedeutet, dass du "
+"das Quadrat bei 100 auf der X-Achse und 100 auf der Y-Achse positionierst."
 
 msgid ""
 "Remember you need to use the equal sign ([code]=[/code]) to change the value "
 "of a variable, like the turtle's position."
 msgstr ""
+"Denk daran: Du benutzt das Gleichheitszeichen ([code]=[/code]) um einer "
+"Variablen neue Werte, wie z.B. die Position der Schildkröte, zuzuweisen."
 
 msgid ""
 "Write your code inside the [code]run()[/code] function so the computer can "
 "recognize it."
 msgstr ""
+"Schreibe Deinen Code innerhalb der Funktion [code]run()[/code], damit der "
+"Computer ihn korrekt erkennen kann."
 
 msgid ""
 "Use the provided [code]draw_rectangle()[/code] function to draw each square."
 msgstr ""
+"Verwende die vorgegebene Funktion [code]draw_rectangle()[/code] um die "
+"Quadrate zu zeichnen."
 
 #: course/lesson-7-member-variables/lesson.tres:301
 msgid ""
