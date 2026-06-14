@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-11-15 21:21+0000\n"
+"PO-Revision-Date: 2026-06-14 01:42+0200\n"
 "Last-Translator: Noah Stürtz <noah@coru.sh>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-23-append-to-arrays/de/>\n"
@@ -19,53 +19,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:13
-#, fuzzy
 msgid ""
 "In previous lessons, you learned how to create arrays to store lists of "
 "values and how to loop over them. That's useful, but arrays can do much more."
 msgstr ""
 "In den vorherigen Lektionen hast du gelernt, wie du Arrays zum Speichern von "
 "mehreren Werten erstellst und Schleifen auf die Arrays anwendest. Das ist "
-"ein guter Start, aber nur damit wirst du nicht weit kommen."
+"nützlich, aber Arrays können noch viel mehr."
 
-#, fuzzy
 msgid ""
 "The real strength of GDScript arrays is that you can add and remove values "
 "from them at any time. This lets you build waiting lines of data or piles of "
 "data. We call these [i]queues[/i] and [i]stacks[/i], respectively. We'll see "
 "what that means in this lesson."
 msgstr ""
-"Die wahre Stärke von Arrays besteht darin, dass man ihnen jederzeit Werte "
-"hinzufügen und entfernen kann. Arrays ermöglichen es, Daten als [i]queue[/i] "
-"oder [i]stack[/i] darzustellen."
+"Die wahre Stärke von GDScript Arrays besteht darin, dass man jederzeit Werte "
+"hinzufügen und entfernen kann. Arrays ermöglichen es, Daten als "
+"Warteschlange oder Stapel darzustellen, diese werden [i]queue[/i] oder "
+"[i]stack[/i] genannt. Wir werden in dieser Lektion sehen, was das bedeutet."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:25
 msgid "Let's look at a concrete example."
-msgstr ""
+msgstr "Lass uns ein konkretes Beispiel ansehen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:33
 msgid "Tracking orders in a restaurant management game"
 msgstr "Abarbeiten von Bestellungen in einem Restaurantmanagementspiel"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:35
-#, fuzzy
 msgid ""
 "You're making a restaurant management game where customers place orders, and "
 "you need to handle them one by one."
 msgstr ""
 "Du machst ein Restaurantmanagementspiel, in welchem Kunden Bestellungen "
-"aufgeben, die du bearbeiten musst."
+"aufgeben, die du einzeln abarbeiten musst."
 
-#, fuzzy
 msgid ""
 "In the example below, customers order meals that end up in a waiting line (a "
 "queue). You need to prepare them in the kitchen. We simulate orders arriving "
 "and getting completed over time."
 msgstr ""
 "In diesem Spiel bestellen Kunden Mahlzeiten, die in einer Warteschlange "
-"landen. Du musst die Mahlzeiten in der Küche zubereiten."
+"(einer queue) landen. Du musst die Mahlzeiten in der Küche zubereiten. Wir "
+"simulieren das Ankommen und Umsetzen der Bestellungen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:57
 msgid "How do you keep track of pending and completed orders? With an array!"
@@ -73,7 +72,6 @@ msgstr ""
 "Wie behältst du den Überblick über ausstehende und abgeschlossene "
 "Bestellungen? Mit einem Array!"
 
-#, fuzzy
 msgid ""
 "When a customer purchases a meal, you want to [i]append[/i] (add) it to the "
 "array. Then, as you complete a meal in the kitchen and serve it, you want to "
@@ -89,6 +87,10 @@ msgid ""
 "[/code] function. We call it \"pop\" because the value jumps out of the "
 "array."
 msgstr ""
+"Du kannst die Funktion [code]append()[/code] benutzen um Werte an das Ende "
+"eines Array anzuhängen. Um Werte vom Anfang zu entfernen, kannst du "
+"[code]pop_front()[/code] verwenden. Wir nennen die Funktion \"pop\" weil der "
+"Wert aus dem Array springt."
 
 msgid ""
 "Try to read the code below before moving on. Don't worry if not everything "
@@ -99,7 +101,6 @@ msgstr ""
 "anschauen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:83
-#, fuzzy
 msgid ""
 "Notice how we call some functions by writing a dot after a variable name. "
 "Just like some values have variables you can access with a dot (like the "
@@ -107,27 +108,26 @@ msgid ""
 "their own functions."
 msgstr ""
 "Beachte, wie wir einige Funktionen aufrufen, indem wir einen Punkt nach "
-"einem Variablennamen schreiben. So wie ein Werttyp Untervariablen haben "
-"kann, kann er auch seine eigenen Funktionen haben."
+"einem Variablennamen schreiben. So wie manche Werte Variablen haben, die man "
+"mit einem Punkt abrufen kann (wie die Variable [code]x[/code] in "
+"[code]position.x[/code]), können sie auch eigenen Funktionen haben."
 
-#, fuzzy
 msgid ""
 "Functions like [code]append()[/code] and [code]pop_front()[/code] only exist "
 "on arrays. To call them, we need to write the array name, then a dot, then "
 "the function: [code]array_name.append()[/code]."
 msgstr ""
 "Funktionen wie [code]append()[/code] und [code]pop_front()[/code] existieren "
-"nur auf Arrays. Deshalb müssen wir, um sie aufzurufen, vom Array aus mit dem "
-"Punkt darauf zugreifen: [code]array.append()[/code]."
+"nur auf Arrays. Deshalb müssen wir, um sie aufzurufen, den Namen des Arrays, "
+"einen Punkt und dann die Funktion tippen: [code]array_name.append()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:95
-#, fuzzy
 msgid ""
 "Let's break down the code. We add orders to the [code]waiting_orders[/code] "
 "array by appending them."
 msgstr ""
-"Wir fügen Bestellungen in das Array [code]waiting_orders[/code], um diese in "
-"die Warteschlange zu legen."
+"Wir fügen dem Array [code]waiting_orders[/code] Bestellungen hinzu, indem "
+"wir sie mit [code]append()[/code] anhängen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:115
 msgid ""
@@ -157,7 +157,6 @@ msgstr ""
 "Array einfügen."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:175
-#, fuzzy
 msgid ""
 "When we use an array this way, we call it a [i]queue[/i]: the first element "
 "we add to the array is the first one we remove. It's like a waiting line at "
@@ -172,7 +171,6 @@ msgid "What does #... mean?"
 msgstr "Was bedeutet #...?"
 
 #: course/lesson-23-append-to-arrays/lesson.tres:185
-#, fuzzy
 msgid ""
 "We write [code]#...[/code] to show that there is more code here. The three "
 "dots mean \"we are not showing all the code.\" We use this to break down "
@@ -180,17 +178,16 @@ msgid ""
 msgstr ""
 "Wir fügen [code]#... [/code] an manchen Stellen im Code ein, wo "
 "normalerweise noch mehr Code wäre, der aber für unser Beispiel nicht wichtig "
-"ist. Es bedeutet: \"Her wäre noch weiterer Code, der irgendetwas anderes "
-"macht.\" Den Code so zu vereinfachen macht es einfacher die Beispiele zu "
-"verstehen."
+"ist. Es bedeutet: \"Wir zeigen nicht den gesamten Cdoe.\" Den Code so zu "
+"vereinfachen macht es einfacher die Beispiele zu verstehen."
 
-#, fuzzy
 msgid ""
 "The hash sign ([code]#[/code]) marks the start of a code comment. It's a "
 "line the computer will ignore, which is why it typically appears in grey."
 msgstr ""
-"Das Hashzeichen selbst markiert den Anfang eines Codekommentars. Es ist eine "
-"Zeile, die der Computer ignoriert, weshalb sie normalerweise grau erscheint."
+"Das Hashzeichen ([code]#[/code]) markiert den Anfang eines Codekommentars. "
+"Es ist eine Zeile, die der Computer ignoriert, weshalb sie normalerweise "
+"grau erscheint."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:195
 msgid "Using arrays as stacks"
@@ -233,7 +230,6 @@ msgstr ""
 "davon übrig ist, so demonstrieren wir wie der Array kleiner wird."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:243
-#, fuzzy
 msgid ""
 "Like [code]pop_front()[/code], the function returns the value removed from "
 "the array. You will often store that value in a variable. This value could "
@@ -241,13 +237,18 @@ msgid ""
 "player."
 msgstr ""
 "Wie [code]pop_front()[/code] gibt die Funktion den aus dem Array entfernten "
-"Wert zurück. Du wirst diesen Wert häufig in einer Variablen speichern."
+"Wert zurück. Du wirst diesen Wert häufig in einer Variablen speichern. "
+"Dieser Wert könnte zum Beispiel der Inhalt der Kiste sein und du nutzt ihn, "
+"um den Spieler auszustatten."
 
 msgid ""
 "When we use an array this way, we call it a [i]stack[/i]: the last element "
 "we add is the first one we remove. It's like a pile of plates where you take "
 "from the top."
 msgstr ""
+"Wenn wir Arrays auf diese Art verwenden, wir das [i]stack[/i] genannt: Das "
+"letzte Element, dass wir hinzufügen, ist das Erste, was entfernt wird - "
+"ähnlich einem Stapel Teller, den man von oben nach unten abnimmt."
 
 msgid ""
 "In the following practices, you will use the [code]append()[/code], "
@@ -314,22 +315,22 @@ msgstr ""
 "Dein Code sollte alle Kisten im Array mithilfe einer while-Schleife "
 "entfernen."
 
-#, fuzzy
 msgid ""
 "[b]Careful![/b] If you write the while loop incorrectly, you can freeze the "
 "program."
 msgstr ""
-"[b] Vorsicht! [/b] Wenn Du eine While-Schleife unvorsichtig ausführst, kann "
-"du die Software sperren."
+"[b] Vorsicht![/b] Wenn Du eine while-Schleife unvorsichtig ausführst, kann "
+"es passieren, dass dieses Programm abstürzt."
 
-#, fuzzy
 msgid ""
 "You can check if the [code]crates[/code] array still has values by writing "
 "[code]while crates:[/code]. This works because an empty array counts as "
 "[code]false[/code], and an array with items counts as [code]true[/code]."
 msgstr ""
-"Du kannst das [code]crates[/code] Array auf Werte überprüfen indem du "
-"[code]while crates:[/code] nutzt"
+"Du kannst prüfen, ob das [code]crates[/code]-Array noch Werte hat, indem du "
+"[code]while crates:[/code] nutzt. Das funktioniert deswegen, weil ein leerer "
+"Array als [code]false[/code] registriert ein Array mit Gegenständen als "
+"[code]true[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.tres:301
 msgid ""

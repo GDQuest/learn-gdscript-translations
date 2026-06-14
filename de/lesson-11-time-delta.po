@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2024-11-15 16:18+0000\n"
+"PO-Revision-Date: 2026-06-13 22:57+0200\n"
 "Last-Translator: Noah Stürtz <noah@coru.sh>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/learn-gdscript-"
 "from-zero/lesson-11-time-delta/de/>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
 
 #: course/lesson-11-time-delta/lesson.tres:14
 msgid ""
@@ -29,13 +30,12 @@ msgstr ""
 "Charakters verwenden können, um ihn kontinuierlich zu bewegen."
 
 #: course/lesson-11-time-delta/lesson.tres:34
-#, fuzzy
 msgid ""
 "But it's not just our character that has a [code]_process()[/code] function. "
 "Almost everything in the game has a [code]_process()[/code] function!"
 msgstr ""
-"Aber es ist nicht nur unser Charakter, der eine [code]_process()[/code] "
-"Funktion hat; Fast alles im Spiel hat eine [code]_process()[/code] Funktion!"
+"Aber es ist nicht nur unser Charakter, der eine Funktion [code]_process()[/"
+"code] besitzt; Fast alles im Spiel hat eine [code]_process()[/code] Funktion!"
 
 msgid ""
 "Dozens of times per second, Godot runs every [code]_process()[/code] "
@@ -139,15 +139,12 @@ msgid ""
 "Depending on the game, the computer, and what the game engine needs to "
 "calculate, frames take more or less time to display."
 msgstr ""
-"Je nach Spiel, Computerleistung und der Rechenaufwand für die Spiel-Engine "
-"ändert sich die Anzahl an berechenten Bilder, die Bildwiederholungsrate ist "
-"somit höher oder niedriger."
+"Je nach Spiel, Computerleistung und dem Rechenaufwand für die Spiel-Engine "
+"ändert sich die Anzahl an berechneten Bilder und die Bildwiederholungsrate "
+"ist somit höher oder niedriger."
 
-#, fuzzy
 msgid "There will always be small variations from frame to frame."
-msgstr ""
-"Von Frame(Bild) zu Frame wird immer Abweichungen im Millisekundenbereich "
-"geben."
+msgstr "Von Frame zu Frame wird es immer kleine Zeitabweichungen geben."
 
 msgid ""
 "That is why the [code]_process()[/code] function receives a [code]delta[/"
@@ -156,19 +153,19 @@ msgstr ""
 "Aus diesem Grund erhält die Funktion [code]_process()[/code] einen Parameter "
 "[code]delta[/code]."
 
-#, fuzzy
 msgid ""
 "Delta represents a time difference. It's the time it took Godot to complete "
 "the previous frame, in seconds."
 msgstr ""
 "Delta ist eine Zeitdifferenz. Es ist die Zeit in Sekunden, die seit der "
-"Darstellung des vorherigen Frames vergangen ist.."
+"Darstellung des vorherigen Frames vergangen ist."
 
 msgid ""
 "We can use it to make sure the game runs at the same speed on all computers."
 msgstr ""
+"Wir können dies verwenden, um sicherzustellen, dass das Spiel auf allen "
+"Computern mit derselben Geschwindigkeit läuft."
 
-#, fuzzy
 msgid ""
 "This is because different computers have different processing power, so a "
 "fast computer will have more frames per second than a slow computer."
@@ -177,12 +174,11 @@ msgstr ""
 "können. Ein schneller Computer kann somit mehr Bilder pro Sekunde darstellen "
 "als ein langsamer Computer."
 
-#, fuzzy
 msgid ""
 "If we ignore [code]delta[/code], movement speed will vary depending on the "
 "computer. Delta helps to make the game consistent for everyone."
 msgstr ""
-"Wenn wir [code]delta[/code] ignorieren, wird das Spielerlebnis auf "
+"Wenn wir [code]delta[/code] ignorieren, wird das Spielerlebnis sich auf "
 "verschiedenen Computern unterscheiden. Die Berücksichtigung von Delta trägt "
 "dazu bei, dass das Spielerlebnis auf allen Computern gleich ist."
 
@@ -203,11 +199,10 @@ msgstr ""
 "Delta ist eine sehr kleine Zahl, weil die Bilder viele Male pro Sekunde "
 "berechnet werden."
 
-#, fuzzy
 msgid ""
 "It varies each frame because Godot has more or less to process each frame."
 msgstr ""
-"Die Zeit von Frame zu Frame variiert, da Godot pro Frame mehr oder weniger "
+"Die Zeit variiert von Frame zu Frame, da Godot pro Frame mehr oder weniger "
 "rechnen muss."
 
 #: course/lesson-11-time-delta/lesson.tres:121
@@ -267,7 +262,6 @@ msgstr ""
 "Zu Beginn der Lektion haben wir den Roboter dazu gebracht, jeden Frame einen "
 "festen Betrag zu drehen: [code]0.05[/code]Bogenmaß."
 
-#, fuzzy
 msgid ""
 "In the example above, we now [i]multiply[/i] the argument by the very small "
 "[code]delta[/code] value, a value much smaller than [code]1.0[/code]. It "
@@ -301,12 +295,11 @@ msgstr ""
 "ein [i]Winkel[/i] im Bogenmaß, während [code]3.0[/code] eine "
 "[i]Winkelgeschwindigkeit[/i] im Bogenmaß pro Sekunde ist."
 
-#, fuzzy
 msgid ""
 "When you multiply an angular speed by a time delta, it gives you an angle."
 msgstr ""
-"Wenn Du eine Geschwindigkeit mit einem delta multiplizierst, erhältst Du "
-"einen Winkel."
+"Wenn Du eine Winkelgeschwindigkeit mit einem delta multiplizierst, erhältst "
+"Du einen Winkel."
 
 msgid ""
 "Don't worry if it's a little confusing for now. It'll eventually click as "
@@ -362,18 +355,19 @@ msgstr ""
 "[b]zeitabhängig[/b] und nicht [b]frame-abhängig[/b]."
 
 msgid "Thanks to that, we get reliable movement over time."
-msgstr "Dank dessen erhalten wir im Laufe der Zeit eine zuverlässige Bewegung."
+msgstr ""
+"Als Ergebnis erhalten wir im Laufe der Zeit eine zuverlässige Bewegung."
 
-#, fuzzy
 msgid ""
 "Frame times vary from computer to computer and from frame to frame during "
 "gameplay. Because frame times vary, if [code]delta[/code] is not used, "
 "movement speed will differ for each player, making the game inconsistent and "
 "messy."
 msgstr ""
-"Ohne [code]delta[/code] variieren die Framezeiten von Computer zu Computer "
-"und während des Spiels. Aus diesem Grund unterscheidet sich die Bewegung für "
-"jeden Spieler, was das Spiel inkonsistent und chaotisch macht."
+"Die Zeit zur Berechnung eines Frames variiert von Computer zu Computer und "
+"von Frame zu Frame. Aus diesem Grund wird die Geschwindigkeit der Bewegung "
+"für jeden Spieler anders sein, wenn [code]delta[/code] nicht verwendet wird. "
+"Im schlimmsten Fall erscheint das Spiel inkonsistent und chaotisch."
 
 #: course/lesson-11-time-delta/lesson.tres:227
 msgid "What does this mean?"
@@ -384,7 +378,6 @@ msgid "[code]rotation_speed * delta[/code]"
 msgstr "[code]rotation_speed * delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.tres:230
-#, fuzzy
 msgid ""
 "The [code]*[/code] symbol means we're multiplying [code]rotation_speed[/"
 "code] by [code]delta[/code]."
@@ -409,7 +402,6 @@ msgid "We're subtracting delta from rotation_speed."
 msgstr "Wir subtrahieren delta von rotation_speed."
 
 #: course/lesson-11-time-delta/lesson.tres:241
-#, fuzzy
 msgid ""
 "In the next practice, we'll use delta to make the rotation time-dependent."
 msgstr ""
@@ -438,15 +430,14 @@ msgstr "Bewegen im Kreis mit delta"
 msgid "In this practice, make the robot move in a smooth circle using delta."
 msgstr "Lasse den Roboter in dieser Übung mit delta flüssig im Kreis bewegen."
 
-#, fuzzy
 msgid ""
 "The robot should rotate [code]2[/code] radians per second and move "
 "[code]100[/code] pixels per second forward. This combination makes it travel "
 "in a clockwise circle."
 msgstr ""
-"Um diese Bewegung zu erhalten, sollte der Roboter sich um [code]2[/code] "
-"Bogenmaß pro Sekunde drehen und [code]100[/code] Pixel pro Sekunde in "
-"Richtung Uhrzeigersinn bewegen."
+"Der Roboter soll sich um [code]2[/code] Bogenmaß pro Sekunde drehen und sich "
+"[code]100[/code] Pixel pro Sekunde vorwärts bewegen. Er sollte nun im "
+"Uhrzeigersinn einen Kreis beschreiben."
 
 msgid ""
 "[b]Note:[/b] Please write the values in the parentheses when calling the "
@@ -459,7 +450,7 @@ msgstr ""
 
 #: course/lesson-11-time-delta/lesson.tres:290
 msgid "Time Delta"
-msgstr "Zeit Differenz"
+msgstr "Zeitdifferenz"
 
 #~ msgid ""
 #~ "We can use it to ensure that the changes between frames don't make the "
