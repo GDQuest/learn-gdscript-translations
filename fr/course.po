@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the Learn GDScript From
 # project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
@@ -1777,7 +1777,7 @@ msgstr "Votre tâche est d'ajouter le paramètre [code]angle[/code] après [code
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #. TRANSLATORS: Practice goal
 msgid "Remember: When the app calls [code]draw_corner(240, 45)[/code], the parameter [code]length[/code] will get replaced with [code]240[/code] and [code]angle[/code] will get replaced with [code]45[/code]."
-msgstr ""
+msgstr "N'oubliez pas : lorsque l'application appelle [code]draw_corner(240, 45)[/code], le paramètre [code]length[/code] sera remplacé par [code]240[/code] et [code]angle[/code] sera remplacé par [code]45[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #. TRANSLATORS: Practice description
@@ -1787,12 +1787,12 @@ msgstr "Avec deux paramètres, codez une fonction pour dessiner des coins avec n
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #. TRANSLATORS: Practice hint
 msgid "Parameters in functions are separated by commas"
-msgstr ""
+msgstr "Dans les fonctions, les paramètres sont séparés par des virgules"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #. TRANSLATORS: Practice hint
 msgid "You need to add the parameter [code]angle[/code] two times in this practice"
-msgstr ""
+msgstr "Dans cet exercice, vous devez ajouter deux fois le paramètre [code]angle[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #. TRANSLATORS: Practice hint
@@ -1812,7 +1812,7 @@ msgstr "Il est temps d'écrire une fonction complète de A à Z ! Vous allez cr�
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice goal
 msgid "I will call your function with different sizes:"
-msgstr ""
+msgstr "Je vais appeler votre fonction avec différentes tailles :"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice goal
@@ -1820,6 +1820,8 @@ msgid ""
 "[code]draw_square(200)[/code]\n"
 "[code]draw_square(100)[/code]"
 msgstr ""
+"[code]draw_square(200)[/code]\n"
+"[code]draw_square(100)[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice goal
@@ -1829,12 +1831,12 @@ msgstr "Créez une fonction appelée [code]draw_square()[/code] qui prend un par
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice goal
 msgid "Your function needs to move forward by [code]length[/code], turn right 90 degrees, and do this four times to complete all four sides of the square."
-msgstr ""
+msgstr "Votre fonction doit avancer de [code]length[/code], tourner à droite de 90 degrés, puis répéter cette opération quatre fois pour compléter les quatre côtés du carré."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice goal
 msgid "[b]Important:[/b] When the turtle finishes drawing, it should face right. So you need to turn right a total of four times."
-msgstr ""
+msgstr "[b]Important :[/b] Une fois que la tortue a fini de dessiner, elle doit être tournée vers la droite. Vous devez donc tourner à droite quatre fois au total."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice description
@@ -1844,7 +1846,7 @@ msgstr "Dans la leçon précédente, votre fonction dessinait des carrés d'une 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice hint
 msgid "You need to specify one parameter in the function definition"
-msgstr ""
+msgstr "Vous devez spécifier un paramètre dans la définition de la fonction"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice hint
@@ -1854,12 +1856,12 @@ msgstr "Utilisez [code]func draw_square(length):[/code]"
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice hint
 msgid "Call [code]move_forward()[/code] four times for each side of the square"
-msgstr ""
+msgstr "Appelez [code]move_forward()[/code] quatre fois pour chaque côté du carré"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice hint
 msgid "Make sure to [code]turn_right(90)[/code] after moving forward to create each corner"
-msgstr ""
+msgstr "Veillez à utiliser [code]turn_right(90)[/code] après avoir avancé pour créer chaque angle."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice title
@@ -1874,7 +1876,7 @@ msgstr "Créons une fonction pour dessiner des rectangles avec n'importe quelle 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice goal
 msgid "I will call your function twice with different sizes:"
-msgstr ""
+msgstr "Je vais appeler votre fonction deux fois avec des tailles différentes :"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice goal
@@ -1882,26 +1884,28 @@ msgid ""
 "[code]draw_rectangle(260, 180)[/code]\n"
 "[code]draw_rectangle(160, 210)[/code]"
 msgstr ""
+"[code]draw_rectangle(260, 180)[/code]\n"
+"[code]draw_rectangle(160, 210)[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice goal
 msgid "Your function needs two parameters: [code]length[/code] and [code]height[/code]. When the app calls your function, the first number replaces [code]length[/code], and the second number replaces [code]height[/code]."
-msgstr ""
+msgstr "Votre fonction nécessite deux paramètres : [code]length[/code] et [code]height[/code]. Lorsque l'application appelle votre fonction, le premier nombre remplace [code]length[/code], et le second remplace [code]height[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice goal
 msgid "Use [code]length[/code] when you move horizontally and [code]height[/code] when you move vertically."
-msgstr ""
+msgstr "Utilisez [code]length[/code] lorsque vous vous déplacez horizontalement et [code]height[/code] lorsque vous vous déplacez verticalement."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice goal
 msgid "This is the pattern you need to follow: move forward by [code]length[/code], turn right, move forward by [code]height[/code], turn right, then repeat this sequence once more."
-msgstr ""
+msgstr "Voici la séquence à suivre : avancez de [code]length[/code], tournez à droite, avancez de [code]height[/code], tournez à droite, puis répétez cette séquence une fois de plus."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice goal
 msgid "[b]Important:[/b] When the turtle finishes drawing, it should face right. Make sure you turn right four times in total."
-msgstr ""
+msgstr "[b]Important :[/b] Une fois le dessin terminé, la tortue doit être tournée vers la droite. Assurez-vous d'effectuer quatre virages à droite au total."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice description
@@ -1911,7 +1915,7 @@ msgstr "Avec un paramètre, vous pouvez faire des carrés de n'importe quelle ta
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice hint
 msgid "You need to specify the two parameters in the function definition"
-msgstr ""
+msgstr "Vous devez préciser les deux paramètres dans la définition de la fonction"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice hint
@@ -1921,7 +1925,7 @@ msgstr "Utilisez [code]func draw_rectangle(length, height):[/code]"
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice hint
 msgid "When calling move_forward, you need to alternate between using the length and the height arguments when calling move_forward."
-msgstr ""
+msgstr "Lorsque vous appelez la fonction move_forward, vous devez alterner entre les arguments « length » et « height »."
 
 #: course/lesson-7-member-variables/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
