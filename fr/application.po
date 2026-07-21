@@ -1137,73 +1137,73 @@ msgstr "La vitesse de rotation est de 2 radians par seconde"
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:31
 msgid "You need to use delta in the rotate() call. Delta is what makes the rotation time-dependent. Try rotate(2 * delta)."
-msgstr ""
+msgstr "Vous devez utiliser delta dans l'appel à la fonction rotate(). C'est delta qui fait que la rotation dépend du temps. Essayez rotate(2 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:38
 msgid "Delta needs to be inside the parentheses of rotate(), not outside. You need to multiply the speed value by delta inside the call, like this: rotate(2 * delta)."
-msgstr ""
+msgstr "La valeur delta doit figurer à l'intérieur des parenthèses de la fonction rotate(), et non à l'extérieur. Vous devez multiplier la valeur de la vitesse par delta à l'intérieur de l'appel, comme ceci : rotate(2 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:53
 msgid "It looks like you stored the value in a variable before using it."
-msgstr ""
+msgstr "On dirait que vous avez stocké la valeur dans une variable avant de l'utiliser."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:54
 msgid "That's valid, but we can't check the value automatically."
-msgstr ""
+msgstr "C'est valide, mais nous ne pouvons pas vérifier cette valeur automatiquement."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:55
 msgid "Please write it directly in the function call: rotate(2 * delta)."
-msgstr ""
+msgstr "Veuillez l'écrire directement dans l'appel à la fonction : rotate(2 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:63
 msgid "It looks like delta is not being multiplied."
-msgstr ""
+msgstr "On dirait que delta n'est pas multiplié."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:64
 msgid "You need to use the * sign to multiply the speed by delta inside the parentheses, like this: rotate(2 * delta)."
-msgstr ""
+msgstr "Vous devez utiliser le signe * pour multiplier la vitesse par delta entre parenthèses, comme ceci : rotate(2 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:77
 msgid "The rotation speed is not right. The robot should rotate 2 radians per second. Make sure the call looks like this: rotate(2 * delta)."
-msgstr ""
+msgstr "La vitesse de rotation n'est pas correcte. Le robot doit tourner à la vitesse de 2 radians par seconde. Assurez-vous que l'appel de fonction se présente comme ceci : rotate(2 * delta)."
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:17
 msgid "Angular Speed Variable Is Script Wide"
-msgstr ""
+msgstr "La variable de vitesse angulaire s'applique à l'ensemble du script"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:18
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:18
 msgid "Angular Speed Has Value Of 4"
-msgstr ""
+msgstr "La vitesse angulaire est égale à 4"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:19
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:19
 msgid "Angular Speed Is Used In Process Function"
-msgstr ""
+msgstr "La vitesse angulaire est utilisée dans la fonction _process()"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:24
 msgid "The angular_speed isn't script-wide. Did you define it outside of the function?"
-msgstr ""
+msgstr "La variable angular_speed n'est pas accessible dans l'ensemble du script. L'avez-vous définie en dehors de la fonction ?"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:30
 msgid "The angular speed variable doesn't exist or isn't script-wide. Make it script-wide first."
-msgstr ""
+msgstr "La variable angular_speed n'existe pas ou n'est pas définie à l'échelle du script. Commencez par la définir à l'échelle du script."
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:34
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:36
 msgid "Angular speed variable's value is %s; It should be 4."
-msgstr ""
+msgstr "La valeur de la variable angular_speed est %s ; elle devrait être égale à 4."
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:40
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:42
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:59
 msgid "The '_process(delta)' function is missing; did you remove it?"
-msgstr ""
+msgstr "La fonction '_process(delta)' manque ; l'avez-vous supprimée ?"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:51
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:51
 msgid "The rotate() call must multiply angular_speed by delta (e.g. rotate(angular_speed * delta))."
-msgstr ""
+msgstr "L'appel à la fonction rotate() doit multiplier la vitesse angulaire par delta (par exemple : rotate(vitesse_angulaire * delta))."
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:17
 msgid "Has Angular Speed Variable"
