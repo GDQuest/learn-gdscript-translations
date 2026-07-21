@@ -3617,17 +3617,17 @@ msgstr "Utiliser des comparaisons"
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice goal
 msgid "Each [code]if[/code] statement below has a wrong comparison sign. Fix the comparison signs so every condition is [code]true[/code] and every [code]print()[/code] message runs."
-msgstr ""
+msgstr "Chaque instruction [code]if[/code] ci-dessous comporte un signe de comparaison erroné. Corrigez les signes de comparaison afin que chaque condition soit [code]true[/code] et que tous les messages [code]print()[/code] s’affichent."
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice goal
 msgid "Only change the comparison signs ([code]>[/code], [code]<[/code], [code]==[/code], [code]!=[/code]). Do not change the values or the messages."
-msgstr ""
+msgstr "Modifiez uniquement les signes de comparaison ([code]>[/code], [code]<[/code], [code]==[/code], [code]!=[/code]). Ne modifiez ni les valeurs ni les messages."
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice goal
 msgid "Here are the four comparison signs and what they mean:"
-msgstr ""
+msgstr "Voici les quatre signes de comparaison et leur signification :"
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice goal
@@ -3649,7 +3649,7 @@ msgstr ""
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice goal
 msgid "For example, if [code]health[/code] is equal to [code]100[/code] and the message says \"health is greater than five,\" the correct comparison is [code]health > 5[/code], because 100 is greater than 5. That makes the condition evaluate to [code]true[/code] and print the message."
-msgstr ""
+msgstr "Par exemple, si [code]health[/code] est égal à [code]100[/code] et que le message indique « la santé est supérieure à cinq », la comparaison correcte est [code]health > 5[/code], car 100 est supérieur à 5. La condition est donc évaluée à [code]true[/code], ce qui entraîne l'affichage du message."
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice description
@@ -3669,7 +3669,7 @@ msgstr "N'oubliez pas : vous devez uniquement modifier les symboles [code]>[/cod
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice hint
 msgid "For the last line, \"not equal to seven\" means you need the [code]!=[/code] sign: [code]health != 7[/code]."
-msgstr ""
+msgstr "Pour la dernière ligne, \"not equal to seven\" signifie qu'il faut utiliser le signe [code]!=[/code] : [code]health != 7[/code]."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice title
@@ -3966,7 +3966,7 @@ msgstr "Nous voulons que notre robot augmente sa force à mesure qu'il monte de 
 #: course/lesson-14-multiplying/lesson.bbcode:86
 #. TRANSLATORS: Practice hint
 msgid "To increase a number by 10%, multiply it by [code]1.1[/code]"
-msgstr ""
+msgstr "Pour augmenter un nombre de 10 %, il faut le multiplier par [code]1.1[/code]"
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice title
@@ -3986,7 +3986,7 @@ msgstr "Ajoutez du code à la fonction [code]take_damage()[/code] pour ce qui su
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice goal
 msgid "- [code]if[/code] the robot's [code]level[/code] is greater than [code]2[/code], reduce the damage [code]amount[/code] by 50%"
-msgstr "- Si ( « [code]if[/code] » dans le code) le [code]level[/code] du robot est supérieur à [code]2[/code], réduisez l'[code]amount[/code] des dégâts de 50%"
+msgstr "- Si le [code]level[/code] (niveau) du robot est supérieur à [code]2[/code], réduisez [code]amount[/code] (le montant) des dégâts de 50%"
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice goal
@@ -4001,7 +4001,7 @@ msgstr "À des niveaux plus élevés, nous voulons que notre robot soit super r�
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
 msgid "You need to use an [code]if[/code] statement at the top of the function to check if the robot's [code]level[/code] is greater than [code]2[/code]"
-msgstr ""
+msgstr "Vous devez utiliser une instruction [code]if[/code] au début de la fonction pour vérifier si le [code]level[/code] (niveau) du robot est supérieur à [code]2[/code]"
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
@@ -4011,12 +4011,12 @@ msgstr "Pour réduire le [code]amount[/code], multipliez-le par une valeur infé
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
 msgid "Reassign [code]amount[/code] on its own line inside the [code]if[/code] block, before the line [code]health -= amount[/code]"
-msgstr ""
+msgstr "Réaffectez la variable [code]amount[/code] sur une ligne distincte à l'intérieur du bloc [code]if[/code], avant la ligne [code]health -= amount[/code]."
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
 msgid "Use [code]amount *= 0.5[/code] inside the [code]if[/code] block to reduce the damage by 50%"
-msgstr ""
+msgstr "Utilisez [code]amount *= 0.5[/code] à l'intérieur du bloc [code]if[/code] pour réduire les dégâts de 50 %."
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4199,7 +4199,7 @@ msgstr "Vous pouvez ajouter une ligne pour augmenter la [code]scale[/code] n'imp
 #: course/lesson-16-2d-vectors/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
 msgid "You can't use instructions like [code]scale.x += 0.2[/code] for this practice. Instead, you should use a [code]Vector2[/code]"
-msgstr ""
+msgstr "Vous ne pouvez pas utiliser des instructions telles que [code]scale.x += 0.2[/code] pour cet exercice. Vous devez plutôt utiliser [code]Vector2[/code]"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice title
@@ -4244,7 +4244,7 @@ msgstr "Augmenter l'échelle à chaque niveau était peut-être une mauvaise id�
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice hint
 msgid "To define the function, we use the [code]func[/code] keyword"
-msgstr ""
+msgstr "Pour définir la fonction, on utilise le mot-clé [code]func[/code]"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice hint
@@ -4454,12 +4454,12 @@ msgstr "Déplacement à la fin d'un plateau"
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
 msgid "The robot has decided to stand at the top of the board and your job is to move it down to the bottom row. Complete the [code]move_to_bottom()[/code] function to do this."
-msgstr ""
+msgstr "Le robot a décidé de se placer tout en haut du plateau et votre mission consiste à le faire descendre jusqu'à la dernière ligne. Pour cela, complétez la fonction [code]move_to_bottom()[/code]."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
 msgid "We store the robot's position in a variable named [code]cell[/code]. The variable starts with the value [code]Vector2(2, 0)[/code], meaning the robot is in column 2, row 0 (row 0 is the top of the board)."
-msgstr ""
+msgstr "Nous enregistrons la position du robot dans une variable nommée [code]cell[/code]. Cette variable prend initialement la valeur [code]Vector2(2, 0)[/code], ce qui signifie que le robot se trouve dans la colonne 2, ligne 0 (la ligne 0 correspond au haut du plateau)."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
@@ -4481,22 +4481,22 @@ msgstr "Utilisez une [glossary term=\"while loop\"] pour que le robot se déplac
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
 msgid "On this board, rows go from top to bottom. Think about which part of [code]cell[/code] controls the row the robot is on."
-msgstr ""
+msgstr "Sur ce plateau, les rangées vont de haut en bas. Réfléchissez à quelle partie de [code]cell[/code] permet de contrôler la rangée sur laquelle se trouve le robot."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
 msgid "[code]cell.y[/code] is the robot's current row. To move the robot down one row, increase [code]cell.y[/code] by 1. Your [code]while[/code] loop should do this repeatedly until the robot reaches the last row."
-msgstr ""
+msgstr "[code]cell.y[/code] correspond à la ligne actuelle du robot. Pour faire descendre le robot d'une ligne, augmentez la valeur de [code]cell.y[/code] de 1. Votre boucle [code]while[/code] doit répéter cette opération jusqu'à ce que le robot atteigne la dernière ligne."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
 msgid "The last row is [code]board_size.y - 1[/code], because rows are counted from 0."
-msgstr ""
+msgstr "La dernière ligne est [code]board_size.y - 1[/code], car les lignes sont numérotées à partir de 0."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
 msgid "Use [code]while cell.y < board_size.y - 1:[/code] as your loop condition, and increase [code]cell.y[/code] inside the loop."
-msgstr ""
+msgstr "Utilisez [code]while cell.y < board_size.y - 1:[/code] comme condition de boucle, et incrémentez [code]cell.y[/code] à l'intérieur de la boucle."
 
 #: course/lesson-18-for-loops/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4630,7 +4630,7 @@ msgstr "Si nous utilisons une boucle [code]for[/code] à la place, le code devie
 
 #: course/lesson-18-for-loops/lesson.bbcode:73
 msgid "With the [code]for[/code] loop, we check the board's width first. Then we move the robot that many times. This is simpler than checking if the robot reached the end of the board over and over."
-msgstr ""
+msgstr "Avec la boucle [code]for[/code], on vérifie d'abord la largeur du plateau. Ensuite, on déplace le robot autant de fois que nécessaire. C'est plus simple que de vérifier sans cesse si le robot a atteint le bout du plateau."
 
 #: course/lesson-18-for-loops/lesson.bbcode:74
 msgid "The function still works the same way. You can run it below."
@@ -4684,7 +4684,7 @@ msgstr "Appelez [code]range(n)[/code] pour obtenir une liste de nombres de [code
 #: course/lesson-18-for-loops/lesson.bbcode:77
 #. TRANSLATORS: Practice hint
 msgid "Use [code]for number in range(board_size.y - 1):[/code] to loop enough times."
-msgstr ""
+msgstr "Utilisez [code]for number in range(board_size.y - 1):[/code] pour répéter l'opération autant de fois que nécessaire."
 
 #: course/lesson-18-for-loops/lesson.bbcode:101
 #. TRANSLATORS: Practice title
@@ -4719,7 +4719,7 @@ msgstr "Dans le passé, nous devions copier et coller du code pour dessiner plus
 #: course/lesson-18-for-loops/lesson.bbcode:101
 #. TRANSLATORS: Practice hint
 msgid "Use the line [code]for number in range(3):[/code]"
-msgstr ""
+msgstr "Utilisez la ligne [code]for number in range(3):[/code]"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4892,12 +4892,12 @@ msgstr "Aidez la tortue à trouver son chemin vers le robot ! Donnez-lui un chem
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 #. TRANSLATORS: Practice hint
 msgid "Any path that doesn't touch rocks is valid. The turtle could first move down or to the right. So the first value could either be [code]Vector2(1, 0)[/code] or [code]Vector2(0, 1)[/code]."
-msgstr ""
+msgstr "Tout parcours qui ne touche pas de rochers est valide. La tortue pourrait d'abord se déplacer vers le bas ou vers la droite. La première valeur pourrait donc être soit [code]Vector2(1, 0)[/code], soit [code]Vector2(0, 1)[/code]."
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 #. TRANSLATORS: Practice hint
 msgid "Every [code]Vector2[/code] in the array should be one unit away from the previous one. That means there should only be a difference of 1 on the X-axis or the Y-axis between two [code]Vector2[/code] in the array."
-msgstr ""
+msgstr "Chaque [code]Vector2[/code] dans le tableau doit être à une unité de distance du précédent. Cela signifie qu'il ne doit y avoir qu'une différence de 1 sur l'axe X ou l'axe Y entre deux [code]Vector2[/code] dans le tableau."
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 #. TRANSLATORS: Practice title
@@ -4932,7 +4932,7 @@ msgstr "Écrivez un tableau pour sélectionner toutes les unités sur le plateau
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 #. TRANSLATORS: Practice hint
 msgid "You can write [code]Vector2[/code] values inside the brackets in the function call: [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
-msgstr ""
+msgstr "Vous pouvez écrire des valeurs [code]Vector2[/code] entre les crochets dans l'appel de fonction : [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5104,7 +5104,7 @@ msgstr "Notre algorithme de recherche de chemin de l'IA nous donne un chemin pou
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 #. TRANSLATORS: Practice hint
 msgid "You should start with a for loop that iterates over every cell in [code]robot_path[/code]."
-msgstr ""
+msgstr "Vous devriez commencer par une boucle for qui itère sur chaque cellule de [code]robot_path[/code]."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 #. TRANSLATORS: Practice hint
@@ -5149,17 +5149,17 @@ msgstr "La tortue dessinatrice fait son grand retour. N'ayez pas peur ! Armé(e)
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
 msgid "Each value in the [code]rectangle_sizes[/code] array is a [code]Vector2[/code]. You'll need to access its [code]x[/code] and [code]y[/code] sub-components to draw rectangles."
-msgstr ""
+msgstr "Chaque valeur du tableau [code]rectangle_sizes[/code] est un [code]Vector2[/code]. Pour dessiner des rectangles, vous devrez accéder à ses sous-composants [code]x[/code] et [code]y[/code]."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
 msgid "In the loop, you first need to call [code]draw_rectangle()[/code], and then [code]jump()[/code]. Otherwise, at least two rectangles will overlap."
-msgstr ""
+msgstr "Dans la boucle, vous devez d'abord appeler [code]draw_rectangle()[/code], puis [code]jump()[/code]. Sinon, au moins deux rectangles se chevaucheront."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
 msgid "The arguments when calling [code]jump()[/code] can just be large enough to space out the rectangles. For example, [code]jump(300, 0)[/code]"
-msgstr ""
+msgstr "Les arguments passés lors de l'appel de la fonction [code]jump()[/code] peuvent être juste assez grands pour espacer les rectangles. Par exemple : [code]jump(300, 0)[/code]"
 
 #: course/lesson-21-strings/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5275,12 +5275,12 @@ msgstr "Donnez au robot un nom lisible en utilisant une chaîne de caractères s
 #: course/lesson-21-strings/lesson.bbcode:52
 #. TRANSLATORS: Practice hint
 msgid "Strings need to be wrapped in quotes like \"Robi\"."
-msgstr ""
+msgstr "Les chaînes de caractères doivent être placées entre guillemets, comme \"Robi\"."
 
 #: course/lesson-21-strings/lesson.bbcode:52
 #. TRANSLATORS: Practice hint
 msgid "Replace the number 0 with your string (the robot's name)."
-msgstr ""
+msgstr "Remplacez le chiffre 0 par votre chaîne de caractères (le nom du robot)."
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice title
@@ -5309,12 +5309,12 @@ msgstr ""
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice goal
 msgid "I defined the [code]combo[/code] variable at the top of the script. Fill its array with three animation names: two jabs followed by one uppercut."
-msgstr ""
+msgstr "J'ai défini la variable [code]combo[/code] au début du script. Remplissez son tableau avec trois noms d'animations : deux jabs suivis d'un uppercut."
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice goal
 msgid "Then, in the [code]run()[/code] function, write a [code]for[/code] loop that goes through each item in the [code]combo[/code] variable and calls [code]play_animation()[/code] with that animation name."
-msgstr ""
+msgstr "Ensuite, dans la fonction [code]run()[/code], écrivez une boucle [code]for[/code] qui parcourt chaque élément de la variable [code]combo[/code] et appelle [code]play_animation()[/code] avec le nom de l'animation correspondante."
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice description
@@ -5324,7 +5324,7 @@ msgstr "Définissez un tableau de chaînes pour déclencher un combo puissant."
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
 msgid "Make sure to use (\"\") for each animation name when you add them to the combo array"
-msgstr ""
+msgstr "Assurez-vous d'utiliser (\"\") pour chaque nom d'animation lorsque vous les ajoutez au tableau combo"
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
@@ -5382,7 +5382,7 @@ msgstr "Ci-dessus, nous avons assigné le résultat à une variable, mais vous p
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:31
 msgid "If you need to use a returned value more than once, store it in a variable first. Otherwise, you can use the function call directly where you need it."
-msgstr ""
+msgstr "Si vous devez utiliser une valeur renvoyée plusieurs fois, enregistrez-la d'abord dans une variable. Sinon, vous pouvez utiliser l'appel de fonction directement là où vous en avez besoin."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:31
 #. TRANSLATORS: Heading
@@ -5394,8 +5394,9 @@ msgid "The [code]lerp()[/code] function (short for [i]linear interpolate[/i]), b
 msgstr "La fonction [code]lerp()[/code] (abréviation du terme en anglais [i]linear interpolate[/i] qui veut dire « interpolation linéaire ») calcule et renvoie une moyenne pondérée entre deux valeurs."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:42
+#, fuzzy
 msgid "It takes three arguments: a start value, an end value, and a blend amount between [code]0.0[/code] and [code]1.0[/code] that controls the blend. A value of [code]0.0[/code] gives you the start value, [code]1.0[/code] gives you the end value, and [code]0.5[/code] gives you halfway between them."
-msgstr ""
+msgstr "Elle prend trois arguments : une valeur de départ, une valeur finale et un coefficient de mélange entre [code]0.0[/code] et [code]1.0[/code] qui permet de contrôler le mélange. La valeur [code]0.0[/code] correspond à la valeur de départ, [code]1.0[/code] à la valeur finale, et [code]0.5[/code] à la valeur à mi-chemin entre les deux."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:43
 msgid "In games, [code]lerp()[/code] is often used to make things move smoothly towards a target."
