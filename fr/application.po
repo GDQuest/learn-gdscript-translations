@@ -1207,116 +1207,121 @@ msgstr "L'appel à la fonction rotate() doit multiplier la vitesse angulaire par
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:17
 msgid "Has Angular Speed Variable"
-msgstr ""
+msgstr "A une variable appelée angular_speed"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:20
 msgid "Each Function Uses The Same Variable"
-msgstr ""
+msgstr "Chaque fonction utilise la même variable"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:21
 msgid "Angular Speed Is Used In Setter Function"
-msgstr ""
+msgstr "La vitesse angulaire est utilisée dans la fonction setter"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:26
 msgid "The angular_speed variable doesn't exist. Did you define it with the var keyword?"
-msgstr ""
+msgstr "La variable angular_speed n'existe pas. L'avez-vous définie à l'aide du mot-clé var ?"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:32
 msgid "The angular speed variable doesn't exist, can't test if it has a value of 4."
-msgstr ""
+msgstr "La variable angular_speed n'existe pas ; impossible de vérifier si sa valeur est égale à 4."
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:63
 msgid "It looks like you declared angular_speed more than once. It should only be defined once."
-msgstr ""
+msgstr "Il semblerait que vous ayez déclaré angular_speed plusieurs fois. Cette variable ne doit être définie qu'une seule fois."
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:70
 msgid "The 'set_angular_speed(new_angular_speed)' function is missing; did you remove it?"
-msgstr ""
+msgstr "La fonction 'set_angular_speed(new_angular_speed)' manque ; l'avez-vous supprimée ?"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:78
 msgid "The set_angular_speed() function doesn't seem to use the angular_speed variable."
-msgstr ""
+msgstr "La fonction set_angular_speed() ne semble pas utiliser la variable angular_speed."
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:13
 msgid "Health Does Not Go Above 80"
-msgstr ""
+msgstr "La variable health ne dépasse pas 80"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:14
 msgid "Health Limit Is Not Too Low"
-msgstr ""
+msgstr "La limite de health n'est pas trop basse"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:15
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:15
 msgid "Health Takes Different Values"
-msgstr ""
+msgstr "La variable health prend différentes valeurs"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:20
+#, fuzzy
 msgid "The health goes above 80 when we heal the character a lot. Did you set the health to 80 when that happens?"
-msgstr ""
+msgstr "La variable health dépasse 80 lorsque l'on soigne beaucoup le personnage. Avez-vous limité la valeur à 80 dans ce cas ?"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:26
 msgid "The health limit is too low when we heal the character. Did you set the correct limit?"
-msgstr ""
+msgstr "La limite de points de vie est trop basse lorsque l'on soigne le personnage. Avez-vous défini la bonne limite ?"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:35
 msgid ""
 "When healing the character twice by 40 points, the health should go up to 60, then 80. Instead, we got %s.\n"
 "Are you using the amount parameter?"
 msgstr ""
+"Lorsque l'on soigne le personnage deux fois de 40 points, sa santé devrait passer à 60, puis à 80. Or, nous avons obtenu %s.\n"
+"Utilisez-vous le paramètre amount ?"
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:13
 msgid "Health Reaches Zero"
-msgstr ""
+msgstr "La valeur de health tombe à zéro"
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:14
 msgid "Health Does Not Go Below Zero"
-msgstr ""
+msgstr "La variable health ne descend pas en dessous de zéro"
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:20
 msgid "The health stays above 0 when we damage the character a lot. Did you set the health to 0 when that happens?"
-msgstr ""
+msgstr "La variable health reste au-dessus de 0 quand on inflige beaucoup de dégâts au personnage. Avez-vous mis la valeur à 0 dans ce cas ?"
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:26
 msgid "The health becomes negative if we deal 400 damage to the character. Did you set it to 0?"
-msgstr ""
+msgstr "La variable health devient négative si l'on inflige 400 points de dégâts au personnage. Avez-vous pensé à la mettre à 0 ?"
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:32
 msgid ""
 "When damaging the character three times by 10 points, the health should go down to 10, then 0. Instead, we got %s.\n"
 "Are you using the amount parameter?"
 msgstr ""
+"Lorsque l'on inflige trois fois 10 points de dégâts au personnage, sa santé devrait passer à 10, puis à 0. Or, on obtient %s.\n"
+"Utilisez-vous le paramètre amount ?"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:5
 msgid "Statement 1 Is True"
-msgstr ""
+msgstr "L'énoncé 1 est vrai"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:6
 msgid "Statement 2 Is True"
-msgstr ""
+msgstr "L'énoncé 2 est vrai"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:7
 msgid "Statement 3 Is True"
-msgstr ""
+msgstr "L'énoncé 3 est vrai"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:8
 msgid "Statement 4 Is True"
-msgstr ""
+msgstr "L'énoncé 4 est vrai"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:23
 msgid "The first comparison is not correct. Did you use the right comparison?"
-msgstr ""
+msgstr "La première comparaison n'est pas correcte. Avez-vous utilisé la bonne comparaison ?"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:39
 msgid "The second comparison is not correct. Did you use the right comparison?"
-msgstr ""
+msgstr "La deuxième comparaison n'est pas correcte. Avez-vous utilisé la bonne comparaison ?"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:55
 msgid "The third comparison is not correct. Did you use the right comparison?"
-msgstr ""
+msgstr "La troisième comparaison n'est pas correcte. Avez-vous utilisé la bonne comparaison ?"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:71
 msgid "The fourth comparison is not correct. Did you use the right comparison?"
-msgstr ""
+msgstr "La quatrième comparaison n'est pas correcte. Avez-vous utilisé la bonne comparaison ?"
 
 #: course/lesson-14-multiplying/increase_max_health/TestHealthIncreased.gd:11
 msgid "Addition Is Used To Increase Level"
