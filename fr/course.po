@@ -467,7 +467,7 @@ msgstr "Il y a une erreur dans ce code. Nous avons besoin de vous pour la corrig
 #: course/lesson-2-your-first-error/lesson.bbcode:41
 #. TRANSLATORS: Practice hint
 msgid "Remove the # sign."
-msgstr ""
+msgstr "Supprimez le signe #."
 
 # Nous nous tenons sur les
 # Nous nous reposons sur les
@@ -793,7 +793,7 @@ msgstr "Le robot est invisible ! Appelez une fonction pour le faire revenir."
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:128
 #. TRANSLATORS: Practice hint
 msgid "Your code should call show() inside the run() function."
-msgstr ""
+msgstr "Votre code doit appeler la fonction show() à l'intérieur de la fonction run()."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
 #. TRANSLATORS: Practice title
@@ -823,12 +823,12 @@ msgstr "Vous devez utiliser la fonction rotate() et lui fournir les bons argumen
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
 #. TRANSLATORS: Practice hint
 msgid "You need to call the rotate() function inside the run() function."
-msgstr ""
+msgstr "Vous devez appeler la fonction rotate() à l'intérieur de la fonction run()."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
 #. TRANSLATORS: Practice hint
 msgid "Call rotate(0.5) to turn the character 0.5 radians clockwise."
-msgstr ""
+msgstr "Appelez la fonction rotate(0.5) pour faire tourner le personnage de 0,5 radians dans le sens des aiguilles d'une montre."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:1
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
@@ -1033,13 +1033,13 @@ msgstr "[code]move_forward()[/code] et [code]turn_right()[/code] prennent toutes
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:122
 #. TRANSLATORS: Practice hint
 msgid "[code]turn_right[/code]'s numerical argument indicates how many [i]degrees[/i] the turtle should turn."
-msgstr ""
+msgstr "L'argument numérique de [code]turn_right[/code] indique de combien de [i]degrés[/i] la tortue doit tourner."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:122
 #. TRANSLATORS: Practice hint
 msgid "[code]move_forward[/code]'s numerical arguments indicates how many pixels the turtle should move."
-msgstr ""
+msgstr "L'argument numérique de [code]move_forward[/code] indique de combien de pixels la tortue doit se déplacer."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:122
 #. TRANSLATORS: Practice title
@@ -1074,7 +1074,7 @@ msgstr "Maintenant, vous êtes prêt(e) à coder entièrement par vous-même. Ap
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:122
 #. TRANSLATORS: Practice hint
 msgid "Start by moving forward to create the height of the rectangle."
-msgstr ""
+msgstr "Commencez par avancer tout droit (move_forward()) pour définir la hauteur du rectangle."
 
 #: course/lesson-5-your-first-function/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -1329,17 +1329,17 @@ msgstr "Jusqu'à présent, vous deviez écrire du code à la main, et cela peut 
 #: course/lesson-5-your-first-function/lesson.bbcode:104
 #. TRANSLATORS: Practice hint
 msgid "The function body will be very similar to what you did in the previous practice."
-msgstr ""
+msgstr "Le corps de la fonction sera très similaire à ce que vous avez fait dans l'exercice précédent."
 
 #: course/lesson-5-your-first-function/lesson.bbcode:104
 #. TRANSLATORS: Practice hint
 msgid "Don't forget to add a leading Tab character to every line inside the function."
-msgstr ""
+msgstr "N'oubliez pas d'ajouter un caractère de tabulation au début de chaque ligne à l'intérieur de la fonction."
 
 #: course/lesson-5-your-first-function/lesson.bbcode:104
 #. TRANSLATORS: Practice hint
 msgid "The function definition (the first line) should be [code]func draw_square():[/code]"
-msgstr ""
+msgstr "La définition de la fonction (la première ligne) devrait être [code]func draw_square():[/code]"
 
 #: course/lesson-5-your-first-function/lesson.bbcode:123
 #. TRANSLATORS: Practice title
@@ -1374,7 +1374,7 @@ msgstr "Maintenant que vous avez créé une fonction pour dessiner des carrés, 
 #: course/lesson-5-your-first-function/lesson.bbcode:123
 #. TRANSLATORS: Practice hint
 msgid "You need to define a new function below draw_square() named [code]draw_three_squares().[/code]"
-msgstr ""
+msgstr "Vous devez définir une nouvelle fonction sous draw_square(), nommée [code]draw_three_squares().[/code]"
 
 #: course/lesson-5-your-first-function/lesson.bbcode:123
 #. TRANSLATORS: Practice hint
@@ -1384,7 +1384,7 @@ msgstr "Votre nouvelle fonction doit appeler [code]draw_square()[/code] trois fo
 #: course/lesson-5-your-first-function/lesson.bbcode:123
 #. TRANSLATORS: Practice hint
 msgid "Between each call to [code]draw_square[/code], there should be a call to [code]jump(300,300)[/code]"
-msgstr ""
+msgstr "Entre chaque appel à [code]draw_square[/code], il doit y avoir un appel à [code]jump(300,300)[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -1413,11 +1413,11 @@ msgstr "Tout comme [code]rotate()[/code], nous pouvons aussi donner à nos fonct
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:12
 msgid "Parameters act as [i]placeholders[/i] in the function's code. They work like blank spaces that get filled in each time someone calls your function."
-msgstr ""
+msgstr "Les paramètres agissent comme des [i]espaces réservés[/i] dans le code de la fonction. Ils fonctionnent comme des emplacements vides qui sont remplis à chaque fois que quelqu'un appelle votre fonction."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:13
 msgid "When you write a function with parameters, you create a flexible template that can work with different values each time you use it. Let's see how the rotate() function is defined and uses a parameter:"
-msgstr ""
+msgstr "Lorsque vous écrivez une fonction avec des paramètres, vous créez un modèle flexible capable de fonctionner avec des valeurs différentes à chaque utilisation. Voyons comment la fonction [code]rotate()[/code] est définie et utilise un paramètre :"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
 msgid "For now, focus on the first line, the function [i]definition[/i]: [code]func rotate(radians)[/code]."
@@ -1433,11 +1433,11 @@ msgstr "Lorsque vous [i]appelez[/i] cette fonction avec [code]rotate(0.5)[/code]
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:32
 msgid "Each time you call the function, the replacement happens again: If you call [code]rotate(1.2)[/code], [code]radians[/code] becomes [code]1.2[/code]."
-msgstr ""
+msgstr "À chaque fois que vous appelez la fonction, le remplacement s'effectue à nouveau : si vous appelez [code]rotate(1.2)[/code], [code]radians[/code] devient [code]1.2[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:33
 msgid "The parameter can be filled with a number, text, or anything else. In this lesson, we'll only use numbers as we have yet to learn about other value types."
-msgstr ""
+msgstr "Ce paramètre peut contenir un nombre, du texte ou tout autre élément. Dans cette leçon, nous n'utiliserons que des nombres, car nous n'avons pas encore abordé les autres types de valeurs."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
 #. TRANSLATORS: Quiz question
@@ -1447,7 +1447,7 @@ msgstr "Qu'est-ce qu'un paramètre de fonction ?"
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
 #. TRANSLATORS: Quiz explanation
 msgid "A parameter is a placeholder that gets replaced with the actual value you pass when calling the function."
-msgstr ""
+msgstr "Un paramètre est un espace réservé qui est remplacé par la valeur réelle que vous transmettez lors de l'appel de la fonction."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
 #. TRANSLATORS: Quiz explanation
@@ -1480,7 +1480,7 @@ msgstr "Vous pouvez donner des paramètres à votre fonction lorsque vous écriv
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:45
 msgid "To add a parameter, write a placeholder name inside the parentheses. When someone calls your function with a value, every copy of the parameter in the function gets replaced with that value."
-msgstr ""
+msgstr "Pour ajouter un paramètre, écrivez un nom de paramètre entre parenthèses. Lorsqu'une personne appelle votre fonction avec une valeur, chaque copie de ce paramètre dans la fonction est remplacée par cette valeur."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:52
 msgid "You can give parameters any name! How you name functions and parameters is up to you."
@@ -1496,7 +1496,7 @@ msgstr "La définition de fonction suivante est exactement équivalente à la pr
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:58
 msgid "Parameters make your code easier to reuse. You write the function once as a template, then you can call it many times with different values."
-msgstr ""
+msgstr "Les paramètres rendent votre code plus facile à réutiliser. Vous écrivez le modèle de fonction une seule fois, puis vous pouvez l'appeler plusieurs fois avec des valeurs différentes."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:59
 msgid "Here's an example with a function to draw any square. The parameter [code]size[/code] is a placeholder. Use the slider to change the value. When you click the button, the app calls [code]draw_square()[/code] and the placeholder gets replaced with your value, drawing squares of different sizes."
@@ -1552,7 +1552,7 @@ msgstr "Pour séparer les paramètres de la fonction, vous devez insérer une vi
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:80
 msgid "For example, [code]func move(x, y)[/code] has two placeholders: [code]x[/code] and [code]y[/code]. Each one gets replaced with its own value when you call the function."
-msgstr ""
+msgstr "Par exemple, [code]func move(x, y)[/code] comporte deux paramètres : [code]x[/code] et [code]y[/code]. Chacun d'entre eux est remplacé par sa propre valeur lorsque vous appelez la fonction."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:80
 #. TRANSLATORS: Note title
@@ -1580,7 +1580,7 @@ msgstr "L'exemple suivant définit une fonction qui utilise deux paramètres pou
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:93
 msgid "When you call [code]move_local_xy(50, 100)[/code], every [code]offset_x[/code] in the function gets replaced with [code]50[/code], and every [code]offset_y[/code] gets replaced with [code]100[/code]."
-msgstr ""
+msgstr "Lorsque vous appelez [code]move_local_xy(50, 100)[/code], chaque [code]offset_x[/code] dans la fonction est remplacé par [code]50[/code], et chaque [code]offset_y[/code] est remplacé par [code]100[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:94
 #. TRANSLATORS: Note title
@@ -1694,7 +1694,7 @@ msgstr "C'est maintenant à votre tour de créer une fonction avec plusieurs par
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:136
 msgid "In the following practices, you'll write functions that I will call with different values. Your functions need to work correctly no matter what values the app passes to them."
-msgstr ""
+msgstr "Dans les exercices suivants, vous allez écrire des fonctions que je vais appeler en leur passant différentes valeurs. Vos fonctions doivent fonctionner correctement, quelles que soient les valeurs que l'application leur transmet."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 #. TRANSLATORS: Practice title
@@ -1709,7 +1709,7 @@ msgstr "Avant de créer un rectangle de n'importe quelle taille, pratiquons d'ab
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 #. TRANSLATORS: Practice goal
 msgid "I will call your function twice with different values:"
-msgstr ""
+msgstr "Je vais appeler votre fonction deux fois avec des valeurs différentes :"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 #. TRANSLATORS: Practice goal
@@ -1717,11 +1717,13 @@ msgid ""
 "[code]draw_corner(240)[/code]\n"
 "[code]draw_corner(120)[/code]"
 msgstr ""
+"[code]draw_corner(240)[/code]\n"
+"[code]draw_corner(120)[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 #. TRANSLATORS: Practice goal
 msgid "Your task is to add a parameter named [code]length[/code] to your function definition. This creates a placeholder. When the app calls your function, the placeholder will get replaced with the value in parentheses."
-msgstr ""
+msgstr "Votre tâche consiste à ajouter un paramètre nommé [code]length[/code] à la définition de votre fonction. Cela permet de créer un espace réservé. Lorsque l'application appellera votre fonction, cet espace réservé sera remplacé par la valeur indiquée entre parenthèses."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 #. TRANSLATORS: Practice goal
@@ -1731,7 +1733,7 @@ msgstr "La fonction fera avancer la tortue d'une quantité définie par le param
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 #. TRANSLATORS: Practice goal
 msgid "Each time the app calls your function, [code]length[/code] will be replaced with a different value: first [code]240[/code], then [code]120[/code]."
-msgstr ""
+msgstr "À chaque fois que l'application appelle votre fonction, [code]length[/code] sera remplacé par une valeur différente : d'abord [code]240[/code], puis [code]120[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 #. TRANSLATORS: Practice description
@@ -1741,7 +1743,7 @@ msgstr "En utilisant des paramètres de fonction, codez une fonction que vous po
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 #. TRANSLATORS: Practice hint
 msgid "You need to add the parameter [code]length[/code] three times in this practice"
-msgstr ""
+msgstr "Dans cet exercice, vous devez ajouter trois fois le paramètre [code]length[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #. TRANSLATORS: Practice title
@@ -1756,7 +1758,7 @@ msgstr "Maintenant, rendons la fonction [code]draw_corner()[/code] encore plus f
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #. TRANSLATORS: Practice goal
 msgid "I will call your function with different length and angle values:"
-msgstr ""
+msgstr "Je vais appeler votre fonction avec différentes valeurs de longueur et d'angle :"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #. TRANSLATORS: Practice goal
@@ -1764,6 +1766,8 @@ msgid ""
 "[code]draw_corner(240, 45)[/code]\n"
 "[code]draw_corner(120, 90)[/code]"
 msgstr ""
+"[code]draw_corner(240, 45)[/code]\n"
+"[code]draw_corner(120, 90)[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 #. TRANSLATORS: Practice goal
