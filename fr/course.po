@@ -3659,12 +3659,12 @@ msgstr "La comparaison des valeurs nous permet de prendre des décisions dans le
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice hint
 msgid "Read each [code]print()[/code] message carefully. The message tells you what the comparison should mean. Then pick the sign that matches best."
-msgstr ""
+msgstr "Lisez attentivement chaque message dans les appels à [code]print()[/code]. Le message vous indique le type de comparaison attendu. Choisissez ensuite le signe qui correspond le mieux."
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice hint
 msgid "Remember: you only need to change the [code]>[/code], [code]<[/code], [code]==[/code], or [code]!=[/code] symbols. Do not change numbers or the [code]print()[/code] calls!"
-msgstr ""
+msgstr "N'oubliez pas : vous devez uniquement modifier les symboles [code]>[/code], [code]<[/code], [code]==[/code] ou [code]!=[/code]. Ne modifiez pas les nombres ni les appels [code]print()[/code] !"
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice hint
@@ -3679,12 +3679,12 @@ msgstr "Limiter la guérison"
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
 msgid "The [code]heal()[/code] function adds [code]amount[/code] to [code]health[/code]. But right now, health can increase forever, without limit! We want to stop it at [code]80[/code]."
-msgstr ""
+msgstr "La fonction [code]heal()[/code] ajoute [code]amount[/code] à [code]health[/code]. Mais pour l'instant, la santé peut augmenter indéfiniment, sans limite ! Nous voulons la limiter à [code]80[/code]."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
 msgid "I've defined a [code]health[/code] variable for you with a starting value of [code]20[/code]. Your task is to add a condition inside [code]heal()[/code] so that health is never greater than [code]80[/code]."
-msgstr ""
+msgstr "J'ai défini pour vous une variable [code]health[/code] dont la valeur initiale est [code]20[/code]. Votre tâche est d'ajouter une condition à l'intérieur de [code]heal()[/code] afin que la santé ne dépasse jamais [code]80[/code]."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
@@ -3713,7 +3713,7 @@ msgstr "Autant que nous aimerions l'idée, nous ne voulons pas que notre robot a
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice hint
 msgid "The starting code already adds the amount to the [code]health[/code] variable: [code]health += amount[/code] is already there. You need to add a check [b]after[/b] it, otherwise the health will overshoot your limit."
-msgstr ""
+msgstr "Le code de départ ajoute déjà la quantité à la variable [code]health[/code] : [code]health += amount[/code] est déjà présent. Vous devez ajouter une condition [b]après[/b] cette ligne, sinon la santé dépassera votre limite."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice hint
@@ -3723,7 +3723,7 @@ msgstr "Utilisez [code]if health > 80:[/code] pour détecter quand la santé est
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice hint
 msgid "Inside that [code]if[/code] block, set health back to the limit: [code]health = 80[/code]. That's how you limit the value."
-msgstr ""
+msgstr "À l'intérieur de ce bloc [code]if[/code], remettez la santé à la limite : [code]health = 80[/code]. C'est ainsi que vous limitez la valeur."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice title
@@ -3733,7 +3733,7 @@ msgstr "Empêcher la santé de passer en dessous de zéro"
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
 msgid "We want to display the health number on screen, like in many RPGs. But currently, the health can go below 0, which does not make sense. We want to stop at [code]0[/code]."
-msgstr ""
+msgstr "Nous souhaitons afficher le nombre de points de vie à l'écran, comme dans de nombreux jeux de rôle. Mais pour l'instant, la santé peut descendre en dessous de 0, ce qui n'a pas de sens. Nous voulons qu'elle s'arrête à [code]0[/code]."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
@@ -3761,6 +3761,9 @@ msgid ""
 "[code]take_damage(10)[/code]\n"
 "[code]take_damage(10)[/code]"
 msgstr ""
+"[code]take_damage(10)[/code]\n"
+"[code]take_damage(10)[/code]\n"
+"[code]take_damage(10)[/code]"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
@@ -3775,22 +3778,22 @@ msgstr "Avoir une valeur de santé négative n'a pas beaucoup de sens. Assurez-v
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
 msgid "Start by subtracting the damage: [code]health -= amount[/code]. This is how you apply damage."
-msgstr ""
+msgstr "Commencez par soustraire les dégâts : [code]health -= amount[/code]. Voici comment infliger des dégâts."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
 msgid "To limit the health, after subtracting the amount, you need to add a condition and reset the health."
-msgstr ""
+msgstr "Pour limiter les points de vie, après avoir soustrait la valeur, vous devez ajouter une condition et réinitialiser les points de vie."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
 msgid "Here's how to write a condition to check if health went below zero: [code]if health < 0:[/code]."
-msgstr ""
+msgstr "Voici comment écrire une condition permettant de vérifier si la santé est passée en dessous de zéro : [code]if health < 0:[/code]."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
 msgid "Inside the [code]if[/code] block, you can reset the health like this: [code]health = 0[/code]."
-msgstr ""
+msgstr "Dans le bloc [code]if[/code], vous pouvez réinitialiser la santé comme ceci : [code]health = 0[/code]."
 
 #: course/lesson-14-multiplying/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
