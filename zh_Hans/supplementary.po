@@ -51,9 +51,7 @@ msgstr "要访问变量的 [code]x[/code] 子组件，需要在循环的主体�
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "[code]for cell_position in cell_positions_array:"
-msgstr ""
-"[code]for cell_position in cell_positions_array:\n"
-"· · ·  ·cell_position.x += 1.0[/code]"
+msgstr "[code]for cell_position in cell_positions_array:"
 
 #: script_checking/error_database.csv
 msgid "    cell_position.x += 1.0[/code]"
@@ -106,16 +104,12 @@ msgstr "看看你想修改的是什么。如果是常量（用 `const` 关键字
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "1. If the value should never change, or it comes from Godot, remove the line that tries to change it."
-msgstr ""
-"1. 如果该值永远不应该改变，或者它来自 Godot，请删除尝试更改该值的代码行。\n"
-"2. 如果该值需要改变，请在首次创建时使用 `var` 而不是 `const`。"
+msgstr "1. 如果该值永远不应改变，或者它来自 Godot，请删除试图修改它的那一行代码。"
 
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "2. If the value needs to change, use [code]var[/code] instead of [code]const[/code] when you first create it."
-msgstr ""
-"1. 如果该值永远不应该改变，或者它来自 Godot，请删除尝试更改该值的代码行。\n"
-"2. 如果该值需要改变，请在首次创建时使用 `var` 而不是 `const`。"
+msgstr "2. 如果值需要改变，请在首次创建时使用 [code]var[/code] 而不是 [code]const[/code]。"
 
 #: script_checking/error_database.csv
 msgid "You get this error when you mix spaces and tabs in your indentation. This happens when you have a space before a tab, or a tab before a space at the start of a line."
@@ -156,9 +150,7 @@ msgstr ""
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "2. Your code refers to another class that refers to this class, causing an endless reference cycle."
-msgstr ""
-"1. 你在类里面用了自己的类名。\n"
-"2. 你的代码引用了另一个类，而该类又引用了这个类，造成了无限循环引用。"
+msgstr "2. 你的代码引用了另一个类，而那个类又引用了这个类，导致了一个无限的引用循环。"
 
 #: script_checking/error_database.csv
 msgid "Either way, due to how GDScript works in Godot 3, unfortunately,you cannot do this. Godot 4 should solve this problem, but you need to work around it in the meantime."
@@ -263,10 +255,7 @@ msgstr ""
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "2. You wrote a keyword like [code]var[/code], [code]func[/code], [code]for[/code], or [code]signal[/code], and you did not follow it by a name."
-msgstr ""
-"1. 你在错误的地方写了一个标识符（变量或函数名）。\n"
-"2. 写了[code]var[/code]、[code]func[/code]、[code]for[/code]、[code]signal[/code]这样的关键字，你没有按照 由一个名字。\n"
-"3. 你写了一个函数定义，但忘记了冒号前的括号。"
+msgstr "2. 你写了一个关键字，比如 [code]var[/code]、[code]func[/code]、[code]for[/code] 或 [code]signal[/code]，但后面没有跟上名称。"
 
 #: script_checking/error_database.csv
 msgid "3. You wrote a function definition but forgot the parentheses before the colon."
@@ -475,16 +464,12 @@ msgstr "你的函数的返回值存在问题。 这里主要有两种情况："
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "1. Your function is a void function, thus it should not return a value. This includes functions with the '-> void' syntax and class constructors ('_init()')."
-msgstr ""
-"1. 你的函数是一个 void 函数，因此它不应该返回一个值。 这包括具有'-> void' 语法的函数和类构造函数（'_init()'）。\n"
-"2. 你为你的函数指定了一个返回类型，但你没有在所有可能的分支（if、elif 和 else 块）中或最后返回一个值。"
+msgstr "1. 你的函数是一个 void 函数，因此它不应该返回值。这包括使用 '-> void' 语法的函数和类构造函数（'_init()'）。"
 
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "2. You specified a return type for your function, but you are not returning a value in all possible branches (if, elif, and else blocks) or at the end."
-msgstr ""
-"1. 你的函数是一个 void 函数，因此它不应该返回一个值。 这包括具有'-> void' 语法的函数和类构造函数（'_init()'）。\n"
-"2. 你为你的函数指定了一个返回类型，但你没有在所有可能的分支（if、elif 和 else 块）中或最后返回一个值。"
+msgstr "2. 你为函数指定了返回类型，但并未在所有可能的分支（if、elif 和 else 块）或函数末尾返回值。"
 
 #: script_checking/error_database.csv
 msgid "When your function is 'void', you should never return a value. You can use the 'return' keyword to end the function early, but you should never write anything after that."
@@ -525,9 +510,7 @@ msgstr ""
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "The most common case is when you forget to close a string: you have opening quotes, but you forget to add a matching closing quote."
-msgstr ""
-"计算机运行到代码行的末尾，但该行出现了语法错误。\n"
-"最常见的情况是忘记关闭字符串：有了开头引号，却忘记添加结尾引号。"
+msgstr "最常见的情况是你忘记闭合字符串：你有开头的引号，但忘记添加匹配的闭合引号。"
 
 #: script_checking/error_database.csv
 msgid "Double-check that you are not missing a quote character or that the quote character you used to start the string is the same as the one you used to close the string."
@@ -548,7 +531,7 @@ msgstr "确保本应使用小写字母的地方没有大写字母，反之亦然
 #: course/glossary.csv course/documentation.csv
 #, fuzzy
 msgid "explanation"
-msgstr "迭代"
+msgstr "解释"
 
 #: course/glossary.csv
 msgid "Member functions are functions attached to a specific value type, like arrays, strings, or dictionaries. We also call them methods."

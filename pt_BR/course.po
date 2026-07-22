@@ -331,8 +331,9 @@ msgstr "Execute seu primeiro código e veja o resultado."
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:142
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Click the [i]Run[/i] button."
-msgstr ""
+msgstr "Clique no botão [i]Executar[/i]."
 
 #: course/lesson-2-your-first-error/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -461,8 +462,9 @@ msgstr "Existe um erro nesse código. Precisamos que você conserte ele!"
 
 #: course/lesson-2-your-first-error/lesson.bbcode:41
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Remove the # sign."
-msgstr ""
+msgstr "Remova o sinal #."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -641,7 +643,7 @@ msgstr "O que é radiano?"
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "The value of [code]0.3[/code] is an angle in [glossary term=\"radians\"]. In daily life, we're used to measuring angles in degrees. The radian is another scale commonly used in video games and math."
-msgstr "O valor [code]0.3[/code] é um ângulo em [i]radiano[/i]. No nosso dia a dia, nós estamos acostumados a medir ângulos em graus. O radiano é uma outra medida usada em jogos e na matemática."
+msgstr "O valor [code]0.3[/code] é um ângulo em [glossary term='radians']radianos[/glossary]. No nosso dia a dia, estamos acostumados a medir ângulos em graus. O radiano é outra medida usada em jogos e na matemática."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:79
 #. TRANSLATORS: Note content
@@ -782,8 +784,9 @@ msgstr "O robô está invisível! Chame uma função para trazer ele de volta."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:128
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Your code should call show() inside the run() function."
-msgstr ""
+msgstr "Seu código deve chamar show() dentro da função run()."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
 #. TRANSLATORS: Practice title
@@ -812,13 +815,15 @@ msgstr "Você precisa usar a função rotate() e fornecer os argumentos adequado
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You need to call the rotate() function inside the run() function."
-msgstr ""
+msgstr "Você precisa chamar a função rotate() dentro da função run()."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Call rotate(0.5) to turn the character 0.5 radians clockwise."
-msgstr ""
+msgstr "Chame rotate(0.5) para girar o personagem 0,5 radianos no sentido horário."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:1
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
@@ -1021,14 +1026,16 @@ msgstr "Tanto [code]move_forward()[/code] quanto [code]turn_right()[/code] receb
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:122
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "[code]turn_right[/code]'s numerical argument indicates how many [i]degrees[/i] the turtle should turn."
-msgstr ""
+msgstr "O argumento numérico de [code]turn_right[/code] indica quantos [i]graus[/i] a tartaruga deve girar."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:122
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "[code]move_forward[/code]'s numerical arguments indicates how many pixels the turtle should move."
-msgstr ""
+msgstr "Os argumentos numéricos de [code]move_forward[/code] indicam quantos pixels a tartaruga deve se mover."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:122
 #. TRANSLATORS: Practice title
@@ -1062,8 +1069,9 @@ msgstr "A partir desse ponto, você está pronto para programar por si só. Cham
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:122
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Start by moving forward to create the height of the rectangle."
-msgstr ""
+msgstr "Comece avançando para definir a altura do retângulo."
 
 #: course/lesson-5-your-first-function/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -1315,18 +1323,21 @@ msgstr "Até agora, você tinha que escrever código à mão, e isso é chato. �
 
 #: course/lesson-5-your-first-function/lesson.bbcode:104
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The function body will be very similar to what you did in the previous practice."
-msgstr ""
+msgstr "O corpo da função será muito semelhante ao que você fez no exercício anterior."
 
 #: course/lesson-5-your-first-function/lesson.bbcode:104
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Don't forget to add a leading Tab character to every line inside the function."
-msgstr ""
+msgstr "Não se esqueça de adicionar um caractere de tabulação no início de cada linha dentro da função."
 
 #: course/lesson-5-your-first-function/lesson.bbcode:104
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The function definition (the first line) should be [code]func draw_square():[/code]"
-msgstr ""
+msgstr "A definição da função (a primeira linha) deve ser [code]func draw_square():[/code]"
 
 #: course/lesson-5-your-first-function/lesson.bbcode:123
 #. TRANSLATORS: Practice title
@@ -1945,7 +1956,7 @@ msgstr "E muito mais. Você precisa armazenar, recuperar e atualizar esses valor
 #. translated here
 #, fuzzy
 msgid "We call those values [i][glossary term=\"variables\"][/i]. Variables are labels you use to keep track of values that vary over time. Here's an example of a variable tracking a character or monster's health."
-msgstr "Chamamos esses valores de [i]variáveis[/i]. Variáveis são nomes que você usa para acompanhar os valores que variam ao longo do tempo. Aqui está um exemplo de uma variável rastreando a vida de um personagem ou monstro."
+msgstr "Chamamos esses valores de [i][glossary term=variáveis][/i]. Variáveis são rótulos que você usa para acompanhar valores que mudam com o tempo. Aqui está um exemplo de uma variável rastreando a vida de um personagem ou monstro."
 
 #: course/lesson-7-member-variables/lesson.bbcode:21
 msgid "The line above defines a new variable named [code]health[/code] and assigns it a starting value of [code]100[/code] (that's what the equal sign does, more on that below)."
@@ -2309,7 +2320,7 @@ msgstr "Assim como as funções, o nome de uma variável membro deve ser exclusi
 #. translated here
 #, fuzzy
 msgid "To use a variable, you want to [glossary term=\"assign\"] it a starting value. You can do so using the equal sign (=)."
-msgstr "Para usar uma variável, você deve atribuir a ela um valor inicial. Você pode fazer isso usando o sinal de igual (=)."
+msgstr "Para usar uma variável, você precisa [glossary term=assign]atribuir[/glossary] um valor inicial a ela. Você pode fazer isso usando o sinal de igual (=)."
 
 #: course/lesson-8-defining-variables/lesson.bbcode:42
 msgid "This code assigns the value [code]100[/code] to a new variable named [code]health[/code]."
@@ -2972,7 +2983,7 @@ msgstr "Por que usamos o número 3.0 nesse exemplo?"
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "At the top of the lesson, we made the robot rotate a fixed amount every frame: [code]0.05[/code] [glossary term=\"radians\"]."
-msgstr "No início da lição, fizemos o robô rotacionar por uma quantidade fixa a cada frame: [code]0.05[/code] radianos."
+msgstr "No topo da lição, fizemos o robô girar uma quantidade fixa a cada quadro: [code]0,05[/code] [glossary term=radianos]."
 
 #: course/lesson-11-time-delta/lesson.bbcode:81
 #. TRANSLATORS: Note content
@@ -3981,8 +3992,9 @@ msgstr ""
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use [code]amount *= 0.5[/code] inside the [code]if[/code] block to reduce the damage by 50%"
-msgstr ""
+msgstr "Use [code]amount *= 0.5[/code] dentro do bloco [code]if[/code] para reduzir o dano em 50%"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4015,7 +4027,7 @@ msgstr "O que são vetores?"
 #. translated here
 #, fuzzy
 msgid "A [glossary term=\"vector\"], in physics, is a quantity with a magnitude and a direction. For example, a force applied to some object, the velocity (speed and direction) of a character, and so on."
-msgstr "Um vetor, em física, é uma quantidade com uma magnitude (tamanho) e uma direção. Por exemplo, um vetor pode representar uma força aplicada a algum objeto, a velocidade (quantidade de deslocamento do objeto e a direção) de um personagem e assim por diante."
+msgstr "Um [glossary term=vector]vetor[/glossary], em física, é uma quantidade com uma magnitude e uma direção. Por exemplo, uma força aplicada a algum objeto, a velocidade (rapidez e direção) de um personagem e assim por diante."
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:16
 msgid "We often represent this quantity with an arrow."
@@ -4160,8 +4172,9 @@ msgstr "Você pode adicionar uma linha para aumentar a [code]scale[/code] em qua
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You can't use instructions like [code]scale.x += 0.2[/code] for this practice. Instead, you should use a [code]Vector2[/code]"
-msgstr ""
+msgstr "Você não pode usar instruções como [code]scale.x += 0.2[/code] para este exercício. Em vez disso, você deve usar um [code]Vector2[/code]"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice title
@@ -4205,8 +4218,9 @@ msgstr "Talvez aumentar a escala a cada nível tenha sido uma ideia ruim! Vamos 
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "To define the function, we use the [code]func[/code] keyword"
-msgstr ""
+msgstr "Para definir a função, usamos a palavra-chave [code]func[/code]"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice hint
@@ -4412,13 +4426,15 @@ msgstr "Movendo para o final de um tabuleiro"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "The robot has decided to stand at the top of the board and your job is to move it down to the bottom row. Complete the [code]move_to_bottom()[/code] function to do this."
-msgstr ""
+msgstr "O robô decidiu ficar no topo do tabuleiro e sua tarefa é movê-lo até a linha inferior. Complete a função [code]move_to_bottom()[/code] para fazer isso."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "We store the robot's position in a variable named [code]cell[/code]. The variable starts with the value [code]Vector2(2, 0)[/code], meaning the robot is in column 2, row 0 (row 0 is the top of the board)."
-msgstr ""
+msgstr "Armazenamos a posição do robô em uma variável chamada [code]cell[/code]. A variável inicia com o valor [code]Vector2(2, 0)[/code], o que significa que o robô está na coluna 2, linha 0 (a linha 0 é a parte superior do tabuleiro)."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
@@ -4438,23 +4454,27 @@ msgstr "Use um [glossary term=\"while loop\"] para que nosso robô se mova da pa
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "On this board, rows go from top to bottom. Think about which part of [code]cell[/code] controls the row the robot is on."
-msgstr ""
+msgstr "Neste tabuleiro, as linhas vão de cima para baixo. Pense em qual parte de [code]cell[/code] controla a linha em que o robô está."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "[code]cell.y[/code] is the robot's current row. To move the robot down one row, increase [code]cell.y[/code] by 1. Your [code]while[/code] loop should do this repeatedly until the robot reaches the last row."
-msgstr ""
+msgstr "[code]cell.y[/code] é a linha atual do robô. Para mover o robô uma linha para baixo, aumente [code]cell.y[/code] em 1. Seu loop [code]while[/code] deve fazer isso repetidamente até que o robô chegue à última linha."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The last row is [code]board_size.y - 1[/code], because rows are counted from 0."
-msgstr ""
+msgstr "A última linha é [code]board_size.y - 1[/code], pois as linhas são contadas a partir de 0."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use [code]while cell.y < board_size.y - 1:[/code] as your loop condition, and increase [code]cell.y[/code] inside the loop."
-msgstr ""
+msgstr "Use [code]while cell.y < board_size.y - 1:[/code] como sua condição de loop e aumente [code]cell.y[/code] dentro do loop."
 
 #: course/lesson-18-for-loops/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4639,8 +4659,9 @@ msgstr "Chame [code]range(n)[/code] para obter uma lista de números de [code]0[
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use [code]for number in range(board_size.y - 1):[/code] to loop enough times."
-msgstr ""
+msgstr "Use [code]for number in range(board_size.y - 1):[/code] para repetir o ciclo o número de vezes necessário."
 
 #: course/lesson-18-for-loops/lesson.bbcode:101
 #. TRANSLATORS: Practice title
@@ -4674,8 +4695,9 @@ msgstr "No passado, tínhamos que copiar e colar código para desenhar vários r
 
 #: course/lesson-18-for-loops/lesson.bbcode:101
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use the line [code]for number in range(3):[/code]"
-msgstr ""
+msgstr "Use a linha [code]for number in range(3):[/code]"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4691,7 +4713,7 @@ msgstr "A função [code]range()[/code] que vimos na lição anterior gera uma l
 #. translated here
 #, fuzzy
 msgid "A list of values, numbers or otherwise, has a precise name in code: we call it an [i][glossary term=\"array\"][/i]. So we can say calling the [code]range()[/code] function produces an [i]array[/i] of numbers."
-msgstr "Uma lista de valores, seja ela de números ou não, tem um nome preciso em código: nós as chamamos de [i]arrays[/i]. Então podemos dizer que chamar a função [code]range()[/code] produz um [i]array[/i] de números."
+msgstr "Uma lista de valores, sejam eles números ou não, tem um nome preciso em código: nós a chamamos de [i][glossary term='array'][/i]. Então podemos dizer que chamar a função [code]range()[/code] produz um [i]array[/i] de números."
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:8
 msgid "We could directly write and use that array inside our [code]for[/code] loop instead of the [code]range()[/code] function. You can run the next function step-by-step to see how it works."
@@ -4848,13 +4870,15 @@ msgstr "Ajude a tartaruga a encontrar o caminho até o robô! Faça um caminho p
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Any path that doesn't touch rocks is valid. The turtle could first move down or to the right. So the first value could either be [code]Vector2(1, 0)[/code] or [code]Vector2(0, 1)[/code]."
-msgstr ""
+msgstr "Qualquer caminho que não toque nas rochas é válido. A tartaruga poderia primeiro se mover para baixo ou para a direita. Portanto, o primeiro valor poderia ser [code]Vector2(1, 0)[/code] ou [code]Vector2(0, 1)[/code]."
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Every [code]Vector2[/code] in the array should be one unit away from the previous one. That means there should only be a difference of 1 on the X-axis or the Y-axis between two [code]Vector2[/code] in the array."
-msgstr ""
+msgstr "Cada [code]Vector2[/code] no array deve estar a uma unidade de distância do anterior. Isso significa que deve haver apenas uma diferença de 1 no eixo X ou no eixo Y entre dois [code]Vector2[/code] no array."
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 #. TRANSLATORS: Practice title
@@ -4888,8 +4912,9 @@ msgstr "Escreva um array para selecionar todas as unidades no tabuleiro nesse jo
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You can write [code]Vector2[/code] values inside the brackets in the function call: [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
-msgstr ""
+msgstr "Você pode escrever valores [code]Vector2[/code] dentro dos colchetes na chamada da função: [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4921,7 +4946,7 @@ msgstr "Para cada elemento dentro do array, o loop [code]for[/code] o extrai, ar
 #. translated here
 #, fuzzy
 msgid "Inside the loop, you can access the [code]number[/code] variable, which changes on each [i][glossary term=\"iteration\"][/i]."
-msgstr "Dentro do loop, você pode acessar a variável [code]number[/code], que muda a cada [i]iteração[/i] (a cada vez que o loop recomeçar)."
+msgstr "Dentro do loop, você pode acessar a variável [code]number[/code], que muda a cada [i][glossary term='iteration'][/i]."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:19
 msgid "The code works regardless of the array or where you store it. Often, you will store arrays in variables for easy access."
@@ -5058,8 +5083,9 @@ msgstr "Nosso algoritmo de busca de IA está nos dando um caminho para mover o r
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You should start with a for loop that iterates over every cell in [code]robot_path[/code]."
-msgstr ""
+msgstr "Você deve começar com um laço for que itera sobre cada célula em [code]robot_path[/code]."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 #. TRANSLATORS: Practice hint
@@ -5103,18 +5129,21 @@ msgstr "A tartaruga que desenha está de volta. Não tenha medo! Armado com loop
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Each value in the [code]rectangle_sizes[/code] array is a [code]Vector2[/code]. You'll need to access its [code]x[/code] and [code]y[/code] sub-components to draw rectangles."
-msgstr ""
+msgstr "Cada valor no array [code]rectangle_sizes[/code] é um [code]Vector2[/code]. Você precisará acessar seus subcomponentes [code]x[/code] e [code]y[/code] para desenhar retângulos."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "In the loop, you first need to call [code]draw_rectangle()[/code], and then [code]jump()[/code]. Otherwise, at least two rectangles will overlap."
-msgstr ""
+msgstr "No loop, você precisa primeiro chamar [code]draw_rectangle()[/code] e, em seguida, [code]jump()[/code]. Caso contrário, pelo menos dois retângulos se sobreporão."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The arguments when calling [code]jump()[/code] can just be large enough to space out the rectangles. For example, [code]jump(300, 0)[/code]"
-msgstr ""
+msgstr "Os argumentos ao chamar [code]jump()[/code] podem ser apenas grandes o suficiente para espaçar os retângulos. Por exemplo, [code]jump(300, 0)[/code]"
 
 #: course/lesson-21-strings/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5227,13 +5256,15 @@ msgstr "Dê ao robô um nome legível usando uma string armazenada em uma variá
 
 #: course/lesson-21-strings/lesson.bbcode:52
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Strings need to be wrapped in quotes like \"Robi\"."
-msgstr ""
+msgstr "As strings precisam estar entre aspas, como “Robi”."
 
 #: course/lesson-21-strings/lesson.bbcode:52
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Replace the number 0 with your string (the robot's name)."
-msgstr ""
+msgstr "Substitua o número 0 pela sua string (o nome do robô)."
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice title
@@ -5261,13 +5292,15 @@ msgstr ""
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "I defined the [code]combo[/code] variable at the top of the script. Fill its array with three animation names: two jabs followed by one uppercut."
-msgstr ""
+msgstr "Eu defini a variável [code]combo[/code] no início do script. Preencha seu array com três nomes de animações: dois jabs seguidos por um uppercut."
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "Then, in the [code]run()[/code] function, write a [code]for[/code] loop that goes through each item in the [code]combo[/code] variable and calls [code]play_animation()[/code] with that animation name."
-msgstr ""
+msgstr "Em seguida, na função [code]run()[/code], escreva um loop [code]for[/code] que percorra cada item da variável [code]combo[/code] e chame [code]play_animation()[/code] com o nome da animação correspondente."
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice description
@@ -5276,8 +5309,9 @@ msgstr "Defina um array de strings para liberar um combo poderoso."
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Make sure to use (\"\") for each animation name when you add them to the combo array"
-msgstr ""
+msgstr "Certifique-se de usar (””) para cada nome de animação ao adicioná-los ao array combo"
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
@@ -5298,7 +5332,7 @@ msgstr "Até agora, você aprendeu que funções são sequências de instruçõe
 #. translated here
 #, fuzzy
 msgid "Functions can also make calculations and [glossary term=\"return\"] new values."
-msgstr "Além disso, as funções podem fazer cálculos e [i]retornar[/i] novos valores."
+msgstr "Funções também podem fazer cálculos e [glossary term=return]retornar[/glossary] novos valores."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:7
 msgid "Let's look at some examples to see why this is useful."
@@ -5635,13 +5669,15 @@ msgstr "Os pedidos estão se acumulando na cozinha e precisamos completa-los rap
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You first need to pop the first value from the pending orders array. To pop a value from the front of an array, you call [code]array.pop_front()[/code]."
-msgstr ""
+msgstr "Primeiro, você precisa retirar o primeiro valor da matriz de pedidos pendentes. Para retirar um valor do início de uma matriz, você chama [code]array.pop_front()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You then need to append the popped value to the completed_orders array. To append a value to an array, you can call [code]array.append()[/code]."
-msgstr ""
+msgstr "Em seguida, você precisa adicionar o valor retirado ao array `completed_orders`. Para adicionar um valor a um array, você pode chamar [code]array.append()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
 #. TRANSLATORS: Practice title
@@ -5685,13 +5721,15 @@ msgstr "Pense em como os laços [code]while[/code] funcionam."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Every time you [code]pop[/code] an item, the array's [code]size[/code] gets smaller."
-msgstr ""
+msgstr "Sempre que você [code]pop[/code] um item, o [code]size[/code] da matriz fica menor."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You can write [code]while crates:[/code] to run code in a loop while there are values in the [code]crates[/code] array."
-msgstr ""
+msgstr "Você pode escrever [code]while crates:[/code] para executar o código em um loop enquanto houver valores na matriz [code]crates[/code]."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5810,7 +5848,7 @@ msgstr "[b]Verificando o tamanho do array[/b]"
 #. translated here
 #, fuzzy
 msgid "Arrays come with a [glossary term=\"member function\"] named [code]size()[/code]. You can call it on the array anytime to know its [i]current[/i] size."
-msgstr "Arrays vêm com uma função membro chamada [code]size()[/code]. Você pode chamá-la no array a qualquer momento para saber seu tamanho [i]atual[/i]."
+msgstr "Arrays vêm com uma [glossary term=função-membro] chamada [code]size()[/code]. Você pode chamá-la no array a qualquer momento para saber seu tamanho [i]atual[/i]."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:63
 msgid "The maximum index you can access in an array is [code]array.size() - 1[/code]: it's the last item in the array."
@@ -5857,13 +5895,15 @@ msgstr "Encontre os itens certos para usar no inventário do jogador, usando seu
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use the function [code]use_item(inventory[index])[/code], where [code]index[/code] is the position of an item in the [code]inventory[/code] array"
-msgstr ""
+msgstr "Use a função [code]use_item(inventory[index])[/code], onde [code]index[/code] é a posição de um item na matriz [code]inventory[/code]"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use [code]square brackets[/code] to access specific array indices"
-msgstr ""
+msgstr "Use [code]square brackets[/code] para acessar índices específicos de uma matriz"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 #. TRANSLATORS: Practice title
@@ -5897,13 +5937,15 @@ msgstr "Alguns pedaços de nossos trilhos de trem estão desalinhados e o trem n
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The syntax to access an item by index in an array uses square brackets with a number in between right after the array name. For example, write [code]tracks[-1][/code] to access the [i]last[/i] element in the array."
-msgstr ""
+msgstr "A sintaxe para acessar um item por índice em um array usa colchetes com um número entre eles, logo após o nome do array. Por exemplo, escreva [code]tracks[-1][/code] para acessar o [i]último[/i] elemento do array."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "To align the second chunk, call [code]align(tracks[-3])[/code]. You need to call the same function another two times with the other chunks."
-msgstr ""
+msgstr "Para alinhar o segundo bloco, chame [code]align(tracks[-3])[/code]. Você precisa chamar a mesma função mais duas vezes com os outros blocos."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5923,7 +5965,7 @@ msgstr "Com apenas um array de nomes de itens, no entanto, não podemos acompanh
 #. translated here
 #, fuzzy
 msgid "Instead, we can bundle the item names and amounts into a single [glossary term=\"dictionary\"]."
-msgstr "Ao invés disso, podemos agrupar os nomes e valores dos itens em um único [i]dicionário[/i]."
+msgstr "Em vez disso, podemos agrupar os nomes e as quantidades dos itens em um único [glossary term='dictionary']."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:10
 msgid "A dictionary is a data structure that allows you to map pairs of values. In the pair, we call the first value a [i]key[/i] as we use it to access the second."
@@ -6117,13 +6159,15 @@ msgstr "Coletar itens é divertido, mas precisamos de uma boa maneira de armazen
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Don't forget to add commas to separate each key and value pair."
-msgstr ""
+msgstr "Não se esqueça de adicionar vírgulas para separar cada par de chave e valor."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "To define a key and give it an item count, use [code]\"item name\" : number[/code]."
-msgstr ""
+msgstr "Para definir uma chave e atribuir a ela uma contagem de itens, use [code]\"item name\" : number[/code]."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 #. TRANSLATORS: Practice title
@@ -6157,13 +6201,15 @@ msgstr "O jogador pode passar por cima de um item ou encontrar algo em um baú, 
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You can access the value in the [code]inventory[/code] dictionary by using [code]inventory[item_name][/code]"
-msgstr ""
+msgstr "Você pode acessar o valor no dicionário [code]inventory[/code] usando [code]inventory[item_name][/code]"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Remember to add [code]amount[/code] to the value. You can do this directly with [code]+=[/code]"
-msgstr ""
+msgstr "Lembre-se de adicionar [code]amount[/code] ao valor. Você pode fazer isso diretamente com [code]+=[/code]"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -6280,8 +6326,9 @@ msgstr "A função [code]display_item()[/code] precisa do nome do item e de sua 
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Inside the for loop, you can get the amount of each item using the syntax [code]inventory[item_name][/code], where [code]item_name[/code] is the loop variable you created after the [code]for[/code] keyword."
-msgstr ""
+msgstr "Dentro do loop for, você pode obter a quantidade de cada item usando a sintaxe [code]inventory[item_name][/code], onde [code]item_name[/code] é a variável de loop que você criou após a palavra-chave [code]for[/code]."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 #. TRANSLATORS: Practice title
@@ -6305,13 +6352,15 @@ msgstr "Queremos preencher nosso tabuleiro de jogo com unidades no início de ca
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The dictionary keys are cell coordinates. You can use them to access the unit type from the [code]units[/code] dictionary."
-msgstr ""
+msgstr "As chaves do dicionário são coordenadas de células. Você pode usá-las para acessar o tipo de unidade no dicionário [code]units[/code]."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Inside the for loop, you can get a unit's type using the syntax [code]units[cell][/code], where [code]cell[/code] is the loop variable you created after the [code]for[/code] keyword."
-msgstr ""
+msgstr "Dentro do loop for, você pode obter o tipo de uma unidade usando a sintaxe [code]units[cell][/code], onde [code]cell[/code] é a variável de loop que você criou após a palavra-chave [code]for[/code]."
 
 #: course/lesson-27-value-types/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -6323,7 +6372,7 @@ msgstr "Tipos de valor"
 #. translated here
 #, fuzzy
 msgid "In your code, values have a particular [glossary term=\"type\"]. You have already learned about several: whole numbers, decimal numbers, strings, 2D vectors, arrays, and dictionaries."
-msgstr "Em seu código, os valores têm um [i]tipo[/i] específico. Você já aprendeu sobre vários tipos: números inteiros, números decimais, strings, vetores 2D, arrays e dicionários."
+msgstr "No seu código, os valores têm um [glossary term=type]tipo[/glossary] específico. Você já aprendeu sobre vários: números inteiros, números decimais, strings, vetores 2D, arrays e dicionários."
 
 #: course/lesson-27-value-types/lesson.bbcode:4
 msgid "The computer uses the type of a value to know which operations and functions you can use with them."
@@ -6707,13 +6756,15 @@ msgstr "Dessa vez, é o contrário: as variáveis têm as dicas de tipo corretas
 
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The type [code]float[/code] means decimal number, so you need to write a number with a decimal part, like [code]3.14[/code]."
-msgstr ""
+msgstr "O tipo [code]float[/code] significa número decimal; portanto, você precisa escrever um número com parte decimal, como [code]3.14[/code]."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The type [code]int[/code] stands for integer or whole number, so you need the value to be a whole number without a decimal part."
-msgstr ""
+msgstr "O tipo [code]int[/code] significa inteiro ou número inteiro, portanto, o valor precisa ser um número inteiro sem parte decimal."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 #. TRANSLATORS: Practice hint

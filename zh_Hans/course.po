@@ -41,7 +41,7 @@ msgstr "告诉计算机要做什么"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"] that tell a computer how to perform a task."
-msgstr "编程就是写出精确的指令的过程，告诉计算机如何执行某项任务。"
+msgstr "编程就是写出精确的[glossary term=“instructions”]指令[/glossary]的过程，告诉计算机如何执行某项任务。"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:10
 msgid "A game's instructions are, for example: moving a character, drawing a life bar, or playing a sound."
@@ -132,7 +132,7 @@ msgstr "这是一门由游戏开发者开发、为游戏开发者而生的语言
 #: course/lesson-1-what-code-is-like/lesson.bbcode:57
 #, fuzzy
 msgid "It's the language used by games like [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] and [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url], and Godot also powers hits like [ignore][url=https://store.steampowered.com/app/2835570/Buckshot_Roulette/]Buckshot Roulette[/url] and [ignore][url=https://store.steampowered.com/app/2868840/Slay_the_Spire_2/]Slay the Spire 2[/url]."
-msgstr "像游戏 [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] 和 [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]土豆兄弟[/url]都是用Godot制作的."
+msgstr "像 [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]《穹顶守护者》[/url] 和 [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]《土豆兄弟》[/url] 这些游戏就是用这种语言开发的，而 Godot 也助力打造了 [ignore][url=https://store.steampowered.com/app/2835570/Buckshot_Roulette/]《恶魔轮盘》[/url] 和 [ignore][url=https://store.steampowered.com/app/2868840/Slay_the_Spire_2/]《杀戮尖塔 2》[/url] 等热门作品。"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:59
 msgid "GDScript is an excellent language to get started with programming because it's specialized. Unlike some other languages, it doesn't have an [i]overwhelming[/i] amount of features for you to learn."
@@ -440,7 +440,7 @@ msgstr "这段代码定义了一个名为 [code]this_code_is_wrong[/code] 的空
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "To work, the function should use the [glossary term=\"return\"] keyword. But this keyword is currently inside a comment, which the computer ignores."
-msgstr "要让它正常工作，函数需要使用 [code]return[/code] 关键字。但这个关键字目前写在了注释里，计算机会忽略它。"
+msgstr "要让它正常工作，函数需要使用 [glossary term=return] 关键字。但这个关键字目前写在了注释里，计算机会忽略它。"
 
 #: course/lesson-2-your-first-error/lesson.bbcode:41
 #. TRANSLATORS: Practice goal
@@ -484,7 +484,7 @@ msgstr "每一种编程语言都提供了由其他程序员编写的丰富功能
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "We call a bundle of code created by fellow developers a [glossary term=\"library\"]."
-msgstr "我们把其他开发者写好的代码集合称为[i]库[/i]（library）。"
+msgstr "我们把其他开发者写好的代码集合称为[glossary term=library]库[/glossary]。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:10
 msgid "It's a bunch of code sitting there, waiting for you to use it."
@@ -507,7 +507,7 @@ msgstr "写代码时，你总是会用到许多前辈开发者留下的代码。
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "In a moment, you'll write your first code. You'll use [glossary term=\"functions\"] created by the Godot developers."
-msgstr "稍后你就会写下你的第一段代码。你会用到 Godot 开发者们编写的 [i]函数[/i] （function）。"
+msgstr "稍后你就会写下你的第一段代码。你会用到 Godot 开发者们编写的[glossary term=functions]函数[/glossary]。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:19
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
@@ -602,13 +602,13 @@ msgstr "函数参数"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "We use parentheses to call functions because you can give the function [glossary term=\"arguments\"] inside the parentheses when calling it."
-msgstr "调用函数时之所以要写括号，是因为你可以在括号里传入[i]参数[/i]（argument）。"
+msgstr "调用函数时之所以要写括号，是因为你可以在括号里传入[glossary term=arguments]参数[/glossary]（argument）。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:60
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Here's a [glossary term=\"sprite\"] standing straight. If we call the [code]rotate(0.3)[/code] function, the character [i]sprite[/i] turns by 0.3 radians."
-msgstr "这是一个笔直站立的[i]精灵[/i]（sprite）。如果调用 [code]rotate(0.3)[/code] 函数，角色[i]精灵[/i]就会旋转 0.3 弧度。"
+msgstr "这是一个笔直站立的[glossary term=sprite]精灵[/glossary]。如果调用 [code]rotate(0.3)[/code] 函数，角色[i]精灵[/i]就会旋转 0.3 弧度。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:77
 msgid "The [code]0.3[/code] part between the parentheses is the function's [i]argument[/i]."
@@ -644,7 +644,7 @@ msgstr "什么是弧度？"
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "The value of [code]0.3[/code] is an angle in [glossary term=\"radians\"]. In daily life, we're used to measuring angles in degrees. The radian is another scale commonly used in video games and math."
-msgstr "[code]0.3[/code] 这个值是以 [i]弧度[/i] （radian）为单位的角度。日常生活中我们习惯用度数来度量角度，而弧度是电子游戏和数学中另一种常用的度量方式。"
+msgstr "[code]0.3[/code] 这个值是以[glossary term=“radians”]弧度[/glossary]为单位的角度。日常生活中我们习惯用度数来度量角度，而弧度是电子游戏和数学中另一种常用的度量方式。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:79
 #. TRANSLATORS: Note content
@@ -812,7 +812,7 @@ msgstr "机器人歪了。通过函数调用帮它站直。"
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You need to use the rotate() function, and give the proper arguments."
-msgstr "在之前的课程中，你使用了 [code]rotate()[/code] 函数并给了它一个 [b] 参数[/b]。"
+msgstr "你需要使用 rotate() 函数，并传入正确的参数。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
 #. TRANSLATORS: Practice hint
@@ -852,7 +852,7 @@ msgstr "这个小海龟是一个小机器，它能向前移动、转动，并在
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "To make it draw, you give it a list of [glossary term=\"instructions\"]: on each code line, you call one specific function."
-msgstr "为了让它画起来，你要给它一系列的指令：在每一行代码上，调用一个特定的函数。"
+msgstr "为了让它画图，你需要给它一系列[glossary term=“instructions”]指令[/glossary]：在每一行代码上，调用一个特定的函数。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:15
 msgid "We prepared several functions for you:"
@@ -864,10 +864,7 @@ msgid ""
 "- [code]move_forward(pixels)[/code] makes the turtle move forward over a given distance in [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] makes the turtle turn clockwise by a precise amount of [i]degrees[/i].\n"
 "- [code]turn_left(degrees)[/code] works the same as [code]turn_right(degrees)[/code], except the turtle turns counter-clockwise."
-msgstr ""
-"- [code]move_forward(pixels)[/code] 使海龟向前移动 [i]pixels[/i] 中的给定距离。\n"
-"- [code]turn_right(degrees)[/code] 使海龟向右转动 [i]degrees[/i] 度。\n"
-"- [code]turn_left(degrees)[/code] 与 [code]turn_right(degrees)[/code] 相同，只是海龟向左转。"
+msgstr "- [code]move_forward(pixels)[/code] 使海龟向前移动给定的 [i]像素[/i] 距离。  - [code]turn_right(degrees)[/code] 使海龟顺时针精确旋转指定的 [i]度数[/i]。  - [code]turn_left(degrees)[/code] 与 [code]turn_right(degrees)[/code] 作用相同，只是海龟逆时针旋转。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:17
 msgid "You'll use these functions the same way you used [code]rotate()[/code] before."
@@ -997,7 +994,7 @@ msgstr "使用海龟画一个正方形的角。 然后，你将在它的基础�
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You need to add two arguments to the [code]turn_right()[/code] and [code]move_forward()[/code] functions: [code]90[/code] and [code]200[/code]."
-msgstr "为此，请将 [code]rotate()[/code] 和 [code]move_local_x()[/code] 函数添加到 [code]_process()[/code]。"
+msgstr "你需要在 [code]turn_right()[/code] 和 [code]move_forward()[/code] 函数中添加两个参数：[code]90[/code] 和 [code]200[/code]。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
 #. TRANSLATORS: Practice goal
@@ -1023,7 +1020,7 @@ msgstr "根据你画过的直角，现在需要绘制一个完整的矩形。"
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Both [code]move_forward()[/code] and [code]turn_right()[/code] take a numerical argument between the parenthesis"
-msgstr "使用 [code]move_forward()[/code] 和 [code]turn_right()[/code] 函数来指示海龟。"
+msgstr "[code]move_forward()[/code] 和 [code]turn_right()[/code] 都在括号内接受一个数字参数"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:122
@@ -1094,7 +1091,7 @@ msgstr "函数是指令序列"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Functions are [i]sequences of [glossary term=\"instructions\"][/i] we give a name. We call that name an [i]identifier[/i]."
-msgstr "对一些[i]指令序列[/i]起个名字就是一个函数。 我们称这个名字为[i]标识符[/i]。"
+msgstr "函数是[i]被命名的[glossary term=“instructions”]指令[/glossary]序列[/i]。我们称这个名字为[i]标识符[/i]。"
 
 #: course/lesson-5-your-first-function/lesson.bbcode:10
 msgid "Using the identifier, we can get the computer to execute all the instructions inside the function as many times as we need. This is what a [i]function call[/i] does."
@@ -1374,7 +1371,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Your new function should call [code]draw_square()[/code] three times, on three different lines."
-msgstr "你有这个绘制一个正方形的函数：[code]draw_square()[/code]。 用它来画三个正方形。"
+msgstr "你的新函数应该调用 [code]draw_square()[/code] 三次，分别写在三行不同的代码上。"
 
 #: course/lesson-5-your-first-function/lesson.bbcode:123
 #. TRANSLATORS: Practice hint
@@ -1398,13 +1395,13 @@ msgstr "这个功能有点限制。 相反，如果我们有一个函数来绘�
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "In previous lessons, you used the [code]rotate()[/code] function and gave it an [glossary term=\"argument\"]."
-msgstr "在之前的课程中，你使用了 [code]rotate()[/code] 函数并给了它一个 [b] 参数[/b]。"
+msgstr "在之前的课程中，你使用了 [code]rotate()[/code] 函数并给了它一个 [glossary term=“argument”]参数[/glossary]。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:11
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]."
-msgstr "就像 [code]rotate()[/code] 一样，我们也可以给我们的函数 [i]参数[/i]。 参数是你传递给函数的值的标签。"
+msgstr "就像 [code]rotate()[/code] 一样，我们也可以给我们的函数添加[glossary term=“参数”]。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:12
 msgid "Parameters act as [i]placeholders[/i] in the function's code. They work like blank spaces that get filled in each time someone calls your function."
@@ -1496,7 +1493,7 @@ msgstr "参数让你的代码更易于重复使用。你只需把函数作为模
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:59
 #, fuzzy
 msgid "Here's an example with a function to draw any square. The parameter [code]size[/code] is a placeholder. Use the slider to change the value. When you click the button, the app calls [code]draw_square()[/code] and the placeholder gets replaced with your value, drawing squares of different sizes."
-msgstr "这是一个绘制任意正方形的函数的示例。 参数 [code]length[/code] 是一个占位符。使用滑块来调整数值。点击按钮时，应用会调用 [code]draw_square()[/code] ，占位符将会被替换为你设定的值，然后绘制不同大小的正方形。"
+msgstr "这是一个绘制任意正方形的函数的示例。参数 [code]size[/code] 是一个占位符。使用滑块来调整数值。点击按钮时，应用会调用 [code]draw_square()[/code]，占位符将会被替换为你设定的值，然后绘制不同大小的正方形。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:60
 #. TRANSLATORS: Quiz question
@@ -1577,7 +1574,7 @@ msgstr "以下示例展示了一个带有两个参数的函数。该函数可在
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:93
 #, fuzzy
 msgid "When you call [code]move_local_xy(50, 100)[/code], every [code]offset_x[/code] in the function gets replaced with [code]50[/code], and every [code]offset_y[/code] gets replaced with [code]100[/code]."
-msgstr "当你调用 [code]move(50, 100)[/code] 时，函数中的所有 [code]x[/code] 都会被替换为 [code]50[/code] ，所有 [code]y[/code] 都会被替换为 [code]100[/code] 。"
+msgstr "当你调用 [code]move_local_xy(50, 100)[/code] 时，函数中的所有 [code]offset_x[/code] 都会被替换为 [code]50[/code] ，所有 [code]offset_y[/code] 都会被替换为 [code]100[/code] 。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:94
 #. TRANSLATORS: Note title
@@ -1794,10 +1791,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use [code]func draw_corner(length, angle):[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
+msgstr "使用 [code]func draw_corner(length, angle):[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice title
@@ -1852,10 +1846,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use [code]func draw_square(length):[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
+msgstr "使用 [code]func draw_square(length):[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice hint
@@ -1925,10 +1916,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use [code]func draw_rectangle(length, height):[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
+msgstr "使用 [code]func draw_rectangle(length, height):[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice hint
@@ -1966,7 +1954,7 @@ msgstr "还有很多很多。你需要存储、读取和更新这些值。"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "We call those values [i][glossary term=\"variables\"][/i]. Variables are labels you use to keep track of values that vary over time. Here's an example of a variable tracking a character or monster's health."
-msgstr "我们把这些值称为 [i]变量[/i] （variable）。变量就是用来追踪随时间变化的值的标签。下面是一个追踪角色或怪物生命值的变量示例。"
+msgstr "我们把这些值称为 [i][glossary term=“variables”]变量[/glossary][/i]。变量是用来追踪随时间变化的值的标签。下面是一个追踪角色或怪物生命值的变量示例。"
 
 #: course/lesson-7-member-variables/lesson.bbcode:21
 msgid "The line above defines a new variable named [code]health[/code] and assigns it a starting value of [code]100[/code] (that's what the equal sign does, more on that below)."
@@ -1980,7 +1968,7 @@ msgstr "你在上一课中见过的函数参数，也是变量的一种。"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "In this lesson, we start using variables built into Godot. They're a particular kind called [i][glossary term=\"member variables\"][/i]."
-msgstr "本课中，我们从使用 Godot 内置的变量开始。它们是一种特殊的类型，叫做 [i]成员变量[/i] （member variable）。"
+msgstr "本课中，我们从使用 Godot 内置的变量开始。它们是一种特殊的类型，叫做 [i][glossary term=“成员变量”][/i]。"
 
 #: course/lesson-7-member-variables/lesson.bbcode:24
 msgid "Member variables are values attached to a game entity. They're useful properties like the [code]position[/code], [code]rotation[/code], and [code]scale[/code] of a character."
@@ -2202,7 +2190,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You need to pass the numbers 200 and 120 respectively to draw_rectangle()."
-msgstr "你需要替换代码编辑器中的数字，来画出正确的矩形。"
+msgstr "你需要分别将数字 200 和 120 传递给 draw_rectangle()。"
 
 #: course/lesson-7-member-variables/lesson.bbcode:133
 #. TRANSLATORS: Practice title
@@ -2263,7 +2251,7 @@ msgstr "定义你自己的变量"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "In the previous lesson, you used a predefined member [glossary term=\"variable\"] named [code]position[/code]."
-msgstr "在上一课中，你使用了一个名为 [code]position[/code] 的预定义成员变量。"
+msgstr "在上一课中，你使用了一个名为 [code]position[/code] 的预定义[glossary term=“variable”]变量[/glossary]。"
 
 #: course/lesson-8-defining-variables/lesson.bbcode:4
 msgid "In your projects, you will need to define your own variables."
@@ -2330,7 +2318,7 @@ msgstr "与函数一样，成员变量的名称在给定代码文件中必须是
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "To use a variable, you want to [glossary term=\"assign\"] it a starting value. You can do so using the equal sign (=)."
-msgstr "要使用变量，你需要为其分配一个起始值。你可以使用等号 (=) 执行此操作。"
+msgstr "要使用变量，你需要为其[glossary term=“assign”]分配[/glossary]一个起始值。你可以使用等号 (=) 执行此操作。"
 
 #: course/lesson-8-defining-variables/lesson.bbcode:42
 msgid "This code assigns the value [code]100[/code] to a new variable named [code]health[/code]."
@@ -2454,7 +2442,7 @@ msgstr "在本练习中，你将定义你的第一个变量并为其指定一个
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "To define a variable, you write the keyword var, a space, and the variable name"
-msgstr "要访问子变量，需要在父变量名和子变量名之间写一个点号。"
+msgstr "要定义一个变量，你需要写下关键字 var，一个空格，然后是变量名"
 
 #: course/lesson-8-defining-variables/lesson.bbcode:100
 #. TRANSLATORS: Practice hint
@@ -2595,7 +2583,7 @@ msgstr "学习如何处理对类似这个机器人的实体造成伤害的功能
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Add an instruction to subtract [code]amount[/code] from [code]health[/code]."
-msgstr "第 2 行从 [code]health[/code] 中减去 [code]amount[/code]（一定数量）。"
+msgstr "添加一条指令，从 [code]health[/code] 中减去 [code]amount[/code]。"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:72
 #. TRANSLATORS: Practice title
@@ -2631,7 +2619,7 @@ msgstr "在扣血练习后我们的机器人需要治疗！创建一个函数来
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Define the [code]heal()[/code] function using [code]func[/code]"
-msgstr "之前我们把 [code]range()[/code] 函数和 [code]for[/code] 循环结合使用。"
+msgstr "使用 [code]func[/code] 定义 [code]heal()[/code] 函数"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:72
 #. TRANSLATORS: Practice hint
@@ -2787,13 +2775,13 @@ msgstr "每帧大概旋转 [code]0.05[/code] 弧度应该就够了。"
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Call the [code]rotate()[/code] function"
-msgstr "以 [code]_process()[/code] 函数为例。"
+msgstr "调用 [code]rotate()[/code] 函数"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "The [code]rotate()[/code] function takes one parameter"
-msgstr "[code]_process()[/code] 函数有一个参数：[code]delta[/code]。"
+msgstr "[code]rotate()[/code] 函数接受一个参数"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:85
 #. TRANSLATORS: Practice title
@@ -2820,7 +2808,7 @@ msgstr "使用每帧 [code]0.05[/code] 弧度的旋转速度，每帧移动机�
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Call the [code]rotate()[/code] and [code]move_local_x()[/code] functions"
-msgstr "为此，请将 [code]rotate()[/code] 和 [code]move_local_x()[/code] 函数添加到 [code]_process()[/code]。"
+msgstr "调用 [code]rotate()[/code] 和 [code]move_local_x()[/code] 函数"
 
 #: course/lesson-11-time-delta/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -3126,7 +3114,7 @@ msgstr "机器人应该每秒旋转 [code]2[/code] 弧度。"
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Multiply the radians by [code]delta[/code]"
-msgstr "要进行转换，请将单元格坐标乘以[code]cell_size[/code]。"
+msgstr "将弧度乘以 [code]delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.bbcode:146
 #. TRANSLATORS: Practice title
@@ -3152,7 +3140,7 @@ msgstr "[b]请注意：[/b]在调用函数时请将值写在函数的小括号�
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Make sure to multiply each parameter by [code]delta[/code]"
-msgstr "要进行转换，请将单元格坐标乘以[code]cell_size[/code]。"
+msgstr "确保每个参数都乘以 [code]delta[/code]"
 
 #: course/lesson-12-using-variables/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -3348,13 +3336,13 @@ msgstr "使用变量来存储数值，代码会更易于阅读。通过将值存
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Define the [code]angular_speed[/code] variable at the top of the script to make it script-wide"
-msgstr "我们创建了 [code]angular_speed[/code] 变量，然后为它分配 [code]4[/code] 的值。"
+msgstr "在脚本顶部定义 [code]angular_speed[/code] 变量，使其在整个脚本中可用"
 
 #: course/lesson-12-using-variables/lesson.bbcode:85
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Don't forget to use it in the [code]rotate()[/code] function"
-msgstr "以 [code]_process()[/code] 函数为例。"
+msgstr "别忘了在 [code]rotate()[/code] 函数中使用它"
 
 #: course/lesson-12-using-variables/lesson.bbcode:85
 #. TRANSLATORS: Practice hint
@@ -3640,11 +3628,7 @@ msgid ""
 "[code]==[/code] Equal to\n"
 "[code]!=[/code] Not equal to\n"
 "[/ul]"
-msgstr ""
-"[code]>[/code] 意思是“大于”\n"
-"[code]<[/code] 意思是“小于”\n"
-"[code]==[/code] 意思是“等于”\n"
-"[code]!=[/code] 表示“不等于”"
+msgstr "[ul] [code]>[/code] 大于 [code]<[/code] 小于 [code]==[/code] 等于 [code]!=[/code] 不等于 [/ul]"
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice goal
@@ -3655,7 +3639,7 @@ msgstr ""
 #. TRANSLATORS: Practice description
 #, fuzzy
 msgid "Comparing values allows us to make decisions in code. But there's something wrong with these statements..."
-msgstr "比较值的大小的话，就能在代码中做出各种决定。但是这里的代码状况有点不对头。。"
+msgstr "比较值的大小的话，就能在代码中做出各种决定。但是这里的代码状况有点不对头……"
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice hint
@@ -3664,13 +3648,15 @@ msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Remember: you only need to change the [code]>[/code], [code]<[/code], [code]==[/code], or [code]!=[/code] symbols. Do not change numbers or the [code]print()[/code] calls!"
-msgstr ""
+msgstr "请记住：你只需修改[code]>[/code]、[code]<[/code]、[code]==[/code]或[code]!=[/code]这些符号。请勿修改数字或[code]print()[/code]调用！"
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "For the last line, \"not equal to seven\" means you need the [code]!=[/code] sign: [code]health != 7[/code]."
-msgstr ""
+msgstr "关于最后一行，“不等于七”意味着你需要使用[code]!=[/code]运算符：[code]health != 7[/code]。"
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice title
@@ -3679,19 +3665,21 @@ msgstr "约束回血量"
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "The [code]heal()[/code] function adds [code]amount[/code] to [code]health[/code]. But right now, health can increase forever, without limit! We want to stop it at [code]80[/code]."
-msgstr ""
+msgstr "[code]heal()[/code]函数将[code]amount[/code]加到[code]health[/code]上。但目前，生命值可以无限增长，没有上限！我们希望将其限制在[code]80[/code]。"
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "I've defined a [code]health[/code] variable for you with a starting value of [code]20[/code]. Your task is to add a condition inside [code]heal()[/code] so that health is never greater than [code]80[/code]."
-msgstr ""
+msgstr "我已为您定义了一个名为[code]health[/code]的变量，初始值为[code]20[/code]。您的任务是在[code]heal()[/code]中添加一个条件，确保生命值永远不会超过[code]80[/code]。"
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "To check your code, I will call the [code]heal()[/code] function twice, like this:"
-msgstr "下面的循环将更改 [code]cell[/code] 三次。"
+msgstr "为了检查你的代码，我会像这样调用两次 [code]heal()[/code] 函数："
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
@@ -3699,15 +3687,13 @@ msgstr "下面的循环将更改 [code]cell[/code] 三次。"
 msgid ""
 "[code]heal(40)[/code]\n"
 "[code]heal(40)[/code]"
-msgstr ""
-"[code]draw_corner(240)[/code]\n"
-"[code]draw_corner(120)[/code]"
+msgstr "[code]heal(40)[/code] 函数被调用两次，如下所示：  [code]heal(40)[/code]"
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "After those two calls, [code]health[/code] should be equal to [code]80[/code]."
-msgstr "在这种情况下，需要你先把 [code]health[/code] 数字转换为 [code]String[/code]。"
+msgstr "两次调用后，[code]health[/code] 应等于 [code]80[/code]。"
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice description
@@ -3723,12 +3709,13 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use [code]if health > 80:[/code] to detect when health went too high."
-msgstr "[code]health < 5:[/code] 行的意思是“生命值小于 5（health is less than 5）”。"
+msgstr "使用 [code]if health > 80:[/code] 来检测血量是否过高。"
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Inside that [code]if[/code] block, set health back to the limit: [code]health = 80[/code]. That's how you limit the value."
-msgstr ""
+msgstr "在[code]if[/code]代码块内，将生命值重置为上限：[code]health = 80[/code]。这就是限制数值的做法。"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice title
@@ -3737,14 +3724,15 @@ msgstr "防止血量低于零"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "We want to display the health number on screen, like in many RPGs. But currently, the health can go below 0, which does not make sense. We want to stop at [code]0[/code]."
-msgstr ""
+msgstr "我们希望像许多RPG游戏那样在屏幕上显示生命值。但目前，生命值可能会降至0以下，这并不合理。我们希望将其限制在[code]0[/code]。"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "Complete the [code]take_damage()[/code] function so it does two things:"
-msgstr "添加新代码到 [code]take_damage()[/code] 函数，以实现下述功能："
+msgstr "完善 [code]take_damage()[/code] 函数，使其完成以下两件事："
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
@@ -3752,27 +3740,31 @@ msgstr "添加新代码到 [code]take_damage()[/code] 函数，以实现下述�
 msgid ""
 "1. Subtract [code]amount[/code] from [code]health[/code].\n"
 "2. If [code]health[/code] is below [code]0[/code] after that, set it back to [code]0[/code]."
-msgstr "如果 [code]health[/code] 低于 [code]0[/code]，请重新将其设置为 [code]0[/code]。"
+msgstr "1. 从 [code]health[/code] 中减去 [code]amount[/code]。 2. 如果之后 [code]health[/code] 低于 [code]0[/code]，则将其重置为 [code]0[/code]。"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "To check your code, I will call your [code]take_damage()[/code] function three times, like this:"
-msgstr "添加新代码到 [code]take_damage()[/code] 函数，以实现下述功能："
+msgstr "为了检查你的代码，我会像这样调用你的 [code]take_damage()[/code] 函数三次："
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid ""
 "[code]take_damage(10)[/code]\n"
 "[code]take_damage(10)[/code]\n"
 "[code]take_damage(10)[/code]"
 msgstr ""
+"[code]take_damage(10)[/code]\n"
+"[code]take_damage(10)[/code]\n"
+"[code]take_damage(10)[/code]"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "After those three calls, [code]health[/code] should equal [code]0[/code], and not [code]-10[/code] or another value."
-msgstr "如果 [code]health[/code] 低于 [code]0[/code]，请重新将其设置为 [code]0[/code]。"
+msgstr "在这三次调用之后，[code]health[/code] 应该等于 [code]0[/code]，而不是 [code]-10[/code] 或其他值。"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice description
@@ -3781,23 +3773,27 @@ msgstr "值是负数的血量不怎么合理。确保机器人的血量不能低
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Start by subtracting the damage: [code]health -= amount[/code]. This is how you apply damage."
-msgstr ""
+msgstr "首先扣除伤害值：[code]health -= amount[/code]。这就是应用伤害的方式。"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "To limit the health, after subtracting the amount, you need to add a condition and reset the health."
-msgstr ""
+msgstr "为了限制生命值，在减去数值后，你需要添加一个条件并重置生命值。"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Here's how to write a condition to check if health went below zero: [code]if health < 0:[/code]."
-msgstr ""
+msgstr "以下是编写条件语句以检查生命值是否低于零的方法：[code]if health < 0:[/code]。"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Inside the [code]if[/code] block, you can reset the health like this: [code]health = 0[/code]."
-msgstr ""
+msgstr "在[code]if[/code]代码块内，你可以像这样重置生命值：[code]health = 0[/code]。"
 
 #: course/lesson-14-multiplying/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -3968,8 +3964,9 @@ msgstr "我们想让机器人随升级而变强。让我们指数式地增加它
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "To increase a number by 10%, multiply it by [code]1.1[/code]"
-msgstr ""
+msgstr "要将一个数值增加10%，请将其乘以[code]1.1[/code]"
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice title
@@ -4003,14 +4000,15 @@ msgstr "在更高的等级上，我们希望我们的机器人超级强悍并且
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You need to use an [code]if[/code] statement at the top of the function to check if the robot's [code]level[/code] is greater than [code]2[/code]"
-msgstr ""
+msgstr "你需要在函数开头使用[code]if[/code]语句，检查机器人的[code]level[/code]是否大于[code]2[/code]"
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "To reduce the [code]amount[/code], multiply it by a value less than [code]1[/code]"
-msgstr "然后，[code]damage *= 2[/code] 是把damage乘以 [code]2[/code] 达到 [code]30[/code]。"
+msgstr "要减少[code]amount[/code]，将其乘以一个小于[code]1[/code]的值"
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
@@ -4194,12 +4192,13 @@ msgstr "为了直观地显示我们的机器人已经变强了，让我们在每
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You can add a line to increase the [code]scale[/code] anywhere in the [code]level_up()[/code] function"
-msgstr "在调用 [code]add_order()[/code] 函数时，我们可以用字符串来表示一道菜品。"
+msgstr "你可以在 [code]level_up()[/code] 函数中的任意位置添加一行代码来增加 [code]scale[/code]。"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You can't use instructions like [code]scale.x += 0.2[/code] for this practice. Instead, you should use a [code]Vector2[/code]"
-msgstr ""
+msgstr "在本次练习中，你不能使用[code]scale.x += 0.2[/code]之类的指令。相反，你应该使用[code]Vector2[/code]"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice title
@@ -4243,14 +4242,15 @@ msgstr "也许每次升级都变大是个坏主意！让我们将机器人恢复
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "To define the function, we use the [code]func[/code] keyword"
-msgstr ""
+msgstr "要定义该函数，我们使用[code]func[/code]关键字"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "The first line is [code]func reset_robot():[/code]"
-msgstr "机器人的起始单元是 [code]Vector2(2, 0)[/code]。"
+msgstr "第一行是 [code]func reset_robot():[/code]"
 
 #: course/lesson-17-while-loops/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4451,19 +4451,21 @@ msgstr "移动到格子棋盘的终点"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "The robot has decided to stand at the top of the board and your job is to move it down to the bottom row. Complete the [code]move_to_bottom()[/code] function to do this."
-msgstr ""
+msgstr "机器人决定站在棋盘顶部，你的任务是将其移动到最底一行。请完成[code]move_to_bottom()[/code]函数来实现这一目标。"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "We store the robot's position in a variable named [code]cell[/code]. The variable starts with the value [code]Vector2(2, 0)[/code], meaning the robot is in column 2, row 0 (row 0 is the top of the board)."
-msgstr ""
+msgstr "我们将机器人的位置存储在一个名为[code]cell[/code]的变量中。该变量的初始值为[code]Vector2(2, 0)[/code]，表示机器人位于第2列、第0行（第0行即棋盘顶部）。"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "The board size is stored in a variable named [code]board_size[/code] that contains a [code]Vector2[/code] value."
-msgstr "定义一个名为 [code]health[/code] 的变量，其起始值为 [code]100[/code]。"
+msgstr "棋盘大小存储在一个名为 [code]board_size[/code] 的变量中，该变量包含一个 [code]Vector2[/code] 值。"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
@@ -4480,23 +4482,27 @@ msgstr "用 while 循环让机器人从棋盘的顶部移动到底部。"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "On this board, rows go from top to bottom. Think about which part of [code]cell[/code] controls the row the robot is on."
-msgstr ""
+msgstr "在这个棋盘上，行是从上到下的。请思考[code]cell[/code]中的哪一部分控制着机器人所在的行。"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "[code]cell.y[/code] is the robot's current row. To move the robot down one row, increase [code]cell.y[/code] by 1. Your [code]while[/code] loop should do this repeatedly until the robot reaches the last row."
-msgstr ""
+msgstr "[code]cell.y[/code] 是机器人当前所在的行。要让机器人向下移动一行，将[code]cell.y[/code]加1。你的[code]while[/code]循环应重复执行此操作，直到机器人到达最后一行为止。"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The last row is [code]board_size.y - 1[/code], because rows are counted from 0."
-msgstr ""
+msgstr "最后一行为[code]board_size.y - 1[/code]，因为行号是从0开始计数的。"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use [code]while cell.y < board_size.y - 1:[/code] as your loop condition, and increase [code]cell.y[/code] inside the loop."
-msgstr ""
+msgstr "将[code]while cell.y < board_size.y - 1:[/code]作为循环条件，并在循环内部递增[code]cell.y[/code]。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4673,18 +4679,19 @@ msgstr "使用 for 循环让机器人从棋盘的顶部移动到底部。"
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You'll have to alter the [code]y[/code] sub-variable of [code]cell[/code] to move the robot downwards"
-msgstr "例如，要访问变量 [code]position[/code] 的子变量 [code]x[/code]，就写 [code]position.x[/code]。"
+msgstr "你需要修改 [code]cell[/code] 的 [code]y[/code] 子变量，让机器人向下移动"
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Call [code]range(n)[/code] to get a list of numbers from [code]0[/code] to [code]n - 1[/code]"
-msgstr "Godot 有这个叫 [code]range()[/code] 的辅助函数 。 调用 [code]range(n)[/code] 会创建一个从 [code]0[/code] 到 [code]n - 1[/code] 的数字列表。"
+msgstr "调用 [code]range(n)[/code] 会创建一个从 [code]0[/code] 到 [code]n - 1[/code] 的数字列表。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use [code]for number in range(board_size.y - 1):[/code] to loop enough times."
-msgstr ""
+msgstr "使用[code]for number in range(board_size.y - 1):[/code]进行足够次数的循环。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:101
 #. TRANSLATORS: Practice title
@@ -4718,8 +4725,9 @@ msgstr "在过去，要绘制多个矩形必须复制和粘贴代码。 让我�
 
 #: course/lesson-18-for-loops/lesson.bbcode:101
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use the line [code]for number in range(3):[/code]"
-msgstr ""
+msgstr "使用以下代码行：[code]for number in range(3):[/code]"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4892,13 +4900,15 @@ msgstr "帮助小海龟找到通往机器人的位置的路！ 告诉它一条�
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Any path that doesn't touch rocks is valid. The turtle could first move down or to the right. So the first value could either be [code]Vector2(1, 0)[/code] or [code]Vector2(0, 1)[/code]."
-msgstr ""
+msgstr "任何不接触岩石的路径都是有效的。海龟可以先向下或向右移动。因此，第一个值可以是[code]Vector2(1, 0)[/code]，也可以是[code]Vector2(0, 1)[/code]。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Every [code]Vector2[/code] in the array should be one unit away from the previous one. That means there should only be a difference of 1 on the X-axis or the Y-axis between two [code]Vector2[/code] in the array."
-msgstr ""
+msgstr "数组中的每个[code]Vector2[/code]都应与前一个相距一个单位。这意味着数组中任意两个[code]Vector2[/code]在X轴或Y轴上的坐标差值应仅为1。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 #. TRANSLATORS: Practice title
@@ -4932,8 +4942,9 @@ msgstr "在策略游戏里，写一个数组，选中棋盘上的所有单位。
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You can write [code]Vector2[/code] values inside the brackets in the function call: [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
-msgstr ""
+msgstr "你可以在函数调用的方括号内写入[code]Vector2[/code]的值：[code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4964,7 +4975,7 @@ msgstr "对于数组中的每个元素，[code]for[/code] 循环将其提取出�
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Inside the loop, you can access the [code]number[/code] variable, which changes on each [i][glossary term=\"iteration\"][/i]."
-msgstr "在循环内部，可以访问到 [code]number[/code] 变量，该变量在每次 [i]迭代[/i] 时都会发生变化。"
+msgstr "在循环内部，可以访问到 [code]number[/code] 变量，该变量在每次 [i][glossary term=“迭代”][/i] 时都会发生变化。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:19
 msgid "The code works regardless of the array or where you store it. Often, you will store arrays in variables for easy access."
@@ -5029,7 +5040,7 @@ msgstr "与选中多个单位的原理是相同的。"
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:60
 #, fuzzy
 msgid "For each coordinate in an array named [code]selected_units[/code], we check if there is a unit in that cell. If so, we select it. "
-msgstr "对于名为 [code]selected_units[/code] （选中单位）的数组中的每个坐标，我们检查该单元格中是否有一个单元。 如果是这样，选中它。"
+msgstr "对于名为 [code]selected_units[/code] 的数组中的每个坐标，我们检查该单元格中是否有单位。如果有，就选中它。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:61
 msgid "In that case, we use an array, a loop, and a condition together."
@@ -5103,14 +5114,15 @@ msgstr "我们的 AI 寻路算法为我们提供了移动机器人的路径。 �
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You should start with a for loop that iterates over every cell in [code]robot_path[/code]."
-msgstr ""
+msgstr "你应该先使用一个 for 循环，遍历 [code]robot_path[/code] 中的每个单元格。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You need to pass the cell position to the robot's [code]move_to()[/code] function in the loop."
-msgstr "你需要用数组的 [code]pop_back()[/code] 函数，从上到下依次移除它们。"
+msgstr "你需要在循环中将单元格位置传递给机器人的 [code]move_to()[/code] 函数。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice title
@@ -5149,18 +5161,21 @@ msgstr "绘图小海龟卷土重来。 不要害怕！ 装备循环这个新武�
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Each value in the [code]rectangle_sizes[/code] array is a [code]Vector2[/code]. You'll need to access its [code]x[/code] and [code]y[/code] sub-components to draw rectangles."
-msgstr ""
+msgstr "[code]rectangle_sizes[/code]数组中的每个值都是一个[code]Vector2[/code]对象。你需要访问其[code]x[/code]和[code]y[/code]子组件来绘制矩形。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "In the loop, you first need to call [code]draw_rectangle()[/code], and then [code]jump()[/code]. Otherwise, at least two rectangles will overlap."
-msgstr ""
+msgstr "在循环中，你需要先调用[code]draw_rectangle()[/code]，然后调用[code]jump()[/code]。否则，至少会有两个矩形重叠。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The arguments when calling [code]jump()[/code] can just be large enough to space out the rectangles. For example, [code]jump(300, 0)[/code]"
-msgstr ""
+msgstr "调用[code]jump()[/code]时，参数的尺寸只需足够让矩形之间留出间隙即可。例如：[code]jump(300, 0)[/code]"
 
 #: course/lesson-21-strings/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5273,13 +5288,15 @@ msgstr "通过把字符串存储在变量中，给机器人一个可读的名称
 
 #: course/lesson-21-strings/lesson.bbcode:52
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Strings need to be wrapped in quotes like \"Robi\"."
-msgstr ""
+msgstr "字符串需要用引号括起来，例如 \"Robi\"。"
 
 #: course/lesson-21-strings/lesson.bbcode:52
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Replace the number 0 with your string (the robot's name)."
-msgstr ""
+msgstr "将数字 0 替换为你的字符串（机器人的名字）。"
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice title
@@ -5302,19 +5319,19 @@ msgstr "该机器人具有以下动画名称："
 msgid ""
 "- [code]\"jab\"[/code] (makes the robot perform a quick punch)\n"
 "- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)"
-msgstr ""
-"- [code]jab[/code]（让机器人快速出拳）\n"
-"- [code]uppercut[/code]（机器人使用强力的上勾拳）"
+msgstr "- [code]jab[/code]（让机器人快速出拳）  - [code]uppercut[/code]（机器人使用强力的上勾拳）"
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "I defined the [code]combo[/code] variable at the top of the script. Fill its array with three animation names: two jabs followed by one uppercut."
-msgstr ""
+msgstr "我在脚本开头定义了[code]combo[/code]变量。将其数组填充为三个动画名称：两个直拳，随后是一个上勾拳。"
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "Then, in the [code]run()[/code] function, write a [code]for[/code] loop that goes through each item in the [code]combo[/code] variable and calls [code]play_animation()[/code] with that animation name."
-msgstr ""
+msgstr "然后，在[code]run()[/code]函数中，编写一个[code]for[/code]循环，遍历[code]combo[/code]变量中的每个项，并使用该动画名称调用[code]play_animation()[/code]。"
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice description
@@ -5323,14 +5340,15 @@ msgstr "定义一个字符串数组以释放强力组合技。"
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Make sure to use (\"\") for each animation name when you add them to the combo array"
-msgstr ""
+msgstr "将动画名称添加到组合数组时，请确保每个动画名称都使用 (\"\")"
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use a for loop and the [code]play_animation()[/code] function for each animation name"
-msgstr "然后，对于数组中的每个动作名，调用 [code]play_animation()[/code] 函数来依次播放它们。"
+msgstr "使用 for 循环，为每个动画名称调用 [code]play_animation()[/code] 函数"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5345,7 +5363,7 @@ msgstr "到目前为止，你已经了解到函数是一种将指令分组、为
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Functions can also make calculations and [glossary term=\"return\"] new values."
-msgstr "函数也可以进行计算并[i]return[/i]新的值。"
+msgstr "函数也可以进行计算并[glossary term=return]返回[/glossary]新的值。"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:7
 msgid "Let's look at some examples to see why this is useful."
@@ -5523,13 +5541,13 @@ msgstr "我们需要一个函数来将网格坐标转换为像素位置。请完
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "To convert a cell coordinate to pixels, multiply the [code]cell[/code] by [code]cell_size[/code]."
-msgstr "要进行转换，请将单元格坐标乘以[code]cell_size[/code]。"
+msgstr "要将单元格坐标转换为像素，请将[code]cell[/code]乘以[code]cell_size[/code]。"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use the [code]return[/code] keyword to send the result back. For example: [code]return cell * cell_size[/code]"
-msgstr "[code]return[/code]关键字将计算出的值返回给调用该函数的代码。"
+msgstr "使用 [code]return[/code] 关键字将结果返回。例如：[code]return cell * cell_size[/code]"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5684,13 +5702,15 @@ msgstr "厨房里的订单越堆越多，我们需要用数组的 [code]pop_fron
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You first need to pop the first value from the pending orders array. To pop a value from the front of an array, you call [code]array.pop_front()[/code]."
-msgstr ""
+msgstr "首先，你需要从待处理订单数组中弹出第一个值。要从数组前端弹出一个值，需调用[code]array.pop_front()[/code]。"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You then need to append the popped value to the completed_orders array. To append a value to an array, you can call [code]array.append()[/code]."
-msgstr ""
+msgstr "然后，你需要将弹出的值追加到 completed_orders 数组中。要将一个值追加到数组中，可以调用[code]array.append()[/code]。"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
 #. TRANSLATORS: Practice title
@@ -5731,7 +5751,7 @@ msgstr "箱子在平台上越堆越多。从数组中把它们弹出来，腾出
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Think about how [code]while[/code] loops work."
-msgstr "[code]while[/code] 循环还有很多其他好用途："
+msgstr "思考一下 [code]while[/code] 循环是如何工作的。"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
@@ -5859,7 +5879,7 @@ msgstr "[b]检查数组的大小[/b]"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Arrays come with a [glossary term=\"member function\"] named [code]size()[/code]. You can call it on the array anytime to know its [i]current[/i] size."
-msgstr "数组自带一个名为 [code]size()[/code] 的成员函数。你可以随时在数组上调用它，来获取数组 [i]当前[/i] 的大小。"
+msgstr "数组自带一个名为 [code]size()[/code] 的[glossary term='member function']成员函数[/glossary]。你可以随时在数组上调用它，来获取数组 [i]当前[/i] 的大小。"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:63
 msgid "The maximum index you can access in an array is [code]array.size() - 1[/code]: it's the last item in the array."
@@ -5971,7 +5991,7 @@ msgstr "但是，仅使用一个物品名称的数组，没办法轻松跟踪每
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Instead, we can bundle the item names and amounts into a single [glossary term=\"dictionary\"]."
-msgstr "更进一步的话，可以将物品名称和数量捆绑到同一个 [i]字典[/i]（dictionary） 中。"
+msgstr "更进一步的话，可以将物品名称和数量捆绑到同一个 [glossary term=dictionary]字典[/glossary] 中。"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:10
 msgid "A dictionary is a data structure that allows you to map pairs of values. In the pair, we call the first value a [i]key[/i] as we use it to access the second."
@@ -6325,7 +6345,7 @@ msgstr "我们需要在屏幕上显示玩家有什么物品。使用循环来展
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "The [code]display_item()[/code] function needs the item name and its amount. You need to get the amount using the item name as a key in the [code]inventory[/code] dictionary."
-msgstr "为此，请调用 [code]display_item()[/code]（显示物品）函数。它有两个参数：name（物品名称）和amount（数量）。"
+msgstr "[code]display_item()[/code] 函数需要物品名称和数量。你需要使用物品名称作为键，在 [code]inventory[/code] 字典中获取数量。"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 #. TRANSLATORS: Practice hint
@@ -6371,7 +6391,7 @@ msgstr "值类型"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "In your code, values have a particular [glossary term=\"type\"]. You have already learned about several: whole numbers, decimal numbers, strings, 2D vectors, arrays, and dictionaries."
-msgstr "在你的代码中，不同的值是有特定的[i]类型[/i]的。 其实你已经见过了这几种：整数、小数、字符串、二维向量、数组还有字典。"
+msgstr "在你的代码中，值都有特定的[glossary term=类型]。你已经学过好几种了：整数、小数、字符串、二维向量、数组，还有字典。"
 
 #: course/lesson-27-value-types/lesson.bbcode:4
 msgid "The computer uses the type of a value to know which operations and functions you can use with them."

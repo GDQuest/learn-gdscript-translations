@@ -132,7 +132,7 @@ msgstr "Dies ist eine Sprache von Spieleentwicklern für Spieleentwickler. Sie k
 #: course/lesson-1-what-code-is-like/lesson.bbcode:57
 #, fuzzy
 msgid "It's the language used by games like [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] and [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url], and Godot also powers hits like [ignore][url=https://store.steampowered.com/app/2835570/Buckshot_Roulette/]Buckshot Roulette[/url] and [ignore][url=https://store.steampowered.com/app/2868840/Slay_the_Spire_2/]Slay the Spire 2[/url]."
-msgstr "Sie wird in Spielen wie [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] und [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url] verwendet."
+msgstr "Es ist die Sprache, die von Spielen wie [ignore][url=https://store.steampowered.com/app/1637320/Dome_Keeper/]Dome Keeper[/url] und [ignore][url=https://store.steampowered.com/app/1942280/Brotato/]Brotato[/url] verwendet wird, und Godot treibt auch Hits wie [ignore][url=https://store.steampowered.com/app/2835570/Buckshot_Roulette/]Buckshot Roulette[/url] und [ignore][url=https://store.steampowered.com/app/2868840/Slay_the_Spire_2/]Slay the Spire 2[/url] an."
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:59
 msgid "GDScript is an excellent language to get started with programming because it's specialized. Unlike some other languages, it doesn't have an [i]overwhelming[/i] amount of features for you to learn."
@@ -482,7 +482,7 @@ msgstr "Jede Programmiersprache verfügt über eine Fülle von Funktionen, die v
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "We call a bundle of code created by fellow developers a [glossary term=\"library\"]."
-msgstr "Wir nennen eine Sammlung von Code auch [i]library[/i] (Bibliothek oder Code-Bibliothek)."
+msgstr "Ein von anderen Entwicklern erstelltes Code-Bündel nennen wir eine [glossary term=Bibliothek]."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:10
 msgid "It's a bunch of code sitting there, waiting for you to use it."
@@ -505,7 +505,7 @@ msgstr "Beim Programmieren baut man immer auf Code auf, der von anderen Entwickl
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "In a moment, you'll write your first code. You'll use [glossary term=\"functions\"] created by the Godot developers."
-msgstr "Der erste Code, den du schreibst, wird ebenfalls [i]Funktionen[/i] aufrufen, die bereits von anderen Godot-Programmierern erstellt wurden."
+msgstr "Gleich wirst du deinen ersten Code schreiben. Du verwendest dabei [glossary term=functions]Funktionen[/glossary], die von den Godot-Entwicklern erstellt wurden."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:19
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
@@ -604,7 +604,7 @@ msgstr "Wir verwenden Klammern, um Funktionen aufzurufen, weil du der Funktion [
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Here's a [glossary term=\"sprite\"] standing straight. If we call the [code]rotate(0.3)[/code] function, the character [i]sprite[/i] turns by 0.3 radians."
-msgstr "Hier ist ein [i]Sprite[/i] (ein Grafikobjekt, das auf dem Bildschirm dargestellt werden kann), das aufrecht steht. Wenn wir die Funktion [code]rotate(0.3)[/code] aufrufen, dreht sich das [i]Sprite[/i] um 0,3 Einheiten."
+msgstr "Hier ist ein aufrecht stehender [glossary term=sprite]Sprite[/glossary]. Wenn wir die Funktion [code]rotate(0.3)[/code] aufrufen, dreht sich der [i]Sprite[/i] des Charakters um 0,3 Radiant."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:77
 msgid "The [code]0.3[/code] part between the parentheses is the function's [i]argument[/i]."
@@ -807,7 +807,7 @@ msgstr "Der Roboter ist seitlich gedreht. Hilf ihm, sich mit einem Funktionsaufr
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You need to use the rotate() function, and give the proper arguments."
-msgstr "Wir haben bereits die Funktion [code]rotate()[/code] verwendet und ihr ein [b]Argument[/b] gegeben."
+msgstr "Du musst die Funktion rotate() verwenden und die passenden Argumente übergeben."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
 #. TRANSLATORS: Practice hint
@@ -987,7 +987,7 @@ msgstr "Benutze die Schildkröte, um die Ecke eines Quadrats zu zeichnen. Du bau
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You need to add two arguments to the [code]turn_right()[/code] and [code]move_forward()[/code] functions: [code]90[/code] and [code]200[/code]."
-msgstr "Füge dazu die Funktionen [code]rotate()[/code] und [code]move_local_x()[/code] zu [code]_process()[/code] hinzu."
+msgstr "Du musst den Funktionen [code]turn_right()[/code] und [code]move_forward()[/code] zwei Argumente hinzufügen: [code]90[/code] und [code]200[/code]."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
 #. TRANSLATORS: Practice goal
@@ -1013,7 +1013,7 @@ msgstr "Ausgehend von der Ecke deines Rechtecks musst du nun ein vollständiges 
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Both [code]move_forward()[/code] and [code]turn_right()[/code] take a numerical argument between the parenthesis"
-msgstr "Verwende die Funktionen [code]move_forward()[/code] und [code]turn_right()[/code], um die Schildkröte zu bewegen."
+msgstr "Sowohl [code]move_forward()[/code] als auch [code]turn_right()[/code] nehmen ein numerisches Argument in den Klammern entgegen"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:122
@@ -1363,7 +1363,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Your new function should call [code]draw_square()[/code] three times, on three different lines."
-msgstr "Du hast eine Funktion, um ein Quadrat zu zeichnen: [code]draw_square()[/code]. Verwende es, um drei Quadrate zu zeichnen."
+msgstr "Deine neue Funktion sollte [code]draw_square()[/code] dreimal aufrufen, in drei verschiedenen Zeilen."
 
 #: course/lesson-5-your-first-function/lesson.bbcode:123
 #. TRANSLATORS: Practice hint
@@ -1392,7 +1392,7 @@ msgstr "In vorherigen Lektionen hast du die Funktion [code]rotate()[/code] verwe
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]."
-msgstr "Genau wie [code]rotate()[/code] können wir auch in unserer Funktion [b]Parameter[/b] angeben. Parameter sind Werte mit Namen, die an die Funktion übergeben werden."
+msgstr "Genau wie [code]rotate()[/code] können wir auch unseren Funktionen [glossary term='parameters']Parameter[/glossary] mitgeben."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:12
 msgid "Parameters act as [i]placeholders[/i] in the function's code. They work like blank spaces that get filled in each time someone calls your function."
@@ -1484,7 +1484,7 @@ msgstr "Parameter machen deinen Code leichter wiederzuverwenden. Du kannst du Fu
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:59
 #, fuzzy
 msgid "Here's an example with a function to draw any square. The parameter [code]size[/code] is a placeholder. Use the slider to change the value. When you click the button, the app calls [code]draw_square()[/code] and the placeholder gets replaced with your value, drawing squares of different sizes."
-msgstr "Hier ist ein Beispiel mit einer Funktion, um ein beliebiges Quadrat zu zeichnen. Der Parameter [code]length[/code] ist ein Platzhalter. Verwende den Schieberegler, um den an die Funktion übergebenen Wert zu ändern. Wenn du den Code nun ausführst, ruft die App [code]draw_square()[/code] auf, der Platzhalter wird mit deinem Wert ersetzt und malt entsprechend Quadrate unterschiedlicher Größe."
+msgstr "Hier ist ein Beispiel mit einer Funktion, die ein beliebiges Quadrat zeichnet. Der Parameter [code]size[/code] ist ein Platzhalter. Verwende den Schieberegler, um den Wert zu ändern. Wenn du auf die Schaltfläche klickst, ruft die App [code]draw_square()[/code] auf und der Platzhalter wird durch deinen Wert ersetzt, wodurch Quadrate unterschiedlicher Größe gezeichnet werden."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:60
 #. TRANSLATORS: Quiz question
@@ -1565,7 +1565,7 @@ msgstr "Im folgenden Beispiel wird eine Funktion definiert, die zwei Parameter v
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:93
 #, fuzzy
 msgid "When you call [code]move_local_xy(50, 100)[/code], every [code]offset_x[/code] in the function gets replaced with [code]50[/code], and every [code]offset_y[/code] gets replaced with [code]100[/code]."
-msgstr "Wenn du [code]move(50, 100)[/code] aufrufs, wird jedes [code]x[/code] in der Funktion mit [code]50[/code] ersetzt und jedes [code]y[/code] wird mit [code]100[/code] ersetzt."
+msgstr "Wenn du [code]move_local_xy(50, 100)[/code] aufrufst, wird jedes [code]offset_x[/code] in der Funktion durch [code]50[/code] und jedes [code]offset_y[/code] durch [code]100[/code] ersetzt."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:94
 #. TRANSLATORS: Note title
@@ -1782,10 +1782,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use [code]func draw_corner(length, angle):[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
+msgstr "Verwende [code]func draw_corner(length, angle):[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice title
@@ -1840,10 +1837,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use [code]func draw_square(length):[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
+msgstr "Verwende [code]func draw_square(length):[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 #. TRANSLATORS: Practice hint
@@ -1913,10 +1907,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use [code]func draw_rectangle(length, height):[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
+msgstr "Verwende [code]func draw_rectangle(length, height):[/code]"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
 #. TRANSLATORS: Practice hint
@@ -2188,7 +2179,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You need to pass the numbers 200 and 120 respectively to draw_rectangle()."
-msgstr "Du musst die Zahlen im Code-Editor ersetzen, um das richtige Rechteck zu zeichnen."
+msgstr "Du musst die Zahlen 200 und 120 an [code]draw_rectangle()[/code] übergeben."
 
 #: course/lesson-7-member-variables/lesson.bbcode:133
 #. TRANSLATORS: Practice title
@@ -2438,7 +2429,7 @@ msgstr "In dieser Übung definierst du deine erste Variable und gibst ihr einen 
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "To define a variable, you write the keyword var, a space, and the variable name"
-msgstr "Um auf eine Unterkomponente zuzugreifen, musst du einen Punkt zwischen dem Namen der übergeordneten Variablen und dem Namen der Untervariablen schreiben."
+msgstr "Um eine Variable zu definieren, schreibst du das Schlüsselwort [code]var[/code], ein Leerzeichen und den Variablennamen."
 
 #: course/lesson-8-defining-variables/lesson.bbcode:100
 #. TRANSLATORS: Practice hint
@@ -2579,7 +2570,7 @@ msgstr "Erfahre, wie du Einheiten wie unserem Roboter Schaden zufügen können."
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Add an instruction to subtract [code]amount[/code] from [code]health[/code]."
-msgstr "Zeile 2 subtrahiert [code]amount[/code](Menge) von [code]health[/code](Leben)."
+msgstr "Füge eine Anweisung hinzu, um [code]amount[/code] von [code]health[/code] abzuziehen."
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:72
 #. TRANSLATORS: Practice title
@@ -2615,7 +2606,7 @@ msgstr "Unser Roboter benötigt Heilung nach dieser Übung! Erstelle eine Funkti
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Define the [code]heal()[/code] function using [code]func[/code]"
-msgstr "Wir haben die Funktion [code]range()[/code] in Kombination mit [code]for[/code]-Schleifen verwendet."
+msgstr "Definiere die [code]heal()[/code]-Funktion mit [code]func[/code]"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:72
 #. TRANSLATORS: Practice hint
@@ -2770,13 +2761,13 @@ msgstr "Eine Rotationsgeschwindigkeit von etwa [code]0.05[/code]Bogenmaß pro Fr
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Call the [code]rotate()[/code] function"
-msgstr "Schaue dir die Funktion [code]_process()[/code] an."
+msgstr "Rufe die Funktion [code]rotate()[/code] auf"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "The [code]rotate()[/code] function takes one parameter"
-msgstr "Die Funktion [code]_process()[/code] akzeptiert einen Parameter: [code]delta[/code]."
+msgstr "Die [code]rotate()[/code]-Funktion nimmt einen Parameter entgegen"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:85
 #. TRANSLATORS: Practice title
@@ -3107,7 +3098,7 @@ msgstr "Der Roboter sollte sich um [code]2[/code] Bogenmaß pro Sekunde drehen."
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Multiply the radians by [code]delta[/code]"
-msgstr "Umrechnen durch Multiplikation der Zell-Koordinate mit [code]cell_size[/code]."
+msgstr "Multipliziere das Bogenmaß mit [code]delta[/code]"
 
 #: course/lesson-11-time-delta/lesson.bbcode:146
 #. TRANSLATORS: Practice title
@@ -3133,7 +3124,7 @@ msgstr "[b]Hinweis:[/b] Bitte schreibe die Werte in die Klammern, wenn du die Fu
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Make sure to multiply each parameter by [code]delta[/code]"
-msgstr "Umrechnen durch Multiplikation der Zell-Koordinate mit [code]cell_size[/code]."
+msgstr "Stelle sicher, dass du jeden Parameter mit [code]delta[/code] multiplizierst"
 
 #: course/lesson-12-using-variables/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -3329,13 +3320,13 @@ msgstr "Die Verwendung von Variablen zum Speichern von Zahlenwerten erleichtert 
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Define the [code]angular_speed[/code] variable at the top of the script to make it script-wide"
-msgstr "Wir erstellen die Variable [code]angular_speed[/code](Winkelgeschwindigkeit) und weisen ihr dann den Wert von [code]4[/code] zu."
+msgstr "Definiere die [code]angular_speed[/code]-Variable am Anfang des Skripts, um sie skriptweit verfügbar zu machen"
 
 #: course/lesson-12-using-variables/lesson.bbcode:85
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Don't forget to use it in the [code]rotate()[/code] function"
-msgstr "Schaue dir die Funktion [code]_process()[/code] an."
+msgstr "Vergiss nicht, sie in der [code]rotate()[/code]-Funktion zu verwenden"
 
 #: course/lesson-12-using-variables/lesson.bbcode:85
 #. TRANSLATORS: Practice hint
@@ -3639,13 +3630,15 @@ msgstr ""
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Remember: you only need to change the [code]>[/code], [code]<[/code], [code]==[/code], or [code]!=[/code] symbols. Do not change numbers or the [code]print()[/code] calls!"
-msgstr ""
+msgstr "Denke daran: Du musst lediglich die Symbole „[code]>[/code]“, „[code]<[/code]“, „[code]==[/code]“ oder „[code]!=[/code]“ ändern. Ändere weder die Zahlen noch die Aufrufe von „[code]print()[/code]“!"
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "For the last line, \"not equal to seven\" means you need the [code]!=[/code] sign: [code]health != 7[/code]."
-msgstr ""
+msgstr "In der letzten Zeile bedeutet „nicht gleich sieben“, dass du das Zeichen „[code]!=[/code]“ verwenden musst: [code]health != 7[/code]."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice title
@@ -3654,19 +3647,21 @@ msgstr "Heilung einschränken"
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "The [code]heal()[/code] function adds [code]amount[/code] to [code]health[/code]. But right now, health can increase forever, without limit! We want to stop it at [code]80[/code]."
-msgstr ""
+msgstr "Die [code]heal()[/code]-Funktion addiert [code]amount[/code] zu [code]health[/code]. Aber im Moment kann die Gesundheit unbegrenzt weiter steigen! Wir wollen sie bei [code]80[/code] stoppen."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "I've defined a [code]health[/code] variable for you with a starting value of [code]20[/code]. Your task is to add a condition inside [code]heal()[/code] so that health is never greater than [code]80[/code]."
-msgstr ""
+msgstr "Ich habe für dich eine [code]health[/code]-Variable mit dem Startwert [code]20[/code] definiert. Deine Aufgabe ist es, innerhalb von [code]heal()[/code] eine Bedingung hinzuzufügen, sodass [code]health[/code] niemals größer als [code]80[/code] ist."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "To check your code, I will call the [code]heal()[/code] function twice, like this:"
-msgstr "Die Schleife unten ändert die Variable [code]cell[/code] dreimal."
+msgstr "Um deinen Code zu überprüfen, werde ich die [code]heal()[/code]-Funktion zweimal aufrufen, und zwar so:"
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
@@ -3674,15 +3669,13 @@ msgstr "Die Schleife unten ändert die Variable [code]cell[/code] dreimal."
 msgid ""
 "[code]heal(40)[/code]\n"
 "[code]heal(40)[/code]"
-msgstr ""
-"[code]draw_corner(240)[/code]\n"
-"[code]draw_corner(120)[/code]"
+msgstr "[code]heal(40)[/code] [code]heal(40)[/code]"
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "After those two calls, [code]health[/code] should be equal to [code]80[/code]."
-msgstr "In diesem Fall musst du die [code]health[/code]-Nummer in eine [code]String[/code]-Nummer konvertieren."
+msgstr "Nach diesen beiden Aufrufen sollte [code]health[/code] gleich [code]80[/code] sein."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice description
@@ -3698,12 +3691,13 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use [code]if health > 80:[/code] to detect when health went too high."
-msgstr "Die Zeile [code]health < 5:[/code] bedeutet \"Leben ist kleiner als 5\"."
+msgstr "Verwende [code]if health > 80:[/code], um zu erkennen, wenn die Gesundheit zu hoch gestiegen ist."
 
 #: course/lesson-13-conditions/lesson.bbcode:149
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Inside that [code]if[/code] block, set health back to the limit: [code]health = 80[/code]. That's how you limit the value."
-msgstr ""
+msgstr "Setze innerhalb des [code]if[/code]-Blocks die Gesundheit wieder auf den Grenzwert zurück: [code]health = 80[/code]. So begrenzt du den Wert."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice title
@@ -3712,8 +3706,9 @@ msgstr "Verhindern, dass die Gesundheit unter Null fällt"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "We want to display the health number on screen, like in many RPGs. But currently, the health can go below 0, which does not make sense. We want to stop at [code]0[/code]."
-msgstr ""
+msgstr "Wir möchten die Lebenspunktezahl auf dem Bildschirm anzeigen, wie in vielen RPGs. Derzeit können die Lebenspunkte jedoch unter 0 fallen, was keinen Sinn ergibt. Wir möchten bei [code]0[/code] stoppen."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
@@ -3726,27 +3721,31 @@ msgstr "Vervollständige die Funktion [code]take_damage()[/code], damit sie zwei
 msgid ""
 "1. Subtract [code]amount[/code] from [code]health[/code].\n"
 "2. If [code]health[/code] is below [code]0[/code] after that, set it back to [code]0[/code]."
-msgstr "Wenn [code]health[/code] unter [code]0[/code] fällt, setz es wieder auf [code]0[/code]."
+msgstr "1. Ziehe [code]amount[/code] von [code]health[/code] ab. 2. Falls [code]health[/code] danach unter [code]0[/code] liegt, setze es zurück auf [code]0[/code]."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "To check your code, I will call your [code]take_damage()[/code] function three times, like this:"
-msgstr "Ändere die Funktion [code]take_damage()[/code], damit Folgendes geschieht:"
+msgstr "Um deinen Code zu überprüfen, rufe ich deine Funktion [code]take_damage()[/code] dreimal auf, und zwar so:"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid ""
 "[code]take_damage(10)[/code]\n"
 "[code]take_damage(10)[/code]\n"
 "[code]take_damage(10)[/code]"
 msgstr ""
+"[code]take_damage(10)[/code]\n"
+"[code]take_damage(10)[/code]\n"
+"[code]take_damage(10)[/code]"
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "After those three calls, [code]health[/code] should equal [code]0[/code], and not [code]-10[/code] or another value."
-msgstr "Wenn [code]health[/code] unter [code]0[/code] fällt, setz es wieder auf [code]0[/code]."
+msgstr "Nach diesen drei Aufrufen sollte [code]health[/code] gleich [code]0[/code] sein und nicht [code]-10[/code] oder ein anderer Wert."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice description
@@ -3755,23 +3754,27 @@ msgstr "Negatives Leben zu haben, ergibt nicht viel Sinn. Stelle sicher, dass di
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Start by subtracting the damage: [code]health -= amount[/code]. This is how you apply damage."
-msgstr ""
+msgstr "Beginne damit, den Schaden abzuziehen: [code]health -= amount[/code]. So wendest du Schaden an."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "To limit the health, after subtracting the amount, you need to add a condition and reset the health."
-msgstr ""
+msgstr "Um die Lebenspunkte zu begrenzen, musst du nach dem Abzug des Wertes eine Bedingung hinzufügen und die Lebenspunkte zurücksetzen."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Here's how to write a condition to check if health went below zero: [code]if health < 0:[/code]."
-msgstr ""
+msgstr "So schreibst du eine Bedingung, um zu prüfen, ob die Gesundheit unter null gefallen ist: [code]if health < 0:[/code]."
 
 #: course/lesson-13-conditions/lesson.bbcode:178
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Inside the [code]if[/code] block, you can reset the health like this: [code]health = 0[/code]."
-msgstr ""
+msgstr "Innerhalb des Blocks „[code]if[/code]“ kannst du die Lebenspunkte wie folgt zurücksetzen: [code]health = 0[/code]."
 
 #: course/lesson-14-multiplying/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -3942,8 +3945,9 @@ msgstr "Wir möchten, dass unser Roboter mit zunehmender Stufe an Stärke zunimm
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "To increase a number by 10%, multiply it by [code]1.1[/code]"
-msgstr ""
+msgstr "Um eine Zahl um 10 % zu erhöhen, multiplizierst du sie mit [code]1.1[/code]"
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice title
@@ -3977,24 +3981,27 @@ msgstr "Wir wollen, dass unser Roboter super robust ist und noch weniger Schaden
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You need to use an [code]if[/code] statement at the top of the function to check if the robot's [code]level[/code] is greater than [code]2[/code]"
-msgstr ""
+msgstr "Du musst am Anfang der Funktion eine [code]if[/code]-Anweisung verwenden, um zu prüfen, ob das [code]level[/code] des Roboters größer als [code]2[/code] ist"
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "To reduce the [code]amount[/code], multiply it by a value less than [code]1[/code]"
-msgstr "Dann multipliziert [code]damage *= 2[/code] den Wert mit [code]2[/code], um [code]30[/code] zu erhalten."
+msgstr "Um den [code]amount[/code] zu verringern, multipliziere ihn mit einem Wert kleiner als [code]1[/code]"
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Reassign [code]amount[/code] on its own line inside the [code]if[/code] block, before the line [code]health -= amount[/code]"
-msgstr ""
+msgstr "Weise [code]amount[/code] in einer eigenen Zeile innerhalb des [code]if[/code]-Blocks neu zu, vor der Zeile [code]health -= amount[/code]"
 
 #: course/lesson-14-multiplying/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use [code]amount *= 0.5[/code] inside the [code]if[/code] block to reduce the damage by 50%"
-msgstr ""
+msgstr "Verwende „[code]amount *= 0.5[/code]“ innerhalb des Blocks „[code]if[/code]“, um den Schaden um 50 % zu reduzieren."
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4167,12 +4174,13 @@ msgstr "Um visuell zu zeigen, dass unser Roboter an Stärke gewonnen hat, lass u
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You can add a line to increase the [code]scale[/code] anywhere in the [code]level_up()[/code] function"
-msgstr "Beim Aufruf der Funktion [code]add_order()[/code], geben wir den Namen der Mahlzeit als Zeichenfolge (String) mit."
+msgstr "Du kannst eine Zeile hinzufügen, um die [code]Skalierung[/code] an einer beliebigen Stelle in der Funktion [code]level_up()[/code] zu erhöhen"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You can't use instructions like [code]scale.x += 0.2[/code] for this practice. Instead, you should use a [code]Vector2[/code]"
-msgstr ""
+msgstr "Anweisungen wie [code]scale.x += 0.2[/code] darfst du für diese Übung nicht verwenden. Verwende stattdessen einen [code]Vector2[/code]"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice title
@@ -4216,14 +4224,15 @@ msgstr "Vielleicht war es eine schlechte Idee, die Skalierung auf jeder Ebene zu
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "To define the function, we use the [code]func[/code] keyword"
-msgstr ""
+msgstr "Um die Funktion zu definieren, verwenden wir das [code]func[/code]-Schlüsselwort"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "The first line is [code]func reset_robot():[/code]"
-msgstr "Die Startzelle des Roboters ist [code]Vector2(2, 0)[/code]."
+msgstr "Die erste Zeile lautet [code]func reset_robot():[/code]"
 
 #: course/lesson-17-while-loops/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4424,19 +4433,21 @@ msgstr "Verschieben an das Ende eines Bretts"
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "The robot has decided to stand at the top of the board and your job is to move it down to the bottom row. Complete the [code]move_to_bottom()[/code] function to do this."
-msgstr ""
+msgstr "Der Roboter hat beschlossen, sich oben auf dem Spielfeld zu positionieren, und deine Aufgabe ist es, ihn in die unterste Reihe zu bewegen. Vervollständige dazu die Funktion [code]move_to_bottom()[/code]."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "We store the robot's position in a variable named [code]cell[/code]. The variable starts with the value [code]Vector2(2, 0)[/code], meaning the robot is in column 2, row 0 (row 0 is the top of the board)."
-msgstr ""
+msgstr "Wir speichern die Position des Roboters in einer Variable namens [code]cell[/code]. Die Variable beginnt mit dem Wert [code]Vector2(2, 0)[/code], was bedeutet, dass sich der Roboter in Spalte 2, Zeile 0 befindet (Zeile 0 ist die Oberkante des Spielfelds)."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
 #, fuzzy
 msgid "The board size is stored in a variable named [code]board_size[/code] that contains a [code]Vector2[/code] value."
-msgstr "Definiere eine Variable mit dem Namen [code]health[/code](Leben) mit dem Startwert [code]100[/code]."
+msgstr "Die Brettgröße ist in einer Variable namens [code]board_size[/code] gespeichert, die einen [code]Vector2[/code]-Wert enthält."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice goal
@@ -4451,23 +4462,27 @@ msgstr "Verwende eine [glossary term=while loop]while-Schleife[/glossary], damit
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "On this board, rows go from top to bottom. Think about which part of [code]cell[/code] controls the row the robot is on."
-msgstr ""
+msgstr "Auf diesem Spielfeld verlaufen die Reihen von oben nach unten. Überlege dir, welcher Teil von [code]cell[/code] die Reihe steuert, auf der sich der Roboter befindet."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "[code]cell.y[/code] is the robot's current row. To move the robot down one row, increase [code]cell.y[/code] by 1. Your [code]while[/code] loop should do this repeatedly until the robot reaches the last row."
-msgstr ""
+msgstr "[code]cell.y[/code] ist die aktuelle Zeile des Roboters. Um den Roboter um eine Zeile nach unten zu bewegen, erhöhe [code]cell.y[/code] um 1. Deine [code]while[/code]-Schleife sollte dies wiederholt ausführen, bis der Roboter die letzte Zeile erreicht hat."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The last row is [code]board_size.y - 1[/code], because rows are counted from 0."
-msgstr ""
+msgstr "Die letzte Zeile ist [code]board_size.y - 1[/code], da die Zeilen ab 0 gezählt werden."
 
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use [code]while cell.y < board_size.y - 1:[/code] as your loop condition, and increase [code]cell.y[/code] inside the loop."
-msgstr ""
+msgstr "Verwende [code]while cell.y < board_size.y - 1:[/code] als Schleifenbedingung und erhöhe [code]cell.y[/code] innerhalb der Schleife."
 
 #: course/lesson-18-for-loops/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4643,7 +4658,7 @@ msgstr "Verwende eine for-Schleife, damit sich unser Roboter von der Oberseite d
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You'll have to alter the [code]y[/code] sub-variable of [code]cell[/code] to move the robot downwards"
-msgstr "Um beispielsweise auf die Unterkomponenten [code]x[/code] der Variablen [code]position[/code] zuzugreifen, schreibe [code]position.x[/code]."
+msgstr "Du musst die [code]y[/code]-Untervariable von [code]cell[/code] ändern, um den Roboter nach unten zu bewegen"
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
 #. TRANSLATORS: Practice hint
@@ -4652,8 +4667,9 @@ msgstr "Rufe [code]range(n)[/code] auf, um eine Liste von Zahlen von [code]0[/co
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use [code]for number in range(board_size.y - 1):[/code] to loop enough times."
-msgstr ""
+msgstr "Verwende [code]for number in range(board_size.y - 1):[/code], um die Schleife so oft wie nötig auszuführen."
 
 #: course/lesson-18-for-loops/lesson.bbcode:101
 #. TRANSLATORS: Practice title
@@ -4687,8 +4703,9 @@ msgstr "In der Vergangenheit mussten wir Code kopieren und einfügen, um mehrere
 
 #: course/lesson-18-for-loops/lesson.bbcode:101
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Use the line [code]for number in range(3):[/code]"
-msgstr ""
+msgstr "Verwende die Zeile [code]for number in range(3):[/code]"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -4703,7 +4720,7 @@ msgstr "Die Funktion [code]range()[/code], die wir in der vorherigen Lektion ges
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "A list of values, numbers or otherwise, has a precise name in code: we call it an [i][glossary term=\"array\"][/i]. So we can say calling the [code]range()[/code] function produces an [i]array[/i] of numbers."
-msgstr "Eine Liste von Werten, Zahlen oder Ähnlichem, hat einen genauen Namen im Code: Wir nennen sie [i][glossary term="
+msgstr "Eine Liste von Werten, ob Zahlen oder etwas anderes, hat in der Programmierung einen genauen Namen: Wir nennen sie ein [i][glossary term=„array“][/i]. Wir können also sagen, dass der Aufruf der Funktion [code]range()[/code] ein [i]Array[/i] von Zahlen erzeugt."
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:8
 msgid "We could directly write and use that array inside our [code]for[/code] loop instead of the [code]range()[/code] function. You can run the next function step-by-step to see how it works."
@@ -4860,13 +4877,15 @@ msgstr "Hilf der Schildkröte, ihren Weg zum Roboter zu finden! Gib ihr einen We
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Any path that doesn't touch rocks is valid. The turtle could first move down or to the right. So the first value could either be [code]Vector2(1, 0)[/code] or [code]Vector2(0, 1)[/code]."
-msgstr ""
+msgstr "Jeder Weg, der keine Felsen berührt, ist zulässig. Die Schildkröte könnte sich zunächst nach unten oder nach rechts bewegen. Der erste Wert könnte also entweder [code]Vector2(1, 0)[/code] oder [code]Vector2(0, 1)[/code] sein."
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Every [code]Vector2[/code] in the array should be one unit away from the previous one. That means there should only be a difference of 1 on the X-axis or the Y-axis between two [code]Vector2[/code] in the array."
-msgstr ""
+msgstr "Jedes [code]Vector2[/code] im Array sollte eine Einheit vom vorherigen entfernt sein. Das bedeutet, dass zwischen zwei [code]Vector2[/code] im Array nur ein Unterschied von 1 auf der X-Achse oder der Y-Achse bestehen darf."
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 #. TRANSLATORS: Practice title
@@ -4900,8 +4919,9 @@ msgstr "Schreibe ein Array, um alle Einheiten auf dem Spielfeld in diesem Strate
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You can write [code]Vector2[/code] values inside the brackets in the function call: [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
-msgstr ""
+msgstr "Du kannst [code]Vector2[/code]-Werte direkt in den Klammern des Funktionsaufrufs schreiben: [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5075,7 +5095,7 @@ msgstr ""
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "You need to pass the cell position to the robot's [code]move_to()[/code] function in the loop."
-msgstr "Du musst sie mit der Funktion [code]pop_back()[/code] des Arrays von oben nach unten entfernen."
+msgstr "Du musst die Zellenposition in der Schleife an die [code]move_to()[/code]-Funktion des Roboters übergeben."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice title
@@ -5114,18 +5134,21 @@ msgstr "Die zeichnende Schildkröte feiert ihr Comeback. Fürchte dich nicht! Be
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Each value in the [code]rectangle_sizes[/code] array is a [code]Vector2[/code]. You'll need to access its [code]x[/code] and [code]y[/code] sub-components to draw rectangles."
-msgstr ""
+msgstr "Jeder Wert im [code]rectangle_sizes[/code]-Array ist ein [code]Vector2[/code]. Du musst auf seine Unterkomponenten [code]x[/code] und [code]y[/code] zugreifen, um Rechtecke zu zeichnen."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "In the loop, you first need to call [code]draw_rectangle()[/code], and then [code]jump()[/code]. Otherwise, at least two rectangles will overlap."
-msgstr ""
+msgstr "In der Schleife musst du zuerst [code]draw_rectangle()[/code] und dann [code]jump()[/code] aufrufen. Andernfalls überlappen sich mindestens zwei Rechtecke."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "The arguments when calling [code]jump()[/code] can just be large enough to space out the rectangles. For example, [code]jump(300, 0)[/code]"
-msgstr ""
+msgstr "Die Argumente beim Aufruf von [code]jump()[/code] können gerade so groß sein, dass die Rechtecke ausreichend Abstand zueinander haben. Zum Beispiel: [code]jump(300, 0)[/code]"
 
 #: course/lesson-21-strings/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5238,13 +5261,15 @@ msgstr "Gib dem Roboter einen lesbaren Namen, indem du eine String-Variable verw
 
 #: course/lesson-21-strings/lesson.bbcode:52
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Strings need to be wrapped in quotes like \"Robi\"."
-msgstr ""
+msgstr "Zeichenketten müssen in Anführungszeichen gesetzt werden, z. B. [code]„Robi“[/code]."
 
 #: course/lesson-21-strings/lesson.bbcode:52
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Replace the number 0 with your string (the robot's name)."
-msgstr ""
+msgstr "Ersetze die Zahl 0 durch deine Zeichenkette (den Namen des Roboters)."
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice title
@@ -5270,8 +5295,9 @@ msgstr "- [code]jab[/code] (lässt den Roboter einen schnellen Schlag ausführen
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice goal
+#, fuzzy
 msgid "I defined the [code]combo[/code] variable at the top of the script. Fill its array with three animation names: two jabs followed by one uppercut."
-msgstr ""
+msgstr "Ich habe die [code]combo[/code]-Variable am Anfang des Skripts definiert. Fülle ihr Array mit drei Animationsnamen: zwei Jabs, gefolgt von einem Uppercut."
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice goal
@@ -5285,14 +5311,15 @@ msgstr "Definiere ein Array von Strings, um eine mächtige Kombo auszuführen."
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "Make sure to use (\"\") for each animation name when you add them to the combo array"
-msgstr ""
+msgstr "Achte darauf, („“) für jeden Animationsnamen zu verwenden, wenn du sie dem [code]combo[/code]-Array hinzufügst"
 
 #: course/lesson-21-strings/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use a for loop and the [code]play_animation()[/code] function for each animation name"
-msgstr "Rufe dann für jede Aktion im Array die Funktion [code]play_animation()[/code] auf, um sie abzuspielen."
+msgstr "Verwende eine [code]for[/code]-Schleife und die Funktion [code]play_animation()[/code] für jeden Animationsnamen"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5484,13 +5511,13 @@ msgstr "Wir brauchen eine Funktion um Raster-Koordinaten in Pixel-Positionen umz
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "To convert a cell coordinate to pixels, multiply the [code]cell[/code] by [code]cell_size[/code]."
-msgstr "Umrechnen durch Multiplikation der Zell-Koordinate mit [code]cell_size[/code]."
+msgstr "Um eine Zell-Koordinate in Pixel umzurechnen, multipliziere die [code]cell[/code] mit [code]cell_size[/code]."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Use the [code]return[/code] keyword to send the result back. For example: [code]return cell * cell_size[/code]"
-msgstr "Das Schlüsselwort [code]return[/code] gibt den Wert in der Codezeile zurück, in der die Funktion aufgerufen wurde."
+msgstr "Verwende das [code]return[/code]-Schlüsselwort, um das Ergebnis zurückzugeben. Zum Beispiel: [code]return cell * cell_size[/code]"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5645,13 +5672,15 @@ msgstr "Bestellungen häufen sich in der Küche, und wir müssen sie schnell mit
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You first need to pop the first value from the pending orders array. To pop a value from the front of an array, you call [code]array.pop_front()[/code]."
-msgstr ""
+msgstr "Zunächst musst du den ersten Wert aus dem Array der ausstehenden Bestellungen entfernen. Um einen Wert vom Anfang eines Arrays zu entfernen, rufst du [code]array.pop_front()[/code] auf."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 #. TRANSLATORS: Practice hint
+#, fuzzy
 msgid "You then need to append the popped value to the completed_orders array. To append a value to an array, you can call [code]array.append()[/code]."
-msgstr ""
+msgstr "Anschließend musst du den entnommenen Wert an das Array [code]completed_orders[/code] anhängen. Um einen Wert an ein Array anzuhängen, kannst du [code]array.append()[/code] aufrufen."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
 #. TRANSLATORS: Practice title
@@ -5692,7 +5721,7 @@ msgstr "Kisten stapeln sich auf der Plattform. Schiebe sie aus dem Weg, indem du
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "Think about how [code]while[/code] loops work."
-msgstr "Es gibt andere gute Anwendungen für die [code]while[/code]-Schleife:"
+msgstr "Überlege, wie [code]while[/code]-Schleifen funktionieren."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
@@ -6284,7 +6313,7 @@ msgstr "Wir wollen das Inventar des Spielers auf dem Bildschirm anzeigen. Verwen
 #. TRANSLATORS: Practice hint
 #, fuzzy
 msgid "The [code]display_item()[/code] function needs the item name and its amount. You need to get the amount using the item name as a key in the [code]inventory[/code] dictionary."
-msgstr "Rufe dazu die Funktion [code]display_item()[/code] für jeden Gegenstand auf. Diese Funktion wird mit zwei Argumenten aufgerufen: Dem Objektnamen und der Menge."
+msgstr "Die Funktion [code]display_item()[/code] benötigt den Namen des Gegenstands und seine Menge. Du musst die Menge abrufen, indem du den Gegenstandsnamen als Schlüssel im [code]inventory[/code]-Dictionary verwendest."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 #. TRANSLATORS: Practice hint

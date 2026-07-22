@@ -51,9 +51,7 @@ msgstr "Чтобы получить доступ к подкомпоненту [
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "[code]for cell_position in cell_positions_array:"
-msgstr ""
-"[code]for cell_position in cell_positions_array:\n"
-"    cell_position.x += 1.0[/code]"
+msgstr "[code]for cell_position in cell_positions_array:"
 
 #: script_checking/error_database.csv
 msgid "    cell_position.x += 1.0[/code]"
@@ -106,16 +104,12 @@ msgstr "Посмотрите на то, что вы пытаетесь изме�
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "1. If the value should never change, or it comes from Godot, remove the line that tries to change it."
-msgstr ""
-"1. Если значение никогда не должно меняться, или оно исходит от Godot, уберите строку, которая пытается его изменить.\n"
-"2. Если значение необходимо изменить, используйте[code]var[/code] вместо [code]const[/code], когда вы впервые его создаёте."
+msgstr "1. Если значение никогда не должно меняться или оно встроено в Godot, удалите строку, которая пытается его изменить."
 
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "2. If the value needs to change, use [code]var[/code] instead of [code]const[/code] when you first create it."
-msgstr ""
-"1. Если значение никогда не должно меняться, или оно исходит от Godot, уберите строку, которая пытается его изменить.\n"
-"2. Если значение необходимо изменить, используйте[code]var[/code] вместо [code]const[/code], когда вы впервые его создаёте."
+msgstr "2. Если значение должно изменяться, используйте [code]var[/code] вместо [code]const[/code] при его первом создании."
 
 #: script_checking/error_database.csv
 msgid "You get this error when you mix spaces and tabs in your indentation. This happens when you have a space before a tab, or a tab before a space at the start of a line."
@@ -156,9 +150,7 @@ msgstr ""
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "2. Your code refers to another class that refers to this class, causing an endless reference cycle."
-msgstr ""
-"1. Вы использовали имя класса в самом классе.\n"
-"2. Ваш код ссылается на другой класс, который ссылается на этот класс, вызывая бесконечный цикл ссылок."
+msgstr "2. Ваш код ссылается на другой класс, который ссылается на этот класс, создавая бесконечный цикл ссылок."
 
 #: script_checking/error_database.csv
 msgid "Either way, due to how GDScript works in Godot 3, unfortunately,you cannot do this. Godot 4 should solve this problem, but you need to work around it in the meantime."
@@ -263,10 +255,7 @@ msgstr ""
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "2. You wrote a keyword like [code]var[/code], [code]func[/code], [code]for[/code], or [code]signal[/code], and you did not follow it by a name."
-msgstr ""
-"1. Вы написали идентификатор (имя переменной или функции) в неправильном месте.\n"
-"2. Вы написали ключевое слово типа [code]var[/code], [code]func[/code], [code]for[/code] или [code]signal[/code], но не написали имя после него.\n"
-"3. Вы написали определение функции, но забыли поставить круглые скобки перед двоеточием."
+msgstr "2. Вы написали ключевое слово, например [code]var[/code], [code]func[/code], [code]for[/code] или [code]signal[/code], и не указали после него имя."
 
 #: script_checking/error_database.csv
 msgid "3. You wrote a function definition but forgot the parentheses before the colon."
@@ -475,16 +464,12 @@ msgstr "Возникла проблема с возвращаемым значе
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "1. Your function is a void function, thus it should not return a value. This includes functions with the '-> void' syntax and class constructors ('_init()')."
-msgstr ""
-"1. Тип возвращаемого значения вашей функции — void, поэтому она не может возвращать значение. Сюда входят функции с синтаксисом «-> void» и конструкторы классов («_init()»).\n"
-"2. Вы указали тип возвращаемого значения для своей функции, но возвращаете значение не во всех возможных ветвях (блоки if, elif и else, или конец функции)."
+msgstr "1. Ваша функция является void-функцией, поэтому она не должна возвращать значение. Это относится к функциям с синтаксисом «-> void» и конструкторам классов («_init()»)."
 
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "2. You specified a return type for your function, but you are not returning a value in all possible branches (if, elif, and else blocks) or at the end."
-msgstr ""
-"1. Тип возвращаемого значения вашей функции — void, поэтому она не может возвращать значение. Сюда входят функции с синтаксисом «-> void» и конструкторы классов («_init()»).\n"
-"2. Вы указали тип возвращаемого значения для своей функции, но возвращаете значение не во всех возможных ветвях (блоки if, elif и else, или конец функции)."
+msgstr "2. Вы указали возвращаемый тип для вашей функции, но не возвращаете значение во всех возможных ветвях (блоки if, elif и else) или в конце функции."
 
 #: script_checking/error_database.csv
 msgid "When your function is 'void', you should never return a value. You can use the 'return' keyword to end the function early, but you should never write anything after that."
@@ -525,9 +510,7 @@ msgstr ""
 #: script_checking/error_database.csv
 #, fuzzy
 msgid "The most common case is when you forget to close a string: you have opening quotes, but you forget to add a matching closing quote."
-msgstr ""
-"Компьютер достиг конца строки кода, но в этой строке была синтаксическая ошибка.\n"
-"Наиболее распространенный случай — когда вы забыли закрыть строку: у вас есть открывающие кавычки, но вы забыли добавить соответствующую закрывающую кавычку."
+msgstr "Самый распространенный случай — когда вы забываете закрыть строку: у вас есть открывающие кавычки, но вы забыли добавить соответствующие закрывающие кавычки."
 
 #: script_checking/error_database.csv
 msgid "Double-check that you are not missing a quote character or that the quote character you used to start the string is the same as the one you used to close the string."
@@ -548,7 +531,7 @@ msgstr "Убедитесь, что у вас нет заглавной букв�
 #: course/glossary.csv course/documentation.csv
 #, fuzzy
 msgid "explanation"
-msgstr "итерация"
+msgstr "объяснение"
 
 #: course/glossary.csv
 msgid "Member functions are functions attached to a specific value type, like arrays, strings, or dictionaries. We also call them methods."
