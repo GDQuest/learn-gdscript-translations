@@ -2091,7 +2091,7 @@ msgstr "La convention est le [i]contraire[/i] dans les jeux vidéo et de nombreu
 #: course/lesson-7-member-variables/lesson.bbcode:80
 #. TRANSLATORS: Note title
 msgid "Why does the Y-axis point downwards?"
-msgstr "Pourquoi l’axe des Y pointe-t-il vers le bas ?"
+msgstr "Pourquoi l'axe des Y pointe-t-il vers le bas ?"
 
 #: course/lesson-7-member-variables/lesson.bbcode:81
 #. TRANSLATORS: Note content
@@ -3072,7 +3072,7 @@ msgstr "Les temps d'image varient d'un ordinateur à l'autre et d'une image à l
 #: course/lesson-11-time-delta/lesson.bbcode:115
 #. TRANSLATORS: Quiz question
 msgid "What does this mean?"
-msgstr "Qu’est-ce que cela signifie ?"
+msgstr "Qu'est-ce que cela signifie ?"
 
 #: course/lesson-11-time-delta/lesson.bbcode:115
 #. TRANSLATORS: Quiz explanation
@@ -3617,7 +3617,7 @@ msgstr "Utiliser des comparaisons"
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice goal
 msgid "Each [code]if[/code] statement below has a wrong comparison sign. Fix the comparison signs so every condition is [code]true[/code] and every [code]print()[/code] message runs."
-msgstr "Chaque instruction [code]if[/code] ci-dessous comporte un signe de comparaison erroné. Corrigez les signes de comparaison afin que chaque condition soit [code]true[/code] et que tous les messages [code]print()[/code] s’affichent."
+msgstr "Chaque instruction [code]if[/code] ci-dessous comporte un signe de comparaison erroné. Corrigez les signes de comparaison afin que chaque condition soit [code]true[/code] et que tous les messages [code]print()[/code] s'affichent."
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 #. TRANSLATORS: Practice goal
@@ -5394,17 +5394,16 @@ msgid "The [code]lerp()[/code] function (short for [i]linear interpolate[/i]), b
 msgstr "La fonction [code]lerp()[/code] (abréviation du terme en anglais [i]linear interpolate[/i] qui veut dire « interpolation linéaire ») calcule et renvoie une moyenne pondérée entre deux valeurs."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:42
-#, fuzzy
 msgid "It takes three arguments: a start value, an end value, and a blend amount between [code]0.0[/code] and [code]1.0[/code] that controls the blend. A value of [code]0.0[/code] gives you the start value, [code]1.0[/code] gives you the end value, and [code]0.5[/code] gives you halfway between them."
 msgstr "Elle prend trois arguments : une valeur de départ, une valeur finale et un coefficient de mélange entre [code]0.0[/code] et [code]1.0[/code] qui permet de contrôler le mélange. La valeur [code]0.0[/code] correspond à la valeur de départ, [code]1.0[/code] à la valeur finale, et [code]0.5[/code] à la valeur à mi-chemin entre les deux."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:43
 msgid "In games, [code]lerp()[/code] is often used to make things move smoothly towards a target."
-msgstr ""
+msgstr "Dans les jeux, [code]lerp()[/code] est souvent utilisé pour faire se déplacer les éléments de manière fluide vers une cible."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:44
 msgid "[b]Note:[/b] In the code example below, I wrote the [code]lerp()[/code] function call across multiple lines for readability. This works exactly the same as writing it on one line."
-msgstr ""
+msgstr "[b]Note :[/b] Dans l'exemple de code ci-dessous, j'ai écrit l'appel à la fonction [code]lerp()[/code] sur plusieurs lignes pour plus de lisibilité. Cela fonctionne exactement de la même manière que si on l'écrivait sur une seule ligne."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:49
 msgid "Every frame, the code calculates a position somewhere between the turtle and the mouse cursor. The [code]lerp()[/code] function takes care of everything."
@@ -5429,41 +5428,42 @@ msgstr "Pour qu'une fonction renvoie une valeur, vous utilisez le mot-clé [code
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:65
 msgid "In previous lessons, we had characters walking on grids. For those practices, you were working with cell coordinates like [code]Vector2(0, 0)[/code] or [code]Vector2(2, 1)[/code]."
-msgstr ""
+msgstr "Dans les leçons précédentes, nous avions des personnages se déplaçant sur des grilles. Pour ces exercices, vous travailliez avec des coordonnées de cellule comme [code]Vector2(0, 0)[/code] ou [code]Vector2(2, 1)[/code]."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:66
 msgid "But cell coordinates are not the same as positions on the screen. A cell coordinate like [code]Vector2(2, 1)[/code] tells us which cell we're in, but not where it is in pixels. To draw something on screen, we need pixel positions."
-msgstr ""
+msgstr "Mais les coordonnées des cellules ne correspondent pas aux positions à l'écran. Une coordonnée de cellule telle que [code]Vector2(2, 1)[/code] nous indique dans quelle cellule nous nous trouvons, mais pas où elle se situe en pixels. Pour dessiner quelque chose à l'écran, nous avons besoin de positions en pixels."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:67
 msgid "We can write a function to convert cell coordinates to pixel positions. Hover over the cells below to see how it works."
-msgstr ""
+msgstr "Vous pouvez écrire une fonction pour convertir les coordonnées des cellules en positions en pixels. Passez la souris sur les cellules ci-dessous pour voir comment cela fonctionne."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:68
 msgid "The yellow circle marks the pixel position at the top-left corner of each cell. This corner is the reference point we use for grid position."
-msgstr ""
+msgstr "Le cercle jaune marque la position en pixels du coin supérieur gauche de chaque case. Ce coin est le point de référence que nous utilisons pour la position sur la grille."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:78
 msgid "To convert cell coordinates to pixel positions, we multiply the cell coordinates by the size of each cell in pixels."
-msgstr ""
+msgstr "Pour convertir les coordonnées des cellules en positions en pixels, vous multipliez les coordonnées des cellules par la taille de chaque cellule en pixels."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:79
 msgid "For example, if each cell is [code]120[/code] pixels wide and tall, then:"
-msgstr ""
+msgstr "Par exemple, si chaque case mesure [code]120[/code] pixels de large et de haut, alors :"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:80
 msgid ""
 "- Cell [code]Vector2(1, 0)[/code] is at pixel position [code]Vector2(120, 0)[/code].\n"
 "- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels."
-msgstr ""
+msgstr "- La case [code]Vector2(1, 0)[/code] est à la position [code]Vector2(120, 0)[/code] en pixels.\n"
+"- La case [code]Vector2(2, 1)[/code] est à la position [code]Vector2(240, 120)[/code] en pixels."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:81
 msgid "Use the interactive grid above to visualize the calculations."
-msgstr ""
+msgstr "Utilisez la grille interactive ci-dessus pour visualiser les calculs."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:82
 msgid "This gives us the top-left corner of each cell, which is the standard way to position things on a grid in games."
-msgstr ""
+msgstr "Cela nous donne le coin supérieur gauche de chaque case, ce qui correspond à la méthode standard pour positionner des éléments sur une grille dans les jeux."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:83
 msgid "The function below does this calculation and returns the result, so we can store it in a variable or use it right away."
@@ -5475,11 +5475,11 @@ msgstr "Le mot-clé [code]return[/code] renvoie la valeur au code qui appelle la
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:87
 msgid "Note: In Godot, we write coordinates as [code]Vector2(x, y)[/code]. The [code]x[/code] value goes left to right (the column), and [code]y[/code] goes top to bottom (the row)."
-msgstr ""
+msgstr "Note : dans Godot, on écrit les coordonnées sous la forme [code]Vector2(x, y)[/code]. La valeur [code]x[/code] correspond à la colonne (de gauche à droite), et [code]y[/code] correspond à la ligne (de haut en bas)."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:88
 msgid "In the example below, we call the function and store the returned value in the variable [code]world_position[/code]. Click the run button to see the result."
-msgstr ""
+msgstr "Dans l'exemple ci-dessous, nous appelons la fonction et stockons la valeur renvoyée dans la variable [code]world_position[/code]. Cliquez sur le bouton « Exécuter » pour voir le résultat."
 
 # dans quelques leçons
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
@@ -5512,7 +5512,7 @@ msgstr "La fonction prend une coordonnée de case [code]Vector2[/code] en argume
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 #. TRANSLATORS: Practice goal
 msgid "To convert, multiply the cell coordinate by the [code]cell_size[/code]."
-msgstr ""
+msgstr "Pour effectuer la conversion, multipliez les coordonnées de la case par la [code]cell_size[/code]."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 #. TRANSLATORS: Practice description
@@ -5522,7 +5522,7 @@ msgstr "Nous avons besoin d'une fonction pour convertir les coordonnées de la g
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 #. TRANSLATORS: Practice hint
 msgid "To convert a cell coordinate to pixels, multiply the [code]cell[/code] by [code]cell_size[/code]."
-msgstr ""
+msgstr "Pour convertir les coordonnées d'une cellule en pixels, multipliez la valeur de [code]cell[/code] par la valeur de [code]cell_size[/code]."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 #. TRANSLATORS: Practice hint
@@ -5569,7 +5569,7 @@ msgstr "Lorsqu'un client achète un repas, vous voudriez [i]l'ajouter[/i] au tab
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:27
 msgid "You can use the [code]append()[/code] function to add values at the end of an array. To remove values from the start, you can use the [code]pop_front()[/code] function. We call it \"pop\" because the value jumps out of the array."
-msgstr ""
+msgstr "Vous pouvez utiliser la fonction [code]append()[/code] pour ajouter des valeurs à la fin d'un tableau. Pour supprimer des valeurs au début, vous pouvez utiliser la fonction [code]pop_front()[/code]. On l'appelle « pop » car la valeur « saute » hors du tableau."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:28
 msgid "Try to read the code below before moving on. Don't worry if not everything makes sense, as we'll break it all down."
@@ -5650,7 +5650,7 @@ msgstr "Comme [code]pop_front()[/code], la fonction renvoie la valeur retirée d
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:80
 msgid "When we use an array this way, we call it a [i]stack[/i]: the last element we add is the first one we remove. It's like a pile of plates where you take from the top."
-msgstr ""
+msgstr "Lorsque nous utilisons un tableau de cette manière, nous l'appelons une [i]pile[/i] (« stack » en anglais) : le dernier élément que nous ajoutons est le premier que nous retirons. C'est comme une pile d'assiettes où vous prenez celle du dessus."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:81
 msgid "In the following practices, you will use the [code]append()[/code], [code]pop_front()[/code], and [code]pop_back()[/code] array functions."
@@ -5684,12 +5684,12 @@ msgstr "Les commandes s'accumulent dans la cuisine et nous devons les compléter
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 #. TRANSLATORS: Practice hint
 msgid "You first need to pop the first value from the pending orders array. To pop a value from the front of an array, you call [code]array.pop_front()[/code]."
-msgstr ""
+msgstr "Vous devez d'abord extraire la première valeur du tableau des commandes en attente. Pour extraire une valeur située en tête d'un tableau, vous appelez la fonction [code]array.pop_front()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 #. TRANSLATORS: Practice hint
 msgid "You then need to append the popped value to the completed_orders array. To append a value to an array, you can call [code]array.append()[/code]."
-msgstr ""
+msgstr "Vous devez ensuite ajouter la valeur extraite au tableau completed_orders. Pour ajouter une valeur à un tableau, vous pouvez appeler [code]array.append()[/code]."
 
 # Se débarraser des caises
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
@@ -5736,12 +5736,12 @@ msgstr "Réfléchissez au fonctionnement des boucles [code]while[/code]."
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
 msgid "Every time you [code]pop[/code] an item, the array's [code]size[/code] gets smaller."
-msgstr ""
+msgstr "Chaque fois que vous retirez un élément avec [code]pop[/code], la valeur de [code]size[/code] (la taille du tableau) diminue."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:103
 #. TRANSLATORS: Practice hint
 msgid "You can write [code]while crates:[/code] to run code in a loop while there are values in the [code]crates[/code] array."
-msgstr ""
+msgstr "Vous pouvez écrire [code]while crates:[/code] pour exécuter du code en boucle tant qu'il reste des valeurs dans le tableau [code]crates[/code]."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -5910,12 +5910,12 @@ msgstr "Trouvez les bons objets à utiliser dans l'inventaire du joueur, en util
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 #. TRANSLATORS: Practice hint
 msgid "Use the function [code]use_item(inventory[index])[/code], where [code]index[/code] is the position of an item in the [code]inventory[/code] array"
-msgstr ""
+msgstr "Utilisez la fonction [code]use_item(inventory[index])[/code], où [code]index[/code] correspond à la position d'un élément dans le tableau [code]inventory[/code]"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 #. TRANSLATORS: Practice hint
 msgid "Use [code]square brackets[/code] to access specific array indices"
-msgstr ""
+msgstr "Utilisez des crochets ([ ou ]) pour accéder à des indices spécifiques du tableau"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 #. TRANSLATORS: Practice title
@@ -5950,12 +5950,12 @@ msgstr "Certaines parties de nos rails de train sont mal alignés, et le train n
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 #. TRANSLATORS: Practice hint
 msgid "The syntax to access an item by index in an array uses square brackets with a number in between right after the array name. For example, write [code]tracks[-1][/code] to access the [i]last[/i] element in the array."
-msgstr ""
+msgstr "La syntaxe pour accéder à un élément par index dans un tableau utilise des crochets contenant un nombre, placés immédiatement après le nom du tableau. Par exemple, écrivez [code]tracks[-1][/code] pour accéder au [i]dernier[/i] élément du tableau."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 #. TRANSLATORS: Practice hint
 msgid "To align the second chunk, call [code]align(tracks[-3])[/code]. You need to call the same function another two times with the other chunks."
-msgstr ""
+msgstr "Pour aligner le deuxième bloc, appelez la fonction [code]align(tracks[-3])[/code]. Vous devez appeler cette même fonction deux autres fois pour les autres blocs."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -6169,12 +6169,12 @@ msgstr "Collectionner des objets est amusant, mais nous avons besoin d'un bon mo
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 #. TRANSLATORS: Practice hint
 msgid "Don't forget to add commas to separate each key and value pair."
-msgstr ""
+msgstr "N'oubliez pas d'ajouter des virgules pour séparer chaque paire de clé et de valeur."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 #. TRANSLATORS: Practice hint
 msgid "To define a key and give it an item count, use [code]\"item name\" : number[/code]."
-msgstr ""
+msgstr "Pour définir une clé et lui attribuer un nombre d'unités, utilisez [code]\"item name\" : number[/code]."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 #. TRANSLATORS: Practice title
@@ -6210,12 +6210,12 @@ msgstr "Il se peut que le joueur marche sur un pick-up ou trouve quelque chose d
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
 msgid "You can access the value in the [code]inventory[/code] dictionary by using [code]inventory[item_name][/code]"
-msgstr ""
+msgstr "Vous pouvez accéder à la valeur du dictionnaire [code]inventory[/code] en utilisant [code]inventory[item_name][/code]"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
 msgid "Remember to add [code]amount[/code] to the value. You can do this directly with [code]+=[/code]"
-msgstr ""
+msgstr "N'oubliez pas d'ajouter [code]amount[/code] à la valeur. Vous pouvez le faire directement avec [code]+=[/code]"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -6224,7 +6224,7 @@ msgstr "Boucler sur les dictionnaires"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:7
 msgid "You can loop over dictionaries, just like you learned to loop over arrays. When you loop over a dictionary, you get its keys one by one. You can then use each key to get its value."
-msgstr ""
+msgstr "Vous pouvez parcourir les dictionnaires en boucle, tout comme vous avez appris à parcourir les tableaux. Lorsque vous parcourez un dictionnaire en boucle, vous récupérez ses clés une par une. Vous pouvez ensuite utiliser chaque clé pour récupérer sa valeur."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:8
 msgid "Let's see how this works with two examples."
@@ -6249,7 +6249,7 @@ msgstr "Pour obtenir la liste des clés du dictionnaire, vous pouvez appeler sa 
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:21
 msgid "Looping over dictionary keys is so common that GDScript gives you a shortcut."
-msgstr ""
+msgstr "La boucle sur les clés d'un dictionnaire est si courante que GDScript vous propose un raccourci."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:22
 msgid "You can write the dictionary variable name directly after the [code]in[/code] keyword in a [code]for[/code] loop. GDScript automatically loops over the dictionary's keys."
@@ -6257,7 +6257,7 @@ msgstr "Vous pouvez écrire le nom de la variable du dictionnaire directement ap
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:29
 msgid "Remember: the name after the [code]for[/code] keyword is a variable name you choose yourself. You could call it [code]item_name[/code], [code]item[/code], [code]key[/code], or anything else. This variable holds one key at a time as the loop runs."
-msgstr ""
+msgstr "Rappel : le nom qui suit le mot-clé [code]for[/code] est un nom de variable que vous choisissez vous-même. Vous pouvez l'appeler [code]item_name[/code], [code]item[/code], [code]key[/code] ou tout autre nom. Cette variable contient une clé à la fois pendant l'exécution de la boucle."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:30
 msgid "You can get each value with the syntax [code]dictionary[key][/code], as you learned in the previous lesson."
@@ -6335,7 +6335,7 @@ msgstr "La fonction [code]display_item()[/code] a besoin du nom de l'objet et de
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 #. TRANSLATORS: Practice hint
 msgid "Inside the for loop, you can get the amount of each item using the syntax [code]inventory[item_name][/code], where [code]item_name[/code] is the loop variable you created after the [code]for[/code] keyword."
-msgstr ""
+msgstr "À l'intérieur de la boucle for, vous pouvez récupérer la quantité de chaque objet à l'aide de la syntaxe [code]inventory[item_name][/code], où [code]item_name[/code] est la variable de boucle que vous avez créée après le mot-clé [code]for[/code]."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 #. TRANSLATORS: Practice title
@@ -6360,12 +6360,12 @@ msgstr "Nous voulons peupler notre plateau de jeu avec des unités au début de 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 #. TRANSLATORS: Practice hint
 msgid "The dictionary keys are cell coordinates. You can use them to access the unit type from the [code]units[/code] dictionary."
-msgstr ""
+msgstr "Les clés du dictionnaire correspondent à des coordonnées de cellules. Vous pouvez les utiliser pour accéder au type d'unité à partir du dictionnaire [code]units[/code]."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 #. TRANSLATORS: Practice hint
 msgid "Inside the for loop, you can get a unit's type using the syntax [code]units[cell][/code], where [code]cell[/code] is the loop variable you created after the [code]for[/code] keyword."
-msgstr ""
+msgstr "À l'intérieur de la boucle for, vous pouvez obtenir le type d'une unité à l'aide de la syntaxe [code]units[cell][/code], où [code]cell[/code] est la variable de boucle que vous avez créée après le mot-clé [code]for[/code]."
 
 #: course/lesson-27-value-types/lesson.bbcode:1
 #. TRANSLATORS: Lesson header
@@ -6769,17 +6769,17 @@ msgstr "Cette fois, c'est l'inverse : les variables ont les bonnes suggestions d
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 #. TRANSLATORS: Practice hint
 msgid "The type [code]float[/code] means decimal number, so you need to write a number with a decimal part, like [code]3.14[/code]."
-msgstr ""
+msgstr "Le type [code]float[/code] correspond à un nombre décimal ; vous devez donc écrire un nombre comportant une partie décimale, comme [code]3.14[/code]."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 #. TRANSLATORS: Practice hint
 msgid "The type [code]int[/code] stands for integer or whole number, so you need the value to be a whole number without a decimal part."
-msgstr ""
+msgstr "Le type [code]int[/code] correspond à un entier ; la valeur doit donc être un nombre entier sans partie décimale."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 #. TRANSLATORS: Practice hint
 msgid "The type [code]String[/code] means you need to write a text string, a value surrounded by quotes."
-msgstr ""
+msgstr "Le type [code]String[/code] signifie que vous devez écrire une chaîne de caractères, c'est-à-dire une valeur entourée de guillemets."
 
 msgid "Learn to Code From Zero with Godot"
-msgstr ""
+msgstr "Apprenez à programmer en partant de zéro avec Godot"
