@@ -3,9 +3,22 @@
 # This file is distributed under the same license as the Learn GDScript From
 # project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
-msgstr "Project-Id-Version: Learn GDScript From Zero\nReport-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\nPOT-Creation-Date: 2026-01-21 11:55+0100\nPO-Revision-Date: 2026-07-28 01:01+0000\nLast-Translator: THANKYOU683 <3763050962@qq.com>\nLanguage-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/zh_Hans/>\nLanguage: zh_Hans\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nGenerated-By: Babel 2.10.3\nX-Generator: Weblate 2026.8.dev0\n"
+msgstr ""
+"Project-Id-Version: Learn GDScript From Zero\n"
+"Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
+"POT-Creation-Date: 2026-01-21 11:55+0100\n"
+"PO-Revision-Date: 2026-07-28 01:01+0000\n"
+"Last-Translator: THANKYOU683 <3763050962@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-1-what-code-is-like/lesson.bbcode:1
@@ -28,7 +41,7 @@ msgstr "告诉计算机要做什么"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
 #, fuzzy
-msgid "Programming is the process of writing precise [glossary term=\"instructions\"] that tell a computer how to perform a task."
+msgid "Programming is the process of writing precise [glossary term=\"instructions\"]instructions[/glossary] that tell a computer how to perform a task."
 msgstr "编程就是写出精确的[glossary term=“instructions”]指令[/glossary]的过程，告诉计算机如何执行某项任务。"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:10
@@ -100,6 +113,7 @@ msgid "Using a programming language and precise instructions"
 msgstr "使用编程语言和精确的指令"
 
 #. TRANSLATORS: Quiz answer
+#. Replace English with current language
 #: course/lesson-1-what-code-is-like/lesson.bbcode:41
 msgid "Using prose in plain English"
 msgstr "写简单的英语作文"
@@ -420,14 +434,14 @@ msgstr "这段代码有误，运行时会引发一个错误。"
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
 #, fuzzy
-msgid "The code defines an empty [glossary term=\"function\"] named [code]this_code_is_wrong[/code]."
+msgid "The code defines an empty [glossary term=\"function\"]function[/glossary] named [code]this_code_is_wrong[/code]."
 msgstr "这段代码定义了一个名为 [code]this_code_is_wrong[/code] 的空函数。"
 
 #. TRANSLATORS: Practice goal
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
 #, fuzzy
-msgid "To work, the function should use the [glossary term=\"return\"] keyword. But this keyword is currently inside a comment, which the computer ignores."
+msgid "To work, the function should use the [glossary term=\"return\"]return[/glossary] keyword. But this keyword is currently inside a comment, which the computer ignores."
 msgstr "要让它正常工作，函数需要使用 [glossary term=return] 关键字。但这个关键字目前写在了注释里，计算机会忽略它。"
 
 #. TRANSLATORS: Practice goal
@@ -471,7 +485,7 @@ msgstr "每一种编程语言都提供了由其他程序员编写的丰富功能
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:9
 #, fuzzy
-msgid "We call a bundle of code created by fellow developers a [glossary term=\"library\"]."
+msgid "We call a bundle of code created by fellow developers a [glossary term=\"library\"]library[/glossary]."
 msgstr "我们把其他开发者写好的代码集合称为[glossary term=library]库[/glossary]。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:10
@@ -494,13 +508,13 @@ msgstr "写代码时，你总是会用到许多前辈开发者留下的代码。
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:18
 #, fuzzy
-msgid "In a moment, you'll write your first code. You'll use [glossary term=\"functions\"] created by the Godot developers."
+msgid "In a moment, you'll write your first code. You'll use [glossary term=\"functions\"]functions[/glossary] created by the Godot developers."
 msgstr "稍后你就会写下你的第一段代码。你会用到 Godot 开发者们编写的[glossary term=functions]函数[/glossary]。"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:19
 #, fuzzy
-msgid "A function is a list of [glossary term=\"instructions\"] with an exact name. We can tell the computer to execute all the instructions in sequence with that name."
+msgid "A function is a list of [glossary term=\"instructions\"]instructions[/glossary] with an exact name. We can tell the computer to execute all the instructions in sequence with that name."
 msgstr "函数是一组有确切名称的指令。我们通过这个名字，就可以让计算机按顺序执行这组指令。"
 
 #. TRANSLATORS: Heading
@@ -589,13 +603,13 @@ msgstr "函数参数"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:59
 #, fuzzy
-msgid "We use parentheses to call functions because you can give the function [glossary term=\"arguments\"] inside the parentheses when calling it."
+msgid "We use parentheses to call functions because you can give the function [glossary term=\"arguments\"]arguments[/glossary] inside the parentheses when calling it."
 msgstr "调用函数时之所以要写括号，是因为你可以在括号里传入[glossary term=arguments]参数[/glossary]（argument）。"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:60
 #, fuzzy
-msgid "Here's a [glossary term=\"sprite\"] standing straight. If we call the [code]rotate(0.3)[/code] function, the character [i]sprite[/i] turns by 0.3 radians."
+msgid "Here's a [glossary term=\"sprite\"]sprite[/glossary] standing straight. If we call the [code]rotate(0.3)[/code] function, the character [i]sprite[/i] turns by 0.3 radians."
 msgstr "这是一个笔直站立的[glossary term=sprite]精灵[/glossary]。如果调用 [code]rotate(0.3)[/code] 函数，角色[i]精灵[/i]就会旋转 0.3 弧度。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:77
@@ -631,7 +645,7 @@ msgstr "什么是弧度？"
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:78
 #, fuzzy
-msgid "The value of [code]0.3[/code] is an angle in [glossary term=\"radians\"]. In daily life, we're used to measuring angles in degrees. The radian is another scale commonly used in video games and math."
+msgid "The value of [code]0.3[/code] is an angle in [glossary term=\"radians\"]radians[/glossary]. In daily life, we're used to measuring angles in degrees. The radian is another scale commonly used in video games and math."
 msgstr "[code]0.3[/code] 这个值是以[glossary term=“radians”]弧度[/glossary]为单位的角度。日常生活中我们习惯用度数来度量角度，而弧度是电子游戏和数学中另一种常用的度量方式。"
 
 #. TRANSLATORS: Note content
@@ -839,7 +853,7 @@ msgstr "这个小海龟是一个小机器，它能向前移动、转动，并在
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:14
 #, fuzzy
-msgid "To make it draw, you give it a list of [glossary term=\"instructions\"]: on each code line, you call one specific function."
+msgid "To make it draw, you give it a list of [glossary term=\"instructions\"]instructions[/glossary]: on each code line, you call one specific function."
 msgstr "为了让它画图，你需要给它一系列[glossary term=“instructions”]指令[/glossary]：在每一行代码上，调用一个特定的函数。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:15
@@ -1078,7 +1092,7 @@ msgstr "函数是指令序列"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-5-your-first-function/lesson.bbcode:9
 #, fuzzy
-msgid "Functions are [i]sequences of [glossary term=\"instructions\"][/i] we give a name. We call that name an [i]identifier[/i]."
+msgid "Functions are [i]sequences of [glossary term=\"instructions\"]instructions[/glossary][/i] we give a name. We call that name an [i]identifier[/i]."
 msgstr "函数是[i]被命名的[glossary term=“instructions”]指令[/glossary]序列[/i]。我们称这个名字为[i]标识符[/i]。"
 
 #: course/lesson-5-your-first-function/lesson.bbcode:10
@@ -1382,13 +1396,13 @@ msgstr "这个功能有点限制。 相反，如果我们有一个函数来绘�
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:9
 #, fuzzy
-msgid "In previous lessons, you used the [code]rotate()[/code] function and gave it an [glossary term=\"argument\"]."
+msgid "In previous lessons, you used the [code]rotate()[/code] function and gave it an [glossary term=\"argument\"]argument[/glossary]."
 msgstr "在之前的课程中，你使用了 [code]rotate()[/code] 函数并给了它一个 [glossary term=“argument”]参数[/glossary]。"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:11
 #, fuzzy
-msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]."
+msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]parameters[/glossary]."
 msgstr "就像 [code]rotate()[/code] 一样，我们也可以给我们的函数添加[glossary term=“参数”]。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:12
@@ -1941,7 +1955,7 @@ msgstr "还有很多很多。你需要存储、读取和更新这些值。"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-7-member-variables/lesson.bbcode:17
 #, fuzzy
-msgid "We call those values [i][glossary term=\"variables\"][/i]. Variables are labels you use to keep track of values that vary over time. Here's an example of a variable tracking a character or monster's health."
+msgid "We call those values [i][glossary term=\"variables\"]variables[/glossary][/i]. Variables are labels you use to keep track of values that vary over time. Here's an example of a variable tracking a character or monster's health."
 msgstr "我们把这些值称为 [i][glossary term=“variables”]变量[/glossary][/i]。变量是用来追踪随时间变化的值的标签。下面是一个追踪角色或怪物生命值的变量示例。"
 
 #: course/lesson-7-member-variables/lesson.bbcode:21
@@ -1955,7 +1969,7 @@ msgstr "你在上一课中见过的函数参数，也是变量的一种。"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-7-member-variables/lesson.bbcode:23
 #, fuzzy
-msgid "In this lesson, we start using variables built into Godot. They're a particular kind called [i][glossary term=\"member variables\"][/i]."
+msgid "In this lesson, we start using variables built into Godot. They're a particular kind called [i][glossary term=\"member variables\"]member variables[/glossary][/i]."
 msgstr "本课中，我们从使用 Godot 内置的变量开始。它们是一种特殊的类型，叫做 [i][glossary term=“成员变量”][/i]。"
 
 #: course/lesson-7-member-variables/lesson.bbcode:24
@@ -2238,7 +2252,7 @@ msgstr "定义你自己的变量"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-8-defining-variables/lesson.bbcode:3
 #, fuzzy
-msgid "In the previous lesson, you used a predefined member [glossary term=\"variable\"] named [code]position[/code]."
+msgid "In the previous lesson, you used a predefined member [glossary term=\"variable\"]variable[/glossary] named [code]position[/code]."
 msgstr "在上一课中，你使用了一个名为 [code]position[/code] 的预定义[glossary term=“variable”]变量[/glossary]。"
 
 #: course/lesson-8-defining-variables/lesson.bbcode:4
@@ -2305,7 +2319,7 @@ msgstr "与函数一样，成员变量的名称在给定代码文件中必须是
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-8-defining-variables/lesson.bbcode:41
 #, fuzzy
-msgid "To use a variable, you want to [glossary term=\"assign\"] it a starting value. You can do so using the equal sign (=)."
+msgid "To use a variable, you want to [glossary term=\"assign\"]assign[/glossary] it a starting value. You can do so using the equal sign (=)."
 msgstr "要使用变量，你需要为其[glossary term=“assign”]分配[/glossary]一个起始值。你可以使用等号 (=) 执行此操作。"
 
 #: course/lesson-8-defining-variables/lesson.bbcode:42
@@ -2712,7 +2726,7 @@ msgstr "从那里开始，每一帧，Godot 都会运行 [code]_process()[/code]
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-10-the-game-loop/lesson.bbcode:56
 #, fuzzy
-msgid "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the character by [code]0.05[/code] [glossary term=\"radians\"] [b]many[/b] times a second."
+msgid "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the character by [code]0.05[/code] [glossary term=\"radians\"]radians[/glossary] [b]many[/b] times a second."
 msgstr "由于我们编写了 [code]rotate()[/code] 指令，相当于 Godot 每秒将角色以 [code]0.05[/code] 弧度旋转了 [b]很多[/b] 次。"
 
 #. TRANSLATORS: Quiz question
@@ -2974,7 +2988,7 @@ msgstr "为什么我们在这个例子中用的值是 3.0？"
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-11-time-delta/lesson.bbcode:80
 #, fuzzy
-msgid "At the top of the lesson, we made the robot rotate a fixed amount every frame: [code]0.05[/code] [glossary term=\"radians\"]."
+msgid "At the top of the lesson, we made the robot rotate a fixed amount every frame: [code]0.05[/code] [glossary term=\"radians\"]radians[/glossary]."
 msgstr "在课程的开始时期，我们让机器人每帧旋转一个固定的量：[code]0.05[/code] 弧度。"
 
 #. TRANSLATORS: Note content
@@ -4037,7 +4051,7 @@ msgstr "什么是向量？"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-16-2d-vectors/lesson.bbcode:15
 #, fuzzy
-msgid "A [glossary term=\"vector\"], in physics, is a quantity with a magnitude and a direction. For example, a force applied to some object, the velocity (speed and direction) of a character, and so on."
+msgid "A [glossary term=\"vector\"]vector[/glossary], in physics, is a quantity with a magnitude and a direction. For example, a force applied to some object, the velocity (speed and direction) of a character, and so on."
 msgstr "在物理学中，向量是具有大小和方向的量。例如，施加到某个对象上的力、角色的速度（速度大小和速度方向）等等。"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:16
@@ -4465,7 +4479,7 @@ msgstr "确保用到了 [code]while[/code] 循环，以便该函数适用于任�
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-17-while-loops/lesson.bbcode:103
 #, fuzzy
-msgid "Use a [glossary term=\"while loop\"] to have the robot move from the top of the board to the bottom."
+msgid "Use a [glossary term=\"while loop\"]while loop[/glossary] to have the robot move from the top of the board to the bottom."
 msgstr "用 while 循环让机器人从棋盘的顶部移动到底部。"
 
 #. TRANSLATORS: Practice hint
@@ -4512,7 +4526,7 @@ msgstr "有一种更安全且通常更简便的循环：[code]for[/code] 循环�
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-18-for-loops/lesson.bbcode:12
 #, fuzzy
-msgid "Unlike [code]while[/code] loops, [code]for[/code] loops don't run forever, so you're much less likely to get infinite loop bugs in your game. [b]We recommend using [glossary term=\"for loops\"] instead of while loops because of this[/b]."
+msgid "Unlike [code]while[/code] loops, [code]for[/code] loops don't run forever, so you're much less likely to get infinite loop bugs in your game. [b]We recommend using [glossary term=\"for loops\"]for loops[/glossary] instead of while loops because of this[/b]."
 msgstr "与 [code]while[/code] 循环不同，[code]for[/code] 循环不会无限运行，因此你的游戏中出现无限循环错误的可能性要小得多。 [b]正因如此，我们建议优先使用 for 循环而不是 while 循环[/b]。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:13
@@ -4729,7 +4743,7 @@ msgstr "我们在上一课中看到的 [code]range()[/code] 函数会输出一�
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-19-creating-arrays/lesson.bbcode:7
 #, fuzzy
-msgid "A list of values, numbers or otherwise, has a precise name in code: we call it an [i][glossary term=\"array\"][/i]. So we can say calling the [code]range()[/code] function produces an [i]array[/i] of numbers."
+msgid "A list of values, numbers or otherwise, has a precise name in code: we call it an [i][glossary term=\"array\"]array[/glossary][/i]. So we can say calling the [code]range()[/code] function produces an [i]array[/i] of numbers."
 msgstr "数值或其他值的列表在代码中有一个准确的名称：我们称之为 [i]数组(array)[/i]。因此，我们可以说调用 [code]range()[/code] 函数产生了一个由数字构成的[i]数组[/i] 。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:8
@@ -4962,7 +4976,7 @@ msgstr "对于数组中的每个元素，[code]for[/code] 循环将其提取出�
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:18
 #, fuzzy
-msgid "Inside the loop, you can access the [code]number[/code] variable, which changes on each [i][glossary term=\"iteration\"][/i]."
+msgid "Inside the loop, you can access the [code]number[/code] variable, which changes on each [i][glossary term=\"iteration\"]iteration[/glossary][/i]."
 msgstr "在循环内部，可以访问到 [code]number[/code] 变量，该变量在每次 [i][glossary term=“迭代”][/i] 时都会发生变化。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:19
@@ -5350,7 +5364,7 @@ msgstr "到目前为止，你已经了解到函数是一种将指令分组、为
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-22-functions-return-values/lesson.bbcode:6
 #, fuzzy
-msgid "Functions can also make calculations and [glossary term=\"return\"] new values."
+msgid "Functions can also make calculations and [glossary term=\"return\"]return[/glossary] new values."
 msgstr "函数也可以进行计算并[glossary term=return]返回[/glossary]新的值。"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:7
@@ -5833,7 +5847,8 @@ msgstr "使用负索引时，[code]-1[/code] 表示数组中的 [i]最后一个[
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-24-access-array-indices/lesson.bbcode:41
-msgid "It can be little confusing as it seems to work differently from positive indices. However, it's because there's no difference between index [code]0[/code] and [code]-0[/code]: they both point to the first item in the array."
+#, fuzzy
+msgid "It can be a little confusing as it seems to work differently from positive indices. However, it's because there's no difference between index [code]0[/code] and [code]-0[/code]: they both point to the first item in the array."
 msgstr "这可能让人有点困惑，因为负索引似乎和正索引的规则不一样。但其实是合理的，因为索引 [code]0[/code] 和 [code]-0[/code] 没有区别：它们都指向数组的第一项。"
 
 #. TRANSLATORS: Quiz answer
@@ -5866,7 +5881,7 @@ msgstr "[b]检查数组的大小[/b]"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-24-access-array-indices/lesson.bbcode:60
 #, fuzzy
-msgid "Arrays come with a [glossary term=\"member function\"] named [code]size()[/code]. You can call it on the array anytime to know its [i]current[/i] size."
+msgid "Arrays come with a [glossary term=\"member function\"]member function[/glossary] named [code]size()[/code]. You can call it on the array anytime to know its [i]current[/i] size."
 msgstr "数组自带一个名为 [code]size()[/code] 的[glossary term='member function']成员函数[/glossary]。你可以随时在数组上调用它，来获取数组 [i]当前[/i] 的大小。"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:63
@@ -5978,7 +5993,7 @@ msgstr "但是，仅使用一个物品名称的数组，没办法轻松跟踪每
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:9
 #, fuzzy
-msgid "Instead, we can bundle the item names and amounts into a single [glossary term=\"dictionary\"]."
+msgid "Instead, we can bundle the item names and amounts into a single [glossary term=\"dictionary\"]dictionary[/glossary]."
 msgstr "更进一步的话，可以将物品名称和数量捆绑到同一个 [glossary term=dictionary]字典[/glossary] 中。"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:10
@@ -6378,7 +6393,7 @@ msgstr "值类型"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-27-value-types/lesson.bbcode:3
 #, fuzzy
-msgid "In your code, values have a particular [glossary term=\"type\"]. You have already learned about several: whole numbers, decimal numbers, strings, 2D vectors, arrays, and dictionaries."
+msgid "In your code, values have a particular [glossary term=\"type\"]type[/glossary]. You have already learned about several: whole numbers, decimal numbers, strings, 2D vectors, arrays, and dictionaries."
 msgstr "在你的代码中，值都有特定的[glossary term=类型]。你已经学过好几种了：整数、小数、字符串、二维向量、数组，还有字典。"
 
 #: course/lesson-27-value-types/lesson.bbcode:4
