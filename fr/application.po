@@ -14,11 +14,22 @@ msgstr ""
 "Language-Team: French <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.10.3\n"
 "X-Generator: Poedit 3.8\n"
+
+#: course/common/inventory/DictItem.tscn
+#: course/lesson-23-append-to-arrays/visuals/Crate.tscn
+#: course/lesson-24-access-array-indices/visuals/inventory/Item.tscn
+#: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
+msgid "0"
+msgstr "0"
+
+#: course/lesson-21-strings/visuals/RobotWithNumberName.tscn
+msgid "70801"
+msgstr "70801"
 
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
@@ -32,13 +43,6 @@ msgstr "Inventaire"
 #: course/common/inventory/DictItem.tscn
 msgid "healing heart"
 msgstr "coeur de soin"
-
-#: course/common/inventory/DictItem.tscn
-#: course/lesson-23-append-to-arrays/visuals/Crate.tscn
-#: course/lesson-24-access-array-indices/visuals/inventory/Item.tscn
-#: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
-msgid "0"
-msgstr "0"
 
 #: course/lesson-11-time-delta/visuals/DemoRotatingSpriteFrame.tscn
 #: course/lesson-11-time-delta/visuals/DemoRotatingTime.tscn
@@ -62,28 +66,28 @@ msgstr "Distance constante"
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 msgid "The identifier \"angular_speed\" isn't declared in the current scope (at line 6)."
-msgstr ""
+msgstr "L'identifiant « angular_speed » n'est pas déclaré dans la portée actuelle (à la ligne 6)."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 msgid "The [code]set_angular_speed()[/code] function can't use the [code]angular_speed[/code] variable because it isn't script-wide. It also isn't in the [code]set_angular_speed()[/code] function."
-msgstr ""
+msgstr "La fonction [code]set_angular_speed()[/code] ne peut pas utiliser la variable [code]angular_speed[/code] car elle n'est pas définie à l'échelle du script. Elle ne se trouve pas non plus dans la fonction [code]set_angular_speed()[/code]."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 msgid "Make sure you define the [code]angular_speed[/code] variable in the [code]set_angular_speed()[/code] function, or define it outside of functions so it's script-wide."
-msgstr ""
+msgstr "Assurez-vous de définir la variable [code]angular_speed[/code] dans la fonction [code]set_angular_speed()[/code], ou définissez-la en dehors des fonctions pour qu'elle soit accessible dans tout le script."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
-#, fuzzy
 msgid ""
 "Sorry, we don't have this particular error message covered yet!\n"
 "\n"
 "Please, use the [b]Report[/b] button in the top-right corner to tell us more about how you've got it, and we will try to improve our knowledge base for the next version of the application.\n"
 "\n"
 "[center]Thank you![/center]"
-msgstr ""
-"Désolé, ce message d'erreur en particulier n'est pas encore couvert !\n"
+msgstr "Désolé, nous n'avons pas encore couvert ce message d'erreur en particulier !\n"
 "\n"
-"Veuillez utiliser le bouton [b]Signaler[/b] dans le coin supérieur droit pour nous en dire plus sur la façon dont vous l'avez obtenu, et nous essaierons d'améliorer notre base de connaissances pour la prochaine version de l'application."
+"Veuillez utiliser le bouton [b]Signaler[/b] dans le coin supérieur droit pour nous en dire plus sur la façon dont vous l'avez rencontré, et nous essaierons d'améliorer notre base de connaissances pour la prochaine version de l'application."
+"\n"
+"[center]Merci ![/center]"
 
 #: course/lesson-12-using-variables/visuals/VariableDefinition.tscn
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
@@ -107,7 +111,7 @@ msgstr "Valeur"
 
 #: course/lesson-13-conditions/visuals/ExampleHeal.tscn
 msgid "heal(50)"
-msgstr ""
+msgstr "heal(50)"
 
 #: course/lesson-13-conditions/visuals/ExampleHeal.tscn
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleHeal.tscn
@@ -118,7 +122,7 @@ msgstr ""
 
 #: course/lesson-13-conditions/visuals/ExampleJump.tscn
 msgid "Jump"
-msgstr ""
+msgstr "Sauter"
 
 #: course/lesson-14-multiplying/visuals/Graph.tscn
 #: course/lesson-16-2d-vectors/visuals/VectorVisual.tscn
@@ -133,18 +137,17 @@ msgstr "Y"
 
 #: course/lesson-14-multiplying/visuals/GraphExp.tscn
 #: course/lesson-14-multiplying/visuals/GraphLinear.tscn
-#, fuzzy
 msgid "Show Me"
-msgstr "Afficher l'indice"
+msgstr "Afficher"
 
 #: course/lesson-14-multiplying/visuals/LevelUpVisual.tscn
 msgid "Level Up!"
-msgstr ""
+msgstr "Level Up!"
 
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScale.tscn
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScaleVector.tscn
 msgid "level_up()"
-msgstr ""
+msgstr "level_up()"
 
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScale.tscn
 msgid ""
@@ -153,6 +156,10 @@ msgid ""
 "\tscale.y += 0.2\n"
 "\t# ..."
 msgstr ""
+"func level_up():\n"
+"\tscale.x += 0.2\n"
+"\tscale.y += 0.2\n"
+"\t# ..."
 
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScaleVector.tscn
 msgid ""
@@ -160,16 +167,21 @@ msgid ""
 "\tscale += Vector2(0.2, 0.2)\n"
 "\t# ..."
 msgstr ""
+"func level_up():\n"
+"\tscale += Vector2(0.2, 0.2)\n"
+"\t# ..."
 
 #: course/lesson-16-2d-vectors/visuals/ExampleMoveSpriteVector.tscn
 msgid "move()"
-msgstr ""
+msgstr "move()"
 
 #: course/lesson-16-2d-vectors/visuals/ExampleMoveSpriteVector.tscn
 msgid ""
 "func move():\n"
 "\tposition += Vector2(20, 20)"
 msgstr ""
+"func move():\n"
+"\tposition += Vector2(20, 20)"
 
 #: course/lesson-16-2d-vectors/visuals/VectorVisual.tscn
 msgid "Vector2(100, 100)"
@@ -191,7 +203,7 @@ msgstr "cell = Vector2(0, 1)"
 #: course/lesson-17-while-loops/visuals/old/ExampleTurtleMeetRobot.tscn
 #: course/lesson-17-while-loops/visuals/old/ExampleTurtleMeetRobotWhile.tscn
 msgid "draw_wall()"
-msgstr ""
+msgstr "draw_wall()"
 
 #: course/lesson-17-while-loops/visuals/old/ExampleTurtleMeetRobot.tscn
 msgid ""
@@ -260,18 +272,13 @@ msgstr "Ceci est un indice."
 msgid "Hover over the Robot to learn more"
 msgstr "Survolez le robot pour en savoir plus"
 
-#: course/lesson-21-strings/visuals/RobotWithNumberName.tscn
-msgid "70801"
-msgstr "70801"
-
 #: course/lesson-21-strings/visuals/RobotWithRegularName.tscn
 msgid "Robot"
 msgstr "Robot"
 
 #: course/lesson-22-functions-return-values/visuals/ExampleRoundingHealth.tscn
-#, fuzzy
 msgid "Health: "
-msgstr "PV:"
+msgstr "PV :"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/ClearingMeals.tscn
 #: course/lesson-23-append-to-arrays/visuals/OrderMeals.tscn
@@ -391,17 +398,19 @@ msgstr "paramètre_2"
 
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleDamage.tscn
 msgid "take_damage(25)"
-msgstr ""
+msgstr "take_damage(25)"
 
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleDamage.tscn
 msgid ""
 "func take_damage(amount):\n"
 "\thealth -= amount"
 msgstr ""
+"func take_damage(amount):\n"
+"\thealth -= amount"
 
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleHeal.tscn
 msgid "heal(25)"
-msgstr ""
+msgstr "heal(25)"
 
 #: ui/UILesson.tscn
 msgid "Title"
@@ -615,9 +624,8 @@ msgstr ""
 "code promo [b]DISCOUNT50[/b]"
 
 #: ui/components/SalePopup.tscn
-#, fuzzy
 msgid "Only until "
-msgstr "Seulement jusqu’au"
+msgstr "Seulement jusqu'au"
 
 #: ui/components/SalePopup.tscn
 msgid "CHECK OUT OUR COURSES"
@@ -790,7 +798,6 @@ msgid ""
 msgstr ""
 
 #: ui/components/popups/SettingsPopup.tscn
-#, fuzzy
 msgid "Allow incomplete translations"
 msgstr "Autoriser les traductions incomplètes"
 
@@ -800,7 +807,7 @@ msgstr "Activé"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Make all text in the app bigger or smaller."
-msgstr ""
+msgstr "Agrandissez ou réduisez la taille de tout le texte de l'application."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Text Size"
@@ -811,26 +818,23 @@ msgid "Sample text"
 msgstr "Texte d'exemple"
 
 #: ui/components/popups/SettingsPopup.tscn
-#, fuzzy
 msgid "Change how fast the page scrolls when you use the mouse wheel or touchpad."
-msgstr "Augmentez ou réduisez la vitesse de défilement avec la molette de la souris ou le pavé tactile."
+msgstr "Modifiez la vitesse de défilement de la page lorsque vous utilisez la molette de la souris ou le pavé tactile."
 
 #: ui/components/popups/SettingsPopup.tscn
-#, fuzzy
 msgid "Scroll speed"
-msgstr "Sensibilité du défilement"
+msgstr "Vitesse de défilement"
 
 #: ui/components/popups/SettingsPopup.tscn
-#, fuzzy
 msgid ""
 "Limit how many frames per second the app draws.\n"
 "Lower values use less resources, which helps when running in the browser, but the app may feel less smooth."
-msgstr "Limite le nombre d'images par seconde de l'application. Des valeurs plus basses réduisent la consommation de ressources, surtout dans le navigateur, mais peuvent donner une expérience moins fluide."
+msgstr "Limite le nombre d'images par seconde de l'application.\n"
+"Des valeurs plus basses réduisent la consommation de ressources, surtout dans le navigateur, mais peuvent donner une expérience moins fluide."
 
 #: ui/components/popups/SettingsPopup.tscn
-#, fuzzy
 msgid "Max framerate"
-msgstr "Limite d'images par seconde"
+msgstr "Images par seconde"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "60 FPS"
@@ -855,11 +859,12 @@ msgid "Lower contrast"
 msgstr "Contraste plus faible"
 
 #: ui/components/popups/SettingsPopup.tscn
-#, fuzzy
 msgid ""
 "Switch to a font designed to be easier to read for people with dyslexia.\n"
 "This does not work with languages like Chinese and Japanese."
-msgstr "Modifiez le style du texte pour le rendre plus facile à lire si vous avez de la dyslexie. Cette option est incompatible avec les langues comme le chinois et le japonais."
+msgstr ""
+"Passez à une police conçue pour être plus facile à lire pour les personnes dyslexiques.\n"
+"Cette option ne fonctionne pas avec les langues comme le chinois et le japonais."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Dyslexia Font"
@@ -937,7 +942,6 @@ msgid "Lesson Title"
 msgstr "Titre de la leçon"
 
 #: ui/screens/course_outliner/CourseOutliner.tscn
-#, fuzzy
 msgid "Course Index - "
 msgstr "Index du cours -"
 
@@ -1029,7 +1033,7 @@ msgstr "en précommande"
 
 #: ui/screens/end_screen/EndScreen.tscn
 msgid "Godot 4 courses!!"
-msgstr ""
+msgstr "Cours Godot 4 !!"
 
 #: ui/screens/end_screen/EndScreen.tscn
 msgid "Teaching gamedev in the classroom?"
@@ -1136,9 +1140,8 @@ msgid "Answer label"
 msgstr "Étiquette de la réponse"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.tscn
-#, fuzzy
 msgid "[b]Question[/b]"
-msgstr "Question"
+msgstr "[b]Question[/b]"
 
 #: ui/screens/practice/PracticeHint.tscn
 msgid "Show Hint"
@@ -2123,7 +2126,7 @@ msgstr "La forme 3D numéro %s n'est pas un carré de 200 pixels de côté. Avez
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:67
 msgid "The squares should not overlap. Did you move the turtle between drawing each square?"
-msgstr ""
+msgstr "Les carrés ne doivent pas se chevaucher. Avez-vous déplacé la tortue entre le dessin de chaque carré ?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:16
 msgid "Draw Corners Of Varying Lengths"
