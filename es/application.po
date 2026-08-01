@@ -84,7 +84,11 @@ msgid ""
 "Please, use the [b]Report[/b] button in the top-right corner to tell us more about how you've got it, and we will try to improve our knowledge base for the next version of the application.\n"
 "\n"
 "[center]Thank you![/center]"
-msgstr "¡Lo sentimos, todavía no tenemos cubierto este mensaje de error en particular! Por favor, usa el botón [b]Reportar[/b] en la esquina superior derecha para contarnos más sobre cómo lo obtuviste, e intentaremos mejorar nuestra base de conocimiento para la próxima versión de la aplicación. [center]¡Gracias![/center]"
+msgstr "¡Lo sentimos, todavía no tenemos una explicación para este mensaje de error en particular!\n"
+"\n"
+"Por favor, usa el botón [b]Reportar[/b] en la esquina superior derecha para contarnos más sobre cómo lo obtuviste, e intentaremos mejorar nuestra base de conocimiento para la próxima versión de la aplicación.\n"
+"\n"
+"[center]¡Gracias![/center]"
 
 #: course/lesson-12-using-variables/visuals/VariableDefinition.tscn
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
@@ -449,17 +453,14 @@ msgid "Leave unfinished practice?"
 msgstr "¿Dejar la práctica sin terminar?"
 
 #: ui/components/BetaIndicator.tscn
-#, fuzzy
 msgid "App in"
 msgstr "Aplicación en"
 
 #: ui/components/BetaIndicator.tscn
-#, fuzzy
 msgid "BETA!"
 msgstr "¡BETA!"
 
 #: ui/components/BetaIndicator.tscn
-#, fuzzy
 msgid "found a bug?"
 msgstr "¿Has encontrado un error?"
 
@@ -572,7 +573,6 @@ msgid "Click to learn about external errors"
 msgstr "Haz clic para obtener más información sobre los errores externos"
 
 #: ui/components/OutputConsoleErrorMessage.tscn
-#, fuzzy
 msgid "Sometimes errors are reported outside of your code. [url=external]Why does that happen?[/url]"
 msgstr "A veces los errores se reportan fuera de tu código. [url=external]¿Por qué sucede eso?[/url]"
 
@@ -714,49 +714,40 @@ msgid "Close"
 msgstr "Cerrar"
 
 #: ui/components/popups/ReportFormPopup.tscn
-#, fuzzy
 msgid "Something does not work"
 msgstr "Algo no funciona"
 
 #: ui/components/popups/ReportFormPopup.tscn
-#, fuzzy
 msgid "Something is unclear or incorrect"
-msgstr "Hay algo que no está claro o es incorrecto"
+msgstr "Algo no está claro o es incorrecto"
 
 #: ui/components/popups/ReportFormPopup.tscn
-#, fuzzy
 msgid "Suggest an improvement"
 msgstr "Sugerir una mejora"
 
 #: ui/components/popups/ReportFormPopup.tscn
-#, fuzzy
 msgid "Translation issue"
-msgstr "Problema de traducción"
+msgstr "Error de traducción"
 
 #: ui/components/popups/ReportFormPopup.tscn
-#, fuzzy
 msgid "Write a short description."
-msgstr "Escribe una breve descripción. La pista cambia cuando eliges un tipo de problema diferente."
+msgstr "Escribe una breve descripción."
 
 #: ui/components/popups/ReportFormPopup.tscn
-#, fuzzy
 msgid "Describe what went wrong, what you were doing, and what you expected to happen."
 msgstr "Describe qué ha fallado, qué estabas haciendo y qué esperabas que pasara."
 
 #: ui/components/popups/ReportFormPopup.tscn
-#, fuzzy
 msgid "Open the contact page on our website with this report prefilled."
-msgstr "Abre la página de contacto de nuestra web con este informe ya rellenado."
+msgstr "Abre la página de contacto de nuestra web con este informe ya completado."
 
 #: ui/components/popups/ReportFormPopup.tscn
-#, fuzzy
 msgid "Send report"
 msgstr "Enviar informe"
 
 #: ui/components/popups/ReportFormPopup.tscn
-#, fuzzy
 msgid "Close the report form without sending anything."
-msgstr "Cierra el formulario de informe sin enviar nada."
+msgstr "Cerrar el formulario de informe sin enviar nada."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Configure the App"
@@ -777,7 +768,6 @@ msgid "About community translations"
 msgstr "Acerca de las traducciones de la comunidad"
 
 #: ui/components/popups/SettingsPopup.tscn
-#, fuzzy
 msgid "0% of text translated. 0/0 lessons fully translated."
 msgstr "0 % del texto traducido. 0/0 lecciones traducidas por completo."
 
@@ -913,12 +903,10 @@ msgid "Lesson Title"
 msgstr "Título de la Lección"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn
-#, fuzzy
 msgid "A/文 100%"
 msgstr "A/文 100%"
 
 #: ui/screens/course_outliner/CourseLessonList.tscn
-#, fuzzy
 msgid "This course is 80% translated. Incomplete lessons will contain English text."
 msgstr "Este curso está traducido al 80 %. Las lecciones incompletas contendrán texto en inglés."
 
@@ -2575,39 +2563,32 @@ msgid "Running Tests..."
 msgstr "Ejecutando pruebas..."
 
 #: ui/components/BreadCrumbs.gd:115
-#, fuzzy
 msgid " > "
 msgstr " > "
 
 #: ui/components/popups/ReportFormPopup.gd:52
-#, fuzzy
 msgid "Select the kind of issue and describe it in the box below, then click \"Send report\" to open the contact page on our website with the report prefilled."
 msgstr "Selecciona el tipo de problema y descríbelo en el cuadro de abajo; luego, haz clic en «Enviar informe» para abrir la página de contacto de nuestra web con el informe ya rellenado."
 
 #: ui/components/popups/ReportFormPopup.gd:56
-#, fuzzy
-msgid "For questions and help with learning, [url=https://discord.gg/bNj469SYQj]join the community on Discord[/url]."
-msgstr "Para preguntas y ayuda con el aprendizaje, [url=https://discord.gg/bNj469SYQj]únete a la comunidad en Discord[/url]."
+msgid "For questions and help with learning, [url=%s]join the community on Discord[/url]."
+msgstr "Para preguntas y ayuda con el aprendizaje, [url=%s]únete a la comunidad en Discord[/url]."
 
 #: ui/components/popups/ReportFormPopup.gd:131
-#, fuzzy
 msgid "Translations are unofficial and maintained by the community. If you'd like to help, [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]learn how to help translate the app[/url]."
-msgstr "Las traducciones no son oficiales y las mantiene la comunidad. Si quieres colaborar, [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]aprende cómo ayudar a traducir la aplicación[/url]."
+msgstr "Las traducciones no son oficiales y las mantiene la comunidad. Si quieres ayudar, [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]aprende cómo ayudar a traducir la aplicación[/url]."
 
 #: ui/components/popups/SettingsPopup.gd:144
-#, fuzzy
 msgid "{percentage}% of text translated. {completed}/{total} lessons fully translated."
 msgstr "{percentage} % del texto traducido. {completed}/{total} lecciones traducidas por completo."
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:72
-#, fuzzy
 msgid "100%"
 msgstr "100 %"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:85
 #: ui/screens/course_outliner/CourseLessonDetails.gd:114
 #: ui/screens/course_outliner/CourseLessonDetails.gd:116
-#, fuzzy
 msgid "Open Anyway"
 msgstr "Abrir de todos modos"
 
@@ -2620,7 +2601,6 @@ msgid "Continue Lesson"
 msgstr "Continuar con la lección"
 
 #: ui/screens/course_outliner/CourseLessonList.gd:33
-#, fuzzy
 msgid "This course is {percentage}% translated. Incomplete lessons will contain English text."
 msgstr "Este curso está traducido al {percentage} %. Las lecciones incompletas contendrán texto en inglés."
 
@@ -2658,7 +2638,6 @@ msgstr ""
 msgid "CONTINUE"
 msgstr "CONTINUAR"
 
-#, fuzzy
 msgid "Learn to Code From Zero with Godot"
 msgstr "Aprende a programar desde cero con Godot"
 
