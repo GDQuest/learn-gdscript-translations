@@ -66,7 +66,7 @@ msgstr "Distancia constante"
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 msgid "The identifier \"angular_speed\" isn't declared in the current scope (at line 6)."
-msgstr "El identificador «angular_speed» no está declarado en el ámbito actual (en la línea 6)."
+msgstr "El identificador angular_speed no está declarado en el ámbito actual (en la línea 6)."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 msgid "The [code]set_angular_speed()[/code] function can't use the [code]angular_speed[/code] variable because it isn't script-wide. It also isn't in the [code]set_angular_speed()[/code] function."
@@ -77,7 +77,6 @@ msgid "Make sure you define the [code]angular_speed[/code] variable in the [code
 msgstr "Asegúrate de definir la variable [code]angular_speed[/code] en la función [code]set_angular_speed()[/code], o defínela fuera de las funciones para que sea válida en todo el script."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
-#, fuzzy
 msgid ""
 "Sorry, we don't have this particular error message covered yet!\n"
 "\n"
@@ -1245,123 +1244,102 @@ msgid "Rotating Character Is Time Dependent"
 msgstr "La rotación del personaje  depende del tiempo"
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:24
-#, fuzzy
 msgid "Rotation Speed Is 2 Radians Per Second"
 msgstr "La velocidad de rotación es de 2 radianes por segundo"
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:31
-#, fuzzy
 msgid "You need to use delta in the rotate() call. Delta is what makes the rotation time-dependent. Try rotate(2 * delta)."
 msgstr "Tienes que utilizar «delta» en la llamada a rotate(). «Delta» es lo que hace que la rotación dependa del tiempo. Prueba con rotate(2 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:38
-#, fuzzy
 msgid "Delta needs to be inside the parentheses of rotate(), not outside. You need to multiply the speed value by delta inside the call, like this: rotate(2 * delta)."
 msgstr "«Delta» debe ir dentro de los paréntesis de `rotate()`, no fuera. Tienes que multiplicar el valor de la velocidad por «delta» dentro de la llamada, así: `rotate(2 * delta)`."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:53
-#, fuzzy
 msgid "It looks like you stored the value in a variable before using it."
 msgstr "Parece que has almacenado el valor en una variable antes de utilizarlo."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:54
-#, fuzzy
 msgid "That's valid, but we can't check the value automatically."
 msgstr "Eso es válido, pero no podemos comprobar el valor automáticamente."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:55
-#, fuzzy
 msgid "Please write it directly in the function call: rotate(2 * delta)."
 msgstr "Por favor, escríbela directamente en la llamada a la función: rotate(2 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:63
-#, fuzzy
 msgid "It looks like delta is not being multiplied."
 msgstr "Parece que no se está multiplicando «delta»."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:64
-#, fuzzy
 msgid "You need to use the * sign to multiply the speed by delta inside the parentheses, like this: rotate(2 * delta)."
 msgstr "Tienes que usar el signo * para multiplicar la velocidad por delta dentro de los paréntesis, así: rotate(2 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:77
-#, fuzzy
 msgid "The rotation speed is not right. The robot should rotate 2 radians per second. Make sure the call looks like this: rotate(2 * delta)."
-msgstr "La velocidad de rotación no es correcta. El robot debería girar 2 radianes por segundo. Asegúrate de que la llamada tenga este formato: rotate(2 * delta)."
+msgstr "La velocidad de rotación no es correcta. El robot debería girar 2 radianes por segundo. Asegúrate de que la llamada tenga esta forma: rotate(2 * delta)."
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:17
-#, fuzzy
 msgid "Angular Speed Variable Is Script Wide"
-msgstr "La variable «angular_speed» es válida para todo el script"
+msgstr "La variable angular_speed es válida para todo el script"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:18
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:18
-#, fuzzy
 msgid "Angular Speed Has Value Of 4"
-msgstr "La velocidad angular tiene un valor de 4"
+msgstr "La variable angular_speed tiene un valor de 4"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:19
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:19
-#, fuzzy
 msgid "Angular Speed Is Used In Process Function"
-msgstr "La velocidad angular se utiliza en la función «process»."
+msgstr "La variable angular_speed se utiliza en la función «process»."
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:24
-#, fuzzy
 msgid "The angular_speed isn't script-wide. Did you define it outside of the function?"
-msgstr "La variable angular_speed no es global en el script. ¿La has definido fuera de la función?"
+msgstr "La variable angular_speed no es global en el script. ¿La definiste fuera de la función?"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:30
-#, fuzzy
 msgid "The angular speed variable doesn't exist or isn't script-wide. Make it script-wide first."
-msgstr "La variable «angular_speed» no existe o no es de ámbito global. Primero haz que sea de ámbito global."
+msgstr "La variable angular_speed no existe o no es de ámbito global. Primero haz que sea de ámbito global."
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:34
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:36
-#, fuzzy
 msgid "Angular speed variable's value is %s; It should be 4."
 msgstr "El valor de la variable de velocidad angular es %s; debería ser 4."
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:40
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:42
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:59
-#, fuzzy
 msgid "The '_process(delta)' function is missing; did you remove it?"
 msgstr "Falta la función «_process(delta)»; ¿la has eliminado?"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:51
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:51
-#, fuzzy
 msgid "The rotate() call must multiply angular_speed by delta (e.g. rotate(angular_speed * delta))."
-msgstr "La llamada a rotate() debe multiplicar angular_speed por delta (p. ej., rotate(angular_speed * delta))."
+msgstr "La llamada a rotate() debe multiplicar angular_speed por delta (por ejemplo, rotate(angular_speed * delta))."
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:17
-#, fuzzy
 msgid "Has Angular Speed Variable"
-msgstr "Tiene la variable velocidad_angular"
+msgstr "Tiene la variable angular_speed"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:20
-#, fuzzy
 msgid "Each Function Uses The Same Variable"
 msgstr "Cada función utiliza la misma variable"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:21
-#, fuzzy
 msgid "Angular Speed Is Used In Setter Function"
-msgstr "La velocidad angular se usa en la función setter"
+msgstr "La variable angular_speed se usa en la función setter"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:26
-#, fuzzy
 msgid "The angular_speed variable doesn't exist. Did you define it with the var keyword?"
-msgstr "La variable angular_speed no existe. ¿La has definido con la palabra clave «var»?"
+msgstr "La variable  angular_speed no existe. ¿La has definido con la palabra clave «var»?"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:32
 msgid "The angular speed variable doesn't exist, can't test if it has a value of 4."
-msgstr "La variable «angular_speed» no existe; no se puede comprobar si tiene un valor de 4."
+msgstr "La variable angular_speed no existe; no se puede comprobar si tiene un valor de 4."
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:63
 msgid "It looks like you declared angular_speed more than once. It should only be defined once."
-msgstr "Parece que has declarado «angular_speed» más de una vez. Solo debe definirse una vez."
+msgstr "Parece que has declarado angular_speed más de una vez. Solo debe definirse una vez."
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:70
 msgid "The 'set_angular_speed(new_angular_speed)' function is missing; did you remove it?"
