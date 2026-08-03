@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-07-26 12:01+0000\n"
+"PO-Revision-Date: 2026-08-03 11:14+0000\n"
 "Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/km/>\n"
 "Language: km\n"
@@ -1517,17 +1517,17 @@ msgstr "អ្នកត្រូវបញ្ចប់បន្ទាត់ដោ
 #. TRANSLATORS: Quiz answer
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:60
 msgid "func function_name(parameter_name):"
-msgstr "func function_name(parameter_name):"
+msgstr "func ឈ្មោះ_function(ឈ្មោ_ប៉ារ៉ាម៉េត្រ):"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:60
 msgid "func (function_name): parameter_name"
-msgstr "func (function_name): parameter_name"
+msgstr "func (ឈ្មោះ_function): ឈ្មោ_ប៉ារ៉ាម៉េត្រ"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:60
 msgid "func function_name(parameter_name)"
-msgstr "func function_name(parameter_name)"
+msgstr "func ឈ្មោះ_function(ឈ្មោ_ប៉ារ៉ាម៉េត្រ)"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:60
@@ -1793,12 +1793,8 @@ msgstr ""
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Use [code]func draw_corner(length, angle):[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
+msgstr "ប្រើ [code]func draw_corner(length, angle):[/code]"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
@@ -1851,12 +1847,8 @@ msgstr ""
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
 msgid "Use [code]func draw_square(length):[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
+msgstr "ប្រើ [code]func draw_square(length):[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
@@ -1924,12 +1916,8 @@ msgstr ""
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-#, fuzzy
 msgid "Use [code]func draw_rectangle(length, height):[/code]"
-msgstr ""
-"[code]\n"
-"func _process(delta):\n"
-"[/code]"
+msgstr "ប្រើ [code]func draw_rectangle(length, height):[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
@@ -3634,7 +3622,6 @@ msgstr ""
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:107
-#, fuzzy
 msgid ""
 "[ul]\n"
 "[code]>[/code]  Greater than\n"
@@ -3643,10 +3630,12 @@ msgid ""
 "[code]!=[/code] Not equal to\n"
 "[/ul]"
 msgstr ""
-"[code]>[/code] មានន័យថា \"greater than\" (ធំជាង)\n"
-"[code]<[/code] មានន័យថា \"less than\" (តូចជាង)\n"
-"[code]==[/code] មានន័យថា \"equal to\" (ស្មើ)\n"
-"[code]!=[/code] មានន័យថា \"not equal to\" (មិនស្មើ)"
+"[ul]\n"
+"[code]>[/code]  ធំជាង\n"
+"[code]<[/code]  តូចជាង\n"
+"[code]==[/code] ស្មើនឹង\n"
+"[code]!=[/code] មិនស្មើនឹង\n"
+"[/ul]"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:107
@@ -3749,11 +3738,12 @@ msgstr "បន្ថែមទៅក្នុង function [code]take_damage()[/co
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid ""
 "1. Subtract [code]amount[/code] from [code]health[/code].\n"
 "2. If [code]health[/code] is below [code]0[/code] after that, set it back to [code]0[/code]."
-msgstr "បើ [code]health(ឈាម)[/code] ធ្លាក់ក្រោម [code]0[/code] កំណត់វាត្រឡប់ទៅ [code]0[/code] វិញ។"
+msgstr ""
+"1. ដក [code]amount[/code] ចេញពី [code]health[/code]។\n"
+"2. បន្ទាប់ពីដករួច ប្រសិនបើ [code]health[/code] តូចជាង [code]0[/code] ត្រូវកំណត់វាឱ្យទៅ [code]0[/code] វិញ។"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -5730,9 +5720,8 @@ msgstr "ប្រអប់កំពុងកើនឡើង ច្រើនន�
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-23-append-to-arrays/lesson.bbcode:108
-#, fuzzy
 msgid "Think about how [code]while[/code] loops work."
-msgstr "មានការប្រើប្រាស់ល្អៗ ផ្សេងទៀតសម្រាប់ [code]while[/code] loops (រង្វិលជុំ while)៖"
+msgstr "គិតពីរបៀបដែល [code]while[/code] loops ដំណើរការ។"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-23-append-to-arrays/lesson.bbcode:108
