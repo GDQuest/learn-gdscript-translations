@@ -68,6 +68,15 @@ If you find a UI bug caused by translations, please [open a new issue](https://g
 **Note:** Currently, the app won't automatically reload translations while it's running. If you update a PO file, close the app with <kbd>F8</kbd> and rerun it with <kbd>F5</kbd>.
 
 
+## Machine pre-translation
+
+We can run machine pre-translation for languages supported by services like DeepL for you to reduce the amount of translation work. If you'd like that, please reach out to us (you can open an issue for it). First, we'll ideally define translation guidelines with you to get a better machine translation output (see the TRANSLATION_GUIDELINES.md files in the `de/` or `fr/` directories for reference). This improves the pre-translation and reduces busywork, notably around rules like which gender to use for pronouns, which kind of pronouns (formal vs informal like "vous" vs "tu" in French).
+
+The pre-translation keeps all the machine-translated strings as needing review and approval following the workflow professional translators usually use.
+
+When running the pre-translation, we will also use existing translations as context. So it might be worth checking first that existing translations follow the guidelines.
+
+
 ## For maintainers: updating translation templates
 
 This section is mainly for maintainers or code contributors to Learn GDScript From Zero.
