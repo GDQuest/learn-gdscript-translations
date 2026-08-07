@@ -1933,7 +1933,6 @@ msgstr "Y mucho más. Necesitas almacenar, recuperar y actualizar esos valores."
 
 #: course/lesson-7-member-variables/lesson.bbcode:17
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
-#, fuzzy
 msgid "We call those values [i][glossary term=\"variables\"]variables[/glossary][/i]. Variables are labels you use to keep track of values that vary over time. Here's an example of a variable tracking a character or monster's health."
 msgstr "Llamamos a esos valores [i][glossary term=\"variables\"]variables[/glossary][/i]. Las variables son etiquetas que usas para llevar un registro de valores que cambian con el tiempo. Aquí tienes un ejemplo de una variable que rastrea la salud de un personaje o monstruo."
 
@@ -1947,9 +1946,8 @@ msgstr "Los parámetros de las funciones, que viste en la lección anterior, son
 
 #: course/lesson-7-member-variables/lesson.bbcode:23
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
-#, fuzzy
 msgid "In this lesson, we start using variables built into Godot. They're a particular kind called [i][glossary term=\"member variables\"]member variables[/glossary][/i]."
-msgstr "En esta lección, comenzamos a usar variables integradas en Godot. Son de un tipo particular llamadas [i][glossary term=\"member variables”]variables miembro[/glossary][/i]."
+msgstr "En esta lección, comenzamos a usar variables integradas en Godot. Son de un tipo particular llamadas [i][glossary term=\"member variables\"]variables miembro[/glossary][/i]."
 
 #: course/lesson-7-member-variables/lesson.bbcode:24
 msgid "Member variables are values attached to a game entity. They're useful properties like the [code]position[/code], [code]rotation[/code], and [code]scale[/code] of a character."
@@ -2229,9 +2227,8 @@ msgstr "Definir tus propias variables"
 
 #: course/lesson-8-defining-variables/lesson.bbcode:3
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
-#, fuzzy
 msgid "In the previous lesson, you used a predefined member [glossary term=\"variable\"]variable[/glossary] named [code]position[/code]."
-msgstr "En la lección anterior, usaste una [glossary term="
+msgstr "En la lección anterior, usaste una [glossary term=\"variable\"]variable[/glossary] predefinida llamada [code]position[/code]."
 
 #: course/lesson-8-defining-variables/lesson.bbcode:4
 msgid "In your projects, you will need to define your own variables."
@@ -2296,9 +2293,8 @@ msgstr "Al igual que con las funciones, el nombre de una variable miembro debe s
 
 #: course/lesson-8-defining-variables/lesson.bbcode:41
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
-#, fuzzy
 msgid "To use a variable, you want to [glossary term=\"assign\"]assign[/glossary] it a starting value. You can do so using the equal sign (=)."
-msgstr "Para usar una variable, debes [glossary term=\"assign\"] asignarle un valor inicial. Puedes hacerlo usando el signo igual (=)."
+msgstr "Para usar una variable, debes [glossary term=\"assign\"]asignarle[/glossary] un valor inicial. Puedes hacerlo usando el signo igual (=)."
 
 #: course/lesson-8-defining-variables/lesson.bbcode:42
 msgid "This code assigns the value [code]100[/code] to a new variable named [code]health[/code]."
@@ -2491,9 +2487,8 @@ msgstr "Además, una vez más, la línea corta [code]health += amount[/code] es 
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 #. TRANSLATORS: Quiz question
-#, fuzzy
 msgid "Assuming amount is a positive number, which of these would increase the health of the robot?"
-msgstr "Suponiendo que amount es un número positivo, ¿cuál de estas opciones aumentaría la salud del robot?"
+msgstr "Suponiendo que amount (quantidad) es un número positivo, ¿cuál de estas opciones aumentaría la salud del robot?"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 #. TRANSLATORS: Quiz explanation
@@ -2701,7 +2696,6 @@ msgstr "A partir de ahí, en cada fotograma, Godot ejecuta la función [code]_pr
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:56
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
-#, fuzzy
 msgid "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the character by [code]0.05[/code] [glossary term=\"radians\"]radians[/glossary] [b]many[/b] times a second."
 msgstr "Como escribimos una instrucción [code]rotate()[/code], Godot está rotando el personaje [code]0.05[/code] [glossary term=\"radians\"]radianes[/glossary] [b]muchas[/b] veces por segundo."
 
@@ -2960,7 +2954,6 @@ msgstr "¿Por qué utilizamos el número 3.0 en este ejemplo?"
 #: course/lesson-11-time-delta/lesson.bbcode:80
 #. TRANSLATORS: Note content
 #. The "term" in [glossary term="<term>"] should NOT be translated here
-#, fuzzy
 msgid "At the top of the lesson, we made the robot rotate a fixed amount every frame: [code]0.05[/code] [glossary term=\"radians\"]radians[/glossary]."
 msgstr "Al principio de la lección, hicimos que el robot girara una cantidad fija en cada fotograma: [code]0.05[/code] [glossary term=\"radians\"]radianes[/glossary]."
 
@@ -4002,9 +3995,8 @@ msgstr "¿Qué son los vectores?"
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:15
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
-#, fuzzy
 msgid "A [glossary term=\"vector\"]vector[/glossary], in physics, is a quantity with a magnitude and a direction. For example, a force applied to some object, the velocity (speed and direction) of a character, and so on."
-msgstr "Un [glossary term=vector]vector[/glossary], en física, es una magnitud con módulo y dirección. Por ejemplo, una fuerza aplicada a un objeto, la velocidad (rapidez y dirección) de un personaje, etc."
+msgstr "Un [glossary term=\"vector\"]vector[/glossary], en física, es una magnitud con módulo y dirección. Por ejemplo, una fuerza aplicada a un objeto, la velocidad (rapidez y dirección) de un personaje, etc."
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:16
 msgid "We often represent this quantity with an arrow."
@@ -4149,7 +4141,6 @@ msgstr "Puedes añadir una línea para aumentar la [code]scale[/code] en cualqui
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:73
 #. TRANSLATORS: Practice hint
-#, fuzzy
 msgid "You can't use instructions like [code]scale.x += 0.2[/code] for this practice. Instead, you should use a [code]Vector2[/code]"
 msgstr "No puedes utilizar instrucciones como [code]scale.x += 0.2[/code] para este ejercicio. En su lugar, debes utilizar un [code]Vector2[/code]"
 
@@ -4195,7 +4186,6 @@ msgstr "¡Quizás aumentar la escala en cada nivel fue una mala idea! Restituyam
 
 #: course/lesson-16-2d-vectors/lesson.bbcode:90
 #. TRANSLATORS: Practice hint
-#, fuzzy
 msgid "To define the function, we use the [code]func[/code] keyword"
 msgstr "Para definir la función, usamos la palabra clave [code]func[/code]"
 
@@ -4475,7 +4465,7 @@ msgstr "Hay un tipo de bucle que es más seguro y a menudo más fácil de utiliz
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #, fuzzy
 msgid "Unlike [code]while[/code] loops, [code]for[/code] loops don't run forever, so you're much less likely to get infinite loop bugs in your game. [b]We recommend using [glossary term=\"for loops\"]for loops[/glossary] instead of while loops because of this[/b]."
-msgstr "A diferencia de los bucles [code]while[/code], los bucles [code]for[/code] no se ejecutan para siempre, por lo que es mucho menos probable que tengas errores de bucle infinito en tu juego. [b]Por eso recomendamos usar [glossary term=\"for loops”]bucles for[/glossary] en lugar de bucles while[/b]."
+msgstr "A diferencia de los bucles [code]while[/code], los bucles [code]for[/code] no se ejecutan para siempre, por lo que es mucho menos probable que tengas errores de bucle infinito en tu juego. [b]Por eso recomendamos usar [glossary term=\"for loops\"]bucles for[/glossary] en lugar de bucles while[/b]."
 
 #: course/lesson-18-for-loops/lesson.bbcode:13
 msgid "In this example, I changed the code above to use a [code]for[/code] loop instead. The loop below will change the [code]cell[/code] three times."
