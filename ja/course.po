@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-08-16 12:53+0000\n"
+"PO-Revision-Date: 2026-08-16 20:01+0000\n"
 "Last-Translator: taiyaki32lp64 <matsudotaiyaki@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/ja/>\n"
 "Language: ja\n"
@@ -260,8 +260,8 @@ msgid ""
 "- Essential programming foundations to get you started."
 msgstr ""
 "- 開発者として必要な考え方。あまりにも多くのプログラミング講座が、この肝心な部分を飛ばしています。\n"
-"- GDScriptのコードの書き方\n"
-"- プログラミングを始めるために不可欠な基礎知識"
+"- GDScriptのコードの書き方。\n"
+"- プログラミングを始めるために不可欠な基礎知識。"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:130
 msgid "As you go through the course, you will have many questions. We will answer them the best we can as we go."
@@ -480,9 +480,8 @@ msgstr "多くのプログラミング言語には、時間を節約するため
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:9
-#, fuzzy
 msgid "We call a bundle of code created by fellow developers a [glossary term=\"library\"]library[/glossary]."
-msgstr "他の開発者によって作成されたコードのまとまりを[glossary term=\"library\"]と呼びます。"
+msgstr "他の開発者によって作成されたコードのまとまりを[glossary term=\"library\"]ライブラリ[/glossary]と呼びます。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:10
 msgid "It's a bunch of code sitting there, waiting for you to use it."
@@ -503,15 +502,13 @@ msgstr "コーディングするときは常に他の開発者が書いた多く
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:18
-#, fuzzy
 msgid "In a moment, you'll write your first code. You'll use [glossary term=\"functions\"]functions[/glossary] created by the Godot developers."
-msgstr "すぐに最初のコードを書きます。Godot開発者によって作成された[glossary term=\"functions\"]を使用します。"
+msgstr "すぐに最初のコードを書きます。Godot開発者によって作成された[glossary term=\"functions\"]関数[/glossary]を使用します。"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:19
-#, fuzzy
 msgid "A function is a list of [glossary term=\"instructions\"]instructions[/glossary] with an exact name. We can tell the computer to execute all the instructions in sequence with that name."
-msgstr "関数とは、決まった名前を持つ[glossary term=\"instructions\"]の命令の集まりです。その名前を使って、命令を順番に実行するようにコンピューターに指示できます。"
+msgstr "関数とは、決まった名前を持つ[glossary term=\"instructions\"]命令[/glossary] のリストです。その名前を使って、命令を順番に実行するようにコンピューターに指示できます。"
 
 #. TRANSLATORS: Heading
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:21
@@ -598,15 +595,13 @@ msgstr "関数の引数"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:59
-#, fuzzy
 msgid "We use parentheses to call functions because you can give the function [glossary term=\"arguments\"]arguments[/glossary] inside the parentheses when calling it."
-msgstr "関数を呼び出すときに括弧を使うのは、呼び出し時に括弧の中に関数に[glossary term=\"arguments\"]を与えることができるからです。"
+msgstr "関数を呼び出すには括弧を使います。これは、関数呼び出し時に [glossary term=\"arguments\"]引数[/glossary] を括弧の中に指定できるからです。"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:60
-#, fuzzy
 msgid "Here's a [glossary term=\"sprite\"]sprite[/glossary] standing straight. If we call the [code]rotate(0.3)[/code] function, the character [i]sprite[/i] turns by 0.3 radians."
-msgstr "これはまっすぐ立っている[glossary term=\"sprite\"]です。[code]rotate(0.3)[/code]関数を呼び出すと、キャラクターの[i]スプライト[/i]が0.3ラジアン回転します。"
+msgstr "これはまっすぐ立っている[glossary term=\"sprite\"]スプライト[/glossary]です。[code]rotate(0.3)[/code]関数を呼び出すと、キャラクターの[i]スプライト[/i]が0.3ラジアン回転します。"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:77
 msgid "The [code]0.3[/code] part between the parentheses is the function's [i]argument[/i]."
@@ -640,9 +635,8 @@ msgstr "ラジアンとは？"
 #. TRANSLATORS: Note content
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:78
-#, fuzzy
 msgid "The value of [code]0.3[/code] is an angle in [glossary term=\"radians\"]radians[/glossary]. In daily life, we're used to measuring angles in degrees. The radian is another scale commonly used in video games and math."
-msgstr "[code]0.3[/code]の値は[glossary term='radians']ラジアン[/glossary]単位の角度です。日常生活では角度を度で測ることに慣れていますが、ラジアンはビデオゲームや数学で一般的に使用されるもう1つの尺度です。"
+msgstr "[code]0.3[/code]という値は [glossary term=\"radians\"]ラジアン[/glossary]単位の角度です。日常生活では角度を度で測ることに慣れていますが、ラジアンはそれとは別の尺度で、ビデオゲームや数学で一般的に使用されます。"
 
 #. TRANSLATORS: Note content
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:79
@@ -783,7 +777,6 @@ msgstr "ロボットが見えない！ 関数を呼び出して元に戻しま�
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:128
-#, fuzzy
 msgid "Your code should call show() inside the run() function."
 msgstr "コードでは、run() 関数内で show() を呼び出すようにしてください。"
 
@@ -814,13 +807,11 @@ msgstr "rotate()関数を使用し、適切な引数を指定する必要があ�
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
-#, fuzzy
 msgid "You need to call the rotate() function inside the run() function."
 msgstr "run() 関数内で rotate() 関数を呼び出す必要があります。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
-#, fuzzy
 msgid "Call rotate(0.5) to turn the character 0.5 radians clockwise."
 msgstr "rotate(0.5) を呼び出して、キャラクターを 0.5 ラジアン時計回りに回転させてください。"
 
@@ -850,9 +841,8 @@ msgstr "このカメは前に進んだり、曲がったりして、その軌道
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:14
-#, fuzzy
 msgid "To make it draw, you give it a list of [glossary term=\"instructions\"]instructions[/glossary]: on each code line, you call one specific function."
-msgstr "描画させるには、[glossary term=\"instructions\"]のリストを与えます。コードの各行で、特定の関数を1つ呼び出します。"
+msgstr "描画させるには、[glossary term=\"instructions\"]命令[/glossary]のリストを与えます。コードの各行で、特定の関数を1つ呼び出します。"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:15
 msgid "We prepared several functions for you:"
@@ -899,7 +889,7 @@ msgstr "[code]turn_right(45)[/code] を呼ぶと、亀は右に45度回ってか
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:45
 msgid "Using these instructions, we can make any two-dimensional shape we like!"
-msgstr "この方法を使えば、どんな平面的な形でも作ることができます。"
+msgstr "これらの命令を使って、どんな二次元図形でも作れます！"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:46
 msgid "Try to understand the example below."
@@ -1227,7 +1217,7 @@ msgstr "他のプログラミング言語では、プログラマが使用する
 
 #: course/lesson-5-your-first-function/lesson.bbcode:84
 msgid "Instead of using underscores, they start words with capital letters except for the first one. With that convention, you'd write function names like [code]moveForward()[/code] or [code]moveLocalX()[/code]"
-msgstr "アンダースコアを使用する代わりに、最初の文字を除いて単語を大文字で始めます。 この規則では、[code]moveForward()[/code] や [code]moveLocalX()[/code] のような関数名を記述します。"
+msgstr "それらの言語では、アンダースコアを使用する代わりに、最初以外の単語を大文字で始めます。 この規則を使うと、[code]moveForward()[/code] や [code]moveLocalX()[/code] のような関数名を記述することになります。"
 
 #: course/lesson-5-your-first-function/lesson.bbcode:85
 msgid "Identifiers also [i]have[/i] to start with a letter or an underscore; You [i]can't[/i] begin with a number, but you can use numbers after the first character."
@@ -1322,21 +1312,18 @@ msgstr "今まではコードを手書きする必要があり、退屈でした
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-5-your-first-function/lesson.bbcode:104
-#, fuzzy
 msgid "The function body will be very similar to what you did in the previous practice."
 msgstr "関数本体は前回の練習で作成したものとほぼ同じです。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-5-your-first-function/lesson.bbcode:104
-#, fuzzy
 msgid "Don't forget to add a leading Tab character to every line inside the function."
 msgstr "関数内の各行の先頭にタブ文字を追加することを忘れないでください。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-5-your-first-function/lesson.bbcode:104
-#, fuzzy
 msgid "The function definition (the first line) should be [code]func draw_square():[/code]"
-msgstr "関数の定義（1行目）は、[code]func draw_square():[/code] とする必要があります。"
+msgstr "関数の定義（1行目）は、[code]func draw_square():[/code] とする必要があります"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-5-your-first-function/lesson.bbcode:123
@@ -1398,15 +1385,13 @@ msgstr "この関数には少し制限があります。代わりに、[i]任意
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:9
-#, fuzzy
 msgid "In previous lessons, you used the [code]rotate()[/code] function and gave it an [glossary term=\"argument\"]argument[/glossary]."
-msgstr "前のレッスンでは、[code]rotate()[/code]関数を使用し、それに[glossary term=\"argument\"]を与えました。"
+msgstr "前のレッスンでは、[code]rotate()[/code]関数を使用し、それに[glossary term=\"argument\"]引数[/glossary]を与えました。"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:11
-#, fuzzy
 msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]parameters[/glossary]."
-msgstr "[code]rotate()[/code]と同様に、関数に[glossary term=\"parameters\"]を与えることもできます。"
+msgstr "[code]rotate()[/code]と同様に、関数に[glossary term=\"parameters\"]パラメータ[/glossary]を与えることもできます。"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:12
 msgid "Parameters act as [i]placeholders[/i] in the function's code. They work like blank spaces that get filled in each time someone calls your function."
@@ -2402,8 +2387,8 @@ msgid ""
 "- At line 2, the [code]health[/code] variable holds a number.\n"
 "- From line 3, [code]health[/code] holds text."
 msgstr ""
-"・2行目では、[code]health[/code]変数は数値を持っています。(本来のラベルが貼られている)\n"
-"・3行目からは、[code]health[/code]変数はテキストを持っています。(本来のラベルをはがして、別のラベルを貼った)"
+"・2行目では、[code]health[/code]変数は数値を保持しています。\n"
+"・3行目からは、[code]health[/code]変数はテキストを保持しています。"
 
 #: course/lesson-8-defining-variables/lesson.bbcode:102
 msgid "The computer will let you do that! The code's syntax and \"grammar\" are correct, but it's not good."
@@ -2444,9 +2429,8 @@ msgstr "変数を定義するには、キーワード var、スペース、そ�
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-8-defining-variables/lesson.bbcode:100
-#, fuzzy
 msgid "You can assign a value to a variable by writing = followed by the value"
-msgstr "[code]=[/code] の後に値を書くことで、変数に値を代入できます。"
+msgstr "[code]=[/code] の後に値を書くことで、変数に値を代入できます"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:1
@@ -4915,17 +4899,16 @@ msgstr "[code]for[/code]ループには[i]任意[/i]の配列を与えること�
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:15
 msgid "Instead of using the [code]range()[/code] function, we could manually write the numbers and get the same result."
-msgstr "[code]range()[/code]関数を使用する代わりに、手動で数値を書き込んで同じ結果を得ることができます。"
+msgstr "[code]range()[/code]関数を使用する代わりに、手動で数値を書き込んで同じ結果を得ることもできます。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:17
 msgid "For each element inside the array, the [code]for[/code] loop extracts it, stores it in the temporary variable named [code]number[/code], and executes the loop's code once."
-msgstr "配列内の各要素について、[code]for[/code]ループはそれを抽出し、[code]number[/code]という名前の一時変数に格納し、ループのコードを一度実行します。"
+msgstr "[code]for[/code]ループは配列内の各要素を抽出し、[code]number[/code]という名前の一時変数に格納し、ループのコードを一度実行します。"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:18
-#, fuzzy
 msgid "Inside the loop, you can access the [code]number[/code] variable, which changes on each [i][glossary term=\"iteration\"]iteration[/glossary][/i]."
-msgstr "ループ内では、[i][glossary term='iteration']反復[/glossary][/i]ごとに変化する[code]number[/code]変数にアクセスできます。"
+msgstr "ループ内では、[i][glossary term=\"iteration\"]反復[/glossary][/i]ごとに変化する[code]number[/code]変数にアクセスできます。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:19
 msgid "The code works regardless of the array or where you store it. Often, you will store arrays in variables for easy access."
@@ -4959,7 +4942,7 @@ msgstr "0、1、および 2"
 #. TRANSLATORS: Quiz answer
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "1, 2, and 3"
-msgstr "0、1、および 2"
+msgstr "1、2、および 3"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
@@ -4989,7 +4972,7 @@ msgstr "ユニット選択も同じ原理です。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:60
 msgid "For each coordinate in an array named [code]selected_units[/code], we check if there is a unit in that cell. If so, we select it. "
-msgstr "[code]selected_units[/code] という名前の配列の各座標について、そのセルにユニットがあるかどうかを確認します。もしそうなら、それを選択します。"
+msgstr "[code]selected_units[/code] という名前の配列の各座標について、そのセルにユニットがあるかどうかを確認します。もしそうなら、選択します。 "
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:61
 msgid "In that case, we use an array, a loop, and a condition together."
@@ -5004,7 +4987,7 @@ msgid ""
 "- In a condition, the [code]in[/code] keyword allows you to check if a value exists [i]in[/i] an array.\n"
 "- The array's [code]append()[/code] function appends a new value at the end of the array."
 msgstr ""
-"- 条件では、[code]in[/code]キーワードを使用すると、配列に[i]in[/i]の値が存在するかどうかを確認できます。\n"
+"- 条件部で [code]in[/code] キーワードを使用すると、配列[i]中[/i]に値が存在するかどうか確認できます。\n"
 "- 配列の [code]append()[/code] 関数は、配列の末尾に新しい値を追加します。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:75
@@ -5021,7 +5004,7 @@ msgstr "この 2 つの機能については、次のレッスンでもう一度
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 msgid "The beauty of loops is that they work regardless of the size of your arrays. "
-msgstr "ループの優れた点は、配列のサイズに関係なく機能することです。"
+msgstr "ループの優れた点は、配列のサイズに関係なく機能することです。 "
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:84
 msgid "The code just works whether you have one or ten thousand units to select. It is all accomplished with only a couple lines of code."
@@ -5062,7 +5045,6 @@ msgstr "私たちのAI経路探索アルゴリズムは、ロボットを動か�
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
-#, fuzzy
 msgid "You should start with a for loop that iterates over every cell in [code]robot_path[/code]."
 msgstr "まず、[code]robot_path[/code]内のすべてのセルを反復処理するforループから始めましょう。"
 
@@ -5084,7 +5066,7 @@ msgstr "矩形をたくさん描きたいのですが、これはゲームでは
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
 msgid "However, writing this code by hand can get tedious. Instead, you could store the size of your shapes in arrays and use a loop to draw them all in batches."
-msgstr "ただし、このコードを手作業で記述するのは面倒な場合があります。代わりに、図形のサイズを配列に格納し、ループを使用してすべての図形をバッチで描画できます。"
+msgstr "ただし、このコードを手作業で記述するのは、うんざりすることがあるでしょう。代わりに、図形のサイズを配列に格納してループを使い、すべての図形をまとめて描画することもできます。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
@@ -5108,19 +5090,16 @@ msgstr "絵を描くカメが復活します。恐れることはありません
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
-#, fuzzy
 msgid "Each value in the [code]rectangle_sizes[/code] array is a [code]Vector2[/code]. You'll need to access its [code]x[/code] and [code]y[/code] sub-components to draw rectangles."
 msgstr "[code]rectangle_sizes[/code]配列の各値は[code]Vector2[/code]です。矩形を描画するには、その[code]x[/code]および[code]y[/code]のサブコンポーネントにアクセスする必要があります。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
-#, fuzzy
 msgid "In the loop, you first need to call [code]draw_rectangle()[/code], and then [code]jump()[/code]. Otherwise, at least two rectangles will overlap."
 msgstr "ループ内では、まず[code]draw_rectangle()[/code]を呼び出し、次に[code]jump()[/code]を呼び出す必要があります。そうしないと、少なくとも2つの矩形が重なってしまいます。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:106
-#, fuzzy
 msgid "The arguments when calling [code]jump()[/code] can just be large enough to space out the rectangles. For example, [code]jump(300, 0)[/code]"
 msgstr "[code]jump()[/code]を呼び出す際の引数は、矩形同士の間隔を空けるのに十分な大きさであれば十分です。例えば、[code]jump(300, 0)[/code]"
 
@@ -5287,9 +5266,8 @@ msgstr "文字列の配列を定義して、強力なコンボを解き放ちま
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-21-strings/lesson.bbcode:73
-#, fuzzy
 msgid "Make sure to use (\"\") for each animation name when you add them to the combo array"
-msgstr "コンボ配列にアニメーション名を追加する際は、必ず各アニメーション名を (「」) で囲んでください。"
+msgstr "アニメーション名を追加する際は、忘れずに (\"\") で囲みましょう"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-21-strings/lesson.bbcode:73
@@ -5876,9 +5854,8 @@ msgstr "プレイヤーのインベントリで使用する適切なアイテム
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
-#, fuzzy
 msgid "Use the function [code]use_item(inventory[index])[/code], where [code]index[/code] is the position of an item in the [code]inventory[/code] array"
-msgstr "関数[code]use_item(inventory[index])[/code]を使用してください。ここで、[code]index[/code]は[code]inventory[/code]配列内のアイテムの位置を表します。"
+msgstr "関数[code]use_item(inventory[index])[/code]を使いましょう。ここで、[code]index[/code]は[code]inventory[/code]配列内のアイテムの位置を表します"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
@@ -6031,7 +6008,7 @@ msgstr "正確には、辞書は [i]ハッシュアルゴリズム[/i]を使用�
 #. TRANSLATORS: Note content
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:47
 msgid "In this case, hashing consists of converting a given key into a unique whole number. The dictionary then uses that number as an array's index!"
-msgstr "この場合、ハッシュは、特定のキーを一意の整数に変換することで構成されます。辞書は、その数値を配列のインデックスとして使用します。"
+msgstr "この場合、ハッシュは、特定のキーを一意の整数に変換することで構成されます。辞書は、その数値を配列のインデックスとして使用するのです！"
 
 #. TRANSLATORS: Note content
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:48
@@ -6185,9 +6162,8 @@ msgstr "[code]inventory[/code] 辞書の値には、[code]inventory[item_name][/
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
-#, fuzzy
 msgid "Remember to add [code]amount[/code] to the value. You can do this directly with [code]+=[/code]"
-msgstr "値に[code]amount[/code]を加えることを忘れないでください。これは、[code]+=[/code] を使用して直接行うことができます。"
+msgstr "値に[code]amount[/code]を加えることを忘れないでください。これは、[code]+=[/code] を使って直接行えます"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:1
