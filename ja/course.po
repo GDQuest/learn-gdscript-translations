@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-08-08 07:00+0000\n"
-"Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
+"PO-Revision-Date: 2026-08-16 05:14+0000\n"
+"Last-Translator: taiyaki32lp64 <matsudotaiyaki@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,6 @@ msgstr "コンピュータに何をするのか指示する"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
-#, fuzzy
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"]instructions[/glossary] that tell a computer how to perform a task."
 msgstr "プログラミングとは、コンピュータにタスクの実行方法を指示する正確な[glossary term=\"instructions\"]を書くプロセスです。"
 
@@ -137,7 +136,7 @@ msgstr "これは、[url=https://store.steampowered.com/app/1637320/Dome_Keeper/
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:59
 msgid "GDScript is an excellent language to get started with programming because it's specialized. Unlike some other languages, it doesn't have an [i]overwhelming[/i] amount of features for you to learn."
-msgstr "GDScriptは特殊な言語なので、プログラミングを始めるのに最適です。他の言語とは異なり、覚える機能の多さに[i]圧倒される[/i]ことはありません。"
+msgstr "GDScriptは特化した言語なので、プログラミングを始めるのに最適です。他の言語とは異なり、覚える機能の多さに[i]圧倒される[/i]ことはありません。"
 
 #. TRANSLATORS: Heading
 #: course/lesson-1-what-code-is-like/lesson.bbcode:59
@@ -333,7 +332,6 @@ msgstr "最初のコードを実行して、その結果を確認する。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-1-what-code-is-like/lesson.bbcode:142
-#, fuzzy
 msgid "Click the [i]Run[/i] button."
 msgstr "[i]実行[/i]ボタンをクリックしてください。"
 
@@ -433,16 +431,14 @@ msgstr "このコードは間違っていて、実行するとエラーになっ
 #. TRANSLATORS: Practice goal
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "The code defines an empty [glossary term=\"function\"]function[/glossary] named [code]this_code_is_wrong[/code]."
-msgstr "このコードでは、[code]this_code_is_wrong[/code] という名前の空の[glossary term=\"function\"]を定義しています。"
+msgstr "このコードでは、[code]this_code_is_wrong[/code] という名前の空の関数を定義しています。"
 
 #. TRANSLATORS: Practice goal
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "To work, the function should use the [glossary term=\"return\"]return[/glossary] keyword. But this keyword is currently inside a comment, which the computer ignores."
-msgstr "この関数が動作するには、[glossary term=\"return\"] キーワードを使用する必要があります。しかし、このキーワードは現在コメントの中にあり、コンピュータはこれを無視してしまいます。"
+msgstr "この関数が動作するには、returnキーワードを使用する必要があります。しかし、このキーワードは現在コメントの中にあり、コンピュータはこれを無視してしまいます。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-2-your-first-error/lesson.bbcode:41
@@ -466,7 +462,6 @@ msgstr "プログラムにエラーがあります。直してみましょう！
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "Remove the # sign."
 msgstr "# 記号を削除してください。"
 
@@ -2516,7 +2511,6 @@ msgstr "また、短い行 [code]health += amount[/code] は、長い形式の [
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
-#, fuzzy
 msgid "Assuming amount is a positive number, which of these would increase the health of the robot?"
 msgstr "これらのうち、ロボットの体力を向上させるのはどれですか?"
 
@@ -2726,9 +2720,8 @@ msgstr "そこから、フレームごとに、Godotは[code]_process()[/code]�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-10-the-game-loop/lesson.bbcode:56
-#, fuzzy
 msgid "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the character by [code]0.05[/code] [glossary term=\"radians\"]radians[/glossary] [b]many[/b] times a second."
-msgstr "[code]rotate()[/code]命令を書いたので、Godotはキャラクターを[code]0.05[/code][glossary term=\"radians\"]ずつ[b]何度も[/b]1秒間に回転させています。"
+msgstr "[code]rotate()[/code]命令を書いたので、Godotはキャラクターを[code]0.05[/code][glossary term=\"radians\"]ラジアン[/glossary]ずつ[b]何度も[/b]1秒間に回転させています。"
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-10-the-game-loop/lesson.bbcode:56
@@ -2762,7 +2755,7 @@ msgstr "演習では、プロセス機能を使用して、キャラクターを
 #. TRANSLATORS: Practice title
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
 msgid "Rotating a Character Continuously"
-msgstr "文字の連続回転"
+msgstr "キャラクターを連続的に回転させる"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-10-the-game-loop/lesson.bbcode:66
@@ -2813,7 +2806,7 @@ msgstr "[code]rotate()[/code] 関数と [code]move_local_x()[/code] 関数を呼
 #. TRANSLATORS: Lesson header
 #: course/lesson-11-time-delta/lesson.bbcode:1
 msgid "Time Delta"
-msgstr "タイムデルタ"
+msgstr "タイムデルタ（時間間隔）"
 
 #: course/lesson-11-time-delta/lesson.bbcode:5
 msgid "We've seen how we can use our character's [code]_process()[/code] function to make it move continuously."
@@ -2857,7 +2850,7 @@ msgstr "これは、ゲーム内のすべてが毎秒60回更新されること�
 #. TRANSLATORS: Note content
 #: course/lesson-11-time-delta/lesson.bbcode:20
 msgid "The number varies while playing, depending on the game and the device it runs on."
-msgstr "この数は、ゲームやゲームが動作するデバイスによって、プレイ中に異なります。"
+msgstr "プレイ中のこの数値は、ゲームや動作するデバイスによって異なります。"
 
 #. TRANSLATORS: Note content
 #: course/lesson-11-time-delta/lesson.bbcode:21
@@ -2881,12 +2874,12 @@ msgstr "[code]_process()[/code] 関数には、[code]delta[/code] という名�
 #. TRANSLATORS: Quiz answer
 #: course/lesson-11-time-delta/lesson.bbcode:29
 msgid "rotate"
-msgstr "回転"
+msgstr "rotate"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-11-time-delta/lesson.bbcode:29
 msgid "delta"
-msgstr "デルタ"
+msgstr "delta"
 
 #. TRANSLATORS: Heading
 #: course/lesson-11-time-delta/lesson.bbcode:40
@@ -2907,7 +2900,7 @@ msgstr "そのため、[code]_process()[/code] 関数は [code]delta[/code] パ�
 
 #: course/lesson-11-time-delta/lesson.bbcode:59
 msgid "Delta represents a time difference. It's the time it took Godot to complete the previous frame, in seconds."
-msgstr "デルタは時間の差を表します。Godotが前のフレームを完了するのにかかった時間を秒単位で表したものです。"
+msgstr "delta（デルタ）は時間の差を表します。Godotが前のフレームを完了するのにかかった時間を秒単位で表したものです。"
 
 #: course/lesson-11-time-delta/lesson.bbcode:60
 msgid "We can use it to make sure the game runs at the same speed on all computers."
@@ -2919,7 +2912,7 @@ msgstr "これは、コンピューターによって処理能力が異なるた
 
 #: course/lesson-11-time-delta/lesson.bbcode:62
 msgid "If we ignore [code]delta[/code], movement speed will vary depending on the computer. Delta helps to make the game consistent for everyone."
-msgstr "[code]delta[/code] を無視すると、移動速度はコンピューターによって異なります。デルタはすべての人にとってゲームを一定に保つのに役立ちます。"
+msgstr "もし[code]delta[/code] を無視すると、移動速度はコンピューターによって異なります。デルタを使うことで、誰にでもゲームを一定させることができます。"
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-11-time-delta/lesson.bbcode:56
@@ -2971,7 +2964,7 @@ msgstr "[code]delta[/code]を適用するには、速度値に[i]乗算[/i]す�
 
 #: course/lesson-11-time-delta/lesson.bbcode:79
 msgid "When multiplying by [code]delta[/code], you make motion [i]time-dependent[/i] rather than [i]frame-dependent[/i]."
-msgstr "[code]delta[/code] を乗算すると、モーションを[i]フレーム依存[/i]ではなく[i]時間依存[/i]にします。"
+msgstr "[code]delta[/code]を乗算することで、モーションを[i]フレーム依存[/i]ではなく[i]時間依存[/i]にします。"
 
 #: course/lesson-11-time-delta/lesson.bbcode:80
 msgid "That's essential to make your game consistent and fair."
@@ -2985,9 +2978,8 @@ msgstr "この例ではなぜ 3.0 という数字を使用するのでしょう�
 #. TRANSLATORS: Note content
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-11-time-delta/lesson.bbcode:80
-#, fuzzy
 msgid "At the top of the lesson, we made the robot rotate a fixed amount every frame: [code]0.05[/code] [glossary term=\"radians\"]radians[/glossary]."
-msgstr "レッスンの冒頭で、ロボットをフレームごとに一定量回転させました:[code]0.05[/code]ラジアン。"
+msgstr "このレッスンの冒頭では、ロボットの回転をフレームごとに一定の量（[code]0.05[/code]ラジアン）で行いました。"
 
 #. TRANSLATORS: Note content
 #: course/lesson-11-time-delta/lesson.bbcode:81
@@ -3042,7 +3034,7 @@ msgstr "一番下のロボットは、[code]delta[/code]を考慮[i]せず[/i]�
 
 #: course/lesson-11-time-delta/lesson.bbcode:111
 msgid "The bottom robot will move [i]differently for everyone[/i]!"
-msgstr "一番下のロボットの動きは[i]人それぞれ[/i]です!"
+msgstr "一番下のロボットの動きは[i]人によって異なります[/i]!"
 
 #: course/lesson-11-time-delta/lesson.bbcode:115
 msgid "Multiplying time-sensitive values by [code]delta[/code] makes them [b]time-dependent[/b] rather than [b]frame-dependent[/b]."
@@ -3069,22 +3061,22 @@ msgstr "[code]*[/code] 記号は、[code]rotation_speed[/code] に [code]delta[/
 #. TRANSLATORS: Quiz answer
 #: course/lesson-11-time-delta/lesson.bbcode:115
 msgid "We're multiplying rotation_speed by delta."
-msgstr "rotation_speedにデルタを掛けています。"
+msgstr "rotation_speedにdeltaを掛けています。"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-11-time-delta/lesson.bbcode:115
 msgid "We're dividing delta by rotation_speed."
-msgstr "デルタをrotation_speedで割っています。"
+msgstr "deltaをrotation_speedで割っています。"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-11-time-delta/lesson.bbcode:115
 msgid "We're adding rotation_speed to delta."
-msgstr "デルタにrotation_speedを追加しています。"
+msgstr "deltaにrotation_speedを追加しています。"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-11-time-delta/lesson.bbcode:115
 msgid "We're subtracting delta from rotation_speed."
-msgstr "rotation_speedからデルタを差し引いています。"
+msgstr "rotation_speedからdeltaを引いています。"
 
 #: course/lesson-11-time-delta/lesson.bbcode:126
 msgid "In the next practice, we'll use delta to make the rotation time-dependent."
@@ -3241,7 +3233,7 @@ msgstr "関数の外部で変数を定義すると、それらを別の関数で
 
 #: course/lesson-12-using-variables/lesson.bbcode:52
 msgid "Because any function can use variables we define outside of them, we call these variables [b]script-wide[/b]."
-msgstr "どの関数でも外部で定義した変数を使用できるため、これらの変数を[b]スクリプト全体[/b]で呼び出します。"
+msgstr "どの関数でも外部で定義した変数を使用できるので、これらの変数を[b]script-wide[/b]（スクリプト全体）と呼びます。"
 
 #: course/lesson-12-using-variables/lesson.bbcode:53
 msgid "Here we use the [code]angular_speed[/code] script-wide variable in both the [code]_process()[/code] function and the [code]set_angular_speed()[/code] function."
@@ -3253,17 +3245,17 @@ msgstr "関数内で変数を定義することもできます。"
 
 #: course/lesson-12-using-variables/lesson.bbcode:60
 msgid "We align the variable assignment by indenting to make it part of the function body. Make sure to create the variable before using it!"
-msgstr "インデントによって変数の代入を整列させ、関数本体の一部にします。使用する前に、必ず変数を作成してください。"
+msgstr "インデントで変数の代入を整列させることで、関数本体の一部にしています。変数は使用する前に必ず作成しましょう！"
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-12-using-variables/lesson.bbcode:61
 #: course/lesson-12-using-variables/lesson.bbcode:69
 msgid "If we define a variable inside of a function, only that function can use it."
-msgstr "関数内で変数を定義すると、その関数のみがそれを使用できます。"
+msgstr "関数内で変数を定義すると、その関数だけで使用できます。"
 
 #: course/lesson-12-using-variables/lesson.bbcode:67
 msgid "The [code]angular_speed[/code] variable only exists inside [code]_process()[/code], because we defined it there. The [code]set_angular_speed()[/code] function can't use it."
-msgstr "[code]angular_speed[/code] 変数は [code]_process()[/code] 内でのみ存在します。[code]set_angular_speed()[/code]関数では使用できません。"
+msgstr "[code]angular_speed[/code] 変数は、[code]_process()[/code] 内で定義したのでその内部にだけ存在します。[code]set_angular_speed()[/code]関数では使用できません。"
 
 #: course/lesson-12-using-variables/lesson.bbcode:68
 msgid "Trying to use it there will result in an error."
@@ -3333,7 +3325,7 @@ msgstr "変数を使用して数値を格納すると、コードが読みやす
 #. TRANSLATORS: Practice hint
 #: course/lesson-12-using-variables/lesson.bbcode:85
 msgid "Define the [code]angular_speed[/code] variable at the top of the script to make it script-wide"
-msgstr "スクリプト全体で使えるように、スクリプトの先頭で[code]angular_speed[/code]変数を定義してください。"
+msgstr "スクリプト全体で使えるように、スクリプトの先頭で[code]angular_speed[/code]変数を定義してください"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-12-using-variables/lesson.bbcode:85
@@ -3358,12 +3350,12 @@ msgstr "ここのコードに問題があります。それが何であるかわ
 #. TRANSLATORS: Practice goal
 #: course/lesson-12-using-variables/lesson.bbcode:107
 msgid "Run the code and read the error."
-msgstr "コードを実行し、エラーを読みます。"
+msgstr "コードを実行し、エラーを読みましょう。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-12-using-variables/lesson.bbcode:107
 msgid "Correct the code so it works as intended."
-msgstr "意図したとおりに動作するようにコードを修正します。"
+msgstr "意図したとおりに動作するようにコードを修正しましょう。"
 
 #. TRANSLATORS: Practice description
 #: course/lesson-12-using-variables/lesson.bbcode:107
@@ -3495,9 +3487,9 @@ msgid ""
 "[code]!=[/code] means \"not equal to\""
 msgstr ""
 "[code]>[/code] は「より大きい」を意味します\n"
-"[code]<[/code] は 「より小さい」 を意味します。\n"
+"[code]<[/code] は 「より小さい」 を意味します\n"
 "[code]==[/code]は「等しい」を意味します\n"
-"[code]!=[/code] は 「等しくない」 を意味します。"
+"[code]!=[/code] は 「等しくない」 を意味します"
 
 #: course/lesson-13-conditions/lesson.bbcode:72
 msgid "Here's how we might use these in [code]if[/code] statements."
@@ -3506,22 +3498,22 @@ msgstr "これらを [code]if[/code] ステートメントで使用する方法�
 #. TRANSLATORS: Note title
 #: course/lesson-13-conditions/lesson.bbcode:71
 msgid "What does \"pass\" do in the code?"
-msgstr "コード内で「パス」は何をしますか?"
+msgstr "コード内の「pass」は何をするのでしょうか?"
 
 #. TRANSLATORS: Note content
 #: course/lesson-13-conditions/lesson.bbcode:72
 msgid "The [code]pass[/code] keyword prevents errors in our code when a line cannot be empty."
-msgstr "[code]pass[/code]キーワードは、行を空にできない場合のコードのエラーを防ぎます。"
+msgstr "[code]pass[/code]キーワードは、行を空にできない場合にコードでエラーが起きるのを防ぐために使います。"
 
 #. TRANSLATORS: Note content
 #: course/lesson-13-conditions/lesson.bbcode:73
 msgid "For example, we must have a line of code after a function definition or an [code]if[/code] block. When you don't know what to write yet, you can use the [code]pass[/code] keyword as a placeholder, and Godot won't give any errors."
-msgstr "たとえば、関数定義または [code]if[/code] ブロックの後にコード行が必要です。何を書けばよいかわからない場合は、[code]pass[/code]キーワードをプレースホルダーとして使用でき、Godotはエラーを出しません。"
+msgstr "たとえば、関数定義または [code]if[/code] ブロックの後ではコード行が必要です。何を書けばよいかまだ分からない場合に、[code]pass[/code]キーワードをプレースホルダーとして使用できます。それによりGodotはエラーを出しません。"
 
 #. TRANSLATORS: Note content
 #: course/lesson-13-conditions/lesson.bbcode:74
 msgid "In the previous example, if there was nothing below the [code]if[/code] lines, Godot would give us an \"Expected an indented block after 'if' \" error."
-msgstr "前の例では、[code]if[/code]行の下に何もない場合、Godotは「'if' の後にインデントされたブロックが必要です」というエラーを表示します。"
+msgstr "前の例では、もし[code]if[/code]行の下に何もないと、Godotは「'if' の後にインデントされたブロックが必要です」というエラーを表示します。"
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-13-conditions/lesson.bbcode:79
@@ -3576,7 +3568,7 @@ msgstr "3 < 1"
 #. TRANSLATORS: Heading
 #: course/lesson-13-conditions/lesson.bbcode:93
 msgid "Or else..."
-msgstr "或いは。。。"
+msgstr "でなければ…"
 
 #: course/lesson-13-conditions/lesson.bbcode:99
 msgid "The [code]if[/code] keyword comes with a complementary [code]else[/code] keyword."
@@ -3588,11 +3580,11 @@ msgstr "このように、[code]if[/code]ブロックの後に[code]else[/code]�
 
 #: course/lesson-13-conditions/lesson.bbcode:103
 msgid "The [code]else[/code] block will run whenever the condition above it isn't met."
-msgstr "[code]else[/code] ブロックは、上記の条件が満たされないたびに実行されます。"
+msgstr "[code]else[/code] ブロックは、上に書いた条件が満たされない場合にいつも実行されます。"
 
 #: course/lesson-13-conditions/lesson.bbcode:107
 msgid "In the following practices, we'll use conditions and improve the way our character's health changes so it has limits."
-msgstr "以下の演習では、条件を使用して、キャラクターの体力の変化方法を改善して、制限を設けます。"
+msgstr "以下の演習では、条件を使用して、キャラクターの体力の変化方法を改善して、限界を設けます。"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-13-conditions/lesson.bbcode:107
@@ -3649,7 +3641,7 @@ msgstr "それぞれの [code]print()[/code] メッセージをよく読んで�
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:107
 msgid "Remember: you only need to change the [code]>[/code], [code]<[/code], [code]==[/code], or [code]!=[/code] symbols. Do not change numbers or the [code]print()[/code] calls!"
-msgstr "覚えておきましょう。変更する必要があるのは、[code]>[/code]、[code]<[/code]、[code]==[/code]、[code]!=[/code] の記号だけです。数字や [code]print()[/code] の呼び出しは変更しないでください！"
+msgstr "注意：変更する必要があるのは、[code]>[/code]、[code]<[/code]、[code]==[/code]、[code]!=[/code] の記号だけです。数字や [code]print()[/code] の呼び出しは変更しないでください！"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:107
@@ -3688,7 +3680,7 @@ msgstr ""
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
 msgid "After those two calls, [code]health[/code] should be equal to [code]80[/code]."
-msgstr "この2回の呼び出しの後、[code]health[/code]は[code]80[/code]になるはずです。"
+msgstr "この2回の呼び出しの後、[code]health[/code]は[code]80[/code]にならなければなりません。"
 
 #. TRANSLATORS: Practice description
 #: course/lesson-13-conditions/lesson.bbcode:149
@@ -3737,7 +3729,7 @@ msgstr ""
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "To check your code, I will call your [code]take_damage()[/code] function three times, like this:"
-msgstr "コードを確認するために、あなたの [code]take_damage()[/code] 関数を次のように3回呼び出します:"
+msgstr "コードを確認するために、私はあなたの [code]take_damage()[/code] 関数を次のように3回呼び出します:"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -3753,7 +3745,7 @@ msgstr ""
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "After those three calls, [code]health[/code] should equal [code]0[/code], and not [code]-10[/code] or another value."
-msgstr "これら3回の呼び出しの後、[code]health[/code]は[code]0[/code]になり、[code]-10[/code]や他の値にはならないはずです。"
+msgstr "これら3回の呼び出しの後、[code]health[/code]は[code]0[/code]になり、[code]-10[/code]や他の値になってはいけません。"
 
 #. TRANSLATORS: Practice description
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -3848,7 +3840,7 @@ msgstr "値を乗算するには、[code]*[/code] を使用します。"
 #. TRANSLATORS: Quiz question
 #: course/lesson-14-multiplying/lesson.bbcode:47
 msgid "What is the value of damage?"
-msgstr "ダメージの価値は?"
+msgstr "ダメージの値は?"
 
 #. TRANSLATORS: Quiz content
 #: course/lesson-14-multiplying/lesson.bbcode:47
@@ -3885,7 +3877,7 @@ msgstr "[code]*=[/code] は [code]-=[/code] や [code]+=[/code] と同じよう�
 #. TRANSLATORS: Quiz question
 #: course/lesson-14-multiplying/lesson.bbcode:63
 msgid "What is the value of damage now?"
-msgstr "今のダメージの価値は?"
+msgstr "こうするとダメージの値は?"
 
 #. TRANSLATORS: Quiz content
 #: course/lesson-14-multiplying/lesson.bbcode:63
