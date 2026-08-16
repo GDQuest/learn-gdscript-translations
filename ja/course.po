@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-08-16 10:55+0000\n"
+"PO-Revision-Date: 2026-08-16 12:53+0000\n"
 "Last-Translator: taiyaki32lp64 <matsudotaiyaki@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/ja/>\n"
 "Language: ja\n"
@@ -4305,11 +4305,11 @@ msgstr "今回は、ループの数とボードの幅を比較します。ボー
 
 #: course/lesson-17-while-loops/lesson.bbcode:55
 msgid "Note that we move the robot until its position is one less than the board's width because we are counting tiles from [code]0[/code]."
-msgstr "[code]0[/code] からタイルを数えているため、その位置がボードの幅より 1 つ小さくなるまでロボットを動かすことに注意してください。"
+msgstr "[code]0[/code] からタイルを数えているので、ロボットを動かすのはその位置がボードの幅より 1 つ小さくなるまで、ということに注意してください。"
 
 #: course/lesson-17-while-loops/lesson.bbcode:56
 msgid "A board of [code]3[/code] by [code]3[/code] cells would have cell coordinates going from [code]0[/code] to [code]2[/code] on both the X and Y axes."
-msgstr "[code]3[/code] セルによる [code]3[/code] のボードは、X 軸と Y 軸の両方で [code]0[/code] から [code]2[/code] までのセル座標を持ちます。"
+msgstr "[code]3[/code] × [code]3[/code] セルのボードは、X 軸と Y 軸の両方ともセル座標が [code]0[/code] から [code]2[/code] までになります。"
 
 #. TRANSLATORS: Heading
 #: course/lesson-17-while-loops/lesson.bbcode:57
@@ -4337,7 +4337,7 @@ msgstr "[code]while[/code] ループ内で [code]number[/code] をインクリ�
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-17-while-loops/lesson.bbcode:65
 msgid "As a result, the number is always lower than [code]10[/code], so we never break out of the loop."
-msgstr "その結果、数値は常に [code]10[/code] よりも小さくなるため、ループから抜け出すことはありません。"
+msgstr "その結果、その数値は常に [code]10[/code] よりも小さくなるため、ループから抜け出すことはありません。"
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-17-while-loops/lesson.bbcode:65
@@ -4367,7 +4367,7 @@ msgstr "20個の正方形を描きます"
 #. TRANSLATORS: Heading
 #: course/lesson-17-while-loops/lesson.bbcode:78
 msgid "When to use while loops"
-msgstr "while ループを使用する場合"
+msgstr "どのような場合にwhile ループを使用するか"
 
 #: course/lesson-17-while-loops/lesson.bbcode:97
 msgid "At first, you will not need [code]while[/code] loops often. Even the code we show here has more efficient alternatives."
@@ -4383,7 +4383,7 @@ msgstr "しかし、[code]while[/code]ループには中級から上級レベル
 
 #: course/lesson-17-while-loops/lesson.bbcode:100
 msgid "We use [code]while[/code] loops every time we need to loop an unknown number of times."
-msgstr "[code]while[/code]ループは、未知の回数ループする必要があるたびに使用します。"
+msgstr "[code]while[/code]ループは、未知の回数ループする必要がある時にはいつも使用します。"
 
 #: course/lesson-17-while-loops/lesson.bbcode:101
 msgid "For example, games run in a loop that typically generates sixty images per second until the user closes the game. This is possible thanks to [code]while[/code] loops."
@@ -4411,22 +4411,20 @@ msgstr "知っておくと便利なので、いくつかの[code]while[/code]ル
 
 #: course/lesson-17-while-loops/lesson.bbcode:104
 msgid "Then, we'll move on to the safer [code]for[/code] loops in the following lesson."
-msgstr "次に、次のレッスンで、より安全な [code]for[/code] ループに移ります。"
+msgstr "では、次のレッスンでは、より安全な [code]for[/code] ループに移りましょう。"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-17-while-loops/lesson.bbcode:103
 msgid "Moving to the end of a board"
-msgstr "ボードの末尾に移動する"
+msgstr "ボードの端まで移動する"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "The robot has decided to stand at the top of the board and your job is to move it down to the bottom row. Complete the [code]move_to_bottom()[/code] function to do this."
-msgstr "ロボットはボードの一番上に立つことに決めました。あなたの仕事は、ロボットを一番下の行まで移動させることです。これを行うために、[code]move_to_bottom()[/code]関数を完成させてください。"
+msgstr "ロボットはボードの一番上に立っています。あなたの仕事は、ロボットを一番下の行まで移動させることです。[code]move_to_bottom()[/code]関数を完成させて、これを行ってください。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "We store the robot's position in a variable named [code]cell[/code]. The variable starts with the value [code]Vector2(2, 0)[/code], meaning the robot is in column 2, row 0 (row 0 is the top of the board)."
 msgstr "ロボットの位置は[code]cell[/code]という変数に格納します。この変数の初期値は[code]Vector2(2, 0)[/code]であり、これはロボットが列2、行0（行0はボードの一番上）にいることを意味します。"
 
@@ -4443,33 +4441,28 @@ msgstr "関数が任意のボードサイズで動作するように、[code]whi
 #. TRANSLATORS: Practice description
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "Use a [glossary term=\"while loop\"]while loop[/glossary] to have the robot move from the top of the board to the bottom."
 msgstr "[glossary term=while loop]whileループ[/glossary]を使って、ロボットをボードの上から下まで移動させましょう。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "On this board, rows go from top to bottom. Think about which part of [code]cell[/code] controls the row the robot is on."
-msgstr "このボードでは、行は上から下へと続きます。[code]cell[/code]のどの部分が、ロボットが現在いる行を制御しているか考えてみてください。"
+msgstr "このボードでは、行の順序は上から下です。[code]cell[/code]のどの部分が、ロボットが現在いる行を制御しているか考えてみてください。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "[code]cell.y[/code] is the robot's current row. To move the robot down one row, increase [code]cell.y[/code] by 1. Your [code]while[/code] loop should do this repeatedly until the robot reaches the last row."
 msgstr "[code]cell.y[/code] はロボットの現在の行番号です。ロボットを1行下に移動させるには、[code]cell.y[/code]を1増やします。[code]while[/code]ループでは、ロボットが最後の行に到達するまで、この処理を繰り返すようにしてください。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "The last row is [code]board_size.y - 1[/code], because rows are counted from 0."
 msgstr "最後の行は[code]board_size.y - 1[/code]です。これは、行の番号が0から数えられるためです。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "Use [code]while cell.y < board_size.y - 1:[/code] as your loop condition, and increase [code]cell.y[/code] inside the loop."
-msgstr "ループの条件として[code]while cell.y < board_size.y - 1:[/code]を使用し、ループ内で[code]cell.y[/code]を増加させてください。"
+msgstr "ループの条件として[code]while cell.y < board_size.y - 1[/code]を使用し、ループ内で[code]cell.y[/code]を増加させてください。"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-18-for-loops/lesson.bbcode:1
@@ -4490,9 +4483,8 @@ msgstr "より安全で、より簡単な種類のループがあります: [cod
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-18-for-loops/lesson.bbcode:12
-#, fuzzy
 msgid "Unlike [code]while[/code] loops, [code]for[/code] loops don't run forever, so you're much less likely to get infinite loop bugs in your game. [b]We recommend using [glossary term=\"for loops\"]for loops[/glossary] instead of while loops because of this[/b]."
-msgstr "[code]while[/code] ループとは異なり、[code]for[/code] ループは無限に実行されないため、ゲームで無限ループのバグが発生する可能性がはるかに低くなります。[b]このため、while ループよりも [glossary term=\"for loops\"] を優先することをお勧めします[/b]。"
+msgstr "[code]while[/code] ループとは異なり、[code]for[/code] ループは無限に実行されないため、ゲームで無限ループのバグが発生する可能性がはるかに低くなります。[b]このため、while ループよりも [glossary term=\"for loops\"]forループ[/glossary] を優先することをお勧めします[/b]。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:13
 msgid "In this example, I changed the code above to use a [code]for[/code] loop instead. The loop below will change the [code]cell[/code] three times."
@@ -4513,7 +4505,7 @@ msgstr "Godotにはヘルパー関数[code]range()[/code]があります。[code
 
 #: course/lesson-18-for-loops/lesson.bbcode:26
 msgid "So calling [code]range(3)[/code] outputs the list of numbers [code][0, 1, 2][/code], and [code]range(5)[/code] outputs [code][0, 1, 2, 3, 4][/code]."
-msgstr "したがって、[code]range(3)[/code]を呼び出すと数値のリストが出力されます[code][0, 1, 2][/code]、[code]range(5)[/code]は[code][0, 1, 2, 3, 4][/code]を出力します。"
+msgstr "したがって、[code]range(3)[/code]の呼び出しは数値のリスト [code][0, 1, 2][/code] を出力し、[code]range(5)[/code]は[code][0, 1, 2, 3, 4][/code]を出力します。"
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-18-for-loops/lesson.bbcode:25
@@ -4576,17 +4568,16 @@ msgid "In both examples, we print the value of the temporary variable we created
 msgstr "どちらの例でも、作成した一時変数の値を出力します: 最初の例では [code]number[/code]、2 番目の例では [code]element[/code]。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:56
-#, fuzzy
 msgid "As Godot moves through the loop, it assigns each value of the array to that variable. First, it sets the variable to [code]3[/code], then to [code]5[/code], and finally, to [code]7[/code]."
-msgstr "Godotがループ内を移動すると、配列の各値がその変数に割り当てられます。最初に変数を [code]0[/code] に設定し、次に [code]1[/code] に設定し、最後に [code]2[/code] に設定します。"
+msgstr "Godotはループを進めるときに、その変数に配列の中の各値を割り当てます。最初は変数に [code]0[/code] を設定し、次に [code]1[/code] を設定し、最後に [code]2[/code] を設定します。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:57
 msgid "We can break down the instructions the loop runs. You can see how a loop is a shortcut to code that otherwise gets very long."
-msgstr "ループが実行する命令を分解できます。ループが、そうでなければ非常に長くなるコードへのショートカットであることがわかります。"
+msgstr "ループが実行する命令を分解してみましょう。ループという近道を使わなければ、コードが非常に長くなることが分かります。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:59
 msgid "We can put whatever code we like in the loop's code block, including other function calls like [code]draw_rectangle()[/code]."
-msgstr "ループのコードブロックには、[code]draw_rectangle()[/code]のような他の関数呼び出しを含め、好きなコードを配置できます。"
+msgstr "ループのコードブロックには好きなコードを配置できます。[code]draw_rectangle()[/code]のような他の関数を呼び出すことも可能です。"
 
 #. TRANSLATORS: Heading
 #: course/lesson-18-for-loops/lesson.bbcode:59
@@ -4602,17 +4593,16 @@ msgid "If we use a [code]for[/code] loop instead, the code becomes a little simp
 msgstr "代わりに [code]for[/code] ループを使用すると、コードは少し単純になります。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:73
-#, fuzzy
 msgid "With the [code]for[/code] loop, we check the board's width first. Then we move the robot that many times. This is simpler than checking if the robot reached the end of the board over and over."
-msgstr "[code]for[/code]ループでは、まずボードの幅を確認します。その後、その回数だけロボットを移動させます。これは、ロボットがボードの端に到達したかどうかを何度も確認するよりも簡単です。"
+msgstr "[code]for[/code]ループでは、まずボードの幅を確認します。その後、その回数だけロボットを移動させます。これは、ロボットがボードの端に到達したかどうかを何度も確認するよりも単純です。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:74
 msgid "The function still works the same way, assuming the robot starts at [code]cell.x = 0[/code] each time (the left edge of the board). The [code]while[/code] loop would work no matter where the robot starts. You can run it below."
-msgstr "この関数は、毎回ロボットが [code]cell.x = 0[/code]（ボードの左端）から開始する場合、同じように動作します。[code]while[/code] ループなら、ロボットがどこから開始しても動作します。下で実行できます。"
+msgstr "この関数は、毎回ロボットが [code]cell.x = 0[/code]（ボードの左端）から開始する場合には、同じように動作します。[code]while[/code] ループなら、ロボットがどこから開始しても動作します。下で実行できます。"
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "In the practices, we'll use [code]for[/code] loops in different ways to get you used to using them."
-msgstr "演習では、[code]for[/code] ループをさまざまな方法で使用して、使用に慣れます。"
+msgstr "演習では、[code]for[/code] ループをさまざまな方法で使用して、使い方に慣れていきましょう。"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-18-for-loops/lesson.bbcode:77
@@ -4647,16 +4637,15 @@ msgstr "for ループを使用して、ロボットをボードの上から下�
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "You'll have to alter the [code]y[/code] sub-variable of [code]cell[/code] to move the robot downwards"
-msgstr "ロボットを下に動かすには、[code]cell[/code] の [code]y[/code] サブ変数を変更する必要があります。"
+msgstr "ロボットを下に動かすには、[code]cell[/code] の [code]y[/code] サブ変数を変更する必要があります"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "Call [code]range(n)[/code] to get a list of numbers from [code]0[/code] to [code]n - 1[/code]"
-msgstr "[code]range(n)[/code] を呼び出すと、[code]0[/code] から [code]n - 1[/code] までの数値のリストを取得できます。"
+msgstr "[code]range(n)[/code] を呼び出すと、[code]0[/code] から [code]n - 1[/code] までの数値のリストを取得できます"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
-#, fuzzy
 msgid "Use [code]for number in range(board_size.y - 1):[/code] to loop enough times."
 msgstr "[code]for number in range(board_size.y - 1):[/code] を使って、必要な回数だけループを実行してください。"
 
@@ -4673,12 +4662,12 @@ msgstr "[code]for[/code] ループを使用して、[code]run()[/code] 関数内
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:101
 msgid "In this practice, we revisit the turtle and drawing rectangles."
-msgstr "この演習では、亀を再訪し、長方形を描きます。"
+msgstr "この演習では、亀をまた使って、長方形を描きます。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:101
 msgid "With our new knowledge of [code]for[/code] loops, we can condense this code to take up less space and make it easier to modify."
-msgstr "[code]for[/code] ループに関する新しい知識により、このコードを凝縮して占有するスペースを減らし、変更を容易にすることができます。"
+msgstr "[code]for[/code] ループの新しい知識を使うと、このコードを凝縮して占有スペースを減らし、変更しやすくできます。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:101
@@ -4688,13 +4677,12 @@ msgstr "亀は水平線で3つの正方形を描く必要があります。正�
 #. TRANSLATORS: Practice description
 #: course/lesson-18-for-loops/lesson.bbcode:101
 msgid "In the past we had to copy and paste code to draw multiple rectangles. Let's revisit previous code and improve it with a for loop."
-msgstr "以前は、複数の長方形を描画するためにコードをコピーして貼り付ける必要がありました。前のコードを再訪して、for ループで改善しましょう。"
+msgstr "以前は、複数の長方形を描画するためにコードをコピーして貼り付ける必要がありました。前のコードを見直して、for ループで改善しましょう。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:101
-#, fuzzy
 msgid "Use the line [code]for number in range(3):[/code]"
-msgstr "次の行を使用してください。[code]for number in range(3):[/code]"
+msgstr "この行を使いましょう。[code]for number in range(3):[/code]"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-19-creating-arrays/lesson.bbcode:1
@@ -4707,9 +4695,8 @@ msgstr "前のレッスンで見た [code]range()[/code] 関数は、数値の�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-19-creating-arrays/lesson.bbcode:7
-#, fuzzy
 msgid "A list of values, numbers or otherwise, has a precise name in code: we call it an [i][glossary term=\"array\"]array[/glossary][/i]. So we can say calling the [code]range()[/code] function produces an [i]array[/i] of numbers."
-msgstr "値のリスト（数値など）には、コード内で正確な名前が付けられています。これを[i][glossary term=array][/i]と呼びます。したがって、[code]range()[/code]関数を呼び出すと、数値の[i]配列[/i]が生成されると言えます。"
+msgstr "コードに出てくる値（数値など）のリストには厳密な名称があり、[i][glossary term=\"array\"]配列[/glossary][/i]と呼びます。したがって、[code]range()[/code]関数を呼び出すと数値の[i]配列[/i]が生成されるという言い方ができます。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:8
 msgid "We could directly write and use that array inside our [code]for[/code] loop instead of the [code]range()[/code] function. You can run the next function step-by-step to see how it works."
@@ -4725,7 +4712,7 @@ msgstr "しかし、好きな名前を付けることができます！"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:21
 msgid "If we \"unroll\" the [code]for[/code] loop above, we'd get the following code with the exact same behaviour:"
-msgstr "上記の [code]for[/code] ループを「アンラップ」すると、まったく同じ動作の次のコードが得られます。"
+msgstr "上記の [code]for[/code] ループを「開く」と、まったく同じ動作の次のコードが得られます。"
 
 #. TRANSLATORS: Heading
 #: course/lesson-19-creating-arrays/lesson.bbcode:23
@@ -4742,7 +4729,7 @@ msgstr "左角括弧で開始します。次に、配列を構成するコンマ
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:34
 msgid "Here are a couple of valid arrays. Notice how you can mix values, and how they don't need to follow one another."
-msgstr "有効な配列をいくつか紹介します。値を混在させる方法と、値を互いに追従させる必要がないことに注目してください。"
+msgstr "有効な配列をいくつか紹介します。値が混在していることと、値が互いに連続する必要がないことに注目してください。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:39
 msgid "Because arrays themselves are a value type, just like numbers or [code]Vector2[/code], we can assign arrays to variables to reaccess them later."
@@ -4792,31 +4779,31 @@ msgstr "これらすべて、そしてさらに多くのものが配列に依存
 #. TRANSLATORS: Heading
 #: course/lesson-19-creating-arrays/lesson.bbcode:58
 msgid "Using arrays to follow a path"
-msgstr "配列を使用してパスをたどる"
+msgstr "配列を使用して経路をたどる"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:66
 msgid "Let's look at a widespread use of arrays in games: finding and following a path."
-msgstr "ゲームで広く使われている配列、つまりパスを見つけてたどる方法を見てみましょう。"
+msgstr "ゲームで広く使われている配列、つまり経路を見つけてたどる方法を見てみましょう。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:67
 msgid "In games, you need allies or monsters to find their way to their target, whether it's the player or some point of interest."
-msgstr "ゲームでは、プレイヤーであろうと興味のある場所であろうと、ターゲットへの道を見つけるために味方やモンスターが必要です。"
+msgstr "ゲームでは、味方やモンスターにターゲット（プレイヤーや関心のある場所）への道を見つけてもらう必要があります。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:68
 msgid "To achieve that, we use [i]pathfinding algorithms[/i]. As the name suggests, those algorithms find the path between two points and allow AIs to traverse the game."
-msgstr "これを実現するために、[i]経路探索アルゴリズム[/i]を使用します。名前が示すように、これらのアルゴリズムは2点間のパスを見つけ、AIがゲームを横断できるようにします。"
+msgstr "これを実現するには、[i]経路探索アルゴリズム[/i]を使用します。名前が示すように、これらのアルゴリズムは2点間の経路を見つけ、AIがゲーム内を探索できるようにします。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:74
 msgid "Many of those algorithms use arrays of [code]Vector2[/code] coordinates to represent the path."
-msgstr "これらのアルゴリズムの多くは、[code]Vector2[/code] 座標の配列を使用してパスを表します。"
+msgstr "これらのアルゴリズムの多くは、[code]Vector2[/code] 座標の配列を使用して経路を表します。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:75
 msgid "Take this turtle pet. It wants to follow the robot, but there are rocks in the way."
-msgstr "このカメのペットを取ります。ロボットを追いかけようとしますが、岩が邪魔をしています。"
+msgstr "このカメのペットを見てみましょう。ロボットを追いかけようとしますが、岩が邪魔をしています。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:76
 msgid "How can we tell it where to walk to reach the robot? With an array!"
-msgstr "ロボットにたどり着くためにどこを歩けばよいか、どのように判断すればよいのでしょうか?配列付き!"
+msgstr "ロボットにたどり着くためにどこを歩けばよいか、どうやって亀に教えればよいのでしょうか？ 配列です！"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:82
 msgid "Every value in the array is a [code]Vector2[/code] and represents a cell the turtle needs to walk through."
@@ -4824,7 +4811,7 @@ msgstr "配列内のすべての値は [code]Vector2[/code] であり、カメ�
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:83
 msgid "Together, all the values in the array represent a path we can draw."
-msgstr "配列内のすべての値が一緒になって、描画できるパスを表します。"
+msgstr "配列内のすべての値を合わせると経路を表しており、描画することができます。"
 
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 msgid "In upcoming lessons, you will see how we can use arrays to store player inventories or design attack combos."
@@ -4866,13 +4853,11 @@ msgstr "カメがロボットへの道を見つけるのを手伝ってくださ
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
-#, fuzzy
 msgid "Any path that doesn't touch rocks is valid. The turtle could first move down or to the right. So the first value could either be [code]Vector2(1, 0)[/code] or [code]Vector2(0, 1)[/code]."
-msgstr "岩に触れない経路であれば、どれでも有効です。タートルはまず下か右に移動する可能性があります。したがって、最初の値は[code]Vector2(1, 0)[/code]か[code]Vector2(0, 1)[/code]のいずれかになります。"
+msgstr "岩に触れない経路であれば、どれでも有効です。亀が最初に行くのは下かも知れないし右かも知れません。したがって、最初の値は[code]Vector2(1, 0)[/code]か[code]Vector2(0, 1)[/code]のどちらかでしょう。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
-#, fuzzy
 msgid "Every [code]Vector2[/code] in the array should be one unit away from the previous one. That means there should only be a difference of 1 on the X-axis or the Y-axis between two [code]Vector2[/code] in the array."
 msgstr "配列内の各[code]Vector2[/code]は、前の要素から1単位離れている必要があります。つまり、配列内の2つの[code]Vector2[/code]の間には、X軸またはY軸のいずれかにおいて、1だけの差があるべきです。"
 
@@ -4884,22 +4869,22 @@ msgstr "ユニットの選択"
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "In this tactical game, the player and computer can select multiple units at once. You need to call the [code]select_units()[/code] function and pass it an array of [code]Vector2[/code] coordinates to know which units to select."
-msgstr "この戦術ゲームでは、プレイヤーとコンピューターは一度に複数のユニットを選択できます。[code]select_units()[/code]関数を呼び出し、[code]Vector2[/code]座標の配列を渡して、選択する単位を知る必要があります。"
+msgstr "この戦術ゲームでは、プレイヤーとコンピューターは一度に複数のユニットを選択できます。[code]select_units()[/code]関数を呼び出し、[code]Vector2[/code]座標の配列を渡して、どのユニットを選択するか示す必要があります。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "Each [code]Vector2[/code] in the array represents a cell with a unit."
-msgstr "配列内の各 [code]Vector2[/code] は、単位を持つセルを表します。"
+msgstr "配列内の各 [code]Vector2[/code] は、ユニットが存在するセルを表します。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "You can pass arrays in function calls as arguments. As an array is a value type the computer recognizes, you can pass the whole array as a single function argument."
-msgstr "関数呼び出しで配列を引数として渡すことができます。配列はコンピューターが認識する値型であるため、配列全体を 1 つの関数引数として渡すことができます。"
+msgstr "関数呼び出しでは配列を引数として渡せます。配列はコンピューターが認識する値型なので、配列全体を 1 つの関数引数として渡せます。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "Select all units on the board by passing the correct array to the [code]select_units()[/code] function."
-msgstr "正しい配列を [code]select_units()[/code] 関数に渡して、ボード上のすべてのユニットを選択します。"
+msgstr "正しい配列を [code]select_units()[/code] 関数に渡して、ボード上のすべてのユニットを選択してください。"
 
 #. TRANSLATORS: Practice description
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
@@ -4926,7 +4911,7 @@ msgstr "[code]range()[/code] 関数は、[code]for[/code] キーワードがル�
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:14
 msgid "We can give [code]for[/code] loops [i]any[/i] array, and they will loop over them just the same."
-msgstr "[code]for[/code]ループに[i]任意[/i]の配列を与えることができ、それらはそれらを同じようにループします。"
+msgstr "[code]for[/code]ループには[i]任意[/i]の配列を与えることもでき、その場合も同じようにループします。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:15
 msgid "Instead of using the [code]range()[/code] function, we could manually write the numbers and get the same result."
