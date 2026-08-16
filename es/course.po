@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the Learn GDScript From
 # project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
@@ -3911,6 +3911,13 @@ msgstr ""
 "- Aumentar la [code]max_health[/code] en un 10%."
 
 #: course/lesson-14-multiplying/lesson.bbcode:86
+#: course/lesson-16-2d-vectors/lesson.bbcode:73
+#. TRANSLATORS: Practice goal
+#, fuzzy
+msgid "I will call the [code]level_up()[/code] function twice. It will run two times in total."
+msgstr "Para comprobar tu código, llamaré a la función [code]heal()[/code] dos veces, así:"
+
+#: course/lesson-14-multiplying/lesson.bbcode:86
 #. TRANSLATORS: Practice description
 msgid "We want our robot to increase in strength as it levels up. Let's increase its health exponentially!"
 msgstr "Queremos que nuestro robot aumente su fuerza a medida que sube de nivel. ¡Aumentemos su salud exponencialmente!"
@@ -3920,52 +3927,52 @@ msgstr "Queremos que nuestro robot aumente su fuerza a medida que sube de nivel.
 msgid "To increase a number by 10%, multiply it by [code]1.1[/code]"
 msgstr "Para aumentar un número en un 10 %, multiplícalo por [code]1.1[/code]"
 
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 #. TRANSLATORS: Practice title
 msgid "Reducing damage at higher levels"
 msgstr "Reducir el daño en niveles más altos"
 
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 #. TRANSLATORS: Practice goal
 msgid "When our robot's [code]level[/code] is [code]3[/code] or more, we want it to take a lot less damage."
 msgstr "Cuando el [code]level[/code] de nuestro robot sea [code]3[/code] o más, queremos que este reciba mucho menos daño."
 
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 #. TRANSLATORS: Practice goal
 msgid "Add to the [code]take_damage()[/code] function so the following happens:"
 msgstr "Agrega código a la función [code]take_damage()[/code] para que suceda lo siguiente:"
 
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 #. TRANSLATORS: Practice goal
 msgid "- [code]if[/code] the robot's [code]level[/code] is greater than [code]2[/code], reduce the damage [code]amount[/code] by 50%"
 msgstr "- [code]if[/code] el [code]level[/code] del robot es mayor que [code]2[/code], reduce el [code]amount[/code] de daño en un 50%"
 
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 #. TRANSLATORS: Practice goal
 msgid "The robot is level 3. An enemy is going to attack for 10 damage. This damage should reduce to 5."
 msgstr "El robot está en nivel 3. Un enemigo va a atacar para causar 10 de daño. Este daño debería reducirse a 5."
 
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 #. TRANSLATORS: Practice description
 msgid "At higher levels, we want our robot to be super tough and take even less damage!"
 msgstr "¡En los niveles más altos, queremos que nuestro robot sea súper resistente y que reciba aún menos daño!"
 
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 #. TRANSLATORS: Practice hint
 msgid "You need to use an [code]if[/code] statement at the top of the function to check if the robot's [code]level[/code] is greater than [code]2[/code]"
 msgstr "Debes usar una instrucción [code]if[/code] al principio de la función para comprobar si el [code]level[/code] (nivel del robot) es mayor que [code]2[/code]."
 
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 #. TRANSLATORS: Practice hint
 msgid "To reduce the [code]amount[/code], multiply it by a value less than [code]1[/code]"
 msgstr "Para reducir la [code]cantidad[/code], multiplícala por un valor menor que [code]1[/code]"
 
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 #. TRANSLATORS: Practice hint
 msgid "Reassign [code]amount[/code] on its own line inside the [code]if[/code] block, before the line [code]health -= amount[/code]"
 msgstr "Reasigna [code]amount[/code] en una línea aparte dentro del bloque [code]if[/code], antes de la línea [code]health -= amount[/code]"
 
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 #. TRANSLATORS: Practice hint
 msgid "Use [code]amount *= 0.5[/code] inside the [code]if[/code] block to reduce the damage by 50%"
 msgstr "Utiliza [code]amount *= 0.5[/code] dentro del bloque [code]if[/code] para reducir el daño en un 50 %."
@@ -4147,52 +4154,52 @@ msgstr "Puedes añadir una línea para aumentar la [code]scale[/code] en cualqui
 msgid "You can't use instructions like [code]scale.x += 0.2[/code] for this practice. Instead, you should use a [code]Vector2[/code]"
 msgstr "No puedes utilizar instrucciones como [code]scale.x += 0.2[/code] para este ejercicio. En su lugar, debes utilizar un [code]Vector2[/code]"
 
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 #. TRANSLATORS: Practice title
 msgid "Resetting size and position using vectors"
 msgstr "Restablecer el tamaño y la posición usando vectores"
 
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 #. TRANSLATORS: Practice goal
 msgid "The robot's level has increased a lot, and so has its size!"
 msgstr "El nivel del robot ha aumentado mucho, ¡y también su tamaño!"
 
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 #. TRANSLATORS: Practice goal
 msgid "Let's fix this by resetting the robot's [code]scale[/code] and [code]position[/code] values."
 msgstr "Arreglemos esto restableciendo los valores de [code]scale[/code] y [code]position[/code] del robot."
 
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 #. TRANSLATORS: Practice goal
 msgid "Create a function named [code]reset_robot()[/code] that sets the [code]scale[/code] and [code]position[/code] of the robot."
 msgstr "Crea una función llamada [code]reset_robot()[/code] que establezca la [code]scale[/code] y [code]position[/code] del robot."
 
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 #. TRANSLATORS: Practice goal
 msgid "The [code]x[/code] and [code]y[/code] sub-variables of the robot's [code]scale[/code] need to be [code]1.0[/code]."
 msgstr "Las subvariables [code]x[/code] y [code]y[/code] de la [code]scale[/code] del robot deben ser [code]1.0[/code]."
 
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 #. TRANSLATORS: Practice goal
 msgid "The robot's [code]position[/code] needs to be [code]Vector2(0, 0)[/code]."
 msgstr "La [code]position[/code] del robot debe ser [code]Vector2(0, 0)[/code]."
 
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 #. TRANSLATORS: Practice goal
 msgid "As in the previous practice, make sure to use vectors when dealing with scale and position."
 msgstr "Al igual que en la práctica anterior, asegúrate de utilizar vectores cuando trates con la escala y la posición."
 
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 #. TRANSLATORS: Practice description
 msgid "Perhaps increasing the scale every level was a bad idea! Let's restore the robot to the correct size."
 msgstr "¡Quizás aumentar la escala en cada nivel fue una mala idea! Restituyamos el robot al tamaño correcto."
 
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 #. TRANSLATORS: Practice hint
 msgid "To define the function, we use the [code]func[/code] keyword"
 msgstr "Para definir la función, usamos la palabra clave [code]func[/code]"
 
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 #. TRANSLATORS: Practice hint
 msgid "The first line is [code]func reset_robot():[/code]"
 msgstr "La primera línea es [code]func reset_robot():[/code]"
@@ -4964,7 +4971,8 @@ msgid "It's the same principle with unit selection."
 msgstr "Es el mismo principio con la selección de unidades."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:60
-msgid "For each coordinate in an array named [code]selected_units[/code], we check if there is a unit in that cell. If so, we select it. "
+#, fuzzy
+msgid "For each coordinate in an array named [code]selected_units[/code], we check if there is a unit in that cell. If so, we select it."
 msgstr "Para cada coordenada en una matriz llamada [code]selected_units[/code], comprobamos si hay una unidad en esa celda. Si es así, la seleccionamos."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:61
@@ -4996,7 +5004,8 @@ msgid "We'll revisit those two features again in the following lessons."
 msgstr "Revisaremos estos dos componentes nuevamente en las siguientes lecciones."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
-msgid "The beauty of loops is that they work regardless of the size of your arrays. "
+#, fuzzy
+msgid "The beauty of loops is that they work regardless of the size of your arrays."
 msgstr "Lo maravilloso de los bucles es que funcionan independientemente del tamaño de tus matrices."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:84
@@ -5046,52 +5055,52 @@ msgstr "Deberías empezar con un bucle for que recorra todas las celdas de [code
 msgid "You need to pass the cell position to the robot's [code]move_to()[/code] function in the loop."
 msgstr "Tienes que pasar la posición de la celda a la función [code]move_to()[/code] del robot en el bucle."
 
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 #. TRANSLATORS: Practice title
 msgid "Back to the drawing board"
 msgstr "De vuelta a la mesa de dibujo"
 
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 #. TRANSLATORS: Practice goal
 msgid "We want to draw many rectangles, something surprisingly common in games."
 msgstr "Queremos dibujar muchos rectángulos, algo sorprendentemente común en los juegos."
 
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 #. TRANSLATORS: Practice goal
 msgid "However, writing this code by hand can get tedious. Instead, you could store the size of your shapes in arrays and use a loop to draw them all in batches."
 msgstr "Sin embargo, escribir el código a mano resulta tedioso. En su lugar, a menudo almacenarás el tamaño de tus formas en matrices y utilizarás un bucle para dibujarlas todas en lotes."
 
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 #. TRANSLATORS: Practice goal
 msgid "That's what you'll do in this practice."
 msgstr "Eso es lo que harás en esta práctica."
 
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 #. TRANSLATORS: Practice goal
 msgid "Use a [code]for[/code] loop to draw every rectangle in the [code]rectangle_sizes[/code] array with the [code]draw_rectangle()[/code] function."
 msgstr "Utiliza un bucle [code]for[/code] para dibujar cada rectángulo en la matriz [code]rectangle_sizes[/code] con la función [code]draw_rectangle()[/code]."
 
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 #. TRANSLATORS: Practice goal
 msgid "The rectangles shouldn't overlap or cross each other. To avoid that, you'll need to call the [code]jump()[/code] function."
 msgstr "Los rectángulos no deben superponerse ni cruzarse entre sí. Para evitar esto, tendrás que llamar a la función [code]jump()[/code]."
 
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 #. TRANSLATORS: Practice description
 msgid "The drawing turtle makes its comeback. Fear not! Armed with loops, you'll make it draw faster than ever before."
 msgstr "La tortuga que dibuja está de vuelta. ¡No temas! Armada con bucles, harás que dibuje más rápido que nunca."
 
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 #. TRANSLATORS: Practice hint
 msgid "Each value in the [code]rectangle_sizes[/code] array is a [code]Vector2[/code]. You'll need to access its [code]x[/code] and [code]y[/code] sub-components to draw rectangles."
 msgstr "Cada valor en la matriz [code]rectangle_sizes[/code] es un [code]Vector2[/code]. Tendrás que acceder a sus subcomponentes [code]x[/code] y [code]y[/code] para dibujar rectángulos."
 
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 #. TRANSLATORS: Practice hint
 msgid "In the loop, you first need to call [code]draw_rectangle()[/code], and then [code]jump()[/code]. Otherwise, at least two rectangles will overlap."
 msgstr "En el bucle, primero debes llamar a [code]draw_rectangle()[/code] y, a continuación, a [code]jump()[/code]. De lo contrario, al menos dos rectángulos se solaparán."
 
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 #. TRANSLATORS: Practice hint
 msgid "The arguments when calling [code]jump()[/code] can just be large enough to space out the rectangles. For example, [code]jump(300, 0)[/code]"
 msgstr "Los argumentos al llamar a [code]jump()[/code] pueden ser lo suficientemente grandes como para espaciar los rectángulos. Por ejemplo, [code]jump(300, 0)[/code]"
@@ -5446,6 +5455,11 @@ msgid "To convert, multiply the cell coordinate by the [code]cell_size[/code]."
 msgstr "Para convertir, multiplica la coordenada de la celda por [code]cell_size[/code]."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
+#. TRANSLATORS: Practice goal
+msgid "I will call the [code]convert_to_world_coordinates()[/code] function three times in total with three different cell coordinates to test your code."
+msgstr ""
+
+#: course/lesson-22-functions-return-values/lesson.bbcode:96
 #. TRANSLATORS: Practice description
 msgid "We need a function to convert grid coordinates to pixel positions. Complete the function to make the turtle move to the correct cells!"
 msgstr "Necesitamos una función para convertir coordenadas de la cuadrícula en posiciones en píxeles. ¡Completa la función para que la tortuga se mueva a las celdas correctas!"
@@ -5603,6 +5617,11 @@ msgstr "Tu trabajo consiste en mover los pedidos de la lista de espera a la list
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 #. TRANSLATORS: Practice goal
+msgid "I will call the [code]complete_current_order()[/code] function once for each order. It means the function will run four times in total, once per order."
+msgstr ""
+
+#: course/lesson-23-append-to-arrays/lesson.bbcode:79
+#. TRANSLATORS: Practice goal
 msgid "Remember that the array's [code]pop_front()[/code] function returns the popped value, which allows you to store it in a variable and then pass it to another function."
 msgstr "Recuerda que la función [code]pop_front()[/code] de la matriz devuelve el valor extraído, lo que te permite almacenarlo en una variable y luego pasarlo a otra función."
 
@@ -5621,52 +5640,52 @@ msgstr "Primero tienes que extraer el primer valor de la matriz de pedidos pendi
 msgid "You then need to append the popped value to the completed_orders array. To append a value to an array, you can call [code]array.append()[/code]."
 msgstr "A continuación, debes añadir el valor extraído a la matriz `completed_orders`. Para añadir un valor a una matriz, puedes llamar a [code]array.append()[/code]."
 
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #. TRANSLATORS: Practice title
 msgid "Clearing up the crates"
 msgstr "Deshacerse de las cajas"
 
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #. TRANSLATORS: Practice goal
 msgid "Crates are piling up on the platform. Move them out of the way by popping them from the [code]crates[/code] array."
 msgstr "Las cajas se acumulan en la plataforma. Quítalas del camino extrayéndolas de la matriz denominada [code]crates[/code]."
 
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #. TRANSLATORS: Practice goal
 msgid "You need to remove them from top to bottom using the array's [code]pop_back()[/code] function."
 msgstr "Debes quitarlas de arriba a abajo usando la función [code]pop_back()[/code] de la matriz."
 
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #. TRANSLATORS: Practice goal
 msgid "Your code should remove all the crates in the array using a while loop."
 msgstr "Tu código debe eliminar todas las cajas de la matriz utilizando un bucle while."
 
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #. TRANSLATORS: Practice goal
 msgid "[b]Careful![/b] If you write the while loop incorrectly, you can freeze the program."
 msgstr "[b]¡Cuidado![/b] Si escribes el bucle while de forma incorrecta, puedes bloquear el programa."
 
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #. TRANSLATORS: Practice goal
 msgid "You can check if the [code]crates[/code] array still has values by writing [code]while crates:[/code]. This works because an empty array counts as [code]false[/code], and an array with items counts as [code]true[/code]."
 msgstr "Puedes comprobar si el array [code]crates[/code] aún tiene valores escribiendo [code]while crates:[/code]. Esto funciona porque un array vacío se considera [code]false[/code] y un array con elementos se considera [code]true[/code]."
 
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #. TRANSLATORS: Practice description
 msgid "Crates are piling up on the platform. Move them out of the way by popping them from their array."
 msgstr "Las cajas se acumulan en la plataforma. Quítalas del camino extrayéndolas de su matriz."
 
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
 msgid "Think about how [code]while[/code] loops work."
 msgstr "Piensa en cómo funcionan los bucles [code]while[/code]."
 
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
 msgid "Every time you [code]pop[/code] an item, the array's [code]size[/code] gets smaller."
 msgstr "Cada vez que extraes un elemento con [code]pop[/code], el [code]size[/code] (tamaño) de la matriz se reduce."
 
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #. TRANSLATORS: Practice hint
 msgid "You can write [code]while crates:[/code] to run code in a loop while there are values in the [code]crates[/code] array."
 msgstr "Puedes escribir [code]while crates:[/code] para ejecutar código en un bucle mientras haya valores en la matriz [code]crates[/code]."
