@@ -3918,6 +3918,13 @@ msgstr ""
 "- [code]level[/code]を1つ上げます。\n"
 "- [code]max_health[/code]を10%増やします。"
 
+#. TRANSLATORS: Practice goal
+#: course/lesson-14-multiplying/lesson.bbcode:86
+#: course/lesson-16-2d-vectors/lesson.bbcode:73
+#, fuzzy
+msgid "I will call the [code]level_up()[/code] function twice. It will run two times in total."
+msgstr "コードを確認するために、次のように [code]heal()[/code] 関数を2回呼び出します。"
+
 #. TRANSLATORS: Practice description
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid "We want our robot to increase in strength as it levels up. Let's increase its health exponentially!"
@@ -3929,52 +3936,52 @@ msgid "To increase a number by 10%, multiply it by [code]1.1[/code]"
 msgstr "数値を10%増やすには、[code]1.1[/code]を掛けます。"
 
 #. TRANSLATORS: Practice title
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "Reducing damage at higher levels"
 msgstr "高レベルでのダメージ軽減"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "When our robot's [code]level[/code] is [code]3[/code] or more, we want it to take a lot less damage."
 msgstr "ロボットの [code]level[/code] が [code]3[/code] 以上の場合、受けるダメージを大幅に減らしたいです。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "Add to the [code]take_damage()[/code] function so the following happens:"
 msgstr "[code]take_damage()[/code]関数に追加して、次のようにしましょう。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "- [code]if[/code] the robot's [code]level[/code] is greater than [code]2[/code], reduce the damage [code]amount[/code] by 50%"
 msgstr "-[code]if[/code] ロボットの [code]level[/code] が [code]2[/code] より大きい場合、ダメージ [code]amount[/code] を 50% 減少します"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "The robot is level 3. An enemy is going to attack for 10 damage. This damage should reduce to 5."
 msgstr "ロボットはレベル3です。敵は10ダメージで攻撃します。このダメージは5に減るはずです。"
 
 #. TRANSLATORS: Practice description
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "At higher levels, we want our robot to be super tough and take even less damage!"
 msgstr "より高いレベルでは、ロボットを非常にタフにして、ダメージをさらに少なくしたいと考えています！"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "You need to use an [code]if[/code] statement at the top of the function to check if the robot's [code]level[/code] is greater than [code]2[/code]"
 msgstr "関数の先頭で[code]if[/code]文を使用して、ロボットの[code]level[/code]が[code]2[/code]より大きいかどうかを確認する必要があります"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "To reduce the [code]amount[/code], multiply it by a value less than [code]1[/code]"
 msgstr "[code]amount[/code]を減らすには、[code]1[/code]より小さい値を[code]amount[/code]に掛けます"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "Reassign [code]amount[/code] on its own line inside the [code]if[/code] block, before the line [code]health -= amount[/code]"
 msgstr "[code]amount[/code] を再代入するには、[code]if[/code] ブロック内で単独の行に書き、[code]health -= amount[/code] の前に置いてください"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-14-multiplying/lesson.bbcode:110
+#: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "Use [code]amount *= 0.5[/code] inside the [code]if[/code] block to reduce the damage by 50%"
 msgstr "[code]if[/code] ブロック内で [code]amount *= 0.5[/code] を使い、ダメージを 50% 減らしてましょう"
 
@@ -4156,52 +4163,52 @@ msgid "You can't use instructions like [code]scale.x += 0.2[/code] for this prac
 msgstr "この演習では [code]scale.x += 0.2[/code] のような命令は使用できません。代わりに、[code]Vector2[/code] を使用してください"
 
 #. TRANSLATORS: Practice title
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "Resetting size and position using vectors"
 msgstr "ベクトルを使用したサイズと位置のリセット"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "The robot's level has increased a lot, and so has its size!"
 msgstr "ロボットのレベルが大幅に上がり、サイズも大きくなりました!"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "Let's fix this by resetting the robot's [code]scale[/code] and [code]position[/code] values."
 msgstr "ロボットの [code]scale[/code] と [code]position[/code] の値をリセットして、これを修正しましょう。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "Create a function named [code]reset_robot()[/code] that sets the [code]scale[/code] and [code]position[/code] of the robot."
 msgstr "ロボットの [code]scale[/code] と [code]position[/code] を設定する [code]reset_robot()[/code] という名前の関数を作成します。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "The [code]x[/code] and [code]y[/code] sub-variables of the robot's [code]scale[/code] need to be [code]1.0[/code]."
 msgstr "ロボットの [code]scale[/code] の [code]x[/code] と [code]y[/code] サブ変数は [code]1.0[/code] である必要があります。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "The robot's [code]position[/code] needs to be [code]Vector2(0, 0)[/code]."
 msgstr "ロボットの [code]position[/code] は [code]Vector2(0, 0)[/code] である必要があります。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "As in the previous practice, make sure to use vectors when dealing with scale and position."
 msgstr "前の演習と同様に、スケールと位置を扱うときは必ずベクトルを使用してください。"
 
 #. TRANSLATORS: Practice description
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "Perhaps increasing the scale every level was a bad idea! Let's restore the robot to the correct size."
 msgstr "おそらく、レベルごとにスケールを上げるのは悪い考えでした!ロボットを正しいサイズに戻しましょう。"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "To define the function, we use the [code]func[/code] keyword"
 msgstr "関数を定義するには、[code]func[/code]キーワードを使用します"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-16-2d-vectors/lesson.bbcode:90
+#: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "The first line is [code]func reset_robot():[/code]"
 msgstr "最初の行は [code]func reset_robot():[/code] です"
 
@@ -4971,7 +4978,8 @@ msgid "It's the same principle with unit selection."
 msgstr "ユニット選択も同じ原理です。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:60
-msgid "For each coordinate in an array named [code]selected_units[/code], we check if there is a unit in that cell. If so, we select it. "
+#, fuzzy
+msgid "For each coordinate in an array named [code]selected_units[/code], we check if there is a unit in that cell. If so, we select it."
 msgstr "[code]selected_units[/code] という名前の配列の各座標について、そのセルにユニットがあるかどうかを確認します。もしそうなら、選択します。 "
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:61
@@ -5003,7 +5011,8 @@ msgid "We'll revisit those two features again in the following lessons."
 msgstr "この 2 つの機能については、次のレッスンでもう一度説明します。"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
-msgid "The beauty of loops is that they work regardless of the size of your arrays. "
+#, fuzzy
+msgid "The beauty of loops is that they work regardless of the size of your arrays."
 msgstr "ループの優れた点は、配列のサイズに関係なく機能することです。 "
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:84
@@ -5054,52 +5063,52 @@ msgid "You need to pass the cell position to the robot's [code]move_to()[/code] 
 msgstr "ループ内でロボットの[code]move_to()[/code]関数にセルの位置を渡す必要があります。"
 
 #. TRANSLATORS: Practice title
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "Back to the drawing board"
 msgstr "白紙に戻す"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "We want to draw many rectangles, something surprisingly common in games."
 msgstr "矩形をたくさん描きたいのですが、これはゲームでは意外とよくあることです。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "However, writing this code by hand can get tedious. Instead, you could store the size of your shapes in arrays and use a loop to draw them all in batches."
 msgstr "ただし、このコードを手作業で記述するのは、うんざりすることがあるでしょう。代わりに、図形のサイズを配列に格納してループを使い、すべての図形をまとめて描画することもできます。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "That's what you'll do in this practice."
 msgstr "それがこの演習で行うことです。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "Use a [code]for[/code] loop to draw every rectangle in the [code]rectangle_sizes[/code] array with the [code]draw_rectangle()[/code] function."
 msgstr "[code]for[/code] ループを使用して、[code]draw_rectangle()[/code] 関数で [code]rectangle_sizes[/code] 配列内のすべての長方形を描画します。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "The rectangles shouldn't overlap or cross each other. To avoid that, you'll need to call the [code]jump()[/code] function."
 msgstr "四角形は互いに重なり合ったり交差したりしないでください。これを回避するには、[code]jump()[/code] 関数を呼び出す必要があります。"
 
 #. TRANSLATORS: Practice description
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "The drawing turtle makes its comeback. Fear not! Armed with loops, you'll make it draw faster than ever before."
 msgstr "絵を描くカメが復活します。恐れることはありません!ループで武装して、これまで以上に速く描画します。"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "Each value in the [code]rectangle_sizes[/code] array is a [code]Vector2[/code]. You'll need to access its [code]x[/code] and [code]y[/code] sub-components to draw rectangles."
 msgstr "[code]rectangle_sizes[/code]配列の各値は[code]Vector2[/code]です。矩形を描画するには、その[code]x[/code]および[code]y[/code]のサブコンポーネントにアクセスする必要があります。"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "In the loop, you first need to call [code]draw_rectangle()[/code], and then [code]jump()[/code]. Otherwise, at least two rectangles will overlap."
 msgstr "ループ内では、まず[code]draw_rectangle()[/code]を呼び出し、次に[code]jump()[/code]を呼び出す必要があります。そうしないと、少なくとも2つの矩形が重なってしまいます。"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-20-looping-over-arrays/lesson.bbcode:106
+#: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "The arguments when calling [code]jump()[/code] can just be large enough to space out the rectangles. For example, [code]jump(300, 0)[/code]"
 msgstr "[code]jump()[/code]を呼び出す際の引数は、矩形同士の間隔を空けるのに十分な大きさであれば十分です。例えば、[code]jump(300, 0)[/code]"
 
@@ -5456,6 +5465,11 @@ msgstr "この関数は、[code]Vector2(2, 1)[/code] のような [code]Vector2[
 msgid "To convert, multiply the cell coordinate by the [code]cell_size[/code]."
 msgstr "変換するには、セル座標に [code]cell_size[/code] を掛けてください。"
 
+#. TRANSLATORS: Practice goal
+#: course/lesson-22-functions-return-values/lesson.bbcode:96
+msgid "I will call the [code]convert_to_world_coordinates()[/code] function three times in total with three different cell coordinates to test your code."
+msgstr ""
+
 #. TRANSLATORS: Practice description
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "We need a function to convert grid coordinates to pixel positions. Complete the function to make the turtle move to the correct cells!"
@@ -5618,6 +5632,11 @@ msgstr "あなたの仕事は、配列の [code]append()[/code] 関数と [code]
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
+msgid "I will call the [code]complete_current_order()[/code] function once for each order. It means the function will run four times in total, once per order."
+msgstr ""
+
+#. TRANSLATORS: Practice goal
+#: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "Remember that the array's [code]pop_front()[/code] function returns the popped value, which allows you to store it in a variable and then pass it to another function."
 msgstr "配列の [code]pop_front()[/code] 関数はポップされた値を返すので、それを変数に格納して別の関数に渡すことができることに注意してください。"
 
@@ -5639,53 +5658,53 @@ msgid "You then need to append the popped value to the completed_orders array. T
 msgstr "その後、ポップした値を `completed_orders` 配列に追加する必要があります。配列に値を追加するには、[code]array.append()[/code] を呼び出します。"
 
 #. TRANSLATORS: Practice title
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Clearing up the crates"
 msgstr "木箱を片付ける"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Crates are piling up on the platform. Move them out of the way by popping them from the [code]crates[/code] array."
 msgstr "プラットフォームには木箱が山積みになっています。 [code]crates[/code] 配列からそれらをポップして、邪魔にならない場所に移動します。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "You need to remove them from top to bottom using the array's [code]pop_back()[/code] function."
 msgstr "配列の [code]pop_back()[/code] 関数を使用して、上から下にそれらを削除する必要があります。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Your code should remove all the crates in the array using a while loop."
 msgstr "コードでは、while ループを使用して配列内のすべてのクレートを削除する必要があります。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "[b]Careful![/b] If you write the while loop incorrectly, you can freeze the program."
 msgstr "[b]注意してください！[/b] while ループを誤って記述すると、プログラムがフリーズする可能性があります。"
 
 #. TRANSLATORS: Practice goal
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "You can check if the [code]crates[/code] array still has values by writing [code]while crates:[/code]. This works because an empty array counts as [code]false[/code], and an array with items counts as [code]true[/code]."
 msgstr "[code]crates[/code]配列にまだ値があるかどうかは、[code]while crates:[/code]と書くことで確認できます。これは、空の配列は[code]false[/code]として扱われ、要素がある配列は[code]true[/code]として扱われるためです。"
 
 #. TRANSLATORS: Practice description
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Crates are piling up on the platform. Move them out of the way by popping them from their array."
 msgstr "プラットフォームには木箱が山積みになっています。 配列からそれらをポップして、邪魔にならない場所に移動します。"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Think about how [code]while[/code] loops work."
 msgstr "[code]while[/code]ループがどのように動作するか考えてみましょう。"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #, fuzzy
 msgid "Every time you [code]pop[/code] an item, the array's [code]size[/code] gets smaller."
 msgstr "アイテムを[code]pop[/code]するたびに、配列の[code]size[/code]は減ります。"
 
 #. TRANSLATORS: Practice hint
-#: course/lesson-23-append-to-arrays/lesson.bbcode:108
+#: course/lesson-23-append-to-arrays/lesson.bbcode:110
 #, fuzzy
 msgid "You can write [code]while crates:[/code] to run code in a loop while there are values in the [code]crates[/code] array."
 msgstr "[code]while crates:[/code]と記述することで、[code]crates[/code]配列に値がある限り、コードをループで実行できます。"
