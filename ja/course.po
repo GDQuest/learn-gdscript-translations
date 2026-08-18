@@ -41,7 +41,7 @@ msgstr "コンピュータに何をするのか指示する"
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"]instructions[/glossary] that tell a computer how to perform a task."
-msgstr "プログラミングとは、コンピュータにタスクの実行方法を指示する正確な[glossary term=\"instructions\"]を書くプロセスです。"
+msgstr "プログラミングとは、コンピュータにタスクの実行方法を指示する正確な[glossary term=\"instructions\"]指示[/glossary]を書くプロセスです。"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:10
 msgid "A game's instructions are, for example: moving a character, drawing a life bar, or playing a sound."
@@ -1953,7 +1953,7 @@ msgstr "前のレッスンで見た関数パラメータも変数の例です。
 #: course/lesson-7-member-variables/lesson.bbcode:23
 #, fuzzy
 msgid "In this lesson, we start using variables built into Godot. They're a particular kind called [i][glossary term=\"member variables\"]member variables[/glossary][/i]."
-msgstr "このレッスンでは、Godotに組み込まれた変数を使い始めます。これらは[i][glossary term='member variables']メンバー変数[/glossary term][/i]と呼ばれる特別な種類です。"
+msgstr "このレッスンでは、Godotに組み込まれた変数を使い始めます。これらは[i][glossary term=\"member variables\"]メンバー変数[/glossary][/i]と呼ばれる特別な種類です。"
 
 #: course/lesson-7-member-variables/lesson.bbcode:24
 msgid "Member variables are values attached to a game entity. They're useful properties like the [code]position[/code], [code]rotation[/code], and [code]scale[/code] of a character."
@@ -2235,7 +2235,7 @@ msgstr "独自の変数を定義する"
 #: course/lesson-8-defining-variables/lesson.bbcode:3
 #, fuzzy
 msgid "In the previous lesson, you used a predefined member [glossary term=\"variable\"]variable[/glossary] named [code]position[/code]."
-msgstr "前回のレッスンでは、[code]position[/code]という名前の定義済み[glossary term=\"variable\"]を使用しました。"
+msgstr "前回のレッスンでは、[code]position[/code]という名前の定義済み[glossary term=\"variable\"]変数[/glossary]を使用しました。"
 
 #: course/lesson-8-defining-variables/lesson.bbcode:4
 msgid "In your projects, you will need to define your own variables."
@@ -4433,7 +4433,7 @@ msgstr "関数が任意のボードサイズで動作するように、[code]whi
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-17-while-loops/lesson.bbcode:103
 msgid "Use a [glossary term=\"while loop\"]while loop[/glossary] to have the robot move from the top of the board to the bottom."
-msgstr "[glossary term=while loop]whileループ[/glossary]を使って、ロボットをボードの上から下まで移動させましょう。"
+msgstr "[glossary term=\"while loop\"]whileループ[/glossary]を使って、ロボットをボードの上から下まで移動させましょう。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-17-while-loops/lesson.bbcode:103
@@ -5296,7 +5296,7 @@ msgstr "ここまで、関数は命令をグループ化し、名前を付け、
 #: course/lesson-22-functions-return-values/lesson.bbcode:6
 #, fuzzy
 msgid "Functions can also make calculations and [glossary term=\"return\"]return[/glossary] new values."
-msgstr "関数は計算を行い、新しい値を[glossary term=return]返す[/glossary]こともできます。"
+msgstr "関数は計算を行い、新しい値を[glossary term=\"return\"]返す[/glossary]こともできます。"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:7
 msgid "Let's look at some examples to see why this is useful."
@@ -5826,7 +5826,7 @@ msgstr "[b]配列のサイズの確認[/b]"
 #: course/lesson-24-access-array-indices/lesson.bbcode:60
 #, fuzzy
 msgid "Arrays come with a [glossary term=\"member function\"]member function[/glossary] named [code]size()[/code]. You can call it on the array anytime to know its [i]current[/i] size."
-msgstr "配列には、[glossary term=メンバー関数][code]size()[/code][/glossary] という名前のメンバー関数が用意されています。配列でいつでも呼び出して、[i]現在[/i]のサイズを知ることができます。"
+msgstr "配列には、[code]size()[/code] という名前の[glossary term=\"member function\"]メンバー関数[/glossary]が用意されています。配列でいつでも呼び出して、[i]現在[/i]のサイズを知ることができます。"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:63
 msgid "The maximum index you can access in an array is [code]array.size() - 1[/code]: it's the last item in the array."
@@ -5940,7 +5940,7 @@ msgstr "ただし、アイテム名の配列だけでは、各アイテムの量
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:9
 #, fuzzy
 msgid "Instead, we can bundle the item names and amounts into a single [glossary term=\"dictionary\"]dictionary[/glossary]."
-msgstr "代わりに、アイテム名と数量を1つの[glossary term='dictionary']にまとめることができます。"
+msgstr "代わりに、アイテム名と数量を1つの[glossary term=\"dictionary\"]辞書[/glossary]にまとめることができます。"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:10
 msgid "A dictionary is a data structure that allows you to map pairs of values. In the pair, we call the first value a [i]key[/i] as we use it to access the second."
@@ -6347,7 +6347,7 @@ msgstr "値の型"
 #: course/lesson-27-value-types/lesson.bbcode:3
 #, fuzzy
 msgid "In your code, values have a particular [glossary term=\"type\"]type[/glossary]. You have already learned about several: whole numbers, decimal numbers, strings, 2D vectors, arrays, and dictionaries."
-msgstr "コードでは、値には特定の[glossary term=type]型[/glossary]があります。整数、小数、文字列、2Dベクトル、配列、辞書など、いくつかの型についてはすでに学習しました。"
+msgstr "コードでは、値には特定の[glossary term=\"type\"]型[/glossary]があります。整数、小数、文字列、2Dベクトル、配列、辞書など、いくつかの型についてはすでに学習しました。"
 
 #: course/lesson-27-value-types/lesson.bbcode:4
 msgid "The computer uses the type of a value to know which operations and functions you can use with them."
