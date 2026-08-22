@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-08-04 14:01+0000\n"
+"PO-Revision-Date: 2026-08-18 10:51+0000\n"
 "Last-Translator: SeyhaLite <sok123230@gmail.com>\n"
 "Language-Team: Khmer (Central) <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/km/>\n"
 "Language: km\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.8.1.dev0\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: course/common/CustomHealthBar.tscn
@@ -116,8 +116,8 @@ msgid ""
 "func heal(amount):\n"
 "\thealth += amount"
 msgstr ""
-"func heal(amount):\n"
-"\thealth += amount"
+"func ព្យាបាល(ចំនួន):\n"
+"\tឈាម​ += ចំនួន"
 
 #: course/lesson-13-conditions/visuals/ExampleJump.tscn
 msgid "Jump"
@@ -306,7 +306,7 @@ msgstr "បានសម្រេច"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/Meal.tscn
 msgid "cheese sandwich"
-msgstr ""
+msgstr "សាំងវិច​ ឆីស"
 
 #: course/lesson-24-access-array-indices/visuals/SyntaxAccessIndex.tscn
 msgid "array_name"
@@ -1552,7 +1552,7 @@ msgstr "ប្រើ vector ដើម្បីបង្កើន scale"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:12
 msgid "The Scale Is Correct After Gaining Multiple Levels"
-msgstr ""
+msgstr "ទំហំមាត្រដ្ឋានត្រឹមត្រូវ បន្ទាប់ពីឡើងបានច្រើន Level"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:38
 msgid "It looks like the scale isn't increasing by some vector. Did you add a vector to scale?"
@@ -1655,7 +1655,7 @@ msgstr "រូបរាងមិនត្រូវបានបំបែកគ្
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:18
 msgid "Path contains values that are not Vector2"
-msgstr ""
+msgstr "ផ្លូវ (Path) មានតម្លៃដែលមិនមែនជា Vector2"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:25
 msgid "Path Is Contiguous"
@@ -1755,7 +1755,7 @@ msgstr "ផ្លូវផ្លាស់ទីរបស់រ៉ូបូតម
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:58
 msgid "Did you use a for loop to call robot.move_to() with each cell in robot_path?"
-msgstr ""
+msgstr "តើអ្នកបានប្រើ រង្វិលជុំ(loop) for ដើម្បីហៅ robot.move_to() ជាមួយក្រឡានីមួយៗនៅក្នុង robot_path ហើយឬនៅ?"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:13
 msgid "Robot Combo Is Correct"
@@ -2175,7 +2175,7 @@ msgstr "អណ្តើកមិនបានគូរអ្វីទេ។ ត�
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:43
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:58
 msgid "The turtle drew fewer than 2 shapes. Make sure your function is repeatable."
-msgstr ""
+msgstr "អណ្តើក បានគូសរូបរាងតិចជាង ២។ សូមប្រាកដថា អនុគមន៍ (Function) របស់អ្នក អាចហៅប្រើឡើងវិញបាន។"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:23
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:23
@@ -2183,9 +2183,8 @@ msgstr ""
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:25
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:45
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:60
-#, fuzzy
 msgid "The turtle drew more than 2 shapes. Make sure your function only draws one shape."
-msgstr "អណ្តើកមិនបានគូរអ្វីទេ។ ត្រូវប្រាកដថា function របស់អ្នកហៅ move_forward(length) ដើម្បីផ្លាស់ទីអណ្តើក។"
+msgstr "អណ្តើកបានគូរ រូបរាងច្រើនជាង 2។ សូមប្រាកដថា អនុគមន៍ របស់អ្នកគូរតែ រូបរាងមួយប៉ុណ្ណោះ។"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:28
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:28
@@ -2362,6 +2361,8 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
 
 #: ui/UILesson.gd:379
 msgid ""
@@ -2384,9 +2385,8 @@ msgid "Validating Your Code..."
 msgstr "កំពុងផ្ទៀងផ្ទាត់ Code របស់អ្នក..."
 
 #: ui/UIPractice.gd:379
-#, fuzzy
 msgid "The function '%s' calls itself, this creates an infinite loop"
-msgstr "function `%s` ហៅខ្លួន វាផ្ទាល់ នេះបង្កើតឱ្យមាន loop មិនចេះចប់"
+msgstr "អនុគមន៍ `%s` ហៅខ្លួន វាផ្ទាល់ នេះបង្កើតឱ្យមាន loop មិនចេះចប់ (អានន្ត)"
 
 #: ui/UIPractice.gd:390
 msgid "You have a loop that runs forever without a break statement. This would freeze the app."
@@ -2413,9 +2413,8 @@ msgid "Select the kind of issue and describe it in the box below, then click \"S
 msgstr "ជ្រើសរើសប្រភេទបញ្ហា ហើយពិពណ៌នាវានៅក្នុងប្រអប់ខាងក្រោម បន្ទាប់មកចុច \"ផ្ញើរបាយការណ៍\" ដើម្បីបើកទំព័រទំនាក់ទំនងនៅលើគេហទំព័ររបស់យើង ដោយមានរបាយការណ៍បំពេញរួចជាស្រេច។"
 
 #: ui/components/popups/ReportFormPopup.gd:56
-#, fuzzy
 msgid "For questions and help with learning, [url=%s]join the community on Discord[/url]."
-msgstr "សម្រាប់សំណួរ និងជំនួយក្នុងការរៀន [url=https://discord.gg/bNj469SYQj]ចូលរួមសហគមន៍នៅ Discord[/url]។"
+msgstr "សម្រាប់សំណួរ និងជំនួយក្នុងការរៀន [url=%s] ចូលរួមសហគមន៍នៅ Discord[/url]។"
 
 #: ui/components/popups/ReportFormPopup.gd:132
 msgid "Translations are unofficial and maintained by the community. If you'd like to help, [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]learn how to help translate the app[/url]."
