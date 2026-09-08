@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-08-11 03:51+0000\n"
-"Last-Translator: Mubeen Isam <MUBEEN.ALSARHAN@gmail.com>\n"
+"PO-Revision-Date: 2026-09-09 04:51+0000\n"
+"Last-Translator: Po Po <popoqr91@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Weblate 2026.9.dev0\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
@@ -31,47 +31,46 @@ msgstr "المخزون"
 
 #: course/common/inventory/DictItem.tscn
 msgid "healing heart"
-msgstr ""
+msgstr "قلب يتعافى"
 
 #: course/common/inventory/DictItem.tscn
 #: course/lesson-23-append-to-arrays/visuals/Crate.tscn
 #: course/lesson-24-access-array-indices/visuals/inventory/Item.tscn
 #: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
-#, fuzzy
 msgid "0"
-msgstr "0%"
+msgstr "0"
 
 #: course/lesson-11-time-delta/visuals/DemoRotatingSpriteFrame.tscn
 #: course/lesson-11-time-delta/visuals/DemoRotatingTime.tscn
 #: course/lesson-11-time-delta/visuals/ExampleRotatingSpriteFrame.tscn
 msgid "rotation: 0"
-msgstr ""
+msgstr "الدوران: 0"
 
 #: course/lesson-11-time-delta/visuals/DemoRotatingSpriteFrame.tscn
 #: course/lesson-11-time-delta/visuals/DemoRotatingTime.tscn
 #: course/lesson-11-time-delta/visuals/ExampleRotatingSpriteFrame.tscn
 msgid "frame speed: 0"
-msgstr ""
+msgstr "سرعة الإطار: 0"
 
 #: course/lesson-11-time-delta/visuals/RobotRace.tscn
 msgid "With delta"
-msgstr ""
+msgstr "مع دلتا"
 
 #: course/lesson-11-time-delta/visuals/RobotRace.tscn
 msgid "Constant distance"
-msgstr ""
+msgstr "مسافة ثابتة"
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 msgid "The identifier \"angular_speed\" isn't declared in the current scope (at line 6)."
-msgstr ""
+msgstr "لم يتم تعريف المعرف \"angular_speed\" في النطاق الحالي (في السطر 6)."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 msgid "The [code]set_angular_speed()[/code] function can't use the [code]angular_speed[/code] variable because it isn't script-wide. It also isn't in the [code]set_angular_speed()[/code] function."
-msgstr ""
+msgstr "لا يمكن للدالة `set_angular_speed()` استخدام المتغير `angular_speed` لأنه ليس مُعرّفًا على مستوى البرنامج النصي، كما أنه غير موجود داخل الدالة نفسها."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 msgid "Make sure you define the [code]angular_speed[/code] variable in the [code]set_angular_speed()[/code] function, or define it outside of functions so it's script-wide."
-msgstr ""
+msgstr "تأكد من تعريف المتغير [code]angular_speed[/code] في الدالة [code]set_angular_speed()[/code]، أو قم بتعريفه خارج الدوال بحيث يكون على مستوى البرنامج النصي بأكمله."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 #, fuzzy
@@ -89,17 +88,17 @@ msgstr ""
 #: course/lesson-12-using-variables/visuals/VariableDefinition.tscn
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
 msgid "var"
-msgstr ""
+msgstr "var"
 
 #: course/lesson-12-using-variables/visuals/VariableDefinition.tscn
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
 msgid "variable_name"
-msgstr ""
+msgstr "اسم المتغير"
 
 #: course/lesson-12-using-variables/visuals/VariableDefinition.tscn
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
 msgid "="
-msgstr ""
+msgstr "="
 
 #: course/lesson-12-using-variables/visuals/VariableDefinition.tscn
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
@@ -109,18 +108,22 @@ msgstr "القيمة"
 
 #: course/lesson-13-conditions/visuals/ExampleHeal.tscn
 msgid "heal(50)"
-msgstr ""
+msgstr "شفاء (50)"
 
 #: course/lesson-13-conditions/visuals/ExampleHeal.tscn
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleHeal.tscn
+#, fuzzy
 msgid ""
 "func heal(amount):\n"
 "\thealth += amount"
 msgstr ""
+"دالة الشفاء (الكمية):\n"
+"\n"
+"الصحة += الكمية"
 
 #: course/lesson-13-conditions/visuals/ExampleJump.tscn
 msgid "Jump"
-msgstr ""
+msgstr "قفز"
 
 #: course/lesson-14-multiplying/visuals/Graph.tscn
 #: course/lesson-16-2d-vectors/visuals/VectorVisual.tscn
@@ -130,22 +133,21 @@ msgstr "X"
 #: course/lesson-14-multiplying/visuals/Graph.tscn
 #: course/lesson-16-2d-vectors/visuals/VectorVisual.tscn
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: course/lesson-14-multiplying/visuals/GraphExp.tscn
 #: course/lesson-14-multiplying/visuals/GraphLinear.tscn
-#, fuzzy
 msgid "Show Me"
-msgstr "إظهار تلميح"
+msgstr "أرِنِي"
 
 #: course/lesson-14-multiplying/visuals/LevelUpVisual.tscn
 msgid "Level Up!"
-msgstr ""
+msgstr "ارتقِ بمستواك!"
 
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScale.tscn
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScaleVector.tscn
 msgid "level_up()"
-msgstr ""
+msgstr "level_up()"
 
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScale.tscn
 msgid ""
@@ -154,6 +156,10 @@ msgid ""
 "\tscale.y += 0.2\n"
 "\t# ..."
 msgstr ""
+"func level_up():\n"
+"\tscale.x += 0.2\n"
+"\tscale.y += 0.2\n"
+"\t# ..."
 
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScaleVector.tscn
 msgid ""
@@ -161,24 +167,29 @@ msgid ""
 "\tscale += Vector2(0.2, 0.2)\n"
 "\t# ..."
 msgstr ""
+"func level_up():\n"
+"\tscale += Vector2(0.2, 0.2)\n"
+"\t# ..."
 
 #: course/lesson-16-2d-vectors/visuals/ExampleMoveSpriteVector.tscn
 msgid "move()"
-msgstr ""
+msgstr "move()"
 
 #: course/lesson-16-2d-vectors/visuals/ExampleMoveSpriteVector.tscn
 msgid ""
 "func move():\n"
 "\tposition += Vector2(20, 20)"
 msgstr ""
+"func move():\n"
+"\tposition += Vector2(20, 20)"
 
 #: course/lesson-16-2d-vectors/visuals/VectorVisual.tscn
 msgid "Vector2(100, 100)"
-msgstr ""
+msgstr "Vector2(100, 100)"
 
 #: course/lesson-17-while-loops/visuals/ExampleBoard.tscn
 msgid "grid_size = Vector2(3, 3)"
-msgstr ""
+msgstr "grid_size = Vector2(3, 3)"
 
 #: course/lesson-17-while-loops/visuals/ExampleBoardWhile.tscn
 #: course/lesson-17-while-loops/visuals/ExampleRobotMoveRight.tscn
@@ -187,12 +198,12 @@ msgstr ""
 #: course/lesson-18-for-loops/visuals/BoardVisualFor.tscn
 #: course/lesson-18-for-loops/visuals/ExampleBoardFor.tscn
 msgid "cell = Vector2(0, 1)"
-msgstr ""
+msgstr "cell = Vector2(0, 1)"
 
 #: course/lesson-17-while-loops/visuals/old/ExampleTurtleMeetRobot.tscn
 #: course/lesson-17-while-loops/visuals/old/ExampleTurtleMeetRobotWhile.tscn
 msgid "draw_wall()"
-msgstr ""
+msgstr "draw_wall()"
 
 #: course/lesson-17-while-loops/visuals/old/ExampleTurtleMeetRobot.tscn
 msgid ""
@@ -203,6 +214,12 @@ msgid ""
 "\tjump(110, 0)\n"
 "\tdraw_square()"
 msgstr ""
+"func draw_wall():\n"
+"\tdraw_square()\n"
+"\tjump(110, 0)\n"
+"\tdraw_square()\n"
+"\tjump(110, 0)\n"
+"\tdraw_square()"
 
 #: course/lesson-17-while-loops/visuals/old/ExampleTurtleMeetRobotWhile.tscn
 msgid ""
@@ -213,72 +230,76 @@ msgid ""
 "\t\tjump(110, 0)\n"
 "\t\tnumber += 1"
 msgstr ""
+"func draw_wall():\n"
+"\tvar number = 0\n"
+"\twhile number < 3:\n"
+"\t\tdraw_square()\n"
+"\t\tjump(110, 0)\n"
+"\t\tnumber += 1"
 
 #: course/lesson-19-creating-arrays/visuals/ArrayDefinitionSyntax.tscn
 #: course/lesson-24-access-array-indices/visuals/SyntaxAccessIndex.tscn
 #: course/lesson-25-creating-dictionaries/visuals/SyntaxAccessValue.tscn
 msgid "["
-msgstr ""
+msgstr "["
 
 #: course/lesson-19-creating-arrays/visuals/ArrayDefinitionSyntax.tscn
-#, fuzzy
 msgid "value_1"
-msgstr "القيمة"
+msgstr "القيمة_1"
 
 #: course/lesson-19-creating-arrays/visuals/ArrayDefinitionSyntax.tscn
 #: course/lesson-6-multiple-function-parameters/visuals/FunctionDefinitionWithParams.tscn
 msgid ","
-msgstr ""
+msgstr ","
 
 #: course/lesson-19-creating-arrays/visuals/ArrayDefinitionSyntax.tscn
-#, fuzzy
 msgid "value_2"
-msgstr "القيمة"
+msgstr "القيمة_2"
 
 #: course/lesson-19-creating-arrays/visuals/ArrayDefinitionSyntax.tscn
 #: course/lesson-6-multiple-function-parameters/visuals/FunctionDefinitionWithParams.tscn
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: course/lesson-19-creating-arrays/visuals/ArrayDefinitionSyntax.tscn
 #: course/lesson-24-access-array-indices/visuals/SyntaxAccessIndex.tscn
 #: course/lesson-25-creating-dictionaries/visuals/SyntaxAccessValue.tscn
 msgid "]"
-msgstr ""
+msgstr "]"
 
 #: course/lesson-2-your-first-error/ErrorExample.tscn
 #: course/lesson-2-your-first-error/ErrorTranslatorExample.tscn
 msgid "The function \"move\" already exists in this class (at line 22)."
-msgstr ""
+msgstr "الدالة \"move\" موجودة بالفعل في هذه الفئة (في السطر 22)."
 
 #: course/lesson-21-strings/string_error/StringError.tscn
 msgid "INVALID NAME"
-msgstr ""
+msgstr "اسم غير صالح"
 
 #: course/lesson-21-strings/visuals/RobotToolTip.tscn
 msgid "This is a hint."
-msgstr ""
+msgstr "هذه مجرد تلميحة."
 
 #: course/lesson-21-strings/visuals/RobotToolTip.tscn
 msgid "Hover over the Robot to learn more"
-msgstr ""
+msgstr "مرر مؤشر الماوس فوق الروبوت لمعرفة المزيد"
 
 #: course/lesson-21-strings/visuals/RobotWithNumberName.tscn
 msgid "70801"
-msgstr ""
+msgstr "70801"
 
 #: course/lesson-21-strings/visuals/RobotWithRegularName.tscn
 msgid "Robot"
-msgstr ""
+msgstr "الروبوت"
 
 #: course/lesson-22-functions-return-values/visuals/ExampleRoundingHealth.tscn
 msgid "Health: "
-msgstr ""
+msgstr "صحة: "
 
 #: course/lesson-23-append-to-arrays/clearing-meals/ClearingMeals.tscn
 #: course/lesson-23-append-to-arrays/visuals/OrderMeals.tscn
 msgid "Pending orders"
-msgstr ""
+msgstr "الطلبات المعلقة"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/ClearingMeals.tscn
 #: course/lesson-23-append-to-arrays/visuals/OrderMeals.tscn
@@ -288,51 +309,51 @@ msgstr "تم إكمال الاختبارات"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/Meal.tscn
 msgid "cheese sandwich"
-msgstr ""
+msgstr "شطيرة جبن"
 
 #: course/lesson-24-access-array-indices/visuals/SyntaxAccessIndex.tscn
 msgid "array_name"
-msgstr ""
+msgstr "اسم المصفوفة"
 
 #: course/lesson-24-access-array-indices/visuals/SyntaxAccessIndex.tscn
 msgid "index"
-msgstr ""
+msgstr "فِهرِس"
 
 #: course/lesson-25-creating-dictionaries/visuals/ErrorDuplicateKey.tscn
 msgid "Error: Duplicate key found in Dictionary literal"
-msgstr ""
+msgstr "خطأ: تم العثور على مفتاح مكرر في نص القاموس"
 
 #: course/lesson-25-creating-dictionaries/visuals/SyntaxAccessValue.tscn
 msgid "dictionary"
-msgstr ""
+msgstr "قاموس"
 
 #: course/lesson-25-creating-dictionaries/visuals/SyntaxAccessValue.tscn
 msgid "key"
-msgstr ""
+msgstr "مفتاح"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
 msgid "Healing Heart"
-msgstr ""
+msgstr "قلبٌ مُعافى"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
 msgid "Gems"
-msgstr ""
+msgstr "الأحجار الكريمة"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
 msgid "Sword"
-msgstr ""
+msgstr "سيف"
 
 #: course/lesson-27-value-types/display-energy/DisplayingEnergy.tscn
 msgid "Energy:"
-msgstr ""
+msgstr "طاقة:"
 
 #: course/lesson-27-value-types/display-energy/DisplayingEnergy.tscn
 msgid "?? / 100"
-msgstr ""
+msgstr "?? / 100"
 
 #: course/lesson-27-value-types/player-input/PlayerInput.tscn
 msgid "Select count"
-msgstr ""
+msgstr "حدد العدد"
 
 #: course/lesson-27-value-types/player-input/PlayerInput.tscn
 #: ui/components/popups/ConfirmPopup.tscn
@@ -348,67 +369,69 @@ msgstr "نعم"
 
 #: course/lesson-27-value-types/visuals/ErrorInvalidOperands.tscn
 msgid "Invalid operands 'String' and 'int' in operator '+'."
-msgstr ""
+msgstr "المعاملات غير صالحة 'String' و 'int' في عامل الجمع '+'."
 
 #: course/lesson-28-specifying-types/ErrorInvalidOperands2.tscn
 msgid "Invalid operands for operator."
-msgstr ""
+msgstr "معاملات غير صالحة للمُشغِّل."
 
 #: course/lesson-28-specifying-types/ErrorInvalidType.tscn
 msgid "Parser Error: The assigned value's type (float) doesn't match the variable's type (Vector2)."
-msgstr ""
+msgstr "خطأ في المحلل اللغوي: نوع القيمة المعينة (float) لا يتطابق مع نوع المتغير (Vector2)."
 
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
 #: course/lesson-5-your-first-function/VisualFunctionDefinition.tscn
 #: course/lesson-6-multiple-function-parameters/visuals/FunctionDefinitionWithParams.tscn
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
 msgid "Type"
-msgstr ""
+msgstr "نوع"
 
 #: course/lesson-5-your-first-function/VisualFunctionDefinition.tscn
 #: course/lesson-6-multiple-function-parameters/visuals/FunctionDefinitionWithParams.tscn
 msgid "func"
-msgstr ""
+msgstr "func"
 
 #: course/lesson-5-your-first-function/VisualFunctionDefinition.tscn
 #: course/lesson-6-multiple-function-parameters/visuals/FunctionDefinitionWithParams.tscn
 msgid "name"
-msgstr ""
+msgstr "اسم"
 
 #: course/lesson-5-your-first-function/VisualFunctionDefinition.tscn
 #: course/lesson-6-multiple-function-parameters/visuals/FunctionDefinitionWithParams.tscn
 msgid "("
-msgstr ""
+msgstr "("
 
 #: course/lesson-5-your-first-function/VisualFunctionDefinition.tscn
 #: course/lesson-6-multiple-function-parameters/visuals/FunctionDefinitionWithParams.tscn
 msgid ")"
-msgstr ""
+msgstr ")"
 
 #: course/lesson-6-multiple-function-parameters/visuals/FunctionDefinitionWithParams.tscn
 msgid "parameter_1"
-msgstr ""
+msgstr "parameter_1"
 
 #: course/lesson-6-multiple-function-parameters/visuals/FunctionDefinitionWithParams.tscn
 msgid "parameter_2"
-msgstr ""
+msgstr "parameter_2"
 
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleDamage.tscn
 msgid "take_damage(25)"
-msgstr ""
+msgstr "تلقي الضرر (25)"
 
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleDamage.tscn
 msgid ""
 "func take_damage(amount):\n"
 "\thealth -= amount"
 msgstr ""
+"func take_damage(amount):\n"
+"\thealth -= amount"
 
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleHeal.tscn
 msgid "heal(25)"
-msgstr ""
+msgstr "شفاء (25)"
 
 #: ui/UILesson.tscn
 msgid "Title"
@@ -420,16 +443,16 @@ msgstr "الممارسات"
 
 #: ui/UINavigator.tscn
 msgid "Go back to the main menu"
-msgstr ""
+msgstr "العودة إلى القائمة الرئيسية"
 
 #: ui/UINavigator.tscn ui/screens/end_screen/EndScreen.tscn
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
 msgid "Open the course index"
-msgstr ""
+msgstr "افتح فهرس المقررات الدراسية"
 
 #: ui/UINavigator.tscn ui/UINavigator.gd:436
 msgid "Go back in your navigation history"
-msgstr "العودة إلى الصفحة السابقة"
+msgstr "ارجع إلى سجل التصفح الخاص بك"
 
 #: ui/UINavigator.tscn ui/components/popups/ReportFormPopup.tscn
 msgid "Report an issue"
@@ -451,6 +474,11 @@ msgid ""
 "Warning: Using the suggested solution will leave this practice unfinished.\n"
 "You can come back and try to solve it yourself later."
 msgstr ""
+"استخدم الحل المقترح.\n"
+"\n"
+"تنبيه: استخدام الحل المقترح سيؤدي إلى عدم إكمال هذا التمرين.\n"
+"\n"
+"يمكنك العودة لاحقًا ومحاولة حله بنفسك."
 
 #: ui/UIPractice.tscn
 msgid "Use Solution"
@@ -462,15 +490,15 @@ msgstr "هل ترغب في الخروج من التمرين قبل الانته�
 
 #: ui/components/BetaIndicator.tscn
 msgid "App in"
-msgstr ""
+msgstr "التطبيق في"
 
 #: ui/components/BetaIndicator.tscn
 msgid "BETA!"
-msgstr ""
+msgstr "BETA!"
 
 #: ui/components/BetaIndicator.tscn
 msgid "found a bug?"
-msgstr ""
+msgstr "هل وجدت خطأً برمجياً؟"
 
 #: ui/components/BigGreenButton.tscn
 msgid "Button"
@@ -478,7 +506,7 @@ msgstr "زر"
 
 #: ui/components/CodeEditor.tscn
 msgid "Toggle the code editor expanded."
-msgstr ""
+msgstr "قم بتوسيع محرر التعليمات البرمجية."
 
 #: ui/components/CodeEditor.tscn
 #, fuzzy
@@ -491,7 +519,7 @@ msgstr "تشغيل"
 
 #: ui/components/CodeEditor.tscn
 msgid "Toggle the game viewport paused."
-msgstr ""
+msgstr "قم بإيقاف تشغيل نافذة عرض اللعبة مؤقتًا."
 
 #: ui/components/CodeEditor.tscn
 msgid "Pause"
@@ -499,7 +527,7 @@ msgstr "إيقاف"
 
 #: ui/components/CodeEditor.tscn
 msgid "Reset your code to the starting point."
-msgstr ""
+msgstr "أعد ضبط الكود الخاص بك إلى نقطة البداية."
 
 #: ui/components/CodeEditor.tscn ui/components/RunnableCodeExample.tscn
 msgid "Reset"
@@ -507,7 +535,7 @@ msgstr "إعادة التعيين"
 
 #: ui/components/CodeEditor.tscn
 msgid "Show this practice's solution code."
-msgstr ""
+msgstr "اعرض رمز حل هذا التمرين."
 
 #: ui/components/CodeEditor.tscn
 msgid "Solution"
