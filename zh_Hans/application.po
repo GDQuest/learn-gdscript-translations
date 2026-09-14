@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-08-29 13:51+0000\n"
-"Last-Translator: shaomf <3681127308@qq.com>\n"
+"PO-Revision-Date: 2026-09-14 19:51+0000\n"
+"Last-Translator: QWERTYUIOP733 <sgsy_0813152546728@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.9.dev0\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: course/common/CustomHealthBar.tscn
@@ -79,7 +79,7 @@ msgstr "[code]set_angular_speed()[/code]函数无法使用[code]angular_speed[/c
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 msgid "Make sure you define the [code]angular_speed[/code] variable in the [code]set_angular_speed()[/code] function, or define it outside of functions so it's script-wide."
-msgstr ""
+msgstr "请务必在 [code] set_angular_speed ()[/code] 函数里定义 [code] angular_speed [/code] 变量，要么就把它定义在函数外面，这样整个脚本都能用到它。"
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
 msgid ""
@@ -558,15 +558,15 @@ msgstr "要离开未完成的练习吗？"
 
 #: ui/components/BetaIndicator.tscn
 msgid "App in"
-msgstr ""
+msgstr "应用"
 
 #: ui/components/BetaIndicator.tscn
 msgid "BETA!"
-msgstr ""
+msgstr "测试版！"
 
 #: ui/components/BetaIndicator.tscn
 msgid "found a bug?"
-msgstr ""
+msgstr "发现 bug 了吗？"
 
 #: ui/components/BigGreenButton.tscn
 msgid "Button"
@@ -642,6 +642,8 @@ msgid ""
 "Toggle the app full-screen.\n"
 "Shortcut: F11"
 msgstr ""
+"切换应用全屏显示。\n"
+"快捷键：F11"
 
 #: ui/components/GDQuestCreditsLabel.tscn
 msgid "Learn GDScript From Zero is an open source project by [color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
@@ -1043,7 +1045,7 @@ msgstr "课程标题"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn
 msgid "A/文 100%"
-msgstr ""
+msgstr "A/文 100%"
 
 #: ui/screens/course_outliner/CourseLessonList.tscn
 msgid "This course is 80% translated. Incomplete lessons will contain English text."
@@ -1731,7 +1733,7 @@ msgstr "使用向量来放大比例"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:12
 msgid "The Scale Is Correct After Gaining Multiple Levels"
-msgstr ""
+msgstr "升级多次后缩放比例正确"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:38
 #, fuzzy
@@ -1855,7 +1857,7 @@ msgstr "图形在 X 轴上的间距未达到 100 像素。"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:18
 msgid "Path contains values that are not Vector2"
-msgstr ""
+msgstr "路径包含非 Vector2 类型的值"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:25
 #, fuzzy
@@ -1979,7 +1981,7 @@ msgstr "机器人的移动路径与 robot_path 数组不匹配。它们应该是
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:58
 msgid "Did you use a for loop to call robot.move_to() with each cell in robot_path?"
-msgstr ""
+msgstr "你是否使用了 for 循环，用 robot_path 中的每个单元格调用 robot.move_to ()？"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:13
 #, fuzzy
@@ -2472,7 +2474,7 @@ msgstr "Shape3D 编号 %s 不是边长为 200 像素的正方形。你是否修�
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:54
 msgid "The squares should not overlap. Did you move the turtle between drawing each square?"
-msgstr ""
+msgstr "这些正方形不应重叠。你在绘制每个正方形之间移动海龟了吗？"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:14
 #, fuzzy
@@ -2496,7 +2498,7 @@ msgstr "海龟没有绘制任何内容。请确保您的函数调用了 move_for
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:43
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:58
 msgid "The turtle drew fewer than 2 shapes. Make sure your function is repeatable."
-msgstr ""
+msgstr "海龟绘制了少于 2 个图形。请确保你的函数可以重复调用。"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:23
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:23
@@ -2723,12 +2725,16 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
 
 #: ui/UILesson.gd:379
 msgid ""
 "\n"
 "[hr]\n"
 msgstr ""
+"\n"
+"[hr]\n"
 
 #: ui/UINavigator.gd:439
 msgid "(no previous history)"
@@ -2766,7 +2772,7 @@ msgstr "正在运行测试..."
 
 #: ui/components/BreadCrumbs.gd:66
 msgid " > "
-msgstr ""
+msgstr " > "
 
 #: ui/components/popups/ReportFormPopup.gd:52
 msgid "Select the kind of issue and describe it in the box below, then click \"Send report\" to open the contact page on our website with the report prefilled."
@@ -2783,7 +2789,7 @@ msgstr "翻译均为非官方版本，由社区维护。如果您想提供帮助
 
 #: ui/components/popups/SettingsPopup.gd:144
 msgid "{percentage}% of text translated. {completed}/{total} lessons fully translated."
-msgstr ""
+msgstr "已翻译了 {percentage}% 的文本。{completed}/{total} 课已完整翻译。"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:73
 msgid "100%"
@@ -2793,7 +2799,7 @@ msgstr "100%"
 #: ui/screens/course_outliner/CourseLessonDetails.gd:115
 #: ui/screens/course_outliner/CourseLessonDetails.gd:117
 msgid "Open Anyway"
-msgstr ""
+msgstr "仍然打开"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:114
 msgid "Open Lesson"
@@ -2805,7 +2811,7 @@ msgstr "继续课程"
 
 #: ui/screens/course_outliner/CourseLessonList.gd:33
 msgid "This course is {percentage}% translated. Incomplete lessons will contain English text."
-msgstr ""
+msgstr "本课程已翻译 {percentage}%。未完整翻译的课程将包含英文文本。"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:28
 msgid "(select all that apply)"
@@ -2836,7 +2842,7 @@ msgstr "你之前已完成过此练习。"
 msgid ""
 "You've used the provided solution.\n"
 "This practice will not count towards your course progress."
-msgstr ""
+msgstr "你使用了提供的解决方案。该练习将不计入你的课程进度。"
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:52
 msgid "CONTINUE"
