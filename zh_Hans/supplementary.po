@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-09-14 21:00+0000\n"
+"PO-Revision-Date: 2026-09-15 20:20+0000\n"
 "Last-Translator: QWERTYUIOP733 <sgsy_0813152546728@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/learn-gdscript-from-zero/supplementary/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -51,23 +51,23 @@ msgstr "看看错误消息中的函数名。仔细将它和练习目标中列出
 
 #: script_checking/error_database.csv
 msgid "Are there any differences? Whether it's one letter, an underscore ('_'), or a capital letter? If you spot any differences, change the function name in your code."
-msgstr ""
+msgstr "有任何不同吗？无论是差一个字母、一个下划线（'_'），还是字母大小写？如果你发现了任何差异，就修改代码中的函数名。"
 
 #: script_checking/error_database.csv
 msgid "This error message tells you that the values you used with an operator are not compatible with each other. For example, you can add two [code]Vector2[/code] values together, but you cannot add a [code]Vector2[/code] and an [code]int[/code] (a whole number) like [code]Vector2(1, 1) + 3[/code]."
-msgstr ""
+msgstr "这条错误消息告诉你，你在运算符中使用的值彼此不兼容。例如，你可以把两个 [code]Vector2[/code] 值相加，但不能像 [code]Vector2(1, 1) + 3[/code] 这样把一个 [code]Vector2[/code] 和一个 [code]int[/code]（整数）相加。"
 
 #: script_checking/error_database.csv
 msgid "Operators are like recipes: each one only works with specific ingredients (kinds of values). The [code]+[/code] operator knows how to combine two numbers, or two vectors, but it cannot mix a vector and a number. For numeric values, the rules usually follow the ones you've learned in math classes: you can multiply, divide, or add numbers together. You can multiply or divide a [code]Vector2[/code] by a number. And so on."
-msgstr ""
+msgstr "运算符就像菜谱：每个运算符只适用于特定的食材（也就是值的种类）。[code]+[/code] 运算符知道如何把两个数字或两个向量组合起来，但它不能把向量和数字混在一起。对于数值，规则通常和你数学课上学到的一样：你可以把数字相乘、相除或相加。你也可以用一个数字去乘或除一个 [code]Vector2[/code]。诸如此类。"
 
 #: script_checking/error_database.csv
 msgid "First, identify the two values the error message points to. Are they compatible? If you're adding or subtracting, they should be the same type: two numbers or two vectors."
-msgstr ""
+msgstr "首先，找出错误消息指向的两个值。它们兼容吗？如果你在做加法或减法，它们应该是相同的类型：两个数字或两个向量。"
 
 #: script_checking/error_database.csv
 msgid "When working with variables, think about the value they hold. [code]position[/code], for example, holds a [code]Vector2[/code], so you can add another [code]Vector2[/code] to it directly: [code]position = position + Vector2(1, 1)[/code]. Or you can change one component, like [code]position.x = position.x + 1[/code]."
-msgstr ""
+msgstr "使用变量时，想想它存的是什么值。例如，[code]position[/code] 存的是一个 [code]Vector2[/code]，所以你可以直接给它加上另一个 [code]Vector2[/code]：[code]position = position + Vector2(1, 1)[/code]。或者你可以修改它的一个分量，比如 [code]position.x = position.x + 1[/code]。"
 
 #: script_checking/error_database.csv
 msgid "You get this error when the name between the [code]for[/code] and [code]in[/code] is not a valid variable name, or you are missing the [code]in[/code] keyword."
@@ -96,7 +96,7 @@ msgstr "[code]for cell_position in cell_positions_array:"
 
 #: script_checking/error_database.csv
 msgid "    cell_position.x += 1.0[/code]"
-msgstr ""
+msgstr "    cell_position.x += 1.0[/code]"
 
 #: script_checking/error_database.csv
 msgid "You get this error when you try to assign a value to something that is not a variable."
@@ -186,7 +186,7 @@ msgstr "有两种可能的原因："
 
 #: script_checking/error_database.csv
 msgid "1. You used the class name in the class itself."
-msgstr ""
+msgstr "1. 你在类自身内部使用了类名。"
 
 #: script_checking/error_database.csv
 #, fuzzy
@@ -291,7 +291,7 @@ msgstr "在几种情况下会发生此错误："
 
 #: script_checking/error_database.csv
 msgid "1. You wrote an identifier (variable or function name) in the wrong place."
-msgstr ""
+msgstr "1. 你把标识符（变量名或函数名）写在了错误的位置。"
 
 #: script_checking/error_database.csv
 #, fuzzy
@@ -300,7 +300,7 @@ msgstr "2. 你写了一个关键字，比如 [code]var[/code]、[code]func[/code
 
 #: script_checking/error_database.csv
 msgid "3. You wrote a function definition but forgot the parentheses before the colon."
-msgstr ""
+msgstr "3. 你写了一个函数定义，但忘记了冒号前面的括号。"
 
 #: script_checking/error_database.csv
 msgid "If the error tells you it expected something, you likely forgot to write a name after a keyword like [code]var[/code], [code]func[/code], [code]for[/code], or [code]signal[/code], making your code invalid. Or you forgot parentheses in a function definition. You can address the error by adding the missing name or parentheses."
@@ -546,7 +546,7 @@ msgstr "要解决这个问题，你需要在循环内部添加一个 break 语�
 
 #: script_checking/error_database.csv
 msgid "The computer reached the end of the line of code, but the line had a syntax error."
-msgstr ""
+msgstr "计算机读到了代码行的末尾，但这一行存在语法错误。"
 
 #: script_checking/error_database.csv
 #, fuzzy
@@ -853,15 +853,15 @@ msgstr "存储构成棋盘宽度（[code]board_size.x[/code]）和高度（[code
 
 #: course/documentation.csv
 msgid "any"
-msgstr ""
+msgstr "任意"
 
 #: course/documentation.csv
 msgid "String"
-msgstr ""
+msgstr "字符串"
 
 #: course/documentation.csv
 msgid "int"
-msgstr ""
+msgstr "整数"
 
 msgid "Learn to Code From Zero with Godot"
 msgstr "从零开始学习的godot"
