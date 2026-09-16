@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-07-30 12:24+0000\n"
-"Last-Translator: Nathan Lovato <nathan@gdquest.com>\n"
+"PO-Revision-Date: 2026-09-14 19:51+0000\n"
+"Last-Translator: Paul Coquerel <polonium_2102@outlook.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Weblate 2026.8.dev0\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
@@ -292,7 +292,7 @@ msgstr "Robot"
 
 #: course/lesson-22-functions-return-values/visuals/ExampleRoundingHealth.tscn
 msgid "Health: "
-msgstr "PV :"
+msgstr "PV : "
 
 #: course/lesson-23-append-to-arrays/clearing-meals/ClearingMeals.tscn
 #: course/lesson-23-append-to-arrays/visuals/OrderMeals.tscn
@@ -306,7 +306,7 @@ msgstr "Complétées"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/Meal.tscn
 msgid "cheese sandwich"
-msgstr ""
+msgstr "sandwich au fromage"
 
 #: course/lesson-24-access-array-indices/visuals/SyntaxAccessIndex.tscn
 msgid "array_name"
@@ -1550,7 +1550,7 @@ msgstr "Utilisez un vecteur pour augmenter l'échelle"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:12
 msgid "The Scale Is Correct After Gaining Multiple Levels"
-msgstr ""
+msgstr "L'échelle est correcte après avoir gagné plusieurs niveaux"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:38
 msgid "It looks like the scale isn't increasing by some vector. Did you add a vector to scale?"
@@ -1653,7 +1653,7 @@ msgstr "Les formes ne sont pas espacées de 100 pixels sur l'axe X."
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:18
 msgid "Path contains values that are not Vector2"
-msgstr ""
+msgstr "Le chemin contient des valeurs qui ne sont pas des Vector2"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:25
 msgid "Path Is Contiguous"
@@ -1753,7 +1753,7 @@ msgstr "Le tracé du robot ne correspond pas au tableau robot_path. Ils devraien
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:58
 msgid "Did you use a for loop to call robot.move_to() with each cell in robot_path?"
-msgstr ""
+msgstr "Avez-vous utilisé une boucle for pour appeler robot.move_to() sur chaque cellule de robot_path ?"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:13
 msgid "Robot Combo Is Correct"
@@ -2173,7 +2173,7 @@ msgstr "La tortue n'a rien dessiné. Vérifiez que votre fonction appelle bien m
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:43
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:58
 msgid "The turtle drew fewer than 2 shapes. Make sure your function is repeatable."
-msgstr ""
+msgstr "La tortue a dessiné moins de 2 figures. Assurez-vous qu'on peut répéter votre fonction."
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:23
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:23
@@ -2181,9 +2181,8 @@ msgstr ""
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:25
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:45
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:60
-#, fuzzy
 msgid "The turtle drew more than 2 shapes. Make sure your function only draws one shape."
-msgstr "La tortue n'a rien dessiné. Vérifiez que votre fonction appelle bien move_forward(length) pour déplacer la tortue."
+msgstr "La tortue a dessiné plus que 2 figures. Vérifiez que votre fonction ne dessine qu'une seule figure."
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:28
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:28
@@ -2360,6 +2359,8 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
 
 #: ui/UILesson.gd:379
 msgid ""
@@ -2382,9 +2383,8 @@ msgid "Validating Your Code..."
 msgstr "Validation de votre code…"
 
 #: ui/UIPractice.gd:379
-#, fuzzy
 msgid "The function '%s' calls itself, this creates an infinite loop"
-msgstr "La fonction `%s` s'appelle elle-même, cela crée une boucle infinie"
+msgstr "La fonction '%s' s'appelle elle-même, cela crée une boucle infinie"
 
 #: ui/UIPractice.gd:390
 msgid "You have a loop that runs forever without a break statement. This would freeze the app."
@@ -2411,9 +2411,8 @@ msgid "Select the kind of issue and describe it in the box below, then click \"S
 msgstr "Sélectionnez le type de problème et décrivez-le dans le champ ci-dessous, puis cliquez sur « Envoyer le rapport » pour ouvrir la page de contact de notre site web avec le rapport prérempli."
 
 #: ui/components/popups/ReportFormPopup.gd:56
-#, fuzzy
 msgid "For questions and help with learning, [url=%s]join the community on Discord[/url]."
-msgstr "Pour toute question ou aide à l'apprentissage, [url=https://discord.gg/bNj469SYQj]rejoignez la communauté sur Discord[/url]."
+msgstr "Pour toute question ou aide à l'apprentissage, [url=%s]rejoignez la communauté sur Discord[/url]."
 
 #: ui/components/popups/ReportFormPopup.gd:132
 msgid "Translations are unofficial and maintained by the community. If you'd like to help, [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]learn how to help translate the app[/url]."
