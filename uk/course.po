@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-09-26 09:51+0000\n"
+"PO-Revision-Date: 2026-09-29 14:53+0000\n"
 "Last-Translator: Nikita <general.governator@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/uk/>\n"
 "Language: uk\n"
@@ -3682,12 +3682,12 @@ msgstr "Обмеження зцілення"
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
 msgid "The [code]heal()[/code] function adds [code]amount[/code] to [code]health[/code]. But right now, health can increase forever, without limit! We want to stop it at [code]80[/code]."
-msgstr ""
+msgstr "Функція [code]heal()[/code] додає [code]amount[/code] до [code]health[/code]. Але зараз, здоров'я може збільшуватись нескінченно, без обмежень! Ми хочемо зупинити його на [code]80[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
 msgid "I've defined a [code]health[/code] variable for you with a starting value of [code]20[/code]. Your task is to add a condition inside [code]heal()[/code] so that health is never greater than [code]80[/code]."
-msgstr ""
+msgstr "Я створив змінну [code]health[/code] для вас. Ваше завдання додати умову в середину функції [code]heal()[/code] так, щоб здоров'я ніколи не стало більше за [code]80[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
@@ -3719,7 +3719,7 @@ msgstr "Як би нам не хотілося, ми не хочемо, щоб �
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:149
 msgid "The starting code already adds the amount to the [code]health[/code] variable: [code]health += amount[/code] is already there. You need to add a check [b]after[/b] it, otherwise the health will overshoot your limit."
-msgstr ""
+msgstr "Початковий код вже додає певну кількість до змінної [code]health[/code]: [code]health += amount[/code] вже написан. Ви маєте додати перевірку [b]після[/b] цього коду, інакше здоров'я перевищить обмеження."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:149
@@ -3730,7 +3730,7 @@ msgstr "Рядок [code]health < 5:[/code] означає «здоров'я м�
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:149
 msgid "Inside that [code]if[/code] block, set health back to the limit: [code]health = 80[/code]. That's how you limit the value."
-msgstr ""
+msgstr "В середениі цього [code]if[/code] блоку, виставте обмеження для здоров'я: [code]health = 80[/code]. Так ви обмежите допустимі значення."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -3740,7 +3740,7 @@ msgstr "Запобігання здоров'ю від падіння нижче 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "We want to display the health number on screen, like in many RPGs. But currently, the health can go below 0, which does not make sense. We want to stop at [code]0[/code]."
-msgstr ""
+msgstr "Ми хочемо відобразити кількість здоров'я на екрані, як у багатьох RPG-іграх. Але зараз здоров'я може впасти нижче 0, що не має сенсу. Ми хочемо зупиняти його на [code]0[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -3764,11 +3764,15 @@ msgstr "Додайте до функції [code]take_damage()[/code], щоб в
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
+#, fuzzy
 msgid ""
 "[code]take_damage(10)[/code]\n"
 "[code]take_damage(10)[/code]\n"
 "[code]take_damage(10)[/code]"
 msgstr ""
+"[code]take_damage(10)[/code]\n"
+"[code]take_damage(10)[/code]\n"
+"[code]take_damage(10)[/code]"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -3784,22 +3788,22 @@ msgstr "Мати негативне значення здоров'я не має
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "Start by subtracting the damage: [code]health -= amount[/code]. This is how you apply damage."
-msgstr ""
+msgstr "Почніть з віднімання розміру пошкоджень: [code]health -= amount[/code]. Так ви наносите пошкодження."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "To limit the health, after subtracting the amount, you need to add a condition and reset the health."
-msgstr ""
+msgstr "Щоб обмежити здоров'я, після віднімання пошкоджень, ви маєте додати умову і скинути здоров'я до нульового значення."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "Here's how to write a condition to check if health went below zero: [code]if health < 0:[/code]."
-msgstr ""
+msgstr "Так пишеться умова для перевірки чи не впало здоров'я нижче нуля: [code]if health < 0:[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "Inside the [code]if[/code] block, you can reset the health like this: [code]health = 0[/code]."
-msgstr ""
+msgstr "В середині [code]if[/code] блоку, ви можете скинути здоров'я до нуля так: [code]health = 0[/code]."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-14-multiplying/lesson.bbcode:1
@@ -5113,8 +5117,9 @@ msgstr "Наш алгоритм штучного інтелекту визнач
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
+#, fuzzy
 msgid "You should start with a for loop that iterates over every cell in [code]robot_path[/code]."
-msgstr ""
+msgstr "Ви маєте почати з циклу [code]for[/code], що ітерується по кожній клітинці в [code]robot_path[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
@@ -5160,17 +5165,17 @@ msgstr "Малювальна черепашка повертається. Не �
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "Each value in the [code]rectangle_sizes[/code] array is a [code]Vector2[/code]. You'll need to access its [code]x[/code] and [code]y[/code] sub-components to draw rectangles."
-msgstr ""
+msgstr "Кожне значення в [код]rectangle_sizes[/code] массиві має тип [code]Vector2[/code]. Вам потрібно звернутись до його [код]x[/code] та [код]y[/code] полів для малювання прямокутників."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "In the loop, you first need to call [code]draw_rectangle()[/code], and then [code]jump()[/code]. Otherwise, at least two rectangles will overlap."
-msgstr ""
+msgstr "У петлі спочатку потрібно викликати [код]draw_rectangle()[/code], а потім [код]jump()[/code]. Інакше принаймні два прямокутники будуть перетинатись."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "The arguments when calling [code]jump()[/code] can just be large enough to space out the rectangles. For example, [code]jump(300, 0)[/code]"
-msgstr ""
+msgstr "Аргументи функції [code]jump()[/code] при виклику можно зробити достатньо великими, щоб вмістити прямокутники. Наприклад, [code]jump(300, 0)[/code]"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-21-strings/lesson.bbcode:1
