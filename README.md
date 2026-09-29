@@ -53,7 +53,9 @@ We split translations into a few set of files per language:
 
 ## Testing your translations in Godot
 
-If you want to see how your translations look in the app, here's how you can test them locally. You'll need to clone the app's repository: [learn-gdscript](https://github.com/GDQuest/learn-gdscript/). Check the repository for requirements - it uses a custom build of Godot.
+If you want to see how your translations look in the app, here's how you can test them locally. You'll need to clone the app's repository: [learn-gdscript](https://github.com/GDQuest/learn-gdscript/) and download our custom build of Godot: [Getting the custom build of Godot](https://github.com/GDQuest/learn-gdscript/blob/main/docs/custom_godot_build.md)
+
+Then, follow these steps:
 
 1. Copy your translated PO files into the app's repository. You need to put them in the `i18n/` directory, following the same structure as this repository. For example, if you translated into Spanish, you would copy your `es/` directory with all its PO files into the `i18n/` directory of the app's repository.
 2. Open the project in Godot.
