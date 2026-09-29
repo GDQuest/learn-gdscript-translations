@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the Learn GDScript From
 # project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
@@ -14,11 +14,22 @@ msgstr ""
 "Language-Team: French <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "Generated-By: Babel 2.10.3\n"
 "X-Generator: Weblate 2026.10.dev0\n"
+
+#: course/common/inventory/DictItem.tscn
+#: course/lesson-23-append-to-arrays/visuals/Crate.tscn
+#: course/lesson-24-access-array-indices/visuals/inventory/Item.tscn
+#: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
+msgid "0"
+msgstr "0"
+
+#: course/lesson-21-strings/visuals/RobotWithNumberName.tscn
+msgid "70801"
+msgstr "70801"
 
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
@@ -32,13 +43,6 @@ msgstr "Inventaire"
 #: course/common/inventory/DictItem.tscn
 msgid "healing heart"
 msgstr "coeur de soin"
-
-#: course/common/inventory/DictItem.tscn
-#: course/lesson-23-append-to-arrays/visuals/Crate.tscn
-#: course/lesson-24-access-array-indices/visuals/inventory/Item.tscn
-#: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
-msgid "0"
-msgstr "0"
 
 #: course/lesson-11-time-delta/visuals/DemoRotatingSpriteFrame.tscn
 #: course/lesson-11-time-delta/visuals/DemoRotatingTime.tscn
@@ -281,10 +285,6 @@ msgstr "Ceci est un indice."
 #: course/lesson-21-strings/visuals/RobotToolTip.tscn
 msgid "Hover over the Robot to learn more"
 msgstr "Survolez le robot pour en savoir plus"
-
-#: course/lesson-21-strings/visuals/RobotWithNumberName.tscn
-msgid "70801"
-msgstr "70801"
 
 #: course/lesson-21-strings/visuals/RobotWithRegularName.tscn
 msgid "Robot"
@@ -1586,12 +1586,10 @@ msgstr "La valeur de position est %s ; elle devrait être (0.0, 0.0) après la r
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:13
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:13
-#, fuzzy
 msgid "Robot Moves To Bottom Row"
 msgstr "Le robot atteint le bas de la grille"
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:15
-#, fuzzy
 msgid "Use a While Loop to Move"
 msgstr "Utilisez une boucle « while »"
 
@@ -1608,7 +1606,6 @@ msgid "Your while loop needs to contain the code that moves the robot."
 msgstr ""
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:15
-#, fuzzy
 msgid "Use a For Loop to Move"
 msgstr "Utilisez une boucle « for »."
 
@@ -2171,7 +2168,7 @@ msgstr ""
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:39
 #, fuzzy
 msgid "You need to define a function named draw_three_squares()."
-msgstr "Vous devez dessiner trois carrés."
+msgstr "Vous devez définir une fonction nommée draw_three_squares()."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:57
 msgid "Nothing drawn. Did you not call draw_square()?"
