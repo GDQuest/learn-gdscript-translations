@@ -2564,17 +2564,15 @@ msgstr "Endommager le robot"
 msgid "In our game, the main character has a certain amount of [code]health[/code]. When it gets hit, the health should go down by a varying [code]amount[/code] of damage."
 msgstr "Dans notre jeu, le personnage principal a une certaine quantité de [code]health[/code]. Lorsqu'il est touché, sa santé devrait diminuer d'un [code]amount[/code] de dégâts variable."
 
-#. TRANSLATORS: Practice goal
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:50
-#, fuzzy
+#. TRANSLATORS: Practice goal
 msgid "Add an instruction to the [code]take_damage()[/code] function so it subtracts [code]amount[/code] from the [code]health[/code] variable."
-msgstr "Ajoutez du code à la fonction [code]take_damage()[/code] pour qu'elle soustraie [code]amount[/code] à la variable prédéfinie [code]health[/code]."
+msgstr "Ajoutez une instruction à la fonction [code]take_damage()[/code] pour qu'elle soustraie [code]amount[/code] à la variable [code]health[/code]."
 
-#. TRANSLATORS: Practice goal
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:50
-#, fuzzy
+#. TRANSLATORS: Practice goal
 msgid "I will call the [code]take_damage()[/code] function like this when you run the practice: [code]take_damage(50)[/code]"
-msgstr "Ajoutez du code à la fonction [code]take_damage()[/code] pour qu'elle soustraie [code]amount[/code] à la variable prédéfinie [code]health[/code]."
+msgstr "J'appellerai la fonction [code]take_damage()[/code] comme ceci lorsque vous exécuterez l'exercice : [code]take_damage(50)[/code]"
 
 #. TRANSLATORS: Practice description
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:50
@@ -4643,43 +4641,38 @@ msgstr "Utiliser une boucle for pour se déplacer à la fin du plateau"
 msgid "Once again, the robot has decided to stand at the top of the board."
 msgstr "Une fois de plus, le robot a décidé de se tenir sur la partie supérieure du plateau."
 
-#. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
-#, fuzzy
+#. TRANSLATORS: Practice goal
 msgid "[b]Your task is to complete the [code]move_to_bottom()[/code] function to move the robot down to the bottom row.[/b]"
-msgstr "Cette fois-ci, utilisez une boucle [code]for[/code] dans la fonction [code]move_to_bottom()[/code] pour qu'il se déplace vers la partie inférieure du tableau."
+msgstr "[b]Votre tâche est de compléter la fonction [code]move_to_bottom()[/code] pour déplacer le robot jusqu'à la ligne du bas.[/b]"
 
-#. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
-#, fuzzy
+#. TRANSLATORS: Practice goal
 msgid "We store the robot's position on the board in a variable named [code]cell[/code]."
-msgstr "Notez que nous nous déplaçons d'une case de moins que la largeur du plateau car nous comptons les cases à partir de [code]0[/code]."
+msgstr "Nous stockons la position du robot sur le plateau dans une variable nommée [code]cell[/code]."
 
-#. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
-#, fuzzy
+#. TRANSLATORS: Practice goal
 msgid "The board size is stored in a variable named [code]board_size[/code], which holds a [code]Vector2[/code] value."
-msgstr "La taille de la carte est stockée dans une variable nommée [code]board_size[/code] qui contient une valeur [code]Vector2[/code]."
+msgstr "La taille du plateau est stockée dans une variable nommée [code]board_size[/code], qui contient une valeur [code]Vector2[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "To move the robot, change [code]cell[/code] one step at a time. If you add [code]Vector2(0, 1)[/code] to [code]cell[/code], the robot will move down one row."
 msgstr ""
 
-#. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
-#, fuzzy
+#. TRANSLATORS: Practice goal
 msgid "Use a [code]for[/code] loop and the `[code]board_size[/code]` variable to make the function work for any board size."
-msgstr "Assurez-vous d'utiliser une boucle [code]while[/code] pour que la fonction fonctionne quelle que soit la taille de la carte."
+msgstr "Utilisez une boucle [code]for[/code] et la variable `[code]board_size[/code]` pour que la fonction marche quelle que soit la taille du plateau."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "To check your code, I will call the [code]move_to_bottom()[/code] function. After calling it, [code]cell.y[/code] should be equal to [code]board_size.y - 1[/code]. This is the bottom row of the board."
 msgstr ""
 
-#. TRANSLATORS: Practice description
 #: course/lesson-18-for-loops/lesson.bbcode:77
-#, fuzzy
+#. TRANSLATORS: Practice description
 msgid "Use a for loop to move the robot from the top of the board to the bottom."
 msgstr "Utilisez une boucle for pour que notre robot se déplace de la partie supérieure du plateau vers la partie inférieure."
 
