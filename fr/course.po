@@ -6081,19 +6081,16 @@ msgstr "Les dictionnaires sont aussi appelés mappages ou [i]tableaux associatif
 msgid "Precisely, dictionaries use a [i]hashing algorithm[/i]. Hashing algorithms convert one value into another."
 msgstr "Précisément, les dictionnaires utilisent un [i]algorithme de hachage[/i]. Les algorithmes de hachage convertissent une valeur en une autre."
 
-#. TRANSLATORS: Note content
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:47
-#, fuzzy
+#. TRANSLATORS: Note content
 msgid "In this case, hashing consists of converting a given key into a whole number. The dictionary then uses that number as an array's index!"
-msgstr "Dans ce cas, le hachage consiste à convertir une clé donnée en un nombre entier unique. Le dictionnaire utilise ensuite ce nombre comme indice d'un tableau !"
+msgstr "Dans ce cas, le hachage consiste à convertir une clé donnée en un nombre entier. Le dictionnaire utilise ensuite ce nombre comme indice d'un tableau !"
 
-#. TRANSLATORS: Note content
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:48
-#, fuzzy
-msgid "That's how a dictionary works: when you give it a key, it converts it into a index and uses that index to retrieve the corresponding value in the computer's memory."
-msgstr "C'est ainsi qu'un dictionnaire fonctionne : lorsque vous lui donnez une clé, il la convertit en un indice unique et utilise cet indice pour retrouver la valeur correspondante dans la mémoire de l'ordinateur."
-
 #. TRANSLATORS: Note content
+msgid "That's how a dictionary works: when you give it a key, it converts it into a index and uses that index to retrieve the corresponding value in the computer's memory."
+msgstr "C'est ainsi qu'un dictionnaire fonctionne : lorsque vous lui donnez une clé, il la convertit en un indice et utilise cet indice pour retrouver la valeur correspondante dans la mémoire de l'ordinateur."
+
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:49
 msgid "That's also why you can't have the same key twice: it would map to the same array index, causing you to overwrite an existing value."
 msgstr "C'est aussi pourquoi vous ne pouvez pas avoir deux fois la même clé : elle correspondrait au même indice de tableau, ce qui entraînerait l'écrasement d'une valeur existante."
