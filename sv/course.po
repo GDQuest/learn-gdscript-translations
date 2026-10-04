@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-10-04 15:51+0000\n"
+"PO-Revision-Date: 2026-10-05 08:30+0000\n"
 "Last-Translator: Matias Särs <m7s@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/sv/>\n"
 "Language: sv\n"
@@ -4889,213 +4889,215 @@ msgstr "Att gå till roboten"
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 msgid "The turtle wants to meet the robot! But it cannot find it on its own."
-msgstr ""
+msgstr "Sköldpaddan vill träffa roboten! Men den kan inte hitta den på egen hand."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 msgid "Fill the [code]turtle_path[/code] array with [code]Vector2[/code] coordinates indicating where the turtle should move to avoid the obstacles and arrive safely to the robot."
-msgstr ""
+msgstr "Fyll arrayen [code]turtle_path[/code] med [code]Vector2[/code]-koordinater som anger vart sköldpaddan ska röra sig för att undvika hindren och nå roboten på ett säkert sätt."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 msgid "The turtle can move up, down, left, or right. It cannot move diagonally."
-msgstr ""
+msgstr "Sköldpaddan kan röra sig uppåt, nedåt, åt vänster eller åt höger. Den kan inte röra sig diagonalt."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 msgid "We recommend copying and pasting to fill the array with comma-separated [code]Vector2[/code] values quickly."
-msgstr ""
+msgstr "Vi rekommenderar att du kopierar och klistrar in för att snabbt fylla matrisen med kommaseparerade [code]Vector2[/code]-värden."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 msgid "Help the turtle find its way to the robot! Give it a path to follow to reach the robot."
-msgstr ""
+msgstr "Hjälp sköldpaddan att hitta vägen till roboten! Skapa en väg som den kan följa för att nå roboten."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 msgid "Any path that doesn't touch rocks is valid. The turtle could first move down or to the right. So the first value could either be [code]Vector2(1, 0)[/code] or [code]Vector2(0, 1)[/code]."
-msgstr ""
+msgstr "Varje väg som inte går över stenar är giltig. Sköldpaddan kan först röra sig nedåt eller åt höger. Det första värdet kan alltså vara antingen [code]Vector2(1, 0)[/code] eller [code]Vector2(0, 1)[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-19-creating-arrays/lesson.bbcode:88
 msgid "Every [code]Vector2[/code] in the array should be one unit away from the previous one. That means there should only be a difference of 1 on the X-axis or the Y-axis between two [code]Vector2[/code] in the array."
-msgstr ""
+msgstr "Varje [code]Vector2[/code] i arrayen ska ligga en enhet från den föregående. Det innebär att skillnaden mellan två [code]Vector2[/code] i arrayen endast får vara 1 på antingen X-axeln eller Y-axeln."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "Selecting units"
-msgstr ""
+msgstr "Välja enheter"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "In this tactical game, the player and computer can select multiple units at once. You need to call the [code]select_units()[/code] function and pass it an array of [code]Vector2[/code] coordinates to know which units to select."
-msgstr ""
+msgstr "I det här taktiska spelet kan både spelaren och datorn välja flera enheter samtidigt. Du måste anropa funktionen [code]select_units()[/code] och skicka en array med [code]Vector2[/code]-koordinater till den för att ange vilka enheter som ska väljas."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "Each [code]Vector2[/code] in the array represents a cell with a unit."
-msgstr ""
+msgstr "Varje [code]Vector2[/code] i arrayen representerar en cell med en enhet."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "You can pass arrays in function calls as arguments. As an array is a value type the computer recognizes, you can pass the whole array as a single function argument."
-msgstr ""
+msgstr "Du kan skicka över arrayer som argument vid funktionsanrop. Eftersom en array är en värdetyp som datorn känner igen kan du skicka över hela arrayen som ett enda funktionsargument."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "Select all units on the board by passing the correct array to the [code]select_units()[/code] function."
-msgstr ""
+msgstr "Markera alla enheter på spelplanen genom att skicka rätt array till funktionen [code]select_units()[/code]."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "Write an array to select all units on the board in this strategy game."
-msgstr ""
+msgstr "Skriv en array för att markera alla enheter på spelbrädet i detta strategispel."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "You can write [code]Vector2[/code] values inside the brackets in the function call: [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
-msgstr ""
+msgstr "Du kan ange [code]Vector2[/code]-värden inom parenteserna i funktionsanropet: [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:1
 msgid "Looping over arrays"
-msgstr ""
+msgstr "Iterera över arrayer"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:5
 msgid "We used the [code]range()[/code] function in combination with [code]for[/code] loops."
-msgstr ""
+msgstr "Vi använde funktionen [code]range()[/code] i kombination med [code]for[/code]-slingor."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:13
 msgid "The [code]range()[/code] function produced an array that the [code]for[/code] keyword could loop over."
-msgstr ""
+msgstr "Funktionen [code]range()[/code] genererade en array som nyckelordet [code]for[/code] kunde loopa över."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:14
 msgid "We can give [code]for[/code] loops [i]any[/i] array, and they will loop over them just the same."
-msgstr ""
+msgstr "Vi kan ange [code]for[/code]-slingor [i]vilken[/i] array som helst, och de kommer att gå igenom dem på samma sätt."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:15
 msgid "Instead of using the [code]range()[/code] function, we could manually write the numbers and get the same result."
-msgstr ""
+msgstr "Istället för att använda funktionen [code]range()[/code] kan vi skriva in talen manuellt och få samma resultat."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:17
 msgid "For each element inside the array, the [code]for[/code] loop extracts it, stores it in the temporary variable named [code]number[/code], and executes the loop's code once."
-msgstr ""
+msgstr "För varje element i arrayen hämtar [code]for[/code]-slingan det, lagrar det i den tillfälliga variabeln [code]number[/code] och kör slingans kod en gång."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:18
 msgid "Inside the loop, you can access the [code]number[/code] variable, which changes on each [i][glossary term=\"iteration\"]iteration[/glossary][/i]."
-msgstr ""
+msgstr "Inuti slingan kan du komma åt variabeln [code]number[/code], som ändras vid varje [i][glossary term=\"iteration\"]iteration[/glossary][/i]."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:19
 msgid "The code works regardless of the array or where you store it. Often, you will store arrays in variables for easy access."
-msgstr ""
+msgstr "Koden fungerar oavsett vilken array det gäller eller var du lagrar den. Ofta lagrar man arrayer i variabler för att enkelt kunna komma åt dem."
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "What will this code print?"
-msgstr ""
+msgstr "Vad kommer den här koden att skriva ut?"
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "Compared to previous examples, we store the array in the [code]numbers[/code] variable. Using the [code]numbers[/code] variable in our [code]for[/code] loop allows the computer to access the array of numbers like before."
-msgstr ""
+msgstr "Till skillnad från tidigare exempel lagrar vi arrayen i variabeln [code]numbers[/code]. Genom att använda variabeln [code]numbers[/code] i vår [code]for[/code]-slinga kan datorn komma åt arrayen med tal på samma sätt som tidigare."
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "We have three numbers in the array: [code]0[/code], [code]1[/code], and [code]2[/code]."
-msgstr ""
+msgstr "Vi har tre tal i arrayen: [code]0[/code], [code]1[/code] och [code]2[/code]."
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "The loop extracts each of them sequentially and assigns it to the [code]number[/code] temporary variable. As the loop processes each number, the output will print [code]0[/code], then [code]1[/code], then [code]2[/code], each on a separate line."
-msgstr ""
+msgstr "Slingan hämtar varje tal i tur och ordning och tilldelar det till den tillfälliga variabeln [code]number[/code]. Allteftersom slingan bearbetar varje tal kommer utdata att skriva ut [code]0[/code], sedan [code]1[/code] och därefter [code]2[/code], vart och ett på en egen rad."
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "0, 1, and 2"
-msgstr ""
+msgstr "0, 1 och 2"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "1, 2, and 3"
-msgstr ""
+msgstr "1, 2 och 3"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:23
 msgid "0, 0, and 0"
-msgstr ""
+msgstr "0, 0 och 0"
 
 #. TRANSLATORS: Heading
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:38
 msgid "Making the turtle walk, with a loop"
-msgstr ""
+msgstr "Få sköldpaddan att gå med hjälp av en slinga"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:42
 msgid "In the previous lesson, you made a turtle walk along a path by writing [code]Vector2[/code] coordinates in an array."
-msgstr ""
+msgstr "I förra lektionen fick du en sköldpadda att gå längs en bana genom att skriva [code]Vector2[/code]-koordinater i en array."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:48
 msgid "It's a [code]for[/code] loop that makes the turtle walk along the path."
-msgstr ""
+msgstr "Det är en [code]for[/code]-slinga som får sköldpaddan att gå längs banan."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:49
 msgid "The loop works like this: for each coordinate in the array, it moves the turtle once to that cell."
-msgstr ""
+msgstr "Slingan fungerar så här: för varje koordinat i arrayen flyttar den sköldpaddan en gång till den cellen."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:54
 msgid "It's the same principle with unit selection."
-msgstr ""
+msgstr "Samma princip gäller när man väljer enheter."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:60
 msgid "For each coordinate in an array named [code]selected_units[/code], we check if there is a unit in that cell. If so, we select it."
-msgstr ""
+msgstr "För varje koordinat i en array med namnet [code]selected_units[/code] kontrollerar vi om det finns en enhet i den cellen. Om så är fallet markerar vi den."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:61
 msgid "In that case, we use an array, a loop, and a condition together."
-msgstr ""
+msgstr "I det fallet använder vi en array, en slinga och ett villkor tillsammans."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:73
 msgid "The code above uses several features you haven't learned yet:"
-msgstr ""
+msgstr "Koden ovan använder flera funktioner som du ännu inte har lärt dig:"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:74
 msgid ""
 "- In a condition, the [code]in[/code] keyword allows you to check if a value exists [i]in[/i] an array.\n"
 "- The array's [code]append()[/code] function appends a new value at the end of the array."
 msgstr ""
+"- I ett villkor kan du med nyckelordet [code]in[/code] kontrollera om ett värde finns [i]i[/i] en array.\n"
+"- Arrayens funktion [code]append()[/code] lägger till ett nytt värde i slutet av arrayen."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:75
 msgid "Notice the use of a period after the [code]selected_units[/code] variable, to call the [code]append()[/code] function. It's because this function exists only on arrays."
-msgstr ""
+msgstr "Lägg märke till att det finns en punkt efter variabeln [code]selected_units[/code] för att anropa funktionen [code]append()[/code]. Det beror på att den här funktionen endast finns för arrayer."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:76
 msgid "When functions exist only on a specific value type, you write a dot after the value to call the function on it."
-msgstr ""
+msgstr "När funktioner endast finns för en viss värdetyp skriver man en punkt efter värdet för att anropa funktionen på det."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:77
 msgid "We'll revisit those two features again in the following lessons."
-msgstr ""
+msgstr "Vi kommer att återkomma till dessa två funktioner i de kommande lektionerna."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 msgid "The beauty of loops is that they work regardless of the size of your arrays."
-msgstr ""
+msgstr "Det fina med loopar är att de fungerar oavsett hur stora dina arrayer är."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:84
 msgid "The code just works whether you have one or ten thousand units to select. It is all accomplished with only a couple lines of code."
-msgstr ""
+msgstr "Koden fungerar helt enkelt, oavsett om du har en eller tiotusen enheter att välja mellan. Allt sköts med bara ett par rader kod."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:85
 msgid "That's the power of computer programming."
-msgstr ""
+msgstr "Det är det som är kraften i datorprogrammering."
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:86
 msgid "In the following practices, you will use arrays combined with [code]for[/code] loops to achieve similar results."
-msgstr ""
+msgstr "I följande övningar kommer du att använda arrayer i kombination med [code]for[/code]-slingor för att uppnå liknande resultat."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 msgid "Move the robot along the path"
-msgstr ""
+msgstr "För roboten längs banan"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
