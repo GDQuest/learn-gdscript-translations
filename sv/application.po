@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-10-02 17:51+0000\n"
+"PO-Revision-Date: 2026-10-04 15:51+0000\n"
 "Last-Translator: Matias Särs <m7s@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/sv/>\n"
 "Language: sv\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.10.1.dev0\n"
 
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
@@ -135,7 +135,6 @@ msgstr "Y"
 
 #: course/lesson-14-multiplying/visuals/GraphExp.tscn
 #: course/lesson-14-multiplying/visuals/GraphLinear.tscn
-#, fuzzy
 msgid "Show Me"
 msgstr "Visa tips"
 
@@ -145,12 +144,10 @@ msgstr "Levla upp!"
 
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScale.tscn
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScaleVector.tscn
-#, fuzzy
 msgid "level_up()"
 msgstr "level_up()"
 
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScale.tscn
-#, fuzzy
 msgid ""
 "func level_up():\n"
 "\tscale.x += 0.2\n"
@@ -163,7 +160,6 @@ msgstr ""
 "\t# ..."
 
 #: course/lesson-16-2d-vectors/visuals/ExampleIncreaseCharacterScaleVector.tscn
-#, fuzzy
 msgid ""
 "func level_up():\n"
 "\tscale += Vector2(0.2, 0.2)\n"
@@ -954,7 +950,7 @@ msgstr "Lektionstitel"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn
 msgid "A/文 100%"
-msgstr ""
+msgstr "A/文 100%"
 
 #: ui/screens/course_outliner/CourseLessonList.tscn
 msgid "This course is 80% translated. Incomplete lessons will contain English text."
@@ -1535,9 +1531,8 @@ msgid "It looks like the take_damage function is missing; did you remove it?"
 msgstr "Det ser ut som ta_skada-funktionen saknas; tog du bort den?"
 
 #: course/lesson-14-multiplying/reducing_damage/TestReducingDamage.gd:108
-#, fuzzy
 msgid "It looks like amount isn't reduced by a percentage. Did you multiply it by a value less than 1?"
-msgstr "Det ser ut som att mängden inte minskas med en procentandel. Multiplicerar du det med ett värde mindre än 1?"
+msgstr "Det ser ut som att amount inte minskas med en procentandel. Multiplicerar du det med ett värde som är mindre än 1?"
 
 #: course/lesson-14-multiplying/reducing_damage/TestReducingDamage.gd:114
 msgid "The character did not take half damage despite being level 3. Did you multiply the amount by 0.5 to reduce it?"
@@ -1854,7 +1849,7 @@ msgstr "Använde append"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:15
 msgid "Completed Orders Contain All Elements"
-msgstr ""
+msgstr "Completed orders innehåller alla element"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:16
 msgid "Starting Data Unchanged"
@@ -1930,11 +1925,11 @@ msgstr "Rätt antal saker har valts"
 
 #: course/lesson-25-creating-dictionaries/adding-items/TestAddingItems.gd:16
 msgid "Add Item Function Works As Intended"
-msgstr ""
+msgstr "\"add_item\" funktionen fugerar som förväntat"
 
 #: course/lesson-25-creating-dictionaries/adding-items/TestAddingItems.gd:17
 msgid "Add Item Function Uses Addition"
-msgstr ""
+msgstr "Funktionen add_item använder addition"
 
 #: course/lesson-25-creating-dictionaries/adding-items/TestAddingItems.gd:30
 msgid "The amount of items isn't correct. Does each key have the correct value?"
@@ -1942,276 +1937,276 @@ msgstr "Antalet poster stämmer inte. Har varje nyckel rätt värde?"
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:17
 msgid "Inventory Has Correct Keys"
-msgstr ""
+msgstr "Inventory innehåller rätt nycklar"
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:18
 msgid "Inventory Has Correct Values"
-msgstr ""
+msgstr "Inventory har korrekta värden"
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:26
 msgid "The amount of items is not as expected. The inventory should have %s items but your inventory has %s."
-msgstr ""
+msgstr "Antalet föremål stämmer inte överens med förväntningarna. Inventory borde innehålla %s föremål, men din inventory innehåller %s."
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:29
 msgid "Are you missing any items?"
-msgstr ""
+msgstr "Saknar du några föremål?"
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:36
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:54
 msgid "The inventory doesn't contain all the required items. Make sure you have '%s' as keys in your inventory dictionary."
-msgstr ""
+msgstr "Inventory innehåller inte alla nödvändiga objekt. Se till att du har ”%s” som nycklar i din inventory."
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:59
 msgid "The values for one or more items aren't correct. You need %s healing hearts, %s gems, and %s sword."
-msgstr ""
+msgstr "Värdena för ett eller flera föremål stämmer inte. Du behöver %s helande hjärtan, %s ädelstenar och %s svärd."
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:11
 msgid "All Items Are Displayed"
-msgstr ""
+msgstr "Alla föremål visas"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:12
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:12
 msgid "Code Uses A For Loop"
-msgstr ""
+msgstr "Koden använder en for-slinga"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:19
 msgid "The number of items displayed does not match the number of items in the inventory. Did you display each item exactly once?"
-msgstr ""
+msgstr "Antalet visade föremål stämmer inte överens med antalet föremål i inventory. Har du visat varje objekt exakt en gång?"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:29
 msgid "The displayed items do not match the inventory variable's content. Did you call the display_item() function for each item in the inventory?"
-msgstr ""
+msgstr "De visade föremålen stämmer inte överens med innehållet i inventoryvariabeln. Har du anropat funktionen display_item() för varje föremål i inventory?"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:44
 msgid "Your code does not use a for loop to call display_item(). Please make sure you display each item inside the loop."
-msgstr ""
+msgstr "Din kod använder inte en for-slinga för att anropa display_item(). Se till att du visar varje objekt inuti slingan."
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:11
 msgid "All Units Are Displayed"
-msgstr ""
+msgstr "Alla enheter visas"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:19
 msgid "The number of units displayed does not match the number of units in the units dictionary. Did you place each unit exactly once?"
-msgstr ""
+msgstr "Antalet enheter som visas stämmer inte överens med antalet enheter i enhetslexikonet. Har du lagt in varje enhet exakt en gång?"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:29
 msgid "The displayed units do not match the units variable's content. Did you call the place_unit() function for each unit in the units dictionary?"
-msgstr ""
+msgstr "De visade enheterna stämmer inte överens med innehållet i variabeln units. Har du anropat funktionen place_unit() för varje enhet i lexikonet units?"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:43
 msgid "Your code does not use a for loop to call place_unit(). Please make sure you place each unit inside the loop."
-msgstr ""
+msgstr "Din kod använder inte en for-slinga för att anropa place_unit(). Se till att placera varje enhet inuti slingan."
 
 #: course/lesson-27-value-types/display-energy/TestDisplayingEnergy.gd:11
 msgid "Displayed Energy Matches Energy Value"
-msgstr ""
+msgstr "Den visade energin motsvarar energivärdet"
 
 #: course/lesson-27-value-types/display-energy/TestDisplayingEnergy.gd:17
 msgid "The energy variable is not an int anymore. Did you change the energy value?"
-msgstr ""
+msgstr "Energivariabeln är inte längre av typen int. Har du ändrat energivärdet?"
 
 #: course/lesson-27-value-types/display-energy/TestDisplayingEnergy.gd:21
 msgid "The value of the energy variable does not match the displayed text. Did you call the str() function?"
-msgstr ""
+msgstr "Värdet på energivariabeln stämmer inte överens med den text som visas. Har du använt funktionen str()?"
 
 #: course/lesson-27-value-types/player-input/TestPlayerInput.gd:13
 msgid "Item Count Is Int"
-msgstr ""
+msgstr "item_count är int"
 
 #: course/lesson-27-value-types/player-input/TestPlayerInput.gd:14
 msgid "Item Count Matches Player Input"
-msgstr ""
+msgstr "item_count stämmer överens med spelarens inmatning"
 
 #: course/lesson-27-value-types/player-input/TestPlayerInput.gd:19
 msgid "Item count is not of type int. Did you use the int() function to convert the player_input value?"
-msgstr ""
+msgstr "item_count är inte av typen int. Använde du funktionen int() för att konvertera värdet i player_input?"
 
 #: course/lesson-27-value-types/player-input/TestPlayerInput.gd:27
 msgid "Item count is not of type int. We can't compare it to the player_input value."
-msgstr ""
+msgstr "item_count är inte av typen int. Vi kan inte jämföra det med värdet player_input."
 
 #: course/lesson-27-value-types/player-input/TestPlayerInput.gd:31
 msgid "Player input is not of its original type anymore. Did you change its value?"
-msgstr ""
+msgstr "Player input har inte längre sin ursprungliga typ. Har du ändrat dess värde?"
 
 #: course/lesson-28-specifying-types/fix-hints/TestFixHints.gd:42
 msgid "Vector Has Correct Hint"
-msgstr ""
+msgstr "Vector har rätt typangivelse"
 
 #: course/lesson-28-specifying-types/fix-hints/TestFixHints.gd:43
 msgid "Text Has Correct Hint"
-msgstr ""
+msgstr "Texten har rätt typangivelse"
 
 #: course/lesson-28-specifying-types/fix-hints/TestFixHints.gd:44
 msgid "Whole Number Has Correct Hint"
-msgstr ""
+msgstr "Heltalet har rätt typangivelse"
 
 #: course/lesson-28-specifying-types/fix-hints/TestFixHints.gd:45
 msgid "Decimal Number Has Correct Hint"
-msgstr ""
+msgstr "Decimaltalet har rätt typangivelse"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:80
 msgid "Whole Number Has Correct Value"
-msgstr ""
+msgstr "Heltalet har rätt värde"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:81
 msgid "Text Has Correct Value"
-msgstr ""
+msgstr "Texten har rätt värde"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:82
 msgid "Vector Has Correct Value"
-msgstr ""
+msgstr "Vektorn har rätt värde"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:83
 msgid "Decimal Number Has Correct Value"
-msgstr ""
+msgstr "Decimaltalet har rätt värde"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:88
 msgid "It looks like you changed the type hint of 'whole_number'. The type should stay 'int'. Only change the value after the '=' sign."
-msgstr ""
+msgstr "Det verkar som om du har ändrat typangivelsen för ”whole_number”. Typen ska vara ”int”. Ändra endast värdet efter '='-tecknet."
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:90
 msgid "The value of 'whole_number' does not match its type hint (int). Change the value after '=' to a whole number with no decimal point, for example: 4"
-msgstr ""
+msgstr "Värdet på ”whole_number” stämmer inte överens med typangivelsen (int). Ändra värdet efter ”=” till ett heltal utan decimaler, till exempel: 4"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:96
 msgid "It looks like you changed the type hint of 'text'. The type should stay 'String'. Only change the value after the '=' sign."
-msgstr ""
+msgstr "Det verkar som om du har ändrat typangivelsen för ”text”. Typen ska vara ”String”. Ändra endast värdet efter tecknet ”=”."
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:98
 msgid "The value of 'text' does not match its type hint (String). Change the value after '=' to a text string surrounded by quotes, for example: \"Hello, world!\""
-msgstr ""
+msgstr "Värdet för ”text” stämmer inte överens med typangivelsen (String). Ändra värdet efter ”=” till en textsträng omgiven av citattecken, till exempel: ”Hello, world!”"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:104
 msgid "It looks like you changed the type hint of 'vector'. The type should stay 'Vector2'. Only change the value after the '=' sign."
-msgstr ""
+msgstr "Det verkar som om du har ändrat typangivelsen för ”vector”. Typen ska vara ”Vector2”. Ändra endast värdet efter tecknet ”=”."
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:106
 msgid "The value of 'vector' does not match its type hint (Vector2). Change the value after '=' to a Vector2, for example: Vector2(1, 1)"
-msgstr ""
+msgstr "Värdet för ”vector” stämmer inte överens med typangivelsen (Vector2). Ändra värdet efter ”=” till en Vector2, till exempel: Vector2(1, 1)"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:112
 msgid "It looks like you changed the type hint of 'decimal_number'. The type should stay 'float'. Only change the value after the '=' sign."
-msgstr ""
+msgstr "Det verkar som om du har ändrat typangivelsen för ”decimal_number”. Typen ska vara ”float”. Ändra endast värdet efter ”=”-tecknet."
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:114
 msgid "The value of 'decimal_number' does not match its type hint (float). Change the value after '=' to a decimal number with a decimal point, for example: 3.14"
-msgstr ""
+msgstr "Värdet för ”decimal_number” stämmer inte överens med typangivelsen (float). Ändra värdet efter ”=” till ett decimaltal med decimalpunkt, till exempel: 3.14"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/make-upright/TestsMakeRobotUpright.gd:6
 msgid "Character Is Upright"
-msgstr ""
+msgstr "Karaktären vänder upprätt"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/make-upright/TestsMakeRobotUpright.gd:12
 msgid "The robot is turned counter-clockwise! Did you turn it less than 0.5 radians?"
-msgstr ""
+msgstr "Roboten har vridits moturs! Har du vridit den mindre än 0.5 radianer?"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/make-upright/TestsMakeRobotUpright.gd:14
 msgid "The robot is turned too far clockwise! Did you turn it more than 0.5 radians?"
-msgstr ""
+msgstr "Roboten är vriden för långt medurs! Har du vridit den mer än 0,5 radianer?"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/make-visible/TestsMakeCharacterVisible.gd:5
 msgid "Character Is Visible"
-msgstr ""
+msgstr "Karaktären syns"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/make-visible/TestsMakeCharacterVisible.gd:11
 msgid "The character is still invisible! Did you call the show() function?"
-msgstr ""
+msgstr "Karaktären är fortfarande osynlig! Har du anropat funktionen show()?"
 
 #: course/lesson-4-drawing-a-rectangle/drawing_bigger_rectangle/TestsDrawingBiggerRectangle.gd:11
 msgid "Draw Rectangle Of 220 By 260"
-msgstr ""
+msgstr "Rita en rektangel som är 220 × 260"
 
 #: course/lesson-4-drawing-a-rectangle/drawing_bigger_rectangle/TestsDrawingBiggerRectangle.gd:16
 #: course/lesson-4-drawing-a-rectangle/drawing_rectangle/TestsDrawingRectangle.gd:16
 #: course/lesson-4-drawing-a-rectangle/turning_right/TestsTurningRight.gd:16
 msgid "Nothing drawn. Did you call move_forward()?"
-msgstr ""
+msgstr "Inget har ritats. Har du anropat move_forward()?"
 
 #: course/lesson-4-drawing-a-rectangle/drawing_bigger_rectangle/TestsDrawingBiggerRectangle.gd:19
 msgid "The drawn shape is not a rectangle with a width of 220 and a length of 260."
-msgstr ""
+msgstr "Den ritade figuren är inte en rektangel med bredden 220 och längden 260."
 
 #: course/lesson-4-drawing-a-rectangle/drawing_rectangle/TestsDrawingRectangle.gd:11
 msgid "Draw Rectangle Of 200 By 120"
-msgstr ""
+msgstr "Rita en rektangel som är 200 × 120"
 
 #: course/lesson-4-drawing-a-rectangle/drawing_rectangle/TestsDrawingRectangle.gd:19
 msgid "The drawn shape is not a rectangle with a width of 200 and a length of 120."
-msgstr ""
+msgstr "Den ritade figuren är inte en rektangel med bredden 200 och längden 120."
 
 #: course/lesson-4-drawing-a-rectangle/turning_right/TestsTurningRight.gd:11
 msgid "Draw Corner Of 200 By 200"
-msgstr ""
+msgstr "Rita ett hörn som är 200 × 200"
 
 #: course/lesson-4-drawing-a-rectangle/turning_right/TestsTurningRight.gd:19
 msgid "The drawn shape is not a corner connected by two lines of length 200."
-msgstr ""
+msgstr "Den ritade figuren är inte ett hörn som förbinds av två linjer med längden 200."
 
 #: course/lesson-5-your-first-function/TestsDrawingSquare.gd:11
 msgid "Draw Square Of 200 Pixels"
-msgstr ""
+msgstr "Rita en kvadrat med längden 200 pixlar"
 
 #: course/lesson-5-your-first-function/TestsDrawingSquare.gd:18
 msgid "Nothing drawn. Did you not call move_forward()?"
-msgstr ""
+msgstr "Inget har ritats. Anropade du inte move_forward()?"
 
 #: course/lesson-5-your-first-function/TestsDrawingSquare.gd:28
 msgid "The drawn shape is not a square of length 200 pixels."
-msgstr ""
+msgstr "Den ritade figuren är inte en kvadrat med sidlängden 200 pixlar."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:19
 msgid "Draw Three Squares Of 200 Pixels"
-msgstr ""
+msgstr "Rita tre kvadrater med sidlängden 200 pixlar"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:26
 msgid "Reuse The draw_square() Function"
-msgstr ""
+msgstr "Återanvänd funktionen draw_square()"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:34
 msgid "You need to use the predefined draw_square() function inside draw_three_squares() in this exercise. This avoids duplicating the turtle instructions by hand."
-msgstr ""
+msgstr "I den här övningen måste du använda den fördefinierade funktionen draw_square() inuti funktionen draw_three_squares(). På så sätt slipper du skriva in sköldpaddans kommandon manuellt flera gånger."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:39
 msgid "You need to define a function named draw_three_squares()."
-msgstr ""
+msgstr "Du måste definiera en funktion med namnet draw_three_squares()."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:57
 msgid "Nothing drawn. Did you not call draw_square()?"
-msgstr ""
+msgstr "Inget har ritats. Anropade du inte draw_square()?"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:60
 msgid "You only drew one square. You need to draw three."
-msgstr ""
+msgstr "Du har bara ritat en kvadrat. Du måste rita tre."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:62
 msgid "You need to draw three squares."
-msgstr ""
+msgstr "Du måste rita tre kvadrater."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:65
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:67
 msgid "You drew more than three squares. You need to draw only three!"
-msgstr ""
+msgstr "Du har ritat fler än tre kvadrater. Du får bara rita tre!"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:73
 msgid "Shape3D number %s has too few corners! Did you change the draw_square() function?"
-msgstr ""
+msgstr "Shape3D-objektet med numret %s har för få hörn! Har du ändrat funktionen draw_square()?"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:80
 msgid "Shape3D number %s has too many corners! Did you change the draw_square() function?"
-msgstr ""
+msgstr "Shape3D-objektet med numret %s har för många hörn! Har du ändrat funktionen draw_square()?"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:87
 msgid "Shape3D number %s is not a square of length 200 pixels. Did you change the draw_square() function?"
-msgstr ""
+msgstr "Shape3D-objektet med numret %s är inte en kvadrat med sidor på 200 pixlar. Har du ändrat funktionen draw_square()?"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:99
 msgid "The squares should not overlap. Did you move the turtle between drawing each square?"
-msgstr ""
+msgstr "Rutorna får inte överlappa varandra. Flyttade du sköldpaddan mellan varje kvadrat du ritade?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:14
 msgid "Draw Corners Of Varying Lengths"
-msgstr ""
+msgstr "Rita hörn med olika längder"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:19
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:19
@@ -2220,7 +2215,7 @@ msgstr ""
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:41
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:56
 msgid "The turtle did not draw anything. Make sure your function calls move_forward(length) to move the turtle."
-msgstr ""
+msgstr "Sköldpaddan ritade ingenting. Se till att din funktion anropar move_forward(length) för att flytta sköldpaddan."
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:21
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:21
@@ -2229,7 +2224,7 @@ msgstr ""
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:43
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:58
 msgid "The turtle drew fewer than 2 shapes. Make sure your function is repeatable."
-msgstr ""
+msgstr "Sköldpaddan ritade färre än två figurer. Se till att din funktion går att upprepa."
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:23
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:23
@@ -2238,173 +2233,173 @@ msgstr ""
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:45
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:60
 msgid "The turtle drew more than 2 shapes. Make sure your function only draws one shape."
-msgstr ""
+msgstr "Sköldpaddan ritade fler än två figurer. Se till att din funktion bara ritar en figur."
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:28
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:28
 msgid "The drawn shape has too few points. Did you call move_forward() less than 2 times?"
-msgstr ""
+msgstr "Den ritade figuren har för få punkter. Har du anropat move_forward() färre än två gånger?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:30
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:30
 msgid "The drawn shape has too many points. Did you call move_forward() more than 2 times?"
-msgstr ""
+msgstr "Den ritade figuren har för många punkter. Har du anropat move_forward() fler än två gånger?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:32
 msgid "The drawn shape doesn't have the expected size. Did you use the length parameter?"
-msgstr ""
+msgstr "Den ritade figuren har inte den förväntade storleken. Använde du längdparametern?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:14
 msgid "Draw Corners Of Varying Sizes And Angles"
-msgstr ""
+msgstr "Rita hörn i olika storlekar och vinklar"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:32
 msgid "The drawn corner doesn't match the expected corner. Are you not using the angle parameter in your code?"
-msgstr ""
+msgstr "Det ritade hörnet stämmer inte överens med det förväntade hörnet. Använder du inte vinkelparametern i din kod?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_rectangles/TestsDrawingRectangles.gd:18
 msgid "Draw Rectangles Of Varying Sizes"
-msgstr ""
+msgstr "Rita rektanglar i olika storlekar"
 
 #: course/lesson-6-multiple-function-parameters/drawing_rectangles/TestsDrawingRectangles.gd:32
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:68
 msgid "The drawn shape has too few points. Did you call move_forward() less than 4 times?"
-msgstr ""
+msgstr "Den ritade figuren har för få punkter. Har du anropat move_forward() färre än fyra gånger?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_rectangles/TestsDrawingRectangles.gd:34
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:64
 msgid "The drawn shape has too many points. Did you call move_forward() more than 4 times?"
-msgstr ""
+msgstr "Den ritade figuren har för många punkter. Har du anropat move_forward() fler än fyra gånger?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_rectangles/TestsDrawingRectangles.gd:37
 msgid "The length and height are inverted. Did you swap the length and height function arguments?"
-msgstr ""
+msgstr "Längden och höjden är ombytta. Har du bytt plats på argumenten i funktionerna för längd och höjd?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_rectangles/TestsDrawingRectangles.gd:39
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:31
 msgid "The drawn shapes don't have the expected length and height. Did you forget to use the length and height parameter?"
-msgstr ""
+msgstr "De ritade figurerna har inte den förväntade längden och höjden. Glömde du att ange parametrarna för längd och höjd?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:14
 msgid "Turtle Ends Facing Towards The Right"
-msgstr ""
+msgstr "Sköldpaddan avslutar med att vara vänd åt höger"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:15
 msgid "Turtle Starts Each Square Facing Towards The Right"
-msgstr ""
+msgstr "Sköldpaddan börjar varje kvadrat med vänd åt höger"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:16
 msgid "Draw Squares Of Varying Sizes"
-msgstr ""
+msgstr "Rita kvadrater i olika storlekar"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:35
 msgid "The turtle should turn four times to draw a square so that it always starts drawing the squares in the same direction. Did you call turn_right() four times?"
-msgstr ""
+msgstr "Sköldpaddan ska vända sig fyra gånger för att rita en kvadrat, så att den alltid börjar rita kvadraterna i samma riktning. Anropade du turn_right() fyra gånger?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:48
 msgid "The turtle should be facing towards the right to draw squares in the same direction every time. Did you call turn_right(90) four times in your function?"
-msgstr ""
+msgstr "Sköldpaddan ska vara vänd åt höger för att rita rutor i samma riktning varje gång. Har du anropat turn_right(90) fyra gånger i din funktion?"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:72
 msgid "The shape is not a square or not turned in the expected direction. Did you use 90 degree angles when calling turn_right()?"
-msgstr ""
+msgstr "Figuren är inte en kvadrat eller så är den inte vänd i den förväntade riktningen. Använde du 90-gradersvinklar när du anropade turn_right()?"
 
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:11
 msgid "Rectangle Starts At 120 By 100"
-msgstr ""
+msgstr "Rektangeln börjar med måtten 120 × 100"
 
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:12
 msgid "Rectangle Size Is 200 By 120"
-msgstr ""
+msgstr "Rektangelns storlek är 200 × 120"
 
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:17
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:29
 msgid "We didn't find any drawn rectangles. Did you forget to call draw_rectangle()?"
-msgstr ""
+msgstr "Vi hittade inga ritade rektanglar. Glömde du att anropa draw_rectangle()?"
 
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:23
 msgid "The rectangle doesn't start at position (120, 100). Did you not set the position right?"
-msgstr ""
+msgstr "Rektangeln börjar inte vid positionen (120, 100). Har du inte angett rätt position?"
 
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:42
 msgid "First Shape Is At 100 By 100"
-msgstr ""
+msgstr "Den första figuren är 100 × 100"
 
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:64
 msgid "No shape drawn. Did you forget to call draw_rectangle()?"
-msgstr ""
+msgstr "Ingen figur har ritats. Glömde du att anropa draw_rectangle()?"
 
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:67
 msgid "The first square should be drawn at (100, 100). Instead, you drew it at %s."
-msgstr ""
+msgstr "Den första rutan ska ritas vid (100, 100). Istället ritade du den vid %s."
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:15
 msgid "Has Health Variable"
-msgstr ""
+msgstr "Har variabeln ”Health”"
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:16
 msgid "Health Has Value Of 100"
-msgstr ""
+msgstr "Health har värdet 100"
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:21
 msgid "The health variable doesn't exist. Did you define it with the var keyword?"
-msgstr ""
+msgstr "Variabeln ”health” finns inte. Har du definierat den med nyckelordet ”var”?"
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:27
 msgid "Health variable doesn't exist, can't test if it has a value of 100."
-msgstr ""
+msgstr "Variabeln ”health” finns inte, det går inte att kontrollera om den har värdet 100."
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:31
 msgid "Health's value is a text string. It should be a number. You need to remove quotes around the value."
-msgstr ""
+msgstr "Värdet för health är en textsträng. Det ska vara ett tal. Du måste ta bort citattecknen runt värdet."
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:33
 msgid "Health's value should be a whole number. Instead it's a %s."
-msgstr ""
+msgstr "Värdet för health bör vara ett heltal. Istället är det ett %s."
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:36
 msgid "Health variable's value is %s; It should be 100."
-msgstr ""
+msgstr "Värdet för variabeln health är %s; det borde vara 100."
 
 #: course/lesson-9-adding-and-subtracting/healing/TestHealingRobot.gd:11
 msgid "Robot Heals The Right Amount"
-msgstr ""
+msgstr "Roboten helar rätt mängd"
 
 #: course/lesson-9-adding-and-subtracting/healing/TestHealingRobot.gd:12
 msgid "Heal Function Uses Addition"
-msgstr ""
+msgstr "Funktionen heal använder addition"
 
 #: course/lesson-9-adding-and-subtracting/healing/TestHealingRobot.gd:17
 msgid "The robot's health decreased instead of increasing. Did you add the amount to health?"
-msgstr ""
+msgstr "Robotens hälsa minskade istället för att öka. Lade du till värdet till health?"
 
 #: course/lesson-9-adding-and-subtracting/healing/TestHealingRobot.gd:20
 msgid "The robot didn't heal as expected. It has %s, but it should have 100 health."
-msgstr ""
+msgstr "Roboten återhämtade sig inte som förväntat. Den har %s hälsa, men borde ha 100 hälsa."
 
 #: course/lesson-9-adding-and-subtracting/healing/TestHealingRobot.gd:29
 msgid "It doesn't look like you're adding anything to health."
-msgstr ""
+msgstr "Det verkar inte som om du adderar något till health."
 
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:13
 msgid "Robot Takes The Right Amount Of Damage"
-msgstr ""
+msgstr "Roboten tar rätt mängd skada"
 
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:14
 msgid "Subtract Amount From Health"
-msgstr ""
+msgstr "Subtrahera amount från health"
 
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:19
 msgid "The health goes above 100 when we damage the robot. Did you subract amount from health?"
-msgstr ""
+msgstr "Health stiger över 100 när vi skadar roboten. Subtraherar du amount från health?"
 
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:22
 msgid "The robot didn't take as much damage as expected. It has %s health, but it should have 50 health after taking damage."
-msgstr ""
+msgstr "Roboten fick inte så mycket skada som förväntat. Den har %s health, men borde ha 50 health efter att ha tagit skada."
 
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:51
 msgid "It doesn't look like you're subtracting amount from health."
-msgstr ""
+msgstr "Det verkar inte som om du subtraherar amount från health."
 
 #: ui/UILesson.gd:308
 msgid "Learn More"
@@ -2415,12 +2410,16 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
 
 #: ui/UILesson.gd:379
 msgid ""
 "\n"
 "[hr]\n"
 msgstr ""
+"\n"
+"[hr]\n"
 
 #: ui/UINavigator.gd:439
 msgid "(no previous history)"
@@ -2435,18 +2434,16 @@ msgid "Validating Your Code..."
 msgstr "Validerar din kod..."
 
 #: ui/UIPractice.gd:379
-#, fuzzy
 msgid "The function '%s' calls itself, this creates an infinite loop"
 msgstr "Funktionen `%s` kallar på sig själv, vilket skapar en oändlig loop"
 
 #: ui/UIPractice.gd:390
-#, fuzzy
 msgid "You have a loop that runs forever without a break statement. This would freeze the app."
-msgstr "Du har en while-loop som körs för alltid (while true) utan ett \"break\" block. Detta kommer att frysa applikationen."
+msgstr "Du har en slinga som körs i all oändlighet utan något break-uttryck. Detta kommer få appen att hänga sig."
 
 #: ui/UIPractice.gd:433
 msgid "You typed \"%s\"; did you mean \"%s\"?"
-msgstr ""
+msgstr "Du skrev ”%s”; menade du ”%s”?"
 
 #: ui/UIPractice.gd:450
 msgid "Running Your Code..."
@@ -2462,33 +2459,33 @@ msgstr "Kör tester..."
 
 #: ui/components/BreadCrumbs.gd:66
 msgid " > "
-msgstr ""
+msgstr " > "
 
 #: ui/components/popups/ReportFormPopup.gd:52
 msgid "Select the kind of issue and describe it in the box below, then click \"Send report\" to open the contact page on our website with the report prefilled."
-msgstr ""
+msgstr "Välj typ av problem och beskriv det i rutan nedan. Klicka sedan på ”Skicka rapport” för att öppna kontaktsidan på vår webbplats där rapporten redan är ifylld."
 
 #: ui/components/popups/ReportFormPopup.gd:56
 msgid "For questions and help with learning, [url=%s]join the community on Discord[/url]."
-msgstr ""
+msgstr "Om du har frågor eller behöver hjälp med att lära dig mer, [url=%s]gå med i gemenskapen på Discord[/url]."
 
 #: ui/components/popups/ReportFormPopup.gd:129
 msgid "Translations are unofficial and maintained by the community. If you'd like to help, [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]learn how to help translate the app[/url]."
-msgstr ""
+msgstr "Översättningarna är inofficiella och underhålls av användargemenskapen. Om du vill hjälpa till kan du [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]läsa mer om hur du kan hjälpa till att översätta appen[/url]."
 
 #: ui/components/popups/SettingsPopup.gd:144
 msgid "{percentage}% of text translated. {completed}/{total} lessons fully translated."
-msgstr ""
+msgstr "{percentage} % av texten är översatt. {completed}/{total} lektioner är helt översatta."
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:73
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:86
 #: ui/screens/course_outliner/CourseLessonDetails.gd:115
 #: ui/screens/course_outliner/CourseLessonDetails.gd:117
 msgid "Open Anyway"
-msgstr ""
+msgstr "Öppna ändå"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:114
 msgid "Open Lesson"
@@ -2500,7 +2497,7 @@ msgstr "Fortsätt lektionen"
 
 #: ui/screens/course_outliner/CourseLessonList.gd:33
 msgid "This course is {percentage}% translated. Incomplete lessons will contain English text."
-msgstr ""
+msgstr "Denna kurs är {percentage} % översatt. Ofullständiga lektioner kommer att innehålla engelsk text."
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:28
 msgid "(select all that apply)"
@@ -2531,13 +2528,15 @@ msgid ""
 "You've used the provided solution.\n"
 "This practice will not count towards your course progress."
 msgstr ""
+"Du har använt den angivna lösningen.\n"
+"Denna övning räknas inte in i dina kursresultat."
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:52
 msgid "CONTINUE"
 msgstr "FORTSÄTT"
 
 msgid "Learn to Code From Zero with Godot"
-msgstr ""
+msgstr "Lär dig att programmera från grunden med Godot"
 
 #~ msgid "in"
 #~ msgstr "i"
