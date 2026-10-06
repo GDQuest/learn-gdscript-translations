@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-10-05 08:30+0000\n"
+"PO-Revision-Date: 2026-10-06 16:51+0000\n"
 "Last-Translator: Matias Särs <m7s@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/sv/>\n"
 "Language: sv\n"
@@ -40,9 +40,8 @@ msgstr "Berätta för datorn vad den ska göra"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
-#, fuzzy
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"]instructions[/glossary] that tell a computer how to perform a task."
-msgstr "Att programmera är att skriva exakta instruktioner som berättar för datorn hur den ska göra en uppgift."
+msgstr "Programmering är processen att skriva exakta [glossary term=\"instructions\"]instruktioner[/glossary] som talar om för en dator hur den ska utföra en uppgift."
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:10
 msgid "A game's instructions are, for example: moving a character, drawing a life bar, or playing a sound."
@@ -53,9 +52,8 @@ msgid "To do any of that, you need to learn a [b]programming language[/b]: a spe
 msgstr "För att kunna göra något av det, behöver du lära dig ett [b]programmeringsspråk[/b]: ett specialiserat språk för att berätta för datorn vad den ska göra."
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:23
-#, fuzzy
 msgid "Programming languages are different from natural ones like English or Spanish. The computer does not think. Unlike us, it can't [i]interpret[/i] what you tell it."
-msgstr "Programmeringsspråk är annorlunda en naturliga språk som svenska eller engelska. Datorer tänker inte. I motsats till oss kan datorer inte [i]tolka[/i] det du berättar åt den."
+msgstr "Programmeringsspråk skiljer sig från naturliga språk som engelska eller spanska. Datorn tänker inte. Till skillnad från oss kan den inte [i]tolka[/i] vad du säger till den."
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:24
 msgid "You can't tell it something vague like \"draw a circle.\""
@@ -248,9 +246,8 @@ msgid "What and how you'll learn"
 msgstr "Vad och hur du lär dig"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:110
-#, fuzzy
 msgid "In this free course, you will learn the foundations you need to start coding things like these:"
-msgstr "I den här gratiskursen kommer du lära dig grunderna för att koda saker som dessa:"
+msgstr "I den här kostnadsfria kursen lär du dig de grunder du behöver för att börja programmera saker som dessa:"
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:128
 msgid "Along the way, we'll teach you:"
@@ -344,7 +341,6 @@ msgid "Your First Error"
 msgstr "Ditt första felmeddelande"
 
 #: course/lesson-2-your-first-error/lesson.bbcode:13
-#, fuzzy
 msgid "When you program, you are bound to run into errors. Tons of them."
 msgstr "När du programmerar kommer du få felmeddelanden. Mängder av dem."
 
@@ -395,15 +391,13 @@ msgstr "I slutändan vill du åtgärda alla fel i ditt program. Att förstå vad
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-2-your-first-error/lesson.bbcode:31
-#, fuzzy
 msgid "Are error messages a good or a bad thing in code?"
 msgstr "Är felmeddelanden bra eller dåliga?"
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-2-your-first-error/lesson.bbcode:31
-#, fuzzy
 msgid "Yes, error messages are here to help you!"
-msgstr "Ja, felmeddelanden är här för att hjälpa dig!"
+msgstr "Ja, felmeddelandena är till för att hjälpa dig!"
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-2-your-first-error/lesson.bbcode:31
@@ -412,9 +406,8 @@ msgstr "Var uppmärksam på dem och gör ditt bästa för att läsa dem och för
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-2-your-first-error/lesson.bbcode:31
-#, fuzzy
 msgid "They're bad: error messages are always bad."
-msgstr "De är dåliga: fel är alltid dåliga."
+msgstr "De är dåliga: felmeddelanden är alltid dåliga."
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-2-your-first-error/lesson.bbcode:31
@@ -438,16 +431,14 @@ msgstr "Den här koden är felaktig och kommer ge ett felmeddelande när du kör
 #. TRANSLATORS: Practice goal
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "The code defines an empty [glossary term=\"function\"]function[/glossary] named [code]this_code_is_wrong[/code]."
-msgstr "Koden består av en tom funktion som heter [code]this_code_is_wrong[/code]."
+msgstr "Koden definierar en tom [glossary term=\"function\"]funktion[/glossary] med namnet [code]this_code_is_wrong[/code]."
 
 #. TRANSLATORS: Practice goal
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "To work, the function should use the [glossary term=\"return\"]return[/glossary] keyword. But this keyword is currently inside a comment, which the computer ignores."
-msgstr "För att fungera borde funktionen använda [code]return[/code] kommandot. Men just nu finns kommandot i en kommentar, som datorn ignorerar."
+msgstr "För att fungera bör funktionen använda nyckelordet [glossary term=\"return\"]return[/glossary]. Men detta nyckelord finns för närvarande inbäddat i en kommentar, som datorn ignorerar."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-2-your-first-error/lesson.bbcode:41
@@ -489,7 +480,6 @@ msgstr "Varje programmeringsspråk kommer med en mängd funktioner skapade av an
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:9
-#, fuzzy
 msgid "We call a bundle of code created by fellow developers a [glossary term=\"library\"]library[/glossary]."
 msgstr "Vi kallar ett kodpaket skapat av andra utvecklare för ett [i]bibliotek[/i]."
 
@@ -512,15 +502,13 @@ msgstr "När du kodar använder du alltid mycket kod från utvecklare som kom f�
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:18
-#, fuzzy
 msgid "In a moment, you'll write your first code. You'll use [glossary term=\"functions\"]functions[/glossary] created by the Godot developers."
-msgstr "Om ett ögonblick kommer du att skriva din första kod. Du kommer att använda [i]funktioner[/i] skapade av Godot-utvecklarna."
+msgstr "Om en stund ska du skriva din första kod. Du kommer att använda [glossary term=\"functions\"]funktioner[/glossary] som skapats av Godot-utvecklarna."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:19
-#, fuzzy
 msgid "A function is a list of [glossary term=\"instructions\"]instructions[/glossary] with an exact name. We can tell the computer to execute all the instructions in sequence with that name."
-msgstr "En funktion är en lista med instruktioner med ett exakt namn. Med det namnet kan vi instruera datorn att utföra alla instruktioner i listan i tur och ordning."
+msgstr "En funktion är en lista med [glossary term=\"instructions\"]instruktioner[/glossary] som har ett specifikt namn. Vi kan be datorn att utföra alla instruktionerna i den ordningen med det namnet."
 
 #. TRANSLATORS: Heading
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:21
@@ -607,15 +595,13 @@ msgstr "Funktionsargument"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:59
-#, fuzzy
 msgid "We use parentheses to call functions because you can give the function [glossary term=\"arguments\"]arguments[/glossary] inside the parentheses when calling it."
-msgstr "Vi använder parenteser för att anropa funktioner eftersom du kan ge funktionen [i]argument[/i] innanför parentesen när du anropar den."
+msgstr "Vi använder parenteser för att anropa funktioner eftersom man kan ange [glossary term=\"arguments\"]argument[/glossary] inom parenteserna när man anropar funktionen."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:60
-#, fuzzy
 msgid "Here's a [glossary term=\"sprite\"]sprite[/glossary] standing straight. If we call the [code]rotate(0.3)[/code] function, the character [i]sprite[/i] turns by 0.3 radians."
-msgstr "Här är en [i]sprite[/i] som står rak. Om vi anropar funktionen [code]rotate(0.3)[/code] vänds karaktären [i]sprite[/i] med 0,3 enheter."
+msgstr "Här är en [glossary term=\"sprite\"]sprite[/glossary] som står rakt upp. Om vi anropar funktionen [code]rotate(0.3)[/code], roterar karaktären [i]sprite[/i] 0.3 radianer."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:77
 msgid "The [code]0.3[/code] part between the parentheses is the function's [i]argument[/i]."
@@ -649,9 +635,8 @@ msgstr "Vad är radianer?"
 #. TRANSLATORS: Note content
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:78
-#, fuzzy
 msgid "The value of [code]0.3[/code] is an angle in [glossary term=\"radians\"]radians[/glossary]. In daily life, we're used to measuring angles in degrees. The radian is another scale commonly used in video games and math."
-msgstr "Värdet på [code]0.3[/code] är en vinkel i [i]radianer[/i]. I det dagliga livet är vi vana vid att mäta vinklar i grader. Radianen är en annan skala som ofta används i videospel och matematik."
+msgstr "Värdet [code]0.3[/code] är en vinkel i [glossary term=\"radians\"]radianer[/glossary]. Till vardags är vi vana vid att mäta vinklar i grader. Radianen är en annan måttenhet som ofta används i videospel och matematik."
 
 #. TRANSLATORS: Note content
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:79
@@ -695,9 +680,8 @@ msgstr "Båda svaren var rätt! Tekniskt sett anropar koden funktionen [code]sho
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
-#, fuzzy
 msgid "It calls the function named \"show\"."
-msgstr "Den anropar funktionen som heter \"show\"."
+msgstr "Den anropar funktionen med namnet ”show”."
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:95
@@ -705,9 +689,8 @@ msgid "It makes the entity (like a game character or a sprite) visible."
 msgstr "Det gör entiteten (till exempel en spelkaraktär eller en sprite) synlig."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:108
-#, fuzzy
 msgid "Another example: With the [code]move_local_x()[/code] function, you can move the character to its left and right. The function takes one argument: a number of pixels to offset the entity."
-msgstr "Ett annat exempel: Med funktionen [code]move_local_x()[/code] kan du flytta karaktären till vänster och höger. Funktionen tar ett argument: ett antal pixlar för att förskjuta entiteten."
+msgstr "Ett annat exempel: Med funktionen [code]move_local_x()[/code] kan du flytta karaktären åt vänster och höger. Funktionen tar ett argument: antalet pixlar som entiteten ska förskjutas."
 
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:109
 msgid "The complementary function [code]move_local_y()[/code] makes the character move up and down."
@@ -819,9 +802,8 @@ msgstr "Roboten är sned. Hjälp den att räta upp sig med ett funktionsanrop."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
-#, fuzzy
 msgid "You need to use the rotate() function, and give the proper arguments."
-msgstr "I tidigare lektioner använde du funktionen [code]rotate()[/code] och gav den en [i]parameter[/i]."
+msgstr "Du måste använda funktionen rotate() och ange rätt argument."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-3-standing-on-shoulders-of-giants/lesson.bbcode:146
@@ -854,22 +836,19 @@ msgid "We present you: the turtle! We created the turtle to teach you how to cal
 msgstr "Låt oss presentera: sköldpaddan! Vi skapade sköldpaddan för att lära dig hur du anropar funktioner."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:13
-#, fuzzy
 msgid "The turtle is a little machine that moves forward, turns, and draws lines along its path."
-msgstr "Sköldpaddan är en liten maskin som rör sig framåt, vänder och ritar linjer längs sin väg."
+msgstr "Sköldpaddan är en liten maskin som rör sig framåt, svänger och ritar linjer längs sin väg."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:14
-#, fuzzy
 msgid "To make it draw, you give it a list of [glossary term=\"instructions\"]instructions[/glossary]: on each code line, you call one specific function."
-msgstr "För att få den att rita ger du den en lista med instruktioner: på varje kodrad anropar du en specifik funktion."
+msgstr "För att få programmet att rita ger du det en lista med [glossary term=\"instructions\"]instruktioner[/glossary]: på varje kodrad anropar du en specifik funktion."
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:15
 msgid "We prepared several functions for you:"
 msgstr "Vi har förberett flera funktioner åt dig:"
 
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:16
-#, fuzzy
 msgid ""
 "- [code]move_forward(pixels)[/code] makes the turtle move forward over a given distance in [i]pixels[/i].\n"
 "- [code]turn_right(degrees)[/code] makes the turtle turn clockwise by a precise amount of [i]degrees[/i].\n"
@@ -970,7 +949,6 @@ msgstr "Rita ett hörn"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:66
-#, fuzzy
 msgid "In this practice, we'll tell the turtle to draw a corner."
 msgstr "I den här övningen kommer vi att instruera sköldpaddan att rita ett hörn."
 
@@ -1011,7 +989,6 @@ msgstr "Du måste lägga till två argument till funktionerna [code]turn_right()
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-4-drawing-a-rectangle/lesson.bbcode:94
-#, fuzzy
 msgid "Add the correct arguments to the functions [code]move_forward()[/code] and [code]turn_right()[/code] to draw a rectangle with a width of [code]200[/code] pixels, and a height of [code]120[/code] pixels."
 msgstr "Lägg till rätt parametrar till funktionerna [code]move_forward()[/code] och [code]turn_right()[/code] för att rita en rektangel med en bredd på [code]200[/code] pixlar och en höjd på [code]120[/code] pixlar."
 
@@ -1102,9 +1079,8 @@ msgstr "Funktioner är namngivna sekvenser av instruktioner"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-5-your-first-function/lesson.bbcode:9
-#, fuzzy
 msgid "Functions are [i]sequences of [glossary term=\"instructions\"]instructions[/glossary][/i] we give a name. We call that name an [i]identifier[/i]."
-msgstr "Funktioner är [i]sekvenser av instruktioner[/i] som vi ger ett namn. Vi kallar det namnet för en [i]identifierare[/i]."
+msgstr "Funktioner är [i]sekvenser av [glossary term=\"instructions\"]instruktioner[/glossary][/i] som vi ger ett namn. Det namnet kallar vi en [i]identifierare[/i]."
 
 #: course/lesson-5-your-first-function/lesson.bbcode:10
 msgid "Using the identifier, we can get the computer to execute all the instructions inside the function as many times as we need. This is what a [i]function call[/i] does."
@@ -1276,7 +1252,7 @@ msgstr "gå framåt"
 #. TRANSLATORS: Quiz answer
 #: course/lesson-5-your-first-function/lesson.bbcode:80
 msgid "jump"
-msgstr "hoppa"
+msgstr "jump"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-5-your-first-function/lesson.bbcode:80
@@ -1382,9 +1358,8 @@ msgstr "Du måste definiera en ny funktion under draw_square() med namnet [code]
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-5-your-first-function/lesson.bbcode:123
-#, fuzzy
 msgid "Your new function should call [code]draw_square()[/code] three times, on three different lines."
-msgstr "Du har en funktion för att rita en kvadrat: [code]draw_square()[/code]. Använd den för att rita tre rutor."
+msgstr "Din nya funktion ska anropa [code]draw_square()[/code] tre gånger, på tre olika rader."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-5-your-first-function/lesson.bbcode:123
@@ -1397,9 +1372,8 @@ msgid "Your First Function Parameter"
 msgstr "Din första funktionsparameter"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:7
-#, fuzzy
 msgid "In the previous lesson, you created a function to draw a square of a fixed size."
-msgstr "I föregående del skapade du en funktion för att rita en kvadrat med en fast storlek."
+msgstr "I förra lektionen skapade du en funktion för att rita en kvadrat med fast storlek."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:8
 msgid "This function is a bit limiting. Instead, it would be much better if we had a function to draw a square of [i]any[/i] size. Or better: any kind of rectangle (a square is a specific kind of rectangle)."
@@ -1407,15 +1381,13 @@ msgstr "Denna funktion är lite begränsande. Istället skulle det vara mycket b
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:9
-#, fuzzy
 msgid "In previous lessons, you used the [code]rotate()[/code] function and gave it an [glossary term=\"argument\"]argument[/glossary]."
-msgstr "I tidigare lektioner använde du funktionen [code]rotate()[/code] och gav den en [i]parameter[/i]."
+msgstr "I tidigare lektioner har du använt funktionen [code]rotate()[/code] och angett ett [glossary term=\"argument\"]argument[/glossary] till den."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:11
-#, fuzzy
 msgid "Just like [code]rotate()[/code], we can also give our functions [glossary term=\"parameters\"]parameters[/glossary]."
-msgstr "Precis som [code]rotate()[/code] kan vi också ge vår funktion [i]parametrar[/i]. Parametrar är etiketter du ger till värden som skickas till funktionen."
+msgstr "Precis som med [code]rotate()[/code] kan vi också ange [glossary term=\"parameters\"]parametrar[/glossary] för våra funktioner."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:12
 msgid "Parameters act as [i]placeholders[/i] in the function's code. They work like blank spaces that get filled in each time someone calls your function."
@@ -1426,7 +1398,6 @@ msgid "When you write a function with parameters, you create a flexible template
 msgstr "När du skriver en funktion med parametrar skapar du en flexibel mall som kan hantera olika värden varje gång du använder den. Låt oss se hur funktionen rotate() definieras och använder en parameter:"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
-#, fuzzy
 msgid "For now, focus on the first line, the function [i]definition[/i]: [code]func rotate(radians)[/code]."
 msgstr "För tillfället, vänligen fokusera på den första raden: [code]func rotate(radians)[/code]."
 
@@ -1435,9 +1406,8 @@ msgid "The word [code]radians[/code] is the function's parameter. It's the place
 msgstr "Ordet [code]radians[/code] är funktionens parameter. Det är en platshållare som ”ersätts” med det faktiska värdet när du anropar funktionen."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:31
-#, fuzzy
 msgid "When you [i]call[/i] this function with [code]rotate(0.5)[/code], the computer replaces the name \"radians\" in the function with [code]0.5[/code]."
-msgstr "När du anropar [code]rotate(0.5)[/code] binder datorn värdet [code]0.5[/code] till etiketten [code]radians[/code]."
+msgstr "När du [i]anropar[/i] den här funktionen med [code]rotate(0.5)[/code], ersätter datorn namnet ”radians” i funktionen med [code]0.5[/code]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:32
 msgid "Each time you call the function, the replacement happens again: If you call [code]rotate(1.2)[/code], [code]radians[/code] becomes [code]1.2[/code]."
@@ -1459,9 +1429,8 @@ msgstr "En parameter är en platshållare som ersätts med det faktiska värdet 
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
-#, fuzzy
 msgid "The value can be different each time you call the function: it depends on what you put in parentheses."
-msgstr "Värdet i fråga kan ändras: det beror på vad du sätter inom parentes när du anropar en funktion."
+msgstr "Värdet kan variera varje gång du anropar funktionen: det beror på vad du skriver inom parenteserna."
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:29
@@ -1484,23 +1453,20 @@ msgid "How to create functions with parameters"
 msgstr "Hur man skapar funktioner med parametrar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:44
-#, fuzzy
 msgid "When you write a function [i]definition[/i] (the line starting with the [code]func[/code] keyword), you can add parameters."
-msgstr "Du kan ge dina funktionsparametrar när du skriver dess [i]definition[/i] (raden som börjar med nyckelordet [code]func[/code])."
+msgstr "När du skriver en funktions[i]definition[/i] (raden som börjar med nyckelordet [code]func[/code]) kan du lägga till parametrar."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:45
 msgid "To add a parameter, write a placeholder name inside the parentheses. When someone calls your function with a value, every copy of the parameter in the function gets replaced with that value."
 msgstr "För att lägga till en parameter skriver du namnet på en platshållare inom parenteserna. När någon anropar din funktion med ett värde ersätts varje instans av parametern i funktionen med det värdet."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:52
-#, fuzzy
 msgid "You can give parameters any name! How you name functions and parameters is up to you."
 msgstr "Du kan ge parametrar vilket namn som helst. Hur du namnger funktioner och parametrar är upp till dig."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:53
-#, fuzzy
 msgid "Just remember that names cannot contain spaces. To write parameter names with multiple words, in GDScript, we use underscores by convention."
-msgstr "Kom bara ihåg att namn inte kan innehålla mellanslag. För att skriva parameternamn med flera ord måste du använda understreck."
+msgstr "Tänk bara på att namn inte får innehålla mellanslag. För att skriva parameternamn som består av flera ord använder vi som regel understreck i GDScript."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:54
 msgid "The following function definition is exactly equivalent to the previous one."
@@ -1511,9 +1477,8 @@ msgid "Parameters make your code easier to reuse. You write the function once as
 msgstr "Parametrar gör det enklare att återanvända din kod. Du skriver funktionen en gång som en mall och kan sedan anropa den flera gånger med olika värden."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:59
-#, fuzzy
 msgid "Here's an example with a function to draw any square. The parameter [code]size[/code] is a placeholder. Use the slider to change the value. When you click the button, the app calls [code]draw_square()[/code] and the placeholder gets replaced with your value, drawing squares of different sizes."
-msgstr "Här är ett exempel med en funktion för att rita valfri kvadrat. Använd skjutreglaget för att ändra värdet som skickas till funktionen och rita rutor av olika storlekar."
+msgstr "Här är ett exempel med en funktion för att rita valfri kvadrat. Parametern [code]size[/code] är en platshållare. Använd skjutreglaget för att ändra värdet. När du klickar på knappen anropar appen [code]draw_square()[/code] och platshållaren ersätts med ditt värde, vilket gör att kvadrater i olika storlekar ritas."
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:60
@@ -1556,14 +1521,12 @@ msgid "Functions can have multiple parameters"
 msgstr "Funktioner kan ha flera parametrar"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:78
-#, fuzzy
 msgid "A function can have multiple parameters. You can use as many placeholders as you [i]need[/i]."
-msgstr "Du kan använda flera parametrar i en funktion. Faktum är att du kan använda så många du [i]behöver[/i]."
+msgstr "En funktion kan ha flera parametrar. Du kan använda så många platshållare som du [i]behöver[/i]."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:79
-#, fuzzy
 msgid "To add multiple parameters, write a comma between each placeholder name."
-msgstr "För att separera funktionsparametrarna måste du skriva ett kommatecken mellan dem."
+msgstr "För att lägga till flera parametrar skriver du ett kommatecken mellan varje platshållarnamn."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:80
 msgid "For example, [code]func move(x, y)[/code] has two placeholders: [code]x[/code] and [code]y[/code]. Each one gets replaced with its own value when you call the function."
@@ -1571,7 +1534,6 @@ msgstr "Till exempel har [code]func move(x, y)[/code] två platshållare: [code]
 
 #. TRANSLATORS: Note title
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:80
-#, fuzzy
 msgid "Must I write spaces between function parameters?"
 msgstr "Måste jag skriva mellanslag mellan funktionsparametrar?"
 
@@ -1591,9 +1553,8 @@ msgid "We often use spaces after the comma for readability."
 msgstr "Vi använder ofta mellanslag efter kommatecken för läsbarhet."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:92
-#, fuzzy
 msgid "The following example shows a function with two parameters. The function moves an entity on both the X and Y axes."
-msgstr "Följande exempel definierar en funktion som använder två parametrar för att flytta en entitet på både X- och Y-axeln."
+msgstr "Följande exempel visar en funktion med två parametrar. Funktionen förflyttar ett objekt längs både X- och Y-axeln."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:93
 msgid "When you call [code]move_local_xy(50, 100)[/code], every [code]offset_x[/code] in the function gets replaced with [code]50[/code], and every [code]offset_y[/code] gets replaced with [code]100[/code]."
@@ -1705,9 +1666,8 @@ msgid "func function_name(): parameter_1, parameter_2, ..."
 msgstr "func funktion_namn(): parameter_1, parameter_2, ..."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Now it's your turn to create a function with multiple parameters."
-msgstr "Nu är det din tur att skapa en funktion med flera parametrar: en funktion för att rita rektanglar av valfri storlek."
+msgstr "Nu är det din tur att skapa en funktion med flera parametrar."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:136
 msgid "In the following practices, you'll write functions that I will call with different values. Your functions need to work correctly no matter what values the app passes to them."
@@ -1720,9 +1680,8 @@ msgstr "Rita hörn av olika storlekar"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Before we create a rectangle of any size, let's first practice with a simpler shape."
-msgstr "Innan vi skapar en rektangel av valfri storlek, låt oss först se hur vi kan använda parametrar för att rita enklare former."
+msgstr "Innan vi skapar en rektangel av valfri storlek ska vi först öva med en enklare form."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
@@ -1745,9 +1704,8 @@ msgstr "Din uppgift är att lägga till en parameter med namnet [code]length[/co
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
-#, fuzzy
 msgid "Your function should move the turtle forward by an amount defined by the [code]length[/code] parameter, turn right [code]90[/code] degrees, then move forward by [code]length[/code] again."
-msgstr "Funktionen flyttar sköldpaddan framåt ett belopp som definieras av parametern [code]length[/code], vrider [code]90[/code] grader och flyttar sedan framåt [code]length[/code] pixlar."
+msgstr "Din funktion ska flytta sköldpaddan framåt ett avstånd som definieras av parametern [code]length[/code], svänga höger [code]90[/code] grader och sedan flytta framåt [code]length[/code] igen."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
@@ -1771,7 +1729,6 @@ msgstr "Använder flera parametrar"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Now let's make the [code]draw_corner()[/code] function even more flexible. We'll add a second placeholder so the angle can also vary."
 msgstr "I den här övningen kommer vi att förbättra vår [code]draw_corner()[/code]-funktion så att vinkeln också kan variera."
 
@@ -1791,7 +1748,6 @@ msgstr ""
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
-#, fuzzy
 msgid "Your task is to add the [code]angle[/code] parameter after [code]length[/code] in the function definition. Remember to separate the two placeholders with a comma."
 msgstr "Lägg till parametern [code]angle[/code] efter parametern [code]length[/code] i funktionen [code]draw_corner()[/code] och använd parametern för att rita hörn med olika stora vinklar."
 
@@ -1827,9 +1783,8 @@ msgstr "Rita rutor av alla storlekar"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
-#, fuzzy
 msgid "Time to write a complete function from scratch! You'll make a function that draws squares of any size."
-msgstr "Nu är det din tur att skapa en funktion med flera parametrar: en funktion för att rita rektanglar av valfri storlek."
+msgstr "Nu är det dags att skriva en komplett funktion från grunden! Du ska skapa en funktion som ritar kvadrater i valfri storlek."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
@@ -1892,9 +1847,8 @@ msgstr "Rita rektanglar av alla storlekar"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
-#, fuzzy
 msgid "Let's create a function to draw rectangles with any length and height."
-msgstr "Med två parametrar, koda en funktion för att rita hörn med valfri vinkel."
+msgstr "Låt oss skapa en funktion för att rita rektanglar med valfri längd och höjd."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:220
@@ -1979,9 +1933,8 @@ msgstr "Och så mycket mer. Du måste lagra, hämta och uppdatera dessa värden.
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-7-member-variables/lesson.bbcode:17
-#, fuzzy
 msgid "We call those values [i][glossary term=\"variables\"]variables[/glossary][/i]. Variables are labels you use to keep track of values that vary over time. Here's an example of a variable tracking a character or monster's health."
-msgstr "Vi kallar dessa värden [i]variabler[/i]. Variabler är etiketter du använder för att hålla reda på värden kan ändra med tiden. Här är ett exempel på en variabel som håller reda på en karaktärs eller monsters hälsa."
+msgstr "Vi kallar dessa värden för [i][glossary term=\"variables\"]variabler[/glossary][/i]. Variabler är beteckningar som man använder för att hålla reda på värden som förändras över tiden. Här är ett exempel på en variabel som mäter en karaktärs eller ett monsters hälsa."
 
 #: course/lesson-7-member-variables/lesson.bbcode:21
 msgid "The line above defines a new variable named [code]health[/code] and assigns it a starting value of [code]100[/code] (that's what the equal sign does, more on that below)."
@@ -1993,9 +1946,8 @@ msgstr "Funktionsparametrar, som du såg i föregående lektion, är ett annat e
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-7-member-variables/lesson.bbcode:23
-#, fuzzy
 msgid "In this lesson, we start using variables built into Godot. They're a particular kind called [i][glossary term=\"member variables\"]member variables[/glossary][/i]."
-msgstr "I den här lektionen börjar vi använda variabler som är inbyggda i Godot. De är en speciell typ som kallas [i]medlemsvariabler[/i]."
+msgstr "I den här lektionen börjar vi använda variabler som finns inbyggda i Godot. Det är en särskild typ som kallas [i][glossary term=\"member variables\"]medlemsvariabler[/glossary][/i]."
 
 #: course/lesson-7-member-variables/lesson.bbcode:24
 msgid "Member variables are values attached to a game entity. They're useful properties like the [code]position[/code], [code]rotation[/code], and [code]scale[/code] of a character."
@@ -2061,7 +2013,6 @@ msgid "Accessing sub-variables with the dot"
 msgstr "Få tillgång till undervariabler via punkten"
 
 #: course/lesson-7-member-variables/lesson.bbcode:62
-#, fuzzy
 msgid "In video games, you will see many member variables that have sub-values."
 msgstr "I videospel kommer du att se många medlemsvariabler som har undervärden."
 
@@ -2099,9 +2050,8 @@ msgid "In games, the Y-axis is positive going down"
 msgstr "I spel är Y-axeln positiv när man rör sig nedåt"
 
 #: course/lesson-7-member-variables/lesson.bbcode:78
-#, fuzzy
 msgid "Note that in games, assuming your character's position starts at (0, 0), the code above moves the entity [code]200[/code] pixels to the right and [code]250[/code] pixels down."
-msgstr "Observera att i spel, förutsatt att din karaktärs position börjar från (0, 0), flyttar koden ovan entiteten [code]180[/code] pixlar åt höger och [code]120[/code] pixlar nedåt."
+msgstr "Observera att i spel, förutsatt att din karaktärs position börjar vid (0, 0), flyttar koden ovan entiteten [code]200[/code] pixlar åt höger och [code]250[/code] pixlar nedåt."
 
 #: course/lesson-7-member-variables/lesson.bbcode:79
 msgid "In math, the y-axis is generally positive going up by convention."
@@ -2343,9 +2293,8 @@ msgstr "Som med funktioner, en medlemsvariabels namn måste vara unikt inuti kod
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-8-defining-variables/lesson.bbcode:41
-#, fuzzy
 msgid "To use a variable, you want to [glossary term=\"assign\"]assign[/glossary] it a starting value. You can do so using the equal sign (=)."
-msgstr "För att använda en variabel, kommer du att behöva tilldela ett startvärde. Du kan göra detta med likhetstecken (=)."
+msgstr "För att använda en variabel måste du [glossary term=\"assign\"]tilldela[/glossary] den ett startvärde. Det gör du med hjälp av likhetstecknet (=)."
 
 #: course/lesson-8-defining-variables/lesson.bbcode:42
 msgid "This code assigns the value [code]100[/code] to a new variable named [code]health[/code]."
@@ -2356,9 +2305,8 @@ msgid "After defining your variable, you can access its value by writing the var
 msgstr "Efter att du definierat din variabel kan du hämta värdet genom att skriva variabelns namn."
 
 #: course/lesson-8-defining-variables/lesson.bbcode:57
-#, fuzzy
 msgid "The code above will display the number [code]100[/code] to some output window."
-msgstr "Koden ovan kommer visa nummert [code]100[/code] till något utmatningsfönster."
+msgstr "Koden ovan visar talet [code]100[/code] i ett utdatafönster."
 
 #: course/lesson-8-defining-variables/lesson.bbcode:58
 msgid "Notice we don't use the [code]var[/code] keyword anymore as we only need it to [i]define[/i] a variable."
@@ -2727,9 +2675,8 @@ msgstr "Andra spelmotorer kan använda andra namn som [code]_update()[/code]."
 
 #. TRANSLATORS: Heading
 #: course/lesson-10-the-game-loop/lesson.bbcode:42
-#, fuzzy
 msgid "Why is the _process() function useful?"
-msgstr "Hur ofta körs funktionen _process()?"
+msgstr "Varför är funktionen _process() användbar?"
 
 #: course/lesson-10-the-game-loop/lesson.bbcode:48
 msgid "It's perhaps better to see the [code]_process()[/code] function in action."
@@ -2749,9 +2696,8 @@ msgstr "Därifrån, varje bildruta, kör Godot funktionen [code]_process()[/code
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-10-the-game-loop/lesson.bbcode:56
-#, fuzzy
 msgid "Since we wrote a [code]rotate()[/code] instruction, Godot is rotating the character by [code]0.05[/code] [glossary term=\"radians\"]radians[/glossary] [b]many[/b] times a second."
-msgstr "Eftersom vi skrev en [code]rotate()[/code]-instruktion, roterar Godot tecknet med [code]0,05[/code] radianer [b]många[/b] gånger per sekund."
+msgstr "Eftersom vi skrev en [code]rotate()[/code]-instruktion roterar Godot karaktären med [code]0.05[/code] [glossary term=\"radians\"]radianer[/glossary] [b]många[/b] gånger per sekund."
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-10-the-game-loop/lesson.bbcode:56
@@ -3709,9 +3655,8 @@ msgstr ""
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
-#, fuzzy
 msgid "After those two calls, [code]health[/code] should be equal to [code]80[/code]."
-msgstr "Definiera en variabel som heter [code]health[/code] med ett startvärde på [code]100[/code]."
+msgstr "Efter dessa två anrop bör [code]health[/code] vara lika med [code]80[/code]."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-13-conditions/lesson.bbcode:149
@@ -4086,7 +4031,6 @@ msgstr "Både [code]scale[/code] och [code]position[/code] har undervariablerna 
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-16-2d-vectors/lesson.bbcode:25
-#, fuzzy
 msgid "scale"
 msgstr "scale"
 
@@ -4468,9 +4412,8 @@ msgstr "Vi lagrar robotens position i en variabel som heter [code]cell[/code]. V
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-17-while-loops/lesson.bbcode:103
-#, fuzzy
 msgid "The board size is stored in a variable named [code]board_size[/code] that contains a [code]Vector2[/code] value."
-msgstr "Definiera en variabel som heter [code]health[/code] med ett startvärde på [code]100[/code]."
+msgstr "Brädets storlek lagras i en variabel med namnet [code]board_size[/code] som innehåller ett [code]Vector2[/code]-värde."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-17-while-loops/lesson.bbcode:103
@@ -4592,7 +4535,7 @@ msgstr "I en [code]for[/code]-slinga hämtar datorn varje värde från en lista,
 
 #: course/lesson-18-for-loops/lesson.bbcode:47
 msgid "In the above example, for each item in the list [code][0, 1, 2][/code], Godot sets [code]number[/code] to the item, then executes the code in the [code]for[/code] loop."
-msgstr ""
+msgstr "I exemplet ovan sätter Godot, för varje post i listan [code][0, 1, 2][/code], [code]number[/code] till den aktuella posten och kör sedan koden i [code]for[/code]-slingan."
 
 #: course/lesson-18-for-loops/lesson.bbcode:48
 msgid "We'll explain arrays more thoroughly in the next lesson, but notice that [code]number[/code] is just a temporary variable. You create it when defining the loop, and the loop takes care of changing its value. Also, you can name this variable anything you want."
@@ -4665,9 +4608,8 @@ msgstr "Vi lagrar robotens position på spelplanen i en variabel som heter [code
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
-#, fuzzy
 msgid "The board size is stored in a variable named [code]board_size[/code], which holds a [code]Vector2[/code] value."
-msgstr "Definiera en variabel som heter [code]health[/code] med ett startvärde på [code]100[/code]."
+msgstr "Brädans storlek lagras i en variabel med namnet [code]board_size[/code], som innehåller ett [code]Vector2[/code]-värde."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
@@ -5102,216 +5044,216 @@ msgstr "För roboten längs banan"
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 msgid "Our AI pathfinding algorithm provided a path for the robot to move to the right edge of the grid. Your task is to use a [code]for[/code] loop to make the robot move."
-msgstr ""
+msgstr "Vår AI-algoritm för vägval beräknade en väg så att roboten kunde ta sig till rutnätets högra kant. Din uppgift är att använda en [code]for[/code]-slinga för att få roboten att röra sig."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 msgid "To move the robot, call [i]its[/i] [code]move_to()[/code] function, like so: [code]robot.move_to()[/code]."
-msgstr ""
+msgstr "För att flytta roboten anropar du [i]robotens[/i] [code]move_to()[/code]-funktion på följande sätt: [code]robot.move_to()[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 msgid "The [code]move_to()[/code] function only exists on the robot, which is why you need to access it this way."
-msgstr ""
+msgstr "Funktionen [code]move_to()[/code] finns endast hos roboten, vilket är anledningen till att du måste använda den på det här sättet."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 msgid "Our AI pathfinding algorithm is giving us a path to move the robot. Now, you need to make the turtle move along the path."
-msgstr ""
+msgstr "Vår AI-algoritm för vägval ger oss en väg som roboten ska följa. Nu måste du få sköldpaddan att röra sig längs den vägen."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 msgid "You should start with a for loop that iterates over every cell in [code]robot_path[/code]."
-msgstr ""
+msgstr "Du bör börja med en for-slinga som går igenom varje cell i [code]robot_path[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:83
 msgid "You need to pass the cell position to the robot's [code]move_to()[/code] function in the loop."
-msgstr ""
+msgstr "Du måste skicka cellens position till robotens [code]move_to()[/code]-funktion i slingan."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "Back to the drawing board"
-msgstr ""
+msgstr "Tillbaka till ritbordet"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "We want to draw many rectangles, something surprisingly common in games."
-msgstr ""
+msgstr "Vi vill rita många rektanglar, något som är förvånansvärt vanligt i spel."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "However, writing this code by hand can get tedious. Instead, you could store the size of your shapes in arrays and use a loop to draw them all in batches."
-msgstr ""
+msgstr "Det kan dock bli ganska tråkigt att skriva den här koden för hand. Istället kan du lagra storleken på dina figurer i arrayer och använda en slinga för att rita dem alla i omgångar."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "That's what you'll do in this practice."
-msgstr ""
+msgstr "Det är vad du ska göra i den här övningen."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "Use a [code]for[/code] loop to draw every rectangle in the [code]rectangle_sizes[/code] array with the [code]draw_rectangle()[/code] function."
-msgstr ""
+msgstr "Använd en [code]for[/code]-slinga för att rita varje rektangel i arrayen [code]rectangle_sizes[/code] med funktionen [code]draw_rectangle()[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "The rectangles shouldn't overlap or cross each other. To avoid that, you'll need to call the [code]jump()[/code] function."
-msgstr ""
+msgstr "Rektanglarna får inte överlappa varandra eller korsa varandra. För att undvika detta måste du anropa funktionen [code]jump()[/code]."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "The drawing turtle makes its comeback. Fear not! Armed with loops, you'll make it draw faster than ever before."
-msgstr ""
+msgstr "Ritsköldpaddan är tillbaka. Oroa dig inte! Med hjälp av loopar kommer du att få den att rita snabbare än någonsin tidigare."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "Each value in the [code]rectangle_sizes[/code] array is a [code]Vector2[/code]. You'll need to access its [code]x[/code] and [code]y[/code] sub-components to draw rectangles."
-msgstr ""
+msgstr "Varje värde i arrayen [code]rectangle_sizes[/code] är en [code]Vector2[/code]. Du måste använda dess delkomponenter [code]x[/code] och [code]y[/code] för att rita rektanglar."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "In the loop, you first need to call [code]draw_rectangle()[/code], and then [code]jump()[/code]. Otherwise, at least two rectangles will overlap."
-msgstr ""
+msgstr "I slingan måste du först anropa [code]draw_rectangle()[/code] och sedan [code]jump()[/code]. Annars kommer minst två rektanglar att överlappa varandra."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:114
 msgid "The arguments when calling [code]jump()[/code] can just be large enough to space out the rectangles. For example, [code]jump(300, 0)[/code]"
-msgstr ""
+msgstr "Argumenten vid anropet av [code]jump()[/code] kan vara så stora att de räcker för att skapa avstånd mellan rektanglarna. Till exempel [code]jump(300, 0)[/code]"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-21-strings/lesson.bbcode:1
 msgid "Strings"
-msgstr ""
+msgstr "Strängar"
 
 #: course/lesson-21-strings/lesson.bbcode:9
 msgid "Throughout this course, we've mostly stored numbers in variables. But what if we wanted to store a player's name?"
-msgstr ""
+msgstr "Under hela den här kursen har vi främst lagrat tal i variabler. Men vad händer om vi vill lagra en spelares namn?"
 
 #: course/lesson-21-strings/lesson.bbcode:10
 msgid "This is where strings help us."
-msgstr ""
+msgstr "Det är här strängar kommer till nytta."
 
 #: course/lesson-21-strings/lesson.bbcode:11
 msgid "Strings are instrumental in games and applications. We use them to display information such as the description of a spell or the name of a character."
-msgstr ""
+msgstr "Strängar spelar en avgörande roll i spel och applikationer. Vi använder dem för att visa information, till exempel beskrivningen av en trollformel eller namnet på en karaktär."
 
 #. TRANSLATORS: Heading
 #: course/lesson-21-strings/lesson.bbcode:11
 msgid "What are strings"
-msgstr ""
+msgstr "Vad är strängar"
 
 #: course/lesson-21-strings/lesson.bbcode:19
 msgid "A [code]String[/code] is a value type which holds text. To create a [code]String[/code], you write text wrapped in quotation marks ([code]\"\"[/code]). For example: [code]\"This is a text string.\"[/code]"
-msgstr ""
+msgstr "En [code]String[/code] är en värdetyp som innehåller text. För att skapa en [code]String[/code] skriver man text omgiven av citattecken ([code]””[/code]). Till exempel: [code]”Detta är en textsträng.”[/code]"
 
 #: course/lesson-21-strings/lesson.bbcode:20
 msgid "The quotation marks differentiate strings from other value types and function names."
-msgstr ""
+msgstr "Citattecknen skiljer strängar från andra värdetyper och funktionsnamn."
 
 #: course/lesson-21-strings/lesson.bbcode:21
 msgid "You may remember we've used strings before in previous lessons."
-msgstr ""
+msgstr "Du kanske minns att vi har använt strängar tidigare i tidigare lektioner."
 
 #: course/lesson-21-strings/lesson.bbcode:23
 msgid "Under the hood, strings are arrays of characters. In fact, we can use a [code]for[/code] loop to loop through the characters of a [code]String[/code] as we would with any other array."
-msgstr ""
+msgstr "I grunden är strängar arrayer av tecken. Vi kan faktiskt använda en [code]for[/code]-slinga för att gå igenom tecknen i en sträng, precis som vi skulle göra med vilken annan array som helst."
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-21-strings/lesson.bbcode:25
 msgid "Which of these are strings?"
-msgstr ""
+msgstr "Vilka av dessa är strängar?"
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-21-strings/lesson.bbcode:25
 msgid "[code]\"1\"[/code] and [code]\"name\"[/code] are strings."
-msgstr ""
+msgstr "[code]”1”[/code] och [code]”name”[/code] är strängar."
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-21-strings/lesson.bbcode:25
 msgid "[code]\"1\"[/code] only contains a character and [i]doesn't[/i] represent the number [code]1[/code]."
-msgstr ""
+msgstr "[code]\"1\"[/code] består endast av ett tecken och [i]står inte[/i] för siffran [code]1[/code]."
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-21-strings/lesson.bbcode:25
 msgid "[code]\"name\"[/code] is made up of four different characters."
-msgstr ""
+msgstr "[code]\"name\"[/code] består av fyra olika tecken."
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-21-strings/lesson.bbcode:25
 msgid "\"1\""
-msgstr ""
+msgstr "\"1\""
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-21-strings/lesson.bbcode:25
 msgid "\"name\""
-msgstr ""
+msgstr "\"name\""
 
 #. TRANSLATORS: Heading
 #: course/lesson-21-strings/lesson.bbcode:36
 msgid "Why we use strings"
-msgstr ""
+msgstr "Varför vi använder strängar"
 
 #: course/lesson-21-strings/lesson.bbcode:48
 msgid "Every piece of text you see in this app is a string that Godot is displaying for us."
-msgstr ""
+msgstr "Varje text som du ser i den här appen är en sträng som Godot visar för oss."
 
 #: course/lesson-21-strings/lesson.bbcode:49
 msgid "Much like how [code]Vector2[/code] variables make calculations easier, [code]string[/code] variables come with many helper functions and tricks we can use."
-msgstr ""
+msgstr "Precis som [code]Vector2[/code]-variabler underlättar beräkningar, finns det många hjälpfunktioner och knep som vi kan använda när det gäller [code]string[/code]-variabler."
 
 #: course/lesson-21-strings/lesson.bbcode:50
 msgid "We can use arrays to store strings too. This is useful for chaining animations. In this example, the [code]play_animation()[/code] plays a specific animation."
-msgstr ""
+msgstr "Vi kan också använda arrayer för att lagra strängar. Detta är användbart för att kedja ihop animationer. I det här exemplet spelar [code]play_animation()[/code] upp en specifik animation."
 
 #: course/lesson-21-strings/lesson.bbcode:52
 msgid "In the next few practices, we'll use strings in combination with different concepts from earlier lessons."
-msgstr ""
+msgstr "Under de kommande övningarna kommer vi att använda strängar i kombination med olika begrepp från tidigare lektioner."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-21-strings/lesson.bbcode:52
 msgid "Creating string variables"
-msgstr ""
+msgstr "Skapa strängvariabler"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-21-strings/lesson.bbcode:52
 msgid "Currently, the robot has a number stored in the [code]robot_name[/code] variable."
-msgstr ""
+msgstr "För närvarande har roboten ett tal lagrat i variabeln [code]robot_name[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-21-strings/lesson.bbcode:52
 msgid "Change the [code]robot_name[/code] variable so that it's a string instead. You can give it any name you'd like."
-msgstr ""
+msgstr "Ändra variabeln [code]robot_name[/code] så att den istället blir en sträng. Du kan ge den vilket namn du vill."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-21-strings/lesson.bbcode:52
 msgid "Give the robot a readable name using a string stored in a variable."
-msgstr ""
+msgstr "Ge roboten ett läsbart namn med hjälp av en sträng som lagras i en variabel."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-21-strings/lesson.bbcode:52
 msgid "Strings need to be wrapped in quotes like \"Robi\"."
-msgstr ""
+msgstr "Strängar måste omges av citattecken, till exempel \"Robi\"."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-21-strings/lesson.bbcode:52
 msgid "Replace the number 0 with your string (the robot's name)."
-msgstr ""
+msgstr "Ersätt talet 0 med din sträng (robotens namn)."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid "Using an array of strings to play a combo"
-msgstr ""
+msgstr "Använda en array av strängar för att spela upp en kombo"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid "In this practice, we'll chain together animations using an array of strings. You might find such combinations in fighting games."
-msgstr ""
+msgstr "I den här övningen ska vi koppla ihop animationer med hjälp av en strängarray. Sådana kombinationer kan man till exempel stöta på i fightingspel."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid "The robot has the following animation names:"
-msgstr ""
+msgstr "Roboten har följande animationsnamn:"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-21-strings/lesson.bbcode:73
@@ -5319,843 +5261,847 @@ msgid ""
 "- [code]\"jab\"[/code] (makes the robot perform a quick punch)\n"
 "- [code]\"uppercut\"[/code] (the robot uses a powerful jumping punch)"
 msgstr ""
+"- [code]”jab”[/code] (får roboten att utföra en snabb slag)\n"
+"- [code]”uppercut”[/code] (roboten utför ett kraftfullt hoppande slag)"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid "I defined the [code]combo[/code] variable at the top of the script. Fill its array with three animation names: two jabs followed by one uppercut."
-msgstr ""
+msgstr "Jag definierade variabeln [code]combo[/code] högst upp i skriptet. Fyll dess array med tre animationsnamn: två jabbar följda av en uppercut."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid "Then, in the [code]run()[/code] function, write a [code]for[/code] loop that goes through each item in the [code]combo[/code] variable and calls [code]play_animation()[/code] with that animation name."
-msgstr ""
+msgstr "Skriv sedan, i funktionen [code]run()[/code], en [code]for[/code]-slinga som går igenom varje objekt i variabeln [code]combo[/code] och anropar [code]play_animation()[/code] med det aktuella animationsnamnet."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid "Define an array of strings to unleash a powerful combo."
-msgstr ""
+msgstr "Definiera en array av strängar för att utlösa en kraftfull kombination."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid "Make sure to use (\"\") for each animation name when you add them to the combo array"
-msgstr ""
+msgstr "Se till att använda (\"\") för varje animationsnamn när du lägger till dem i combo_array"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-21-strings/lesson.bbcode:73
 msgid "Use a for loop and the [code]play_animation()[/code] function for each animation name"
-msgstr ""
+msgstr "Använd en for-slinga och funktionen [code]play_animation()[/code] för varje animationsnamn"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-22-functions-return-values/lesson.bbcode:1
 msgid "Functions that return a value"
-msgstr ""
+msgstr "Funktioner som returnerar ett värde"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:5
 msgid "Until now, you learned that functions are a way to group instructions, give them a name, and reuse them."
-msgstr ""
+msgstr "Hittills har du lärt dig att funktioner är ett sätt att gruppera instruktioner, ge dem ett namn och återanvända dem."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-22-functions-return-values/lesson.bbcode:6
 msgid "Functions can also make calculations and [glossary term=\"return\"]return[/glossary] new values."
-msgstr ""
+msgstr "Funktioner kan också utföra beräkningar och [glossary term=\"return\"]returnera[/glossary] nya värden."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:7
 msgid "Let's look at some examples to see why this is useful."
-msgstr ""
+msgstr "Låt oss titta på några exempel för att se varför detta är användbart."
 
 #. TRANSLATORS: Heading
 #: course/lesson-22-functions-return-values/lesson.bbcode:9
 msgid "Built-in functions that return a value"
-msgstr ""
+msgstr "Inbyggda funktioner som returnerar ett värde"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:15
 msgid "Many functions built into GDScript make calculations and return a new value."
-msgstr ""
+msgstr "Många av de inbyggda funktionerna i GDScript utför beräkningar och returnerar ett nytt värde."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:16
 msgid "For example, the [code]round()[/code] function takes a decimal number as an argument and gives you back a new whole number rounded to the nearest digit."
-msgstr ""
+msgstr "Funktionen [code]round()[/code] tar till exempel ett decimaltal som argument och returnerar ett nytt heltal avrundat till närmaste siffra."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:21
 msgid "Imagine you have a game where you track the player's health as a percentage, a decimal number going from [code]0.0[/code] to [code]100.0[/code]."
-msgstr ""
+msgstr "Tänk dig att du har ett spel där du mäter spelarens hälsa i procent, ett decimaltal som sträcker sig från [code]0.0[/code] till [code]100.0[/code]."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:22
 msgid "When displaying the health on the interface, you don't want to show the decimal part. In that case, you may use the [code]round()[/code] function, like so."
-msgstr ""
+msgstr "När du visar hälsostatusen på gränssnittet vill du inte visa decimaldelen. I så fall kan du använda funktionen [code]round()[/code] på följande sätt."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:27
 msgid "Notice how we assign the result of the function call to a variable. Because the [code]round()[/code] function returns a [i]new[/i] value, we need to either store the result in a variable or use the value immediately."
-msgstr ""
+msgstr "Lägg märke till hur vi tilldelar resultatet av funktionsanropet till en variabel. Eftersom funktionen [code]round()[/code] returnerar ett [i]nytt[/i] värde måste vi antingen spara resultatet i en variabel eller använda värdet direkt."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:28
 msgid "Above, we assigned it to a variable, but you could also do the following."
-msgstr ""
+msgstr "Ovan tilldelade vi det till en variabel, men du kan också göra på följande sätt."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:31
 msgid "If you need to use a returned value more than once, store it in a variable first. Otherwise, you can use the function call directly where you need it."
-msgstr ""
+msgstr "Om du behöver använda ett returvärde mer än en gång bör du först spara det i en variabel. Annars kan du använda funktionsanropet direkt där du behöver det."
 
 #. TRANSLATORS: Heading
 #: course/lesson-22-functions-return-values/lesson.bbcode:31
 msgid "A cooler example: lerp()"
-msgstr ""
+msgstr "Ett häftigare exempel: lerp()"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:41
 msgid "The [code]lerp()[/code] function (short for [i]linear interpolate[/i]), blends between two values."
-msgstr ""
+msgstr "Funktionen [code]lerp()[/code] (förkortning för [i]linjär interpolering[/i]) övergår smidigt mellan två värden."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:42
 msgid "It takes three arguments: a start value, an end value, and a blend amount between [code]0.0[/code] and [code]1.0[/code] that controls the blend. A value of [code]0.0[/code] gives you the start value, [code]1.0[/code] gives you the end value, and [code]0.5[/code] gives you halfway between them."
-msgstr ""
+msgstr "Den tar tre argument: ett startvärde, ett slutvärde och en blandningsgrad mellan [code]0.0[/code] och [code]1.0[/code] som styr blandningen. Värdet [code]0.0[/code] ger startvärdet, [code]1.0[/code] ger slutvärdet och [code]0.5[/code] ger värdet mitt emellan dem."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:43
 msgid "In games, [code]lerp()[/code] is often used to make things move smoothly towards a target."
-msgstr ""
+msgstr "I spel används [code]lerp()[/code] ofta för att få objekt att röra sig smidigt mot ett mål."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:44
 msgid "[b]Note:[/b] In the code example below, I wrote the [code]lerp()[/code] function call across multiple lines for readability. This works exactly the same as writing it on one line."
-msgstr ""
+msgstr "[b]Obs![/b] I kodexemplet nedan har jag skrivit funktionsanropet [code]lerp()[/code] över flera rader för att underlätta läsbarheten. Detta fungerar precis på samma sätt som om man skriver det på en rad."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:49
 msgid "Every frame, the code calculates a position somewhere between the turtle and the mouse cursor. The [code]lerp()[/code] function takes care of everything."
-msgstr ""
+msgstr "I varje bildruta beräknar koden en position någonstans mellan sköldpaddan och muspekaren. Funktionen [code]lerp()[/code] sköter allt."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:50
 msgid "It's not the most robust approach for smooth movement, as you'll learn in the future, but it's a helpful function nonetheless."
-msgstr ""
+msgstr "Det är inte den mest tillförlitliga metoden för smidiga rörelser, vilket du kommer att få lära dig senare, men det är ändå en användbar funktion."
 
 #. TRANSLATORS: Heading
 #: course/lesson-22-functions-return-values/lesson.bbcode:49
 msgid "Writing a function that returns a value"
-msgstr ""
+msgstr "Att skriva en funktion som returnerar ett värde"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:63
 msgid "You can make [i]your[/i] functions return values."
-msgstr ""
+msgstr "Du kan få [i]dina[/i] funktioner att returnera värden."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:64
 msgid "To make a function return a value, you use the [code]return[/code] keyword followed by the value in question."
-msgstr ""
+msgstr "För att en funktion ska returnera ett värde använder man nyckelordet [code]return[/code] följt av det aktuella värdet."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:65
 msgid "In previous lessons, we had characters walking on grids. For those practices, you were working with cell coordinates like [code]Vector2(0, 0)[/code] or [code]Vector2(2, 1)[/code]."
-msgstr ""
+msgstr "I tidigare lektioner har vi haft karaktärer som rör sig på rutnät. I de övningarna arbetade du med rutkoordinater som [code]Vector2(0, 0)[/code] eller [code]Vector2(2, 1)[/code]."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:66
 msgid "But cell coordinates are not the same as positions on the screen. A cell coordinate like [code]Vector2(2, 1)[/code] tells us which cell we're in, but not where it is in pixels. To draw something on screen, we need pixel positions."
-msgstr ""
+msgstr "Men cellkoordinater är inte detsamma som positioner på skärmen. En cellkoordinat som [code]Vector2(2, 1)[/code] anger vilken cell vi befinner oss i, men inte var den ligger i pixlar. För att rita något på skärmen behöver vi pixelpositioner."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:67
 msgid "We can write a function to convert cell coordinates to pixel positions. Hover over the cells below to see how it works."
-msgstr ""
+msgstr "Vi kan skriva en funktion som omvandlar cellkoordinater till pixelpositioner. Håll muspekaren över cellerna nedan för att se hur det fungerar."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:68
 msgid "The yellow circle marks the pixel position at the top-left corner of each cell. This corner is the reference point we use for grid position."
-msgstr ""
+msgstr "Den gula cirkeln markerar pixelpositionen i det övre vänstra hörnet av varje cell. Detta hörn är den referenspunkt som vi använder för rutnätets position."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:78
 msgid "To convert cell coordinates to pixel positions, we multiply the cell coordinates by the size of each cell in pixels."
-msgstr ""
+msgstr "För att omvandla cellkoordinater till pixelpositioner multiplicerar vi cellkoordinaterna med storleken på varje cell i pixlar."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:79
 msgid "For example, if each cell is [code]120[/code] pixels wide and tall, then:"
-msgstr ""
+msgstr "Om varje cell till exempel är [code]120[/code] pixlar bred och hög, gäller följande:"
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:80
 msgid ""
 "- Cell [code]Vector2(1, 0)[/code] is at pixel position [code]Vector2(120, 0)[/code].\n"
 "- Cell [code]Vector2(2, 1)[/code] would be at [code]Vector2(240, 120)[/code] pixels."
 msgstr ""
+"- Cellen [code]Vector2(1, 0)[/code] befinner sig vid pixelpositionen [code]Vector2(120, 0)[/code].\n"
+"- Cellen [code]Vector2(2, 1)[/code] skulle befinna sig vid [code]Vector2(240, 120)[/code] pixlar."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:81
 msgid "Use the interactive grid above to visualize the calculations."
-msgstr ""
+msgstr "Använd det interaktiva rutnätet ovan för att visualisera beräkningarna."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:82
 msgid "This gives us the top-left corner of each cell, which is the standard way to position things on a grid in games."
-msgstr ""
+msgstr "Detta ger oss det övre vänstra hörnet i varje cell, vilket är det vanligaste sättet att placera objekt på ett rutnät i spel."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:83
 msgid "The function below does this calculation and returns the result, so we can store it in a variable or use it right away."
-msgstr ""
+msgstr "Funktionen nedan utför denna beräkning och returnerar resultatet, så att vi kan spara det i en variabel eller använda det direkt."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:86
 msgid "The [code]return[/code] keyword sends the calculated value back to the code that called the function."
-msgstr ""
+msgstr "Nyckelordet [code]return[/code] skickar tillbaka det beräknade värdet till den kod som anropade funktionen."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:87
 msgid "Note: In Godot, we write coordinates as [code]Vector2(x, y)[/code]. The [code]x[/code] value goes left to right (the column), and [code]y[/code] goes top to bottom (the row)."
-msgstr ""
+msgstr "Obs! I Godot skriver vi koordinater som [code]Vector2(x, y)[/code]. Värdet [code]x[/code] anger vänster till höger (kolumnen), och [code]y[/code] anger uppifrån och ner (raden)."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:88
 msgid "In the example below, we call the function and store the returned value in the variable [code]world_position[/code]. Click the run button to see the result."
-msgstr ""
+msgstr "I exemplet nedan anropar vi funktionen och lagrar det returnerade värdet i variabeln [code]world_position[/code]. Klicka på körknappen för att se resultatet."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "Some functions return values, and some do not. You can check this in the documentation panel during practices. When a practice uses specific functions, the panel shows information about them."
-msgstr ""
+msgstr "Vissa funktioner returnerar värden, medan andra inte gör det. Du kan kontrollera detta i dokumentationspanelen under övningarna. När en övning använder specifika funktioner visas information om dem i panelen."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:97
 msgid "In the documentation, functions that start with the word [code]void[/code] do not return a value. Any other word before the function name means it returns a value of that type. You'll learn more about types in a couple of lessons."
-msgstr ""
+msgstr "I dokumentationen returnerar funktioner som börjar med ordet [code]void[/code] inget värde. Om något annat ord står före funktionsnamnet betyder det att funktionen returnerar ett värde av den typen. Du kommer att lära dig mer om typer i några av de kommande lektionerna."
 
 #: course/lesson-22-functions-return-values/lesson.bbcode:98
 msgid "For now, let's practice returning values from functions!"
-msgstr ""
+msgstr "Men nu ska vi öva på att returnera värden från funktioner!"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "Converting coordinates from the grid to the screen"
-msgstr ""
+msgstr "Omvandling av koordinater från rutnätet till skärmen"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "Complete the function that converts a cell coordinate to a pixel position on the screen."
-msgstr ""
+msgstr "Komplettera funktionen som omvandlar en cellkoordinat till en pixelposition på skärmen."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "The function takes a [code]Vector2[/code] cell coordinate as an argument, like [code]Vector2(2, 1)[/code]. It should return the pixel position of that cell's top-left corner."
-msgstr ""
+msgstr "Funktionen tar en [code]Vector2[/code]-cellkoordinat som argument, till exempel [code]Vector2(2, 1)[/code]. Den ska returnera pixelpositionen för cellens övre vänstra hörn."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "To convert, multiply the cell coordinate by the [code]cell_size[/code]."
-msgstr ""
+msgstr "För att omvandla multiplicerar du cellkoordinaten med [code]cell_size[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "I will call the [code]convert_to_world_coordinates()[/code] function three times in total with three different cell coordinates to test your code."
-msgstr ""
+msgstr "Jag kommer att anropa funktionen [code]convert_to_world_coordinates()[/code] totalt tre gånger med tre olika cellkoordinater för att testa din kod."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "We need a function to convert grid coordinates to pixel positions. Complete the function to make the turtle move to the correct cells!"
-msgstr ""
+msgstr "Vi behöver en funktion som omvandlar rutnätskoordinater till pixelpositioner. Skriv klart funktionen så att sköldpaddan rör sig till rätt celler!"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "To convert a cell coordinate to pixels, multiply the [code]cell[/code] by [code]cell_size[/code]."
-msgstr ""
+msgstr "För att omvandla en cellkoordinat till pixlar multiplicerar du [code]cellen[/code] med [code]cellstorleken[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "Use the [code]return[/code] keyword to send the result back. For example: [code]return cell * cell_size[/code]"
-msgstr ""
+msgstr "Använd nyckelordet [code]return[/code] för att skicka tillbaka resultatet. Till exempel: [code]return cell * cell_size[/code]"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-23-append-to-arrays/lesson.bbcode:1
 msgid "Appending and popping values from arrays"
-msgstr ""
+msgstr "Lägga till och ta bort värden från arrayer"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:9
 msgid "In previous lessons, you learned how to create arrays to store lists of values and how to loop over them. That's useful, but arrays can do much more."
-msgstr ""
+msgstr "I tidigare lektioner har du lärt dig hur man skapar arrayer för att lagra listor med värden och hur man går igenom dem med hjälp av slingor. Det är användbart, men arrayer kan göra mycket mer än så."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:10
 msgid "The real strength of GDScript arrays is that you can add and remove values from them at any time. This lets you build waiting lines of data or piles of data. We call these [i]queues[/i] and [i]stacks[/i], respectively. We'll see what that means in this lesson."
-msgstr ""
+msgstr "Den verkliga styrkan med GDScript-arrayer är att du när som helst kan lägga till och ta bort värden från dem. Detta gör att du kan skapa köer av data eller högar av data. Vi kallar dessa för [i]queus[/i] respektive [i]stacks[/i]. Vi ska se vad det innebär i den här lektionen."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:11
 msgid "Let's look at a concrete example."
-msgstr ""
+msgstr "Låt oss titta på ett konkret exempel."
 
 #. TRANSLATORS: Heading
 #: course/lesson-23-append-to-arrays/lesson.bbcode:9
 msgid "Tracking orders in a restaurant management game"
-msgstr ""
+msgstr "Spåra beställningar i ett spel om restaurantdrift"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:15
 msgid "You're making a restaurant management game where customers place orders, and you need to handle them one by one."
-msgstr ""
+msgstr "Du håller på att utveckla ett restaurangledningsspel där kunderna lägger beställningar, och du måste hantera dem en efter en."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:16
 msgid "In the example below, customers order meals that end up in a waiting line (a queue). You need to prepare them in the kitchen. We simulate orders arriving and getting completed over time."
-msgstr ""
+msgstr "I exemplet nedan beställer kunderna måltider som hamnar i en väntelista (en kö). Du måste tillaga dem i köket. Vi simulerar hur beställningarna kommer in och hanteras över tid."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:25
 msgid "How do you keep track of pending and completed orders? With an array!"
-msgstr ""
+msgstr "Hur håller man reda på pågående och slutförda beställningar? Med en array!"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:26
 msgid "When a customer purchases a meal, you want to [i]append[/i] (add) it to the array. Then, as you complete a meal in the kitchen and serve it, you want to remove it from the array."
-msgstr ""
+msgstr "När en kund beställer en måltid ska du [i]lägga till[/i] den i arrayen. När du sedan har tillagat måltiden i köket och serverat den ska du ta bort den från arrayen."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:27
 msgid "You can use the [code]append()[/code] function to add values at the end of an array. To remove values from the start, you can use the [code]pop_front()[/code] function. We call it \"pop\" because the value jumps out of the array."
-msgstr ""
+msgstr "Du kan använda funktionen [code]append()[/code] för att lägga till värden i slutet av en array. För att ta bort värden från början kan du använda funktionen [code]pop_front()[/code]. Vi kallar den ”pop” eftersom värdet hoppar ut ur arrayen."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:28
 msgid "Try to read the code below before moving on. Don't worry if not everything makes sense, as we'll break it all down."
-msgstr ""
+msgstr "Försök att läsa koden nedan innan du går vidare. Oroa dig inte om du inte förstår allt, vi kommer att gå igenom det steg för steg."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:31
 msgid "Notice how we call some functions by writing a dot after a variable name. Just like some values have variables you can access with a dot (like the [code]x[/code] variable in [code]position.x[/code]), they can also have their own functions."
-msgstr ""
+msgstr "Lägg märke till att vi anropar vissa funktioner genom att skriva en punkt efter ett variabelnamn. Precis som vissa värden har variabler som du kan komma åt med en punkt (som variabeln [code]x[/code] i [code]position.x[/code]), kan variabler också ha egna funktioner."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:32
 msgid "Functions like [code]append()[/code] and [code]pop_front()[/code] only exist on arrays. To call them, we need to write the array name, then a dot, then the function: [code]array_name.append()[/code]."
-msgstr ""
+msgstr "Funktioner som [code]append()[/code] och [code]pop_front()[/code] finns endast för arrayer. För att anropa dem måste vi skriva arrayens namn, följt av en punkt och sedan funktionen: [code]array_name.append()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:35
 msgid "Let's break down the code. We add orders to the [code]waiting_orders[/code] array by appending them."
-msgstr ""
+msgstr "Låt oss gå igenom koden. Vi lägger till beställningar i arrayen [code]waiting_orders[/code] genom att lägga till dem i slutet."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:39
 msgid "We can use a string to represent a meal when calling the [code]add_order()[/code] function."
-msgstr ""
+msgstr "Vi kan använda en sträng för att ange en måltid när vi anropar funktionen [code]add_order()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:43
 msgid "When completing an order, we remove it from the [code]waiting_orders[/code] array by calling its [code]pop_front()[/code] function. This function gives us the order back, which allows us to assign it to a temporary variable."
-msgstr ""
+msgstr "När vi slutför en beställning tar vi bort den från arrayen [code]waiting_orders[/code] genom att anropa funktionen [code]pop_front()[/code]. Denna funktion returnerar beställningen, vilket gör att vi kan tilldela den till en tillfällig variabel."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:47
 msgid "We can then append the order to our [code]completed_orders[/code] array."
-msgstr ""
+msgstr "Vi kan sedan lägga till beställningen i vår [code]completed_orders[/code]-array."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:51
 msgid "When we use an array this way, we call it a [i]queue[/i]: the first element we add to the array is the first one we remove. It's like a waiting line at a store."
-msgstr ""
+msgstr "När vi använder en array på det här sättet kallar vi den för en [i]kö (queue)[/i]: det första elementet vi lägger till i arrayen är det första vi tar bort. Det är som en kö i en butik."
 
 #. TRANSLATORS: Note title
 #: course/lesson-23-append-to-arrays/lesson.bbcode:51
 msgid "What does #... mean?"
-msgstr ""
+msgstr "Vad betyder #...?"
 
 #. TRANSLATORS: Note content
 #: course/lesson-23-append-to-arrays/lesson.bbcode:52
 msgid "We write [code]#...[/code] to show that there is more code here. The three dots mean \"we are not showing all the code.\" We use this to break down code examples and make them easier to learn from."
-msgstr ""
+msgstr "Vi skriver [code]#...[/code] för att visa att det finns mer kod här. De tre punkterna betyder ”vi visar inte hela koden”. Vi använder detta för att dela upp kodexempel och göra dem lättare att lära sig av."
 
 #. TRANSLATORS: Note content
 #: course/lesson-23-append-to-arrays/lesson.bbcode:53
 msgid "The hash sign ([code]#[/code]) marks the start of a code comment. It's a line the computer will ignore, which is why it typically appears in grey."
-msgstr ""
+msgstr "Hash-tecknet ([code]#[/code]) markerar början på en kodkommentar. Det är en rad som datorn ignorerar, vilket är anledningen till att den vanligtvis visas i grått."
 
 #. TRANSLATORS: Heading
 #: course/lesson-23-append-to-arrays/lesson.bbcode:57
 msgid "Using arrays as stacks"
-msgstr ""
+msgstr "Att använda arrayer som staplar"
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:63
 msgid "Another common use of arrays is [i]stacks[/i] of data."
-msgstr ""
+msgstr "En annan vanlig användning av arrayer är [i]staplar (stacks)[/i] av data."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:64
 msgid "Take a factory management game where you need to retrieve materials from stacks of crates. They arrive at the factory piled up vertically, and you need to take them from top to bottom."
-msgstr ""
+msgstr "Ta till exempel ett fabrikshanteringsspel där du måste hämta material från staplar med lådor. De anländer till fabriken staplade på höjden, och du måste ta dem från toppen och neråt."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:71
 msgid "To take a crate from the back of the array, this time, we use the [code]pop_back()[/code] array function."
-msgstr ""
+msgstr "För att ta ut en cell längst bak i arrayen använder vi den här gången arrayfunktionen [code]pop_back()[/code]."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:72
 msgid "This function removes (pops) the last value from the array and returns it to you."
-msgstr ""
+msgstr "Den här funktionen tar bort (poppar) det sista värdet från arrayen och returnerar det till dig."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:73
 msgid "Here we pop the last value of the array and print what's left of the array to demonstrate how the array gets smaller."
-msgstr ""
+msgstr "Här tar vi bort det sista värdet ur arrayen och skriver ut det som finns kvar i arrayen för att visa hur arrayen blir mindre."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "Like [code]pop_front()[/code], the function returns the value removed from the array. You will often store that value in a variable. This value could be the crate's content, which you can then use to give resources to the player."
-msgstr ""
+msgstr "Precis som [code]pop_front()[/code] returnerar funktionen det värde som tagits bort från arrayen. Ofta lagrar man det värdet i en variabel. Detta värde kan vara innehållet i lådan, vilket du sedan kan använda för att ge spelaren resurser."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:80
 msgid "When we use an array this way, we call it a [i]stack[/i]: the last element we add is the first one we remove. It's like a pile of plates where you take from the top."
-msgstr ""
+msgstr "När vi använder en array på det här sättet kallar vi den för en [i]stack[/i]: det sista elementet vi lägger till är det första vi tar bort. Det är som en stapel tallrikar där man tar från toppen."
 
 #: course/lesson-23-append-to-arrays/lesson.bbcode:81
 msgid "In the following practices, you will use the [code]append()[/code], [code]pop_front()[/code], and [code]pop_back()[/code] array functions."
-msgstr ""
+msgstr "I följande övningar kommer du att använda arrayfunktionerna [code]append()[/code], [code]pop_front()[/code] och [code]pop_back()[/code]."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "Completing orders"
-msgstr ""
+msgstr "Slutför beställningar"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "The [code]waiting_orders[/code] array starts with four orders waiting to be prepared."
-msgstr ""
+msgstr "Arrayen [code]waiting_orders[/code] innehåller inledningsvis fyra beställningar som väntar på att hanteras."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "Your job is to move orders from the waiting list to the [code]completed_orders[/code] list using the array's [code]append()[/code] and [code]pop_front()[/code] functions."
-msgstr ""
+msgstr "Din uppgift är att flytta order från väntelistan till listan [code]completed_orders[/code] med hjälp av arrayens funktioner [code]append()[/code] och [code]pop_front()[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "I will call the [code]complete_current_order()[/code] function once for each order. It means the function will run four times in total, once per order."
-msgstr ""
+msgstr "Jag kommer att anropa funktionen [code]complete_current_order()[/code] en gång för varje beställning. Det innebär att funktionen kommer att köras totalt fyra gånger, en gång per beställning."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "Remember that the array's [code]pop_front()[/code] function returns the popped value, which allows you to store it in a variable and then pass it to another function."
-msgstr ""
+msgstr "Kom ihåg att arrayens funktion [code]pop_front()[/code] returnerar det värde som har tagits bort, vilket gör att du kan lagra det i en variabel och sedan skicka det vidare till en annan funktion."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "Orders are piling up in the kitchen, and we need to clear them fast using the array's [code]pop_front()[/code] function."
-msgstr ""
+msgstr "Beställningarna hopar sig i köket, och vi måste beta av dem snabbt med hjälp av arrayens funktion [code]pop_front()[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "You first need to pop the first value from the pending orders array. To pop a value from the front of an array, you call [code]array.pop_front()[/code]."
-msgstr ""
+msgstr "Du måste först ta bort det första värdet från arrayen med väntande order. För att ta bort ett värde från början av en array anropar du [code]array.pop_front()[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "You then need to append the popped value to the completed_orders array. To append a value to an array, you can call [code]array.append()[/code]."
-msgstr ""
+msgstr "Därefter måste du lägga till det värde som hämtats ur högen i arrayen `completed_orders`. För att lägga till ett värde i en array kan du använda [code]array.append()[/code]."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Clearing up the crates"
-msgstr ""
+msgstr "Rensa undan lådorna"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Crates are piling up on the platform. Move them out of the way by popping them from the [code]crates[/code] array."
-msgstr ""
+msgstr "Lådorna staplas upp på perrongen. Flytta undan dem genom att ta bort dem från arrayen [code]crates[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "You need to remove them from top to bottom using the array's [code]pop_back()[/code] function."
-msgstr ""
+msgstr "Du måste ta bort dem uppifrån och ner med hjälp av arrayens funktion [code]pop_back()[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Your code should remove all the crates in the array using a while loop."
-msgstr ""
+msgstr "Din kod ska ta bort alla crates i arrayen med hjälp av en while-slinga."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "[b]Careful![/b] If you write the while loop incorrectly, you can freeze the program."
-msgstr ""
+msgstr "[b]Se upp![/b] Om du skriver while-slingan felaktigt kan programmet hänga sig."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "You can check if the [code]crates[/code] array still has values by writing [code]while crates:[/code]. This works because an empty array counts as [code]false[/code], and an array with items counts as [code]true[/code]."
-msgstr ""
+msgstr "Du kan kontrollera om arrayen [code]crates[/code] fortfarande innehåller värden genom att skriva [code]while crates:[/code]. Detta fungerar eftersom en tom array räknas som [code]false[/code], medan en array med element i räknas som [code]true[/code]."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Crates are piling up on the platform. Move them out of the way by popping them from their array."
-msgstr ""
+msgstr "Lådorna staplas upp på perrongen. Flytta undan dem genom att ta bort dem från arrayen."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Think about how [code]while[/code] loops work."
-msgstr ""
+msgstr "Fundera på hur [code]while[/code]-slingor fungerar."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "Every time you [code]pop[/code] an item, the array's [code]size[/code] gets smaller."
-msgstr ""
+msgstr "Varje gång du [code]pop[/code]ar ett element blir arrayens [code]storlek[/code] mindre."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-23-append-to-arrays/lesson.bbcode:110
 msgid "You can write [code]while crates:[/code] to run code in a loop while there are values in the [code]crates[/code] array."
-msgstr ""
+msgstr "Du kan skriva [code]while crates:[/code] för att köra koden i en slinga så länge det finns värden i arrayen [code]crates[/code]."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-24-access-array-indices/lesson.bbcode:1
 msgid "Accessing values in arrays"
-msgstr ""
+msgstr "Komma åt värden i arrayer"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:5
 msgid "You learned to loop over all the values in an array using the [code]for[/code] keyword."
-msgstr ""
+msgstr "Du har lärt dig att gå igenom alla värden i en array med hjälp av nyckelordet [code]for[/code]."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:13
 msgid "But what if you need to access the third item in the player's inventory? The tenth item?"
-msgstr ""
+msgstr "Men vad händer om du behöver komma åt det tredje föremålet i spelarens inventory? Det tionde föremålet?"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:14
 msgid "There's a dedicated notation to access one element in an array by index."
-msgstr ""
+msgstr "Det finns en särskild notation för att hämta ett element i en array med hjälp av dess index."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:15
 msgid "To do so, you use square brackets with a number inside the brackets."
-msgstr ""
+msgstr "För att göra det använder du hakparenteser med en siffra inuti parenteserna."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:17
 msgid "Index zero is the [i]first[/i] element in the array."
-msgstr ""
+msgstr "Index noll är det [i]första[/i] elementet i arrayen."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:23
 msgid "Index one is the [i]second[/i] element in the array, and so on."
-msgstr ""
+msgstr "Index 1 är det [i]andra[/i] elementet i arrayen, och så vidare."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:24
 msgid "You would access the [i]fourth[/i] element in the [code]inventory[/code] array like so."
-msgstr ""
+msgstr "Så här hämtar du det [i]fjärde[/i] elementet i arrayen [code]inventory[/code]."
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-24-access-array-indices/lesson.bbcode:25
 msgid "How would you access the [i]third[/i] item in the [code]inventory[/code] array?"
-msgstr ""
+msgstr "Hur skulle man komma åt det [i]tredje[/i] elementet i arrayen [code]inventory[/code]?"
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-24-access-array-indices/lesson.bbcode:25
 msgid "Indices start at zero, so the index of the [i]third[/i] item is [code]2[/code]. That's why you need to write [code]inventory[2][/code]."
-msgstr ""
+msgstr "Index börjar på noll, så indexet för det [i]tredje[/i] objektet är [code]2[/code]. Därför måste du skriva [code]inventory[2][/code]."
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-24-access-array-indices/lesson.bbcode:25
 msgid "inventory[2]"
-msgstr ""
+msgstr "inventory[2]"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-24-access-array-indices/lesson.bbcode:25
 msgid "inventory[3]"
-msgstr ""
+msgstr "inventory[3]"
 
 #. TRANSLATORS: Heading
 #: course/lesson-24-access-array-indices/lesson.bbcode:31
 msgid "Accessing the last values with negative indices"
-msgstr ""
+msgstr "Hämta de sista värdena med negativa index"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:37
 msgid "What if you want to access the last or second-before-last item in the [code]inventory[/code]?"
-msgstr ""
+msgstr "Vad händer om du vill komma åt det sista eller näst sista objektet i [code]inventory[/code]?"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:38
 msgid "In that case, you can use negative indices. If you write [code]-1[/code] in the brackets, you will get the last item in the array. You will get the second-to-last item if you write [code]-2[/code]."
-msgstr ""
+msgstr "I så fall kan du använda negativa index. Om du skriver [code]-1[/code] inom parenteserna får du det sista elementet i arrayen. Du får det näst sista elementet om du skriver [code]-2[/code]."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:41
 msgid "That's very convenient when you need to quickly access elements from the end of the list."
-msgstr ""
+msgstr "Det är väldigt praktiskt när man snabbt behöver komma åt element längst bak i listan."
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-24-access-array-indices/lesson.bbcode:41
 msgid "How would you access the third-to-last item in the inventory array?"
-msgstr ""
+msgstr "Hur skulle du komma åt det tredje sista elementet i inventory-arrayen?"
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-24-access-array-indices/lesson.bbcode:41
 msgid "When using negative indices, [code]-1[/code] means the [i]last[/i] element in the array. Index [code]-2[/code] will be the second-to-last, thus [code]-3[/code] will be the third-to-last."
-msgstr ""
+msgstr "När man använder negativa index betyder [code]-1[/code] det [i]sista[/i] elementet i arrayen. Index [code]-2[/code] är det näst sista, och [code]-3[/code] är alltså det tredje sista."
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-24-access-array-indices/lesson.bbcode:41
 msgid "It can be a little confusing as it seems to work differently from positive indices. However, it's because there's no difference between index [code]0[/code] and [code]-0[/code]: they both point to the first item in the array."
-msgstr ""
+msgstr "Det kan kännas lite förvirrande eftersom det verkar fungera annorlunda än positiva index. Det beror helt enkelt på att det inte finns någon skillnad mellan index [code]0[/code] och [code]-0[/code]: båda pekar på det första elementet i arrayen."
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-24-access-array-indices/lesson.bbcode:41
 msgid "inventory[-3]"
-msgstr ""
+msgstr "inventory[-3]"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-24-access-array-indices/lesson.bbcode:41
 msgid "inventory[-2]"
-msgstr ""
+msgstr "inventory[-2]"
 
 #. TRANSLATORS: Heading
 #: course/lesson-24-access-array-indices/lesson.bbcode:49
 msgid "You can't access non-existent indices"
-msgstr ""
+msgstr "Du kan inte komma åt index som inte finns"
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:57
 msgid "There's a catch with this syntax: if you try to access an index that does not exist, you will get an error. You have to be careful always to access existing elements in the array."
-msgstr ""
+msgstr "Det finns en hake med den här syntaxen: om du försöker komma åt ett index som inte finns kommer du att få ett felmeddelande. Du måste alltid se till att endast komma åt element som faktiskt finns i arrayen."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:58
 msgid "There are a couple of ways you can check for valid indices. One of them is checking the array's size."
-msgstr ""
+msgstr "Det finns flera sätt att kontrollera om indexen är giltiga. Ett av dem är att kontrollera arrayens storlek."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:59
 msgid "[b]Checking the size of the array[/b]"
-msgstr ""
+msgstr "[b]Kontrollera arrayens storlek[/b]"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-24-access-array-indices/lesson.bbcode:60
 msgid "Arrays come with a [glossary term=\"member function\"]member function[/glossary] named [code]size()[/code]. You can call it on the array anytime to know its [i]current[/i] size."
-msgstr ""
+msgstr "Arrayer har en [glossary term=\"member function\"]medlemsfunktion[/glossary] som heter [code]size()[/code]. Du kan anropa den på arrayen när som helst för att ta reda på dess [i]nuvarande[/i] storlek."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:63
 msgid "The maximum index you can access in an array is [code]array.size() - 1[/code]: it's the last item in the array."
-msgstr ""
+msgstr "Det högsta indexet du kan komma åt i en array är [code]array.size() - 1[/code]: det är det sista elementet i arrayen."
 
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "In the following practices, you will use array indices to realign train tracks and grab the correct item in an inventory."
-msgstr ""
+msgstr "I följande övningar kommer du att använda index i arrayer för att justera järnvägsspåren och hämta rätt föremål från inventoryn."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "Using the right items"
-msgstr ""
+msgstr "Att använda rätt saker"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "In our game, the player has an inventory that works as an array under the hood."
-msgstr ""
+msgstr "I vårt spel har spelaren en inventory som i bakgrunden fungerar som en array."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "The player knows they have a sword and a shield somewhere in their inventory, but they don't remember exactly where."
-msgstr ""
+msgstr "Spelaren vet att hen har ett svärd och ett sköld någonstans i sin inventory, men hen minns inte exakt var."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "You can see the inventory drawn on the right, along with the index of each item in the inventory."
-msgstr ""
+msgstr "Till vänster ser du inventoryn, tillsammans med indexet för varje objekt i inventoryn."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "Your task is to find one sword and one shield in the array using their index, then call [code]use_item()[/code] on each of them so the player can equip those items."
-msgstr ""
+msgstr "Din uppgift är att hitta ett svärd och en sköld i arrayen med hjälp av deras index och sedan anropa [code]use_item()[/code] för var och en av dem så att spelaren kan utrusta sig med dessa föremål."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "For example, if the first item in the array is what you need, you would call [code]use_item(inventory[0])[/code]."
-msgstr ""
+msgstr "Om du till exempel behöver det första objektet i arrayen skulle du anropa [code]use_item(inventory[0])[/code]."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "Find the right items to use in the player's inventory, using their index."
-msgstr ""
+msgstr "Hitta rätt föremål att använda i spelarens inventory med hjälp av indexet."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "Use the function [code]use_item(inventory[index])[/code], where [code]index[/code] is the position of an item in the [code]inventory[/code] array"
-msgstr ""
+msgstr "Använd funktionen [code]use_item(inventory[index])[/code], där [code]index[/code] är ett föremåls position i arrayen [code]inventory[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "Use [code]square brackets[/code] to access specific array indices"
-msgstr ""
+msgstr "Använd [code]hakparenteser[/code] för att komma åt specifika index i en array"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 msgid "Realigning the train tracks"
-msgstr ""
+msgstr "Justering av järnvägsspåren"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 msgid "We have train tracks broken down into little chunks in our game. We use them to make modular tracks and draw circuits of all shapes and sizes."
-msgstr ""
+msgstr "I vårt spel är järnvägsspåren uppdelade i små bitar. Vi använder dem för att bygga modulära spår och rita banor i alla möjliga former och storlekar."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 msgid "However, several chunks are misaligned. You need to find them in the [code]tracks[/code] array and pass them to the [code]align()[/code] function."
-msgstr ""
+msgstr "Flera block är dock feljusterade. Du måste hitta dem i arrayen [code]tracks[/code] och skicka dem till funktionen [code]align()[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 msgid "To do so, you need to access the array by index."
-msgstr ""
+msgstr "För att göra det måste du hämta elementet i arrayen med hjälp av indexet."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 msgid "This time, though, you need to access them with [i]negative indices[/i]."
-msgstr ""
+msgstr "Den här gången behöver du hämta dem med [i]negativa index[/i]."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 msgid "Some chunks of our train tracks are misaligned, and the train can't pass. Find the faulty pieces and realign them."
-msgstr ""
+msgstr "Vissa delar av våra järnvägsspår ligger snett, och tåget kan inte passera. Hitta de felaktiga delarna och justera dem så att de ligger rakt."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 msgid "The syntax to access an item by index in an array uses square brackets with a number in between right after the array name. For example, write [code]tracks[-1][/code] to access the [i]last[/i] element in the array."
-msgstr ""
+msgstr "Syntaxen för att komma åt ett element i en array via indexet består av hakparenteser med en siffra mellan dem, direkt efter arrayens namn. Skriv till exempel [code]tracks[-1][/code] för att komma åt det [i]sista[/i] elementet i arrayen."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-24-access-array-indices/lesson.bbcode:93
 msgid "To align the second chunk, call [code]align(tracks[-3])[/code]. You need to call the same function another two times with the other chunks."
-msgstr ""
+msgstr "För att justera den andra biten, anropa [code]align(tracks[-3])[/code]. Du måste anropa samma funktion ytterligare två gånger för de övriga bitarna."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:1
 msgid "Creating Dictionaries"
-msgstr ""
+msgstr "Skapa lexikon"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:7
 msgid "In the last lesson, we used an array to represent a player's inventory."
-msgstr ""
+msgstr "I förra lektionen använde vi en array för att representera en spelares inventory."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:8
 msgid "With just an array of item names, though, we can't easily keep track of the amount of each item."
-msgstr ""
+msgstr "Men med bara en array av namn på saker är det svårt att hålla reda på antalet av varje sak."
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:9
 msgid "Instead, we can bundle the item names and amounts into a single [glossary term=\"dictionary\"]dictionary[/glossary]."
-msgstr ""
+msgstr "Istället kan vi samla namnen och beloppen i ett enda [glossary term=\"dictionary\"]lexikon (dictionary)[/glossary]."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:10
 msgid "A dictionary is a data structure that allows you to map pairs of values. In the pair, we call the first value a [i]key[/i] as we use it to access the second."
-msgstr ""
+msgstr "En ordbok är en datastruktur som gör det möjligt att koppla ihop par av värden. I varje par kallar vi det första värdet för en [i]nyckel (key)[/i], eftersom vi använder det värdet för att komma åt det andra värdet."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:11
 msgid "In other words, a dictionary has a list of [i]keys[/i], and each key points to a [i]value[/i]."
-msgstr ""
+msgstr "Med andra ord innehåller ett lexikon en lista med [i]nycklar[/i], och varje nyckel pekar på ett [i]värde[/i]."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:12
 msgid "To define a dictionary, we use curly brackets. A colon separates each key and its value. A comma separates each key and value pair."
-msgstr ""
+msgstr "För att definiera ett lexikon använder vi klammer. Ett kolon skiljer varje nyckel från dess värde. Ett komma skiljer varje nyckel- och värdepar åt."
 
 #. TRANSLATORS: Heading
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:17
 msgid "Dictionaries can hold any values"
-msgstr ""
+msgstr "Lexikon kan innehålla vilka värden som helst"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:23
 msgid "Dictionaries can map about any value to any other value."
-msgstr ""
+msgstr "Lexikon kan koppla ihop i stort sett vilket värde som helst med vilket annat värde som helst."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:24
 msgid "For example, we can use the name of an item as a key and the amount as the corresponding value. This makes dictionaries excellent for keeping track of a player's inventory."
-msgstr ""
+msgstr "Vi kan till exempel använda namnet på ett föremål som nyckel och antalet som motsvarande värde. Detta gör att lexikon är utmärkta för att hålla reda på en spelares inventory."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:29
 msgid "Here we matched the name (a string) to the amount (a number). But a key could be a string, a number, or even a vector!"
-msgstr ""
+msgstr "Här har vi kopplat ihop namnet (en sträng) med beloppet (ett tal). Men en nyckel kan vara en sträng, ett tal eller till och med en vektor!"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:30
 msgid "Although we can have all of these different keys, keep in mind that every key has to be [i]unique[/i]. That means we [i]couldn't[/i] have a dictionary like the following."
-msgstr ""
+msgstr "Även om vi kan ha alla dessa olika nycklar, måste man komma ihåg att varje nyckel måste vara [i]unik[/i]. Det innebär att vi [i]inte[/i] kan ha ett lexikon som i exemplet nedan."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:33
 msgid "We would get the following error."
-msgstr ""
+msgstr "Då skulle vi få följande felmeddelande."
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:35
 msgid "In the above example, which key would cause an error?"
-msgstr ""
+msgstr "Vilken nyckel skulle orsaka ett fel i ovanstående exempel?"
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:35
 msgid "The key [code]\"healing heart\"[/code] appears [b]twice[/b] in the dictionary."
-msgstr ""
+msgstr "Ordet [code]\"healing heart\"[/code] förekommer [b]två gånger[/b] i lexikonet."
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:35
 msgid "In the above example, Godot wouldn't know whether to return [code]3[/code] or [code]8[/code] when using [code]inventory[\"healing heart\"][/code]. This is why keys need to be unique."
-msgstr ""
+msgstr "I exemplet ovan skulle Godot inte veta om det ska returnera [code]3[/code] eller [code]8[/code] när man använder [code]inventory[\"healing heart\"][/code]. Det är därför nycklarna måste vara unika."
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:35
 msgid "\"healing heart\""
-msgstr ""
+msgstr "\"healing heart\""
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:35
 msgid "\"shield\""
-msgstr ""
+msgstr "\"shield\""
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:35
 msgid "\"sword\""
-msgstr ""
+msgstr "\"sword\""
 
 #. TRANSLATORS: Note title
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:44
 msgid "How dictionaries work under the hood"
-msgstr ""
+msgstr "Hur lexikon fungerar ”under huven”"
 
 #. TRANSLATORS: Note content
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:45
 msgid "Dictionaries are also called mappings or [i]associative arrays[/i]. Under the hood, they use arrays and several functions to efficiently store and retrieve values across arrays."
-msgstr ""
+msgstr "Lexikon kallas även mappningar eller [i]associativa arrayer[/i]. I bakgrunden använder de arrayer och flera funktioner för att på ett effektivt sätt lagra och hämta värden från arrayer."
 
 #. TRANSLATORS: Note content
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:46
 msgid "Precisely, dictionaries use a [i]hashing algorithm[/i]. Hashing algorithms convert one value into another."
-msgstr ""
+msgstr "Mer exakt använder lexikon en [i]hashalgoritm[/i]. Hashalgoritmer omvandlar ett värde till ett annat."
 
 #. TRANSLATORS: Note content
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:47
 msgid "In this case, hashing consists of converting a given key into a whole number. The dictionary then uses that number as an array's index!"
-msgstr ""
+msgstr "I det här fallet innebär hashing att en given nyckel omvandlas till ett heltal. Ordlistan använder sedan det talet som index i en array!"
 
 #. TRANSLATORS: Note content
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:48
 msgid "That's how a dictionary works: when you give it a key, it converts it into a index and uses that index to retrieve the corresponding value in the computer's memory."
-msgstr ""
+msgstr "Så fungerar ett lexikon: när man matar in en nyckel omvandlar lexikonet nyckeln till ett index och använder det indexet för att hämta motsvarande värde ur datorns minne."
 
 #. TRANSLATORS: Note content
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:49
 msgid "That's also why you can't have the same key twice: it would map to the same array index, causing you to overwrite an existing value."
-msgstr ""
+msgstr "Det är därför du inte kan använda samma nyckel två gånger: den skulle peka på samma index i arrayen, vilket skulle leda till att du skriver över ett befintligt värde."
 
 #. TRANSLATORS: Heading
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:56
 msgid "Accessing values"
-msgstr ""
+msgstr "Åtkomst till värden"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:60
 msgid "We access the value of keys by writing the dictionary name, with the key in between square brackets."
-msgstr ""
+msgstr "Vi hämtar värdet för nycklarna genom att skriva lexikonnamnet med nyckeln inom hakparenteser."
 
 #. TRANSLATORS: Quiz question
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:64
 msgid "How would you access how many gems the player has?"
-msgstr ""
+msgstr "Hur skulle man kunna ta reda på hur många ädelstenar (gems) spelaren har?"
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:64
 msgid "We need to make sure the key is the same as we defined in the dictionary."
-msgstr ""
+msgstr "Vi måste se till att nyckeln stämmer överens med den vi har definierat i ordlistan."
 
 #. TRANSLATORS: Quiz explanation
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:64
 msgid "In our case, [code]var item_count = inventory[\"gems\"][/code] is correct."
-msgstr ""
+msgstr "I vårt fall är [code]var item_count = inventory[\"gems\"][/code] korrekt."
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:64
 msgid "var item_count = inventory[\"gem\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"gem\"]"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:64
 msgid "var item_count = inventory[\"gems\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"gems\"]"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:64
 msgid "var item_count = inventory[\"sword\"]"
-msgstr ""
+msgstr "var item_count = inventory[\"sword\"]"
 
 #. TRANSLATORS: Heading
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:73
 msgid "Changing values"
-msgstr ""
+msgstr "Ändra värden"
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:77
 msgid "We can also change values directly, which is useful in our case for adding or removing items from the player's inventory."
-msgstr ""
+msgstr "Vi kan också ändra värden direkt, vilket i vårt fall är praktiskt när vi ska lägga till eller ta bort föremål från spelarens inventory."
 
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 msgid "In the following practices, we'll use a dictionary to create a player inventory and create a function to change the value of items."
-msgstr ""
+msgstr "I de följande övningarna ska vi använda en ordlista för att skapa en spelares inventory och skapa en funktion för att ändra värdet på föremålen."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 msgid "Creating an inventory using a dictionary"
-msgstr ""
+msgstr "Skapa en inventory med hjälp av ett lexikon"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 msgid "Let's give some items to the player."
-msgstr ""
+msgstr "Låt oss ge spelaren några föremål."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 msgid "We use a dictionary for the player's inventory. We defined the [code]inventory[/code] variable for you, but it contains no items yet."
-msgstr ""
+msgstr "Vi använder ett lexikon för spelarens inventory. Vi har definierat variabeln [code]inventory[/code] åt dig, men den innehåller inga föremål ännu."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 msgid "Give the player the following items by adding the correct keys and values to the dictionary:"
-msgstr ""
+msgstr "Ge spelaren följande föremål genom att lägga till rätt nycklar och värden i lexikonet:"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
@@ -6164,619 +6110,622 @@ msgid ""
 "- Nine \"gems\".\n"
 "- One \"sword\"."
 msgstr ""
+"- Tre \"healing heart\".\n"
+"- Nio \"gems\".\n"
+"- Ett \"sword\"."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 msgid "The keys should be text strings, and the values whole numbers."
-msgstr ""
+msgstr "Nycklarna ska vara textsträngar och värdena heltal."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 msgid "Collecting items is fun, but we need a good way to store them. Write a dictionary to display the player's items."
-msgstr ""
+msgstr "Det är roligt att samla föremål, men vi behöver ett bra sätt att förvara dem på. Skriv ett lexikon som visar spelarens föremål."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 msgid "Don't forget to add commas to separate each key and value pair."
-msgstr ""
+msgstr "Glöm inte att sätta in kommatecken för att skilja varje nyckel- och värdepar åt."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:83
 msgid "To define a key and give it an item count, use [code]\"item name\" : number[/code]."
-msgstr ""
+msgstr "För att definiera en nyckel och ange antalet objekt för den använder du [code]\"objektnamn\" : antal[/code]."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 msgid "Increasing item counts"
-msgstr ""
+msgstr "Ökande antal föremål"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 msgid "We want to change the item counts in the player's inventory whenever the player picks up or uses an item."
-msgstr ""
+msgstr "Vi vill ändra antalet föremål i spelarens inventory varje gång spelaren plockar upp eller använder ett föremål."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 msgid "We've started the [code]add_item()[/code] function for you."
-msgstr ""
+msgstr "Vi har inlett funktionen [code]add_item()[/code] åt dig."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 msgid "The [code]inventory[/code] dictionary should use the [code]item_name[/code] parameter as the key to access its values, and we should increase the value by [code]amount[/code]."
-msgstr ""
+msgstr "Lexikonet [code]inventory[/code] bör använda parametern [code]item_name[/code] som nyckel för att komma åt dess värden, och vi bör öka värdet med [code]amount[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 msgid "To test this practice, we'll use your [code]add_item()[/code] function to increase the item count of Healing Heart, Gems, and Sword."
-msgstr ""
+msgstr "För att testa den här metoden ska vi använda din funktion [code]add_item()[/code] för att öka antalet av föremålen Healing Heart, Gems och Sword."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 msgid "The player might walk over a pick-up or find something in a chest, so we need a way to change the item counts in our inventory."
-msgstr ""
+msgstr "Spelaren kan hitta något som ligger på marken eller i en kista, så vi behöver ett sätt att ändra antalet föremål i vårt inventarium."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 msgid "You can access the value in the [code]inventory[/code] dictionary by using [code]inventory[item_name][/code]"
-msgstr ""
+msgstr "Du kan hämta värdet i ordlistan [code]inventory[/code] genom att använda [code]inventory[item_name][/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:110
 msgid "Remember to add [code]amount[/code] to the value. You can do this directly with [code]+=[/code]"
-msgstr ""
+msgstr "Kom ihåg att lägga till [code]amount[/code] till värdet. Du kan göra detta direkt med [code]+=[/code]"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:1
 msgid "Looping over dictionaries"
-msgstr ""
+msgstr "Iterera över lexikon"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:7
 msgid "You can loop over dictionaries, just like you learned to loop over arrays. When you loop over a dictionary, you get its keys one by one. You can then use each key to get its value."
-msgstr ""
+msgstr "Du kan gå igenom lexikon i en slinga, precis som du har lärt dig att göra med arrayer. När du går igenom ett lexikon i en slinga hämtar du dess nycklar en efter en. Du kan sedan använda varje nyckel för att hämta dess värde."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:8
 msgid "Let's see how this works with two examples."
-msgstr ""
+msgstr "Låt oss se hur det här fungerar med två exempel."
 
 #. TRANSLATORS: Heading
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:7
 msgid "Displaying an inventory's content"
-msgstr ""
+msgstr "Visa innehållet i en inventory"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:15
 msgid "To display the player's inventory, you need to know what it contains: the name and amount of each item."
-msgstr ""
+msgstr "För att visa spelarens inventory måste du veta vad den innehåller: namnet och antalet för varje föremål."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:16
 msgid "To do this, you loop over the dictionary and process each key-value pair one at a time."
-msgstr ""
+msgstr "För att göra detta går man igenom ordlistan i en slinga och behandlar varje nyckel-värdepar ett åt gången."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:17
 msgid "You can get the list of all the keys in a dictionary by calling its [code]keys()[/code] function."
-msgstr ""
+msgstr "Du kan hämta en lista över alla nycklar i en ordbok genom att anropa lexikonets [code]keys()[/code]-funktion."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:21
 msgid "Looping over dictionary keys is so common that GDScript gives you a shortcut."
-msgstr ""
+msgstr "Att gå igenom nycklarna i ett lexikon är så vanligt att GDScript erbjuder en genväg för detta."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:22
 msgid "You can write the dictionary variable name directly after the [code]in[/code] keyword in a [code]for[/code] loop. GDScript automatically loops over the dictionary's keys."
-msgstr ""
+msgstr "Du kan skriva namnet på ordboksvariabeln direkt efter nyckelordet [code]in[/code] i en [code]for[/code]-slinga. GDScript går automatiskt igenom lexikonets nycklar i en slinga."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:29
 msgid "Remember: the name after the [code]for[/code] keyword is a variable name you choose yourself. You could call it [code]item_name[/code], [code]item[/code], [code]key[/code], or anything else. This variable holds one key at a time as the loop runs."
-msgstr ""
+msgstr "Kom ihåg: namnet efter nyckelordet [code]for[/code] finns en variabel som du själv väljer. Du kan kalla den [code]item_name[/code], [code]item[/code], [code]key[/code] eller vad som helst annat. Denna variabel lagrar en nyckel i taget medan slingan körs."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:30
 msgid "You can get each value with the syntax [code]dictionary[key][/code], as you learned in the previous lesson."
-msgstr ""
+msgstr "Du kan hämta varje värde med syntaxen [code]lexikon[nyckel][/code], precis som du lärde dig i föregående lektion."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:31
 msgid "So we can loop over the inventory keys, get their values, and display that information on screen."
-msgstr ""
+msgstr "På så sätt kan vi gå igenom lagernycklarna, hämta deras värden och visa denna information på skärmen."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:35
 msgid "Instead of printing the key-value pairs to the output console, we can write and call a function that displays items on the screen."
-msgstr ""
+msgstr "I stället för att skriva ut nyckel-värde-paren till utdatakonsolen kan vi skriva och anropa en funktion som visar posterna på skärmen."
 
 #. TRANSLATORS: Heading
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:39
 msgid "Mapping grid cells to units"
-msgstr ""
+msgstr "Mappning av rutnätsceller till enheter"
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:49
 msgid "You can also use a dictionary to store which units are at which positions on a game board."
-msgstr ""
+msgstr "Du kan också använda ett lexikon för att lagra information om vilka enheter som befinner sig på vilka positioner på spelbrädet."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:50
 msgid "This is how you'd typically code a board game, a grid-based RPG, or a tactical RPG."
-msgstr ""
+msgstr "Så här skulle man vanligtvis programmera ett brädspel, ett rutnätsbaserat RPG eller ett taktiskt RPG."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:51
 msgid "So far, we used [code]String[/code] keys. But GDScript dictionaries can use any type as a key. In this example, we use [code]Vector2[/code] values as keys to represent grid positions."
-msgstr ""
+msgstr "Hittills har vi använt [code]String[/code]-nycklar. Men i GDScript-lexikon kan vilken typ som helst användas som nyckel. I det här exemplet använder vi [code]Vector2[/code]-värden som nycklar för att ange rutnätspositioner."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:52
 msgid "The only rule is that every key in a dictionary must be unique."
-msgstr ""
+msgstr "Den enda regeln är att varje nyckel i ett lexikon måste vara unik."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:53
 msgid "With a [code]for[/code] loop, you can place all the units on the board when a game starts."
-msgstr ""
+msgstr "Med en [code]for[/code]-slinga kan du placera alla pjäser på brädet när spelet startar."
 
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 msgid "In the following practices, you will loop over dictionaries and process their content."
-msgstr ""
+msgstr "I följande övningar ska du gå igenom ordböcker i en loop och bearbeta deras innehåll."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 msgid "Displaying the inventory"
-msgstr ""
+msgstr "Visa inventoryn"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 msgid "We use a dictionary to store the player's inventory. The keys are item names, and the values are how many of each item the player has."
-msgstr ""
+msgstr "Vi använder ett lexikon för att lagra spelarens inventory. Nycklarna är föremålens namn, och värdena anger hur många av varje föremål spelaren har."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 msgid "Loop over the dictionary and display every item in the inventory."
-msgstr ""
+msgstr "Gå igenom lexikonet och visa varje objekt i inventoryn."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 msgid "Call the [code]display_item()[/code] function for each item. It takes two arguments: the item name and the amount."
-msgstr ""
+msgstr "Anropa funktionen [code]display_item()[/code] för varje föremål. Den tar två argument: föremålsnamnet och antalet."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 msgid "The player's inventory needs to appear on screen. Use a loop to display every item."
-msgstr ""
+msgstr "Spelarens inventory behöver visas på skärmen. Använd en slinga för att visa varje objekt."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 msgid "The [code]display_item()[/code] function needs the item name and its amount. You need to get the amount using the item name as a key in the [code]inventory[/code] dictionary."
-msgstr ""
+msgstr "Funktionen [code]display_item()[/code] kräver föremålets namn och antalet. Du måste hämta antalet genom att använda föremålets namn som nyckel i lexikonet [code]inventory[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:59
 msgid "Inside the for loop, you can get the amount of each item using the syntax [code]inventory[item_name][/code], where [code]item_name[/code] is the loop variable you created after the [code]for[/code] keyword."
-msgstr ""
+msgstr "Inuti for-slingan kan du hämta antalet för varje föremål med hjälp av syntaxen [code]inventory[item_name][/code], där [code]item_name[/code] är den slingvariabel som du skapade efter nyckelordet [code]for[/code]."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 msgid "Placing units on the board"
-msgstr ""
+msgstr "Placera enheter på spelbrädet"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 msgid "We have a dictionary named [code]units[/code]. It maps cell positions on the grid to the type of unit at that position."
-msgstr ""
+msgstr "Vi har en ordlista som heter [code]units[/code]. Den kopplar samman cellernas positioner på rutnätet med vilken typ av enhet som finns på just den positionen."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 msgid "Use a for loop to place every unit on the game board. Call the [code]place_unit()[/code] function for each unit. It takes two arguments: first the cell position, then the unit type."
-msgstr ""
+msgstr "Använd en for-slinga för att placera varje enhet på spelbrädet. Anropa funktionen [code]place_unit()[/code] för varje enhet. Funktionen tar två argument: först cellens position, sedan enhetstypen."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 msgid "At the start of each battle, units need to appear on the game board. Loop over the dictionary to place them."
-msgstr ""
+msgstr "I början av varje strid måste enheterna placeras på spelbrädet. Gå igenom lexikonet för att placera dem."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 msgid "The dictionary keys are cell coordinates. You can use them to access the unit type from the [code]units[/code] dictionary."
-msgstr ""
+msgstr "Lexikonets nycklar är cellkoordinater. Du kan använda dem för att hämta enhetstypen från lexikonet [code]units[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-26-looping-over-dictionaries/lesson.bbcode:86
 msgid "Inside the for loop, you can get a unit's type using the syntax [code]units[cell][/code], where [code]cell[/code] is the loop variable you created after the [code]for[/code] keyword."
-msgstr ""
+msgstr "Inuti for-slingan kan du hämta en enhets typ med hjälp av syntaxen [code]units[cell][/code], där [code]cell[/code] är den slingvariabel som du skapade efter nyckelordet [code]for[/code]."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-27-value-types/lesson.bbcode:1
 msgid "Value types"
-msgstr ""
+msgstr "Värdetyper"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-27-value-types/lesson.bbcode:3
 msgid "In your code, values have a particular [glossary term=\"type\"]type[/glossary]. You have already learned about several: whole numbers, decimal numbers, strings, 2D vectors, arrays, and dictionaries."
-msgstr ""
+msgstr "I din kod har värden en viss [glossary term=\"type\"]typ[/glossary]. Du har redan lärt dig om flera av dem: heltal, decimaltal, strängar, 2D-vektorer, arrayer och lexikon."
 
 #: course/lesson-27-value-types/lesson.bbcode:4
 msgid "The computer uses the type of a value to know which operations and functions you can use with them."
-msgstr ""
+msgstr "Datorn använder värdets typ för att avgöra vilka operationer och funktioner som kan användas med det."
 
 #: course/lesson-27-value-types/lesson.bbcode:5
 msgid "As a result, it's essential to understand types: they are not fully compatible with one another, and misusing them will cause errors."
-msgstr ""
+msgstr "Därför är det viktigt att förstå typerna: de är inte helt kompatibla med varandra, och felaktig användning av dem leder till fel."
 
 #. TRANSLATORS: Heading
 #: course/lesson-27-value-types/lesson.bbcode:9
 msgid "A prime example"
-msgstr ""
+msgstr "Ett bra exempel"
 
 #: course/lesson-27-value-types/lesson.bbcode:13
 msgid "You want to display the player's health in the interface. Your code tracks health as a whole number, a value of type [code]int[/code] (short for integer)."
-msgstr ""
+msgstr "Du vill visa spelarens hälsa i gränssnittet. Din kod hanterar hälsan som ett heltal, ett värde av typen [code]int[/code] (förkortning för integer, heltal)."
 
 #: course/lesson-27-value-types/lesson.bbcode:19
 msgid "However, to display it on the player's screen, the computer wants text: it needs a value of type [code]String[/code]."
-msgstr ""
+msgstr "För att kunna visa det på spelarens skärm behöver datorn dock text: den kräver ett värde av typen [code]String[/code]."
 
 #: course/lesson-27-value-types/lesson.bbcode:20
 msgid "You can concatenate two strings with the [code]+[/code] operator."
-msgstr ""
+msgstr "Du kan sammanfoga två strängar med operatorn [code]+[/code]."
 
 #: course/lesson-27-value-types/lesson.bbcode:23
 msgid "So the following code looks like it could work at first glance."
-msgstr ""
+msgstr "Så vid första anblicken ser följande kod ut som om den skulle kunna fungera."
 
 #: course/lesson-27-value-types/lesson.bbcode:27
 msgid "But when running the code, we get this strange error."
-msgstr ""
+msgstr "Men när vi kör koden får vi det här märkliga felet."
 
 #: course/lesson-27-value-types/lesson.bbcode:33
 msgid "It tells you that you can't add values of type [code]String[/code] and [code]int[/code]: they're incompatible."
-msgstr ""
+msgstr "Det står att du inte kan lägga ihop värden av typen [code]String[/code] och [code]int[/code]: de är oförenliga."
 
 #: course/lesson-27-value-types/lesson.bbcode:34
 msgid "In that case, you need to convert the [code]health[/code] number into a [code]String[/code]."
-msgstr ""
+msgstr "I så fall måste du omvandla [code]health[/code]-värdet till en [code]String[/code]."
 
 #. TRANSLATORS: Heading
 #: course/lesson-27-value-types/lesson.bbcode:33
 msgid "Converting values into strings"
-msgstr ""
+msgstr "Omvandla värden till strängar"
 
 #: course/lesson-27-value-types/lesson.bbcode:39
 msgid "You can get the text representation of a value by calling the [code]str()[/code] function (short for \"string\"). The function returns its argument as a new [code]String[/code]."
-msgstr ""
+msgstr "Du kan hämta textrepresentationen av ett värde genom att anropa funktionen [code]str()[/code] (förkortning för ”string”). Funktionen returnerar sitt argument som en ny [code]String[/code]."
 
 #: course/lesson-27-value-types/lesson.bbcode:40
 msgid "You can use this function whenever you want to turn some number or vector into text."
-msgstr ""
+msgstr "Du kan använda den här funktionen när du vill omvandla ett tal eller en vektor till text."
 
 #: course/lesson-27-value-types/lesson.bbcode:43
 msgid "In this case, it turns the number [code]100[/code] into the string [code]\"100\"[/code]. Or whatever number [code]health[/code] is currently."
-msgstr ""
+msgstr "I det här fallet omvandlas siffran [code]100[/code] till strängen [code]\"100\"[/code]. Eller det värde som [code]health[/code] för närvarande har."
 
 #. TRANSLATORS: Heading
 #: course/lesson-27-value-types/lesson.bbcode:43
 msgid "Converting strings into numbers"
-msgstr ""
+msgstr "Omvandla strängar till tal"
 
 #: course/lesson-27-value-types/lesson.bbcode:49
 msgid "You can also convert strings into whole numbers or decimal numbers using respectively the [code]int()[/code] and [code]float()[/code] functions."
-msgstr ""
+msgstr "Du kan också omvandla strängar till heltal eller decimaltal med hjälp av funktionerna [code]int()[/code] och [code]float()[/code]."
 
 #: course/lesson-27-value-types/lesson.bbcode:50
 msgid "Those functions can convert what the player writes in a text field into a number. For example, the number of potions to sell at once in a shop."
-msgstr ""
+msgstr "Dessa funktioner kan omvandla det som spelaren skriver i ett textfält till ett tal. Till exempel antalet drycker som ska säljas på en gång i en butik."
 
 #. TRANSLATORS: Heading
 #: course/lesson-27-value-types/lesson.bbcode:51
 msgid "Some types are partially compatible"
-msgstr ""
+msgstr "Vissa typer är delvis kompatibla"
 
 #: course/lesson-27-value-types/lesson.bbcode:57
 msgid "Most types are incompatible. For example, you can't directly add or multiply an array with a number."
-msgstr ""
+msgstr "De flesta typer är oförenliga. Man kan till exempel inte direkt addera eller multiplicera en array med ett tal."
 
 #: course/lesson-27-value-types/lesson.bbcode:58
 msgid "However, some types are [i]partially[/i] compatible. For example, you can multiply or divide a vector by a number."
-msgstr ""
+msgstr "Vissa typer är dock [i]delvis[/i] kompatibla. Man kan till exempel multiplicera eller dividera en vektor med ett tal."
 
 #: course/lesson-27-value-types/lesson.bbcode:63
 msgid "It is possible because other developers defined that operation for you under the hood."
-msgstr ""
+msgstr "Det är möjligt eftersom andra utvecklare har definierat den funktionen åt dig bakom kulisserna."
 
 #: course/lesson-27-value-types/lesson.bbcode:64
 msgid "However, you cannot directly add or subtract a number to a vector. You'll get an error. That's why, in earlier lessons, you had to access the sub-variables of [code]position[/code] to add numbers to them."
-msgstr ""
+msgstr "Man kan dock inte direkt addera eller subtrahera ett tal från en vektor. Då får man ett felmeddelande. Det är därför du i tidigare lektioner var tvungen att använda undervariablerna i [code]position[/code] för att lägga till tal till dem."
 
 #. TRANSLATORS: Heading
 #: course/lesson-27-value-types/lesson.bbcode:63
 msgid "A surprising result"
-msgstr ""
+msgstr "Ett överraskande resultat"
 
 #: course/lesson-27-value-types/lesson.bbcode:67
 msgid "Take the following division: [code]3/2[/code]. What result would you expect to get? [code]1.5[/code]?"
-msgstr ""
+msgstr "Ta följande division: [code]3/2[/code]. Vilket resultat skulle du förvänta dig att få? [code]1.5[/code]?"
 
 #: course/lesson-27-value-types/lesson.bbcode:77
 msgid "Well, for the computer, the result of [code]3/2[/code] is [code]1[/code]."
-msgstr ""
+msgstr "Nåväl, för datorn blir resultatet av [code]3/2[/code] [code]1[/code]."
 
 #: course/lesson-27-value-types/lesson.bbcode:78
 msgid "Wait, what?!"
-msgstr ""
+msgstr "Vänta, vadå?!"
 
 #: course/lesson-27-value-types/lesson.bbcode:79
 msgid "That's because, for the computer, the division of two whole numbers should always result in a whole number."
-msgstr ""
+msgstr "Det beror på att en division mellan två heltal, ur datorns synvinkel, alltid ska resultera i ett heltal."
 
 #: course/lesson-27-value-types/lesson.bbcode:80
 msgid "When you divide decimal numbers instead, you will get a decimal number as a result."
-msgstr ""
+msgstr "När du istället dividerar decimaltal får du ett decimaltal som resultat."
 
 #: course/lesson-27-value-types/lesson.bbcode:83
 msgid "Even if it's just a [code]0[/code], adding a decimal place tells the computer we want decimal numbers."
-msgstr ""
+msgstr "Även om det bara är [code]0[/code], så visar en decimalplats för datorn att vi vill ha decimaltal."
 
 #: course/lesson-27-value-types/lesson.bbcode:84
 msgid "This shows you how mindful you need to be with types. Otherwise, you will get unexpected results. It can get pretty serious: number errors can lead to bugs like controls not working as intended or charging the wrong price to players."
-msgstr ""
+msgstr "Detta visar hur noggrann man måste vara med typer. Annars kan man få oväntade resultat. Det kan bli ganska allvarligt: fel i siffrorna kan leda till buggar, till exempel att kontroller inte fungerar som de ska eller att spelarna debiteras fel pris."
 
 #. TRANSLATORS: Heading
 #: course/lesson-27-value-types/lesson.bbcode:83
 msgid "Understanding and mastering types is a key skill for developers"
-msgstr ""
+msgstr "Att förstå och behärska olika typer är en viktig färdighet för utvecklare"
 
 #: course/lesson-27-value-types/lesson.bbcode:93
 msgid "Programming beginners often struggle due to the lack of understanding of types."
-msgstr ""
+msgstr "Nybörjare inom programmering har ofta svårt på grund av bristande förståelse för datatyper."
 
 #: course/lesson-27-value-types/lesson.bbcode:94
 msgid "Languages like GDScript hide the types from you by default. As a result, if you don't understand that some are incompatible, you can get stuck when facing type-related errors."
-msgstr ""
+msgstr "I språk som GDScript döljs typerna vanligtvis för dig. Om du inte inser att vissa typer är oförenliga kan du därför fastna när du stöter på typrelaterade fel."
 
 #: course/lesson-27-value-types/lesson.bbcode:95
 msgid "You'll want to keep that in mind in your learning journey. When writing code, you will need to understand everything that's happening."
-msgstr ""
+msgstr "Det är bra att ha det i åtanke när du lär dig. När du skriver kod måste du förstå allt som händer."
 
 #: course/lesson-27-value-types/lesson.bbcode:96
 msgid "That said, let's practice some type conversions."
-msgstr ""
+msgstr "Med det sagt, låt oss öva på några typkonverteringar."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-27-value-types/lesson.bbcode:93
 msgid "Displaying the player's health and energy"
-msgstr ""
+msgstr "Visar spelarens hälsa och energi"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-27-value-types/lesson.bbcode:93
 msgid "We want to display the player's energy in the user interface."
-msgstr ""
+msgstr "Vi vill visa spelarens energi i användargränssnittet."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-27-value-types/lesson.bbcode:93
 msgid "Currently, our code has a type error. We're trying to display a whole number while the [code]display_energy()[/code] function expects a string."
-msgstr ""
+msgstr "Just nu innehåller vår kod ett typfel. Vi försöker visa ett heltal, medan funktionen [code]display_energy()[/code] förväntar sig en sträng."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-27-value-types/lesson.bbcode:93
 msgid "Using the [code]str()[/code] function, clear the type error and make the energy amount display on the interface."
-msgstr ""
+msgstr "Använd funktionen [code]str()[/code] för att åtgärda typfelet och få energimängden att visas på gränssnittet."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-27-value-types/lesson.bbcode:93
 msgid "You can't change the [code]energy[/code] variable definition: setting it to [code]\"80\"[/code] would break the rest of the game's code. You must convert the value when calling [code]display_energy()[/code]."
-msgstr ""
+msgstr "Du kan inte ändra variabeldefinitionen för [code]energy[/code]: om du sätter den till [code]\"80\"[/code] skulle det orsaka fel i resten av spelets kod. Du måste konvertera värdet när du anropar [code]display_energy()[/code]."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-27-value-types/lesson.bbcode:93
 msgid "We want to display the player's energy in the interface but face a type error. Use your new knowledge to fix it."
-msgstr ""
+msgstr "Vi vill visa spelarens energi i gränssnittet, men stöter på ett typfel. Använd dina nya kunskaper för att åtgärda det."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-27-value-types/lesson.bbcode:116
 msgid "Letting the player type numbers"
-msgstr ""
+msgstr "Att låta spelaren skriva in tal"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-27-value-types/lesson.bbcode:116
 msgid "In our game's shops, we want to let the player type numbers to select the number of items they want to buy or sell."
-msgstr ""
+msgstr "I butikerna i vårt spel vill vi låta spelaren skriva in antal för att välja hur många föremål hen vill köpa eller sälja."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-27-value-types/lesson.bbcode:116
 msgid "We need to know the number of items as an [code]int[/code], but the computer reads the player's input as a [code]String[/code]."
-msgstr ""
+msgstr "Vi behöver veta antalet objekt som ett [code]int[/code], men datorn tolkar spelarens inmatning som en [code]String[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-27-value-types/lesson.bbcode:116
 msgid "Your task is to convert the player's input into numbers for the shop's code to work."
-msgstr ""
+msgstr "Din uppgift är att omvandla spelarens inmatning till siffror så att butikens kod ska fungera."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-27-value-types/lesson.bbcode:116
 msgid "Using the [code]int()[/code] function, convert the player's input into a whole number and store the result in the [code]item_count[/code] variable."
-msgstr ""
+msgstr "Använd funktionen [code]int()[/code] för att omvandla spelarens inmatning till ett heltal och spara resultatet i variabeln [code]item_count[/code]."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-27-value-types/lesson.bbcode:116
 msgid "We want the player to choose the number of items they buy or sell in our game's shops. But right now, all we get are type errors."
-msgstr ""
+msgstr "Vi vill att spelaren ska kunna välja hur många föremål hen vill köpa eller sälja i butikerna i vårt spel. Men just nu får vi bara typfel."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-28-specifying-types/lesson.bbcode:1
 msgid "Specifying types with type hints"
-msgstr ""
+msgstr "Ange typer med typhänvisningar"
 
 #: course/lesson-28-specifying-types/lesson.bbcode:7
 msgid "By default, GDScript is what we call a dynamically-typed language. That means that you can just write variables, assign them a value with a number, and assign them another value with a different type."
-msgstr ""
+msgstr "Som standard är GDScript vad vi kallar ett dynamiskt typat språk. Det innebär att du helt enkelt kan definiera variabler, tilldela dem ett tal och sedan tilldela dem ett annat värde av en annan typ."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:8
 msgid "Unlike in some other languages, in GDScript, the following code is valid."
-msgstr ""
+msgstr "Till skillnad från vissa andra språk är följande kod giltig i GDScript."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:11
 msgid "But this feature often causes problems down the line. Let's take one example."
-msgstr ""
+msgstr "Men den här funktionen leder ofta till problem längre fram. Låt oss ta ett exempel."
 
 #. TRANSLATORS: Heading
 #: course/lesson-28-specifying-types/lesson.bbcode:11
 msgid "Cell size: decimal number, or 2D vector?"
-msgstr ""
+msgstr "Cellstorlek: decimaltal eller 2D-vektor?"
 
 #: course/lesson-28-specifying-types/lesson.bbcode:21
 msgid "Games use grids all the time, be it for grid-based gameplay or to make algorithms faster."
-msgstr ""
+msgstr "Spel använder rutnät hela tiden, vare sig det är för rutnätsbaserat spelande eller för att göra algoritmerna snabbare."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:22
 msgid "When working with grids, you need to convert grid coordinates into positions in the game world all the time. To do so, you give each cell a size in pixels."
-msgstr ""
+msgstr "När man arbetar med rutnät måste man hela tiden omvandla rutnätskoordinater till positioner i spelvärlden. För att göra detta anger man storleken i pixlar för varje cell."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:23
 msgid "You'll likely pick one of two types for that: [code]float[/code] or [code]Vector2[/code], because pixel positions on the screen use [code]Vector2[/code] coordinates."
-msgstr ""
+msgstr "Du kommer troligen att välja en av två typer för detta: [code]float[/code] eller [code]Vector2[/code], eftersom pixelpositionerna på skärmen använder [code]Vector2[/code]-koordinater."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:24
 msgid "Either of those two values would be fine:"
-msgstr ""
+msgstr "Vilket som helst av dessa två värden skulle fungera:"
 
 #: course/lesson-28-specifying-types/lesson.bbcode:25
 msgid "Using a [code]Vector2[/code] could simplify some calculations. For example, when converting grid coordinates to game world coordinates."
-msgstr ""
+msgstr "Att använda en [code]Vector2[/code] kan förenkla vissa beräkningar. Till exempel när man omvandlar rutnätskoordinater till koordinater i spelvärlden."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:31
 msgid "In this example, because both [code]cell[/code] and [code]cell_size[/code] are [code]Vector2[/code] values, we can add them."
-msgstr ""
+msgstr "I det här exemplet kan vi lägga ihop [code]cell[/code] och [code]cell_size[/code], eftersom båda är [code]Vector2[/code]-värden."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:32
 msgid "However, if [code]cell_size[/code] is a [code]float[/code], we will get a type error."
-msgstr ""
+msgstr "Om [code]cell_size[/code] däremot är av typen [code]float[/code], får vi ett typfel."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:39
 msgid "Worse: due to dynamic typing, we won't get an error [i]right away[/i]. We will only get the error when calling [code]grid_to_world(Vector2(1, 1))[/code]."
-msgstr ""
+msgstr "Värre än så: på grund av dynamisk typbestämning får vi inte något felmeddelande [i]direkt[/i]. Felet upptäcks först när vi anropar [code]grid_to_world(Vector2(1, 1))[/code]."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:40
 msgid "And that's a big problem."
-msgstr ""
+msgstr "Och det är ett stort problem."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:45
 msgid "Because we're learning, we only have small code examples in this course. But your games' code will get long and split into many files. When coding, you often forget about the code you wrote several weeks ago."
-msgstr ""
+msgstr "Eftersom vi är i en inlärningsfas har vi bara korta kodexempel i den här kursen. Men koden till dina spel kommer att bli lång och delas upp i många filer. När man programmerar glömmer man ofta bort den kod man skrev för flera veckor sedan."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:46
 msgid "And with a lot of code, it could take [i]hours[/i] of play before players trigger a type error in your code."
-msgstr ""
+msgstr "Och med mycket kod kan det ta [i]timmar[/i] av spelande innan spelarna orsakar ett typfel i din kod."
 
 #. TRANSLATORS: Heading
 #: course/lesson-28-specifying-types/lesson.bbcode:45
 msgid "Using type hints"
-msgstr ""
+msgstr "Använda typangivelser"
 
 #: course/lesson-28-specifying-types/lesson.bbcode:53
 msgid "Fortunately, GDScript has optional [i]type hints[/i]."
-msgstr ""
+msgstr "Lyckligtvis har GDScript valfria [i]typhänvisningar[/i]."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:54
 msgid "Type hints let the computer know the value type you want for variables and report errors before running the code."
-msgstr ""
+msgstr "Med hjälp av typangivelser kan du ange vilken värdetyp du vill att variablerna ska ha, och fel rapporteras innan koden körs."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:55
 msgid "To specify the type a variable can accept, you can write a colon and a type after the name when defining a new variable."
-msgstr ""
+msgstr "För att ange vilken typ en variabel kan ha kan du skriva ett kolon följt av en typ efter namnet när du definierar en ny variabel."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:57
 msgid "You could tell the computer you want [code]cell_size[/code] only to accept [code]Vector2[/code] values like so."
-msgstr ""
+msgstr "Du kan ange för datorn att [code]cell_size[/code] endast ska acceptera [code]Vector2[/code]-värden, på följande sätt."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:61
 msgid "If you try to replace the [code]cell_size[/code] with a value of another type later, the computer will not let you."
-msgstr ""
+msgstr "Om du senare försöker ersätta [code]cell_size[/code] med ett värde av en annan typ kommer datorn inte att tillåta det."
 
 #. TRANSLATORS: Heading
 #: course/lesson-28-specifying-types/lesson.bbcode:65
 msgid "Letting the computer figure it out"
-msgstr ""
+msgstr "Låta datorn lista ut det"
 
 #: course/lesson-28-specifying-types/lesson.bbcode:71
 msgid "GDScript comes with a feature called [i]type inference[/i]. In many cases, but not all, the computer can figure out the type of a variable for you."
-msgstr ""
+msgstr "GDScript har en funktion som kallas [i]typinferens[/i]. I många fall, men inte alla, kan datorn själv avgöra vilken typ en variabel har."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:72
 msgid "To do so, you write [code]:=[/code], without the type. The computer will set the type using the value after the equal sign. We could make [code]cell_size[/code] a variable of type [code]Vector2[/code] like so:"
-msgstr ""
+msgstr "För att göra det skriver du [code]:=[/code], utan att ange typ. Datorn bestämmer typen utifrån värdet efter likhetstecknet. Vi skulle kunna göra [code]cell_size[/code] till en variabel av typen [code]Vector2[/code] på följande sätt:"
 
 #: course/lesson-28-specifying-types/lesson.bbcode:75
 msgid "This takes little typing, yet you get the benefits of using type hints, like the computer reporting errors better and faster."
-msgstr ""
+msgstr "Det kräver lite skrivarbete, men du får ändå fördelarna med att använda typanvisningar, till exempel att datorn kan rapportera fel bättre och snabbare."
 
 #. TRANSLATORS: Heading
 #: course/lesson-28-specifying-types/lesson.bbcode:75
 msgid "Why bother to add hints?"
-msgstr ""
+msgstr "Varför bry sig om att lägga till anvisningar?"
 
 #: course/lesson-28-specifying-types/lesson.bbcode:85
 msgid "When you give the language hints like that, it will [i]prevent[/i] major type errors. When you work in Godot, you will see that the computer can report issues as you write the code. It makes the benefit even greater."
-msgstr ""
+msgstr "När du ger språket sådana anvisningar kommer det att [i]förhindra[/i] allvarliga typfel. När du arbetar i Godot kommer du att märka att datorn kan uppmärksamma problem redan medan du skriver koden. Det gör fördelen ännu större."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:86
 msgid "Type hints can also help improve the readability of your code. It can help to put more information directly in the code. As we saw, types are essential when coding, and when using type hints, the computer will add them to the engine's built-in code documentation system."
-msgstr ""
+msgstr "Typangivelser kan också bidra till att förbättra läsbarheten i din kod. Det kan vara till hjälp att lägga in mer information direkt i koden. Som vi har sett är typer avgörande vid programmering, och när du använder typangivelser lägger datorn till dem i motorns inbyggda system för koddokumentation."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:87
 msgid "There's an incredible third benefit for you: by using type hints, you will learn types much faster. It's excellent for learning."
-msgstr ""
+msgstr "Det finns en fantastisk tredje fördel för dig: genom att använda typvägledningar lär du dig typerna mycket snabbare. Det är perfekt för inlärning."
 
 #: course/lesson-28-specifying-types/lesson.bbcode:88
 msgid "In the following practices, you will write the correct type hints to make the code error-free."
-msgstr ""
+msgstr "I följande övningar ska du skriva korrekta typangivelser för att göra koden felfri."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-28-specifying-types/lesson.bbcode:85
 msgid "Add the correct type hints to variables"
-msgstr ""
+msgstr "Lägg till rätt typangivelser för variablerna"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-28-specifying-types/lesson.bbcode:85
 msgid "Our variables get the correct values but not the right hints. Using your type-fu, add the correct type names in the variable definitions."
-msgstr ""
+msgstr "Våra variabler har rätt värden men inte rätt typangivelser. Använd dina kunskaper om typer och lägg till rätt typnamn i variabeldefinitionerna."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-28-specifying-types/lesson.bbcode:85
 msgid "You need to write the type name between the colon and the equal sign."
-msgstr ""
+msgstr "Du måste skriva typnamnet mellan kolon och likhetstecknet."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-28-specifying-types/lesson.bbcode:85
 msgid "Note: You cannot use type inference in this practice. You need to write the type name in full."
-msgstr ""
+msgstr "Obs! Du kan inte använda typinferens i den här övningen. Du måste skriva ut typnamnet i sin helhet."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-28-specifying-types/lesson.bbcode:85
 msgid "Our variables have the wrong type hints, causing errors. Correct them to make the code run."
-msgstr ""
+msgstr "Våra variabler har felaktiga typangivelser, vilket orsakar fel. Rätta till dem så att koden fungerar."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 msgid "Fix the values to match the type hints"
-msgstr ""
+msgstr "Justera värdena så att de stämmer överens med typangivelserna"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 msgid "It is the other way around in this practice: the type hints are fine, but the values are not."
-msgstr ""
+msgstr "I det här fallet är det tvärtom: typangivelserna är korrekta, men värdena är felaktiga."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 msgid "Your task is to fix the values after the equal sign, so they match the type hint of each variable."
-msgstr ""
+msgstr "Din uppgift är att justera värdena efter likhetstecknet så att de stämmer överens med typangivelsen för respektive variabel."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 msgid "This time, it's the other way around: variables have the correct type hints but the wrong values. Change the values to make the code run."
-msgstr ""
+msgstr "Den här gången är det tvärtom: variablerna har rätt typangivelser men fel värden. Ändra värdena så att koden fungerar."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 msgid "The type [code]float[/code] means decimal number, so you need to write a number with a decimal part, like [code]3.14[/code]."
-msgstr ""
+msgstr "Typen [code]float[/code] avser decimaltal, så du måste skriva ett tal med en decimal, till exempel [code]3.14[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 msgid "The type [code]int[/code] stands for integer or whole number, so you need the value to be a whole number without a decimal part."
-msgstr ""
+msgstr "Typen [code]int[/code] står för heltal, så värdet måste vara ett heltal utan decimaler."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 msgid "The type [code]String[/code] means you need to write a text string, a value surrounded by quotes."
-msgstr ""
+msgstr "Typen [code]String[/code] innebär att du måste skriva en textsträng, det vill säga ett värde som omges av citattecken."
 
 msgid "Learn to Code From Zero with Godot"
 msgstr "Lär dig att programmera från grunden med Godot"
