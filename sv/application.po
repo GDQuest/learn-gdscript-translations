@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-10-04 15:51+0000\n"
+"PO-Revision-Date: 2026-10-07 19:51+0000\n"
 "Last-Translator: Matias Särs <m7s@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/sv/>\n"
 "Language: sv\n"
@@ -22,12 +22,12 @@ msgstr ""
 
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
-msgstr "hälsa = 100"
+msgstr "health = 100"
 
 #: course/common/inventory/DictInventory.tscn
 #: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
 msgid "Inventory"
-msgstr "Ryggsäck"
+msgstr "Inventory"
 
 #: course/common/inventory/DictItem.tscn
 msgid "healing heart"
@@ -108,7 +108,7 @@ msgstr "värde"
 
 #: course/lesson-13-conditions/visuals/ExampleHeal.tscn
 msgid "heal(50)"
-msgstr "hela(50)"
+msgstr "heal(50)"
 
 #: course/lesson-13-conditions/visuals/ExampleHeal.tscn
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleHeal.tscn
@@ -116,12 +116,12 @@ msgid ""
 "func heal(amount):\n"
 "\thealth += amount"
 msgstr ""
-"func hela(mängd):\n"
-"\thälsa += mängd"
+"func heal(amount):\n"
+"\thealth += amount"
 
 #: course/lesson-13-conditions/visuals/ExampleJump.tscn
 msgid "Jump"
-msgstr "Hoppa"
+msgstr "Jump"
 
 #: course/lesson-14-multiplying/visuals/Graph.tscn
 #: course/lesson-16-2d-vectors/visuals/VectorVisual.tscn
@@ -212,12 +212,12 @@ msgid ""
 "\tjump(110, 0)\n"
 "\tdraw_square()"
 msgstr ""
-"func rita_vägg():\n"
-"\trita_kvadrat()\n"
-"\thoppa(110, 0)\n"
-"\trita_kvadrat()\n"
-"\thoppa(110, 0)\n"
-"\trita_kvadrat()"
+"func draw_wall():\n"
+"\tdraw_square()\n"
+"\tjump(110, 0)\n"
+"\tdraw_square()\n"
+"\tjump(110, 0)\n"
+"\tdraw_square()"
 
 #: course/lesson-17-while-loops/visuals/old/ExampleTurtleMeetRobotWhile.tscn
 msgid ""
@@ -228,12 +228,12 @@ msgid ""
 "\t\tjump(110, 0)\n"
 "\t\tnumber += 1"
 msgstr ""
-"func rita_vägg():\n"
-"\tvar nummer = 0\n"
-"\twhile nummer < 3:\n"
-"\t\trita_kvadrat()\n"
-"\t\thoppa(110, 0)\n"
-"\t\tnummer += 1"
+"func draw_wall():\n"
+"\tvar number = 0\n"
+"\twhile number < 3:\n"
+"\t\tdraw_square()\n"
+"\t\tjump(110, 0)\n"
+"\t\tnumber += 1"
 
 #: course/lesson-19-creating-arrays/visuals/ArrayDefinitionSyntax.tscn
 #: course/lesson-24-access-array-indices/visuals/SyntaxAccessIndex.tscn
@@ -268,7 +268,7 @@ msgstr "]"
 #: course/lesson-2-your-first-error/ErrorExample.tscn
 #: course/lesson-2-your-first-error/ErrorTranslatorExample.tscn
 msgid "The function \"move\" already exists in this class (at line 22)."
-msgstr "Funktionen \"move| finns redan i den här klassen (på rad 22)."
+msgstr "The function \"move\" already exists in this class (at line 22)."
 
 #: course/lesson-21-strings/string_error/StringError.tscn
 msgid "INVALID NAME"
@@ -292,7 +292,7 @@ msgstr "Robot"
 
 #: course/lesson-22-functions-return-values/visuals/ExampleRoundingHealth.tscn
 msgid "Health: "
-msgstr "Hälsa: "
+msgstr "Health: "
 
 #: course/lesson-23-append-to-arrays/clearing-meals/ClearingMeals.tscn
 #: course/lesson-23-append-to-arrays/visuals/OrderMeals.tscn
@@ -423,12 +423,13 @@ msgid ""
 "func take_damage(amount):\n"
 "\thealth -= amount"
 msgstr ""
-"func ta_skada(mängd):\n"
-"\thälsa -= mängd"
+"func take_damage(amount):\n"
+"\thealth -= amount"
 
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleHeal.tscn
+#, fuzzy
 msgid "heal(25)"
-msgstr "hela(25)"
+msgstr "heal(25)"
 
 #: ui/UILesson.tscn
 msgid "Title"
@@ -623,7 +624,7 @@ msgstr "Expandera"
 
 #: ui/components/RunnableCodeExample.tscn
 msgid "run()"
-msgstr "kör()"
+msgstr "run()"
 
 #: ui/components/RunnableCodeExample.tscn
 msgid "step"
@@ -1112,7 +1113,7 @@ msgstr "Hoppa över"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
 msgid "Submit"
-msgstr "Skicka in"
+msgstr "Svara"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
 msgid "You're right!"
@@ -1740,7 +1741,7 @@ msgstr "Minst en av rektanglarna har inte den förväntade storleken."
 
 #: course/lesson-20-looping-over-arrays/drawing-in-loops/TestsDrawingInLoops.gd:62
 msgid "At least two drawn shape intersect. Did you pass arguments big enough to the jump() function?"
-msgstr "Minst två ritade figurer skär varandra. Har du angett tillräckligt stora argument till funktionen hoppa()?"
+msgstr "Minst två ritade figurer skär varandra. Har du angett tillräckligt stora argument till funktionen jump()?"
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:18
 msgid "Robot Moves Along Blue Path"
