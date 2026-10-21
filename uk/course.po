@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-10-20 18:51+0000\n"
-"Last-Translator: Dima Sukharchuk <miavushok@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-10-22 06:51+0000\n"
+"Last-Translator: Андріана <zkandriana@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -3331,12 +3331,12 @@ msgstr "Ой, ой! Тут щось не так. Ви можете це випр
 #. TRANSLATORS: Practice hint
 #: course/lesson-12-using-variables/lesson.bbcode:107
 msgid "You need to make [code]angular_speed[/code] script-wide so it's available to all functions"
-msgstr ""
+msgstr "Вам потрібно зробити [code]angular_speed[/code] доступною для всього скрипту, щоб її бачили всі функції"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-12-using-variables/lesson.bbcode:107
 msgid "Define [code]angular_speed[/code] at the top of the script instead"
-msgstr ""
+msgstr "Замість цього визначте [code]angular_speed[/code] на початку скрипта"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-13-conditions/lesson.bbcode:1
@@ -3914,7 +3914,7 @@ msgstr "Ми хочемо, щоб наш робот ставав сильніш�
 #. TRANSLATORS: Practice hint
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid "To increase a number by 10%, multiply it by [code]1.1[/code]"
-msgstr ""
+msgstr "Щоб збільшити число на 10%, помножте його на [code]1.1[/code]"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-14-multiplying/lesson.bbcode:112
@@ -3949,7 +3949,7 @@ msgstr "На вищих рівнях ми хочемо, щоб наш робот
 #. TRANSLATORS: Practice hint
 #: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "You need to use an [code]if[/code] statement at the top of the function to check if the robot's [code]level[/code] is greater than [code]2[/code]"
-msgstr ""
+msgstr "На початку функції потрібно використати оператор [code]if[/code], щоб перевірити, чи [code]level[/code] робота більший за [code]2[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-14-multiplying/lesson.bbcode:112
@@ -3959,12 +3959,12 @@ msgstr "Щоб зменшити суму [code]amount[/code], помножте �
 #. TRANSLATORS: Practice hint
 #: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "Reassign [code]amount[/code] on its own line inside the [code]if[/code] block, before the line [code]health -= amount[/code]"
-msgstr ""
+msgstr "Повторно присвойте значення [code]amount[/code] на окремому рядку всередині блоку [code]if[/code] перед рядком [code]health -= amount[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "Use [code]amount *= 0.5[/code] inside the [code]if[/code] block to reduce the damage by 50%"
-msgstr ""
+msgstr "Використайте [code]amount *= 0.5[/code] всередині блоку [code]if[/code], щоб зменшити шкоду на 50%"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-16-2d-vectors/lesson.bbcode:1
@@ -4141,7 +4141,7 @@ msgstr "Ви можете додати рядок для збільшення [c
 #. TRANSLATORS: Practice hint
 #: course/lesson-16-2d-vectors/lesson.bbcode:73
 msgid "You can't use instructions like [code]scale.x += 0.2[/code] for this practice. Instead, you should use a [code]Vector2[/code]"
-msgstr ""
+msgstr "В цій вправі ви не можете використовувати інструкцію [code]scale.x += 0.2[/code]. Натомість, використайте [code]Vector2[/code]"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-16-2d-vectors/lesson.bbcode:92
@@ -4186,7 +4186,7 @@ msgstr "Можливо, збільшувати масштаб кожного р�
 #. TRANSLATORS: Practice hint
 #: course/lesson-16-2d-vectors/lesson.bbcode:92
 msgid "To define the function, we use the [code]func[/code] keyword"
-msgstr ""
+msgstr "Щоб визначити функцію, ми використовуємо ключове слово [code]func[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-16-2d-vectors/lesson.bbcode:92
@@ -4393,12 +4393,12 @@ msgstr "Перехід до кінця дошки"
 #. TRANSLATORS: Practice goal
 #: course/lesson-17-while-loops/lesson.bbcode:103
 msgid "The robot has decided to stand at the top of the board and your job is to move it down to the bottom row. Complete the [code]move_to_bottom()[/code] function to do this."
-msgstr ""
+msgstr "Робот вирішив стати у верхній частині дошки, і ваше завдання — перемістити його в нижній ряд. Для цього доповніть функцію [code]move_to_bottom()[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-17-while-loops/lesson.bbcode:103
 msgid "We store the robot's position in a variable named [code]cell[/code]. The variable starts with the value [code]Vector2(2, 0)[/code], meaning the robot is in column 2, row 0 (row 0 is the top of the board)."
-msgstr ""
+msgstr "Ми зберігаємо координати робота у змінній з іменем [code]cell[/code]. Змінна має початкове значення [code]Vector2(2, 0)[/code], що означає, що робот знаходиться у стовпці 2, рядку 0 (рядок 0 — це верхня частина ігрового поля)."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-17-while-loops/lesson.bbcode:103
@@ -4419,22 +4419,22 @@ msgstr "Використовуйте [glossary term=\"while loop\"]цикл whil
 #. TRANSLATORS: Practice hint
 #: course/lesson-17-while-loops/lesson.bbcode:103
 msgid "On this board, rows go from top to bottom. Think about which part of [code]cell[/code] controls the row the robot is on."
-msgstr ""
+msgstr "На цій дошці рядки йдуть зверху вниз. Подумайте, яка часина [code]cell[/code] визначає, на якому рядку знаходиться робот."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-17-while-loops/lesson.bbcode:103
 msgid "[code]cell.y[/code] is the robot's current row. To move the robot down one row, increase [code]cell.y[/code] by 1. Your [code]while[/code] loop should do this repeatedly until the robot reaches the last row."
-msgstr ""
+msgstr "[code]cell.y[/code] — це поточний рядок робота. Щоб перемістити робота на один рядок вниз, збільште значення [code]cell.y[/code] на 1. Ваш цикл [code]while[/code] повинен повторювати цю дію, доки робот не дійде до останнього рядка."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-17-while-loops/lesson.bbcode:103
 msgid "The last row is [code]board_size.y - 1[/code], because rows are counted from 0."
-msgstr ""
+msgstr "Останній рядок — це [code]board_size.y - 1[/code], оскільки рядки нумеруються, починаючи з 0."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-17-while-loops/lesson.bbcode:103
 msgid "Use [code]while cell.y < board_size.y - 1:[/code] as your loop condition, and increase [code]cell.y[/code] inside the loop."
-msgstr ""
+msgstr "Використовуйте [code]while cell.y < board_size.y - 1:[/code] як умову циклу, а всередині циклу збільшуйте значення [code]cell.y[/code]."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-18-for-loops/lesson.bbcode:1
@@ -4570,7 +4570,7 @@ msgstr "За допомогою циклу [code]for[/code] ми спочатк�
 
 #: course/lesson-18-for-loops/lesson.bbcode:74
 msgid "The function still works the same way, assuming the robot starts at [code]cell.x = 0[/code] each time (the left edge of the board). The [code]while[/code] loop would work no matter where the robot starts. You can run it below."
-msgstr ""
+msgstr "Функція продовжує працювати так само, за умови, що робот щоразу починає з точки [code]cell.x = 0[/code] (лівий край ігрового поля). Цикл [code]while[/code] працюватиме незалежно від того, звідки починає робот. Ви можете запустити його нижче."
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "In the practices, we'll use [code]for[/code] loops in different ways to get you used to using them."
@@ -4614,7 +4614,7 @@ msgstr "Використовуйте цикл [code]for[/code] та змінну
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "To check your code, I will call the [code]move_to_bottom()[/code] function. After calling it, [code]cell.y[/code] should be equal to [code]board_size.y - 1[/code]. This is the bottom row of the board."
-msgstr ""
+msgstr "Щоб перевірити ваш код, я викличу функцію [code]move_to_bottom()[/code]. Після її виклику значення [code]cell.y[/code] має дорівнювати [code]board_size.y - 1[/code]. Це нижній рядок ігрового поля."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-18-for-loops/lesson.bbcode:77
@@ -4624,22 +4624,22 @@ msgstr "Використовуйте цикл for, щоб наш робот ру
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "The robot starts on row [code]0[/code] and has to get to the last row. Because rows are counted from [code]0[/code], the last row is [code]board_size.y - 1[/code]."
-msgstr ""
+msgstr "Робот починає з рядка [code]0[/code] і повинен дістатися до останнього рядка. Оскільки рядки нумеруються, починаючи з [code]0[/code], останній рядок — це [code]board_size.y - 1[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "[code]cell[/code] is a [code]Vector2[/code]. To move the robot down one row, add [code]Vector2(0, 1)[/code] to [code]cell[/code] (or add 1 to [code]cell.y[/code])."
-msgstr ""
+msgstr "[code]cell[/code] — це [code]Vector2[/code]. Щоб перемістити робота на один рядок вниз, додайте [code]Vector2(0, 1)[/code] до [code]cell[/code] (або додайте 1 до [code]cell.y[/code])."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "The robot starts on row [code]0[/code], so it needs to move [code]board_size.y - 1[/code] steps to reach the last row. Call [code]range(board_size.y - 1)[/code] to create an array with that many numbers to loop over."
-msgstr ""
+msgstr "Робот починає з рядка [code]0[/code], тому йому потрібно пройти [code]board_size.y - 1[/code] кроків, щоб дістатися до останнього рядка. Викличте [code]range(board_size.y - 1)[/code], щоб створити масив із такою кількістю чисел, які потрібно обробити в циклі."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "Use [code]for number in range(board_size.y - 1):[/code] and add [code]Vector2(0, 1)[/code] to [code]cell[/code] inside the loop. The loop variable [code]number[/code] is only a counter here, so we don't need to use it."
-msgstr ""
+msgstr "Використовуйте [code]for number in range(board_size.y - 1):[/code] і додайте [code]Vector2(0, 1)[/code] до [code]cell[/code] всередині циклу. Змінна циклу [code]number[/code] тут виконує лише роль лічильника, тому нам не потрібно її використовувати."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-18-for-loops/lesson.bbcode:111
@@ -4674,7 +4674,7 @@ msgstr "Раніше нам доводилося копіювати та вст�
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:111
 msgid "Use the line [code]for number in range(3):[/code]"
-msgstr ""
+msgstr "Використайте рядок [code]for number in range(3):[/code]"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-19-creating-arrays/lesson.bbcode:1
@@ -4886,7 +4886,7 @@ msgstr "Напишіть масив, щоб вибрати всі одиниці
 #. TRANSLATORS: Practice hint
 #: course/lesson-19-creating-arrays/lesson.bbcode:109
 msgid "You can write [code]Vector2[/code] values inside the brackets in the function call: [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
-msgstr ""
+msgstr "У дужках при виклику функції можна вказувати значення [code]Vector2[/code]: [code]select_units([Vector2(1, 1), Vector2(3, 2), Vector2(3, 5)])[/code]."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:1
