@@ -60,32 +60,6 @@ msgstr "Avec delta"
 msgid "Constant distance"
 msgstr "Distance constante"
 
-#: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
-msgid "The identifier \"angular_speed\" isn't declared in the current scope (at line 6)."
-msgstr "L'identifiant « angular_speed » n'est pas déclaré dans la portée actuelle (à la ligne 6)."
-
-#: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
-msgid "The [code]set_angular_speed()[/code] function can't use the [code]angular_speed[/code] variable because it isn't script-wide. It also isn't in the [code]set_angular_speed()[/code] function."
-msgstr "La fonction [code]set_angular_speed()[/code] ne peut pas utiliser la variable [code]angular_speed[/code] car elle n'est pas définie à l'échelle du script. Elle ne se trouve pas non plus dans la fonction [code]set_angular_speed()[/code]."
-
-#: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
-msgid "Make sure you define the [code]angular_speed[/code] variable in the [code]set_angular_speed()[/code] function, or define it outside of functions so it's script-wide."
-msgstr "Assurez-vous de définir la variable [code]angular_speed[/code] dans la fonction [code]set_angular_speed()[/code], ou définissez-la en dehors des fonctions pour qu'elle soit accessible dans tout le script."
-
-#: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
-msgid ""
-"Sorry, we don't have this particular error message covered yet!\n"
-"\n"
-"Please, use the [b]Report[/b] button in the top-right corner to tell us more about how you've got it, and we will try to improve our knowledge base for the next version of the application.\n"
-"\n"
-"[center]Thank you![/center]"
-msgstr ""
-"Désolé, nous n'avons pas encore couvert ce message d'erreur en particulier !\n"
-"\n"
-"Veuillez utiliser le bouton [b]Signaler[/b] dans le coin supérieur droit pour nous en dire plus sur la façon dont vous l'avez rencontré, et nous essaierons d'améliorer notre base de connaissances pour la prochaine version de l'application.\n"
-"\n"
-"[center]Merci ![/center]"
-
 #: course/lesson-12-using-variables/visuals/VariableDefinition.tscn
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
 msgid "var"
@@ -633,10 +607,6 @@ msgstr "étape"
 msgid "Debugger"
 msgstr "Débogueur"
 
-#: ui/components/ScrollableTextBox.tscn
-msgid "Placeholder text"
-msgstr "Texte en placeholder"
-
 #: ui/components/popups/ConfirmPopup.tscn
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn
 msgid "Confirm"
@@ -1098,10 +1068,6 @@ msgstr ""
 "N'hésitez pas à le refaire pour vous rafraîchir la mémoire !"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
-msgid "Explanation"
-msgstr "Explication"
-
-#: ui/screens/lesson/UIBaseQuiz.tscn
 msgid "You need to try to answer once before you can skip a quiz."
 msgstr "Vous devez essayer de répondre une fois avant de pouvoir passer un quiz."
 
@@ -1395,6 +1361,18 @@ msgstr "La fonction 'set_angular_speed(new_angular_speed)' manque ; l'avez-vous 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:78
 msgid "The set_angular_speed() function doesn't seem to use the angular_speed variable."
 msgstr "La fonction set_angular_speed() ne semble pas utiliser la variable angular_speed."
+
+#: course/lesson-12-using-variables/visuals/ErrorAccess.gd:10
+msgid "The identifier \"angular_speed\" isn't declared in the current scope (at line 6)."
+msgstr "L'identifiant « angular_speed » n'est pas déclaré dans la portée actuelle (à la ligne 6)."
+
+#: course/lesson-12-using-variables/visuals/ErrorAccess.gd:11
+msgid "The [code]set_angular_speed()[/code] function can't use the [code]angular_speed[/code] variable because it isn't script-wide. It also isn't in the [code]set_angular_speed()[/code] function."
+msgstr "La fonction [code]set_angular_speed()[/code] ne peut pas utiliser la variable [code]angular_speed[/code] car elle n'est pas définie à l'échelle du script. Elle ne se trouve pas non plus dans la fonction [code]set_angular_speed()[/code]."
+
+#: course/lesson-12-using-variables/visuals/ErrorAccess.gd:12
+msgid "Make sure you define the [code]angular_speed[/code] variable in the [code]set_angular_speed()[/code] function, or define it outside of functions so it's script-wide."
+msgstr "Assurez-vous de définir la variable [code]angular_speed[/code] dans la fonction [code]set_angular_speed()[/code], ou définissez-la en dehors des fonctions pour qu'elle soit accessible dans tout le script."
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:13
 msgid "Health Does Not Go Above 80"
@@ -2399,11 +2377,11 @@ msgstr "Le robot n'a pas subi autant de dégâts que prévu. Il dispose de %s po
 msgid "It doesn't look like you're subtracting amount from health."
 msgstr "Il ne semble pas que vous soustrayiez la valeur « amount » de la variable « health »."
 
-#: ui/UILesson.gd:301
+#: ui/UILesson.gd:306
 msgid "Learn More"
 msgstr "En savoir plus"
 
-#: ui/UILesson.gd:331
+#: ui/UILesson.gd:351
 msgid ""
 "\n"
 "\n"
@@ -2411,7 +2389,7 @@ msgstr ""
 "\n"
 "\n"
 
-#: ui/UILesson.gd:379
+#: ui/UILesson.gd:399
 msgid ""
 "\n"
 "[hr]\n"
@@ -2423,35 +2401,35 @@ msgstr ""
 msgid "(no previous history)"
 msgstr "(aucun historique)"
 
-#: ui/UIPractice.gd:290
+#: ui/UIPractice.gd:286
 msgid "Hint %s"
 msgstr "Indice %s"
 
-#: ui/UIPractice.gd:328
+#: ui/UIPractice.gd:321
 msgid "Validating Your Code..."
 msgstr "Validation de votre code…"
 
-#: ui/UIPractice.gd:379
+#: ui/UIPractice.gd:372
 msgid "The function '%s' calls itself, this creates an infinite loop"
 msgstr "La fonction '%s' s'appelle elle-même, cela crée une boucle infinie"
 
-#: ui/UIPractice.gd:390
+#: ui/UIPractice.gd:383
 msgid "You have a loop that runs forever without a break statement. This would freeze the app."
 msgstr "Vous avez une boucle qui s'exécute indéfiniment sans instruction break. Cela bloquerait l'application."
 
-#: ui/UIPractice.gd:433
+#: ui/UIPractice.gd:426
 msgid "You typed \"%s\"; did you mean \"%s\"?"
 msgstr ""
 
-#: ui/UIPractice.gd:450
+#: ui/UIPractice.gd:443
 msgid "Running Your Code..."
 msgstr "Exécution de votre code…"
 
-#: ui/UIPractice.gd:462
+#: ui/UIPractice.gd:455
 msgid "There is a division by zero in your code. You cannot divide by zero in code. Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr "Il y a une division par zéro dans votre code. Il n'est pas possible de diviser par zéro dans un code. Assurez-vous qu'il n'y a pas de \"/ 0\" ou de \"% 0\" dans votre code."
 
-#: ui/UIPractice.gd:608
+#: ui/UIPractice.gd:601
 msgid "Running Tests..."
 msgstr "Exécution des tests…"
 
@@ -2467,7 +2445,7 @@ msgstr "Sélectionnez le type de problème et décrivez-le dans le champ ci-dess
 msgid "For questions and help with learning, [url=%s]join the community on Discord[/url]."
 msgstr "Pour toute question ou aide à l'apprentissage, [url=%s]rejoignez la communauté sur Discord[/url]."
 
-#: ui/components/popups/ReportFormPopup.gd:132
+#: ui/components/popups/ReportFormPopup.gd:135
 msgid "Translations are unofficial and maintained by the community. If you'd like to help, [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]learn how to help translate the app[/url]."
 msgstr "Les traductions ne sont pas officielles et sont gérées par la communauté. Si vous souhaitez apporter votre aide, [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]découvrez comment contribuer à la traduction de l'application[/url]."
 
@@ -2535,6 +2513,25 @@ msgstr "CONTINUER"
 
 msgid "Learn to Code From Zero with Godot"
 msgstr "Apprenez à programmer à partir de zéro avec Godot"
+
+#~ msgid ""
+#~ "Sorry, we don't have this particular error message covered yet!\n"
+#~ "\n"
+#~ "Please, use the [b]Report[/b] button in the top-right corner to tell us more about how you've got it, and we will try to improve our knowledge base for the next version of the application.\n"
+#~ "\n"
+#~ "[center]Thank you![/center]"
+#~ msgstr ""
+#~ "Désolé, nous n'avons pas encore couvert ce message d'erreur en particulier !\n"
+#~ "\n"
+#~ "Veuillez utiliser le bouton [b]Signaler[/b] dans le coin supérieur droit pour nous en dire plus sur la façon dont vous l'avez rencontré, et nous essaierons d'améliorer notre base de connaissances pour la prochaine version de l'application.\n"
+#~ "\n"
+#~ "[center]Merci ![/center]"
+
+#~ msgid "Placeholder text"
+#~ msgstr "Texte en placeholder"
+
+#~ msgid "Explanation"
+#~ msgstr "Explication"
 
 #~ msgid "Delta needs to be inside the parentheses of rotate(), not outside. You need to multiply the speed value by delta inside the call, like this: rotate(2 * delta)."
 #~ msgstr "La valeur delta doit figurer à l'intérieur des parenthèses de la fonction rotate(), et non à l'extérieur. Vous devez multiplier la valeur de la vitesse par delta à l'intérieur de l'appel, comme ceci : rotate(2 * delta)."

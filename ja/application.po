@@ -60,32 +60,6 @@ msgstr "delta を使用する"
 msgid "Constant distance"
 msgstr "一定の距離"
 
-#: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
-msgid "The identifier \"angular_speed\" isn't declared in the current scope (at line 6)."
-msgstr "識別子「angular_speed」は、現在のスコープ内で宣言されていません（6行目）。"
-
-#: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
-msgid "The [code]set_angular_speed()[/code] function can't use the [code]angular_speed[/code] variable because it isn't script-wide. It also isn't in the [code]set_angular_speed()[/code] function."
-msgstr "[code]set_angular_speed()[/code] 関数では、[code]angular_speed[/code] 変数を使用できません。[code]angular_speed[/code] はスクリプト全体で使える変数ではなく、[code]set_angular_speed()[/code] 関数の中でも定義されていないためです。"
-
-#: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
-msgid "Make sure you define the [code]angular_speed[/code] variable in the [code]set_angular_speed()[/code] function, or define it outside of functions so it's script-wide."
-msgstr "[code]angular_speed[/code] 変数は、[code]set_angular_speed()[/code] 関数内で定義するか、スクリプト全体で使えるように関数の外で定義してください。"
-
-#: course/lesson-12-using-variables/visuals/ErrorAccess.tscn
-msgid ""
-"Sorry, we don't have this particular error message covered yet!\n"
-"\n"
-"Please, use the [b]Report[/b] button in the top-right corner to tell us more about how you've got it, and we will try to improve our knowledge base for the next version of the application.\n"
-"\n"
-"[center]Thank you![/center]"
-msgstr ""
-"申し訳ありません。このエラーメッセージについては、まだ対応できていません！\n"
-"\n"
-"画面右上の [b]報告[/b] ボタンから、このエラーが発生した状況をお知らせください。次回のアプリのバージョンでナレッジベースを改善できるよう努めます。\n"
-"\n"
-"[center]ありがとうございます！[/center]"
-
 #: course/lesson-12-using-variables/visuals/VariableDefinition.tscn
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
 msgid "var"
@@ -657,10 +631,6 @@ msgstr "ステップ"
 msgid "Debugger"
 msgstr "デバッガ"
 
-#: ui/components/ScrollableTextBox.tscn
-msgid "Placeholder text"
-msgstr "プレースホルダーテキスト"
-
 #: ui/components/popups/ConfirmPopup.tscn
 #: ui/components/popups/PracticeLeaveUnfinishedPopup.tscn
 msgid "Confirm"
@@ -1136,10 +1106,6 @@ msgstr ""
 "記憶を確認するために、もう一度挑戦してみましょう！"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
-msgid "Explanation"
-msgstr "説明"
-
-#: ui/screens/lesson/UIBaseQuiz.tscn
 #, fuzzy
 msgid "You need to try to answer once before you can skip a quiz."
 msgstr "クイズをスキップするには、一度解答を試みる必要があります。"
@@ -1475,6 +1441,18 @@ msgstr "「set_angular_speed(new_angular_speed)」関数が見当たりません
 #, fuzzy
 msgid "The set_angular_speed() function doesn't seem to use the angular_speed variable."
 msgstr "set_angular_speed() 関数では、angular_speed 変数が使用されていないようです。"
+
+#: course/lesson-12-using-variables/visuals/ErrorAccess.gd:10
+msgid "The identifier \"angular_speed\" isn't declared in the current scope (at line 6)."
+msgstr "識別子「angular_speed」は、現在のスコープ内で宣言されていません（6行目）。"
+
+#: course/lesson-12-using-variables/visuals/ErrorAccess.gd:11
+msgid "The [code]set_angular_speed()[/code] function can't use the [code]angular_speed[/code] variable because it isn't script-wide. It also isn't in the [code]set_angular_speed()[/code] function."
+msgstr "[code]set_angular_speed()[/code] 関数では、[code]angular_speed[/code] 変数を使用できません。[code]angular_speed[/code] はスクリプト全体で使える変数ではなく、[code]set_angular_speed()[/code] 関数の中でも定義されていないためです。"
+
+#: course/lesson-12-using-variables/visuals/ErrorAccess.gd:12
+msgid "Make sure you define the [code]angular_speed[/code] variable in the [code]set_angular_speed()[/code] function, or define it outside of functions so it's script-wide."
+msgstr "[code]angular_speed[/code] 変数は、[code]set_angular_speed()[/code] 関数内で定義するか、スクリプト全体で使えるように関数の外で定義してください。"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:13
 msgid "Health Does Not Go Above 80"
@@ -2686,17 +2664,17 @@ msgstr "ロボットは予想ほど大きなダメージを受けませんでし
 msgid "It doesn't look like you're subtracting amount from health."
 msgstr "HPからamountを差し引いているようには見えません。"
 
-#: ui/UILesson.gd:301
+#: ui/UILesson.gd:306
 msgid "Learn More"
 msgstr "もっと学ぶ"
 
-#: ui/UILesson.gd:331
+#: ui/UILesson.gd:351
 msgid ""
 "\n"
 "\n"
 msgstr ""
 
-#: ui/UILesson.gd:379
+#: ui/UILesson.gd:399
 #, fuzzy
 msgid ""
 "\n"
@@ -2709,37 +2687,37 @@ msgstr ""
 msgid "(no previous history)"
 msgstr "(戻るページがありません)"
 
-#: ui/UIPractice.gd:290
+#: ui/UIPractice.gd:286
 msgid "Hint %s"
 msgstr "ヒント: %s"
 
-#: ui/UIPractice.gd:328
+#: ui/UIPractice.gd:321
 msgid "Validating Your Code..."
 msgstr "コードを検証しています..."
 
-#: ui/UIPractice.gd:379
+#: ui/UIPractice.gd:372
 #, fuzzy
 msgid "The function '%s' calls itself, this creates an infinite loop"
 msgstr "関数 `%s` がそれ自体を呼び出します。これにより無限ループが作成されます"
 
-#: ui/UIPractice.gd:390
+#: ui/UIPractice.gd:383
 #, fuzzy
 msgid "You have a loop that runs forever without a break statement. This would freeze the app."
 msgstr "break文のない永久に実行される while ループ（while true）があります。これはアプリをフリーズさせます。"
 
-#: ui/UIPractice.gd:433
+#: ui/UIPractice.gd:426
 msgid "You typed \"%s\"; did you mean \"%s\"?"
 msgstr ""
 
-#: ui/UIPractice.gd:450
+#: ui/UIPractice.gd:443
 msgid "Running Your Code..."
 msgstr "コードを実行しています..."
 
-#: ui/UIPractice.gd:462
+#: ui/UIPractice.gd:455
 msgid "There is a division by zero in your code. You cannot divide by zero in code. Please ensure you have no \"/ 0\" or \"% 0\" in your code."
 msgstr "コード内にゼロ除算があります。 コード内ではゼロで除算することはできません。 コードに\"/ 0\"または\"% 0\"が含まれていないことを確認してください。"
 
-#: ui/UIPractice.gd:608
+#: ui/UIPractice.gd:601
 msgid "Running Tests..."
 msgstr "テストを実行中..."
 
@@ -2756,7 +2734,7 @@ msgstr "問題の種類を選択し、下のボックスに内容を入力して
 msgid "For questions and help with learning, [url=%s]join the community on Discord[/url]."
 msgstr "学習に関する質問やサポートが必要な場合は、[url=https://discord.gg/bNj469SYQj]Discord のコミュニティに参加してください[/url]。"
 
-#: ui/components/popups/ReportFormPopup.gd:132
+#: ui/components/popups/ReportFormPopup.gd:135
 msgid "Translations are unofficial and maintained by the community. If you'd like to help, [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]learn how to help translate the app[/url]."
 msgstr "翻訳は非公式であり、コミュニティによって管理されています。協力したい場合は、[url=https://github.com/GDQuest/learn-gdscript-translations/#readme]アプリの翻訳に協力する方法を確認してください[/url]。"
 
@@ -2826,6 +2804,25 @@ msgstr "続ける"
 #, fuzzy
 msgid "Learn to Code From Zero with Godot"
 msgstr "Godotでゼロからプログラミングを学ぶ"
+
+#~ msgid ""
+#~ "Sorry, we don't have this particular error message covered yet!\n"
+#~ "\n"
+#~ "Please, use the [b]Report[/b] button in the top-right corner to tell us more about how you've got it, and we will try to improve our knowledge base for the next version of the application.\n"
+#~ "\n"
+#~ "[center]Thank you![/center]"
+#~ msgstr ""
+#~ "申し訳ありません。このエラーメッセージについては、まだ対応できていません！\n"
+#~ "\n"
+#~ "画面右上の [b]報告[/b] ボタンから、このエラーが発生した状況をお知らせください。次回のアプリのバージョンでナレッジベースを改善できるよう努めます。\n"
+#~ "\n"
+#~ "[center]ありがとうございます！[/center]"
+
+#~ msgid "Placeholder text"
+#~ msgstr "プレースホルダーテキスト"
+
+#~ msgid "Explanation"
+#~ msgstr "説明"
 
 #, fuzzy
 #~ msgid "Delta needs to be inside the parentheses of rotate(), not outside. You need to multiply the speed value by delta inside the call, like this: rotate(2 * delta)."
