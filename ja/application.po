@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the Learn GDScript From
 # project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
@@ -14,11 +14,22 @@ msgstr ""
 "Language-Team: Japanese <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 "X-Generator: Weblate 2026.11.dev0\n"
+
+#: course/common/inventory/DictItem.tscn
+#: course/lesson-23-append-to-arrays/visuals/Crate.tscn
+#: course/lesson-24-access-array-indices/visuals/inventory/Item.tscn
+#: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
+msgid "0"
+msgstr "0"
+
+#: course/lesson-21-strings/visuals/RobotWithNumberName.tscn
+msgid "70801"
+msgstr "70801"
 
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
@@ -32,13 +43,6 @@ msgstr "持ち物"
 #: course/common/inventory/DictItem.tscn
 msgid "healing heart"
 msgstr "癒しのハート"
-
-#: course/common/inventory/DictItem.tscn
-#: course/lesson-23-append-to-arrays/visuals/Crate.tscn
-#: course/lesson-24-access-array-indices/visuals/inventory/Item.tscn
-#: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
-msgid "0"
-msgstr "0"
 
 #: course/lesson-11-time-delta/visuals/DemoRotatingSpriteFrame.tscn
 #: course/lesson-11-time-delta/visuals/DemoRotatingTime.tscn
@@ -256,10 +260,6 @@ msgstr "これはヒントです。"
 msgid "Hover over the Robot to learn more"
 msgstr "ロボットにマウスカーソルを合わせると、詳しい説明が表示されます。"
 
-#: course/lesson-21-strings/visuals/RobotWithNumberName.tscn
-msgid "70801"
-msgstr "70801"
-
 #: course/lesson-21-strings/visuals/RobotWithRegularName.tscn
 msgid "Robot"
 msgstr "ロボット"
@@ -279,8 +279,9 @@ msgid "Completed"
 msgstr "クイズをクリア"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/Meal.tscn
+#, fuzzy
 msgid "cheese sandwich"
-msgstr ""
+msgstr "チーズサンドイッチ"
 
 #: course/lesson-24-access-array-indices/visuals/SyntaxAccessIndex.tscn
 msgid "array_name"
@@ -1631,8 +1632,9 @@ msgid "Use A Vector To Increase Scale"
 msgstr "ベクトルを使用してスケールを増加させてください"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:12
+#, fuzzy
 msgid "The Scale Is Correct After Gaining Multiple Levels"
-msgstr ""
+msgstr "複数のレベルアップ後、スケールが正しい"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:35
 #, fuzzy
@@ -1686,16 +1688,19 @@ msgid "Use a While Loop to Move"
 msgstr "Whileループを使用する"
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:23
+#, fuzzy
 msgid "The robot stopped above the bottom row. The cell.y member variable should be equal to board_size.y - 1 (the last row in the board)."
-msgstr ""
+msgstr "ロボットが最下段の行の上で停止してしまいました。cell.yメンバー変数はboard_size.y - 1（ボードの最後の行）と等しくなる必要があります。"
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:26
+#, fuzzy
 msgid "The robot moved below the bottom row. The cell.y member variable should be equal to board_size.y - 1 (the last row in the board)."
-msgstr ""
+msgstr "ロボットが最下段の下に移動しました。cell.yメンバー変数はboard_size.y - 1（ボードの最下段）と等しくなる必要があります。"
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:40
+#, fuzzy
 msgid "Your while loop needs to contain the code that moves the robot."
-msgstr ""
+msgstr "whileループ内には、ロボットを動かすコードを含める必要があります。"
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:15
 #, fuzzy
@@ -1703,20 +1708,24 @@ msgid "Use a For Loop to Move"
 msgstr "Forループを使用する"
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:23
+#, fuzzy
 msgid "The robot stopped above the bottom row. Its cell.y should be equal to board_size.y - 1."
-msgstr ""
+msgstr "ロボットが最下段の行の上で停止してしまいました。cell.y は board_size.y - 1 と等しくなるはずです。"
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:26
+#, fuzzy
 msgid "The robot moved below the bottom row. Its cell.y should be equal to board_size.y - 1."
-msgstr ""
+msgstr "ロボットが最下段の下に移動しました。cell.y は board_size.y - 1 である必要があります。"
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:40
+#, fuzzy
 msgid "Your for loop needs to contain the code that moves the robot."
-msgstr ""
+msgstr "forループ内には、ロボットを動かすコードを含める必要があります。"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:40
+#, fuzzy
 msgid "Use a For Loop to Draw Rectangles"
-msgstr ""
+msgstr "Forループを使って長方形を描く"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:41
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:40
@@ -1737,8 +1746,9 @@ msgid "Shapes Are 100 Pixels Apart"
 msgstr "図形同士の間隔は100ピクセルです。"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:62
+#, fuzzy
 msgid "Your for loop needs to contain the code to draw the rectangles."
-msgstr ""
+msgstr "forループ内には、長方形を描画するためのコードを含める必要があります。"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:67
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:48
@@ -1765,8 +1775,9 @@ msgid "Shapes are not separated by 100 pixels on the X axis."
 msgstr "図形がX軸上で100ピクセル間隔で配置されていません。"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:18
+#, fuzzy
 msgid "Path contains values that are not Vector2"
-msgstr ""
+msgstr "Path に Vector2 以外の値が含まれています。"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:25
 #, fuzzy
@@ -1889,8 +1900,9 @@ msgid "The robot's movement path doesn't match the robot_path array. They should
 msgstr "ロボットの移動経路が robot_path 配列と一致していません。これらは同じである必要があります。"
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:58
+#, fuzzy
 msgid "Did you use a for loop to call robot.move_to() with each cell in robot_path?"
-msgstr ""
+msgstr "robot_path内の各セルに対して、forループを使用してrobot.move_to()を呼び出しましたか？"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:12
 #, fuzzy
@@ -2139,8 +2151,9 @@ msgid "Code Uses A For Loop"
 msgstr "コードではforループが使用されています"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:19
+#, fuzzy
 msgid "The number of items displayed does not match the number of items in the inventory. Did you display each item exactly once?"
-msgstr ""
+msgstr "表示されているアイテムの数がインベントリ内の数と一致していません。各アイテムを正確に1回ずつ表示しましたか？"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:29
 #, fuzzy
@@ -2148,8 +2161,9 @@ msgid "The displayed items do not match the inventory variable's content. Did yo
 msgstr "表示されているアイテムが、インベントリ変数の内容と一致していません。インベントリ内の各アイテムについて、display_item() 関数を呼び出しましたか？"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:44
+#, fuzzy
 msgid "Your code does not use a for loop to call display_item(). Please make sure you display each item inside the loop."
-msgstr ""
+msgstr "コード内で、forループを使用してdisplay_item()を呼び出していません。ループ内で各アイテムを表示するようにしてください。"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:11
 #, fuzzy
@@ -2157,8 +2171,9 @@ msgid "All Units Are Displayed"
 msgstr "すべてのユニットが表示されています"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:19
+#, fuzzy
 msgid "The number of units displayed does not match the number of units in the units dictionary. Did you place each unit exactly once?"
-msgstr ""
+msgstr "表示されているユニットの数が、units辞書内のユニットの数と一致しません。各ユニットを正確に1回ずつ配置しましたか？"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:29
 #, fuzzy
@@ -2166,8 +2181,9 @@ msgid "The displayed units do not match the units variable's content. Did you ca
 msgstr "表示されているユニットがunits変数の内容と一致していません。units辞書内の各ユニットに対してplace_unit()関数を呼び出しましたか？"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:43
+#, fuzzy
 msgid "Your code does not use a for loop to call place_unit(). Please make sure you place each unit inside the loop."
-msgstr ""
+msgstr "コード内で、forループを使用してplace_unit()を呼び出していません。各ユニットをループ内に配置するようにしてください。"
 
 #: course/lesson-27-value-types/display-energy/TestDisplayingEnergy.gd:11
 #, fuzzy
@@ -2372,12 +2388,14 @@ msgid "Draw Three Squares Of 200 Pixels"
 msgstr "200ピクセルの正方形を3つ描画してください"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:26
+#, fuzzy
 msgid "Reuse The draw_square() Function"
-msgstr ""
+msgstr "draw_square() 関数の再利用"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:34
+#, fuzzy
 msgid "You need to use the predefined draw_square() function inside draw_three_squares() in this exercise. This avoids duplicating the turtle instructions by hand."
-msgstr ""
+msgstr "この演習では、draw_three_squares() 内であらかじめ定義されている draw_square() 関数を使用する必要があります。これにより、タートルの命令を手作業で重複して記述することを回避できます。"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:39
 #, fuzzy
@@ -2445,8 +2463,9 @@ msgstr "タートルは何も描画しませんでした。タートルを動か
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:23
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:43
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:58
+#, fuzzy
 msgid "The turtle drew fewer than 2 shapes. Make sure your function is repeatable."
-msgstr ""
+msgstr "タートルが描いた図形の数が2つ未満です。関数が繰り返し実行されることを確認してください。"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:23
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:23
@@ -2669,10 +2688,13 @@ msgid "Learn More"
 msgstr "もっと学ぶ"
 
 #: ui/UILesson.gd:351
+#, fuzzy
 msgid ""
 "\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
 
 #: ui/UILesson.gd:399
 #, fuzzy
@@ -2706,8 +2728,9 @@ msgid "You have a loop that runs forever without a break statement. This would f
 msgstr "break文のない永久に実行される while ループ（while true）があります。これはアプリをフリーズさせます。"
 
 #: ui/UIPractice.gd:426
+#, fuzzy
 msgid "You typed \"%s\"; did you mean \"%s\"?"
-msgstr ""
+msgstr "「%s」と入力しましたが、「%s」のつもりでしたか？"
 
 #: ui/UIPractice.gd:443
 msgid "Running Your Code..."
