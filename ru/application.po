@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-10-30 21:35+0000\n"
-"Last-Translator: Алина Финн <karrakaticza@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-10-31 21:51+0000\n"
+"Last-Translator: Alina Finn <karrakaticza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -914,9 +914,8 @@ msgid "0%"
 msgstr "0%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
-#, fuzzy
 msgid "\t[b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]How to contribute translations[/url][/b]"
-msgstr "[b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]Как помочь с переводом[/url][/b]"
+msgstr "\t[b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]Как помочь с переводом[/url][/b]"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
 #: ui/screens/course_outliner/CourseLessonDetails.gd:86
@@ -925,9 +924,8 @@ msgid "Start Lesson"
 msgstr "Начать урок"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn
-#, fuzzy
 msgid "L12."
-msgstr "L12."
+msgstr "Урок 12."
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn
 msgid "Lesson Title"
@@ -1049,12 +1047,14 @@ msgid "Congratulations!"
 msgstr "Поздравляем!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
-#, fuzzy
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to make games with the Godot game engine.\n"
 "\n"
 "You can keep learning with the free series Getting Started with Godot."
-msgstr "Вы завершили курс «Изучаем GDScript с нуля». Теперь у вас есть база, необходимая для создания игр на движке Godot. Вы можете продолжить обучение с помощью бесплатной серии уроков «Начинаем работать с Godot»."
+msgstr ""
+"Вы завершили курс «Изучаем GDScript с нуля». Теперь у вас есть база, необходимая для создания игр на движке Godot. \n"
+"\n"
+"Вы можете продолжить обучение с помощью бесплатной серии уроков «Начало работы с Godot»."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
 msgid "This is an Open-Source project!"
@@ -1072,23 +1072,20 @@ msgstr ""
 "Вы можете найти исходный код приложения и улучшить перевод здесь: [url=\"https://github.com/GDQuest/learn-gdscript\"]Learn GDScript From Zero (репозиторий Github)[/url]."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
-#, fuzzy
 msgid "Question"
-msgstr "[b]Вопрос[/b]"
+msgstr "Вопрос"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
-#, fuzzy
 msgid ""
 "You've already answered this quiz correctly before.\n"
 "Feel free to try it again to refresh your memory!"
 msgstr ""
-"Вы уже правильно ответили на этот тест ранее.\n"
+"Вы уже успешно проходили этот тест.\n"
 "Можете попробовать ещё раз, чтобы освежить память!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
-#, fuzzy
 msgid "You need to try to answer once before you can skip a quiz."
-msgstr "Прежде чем пропустить тест, вам необходимо попытаться ответить хотя бы один раз."
+msgstr "Нужна хотя бы одна попытка прохождения, чтобы пропустить этот тест."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
 msgid "Skip"
@@ -1223,15 +1220,13 @@ msgstr "Персонаж движется по кругу по часовой с
 #: course/lesson-10-the-game-loop/rotating-sprite/TestsRotating.gd:17
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:33
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:46
-#, fuzzy
 msgid "Did you use rotate() to make the sprite rotate?"
-msgstr "Вы использовали функцию rotate(), чтобы заставить спрайт вращаться?"
+msgstr "Вы использовали функцию rotate(), чтобы объект вращался?"
 
 #: course/lesson-10-the-game-loop/rotating-and-moving/TestsRotatingAndMoving.gd:23
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:35
-#, fuzzy
 msgid "Did you use move_local_x() to make the sprite move locally?"
-msgstr "Вы использовали move_local_x(), чтобы заставить спрайт двигаться локально?"
+msgstr "Вы использовали move_local_x(), чтобы объект двигался локально?"
 
 #: course/lesson-10-the-game-loop/rotating-and-moving/TestsRotatingAndMoving.gd:26
 #: course/lesson-10-the-game-loop/rotating-sprite/TestsRotating.gd:30
@@ -1241,9 +1236,8 @@ msgid "The robot is turning in the wrong direction!"
 msgstr "Робот поворачивает не в ту сторону!"
 
 #: course/lesson-10-the-game-loop/rotating-and-moving/TestsRotatingAndMoving.gd:28
-#, fuzzy
 msgid "The character didn't move as expected."
-msgstr "Персонаж не двигался так, как ожидалось."
+msgstr "Персонаж двигался не так, как ожидалось."
 
 #: course/lesson-10-the-game-loop/rotating-sprite/TestsRotating.gd:10
 #, fuzzy
@@ -1251,7 +1245,6 @@ msgid "Character Is Rotating Clockwise"
 msgstr "Персонаж вращается по часовой стрелке"
 
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:20
-#, fuzzy
 msgid "Moving In A Circle"
 msgstr "Движение по кругу"
 
