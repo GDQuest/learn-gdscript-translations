@@ -1822,7 +1822,7 @@ msgstr "你的函数需要向前移动 [code]length[/code] 的距离，右转 90
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Remember that the turtle only knows a few functions: [code]move_forward()[/code] to draw a straight line and [code]turn_right()[/code] to the right. Call these functions with the correct arguments to draw the square."
-msgstr ""
+msgstr "记住，海龟只认识几个函数：[code]move_forward()[/code] 用来画直线，[code]turn_right()[/code] 用来向右转。用正确的参数调用这些函数来画出正方形。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
@@ -4649,7 +4649,7 @@ msgstr "棋盘大小存储在一个名为 [code]board_size[/code] 的变量中�
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "To move the robot, change [code]cell[/code] one step at a time. If you add [code]Vector2(0, 1)[/code] to [code]cell[/code], the robot will move down one row."
-msgstr ""
+msgstr "要让机器人移动，请一次一步地改变 [code]cell[/code]。如果你给 [code]cell[/code] 加上 [code]Vector2(0, 1)[/code]，机器人就会向下移动一行。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
@@ -4660,7 +4660,7 @@ msgstr "确保用到了 [code]while[/code] 循环，以便该函数适用于任�
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "To check your code, I will call the [code]move_to_bottom()[/code] function. After calling it, [code]cell.y[/code] should be equal to [code]board_size.y - 1[/code]. This is the bottom row of the board."
-msgstr ""
+msgstr "为了检查你的代码，我会调用 [code]move_to_bottom()[/code] 函数。调用之后，[code]cell.y[/code] 应当等于 [code]board_size.y - 1[/code]，也就是棋盘的最后一行。"
 
 #. TRANSLATORS: Practice description
 #: course/lesson-18-for-loops/lesson.bbcode:77
@@ -4671,22 +4671,22 @@ msgstr "使用 for 循环让机器人从棋盘的顶部移动到底部。"
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "The robot starts on row [code]0[/code] and has to get to the last row. Because rows are counted from [code]0[/code], the last row is [code]board_size.y - 1[/code]."
-msgstr ""
+msgstr "机器人从第 [code]0[/code] 行出发，要走到最后一行。因为行号从 [code]0[/code] 开始计数，所以最后一行是 [code]board_size.y - 1[/code]。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "[code]cell[/code] is a [code]Vector2[/code]. To move the robot down one row, add [code]Vector2(0, 1)[/code] to [code]cell[/code] (or add 1 to [code]cell.y[/code])."
-msgstr ""
+msgstr "[code]cell[/code] 是一个 [code]Vector2[/code]。要让机器人向下移动一行，请给 [code]cell[/code] 加上 [code]Vector2(0, 1)[/code]（或者给 [code]cell.y[/code] 加 1）。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "The robot starts on row [code]0[/code], so it needs to move [code]board_size.y - 1[/code] steps to reach the last row. Call [code]range(board_size.y - 1)[/code] to create an array with that many numbers to loop over."
-msgstr ""
+msgstr "机器人从第 [code]0[/code] 行出发，所以需要移动 [code]board_size.y - 1[/code] 步才能到达最后一行。调用 [code]range(board_size.y - 1)[/code] 可以创建一个包含这么多个数字的数组用于循环。"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "Use [code]for number in range(board_size.y - 1):[/code] and add [code]Vector2(0, 1)[/code] to [code]cell[/code] inside the loop. The loop variable [code]number[/code] is only a counter here, so we don't need to use it."
-msgstr ""
+msgstr "使用 [code]for number in range(board_size.y - 1):[/code]，并在循环里给 [code]cell[/code] 加上 [code]Vector2(0, 1)[/code]。这里的循环变量 [code]number[/code] 只是一个计数器，我们不需要使用它。"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-18-for-loops/lesson.bbcode:111
@@ -5041,12 +5041,12 @@ msgstr "如何访问子变量？"
 #. TRANSLATORS: Note content
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:56
 msgid "The variable [code]cell[/code] defined right after the [code]for[/code] keyword is the name of the loop's [b]cursor[/b] variable. In each loop iteration, Godot assigns a value from the path to this variable."
-msgstr ""
+msgstr "[code]for[/code] 关键字后面定义的变量 [code]cell[/code] 就是循环的 [b]游标[/b] 变量名。在每次循环迭代中，Godot 都会把路径中的一个值赋给这个变量。"
 
 #. TRANSLATORS: Note content
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:57
 msgid "The variable name [code]cell[/code] is arbitrary; you could call it [code]coordinate[/code] or [code]point[/code] if you wanted. This code does the same thing as the code above, but with a different variable name:"
-msgstr ""
+msgstr "变量名 [code]cell[/code] 是随意起的；你想的话也可以叫它 [code]coordinate[/code] 或 [code]point[/code]。下面这段代码和上面那段做的是同样的事，只是变量名不同："
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:69
 #, fuzzy
@@ -5941,7 +5941,7 @@ msgstr "你可以在右边看到背包的图示，每个物品旁边都标注了
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "The [code]inventory[/code] array in the code contains the same items in the same order as on the right."
-msgstr ""
+msgstr "代码里的 [code]inventory[/code] 数组包含的物品及其顺序与右侧的一致。"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:67

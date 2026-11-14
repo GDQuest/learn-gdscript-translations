@@ -1760,15 +1760,15 @@ msgstr "使用 While 循环"
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:23
 msgid "The robot stopped above the bottom row. The cell.y member variable should be equal to board_size.y - 1 (the last row in the board)."
-msgstr ""
+msgstr "机器人停在了最后一行上方。cell.y 成员变量应当等于 board_size.y - 1（棋盘的最后一行）。"
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:26
 msgid "The robot moved below the bottom row. The cell.y member variable should be equal to board_size.y - 1 (the last row in the board)."
-msgstr ""
+msgstr "机器人移动到了最后一行下方。cell.y 成员变量应当等于 board_size.y - 1（棋盘的最后一行）。"
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:40
 msgid "Your while loop needs to contain the code that moves the robot."
-msgstr ""
+msgstr "你的 while 循环里需要包含移动机器人的代码。"
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:15
 #, fuzzy
@@ -1777,19 +1777,19 @@ msgstr "使用 For 循环"
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:23
 msgid "The robot stopped above the bottom row. Its cell.y should be equal to board_size.y - 1."
-msgstr ""
+msgstr "机器人停在了最后一行上方。它的 cell.y 应当等于 board_size.y - 1。"
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:26
 msgid "The robot moved below the bottom row. Its cell.y should be equal to board_size.y - 1."
-msgstr ""
+msgstr "机器人移动到了最后一行下方。它的 cell.y 应当等于 board_size.y - 1。"
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:40
 msgid "Your for loop needs to contain the code that moves the robot."
-msgstr ""
+msgstr "你的 for 循环里需要包含移动机器人的代码。"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:40
 msgid "Use a For Loop to Draw Rectangles"
-msgstr ""
+msgstr "使用 for 循环绘制矩形"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:41
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:40
@@ -1811,7 +1811,7 @@ msgstr "图形间距为 100 像素"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:62
 msgid "Your for loop needs to contain the code to draw the rectangles."
-msgstr ""
+msgstr "你的 for 循环里需要包含绘制矩形的代码。"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:67
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:48
@@ -2213,7 +2213,7 @@ msgstr "代码使用了 for 循环"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:19
 msgid "The number of items displayed does not match the number of items in the inventory. Did you display each item exactly once?"
-msgstr ""
+msgstr "显示的物品数量与背包里的物品数量不一致。你是否把每个物品都恰好显示了一次？"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:29
 #, fuzzy
@@ -2222,7 +2222,7 @@ msgstr "显示的项目与库存变量的内容不符。您是否为库存中的
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:44
 msgid "Your code does not use a for loop to call display_item(). Please make sure you display each item inside the loop."
-msgstr ""
+msgstr "你的代码没有用 for 循环调用 display_item()。请确保你在循环里显示每个物品。"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:11
 #, fuzzy
@@ -2231,7 +2231,7 @@ msgstr "所有单位均已显示"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:19
 msgid "The number of units displayed does not match the number of units in the units dictionary. Did you place each unit exactly once?"
-msgstr ""
+msgstr "显示的单位数量与单位字典里的数量不一致。你是否把每个单位都恰好放置了一次？"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:29
 #, fuzzy
@@ -2240,7 +2240,7 @@ msgstr "显示的单位与 units 变量的内容不匹配。您是否为 units �
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:43
 msgid "Your code does not use a for loop to call place_unit(). Please make sure you place each unit inside the loop."
-msgstr ""
+msgstr "你的代码没有用 for 循环调用 place_unit()。请确保你在循环里放置每个单位。"
 
 #: course/lesson-27-value-types/display-energy/TestDisplayingEnergy.gd:11
 #, fuzzy
@@ -2446,11 +2446,11 @@ msgstr "绘制三个边长为 200 像素的正方形"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:26
 msgid "Reuse The draw_square() Function"
-msgstr ""
+msgstr "复用 draw_square() 函数"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:34
 msgid "You need to use the predefined draw_square() function inside draw_three_squares() in this exercise. This avoids duplicating the turtle instructions by hand."
-msgstr ""
+msgstr "这个练习里，你需要在 draw_three_squares() 中调用预定义好的 draw_square() 函数，这样可以避免手动重复海龟的指令。"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:39
 #, fuzzy
@@ -2781,7 +2781,7 @@ msgstr "你的 while 循环会无限运行（while true），且没有 break 语
 
 #: ui/UIPractice.gd:426
 msgid "You typed \"%s\"; did you mean \"%s\"?"
-msgstr ""
+msgstr "你输入的是 \"%s\"；你是不是想输入 \"%s\"？"
 
 #: ui/UIPractice.gd:443
 msgid "Running Your Code..."
