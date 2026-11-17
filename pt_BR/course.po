@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-11-13 21:51+0000\n"
+"PO-Revision-Date: 2026-11-17 18:51+0000\n"
 "Last-Translator: joicyelle oliveira <joicyelle.oliveira@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -40,9 +40,8 @@ msgstr "Dizendo ao computador o que fazer"
 
 #. TRANSLATORS: The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-1-what-code-is-like/lesson.bbcode:9
-#, fuzzy
 msgid "Programming is the process of writing precise [glossary term=\"instructions\"]instructions[/glossary] that tell a computer how to perform a task."
-msgstr "Programação é o processo de escrever [glossary term=\"instructions\"] precisas que dizem a um computador como realizar uma tarefa."
+msgstr "Programação é o processo de escrever [glossary term=\"instructions\"]instruções[/glossary] precisas que dizem a um computador como realizar uma tarefa."
 
 #: course/lesson-1-what-code-is-like/lesson.bbcode:10
 msgid "A game's instructions are, for example: moving a character, drawing a life bar, or playing a sound."
@@ -323,9 +322,8 @@ msgstr "Execute seu primeiro código e veja o resultado."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-1-what-code-is-like/lesson.bbcode:138
-#, fuzzy
 msgid "Click the [i]Run[/i] button."
-msgstr "Clique no botão [i]Executar[/i]."
+msgstr "Clique no botão [i]Run[/i]."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-2-your-first-error/lesson.bbcode:1
@@ -423,9 +421,8 @@ msgstr "Esse código está errado e vai causar um erro quando você tentar execu
 #. TRANSLATORS: Practice goal
 #. The "term" in [glossary term="<term>"] should NOT be translated here
 #: course/lesson-2-your-first-error/lesson.bbcode:41
-#, fuzzy
 msgid "The code defines an empty [glossary term=\"function\"]function[/glossary] named [code]this_code_is_wrong[/code]."
-msgstr "O código define uma [glossary term=\"function\"] vazia chamada [code]esse_codigo_esta_errado[/code]."
+msgstr "O código define uma função [glossary term=\"function\"] vazia chamada [code]this_code_is_wrong[/code]."
 
 #. TRANSLATORS: Practice goal
 #. The "term" in [glossary term="<term>"] should NOT be translated here
@@ -1256,12 +1253,12 @@ msgstr "Entretanto, os nomes podem conter números em qualquer outra parte deles
 #. TRANSLATORS: Quiz answer
 #: course/lesson-5-your-first-function/lesson.bbcode:80
 msgid "move forward"
-msgstr "move forward"
+msgstr "seguir em frente"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-5-your-first-function/lesson.bbcode:80
 msgid "jump"
-msgstr "jump"
+msgstr "Pular"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-5-your-first-function/lesson.bbcode:80
@@ -1366,7 +1363,7 @@ msgstr "Agora que você criou uma função para desenhar quadrados, você pode r
 #. TRANSLATORS: Practice hint
 #: course/lesson-5-your-first-function/lesson.bbcode:123
 msgid "You need to define a new function below draw_square() named [code]draw_three_squares().[/code]"
-msgstr ""
+msgstr "Você precisa definir uma nova função abaixo a Desenhar quadrado() chamado [code]desenhar _tres_quadrados().[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-5-your-first-function/lesson.bbcode:123
@@ -1376,7 +1373,7 @@ msgstr "Sua nova função deve chamar [code]draw_square()[/code] três vezes, em
 #. TRANSLATORS: Practice hint
 #: course/lesson-5-your-first-function/lesson.bbcode:123
 msgid "Between each call to [code]draw_square[/code], there should be a call to [code]jump(300,300)[/code]"
-msgstr ""
+msgstr "Entre cada um chamado [code]Desenhar_quadrado[/code],deve ter um chamado [code]pular(300,300)[/code]"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:1
@@ -1467,7 +1464,7 @@ msgstr "Como criar funções com parâmetros"
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:44
 msgid "When you write a function [i]definition[/i] (the line starting with the [code]func[/code] keyword), you can add parameters."
-msgstr ""
+msgstr "Quando você escreve uma função [i]definição[/i]( a linha começa com a [code]func[/code] palavra_chave), você pode adicionar parametros."
 
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:45
 msgid "To add a parameter, write a placeholder name inside the parentheses. When someone calls your function with a value, every copy of the parameter in the function gets replaced with that value."
@@ -1733,7 +1730,7 @@ msgstr "Usando parâmetros de função, programe uma função que você pode reu
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:135
 msgid "You need to add the parameter [code]length[/code] three times in this practice"
-msgstr ""
+msgstr "Você precisa adicionar o parâmetro [code]comprimento{/code] três vezes nessa lição"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
@@ -1777,17 +1774,17 @@ msgstr "Com dois parâmetros, programe uma função para desenhar cantos com qua
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 msgid "Parameters in functions are separated by commas"
-msgstr ""
+msgstr "Parâmetros na função são separados por vírgulas"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 msgid "You need to add the parameter [code]angle[/code] two times in this practice"
-msgstr ""
+msgstr "Você precisa adicionar o parâmetro [code]angulo[/code] duas vezes nessa prática"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:164
 msgid "Use [code]func draw_corner(length, angle):[/code]"
-msgstr "Use [code]func draw_corner(length, angle):[/code]"
+msgstr "Use [code]func Desenhar_canto(length, angle):[/code]"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
@@ -1826,7 +1823,7 @@ msgstr "A sua função precisa mover para frente pelo [code]length[/code] (compr
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Remember that the turtle only knows a few functions: [code]move_forward()[/code] to draw a straight line and [code]turn_right()[/code] to the right. Call these functions with the correct arguments to draw the square."
-msgstr ""
+msgstr "Lembre-se que a tartaruga só sabe poucas funções: [code]]move_forward()[/code] para desenhar a linha reta e [code]turn_right()[/code]para a direita. Chamam essas funçoes com o argumento correto para desenhar um quadrado."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
@@ -1841,22 +1838,22 @@ msgstr "Na lição anterior, sua função podia desenhar quadrados de tamanho fi
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "You need to specify one parameter in the function definition"
-msgstr ""
+msgstr "Você precisa especificar um parâmetro na definição da função"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Use [code]func draw_square(length):[/code]"
-msgstr "Use [code]func draw_square(length):[/code]"
+msgstr "Use [code]func desenhar_quadrado(length):[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Call [code]move_forward()[/code] four times for each side of the square"
-msgstr ""
+msgstr "chame [code]move_forward(0[/code] 4 vezes para cada lado do quadrado"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:193
 msgid "Make sure to [code]turn_right(90)[/code] after moving forward to create each corner"
-msgstr ""
+msgstr "Certifique-se de usar [code]turn_right(90)[/code] após avançar para criar cada canto"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:222
@@ -1910,17 +1907,17 @@ msgstr "Com um parâmetro, você pode fazer quadrados de qualquer tamanho. Com d
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:222
 msgid "You need to specify the two parameters in the function definition"
-msgstr ""
+msgstr "Você precisa especificar os dois parâmetros na definição da função"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:222
 msgid "Use [code]func draw_rectangle(length, height):[/code]"
-msgstr "Use [code]func draw_rectangle(length, height):[/code]"
+msgstr "Use [code]func desenhar_retangulo(length, height):[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-6-multiple-function-parameters/lesson.bbcode:222
 msgid "When calling move_forward, you need to alternate between using the length and the height arguments when calling move_forward."
-msgstr ""
+msgstr "Quando chamar move_forward, voce precisa alternar entre usar os argumentos comprimento e altura quando chamar move_forward."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-7-member-variables/lesson.bbcode:1
@@ -2183,7 +2180,7 @@ msgstr "Use a variável membro \"position\" e suas sub-variáveis para alterar a
 #. TRANSLATORS: Practice hint
 #: course/lesson-7-member-variables/lesson.bbcode:112
 msgid "You should set the X position to 120, and the Y position to 100."
-msgstr ""
+msgstr "Você deve definir a posição X como 120 e a posição Y como 100."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-7-member-variables/lesson.bbcode:112
@@ -2228,17 +2225,17 @@ msgstr "Agora você pode colocar e desenhar uma forma, mas que tal desenhar vár
 #. TRANSLATORS: Practice hint
 #: course/lesson-7-member-variables/lesson.bbcode:133
 msgid "As each square is 100 pixels wide, to separate them by 100 pixels, you need to move the turtle by 200 pixels in total."
-msgstr ""
+msgstr "Como cada quadrado tem 100 pixels de largura, para separá-los por 100 pixels, é preciso mover a tartaruga 200 pixels no total."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-7-member-variables/lesson.bbcode:133
 msgid "You need to change the turtle's X position before drawing each square."
-msgstr ""
+msgstr "Você precisa alterar a posição X da tartaruga antes de desenhar cada quadrado."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-7-member-variables/lesson.bbcode:133
 msgid "To change the turtle's position to 100 pixels on the X axis, write [code]position.x = 100[/code]. You can write [code]position.y = 100[/code] to move the turtle to 100 pixels on the Y axis."
-msgstr ""
+msgstr "Para alterar a posição da tartaruga para 100 pixels no eixo X, escreva [code]position.x = 100[/code]. Você pode escrever [code]position.y = 100[/code] para mover a tartaruga para 100 pixels no eixo Y."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-8-defining-variables/lesson.bbcode:1
@@ -2444,7 +2441,7 @@ msgstr "Para definir uma variável, você escreve a palavra-chave var, um espaç
 #. TRANSLATORS: Practice hint
 #: course/lesson-8-defining-variables/lesson.bbcode:100
 msgid "You can assign a value to a variable by writing = followed by the value"
-msgstr ""
+msgstr "Você pode atribuir um valor a uma variável escrevendo = seguido pelo valor"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:1
@@ -2488,8 +2485,8 @@ msgid ""
 "[code]health -= amount[/code]\n"
 "[code]health = health - amount[/code]"
 msgstr ""
-"[code]health -= amount[/code]\n"
-"[code]health = health - amount[/code]"
+"[code]vida -= quantidade[/code]\n"
+"[code]vida = vida - quuantidade[/code]"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:31
 msgid "You may notice that the health of the robot can go below [code]0[/code]. We'll see how to manage this in a future lesson using [i]conditions[/i]."
@@ -2521,22 +2518,22 @@ msgstr "Ambas as linhas aumentam a variável [code]health[/code] (vida) do robô
 #. TRANSLATORS: Quiz answer
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 msgid "health -= amount"
-msgstr "health -= amount"
+msgstr "vida -= quantidade"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 msgid "health += amount"
-msgstr "health += amount"
+msgstr "vida += quantidade"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 msgid "health = health + amount"
-msgstr "health = health + amount"
+msgstr "vida = vida + quantidade"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:36
 msgid "health = health - amount"
-msgstr "health = health - amount"
+msgstr "vida = vida - quantidade"
 
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:52
 msgid "In the following practices, you'll code the [code]take_damage()[/code] and [code]heal()[/code] functions so the robot's health can decrease and increase."
@@ -2611,7 +2608,7 @@ msgstr "Defina a função [code]heal()[/code] usando [code]func[/code]"
 #. TRANSLATORS: Practice hint
 #: course/lesson-9-adding-and-subtracting/lesson.bbcode:74
 msgid "The first line is [code]func heal(amount):[/code]"
-msgstr ""
+msgstr "A primeira linha é [code]func heal(amount):[/code]"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-10-the-game-loop/lesson.bbcode:1
@@ -3207,17 +3204,17 @@ msgstr "Nós criamos a variável [code]angular_speed[/code] e atribuímos nela e
 #. TRANSLATORS: Quiz answer
 #: course/lesson-12-using-variables/lesson.bbcode:38
 msgid "var angular_speed = 4"
-msgstr "var angular_speed = 4"
+msgstr "var velocidade_angular = 4"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-12-using-variables/lesson.bbcode:38
 msgid "func _process(delta):"
-msgstr "func _process(delta):"
+msgstr "func _processo(delta):"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-12-using-variables/lesson.bbcode:38
 msgid "rotate(angular_speed * delta)"
-msgstr "rotate(angular_speed * delta)"
+msgstr "rodar(velocidade_angular * delta)"
 
 #: course/lesson-12-using-variables/lesson.bbcode:51
 msgid "If we define variables outside of functions, we can re-use them in different functions."
@@ -3327,7 +3324,7 @@ msgstr "Não se esqueça de usá-la na função [code]rotate()[/code]"
 #. TRANSLATORS: Practice hint
 #: course/lesson-12-using-variables/lesson.bbcode:85
 msgid "To define the variable, use [code]var angular_speed = 4[/code]"
-msgstr ""
+msgstr "Para definir a variável, use [code]var angular_speed = 4[/code]"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-12-using-variables/lesson.bbcode:107
@@ -3357,12 +3354,12 @@ msgstr "Uh oh! Há algo de errado aqui. Você pode consertar isso?"
 #. TRANSLATORS: Practice hint
 #: course/lesson-12-using-variables/lesson.bbcode:107
 msgid "You need to make [code]angular_speed[/code] script-wide so it's available to all functions"
-msgstr ""
+msgstr "Você precisa tornar [code]angular_speed[/code] acessível a todo o script, de modo que fique disponível para todas as funções"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-12-using-variables/lesson.bbcode:107
 msgid "Define [code]angular_speed[/code] at the top of the script instead"
-msgstr ""
+msgstr "Defina [code]angular_speed[/code] no topo do script em vez disso"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-13-conditions/lesson.bbcode:1
@@ -3586,17 +3583,17 @@ msgstr "Usando comparações"
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:107
 msgid "Each [code]if[/code] statement below has a wrong comparison sign. Fix the comparison signs so every condition is [code]true[/code] and every [code]print()[/code] message runs."
-msgstr ""
+msgstr "Cada instrução [code]if[/code] abaixo contém um sinal de comparação incorreto. Corrija os sinais de comparação para que todas as condições sejam [code]true[/code] e todas as mensagens [code]print()[/code] sejam executadas."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:107
 msgid "Only change the comparison signs ([code]>[/code], [code]<[/code], [code]==[/code], [code]!=[/code]). Do not change the values or the messages."
-msgstr ""
+msgstr "Altere apenas os sinais de comparação ([code]>[/code], [code]<[/code], [code]==[/code], [code]!=[/code]). Não altere os valores nem as mensagens."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:107
 msgid "Here are the four comparison signs and what they mean:"
-msgstr ""
+msgstr "Aqui estão os quatro sinais de comparação e o que eles significam:"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:107
@@ -3618,7 +3615,7 @@ msgstr ""
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:107
 msgid "For example, if [code]health[/code] is equal to [code]100[/code] and the message says \"health is greater than five,\" the correct comparison is [code]health > 5[/code], because 100 is greater than 5. That makes the condition evaluate to [code]true[/code] and print the message."
-msgstr ""
+msgstr "Por exemplo, se [code]health[/code] for igual a [code]100[/code] e a mensagem disser \"health é maior que cinco\", a comparação correta é [code]health > 5[/code], pois 100 é maior que 5. Isso faz com que a condição seja avaliada como [code]true[/code] e a mensagem seja exibida."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-13-conditions/lesson.bbcode:107
@@ -3628,17 +3625,17 @@ msgstr "Comparar valores nos permite tomar decisões no código. Mas há algo de
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:107
 msgid "Read each [code]print()[/code] message carefully. The message tells you what the comparison should mean. Then pick the sign that matches best."
-msgstr ""
+msgstr "Leia com atenção cada mensagem [code]print()[/code]. A mensagem indica o que a comparação deve significar. Depois escolha o sinal que melhor se adequa."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:107
 msgid "Remember: you only need to change the [code]>[/code], [code]<[/code], [code]==[/code], or [code]!=[/code] symbols. Do not change numbers or the [code]print()[/code] calls!"
-msgstr ""
+msgstr "Lembre-se: você só precisa alterar os símbolos [code]>[/code], [code]<[/code], [code]==[/code] ou [code]!=[/code]. Não altere os números nem as chamadas [code]print()[/code]!"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:107
 msgid "For the last line, \"not equal to seven\" means you need the [code]!=[/code] sign: [code]health != 7[/code]."
-msgstr ""
+msgstr "Para a última linha, \"diferente de sete\" significa que você precisa do símbolo: [code]!= health != 7[/code]."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-13-conditions/lesson.bbcode:149
@@ -3648,12 +3645,12 @@ msgstr "Limitando a Cura"
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
 msgid "The [code]heal()[/code] function adds [code]amount[/code] to [code]health[/code]. But right now, health can increase forever, without limit! We want to stop it at [code]80[/code]."
-msgstr ""
+msgstr "A função [code]heal()[/code] adiciona [code]amount[/code] a [code]health[/code]. Mas, no momento, a [code]health[/code] pode aumentar indefinidamente, sem limite! Queremos que ela pare a [code]80[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
 msgid "I've defined a [code]health[/code] variable for you with a starting value of [code]20[/code]. Your task is to add a condition inside [code]heal()[/code] so that health is never greater than [code]80[/code]."
-msgstr ""
+msgstr "Defini uma variável [code]health[/code] para você, com um valor inicial de [code]20[/code]. Sua tarefa é adicionar uma condição dentro de [code]heal()[/code] para que o valor de [code]health[/code] nunca ultrapasse [code]80[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
@@ -3666,8 +3663,8 @@ msgid ""
 "[code]heal(40)[/code]\n"
 "[code]heal(40)[/code]"
 msgstr ""
-"[code]heal(40)[/code]\n"
-"[code]heal(40)[/code]"
+"[code]cura(40)[/code]\n"
+"[code]cura(40)[/code]"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
@@ -3682,7 +3679,7 @@ msgstr "Por mais que queremos isso, não queremos que nosso robô tenha muita vi
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:149
 msgid "The starting code already adds the amount to the [code]health[/code] variable: [code]health += amount[/code] is already there. You need to add a check [b]after[/b] it, otherwise the health will overshoot your limit."
-msgstr ""
+msgstr "O código inicial já adiciona o valor à variável: [code]health. health += amount[/code] já está presente. Você precisa adicionar uma verificação [b]após[/b] ele, caso contrário, o valor de [code]health[/code] ultrapassará o seu limite."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:149
@@ -3692,7 +3689,7 @@ msgstr "Use [code]if health > 80:[/code] para detectar quando a vida ficou muito
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:149
 msgid "Inside that [code]if[/code] block, set health back to the limit: [code]health = 80[/code]. That's how you limit the value."
-msgstr ""
+msgstr "Dentro desse bloco [code]if[/code], defina a vida de volta ao limite: [code]health = 80[/code]. É assim que você limita o valor."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -3702,7 +3699,7 @@ msgstr "Evitando que a Vida Fique Abaixo de Zero"
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "We want to display the health number on screen, like in many RPGs. But currently, the health can go below 0, which does not make sense. We want to stop at [code]0[/code]."
-msgstr ""
+msgstr "Queremos exibir o valor de vida na tela, como em muitos RPGs. mas atualmente a vida pode ficar abaixo de 0, o que não faz sentido. Queremos que ela pare em [code]0[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -3730,6 +3727,9 @@ msgid ""
 "[code]take_damage(10)[/code]\n"
 "[code]take_damage(10)[/code]"
 msgstr ""
+"[code]take_damage(10)[/code]\n"
+"[code]take_damage(10)[/code]\n"
+"[code]take_damage(10)[/code]"
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -3744,22 +3744,22 @@ msgstr "Ter um valor negativo de vida não faz muito sentido. Certifique-se de q
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "Start by subtracting the damage: [code]health -= amount[/code]. This is how you apply damage."
-msgstr ""
+msgstr "Comece subtraindo o dano: [code]health -= amount[/code]. É assim que você aplica o dano."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "To limit the health, after subtracting the amount, you need to add a condition and reset the health."
-msgstr ""
+msgstr "Para limitar a vida, após subtrair o valor, você precisa adicionar uma condição e redefinir a vida."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "Here's how to write a condition to check if health went below zero: [code]if health < 0:[/code]."
-msgstr ""
+msgstr "Veja como escrever uma condição para verificar se a vida ficou abaixo de zero: [code]if health < 0:[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "Inside the [code]if[/code] block, you can reset the health like this: [code]health = 0[/code]."
-msgstr ""
+msgstr "Dentro do bloco [code]if[/code], você pode redefinir a vida assim: [code]health = 0[/code]."
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-14-multiplying/lesson.bbcode:1
@@ -3901,7 +3901,7 @@ msgstr "Queremos que nosso robô aumente em força à medida que sobe de nível.
 #. TRANSLATORS: Practice hint
 #: course/lesson-14-multiplying/lesson.bbcode:86
 msgid "To increase a number by 10%, multiply it by [code]1.1[/code]"
-msgstr ""
+msgstr "Para aumentar um número em 10%, multiplique-o por [code]1,1[/code]"
 
 #. TRANSLATORS: Practice title
 #: course/lesson-14-multiplying/lesson.bbcode:112
@@ -3936,7 +3936,7 @@ msgstr "Em níveis mais altos, queremos que nosso robô seja super resistente e 
 #. TRANSLATORS: Practice hint
 #: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "You need to use an [code]if[/code] statement at the top of the function to check if the robot's [code]level[/code] is greater than [code]2[/code]"
-msgstr ""
+msgstr "Você precisa usar uma instrução [code]if[/code] no início da função para verificar se o [code]level[/code] do robô é maior que [code]2[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-14-multiplying/lesson.bbcode:112
@@ -3946,7 +3946,7 @@ msgstr "Para reduzir o [code]amount[/code], multiplique-o por um valor menor que
 #. TRANSLATORS: Practice hint
 #: course/lesson-14-multiplying/lesson.bbcode:112
 msgid "Reassign [code]amount[/code] on its own line inside the [code]if[/code] block, before the line [code]health -= amount[/code]"
-msgstr ""
+msgstr "Reatribua [code]amount[/code] em uma linha própria dentro do bloco [code]if[/code], antes da linha [code]health -= amount[/code]"
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-14-multiplying/lesson.bbcode:112
@@ -4570,7 +4570,7 @@ msgstr "Com o loop [code]for[/code], nós checamos a largura do tabuleiro primei
 
 #: course/lesson-18-for-loops/lesson.bbcode:74
 msgid "The function still works the same way, assuming the robot starts at [code]cell.x = 0[/code] each time (the left edge of the board). The [code]while[/code] loop would work no matter where the robot starts. You can run it below."
-msgstr ""
+msgstr "A função continua funcionando da mesma maneira, supondo que o robô comece em [code]cell.x = 0[/code] a cada vez (a borda esquerda do tabuleiro). O laço [code]while[/code] funcionaria independentemente de onde o robô comece. Você pode executá-lo abaixo."
 
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "In the practices, we'll use [code]for[/code] loops in different ways to get you used to using them."
@@ -4606,7 +4606,7 @@ msgstr "O tamanho do tabuleiro está armazenado em uma variável chamada [code]b
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "To move the robot, change [code]cell[/code] one step at a time. If you add [code]Vector2(0, 1)[/code] to [code]cell[/code], the robot will move down one row."
-msgstr ""
+msgstr "Para mover o robô, altere [code]cell[/code] um passo de cada vez. Se você adicionar [code]Vector2(0, 1)[/code] a [code]cell[/code], o robô se moverá uma linha para baixo."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
@@ -4617,7 +4617,7 @@ msgstr "Use um loop [code]while[/code] para mover o robô um passo de cada vez, 
 #. TRANSLATORS: Practice goal
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "To check your code, I will call the [code]move_to_bottom()[/code] function. After calling it, [code]cell.y[/code] should be equal to [code]board_size.y - 1[/code]. This is the bottom row of the board."
-msgstr ""
+msgstr "Para verificar seu código, chamarei a função [code]move_to_bottom()[/code]. Após a chamada, [code]cell.y[/code] deverá ser igual a [code]board_size.y - 1[/code]. Essa é a linha inferior do tabuleiro."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-18-for-loops/lesson.bbcode:77
@@ -4628,22 +4628,22 @@ msgstr "Use um loop for para fazer nosso robô se mover da parte superior do tab
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "The robot starts on row [code]0[/code] and has to get to the last row. Because rows are counted from [code]0[/code], the last row is [code]board_size.y - 1[/code]."
-msgstr ""
+msgstr "O robô começa na linha [code]0[/code] e precisa chegar à última linha. Como as linhas são contadas a partir de [code]0[/code], a última linha é [code]board_size.y - 1[/code]."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "[code]cell[/code] is a [code]Vector2[/code]. To move the robot down one row, add [code]Vector2(0, 1)[/code] to [code]cell[/code] (or add 1 to [code]cell.y[/code])."
-msgstr ""
+msgstr "[code]cell[/code] é um [code]Vector2[/code]. Para mover o robô uma linha para baixo, adicione [code]Vector2(0, 1)[/code] a [code]cell[/code] (ou adicione 1 a [code]cell.y[/code])."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "The robot starts on row [code]0[/code], so it needs to move [code]board_size.y - 1[/code] steps to reach the last row. Call [code]range(board_size.y - 1)[/code] to create an array with that many numbers to loop over."
-msgstr ""
+msgstr "O robô começa na linha [code]0[/code], então ele precisa se mover [code]board_size.y - 1[/code] passos para chegar à última linha. Use [code]range(board_size.y - 1)[/code] para criar uma variedade com quantos números for para o laço acabar."
 
 #. TRANSLATORS: Practice hint
 #: course/lesson-18-for-loops/lesson.bbcode:77
 msgid "Use [code]for number in range(board_size.y - 1):[/code] and add [code]Vector2(0, 1)[/code] to [code]cell[/code] inside the loop. The loop variable [code]number[/code] is only a counter here, so we don't need to use it."
-msgstr ""
+msgstr "Use [code]for number in range(board_size.y - 1):[/code] e adicione [code]Vector2(0, 1)[/code] a [code]cell[/code] dentro do loop. A variável de loop [code]number[/code] serve apenas como um contador aqui, então não precisamos utilizá-la."
 
 #. TRANSLATORS: Practice title
 #: course/lesson-18-for-loops/lesson.bbcode:111
@@ -4997,12 +4997,12 @@ msgstr "Como você acessa sub-variáveis?"
 #. TRANSLATORS: Note content
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:56
 msgid "The variable [code]cell[/code] defined right after the [code]for[/code] keyword is the name of the loop's [b]cursor[/b] variable. In each loop iteration, Godot assigns a value from the path to this variable."
-msgstr ""
+msgstr "A variável [code]cell[/code] definida logo após a palavra-chave [code]for[/code], é o nome da variável [b]cursor[/b] do loop. A cada iteração do loop, a Godot atribui um valor do caminho a essa variável."
 
 #. TRANSLATORS: Note content
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:57
 msgid "The variable name [code]cell[/code] is arbitrary; you could call it [code]coordinate[/code] or [code]point[/code] if you wanted. This code does the same thing as the code above, but with a different variable name:"
-msgstr ""
+msgstr "O nome da variável [code]cell[/code] é arbitrário; você poderia chamá-la de [code]coordinate[/code] ou [code]point[/code], se quisesse. Este código faz a mesma coisa que o código acima, mas com um nome de variável diferente:"
 
 #: course/lesson-20-looping-over-arrays/lesson.bbcode:69
 #, fuzzy
@@ -5501,7 +5501,7 @@ msgstr "Para converter, multiplique a coordenada da célula pelo o tamanho dela 
 #. TRANSLATORS: Practice goal
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
 msgid "I will call the [code]convert_to_world_coordinates()[/code] function three times in total with three different cell coordinates to test your code."
-msgstr ""
+msgstr "Chamarei a função [code]convert_to_world_coordinates()[/code] um total de três vezes, com três coordenadas de célula diferentes, para testar o seu código."
 
 #. TRANSLATORS: Practice description
 #: course/lesson-22-functions-return-values/lesson.bbcode:96
@@ -5663,7 +5663,7 @@ msgstr "Seu trabalho é mover pedidos da lista de espera para a lista [code]comp
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
 msgid "I will call the [code]complete_current_order()[/code] function once for each order. It means the function will run four times in total, once per order."
-msgstr ""
+msgstr "Chamarei a função [code]complete_current_order()[/code] uma vez para cada pedido. Isso significa que a função será executada quatro vezes no total, uma vez por pedido."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-23-append-to-arrays/lesson.bbcode:79
@@ -5785,12 +5785,12 @@ msgstr "Os índices começam em zero, então o índice do [i]terceiro[/i] item �
 #. TRANSLATORS: Quiz answer
 #: course/lesson-24-access-array-indices/lesson.bbcode:25
 msgid "inventory[2]"
-msgstr "inventory[2]"
+msgstr "inventario[2]"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-24-access-array-indices/lesson.bbcode:25
 msgid "inventory[3]"
-msgstr "inventory[3]"
+msgstr "inventario[3]"
 
 #. TRANSLATORS: Heading
 #: course/lesson-24-access-array-indices/lesson.bbcode:31
@@ -5828,12 +5828,12 @@ msgstr "Pode ser um pouco confuso, pois parece funcionar de maneira diferente do
 #. TRANSLATORS: Quiz answer
 #: course/lesson-24-access-array-indices/lesson.bbcode:41
 msgid "inventory[-3]"
-msgstr "inventory[-3]"
+msgstr "inventario[-3]"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-24-access-array-indices/lesson.bbcode:41
 msgid "inventory[-2]"
-msgstr "inventory[-2]"
+msgstr "inventario[-2]"
 
 #. TRANSLATORS: Heading
 #: course/lesson-24-access-array-indices/lesson.bbcode:49
@@ -5895,7 +5895,7 @@ msgstr "Você pode ver o inventário desenhado na direita, ao longo dos índices
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
 msgid "The [code]inventory[/code] array in the code contains the same items in the same order as on the right."
-msgstr ""
+msgstr "A variável [code]inventory[/code] no código contém os mesmos itens, na mesma ordem, que aparecem à direita."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-24-access-array-indices/lesson.bbcode:67
@@ -6035,7 +6035,7 @@ msgstr "No exemplo acima, a Godot não saberia se deveria retornar [code]3[/code
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:35
 msgid "\"healing heart\""
-msgstr "\"healing heart\""
+msgstr "\"coração curando\""
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:35
@@ -6106,17 +6106,17 @@ msgstr "No nosso caso, [code]var item_count = inventário[\"gems\"][/code] está
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:64
 msgid "var item_count = inventory[\"gem\"]"
-msgstr "var item_count = inventory[\"gem\"]"
+msgstr "var contagem_de_item = inventario[\"gema\"]"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:64
 msgid "var item_count = inventory[\"gems\"]"
-msgstr "var item_count = inventory[\"gems\"]"
+msgstr "var contagem_de_item = inventario[\"gemas\"]"
 
 #. TRANSLATORS: Quiz answer
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:64
 msgid "var item_count = inventory[\"sword\"]"
-msgstr "var item_count = inventory[\"sword\"]"
+msgstr "var contagem_de_item = inventario[\"espada\"]"
 
 #. TRANSLATORS: Heading
 #: course/lesson-25-creating-dictionaries/lesson.bbcode:73
@@ -6783,10 +6783,10 @@ msgstr "O tipo [code]int[/code] significa inteiro ou número inteiro, portanto, 
 #. TRANSLATORS: Practice hint
 #: course/lesson-28-specifying-types/lesson.bbcode:105
 msgid "The type [code]String[/code] means you need to write a text string, a value surrounded by quotes."
-msgstr ""
+msgstr "O tipo [code]String[/code] significa que você precisa escrever uma sequência de caracteres, um valor delimitado por aspas."
 
 msgid "Learn to Code From Zero with Godot"
-msgstr ""
+msgstr "Aprenda a programar do zero com a Godot"
 
 #~ msgid ""
 #~ "[code]\n"
