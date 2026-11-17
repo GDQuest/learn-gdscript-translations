@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-11-15 01:51+0000\n"
+"PO-Revision-Date: 2026-11-17 18:51+0000\n"
 "Last-Translator: joicyelle oliveira <joicyelle.oliveira@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/learn-gdscript-from-zero/application/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -283,7 +283,7 @@ msgstr "Concluído"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/Meal.tscn
 msgid "cheese sandwich"
-msgstr ""
+msgstr "Sanduiche de queijo"
 
 #: course/lesson-24-access-array-indices/visuals/SyntaxAccessIndex.tscn
 #, fuzzy
@@ -415,17 +415,19 @@ msgstr "parameter_2"
 
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleDamage.tscn
 msgid "take_damage(25)"
-msgstr ""
+msgstr "tomar_dano(25)"
 
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleDamage.tscn
 msgid ""
 "func take_damage(amount):\n"
 "\thealth -= amount"
 msgstr ""
+"func Tomar_dano(quantidade):\n"
+"\tvida -= quantidade"
 
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleHeal.tscn
 msgid "heal(25)"
-msgstr ""
+msgstr "cura(25)"
 
 #: ui/UILesson.tscn
 msgid "Title"
@@ -485,15 +487,15 @@ msgstr "Deixar prática não finalizada?"
 
 #: ui/components/BetaIndicator.tscn
 msgid "App in"
-msgstr ""
+msgstr "App em"
 
 #: ui/components/BetaIndicator.tscn
 msgid "BETA!"
-msgstr ""
+msgstr "BETA!"
 
 #: ui/components/BetaIndicator.tscn
 msgid "found a bug?"
-msgstr ""
+msgstr "achou um bug?"
 
 #: ui/components/BigGreenButton.tscn
 msgid "Button"
@@ -752,15 +754,15 @@ msgstr "Fechar"
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Something does not work"
-msgstr ""
+msgstr "Alguma coisa não funciona"
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Something is unclear or incorrect"
-msgstr ""
+msgstr "alguma coisa não está claro ou está incorreto"
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Suggest an improvement"
-msgstr ""
+msgstr "sugira uma melhoria"
 
 #: ui/components/popups/ReportFormPopup.tscn
 #, fuzzy
@@ -769,23 +771,23 @@ msgstr "Traduções da Comunidade"
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Write a short description."
-msgstr ""
+msgstr "Escreva uma pequena descrição."
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Describe what went wrong, what you were doing, and what you expected to happen."
-msgstr ""
+msgstr "Descreva o que deu errado, o que você estava fazendo, e o que você esperava que acontecesse."
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Open the contact page on our website with this report prefilled."
-msgstr ""
+msgstr "abra a pagina de contato no nosso site com esse relatório preenchido."
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Send report"
-msgstr ""
+msgstr "Enviar relatório"
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Close the report form without sending anything."
-msgstr ""
+msgstr "feche o formulário de relatório sem mandar nada."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Configure the App"
@@ -796,6 +798,8 @@ msgid ""
 "Pick one of the community-contributed translations.\n"
 "Some translations are not complete yet."
 msgstr ""
+"Escolha uma entre as traduções feitas pela comunidade.\n"
+"Algumas traduções ainda não estão completas."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Language"
@@ -808,11 +812,11 @@ msgstr "Sobre as traduções da comunidade"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "0% of text translated. 0/0 lessons fully translated."
-msgstr ""
+msgstr "0% dos textos traduzidos. 0/0 lições totalmente traduzidas."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Make all text in the app bigger or smaller."
-msgstr ""
+msgstr "Faça todos os textos no app grandes ou pequenos."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Text Size"
@@ -865,6 +869,8 @@ msgid ""
 "Reduce the contrast between the text and the background.\n"
 "This makes the app easier on your eyes."
 msgstr ""
+"Reduza o contraste entre o texto e o fundo.\n"
+"Isso faz o app mais fácil em seus olhos."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Lower contrast"
@@ -905,6 +911,13 @@ msgid ""
 "\n"
 "Thank you to everyone who has contributed translations so far."
 msgstr ""
+"As línguas disponíveis nesse app são traduzidas pelos voluntários da comunidade. Eles não são oficialmente apoiados, e algumas traduções podem está incompletas ou faltando inteiramente.\n"
+"\n"
+"Se você ver um texto que ainda está em inglês enquanto usa outra língua , Isso é esperado. Significa que parte do app não Foi traduzido ainda.\n"
+"\n"
+"Se você quiser ajudar a fazer as traduções mais completas, você é bem vindo para contribuir. Você pode achar instruções em como fazer isso aqui: [b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]How to contribute translations[/url][/b]\n"
+"\n"
+"Obrigado a todos que já contribuíram com traduções ate agora."
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
 msgid "Lesson Title Goes Here"
@@ -960,7 +973,7 @@ msgstr ""
 
 #: ui/screens/course_outliner/CourseLessonList.tscn
 msgid "This course is 80% translated. Incomplete lessons will contain English text."
-msgstr ""
+msgstr "Esse curso é 80% traduzido. Lições incompletas vão conter textos em inglês."
 
 #: ui/screens/course_outliner/CourseOutliner.tscn
 msgid "Course Index - "
@@ -1646,7 +1659,7 @@ msgstr "Use um vetor para aumentar a escala"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:12
 msgid "The Scale Is Correct After Gaining Multiple Levels"
-msgstr ""
+msgstr "A escala está correta após o ganho de vários níveis"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:35
 #, fuzzy
@@ -1701,15 +1714,15 @@ msgstr "Use o loop “While”"
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:23
 msgid "The robot stopped above the bottom row. The cell.y member variable should be equal to board_size.y - 1 (the last row in the board)."
-msgstr ""
+msgstr "O robô parou acima da linha inferior. A variável-membro cell.y deve ser igual a board_size.y - 1 (a última linha do tabuleiro)."
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:26
 msgid "The robot moved below the bottom row. The cell.y member variable should be equal to board_size.y - 1 (the last row in the board)."
-msgstr ""
+msgstr "O robô moveu-se para abaixo da última linha. A variável-membro cell.y deve ser igual a board_size.y - 1 (a última linha do tabuleiro)."
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:40
 msgid "Your while loop needs to contain the code that moves the robot."
-msgstr ""
+msgstr "Seu laço while precisa conter o código que movimenta o robô."
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:15
 #, fuzzy
@@ -1718,7 +1731,7 @@ msgstr "Use o loop “For”"
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:23
 msgid "The robot stopped above the bottom row. Its cell.y should be equal to board_size.y - 1."
-msgstr ""
+msgstr "O robô parou acima da última linha. A cell.y deve ser igual a board_size.y - 1."
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:26
 msgid "The robot moved below the bottom row. Its cell.y should be equal to board_size.y - 1."
@@ -2815,9 +2828,8 @@ msgstr ""
 msgid "CONTINUE"
 msgstr "CONTINUAR"
 
-#, fuzzy
 msgid "Learn to Code From Zero with Godot"
-msgstr "Aprenda a programar do zero com o Godot"
+msgstr "Aprenda a programar do zero com a Godot"
 
 #, fuzzy
 #~ msgid ""
