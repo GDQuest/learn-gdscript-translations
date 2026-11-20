@@ -22,7 +22,7 @@ msgstr ""
 
 #: course/common/CustomHealthBar.tscn
 msgid "health = 100"
-msgstr "الصحة = 100"
+msgstr "نقاط الصحة = 100"
 
 #: course/common/inventory/DictInventory.tscn
 #: course/lesson-26-looping-over-dictionaries/display-inventory/DisplayInventory.tscn
@@ -77,7 +77,6 @@ msgstr "="
 
 #: course/lesson-12-using-variables/visuals/VariableDefinition.tscn
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
-#, fuzzy
 msgid "value"
 msgstr "القيمة"
 
@@ -87,14 +86,12 @@ msgstr "شفاء (50)"
 
 #: course/lesson-13-conditions/visuals/ExampleHeal.tscn
 #: course/lesson-9-adding-and-subtracting/visuals/ExampleHeal.tscn
-#, fuzzy
 msgid ""
 "func heal(amount):\n"
 "\thealth += amount"
 msgstr ""
-"دالة الشفاء (الكمية):\n"
-"\n"
-"الصحة += الكمية"
+"func heal(amount):\n"
+"\thealth += amount"
 
 #: course/lesson-13-conditions/visuals/ExampleJump.tscn
 msgid "Jump"
@@ -269,7 +266,7 @@ msgstr "الروبوت"
 
 #: course/lesson-22-functions-return-values/visuals/ExampleRoundingHealth.tscn
 msgid "Health: "
-msgstr "صحة: "
+msgstr "نقاط الصحة: "
 
 #: course/lesson-23-append-to-arrays/clearing-meals/ClearingMeals.tscn
 #: course/lesson-23-append-to-arrays/visuals/OrderMeals.tscn
@@ -278,9 +275,8 @@ msgstr "الطلبات المعلقة"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/ClearingMeals.tscn
 #: course/lesson-23-append-to-arrays/visuals/OrderMeals.tscn
-#, fuzzy
 msgid "Completed"
-msgstr "تم إكمال الاختبارات"
+msgstr "مكتمل"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/Meal.tscn
 msgid "cheese sandwich"
@@ -351,8 +347,12 @@ msgid "Invalid operands for operator."
 msgstr "معاملات غير صالحة للمُشغِّل."
 
 #: course/lesson-28-specifying-types/ErrorInvalidType.tscn
-msgid "Parser Error: The assigned value's type (float) doesn't match the variable's type (Vector2)."
-msgstr "خطأ في المحلل اللغوي: نوع القيمة المعينة (float) لا يتطابق مع نوع المتغير (Vector2)."
+msgid ""
+"Parser Error: The assigned value's type (float) doesn't match the variable's"
+" type (Vector2)."
+msgstr ""
+"خطأ في المحلل اللغوي: نوع القيمة المعينة (float) لا يتطابق مع نوع المتغير "
+"(Vector2)."
 
 #: course/lesson-28-specifying-types/SyntaxTypeHints.tscn
 #: course/lesson-5-your-first-function/VisualFunctionDefinition.tscn
@@ -434,9 +434,8 @@ msgid "Report an issue"
 msgstr "الإبلاغ عن مشكلة"
 
 #: ui/UINavigator.tscn
-#, fuzzy
 msgid "Configure the app"
-msgstr "قم بتهيئة التطبيق"
+msgstr "تهيئة التطبيق"
 
 #: ui/UIPractice.tscn
 msgid "Suggested Solution"
@@ -484,9 +483,8 @@ msgid "Toggle the code editor expanded."
 msgstr "قم بتوسيع محرر التعليمات البرمجية."
 
 #: ui/components/CodeEditor.tscn
-#, fuzzy
 msgid "Run your code."
-msgstr "يتم تشغيل الكود الخاص بك..."
+msgstr "تشغيل شيفرتك البرمجية."
 
 #: ui/components/CodeEditor.tscn
 msgid "Run"
@@ -502,7 +500,7 @@ msgstr "إيقاف"
 
 #: ui/components/CodeEditor.tscn
 msgid "Reset your code to the starting point."
-msgstr "أعد ضبط الكود الخاص بك إلى نقطة البداية."
+msgstr "أعد ضبط شيفرتك إلى نقطة البداية."
 
 #: ui/components/CodeEditor.tscn ui/components/RunnableCodeExample.tscn
 msgid "Reset"
@@ -548,8 +546,12 @@ msgstr ""
 "اختصار: F11"
 
 #: ui/components/GDQuestCreditsLabel.tscn
-msgid "Learn GDScript From Zero is an open source project by [color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
-msgstr "دورة \"تعلم GDScript من الصفر\" هي مشروع مفتوح المصدر من [color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
+msgid ""
+"Learn GDScript From Zero is an open source project by "
+"[color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
+msgstr ""
+"دورة \"تعلم GDScript من الصفر\" هي مشروع مفتوح المصدر من "
+"[color=#FFD500][url=https://www.gdquest.com/]GDQUEST.COM[/url][/color]"
 
 #: ui/components/GameView.tscn
 msgid "Paused"
@@ -559,7 +561,8 @@ msgstr "توقف مؤقتًا"
 msgid "Term"
 msgstr "المصطلحات"
 
-#: ui/components/GlossaryPopup.tscn ui/components/popups/ErrorOverlayPopup.tscn
+#: ui/components/GlossaryPopup.tscn
+#: ui/components/popups/ErrorOverlayPopup.tscn
 msgid "Our error explanation."
 msgstr "تفسير خطأنا."
 
@@ -573,7 +576,7 @@ msgstr "انقر لتحديد الجزء ذي الصلة من التعليمات
 
 #: ui/components/OutputConsoleErrorMessage.tscn
 msgid "at"
-msgstr "في (أو عند)"
+msgstr "في"
 
 #: ui/components/OutputConsoleErrorMessage.tscn
 msgid "line 0, column -1"
@@ -581,12 +584,15 @@ msgstr "السطر 0، العمود -1"
 
 #: ui/components/OutputConsoleErrorMessage.tscn
 msgid "Click to learn about external errors"
-msgstr ""
+msgstr "انقر للتعرف على الأخطاء الخارجية"
 
 #: ui/components/OutputConsoleErrorMessage.tscn
-#, fuzzy
-msgid "Sometimes errors are reported outside of your code. [url=external]Why does that happen?[/url]"
-msgstr "أحياناً يتم الإبلاغ عن أخطاء خارج الكود الخاص بك. لماذا يحدث ذلك؟"
+msgid ""
+"Sometimes errors are reported outside of your code. [url=external]Why does "
+"that happen?[/url]"
+msgstr ""
+"في بعض الأحيان، يتم الإبلاغ عن أخطاء خارج نطاق شيفرتك البرمجية. "
+"[url=external]لماذا يحدث ذلك؟[/url]"
 
 #: ui/components/OutputConsoleErrorMessage.tscn
 msgid "Explain"
@@ -597,6 +603,8 @@ msgid ""
 "Quit the app.\n"
 "Shortcut: Alt+F4"
 msgstr ""
+"الخروج من التطبيق.\n"
+"اختصار لوحة المفاتيح: Alt+F4"
 
 #: ui/components/Revealer.tscn
 msgid "Expand"
@@ -639,9 +647,11 @@ msgid ""
 "\n"
 "Thank you!"
 msgstr ""
-"عذراً، لم نقم بتغطية رسالة الخطأ هذه بعد!\n"
+"عذرًا، ليس لدينا تغطية لرسالة الخطأ هذه بعد!\n"
 "\n"
-"يرجى استخدام زر [b]Report[/b] الموجود في الزاوية العلوية اليمنى لإخبارنا بالمزيد حول كيفية حصولك على هذه المشكلة، وسنحاول تحسين قاعدة معارفنا للإصدار التالي من التطبيق."
+"يُرجى استخدام زر Report (إبلاغ) في الزاوية العلوية اليمنى لتخبرنا بالمزيد حول كيفية حصولك عليه، وسنحاول تحسين قاعدة معرفتنا للإصدار التالي من التطبيق.\n"
+"\n"
+"شكرًا لك!"
 
 #: ui/components/popups/ErrorOverlayPopup.tscn
 msgid "Hide"
@@ -659,11 +669,11 @@ msgid ""
 "\n"
 "[i]This is like how game engines work too.[/i] There is a lot of hidden code that they execute to ensure your project runs smoothly. And yet, an error in your scripts can break them. We'll try to explain how to address each individual error that you face. Quick, click the [b]Explain[/b] button next to the error message!"
 msgstr ""
-"صُممت الدروس في هذه الدورة بحيث لا تحتاج إلا إلى تعديل الأجزاء المهمة. ولكن هناك الكثير من التعليمات البرمجية الأخرى التي تُشغّل المشروع، والتي لا تراها.\n"
+"صُممت الدروس في هذه الدورة بحيث لا تحتاج إلا إلى تعديل [b]النقاط المهمة[/b]. ولكن هناك الكثير من الشيفرات البرمجية خارج ما تراه والتي تجعل المشروع يعمل.\n"
 "\n"
-"هذا يعني أن التغييرات التي تُجريها قد تؤثر أحيانًا على أجزاء من الكود لا يمكنك التحكم بها. لكن لا تقلق، لا يزال بإمكانك إصلاح جميع المشاكل بنفسك باستخدام الكود الذي يمكنك تعديله!\n"
+"هذا يعني أن التغييرات التي تجريها قد تؤثر أحيانًا على شيفرات برمجية ليس لديك تحكم فيها. ولكن لا تقلق، لا يزال بإمكانك إصلاح جميع المشكلات بنفسك باستخدام الشيفرة التي [b]يمكنك[/b] تعديلها!\n"
 "\n"
-"[i]هذا يشبه آلية عمل محركات الألعاب أيضًا.[/i] هناك الكثير من التعليمات البرمجية المخفية التي تُنفذ لضمان تشغيل مشروعك بسلاسة. ومع ذلك، قد يؤدي خطأ في البرامج النصية إلى تعطيلها. سنحاول شرح كيفية معالجة كل خطأ على حدة قد تواجهه. انقر بسرعة على زر [b]شرح[/b] بجوار رسالة الخطأ!"
+"[i]هذا يشبه تمامًا كيفية عمل محركات الألعاب أيضًا.[/i] هناك الكثير من الشيفرات البرمجية المخفية التي تنفذها للتأكد من أن مشروعك يعمل بسلاسة. ومع ذلك، يمكن أن يؤدي خطأ في برامجك النصية إلى تعطيلها. سنحاول شرح كيفية التعامل مع كل خطأ يواجهك. سريعًا، انقر فوق الزر [b]Explain[/b] بجوار رسالة الخطأ!"
 
 #: ui/components/popups/ExternalErrorPopup.tscn
 msgid "Got it!"
@@ -682,13 +692,12 @@ msgstr ""
 "الممارسات التي تخطيتها."
 
 #: ui/components/popups/LessonDonePopup.tscn
-#, fuzzy
 msgid ""
 "[b]Stay[/b] and revisit the study material,\n"
 "or [b]continue[/b] the course."
 msgstr ""
-"[center][b]ابقَ[/b] وراجع المواد الدراسية،\n"
-"أو [b]أكمل[/b] الدورة.[/center]"
+"[b]ابقَ[/b] وراجع المواد الدراسية،\n"
+"أو [b]تابع[/b] الدورة."
 
 #: ui/components/popups/LessonDonePopup.tscn
 #: ui/components/popups/PracticeDonePopup.tscn
@@ -704,13 +713,12 @@ msgid "You completed the practice."
 msgstr "لقد أكملت التمرين."
 
 #: ui/components/popups/PracticeDonePopup.tscn
-#, fuzzy
 msgid ""
 "[b]Stay[/b] and play around,\n"
 "or [b]continue[/b] the course."
 msgstr ""
-"[center][b]ابقَ[/b] واستمتع بالتجربة،\n"
-"أو [b]أكمل[/b] الدورة.[/center]"
+"[b]ابقَ[/b] وجرّب بحرية،\n"
+"أو [b]تابع[/b] الدورة."
 
 #: ui/components/popups/PracticeListPopup.tscn
 msgid "Practice List"
@@ -723,40 +731,41 @@ msgstr "إغلاق"
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Something does not work"
-msgstr ""
+msgstr "شيء ما لا يعمل"
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Something is unclear or incorrect"
-msgstr ""
+msgstr "شيء ما غير واضح أو غير صحيح"
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Suggest an improvement"
-msgstr ""
+msgstr "اقتراح تحسين"
 
 #: ui/components/popups/ReportFormPopup.tscn
-#, fuzzy
 msgid "Translation issue"
-msgstr "تهانينا!"
+msgstr "مشكلة في الترجمة"
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Write a short description."
-msgstr ""
+msgstr "اكتب وصفًا موجزًا."
 
 #: ui/components/popups/ReportFormPopup.tscn
-msgid "Describe what went wrong, what you were doing, and what you expected to happen."
-msgstr ""
+msgid ""
+"Describe what went wrong, what you were doing, and what you expected to "
+"happen."
+msgstr "صِف ما حدث من خطأ، وماذا كنت تفعل، وما الذي كنت تتوقع حدوثه."
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Open the contact page on our website with this report prefilled."
-msgstr ""
+msgstr "فتح صفحة التواصل على موقعنا مع تعبئة هذا البلاغ مسبقًا."
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Send report"
-msgstr ""
+msgstr "إرسال البلاغ"
 
 #: ui/components/popups/ReportFormPopup.tscn
 msgid "Close the report form without sending anything."
-msgstr ""
+msgstr "إغلاق نموذج البلاغ دون إرسال أي شيء."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Configure the App"
@@ -767,6 +776,8 @@ msgid ""
 "Pick one of the community-contributed translations.\n"
 "Some translations are not complete yet."
 msgstr ""
+"اختر إحدى الترجمات المقدمة من المجتمع.\n"
+"بعض الترجمات ليست مكتملة بعد."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Language"
@@ -774,15 +785,15 @@ msgstr "لغة"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "About community translations"
-msgstr ""
+msgstr "حول ترجمات المجتمع"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "0% of text translated. 0/0 lessons fully translated."
-msgstr ""
+msgstr "تمت ترجمة 0% من النصوص. تم الانتهاء من ترجمة 0/0 من الدروس بالكامل."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Make all text in the app bigger or smaller."
-msgstr ""
+msgstr "تكبير أو تصغير جميع النصوص في التطبيق."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Text Size"
@@ -793,42 +804,45 @@ msgid "Sample text"
 msgstr "نص نموذجي"
 
 #: ui/components/popups/SettingsPopup.tscn
-msgid "Change how fast the page scrolls when you use the mouse wheel or touchpad."
-msgstr ""
+msgid ""
+"Change how fast the page scrolls when you use the mouse wheel or touchpad."
+msgstr "تغيير سرعة تمرير الصفحة عند استخدام عجلة الفأرة أو لوحة اللمس."
 
 #: ui/components/popups/SettingsPopup.tscn
-#, fuzzy
 msgid "Scroll speed"
-msgstr "حساسية التمرير"
+msgstr "سرعة التمرير"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid ""
 "Limit how many frames per second the app draws.\n"
 "Lower values use less resources, which helps when running in the browser, but the app may feel less smooth."
 msgstr ""
+"تحديد عدد الإطارات في الثانية التي يعرضها التطبيق.\n"
+"القيم الأقل تستهلك موارد أقل، وهو ما يساعد عند التشغيل في المتصفح، ولكن التطبيق قد يبدو أقل سلاسة."
 
 #: ui/components/popups/SettingsPopup.tscn
-#, fuzzy
 msgid "Max framerate"
 msgstr "الحد الأقصى لمعدل الإطارات"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "60 FPS"
-msgstr ""
+msgstr "60 إطارًا/ث"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "30 FPS"
-msgstr ""
+msgstr "30 إطارًا/ث"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "No Limit"
-msgstr ""
+msgstr "بلا حد"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid ""
 "Reduce the contrast between the text and the background.\n"
 "This makes the app easier on your eyes."
 msgstr ""
+"تقليل التباين بين النص والخلفية.\n"
+"هذا يجعل التطبيق أكثر راحة لعينيك."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Lower contrast"
@@ -836,13 +850,15 @@ msgstr "تباين أقل"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Enabled"
-msgstr ""
+msgstr "مفعّل"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid ""
 "Switch to a font designed to be easier to read for people with dyslexia.\n"
 "This does not work with languages like Chinese and Japanese."
 msgstr ""
+"التبديل إلى خط مصمم ليكون أسهل في القراءة للمصابين بعسر القراءة (الديسلكسيا).\n"
+"لا يعمل هذا مع لغات مثل الصينية واليابانية."
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Dyslexia Font"
@@ -850,12 +866,11 @@ msgstr "خط عسر القراءة"
 
 #: ui/components/popups/SettingsPopup.tscn
 msgid "Apply"
-msgstr "تطبيق (أو اعتماد)"
+msgstr "تطبيق"
 
 #: ui/components/popups/TranslationInfoPopup.tscn
-#, fuzzy
 msgid "Community Translations"
-msgstr "تهانينا!"
+msgstr "ترجمات المجتمع"
 
 #: ui/components/popups/TranslationInfoPopup.tscn
 msgid ""
@@ -867,6 +882,13 @@ msgid ""
 "\n"
 "Thank you to everyone who has contributed translations so far."
 msgstr ""
+"اللغات المتاحة في هذا التطبيق مترجمة بواسطة متطوعين من المجتمع. وهي ليست مدعومة رسميًا، وقد تكون بعض الترجمات غير مكتملة أو مفقودة كليًا.\n"
+"\n"
+"إذا رأيت نصًا لا يزال باللغة الإنجليزية أثناء استخدام لغة أخرى، فهذا أمر متوقع، ويعني أن ذلك الجزء من التطبيق لم تتم ترجمته بعد.\n"
+"\n"
+"إذا كنت ترغب في المساعدة في إكمال الترجمات، فنحن نرحب بمساهمتك! يمكنك العثور على التعليمات حول كيفية القيام بذلك هنا: [b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]كيفية المساهمة في الترجمات[/url][/b]\n"
+"\n"
+"شكرًا جزيلاً لكل من ساهم في الترجمة حتى الآن."
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
 msgid "Lesson Title Goes Here"
@@ -890,16 +912,19 @@ msgstr "التدريبات المكتملة"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
 msgid "Amount of Translated Text"
-msgstr ""
+msgstr "نسبة النصوص المترجمة"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
 msgid "0%"
 msgstr "0%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
-#, fuzzy
-msgid "\t[b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]How to contribute translations[/url][/b]"
-msgstr "1[center][b][url=https://github.com/GDQuest/learn-gdscript/issues]GitHub.com > GDQuest > learn-gdscript > Issues[/url][/b][/center]"
+msgid ""
+"\t[b][url=https://github.com/GDQuest/learn-gdscript-translations/#readme]How"
+" to contribute translations[/url][/b]"
+msgstr ""
+"\t[b][url=https://github.com/GDQuest/learn-gdscript-"
+"translations/#readme]كيفية المساهمة في الترجمات[/url][/b]"
 
 #: ui/screens/course_outliner/CourseLessonDetails.tscn
 #: ui/screens/course_outliner/CourseLessonDetails.gd:86
@@ -909,7 +934,7 @@ msgstr "ابدأ الدرس"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn
 msgid "L12."
-msgstr ""
+msgstr "د12."
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn
 msgid "Lesson Title"
@@ -917,16 +942,18 @@ msgstr "عنوان الدرس"
 
 #: ui/screens/course_outliner/CourseLessonItem.tscn
 msgid "A/文 100%"
-msgstr ""
+msgstr "A/文 100%"
 
 #: ui/screens/course_outliner/CourseLessonList.tscn
-msgid "This course is 80% translated. Incomplete lessons will contain English text."
+msgid ""
+"This course is 80% translated. Incomplete lessons will contain English text."
 msgstr ""
+"تمت ترجمة 80% من هذه الدورة. ستحتوي الدروس غير المكتملة على نصوص باللغة "
+"الإنجليزية."
 
 #: ui/screens/course_outliner/CourseOutliner.tscn
-#, fuzzy
 msgid "Course Index - "
-msgstr "فهرس الدورة -"
+msgstr "فهرس الدورة - "
 
 #: ui/screens/course_outliner/CourseOutliner.tscn
 msgid "Course Title Goes Here"
@@ -949,8 +976,12 @@ msgid "YOU MADE IT!"
 msgstr "لقد نجحت!"
 
 #: ui/screens/end_screen/EndScreen.tscn
-msgid "Not only did you learn the foundations of coding, you're a big step closer to making your own games."
-msgstr "لم تتعلم فقط أساسيات البرمجة، بل أصبحت أقرب خطوة كبيرة إلى صنع ألعابك الخاصة."
+msgid ""
+"Not only did you learn the foundations of coding, you're a big step closer "
+"to making your own games."
+msgstr ""
+"لم تتعلم فقط أساسيات البرمجة، بل أصبحت أقرب خطوة كبيرة إلى صنع ألعابك "
+"الخاصة."
 
 #: ui/screens/end_screen/EndScreen.tscn
 msgid "Don't stop here..."
@@ -969,8 +1000,12 @@ msgid "Following video tutorials"
 msgstr "متابعة الدروس التعليمية المصورة"
 
 #: ui/screens/end_screen/EndScreen.tscn
-msgid "They're a great way to pick up specific game mechanics but they're not as effective when you're trying to learn new skills from the ground up."
-msgstr "إنها طريقة رائعة لاكتساب آليات لعب محددة، لكنها ليست فعالة بنفس القدر عندما تحاول تعلم مهارات جديدة من الصفر."
+msgid ""
+"They're a great way to pick up specific game mechanics but they're not as "
+"effective when you're trying to learn new skills from the ground up."
+msgstr ""
+"إنها طريقة رائعة لاكتساب آليات لعب محددة، لكنها ليست فعالة بنفس القدر عندما "
+"تحاول تعلم مهارات جديدة من الصفر."
 
 #: ui/screens/end_screen/EndScreen.tscn
 msgid "• There's no clear learning path."
@@ -981,16 +1016,35 @@ msgid "• Retention and skill acquisition is slow and limited."
 msgstr "• الاحتفاظ بالمهارات واكتسابها بطيء ومحدود."
 
 #: ui/screens/end_screen/EndScreen.tscn
-msgid "We make our fair share of [b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]free tutorials[/url][/color][/b]. They will come in very handy once you start making games on your own. But to get started, we really recommend you learn how to think like a game developer using [b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]courses[/url][/color][/b]."
-msgstr "نحن نقدم نصيبنا العادل من [b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]الدروس المجانية[/url][/color][/b]؛ والتي ستكون مفيدة للغاية بمجرد أن تبدأ في صنع ألعابك الخاصة. ولكن كبداية، ننصحك حقاً بـ تعلم كيف تفكر كمطور ألعاب من خلال [b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-access]الدورات التدريبية[/url][/color][/b]."
+msgid ""
+"We make our fair share of "
+"[b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]free "
+"tutorials[/url][/color][/b]. They will come in very handy once you start "
+"making games on your own. But to get started, we really recommend you learn "
+"how to think like a game developer using "
+"[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
+"access]courses[/url][/color][/b]."
+msgstr ""
+"نحن نقدم نصيبنا العادل من "
+"[b][color=#ebc3ff][url=https://www.youtube.com/@Gdquest/videos]الدروس "
+"المجانية[/url][/color][/b]؛ والتي ستكون مفيدة للغاية بمجرد أن تبدأ في صنع "
+"ألعابك الخاصة. ولكن كبداية، ننصحك حقاً بـ تعلم كيف تفكر كمطور ألعاب من خلال "
+"[b][color=#ebc3ff][url=https://school.gdquest.com/godot-4-early-"
+"access]الدورات التدريبية[/url][/color][/b]."
 
 #: ui/screens/end_screen/EndScreen.tscn
 msgid "Learning with courses"
 msgstr "التعلم من خلال الدورات"
 
 #: ui/screens/end_screen/EndScreen.tscn
-msgid "Note that most available courses online are actually premium series of video tutorials. The problem of retaining information and acquiring real skills unfortunately still applies to them."
-msgstr "تجدر الإشارة إلى أن معظم الدورات التدريبية المتاحة عبر الإنترنت هي في الواقع عبارة عن سلاسل دروس فيديو مميزة. وللأسف، لا تزال مشكلة استيعاب المعلومات واكتساب المهارات الحقيقية قائمة عليها."
+msgid ""
+"Note that most available courses online are actually premium series of video"
+" tutorials. The problem of retaining information and acquiring real skills "
+"unfortunately still applies to them."
+msgstr ""
+"تجدر الإشارة إلى أن معظم الدورات التدريبية المتاحة عبر الإنترنت هي في الواقع"
+" عبارة عن سلاسل دروس فيديو مميزة. وللأسف، لا تزال مشكلة استيعاب المعلومات "
+"واكتساب المهارات الحقيقية قائمة عليها."
 
 #: ui/screens/end_screen/EndScreen.tscn
 msgid ""
@@ -1031,42 +1085,44 @@ msgid "Congratulations!"
 msgstr "تهانينا!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
-#, fuzzy
 msgid ""
 "You completed Learn GDScript From Zero. You now have the basics you need to make games with the Godot game engine.\n"
 "\n"
 "You can keep learning with the free series Getting Started with Godot."
-msgstr "لقد أكملت دورة \"تعلم GDScript من الصفر\". لديك الآن الأساسيات التي تحتاجها لصنع الألعاب باستخدام محرك الألعاب Godot."
+msgstr ""
+"لقد أكملت دورة \"تعلم GDScript من الصفر\". لديك الآن الأساسيات التي تحتاجها لصنع الألعاب باستخدام محرك الألعاب Godot.\n"
+"\n"
+"يمكنك مواصلة التعلم من خلال السلسلة المجانية Getting Started with Godot."
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
 msgid "This is an Open-Source project!"
 msgstr "هذا مشروع مفتوح المصدر!"
 
 #: ui/screens/end_screen/SponsorlessEndScreen.tscn
-#, fuzzy
 msgid ""
 "Like Godot, this app and course is free and open-source.\n"
 "\n"
 "You can find the app's source code and contribute translations here: Learn GDScript From Zero (Github repository)."
 msgstr ""
-"مثل برنامج Godot، هذا التطبيق والدورة التدريبية مجانيان ومفتوحا المصدر.\n"
+"مثل Godot، هذا التطبيق وهذه الدورة التدريبية مجانيان ومفتوحا المصدر.\n"
 "\n"
-"يمكنك العثور على شفرة المصدر للتطبيق والمساهمة في الترجمات هنا: [url=https://github.com/GDQuest/learn-gdscript]تعلم GDScript من الصفر (مستودع Github)[/url]."
+"يمكنك العثور على الشيفرة المصدرية للتطبيق والمساهمة في الترجمات هنا: تعلم GDScript من الصفر (مستودع Github)."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
-#, fuzzy
 msgid "Question"
-msgstr "[b]سؤال[/b]"
+msgstr "سؤال"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
 msgid ""
 "You've already answered this quiz correctly before.\n"
 "Feel free to try it again to refresh your memory!"
 msgstr ""
+"لقد أجبت عن هذا الاختبار بشكل صحيح من قبل.\n"
+"لا تتردد في تجربته مرة أخرى لتنشيط ذاكرتك!"
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
 msgid "You need to try to answer once before you can skip a quiz."
-msgstr ""
+msgstr "تحتاج إلى محاولة الإجابة مرة واحدة قبل أن تتمكن من تخطي الاختبار."
 
 #: ui/screens/lesson/UIBaseQuiz.tscn
 msgid "Skip"
@@ -1093,15 +1149,16 @@ msgid ""
 "You've already completed this practice before.\n"
 "You can give it another go if you want to test your skills!"
 msgstr ""
+"لقد أكملت هذا التمرين من قبل.\n"
+"يمكنك تجربته مرة أخرى إذا كنت ترغب في اختبار مهاراتك!"
 
 #: ui/screens/lesson/UIPracticeButton.tscn
 msgid "next"
 msgstr "التالي"
 
 #: ui/screens/lesson/UIPracticeButton.tscn
-#, fuzzy
 msgid "Open this practice."
-msgstr "لقد أكملت التمرين."
+msgstr "افتح هذا التمرين."
 
 #: ui/screens/lesson/UIPracticeButton.tscn
 msgid "Practice"
@@ -1116,7 +1173,6 @@ msgid "Answer label"
 msgstr "دليل الإجابة"
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.tscn
-#, fuzzy
 msgid "[b]Question[/b]"
 msgstr "[b]سؤال[/b]"
 
@@ -1146,7 +1202,7 @@ msgstr "الوثائق"
 
 #: ui/screens/practice/PracticeInfoPanel.tscn
 msgid "Open the list of practices for this lesson."
-msgstr ""
+msgstr "فتح قائمة التمارين لهذا الدرس."
 
 #: ui/screens/practice/PracticeInfoPanel.tscn
 msgid "Open Practice List"
@@ -1174,1007 +1230,1313 @@ msgid "QUIT"
 msgstr "خروج"
 
 #: ui/screens/welcome_screen/WelcomeScreen.tscn
-#, fuzzy
 msgid "An open source project by GDQuest.com"
-msgstr "المشروع مفتوح المصدر من [url=https://www.gdquest.com/]GDQuest.com[/url]"
+msgstr "مشروع مفتوح المصدر بواسطة GDQuest.com"
 
 #: course/lesson-1-what-code-is-like/first_practice/TestsWhatCodeIsLike.gd:5
 msgid "Run The Code"
-msgstr ""
+msgstr "تشغيل الشيفرة البرمجية"
 
 #: course/lesson-1-what-code-is-like/first_practice/TestsWhatCodeIsLike.gd:5
 msgid "Press the Run button to run the code"
-msgstr ""
+msgstr "اضغط على زر التشغيل لتشغيل الشيفرة"
 
 #: course/lesson-10-the-game-loop/rotating-and-moving/TestsRotatingAndMoving.gd:16
 msgid "Character Is Moving In A Circle Clockwise"
-msgstr ""
+msgstr "الشخصية تتحرك في دائرة باتجاه عقارب الساعة"
 
 #: course/lesson-10-the-game-loop/rotating-and-moving/TestsRotatingAndMoving.gd:21
 #: course/lesson-10-the-game-loop/rotating-sprite/TestsRotating.gd:17
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:33
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:46
 msgid "Did you use rotate() to make the sprite rotate?"
-msgstr ""
+msgstr "هل استخدمت rotate() لجعل العنصر الرسومي يدور؟"
 
 #: course/lesson-10-the-game-loop/rotating-and-moving/TestsRotatingAndMoving.gd:23
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:35
 msgid "Did you use move_local_x() to make the sprite move locally?"
-msgstr ""
+msgstr "هل استخدمت move_local_x() لجعل العنصر الرسومي يتحرك محليًا؟"
 
 #: course/lesson-10-the-game-loop/rotating-and-moving/TestsRotatingAndMoving.gd:26
 #: course/lesson-10-the-game-loop/rotating-sprite/TestsRotating.gd:30
 #: course/lesson-10-the-game-loop/rotating-sprite/TestsRotating.gd:33
 msgid "The robot is turning in the wrong direction!"
-msgstr ""
+msgstr "الروبوت يدور في الاتجاه الخاطئ!"
 
 #: course/lesson-10-the-game-loop/rotating-and-moving/TestsRotatingAndMoving.gd:28
 msgid "The character didn't move as expected."
-msgstr ""
+msgstr "لم تتحرك الشخصية كما هو متوقع."
 
 #: course/lesson-10-the-game-loop/rotating-sprite/TestsRotating.gd:10
 msgid "Character Is Rotating Clockwise"
-msgstr ""
+msgstr "الشخصية تدور باتجاه عقارب الساعة"
 
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:20
 msgid "Moving In A Circle"
-msgstr ""
+msgstr "التحرك في دائرة"
 
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:21
 msgid "Movement Is Time Dependent"
-msgstr ""
+msgstr "الحركة تعتمد على الوقت"
 
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:22
 msgid "Movement Speed Is Correct"
-msgstr ""
+msgstr "سرعة الحركة صحيحة"
 
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:47
-msgid "You need to use delta in your code. Multiplying by delta makes the movement time-dependent."
+msgid ""
+"You need to use delta in your code. Multiplying by delta makes the movement "
+"time-dependent."
 msgstr ""
+"تحتاج إلى استخدام delta في شيفرتك البرمجية. فالضرب في delta يجعل الحركة "
+"معتمدة على الوقت."
 
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:48
-msgid "Both rotate() and move_local_x() need to multiply their value by delta, like this: rotate(2 * delta) and move_local_x(100 * delta)."
+msgid ""
+"Both rotate() and move_local_x() need to multiply their value by delta, like"
+" this: rotate(2 * delta) and move_local_x(100 * delta)."
 msgstr ""
+"تحتاج كل من rotate() وmove_local_x() إلى ضرب قيمتها في delta، هكذا: rotate(2"
+" * delta) وmove_local_x(100 * delta)."
 
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:55
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:24
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:41
 msgid "The _process function is missing; did you remove it?"
-msgstr ""
+msgstr "الدالة _process مفقودة؛ هل قمت بحذفها؟"
 
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:69
-msgid "It looks like you stored values in variables before passing them to the functions."
-msgstr ""
+msgid ""
+"It looks like you stored values in variables before passing them to the "
+"functions."
+msgstr "يبدو أنك قمت بتخزين القيم في متغيرات قبل تمريرها إلى الدوال."
 
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:70
-msgid "That works in GDScript, but we cannot check the values automatically here."
-msgstr ""
+msgid ""
+"That works in GDScript, but we cannot check the values automatically here."
+msgstr "هذا يعمل في GDScript، ولكن لا يمكننا التحقق من القيم تلقائيًا هنا."
 
 #: course/lesson-11-time-delta/rotating-and-moving-delta/TestsRotatingMovingDelta.gd:71
-msgid "Please write the values directly inside the function calls, like this: rotate(2 * delta) and move_local_x(100 * delta)."
+msgid ""
+"Please write the values directly inside the function calls, like this: "
+"rotate(2 * delta) and move_local_x(100 * delta)."
 msgstr ""
+"يرجى كتابة القيم مباشرة داخل استدعاءات الدوال، هكذا: rotate(2 * delta) "
+"وmove_local_x(100 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:7
 msgid "Rotating Character Is Time Dependent"
-msgstr ""
+msgstr "دوران الشخصية يعتمد على الوقت"
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:14
 msgid "Rotation Speed Is 2 Radians Per Second"
-msgstr ""
+msgstr "سرعة الدوران هي 2 راديان في الثانية"
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:33
-msgid "You need to use delta in the rotate() call. Delta is what makes the rotation time-dependent. Try rotate(2 * delta)."
+msgid ""
+"You need to use delta in the rotate() call. Delta is what makes the rotation"
+" time-dependent. Try rotate(2 * delta)."
 msgstr ""
+"تحتاج إلى استخدام delta في استدعاء rotate(). فالمتغير delta هو ما يجعل "
+"الدوران معتمدًا على الوقت. جرب rotate(2 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:44
 msgid "It looks like you stored the value in a variable before using it."
-msgstr ""
+msgstr "يبدو أنك قمت بتخزين القيمة في متغير قبل استخدامها."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:45
 msgid "That's valid, but we can't check the value automatically."
-msgstr ""
+msgstr "هذا صحيح، ولكن لا يمكننا التحقق من القيمة تلقائيًا."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:46
 msgid "Please write it directly in the function call: rotate(2 * delta)."
-msgstr ""
+msgstr "يرجى كتابتها مباشرة في استدعاء الدالة: rotate(2 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:49
 msgid "It looks like delta is not being multiplied."
-msgstr ""
+msgstr "يبدو أنه لم يتم ضرب delta."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:50
-msgid "You need to use the * sign to multiply the speed by delta inside the parentheses, like this: rotate(2 * delta)."
+msgid ""
+"You need to use the * sign to multiply the speed by delta inside the "
+"parentheses, like this: rotate(2 * delta)."
 msgstr ""
+"تحتاج إلى استخدام العلامة * لضرب السرعة في delta داخل الأقواس، هكذا: "
+"rotate(2 * delta)."
 
 #: course/lesson-11-time-delta/rotating-using-delta/TestsRotatingDelta.gd:60
-msgid "The rotation speed is not right. The robot should rotate 2 radians per second. Make sure the call looks like this: rotate(2 * delta)."
+msgid ""
+"The rotation speed is not right. The robot should rotate 2 radians per "
+"second. Make sure the call looks like this: rotate(2 * delta)."
 msgstr ""
+"سرعة الدوران غير صحيحة. يجب أن يدور الروبوت بمقدار 2 راديان في الثانية. تأكد"
+" من أن الاستدعاء يبدو هكذا: rotate(2 * delta)."
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:17
 msgid "Angular Speed Variable Is Script Wide"
-msgstr ""
+msgstr "متغير السرعة الزاوية معرّف على مستوى البرنامج النصي"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:18
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:18
 msgid "Angular Speed Has Value Of 4"
-msgstr ""
+msgstr "السرعة الزاوية لها القيمة 4"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:19
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:19
 msgid "Angular Speed Is Used In Process Function"
-msgstr ""
+msgstr "السرعة الزاوية مستخدمة في الدالة process"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:24
-msgid "The angular_speed isn't script-wide. Did you define it outside of the function?"
+msgid ""
+"The angular_speed isn't script-wide. Did you define it outside of the "
+"function?"
 msgstr ""
+"المتغير angular_speed ليس على مستوى البرنامج النصي. هل قمت بتعريفه خارج "
+"الدالة؟"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:30
-msgid "The angular speed variable doesn't exist or isn't script-wide. Make it script-wide first."
+msgid ""
+"The angular speed variable doesn't exist or isn't script-wide. Make it "
+"script-wide first."
 msgstr ""
+"متغير السرعة الزاوية غير موجود أو ليس على مستوى البرنامج النصي. اجعله على "
+"مستوى البرنامج النصي أولاً."
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:34
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:36
 msgid "Angular speed variable's value is %s; It should be 4."
-msgstr ""
+msgstr "قيمة متغير السرعة الزاوية هي %s؛ ويجب أن تكون 4."
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:40
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:42
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:59
 msgid "The '_process(delta)' function is missing; did you remove it?"
-msgstr ""
+msgstr "الدالة '_process(delta)' مفقودة؛ هل قمت بحذفها؟"
 
 #: course/lesson-12-using-variables/clarify/TestClarifyCode.gd:51
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:51
-msgid "The rotate() call must multiply angular_speed by delta (e.g. rotate(angular_speed * delta))."
+msgid ""
+"The rotate() call must multiply angular_speed by delta (e.g. "
+"rotate(angular_speed * delta))."
 msgstr ""
+"يجب أن يضرب استدعاء rotate() السرعة angular_speed في delta (مثال: "
+"rotate(angular_speed * delta))."
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:17
 msgid "Has Angular Speed Variable"
-msgstr ""
+msgstr "يحتوي على متغير السرعة الزاوية"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:20
 msgid "Each Function Uses The Same Variable"
-msgstr ""
+msgstr "كل دالة تستخدم نفس المتغير"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:21
 msgid "Angular Speed Is Used In Setter Function"
-msgstr ""
+msgstr "السرعة الزاوية مستخدمة في دالة التعيين (setter)"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:26
-msgid "The angular_speed variable doesn't exist. Did you define it with the var keyword?"
+msgid ""
+"The angular_speed variable doesn't exist. Did you define it with the var "
+"keyword?"
 msgstr ""
+"المتغير angular_speed غير موجود. هل قمت بتعريفه باستخدام الكلمة المفتاحية "
+"var؟"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:32
-msgid "The angular speed variable doesn't exist, can't test if it has a value of 4."
-msgstr ""
+msgid ""
+"The angular speed variable doesn't exist, can't test if it has a value of 4."
+msgstr "متغير السرعة الزاوية غير موجود، لا يمكن اختبار ما إذا كانت قيمته 4."
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:63
-msgid "It looks like you declared angular_speed more than once. It should only be defined once."
-msgstr ""
+msgid ""
+"It looks like you declared angular_speed more than once. It should only be "
+"defined once."
+msgstr "يبدو أنك صرحت عن angular_speed أكثر من مرة. يجب تعريفه مرة واحدة فقط."
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:70
-msgid "The 'set_angular_speed(new_angular_speed)' function is missing; did you remove it?"
-msgstr ""
+msgid ""
+"The 'set_angular_speed(new_angular_speed)' function is missing; did you "
+"remove it?"
+msgstr "الدالة 'set_angular_speed(new_angular_speed)' مفقودة؛ هل قمت بحذفها؟"
 
 #: course/lesson-12-using-variables/fixing_error/TestFixingError.gd:78
-msgid "The set_angular_speed() function doesn't seem to use the angular_speed variable."
-msgstr ""
+msgid ""
+"The set_angular_speed() function doesn't seem to use the angular_speed "
+"variable."
+msgstr "لا يبدو أن الدالة set_angular_speed() تستخدم المتغير angular_speed."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.gd:10
-msgid "The identifier \"angular_speed\" isn't declared in the current scope (at line 6)."
+msgid ""
+"The identifier \"angular_speed\" isn't declared in the current scope (at "
+"line 6)."
 msgstr "لم يتم تعريف المعرف \"angular_speed\" في النطاق الحالي (في السطر 6)."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.gd:11
-msgid "The [code]set_angular_speed()[/code] function can't use the [code]angular_speed[/code] variable because it isn't script-wide. It also isn't in the [code]set_angular_speed()[/code] function."
-msgstr "لا يمكن للدالة `set_angular_speed()` استخدام المتغير `angular_speed` لأنه ليس مُعرّفًا على مستوى البرنامج النصي، كما أنه غير موجود داخل الدالة نفسها."
+msgid ""
+"The [code]set_angular_speed()[/code] function can't use the "
+"[code]angular_speed[/code] variable because it isn't script-wide. It also "
+"isn't in the [code]set_angular_speed()[/code] function."
+msgstr ""
+"لا يمكن للدالة [code]set_angular_speed()[/code] استخدام المتغير "
+"[code]angular_speed[/code] لأنه ليس على مستوى البرنامج النصي، كما أنه غير "
+"موجود داخل الدالة [code]set_angular_speed()[/code]."
 
 #: course/lesson-12-using-variables/visuals/ErrorAccess.gd:12
-msgid "Make sure you define the [code]angular_speed[/code] variable in the [code]set_angular_speed()[/code] function, or define it outside of functions so it's script-wide."
-msgstr "تأكد من تعريف المتغير [code]angular_speed[/code] في الدالة [code]set_angular_speed()[/code]، أو قم بتعريفه خارج الدوال بحيث يكون على مستوى البرنامج النصي بأكمله."
+msgid ""
+"Make sure you define the [code]angular_speed[/code] variable in the "
+"[code]set_angular_speed()[/code] function, or define it outside of functions"
+" so it's script-wide."
+msgstr ""
+"تأكد من تعريف المتغير [code]angular_speed[/code] في الدالة "
+"[code]set_angular_speed()[/code]، أو قم بتعريفه خارج الدوال بحيث يكون على "
+"مستوى البرنامج النصي بأكمله."
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:13
 msgid "Health Does Not Go Above 80"
-msgstr ""
+msgstr "نقاط الصحة لا تتجاوز 80"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:14
 msgid "Health Limit Is Not Too Low"
-msgstr ""
+msgstr "حد نقاط الصحة ليس منخفضًا جدًا"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:15
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:15
 msgid "Health Takes Different Values"
-msgstr ""
+msgstr "نقاط الصحة تأخذ قيمًا مختلفة"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:20
-msgid "The health goes above 80 when we heal the character a lot. Did you set the health to 80 when that happens?"
+msgid ""
+"The health goes above 80 when we heal the character a lot. Did you set the "
+"health to 80 when that happens?"
 msgstr ""
+"نقاط الصحة تتجاوز 80 عندما نقوم بشفاء الشخصية كثيرًا. هل قمت بتعيين نقاط "
+"الصحة إلى 80 عند حدوث ذلك؟"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:26
-msgid "The health limit is too low when we heal the character. Did you set the correct limit?"
-msgstr ""
+msgid ""
+"The health limit is too low when we heal the character. Did you set the "
+"correct limit?"
+msgstr "حد نقاط الصحة منخفض جدًا عند شفاء الشخصية. هل قمت بتعيين الحد الصحيح؟"
 
 #: course/lesson-13-conditions/limiting_health/TestLimitingHealth.gd:35
 msgid ""
 "When healing the character twice by 40 points, the health should go up to 60, then 80. Instead, we got %s.\n"
 "Are you using the amount parameter?"
 msgstr ""
+"عند شفاء الشخصية مرتين بمقدار 40 نقطة، يجب أن ترتفع نقاط الصحة إلى 60، ثم إلى 80. بدلاً من ذلك، حصلنا على %s.\n"
+"هل تستخدم المعامل amount؟"
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:13
 msgid "Health Reaches Zero"
-msgstr ""
+msgstr "وصول نقاط الصحة إلى الصفر"
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:14
 msgid "Health Does Not Go Below Zero"
-msgstr ""
+msgstr "نقاط الصحة لا تنخفض إلى ما دون الصفر"
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:20
-msgid "The health stays above 0 when we damage the character a lot. Did you set the health to 0 when that happens?"
+msgid ""
+"The health stays above 0 when we damage the character a lot. Did you set the"
+" health to 0 when that happens?"
 msgstr ""
+"نقاط الصحة تظل أعلى من 0 عندما نلحق بالشخصية ضررًا كبيرًا. هل قمت بتعيين "
+"نقاط الصحة إلى 0 عند حدوث ذلك؟"
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:26
-msgid "The health becomes negative if we deal 400 damage to the character. Did you set it to 0?"
+msgid ""
+"The health becomes negative if we deal 400 damage to the character. Did you "
+"set it to 0?"
 msgstr ""
+"تصبح نقاط الصحة سالبة إذا ألحقنا 400 نقطة ضرر بالشخصية. هل قمت بتعيينها إلى "
+"0؟"
 
 #: course/lesson-13-conditions/prevent_zero_health/TestPreventZeroHealth.gd:32
 msgid ""
 "When damaging the character three times by 10 points, the health should go down to 10, then 0. Instead, we got %s.\n"
 "Are you using the amount parameter?"
 msgstr ""
+"عند إلحاق الضرر بالشخصية ثلاث مرات بمقدار 10 نقاط، يجب أن تنخفض نقاط الصحة إلى 10، ثم إلى 0. بدلاً من ذلك، حصلنا على %s.\n"
+"هل تستخدم المعامل amount؟"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:5
 msgid "Statement 1 Is True"
-msgstr ""
+msgstr "العبارة 1 صحيحة (True)"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:6
 msgid "Statement 2 Is True"
-msgstr ""
+msgstr "العبارة 2 صحيحة (True)"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:7
 msgid "Statement 3 Is True"
-msgstr ""
+msgstr "العبارة 3 صحيحة (True)"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:8
 msgid "Statement 4 Is True"
-msgstr ""
+msgstr "العبارة 4 صحيحة (True)"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:23
 msgid "The first comparison is not correct. Did you use the right comparison?"
-msgstr ""
+msgstr "المقارنة الأولى غير صحيحة. هل استخدمت المقارنة المناسبة؟"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:39
-msgid "The second comparison is not correct. Did you use the right comparison?"
-msgstr ""
+msgid ""
+"The second comparison is not correct. Did you use the right comparison?"
+msgstr "المقارنة الثانية غير صحيحة. هل استخدمت المقارنة المناسبة؟"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:55
 msgid "The third comparison is not correct. Did you use the right comparison?"
-msgstr ""
+msgstr "المقارنة الثالثة غير صحيحة. هل استخدمت المقارنة المناسبة؟"
 
 #: course/lesson-13-conditions/using_conditions/TestUsingConditions.gd:71
-msgid "The fourth comparison is not correct. Did you use the right comparison?"
-msgstr ""
+msgid ""
+"The fourth comparison is not correct. Did you use the right comparison?"
+msgstr "المقارنة الرابعة غير صحيحة. هل استخدمت المقارنة المناسبة؟"
 
 #: course/lesson-14-multiplying/increase_max_health/TestHealthIncreased.gd:11
 msgid "Addition Is Used To Increase Level"
-msgstr ""
+msgstr "استخدام الجمع لزيادة المستوى"
 
 #: course/lesson-14-multiplying/increase_max_health/TestHealthIncreased.gd:12
 msgid "Multiplication Is Used To Increase Max Health"
-msgstr ""
+msgstr "استخدام الضرب لزيادة الحد الأقصى لنقاط الصحة"
 
 #: course/lesson-14-multiplying/increase_max_health/TestHealthIncreased.gd:13
 msgid "Level Is The Correct Value"
-msgstr ""
+msgstr "المستوى له القيمة الصحيحة"
 
 #: course/lesson-14-multiplying/increase_max_health/TestHealthIncreased.gd:14
 msgid "Max Health Is The Correct Value"
-msgstr ""
+msgstr "الحد الأقصى لنقاط الصحة له القيمة الصحيحة"
 
 #: course/lesson-14-multiplying/increase_max_health/TestHealthIncreased.gd:28
 msgid "It looks like level isn't increasing every level. Did you add 1 to it?"
-msgstr ""
+msgstr "يبدو أن المستوى level لا يزداد في كل مستوى. هل قمت بإضافة 1 إليه؟"
 
 #: course/lesson-14-multiplying/increase_max_health/TestHealthIncreased.gd:46
-msgid "It looks like max_health isn't increasing exponentially. Did you multiply it by a value greater than 1?"
+msgid ""
+"It looks like max_health isn't increasing exponentially. Did you multiply it"
+" by a value greater than 1?"
 msgstr ""
+"يبدو أن max_health لا تزداد بشكل مضاعف. هل قمت بضربها في قيمة أكبر من 1؟"
 
 #: course/lesson-14-multiplying/increase_max_health/TestHealthIncreased.gd:54
 msgid "Level variable's value is %s; It should be 3 after levelling up twice."
-msgstr ""
+msgstr "قيمة متغير المستوى level هي %s؛ ويجب أن تكون 3 بعد الترقية مرتين."
 
 #: course/lesson-14-multiplying/increase_max_health/TestHealthIncreased.gd:61
-msgid "Max health variable's value is %s; It should be 121 after levelling up twice."
+msgid ""
+"Max health variable's value is %s; It should be 121 after levelling up "
+"twice."
 msgstr ""
+"قيمة متغير الحد الأقصى لنقاط الصحة max_health هي %s؛ ويجب أن تكون 121 بعد "
+"الترقية مرتين."
 
 #: course/lesson-14-multiplying/reducing_damage/TestReducingDamage.gd:28
 msgid "Multiplication Is Used To Reduce Damage Amount"
-msgstr ""
+msgstr "استخدام الضرب لتقليل مقدار الضرر"
 
 #: course/lesson-14-multiplying/reducing_damage/TestReducingDamage.gd:29
 msgid "Damage Amount Is Correct Value"
-msgstr ""
+msgstr "مقدار الضرر له القيمة الصحيحة"
 
 #: course/lesson-14-multiplying/reducing_damage/TestReducingDamage.gd:36
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:29
 msgid "It looks like the take_damage function is missing; did you remove it?"
-msgstr ""
+msgstr "يبدو أن الدالة take_damage مفقودة؛ هل قمت بحذفها؟"
 
 #: course/lesson-14-multiplying/reducing_damage/TestReducingDamage.gd:108
-msgid "It looks like amount isn't reduced by a percentage. Did you multiply it by a value less than 1?"
+msgid ""
+"It looks like amount isn't reduced by a percentage. Did you multiply it by a"
+" value less than 1?"
 msgstr ""
+"يبدو أن المقدار amount لم يتم تقليله بنسبة مئوية. هل ضربته في قيمة أقل من 1؟"
 
 #: course/lesson-14-multiplying/reducing_damage/TestReducingDamage.gd:114
-msgid "The character did not take half damage despite being level 3. Did you multiply the amount by 0.5 to reduce it?"
+msgid ""
+"The character did not take half damage despite being level 3. Did you "
+"multiply the amount by 0.5 to reduce it?"
 msgstr ""
+"لم تتلقَّ الشخصية نصف الضرر رغم وصولها إلى المستوى 3. هل ضربت المقدار amount"
+" في 0.5 لتقليله؟"
 
 #: course/lesson-14-multiplying/reducing_damage/TestReducingDamage.gd:118
-msgid "The character appears not to be taking full damage when their level is below 3. Did you use a condition to limit damage reduction to when the level is greater or equal to 3?"
+msgid ""
+"The character appears not to be taking full damage when their level is below"
+" 3. Did you use a condition to limit damage reduction to when the level is "
+"greater or equal to 3?"
 msgstr ""
+"يبدو أن الشخصية لا تتلقى الضرر كاملاً عندما يكون مستواها أقل من 3. هل "
+"استخدمت شرطًا لحصر تقليل الضرر في الحالات التي يكون فيها المستوى أكبر من أو "
+"يساوي 3؟"
 
 #: course/lesson-14-multiplying/reducing_damage/TestReducingDamage.gd:120
-msgid "The character appears to be taking 0 damage when its level is less than 3. Did you subtract the amount to health when the level is less than 3?"
+msgid ""
+"The character appears to be taking 0 damage when its level is less than 3. "
+"Did you subtract the amount to health when the level is less than 3?"
 msgstr ""
+"يبدو أن الشخصية تتلقى 0 ضرر عندما يكون مستواها أقل من 3. هل طرحت المقدار "
+"amount من نقاط الصحة health عندما يكون المستوى أقل من 3؟"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:11
 msgid "Use A Vector To Increase Scale"
-msgstr ""
+msgstr "استخدم متجهًا (Vector) لزيادة الحجم"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:12
 msgid "The Scale Is Correct After Gaining Multiple Levels"
-msgstr ""
+msgstr "الحجم (Scale) صحيح بعد اكتساب عدة مستويات"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:35
-msgid "It looks like the scale isn't increasing by some vector. Did you add a vector to scale?"
+msgid ""
+"It looks like the scale isn't increasing by some vector. Did you add a "
+"vector to scale?"
 msgstr ""
+"يبدو أن الحجم scale لا يزداد بمقدار متجه معين. هل أضفت متجهًا إلى scale؟"
 
 #: course/lesson-16-2d-vectors/increase_scale/TestScaleIncreased.gd:45
-msgid "scale's value is %s; It should be (1.4, 1.4) after levelling up 2 times."
-msgstr ""
+msgid ""
+"scale's value is %s; It should be (1.4, 1.4) after levelling up 2 times."
+msgstr "قيمة scale هي %s؛ ويجب أن تكون (1.4, 1.4) بعد الترقية مرتين."
 
 #: course/lesson-16-2d-vectors/resetting_robot/TestRobotReset.gd:11
 msgid "Use Vector 2 To Reset Robot"
-msgstr ""
+msgstr "استخدم Vector2 لإعادة تعيين الروبوت"
 
 #: course/lesson-16-2d-vectors/resetting_robot/TestRobotReset.gd:12
 msgid "Robot Scale Is Reset"
-msgstr ""
+msgstr "تمت إعادة تعيين حجم الروبوت"
 
 #: course/lesson-16-2d-vectors/resetting_robot/TestRobotReset.gd:13
 msgid "Robot Position Is Reset"
-msgstr ""
+msgstr "تمت إعادة تعيين موضع الروبوت"
 
 #: course/lesson-16-2d-vectors/resetting_robot/TestRobotReset.gd:72
-msgid "It looks like scale or position isn't reset using a Vector2 (directly or via a Vector2 variable)."
+msgid ""
+"It looks like scale or position isn't reset using a Vector2 (directly or via"
+" a Vector2 variable)."
 msgstr ""
+"يبدو أن الحجم scale أو الموضع position لم تتم إعادة تعيينهما باستخدام "
+"Vector2 (مباشرة أو عبر متغير Vector2)."
 
 #: course/lesson-16-2d-vectors/resetting_robot/TestRobotReset.gd:79
 msgid "scale's value is %s; It should be (1.0, 1.0) after resetting."
-msgstr ""
+msgstr "قيمة scale هي %s؛ ويجب أن تكون (1.0, 1.0) بعد إعادة التعيين."
 
 #: course/lesson-16-2d-vectors/resetting_robot/TestRobotReset.gd:86
 msgid "position's value is %s; It should be (0.0, 0.0) after resetting."
-msgstr ""
+msgstr "قيمة position هي %s؛ ويجب أن تكون (0.0, 0.0) بعد إعادة التعيين."
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:13
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:13
 msgid "Robot Moves To Bottom Row"
-msgstr ""
+msgstr "الروبوت يتحرك إلى الصف السفلي"
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:15
 msgid "Use a While Loop to Move"
-msgstr ""
+msgstr "استخدم حلقة while للتحرك"
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:23
-msgid "The robot stopped above the bottom row. The cell.y member variable should be equal to board_size.y - 1 (the last row in the board)."
+msgid ""
+"The robot stopped above the bottom row. The cell.y member variable should be"
+" equal to board_size.y - 1 (the last row in the board)."
 msgstr ""
+"توقف الروبوت أعلى الصف السفلي. يجب أن يكون المتغير العضو cell.y مساويًا لـ "
+"board_size.y - 1 (الصف الأخير في اللوحة)."
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:26
-msgid "The robot moved below the bottom row. The cell.y member variable should be equal to board_size.y - 1 (the last row in the board)."
+msgid ""
+"The robot moved below the bottom row. The cell.y member variable should be "
+"equal to board_size.y - 1 (the last row in the board)."
 msgstr ""
+"تحرك الروبوت إلى ما دون الصف السفلي. يجب أن يكون المتغير العضو cell.y "
+"مساويًا لـ board_size.y - 1 (الصف الأخير في اللوحة)."
 
 #: course/lesson-17-while-loops/while_move/TestPracticeBoardWhile.gd:40
 msgid "Your while loop needs to contain the code that moves the robot."
 msgstr ""
+"يجب أن تحتوي حلقة while الخاصة بك على الشيفرة البرمجية التي تحرك الروبوت."
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:15
 msgid "Use a For Loop to Move"
-msgstr ""
+msgstr "استخدم حلقة for للتحرك"
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:23
-msgid "The robot stopped above the bottom row. Its cell.y should be equal to board_size.y - 1."
+msgid ""
+"The robot stopped above the bottom row. Its cell.y should be equal to "
+"board_size.y - 1."
 msgstr ""
+"توقف الروبوت أعلى الصف السفلي. يجب أن يكون المتغير cell.y لديه مساويًا لـ "
+"board_size.y - 1."
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:26
-msgid "The robot moved below the bottom row. Its cell.y should be equal to board_size.y - 1."
+msgid ""
+"The robot moved below the bottom row. Its cell.y should be equal to "
+"board_size.y - 1."
 msgstr ""
+"تحرك الروبوت إلى ما دون الصف السفلي. يجب أن يكون المتغير cell.y لديه مساويًا"
+" لـ board_size.y - 1."
 
 #: course/lesson-18-for-loops/for_move/TestPracticeBoardFor.gd:40
 msgid "Your for loop needs to contain the code that moves the robot."
 msgstr ""
+"يجب أن تحتوي حلقة for الخاصة بك على الشيفرة البرمجية التي تحرك الروبوت."
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:40
 msgid "Use a For Loop to Draw Rectangles"
-msgstr ""
+msgstr "استخدم حلقة for لرسم المستطيلات"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:41
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:40
 msgid "Draw Three Squares"
-msgstr ""
+msgstr "رسم ثلاثة مربعات"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:43
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:41
 msgid "Squares Are All 100 By 100"
-msgstr ""
+msgstr "جميع المربعات بأبعاد 100 في 100"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:46
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:43
 msgid "Shapes Are 100 Pixels Apart"
-msgstr ""
+msgstr "المسافة بين الأشكال هي 100 بكسل"
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:62
 msgid "Your for loop needs to contain the code to draw the rectangles."
-msgstr ""
+msgstr "يجب أن تحتوي حلقة for الخاصة بك على الشيفرة البرمجية لرسم المستطيلات."
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:67
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:48
 msgid "You drew %s squares but you need to draw 3."
-msgstr ""
+msgstr "لقد رسمت %s مربعات ولكنك تحتاج إلى رسم 3 مربعات."
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:81
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:56
 msgid "Shape3D number %s is not a square of size 100 by 100."
-msgstr ""
+msgstr "الشكل رقم %s ليس مربعًا بأبعاد 100 في 100."
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:88
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:74
-msgid "There are fewer than 3 shapes, we can't test if shapes are 100 pixels apart."
+msgid ""
+"There are fewer than 3 shapes, we can't test if shapes are 100 pixels apart."
 msgstr ""
+"هناك أقل من 3 أشكال، لذا لا يمكننا اختبار ما إذا كانت الأشكال متباعدة بمقدار"
+" 100 بكسل."
 
 #: course/lesson-18-for-loops/for_rectangles/ForTestsDrawingRectangles.gd:96
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:81
 msgid "Shapes are not separated by 100 pixels on the X axis."
-msgstr ""
+msgstr "الأشكال ليست متباعدة بمقدار 100 بكسل على المحور X."
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:18
 msgid "Path contains values that are not Vector2"
-msgstr ""
+msgstr "المسار يحتوي على قيم ليست من النوع Vector2"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:25
 msgid "Path Is Contiguous"
-msgstr ""
+msgstr "المسار متصل وغير منقطع"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:26
 msgid "Turtle Reaches The Robot"
-msgstr ""
+msgstr "السلحفاة تصل إلى الروبوت"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:27
 msgid "Path Does Not Hit Obstacles"
-msgstr ""
+msgstr "المسار لا يصطدم بالعقبات"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:32
-msgid "No points found in variable turtle_path. Did you write Vector2 coordinates in the variable's array?"
+msgid ""
+"No points found in variable turtle_path. Did you write Vector2 coordinates "
+"in the variable's array?"
 msgstr ""
+"لم يتم العثور على أي نقاط في المتغير turtle_path. هل كتبت إحداثيات Vector2 "
+"في مصفوفة المتغير؟"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:37
-msgid "We found at least two points that are not next to one another. Did you forget some coordinates, or did you try to move the turtle diagonally?"
+msgid ""
+"We found at least two points that are not next to one another. Did you "
+"forget some coordinates, or did you try to move the turtle diagonally?"
 msgstr ""
+"وجدنا نقطتين على الأقل ليستا متجاورتين. هل نسيت بعض الإحداثيات، أم حاولت "
+"تحريك السلحفاة قطريًا؟"
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:46
-msgid "The last point should be at the robot's coordinates, %s, but it is %s instead."
+msgid ""
+"The last point should be at the robot's coordinates, %s, but it is %s "
+"instead."
 msgstr ""
+"يجب أن تكون النقطة الأخيرة عند إحداثيات الروبوت، %s، ولكنها %s بدلاً من ذلك."
 
 #: course/lesson-19-creating-arrays/moving-turtle/TestMovingTurtle.gd:55
 msgid "The turtle hit a rock at coordinates %s. You need to change its path."
-msgstr ""
+msgstr "اصطدمت السلحفاة بصخرة عند الإحداثيات %s. تحتاج إلى تغيير مسارها."
 
 #: course/lesson-19-creating-arrays/selecting-units/TestSelectingUnits.gd:13
 msgid "All Units Are Selected"
-msgstr ""
+msgstr "تم تحديد جميع الوحدات"
 
 #: course/lesson-19-creating-arrays/selecting-units/TestSelectingUnits.gd:14
 msgid "Only Units Are Selected"
-msgstr ""
+msgstr "تم تحديد الوحدات فقط"
 
 #: course/lesson-19-creating-arrays/selecting-units/TestSelectingUnits.gd:20
 msgid "Unit in cell %s not selected."
-msgstr ""
+msgstr "الوحدة في الخلية %s غير محددة."
 
 #: course/lesson-19-creating-arrays/selecting-units/TestSelectingUnits.gd:27
 msgid "Trying to select a cell that doesn't contain a unit: %s."
-msgstr ""
+msgstr "محاولة تحديد خلية لا تحتوي على وحدة: %s."
 
 #: course/lesson-2-your-first-error/first-error/TestsFixError.gd:4
 msgid "Remove Errors"
-msgstr ""
+msgstr "إزالة الأخطاء"
 
 #: course/lesson-2-your-first-error/first-error/TestsFixError.gd:10
-msgid "There's still a comment in your code. You need to remove the comment sign (#)."
+msgid ""
+"There's still a comment in your code. You need to remove the comment sign "
+"(#)."
 msgstr ""
+"لا يزال هناك تعليق في شيفرتك البرمجية. تحتاج إلى إزالة علامة التعليق (#)."
 
 #: course/lesson-20-looping-over-arrays/drawing-in-loops/TestsDrawingInLoops.gd:41
 msgid "Rectangles Have The Correct Size"
-msgstr ""
+msgstr "المستطيلات لها الحجم الصحيح"
 
 #: course/lesson-20-looping-over-arrays/drawing-in-loops/TestsDrawingInLoops.gd:42
 msgid "Rectangles Do Not Overlap"
-msgstr ""
+msgstr "المستطيلات لا تتداخل"
 
 #: course/lesson-20-looping-over-arrays/drawing-in-loops/TestsDrawingInLoops.gd:47
 msgid "We expected 4 polygons, but you drew %s instead."
-msgstr ""
+msgstr "كنا نتوقع 4 مضلعات، ولكنك رسمت %s بدلاً من ذلك."
 
 #: course/lesson-20-looping-over-arrays/drawing-in-loops/TestsDrawingInLoops.gd:51
 msgid "At least one of the rectangles does not have the expected size."
-msgstr ""
+msgstr "واحد على الأقل من المستطيلات ليس بالحجم المتوقع."
 
 #: course/lesson-20-looping-over-arrays/drawing-in-loops/TestsDrawingInLoops.gd:62
-msgid "At least two drawn shape intersect. Did you pass arguments big enough to the jump() function?"
+msgid ""
+"At least two drawn shape intersect. Did you pass arguments big enough to the"
+" jump() function?"
 msgstr ""
+"شكلان مرسومان على الأقل يتقاطعان. هل مررت وسائط كبيرة بما يكفي إلى الدالة "
+"jump()؟"
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:18
 msgid "Robot Moves Along Blue Path"
-msgstr ""
+msgstr "الروبوت يتحرك على طول المسار الأزرق"
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:20
 msgid "Code Uses Move To"
-msgstr ""
+msgstr "الشيفرة البرمجية تستخدم move_to"
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:25
 msgid "The robot's path changed. Did you change the robot_path array?"
-msgstr ""
+msgstr "تغير مسار الروبوت. هل قمت بتغيير مصفوفة robot_path؟"
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:28
 msgid "The robot didn't move at all. Did you call robot.move_to()?"
-msgstr ""
+msgstr "لم يتحرك الروبوت على الإطلاق. هل قمت باستدعاء robot.move_to()؟"
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:33
-msgid "The robot moved fewer times than it should have. Did you use a loop and move once for each point in the robot_path array?"
+msgid ""
+"The robot moved fewer times than it should have. Did you use a loop and move"
+" once for each point in the robot_path array?"
 msgstr ""
+"تحرك الروبوت عدد مرات أقل مما ينبغي. هل استخدمت حلقة تكرار وتحركت مرة واحدة "
+"لكل نقطة في مصفوفة robot_path؟"
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:45
-msgid "The robot's movement path doesn't match the robot_path array. They should be the same."
-msgstr ""
+msgid ""
+"The robot's movement path doesn't match the robot_path array. They should be"
+" the same."
+msgstr "مسار حركة الروبوت لا يطابق مصفوفة robot_path. يجب أن يكونا متطابقين."
 
 #: course/lesson-20-looping-over-arrays/robot-path/TestRobotPath.gd:58
-msgid "Did you use a for loop to call robot.move_to() with each cell in robot_path?"
+msgid ""
+"Did you use a for loop to call robot.move_to() with each cell in robot_path?"
 msgstr ""
+"هل استخدمت حلقة for لاستدعاء robot.move_to() مع كل خلية في robot_path؟"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:12
 msgid "Use For Loop"
-msgstr ""
+msgstr "استخدم حلقة for"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:13
 msgid "Robot Combo Is Correct"
-msgstr ""
+msgstr "مجموعة حركات الروبوت صحيحة"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:20
 msgid "The run function is missing; did you remove it?"
-msgstr ""
+msgstr "الدالة run مفقودة؛ هل قمت بحذفها؟"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:23
-msgid "Your code has no for loop. You need to use a for loop to complete this practice, even if there are other solutions!"
+msgid ""
+"Your code has no for loop. You need to use a for loop to complete this "
+"practice, even if there are other solutions!"
 msgstr ""
+"شيفرتك البرمجية لا تحتوي على حلقة for. تحتاج إلى استخدام حلقة for لإكمال هذا"
+" التمرين، حتى لو كانت هناك حلول أخرى!"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:34
-msgid "Your code does not play any animations. Did you remember to call play_animation() in your for loop?"
+msgid ""
+"Your code does not play any animations. Did you remember to call "
+"play_animation() in your for loop?"
 msgstr ""
+"شيفرتك البرمجية لا تشغل أي رسوم متحركة. هل تذكرت استدعاء play_animation() "
+"داخل حلقة for الخاصة بك؟"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:48
-msgid "It seems you're passing the entire array of combos instead of a single animation name at a time."
+msgid ""
+"It seems you're passing the entire array of combos instead of a single "
+"animation name at a time."
 msgstr ""
+"يبدو أنك تمرر مصفوفة الكومبو بأكملها بدلاً من تمرير اسم رسم متحرك واحد في كل"
+" مرة."
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:63
-msgid "Your code does not use the iterator. Did you remember to call play_animation(%s) in your for loop?"
+msgid ""
+"Your code does not use the iterator. Did you remember to call "
+"play_animation(%s) in your for loop?"
 msgstr ""
+"شيفرتك البرمجية لا تستخدم متغير التكرار. هل تذكرت استدعاء play_animation(%s)"
+" داخل حلقة for الخاصة بك؟"
 
 #: course/lesson-21-strings/string_array/TestsStringArray.gd:85
-msgid "The combo isn't correct. Did you use the right actions in the right order?"
+msgid ""
+"The combo isn't correct. Did you use the right actions in the right order?"
 msgstr ""
+"حركات الكومبو ليست صحيحة. هل استخدمت الإجراءات الصحيحة بالترتيب الصحيح؟"
 
 #: course/lesson-21-strings/string_error/TestsStringError.gd:17
 msgid "Robot Name Is A String"
-msgstr ""
+msgstr "اسم الروبوت هو سلسلة نصية (String)"
 
 #: course/lesson-21-strings/string_error/TestsStringError.gd:22
 msgid "The robot_name variable doesn't exist."
-msgstr ""
+msgstr "المتغير robot_name غير موجود."
 
 #: course/lesson-21-strings/string_error/TestsStringError.gd:26
 msgid "The robot_name variable is set to 0. Did you change its value?"
-msgstr ""
+msgstr "تم تعيين المتغير robot_name إلى 0. هل قمت بتغيير قيمته؟"
 
 #: course/lesson-21-strings/string_error/TestsStringError.gd:28
 msgid "The robot_name isn't a string. Did you add quotes around the value?"
-msgstr ""
+msgstr "المتغير robot_name ليس سلسلة نصية. هل أضفت علامات اقتباس حول القيمة؟"
 
 #: course/lesson-22-functions-return-values/convert-grid-coordinates/TestConvertGridCoordinates.gd:16
 msgid "Function Maps Cell To World Coordinates"
-msgstr ""
+msgstr "الدالة تحوّل إحداثيات الخلية إلى إحداثيات العالم"
 
 #: course/lesson-22-functions-return-values/convert-grid-coordinates/TestConvertGridCoordinates.gd:21
-msgid "Function convert_to_world_coordinates() does not exist. Did you make a typo or not define it?"
+msgid ""
+"Function convert_to_world_coordinates() does not exist. Did you make a typo "
+"or not define it?"
 msgstr ""
+"الدالة convert_to_world_coordinates() غير موجودة. هل ارتكبت خطأً إملائيًا أم"
+" أنك لم تقم بتعريفها؟"
 
 #: course/lesson-22-functions-return-values/convert-grid-coordinates/TestConvertGridCoordinates.gd:24
-msgid "We didn't find any \"return\" keyword in your code. Did you forget to return the value from the convert_to_world_coordinates() function?"
+msgid ""
+"We didn't find any \"return\" keyword in your code. Did you forget to return"
+" the value from the convert_to_world_coordinates() function?"
 msgstr ""
+"لم نجد أي كلمة مفتاحية \"return\" في شيفرتك البرمجية. هل نسيت إرجاع القيمة "
+"من الدالة convert_to_world_coordinates()؟"
 
 #: course/lesson-22-functions-return-values/convert-grid-coordinates/TestConvertGridCoordinates.gd:30
-msgid "When converting cell %s to world coordinates, we got %s, but we expected %s."
+msgid ""
+"When converting cell %s to world coordinates, we got %s, but we expected %s."
 msgstr ""
+"عند تحويل الخلية %s إلى إحداثيات العالم، حصلنا على %s، ولكننا كنا نتوقع %s."
 
 #: course/lesson-22-functions-return-values/visuals/grid_demo/GridDemo.gd:35
 #: course/lesson-22-functions-return-values/visuals/grid_demo/GridDemo.gd:65
 msgid "Hover over a cell to see its pixel position"
-msgstr ""
+msgstr "مرّر مؤشر الفأرة فوق الخلية لرؤية موضعها بالبكسل"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:13
 msgid "Used Pop Front"
-msgstr ""
+msgstr "تم استخدام pop_front"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:14
 msgid "Used Append"
-msgstr ""
+msgstr "تم استخدام append"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:15
 msgid "Completed Orders Contain All Elements"
-msgstr ""
+msgstr "الطلبات المكتملة تحتوي على جميع العناصر"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:16
 msgid "Starting Data Unchanged"
-msgstr ""
+msgstr "البيانات الأولية لم تتغير"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:21
-msgid "We found no call to the pop_front() function. Did you forget to call it?"
-msgstr ""
+msgid ""
+"We found no call to the pop_front() function. Did you forget to call it?"
+msgstr "لم نجد أي استدعاء للدالة pop_front(). هل نسيت استدعاءها؟"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:27
 msgid "We found no call to the append() function. Did you forget to call it?"
-msgstr ""
+msgstr "لم نجد أي استدعاء للدالة append(). هل نسيت استدعاءها؟"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:35
-msgid "The completed_orders array is empty. Are you sure you appended the elements?"
+msgid ""
+"The completed_orders array is empty. Are you sure you appended the elements?"
 msgstr ""
+"مصفوفة completed_orders فارغة. هل أنت متأكد من أنك أضفت العناصر إليها؟"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:39
 msgid "We expected %s, but got %s instead"
-msgstr ""
+msgstr "كنا نتوقع %s، ولكننا حصلنا على %s بدلاً من ذلك"
 
 #: course/lesson-23-append-to-arrays/clearing-meals/TestClearingMeals.gd:48
 msgid "It looks like you removed %s from waiting_orders."
-msgstr ""
+msgstr "يبدو أنك حذفت %s من waiting_orders."
 
 #: course/lesson-23-append-to-arrays/popping-crates/TestPoppingCrates.gd:11
 msgid "Used Pop Back"
-msgstr ""
+msgstr "تم استخدام pop_back"
 
 #: course/lesson-23-append-to-arrays/popping-crates/TestPoppingCrates.gd:12
 msgid "Used While Loop"
-msgstr ""
+msgstr "تم استخدام حلقة while"
 
 #: course/lesson-23-append-to-arrays/popping-crates/TestPoppingCrates.gd:13
 msgid "Crates Array Is Empty"
-msgstr ""
+msgstr "مصفوفة الصناديق فارغة"
 
 #: course/lesson-23-append-to-arrays/popping-crates/TestPoppingCrates.gd:30
-msgid "We found no call to the pop_back() function. Did you forget to call it?"
-msgstr ""
+msgid ""
+"We found no call to the pop_back() function. Did you forget to call it?"
+msgstr "لم نجد أي استدعاء للدالة pop_back(). هل نسيت استدعاءها؟"
 
 #: course/lesson-23-append-to-arrays/popping-crates/TestPoppingCrates.gd:36
 msgid "You didn't use the while keyword"
-msgstr ""
+msgstr "لم تستخدم الكلمة المفتاحية while"
 
 #: course/lesson-23-append-to-arrays/popping-crates/TestPoppingCrates.gd:44
 msgid "The crate array is not empty"
-msgstr ""
+msgstr "مصفوفة الصناديق ليست فارغة"
 
 #: course/lesson-24-access-array-indices/align-tracks/TestAlignTracks.gd:27
 msgid "First Track Is Well Positioned"
-msgstr ""
+msgstr "المسار الأول في موضع صحيح"
 
 #: course/lesson-24-access-array-indices/align-tracks/TestAlignTracks.gd:28
 msgid "Third Track Is Well Positioned"
-msgstr ""
+msgstr "المسار الثالث في موضع صحيح"
 
 #: course/lesson-24-access-array-indices/align-tracks/TestAlignTracks.gd:29
 msgid "Fourth Track Is Well Positioned"
-msgstr ""
+msgstr "المسار الرابع في موضع صحيح"
 
 #: course/lesson-24-access-array-indices/align-tracks/TestAlignTracks.gd:30
 msgid "All Other Tracks Are Aligned To Grid"
-msgstr ""
+msgstr "جميع المسارات الأخرى محاذية للشبكة"
 
 #: course/lesson-24-access-array-indices/find-crystals/TestFindCrystals.gd:15
 msgid "Correct Items Have Been Picked"
-msgstr ""
+msgstr "تم التقاط العناصر الصحيحة"
 
 #: course/lesson-24-access-array-indices/find-crystals/TestFindCrystals.gd:16
 msgid "Picked Correct Item Amount"
-msgstr ""
+msgstr "تم التقاط العدد الصحيح من العناصر"
 
 #: course/lesson-25-creating-dictionaries/adding-items/TestAddingItems.gd:16
 msgid "Add Item Function Works As Intended"
-msgstr ""
+msgstr "دالة إضافة العنصر تعمل كما هو متوقع"
 
 #: course/lesson-25-creating-dictionaries/adding-items/TestAddingItems.gd:17
 msgid "Add Item Function Uses Addition"
-msgstr ""
+msgstr "دالة إضافة العنصر تستخدم الجمع"
 
 #: course/lesson-25-creating-dictionaries/adding-items/TestAddingItems.gd:30
-msgid "The amount of items isn't correct. Does each key have the correct value?"
-msgstr ""
+msgid ""
+"The amount of items isn't correct. Does each key have the correct value?"
+msgstr "عدد العناصر غير صحيح. هل لكل مفتاح القيمة الصحيحة المقابلة له؟"
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:17
 msgid "Inventory Has Correct Keys"
-msgstr ""
+msgstr "المخزون يحتوي على المفاتيح الصحيحة"
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:18
 msgid "Inventory Has Correct Values"
-msgstr ""
+msgstr "المخزون يحتوي على القيم الصحيحة"
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:26
-msgid "The amount of items is not as expected. The inventory should have %s items but your inventory has %s."
+msgid ""
+"The amount of items is not as expected. The inventory should have %s items "
+"but your inventory has %s."
 msgstr ""
+"عدد العناصر ليس كما هو متوقع. يجب أن يحتوي المخزون على %s عناصر، لكن مخزونك "
+"يحتوي على %s."
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:29
 msgid "Are you missing any items?"
-msgstr ""
+msgstr "هل ينقصك أي عنصر؟"
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:36
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:54
-msgid "The inventory doesn't contain all the required items. Make sure you have '%s' as keys in your inventory dictionary."
+msgid ""
+"The inventory doesn't contain all the required items. Make sure you have "
+"'%s' as keys in your inventory dictionary."
 msgstr ""
+"المخزون لا يحتوي على جميع العناصر المطلوبة. تأكد من وجود '%s' كمفاتيح في "
+"قاموس المخزون لديك."
 
 #: course/lesson-25-creating-dictionaries/creating-inventory/TestInventory.gd:59
-msgid "The values for one or more items aren't correct. You need %s healing hearts, %s gems, and %s sword."
+msgid ""
+"The values for one or more items aren't correct. You need %s healing hearts,"
+" %s gems, and %s sword."
 msgstr ""
+"القيم الخاصة بعنصر واحد أو أكثر غير صحيحة. تحتاج إلى %s قلوب شفاء، و%s "
+"جواهر، و%s سيف."
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:11
 msgid "All Items Are Displayed"
-msgstr ""
+msgstr "تم عرض جميع العناصر"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:12
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:12
 msgid "Code Uses A For Loop"
-msgstr ""
+msgstr "الشيفرة البرمجية تستخدم حلقة for"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:19
-msgid "The number of items displayed does not match the number of items in the inventory. Did you display each item exactly once?"
+msgid ""
+"The number of items displayed does not match the number of items in the "
+"inventory. Did you display each item exactly once?"
 msgstr ""
+"عدد العناصر المعروضة لا يتطابق مع عدد العناصر في المخزون. هل قمت بعرض كل "
+"عنصر مرة واحدة بالضبط؟"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:29
-msgid "The displayed items do not match the inventory variable's content. Did you call the display_item() function for each item in the inventory?"
+msgid ""
+"The displayed items do not match the inventory variable's content. Did you "
+"call the display_item() function for each item in the inventory?"
 msgstr ""
+"العناصر المعروضة لا تتطابق مع محتوى متغير المخزون inventory. هل قمت باستدعاء"
+" الدالة display_item() لكل عنصر في المخزون؟"
 
 #: course/lesson-26-looping-over-dictionaries/display-inventory/TestDisplayInventory.gd:44
-msgid "Your code does not use a for loop to call display_item(). Please make sure you display each item inside the loop."
+msgid ""
+"Your code does not use a for loop to call display_item(). Please make sure "
+"you display each item inside the loop."
 msgstr ""
+"شيفرتك البرمجية لا تستخدم حلقة for لاستدعاء display_item(). يرجى التأكد من "
+"عرض كل عنصر داخل الحلقة."
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:11
 msgid "All Units Are Displayed"
-msgstr ""
+msgstr "تم عرض جميع الوحدات"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:19
-msgid "The number of units displayed does not match the number of units in the units dictionary. Did you place each unit exactly once?"
+msgid ""
+"The number of units displayed does not match the number of units in the "
+"units dictionary. Did you place each unit exactly once?"
 msgstr ""
+"عدد الوحدات المعروضة لا يتطابق مع عدد الوحدات في قاموس units. هل قمت بوضع كل"
+" وحدة مرة واحدة بالضبط؟"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:29
-msgid "The displayed units do not match the units variable's content. Did you call the place_unit() function for each unit in the units dictionary?"
+msgid ""
+"The displayed units do not match the units variable's content. Did you call "
+"the place_unit() function for each unit in the units dictionary?"
 msgstr ""
+"الوحدات المعروضة لا تتطابق مع محتوى متغير الوحدات units. هل قمت باستدعاء "
+"الدالة place_unit() لكل وحدة في قاموس units؟"
 
 #: course/lesson-26-looping-over-dictionaries/place-units/TestPlaceUnits.gd:43
-msgid "Your code does not use a for loop to call place_unit(). Please make sure you place each unit inside the loop."
+msgid ""
+"Your code does not use a for loop to call place_unit(). Please make sure you"
+" place each unit inside the loop."
 msgstr ""
+"شيفرتك البرمجية لا تستخدم حلقة for لاستدعاء place_unit(). يرجى التأكد من وضع"
+" كل وحدة داخل الحلقة."
 
 #: course/lesson-27-value-types/display-energy/TestDisplayingEnergy.gd:11
 msgid "Displayed Energy Matches Energy Value"
-msgstr ""
+msgstr "الطاقة المعروضة تطابق قيمة الطاقة"
 
 #: course/lesson-27-value-types/display-energy/TestDisplayingEnergy.gd:17
-msgid "The energy variable is not an int anymore. Did you change the energy value?"
+msgid ""
+"The energy variable is not an int anymore. Did you change the energy value?"
 msgstr ""
+"متغير الطاقة energy لم يعد عددًا صحيحًا (int). هل قمت بتغيير قيمة الطاقة؟"
 
 #: course/lesson-27-value-types/display-energy/TestDisplayingEnergy.gd:21
-msgid "The value of the energy variable does not match the displayed text. Did you call the str() function?"
+msgid ""
+"The value of the energy variable does not match the displayed text. Did you "
+"call the str() function?"
 msgstr ""
+"قيمة متغير الطاقة لا تطابق النص المعروض. هل قمت باستدعاء الدالة str()؟"
 
 #: course/lesson-27-value-types/player-input/TestPlayerInput.gd:13
 msgid "Item Count Is Int"
-msgstr ""
+msgstr "عدد العناصر من النوع int"
 
 #: course/lesson-27-value-types/player-input/TestPlayerInput.gd:14
 msgid "Item Count Matches Player Input"
-msgstr ""
+msgstr "عدد العناصر يطابق مدخلات اللاعب"
 
 #: course/lesson-27-value-types/player-input/TestPlayerInput.gd:19
-msgid "Item count is not of type int. Did you use the int() function to convert the player_input value?"
+msgid ""
+"Item count is not of type int. Did you use the int() function to convert the"
+" player_input value?"
 msgstr ""
+"عدد العناصر ليس من النوع int. هل استخدمت الدالة int() لتحويل قيمة "
+"player_input؟"
 
 #: course/lesson-27-value-types/player-input/TestPlayerInput.gd:27
-msgid "Item count is not of type int. We can't compare it to the player_input value."
-msgstr ""
+msgid ""
+"Item count is not of type int. We can't compare it to the player_input "
+"value."
+msgstr "عدد العناصر ليس من النوع int. لا يمكننا مقارنته بقيمة player_input."
 
 #: course/lesson-27-value-types/player-input/TestPlayerInput.gd:31
-msgid "Player input is not of its original type anymore. Did you change its value?"
-msgstr ""
+msgid ""
+"Player input is not of its original type anymore. Did you change its value?"
+msgstr "مدخلات اللاعب لم تعد من نوعها الأصلي. هل قمت بتغيير قيمتها؟"
 
 #: course/lesson-28-specifying-types/fix-hints/TestFixHints.gd:42
 msgid "Vector Has Correct Hint"
-msgstr ""
+msgstr "المتجه له تلميح النوع الصحيح"
 
 #: course/lesson-28-specifying-types/fix-hints/TestFixHints.gd:43
 msgid "Text Has Correct Hint"
-msgstr ""
+msgstr "النص له تلميح النوع الصحيح"
 
 #: course/lesson-28-specifying-types/fix-hints/TestFixHints.gd:44
 msgid "Whole Number Has Correct Hint"
-msgstr ""
+msgstr "العدد الصحيح له تلميح النوع الصحيح"
 
 #: course/lesson-28-specifying-types/fix-hints/TestFixHints.gd:45
 msgid "Decimal Number Has Correct Hint"
-msgstr ""
+msgstr "العدد العشري له تلميح النوع الصحيح"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:80
 msgid "Whole Number Has Correct Value"
-msgstr ""
+msgstr "العدد الصحيح له القيمة الصحيحة"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:81
 msgid "Text Has Correct Value"
-msgstr ""
+msgstr "النص له القيمة الصحيحة"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:82
 msgid "Vector Has Correct Value"
-msgstr ""
+msgstr "المتجه له القيمة الصحيحة"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:83
 msgid "Decimal Number Has Correct Value"
-msgstr ""
+msgstr "العدد العشري له القيمة الصحيحة"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:88
-msgid "It looks like you changed the type hint of 'whole_number'. The type should stay 'int'. Only change the value after the '=' sign."
+msgid ""
+"It looks like you changed the type hint of 'whole_number'. The type should "
+"stay 'int'. Only change the value after the '=' sign."
 msgstr ""
+"يبدو أنك غيرت تلميح النوع لـ 'whole_number'. يجب أن يظل النوع 'int'. غيّر "
+"فقط القيمة التي تلي علامة '='."
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:90
-msgid "The value of 'whole_number' does not match its type hint (int). Change the value after '=' to a whole number with no decimal point, for example: 4"
+msgid ""
+"The value of 'whole_number' does not match its type hint (int). Change the "
+"value after '=' to a whole number with no decimal point, for example: 4"
 msgstr ""
+"قيمة 'whole_number' لا تطابق تلميح النوع (int). غيّر القيمة بعد '=' إلى عدد "
+"صحيح بدون فاصلة عشرية، مثلاً: 4"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:96
-msgid "It looks like you changed the type hint of 'text'. The type should stay 'String'. Only change the value after the '=' sign."
+msgid ""
+"It looks like you changed the type hint of 'text'. The type should stay "
+"'String'. Only change the value after the '=' sign."
 msgstr ""
+"يبدو أنك غيرت تلميح النوع لـ 'text'. يجب أن يظل النوع 'String'. غيّر فقط "
+"القيمة التي تلي علامة '='."
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:98
-msgid "The value of 'text' does not match its type hint (String). Change the value after '=' to a text string surrounded by quotes, for example: \"Hello, world!\""
+msgid ""
+"The value of 'text' does not match its type hint (String). Change the value "
+"after '=' to a text string surrounded by quotes, for example: \"Hello, "
+"world!\""
 msgstr ""
+"قيمة 'text' لا تطابق تلميح النوع (String). غيّر القيمة بعد '=' إلى سلسلة "
+"نصية محاطة بعلامات تنصيص، مثلاً: \"Hello, world!\""
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:104
-msgid "It looks like you changed the type hint of 'vector'. The type should stay 'Vector2'. Only change the value after the '=' sign."
+msgid ""
+"It looks like you changed the type hint of 'vector'. The type should stay "
+"'Vector2'. Only change the value after the '=' sign."
 msgstr ""
+"يبدو أنك غيرت تلميح النوع لـ 'vector'. يجب أن يظل النوع 'Vector2'. غيّر فقط "
+"القيمة التي تلي علامة '='."
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:106
-msgid "The value of 'vector' does not match its type hint (Vector2). Change the value after '=' to a Vector2, for example: Vector2(1, 1)"
+msgid ""
+"The value of 'vector' does not match its type hint (Vector2). Change the "
+"value after '=' to a Vector2, for example: Vector2(1, 1)"
 msgstr ""
+"قيمة 'vector' لا تطابق تلميح النوع (Vector2). غيّر القيمة بعد '=' إلى "
+"Vector2، مثلاً: Vector2(1, 1)"
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:112
-msgid "It looks like you changed the type hint of 'decimal_number'. The type should stay 'float'. Only change the value after the '=' sign."
+msgid ""
+"It looks like you changed the type hint of 'decimal_number'. The type should"
+" stay 'float'. Only change the value after the '=' sign."
 msgstr ""
+"يبدو أنك غيرت تلميح النوع لـ 'decimal_number'. يجب أن يظل النوع 'float'. "
+"غيّر فقط القيمة التي تلي علامة '='."
 
 #: course/lesson-28-specifying-types/fix-values/TestFixValues.gd:114
-msgid "The value of 'decimal_number' does not match its type hint (float). Change the value after '=' to a decimal number with a decimal point, for example: 3.14"
+msgid ""
+"The value of 'decimal_number' does not match its type hint (float). Change "
+"the value after '=' to a decimal number with a decimal point, for example: "
+"3.14"
 msgstr ""
+"قيمة 'decimal_number' لا تطابق تلميح النوع (float). غيّر القيمة بعد '=' إلى "
+"عدد عشري يحتوي على فاصلة عشرية، مثلاً: 3.14"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/make-upright/TestsMakeRobotUpright.gd:6
 msgid "Character Is Upright"
-msgstr ""
+msgstr "الشخصية في وضع قائم"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/make-upright/TestsMakeRobotUpright.gd:12
-msgid "The robot is turned counter-clockwise! Did you turn it less than 0.5 radians?"
+msgid ""
+"The robot is turned counter-clockwise! Did you turn it less than 0.5 "
+"radians?"
 msgstr ""
+"الروبوت مستدير عكس اتجاه عقارب الساعة! هل قمت بتدويره أقل من 0.5 راديان؟"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/make-upright/TestsMakeRobotUpright.gd:14
-msgid "The robot is turned too far clockwise! Did you turn it more than 0.5 radians?"
+msgid ""
+"The robot is turned too far clockwise! Did you turn it more than 0.5 "
+"radians?"
 msgstr ""
+"الروبوت مستدير أكثر من اللازم باتجاه عقارب الساعة! هل قمت بتدويره أكثر من "
+"0.5 راديان؟"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/make-visible/TestsMakeCharacterVisible.gd:5
 msgid "Character Is Visible"
-msgstr ""
+msgstr "الشخصية مرئية"
 
 #: course/lesson-3-standing-on-shoulders-of-giants/make-visible/TestsMakeCharacterVisible.gd:11
 msgid "The character is still invisible! Did you call the show() function?"
-msgstr ""
+msgstr "الشخصية لا تزال غير مرئية! هل استدعيت الدالة show()؟"
 
 #: course/lesson-4-drawing-a-rectangle/drawing_bigger_rectangle/TestsDrawingBiggerRectangle.gd:11
 msgid "Draw Rectangle Of 220 By 260"
-msgstr ""
+msgstr "رسم مستطيل بأبعاد 220 في 260"
 
 #: course/lesson-4-drawing-a-rectangle/drawing_bigger_rectangle/TestsDrawingBiggerRectangle.gd:16
 #: course/lesson-4-drawing-a-rectangle/drawing_rectangle/TestsDrawingRectangle.gd:16
 #: course/lesson-4-drawing-a-rectangle/turning_right/TestsTurningRight.gd:16
 msgid "Nothing drawn. Did you call move_forward()?"
-msgstr ""
+msgstr "لم يتم رسم أي شيء. هل استدعيت move_forward()؟"
 
 #: course/lesson-4-drawing-a-rectangle/drawing_bigger_rectangle/TestsDrawingBiggerRectangle.gd:19
-msgid "The drawn shape is not a rectangle with a width of 220 and a length of 260."
-msgstr ""
+msgid ""
+"The drawn shape is not a rectangle with a width of 220 and a length of 260."
+msgstr "الشكل المرسوم ليس مستطيلاً بعرض 220 وطول 260."
 
 #: course/lesson-4-drawing-a-rectangle/drawing_rectangle/TestsDrawingRectangle.gd:11
 msgid "Draw Rectangle Of 200 By 120"
-msgstr ""
+msgstr "رسم مستطيل بأبعاد 200 في 120"
 
 #: course/lesson-4-drawing-a-rectangle/drawing_rectangle/TestsDrawingRectangle.gd:19
-msgid "The drawn shape is not a rectangle with a width of 200 and a length of 120."
-msgstr ""
+msgid ""
+"The drawn shape is not a rectangle with a width of 200 and a length of 120."
+msgstr "الشكل المرسوم ليس مستطيلاً بعرض 200 وطول 120."
 
 #: course/lesson-4-drawing-a-rectangle/turning_right/TestsTurningRight.gd:11
 msgid "Draw Corner Of 200 By 200"
-msgstr ""
+msgstr "رسم زاوية بأبعاد 200 في 200"
 
 #: course/lesson-4-drawing-a-rectangle/turning_right/TestsTurningRight.gd:19
 msgid "The drawn shape is not a corner connected by two lines of length 200."
-msgstr ""
+msgstr "الشكل المرسوم ليس زاوية متصلة بخطين بطول 200."
 
 #: course/lesson-5-your-first-function/TestsDrawingSquare.gd:11
 msgid "Draw Square Of 200 Pixels"
-msgstr ""
+msgstr "رسم مربع بطول 200 بكسل"
 
 #: course/lesson-5-your-first-function/TestsDrawingSquare.gd:18
 msgid "Nothing drawn. Did you not call move_forward()?"
-msgstr ""
+msgstr "لم يتم رسم أي شيء. ألم تستدعِ move_forward()؟"
 
 #: course/lesson-5-your-first-function/TestsDrawingSquare.gd:28
 msgid "The drawn shape is not a square of length 200 pixels."
-msgstr ""
+msgstr "الشكل المرسوم ليس مربعًا بطول 200 بكسل."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:19
 msgid "Draw Three Squares Of 200 Pixels"
-msgstr ""
+msgstr "رسم ثلاثة مربعات بطول 200 بكسل"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:26
 msgid "Reuse The draw_square() Function"
-msgstr ""
+msgstr "إعادة استخدام الدالة draw_square()"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:34
-msgid "You need to use the predefined draw_square() function inside draw_three_squares() in this exercise. This avoids duplicating the turtle instructions by hand."
+msgid ""
+"You need to use the predefined draw_square() function inside "
+"draw_three_squares() in this exercise. This avoids duplicating the turtle "
+"instructions by hand."
 msgstr ""
+"تحتاج إلى استخدام الدالة المحددة مسبقًا draw_square() داخل "
+"draw_three_squares() في هذا التمرين. هذا يجنبك تكرار تعليمات السلحفاة "
+"يدويًا."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:39
 msgid "You need to define a function named draw_three_squares()."
-msgstr ""
+msgstr "تحتاج إلى تعريف دالة باسم draw_three_squares()."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:57
 msgid "Nothing drawn. Did you not call draw_square()?"
-msgstr ""
+msgstr "لم يتم رسم أي شيء. ألم تستدعِ draw_square()؟"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:60
 msgid "You only drew one square. You need to draw three."
-msgstr ""
+msgstr "لقد رسمت مربعًا واحدًا فقط. تحتاج إلى رسم ثلاثة."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:62
 msgid "You need to draw three squares."
-msgstr ""
+msgstr "تحتاج إلى رسم ثلاثة مربعات."
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:65
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:67
 msgid "You drew more than three squares. You need to draw only three!"
-msgstr ""
+msgstr "لقد رسمت أكثر من ثلاثة مربعات. تحتاج إلى رسم ثلاثة فقط!"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:73
-msgid "Shape3D number %s has too few corners! Did you change the draw_square() function?"
+msgid ""
+"Shape3D number %s has too few corners! Did you change the draw_square() "
+"function?"
 msgstr ""
+"الشكل ثلاثي الأبعاد رقم %s يحتوي على زوايا قليلة جدًا! هل قمت بتعديل الدالة "
+"draw_square()؟"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:80
-msgid "Shape3D number %s has too many corners! Did you change the draw_square() function?"
+msgid ""
+"Shape3D number %s has too many corners! Did you change the draw_square() "
+"function?"
 msgstr ""
+"الشكل ثلاثي الأبعاد رقم %s يحتوي على زوايا كثيرة جدًا! هل قمت بتعديل الدالة "
+"draw_square()؟"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:87
-msgid "Shape3D number %s is not a square of length 200 pixels. Did you change the draw_square() function?"
+msgid ""
+"Shape3D number %s is not a square of length 200 pixels. Did you change the "
+"draw_square() function?"
 msgstr ""
+"الشكل ثلاثي الأبعاد رقم %s ليس مربعًا بطول 200 بكسل. هل قمت بتعديل الدالة "
+"draw_square()؟"
 
 #: course/lesson-5-your-first-function/TestsDrawingThreeSquares.gd:99
-msgid "The squares should not overlap. Did you move the turtle between drawing each square?"
-msgstr ""
+msgid ""
+"The squares should not overlap. Did you move the turtle between drawing each"
+" square?"
+msgstr "يجب ألا تتداخل المربعات. هل قمت بتحريك السلحفاة بين رسم كل مربع؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:14
 msgid "Draw Corners Of Varying Lengths"
-msgstr ""
+msgstr "رسم زوايا بأطوال متغيرة"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:19
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:19
@@ -2182,8 +2544,12 @@ msgstr ""
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:21
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:41
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:56
-msgid "The turtle did not draw anything. Make sure your function calls move_forward(length) to move the turtle."
+msgid ""
+"The turtle did not draw anything. Make sure your function calls "
+"move_forward(length) to move the turtle."
 msgstr ""
+"لم ترسم السلحفاة أي شيء. تأكد من أن دالتك تستدعي move_forward(length) لتحريك"
+" السلحفاة."
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:21
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:21
@@ -2191,8 +2557,9 @@ msgstr ""
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:23
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:43
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:58
-msgid "The turtle drew fewer than 2 shapes. Make sure your function is repeatable."
-msgstr ""
+msgid ""
+"The turtle drew fewer than 2 shapes. Make sure your function is repeatable."
+msgstr "رسمت السلحفاة أقل من شكلين. تأكد من أن دالتك قابلة لإعادة التكرار."
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:23
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:23
@@ -2200,174 +2567,246 @@ msgstr ""
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:25
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:45
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:60
-msgid "The turtle drew more than 2 shapes. Make sure your function only draws one shape."
-msgstr ""
+msgid ""
+"The turtle drew more than 2 shapes. Make sure your function only draws one "
+"shape."
+msgstr "رسمت السلحفاة أكثر من شكلين. تأكد من أن دالتك ترسم شكلاً واحدًا فقط."
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:28
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:28
-msgid "The drawn shape has too few points. Did you call move_forward() less than 2 times?"
+msgid ""
+"The drawn shape has too few points. Did you call move_forward() less than 2 "
+"times?"
 msgstr ""
+"الشكل المرسوم يحتوي على نقاط قليلة جدًا. هل استدعيت move_forward() أقل من "
+"مرتين؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:30
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:30
-msgid "The drawn shape has too many points. Did you call move_forward() more than 2 times?"
+msgid ""
+"The drawn shape has too many points. Did you call move_forward() more than 2"
+" times?"
 msgstr ""
+"الشكل المرسوم يحتوي على نقاط كثيرة جدًا. هل استدعيت move_forward() أكثر من "
+"مرتين؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners/TestsDrawingCorners.gd:32
-msgid "The drawn shape doesn't have the expected size. Did you use the length parameter?"
-msgstr ""
+msgid ""
+"The drawn shape doesn't have the expected size. Did you use the length "
+"parameter?"
+msgstr "الشكل المرسوم ليس بالحجم المتوقع. هل استخدمت المعامل length؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:14
 msgid "Draw Corners Of Varying Sizes And Angles"
-msgstr ""
+msgstr "رسم زوايا بأحجام وزوايا متغيرة"
 
 #: course/lesson-6-multiple-function-parameters/drawing_corners_advanced/TestsDrawingCornersAdvanced.gd:32
-msgid "The drawn corner doesn't match the expected corner. Are you not using the angle parameter in your code?"
+msgid ""
+"The drawn corner doesn't match the expected corner. Are you not using the "
+"angle parameter in your code?"
 msgstr ""
+"الزاوية المرسومة لا تطابق الزاوية المتوقعة. ألا تستخدم المعامل angle في "
+"شيفرتك البرمجية؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_rectangles/TestsDrawingRectangles.gd:18
 msgid "Draw Rectangles Of Varying Sizes"
-msgstr ""
+msgstr "رسم مستطيلات بأحجام متغيرة"
 
 #: course/lesson-6-multiple-function-parameters/drawing_rectangles/TestsDrawingRectangles.gd:32
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:68
-msgid "The drawn shape has too few points. Did you call move_forward() less than 4 times?"
+msgid ""
+"The drawn shape has too few points. Did you call move_forward() less than 4 "
+"times?"
 msgstr ""
+"الشكل المرسوم يحتوي على نقاط قليلة جدًا. هل استدعيت move_forward() أقل من 4 "
+"مرات؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_rectangles/TestsDrawingRectangles.gd:34
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:64
-msgid "The drawn shape has too many points. Did you call move_forward() more than 4 times?"
+msgid ""
+"The drawn shape has too many points. Did you call move_forward() more than 4"
+" times?"
 msgstr ""
+"الشكل المرسوم يحتوي على نقاط كثيرة جدًا. هل استدعيت move_forward() أكثر من 4"
+" مرات؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_rectangles/TestsDrawingRectangles.gd:37
-msgid "The length and height are inverted. Did you swap the length and height function arguments?"
-msgstr ""
+msgid ""
+"The length and height are inverted. Did you swap the length and height "
+"function arguments?"
+msgstr "الطول والارتفاع معكوسان. هل قمت بتبديل وسائط الدالة للطول والارتفاع؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_rectangles/TestsDrawingRectangles.gd:39
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:31
-msgid "The drawn shapes don't have the expected length and height. Did you forget to use the length and height parameter?"
+msgid ""
+"The drawn shapes don't have the expected length and height. Did you forget "
+"to use the length and height parameter?"
 msgstr ""
+"الأشكال المرسومة ليست بالطول والارتفاع المتوقعين. هل نسيت استخدام المعاملين "
+"length وheight؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:14
 msgid "Turtle Ends Facing Towards The Right"
-msgstr ""
+msgstr "السلحفاة تنتهي متجهة نحو اليمين"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:15
 msgid "Turtle Starts Each Square Facing Towards The Right"
-msgstr ""
+msgstr "السلحفاة تبدأ كل مربع وهي متجهة نحو اليمين"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:16
 msgid "Draw Squares Of Varying Sizes"
-msgstr ""
+msgstr "رسم مربعات بأحجام متغيرة"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:35
-msgid "The turtle should turn four times to draw a square so that it always starts drawing the squares in the same direction. Did you call turn_right() four times?"
+msgid ""
+"The turtle should turn four times to draw a square so that it always starts "
+"drawing the squares in the same direction. Did you call turn_right() four "
+"times?"
 msgstr ""
+"يجب أن تدور السلحفاة أربع مرات لرسم مربع حتى تبدأ دائمًا برسم المربعات في "
+"نفس الاتجاه. هل استدعيت turn_right() أربع مرات؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:48
-msgid "The turtle should be facing towards the right to draw squares in the same direction every time. Did you call turn_right(90) four times in your function?"
+msgid ""
+"The turtle should be facing towards the right to draw squares in the same "
+"direction every time. Did you call turn_right(90) four times in your "
+"function?"
 msgstr ""
+"يجب أن تكون السلحفاة متجهة نحو اليمين لرسم المربعات في نفس الاتجاه في كل "
+"مرة. هل استدعيت turn_right(90) أربع مرات في دالتك؟"
 
 #: course/lesson-6-multiple-function-parameters/drawing_squares/TestsDrawingSquares.gd:72
-msgid "The shape is not a square or not turned in the expected direction. Did you use 90 degree angles when calling turn_right()?"
+msgid ""
+"The shape is not a square or not turned in the expected direction. Did you "
+"use 90 degree angles when calling turn_right()?"
 msgstr ""
+"الشكل ليس مربعًا أو لم يتم تدويره في الاتجاه المتوقع. هل استخدمت زاوية 90 "
+"درجة عند استدعاء turn_right()؟"
 
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:11
 msgid "Rectangle Starts At 120 By 100"
-msgstr ""
+msgstr "المستطيل يبدأ عند 120 في 100"
 
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:12
 msgid "Rectangle Size Is 200 By 120"
-msgstr ""
+msgstr "حجم المستطيل هو 200 في 120"
 
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:17
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:29
-msgid "We didn't find any drawn rectangles. Did you forget to call draw_rectangle()?"
-msgstr ""
+msgid ""
+"We didn't find any drawn rectangles. Did you forget to call "
+"draw_rectangle()?"
+msgstr "لم نجد أي مستطيل مرسوم. هل نسيت استدعاء draw_rectangle()؟"
 
 #: course/lesson-7-member-variables/draw_rectangle_at_position/TestsDrawingRectangles.gd:23
-msgid "The rectangle doesn't start at position (120, 100). Did you not set the position right?"
+msgid ""
+"The rectangle doesn't start at position (120, 100). Did you not set the "
+"position right?"
 msgstr ""
+"المستطيل لا يبدأ عند الموضع (120, 100). ألم تضبط الموضع بالشكل الصحيح؟"
 
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:42
 msgid "First Shape Is At 100 By 100"
-msgstr ""
+msgstr "الشكل الأول عند 100 في 100"
 
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:64
 msgid "No shape drawn. Did you forget to call draw_rectangle()?"
-msgstr ""
+msgstr "لم يتم رسم أي شكل. هل نسيت استدعاء draw_rectangle()؟"
 
 #: course/lesson-7-member-variables/draw_rectangles_at_positions/TestsDrawingRectangles.gd:67
-msgid "The first square should be drawn at (100, 100). Instead, you drew it at %s."
-msgstr ""
+msgid ""
+"The first square should be drawn at (100, 100). Instead, you drew it at %s."
+msgstr "يجب رسم المربع الأول عند (100, 100). بدلاً من ذلك، قمت برسمه عند %s."
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:15
 msgid "Has Health Variable"
-msgstr ""
+msgstr "يحتوي على متغير نقاط الصحة"
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:16
 msgid "Health Has Value Of 100"
-msgstr ""
+msgstr "نقاط الصحة لها القيمة 100"
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:21
-msgid "The health variable doesn't exist. Did you define it with the var keyword?"
+msgid ""
+"The health variable doesn't exist. Did you define it with the var keyword?"
 msgstr ""
+"متغير نقاط الصحة health غير موجود. هل قمت بتعريفه باستخدام الكلمة المفتاحية "
+"var؟"
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:27
 msgid "Health variable doesn't exist, can't test if it has a value of 100."
-msgstr ""
+msgstr "متغير نقاط الصحة غير موجود، لا يمكن اختبار ما إذا كانت قيمته 100."
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:31
-msgid "Health's value is a text string. It should be a number. You need to remove quotes around the value."
+msgid ""
+"Health's value is a text string. It should be a number. You need to remove "
+"quotes around the value."
 msgstr ""
+"قيمة نقاط الصحة هي سلسلة نصية. ويجب أن تكون رقمًا. تحتاج إلى إزالة علامات "
+"التنصيص المحيطة بالقيمة."
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:33
 msgid "Health's value should be a whole number. Instead it's a %s."
-msgstr ""
+msgstr "يجب أن تكون قيمة نقاط الصحة عددًا صحيحًا. لكنها %s بدلاً من ذلك."
 
 #: course/lesson-8-defining-variables/define-health-variable/TestHasHealthVar.gd:36
 msgid "Health variable's value is %s; It should be 100."
-msgstr ""
+msgstr "قيمة متغير نقاط الصحة هي %s؛ ويجب أن تكون 100."
 
 #: course/lesson-9-adding-and-subtracting/healing/TestHealingRobot.gd:11
 msgid "Robot Heals The Right Amount"
-msgstr ""
+msgstr "الروبوت يشفى بالمقدار الصحيح"
 
 #: course/lesson-9-adding-and-subtracting/healing/TestHealingRobot.gd:12
 msgid "Heal Function Uses Addition"
-msgstr ""
+msgstr "دالة الشفاء تستخدم الجمع"
 
 #: course/lesson-9-adding-and-subtracting/healing/TestHealingRobot.gd:17
-msgid "The robot's health decreased instead of increasing. Did you add the amount to health?"
+msgid ""
+"The robot's health decreased instead of increasing. Did you add the amount "
+"to health?"
 msgstr ""
+"انخفضت نقاط صحة الروبوت بدلاً من أن تزيد. هل أضفت المقدار amount إلى نقاط "
+"الصحة health؟"
 
 #: course/lesson-9-adding-and-subtracting/healing/TestHealingRobot.gd:20
-msgid "The robot didn't heal as expected. It has %s, but it should have 100 health."
+msgid ""
+"The robot didn't heal as expected. It has %s, but it should have 100 health."
 msgstr ""
+"لم يتم شفاء الروبوت كما هو متوقع. لديه %s، ولكن يجب أن تكون لديه 100 نقطة "
+"صحة."
 
 #: course/lesson-9-adding-and-subtracting/healing/TestHealingRobot.gd:29
 msgid "It doesn't look like you're adding anything to health."
-msgstr ""
+msgstr "لا يبدو أنك تضيف أي شيء إلى نقاط الصحة."
 
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:13
 msgid "Robot Takes The Right Amount Of Damage"
-msgstr ""
+msgstr "الروبوت يتلقى المقدار الصحيح من الضرر"
 
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:14
 msgid "Subtract Amount From Health"
-msgstr ""
+msgstr "طرح المقدار من نقاط الصحة"
 
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:19
-msgid "The health goes above 100 when we damage the robot. Did you subract amount from health?"
+msgid ""
+"The health goes above 100 when we damage the robot. Did you subract amount "
+"from health?"
 msgstr ""
+"ترتفع نقاط الصحة إلى ما فوق 100 عندما نلحق الضرر بالروبوت. هل قمت بطرح "
+"المقدار amount من نقاط الصحة health؟"
 
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:22
-msgid "The robot didn't take as much damage as expected. It has %s health, but it should have 50 health after taking damage."
+msgid ""
+"The robot didn't take as much damage as expected. It has %s health, but it "
+"should have 50 health after taking damage."
 msgstr ""
+"لم يتلقَّ الروبوت قدر الضرر المتوقع. لديه %s من نقاط الصحة، ولكن يجب أن تكون"
+" لديه 50 نقطة صحة بعد تلقي الضرر."
 
 #: course/lesson-9-adding-and-subtracting/taking-damage/TestDamagingRobot.gd:51
 msgid "It doesn't look like you're subtracting amount from health."
-msgstr ""
+msgstr "لا يبدو أنك تطرح المقدار من نقاط الصحة."
 
 #: ui/UILesson.gd:306
 msgid "Learn More"
@@ -2378,12 +2817,16 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
 
 #: ui/UILesson.gd:399
 msgid ""
 "\n"
 "[hr]\n"
 msgstr ""
+"\n"
+"[hr]\n"
 
 #: ui/UINavigator.gd:434
 msgid "(no previous history)"
@@ -2395,29 +2838,34 @@ msgstr "تلميح %s"
 
 #: ui/UIPractice.gd:321
 msgid "Validating Your Code..."
-msgstr "جاري التحقق من صحة الكود الخاص بك..."
+msgstr "جاري التحقق من صحة شيفرتك..."
 
 #: ui/UIPractice.gd:372
-#, fuzzy
 msgid "The function '%s' calls itself, this creates an infinite loop"
-msgstr "%s تستدعي نفسها مرارًا، وهذا يسبب حلقة لا نهائية"
+msgstr "الدالة '%s' تستدعي نفسها، وهذا ينشئ حلقة تكرار لا نهائية"
 
 #: ui/UIPractice.gd:383
-#, fuzzy
-msgid "You have a loop that runs forever without a break statement. This would freeze the app."
-msgstr "لديك حلقة while تكرارية تعمل إلى الأبد (while true) دون جملة كسر break. وهذا سيؤدي إلى تجميد التطبيق."
+msgid ""
+"You have a loop that runs forever without a break statement. This would "
+"freeze the app."
+msgstr ""
+"لديك حلقة تكرار تعمل إلى الأبد دون عبارة break. سيؤدي هذا إلى تجميد التطبيق."
 
 #: ui/UIPractice.gd:426
 msgid "You typed \"%s\"; did you mean \"%s\"?"
-msgstr ""
+msgstr "لقد كتبت \"%s\"؛ هل كنت تقصد \"%s\"؟"
 
 #: ui/UIPractice.gd:443
 msgid "Running Your Code..."
-msgstr "يتم تشغيل الكود الخاص بك..."
+msgstr "يتم تشغيل شيفرتك..."
 
 #: ui/UIPractice.gd:455
-msgid "There is a division by zero in your code. You cannot divide by zero in code. Please ensure you have no \"/ 0\" or \"% 0\" in your code."
-msgstr "يوجد قسمة على صفر في الكود الخاص بك. لا يمكنك القسمة على صفر في الكود. تأكد من عدم وجود \"/ 0\" أو \"% 0\" في الكود."
+msgid ""
+"There is a division by zero in your code. You cannot divide by zero in code."
+" Please ensure you have no \"/ 0\" or \"% 0\" in your code."
+msgstr ""
+"يوجد قسمة على صفر في شيفرتك. لا يمكنك القسمة على صفر في الشيفرة البرمجية. "
+"تأكد من عدم وجود \"/ 0\" أو \"% 0\" في شيفرتك."
 
 #: ui/UIPractice.gd:601
 msgid "Running Tests..."
@@ -2425,33 +2873,51 @@ msgstr "الاختبارات قيد التشغيل الآن..."
 
 #: ui/components/BreadCrumbs.gd:66
 msgid " > "
-msgstr ""
+msgstr " > "
 
 #: ui/components/popups/ReportFormPopup.gd:55
-msgid "Select the kind of issue and describe it in the box below, then click \"Send report\" to open the contact page on our website with the report prefilled."
+msgid ""
+"Select the kind of issue and describe it in the box below, then click \"Send"
+" report\" to open the contact page on our website with the report prefilled."
 msgstr ""
+"حدد نوع المشكلة وصفها في المربع أدناه، ثم انقر فوق \"إرسال البلاغ\" لفتح "
+"صفحة التواصل على موقعنا مع تعبئة البلاغ مسبقًا."
 
 #: ui/components/popups/ReportFormPopup.gd:59
-msgid "For questions and help with learning, [url=%s]join the community on Discord[/url]."
+msgid ""
+"For questions and help with learning, [url=%s]join the community on "
+"Discord[/url]."
 msgstr ""
+"لطرح الأسئلة والحصول على مساعدة في التعلم، [url=%s]انضم إلى المجتمع على "
+"Discord[/url]."
 
 #: ui/components/popups/ReportFormPopup.gd:135
-msgid "Translations are unofficial and maintained by the community. If you'd like to help, [url=https://github.com/GDQuest/learn-gdscript-translations/#readme]learn how to help translate the app[/url]."
+msgid ""
+"Translations are unofficial and maintained by the community. If you'd like "
+"to help, [url=https://github.com/GDQuest/learn-gdscript-"
+"translations/#readme]learn how to help translate the app[/url]."
 msgstr ""
+"الترجمات غير رسمية ويتولى صيانتها المجتمع. إذا كنت ترغب في المساعدة، "
+"[url=https://github.com/GDQuest/learn-gdscript-translations/#readme]تعرف على"
+" كيفية المساعدة في ترجمة التطبيق[/url]."
 
 #: ui/components/popups/SettingsPopup.gd:147
-msgid "{percentage}% of text translated. {completed}/{total} lessons fully translated."
+msgid ""
+"{percentage}% of text translated. {completed}/{total} lessons fully "
+"translated."
 msgstr ""
+"تمت ترجمة {percentage}% من النصوص. تم الانتهاء من ترجمة {completed}/{total} "
+"من الدروس بالكامل."
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:73
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:86
 #: ui/screens/course_outliner/CourseLessonDetails.gd:115
 #: ui/screens/course_outliner/CourseLessonDetails.gd:117
 msgid "Open Anyway"
-msgstr ""
+msgstr "الفتح على أي حال"
 
 #: ui/screens/course_outliner/CourseLessonDetails.gd:114
 msgid "Open Lesson"
@@ -2462,8 +2928,12 @@ msgid "Continue Lesson"
 msgstr "تابع الدرس"
 
 #: ui/screens/course_outliner/CourseLessonList.gd:33
-msgid "This course is {percentage}% translated. Incomplete lessons will contain English text."
+msgid ""
+"This course is {percentage}% translated. Incomplete lessons will contain "
+"English text."
 msgstr ""
+"تمت ترجمة {percentage}% من هذه الدورة. ستحتوي الدروس غير المكتملة على نصوص "
+"باللغة الإنجليزية."
 
 #: ui/screens/lesson/quizzes/UIQuizChoice.gd:28
 msgid "(select all that apply)"
@@ -2474,8 +2944,12 @@ msgid "You need to type a whole number for this answer. Example: 42"
 msgstr "يجب عليك كتابة عدد صحيح للإجابة. مثال: 42"
 
 #: ui/screens/lesson/quizzes/UIQuizInputField.gd:35
-msgid "You need to type a decimal for this answer. Use a \".\" to separate the decimal part. Example: 3.14"
-msgstr "يجب كتابة عدد عشري لهذه الإجابة. استخدم علامة \".\" لفصل الجزء العشري. مثال: 3.14"
+msgid ""
+"You need to type a decimal for this answer. Use a \".\" to separate the "
+"decimal part. Example: 3.14"
+msgstr ""
+"يجب كتابة عدد عشري لهذه الإجابة. استخدم علامة \".\" لفصل الجزء العشري. مثال:"
+" 3.14"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:145
 msgid "Method descriptions"
@@ -2486,22 +2960,23 @@ msgid "Property descriptions"
 msgstr "وصف الخصائص"
 
 #: ui/screens/practice/PracticeInfoPanel.gd:189
-#, fuzzy
 msgid "You've completed this practice before."
-msgstr "لقد أكملت التمرين."
+msgstr "لقد أكملت هذا التمرين من قبل."
 
 #: ui/screens/practice/PracticeInfoPanel.gd:193
 msgid ""
 "You've used the provided solution.\n"
 "This practice will not count towards your course progress."
 msgstr ""
+"لقد استخدمت الحل المقدم.\n"
+"لن يُحسب هذا التمرين ضمن تقدمك في الدورة."
 
 #: ui/screens/welcome_screen/WelcomeScreen.gd:52
 msgid "CONTINUE"
 msgstr "يكمل"
 
 msgid "Learn to Code From Zero with Godot"
-msgstr ""
+msgstr "تعلّم البرمجة من الصفر باستخدام Godot"
 
 #, fuzzy
 #~ msgid ""
