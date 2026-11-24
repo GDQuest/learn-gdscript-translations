@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Learn GDScript From Zero\n"
 "Report-Msgid-Bugs-To: https://github.com/GDQuest/learn-gdscript\n"
 "POT-Creation-Date: 2026-01-21 11:55+0100\n"
-"PO-Revision-Date: 2026-09-29 14:53+0000\n"
-"Last-Translator: maxxxlirum <meganeko2005@gmail.com>\n"
+"PO-Revision-Date: 2026-11-23 06:51+0000\n"
+"Last-Translator: Никита Антонов <nikita.alekseevich.ru@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/learn-gdscript-from-zero/course/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Weblate 2026.10.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #. TRANSLATORS: Lesson header
 #: course/lesson-1-what-code-is-like/lesson.bbcode:1
@@ -3686,11 +3686,10 @@ msgstr "Чтобы проверить твой код, я вызову функ�
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
-#, fuzzy
 msgid ""
 "[code]heal(40)[/code]\n"
 "[code]heal(40)[/code]"
-msgstr "[code]heal(40)[/code] [code]heal(40)[/code]"
+msgstr ""
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:149
@@ -3727,7 +3726,7 @@ msgstr "Запрещаем здоровью опускаться ниже нул
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
 msgid "We want to display the health number on screen, like in many RPGs. But currently, the health can go below 0, which does not make sense. We want to stop at [code]0[/code]."
-msgstr ""
+msgstr "Мы хотим отображать на экране количество здоровья, как во многих ролевых играх. Но сейчас здоровье может опускаться ниже нуля, что не имеет смысла. Мы хотим, чтобы оно останавливалось на [code]0[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
@@ -3737,11 +3736,12 @@ msgstr "Дополните функцию [code]take_damage()[/code] так, ч�
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
-#, fuzzy
 msgid ""
 "1. Subtract [code]amount[/code] from [code]health[/code].\n"
 "2. If [code]health[/code] is below [code]0[/code] after that, set it back to [code]0[/code]."
-msgstr "1. Вычтите [code]amount[/code] из [code]health[/code].n2. Если после этого [code]health[/code] станет меньше [code]0[/code], установите его обратно в [code]0[/code]."
+msgstr ""
+"1. Вычтите [code]amount[/code] из [code]health[/code].\n"
+"2. Если после этого [code]health[/code] станет меньше [code]0[/code], установите его обратно на [code]0[/code]."
 
 #. TRANSLATORS: Practice goal
 #: course/lesson-13-conditions/lesson.bbcode:178
